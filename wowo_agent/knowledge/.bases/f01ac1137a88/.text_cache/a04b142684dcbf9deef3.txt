@@ -1,0 +1,1800 @@
+Article https://doi.org/10.1038/s41467-025-59240-0
+Stretchable all-gel organic electrochemical
+transistors
+Linlin Lu, Xu Liu, Puzhong Gu, Zhenyu Hu, Xing Liang , Zhiying Deng, Zejun Sun,
+Xiaoyu Zhang , Xiao Yang, Jie Yang , Guoqing Zu &J i aH u a n g
+Stretchable organic electrochemical transistors (OECTs) are promising for
+ﬂexible electronics. However, the balance between stretchability and electrical
+properties is a great challenge for OECTs. Here, high-performance stretchable
+all-gel OECTs based on semiconducting polymer gel active layers and
+poly(ionic liquid) ionogel electrolytes are developed. The all-gel network
+structures effectively promote ion penetration/transport and endows the
+OECTs with high stretchability. The resulting OECTs exhibit an excellent
+combination of ultra-high transconductance of 86.4 mS, on/off ratio of
+1.2 × 10
+5, stretchability up to 50%, and high stretching stability up to 10000
+cycles under 30% strain. We demonstrate that the all-gel OECTs can be used as
+stretchable pressure-sensitive electronic skins with a low detection limit for
+tactile perception of robotic hands.In addition, the all-gel OECTs can be
+applied as stretchable artiﬁcial synapses for neuromorphic simulation and
+highly sensitive stretchable gas sensors for simulating olfactory perception
+process and monitoring food quality. This work provides a general all-gel
+strategy toward high-performanceﬂexible electronics.
+With the continuous development of electronic technology, stretch-
+able and wearable electronics are urgently needed to meet the
+increasing demand for electronic skins, soft robots, human-machine
+interfaces, and biomedical monitoring
+1–3. Stretchable organic electro-
+chemical transistors (OECTs), as an emerging electronic component,
+has attracted extensive attention due to their unique properties and
+promising applications in ﬂexible electronics, biosensors, chemical
+sensors, and neuromorphic systems4,5. The stretchable nature of the
+stretchable OECTs allows them to operate under extreme deformation
+conditions, making them suitable for wearable and conformal devices
+that require large deformations. The emergence of this technology not
+only promotes the innovation of electronic device design, but also
+offers possibilities for the development of ﬂexible electronics and
+biosensors. However, current OECTs face the following challenges in
+practical applications. On one hand, the reported stretchable
+OECTs show limited transconductance, resulting in relatively low
+ampliﬁcation capability and limited electrochemical performances.
+On the other hand, the reported OECTs that demonstrate high
+transconductance often suffer from poor stretchability and low fatigue
+resistance against stretching. It is a great challenge to achieve OECTs
+combining both high stretchability and excellent electrical properties
+such as high transconductance.
+Many efforts have been made to enhance the stretchability of
+OECTs
+6–17. For example, the reported OECT with a folded PDMS sub-
+strate can withstand 10% tensile strain and 400 stretch-release cycles7.
+The reported OECT based on a three-dimensional poly(3-hex-
+ylthiophene) (P3HT)/styrene-ethylene-butylene-styrene (SEBS) blend
+porous ﬁlm exhibits a stretchability of 30% and a peak transconduc-
+tance ( g
+m,max) below 6 mS 8. Facchetti et al. reported stretchable
+(30‒140% strain) OECTs with agm,max in the range of 1.5‒3m Sb a s e do n
+a semiconducting polymer ﬁlm with a honeycomb porous micro-
+structure achieved by a pre-stretching method combined with a breath
+ﬁgure tachnique
+10. Besides, stretchable (∼30%) OECTs with a gm,max of
+22.5 mS based on poly(3,4 ‑ethylenedioxythiophene): poly(styrene
+sulfonate) (PEDOT:PSS) can be achieved by an inkjet printing method,
+but the cyclic stability was not mentioned 11. While there are many
+Received: 2 November 2024
+Accepted: 16 April 2025
+Published online: 23 April 2025
+Check for updates
+Interdisciplinary Materials Research Center, Department of Polymeric Materials, School of Materials Science and Engineering, Tongji University, Shanghai, PR
+China. e-mail: yangj@tongji.edu.cn; guoqingzu@tongji.edu.cn; huangjia@tongji.edu.cn
+Nature Communications| (2025)16:3831 1
+1234567890():,;
+1234567890():,;
+
+reports on stretchable OECTs, they usually sacri ﬁce the electrical
+performances such as transconductance. The transconductance of the
+previously reported state-of-the-art stretchable OECTs is usually lower
+than 5‒20 mS. Therefore, the development of stretchable OECTs with
+superior electrical properties is urgently needed and represents one of
+the cutting-edge research areas of OECTs.
+In recent years, OECTs based on ionic gel electrolyte are emerging
+as a promising research direction in theﬁeld of transistors due to their
+superior ionic conductivity, good biocompatibility, and highﬂexibility
+of ionic gels
+18–26. The high stretchability of ionic gels can meet the
+mechanical demands of stretchable OECTs and the three-dimensional
+network structure of these gels can accommodate a large amount of
+water and solvent, which can lead to high ion transport efﬁciency, thus
+improving the electrochemical performance of OECTs
+20.F u r t h e r m o r e ,
+the use of ionic gel electrolyte not only avoids the leakage issues
+associated with traditional liquid electrolytes but also improves the
+stability and usability of the devices 25. Besides, the interface layers
+based on ionic gels composed of poly(vinyliﬂon-hexaﬂuoropropylene)
+and ionic liquid can improve the ion transport properties of hydro-
+phobic conjugated polymers, which effectively enhances the electro-
+chemical performance of OECTs
+27. The electrochemical performance
+of OECTs can be enhanced by constructing semiconducting polymer
+gel active layers with both high ion and charge transport properties.
+There is one report on rigid OECTs with PEDOT:PSS-based gels as
+active layers and aqueous solution containing ions as electrolyte. The
+resulting OECTs exhibit ag
+m,max of ∼40 mS and an on/off ratio of 103 28.
+Besides, Lei et al. developed single- and multi-network n-type semi-
+conductor polymer hydrogels with good electron mobility and OECTs
+b a s e do nt h eh y d r o g e l sw i t hag
+m,max of ∼3m S 23.B u tt h er e p o r t e d
+OECTs based on gel active layers in the above two works are not
+stretchable. Recently, Wang et al. reported stretchable semiconduct-
+ing hydrogel-based OECTs with high conformability and immune
+compatibility
+29. The obtained OECTs exhibit a charge carrier mobility
+(μ)o f1 . 4c m−2 V−1 s−1 and a gm,max of ∼4 mS. Inspired by these works, the
+electrochemical performance of stretchable OECTs may be further
+enhanced by constructing all-gel OECTs withﬂexible semiconducting
+polymer gel and ionic gel as active layer and electrolyte, respectively.
+However, stretchable all-gel OECTs with gels as both the electrolyte
+and active layer are rarely reported.
+OECTs with good ampliﬁcation capability show promising appli-
+cations in pressure sensing
+24,30–32 and gas sensing33–35. For example, the
+OECTs with a microstructured gate can regulate the ion transport by
+changing the contact area between gate and active layer, which can
+afford pressure sensors with a detection limit of ∼10 Pa
+31. Similarly,
+OECT-based pressure sensors with a detection limit of 1.1 Pa can be
+obtained by using a pyramid-microstructured gel as the electrolyte
+layer and a P3HT ﬁlm as the active layer
+32. The detection limit of the
+OECT-based pressure sensors may be further decreased by enhancing
+the transconductance of OECTs and optimizing the structures of the
+devices. Additionally, OECTs with high transconductance are suitable
+for highly sensitive gas sensing applications. OECTs with ionic liquids
+as electrolytes can detect gases such as NH
+3,N O 2,H 2S, and SO 2
+because ionic liquid can adsorb these gases and ion transport will be
+changed after gas adsorption
+33–37. Stretchable gas sensors show pro-
+mising applications in wearable electronics and ﬂexible bionic olfac-
+tory system. However, highly sensitive stretchable OECT-based gas
+sensors are rarely reported.
+Herein, we report highly stretchable OECTs —all-gel OECTs in
+which both the active layer and electrolyte are gels. A double-network
+semiconducting polymer gel consisting of PEDOT:PSS and poly-
+acrylamide (PAM) and a poly(ionic liquid) (PIL) ionogel are used as the
+active layer and electrolyte of the OECTs, respectively. The ﬂexible
+network structures of the semiconducting polymer gel active layers
+and ionogel electrolytes allow the resulting OECTs to reach a good
+stretchability up to 50%. More importantly, the all-gel network
+structures effectively promote ion penetration and transport, which
+endows the OECTs with a high transconductance of 86.4 mS, on/off
+ratio of 1.2 × 10
+5, μCs (Cs is areal capacitance) of 7118.6μFV −1 s−1,a n dμ
+of 5.7 cm−2 V−1 s−1.B e n eﬁting from their unique structures and excellent
+mechanical/electrical properties, the all-gel OECTs can be used as
+pressure-sensitive stretchable electronic skins, stretchable arti ﬁcial
+synapses, and highly sensitive stretchable olfactory-inspired gas sen-
+sors for NH
+3 detection. This work provides a versatile strategy toward
+high-performance stretchable all-gel OECTs promising for next-
+generation high-performanceﬂexible electronics.
+Results
+Preparation
+PEDOT:PSS is a widely used semiconducting polymer with excellent
+electrochemical properties and high stability. Therefore, PEDOT:PSS is
+used as one of the semiconductors to prepare semiconducting poly-
+mer gel active layer of the all-gel OECTs. Besides, ionic liquid can be
+used as electrolyte of high-performance OECTs because of its high
+ionic conductivity and high environmental stability. Hence, PIL ionogel
+is chosen as the electrolyte of the all-gel OECTs. PEDOT-based gels and
+PIL ionogels can be obtained via different methods in the literature
+38,39.
+The PEDOT:PSS/PAM organohydrogel ﬁlms with a double-network
+structure were prepared by radical polymerization of the monomer
+acrylamide (AM) at the presence of a crosslinker and co-assembly of
+PEDOT:PSS and PAM (Fig. 1a and Supplementary Fig. 1). The PEDOT-
+based gel ﬁlm is spin-coated between source and drain electrodes
+composed of Au and Ag on the polyurethane (PU) substrate to afford
+an active layer of the OECT. Glycerol was introduced as part of the
+solvent to ensure the environmental stability of the gel active layer.
+N,N′-methylenebisacrylamide (MBA) and ammonium persulfate (APS)
+are used as the crosslinker and thermal initiator in the system,
+respectively. Semiconducting polymer gels with different PEDOT:PSS
+contents in the range of 0.21 –0.75% were prepared for comparison.
+PEDOT:PSS is difﬁcult to be dispersed homogeneously when its con-
+tent is higher than 0.75%. Therefore, the highest PEDOT:PSS content
+used in this work is 0.75%. To demonstrate the versatility of the all-gel
+strategy, all-gel OECTs based on p-type poly (2,5-bis (3-triethylene
+glycol ethoxy thiophene-2-yl)-co-thiophene) (p(g2T-TT)) and n-type
+poly(benzimidazobenzophenanthroline) (BBL) were also fabricated.
+The semiconducting polymer gels based on p(g2T-TT) or BBL were
+prepared by radical polymerization of AM at the presence of p(g2T-TT)
+or BBL.
+The PIL ionogel electrolyte was prepared by radical polymeriza-
+tion of the monomer 1-vinyl-3-butylimidazolium tetra ﬂuoroborate
+([VBIm][BF
+4]) at the presence of a crosslinker (MBA), combined with a
+spin-coating method (Fig. 1a and Supplementary Fig. 1). Tris (2-
+hydroxyethyl) methylammonium methylsulfate ([THMA][MeSO4]) is
+used as the solvent and provides free ions, while 2-hydroxy-4 ′-(2-
+hydroxyethoxy)-2-methylpropiophenone (I-2959) is applied as the
+photoinitiator in the system. All-gel OECT is obtained after the PIL
+ionogel electrolyte is spin-coated on the gate and semiconducting
+polymer gel.
+The thickness of the semiconducting polymer gel active layer can
+be adjusted by varying the spin-coating speed in the range of
+500–3 0 0 0 r p m .T h et h i c k n e s s e so ft h eP E D O T : P S S - b a s e dg e la c t i v e
+layers formed at 500, 1000, 2000, and 3000 rpm are ~267μm, 4.4 μm,
+1.8 μm, and 590 nm, respectively (Supplementary Fig. 2).
+Structures and properties of the gels
+As shown in the Fourier transform infrared (FTIR) spectra (Supple-
+mentary Fig. 3), the peaks of the PED OT:PSS-based gel at 1448, 1349,
+and 1650 cm−1 are ascribed to the bending of C–H bonds, the stretching
+of C –C bonds in thiophene ring, and the stretching of C=O bonds,
+respectively, which are mainly attributed to the presence of PED-
+OT:PSS and PAM
+40,41. The peaks at 1178, 1008, and 1045 cm −1 are
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 2
+
+ascribed to the stretching of C –O–C bonds, which are mainly attrib-
+uted to the presence of PEDOT:PSS 42. As the content of PEDOT:PSS
+decreases, the intensity of the peaks corresponding to the stretching
+of C–O–C bonds gradually becomes weaker.
+The chemical structure of the gels is further characterized by
+X-ray photoelectron spectra (XPS). As shown in Supplementary Fig. 4,
+the peaks at 531, 399, 284, and 168 eV correspond to O 1s,N1 s,C1 s,a n d
+S2 p, respectively. The S 2p peaks of the PEDOT:PSS-based gel at 167.6
+and 168.7 eV are ascribed to PSS/APS, while the S 2p peaks at 164.6 and
+163.4 eV are attributed to PEDOT
+43,44. With the decrease of PEDOT:PSS
+content, the intensity of the peak corresponding to PEDOT gradually
+becomes weaker. There is no PEDOT peak observed in the S 2 p spec-
+trum of the PAM gel without the incorporation of PEDOT. As shown in
+Supplementary Fig. 5, the O 1 s peak of the semiconducting polymer
+gels at 533.2 eV is ascribed to C –O–Cb o n d sa n dt h eC1 s peak at
+286.2 eV is ascribed to C –O/C–S bonds
+45, the intensity of which
+increases with the increase of PEDOT:PSS content in the gels.
+Besides, the stretchability of the semiconducting polymer gels
+and PIL ionogels as well as their electrical properties upon stretching
+are investigated. The PEDOT:PSS-based gel and PIL iongels can be
+stretched at least 200% and 400%, respectively, without fracture,
+indicating the high stretchability of these two kinds of gels (Supple-
+mentary Fig. 6 and Supplementary Movies 1–4). They can recover their
+original shapes after stretching with 100% strain, indicating the high
+elasticity of the gels (Supplementary Figs. 7, 8 and Movies 5, 6). As
+shown in Supplementary Figs. 9 and 10, the elongations at break of the
+PEDOT:PSS-based gel and PIL iongels are 225% and 415%, respectively.
+Both of the gels can recover nearly their original shapes after stretch-
+release with 100% strain for 200 cycles, conﬁrming the high stretching
+stability. The electrical resistance of the gels increases with the
+increase of tensile strain, and the resistance variation remains rela-
+tively stable during stretch-release for 200 cycles. The relative resis-
+tance change of the PEDOT:PSS-based gel active layer is ~55% when it is
+stretched with a large strain of 50%.
+The compressibility of these two kinds of gels and their electrical
+properties upon compression are also studied (Supplementary
+Figs. 11 and 12). Both of the gels can be compressed 80% without
+fracture and spring back to their original sizes after they are released,
+PEDOT:PSS
+[THMA][MeSO4]
+Glycerol
+MBA
+APS
+[VBIm][BF4]
+I-2959MBA
+AM
+PAM PIL
+Axon terminals
+Neurotransmitter
+Transmitter 
+receptor
+Synapse
+Dendrite
+Axon
+EPSC
+Stimulus
+Human skin
+Tactile sensing
+a
+b
+Olfactory 
+cells
+Olfactory 
+receptor
+Stimuli
+Gas sensing
+Gel active layer Gel electrolyte
+Spin-coating Spin-coating
+Sol-gel
+60 °C ,3 0  m i n
+Sol-gel
+UV lightPU
+Au/Ag
+All-gel OECT
+AM [VBIm][BF4]
+Fig. 1 | Fabrication and applications of all-gel OECTs. a Fabrication of all-gel
+OECTs. b Schematic of applications of all-gel OECTs in tactile sensing, artiﬁcial
+synapses, and gas sensing. Schematic of neuron (left), synapse (left), human body
+and skin is created in BioRender. Lu, L. (2025) https://BioRender.com/ebbqkgl;
+https://BioRender.com/s8iepco; https://BioRender.com/r7aljeo.
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 3
+
+indicating the high compressibility and elasticity of the gels. They can
+recover their original shapes after compression-decompression with
+50% strain for 200 cycles, indicating the high compression stability.
+The electrical resistance of the gels decreases with the increase of
+compressive strain, and the resistance variation is relatively stable
+during compression-decompression with 50% strain for 200 cycles.
+The electrical conductivity of the semiconducting polymer gels
+increases with the increase of PEDOT:PSS contents (Supplementary
+Fig. 13). The PEDOT:PSS-based gel with a PEDOT:PSS content of 0.75%
+exhibits a high electrical conductivity of 53 S/cm. The all-gel OECTs
+based on the semiconducting polymer gels and PIL ionogels are
+expected to have high stretchability and show potential applications in
+stretchable pressure-sensitive electronic skins, artiﬁcial synapses, and
+highly sensitive gas sensors (Fig. 1b).
+All-gel OECTs
+The effects of the semiconducting polymer gel active layer thickness
+and PEDOT:PSS content on electrical performance of the all-gel OECTs
+were investigated. As shown in the transfer and transconductance
+curves of the all-gel OECTs, the g
+m, max ﬁrst increases and then
+decreases with the increase of spin-coating speed (Fig.2a–d), and the
+corresponding output curves are presented in Supplementary Fig. 14.
+The g
+m, max of the all-gel OECT with a 1.8μm thick active layer reaches
+86.4 mS, higher than those with an active layer thickness of 267 μm
+(48.0 mS), 4.4μm (63.5 mS), and 590 nm (29.7 mS) (Fig.2e). The on/off
+ratios of the all-gel OECTs with different active layer thicknesses are in
+the range of 3.4 × 10
+4 to 1.2 × 105,c o nﬁrming the high on/off ratios. The
+probable reasons for the increase of transconductance with the
+decrease of thickness of the active layer in the range of 1.8–267 μma r e
+0
+20
+40
+60
+80
+100g xam,m )Sm(
+28 This
+work
+6.2 2.2
+44
+16 9.3 13.4
+52.7
+63.5
+20.5
+31.4 25 32.3
+86.4
+-1.0 -0.5 0.0 0.5 1.0 1.510-6
+10-5
+10-4
+10-3
+10-2
+10-1
+0%
+10%
+20%
+30%
+40%
+50%
+-1.0 -0.5 0.0 0.5 1.0 1.510-6
+10-5
+10-4
+10-3
+10-2
+10-1
+-ID )A(
+VG (V)
+0
+1
+10
+100
+1000
+10000
+-1.0 -0.5 0.0 0.5 1.0 1.510-6
+10-5
+10-4
+10-3
+10-2
+10-1
+-ID )A(
+VG (V)
+0%
+10%
+20%
+30%
+40%
+50%
+0 2000 4000 600010
+10
+10
+10
+10
+10
+10-ID )A(
+Time (s)
+X=50%
+y=50%
+a bc d
+e fg
+h i
+j m
+n o
+Cation
+Anion Cation
+Anion
+0
+5
+10
+15
+20
+25
+30g xam,m )Sm(
+0.65%0.53%0.39%0.21% 0.75%
+0
+1000
+2000
+3000
+s V-1 s-1)
+0
+20
+40
+60
+80
+100g xam,m )Sm(
+500 rpm1000 rpm2000 rpm3000 rpm
+0
+2000
+4000
+6000
+8000
+s V-1 s-1)
+k l
+1500 cycles
+Strain Strain
+Active layer
+Electrolyte layer
+Stretching
+Stretching
+Gate VG > 0 Gate VG < 0
+OFF ON
+500 rpm 1000 rpm 2000 rpm 3000 rpm
+Gel active layer
+Gel electrolyte
+30% strain
+10
+10
+10
+10
+10
+10
+10-ID (A)
+10
+10
+10
+10
+10
+10
+10-ID (A)
+Cycle number
+10 100 1000 10000 100000
+0
+20
+40
+60
+80
+100
+ Ref. 5  Ref. 8  Ref. 9
+ Ref. 10  Ref. 11  Ref. 12
+ Ref. 14  Ref. 15  Ref. 16
+ Ref. 25  Ref. 46  Ref. 47
+ Ref. 48  This work
+g xam,m )Sm(
+On/off ratio
+This work
+0.0 0.5 1.0 1.510
+10
+10
+10
+10
+10
+10-ID )A(
+VG (V)
+0
+30
+60
+90
+120
+gm (mS)
+0.0 0.5 1.0 1.510
+10
+10
+10
+10
+10
+10-ID )A(
+VG (V)
+0
+30
+60
+90
+120
+gm (mS)
+0.0 0.5 1.0 1.5
+10
+10
+10
+10
+10
+10-ID )A(
+VG (V)
+0
+30
+60
+90
+120
+gm (mS)
+0.0 0.5 1.0 1.510
+10
+10
+10
+10
+10
+10-ID )A(
+VG (V)
+0
+30
+60
+90
+120
+gm (mS)
+49 66
+67
+68 69 70 71 72 73 74 75 76 77 78
+Fig. 2 | Electrical properties of all-gel OECTs based on PEDOT:PSS gel
+active layer. a–d Transfer and transconductance curves of all-gel OECTs with the
+gel active layer obtained at different spin-coating speeds.e gm, max and μCs of all-gel
+OECTs based on gel active layers obtained at different spin-coating speeds.f gm, max
+and μCs of all-gel OECTs based on gel active layers with different PEDOT:PSS con-
+tents under the same spin-coating speed of 3000 rpm.g Comparison of gm, max and
+on/off ratio of our OECTs and the reported stretchable OECTs5,8–12,14–16,25,49,66,67.
+h Comparison of gm, max of all-gel OECTs and the reported rigid OECTs based on
+PEDOT:PSS28,68–78. i Illustration of mechanism of ion penetration/transport in gels.
+j Photographs of all-gel OECTs upon stretching along different directions. Transfer
+curves of all-gel OECTs after stretching along the directions (k) perpendicular and
+(l) parallel to channel length with different tensile strains.m Transfer curves of all-
+gel OECTs after stretch-release with 30% strain for different cycles along the
+direction perpendicular to channel length.n Illustration of stretching mechanism
+of gel active layer and gel electrolyte. o Cycling stability of all-gel OECT with 1500
+on/off cycles. Source data are provided as a Source Data ﬁle.
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 4
+
+shown below. First, for the all-gel OECTs with the active layer thickness
+larger than 1.8 μm, their drain current probably hardly reaches the
+saturation state at a relatively fast scanning speed (200 mV s−1)u n d e ra
+ﬁxed duration, which may result in lower transconductance. On the
+contrary, when its thickness is decreased to 1.8μm, the active layer of
+the all-gel OECT will show faster doping speed, which may achieve
+higher doping level and higher drain current under the same scanning
+speed and duration, thereby leading to higher transconductance.
+Second, the percentage of the solvent that evaporates (namely water)
+during the spin-coating process will become larger when the thickness
+of the gel active layer becomes smaller. This will result in a relatively
+larger shrinkage of the gel active layer and the tighter contact among
+semiconducting polymers inside the gel, which may enhance the
+values of μ and μC* (C* is the volumetric capacitance). The detailed
+reasons are shown in Supplementary Note 1. Besides, because the
+thickness of the active layers of the all-gel OECTs is larger than those of
+traditional OECTs (usually smaller than 100 nm), our device show a
+relatively large voltage hysteresis compared to those of traditional
+OECTs. The all-gel structure will be further optimized in our future
+work to reduce the voltage hysteresis.
+One of the key ﬁgure-of-merit parameters of OECTs is μC*. The
+value of μC* can be calculated from the following equation,
+g
+m = μC/C3 Wd
+L ðV T /C0 V GÞ ð1Þ
+Cs = C/C3 d ð2Þ
+where gm is the transconductance, W is the channel width, L is the
+channel length, d is the thickness of active layer, VT is the threshold
+voltage,Cs is the areal capacitance. The calculatedμCs values of the all-
+gel OECTs based on PEDOT:PSS gel with active layer thicknesses of
+267 μm, 4.4 μm, 1.8 μm, and 590 nm are 5715.5, 5231.5, 7118.6, and
+2408.3μFV
+−1 s−1,r e s p e c t i v e l y( F i g .2e). It can be seen that the gm, max
+and μCs values of the all-gel OECT with an active layer thickness of
+1.8 μm are the highest among the fabricated OECTs with different
+active layer thicknesses. In addition, the effect of different PEDOT:PSS
+contents on the performance of the all-gel OECTs obtained at a spin-
+coating speed of 3000 rpm is investigated. It is found that theg
+m, max
+and μCs values of the all-gel OECTs generally increase with the increase
+of PEDOT:PSS content (Fig.2f and Supplementary Fig. 15). As a result,
+the all-gel OECT with the PEDOT:PSS content of 0.75% exhibits higher
+gm, max and μCs values compared with those of the OECTs with lower
+PEDOT:PSS contents.
+Furthermore, the areal capacitances of typical PEDOT-based
+semiconducting polymer gels are measured by an electrochemical
+impedance spectroscopy method to calculate C
+s and μ values (Sup-
+plementary Figs. 16 and 17). The calculated Cs of the semiconducting
+polymer gels with the PEDOT:PSS contents of 0.21%, 0.39%, 0.53%,
+0.65%, and 0.75% are 923.4, 2525.4, 2040.8, 1684.8, and 422.5μFc m
+−2,
+respectively. The maximum Cs of the semiconducting polymer gel
+active layer is among the highest in the reported stretchable PEDOT-
+based OECTs (Supplementary Table 3). Under a spin-coating speed of
+3000 rpm for the gel active layers, the calculatedμ value of the all-gel
+OECT with a 0.75% PEDOT:PSS content is 5.7 cm2 V−1 s−1, which is higher
+than those of the obtained all-gel OECTs with lower PEDOT:PSS con-
+tents (Supplementary Fig. 18). To the best of our knowledge, g
+m,max
+(86.4 mS) of the all-gel OECTs is the highest among the previously
+reported stretchable OECTs (Fig.2g and Supplementary Table 3). The
+transconductance of the reported state-of-the-art stretchable OECTs is
+usually lower than 5 –20 mS. The g
+m,max value is even among the
+highest in the reported rigid OECTs based on PEDOT:PSS (Fig.2h). The
+maximum on/off ratio (1.2 × 105)a n d μ value (5.7 cm2 V−1 s−1)o ft h ea l l -
+gel OECTs are also among the highest in the reported stretchable
+OECTs (Fig. 2g and Supplementary Table 3).
+The normalized transconductance (gm,n)o fO E C T si sg i v e nb yt h e
+following equation,
+gm, n = gm, max
+dW =L ð3Þ
+According to the above equation, thegm,n of the all-gel OECT with
+a1 . 8 μm thick PEDOT:PSS-based gel active layer is calculated to be
+24 S cm−1, the value of which is much higher than those of the pre-
+viously reported OECTs based on semiconducting gels such as PED-
+OT:PSS hydrogels (~4 S cm
+−1)28 and p(g2T-T) hydrogels (~2 S cm−1)29.
+The all-gel OECT based on p(g2T-TT) gel active layer operates in
+an accumulation mode (Supplementary Fig. 19). Its gm,max and μCs
+reach 53.8 mS and 12373.5 μFV −1 s−1, respectively, exceeding those of
+the previously reported OECTs based on p(g2T-TT) (Supplementary
+Table 4). After stretching with 30% strain along the direction perpen-
+dicular to channel length, no obvious change in transfer and trans-
+conductance curves of the p(g2T-TT)-based all-gel OECT are observed
+and the g
+m,max retains a high value of 46.6 mS (Supplementary Fig. 19).
+In addition, the gm,max and μCs of the all-gel OECT based on BBL gel
+active layer are 1.3 mS and 245.3μFV −1 s−1, respectively (Supplementary
+Fig. 20). After stretching with 30% strain along the direction perpen-
+dicular to channel length, its peak transconductance still reaches
+1.2 mS. Theg
+m and μCs of the all-gel OECT based on BBL gel are among
+the highest in the reported BBL-based OECTs with a similar W/L ratio
+(Supplementary Table 4).
+The high transconductance and on/off ratio of the all-gel OECTs
+are attributed to the fact that both the active layer and electrolyte are
+gels. The abundant solvents in the semiconducting polymer gel active
+layers increase the ion transport paths and the interface area between
+the semiconducting polymer and the electrolyte, allowing effective ion
+penetration/transport and ef ﬁcient doping of the semiconductor
+(Fig. 2i). The three-dimensional semiconducting polymer network in
+the gel active layers ensures ef ﬁcient charge transport along the
+semiconducting polymer chains.
+Besides, since the ionic liquid [THMA][MeSO
+4] is miscible with
+water (Supplementary Fig. 21a), ionic liquid in the ionogel electrolyte
+can diffuse into the semiconducting polymer gel active layer, which
+can enhance transconductance of OECTs by improving the morphol-
+ogies of the active layer while maintaining high ion uptake
+46–48.W h e n
+PAM/NaCl/glycerol/H2O organohydrogel instead of ionogel is used as
+the electrolyte layer, the measuredgm, max and on/off ratio of the all-gel
+OECT based on PEDOT:PSS gel are 11.0 mS and 2.8 × 10 3, respectively
+(Supplementary Fig 21c, d), much lower than those of the all-gel OECTs
+with PIL ionogel as the electrolyte. The transconductance of the OECT
+based on PEDOT:PSS gel with ionic liquid [THMA][MeSO
+4] as electro-
+lyte is ~76.2 mS (Supplementary Fig. 22), which is comparable to that of
+the device by using PIL ionogel as electrolyte (86.4 mS). This further
+conﬁrms the key role of ionic liquid electrolyte in achieving high
+transconductance of the PEDOT:PSS-based OECT. Pristine PEDOT:PSS-
+based gel shows some isolated domains that are probably composed
+of PEDOT:PSS, which is unfavorable for charge carrier transport
+(Supplementary Fig. 23)
+47,48. By contrast, no isolated PEDOT:PSS
+domain is observed and PEDOT:PSS is homogeneously distributed in
+the skeletons of the PEDOT:PSS-based gel that is treated with ionic
+liquid (Supplementary Fig. 23). Furthermore, after modiﬁcation with
+ionic liquid, the PEDOT:PSS-based gel exhibits larger grains that are
+probably rich in PEDOT (Supplementary Fig. 24)
+47. These structural
+characteristics of the PEDOT:PSS-based gel treated with ionic liquid
+facilitate charge carrier transport. This may contribute to the
+improved performance of the OECT with PIL ionogel as electrolyte
+compared to that of the device with PAM/NaCl/glycerol/H
+2Oo r g a n o -
+hydrogel as electrolyte. Furthermore, the different packing of PED-
+OT:PSS chains in pristine PEDOT:PSS ﬁlm and PEDOT:PSS-based gel
+ﬁlm is con ﬁrmed by grazing-incidence wide-angle X-ray scattering
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 5
+
+(GIWAXS) (Supplementary Fig. 25). It should be noted that, PEDOT:PSS
+cannot be homogeneously dispersed in the ionic liquids [VBIm][BF4]
+and [THMA][MeSO4], the obtained PEDOT:PSS/[VBIm][BF 4]/[THMA]
+[MeSO4] ionogel is inhomogeneous, resulting in the low performance
+of the OECT with PEDOT:PSS/[VBIm][BF4]/[THMA][MeSO4] ionogel as
+the active layer and [VBIm][BF4]/[THMA][MeSO4] ionogel as the elec-
+trolyte (Supplementary Fig 21b). Therefore, PEDOT:PSS/PAM/glycerol/
+H
+2O ionic gel and PIL ionogel are selected as the active layer and
+electrolyte of the all-gel OECTs, respectively, in this work.
+Beneﬁting from the unique all-gel device structure with highly
+stretchable gels as both active layer and electrolyte, the all-gel OECT
+based on PEDOT:PSS gel exhibits high stretchability up to 50% in both
+directions parallel and perpendicular to channel length (Fig. 2ja n d
+Movies 7, 8). When the all-gel OECT is stretched along different
+directions, the change of transfer curve of the all-gel OECT is relatively
+small when the tensile strain is within 50% (Fig.2k, l). The slight current
+change of the transfer curve of the all-gel OECT is probably attributed
+to the changes of gel conductivity and W/L values during stretching.
+The cyclic stretching stability of the all-gel OECT is tested by stretch-
+release with 30% strain in the direction perpendicular to channel
+length for 10,000 cycles. The transfer curves of the all-gel OECT are
+relatively stable after stretch-release with 30% strain for 10,000 cycles,
+indicating the high stretching stability of the all-gel OECTs (Fig.2m).
+There are several reasons for the high stretchability of the all-gel
+OECT. First, the semiconducting polymer gel active layer and PIL
+ionogel electrolyte exhibit high stretchability and elasticity (Supple-
+mentary Figs. 6 –10). The deformation and orientation (along the
+stretching direction) of the disordered and crimpled macromolecular
+chains in the gels can endure large tensile strains, leading to high
+stretchability, while the crosslinked 3D network structure endows the
+gels with high elasticity (Fig. 2n). Second, the relative resistance
+change of the semiconducting polymer gel and PIL ionogel is relatively
+small (50 –55%) when they are stretched with a large strain of 50%
+(Supplementary Figs. 9 and 10). There will be fewer amount of contact
+points between PEDOT chains during stretching with 0 –50% tensile
+strain, resulting in an increase in resistance of the semiconducting
+polymer gel (Fig. 2n). Third, the PU substrate exhibits high stretch-
+ability. Fourth, the Ag/Au electrodes (source, drain, and gate) on the
+PU substrate are highly stretchable
+49,50. The optical microscope image
+shows that there is no obvious crack on the surface of the Ag/Au
+electrode as the all-gel OECT is stretched by 0 –50% (Supplementary
+Fig. 26). The resistance of the Ag/Au electrode remains small (19.5Ω)a t
+a large tensile strain of 50%.
+Furthermore, the on/off cycling stability of the all-gel OECT is
+investigated by switching gate voltage between−0.5 V and 1.0 V under
+a ﬁxed drain voltage of −0.5 V. The drain current of the all-gel OECT
+based on PEDOT:PSS gel exhibits negligible degradation after 1500 on/
+off cycles, indicating the high on/off cycling stability of the all-gel
+OECT (Fig. 2o). Besides, the transfer curve of the all-gel OECT remains
+nearly unchanged after 10 days, indicating the good environmental
+stability of the device (Supplementary Fig. 27).
+Pressure-sensitive electronic skin
+Because of the high transconductance and stretchability of the all-gel
+OECTs consisting of highly compressible and elastic ionogel electro-
+lyte and semiconducting polymer gel active layer, they can be applied
+as highly sensitive stretchable pressure sensors promising for elec-
+tronic skins, arti ﬁcial intelligence, and robots
+24,30–32,51,52. The all-gel
+OECT based on PEDOT:PSS gel with an active layer thickness of 1.8μm
+and PEDOT:PSS content of 0.75% is used to investigate the pressure
+sensing performance. To improve the sensitivity of pressure sensing, a
+pyramid-shaped microstructured surface of the ionogel electrolyte
+layer is constructed (Fig. 3a, b). The width × length × height of the
+pyramid-shaped microstructure is 500 × 500 × 1000 μm, while the
+distance between each pyramid microstructure is 300 μm
+(Supplementary Fig. 28). For the pressure sensors with a vertical gate
+structure, the microstructured surface faces the gate (Fig.3a, b), while
+for those with a coplanar gate structure, the microstructured surface
+faces both the gate and active layer (Fig. 3c, d).
+In the case of the all-gel OECT pressure sensor with a vertical gate
+structure, the drain current changes signi ﬁcantly in response to dif-
+ferent pressures, indicating the capability of detecting pressure stimuli
+(Fig. 3e). At a constantV
+G of −0.5 V, the drain current (ID)i n c r e a s e sw i t h
+the increase of applied pressure (Fig. 3f), while when VG =0 . 5V , ID
+decreases with the increase of applied pressure (Supplementary
+Fig. 29). An obvious current response of the all-gel OECT pressure
+sensor can be recorded in real time under an external pressure sti-
+mulus (Fig. 3g). It should be noted that the response of the OECT
+pressure sensor to different pressures is relatively stable when it is
+stretched 30% along the direction perpendicular to channel length,
+indicating the good stretching stability of the device (Fig. 3h). In the
+case of the all-gel OECT pressure sensor with a coplanar gate structure,
+the I
+D change tendency under external pressures is similar to that of
+the pressure sensor with a vertical gate structure (Fig. 3i).
+The working mechanism of the all-gel OECT pressure sensor is
+based on the intercalation and de-intercalation of ions in the con-
+jugated polymer active layer (electrochemical doping/de-doping of
+the semiconductor) modulated by external pressures
+24,30–32.A c c o r d i n g
+to the Bernards model, OECT can be divided into an electronic circuit
+and an ionic circuit, where the ionic circuit is composed of a gate/
+electrolyte capacitor ( C
+G), electrolyte resistor ( RE), and electrolyte/
+channel capacitor (CCH)( F i g .3a)24,30–32. In the case of the OECT with a
+vertical gate structure, the gate voltage mainly drops at the gate-
+electrolyte interface in the absence of external pressure because the
+contact area between the gate and electrolyte with a microstructured
+surface is small and the resulting C
+G is small. Consequently, the gate
+voltage drop at the electrolyte-channel interface is small and the
+injection of electrolyte anions into the channel is limited when a
+negative gate voltage is applied, resulting in a relatively low drain
+current. Under the applied pressure, the height of the pyramid struc-
+ture becomes smaller and the contact area between gate and elec-
+trolyte increases, which increases C
+G and reduces the gate voltage
+drop at the gate-electrolyte interface, thus enhancing the gate voltage
+drop at the electrolyte-channel interface. In this case, more electrolyte
+anions ([BF
+4]− and [MeSO4]−) are injected into the channel under a
+negative gate voltage, resulting in the electrochemical doping of the
+active layer with a larger number of holes, thereby enhancing the drain
+current of the OECT (Fig.3j)
+32,53. In addition, theﬁnite element analysis
+(FEA) mechanical simulation was carried out to investigate the struc-
+ture variation and stress/strain distribution of the PIL ionogel elec-
+trolyte layer with a pyramid-shaped microstructured surface
+(Supplementary Figs. 30, 31, and Mo vies 9, 10). Under external pres-
+sures, the pyramid-shaped microstructure is deformed and its height is
+decreased. The microstructure becomes ﬂattened when the com-
+pressive strain reaches 80%. The above FEA simulation is consistent
+with the experimental results. Beneﬁting from the high transconduc-
+tance of the OECT and the microstructured surface of the PIL ionogel
+electrolyte, the all-gel OECT pressure sensor exhibits a low detection
+limit of 0.1 Pa, the value of which is the lowest among the previously
+reported OECT pressure sensors (Fig.3k and Supplementary Table 5).
+In order to explore potential application of the all-gel OECT
+pressure sensors in the ﬁeld of electronic skin, a 4 × 4 all-gel OECT
+pressure sensor array on a PU ﬁlm was fabricated (Fig. 3l). The elec-
+tronic skin based on the all-gel OECT pressure sensor array has
+excellent stretchability and bendability (Fig. 3m and Supplementary
+Fig. 32). The signal output of the sensor array ﬁxed on the palm of a
+bionic hand is consistent with the position and shape of a pen placed
+on the palm (Fig. 3n). When the bionic hand grasps an apple and an
+egg, the pressure distribution on the palm is accurately detected
+(Fig. 3o and Supplementary Fig. 33). Evidently, the all-gel OECT
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 6
+
+pressure sensor array shows promising applications in pressure-
+sensitive electronic skins of robots, bionic hands, and prostheses.
+Artiﬁcial synapse
+Another important application of OECTs is arti ﬁcial synapses for
+neuromorphic simulation54–56. The all-gel OECTs can be used as
+stretchable artiﬁcial synapses to simulate biological synaptic beha-
+viors. The biological synapse is composed of presynaptic membrane,
+synaptic cleft, and postsynaptic membrane, and is located between
+presynaptic and postsynaptic neurons. The axonal terminals can
+release neurotransmitters that pa ss through the synaptic cleft to
+dendrites, allowing the synapse able to transmit signals. Here,V
+G pulse
+and ID are used to simulate presynaptic pulse and excitatory post-
+synaptic current (EPSC), respectively (Fig.4a). When a presynaptic VG
+pulse with a width of 100 ms triggers the synaptic all-gel OECT based
+on PEDOT:PSS gel, ID increases quickly to a maximum value and then
+gradually decreases, showing the EPSC characteristic (Fig. 4b). When
+the all-gel synaptic OECT is stretched by 30% along the direction
+perpendicular to channel length, the EPSC remains nearly unchanged,
+indicating the high stretching stability of the artiﬁcial synapse (Fig.4b).
+Besides, the all-gel OECT can simulate pair-pulse facilitation (PPF)
+behavior by applying two consecutive presynaptic pulses
+57.W h e nt w o
+consecutiveVG pulses with the same width (100 ms) are applied, ID of
+the all-gel synaptic OECT triggered by the second pulse is larger than
+that triggered by the ﬁrst pulse (Fig. 4c). This phenomenon is con-
+sistent with the characteristic of PPF behavior. The PPF behavior of the
+all-gel synaptic OECT remains nearly unchanged when it is stretched
+30% along the direction perpendicular to channel length, further
+Pen: 42 g Apple: 268 g
+Cation
+Anion
+Hole
+PressurePressure
+PEDOT:PSS
+PAM
+VG < 0
+SD S D S D
+a
+1m m
+b c d
+e
+j
+lk
+n
+S D
+G
+VG < 0
+VG < 0
+o
+S D
+G
+G
+S D
+Pressure
+VG
+VD
+VD
+VG
+CG
+RE
+CCH
+ID ID ID
+−1.0 −0.5 0.07
+6
+5
+4
+3
+2
+1-ID )Am(
+VG (V)
+0 Pa
+0.4 Pa
+420 Pa
+840 Pa
+2.1 kPa
+8.4 kPa
+0 5 10 15 20 25 30 35
+0.0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0-ΔID )Am(
+Time (s)
+f g h
+i
+30% strain
+-1.0 -0.5 0.0 0.57
+6
+5
+4
+3
+2
+1
+0-ID )Am(
+VG (V)
+0 Pa
+0.4 Pa
+420 Pa
+840 Pa
+2.1 kPa
+4.2 kPa
+8.4 kPa
+S D
+GPressure
+VG
+VD
+S D G
+m
+0 5 10 15 20 25
+1
+2
+3
+4
+5
+6
+7
+8  Experimental data
+ Fitting curve
+-ID )Am(
+Pressure (kPa)
+-1.0 -0.5 0.0 0.58
+7
+6
+5
+4
+3
+2
+1
+0-ID )Am(
+VG (V)
+ 0 Pa
+ 0.1 Pa
+ 0.4 Pa
+ 21 Pa
+ 42 Pa
+ 210 Pa
+ 420 Pa
+ 840 Pa
+ 2.1 kPa
+ 4.2 kPa
+ 8.4 kPa
+ 25 kPa
+10−2
+10−1
+100
+101
+102
+103
+104
+ Ref. 24  Ref. 30
+ Ref. 31  Ref. 32
+ Ref. 64  Ref. 65
+ This work
+)aP(timilnoitceteD This work
+79 80
+Fig. 3 | Stretchable pressure-sensitive electronic skin based on all-gel OECTs.
+a Structure diagram and b photographs of all-gel OECT pressure sensor with a
+vertical gate structure.c Structure diagram and d photographs of all-gel OECT
+pressure sensor with a coplanar gate structure. e Transfer curves and f ID
+(VG = −0.5 V) of all-gel OECT pressure sensor with a vertical gate structure under
+different pressures.g Response of all-gel OECT pressure sensor under an external
+pressure stimulus (pressed by aﬁnger) at the VG of −0.5 V. h Transfer curves of the
+stretched all-gel OECT pressure sensor with 30% strain along the direction per-
+pendicular to channel length under different pressures.i Transfer curves of all-gel
+OECT pressure sensor with a coplanar gate structure under different pressures.
+j Sensing mechanism diagram of all-gel OECT pressure sensor.k Comparison of
+pressure detection limit of our OECT pressure sensor and the previously reported
+OECT pressure sensors24,30–32,79,80. l Structure diagram andm photographs of a 4 × 4
+all-gel OECT pressure sensor array. n, o Tactile perception of all-gel OECT-based
+electronic skinﬁxed on a bionic hand. Error bars represent the standard deviation
+from at least three independent measurements. Source data are provided as a
+Source Data ﬁle.
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 7
+
+conﬁrming its high stretching stability (Fig.4c). When the VG value of
+the VG pulse baseline is 0.8 V, the EPSC decreases with increasing the
+VG value in the range of 0.3 –0.7 V (Fig. 4d) and increases with
+increasing theVG pulse width in the range of 50–800 ms (Fig. 4e). The
+maximum current value of the second postsynaptic pulse decreases
+with the increase ofV
+G p u l s ei n t e r v a li nt h er a n g eo f1 0–600 ms, which
+indicates that the VG pulse interval has signi ﬁcant inﬂuence on PPF
+behavior (Fig. 4f). PPF index is given by the equation: PPF index = A 2/
+A1 × 100%, where A1 and A2 are the maximum ΔEPSC triggered by the
+ﬁrst and second VG pulse, respectively. As the VG pulse interval
+increases, the PPF index decreases signi ﬁcantly (Fig. 4g). When ten
+consecutiveVG pulses are applied to the all-gel synaptic OECT,ΔEPSC
+tends to become larger with the decrease of pulse interval (Fig. 4h).
+The change of EPSC tends to become saturated when the VG pulse
+width and VG pulse number increases (Fig. 4i, j).
+When human learn new knowledge, the brain goes through three
+processes: learning, forgetting, and relearning. The relearning process
+takes less time compared to that of the initial learning process
+58–60.
+Because of the above synaptic characteristic, the all-gel synaptic
+OECTs have the ability to simulate the learning-forgetting-relearning
+process. The learning-forgetting-relearning process can be simulated
+by applying V
+G pulses with different pulse numbers (Fig.4k). The ﬁrst
+learning process is simulated by applying 8 consecutive VG pulses to
+trigger the postsynaptic pulses. The ﬁrst forgetting process is simu-
+lated by the decrease of EPSC after removing the VG pulse. Then, the
+previous learning level can be achieved by applying only 6 consecutive
+V
+G pulses. After another forgetting process, only 4 VG pulses are
+needed to recover the previous learning level. As we can see, the all-gel
+synaptic OECTs show promising applications in stretchable arti ﬁcial
+synapses and neuromorphic simulations.
+Gas sensor
+The olfactory system is one of the six basic human sensory nervous
+systems. After binding with odor molecules, olfactory receptor pro-
+teins activate olfactory receptor cells and trigger the transmission of
+neural signals. These signals are converted into electrical signals,
+which are transmitted to the brain ’s olfactory bulb through
+the olfactory nerve. In the olfactory bulb, neural signals are further
+integrated, decoded, and analyzed to produce odor perception and
+discrimination
+61. Because of the gas sensing capability and the dynamic
+ion-to-electron transduction that is similar to the characteristic of
+biological synapse, the all-gel OECTs can be used to simulate the
+human olfactory system to perceive toxic and harmful gases in the
+environment and avoid harm to the human body (Fig.5a). NH
+3 is a kind
+of colorless and irritating alkaline gas. After NH 3 is inhaled into the
+lung, it is easy to enter the blood through the alveoli and bind to
+hemoglobin, thus destroying the oxygen transport function of oxygen.
+When the concentration of NH
+3 in the air reaches a certain level
+(>0.1 mg/m3), it will cause harm to the human body 57. Therefore, the
+development of all-gel OECT gas sensor for detecting the leakage of
+NH3 is beneﬁcial for protecting environment and human health.
+NH3 molecules can be adsorbed by the PIL ionogel electrolyte and
+the free ionic liquid in the ionogel is able to combine with NH3
+33.U n d e r
+t h ep o s i t i v eg a t ev o l t a g e( 0 . 5 V ) ,t h e[ T H M A ]+ cations and NH 3
+Fig. 4 | Stretchable all-gel OECT artiﬁcial synapses based on PEDOT:PSS gel
+active layer. aMechanism diagram of all-gel synaptic OECT. Schematic of neuron is
+created in BioRender. Lu, L. (2025)https://BioRender.com/9pwzn0x.E P S Co fa l l - g e l
+OECT before and after stretching with 30% strain triggered byb one and c two VG
+pulses (VG = 0.4 V). EPSC of all-gel OECT triggered by oneVG pulse withd variousVG
+values and e pulse widths (VG =0 . 5V ) .f EPSC of all-gel OECT triggered by two VG
+pulses with various pulse intervals.g PPF index of all-gel OECT under various pulse
+intervals. EPSC of all-gel OECT triggered by ten VG pulses with h various pulse
+intervals and i pulse widths. j EPSC of all-gel OECT triggered by consecutive VG
+pulses with different pulse numbers under the same pulse width (100 ms).
+k Simulation of learning-forgetting-relearning process by all-gel synaptic OECT
+with a pulse width of 50 ms and a pulse interval of 50 ms. Source data are provided
+as a Source Data ﬁle.
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 8
+
+combined with the ions in the ionogel can be injected into the semi-
+conducting polymer gel active layer. The p-type hole-conducting
+PEDOT will be doped by the electron-rich NH3 that acts as an electron
+donor, which reduces the carrier density of the active layer, thus
+decreasing the drain current
+33. The continuous response of the all-gel
+OECT gas sensor exposed to different concentrations of NH 3 is
+examined. The drain current decreases and | ΔID| increases with the
+increase of the concentration of NH3 (Fig. 5b). The detection limit of
+the all-gel OECT gas sensor to NH 3 is as low as 1 ppm. The sensor
+exhibits a relatively long recovery time because the adsorption and
+desorption of NH
+3 in the ionogel electrolyte and semiconducting
+polymer gel active layer are relatively slow processes62,63. The response
+of the all-gel OECT versus NH 3 concentration and the corresponding
+ﬁtting curve are shown in Fig.5c. Under the exposure to 1 and 100 ppm
+NH3 for the same duration time of 5 s, the drain current decrements of
+the all-gel OECT are 18 and 65 μA, respectively (Fig. 5d). When the all-
+gel OECT is exposed to 200 ppm NH3 for three times in succession, the
+response of the all-gel OECT is nearly unchanged, conﬁrming the good
+stability of the all-gel OECT gas sensor for NH3 detection (Fig. 5e).
+To evaluate the selectivity of the all-gel OECT gas sensor for NH3
+detection, the response of the sensor to potential interfering gases
+(1000 ppm ethanol (C 2H5OH), 1000 ppm toluene (C 7H8), 1000 ppm
+trichloromethane (CHCl3), 1000 ppm acetone (C 3H6O), 1000 ppm
+hexane (C 6H14), 1000 ppm carbon dioxide (CO 2), 1000 ppm for-
+maldehyde (CH 2O), 500 ppm nitrogen dioxide (NO 2), and 5 ppm
+hydrogen sulﬁde (H2S)) are also tested. The current change tendency
+of the all-gel OECT gas sensor in response to NO2 is opposite to that of
+t h ed e v i c ei nr e s p o n s et oH2Sa n dN H3. Although the device shows
+response to H2Sa n dN O2, its response to 500 ppm NH3 is higher than
+those of other gases such as 500 ppm NO 2 (Fig. 5f). The different
+responses of the device to various gases are probably attributed to the
+different solubility of the gases in the electrolyte and different inter-
+actions of the electrolyte and PEDOT with various gases
+64.I na d d i t i o n ,
+the stretchability of the all-gel OECT gas sensor is investigated. It is
+found that there is almost no difference in response of the sensor to
+the same concentration of NH
+3 before and after stretching with 30%
+strain along the direction perpendicular to channel length, indicating
+the good stretchability of the all-gel OECT gas sensor (Fig. 5g). As we
+Fig. 5 | Stretchable all-gel OECT gas sensors based on PEDOT:PSS gel
+active layer. a Mechanism diagram of gas sensing of all-gel OECT. Schematic of
+human body is created in BioRender. Lu, L. (2025)https://BioRender.com/8l76b8o.
+b The continuous response of all-gel OECT to NH3 with different concentrations.
+c Response of all-gel OECT versus NH3 concentration.d Response of all-gel OECT
+upon exposure to 1 and 100 ppm NH3 for the same duration time of 5 s.e Response
+of all-gel OECT to 200 ppm NH3. f Selectivity of all-gel OECT gas sensor.g Response
+of all-gel OECT to different concentrations of NH3 before and after stretching with
+30% strain. h Comparison of detection limit, stretchability, selectivity, stretching
+stability, and bendability of our OECT gas sensor and the previously reported OECT
+gas sensors33–35. i Response of all-gel OECT to rotten pork.j Schematic illustration of
+olfactory synapse based on all-gel OECT. k Drain current change induced by
+100 ppm NH3 pulse with different pulse duration.l PPF behavior induced by a pair
+of 100 ppm NH3 pulses with a pulse width of 15 s and a pulse interval of 150 s.
+m Drain current change induced by 3 consecutive 100 ppm NH3 pulses. Source data
+are provided as a Source Data ﬁle.
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 9
+
+can see, the all-gel OECT gas sensor proposed in this work exhibits an
+excellent combination of low detection limit, good stretchability, high
+selectivity, good stretching stability, and bendability (Supplementary
+Fig. 34), which is difﬁcult to be achieved by traditional OECT-based gas
+sensors (Fig. 5h and Supplementary Table 6). These properties make
+the all-gel OECT gas sensor able to be used as wearable electronics that
+require large deformations.
+Because of its high sensitivity, the all-gel OECT gas sensor is sui-
+table for food quality monitoring and toxic gas warning. In many
+household refrigerators and placement area of ingredients in public
+restaurants, it is difﬁcult to tell whether food, especially meat, is rotten
+only by smell and the naked eye alone. In the process of meat spoilage,
+protein decomposition will produce a variety of intermediate or ﬁnal
+gas products, including NH
+3,h y d r o g e ns u lﬁde, and carbon dioxide65.
+The all-gel OECT can be used to detect NH3 produced by rotting meat
+in a sealed box (Fig. 5i and Supplementary Fig. 35). The sensor has no
+response to fresh pork. However, after 2 –20 days, the all-gel OECT
+exhibits obvious drain current changes. It can be seen that the all-gel
+OECT gas sensor has the capability of detecting toxic gases and
+monitoring food quality in real time.
+Furthermore, the all-gel OECTs can be applied as arti ﬁcial olfac-
+tory synapses (Fig. 5j). The relatively long recovery time of the all-gel
+OECT gas sensor demonstrates the memory storage characteristic. The
+transition from short-term memory (STM) to long-term memory (LTM)
+can be achieved by the all-gel OECT gas sensor with prolonged expo-
+sure to NH
+3 (Fig. 5k). In addition, the all-gel OECT can simulate PPF
+behavior by applying two consecutive gas pulses (Fig. 5l). The ǀΔIDǀ
+value triggered by the second gas pulse is higher than that of the ﬁrst
+one, indicating that synaptic weight can be enhanced by applying
+successive gas pulses. The maximum ǀΔI
+Dǀ value can be further
+enhanced by applying more NH3 pulses (Fig.5m). These characteristics
+m a k et h ea l l - g e lO E C T sa b l et om e m o r i z et h ea c c u m u l a t e de x p o s u r et o
+toxic gases, further conﬁrming the capability of the all-gel OECTs to
+simulate olfactory perception process of humans.
+In practical applications, the all-gel OECT pressure sensor can be
+sealed by a polydimethylsiloxane (PDMS) or PU ﬁlm to prevent the
+interference induced by gas molecules. In the case of the all-gel OECT
+gas sensor, the gel electrolyte does not have a microstructured sur-
+face. The micostructured surface of the gel electrolyte is crucial for
+achieving highly sensitive pressure sensing. The gas sensor without a
+microstructured surface shows negligible response to external pres-
+sure. Besides, all-gel OECTs are advantageous for further integration,
+which will be done in our future works.
+The major importance of this work are summarized as follows.
+(1) Highly stretchable OECTs—all-gel OECTs with gels as both electro-
+lyte and active layer — have been developed. (2) The all-gel network
+structure based on ionogel electrolyte and semiconducting polymer
+gel active layer promotes deeper ion penetration and efﬁcient doping
+of semiconductor. (3) The all-gel OECTs combine ultra-high trans-
+conductance (86.4 mS), high on/off ratio (1.2 × 10
+5), and good
+stretchability (50%), which achieves an excellent balance between
+stretchability and electrical properties of OECTs. (4) The transcon-
+ductance of the all-gel OECTs is ~4–10 times higher than those of state-
+of-the-art stretchable OECTs. (5) The stretchable all-gel OECT-based
+pressure sensors exhibit a detection limit of 0.1 Pa, which is lower than
+those of the previously reported OECT pressure sensors. (6) The all-gel
+OECT gas sensor combines low detection limit, high selectivity, and
+good stretchability, which is a combination not observed with tradi-
+tional OECT gas sensors.
+The all-gel strategy proposed in this work is versatile and can be
+used to develop various high-performance stretchable OECTs and ion-
+gated transistors. In our further works, all-gel OECTs with different
+structures and semiconductors will be investigated. Besides, other
+properties such as biosensing performance will be explored to
+broaden their applications.
+Discussion
+In summary, we have developed high-performance and stretchable all-
+gel OECTs utilizing PIL ionogels as electrolytes and semiconducting
+polymer gels as active layers. The all-gel structure of electrolyte and
+active layer of OECTs effectively promotes ion penetration and trans-
+port, enabling efﬁcient doping of the semiconductor, while theﬂexible
+gel electrolyte and active layer endows the all-gel OECT with good
+stretchability. The all-gel OECTs combine high transconductance of
+86.4 mS, on/off ratio of 1.2 × 10
+5, μCs of 7118.6 μFV −1 s−1, μ of
+5.7 cm−2 V−1 s−1, stretchability up to 50%, and excellent stretching sta-
+bility (10,000 cycles under 30% strain). The resulting all-gel OECT
+pressure-sensitive electronic skins combine a good stretchability and a
+low detection limit of 0.1 Pa. Furthermore, the all-gel OECTs can be
+applied as stretchable artiﬁcial synapses capable of emulating biolo-
+gical synaptic behaviors such as EPSC, PPF, and learning-forgetting-
+relearning process. Additionally, the all-gel OECTs can simulate the
+perception process of human olfactory system, making them high-
+performance gas sensors combining low detection limit, high selec-
+tivity, good stretching stability, and the capability of food quality
+monitoring. This work provides an idea for the design of high-
+performance stretchable transistors promising forﬂexible electronics,
+sensors, logic circuits, healthcare, human-machine interfaces, etc.
+Methods
+Materials
+Poly(3,4‑ethylenedioxythiophene): poly(styrene sulfonate) (PEDOT:PSS,
+PH1000) was supplied by Heraeus Deutschland GmbH & Co. KG. Acry-
+lamide (AM), glycerol, APS, MBA, 1-vinyl-3-butylimidazolium tetra-
+ﬂuoroborate ([VBIm][BF
+4]), tris (2-hydroxyeth yl) methylammonium
+methylsulfate ([THMA][MeSO 4]), 2-hydroxy-4 ′-(2-hydroxyethoxy)-2-
+methylpropiophenone (I-2959), and N,N-dimethylformamide (DMF)
+were supplied by Shanghai Aladdin Biochemical Technology Co., Ltd.
+Polyurethane (PU) particles were provided by Suzhou Kunsheng Bio-
+degradable New Material Co., Ltd. NH
+3 was purchased from Jiangsu
+Xinyiyang Chemical Co., Ltd. Sodium chloride (NaCl), ethanol, toluene,
+trichloromethane, acetone, hexane, mineral oil, dimethylsulfoxide
+(DMSO), methane sulfonic acid (MSA), and formaldehyde were supplied
+by Shanghai Titan Scientiﬁc Co., Ltd. Poly (2,5-bis (3-triethylene glycol
+ethoxy thiophene-2-yl)-co-thiophene) (p(g2T-TT)) and n-type poly(-
+benzimidazobenzophenanthroline) (BBL) were purchased from Aode
+Microelectronics Technology Co., Ltd. Carbon dioxide, nitrogen diox-
+ide, and hydrogen sulﬁde were provided by Shanghai Weichuang Stan-
+dard Gas Analysis Technology Co., Ltd. All the chemicals were used as
+received.
+Preparation of PEDOT:PSS-based gels
+AM, deionized water, and glycerol were mixed with a mass ratio of
+1:3:3. The PEDOT:PSS dispersion (13 mg/mL) was concentrated to a
+PEDOT:PSS dispersion with a concentration of 20 mg/mL by heating
+and evaporation in an oven at 60 °C. AM/deionized water/glycerol
+solution (0.8 g) and 0.5 g concentrated PEDOT:PSS dispersion
+(20 mg/mL) were then mixed completely with stirring, followed by the
+addition of 0.0125 g MBA and 0.01 g APS. After radical co-
+polymerization of AM and MBA at 60 °C for 30 min, double-network
+semiconducting polymer gels composed of PEDOT:PSS and PAM with
+a PEDOT:PSS content of 0.75% were obtained. Besides, the semi-
+conducting polymer gels with different PEDOT:PSS contents (0.21%,
+0.39%, 0.53%, and 0.65%) were also prepared for comparison.
+Preparation of p(g2T-TT)-based gels
+The p(g2T-TT)-based gel was prepared via the following method.
+p(g2T-TT) was dispersed in DMSO to obtain a p(g2T-TT) dispersion
+(10 mg mL
+−1), while AM was dissolved in DMSO to afford an AM solu-
+tion (25 wt%). Subsequently, the p(g2T-TT) dispersion (0.5 g) was
+mixed with 0.8 g AM solution, followed by adding 0.0125 g MBA and
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 10
+
+0.01 g APS. The mixed dispersion was spin-coated on a substrate. After
+heat treatment at 60 °C for 30 min, gel was formed. The solvent of the
+gel was exchanged with [THMA][MeSO
+4] to afford a p(g2T-TT)-based
+gel ﬁlm.
+Preparation of BBL-based gels
+The BBL-based gel was prepared by the following method. BBL was
+dispersed in MSA to obtain a BBL dispersion (10 mg mL −1), while AM
+was dissolved in MSA to afford an AM solution (23 wt%). Subsequently,
+the BBL dispersion (0.5 g) was mixed with 1.28 g AM solution, followed
+by adding 0.0125 g MBA and 0.01 g APS. The mixed dispersion was
+spin-coated on a substrate. After heat treatment at 60 °C for 30 min,
+gel was formed. The gel was subjected to solvent exchange with water
+and [THMA][MeSO
+4] to afford a BBL-based gel ﬁlm.
+Preparation of PIL ionogels
+Ionic liquid monomer [VBIm][BF 4] (1.8 g), 0.9 g ionic liquid [THMA]
+[MeSO4], 0.0018 g crosslinker MBA, and 0.0036 g photoinitiator
+I-2959 were mixed completely with stirring. After radical
+co-polymerization of [VBIm][BF
+4] and MBA under ultra-violet (UV)
+light irradiation, PIL ionogels were obtained.
+Fabrication of stretchable all-gel OECTs
+PU particles were dissolved by DMF and coated on a glass slide fol-
+lowed by drying at 60 °C and peeling off the glass slide to afford a
+stretchable PUﬁlm as the substrate of the OECTs. 30-nm-thick Ag and
+15-nm-thick Au were deposited on the PUﬁlm as the source, drain, and
+gate of the OECTs with a coplanar gate structure by thermal eva-
+poration using a shadow mask. The channel width (W) and length (L)
+were 2000 and 100 μm, respectively, leading to a W/L value of 20.
+Subsequently, semiconducting polymer gel active layers were
+prepared. The semiconducting polymer-based mixed dispersion
+(~0.5 μL) composed of semiconducting polymer (PEDOT:PSS, p(g2T-
+TT), or BBL), AM, MBA, solvent, and APS was dropped on the channel
+between source and drain, followed by spin-coating. It was then heated
+at 60 °C for 30 min to form the semiconducting polymer gelﬁlm. In the
+case of the gel based on p(g2T-TT) or BBL, its solvent was exchanged
+with [THMA][MeSO
+4]. In order to obtain reliable experimental results
+on electrical properties, the gel active layers of the all-gel OECTs were
+patterned by scrapping off unnecessary gels. The unnecessary gel was
+scraped off using a small cotton swab to obtain a desired shape of the
+gel active layer. The spin-coating speeds were 500, 1000, 2000, and
+3000 rpm for PEDOT:PSS-based gel, while it was kept at 2000 rpm for
+the gel based on p(g2T-TT) or BBL. For all the semiconducting polymer
+gel, the spin-coating time was kept at 15 s.
+The ionic liquid solution (~2 μL) composed of [VBIm][BF
+4],
+[THMA][MeSO4], MBA, and I-2959 was spin-coated on the top of the
+semiconducting polymer gel active layer and the gate electrode. The
+spin-coating speed was 1000 rpm and the spin-coating time was 15 s.
+After the formation of PIL ionogel electrolyte under UV light irradia-
+tion, the excess part of the gels was erased to obtain the desired shape
+of the gel electrolyte to afford stretchable all-gel OECTs. Both the gel
+active layer and electrolyte had a roughly rectangular shape. For all the
+all-gel OECT devices, the width × length of the gel active layer and
+electrolyte was ~0.8 mm × 2 mm and 3 mm × 6 mm, respectively.
+Fabrication of pressure-sensitive electronic skin
+The all-gel OECT with an active layer thickness of 1.8 μma n dP E D -
+OT:PSS content of 0.75% was used to fabricate the OECT pressure
+sensors. The shape and size of the gate, source, and drain of the OECT
+pressure sensor with a vertical gate structure were shown in Supple-
+mentary Fig. 36. The fabrication process of the gate electrode of the
+OECT pressure sensors was shown below. The stretchable PU sub-
+strates were prepared via the aforementioned method. A Ag/Au thin
+ﬁlm with a desired shape (Supplementary Fig. 36a) was deposited on
+the PU substrate via thermal evaporation using a vacuum evaporation
+equipment. Speciﬁcally, the 30-nm-thick Ag was deposited on the PU
+substrate by thermal evaporation using a customized shadow mask
+with the desired shape, followed by the deposition of 15-nm-thick Au
+via the same thermal evaporation method using the same shadow
+mask. The obtained 30-nm-thick Ag/15-nm-thick Au thinﬁlm was used
+as the gate of the OECTs with a vertical gate structure. Similarly,
+30-nm-thick Ag and 15-nm-thick Au were deposited on another PUﬁlm
+by thermal evaporation using a different shadow mask to serve as the
+source and drain of the OECT pressure sensors (Supplementary
+Fig. 36b). A PIL ionogel with a pyramid-shaped microstructured sur-
+face was used as the electrolyte. The ionic liquid solution composed of
+[VBIm][BF
+4], [THMA][MeSO4], MBA, and I-2959 was poured into a
+microstructured template made of PDMS and crosslinked under UV
+light irradiation to form an ionogel with a quadrangular pyramid
+microstructure. The width × length × height of the pyramid-shaped
+m i c r o s t r u c t u r e w a s 5 0 0×5 0 0×1 0 0 0μm, and the distance between
+each microstructure was 300 μm. For the pressure sensors with a
+vertical gate structure, the ionogel electrolyte was sandwiched
+between the gate and semiconducting polymer gel active layer and the
+microstructured surface faced the gate. For the pressure sensors with a
+coplanar gate structure, the ionogel electrolyte was put on the surface
+of the gate and semiconducting polymer gel active layer with the
+microstructured surface facing both the gate and active layer.
+For the fabrication of the electronic skin based on an all-gel OECT
+pressure sensor array, a 4 × 4 Ag/Au source/drain/gate electrodes array
+were deposited on PU substrate via thermal evaporation using a sha-
+dow mask. The all-gel OECT with a coplanar gate structure was used for
+the fabrication of sensor array. The semiconducting polymer gel active
+layer and PIL ionogel electrolyte were coated on the PU substrate with
+an electrode array via the same spin-coating method to afford an all-gel
+OECT pressure sensor array.
+Structural characterizations
+The thickness and morphology of the semiconducting polymer gel
+active layer were determined using aﬁeld emission scanning electron
+microscope (Nova Nano SEM 450, FEI, USA) and a transmission elec-
+tron microscope (TEM) (JEM-F200, JEOL, Japan). The morphologies of
+Ag/Au electrode before and after stretching were observed by an
+optical microscope (6XB-PC, Shang Guang, P. R. China). The chemical
+structures of the semiconducting polymer gels with different PED-
+OT:PSS contents were characterized by a FTIR spectrometer (EQUI-
+NOX55, Bruker, Germany) and an XPS (Nexsa, Thermo Scientiﬁc, USA).
+The packing of PEDOT:PSS chains in semiconducting ﬁlms was inves-
+tigated by grazing-incidence wide-angle X-ray scattering (GIWAXS)
+(Xeuss2.0, xenocs, France).
+OECT characterization
+The transfer and output curves of all-gel OECTs were studied using a
+semiconductor analyzer (PDA Fs-pro, Primarius, China) and a probe
+station (Xitatech, China). For the transfer curves, drain voltage ( V
+D)
+was maintained at−0.5 V, while it varied between−1.0 and 2.0 V for the
+output curves. Transconductance curves were derived from the
+transfer curves. The semiconductor analyzer was set with overcurrent
+protection. The upper current limit for the semiconductor analyzer
+during the transfer curves measurements wasﬁxed at a value of 0.01,
+0.02, or 0.03 A. On/off cycling stability of all-gel OECT was investigated
+by switching V
+G between −0.5 V and 1.0 V under a ﬁxed VD of −0.5 V.
+Capacitances of typical semiconducting polymer gel ﬁlms were
+determined by the electrochemical impedance spectroscopy mea-
+sured with an electrochemical workstation (CHI600E, CH Instruments,
+USA). The standard three-electrode (working, reference, and counter
+electrodes) system was connected to the electrochemical workstation
+for impedance test. The semiconductor gel active layer was connected
+to the working electrode, while a platinum metal was connected to the
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 11
+
+counter electrode. The semiconducting gel active layer, platinum
+electrode, and the reference electrode were immersed in [THMA]
+[MeSO4] electrolyte for the measurement of impedance. The experi-
+mental impedance data were imported into a NOVA software andﬁtted
+to an R
+s(Rp//Cp)Ws equivalent circuit model to calculate the ﬁlm
+capacitances. Rs and Rp are the resistances of the electrolyte and the
+ﬁlm, respectively, while Cp and Ws are the ﬁlm capacitance and impe-
+dance, respectively.
+Mechanical tests
+The compressive and tensile mechanical properties of the semi-
+conducting polymer gels and PIL ionogels were investigated by a
+universal testing machine (Lishi (Shanghai) Instruments Co., Ltd., P. R.
+China). The electrical properties of the semiconducting polymer gels
+and PIL ionogels upon compression and stretching were recorded by a
+LCR meter (TH2827, Tonghui Instrument Factory, P. R. China) at a
+voltage of 1 V and a frequency of 400 Hz.
+Pressure sensing tests
+The sensing performance of the all-gel OECT pressure sensor was
+measured by the same semiconductor analyzer and probe station.V
+D
+was kept at −0.5 V for the transfer curves, while it varied between−1.0
+to 2.0 V for the output curves. For a single OECT pressure sensor,
+different weights were applied to the surface of the device, and its
+pressure sensing performance was investigated by the change of its
+transfer curve or drain current. The sensing performance of the pres-
+sure sensor array ﬁxed on the palm of a bionic hand was investigated
+by the change of drain current. When a subject was placed on the palm
+or the bionic hand grasped a subject, the current distributions of the
+sensor array were measured by the same semiconductor analyzer and
+probe station.
+FEA mechanical simulation
+The structure variation and stress/strain distribution of the PIL ionogel
+electrolyte layer with a pyramid-shaped microstructured surface were
+simulated by FEA software Abaqus. The compressive elastic modulus
+of the ionogel model was 69 kPa, while the tensile elastic modulus was
+62 kPa. The Poisson ’s ratio of the ionogel model was 0.45. The
+width × length × height of the pyramid-shaped microstructure of the
+ionogel model was 500 × 500 × 1000 μm, and the distance between
+each microstructure was 300μm.
+Artiﬁcial synapse tests
+The synaptic characteristics of the all-gel OECT with a coplanar gate
+structure were studied by the same semiconductor analyzer with aVD
+of −15 mV. The presynaptic pulses with different pulse widths, inter-
+vals, numbers, and VG values were generated by the same semi-
+conductor analyzer. During measurement, the initialVG applied on the
+synaptic OECT was 0.8 V andΔVG was in the range of−0.5 to−0.1 V. The
+EPSC of the stretched synaptic OECT with 30% tensile strain along the
+direction perpendicular to channel length was also measured to
+investigate the stretchability of the synaptic OECT. The learning-
+forgetting-relearning process was simulated by applying V
+G pulses
+with a pulse width of 50 ms and a pulse interval of 50 ms.
+Gas sensing tests
+As shown in Supplementary Fig. 28, the self-made gas sensing device is
+composed of an air inlet, an air outlet, and a 1 L cavity. The all-gel OECT
+gas sensor was placed in the cavity and connected to the semi-
+conductor analyzer. 200 ppm NH
+3 was diluted with air through 10 L
+gas sampling bags to obtain the required concentrations. The change
+of drain current of the all-gel OECT gas sensor upon exposure to dif-
+ferent concentrations of NH
+3 was measured by the same semi-
+conductor analyzer. VG and VD were kept at 0.5 V and −0.1 V,
+respectively, for gas sensing tests. To demonstrate the capability of the
+all-gel OECT gas sensor in food quality monitoring, a piece of fresh
+pork with a mass of around 100 g together with the gas sensor were
+sealed in a glass container and exposed to the sun. The responses of
+the all-gel OECT gas sensor inside the container after 2‒20 days were
+measured to evaluate the concentration of NH
+3 generated from the
+rotting meat.
+Data availability
+The data generated in this study are provided in the Manuscript,
+Supplementary Information, and Source Data ﬁle. Source data are
+provided with this paper.
+References
+1. Song, J., Liu, H., Zhao, Z., Lin, P. & Yan, F. Flexible organic transistors
+for biosensing: devices and applications.Adv. Mater. 36,
+2300034 (2023).
+2. Wang, L. et al. Flexible organic electrochemical transistors for
+chemical and biological sensing.Nano Res. 15,2 4 3 3–2464
+(2021).
+3. Yao, Y. et al. Flexible and stretc hable organic electrochemical
+transistors for physiological sensing devices.Adv. Mater. 35,
+2209906 (2023).
+4. Fan, X. et al. PEDOT:PSS for ﬂexible and stretchable electronics:
+Modiﬁcations, strategies, and applications.Adv. Sci. 6,
+1900813 (2019).
+5. Liu, D. et al. A wearable in-sen sor computing platform based on
+stretchable organic electrochemical transistors.Nat. Electron. 7,
+1176–1185 (2024).
+6. Lee, Y. et al. Stretchable organi c optoelectronic sensorimotor
+synapse. Sci. Adv. 4,e a a t 7 3 8 7( 2 0 1 8 ) .
+7. Huang, B. et al. Skin-like n-type stretchable synaptic transistors with
+low energy consumption and highly reliable plasticity for brain-
+inspired computing.Nano Energy 128,1 0 9 8 9 1( 2 0 2 4 ) .
+8 . P e n g ,Y .e ta l .S t r e t c h a b l eo r g a n i celectrochemical transistors via
+three-dimensional porous elastic semiconductingﬁlms for artiﬁcial
+synaptic applications.Nano Res. 16,1 0 2 0 6–10214 (2023).
+9. Gu, P. et al. Highly stretchable semiconducting aerogel ﬁlms for
+high‐performanceﬂexible electronics.Adv. Funct. Mater. 34,
+2400589 (2024).
+10. Chen, J. et al. Highly stretchable organic electrochemical transis-
+tors with strain-resistant performance.Nat. Mater. 21,
+564–571 (2022).
+11. Li, X. et al. 3D-printed intrinsically stretchable organic electro-
+chemical synaptic transistor array.ACS Appl. Mater. Interfaces15,
+41656–41665 (2023).
+1 2 . L i u ,K .e ta l .L o w‐voltage intrinsically stretchable organic transistor
+ampliﬁers for ultrasensitive electrophysiological signal detection.
+Adv. Mater.
+35, 2207006 (2022).
+13. Liu, J. et al. Fully stretchable active-matrix organic light-emitting
+electrochemical cell array.Nat. Commun. 11, 3362 (2020).
+14. Kim, C.-H. et al. All-printed and stretchable organic electrochemical
+transistors using a hydrogel electrolyte.Nanoscale 15,
+3263–3272 (2023).
+15. Liu, D. et al. Intrinsically stretchable organic electrochemical tran-
+sistors with rigid-device-benchmarkable performance.Adv. Sci. 9,
+2203418 (2022).
+16. Zhang, S. et al. Tuning the electromechanical properties of PED-
+OT:PSS ﬁlms for stretchable transistors and pressure sensors.Adv.
+Electron. Mater.5, 1900191 (2019).
+17. Lee, W. et al. Nonthrombogenic, stretchable, active multielectrode
+array for electroanatomical mapping.Sci. Adv. 4, eaau2426 (2018).
+18. Li, J. et al. Tough adhesives for diverse wet surfaces. Science 357,
+378–381 (2017).
+19. Zhao, X. et al. Soft materials by design: unconventional polymer
+networks give extreme properties.Chem. Rev.121,4 3 0 9–4372 (2021).
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 12
+
+20. Yuk, H., Wu, J. & Zhao, X. Hydrogel interfaces for merging humans
+and machines. Nat. Rev. Mater. 7,9 3 5–952 (2022).
+21. Bai, J. et al. Coin-sized, fully integrated, and minimally invasive
+continuous glucose monitoring system based on organic electro-
+chemical transistors.Sci. Adv. 10, eadl1856 (2024).
+22. Liu, Z. et al. Wireless intelligent patch for closed-loop in situ wound
+management.Adv. Sci. 11, e2400451 (2024).
+23. Li, P. et al. N-type semiconducting hydrogel. Science 384,
+557–563 (2024).
+24. Fang, B. et al. Scalable production of ultraﬁne polyanilineﬁbres for
+tactile organic electrochemical transistors.Nat. Commun. 13,
+2101 (2022).
+25. Wang, W. et al. High-transconduc tance, highly elastic, durable and
+recyclable all-polymer electrochemical transistors with 3D micro-
+engineered interfaces.Nano Micro Lett. 14, 184 (2022).
+26. Hu, J. et al. Multifunctional hydrogel hybrid ‐gated organic photo-
+electrochemical transistor for biosensing.Adv. Funct. Mater. 32,
+2109046 (2022).
+27. He, R. et al. Organic electrochemical transistor based on hydro-
+phobic polymer tuned by ionic gels. A n g e w .C h e m .I n t .E d .62,
+e202304549 (2023).
+2 8 . T s e n g ,A .C .&S a k a t a ,T .D i r e c te l e c t r o c h e m i c a ls i g n a l i n gi no r g a n i c
+electrochemical transistors comprising high-conductivity double-
+network hydrogels.ACS Appl. Mater. Interfaces14,2 4 7 2 9–24740
+(2022).
+29. Dai, Y. et al. Soft hydrogel semiconductors with augmented bioin-
+teractive functions.Science 386,4 3 1–439 (2024).
+30. Su, X. et al. A highly conducting polymer for self-healable, prin-
+table, and stretchable organic electrochemical transistor arrays
+and near hysteresis-free soft tactile sensors.Adv. Mater. 34,
+2200682 (2022).
+31. Zhou, X. et al. Aerosol jet printing of multi-dimensional OECT force
+sensor with high sensitivity and large measuring range.Adv. Mater.
+Technol. 8, 2201272 (2023).
+32. Chen, S., Surendran, A., Wu, X. & Leong, W. L. Contact modulated
+ionic transfer doping in all‐solid‐state organic electrochemical
+transistor for ultra‐high sensitive tactile perception at low operating
+voltage. Adv. Funct. Mater. 30, 2006186 (2020).
+33. Yin, Y. et al. In-sensor organic electrochemical transistor for the
+multimode neuromorphic olfactory system.ACS Sens.
+9,
+4277–4285 (2024).
+34. Deng, Y. et al. A ﬂexible and biomimetic olfactory synapse with
+gasotransmitter-mediated plasticity.Adv. Funct. Mater. 33,
+2214139 (2023).
+35. Chouhdry, H. H., Lee, D. H., Bag, A. & Lee, N.-E. A ﬂexible artiﬁcial
+chemosensory neuronal synapse based on chemoreceptive
+ionogel-gated electrochemical transistor.Nat. Commun. 14,
+821 (2023).
+3 6 . M e l l e i n ,B .R . ,S c u r t o ,A .M .&S h iﬂett, M. B. Gas solubility in ionic
+liquids. Curr. Opin. Green. Sustain. Chem.28, 100425 (2021).
+37. Jin, M. L. et al. Scalable superior chemical sensing performance of
+stretchable ionotronic skin via aπ-hole receptor effect.Adv. Mater.
+33, e2007605 (2021).
+38. Zhang, X. et al. Bioinspired gradient poly(ionic liquid) ionogels for
+ionic skins with an ultrawide pressure detection range.ACS Mater.
+Lett. 4,2 4 5 9–2468 (2022).
+39. Won, D. et al. Laser-induced wet stability and adhesion of pure
+conducting polymer hydrogels.Nat. Electron. 7,4 7 5–486 (2024).
+40. Hu, Z. et al. Nanoporous conjugated polymer aerogelﬁlms for high‐
+performance electrochemical transistors.Adv. Funct. Mater. 34,
+2410788 (2024).
+41. Zhang, X. et al. Stretchable and negative-poisson-ratio porous
+metamaterials.Nat. Commun. 15, 392 (2024).
+42. Fan, W. et al. An antisweat interference and highly sensitive tem-
+perature sensor based on poly(3,4-ethylenedioxythiophene)-
+poly(styrenesulfonate)ﬁber coated with polyurethane/graphene
+for real-time monitoring of body temperature.ACS Nano 17,
+21073–21082 (2023).
+43. Lehane, R. A. et al. Electrosynthesis of biocompatible free-standing
+PEDOT thin ﬁlms at a polarized liquid|liquid interface.J. Am. Chem.
+Soc. 144,4 8 5 3–4862 (2022).
+44. Chen, G. et al. Strain-and strain-rate-invariant conductance in a
+stretchable and compressible 3D conducting polymer foam.Matter
+1,2 0 5–218 (2019).
+4 5 . Z u ,G . ,Z e n g ,S . ,Y a n g ,B .&H u a n g ,J .T r a n s p a r e n t ,u l t r aﬂexible, and
+superinsulating nano
+ﬁbrous biocomposite aerogels via ambient
+pressure drying.J. Mater. Chem. A 9,5 7 6 9–5779 (2021).
+46. Huang, L. et al. Porous semiconducting polymers enable high ‐
+performance electrochemical transistors.Adv. Mater. 33,
+2007041 (2021).
+47. Wu, X. et al. Ionic-liquid induc ed morphology tuning of PEDOT:PSS
+for high-performance organic electrochemical transistors.Adv.
+Funct. Mater. 32, 2108510 (2022).
+48. Wang, L. et al. Realizing ultrahigh transconductance in organic
+electrochemical transistor by co-doping PEDOT: PSS with ionic
+liquid and dodecylbenzenesulfonate.Macromol. Rapid Commun.
+43, 2200212 (2022).
+49. Dai, S. et al. Intrinsically stretchable neuromorphic devices for on-
+body processing of health data with artiﬁcial intelligence.Matter 5,
+3375–3390 (2022).
+50. Xu, Y. et al. Stretchable and neuromorphic transistors for pain
+perception and sensitization emulation.Mater. Horiz. 11,
+958–968 (2024).
+51. Cao, Y. et al. Self-healing electronic skins for aquatic environments.
+Nat. Electron. 2,7 5–82 (2019).
+52. Zhang, X. et al. Bioinspired gradient stretchable aerogels for
+ultrabroad-range-response pressure-sensitive wearable electronics
+and high-efﬁcient separators.A n g e w .C h e m .I n t .E d .62,
+e202213952 (2023).
+53. Bernards, D. A. & Malliaras, G. G. Steady ‐state and transient beha-
+vior of organic electrochemical transistors.Adv. Funct. Mater. 17,
+3538–3544 (2007).
+54. Gao, Y. et al. A hybrid transistor with transcriptionally controlled
+computation and plasticity.Nat. Commun. 15, 1598 (2024).
+55. Harikesh, P. C. et al. Organic electrochemical neurons and synapses
+with ion mediated spiking.Nat. Commun. 13, 901 (2022).
+56. Dai, S. et al. Recent advances in transistor‐based artiﬁcial synapses.
+Adv. Funct. Mater. 29, 1903700 (2019).
+57. Xia, P. et al. Designing a redox heterojunction for photocatalytic
+“overall nitrogenﬁxation” under mild conditions.Adv. Mater. 34,
+e2200563 (2022).
+58. Zhang, J. et al. Retina ‐inspired artiﬁcial synapses with ultraviolet to
+near‐infrared broadband responses for energy‐efﬁcient neuro-
+morphic visual systems.Adv. Funct. Mater. 33, 2302885 (2023).
+59. Zhang, J. et al. Tailoring neuroplasticity in ﬂexible perovskite QDs-
+based optoelectronic synaptic transistors by dual modes modula-
+tion. Nano Energy 95, 106987 (2022).
+60. Guo, Z. et al. Optoelectronic syn apses and photodetectors based
+on organic semiconductor/halideperovskite heterojunctions:
+materials, devices, and applications.Adv. Funct. Mater. 33,
+2305508 (2023).
+6 1 . Q i n ,C .e ta l .A r t iﬁcial olfactory biohybrid system: an evolving sense
+of smell. Adv. Sci. 10, e2204726 (2023).
+62. Gkoupidenis, P., Schaefer, N., Garlan, B. & Malliaras, G. G. Neuro-
+morphic functions in PEDOT:PSS organic electrochemical transis-
+tors. Adv. Mater. 27,7 1 7 6–7180 (2015).
+63. Zhou, B. et al. Organic electrochemical transistors toward synaptic
+electronics.J. Phys. D Appl. Phys. 55, 304006 (2022).
+64. Lei, Z., Dai, C. & Chen, B. Gas solubility in ionic liquids. Chem. Rev.
+114,1 2 8 9–1326 (2014).
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 13
+
+6 5 . S i r i b u n b a n d a l ,P . ,O s o t c h a n ,T . ,K i m ,Y . - H .&J a i s u t t i ,R .H i g h l ys e n -
+sitive colorimetric ammonia sensors based on polydiacetylene/zinc
+oxide nanopellet-embedded PDMSﬁlms for meat spoilage detec-
+tion. ACS Appl. Polym. Mater. 5,7 7 8 6–7794 (2023).
+6 6 . M a t s u h i s a ,N .e ta l .H i g h‐transconductance stretchable transistors
+achieved by controlled gold microcrack morphology.Adv. Elec-
+tron. Mater. 5, 1900347 (2019).
+67. Dai, Y. H. et al. Stretchable redox-active semiconducting polymers
+for high-performance organic electrochemical transistors.Adv.
+Mater. 34, 2201178 (2022).
+68. Demuru, S. et al. Antibody-coated wearable organic electro-
+chemical transistors for cortisol detection in human sweat.ACS
+Sens. 8,9 4 0( 2 0 2 3 ) .
+69. Lee, S.-K. et al. Nano ﬁber channel organic electrochemical tran-
+sistors for low-power neuromorphic computing and wide-
+bandwidth sensing platforms.Adv. Sci. 8, 2001544 (2021).
+70. Pappa, A.-M. et al. Organic tr ansistor arrays integrated withﬁnger-
+powered microﬂuidics for multianalyte saliva testing.Adv. Healthc.
+Mater. 5, 2295–2302 (2016).
+71. Hopkins, J. et al. A phosphonated p oly(ethylenedioxythiophene)
+derivative with low oxidation potential for energy-efﬁcient bioe-
+lectronic devices.Chem. Mater. 34,1 4 0–151 (2022).
+72. Li, T. et al. Biocompatible ionic liquids in high-performing organic
+electrochemical transistors for ion detection and electro-
+physiological monitoring.ACS Nano 16,1 2 0 4 9–12060 (2022).
+73. Cea, C. et al. Enhancement-mode ion-based transistor as a com-
+prehensive interface and real-time processing unit for in vivo
+electrophysiology.Nat. Mater. 19,6 7 9–686 (2020).
+74. Yan, Y. et al. High-performance organic electrochemical transistors
+with nanoscale channel length and their application to artiﬁcial
+synapse. ACS Appl. Mater. Interfaces12,4 9 9 1 5–49925 (2020).
+7 5 . S t e p h e n ,M .e ta l .C r o w ne t her enabled enhancement of ionic-
+electronic properties of PEDOT:PSS.Mater. Horiz. 9,
+2408–2415 (2022).
+76. Taussig, L. et al. Electrostatic self-assembly yields a structurally
+stabilized PEDOT:PSS with ef
+ﬁcient mixed transport and high-
+performance OECTs.Matter 7,1 0 7 1–1091 (2024).
+77. Donahue, M. J. et al. High-performance vertical organic electro-
+chemical transistors.Adv. Mater. 30,1 7 0 5 0 3 1( 2 0 1 8 ) .
+78. Spyropoulos, G. D., Gelinas, J. N. & Khodagholy, D. Internal ion-
+gated organic electrochemical transistor: a building block for
+integrated bioelectronics.Sci. Adv. 5, eaau7378 (2019).
+79. Wu, M. et al. Stretchable, skin ‐conformable neuromorphic system
+for tactile sensory recognizing and encoding.InfoMat 5,
+2770–5110 (2023).
+80. Kim, D. W., Yang, J. C., Lee, S. & Park, S. Neuromorphic processing
+of pressure signal using integrated sensor-synaptic device capable
+of selective and reversible short- and long-term plasticity operation.
+ACS Appl. Mater. Interfaces12,2 3 2 0 7–23216 (2020).
+Acknowledgements
+This work was supported by the National Key Research and Develop-
+ment Program of China (2022YFB3203500 to J.H.), the National Natural
+Science Foundation of China (62374113 to G.Z., 62074111 to J.H.,
+62304155 to J.Y.), and the Fundamental Research Funds for the Central
+Universities (22120240161 to G.Z., 22120230311 to J.Y.). The authors
+acknowledge the Experimental Center of Materials Science and Engi-
+neering in Tongji University.
+Author contributions
+L.L. carried out most of the experiments, analyzed the data, and drafted
+the paper. X. Liu revised the manuscript. Z.H. and P.G. provided data
+analysis. Z.D., X. Liang, and Z.S. provided experimental support. X.Z. and
+X.Y. conducted background researchand revised the paper. G.Z. pro-
+posed the concept, revised the manuscript, and supervised the
+research. J.Y. and J.H. revised the manuscript and supervised the
+research. All authors contributed to discussing and revising the
+manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-025-59240-0.
+Correspondenceand requests for materials should be addressed to
+Jie Yang, Guoqing Zu or Jia Huang.
+Peer review informationNature Communicationsthanks Wei Huang,
+and the other, anonymous, reviewer(s)for their contribution to the peer
+review of this work. A peer review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the
+Creative Commons licence, and indicate if you modiﬁed the licensed
+material. You do not have permission under this licence to share adapted
+material derived from this article or parts of it. The images or other third
+party material in this article are included in the article’s Creative
+Commons licence, unless indicatedotherwise in a credit line to the
+material. If material is not included in the article’s Creative Commons
+licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this licence, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/.
+© The Author(s) 2025, modiﬁed publication 2026
+Article https://doi.org/10.1038/s41467-025-59240-0
+Nature Communications| (2025)16:3831 14

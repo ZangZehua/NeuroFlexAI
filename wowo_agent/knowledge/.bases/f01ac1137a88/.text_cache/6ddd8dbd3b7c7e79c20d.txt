@@ -1,0 +1,1433 @@
+Article https://doi.org/10.1038/s41467-023-37948-1
+Highly conductive tissue-like hydrogel
+interface through template-directed
+assembly
+Jooyeun Chong1,4, Changhoon Sung 2,4,K u mS e o kN a m 2, Taewon Kang1,
+Hyunjun Kim 1,H a e s e u n gL e e1, Hyunchang Park1, Seongjun Park 2,3 &
+Jiheong Kang 1,3
+Over the past decade, conductive hydrogels have received great attention as
+tissue-interfacing electrodes due to their soft and tissue-like mechanical
+properties. However, a trade-off between robust tissue-like mechanical prop-
+erties and good electrical properties has prevented the fabrication of a tough,
+highly conductive hydrogel and limited its use in bioelectronics. Here, we
+report a synthetic method for the realization of highly conductive and
+mechanically tough hydrogels with tissue-like modulus. We employed a
+template-directed assembly method, enabling the arrangement of a disorder-
+free, highly-conductive nanoﬁbrous conductive network inside a highly
+stretchable, hydrated network. The resultant hydrogel exhibits ideal electrical
+and mechanical properties as a tissue-interfacing material. Furthermore, it can
+provide tough adhesion (800 J/m
+2) with diverse dynamic wet tissue after
+chemical activation. This hydrogel enables suture-free and adhesive-free, high-
+performance hydrogel bioelectronics.We successfully demonstrated ultra-low
+voltage neuromodulation and high-quality epicardial electrocardiogram (ECG)
+signal recording based on in vivo animal models. This template-directed
+assembly method provides a platform for hydrogel interfaces for various
+bioelectronic applications.
+Bioelectronic devices that interface with biological tissues have
+received considerable attention due to their importance in neu-
+roscience, diagnostics, therapy, and wearable and implantable
+devices
+1–5. However, the electrodes used in most bioelectronic devices
+are still rigid and dry, in contrast to soft and water-rich biological
+tissues. To avoid inﬂammatory response from applying rigid electro-
+des, conductive hydrogels are employed since they have soft
+mechanical properties. However, conductive additives such as metal,
+CNT, or graphene cannot be employed since they cause adverse
+reactions in the body due to their cytotoxicity. Therefore, conductive
+polymer hydrogel is considered a promising material for tissue-
+interfacing electrodes due to its biocompatibility, tissue-like mechan-
+ical properties, mixed electron/ion conduction, and water-rich
+nature
+1,6,7.
+Over the last decade, conductive polymer hydrogels have been
+studied extensively to develop an ideal material for the tissue-
+interfacing electrode
+7–10. Among them, signi ﬁcant progress has been
+made in poly(3,4-ethylenedioxaythiophene):poly(styrene sulfonate)
+(PEDOT:PSS)-based materials due to their relatively high electrical
+conductivity
+11–14. PEDOT:PSS conductive hydrogels are typically
+Received: 28 September 2022
+Accepted: 6 April 2023
+Check for updates
+1Department of Materials Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea.
+2Department of Bio and Brain Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon 34141, Republic of Korea.3KAIST Institute for
+NanoCentury, Daejeon 34141, Republic of Korea.4These authors contributed equally: Jooyeun Chong, Changhoon Sung. e-mail: spark19@kaist.ac.kr;
+jiheongkang@kaist.ac.kr
+Nature Communications|         (2023) 14:2206 1
+1234567890():,;
+1234567890():,;
+
+fabricated by one of two methods. The ﬁrst method involves the
+design of a pure PEDOT:PSS network through additive engineering
+with ionic liquids
+7,15, glycerol, or dimethyl sulfoxide (DMSO) solvent12.
+The resultant pure PEDOT:PSS hydrogel exhibits a relatively high
+electrical conductivity (~40 S/cm) due to the presence of large aggre-
+gation of PEDOT domains. Unfortunately, these aggregates result in
+undesirable mechanical properties such as a high Young ’s modulus
+(~1 MPa) and low stretchability (~20%). In addition, this hydrogel is
+unable to form robust adhesion with biological tissues, resulting in
+unstable operation in long-term applications
+16–18. The second method
+combines a soft and stretchable hydrated polymer with PEDOT:PSS to
+achieve soft and stretchable mechanical properties
+11,19–21.A l t h o u g ht h i s
+hydrogel exhibits high stretchability (> 100%), it lacks electrical con-
+ductivity (<1 S/cm) due to the insufﬁcient long-range assembly of the
+PEDOT network in the presence of the soft insulating polymer11;h e n c e ,
+there is a trade-off between mechanical and electrical properties in
+PEDOT:PSS hydrogels. To the best of our knowledge, no studies have
+developed an approach for simultaneously realizing soft, stretchable,
+and tough hydrogels with high electrical conductivity of more than
+10 S/cm.
+Here, we report a novel template-directed assembly method and
+conduction mechanism to realize a highly conductive, soft, and tough
+hydrogel interface with tough tissue adhesion for suture- and
+adhesive-free bioelectronic applications (Fig.1a). The key point of this
+b Structure of metallic PEDOT:PSS hydrogel (with template)
+PAA
+PSS
+PEDOT
+DMSO Template
+directed
+Assembly
+Uniformly connected 
+nanoconfined PEDOT
+Highly conductive and stretchable PEDOT:PSS network
+PEDOT
+PAA
+PSS
+Structure of PEDOT:PSS hydrogel (without template)
+DMSO
+PSS
+PEDOT
+Brittle conductive PEDOT:PSS network
+Assembly
+Without template
+Large aggregation of PEDOT
+Adhesive Tissue-like Bio-interfacing Devices
+Adhesion Nerve 
+Expansion
+Tissue-like electronic devices
+R = 1
+Nerve
+Tough 
+Adhesion
+R = 1
+Nerve
+Tough
+Adhesion
+R = 1.3
+Nerve
+R = 1.3
+Nerve
+Stretching
+d
+Stretched Tissue and T-ECA
+with robust interface
+Stretched substrateStretchable substrate
+Tough Adhesion
+Stretchable substrate
+Stretched Tissue and T-ECA
+with robust interface
+Stretchable substrate
+Tissue
+Tissue
+ Tissue
+ Tissue
+T-ECA
+Template-directed in-situ synthesis of highly conductive hydrogel interfacea
+i) Synthesis of
+Template
+ii) Assembly of
+PEDOT:PSS
+Electrically conductive hydrogel through template-
+directed assembly (T-ECH)Template Hydrogel (Pre T-ECH)PEDOT:PSS colloids + AA Monomer
+c
+Covalent bonding/H-bondingPEDOT:PSS PAA
+Tough electrical/mechanical interface with tissue
+Stretching
+Releasing Alignment of PEDOT fibrils
+(Enhanced charge transport)
+0% strain 300% strain
+High stretchability of T-ECH with high conductivity
+Energy dissipating
+conductive matrix
++
+Tissue
+e¯ e¯
+Tissue
+T-ECA
+e¯e¯
+Fig. 1 | Design and synthesis of T-ECH for bio-interfacing devices. a Schematic
+illustration of the template-directed in-situ synthesis of T-ECH. In Pre T-ECH, right
+after the template polymer (PAA) synthesis, PEDOT:PSS is in the colloidal state.
+After a drying and annealing process with DMSO solvent, T-ECH is made, having a
+highly conductive PEDOT network inside the template network.b Schematic
+illustration of the PEDOT:PSS network structure in the hydrogel with (left) and
+without (right) template polymer.c Schematic illustration and optical image of
+highly stretchable T-ECH (left). When stretched, PEDOT:PSSﬁbers align to the
+direction of the applied strain. Schematic illustration of tough adhesion of T-ECH
+with biological tissue (right).d Schematic illustration of tissue adhesive bio-
+electronic device made of T-ECA (adhesive T-ECH) electrode on the stretchable and
+dynamic biological tissue.
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 2
+
+strategy is the post-assembly of the PEDOT:PSS ﬁbers in the nano-
+conﬁned space of the chemically crosslinked soft polymeric template
+network. The polyacrylic acid (PAA) template forms multivalent
+hydrogen bonds with the PSS shell to enable the growth of an ultrathin
+PEDOT:PSS ﬁbrous network along the PAA chains with signi ﬁcantly
+reduced energetic disorders (Fig. 1b). Consequently, our hydrogel,
+referred to as T-ECH (electrically conductive hydrogel through
+template-directed assembly), shows a tissue-like modulus (25 kPa),
+high stretchability (610%) (Fig. 1c), high toughness (1 MJ/m
+3), high
+water content (90 wt%) and a record-high conductivity (247 S/cm),
+which is two orders of magnitude higher than that of previously
+reported stretchable PEDOT:PSS hydrogels (Supplementary Fig. 1). In
+addition, T-ECH achieved strong adhesion on wet tissues via hydrogen
+bonding from PAA, covalent bond formation with tissue, and efﬁcient
+energy dissipation of the PEDOT:PSS network (Fig. 1d). Using T-ECH,
+we demonstrate advanced ultralow-voltage neuromodulation and
+stable bioelectronic signal recording with high signal to noise ratio
+(Fig. 1e), while retaining tough adhe sion and excellent biocompat-
+ibility. Due to its excellent mechanical, electrical, and adhesive char-
+acteristics, T-ECH is presented as an ideal conductive hydrogel
+interface material for various bioelectronic applications (Supplemen-
+tary Fig. 2).
+Results
+Template-directed assembly ofhighly conductive PEDOT:PSS
+hydrogels
+In general, PEDOT:PSS colloids in an aqueous solution can transform
+into a conductive ﬁbrous network through dry annealing and aniso-
+tropic re-swelling process with various additives and water12,22,23.D u r -
+ing the dry-annealing process, the PEDOT chains start to form strong
+π–π interactions and create a conductive assembled network. This
+process results in a conductive hydrogel with an interconnected
+ﬁbrous conductive PEDOT network surrounded by anionic PSS shells.
+Therefore, a relatively high electrical conductivity of ~40 S/cm was
+achieved due to the large, interconnected PEDOT domain stabilized by
+the anionic PSS shell
+12. However, bulk aggregates of PEDOT chains are
+inevitably formed, which results in a high Young ’s modulus (1 MPa),
+low stretchability (~30%), and low mechanical toughness. We envi-
+sioned that such bulk aggregate structures have high conformational
+and energetic disorder, which signi ﬁcantly limit charge transport
+properties.
+To avoid the bulk aggregation of PEDOT chains, we utilized the
+template-directed assembly of a highly conductive nanoﬁbrous PEDOT
+network. Template-directed assembly is a method that uses a nano-
+porous membrane as a template to make nanostructures from mate-
+rials such as conductors, semiconductors, and carbon
+24–26.W e
+hypothesized that a template network with a high binding afﬁnity with
+the PSS shell could suppress the heavy aggregation of PEDOT chains
+through a three-dimensional conﬁnement effect and induce a homo-
+geneous nanoﬁbrous conductive network along the template polymer
+chains (Fig. 1b). Without a template network, PEDOT chains tend to
+form large domains of bulk aggregates with high conformational and
+energetic disorder.
+T-ECH was synthesized as follows (Fig. 1a): First, an acrylic acid
+(AA) monomer solution was homogeneously mixed with a PEDOT:PSS
+solution (PEDOT:PSS solute content is 10 wt% relative to AA). Then, the
+PAA template network was formed by either photo or thermal radical
+polymerization of AA monomers with the crosslinker N,N′-methylene
+bisacrylamide (MBAA). In this state (Pre T-ECH), PEDOT:PSS is in col-
+loidal form with hydrophobic PEDOT in the core surrounded by an
+anionic PSS shell. Subsequently, DMSO was added to the Pre T-ECH to
+induce the transformation of PEDOT:PSS from a colloids to extended
+nanoﬁbers by disturbing the ionic interaction between PEDOT and
+PSS. Once the linear PEDOT chains are made, they can be connected to
+each other through π–π interaction. To facilitate their connection, all
+the solvents are removed through dry-annealing to make PEDOTﬁbers
+encounter each other. Therefore, a uniformly connected PEDOT net-
+work is assembled along the PAA template chains. Finally, it was re-
+swelled in water to form a highly conductive and mechanically tough
+hydrogel (T-ECH).
+Nanoconﬁned homogenous electrical network in T-ECH
+Pre T-ECH, which has colloidal PEDOT:PSS inside the PAA hydrogel, is
+too soft to handle, whereas Pure PEDOT:PSS hydrogel (Pure ECH),
+made only with PEDOT:PSS, is stiff and brittle (Fig. 2a). In contrast, T-
+ECH, which has a well-connected PEDOT:PSS ﬁbrous network inside
+the PAA-template network, exhibits a set of exceptional mechanical
+properties, including tissue-like Young’s modulus (25 kPa), high strain
+at break (610%), high toughness (1 MJ/m
+3), and increased fracture
+toughness (Fig. 2b, c and Supplementary Fig. 3). These mechanical
+characteristics are the result of the double-network structure of T-ECH,
+which has an energy-dissipating long-range PEDOT:PSS nano ﬁbrous
+network and a stretchable PAA network 27,28. These two networks can
+coexist homogeneously and behave synergistically due to the multi-
+valent hydrogen bonds between P AA and PSS. When other template
+were used, such as polyacrylamide (PAAm) and poly(2-hydroxyethyl
+methacrylate) (pHEMA), which do not form strong interactions with
+PSS, signi ﬁcant phase separation was observed (Supplementary
+Fig. 4a–c). Due to the low binding af ﬁnity of template network and
+PEDOT:PSS, they showed low fracture strain and serious phase segre-
+gation of the template network and PEDOT:PSS.
+In addition, similar to other double-network hydrogels, T-ECH can
+endure high compressive stress (Fig. 2d, e and Supplementary
+Movie 1). In contrast, due to its low toughness, the single-network PAA
+hydrogel was completely smashed under a compressive stress. When a
+large strain is applied to T-ECH, the ﬁbrous PEDOT:PSS network sig-
+niﬁcantly absorbs and dissipates mechanical energy through its net-
+work recon ﬁguration and continuous breakage/reformation of
+hydrogen bonds with the PAA template. Therefore, this soft, stretch-
+able PAA network can signiﬁcantly deform and maintain its mechanical
+structure without fracturing.
+In order to use electrode materials in bioelectronics, conductive
+hydrogels must have suf ﬁciently high electrical conductivity and
+strain-insensitive electrical properties for stable recording and stimu-
+lation in vivo
+7,29. Our T-ECH electrode exhibited a record-high con-
+ductivity (247 S/cm) among conductive polymer hydrogels, even in the
+presence of 90 wt% water content and 9 wt% nonconductive PAA
+content (Supplementary Fig. 5a, b). As the PEDOT:PSS content was only
+1 wt% in the hydrogel, this sugges ts that the PEDOT:PSS network in
+T-ECH exhibits superior electrical conduction without conformational
+and energetic disorders. Therefore, the electrical resistance of T-ECH
+measured was signiﬁcantly low (Supplementary Fig. 5c). Moreover, the
+electrical resistance of T-ECH was insensitive to more than 200% stain
+and cyclic strain (Fig. 2g and Supplementary Fig. 6). The resistance of
+T-ECH even decreased slightly when stretched to 100% due to the
+alignment of PEDOT chains along the direction of strain
+12,22. Not only
+the electrical properties, but the mechanical properties also had
+reversible characteristics, having low residual strain during the cyclic
+tensile test (Supplementary Fig. 7). In addition, the properties of T-ECH
+can be modi ﬁed by adjusting the amounts of crosslinker and PED-
+OT:PSS (Fig. 2c and Supplementary Table 1).
+However, it is somewhat counterintuitive that T-ECH exhibits
+higher electrical conductivity than Pure ECH even with less PEDOT:PSS
+content. The major reason for its high electrical performance is the
+elimination of bulk PEDOT aggregates in the percolation network and
+the formation of a thin, extended ﬁbrous structure of PEDOT chains
+(Fig. 3a). In Pure ECH, PEDOT and PSS bulk domains are inevitably
+formed. Thus, it has microscale PEDOT:PSS-rich aggregates, as con-
+ﬁrmed by microcomputed tomography (Supplementary Fig. 8). Since
+Pure ECH has a large number of PSS aggregates that disconnect the
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 3
+
+PEDOT domains, the PSS-rich domains signi ﬁcantly block the con-
+ductive path. Therefore, the PEDOT-PEDOT interdomain hole transfer
+is limited. Also, highly entangled PEDOT networks with extensive
+conformational disorder work as bottlenecks of ef ﬁcient charge
+transport in Pure ECH
+30. Consequently, the conductivity cannot
+exceed 40 S/cm due to the limited transfer path. In sharp contrast,
+T-ECH shows a homogeneous PEDOT:PSS nanoﬁbrous network with-
+out microscale phase separation inside the hydrogel (Supplementary
+Fig. 8b). During the synthesis of T-ECH, both PEDOT and PSS ﬁbers
+grow only through the porous PAA template network. Therefore, PAA
+template physically conﬁnes the PEDOT:PSSﬁbers in T-ECH to enable a
+well-connected ﬁbrous network. Accordingly, insulating PSS doesn ’t
+make large domains that block the conductive PEDOT pathway.
+Therefore, continuously connected PEDOT path enables high elec-
+trical conductivity. In addition, the ﬁne-extended PEDOT:PSS ﬁbers
+have fast and efﬁcient charge transport via efﬁcient intra-chain charge
+transport (Supplementary Figs. 9 and 10)
+30–32. The intra-chain charge
+transport in Pure ECH is inefﬁcient due to the entangled bulk PEDOT
+chains. However, T-ECH has linear and extended chain conformations
+leading to fast intra-chain charge transfer.
+Here, PAA can induce a linear PEDOT network inside the porous
+structure of the template polymer through strong hydrogen bonding
+with PSS. However, other template polymers that lack sufﬁciently high
+binding af ﬁnities with PSS cannot induce a linear PEDOT network,
+resulting in low conductivity. For example, T-ECH made of a PAAm
+template showed low electrical conductivity of 0.01 S/cm due to the
+macroscopic phase separation of PAAm and PEDOT:PSS domains
+(Supplementary Fig. 4a, b). Therefore, strong interaction between the
+PSS shell and the template polymer is required to produce a homo-
+geneous network with high conductivity.
+To investigate the structure and morphology, hydrogels were
+studied using small-angle neutron scattering (SANS) (Fig. 3b, c). We
+could obtain information about the gel structure using power-law
+decay, I~q
+−n (Supplementary Fig. 11 and Supplementary Table 2)33–35.A t
+small angles (q <0 . 0 1Å−1), the structure of Pure ECH was found to have
+at h i c kﬁbrous assembly of PEDOT chains (>600 Å), whereas a much
+thinner ﬁbrous assembly of PEDOT chains was formed in T-ECH. At
+mid-range angles (0.03 Å−1 < q <0 . 1Å−1), we found that Pure ECH had
+the most compact structure, and T-ECH had linearly extended PEDOT
+chains in the soft PAA network. Moreover, PAAm-based T-ECH was
+Effect of PEDOT:PSS network b
+200
+150
+100
+50
+0
+0 200 400 600
+)aPk( sserts elisneT
+Tensile strain (%)
+T-ECH
+Pre T-ECH
+Pure ECH
+Soft, stretchable by PAA 
+network
+Toughened by 
+PEDOT:PSS network
+High toughness of T-ECH
+PAA T-ECH
+60 kPa 120 kPa
+= 2 cm
+d
+Compression teste
+10
+ PAA
+ Pre T-ECA
+ T-ECA
+)aPM( sserts evisserpmoC
+Compressive strain (%)
+0
+0
+2
+4
+6
+8
+25 50 75 100
+T-ECH
+Pre T-ECH
+PAA
+Conductivity & toughnessf
+250
+150
+200
+100
+50
+0
+Conductivity (S cm⁻¹)
+Toughness (kJ m⁻³)
+0
+250
+500
+750
+1000
+1250
+Pre T-ECH T-ECH Pure ECH
+300
+0.02
+247
+40
+12
+977
+180
+Mechanical properties of T-ECHsc
+0
+100
+200
+300
+400
+500
+0 100 200 300 400 500 600 700
+Tensile strain (%)
+Tensile stress (kPa)
+T-ECH 1
+T-ECH 2
+T-ECH 3
+02468 1 0
+0
+5
+10
+15)aPk( sserts elisneT
+Tensile strain (%)
+Electromechanical propertiesg
+30
+25
+20
+15
+10
+5
+0
+R/Ro
+0 100 200 300 400
+Tensile strain (%)
+T-ECH
+Pouillet’s law
+a
+i) Pre T-ECH
++PEDOT Network
+iii) Pure ECH ii) T-ECH
+Low conductivity
+Soft, Stretchable
+Moderate conductivity
+Stiff, Brittle
+High conductivity
+Soft, Stretchable, Tough
+Our work
+Fig. 2 | Mechanical and electrical properties of conductive hydrogels.
+a Schematic illustration of Pre T-ECH, T-ECH, and Pure ECH. T-ECH has a double
+network structure of template polymer (PAA) and PEDOT:PSS. Pre T-ECH lacks
+PEDOT:PSS network while Pure ECH lacks a template network. b Stress-strain
+curves of T-ECH, Pre T-ECH, and Pure T-ECH (Strain rate = 50%/min). Mechanical
+properties of T-ECH are modiﬁed by changing the amount of crosslinker (MBAA)
+and PEDOT:PSS content (Supplementary Table 1).c Stress-strain curves of T-ECH
+with various PEDOT:PSS contents and crosslinking concentrations.d Images of
+compressed PAA and T-ECH with 60 kPa (20 N) and 120 kPa (35 N), respectively.
+e Compressive stress-strain curves of T-ECH, Pre T-ECH, and PAA (Strain rate =
+0.2%/min) f Graph comparing electrical conductivities (and toughness of Pre T-
+ECH, T-ECH, and Pure ECH. The data plotted represents the mean and standard
+deviation (n = 5 for conductivity, n = 3 for toughness, n means number of inde-
+pendent experiment).g Electrical resistance change of T-ECH under strain (Strain
+rate = 200%/min).
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 4
+
+found to lack a PEDOT-assembled network. In addition, to obtain
+conformational change from Pre T-ECH to T-ECH, small-angle X-ray
+scattering (SAXS) was conducted (Supplementary Fig. 12). It was found
+that DMSO annealing and re-swelling transformed colloidal PED-
+OT:PSS to thin ﬁbrous PEDOT:PSS network, making ordered PED-
+OT:PSS/PAA lamella structure. This conformational change was further
+seen in atomic force microscopy (AFM) image (Supplementary Fig. 13),
+conﬁrming that PEDOT:PSS ﬁbers are made in T-ECH.
+As the interactions between PEDOT chains are enhanced in the
+dried ﬁlm state
+36,37, we investigated the π-π distance between PEDOT
+chains through wide-angle X-ray scattering (WAXS) of fully dried
+hydrogel ﬁlms (Supplementary Fig. 14). The Pure ECH peak around
+q =1 . 8 5Å−1 arose from π-π stacking of PEDOT thiophenes, whereas the
+π-π stacking peak of T-ECH occurred at a higher q (1.87–1.91 Å−1),
+indicating a closer PEDOT-PEDOT distance (3.36 –3.28 Å). Thus, the
+PEDOT-PEDOT interactions were stronger and more well-ordered in T-
+ECH, which resulted in a more stable and homogeneous linear PEDOT
+network with signiﬁcantly decreased conformational disorders. Due to
+the increased interchain packing of PEDOT, it could have a high inter-
+chain charge transfer. Consequently, T-ECH can have high electrical
+conductivity through facilitated inter- and intra-chain charge transfer
+through continuously connected PEDOT chains. Furthermore, T-ECH
+showed stable electrical conductivity even afterﬁve weeks (35 days) in
+deionized water and phosphate-buffered saline (PBS) (Supplemen-
+tary Fig. 15).
+We further con ﬁrmed the uniform, thin network structure of
+PEDOT:PSS in T-ECH with AFM (Fig. 3d and Supplementary Fig. 16).
+From the height and amplitude images, we could clearly observe that
+T-ECH had a thin ﬁbrous structure, whereas the Pure ECH had bulk
+aggregates. In addition, scanning electron microscopy (SEM) and
+e XPS spectra of T-ECH
+170 168 166 164 162 160
+PEDOT:PSS
+T-ECH
+Binding energy (eV)
+172
+)stinu .bra( ytisnetnI
+b SANS profile of hydrogels at low-q
+q (Å⁻¹)
+log(I(q)) (arb .units)
+Pure ECH
+T-ECH
+PAAm T-ECH
+-1.29
+-0.85
+-3
+0.01 0.02
+-0.99
+-0.67
+q (Å⁻¹)
+log(I(q)) (arb. units)
+Pure ECH
+T-ECH
+PAAm T-ECH
+0.10.02
+-1.67
+c SANS profile of hydrogels at mid-q d Structural characterization (AFM)
+nm
+4
+0
+-4
+Pure ECHT-ECH
+200 nm 200 nm
+f UV-vis-NIR spectra of T-ECH
+0
+0.2
+0.4
+0.6
+0.8
+400 600 800 1000 1200 1400 1600 1800
+Absorbance
+Wavelength (nm)
+PEDOT:PSS
+T-ECH
+High level 
+of doping
+Ashby plot of conductive hydrogelsgConductivity (S cm⁻¹)
+16 13
+17
+15
+9
+11
+12
+2
+4
+18
+108 5
+7
+14
+63
+1
+This work
+(T-ECH 1)
+This work
+(T-ECH 2)
+100 200 300 500400 600
+10⁻³
+10⁻²
+10⁻¹
+10⁰
+10¹
+10²
+10³
+Fracture strain (%)
+19
+Pure ECH (without template)a PAAm-based T-ECH
+Phase separation 
+PEDOT PSS PAA PAAm
+PAA-based T-ECH
+Conduction 
+path
+h⁺
+Fig. 3 | Morphological and structural characterizations of T-ECH. aSchematic
+illustration of microstructures of Pure ECH, T-ECH, and PAAm-based T-ECH (PAAm
+T-ECH). In Pure ECH, the electrically conductive pathway is disrupted by insulating
+PSS-rich domains. On the other hand, T-ECH has a continuous PEDOT-connected
+network without bulk PSS aggregates limiting the conductive pathway. PAAm-
+based T-ECH cannot have PEDOT ﬁbrous network due to the phase separation of
+PEDOT:PSS and PAAm. b SANS measurements of Pure ECH, T-ECH (T-ECH 1), and
+PAAm-based T-ECH at low-q ranges (<0.02 Å
+−1). c SANS measurements of Pure ECH,
+T-ECH (T-ECH 1), and PAAm T-ECH at mid-q ranges (0.02 Å−1 < q <0 . 1 4Å−1). d AFM
+height images of T-ECH (left) and Pure ECH (right). Similar results were observed in
+two independent samples.e XPS spectra of the fully dried ﬁlms of PEDOT:PSS
+(black) and T-ECH (blue). f UV-vis-NIR absorbance spectra of PEDOT:PSS (black)
+and T-ECH (blue). g Ashby plot of conductive hydrogels. PEDOT:PSS-based
+hydrogel (blue), polyaniline (PANI)-based hydrogel (yellow), polypyrrole (PPy)-
+based hydrogel (green), and metal-based hydrogel (gray) (Supplementary Fig. 1).
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 5
+
+transmission electron microscopy (TEM) images agreed with our
+ﬁndings, showing bulk layer-like structures in Pure ECH and a ﬁne,
+homogeneously interconnected structure in T-ECH (Supplementary
+Figs. 17 and 18).
+Subsequently, we investigated the PEDOT:PSS ratio and its che-
+mical states in T-ECH using X-ray photoelectron spectroscopy (XPS)
+measurements of the dried hydrogelﬁlms (Fig. 3e). The XPS spectra of
+T-ECH showed clear peaks at ~167 and 162.5 eV due to the S 2p spectra
+of PSS and PEDOT moieties, respectively. Compared with PEDOT:PSS,
+T-ECH had a drastically increased ratio of PEDOT to PSS from 0.53 to
+0.88, implying that an excess amount of insulating PSS shell was
+washed out during the template-directed assembly of the highly con-
+ductive PEDOT:PSSﬁbrous network
+38. Surprisingly, in T-ECH, the S 2p
+peaks of both PEDOT and PSS exhibited a large shift to lower energies,
+which has not been reported previously. We assume that the red shift
+of PEDOT (from 163.5 to 162.5 eV) is due to the high doping level of thin
+PEDOT chains
+39–43. Because the thin PEDOT chains in T-ECH have a
+more accessible three-dimensional area than the large PEDOT aggre-
+gates in PEDOT:PSS, they interact more with polyanions. Therefore,
+they can be stabilized more effectively by anionic PSS. In addition, the
+red shift of the S 2 p peak of PSS was due to the hydrogen bond
+interactions between the PAA template and the PSS shell. Moreover,
+the structural difference of Pre T-ECH and T-ECH was investigated
+through XPS analysis (Supplementary Fig. 19). It was found that Pre
+T-ECH had colloidal bulk PEDOT:PSS. Therefore, it was conﬁrmed that
+the DMSO annealing process made the ﬁbrous PEDOT:PSS network
+inside PAA.
+Finally, we investigated the doping level of PEDOT chains in T-ECH
+using ultraviolet-visible-near infrared (UV-vis-NIR) spectroscopy
+(Fig. 3f). There was a decrease in the polar band absorbance
+(7–800 nm) and an increase in the bipolar band absorbance (above
+1100 nm), indicating a higher charge carrier concentration in T-ECH
+than that in PEDOT:PSS
+22,44. As a result, highly doped nano ﬁbrous
+PEDOT greatly increased the conductivity of hydrogel. Therefore, to
+the best of our knowledge, our T-ECH is the only conductive-polymer
+hydrogel to have both high electrical conductance of over 100 S/cm
+and stretchability of over 200% strain with tissue-like mechanical
+properties (Fig. 3g).
+Tissue adhesion of T-ECH
+For bidirectional bioelectronic communication, it is crucial to establish
+conformal and stable electrical contact between the device and target
+tissue
+16. Our T-ECH electrode was designed to directly form tough
+adhesion onto wet tissues with high conductivity. Therefore, intimate
+bidirectional communication between electronic devices and tissues is
+realized without an additional adhesion layer (Fig.4a).
+When T-ECH contacts wet tissue surfaces, the PAA intimately
+forms multivalent hydrogen bonding arrays and creates stable physical
+crosslinks with the tissue surface. In addition, due to the energy-
+dissipating double-network structure of T-ECH, it exhibited strong
+interfacial toughness with tissue (400 J/m
+2)( F i g .4b). Both Pre T-ECH
+(no PEDOT network) and PAA hydrogels can also make multivalent
+hydrogen bonding arrays with tissue; however, because of the absence
+of the PEDOT:PSS energy dissipation network, they could not realize
+tough adhesion with tissue (<125 J/m
+2). Moreover, neither hydrogel is
+electrically conductive.
+To achieve long-term stable adhesion under harsh environments,
+including ions, water, and temperature, we incorporated a covalent
+crosslinking strategy based on amide coupling. The carboxylic acid
+group of PAA in T-ECH cannot undergo an amide coupling reaction
+with the amino groups of tissue spontaneously because the hydroxy
+group is a poor leaving group. Therefore, we activated the carboxylic
+acid groups of PAA using 1-ethyl-3-(3-dimethylaminopropyl)carbodii-
+mide (EDC) and N-hydroxysuccinimide (NHS esters). The resulting
+activated T-ECH-adhesive (T-ECA) can form covalent crosslinking
+bonds with various tissue surfaces. We observed enhanced toughness
+(800 J/m
+2) and shear strength (120 kPa) after covalent crosslinking. In
+addition, there was no change in the electrical properties after the
+functionalization of T-ECA with T-ECH. Furthermore. T-ECA main-
+tained robust adhesion on porcine skin for more than two weeks in an
+aqueous environment (Fig.4c).
+To evaluate the adhesion performance of T-ECA with various wet
+surfaces, we conducted a 180° peeling test for interfacial adhesion
+energy and a lap shear test for various tissues with polyethylene ter-
+ephthalate (PET) backing (Fig. 4d and Supplementary Fig. 20a –g).
+T-ECA formed intimate and tough adhesion to various wet tissues
+(750 J/m
+2 for arteries, 250 J/m 2 for kidneys) within 10 s of applying
+gentle pressure (Fig.4d, e). Moreover, T-ECA showed high adhesion to
+amine-functionalized gold, suggesting conformal integration of T-ECA
+with electronic devices (Supplementary Fig. 20h). In summary, T-ECA
+is a highly conductive adhesive with a high-water content (~90%),
+tissue-like softness (Young’s modulus of 25 kPa), high stretchability
+(610%), and high toughness (1 MJ/m
+3).
+Bioelectronic functionalities
+We have demonstrated the robust compatibility and functionality of
+T-ECH electrodes for bioelectronic applications. The desirable
+mechanical properties of T-ECH enable robust and conformal inter-
+faces with neural tissues. In addition, the strong adhesive ability allows
+the T-ECA electrodes to adhere to the target tissue without any
+suturing or an additional non-conductive adhesive layer.
+The electrochemical properties of T-ECH were investigated after
+soaking in PBS (Supplementary Fig. 21). The impedance of the T-ECH
+electrodes was signi ﬁcantly lower than that of commercial metal
+electrodes (27.8 Ω at 1 kHz), which was attributed to the high elec-
+tronic conductivity and large electrochemical surface area of the
+T-ECH electrodes. In addition, we found that the impedance of the
+T-ECH electrode were strain-insensitive, up to 100%. Furthermore,
+the T-ECH electrodes exhibited electrochemical stability for seven
+days in PBS, with stable impedance and CSC values. The T-ECH
+electrodes exhibited robust qualities for electrical stimulation. The
+measured charge storage capacity (CSC) of 80 mC/cm
+2 was much
+higher than those of platinum and iridium oxide (IrOx) electrodes
+(Supplementary Fig. 21). The electrochemical properties of T-ECH
+demonstrate the potential of T-ECH electrodes for recording and
+stimulation applications.
+The performance of T-ECH electrodes was evaluated using
+in vivo neuromodulation and electrophysiological recording (Fig.5a,
+c). Sciatic nerve stimulation was successfully conducted using T-ECH
+electrodes. Due to their mechanical properties and strong adhesion
+with biological tissue, the T-ECH electrodes were able to maintain
+stable electrical interfacing under continuous leg motion. T-ECH
+electrodes allow for ultra-low-voltage neuromodulation in vivo
+(Fig. 5a, b). Electrically evoked leg movements were achieved with
+ultra low-voltage stimulation (40 mV at 1 Hz) without penetrating the
+nerve or removing the epineurium (Supplementary Movie 2), which
+is one of the lowest stimulus voltages reported to the best of our
+knowledge
+7,45. An increase in electrically evoked leg movements was
+observed with increasing stimulation voltage, which plateaued
+at 400 mV.
+The T-ECH electrodes also demonstrated robust recording cap-
+ability (Fig. 5c). Due to the improved adhesive properties of T-ECH
+electrodes, stable interfacing between the electrodes and the wet,
+dynamic environment of a continuously beating heart is possible
+without additionalﬁxatives. In combination with its high conductivity,
+the T-ECH electrodes were able to achieve stable, high-quality
+recordings of electrocardiogram (ECG) signals with a signal-to-noise
+ratio (SNR) of 1009 (60.08 dB) (Fig. 5d). This exceptionally high SNR
+can be obtained with only bare T-ECHs compared to other ECG
+devices
+46,47.
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 6
+
+Biocompatibility
+To assess the potential for long-term bioelectronic interfaces, we
+evaluate the in vivo biocompatibility of T-ECH-based implants by
+wrapping bare T-ECH ﬁlm around the sciatic nerve of mice. To assess
+the biocompatibility of the T-ECH, two control groups were tested. The
+same surgical procedure without the implantation of T-ECH electrodes
+was conducted on a sham group and the second group received rigid
+stainless steelﬁlm implants. After 2 weeks of implantation, the immune
+response and variation in the cell population of the sciatic nerve tissue
+were observed by immunohistochemistry (IHC) with the following
+markers; S-100 for Schwann cells, neuro ﬁlament medium (NFM) for
+neuroﬁlaments (axons), and Iba-1 for macrophages (Fig.6). The T-ECH
+implants exhibited no signi ﬁcant difference in the population of
+Schwann cells and axons compared to the sham group. In contrast, the
+rigid stainless steel implant group demonstrated a signi ﬁcantly
+decreased population of myelin-forming Schwann cells due to the
+compression and occlusion by the pressure of the rigid substrate
+48
+(Fig. 6a, c, d). Moreover, there was no signi ﬁcant difference in the
+expression of Iba-1, a key indicator of the immune response, between
+the T-ECH and sham groups (Fig. 6b, e), whereas rigid stainless steel
+implants evoked an increased immune response compared with the
+sham and T-ECH groups in consistency with previous reports
+6,49,50.
+Similarly, the highest degree of ﬁbrosis was observed in the rigid
+stainless steel group with hematoxylin and eosin (H&E) staining
+(Supplementary Fig. 23).
+Discussion
+In this paper, we have made a highly conductive and mechanically
+tough percolation pathway in soft hydrogel through a template-
+directed assembly method. The high binding af ﬁnity between the
+template network and insulating PSS is crucial for the formation of a
+highly conductive PEDOT network without conformational and ener-
+getic disorders. Consequently, T-ECH, our hydrogel, exhibits
+the highest electrical conductivity with high stretchability among the
+previously reported conductive polymer-based hydrogels. Also, the
+double network structure in T-ECH enables soft, stretchable, and
+tough mechanical characteristics. We could further activate T-ECH to
+T-ECA by applying EDC and NHS at the interface to obtain high inter-
+facial toughness with diverse wet tissues. T-ECH also showed excellent
+in-vivo biocompatibility because of its tissue-like softness and high
+Tough adhesion with various tissues
+Tough adhesion with Tissueb
+0
+250
+500
+750
+1000 150
+100
+50
+0
+Pure ECH PAA T-ECH T-ECA
+Interfacial toughness (J m⁻²)
+Shear stress (kPa)
+180 ºC peeling test
+T-ECA
+Skin
+c
+0
+250
+500
+750
+1000
+0 51 0 1 5 2 0 2 5
+Interfacial toughness (J m⁻²)
+Displacement (mm)
+T-ECA
+2 weeks later
+Long-term stability of tissue-adhesion
+e Adhered T-ECA with various tissues
+Skin
+T-ECA
+Peripheral 
+nerve
+T-ECA
+T-ECA
+Heart
+d
+T-ECA 1
+T-ECA 2
+T-ECA 3
+0
+250
+500
+750
+1000
+Interfacial toughness (J m⁻²)
+Skin Artery Kidney Heart Liver
+a Mechanism of tough adhesion of T-ECA on target tissue
+T-ECH
+Tissue
+T-ECA
+Tissue
+T-ECA
+Tissue
+T-ECH
+Tissue
+Activation layer
+Surface
+activation
+Dynamic movements of tissue
+Fig. 4 | Adhesive properties of T-ECH and T-ECA. a Schematic illustration of
+adhesion mechanism of T-ECA. T-ECA is made by activating the adhesive layer on
+the surface of T-ECH.b 180 degrees peeling test, and shear test conducted with pig
+skin. The data plotted represents the mean and standard deviation (n =3 , n means
+the number of the independent experiment).c 180 degrees peel test conducted
+two weeks after applying on the porcine skin. d 180 degrees peeling test of T-ECA
+hydrogels activated from T-ECH hydrogels, with various wet tissues including
+porcine skin, artery, kidney, heart, and liver. The data plotted represents the mean
+and standard deviation (n = 3, n means the number of the independent experi-
+ment). e Optical camera images of strongly attached T-ECA on various tissues.
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 7
+
+water content. Through this study, we demonstrated ultra-low voltage
+neuromodulation on the sciatic nerve and acquired high-quality ECG
+signals from heart tissues with high SNR in vivo animal models. The
+excellent biocompatibility, high electrical conductivity, tissue-like
+modulus, high toughness, and high-resolution patterning capabilities
+of T-ECH highlight its potential as a promising material in a variety of
+bioelectronic applications.
+Methods
+Materials
+The chemicals purchased are used without further puriﬁcation. Acrylic
+acid (99%), ammonium persulfate (APS) (98%), N N ’-methylene bis(a-
+crylamide) (MBAA) (99%), acrylamide (99%), dimethyl sulfoxide
+(DMSO) (99%), N-ethyl carbodiimide hydrochloride (EDC·HCl), and
+N-hydroxysuccinimide (NHS) (98%) were purchased from Sigma-
+Aldrich. PEDOT:PSS aqueous solution (Clevios ™ PH1000, 1.0 –1.3%
+solid content) was purchased from Heraeus Electronic Materials.
+Synthesis of electrically conductive hydrogel (ECH)
+T-ECH. The acrylic acid solution is made by mixing acrylic acid
+monomers (576 mg, 8 mmol), APS (5.5 mg, 0.028 mmol), MBAA
+(4.3 mg, 0.024 mmol) in deionized (DI) water (2.76 mL). Then, PED-
+OT:PSS solution (5.24 mL, 0.1 g of PEDOT:PSS/1 g of acrylic acid
+monomers) was mixed with the acrylic acid solution. The total water
+content in the ﬁnal solution was 8 mL. After degassing, the precursor
+solution was thermal-polymerized at 75 °C for 2 h to make Pre T-ECH.
+Then, DMSO solution (4 mL, 62.5 v% in DI water) was poured into Pre
+T-ECH and annealed at 97 °C for 16 h. Finally, T-ECH (T-ECH 1) was
+made by swelling and washing in DI water. T-ECH 2 and T-ECH 3 are
+synthesized in the same way with different contents of MBAA and
+PEDOT:PSS (Supplementary Table 1).
+Pure ECH. PEDOT:PSS solution and DMSO (13 v%) were mixed thor-
+oughly for 1 h. Then it was dry-annealed at 60 °C overnight, annealed at
+130 °C for 1.5 h, and swelled in DI water to make Pure ECH.
+PAAm T-ECH. PAAm T-ECH was made with the same procedure as T-
+ECH, but the acrylic acid monomers were changed to acrylamide
+monomers.
+T-ECA. T-ECA was made by activating the adhesion layer at the surface
+of T-ECH. An aqueous mixture of EDC (15 mg/mL) and NHS (23 mg/mL)
+was dropped on T-ECH to make T-ECA.
+Mechanical characterization
+Tensile, compression, and fracture tests were measured with a uni-
+versal testing machine (UTM) (Instron 68SC-1). Samples with dimen-
+sions of 5 × 10 mm (width × length), and 6 × 2 mm (radius × thickness)
+were measured for the tensile test and compression test, respectively.
+Strain rates for the tensile test and compression test were 50%/min and
+0.2%/min. For the measurements of fracture toughness, samples of
+width 30 mm and length 10 mm were notched and stretched with a
+a Bipolar sciatic nerve stimulation
+T-ECH 
+electrodes
+Stimulated
+Unstimulated
+Ultra-low voltage neuromodulation
+10
+1
+01 0 0 2 0 0 300 400 500
+Leg moving angle ()
+Voltage (mV)
+T-ECH electrode
+Frequency: 1 Hz
+Pulse duration: 25 ms
+b
+c Electrocardiogram (ECG) recording
+Voltage (mV)
+30
+0
+10
+20
+-10
+Time (sec)
+0 1 2 3
+SNR = 1,233 = 61 dB
+In vivo ECG recordingd
+Heart
+T-ECH
+Fig. 5 | In vivo bioelectronic device functionalities of T-ECH. a Schematic illus-
+tration and image of bipolar sciatic nerve stimulation with T-ECH electrodes on the
+sciatic nerve. b Leg moving angle was measured for various stimulation voltages.
+Values represent the mean and the standard deviation (n = 9 devices examined with
+each mouse). The frequency was set to 1 Hz and the pulse duration was 25 ms.
+c Schematic illustration of in vivo ECG monitoring using T-ECH electrodes. Created
+with BioRender.com.d High-quality recording of ECG signals. SNR = 1122 (61 dB).
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 8
+
+50%/min strain rate. Rheological properties were measured with an
+oscillatory rheometer (MCR302, Anton Paar) using 8 mm parallel plate-
+plate geometry. Frequency sweep measurements were conducted with
+0.25 N force applied with 1% shear strain.
+Electrical characterization
+Electrical conductivity was measured with a 4-point probe (M4P-205
+System, MS TECH) connected to a source meter (2400 SourceMeter,
+Keithley). The conductivity was measured after swelling in D.I. water
+or PBS for 24 h. The measured T-ECH had a length of 10 mm and a
+width of 5 cm. The thickness of T-ECH 1 was 600 µm, T-ECH 2 was
+800 µm, and T-ECH 3 was 1 mm. It was measured with the stainless-
+steel wire electrodes attached to the surface of the hydrogel and the
+wires were connected to the probe tips. For measuring the resistance
+of T-ECHs when stretching, hydrogel samples with 10 mm length and
+5 mm width were attached to the stretcher and connected to the
+source meter with stainless steel wires. They stretched at strain rates
+of 200%/min and 300%/min for the tensile test and cyclic tensile test,
+respectively, with a bending & stretchable machine system (SnM).
+The resistance was simultaneously measured using a source meter
+(2400 SourceMeter, Keithley). Impedance and CV measurements of
+T-ECHs and gold were performed by using a potentiostat (VSP-300,
+BioLogic) in PBS with a platinum electrode as the counter electrode
+and Ag/AgCl as the reference electrode. The exposed area of T-ECHs
+in PBS was kept at 3 mm × 3 mm. Potentiostatic electrochemical
+impedance spectroscopy (PEIS) was done with an amplitude
+of 500 mV, measured from 1 Hz to 1 MHz. For measuring the impe-
+dance of T-ECH when stretching, the impedance of T-ECH was mea-
+sured with different strains in PBS with platinum as the counter
+electrode. CV was measured at a scan rate of 100 mV/s from −0.5 to
+0.5 V. CSC was calculated from the CV curves according to the
+equation below.
+CSC =
+R
+ðcurrent density per area Þ dE
+2× ðscan rateÞ
+Small-angle neutron scattering(SANS), small-angle X-ray scat-
+tering (SAXS), and wide-angle X-ray scattering (WAXS)
+SANS measurements of hydrogels were performed using a 40 m
+SANS instrument at HANARO, the Korea Atomic Energy Research
+Institute (KAERI) in Daejeon, Republic of Korea. The average
+a bCell viability Inflammatory responses
+Sham control
+T-ECH
+Sham control
+T-ECH
+S100
+NFM
+S100
+NFM Iba1
+Iba1
+Iba1
+Stainless Steel
+S100
+NFM
+Stainless Steel
+T-ECH Sham Stainless steel
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+NFM
+NS NS
+NS
+d
+Normalized Intensity Normalized Intensity 
+c
+S100
+NS
+*
+*
+T-ECH Sham Stainless steel
+0
+0.5
+1.0
+1.5
+2.0
+Normalized Intensity 
+e
+T-ECH Sham Stainless Steel
+Iba1
+NS ***
+***
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+Fig. 6 | Biocompatibility test of T-ECH. a, b Representative immunoﬂuorescence
+images of the sciatic nerve 14 days after implantation with T-ECH, sham group, and
+stainless steel (S-100 in red; NFM in yellow; Iba1 in green; DAPI in blue). Scale bar =
+100 μm. c–e Normalizedﬂuorescence intensity of T-ECH, stainless steel, and sham
+group respectively for (c)S - 1 0 0 ,(d) NFM, and (e) Iba1. Data are plotted as mean
+values and the error bar represents the standard deviation. One-way ANOVA and
+Tukey’s multiple comparison tests were employed for statistical analysis; *P <0 . 0 5
+***P <0 . 0 0 1w i t hac o nﬁdence level of 95%. (n = 5 devices examined with individual
+mice for S100 and NFM of sham. n =7f o rS 1 0 0a n dN F Mo fT - E C Ha n ds t a i n l e s s
+steel, n = 7 for Iba1 of all groups. For comparison of S-100 intensity, P =0 . 0 3f o r
+both between T-ECH and stainless steel and between Sham and stainless steel. For
+comparison of Iba1 intensity,P = 0.0004 for both between T-ECH and stainless steel
+and between Sham and stainless steel).
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 9
+
+wavelength of the neutron beam was 6 Å. Two sample-to-detector
+distances (SDDs) of 2.5 m and 14.89 m were used to cover the q
+range. The hydrogels were swelled with deuterated water and put
+into the cells. The intensities were corrected with background scat-
+tering, empty cell scattering, and the sensitivity of detector pixels in
+deuterated water. Then, the absolute intensity was calculated by
+using the direct beam ﬂux method. SAXS and WAXS measurements
+were performed at the 4 C SAXS II beamline at the Pohang Accel-
+erator Laboratory (PAL) in Pohang, Republic of Korea. Storage ring
+energy was 3.0 GeV with an energy resolution ( ΔE/E) of 2 × 10
+−4. The
+sample-to-detector distances (SDDs) were set at 4 m, 1 m, and 20 cm.
+SAXS measurement hydrogels were measured after swelling in DI
+water for 24 h and WAXS measurements were performed with fully
+dried ﬁlms.
+UV-vis-NIR spectroscopy
+T-ECH sample was prepared as follows. Acrylic acid monomer
+(100 mg) and APS (1 mg) were mixed in DI water (1 mL) to make a
+precursor solution. Then, the precursor solution was thermal-
+polymerized at 75 °C for 2 h to make the PAA solution. Then, dilu-
+ted PAA solution (20 mg/mL) was mixed with PEDOT:PSS solution
+(10 mg/mL) and spin-coated on O
+2 plasma-treated glass at 2000 rpm
+for 30 s. Then, it was annealed at 90 °C for 15 min, followed by
+dropping DMSO on the sample and annealing at 125 °C for 2 h. For
+pure PEDOT:PSS sample, PEDOT:PSS solution was spin-coated on O
+2
+plasma-treated glass at 2000 rpm for 30 s and annealed at 90 °C for
+1 h. The glass substrates used were cleaned through sequential
+washing with acetone, ethanol, and DI water. UV-vis-NIR absorption
+spectra were measured using UV-Visible/NIR spectrophotometer
+(V-770, Jasco).
+X-ray photoelectron spectroscopy (XPS)
+Fully dried ﬁlms were measured for XPS (K-alpha, Thermo VG Scien-
+tiﬁc) with a monochromic Al K-alpha source under a high vacuum
+condition of 10−9 Torr.
+AFM, TEM, SEM, and micro-CT imaging
+AFM. T-ECH sample was prepared as follows. Acrylic acid monomer
+(100 mg) and APS (1 mg) were mixed in DI water (1 mL) to make a
+precursor solution. Then, the precursor solution was thermal-
+polymerized at 75 °C for 2 h to make the PAA solution. Then, dilu-
+ted PAA solution (20 mg/mL) was mixed with PEDOT:PSS solution
+(10 mg/mL) and spin-coated on an O
+2 plasma-treated Si wafer at 2000
+rpm for 30 s. Then, it was annealed at 90 °C for 15 min, followed by
+dropping DMSO on the sample and annealing it at 125 °C for 2 h. Pre
+T-ECH sample was prepared as follows. Acrylic acid monomer
+(100 mg) and APS (1 mg) were mixed in DI water (1 mL) to make a
+precursor solution. Then, the precursor solution was thermal-
+polymerized at 75 °C for 2 h to make the PAA solution. Then, dilu-
+ted PAA solution (20 mg/mL) was mixed with PEDOT:PSS solution
+(10 mg/mL) and spin-coated on an O2 plasma-treated Si wafer at 2000
+rpm for 30 s. Then, it was annealed at 90 °C for 3 h. For the Pure ECH
+sample, PEDOT:PSS solution was spin-coated on an O
+2 plasma-treated
+Si wafer at 2000 rpm for 30 s and annealed at 90 °C for 15 min, fol-
+lowed by dropping DMSO on the sample and annealing it at 125 °C for
+2 h. AFM images were obtained using AFM Microscope (NX10, Park
+Systems).
+TEM. For PEDOT:PSS/PAA with DMSO sample, PEDOT:PSS solution was
+mixed with PAA (1:1) and DMSO (25 v%) was added. PEDOT:PSS with
+DMSO sample was made by adding DMSO (25 v%) in PEDOT:PSS
+solution. Then, all the samples were deposited on the TEM grid (Car-
+bon Film Supported Copper Grid, Sigma-Aldrich) and dry-annealed.
+TEM measurement was done using an ultrahigh-resolution analytical
+electron microscope (JEM-3010, JEOL).
+SEM. Hydrogels were freeze-dried by freezing into liquid nitrogen and
+drying in freeze-drier under vacuum conditions of 4 × 10
+−3 Torr. Cross-
+sectional images were obtained using SEM (S-4800, Hitachi).
+Micro-CT. Hydrogels were freeze-dried by freezing into liquid nitro-
+gen and drying in freeze-drier under vacuum conditions of 4 × 10 −3
+Torr. Micro-CT images were obtained using X-ray Micro Computed
+Tomography (SkyScan 1272, Bruker).
+Adhesion tests
+All samples were prepared with a width of 2 cm and attached to PET
+backing using Krazy glue. Pig skin, artery, kidney, heart, and liver tis-
+sues were purchased from the local store. Adhesion tests were per-
+formed with a universal testing machine (UTM) (Instron 68SC-1).
+180 °C peeling test and shear test were done with a strain rate of
+50 mm/min. Interfacial toughness was obtained by dividing the force
+by the width of the sample. Shear stress was determined by dividing
+force by the attached area.
+For the gold adhesion test, the gold substrate was functionalized
+with amine groups. First, the gold substrate was cleaned through
+acetone, ethanol, and DI water washing. Then, it was O
+2 plasma cleaned
+with 50 W for 1 min. The cleaned gold was then immersed in 1 mM
+aqueous cysteamine solution for 1 h, followed by washing with DI water
+and drying under a vacuum.
+In vivo sciatic nerve stimulation
+All animal experiments were conducted under the review and regula-
+tions of the Institutional Animal Care and Use Committee of KAIST.
+Male C57BL/6 N mice aged 8 –10 weeks (Koatech, South Korea) were
+used in the sciatic nerve stimulation, and all the procedures were
+conducted under aseptic conditions. Mice were anesthetized with
+isoﬂurane (2 –5% in oxygen), and the infrared lamp was given to
+maintain the body temperature. After shaving the leg hairs, a 1 cm
+incision was made on the medial hindlimb. The sciatic nerve was
+exposed by slitting the biceps femoris muscle. T-ECH electrodes for
+nerve stimulation were prepared in size 1 mm × 3 mm, and back-
+insulated with PDMS-based self-healing polymer. Two electrodes were
+gently placed under the sciatic nerve. The biphasic pulses were given
+with an isolated pulse stimulator (2100, A-M systems). The pulse
+parameter of frequency and pulse duration was set to 1 Hz and 25 ms,
+respectively. The voltage for stimulation ranged from 40 to 500 mV.
+The angle of leg movement was measured with a protractor placed
+beneath the leg. For precise comparison, the leg was in its original
+position for each measurement.
+In vivo ECG recording
+Female SD rats aged 10–12 weeks (Koatech, South Korea) were used in
+acute epicardial recording experiments. Rats were anesthetized with
+isoﬂurane (2 –5% in oxygen) for general anesthesia. An acute tra-
+cheotomy was conducted and the rats were intubated on a ventilator
+(VentElite Small Animal Ventilator, Harvard Apparatus) at 90 breaths
+per minute. The ribs were cut to expose the heart and the pericardium
+was gently removed. Electrodes were prepared of size 1 mm × 3 mm
+and connected to silver paint to copper wires. Electrodes were placed
+2 mm apart with a PDMS-based self-healing polymer. During ECG
+recording, working and reference electrodes were placed on the left
+atrium and recorded with a bandpass ﬁlter of 0.3 Hz ~70 Hz (Lab Rat
+System, Tucker-Davis Technologies). Both electrodes were lightly
+pressed for 5 s to enable robust adhesion on the epicardial surface.
+Immunohistochemistry (IHC)
+Male mice aged 8–10 weeks were used for immunohistochemistry, and
+their sciatic nerves were exposed as described in the In-vivo sciatic
+nerve stimulation section. T-ECH electrodes and stainless-steel ﬁlms
+with a size of 1 mm × 3 mm were implanted around the sciatic nerve
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 10
+
+after being sterilized with 70% ethyl alcohol and 1 h of UVC illumina-
+tion. For the sham group, surgery to expose sciatic nerve was con-
+ducted without the implant. For chronic implantation without
+infection, the incision was sutured with bioabsorbable VICRYL sutures
+(Ethicon), and antiseptic was applied. Following recovery, mice were
+housed individually and maintained at 22˚C, 12-h light/dark cycle, and
+45% humidity with free access to the food and water ad libitum. After
+2 weeks of implantation, mice were transcardially perfused with 4%
+paraformaldehyde (PFA) in PBS. The sciatic nerves were dissected,
+kept in 4% PFA for 16 h at 4˚C, and transferred in 30% sucrose solution
+at 4 ˚C for cryoprotection. The nerves, frozen within the OCT com-
+pound (Tissue-Tek OCT compound, Sakura), were sectioned for
+staining. The sections were blocked and permeabilized in 0.3% Triton-
+X 100 (Sigma) and 5% normal donkey serum (Abcam) in PBS. After
+rinsed in PBS, the sections were incubated overnight at 4 ˚C with pri-
+mary antibodies; Anti-S100 (1:200, ab52642, Abcam) and Anti-160kD
+NFM (1:200, ab195658, Abcam), or Anti-Iba1 (1:1000, ab107159,
+Abcam). The sections were rinsed with PBS and incubated for 2 h with
+secondary antibodies Donkey Anti-Goat IgG H&L Alexa Fluor 488
+(1:250, ab150129, Abcam) and/or Donkey Anti-Rabbit IgG H&L Alexa
+Fluor 594 (1:250, ab150076, Abcam). The sections were mounted and
+counterstained with DAPI, 4’6-diamidino-2-phenylindole (Vectashield,
+Vector Laboratories). Sections were examined with a laser-scanning
+confocal microscope (C2, Nikon) for image acquisition. The quantiﬁ-
+cation of ﬂuorescent intensity was analyzed with ImageJ by cropping
+the contour of the sciatic nerve and averaging the intensity values
+using the same software.
+Histology (hematoxylin and eosin stain)
+Implants in male mice were conducted as described in the Immuno-
+histochemistry section. After a 2-week implantation period, the mice
+were humanely euthanized by CO2 inhalation. The sciatic nerve and
+surrounding muscle tissue were carefully dissected. The tissues of
+interest were then ﬁxed in 10% formalin for 24 h prior to histological
+processing. The ﬁxed tissues were sequentially dehydrated in
+increasing concentrations of ethanol before being embedded in par-
+afﬁn with a tissue processor (Leica TP1020). The embedded tissues
+were then sectioned with a rotary microtome (Leica RM2235) and
+stained with Hematoxylin and Eosin for microscopic examination. The
+blind histological evaluation was conducted by a histopathologist.
+Statistical analysis
+GraphPad Prism (GraphPad Software) was used for statistical analysis.
+For immunohistochemistry, the normality of theﬂuorescence intensity
+data was assessed using the Kolmogorov-Smirnov test, while the
+homogeneity of variance was evaluated using the Brown-Forsythe test.
+One-way ANOVA and Tukey’sm u l t i p l ec o m p a r i s o nt e s tw e r ee m p l o y e d
+to assess the statistical signiﬁcance with threshold of
+*P <0 . 0 5 ,**P <0 . 0 1 ,
+***P <0 . 0 0 1 .
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The data that support theﬁndings of this study are available within this
+article and its Supplementary Information. Source data is provided as
+Source Data ﬁle. Data is also available from the corresponding author
+upon request. Source data are provided with this paper.
+References
+1. Lim, C. et al. Tissue-like skin-device interface for wearable bioe-
+lectronics by using ultrasoft, mass-permeable, and low-impedance
+hydrogels.Sci. Adv. 7, eabd3716 (2021).
+2. Viventi, J. et al. Flexible, foldable, actively multiplexed, high-density
+electrode array for mapping brain activity in vivo.Nat. Neurosci.14,
+1599– 1605 (2011).
+3. Choi, S. et al. Highly conductive , stretchable and biocompatible
+Ag-Au core-sheath nanowire composite for wearable and
+implantable bioelectronics.Nat. Nanotechnol.13,
+1048– 1056 (2018).
+4. Chen, R., Canales, A. & Anikeeva, P. Neural recording and mod-
+ulation technologies.Nat. Rev. Mater. 2, 16093 (2017).
+5. Canales, A. et al. Multifunctional ﬁbers for simultaneous optical,
+electrical and chemical interrogation of neural circuits in vivo.Nat.
+Biotechnol.33,2 7 7– 284 (2015).
+6 . F e i n e r ,R .&D v i r ,T .T i s s u e– electronics interfaces: from implantable
+devices to engineered tissues.Nat. Rev. Mater. 3, 17076 (2017).
+7. Liu, Y. X. et al. Soft and elastic hydrogel-based microelectronics for
+localized low-voltage neuromodulation.Nat. Biomed. Eng. 3,
+58– 68 (2019).
+8 . F u ,F .F . ,W a n g ,J .L . ,Z e n g ,H .B .&Y u ,J .F u n c t i o n a lc o n d u c t i v e
+hydrogels for bioelectronics.ACS Mater. Lett. 2,1 2 8 7– 1301 (2020).
+9. Lin, M. Y., Hu, H. J., Zhou, S. & Xu, S. Soft wearable devices for deep-
+tissue sensing. Nat. Rev. Mater. https://doi.org/10.1038/s41578-
+022-00427-y(2022).
+10. Zhang, Y. Z. et al. MXenes stretch hydrogel sensor performance to
+new limits. Sci. Adv. 4, eaat0098 (2018).
+11. Feig, V. R., Tran, H., Lee, M. & Bao, Z. Mechanically tunable con-
+ductive interpenetrating networkhydrogels that mimic the elastic
+moduli of biological tissue.Nat. Commun. 9,2 7 4 0( 2 0 1 8 ) .
+12. Lu, B. Y. et al. Pure PEDOT:PSS hydrogels. Nat. Commun. 10,
+1043 (2019).
+13. Zhang, S. M. et al. Room-temperature-formed PEDOT:PSS hydro-
+gels enable injectable, soft, and healable organic bioelectronics.
+Adv. Mater. 32, 1904752 (2020).
+14. Yao, B. et al. Ultrahigh-conducti vity polymer hydrogels with arbi-
+trary structures.Adv. Mater. 29, 1700974 (2017).
+15. Teo, M. Y. et al. Direct patterning of highly conductive PEDOT:PSS/
+ionic liquid hydrogel via microreactive inkjet printing.ACS Appl.
+Mater. Inter. 11,3 7 0 6 9–
+37076 (2019).
+16. Deng, J. et al. Electrical bioadhesive interface for bioelectronics.
+Nat. Mater. 20, 229– 236 (2021).
+17. Li, J. et al. Tough adhesives for diverse wet surfaces. Science 357,
+378– 381 (2017).
+18. Li, S. N., Cong, Y. & Fu, J. Tissue adhesive hydrogel bioelectronics.J.
+Mater. Chem. B 9,4 4 2 3– 4443 (2021).
+19. Lee, Y. Y. et al. A Strain-insensitive stretchable electronic con-
+ductor: PEDOT:PSS/acrylamide organogels.Adv. Mater. 28,
+1636– 1643 (2016).
+20. Zhang, D. et al. Highly stretchabl e, self-adhesive, biocompatible,
+conductive hydrogels as fullypolymeric strain sensors.J. Mater.
+Chem. A 8,2 0 4 7 4– 20485 (2020).
+21. Suneetha, M. et al. Tissue-adhesiv e, stretchable, and self-healable
+hydrogels based on carboxymethyl cellulose-dopamine/PED-
+OT:PSS via mussel-inspired chemistry for bioelectronic applica-
+tions. C h e m .E n g .J .426, 130847 (2021).
+22. Wang, Y. et al. A highly stretchab le, transparent, and conductive
+polymer. Sci. Adv. 3,e 1 6 0 2 0 7 6( 2 0 1 7 ) .
+2 3 . S h i ,H . ,L i u ,C .C . ,J i a n g ,Q .L .&X u ,J .K .E f f e c t i v ea p p r o a c h e st o
+improve the electrical conductivity of PEDOT:PSS: a review.Adv.
+Electron. Mater.1, 1500017 (2015).
+24. vanBlaaderen, A., Ruel, R. & Wiltzius, P. Template-directed colloidal
+crystallization.Nature 385,3 2 1– 324 (1997).
+2 5 . J i a n g ,P . ,H w a n g ,K .S . ,M i t t l e m a n ,D .M . ,B e r t o n e ,J .F .&C o l v i n ,V .L .
+Template-directed preparation of macroporous polymers with
+oriented and crystalline arrays of voids.J. Am. Chem. Soc. 121,
+11630– 11637 (1999).
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 11
+
+26. Stoykovich, M. P. et al. Direc ted assembly of block copolymer
+blends into nonregular device-oriented structures.Science 308,
+1442– 1446 (2005).
+27. Gong, J. P., Katsuyama, Y., Kurokawa, T. & Osada, Y. Double-network
+hydrogels with extremely high mechanical strength.Adv. Mater.15,
+1155– 1158 (2003).
+28. Chen, Q., Chen, H., Zhu, L. & Zheng, J. Fundamentals of double
+network hydrogels.J. Mater. Chem. B 3,3 6 5 4– 3676 (2015).
+29. Afanasenkau, D. et al. Rapid prototyping of soft bioelectronic
+implants for use as neuromuscular interfaces.Nat. Biomed. Eng. 4,
+1010– 1022 (2020).
+30. Noriega, R. et al. A general relationship between disorder, aggre-
+gation and charge transport in conjugated polymers.Nat. Mater.12,
+1038– 1044 (2013).
+31. Le, T. H., Kim, Y. & Yoon, H. Electrical and electrochemical prop-
+erties of conducting polymers.Polymers 9,1 5 0( 2 0 1 7 ) .
+32. Bubnova, O. & Crispin, X. Towards polymer-based organic ther-
+moelectric generators.Energ. Environ. Sci. 5,9 3 4 5– 9362 (2012).
+33. Roe, R. J. Methods of X-ray and Neutron Scattering in Polymer Sci-
+ence (Oxford University Press, New York, 2000).
+34. Dawn, A. et al. Investigating the effect of supramolecular gel phase
+crystallization on gel nucleation.Soft Matter 14, 9489– 9497 (2018).
+35. Seibt, S., Zhang, H. Y., Mudie, S., Forster, S. & Mulvaney, P.
+Growth of Gold Nanorods: A SAXS Study. J. Phys. Chem. C 125,
+19947– 19960 (2021).
+36. Atoyo, J., Burton, M. R., McGettrick, J. & Carnie, M. J. Enhanced
+electrical conductivity and seebeck coefﬁcient in PEDOT:PSS via a
+two-step ionic liquid and NaBH4 treatment for organic thermo-
+electrics.Polymers 12, 559 (2020).
+3 7 . K i m ,S .M .e ta l .I nﬂuence of PEDOT:PSS crystallinity and compo-
+sition on electrochemical transistor performance and long-term
+stability.Nat. Commun. 9,3 8 5 8( 2 0 1 8 ) .
+38. Kim, Y., Cho, W., Kim, Y., Cho, H. & Kim, J. H. Electrical character-
+istics of heterogeneous polymer layers in PEDOT:PSSﬁlms. J. Mater.
+Chem. C 6,8 9 0 6– 8913 (2018).
+39. Bubnova, O. et al. Optimization of the thermoelectricﬁgure of merit
+in the conducting polymer poly(3,4-ethylenedioxythiophene).
+Nat.
+Mater. 10,4 2 9– 433 (2011).
+4 0 . K i m ,J .S . ,J a n g ,W .&W a n g ,D .H .T h ei n v e s t i g a t i o no ft h eS e e b e c k
+effect of the poly(3,4-ethylenedioxythiophene)-tosylate with the
+various concentrations of an oxidant.Polymers 11,2 1( 2 0 1 9 ) .
+41. Zhu, Z. Y. et al. An effective approach to enhanced thermoelectric
+properties of PEDOT:PSSﬁlms by a DES post-treatment. J. Polym.
+Sci. Pol. Phys. 53,8 8 5– 892 (2015).
+42. Chen, R. et al. Sequential solution polymerization of poly(3,4-
+ethylenedioxythiophene) using V2O5 as oxidant for ﬂexible touch
+sensors. Iscience 12,6 6– 82 (2019).
+43. Kondratenko, K., Guerin, D., Wallart, X., Lenfant, S. & Vuillaume, D.
+Thermal and electrical cross-plane conductivity at the nanoscale in
+poly(3,4-ethylenedioxythiophene):triﬂuoromethanesulfonate thin
+ﬁlms. Nanoscale 14,6 0 7 5– 6084 (2022).
+44. Sakai, N. et al. Adduct-based p-doping of organic semiconductors.
+Nat. Mater. 20,1 2 4 8– 1254 (2021).
+45. Li, G. et al. Highly conducting and stretchable double-network
+hydrogel for soft bioelectronics.Adv. Mater. 34, 2200261 (2022).
+46. Fang, H. et al. Capacitively coupled arrays of multiplexed ﬂexible
+silicon transistors for long-term cardiac electrophysiology.Nat.
+Biomed. Eng. 1,0 0 3 8( 2 0 1 7 ) .
+47. Sinha, S. K. et al. Screen-printed PEDOT:PSS electrodes on com-
+mercial ﬁnished textiles for electrocardiography.ACS Appl. Mater.
+Inter. 9,3 7 5 2 4– 37528 (2017).
+4 8 . M a t a ,M . ,A l e s s i ,D .&F i n k ,D .J .S 1 0 0i sp r e f e r e n t i a l l yd i s t r i b u t e di n
+myelin-forming Schwann cells.J. Neurocytol. 19,4 3 2– 442 (1990).
+49. Grill, W. M. & Mortimer, J. T. Neu ral and connective tissue response
+to long-term implantation of multiple contact nerve cuff electro-
+des. J. Biomed. Mater. Res. 50,2 1 5– 226 (2000).
+50. Vince, V. et al. Cuff electrode implantation around the sciatic nerve
+is associated with an upregulation of TNF-alpha and TGF-beta 1.J.
+Neuroimmunol.159,7 5– 86 (2005).
+Acknowledgements
+This study was supported by the National R&D Program through the
+National Research Foundation of Korea (NRF) funded by the Ministry of
+Science and ICT (2021M3H4A1A04092882 and
+2022M3H4A1A04096393). Figure5c was created with BioRender.com.
+Author contributions
+J.C., S.C., S.P., and J.K. conceived and designed the experiments. J.C.
+synthesized and characterized T-ECH.J.C., T.K., H.P., and J.K. analyzed
+the data. J.C. and H.K. performed mechanical tests. J.C., C.S., and K.S.N.
+performed in vivo experiments. C.S. performed immunoﬂuorescence
+staining and data analyses. J.C. and H.L. obtained AFM data. H.P. syn-
+thesized self-healing polymer backing. J.C., C.S., K.S.N., S.P., and J.K.
+wrote the paper. All the authors discussed the results and commented
+on the manuscript. J.K. supervised the study.
+Competing interests
+The authors declare no competing interest.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-023-37948-1.
+Correspondenceand requests for materials should be addressed to
+Seongjun Park or Jiheong Kang.
+Peer review informationNature Communicationsthanks Yuxin Liu and
+the other, anonymous, reviewer(s) for their contribution to the peer
+review of this work. Peer reviewer reports are available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons license, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons license and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2023
+Article https://doi.org/10.1038/s41467-023-37948-1
+Nature Communications|         (2023) 14:2206 12

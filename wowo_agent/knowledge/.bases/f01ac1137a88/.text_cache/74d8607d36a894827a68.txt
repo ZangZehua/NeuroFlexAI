@@ -1,0 +1,1234 @@
+Article https://doi.org/10.1038/s41467-024-47223-6
+Kinetically controlled metal-elastomer
+nanophases for environmentally resilient
+stretchable electronics
+Soosang Chae1,2,12, Won Jin Choi 3,12 , Lisa Julia Nebel 4, Chang Hee Cho5,
+Quinn A. Besford1,A n d r éK n a p p1, Pavlo Makushko6,Y e v h e nZ a b i l a6,
+Oleksandr Pylypovskyi 6,7, Min Woo Jeong8, Stanislav Avdoshenko9,
+Oliver Sander 4,D e n y sM a k a r o v6, Yoon Jang Chung10, Andreas Fery 1,11,
+Jin Young Oh 8 &T a eI lL e e5
+Nanophase mixtures, leveraging the complementary strengths of each com-
+ponent, are vital for composites to overcome limitations posed by single ele-
+mental materials. Among these, metal-elastomer nanophases are particularly
+important, holding variouspractical applications for stretchable electronics.
+However, the methodologyand understanding of nanophase mixing metals
+and elastomers are limited due to difﬁculties in blending caused by thermo-
+dynamic incompatibility. Here, we prese n tac o n t r o l l e dm e t h o du s i n gk i n e t i c s
+to mix metal atoms with elastomeric chains on the nanoscale. Weﬁnd that the
+chain migration ﬂux and metal deposition rate are key factors, allowing the
+formation of reticular nanophases when kinetically in-phase. Moreover, we
+observe spontaneous structuralevolution, resulting in gyriﬁed structures akin
+to the human brain. The hybridized gyriﬁed reticular nanophases exhibit
+strain-invariant metallic electricalconductivity up to 156% areal strain,
+unparalleled durability in organic solvents and aqueous environments with pH
+2– 13, and high mechanical robustness, a prerequisite for environmentally
+resilient devices.
+Nanophase mixtures serve as building blocks for functional compo-
+sites because they can potentially maximize synergistic effects by
+leveraging the strengths of each component without any
+compromise
+1– 4. However, when combining materials that lack strong
+mutual interaction, thermodynamically driven phase separation
+hinders the blending of their chemical and physical properties
+5– 8.
+This challenge is particularly pronounced in composites of metals
+and elastomers for stretchable conducting membranes 8– 12.S u c h
+membranes have long sought after properties that include metal-like
+conductivity, rubber-like elasticity, mechanical durability, and phy-
+sicochemical resilience
+13– 17. Nevertheless, creating conductive metal-
+elastomer nanophase mixtures is challenging, as the simple physical
+Received: 29 November 2023
+Accepted: 23 March 2024
+Check for updates
+1Leibniz-Institut für Polymerforschung Dresden e.V., Institute of Physical Chemistry and Polymer Physics, Hohe Str. 6, 01069 Dresden, Germany.2School of
+Energy Materials and Chemical Engineering, Korea University of Technology and Education, Cheonan 31253, South Korea.3Lawrence Livermore National
+Laboratory, 7000 East Ave., Livermore, CA 94550, USA.4Institut für Numerische Mathematik, Technische Universität Dresden, Zellescher Weg 12–14, 01069
+Dresden, Germany.5Department of Materials Science and Engineering, Gachon University, Seong-nam Gyeonggi 13120, Republic of Korea.6Helmholtz-
+Zentrum Dresden-Rossendorf e.V., Institute of Ion Beam Physics and Materials Research, 01328 Dresden, Germany.7Kyiv Academic University, 03142
+Kyiv, Ukraine. 8Department of Chemical Engineering (Integrated Engineering Program), Kyung Hee University, Yongin 17104, Republic of Korea.9Leibniz-
+Institut für Festkörper- und Werkstoffforschung e.V., Institute for Solid State Research, Nothnitzer Str. 49A, 01069 Dresden, Germany.10Department of
+Chemical and Biological Engineering, Korea University, Seoul 02841, Republic of Korea.11Technische Universität Dresden, Mommsenstr. 4, 01062
+Dresden, Germany.12These authors contributed equally: Soosang Chae, Won Jin Choi. e-mail: choi21@llnl.gov; jyoh@khu.ac.kr; t2.lee77@gachon.ac.kr
+Nature Communications|         (2024) 15:3071 1
+1234567890():,;
+1234567890():,;
+
+mixing of metal nanoparticles (or nanowires) 13,14,18 with elastomer
+precursors or the in-situ reduction of metal nanostructures within
+the elastomer
+19– 22 have proven to be insuf ﬁcient, as they result in
+either low electrical conductance or reduced mechanical stretch-
+ability or elasticity 23. Alternatively, intrinsically stretchable organic
+conductors24,25 or extrinsically con ﬁgured structures, such as wrin-
+kled/buckled15,26– 28 and kirigami structures 29,30, could solve such
+performance issues. However, we still expect true metal-elastomer
+nanophases to be a superior option, especially for usage in high-
+proﬁt bioelectronic applications which require high- ﬁdelity, long-
+term stable operation
+31 in demanding microcosms within the human
+body32. This is because tailored metal-elastomer nanophases should
+excel in electrical performance, mechanical durability, and environ-
+mental resilience, where each characteristic is inherited from the
+respective metal and elastomer components. Nanoscale blending
+forms large interfaces that enhance the adhesion strength between
+metal and polymer
+33– 35,a sw e l la s“softened” metal nanoparticles and
+nanostructures result from high surface excess elasticity 36. Addi-
+tionally, highly percolated, and adaptable electrical conduction
+paths
+37– 39 open up untapped possibilities.
+Noble metal deposition on elastomer templates has previously
+been utilized for stretchable conductors40– 43. A particularly well-known
+approach is the thermal evaporation of gold (Au) on styrene-ethylene-
+butylene-styrene (SEBS) thermoplastic elastomers. During deposition,
+Au nanoparticles are interpenetrated into the SEBS elastomer and a
+metal-elastomer biphasic layer is formed, which enables a stretchable
+metal conductor
+40,41. However, the metallic Au layer is easily cracked
+under strain, leading to a rather narrow range of electrical
+and mechanical utilization. In addition, thermoplastic elastomers are
+vulnerable to heat and organic solvents, which limits their applications
+in environmentally challenging situations.
+Even when nanoblending between immiscible materials is ther-
+modynamically not preferred, kinetics can offer a way to overcome the
+limits imposed by the physical and chemical properties of materials. In
+this study, we introduce a kinetically controlled method for forming a
+well-blended, metal-elastomer nanophase that is energetically unfa-
+vorable (Fig.1). Nanophase, in this context, refers to materials in which
+two or more different substances are hybridized both physically and
+chemically, effectively suppressing any degradation in their high per-
+formance. This was accomplished by extensively exploring the utili-
+zation of the thermal evaporation method for polymeric substrates.
+While evaporation has been thoroughly investigated for thin ﬁlm
+deposition in the past
+44, herein we revisited this technique from a
+kinetic point of view to meticulously mix metal atoms with elastomeric
+chains.
+Vaporized metal atoms are free-form precursors that can be
+molded into different shapes, from nanoparticles and nano ﬁlms to
+complex three-dimensional (3D) nanophases. A dramatic variety of
+structures and phases could emerge when metal atoms are deposited
+on elastomeric substrates, which can exist in different states ranging
+from liquid (uncrosslinked) mixtures to solid (fully crosslinked) slabs,
+depending on their degree of crosslinking. Even seemingly identical
+solid slabs could have different crosslinking networks and their
+molecular dynamics could vary drastically as a function of the amount
+of excess mobile molecules
+45– 49. To investigate these phenomena and
+utilize them for nanoblending, we vaporized Au atoms on poly-
+dimethylsiloxane (PDMS) substrates with varying deposition
+rate, thickness and prepolymer to crosslinker weight ratio,φ,w h i c hi s
+closely related to the migration ﬂux of excessive crosslinkers.
+Results
+Controlling the morphology of Au-PDMS 3D nanophases
+These combinatorial methods reveal that the morphology of the
+resulting nanostructures can indeed be controlled, ranging from
+nanoparticular, thin ﬁlm, to complex 3D nanophases, as observed by
+optical and transmission electron microscopes (OM and TEM) (Fig.1b
+and Suppl. Fig. 1). This structural variety is also evident from the
+plasmonic color changes due to Au nanostructures (Fig.1c). What ﬁrst
+catches the eye from the images is the distinct formation of nano-
+particular phases, where nanoparticles are embedded in PDMS sub-
+strates, especially whenφ is less than 3. This trend showed up almost
+regardless of the deposition thickness. Note that the deposition
+thickness,d (nm), mentioned here indicates the thickness measured by
+the quartz crystal microbalance within the deposition chamber, which
+can be considered as the product of process time ,t
+process (s), multi-
+plied by the deposition rate (Å s−1). This parameter was used to control
+the total amount of Au atoms deposited and compare the samples with
+each other. On the contrary, whenφ is larger than 10, a thin metalﬁlm
+is formed, consistent with previous reports that utilize standard PDMS
+substrates for thin ﬁlm transfer methods
+50– 53. For intermediate values
+of φ (3 < φ < 10), we observe 3D nanostructure phases that show
+structural variations ranging from elongated nanoparticles and nee-
+dles to networked reticular complexes, as well as metal densi ﬁcation
+into PDMS as φ increases (Suppl. Fig. 1).
+These Au-PDMS nanophases spontaneously form on the exposed
+surface of PDMS within the vacuum chamber, facilitated by the
+migration of excessive crosslinkers from the bulk material toward the
+surface. Inherently then, we should expect the thickness of the PDMS
+sample also play a role in the nanophase formation process, since it
+governs the total volume capacity of excessive crosslinkers (see Suppl.
+Figs. 2 and 3). Modulating the thickness of the PDMS membrane
+resulted in slight variations in the formation conditions for each
+nanophase; nevertheless, consistent trends emerged, indicating that
+increased PDMS thickness led to a higher occurrence of metal
+encapsulation due to higher migrationﬂux. To gain more insight into
+the internal structures of these nanophases through the ﬂow of elec-
+trons, we measured the electrical conductivity ( σ) for all conditions
+using a four-point probe method. Based on these measurements, we
+generated a simpliﬁed map (Suppl. Fig. 4) that not only distinguishes
+between particle, reticular, and thinﬁlm phases but also enables esti-
+mation of the characteristic lengths within the reticular ﬁlms, as they
+exhibit higher values when the Au-PDMS nanophases are more
+interconnected.
+The incorporation of metals into elastomers in kinetically mixed
+nanophases introduces inherent stress due to the moduli mismatch
+between the two constituents. Immediately after Au deposition, the
+Au-PDMS nanophases can be considered to be in a state of mechanical
+metastability, as they exhibit structural evolution over a relatively
+extended period of time (~6 h) (Fig. 1d, e, f, and Suppl. Movie 1). We
+term this evolution process “gyriﬁcation” to distinguish it from com-
+mon wrinkling/buckling. While the term “gyriﬁcation” is commonly
+used to describe the process of forming characteristic folds in the
+cerebral cortex (Fig.1i), our investigation reveals a structural similarity,
+evident by white arrows in the cross-sectional scanning electron
+microscopy (SEM) image of Fig. 1g, h, and the 3D TEM tomography
+image of Suppl. Fig. 5 and Suppl. Movie 2. Unlike conventional wrinkles
+or buckles, which primarily arise in thin metallic ﬁlms on elastomeric
+substrates due to external forces such as pre-stretched substrates, and
+thermal expansion, the gyriﬁed 3D structures in our study originate
+from internal stress within the blended nanophases and chemical
+migrations.
+The 3D nanophases presented here possess tangential stress
+gradients, granting them the necessary elasticity, mechanical stiffness
+comparable to PDMS and malleability for nanoscale folding. In con-
+trast, a conventional bilayer of metal ﬁlm and PDMS can only experi-
+ence buckling and lacks the ability to undergo gyriﬁcation due to the
+high energy cost associated with nanoscale creasing of the metal layer.
+The soft PDMS layer beneath the metal layer is insuf ﬁcient to induce
+the necessary stress for folding in the stiffer metal layer. Although the
+bilayer structure can buckle to form mesoscopic wavy patterns,
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 2
+
+Spontaneous 
+3D structure
+formation
+Au-PDMS 
+nanophases
+: Excess crosslinker
+: Au
+: Crosslinked PDMS
+a
+Strain gradient
+Tangential expansion
+by self-swelling
+2         2.5        3         3.5       4          5        10         20 Particles
+Films
+Nanophases
+b c
+Prepolymer to crosslinker ratio, φ
+5
+150
+25
+75
+10
+50
+100
+200
+Deposition thickness, d (nm)
+Prepolymer to crosslinker ratio, φ
+Deposition thickness, d (nm)
+Structural evolution of 3D Au-PDMS nanophases with time
+As deposited After 6 h
+d
+e g
+Gyrification index
+h
+i
+Folds
+1.0 3.02.0
+As deposited After 6 h
+Migration flux vs.
+deposition rate
+Growth front
+f
+Fig. 1 | Spontaneously formed metal–elastomer nanophase and microscale 3D
+structure. a Schematic illustration of the Au– PDMS nanophase self-forming via
+vaporized Au deposition on a PDMS substrate. By varying the crosslinking ratio of
+PDMS and the deposition thickness of metals, we controlled kinetics over three
+relevant dynamic processes: (1) migration of excess crosslinker, (2) condensation of
+metal atoms into interlinked Au nanostructures, and (3) growth of nanostructures
+and formation of the nanophase. Subsequently, spontaneous structural evolution
+followed to form microscale 3D structures owing to the stress inside. b Surface
+morphology change of Au– PDMS nanophases with various mixing ratio and
+deposition thickness of the metal. Scale bars denote 150μm. c Photo images
+showing the corresponding colors of the samples for each condition. Three dif-
+ferent of nanostructures were observed:“particles”, “3D nanophases”,a n d
+“continuous ﬁlms.” Scale bars denote 1 cm. d Photographs showing spontaneous
+structural evolution over a period of 6 h after Au deposition. The length of the
+PDMS and metal rectangles are 10 mm and 5 mm, respectively. The colors of the
+samples changed according to 3D structure evolution.e An optical microscopy
+image of as-deposited sample (scale bar is 150µm). f An optical microscopy image
+of 3D structure-formed (after 6 h) sample (scale bar is 150µm). g Tilted SEM image
+of gyriﬁed wrinkles (scale bar is 5µm). h A cross-sectional SEM image of the gyriﬁed
+structure. White arrows indicate folds due to structural expansion (scale bar is
+1 µm). i An estimated local gyriﬁcation index (GI) of the human brain as an example
+akin to gyriﬁed 3D structures of Au-PDMS nanophases. GI map of the brain adapted
+with permission from ref. 51. (CC BY 4.0).
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 3
+
+achieving folding at the nanoscale is difﬁcult because the stiffness of
+the metal layer increases exponentially as it deforms. Gyriﬁcation can
+only be observed when the elastic moduli ratio of the two materials,
+EPDMS=ð3EmetalÞ, comprising a composite is high enough to form large
+amplitude but not too high to have less density. A typical example is
+the human brain, which can be thought of as a rubber-rubber com-
+posite with similar elastic moduli. Here, a similar gyriﬁcation process is
+shown between the Au-PDMS nanopahase and Au layer. Detailed
+analytical mechanics with equations are provided in Suppl. Note 1, and
+complementary computational analysis will also be presented to sup-
+port these observations (see below).
+Growth kinetics of Au-PDMS 3D nanophases
+To further investigate the forma tion kinetics of the Au-PDMS 3D
+nanophases, we manipulated theﬂux of Au atoms introduced to PDMS
+by varying the parameterφ. This allowed us to observe the interaction
+and competition between the migrationﬂux of excessive crosslinkers
+and the deposition ﬂux of Au atoms. Cross-sectional high-resolution
+TEM (HRTEM) images clearly illustrate that the nanophase morphol-
+ogy is governed by the relativeﬂux difference (Fig.2a, b). Under ﬁxed
+conditions of a deposition rate of 2.5 Å s
+−1 and a deposition thickness,
+d, of 100 nm, the nanophase morphology exhibits variations with φ,
+transitioning from nanoparticles ( φ = 2), to reticular nanophases
+(φ = 3.5, 5), and eventually to thinﬁlms (φ = 10) (Fig.2a). A similar trend
+is observed when the situation is reversed, maintaining aﬁxed φ of 3.5
+and d of 100 nm but altering the deposition rates (Fig.2b). Plasmonic
+color changes stemming from diverse Au nanostructures lend addi-
+tional support to this observation (Fig. 2c). As the shape of Au
+nanostructures shifted from nanospheres and nanorods to nano-
+needles, the principal localized surface plasmon resonance peaks
+exhibited a red shift, aligning with the electromagnetic simulation
+results (Fig.2d, Suppl. Note 2 and Suppl. Fig. 7). This reafﬁrms that the
+resulting nanophase is determined by the relative ﬂux difference
+rather than the absolute value of individual ﬂuxes.
+These results suggest that in terms of growth kinetics, we can
+classify the nanophases into three distinct cases based on the com-
+petition between the excess crosslinker migration ﬂux (J
+migration)a n d
+the Au depositionﬂux (Jdeposition)( F i g .2e, Suppl. Note 3). Theﬁrst case
+occurs when the migration ﬂux signiﬁcantly exceeds the deposition
+ﬂux ( Jmigration ≫ Jdeposition). Under these conditions, the Au nano-
+particles become entirely enclosed by rapidly migrating excessive
+crosslinkers, preventing further metal coalescence and leading to the
+formation of particulate nanophases. This phenomenon is akin to
+sputtering Au atoms onto a liquid substrate to synthesize nano-
+particles using silicone oil, as previously reported
+54. In the second case,
+when the migration rate is comparable to the deposition rate
+(J
+migration≈ Jdeposition), crosslinkers are unable to completely cover the
+initially nucleated Au nanoparticles due to the limited migration time.
+Consequently, anisotropic growth of Au nanostructures is expected
+from the exposed areas as seed particles, which is schematically
+depicted in Suppl. Fig. 8 and con ﬁrmed by TEM observations (Suppl.
+Fig. 9). The third case arises when the deposition rate greatly exceeds
+the migration rate (J
+migration≪ Jdeposition), leading to the straightforward
+deposition of Au as a thin ﬁlm. Under these conditions, the formation
+of a nanophase between Au and PDMS is suppressed, enabling the
+transfer of the metal ﬁlm, referred to as an elastomeric stamp
+51,52.
+To establish a correlation between the amounts of excessive
+crosslinkers and φ, we also conducted chemical characterizations
+using 1H nuclear magnetic resonance (NMR). Speci ﬁcally, we per-
+formed quantitative analysis on the intensity of peaks corresponding
+to silicon methyl ( I4) and hydride groups ( I5), which represent the
+prepolymer and crosslinkers, respectively (Fig. 2f, g). This approach
+allowed us to estimate the degree of crosslinking in the PDMS mem-
+brane by calculating the ratio of Si – Ht oS i – CH
+3 (I5/I4). The results
+revealed a clear negative correlation with φ, indicating an increase in
+material conjugation as φ increased (Fig. 2h). Our ﬁndings align with
+the mechanism we proposed earlier and inferred from the HRTEM
+images; smaller φ values lead to the formation of nanoparticular
+phases due to a higher number of excessive crosslinkers, which result
+in a higher migrationﬂux. Larger φ values result in thinner nanophase
+thickness due to reduced migration, which is also consistent with the
+measured average value of thickness for samples with different φ
+values, as shown in Fig. 2a, h. Furthermore, the results of a direct
+contact printing experiment of the PDMS slab using Fourier-transform
+infrared spectroscopy and atomic force microscopy provide addi-
+tional support for these ﬁndings (Suppl. Fig. 10).
+Mechanism of gyriﬁcation in Au-PDMS 3D nanophases
+The spontaneous gyri ﬁcation of reticular nanophases, occurring
+within a few hours, stands out as one of the most distinctive aspects of
+our Au-PDMS composite material, setting it apart from many other
+materials instantly formed from wrinkles/buckles. Nanophases with
+different φ values exhibit signiﬁcantly different structural evolution
+timescales and morphologies. For instance, the reticular nanophase
+(φ =3 . 5 ) u n d e r g o e s g y r iﬁcation, leading to the formation of
+micrometer-scale deep, large furrows over a period of 6 h (Fig.3a). In
+contrast, the particulate nanophase (φ = 2), initially characterized by
+ﬁne and smaller (sub-micrometer) structures, develops furrows with
+micrometer-sized amplitudes within a shorter time frame of 2 – 3h
+(Suppl. Fig. 11). The formation of such microstructures originates from
+the residual compressive stress within the nanophases. To identify the
+residual compressive stress accumulated at the interface between Au-
+PDMS nanophases and bulk PDMS, we conducted spatially resolved
+Raman spectroscopy on a freshly Au-deposited PDMS membrane with
+φ = 3.5 (when the stress was not yet relaxed) and compared the spectra
+with those obtained from the same sample before deposition
+(Fig. 3b, c). Following Au deposition, the Raman peaks related to the
+Si– O– Si stretching of PDMS (centered at 490.8 cm
+−1) clearly showed a
+red-shift of≈ 5c m−1, indicating the possible occurrence of spatial strain
+in the PDMS adjacent to the Au layer.
+The Raman data are consistent with the results obtained from
+ﬁnite element method (FEM) simulations based on hyper-elastic
+material models (Suppl. Note 4 and 5). Speci ﬁcally, we used a
+hyperelastic Mooney-Rivlin material with parameters derived from
+uniaxial tensile tests (see Suppl. Fig. 12 and Suppl. Table 1 for the
+uniaxial tensile tests for the φ = 3.5 PDMS). For the plain Au layer and
+the Au-PDMS layer (an elastic rectangular block of dimensions of
+24 µm×2 4 µm×2 0 µmi n x-, y-a n d z-direction), we used two geo-
+metrically exact Cosserat shells as described in the literature
+55.T o
+model the swelling ratio, we attached a swollen plain Au layer and a
+swollen Au-PDMS layer to a stretched-out plain PDMS layer. After
+releasing the stretch on the plain PDMS layer, a 3D microstructure
+formed due to the stress mismatch. For all simulations, we chose the
+same maximum penetration depth of Au atoms as in the HRTEM
+images (Fig. 2a). There was almost no dependence on the deposition
+thickness in the case of φ = 3.5, which corresponds to our
+experiments.
+In our computational analysis, we explored the surface mor-
+phology using three key parameters: Young’s modulus (E
+Y), the swel-
+ling ratio of the Au-PDMS nanophase layer (Q), and the thickness of the
+top plain Au layer (tAu). Among the various experimental conditions, in
+particular we focused on the effect of deposition thickness on the
+swelling and releasing behavior of gyri ﬁed structures. In our simula-
+tions, we assumed that that with an increase in the process time,
+t
+process,a ta ﬁxed deposition rate, both the swelling ratio of the Au-
+PDMS nanophase layer, Q,a n dY o u n g’sm o d u l u s ,EY,a l s oi n c r e a s e
+(Fig. 3d). The calculated surface morphology after stress release clo-
+sely matched the experimental data in many aspects, including the
+shape, feature size, and general trend with increasing t
+process.T h e
+transition from hexagonally arranged islands to a labyrinth pattern was
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 4
+
+conﬁrmed when tAu is 80 nm, Q is 1.3, and EY is 10 GPa, aligning well
+with observations in the OM images. These results support our
+hypothesis that the spontaneous evolution of the 3D structure is
+initially driven by the compressive stresses of an Au-PDMS nanophase
+accumulated by excessive crosslinkers. However, it is important to
+note that the complete replication of gyriﬁed experimental results with
+deep folds in simulations was challenging using this simpli ﬁed FEM
+model, even when scanning all possible computational parameters.
+: Crosslinked 
+: Excess crosslinker
+: Au
+e
+Deposition
+Migration 
+Particular nanophase Reticular nanophase Continuous thin film 
+a 2.5 Å s-1, φ = 2 φ = 3.5 φ = 5 φ = 10
+φ = 3.5, 0.5 Å s-1 1.0 Å s-1 10.0 Å s-1b
+400 500 600 700 800
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+c φ = 2 3.5 5 10
+Wavelength (nm)
+Normalized absorbance
+d
+Fig. 2 | Growth Au-PDMS nanophases controlled by chemical kinetics.Cross-
+sectional HRTEM images of Au-PDMS membranes with (a), various prepolymer to
+crosslinker weight ratio of PDMS,φ = 2, 3.5, 5, and 10 at a deposition rate of 2.5Å s−1,
+and with (b), various deposition rates of 0.5, 1.0, and 10.0Å s−1 at φ =3 . 5 ,d i s p l a y i n g
+a variation in Au-PDMS nanophases depending on which kinetics is more dominant
+during the deposition (polymer migration versus rate of metal deposition). Espe-
+cially, the reticular nanophase formed atφ = 3.5 at a deposition rate of 2.5Å s
+−1 is an
+interpenetrated Au– PDMS nanophase. Scale bars denote 200 nm.c Photo images
+of the samples (scale bars denote 3 mm). d Absorbance spectra of 10 nm Au-
+deposited samples at 2.5 Å s−1 on PDMS membranes with different crosslinker
+concentrations (φ = 2, 3.5, 5, 10). e A plausible nanophase formation mechanism.
+f 1H NMR spectrum of neat PDMS prepolymer and curing agent. g 1H NMR spec-
+trum of CDCl3, which was incubated with PDMS at different mixing ratios of the
+two components. h A negative correlation was observed between the peak inten-
+sity ratio of Si– Ht oS i– CH3 from the 1H NMR spectrum (g)a n d1 /φ,i n d i c a t i n ga
+direct relationship between chain migration and the resulting nanophase mor-
+phology. Error bars indicate the standard deviation of three independent
+measurements.
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 5
+
+This is mainly because gyriﬁcation cannot be solely induced by com-
+pressive stresses with ﬁxed force; rather, it involves a complex
+dynamic process that includes chemical migrations and changes in
+v o l u m ea n dc o m p r e s s i v ef o r c ev e c t o ro v e rt i m e .
+Based on real-time OM observations (Suppl. Movie 1), together
+with HRTEM morphologies and FEM simulations, we conclude that the
+gyriﬁcation phenomenon is initially driven by accumulated compres-
+sive stress. However, it is further in ﬂuenced by the subsequent self-
+swelling of uncross-linked, low-molecular-weight PDMS oligomers for
+a couple of hours. Macroscale expansion due to the self-swelling of
+oligomers was observed and quantiﬁed by measuring the change in a
+patterned deposition area (Suppl. Figs. 13 and 14). The different
+nanophases exhibited variations in expansion: the reticular nanophase
+displayed a roughly 10% change in measured area, while the particulate
+nanophase showed a change in area of approximately 3% (measured by
+the photolithographically deﬁned gap between before and after gyr-
+iﬁcation, Suppl. Fig. 14). Another strong piece of evidence suggesting
+the self-swelling of PDMS oligomers can be found by etching out metal
+layers after gyriﬁcation. If the nanostructures collapse after the etching
+process, it indicates that there were no crosslinked PDMS nanos-
+tructures but only Au nanostructures with excessive crosslinkers.
+However, if they maintain their gyri ﬁed morphologies even after the
+etching process of Au, it indicates that the PDMS oligomers themselves
+migrated and crosslinked to form the nanophase structures. It was
+observed that the gyri ﬁed PDMS structures were maintained even
+without the Au layer (Fig. 3e), strongly suggesting the self-swelling of
+oligomers as well as their crosslinking into reticular nanophases during
+the gyriﬁcation processes.
+Elastomer-like stretchability with metal-like conductivity
+As mentioned earlier, the primary goal of forming a metal-elastomer
+nanophase is to achieve pure PDMS stretchability while maintaining Au
+electrical conductivity. We argue that our Au-PDMS nanophase mate-
+rials demonstrate such characteristics. In a sample with optimized
+parameters (1.25 mm thick PDMS membrane, φ = 3.5, Au deposition
+rate of 2.5 Å s
+−1,a n dd of 100 nm), we observe a conductivity as high as
+1.4 × 104 Sc m−1 (Fig. 4). This initial conductivity obtained by four-point
+probe measurements did not change upon the application of uniaxial
+a
+Compressive 
+stress
+Au-PDMS
+nanophasePlain PDMS
+Laser
+Si-O-Si network
+φ = 3.5 , 0 min 5 min 10 min 20 min 30 min 45 min
+60 min 90 min 120 min 180 min 240 min 360 min
+b
+eSi-O-Si stretch
+Y (μm)
+X (μm)
+Raman shift 
+(cm-1)
+c
+X (μm)
+Si-O-Si stretch
+Y (μm)
+Raman shift 
+(cm-1)
+EY = 1 GPa
+Q = 1.1
+tAu = 10 nm
+EY = 5 GPa
+Q = 1.1
+tAu = 30 nm
+EY = 10 GPa
+Q = 1.3
+tAu = 80 nm
+Deposition thickness, d 
+d = 40 nm d = 60 nm d = 150 nm 
+in 
+aqua
+regia 
+Preserved wrinkle 
+structure
+Pristine Dissolved 
+Gyrified Au-PMDS 
+wrinkle structure
+d
+Fig. 3 | Gyriﬁcation of Au-PDMS reticular nanophase. a Optical microscopy
+images showing the spontaneous gyriﬁcation of the Au-PDMS reticular nanophase
+after Au deposition over a period of 6 h. Scale bars in the photographs denote
+15 μm. b Raman mapping image of plain PDMS. c Raman mapping image of as-
+Au– deposited substrate showing residual stress formed during the reticular growth
+of Au nanostructures inside the vacuum chamber.d Finite element method (FEM)
+simulation of morphology features under different mechanical parameters and Au
+deposition thicknesses. Scale bar denotes 10μm. e Optical microscope images of a
+gyriﬁed nanophase sample before and after dissolving Au in aqua regia. Scale bars
+denote 15 μm. Inset photo images represent apparent color change according to
+dissolving Au. Scale bars of the insets denote 1 cm.
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 6
+
+strain up to 150% (Fig.4a, b, blue) or areal strain up to 156% (Fig.4a, b,
+red). No mechanical failures, such as cracks or delamination, were
+observed during the stretching tests, con ﬁrming its rubber-like elas-
+ticity. Moreover, the initial conductivity remained constant even after
+10,000 stretching– releasing cycles with uniaxial and areal strains in
+the same range (Fig. 4b). Additionally, it exhibits superior long-term
+stability, as the electrical performance remained virtually constant for
+more than 8 years of shelf life (Suppl. Fig. 15).
+Depending on the application, electrodes can generally be clas-
+siﬁed into two types: active and passive. Active electrodes are used to
+directly inject or extract currents into/from a system, while passive
+electrodes serve to carry currents between different components or
+0.0 0.2 0.4 0.6 0.8 1.0
+1
+2
+3
+4
+5
+6
+7
+ Ideal
+ 5 mm
+ 4 mm
+ 3 mm
+ 2 mm
+ 1 mm
+a
+b
+c e
+Uniaxial strain Areal strain0%
+150%
+0
+10
+20
+ Line A  
+Height (/g80m)
+ Position (/g80m)
+0 50 100 150 200 250
+ Line B
+ Position (/g80m)
+0%%651%480%
+0.0 0.3 0.6 0.9 1.2 1.5
+1.0
+1.5
+2.0
+2.5
+3.0
+ 3D Au-PDMS nanophase
+ Ideal
+0%Released
+ΔL/L0
+ΔS/S0
+R/R0
+0 25 50 75 100 125 150101
+102
+103
+104
+Conductivity (S cm-1)
+Uniaxial strain, /g72(/g8)
+0 20 40 60 80 100 120 140 160101
+102
+103
+104
+Areal strain (/g8)
+ε = 25% cycle 50% 100% Areal strain 43% 78% 156%
+0 10000101
+104
+ Cycle no. 0 5000 10000 0 5000 10000 0 5000 10000101
+104
+0 5000 10000 0 5000 10000
+d
+R0
+L0
+w0
+t2
+R2
+L2
+w2
+t1
+t0
+R1L1
+w1
+R/R0
+t2
+S2
+R2
+R0
+t0
+S0
+t1
+S1
+R1
+256 μm
+192
+128
+64
+0
+0
+13 μm
+256 μm
+192
+128
+64
+z
+x
+B
+A
+0 50 100 150 200 250
+Fig. 4 | Highly strain-invariant electrical conductivity achieved by the gyriﬁed
+3D structure. a Optical microscopy (lower) and photo images (upper) showing
+stress dissipation by the gyriﬁed 3D structure coupled with internal Au– PDMS
+nanophase upon applied strain both at uniaxial (leftwards) and areal (rightwards)
+strains. Strain-released images (0% at the outermost right side) show reversibility.
+Scale bars in the photo images denote 1 cm. Scale bar denotes in the optical
+microscopy images 150μm. b Electrical conductivity of >10
+4 Sc m−1 up to uniaxial
+150% (left) and areal 156% (right) strain, along with cyclic stability over 10,000
+cycles of each strain (insets). c A uniaxial strain-dependent relative resistance
+changes of the 3D structure of Au– PDMS nanophase strap pads with various initial
+widths (5, 4, 3, 2, and 1 mm). A cyan-colored ideal curve represents calculated
+relative resistance change.d An areal strain strain-dependent relative resistance
+changes of the 3D structure of Au– PDMS nanophase disc-shaped pad. A magenta-
+colored ideal curve represents calculated relative resistance change.e Confocal
+microscopy scan image of the 3D structure of Au– PDMS nanophase sample. Line
+proﬁles extracted at the dot line A and B show that the high speci ﬁc surface area
+contributed to the strain-invariant conductivity.
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 7
+
+parts of a circuit. Among these, strain-invariant electrical properties
+are especially important for passive bus lines, ensuring a stable and
+reliable conductive path within and between circuit elements. To
+address this importance and cater to practical applications, we studied
+the relative resistance of our 3D Au-PDMS nanophase samples by
+employing two-terminal measurements with electrode widths ranging
+from 1 to 5 mm (Fig. 4c).
+The standout feature of our Au-PDMS nanophase is its invariance
+to strain, greatly surpassing other state-of-the-art materials (Suppl.
+Tables 2, 3, Suppl. Fig. 16)
+13– 15,24,25,56.T h e “ideal elastic conductor” in
+Fig. 4c depicts a hypothetical sample with strain-invariant resistivity
+in two-terminal measurements, only portraying the geometric change
+in resistance that would come with stretching, including considera-
+tions regarding Poisson’s ratio (Suppl. Fig. 17). Under this condition,
+the calculated resistance increases by 2.5 times at 100% uniaxial strain
+(calculation details in Suppl. Note 6). Comparing this to the measured
+resistance changes of our Au-PDMS, we arrive at a compelling result:
+even up to 30% uniaxial strain, the resistance changes of our samples
+were signiﬁcantly lower than those of an ideal elastic conductor. This
+intriguing behavior comes from the unfolding of the 3D gyri ﬁed
+structures upon stretching, effectively compensating for the increased
+resistance due to dimensional changes.
+The experimental and calculated resistance changes under areal
+strain showed the same tendency, where the Au– PDMS 3D nanophase
+samples exhibited a smaller resistance change than an “ideal elastic
+conductor” with up to 156% areal strain (Fig. 4d, Suppl. Fig. 18). Note
+that areal strain, in this context, is different from biaxial strain, as areal
+strain involves 3D stretching using a sphere, while biaxial strain is
+limited to stretching within a 2D plane (Suppl. Table 3). The unprece-
+dented characteristics of our Au-PDMS nanophase material is primarily
+attributed to both the inherent stretchability of the reticular nano-
+phases as well as the auxetic nature of the extrinsically gyri ﬁed 3D
+morphology (Suppl. Fig. 19). The combination of these intrinsic and
+extrinsic properties provides the high adhesivity and the structural,
+electrical elasticity required to prevent delamination and deterioration
+of electrical conductance in composite materials. Our view is further
+supported by the high gyri ﬁcation index of 1.75 calculated in our
+samples, which is deﬁned as the ratio of the actual surface area to the
+projection area (Fig. 4e).
+Environmental durability for soft electronics
+Following the electrical and mechanical properties of our gyri ﬁed
+reticular Au-PDMS nanophase samples, we showcase their multi-
+faceted performance for applications in environmentally resilient soft
+electronics. Our samples display excellent stability against pH, che-
+mical, and thermal exposure, as well as mechanical abrasion (Fig. 5a
+and Suppl. Note 7). After immersi on in various polar and non-polar
+solvents (water, ethanol, acetone, chlorobenzene, and toluene) for 1
+day, the conductivity of the nanophase samples slightly decreased,
+especially in organic solvents. This is possibly because of the deformed
+conduction network that comes from the swelling of the PDMS matrix
+itself. However, after the nanophases were dried, the conductivity
+almost fully recovered to within a 5% margin of error. Meanwhile, the
+conductivity was preserved under harsh pH conditions (pH 2 – 13),
+demonstrating this material ’s suitability for bioelectronics applica-
+tions in the stomach (pH 1.3– 3.5) as well as for use on skin wounds (pH
+a Organic solvent
+dehsaWderaperp-sA
+0 100 200 300 400 500
+ 16 N cm-1
+ 24
+ 28
+ 32
+Cycle number
+Mechanical wear
+1 10 100 1000 10000
+Time (min)
+ pH2
+ pH5
+ pH10
+ pH13
+pH
+20 μm50 μm
+50 100 150 200 250
+Temperature (/g113C)
+Thermal stability
+ge Stencil mask lithography
+Photolithography
+b c d
+f
+    Water  Ethanol Acetone     Cyclobz.        Toluene0
+5×103
+1×104
+2×104
+Conductivity (S cm-1) Incubation
+Drying
+Fig. 5 | Multimodal stability of the 3D structure of Au–PDMS nanophases.
+a Durability performance of the 3D structure of Au– PDMS nanophases in various
+organic solvents (cyclobz. stands for cyclobenzene), (b)p H( p H2 – 13), (c) eraser
+and adhesive tape test (red line from eraser test and other lines from tape test), and
+(d) thermal annealing up to 250 °C. e Patterning of the 3D structure of Au– PDMS
+nanophases using stencil mask lithography (black color scale bar is 1 cm and white
+color scale bar is 50 µm) and (f) conventional photolithography, which can be
+realized for patterning of stretchable electronics.g Washing test, displaying no
+degradation of electrical function under machine washing with detergent, as shown
+in Suppl. Movie 5.
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 8
+
+7.2– 8.9) (Fig. 5b). The conductivity of the gyriﬁed Au– PDMS reticular
+nanophases was also almost fully maintained during adhesive tape
+tests (ranging from 16 to 32 N cm
+−1)f o r5 0 0c y c l e s( F i g .5c). Even after
+an abrasion test using an eraser (Suppl. Fig. 20 and Suppl. Movie 3), the
+conductivity remained in the same order of magnitude (red in Fig.5c).
+In contrast to other thermoplastic elastomer-based stretchable elec-
+trodes, the gyri ﬁed Au – PDMS nanophases also showed excellent
+thermal stability up to 250 °C for 2 h (Fig. 5d). This expands their
+potential use in interfacing with functional elements that require
+thermal annealing during fabrication and operation at elevated tem-
+peratures, such as thermoelectric and heater modules, or during
+hydrothermal sterilization processes (Suppl. Movie 4, and
+S u p p l .F i g .2 1 ) .
+Furthermore, we also veri ﬁed the reliability of the standard
+lithography processes for the gyriﬁed Au-PDMS nanophase (Fig.5e, f).
+The chemical (organic solvents) and thermal (annealing processes for
+photoresists) durability of the Au– PDMS nanophase samples enabled
+microscale patterning down to a 20μm feature size using conventional
+photolithography with complex circuit designs (Suppl. Figs. 22, 23).
+The Au– PDMS nanophase samples were also found to be washable in a
+laundry machine. The initial conductivity and stretchability showed
+almost no change even after 20 cycles of 15 min. washing with deter-
+gent (Fig. 5g, Suppl. Fig. 24, Suppl. Movie 5). Theseﬁndings imply that
+this stretchable conducting membrane can be used to produce litho-
+graphically deﬁned, functional devices intended for repeated use with
+reliable operation in theﬁeld of wearable electronics for virtual reality
+(Suppl. Note 8, Suppl. Figs. 25, 26, and Suppl. Movie 6), including
+educational and medical applications.
+Our 3D structure of Au-PDMS nanophases holds considerable
+appeal as a stretchable conducting membrane for soft and bioelec-
+tronics applications and may ﬁnd extensive use in various ﬁelds,
+including biomonitoring within the digestive tract, multimodal
+implantable devices like ocular prostheses, soft robotics employing
+mechanical strain-gated logic gates, and functional fabrics for space
+exploration.
+Methods
+Kinetically controlled metal–elastomer nanophases
+For the preparation of PDMS membranes, a mixture of two compo-
+nents, prepolymer PDMS and linker PDMS (Sylgard 184, Dow Corning),
+was blended with varying ratios ( φ =2 – 20). The mixture was subse-
+quently thermally cured at 80 °C for 4 h. The PDMS membranes were
+afﬁxed onto sample holders within a physical vapor deposition
+chamber manufactured by iNFOVION. To prevent any potential eva-
+poration of small molecules within the PDMS slab, we maintained a
+consistent vacuum pressure for all samples. Gold (Au, 99.9999%) was
+deposited using thermal evaporation at room temperature, with a
+constant base pressure of 1.0 × 10
+−6 Torr. The in-situ deposition rate
+and amount were monitored using a quartz crystal microbalance. The
+deposition rate of Au was maintained at 2.5Å s−1 for all samples, except
+for samples with varying deposition rates (ranging from 10 Å s−1 to
+0.5 Å s−1). A pre-deposition step was conducted for 1 min at a constant
+rate of 2.5 Å s−1, with the shutter closed. The main deposition phase
+commenced by opening the shutter and continued for 400 s, resulting
+in the formation of a nanophase that exhibited optimal stretchable
+electrode performance. Following deposition, the samples were
+promptly removed from the chamber and allowed to age for 6 h in
+ambient air. Subsequent characterization and analysis were performed
+without any additional surface treatments.
+According to the materials safety data sheets (MSDS) for the
+prepolymer PDMS, it includes 0.5 wt% xylene, 0.2 wt% ethylbenzene,
+>60 wt% dimethylvinyl-terminated dimethyl siloxane, 30 – 60 wt%
+dimethylvinylated and trimethylated silica, and 1 – 5 wt% tetra(-
+trimethylsiloxy) silane. Meanwhile, the MSDS for the Sylgard 184
+“Curing Agent ” indicates 0.19 wt% xylene, <0.1 wt% ethylbenzene,
+55– 75 wt% dimethyl, methyl hydrogen siloxane, 15 – 35 wt%
+dimethylvinyl-terminated dimethyl siloxane, 10 – 30 wt% dimethylvi-
+nylated and trimethylated silica, and 1 – 5 wt% tetramethyl tetravinyl
+cyclotetrasiloxane
+57. Additionally, a siloxane complex containing a few
+wt% Pt may be present in the curing agent as a catalyst, which we
+believe plays the most important role in crosslinking. However, the
+exact concentrations are unknown. Given these conditions, we believe
+that most experimentalists would agree that core components of
+prepolymer and crosslinker, would include difunctional vinyl-
+terminated PDMS chain as the prepolymer, where crosslinking
+occurs via the SiH-containing, a low molecular weight trimethylsiloxy-
+terminated PDMS with platinum catalysts assisting the formation of a
+siloxane cross-linking network
+58.
+The viscosity of the prepolymer and the mixture immediately
+after mixing with the curing agent is 5500 mPa s and 4000 mPa s,
+respectively. For reference, the molecular weight of Sylgard 184 has
+been reported to be about Mn ≈ 4500 g mol−1 and Mw ≈ 19,000 g mol−1
+(PI = 4.24) in literature59. Mn and Mw denote the number-averaged and
+weight-averaged molecular weight, respectively, and PI is the poly-
+dispersity index.
+Stretching performance, mechanical and optical
+characterization
+To uniformly apply uniaxial and areal strain to the 3D structure of Au-
+PDMS nanophases samples, a custom-made 1-D and 2-D screw-based
+stretching apparatus was integrated with an optical microscope (BX-
+51P, Olympus), confocal microscope, and a four-point probe station
+(Loresta-GP MCP-T600, MITSUBISHI CHEMICAL) for electrical prop-
+erty measurements. The strain rate used for the strain-dependent
+conductivity measurements was set at 10% s
+−1. Cyclic stretchability,
+tested up to 10,000 cycles, was assessed using a stretching machine
+(Flexible Materials Tester, Hansung Systems, Inc.). For viscoelasticity
+measurements, dynamic mechanical analysis (DMA) was conducted
+using a TA Instrument Q800 instrument with a gas cooling accessory
+and a ﬁber/ﬁlm tension modulus. Young’s modulus of both plain PDMS
+and the 3D structure of Au-PDMS nanophases samples was determined
+using a MultiXtens II HP instrument from Zwick, following the DIN
+53504/S2/30 protocol. The gyriﬁcation index was determined from the
+data acquired through laser scanning confocal microscopy (LSM,
+Olympus LEXT OLS4100 laser scanning digital microscope).
+UV– Visible spectra of the samples were obtained using V-770 UV-
+Visible/NIR spectrophotometer. Raman mapping was obtained from
+Raman spectra (LabRam Aramis, Horiba Jovin Yvon) of the samples in
+10 μm×1 0 μm area.
+TEM characterization
+For the cross-sectional TEM images, PDMS samples were prepared as
+lamellar thin slices using focused ion beam (FIB) techniques with the
+JIB-4601F instrument from JEOL and the Quanta 3D FEG instrument
+from FEI. Subsequent TEM analysis was performed using a JEM-ARM
+200F microscope from JEOL. To generate the 3D TEM tomography
+image of the Au-PDMS nanophases in the sample, a series of tilted TEM
+images (30 images in total) were acquired by rotating the sample
+holder from −21° to 66°. This process was carried out at a magni ﬁca-
+tion of 50,000 with an exposure time of 0.5 s using a CCD camera
+(Orius SC200D, Gatan) mounted on an Ultra Corrected Energy Filter-
+ing Transmission Electron Microscope (UC-EF-TEM) system (Libra 200
+MC TEM, Carl Zeiss). The acquired images were then subjected to an
+image reconstruction process, speci ﬁcally Filtered Back Projection
+(TEMography), to generate theﬁnal 3D image.
+NMR characterization
+The modulation of non-covalently tethered PDMS molecules within
+the PDMS matrix can be achieved by adjusting the prepolymer to
+crosslinker ratio. To characterize the residual solvent within the PDMS
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 9
+
+matrix, a series of free-standing PDMS membranes were immersed in
+CDCl3 for 1H nuclear magnetic resonance (NMR) analysis, allowing us
+to track the presence of uncrosslinked PDMS over time. Freshly cured
+PDMS membranes, prepared with varying φ values, were sectioned
+into 4 × 5 × 10 mm
+3 pieces and placed in an air-tight vessel containing
+1.2 mL of CDCl 3 (Eurisotop) for overnight incubation. Due to higher
+adsorption of the solvent by PDMS membranes with lower φ,a n
+additional 0.8 mL of CDCl3 was added after 60 min. Subsequently, a
+portion of each sample’s supernatant was collected for 1H NMR mea-
+surements (500.13 MHz) using an AVANCE III 500 Spectrometer
+(Bruker, Germany) at a temperature of 30 °C.
+Micropatterning for integrated circuit
+The photolithography of the Au-PDMS nanophase samples was
+conducted following standard procedures. Speci ﬁcally, the sample
+was spin-coated with a positive photoresist (positive AZ 5214E®,
+MicroChemicals) and then subjected to a soft bake at 110 °C for
+2 min. Subsequently, the sample was exposed to a 365-nm UV light
+source (KLS-100H-LS −150P, DONGWOO Optron) using a patterned
+photomask. After exposure, the sample was immersed in a devel-
+oper solution (AZ® 327, MicroChemicals) with vigorous shaking for
+1 min. A post-bake step at 190 °C for 10 min was performed to
+ensure complete curing of the residual photoresist. Selective
+etching of the nanophase was achieved by incubating it in aqua
+regia, a mixture of HCl and HNO
+3 in a 9:1 volume ratio. Any
+remaining photoresist was removed using a universal photoresist
+stripper (AZ® 100, MicroChemicals) for lift-off. For stencil mask
+lithography, a metal stencil mask (0.1 mm thick stainless steel,
+Devora Electronics) was placed directly on a plain PDMS membrane
+(φ = 3.5, thickness 0.65 mm) without a spacer.
+Environmental resilience test
+To assess chemical stability, the as-fabricated 3D structure of Au-
+PDMS nanophase samples were immersed in various solvents
+(water, ethanol, acetone, c-Benzene, and toluene) overnight, fol-
+lowed by conductivity measurements (marked as “incubation” in
+the “Organic solvent ” section of Fig. 5a). Subsequently, the samples
+were deswelled at 60 °C overnight, and the conductivity was mea-
+sured again (marked as “drying” in the “Organic solvent ” section of
+Fig. 5a). For pH stability testing, solutions of HCl and KOH were used
+to create different pH conditions. The as-fabricated samples were
+then immersed in the respective pH solutions for varying durations
+(up to 10,000 min). In the tape adhesion test, a strong adhesive tape
+(3 M) was repetitively attached and detached from the surface of the
+3D structure of Au-PDMS nanophases for 500 cycles. The con-
+ductivity change was measured after each attachment cycle. In the
+eraser test, the surface of the as-fabricated Au-PDMS nanophases
+was repeatedly rubbed with a pencil eraser (TOMBOW®) for a spe-
+ciﬁed number of cycles. The rubbing strength was determined by
+the speci ﬁc contact area (2 cm × 2 cm) and the applied push force,
+which was ~0.245 kPa, a force suf ﬁcient to generate eraser dust. This
+procedure was recorded in Suppl. Fig. 20 and Suppl. Movie 3.
+Thermal stability trials were performed by heating the samples on a
+hot plate (SMHS-3, DAIHAN). The conductivity of the samples was
+evaluated after annealing at various temperatures. For the laundry
+test, the sample (without encapsulation) was subjected to washing
+both with and without detergent (Persil Gel Detergent, Germany) in
+a washing machine (WW70T4042EE/EG, Samsung) for 15 min at
+room temperature. This washing procedure was repeated 20 times
+for the cyclic washing test.
+Data availability
+The data that support the ﬁndings of this study are available from the
+corresponding authors upon request.
+References
+1. Walheim, S., Sch ӓffer, E., Mlynek, J. & Steiner, U. Nanophase-
+separated polymerﬁlms as high-performance antireﬂection coat-
+ings. Science 283,5 2 0–522 (1999).
+2. Podsiadlo, P. et al. Ultrastrong and stiff layered polymer nano-
+composites.Science 318,8 0–83 (2007).
+3. Faupel, F., Zaporojtchenko, V., Strunskus, T. & Elbahri, M. Metal-
+polymer nanocomposites for functional applications.Adv. Eng.
+Mater. 12, 1177–1190 (2010).
+4. Haraguchi, K. Synthesis and properties of soft nanocomposite
+materials with novel organic/inorganic network structures.Polym.
+J. 43, 223–241 (2011).
+5. Beiner, M. & Huth, H. Nanophase separation and hindered glass
+transition in side-chain polymers.Nat. Mater. 2,5 9 5–599 (2003).
+6. Vayyaprontavida Kaliyathan, A., Varghese, K., Nair, A. S. & Thomas,
+S. Rubber–rubber blends: a critical review.Prog. Rubber Plast.
+Recycl. Technol.36,1 9 6–242 (2020).
+7. Deore, B. et al. Direct printing of functional 3D objects using
+polymerization-induced phase separation.Nat. Commun. 12,
+55 (2021).
+8. Yun, G. et al. Liquid metal- ﬁlled magnetorheological elastomer with
+positive piezoconductivity.Nat. Commun. 10,1 3 0 0( 2 0 1 9 ) .
+9. Hanisch, C., Kulkarni, A., Zapor ojtchenko, V. & Faupel, F. Polymer-
+metal nanocomposites with 2-dimensional au nanoparticle arrays
+for sensoric applications.J. Phys. Conf. Ser. 100,0 5 2 0 4 3( 2 0 0 8 ) .
+10. Takele, H. et al. Tuning of electrical and structural properties of
+metal-polymer nanocompositeﬁlms prepared by co-evaporation
+technique.Appl. Phys. A Mater. Sci. Process 92,3 4 5–350 (2008).
+11. Kim, Y. et al. Stretchable nano particle conductors with self-
+organized conductive pathways.Nature 500,5 9–63 (2013).
+12. Chae, S. et al. Stretchable thin ﬁlm mechanical-strain-gated
+switches and logic gate functionsbased on a soft tunneling barrier.
+Adv. Mater. 33, 2104769 (2021).
+13. Chun, K. Y. et al. Highly conductive, printable and stretchable
+composite
+ﬁlms of carbon nanotubes and silver.Nat. Nanotechnol.
+5,8 5 3–857 (2010).
+14. Park, M. et al. Highly stretchable electric circuits from a composite
+material of silver nanoparticles and elastomericﬁbres. Nat. Nano-
+technol. 7,8 0 3–809 (2012).
+15. Rogers, J. A., Someya, T. & Huang, Y. Materials and mechanics for
+stretchable electronics.Science 327,1 6 0 3–1607 (2010).
+16. Lacour, S. P., Wagner, S., Huang, Z. & Suo, Z. Stretchable gold
+conductors on elastomeric substrates.Appl. Phys. Lett. 82,
+2404–2406 (2003).
+1 7 . C o r b e l l i ,G . ,G h i s l e r i ,C . ,M a r e l l i ,M . ,M i l a n i ,P .&R a v a g n a n ,L .H i g h l y
+deformable nanostructured elastomeric electrodes with improving
+conductivity upon cyclical stretching.Adv. Mater. 23,
+4504–4508 (2011).
+18. Lee, S. et al. A metal ‐like conductive elastomer with a hierarchical
+wrinkled structure.Adv. Mater. 32, 1906460 (2020).
+19. Goyal, A. et al. In situ synthesis of metal nanoparticle embedded
+free standing multifunctional PDMSﬁlms. Macromol. Rapid Com-
+mun. 30, 1116–1122 (2009).
+2 0 . B e r r y ,K .R .J r . ,R u s s e l l ,A .G . ,Blake, P. A. & Keith Roper, D. Gold
+nanoparticles reduced in situ and dispersed in polymer thinﬁlms:
+optical and thermal properties.Nanotechnology23, 375703 (2012).
+21. Chan, E. P., Smith, E. J., Hayward, R. C. & Crosby, A. J. Surface
+wrinkles for smart adhesion.Adv. Mater. 20,7 1 1–716 (2008).
+22. Gao, N., Zhang, X., Liao, S., Jia, H. & Wang, Y. Polymer swelling
+induced conductive wrinkles for an ultrasensitive pressure sensor.
+ACS Macro Lett. 5,8 2 3–827 (2016).
+2 3 . K i m ,J . ,O h ,J . ,P a r k ,Y . ,K i m ,J .J .&J e o n g ,U .S o f tc o n d u c t i v ei n t e r -
+facing for bioelectrical uses: adhesion mechanisms and structural
+approaches.ACS Macromol. 56, 4431–4446 (2023).
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 10
+
+24. Oh, J. Y. et al. Intrinsically stretchable and healable semiconducting
+polymer for organic transistors.Nature 539,4 1 1–415 (2016).
+25. Trung, T. Q. & Lee, N.-E. Recent progress on stretchable electronic
+devices with intrinsically stretchable components.Adv. Mater. 29,
+1603167 (2017).
+2 6 . O y e w o l e ,O .K .e ta l .M i c r o - w r i nkling and delamination-induced
+buckling of stretchable electronic structures.J. Appl. Phys. 117,
+235501 (2015).
+27. Bowden, N., Brittain, S., Evans, A. G., Hutchinson, J. W. & Whitesides,
+G. M. Spontaneous formation of ordered structures in thinﬁlms of
+metals supported on an elastomeric polymer.Nature 393,
+146–149 (1998).
+28. Hafeez, H. et al. Multiaxial wavy top-emission organic light-emitting
+diodes on thermally prestrained elastomeric substrates.Org.
+Electron. 48,3 1 4–322 (2017).
+29. Shyu, T. C. et al. A kirigami approach to engineering elasticity in
+nanocomposites through patterned defects.Nat. Mater. 14,
+785–789 (2015).
+30. Choi, W. J. et al. Terahertz circular dichroism spectroscopy of bio-
+materials enabled by kirigami polarization modulators.Nat. Mater.
+18,8 2 0–826 (2019).
+31. Li, Y., Li, N., De Oliveira, N. & Wang, S. Implantable bioelectronics
+toward long-term stability and sustainability.Matter 4,
+1125–1141 (2021).
+32. Bettinger, C. J. Materials advance s for next-generation ingestible
+electronic medical devices.Trends Biotechnol.33,5 7 5–585 (2015).
+33. Xie, Y., Zhang, J. & Zhou, T. Large-area mechanical interlocking via
+nanopores: ultra-high-strength direct bonding of polymer and
+metal materials.Appl. Surf. Sci. 492, 558–570 (2019).
+34. Zhao, S., Kimura, F., Kadoya, S. & Kajihara, Y. Experimental analysis
+on mechanical interlocking of metal–polymer direct joining.Precis.
+Eng. 61,1 2 0–125 (2020).
+35. Jun, G., Lee, J.-W., Shin, Y., Kim, K. & Hwang, W. Solvent-aided direct
+adhesion of a metal/polymer joint using micro/nano hierarchical
+structures.J. Mater. Process Technol. 285, 116744 (2020).
+36. Elsner, B. A. M., Müller, S., Bargmann, S. & Weissmüller, J. Surface
+excess elasticity of gold: ab initio coefﬁcients and impact on the
+effective elastic response of nanowires.Acta Mater. 124,
+468–477 (2017).
+37. Vieira, LdeS. et al. A review concerning the main factors that
+interfere in the electrical percolation threshold content of poly-
+meric antistatic packaging with carbonﬁl l e r sa sa n t i s t a t i ca g e n t .
+Nano Sel. 3,2 4 8–260 (2022).
+38. Wang, G., Wang, C., Zhang, F. & Yu, X. Electrical percolation of
+nanoparticle-polymer composites.Comput. Mater. Sci. 150,
+102–106 (2018).
+39. Choi, W. J. et al. High-performance carbon nanotube network
+transistors fabricated using a hole punching technique.J. Mater.
+Chem. C 1,4 0 8 7–4093 (2013).
+40. Jiang, Y. et al. A universal interface for plug-and-play assembly of
+stretchable devices.Nature 614,4 5 6–462 (2023).
+41. Lee, Y. et al. Standalone real-time health monitoring patch based on
+a stretchable organic optoelectronic system.Sci. Adv. 7,
+eabg9180 (2021).
+42. Kim, M. H. et al. Mechanically robust stretchable semiconductor
+metallization for skin-inspired organic transistors.Sci. Adv. 8,
+eade2988 (2022).
+43. Faupel, F., Willecke, R. & Thran, A. Diffusion of metals in polymers.
+Mater. Sci. Eng. R. Rep. 22,1 –55 (1998).
+44. Minton, Ohring. Materials Science of Thin Films. Academic Press.
+https://doi.org/10.1016/B978-0-12-524975-1.X5000-9(2002).
+45. Tsujioka, T. Selective metal-vapor deposition on organic surfaces.
+Chem. Rec. 16,2 3 1–248 (2016).
+46. Tsujioka, T. & Matsumoto, S. Nucleation, absorption, or desorption
+of metal-vapor atoms on amorphous photochromic diarylethene
+ﬁlms having a low glass transition temperature.J. Mater. Chem. C
+Mater. 6,9 7 8 6–9793 (2018).
+47. Nagaraja, S. M., Mujtaba, A. & Beiner, M. Quanti ﬁcation of different
+contributions to dissipation in elastomer nanoparticle composites.
+Polymer 111,4 8–52 (2017).
+4 8 . C h a e ,S .S . ,C h o i ,W .J . ,Y a n g ,C .S . ,L e e ,T .I .&L e e ,J .O .S i m p l e
+interface engineering of graphenetransistors with hydrophobizing
+stamps. ACS Appl Mater. Interfaces 8,1 4 3 0 7–14312 (2016).
+49. Chae, S. S. et al. Strong hydrophobizer: laterally chemisorbed low-
+molecular-weight polydimethylsiloxane.Chem. Commun. 51,
+5844–5847 (2015).
+50. Lee, T. I. et al. Electrical contact tunable direct printing route for a
+ZnO nanowire Schottky diode.Nano Lett. 10,3 5 1 7–3523 (2010).
+51. Meitl, M. A. et al. Transfer printing by kinetic control of adhesion to
+an elastomeric stamp.Nat. Mater. 5,3 3–38 (2006).
+52. Lee, T. I. et al. A simple and rapid formation of wet chemical etched
+silicon nanowireﬁlms at the air-water interface.J. Mater. Chem. 21,
+14203–14208 (2011).
+5 3 . L e e ,T .I .e ta l .P r o g r a m m a b l ed i r e c t - p r i n t i n gn a n o w i r ee l e c t r o n i c
+components.Nano Lett. 10,1 0 1 6–1021 (2010).
+5 4 . W e n d e r ,H . ,M i g o w s k i ,P . ,F e i l ,A .F . ,T e i x e i r a ,S .R .&D u p o n t ,J .
+Sputtering deposition of nanoparticles onto liquid substrates:
+recent advances and future trends.Coord. Chem. Rev. 257,
+2468–2483 (2013).
+55. Bîrsan, M., Ghiba, I.-D., Martin, R. J. & Neff, P. Re ﬁned dimensional
+reduction for isotropic elastic Cosserat shells with initial curvature.
+M a t h .M e c h .S o l i d s24,4 0 0 0–4019 (2019).
+5 6 . D a i ,Y . ,H u ,H . ,W a n g ,M . ,X u ,J .&W a n g ,S .S t r e t c h a b l et r a n s i s t o r s
+and functional circuits for human-integrated electronics.Nat.
+Electron 4,1 7–29 (2021).
+57. Palchesko, R. N., Zhang, L., Sun, Y. & Feinberg, A. W. Development
+of polydimethylsiloxane substrates with tunable elastic modulus to
+study cell mechanobiology in muscle and nerve.PLoS One 7,
+e51499 (2012).
+5 8 . R a m l i ,M .R . ,O t h m a n ,M .B .H . ,A r iﬁn, A. & Ahmad, Z. Cross-link
+network of polydimethylsiloxane via addition and condensation
+(RTV) mechanisms. Part I: synthesis and thermal properties.Polym.
+Degrad. Stab. 96,2 0 6 4–2070 (2011).
+5 9 . K i m ,J . - H . ,H w a n g ,H . - S . ,H a h m ,S . - W .&K h a n g ,D . - Y .H y d r o -
+phobically recovered and contact printed siloxane oligomers for
+general-purpose surface patterning.Langmuir 26,
+13015–13019 (2010).
+Acknowledgements
+This research was supported by the National Research Foundation of
+Korea (NRF) (2021R1C1C1009925, 2020R1A6A1A03048004, and
+2019R1A6C101052) and funded by the Korea Evaluation Institute of
+Industrial Technology (KEIT) (20015898, 20012710 and 20019105). This
+work was also supported by the Korea Institute for Advanced Technol-
+ogy (KIAT), the Ministry of Trade, Industry and Energy (MOTIE) of the
+Republic of Korea (nos. P0017363), and the GRRC program of Gyeonggi
+province (GRRCKYUNGHEE2023-B03). We thank the Korea Basic Sci-
+ence Institute (KBSI) for the technical support. We gratefully acknowl-
+edge Anik Kumar Ghosh, Uta Reuter, and Petr Formánek for assistance
+with FEM simulations, FIB, and TEM analysis, respectively. We thank
+Jeeho Park, Minji Cho, and Hyemin Park for assistance with image pro-
+cessing, as well as Jonas Schubert and Duwon Jeong for fruitful dis-
+cussions. A.F. and S.C. acknowledge support from Deutsche
+Forschungsgemeinschaft (DFG, German Research Foundation) within
+SPP 2100, project number 359715917; A.F., A.K., O.S., and L.J.N.
+acknowledge support from DeutscheForschungsgemeinschaft (DFG)
+within project number 386450667. This research was also performed
+within project LaSensA under the M-ERA.NET scheme and was funded
+by the Saxon State Ministry for Science, Culture, and Tourism (Germany)
+and co-ﬁnanced with tax funds on the basis of the budget passed by the
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 11
+
+Saxon state parliament and funded by the Deutsche For-
+schungsgemeinschaft (DFG)- CRC−1415 - 417590517. S.C. and A.F.
+acknowledge support from the German Science Foundation with SPP
+2100, project number 404941515. German Research Foundation grant
+600/20−1 640690U12AB123456 (L.J.N.). This work isﬁnancially sup-
+ported in part by German Research Foundation (DFG) grants MA 5144/
+13−1, MA 5144/28−1, European Commission HORIZON RIA (project
+REGO; ID: 101070066) and Helmholtz Association of German Research
+Centres in the frame of the Helmholtz Innovation Lab “FlexiSens”.T h i s
+work was performed under the auspices of the U.S. Department of
+Energy by Lawrence Livermore National Laboratory under Contract DE-
+AC52-07NA27344. W.J.C. gratefully acknowledges the LLNL LDRD Pro-
+grams for funding support of this project under No.22-ERD-056 and 24-
+LW-035. This work was also supported by a Korea University grant.
+Author contributions
+J.Y.O., S.C., W.J.C., and T.I.L. contributed to conceptualization. J.Y.O.,
+S.C., Q.A.B., L.J.N., A.K., C.H.C., P.M., Y.Z., S.A., O.P., and T.I.L. were
+involved in developing and deﬁning the methodology. S.C., J.Y.O.,
+W.J.C., D.M., Q.A.B., L.J.N., A.K., C.H.C., P.M., Y.Z., S.A., O.P., and T.I.L.
+conducted the investigation. S.C., J.Y.O., Q.A.B., L.J.N., C.H.C., P.M., Y.Z.,
+S.A., O.P., T.I.L., and M.W.J. handled visualization tasks. J.Y.O., D.M.,
+T.I.L., W.J.C., and A.F. led funding acquisition efforts. J.Y.O., D.M., T.I.L.,
+W.J.C., and A.F. managed the project administration. J.Y.O., D.M., W.J.C.,
+A.F., O.S., S.A., and T.I.L. supervised the project. J.Y.O., S.C., W.J.C.,
+D.M., Q.A.B., Y.J.C., and T.I.L. participated in writing the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-47223-6.
+Correspondenceand requests for materials should be addressed to
+Won Jin Choi, Jin Young Oh or Tae Il Lee.
+Peer review informationNature Communicationsthanks Franz Faupel
+and the other, anonymous, reviewer(s)for their contribution to the peer
+review of this work. A peer review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article https://doi.org/10.1038/s41467-024-47223-6
+Nature Communications|         (2024) 15:3071 12

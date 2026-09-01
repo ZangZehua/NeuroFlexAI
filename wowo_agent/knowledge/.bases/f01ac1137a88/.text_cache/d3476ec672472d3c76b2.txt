@@ -1,0 +1,2048 @@
+Citation: Otgonbayar, Z.; Yang, S.;
+Kim, I.-J.; Oh, W.-C. Recent Advances
+in Two-Dimensional MXene for
+Supercapacitor Applications:
+Progress, Challenges, and
+Perspectives. Nanomaterials 2023, 13,
+919. https://doi.org/10.3390/
+nano13050919
+Academic Editors: Federico Cesano,
+Simas Rackauskas, Mohammed
+Jasim Uddin and Carlos
+Miguel Costa
+Received: 3 February 2023
+Revised: 22 February 2023
+Accepted: 27 February 2023
+Published: 1 March 2023
+Copyright: © 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+nanomaterials 
+Review
+Recent Advances in Two-Dimensional MXene for
+Supercapacitor Applications: Progress, Challenges,
+and Perspectives
+Zambaga Otgonbayar 1, Sunhye Yang 2, Ick-Jun Kim 2 and Won-Chun Oh 1,*
+1 Department of Advanced Materials Science & Engineering, Hanseo University,
+Seosan-si 356-706, Republic of Korea
+2 Korea Electrotechnology Reserch Institute, Next Generation Battery Research Center, 12, Jeongiui-gil,
+Seongsan-gu, Changwon-si 51543, Republic of Korea
+* Correspondence: wc_oh@hanseo.ac.kr
+Abstract: MXene is a type of two-dimensional (2D) transition metal carbide and nitride, and its
+promising energy storage materials highlight its characteristics of high density, high metal-like
+conductivity, tunable terminals, and charge storage mechanisms known as pseudo-alternative ca-
+pacitance. MXenes are a class of 2D materials synthesized by chemical etching of the A element in
+MAX phases. Since they were ﬁrst discovered more than 10 years ago, the number of distinct MXenes
+has grown substantially to include numerous MnXn−1 (n = 1, 2, 3, 4, or 5), solid solutions (ordered
+and disordered), and vacancy solids. To date, MXenes used in energy storage system applications
+have been broadly synthesized, and this paper summarizes the current developments, successes, and
+challenges of using MXenes in supercapacitors. This paper also reports the synthesis approaches,
+various compositional issues, material and electrode topology, chemistry, and hybridization of
+MXene with other active materials. The present study also summarizes MXene’s electrochemical
+properties, applicability in pliant-structured electrodes, and energy storage capabilities when using
+aqueous/non-aqueous electrolytes. Finally, we conclude by discussing how to reshape the face of the
+latest MXene and what to consider when designing the next generation of MXene-based capacitors
+and supercapacitors.
+Keywords: synthesis method; 2D MXene; electrolyte; MXene-based electrode; supercapacitor
+1. Introduction
+The types of technology known as “modern electronic devices” have evolved sig-
+niﬁcantly over the past few decades, and they are becoming increasingly important in
+everyday life [1–5]. The need to create high-quality energy storage accessories has increased
+dramatically, which can be particularly attributable to the widespread use of home appli-
+ances such as wearables and smartphones. Due to their many advantages, such as their
+fast charging and discharging capabilities and remarkably long life cycles, supercapacitors
+(SCs)—also known as electrochemical capacitors—are attracting attention for use with vari-
+ous energy storage devices [6–12]. Since electrode materials are known to be essential for
+SCs, the development of SCs requires deeper investigation of electrode materials. Electrode
+materials used for SCs can be divided into electrical double layer capacitors (EDLCs) and
+pseudocapacitors according to how charges are stored [13–16]. The most widely used SCs
+in the market are EDLCs, wherein charges are primarily stored through the revocable elec-
+trochemical adsorption/desorption of electrolyte ions at the electrode/electrolyte interface.
+However, in actual applications, the speciﬁc capacitance of EDLCs based on pure carbon
+materials is limited to 250 F g−1 [17]. Meanwhile, pseudocapacitors allow for the storage of
+charges by a faradaic process involving fast ion intercalation and/or redox reactions near a
+fast surface/surface. Pseudocapacitive materials often have higher speciﬁc capacities than
+Nanomaterials 2023, 13, 919. https://doi.org/10.3390/nano13050919 https://www.mdpi.com/journal/nanomaterials
+
+Nanomaterials 2023, 13, 919 2 of 39
+EDLCs because fast surface redox processes can store more charges [18]. The development
+of SCs has been aided by the use of various pseudocapacitive materials such as electrode
+materials, including layered double hydroxides (LDHs), transition metal dichalcogenides
+(TMDs), transition metal oxides (TMOs), and conductive polymers [19]. In addition, porous
+carbon NCs [20,21] and N-doped porous carbon [22], and the combination of MXene with
+porous carbon [23], transition-metal compound, and MXene/polymer compounds, have
+emerged as a promising candidates for SCs [24].
+These pseudocapacitive materials offer their own advantages, but they suffer from
+bottlenecks caused by these limitations. By contrast, pseudocapacitive polymers frequently
+exhibit structural volatility during extraction and interpolation and have short lifecycles
+when used in SCs. For example, typical pseudocapacitive oxides have low electrical
+conductivity and require high production costs. Their practicality as SC electrodes is largely
+limited by this defect [25]. To meet the increasing energy demand of electronic devices and
+develop new energy storage technologies, it is essential to ﬁnd new SC-electrode materials
+that have high strength and stability while also being low-cost. First reported in 2011,
+MXenes—which consist of atomically thin layers of metal carbides, nitrides, or carbonates—
+belong to the category of two-dimensional inorganic compounds, and synthesized MXenes
+consist of various hydrophilic terminations [ 26]. MXenes are produced from the MAX
+phase of aluminum, but there have been few reports on the production of MXenes from
+other A elements [27,28] (e.g., Si and Ga) (Figure 1).
+Nanomaterials 2023, 21, x FOR PEER REVIEW 2 of 39 
+ 
+ 
+intercalation and/or redox reactions near a fast surface/surface. Pseudocapacitive materi-
+als often have higher specific capacities than EDLCs because fast surface redox processes 
+can store more charges [18]. The development of SCs has been aided by the use of various 
+pseudocapacitive materials such as electrode materials, including layered double hydrox-
+ides (LDHs), transition metal dichalcogenides (TMDs), transition metal oxides (TMOs), 
+and conductive polymers [19]. In addition, porous carbon NCs [20,21] and N-doped po-
+rous carbon [22], and the combination of MXene with porous carbon [23], transition-metal 
+compound, and MXene/polymer compounds, ha ve emerged as a promising candidates 
+for SCs [24].  
+These pseudocapacitive materials offer thei r own advantages, but they suffer from 
+bottlenecks caused by these limitations. By contrast, pseudocapacitive polymers fre-
+quently exhibit structural volatility during extraction and interpolation and have short 
+lifecycles when used in SCs. For example, typical pseudocapacitive oxides have low elec-
+trical conductivity and require high production  costs. Their practicality as SC electrodes 
+is largely limited by this defect [25]. To m eet the increasing energy demand of electronic 
+devices and develop new energy storage technologies, it is essential to find new SC-elec-
+trode materials that have high strength and stability while also being low-cost. First re-
+ported in 2011, MXenes—which consist of atomically thin layers of metal carbides, ni-
+trides, or carbonates—belong to the category  of two-dimensional inorganic compounds, 
+and synthesized MXenes consist of various hydrophilic terminations [26]. MXenes are 
+produced from the MAX phase of aluminum, but there have been few reports on the pro-
+duction of MXenes from other A elements [27,28] (e.g., Si and Ga) (Figure 1). 
+ 
+Figure 1. The list of studied MAX and MXene nanocomposites. 
+While Ti3C2Tx is the most attractive SC electrode material, its performance strongly 
+depends on the demanding properties of MXene, such as surface area, strong hydrophilic-
+ity, high electrical and thermal conductivity , and the compatibility of functional groups. 
+SC electrodes based on Ti 3C2Tx have been shown to have a superior cycle life, superior 
+rate outcome at high scan rates, and relati vely high volumetric capacitances. Compared 
+to other forms of MXene, Ti3C2Tx may offer a number of benefits when used as a SC elec-
+trode. MXene materials used in SCs generally belong mainly to the 2D structure, and from 
+a structural point of view, the horizontal aggregation and restacking of MXene nanosheets 
+Figure 1. The list of studied MAX and MXene nanocomposites.
+While Ti3C2Tx is the most attractive SC electrode material, its performance strongly
+depends on the demanding properties of MXene, such as surface area, strong hydrophilicity,
+high electrical and thermal conductivity, and the compatibility of functional groups. SC
+electrodes based on Ti 3C2Tx have been shown to have a superior cycle life, superior
+rate outcome at high scan rates, and relatively high volumetric capacitances. Compared
+to other forms of MXene, Ti 3C2Tx may offer a number of beneﬁts when used as a SC
+electrode. MXene materials used in SCs generally belong mainly to the 2D structure,
+and from a structural point of view, the horizontal aggregation and restacking of MXene
+nanosheets due to strong van der Waals interactions between adjacent layers led to the
+accessibility of electrolyte ions and the use of the entire 2D MXene surface limits these
+
+Nanomaterials 2023, 13, 919 3 of 39
+possibilities. One advanced approach to overcome this limitation has been proven to be
+the design of an open structure of MXene nanosheets, which offers advantages such as
+increasing the electrochemically accessible surface area of MXenes and improving the rate
+of ion transport to active redox sites by tailoring the properties or morphology. Various
+strategies to tune the morphology, such as particle size control, interlayer spacing expansion,
+three-dimensional (3D) porous structures, and vertical line design, have been proposed
+in research publications for high-capacity and power-performance MXenes. Designing
+a 3D/porous electrode structure with a large active surface area accessible to ions and
+pores connected between ion transport channels can more effectively improve the high-rate
+capability of MXene. Various methods, such as a hard-templating strategy [29], different
+types of freeze-drying methods [30,31], chemical-cross linking [32], oxidative etching [33],
+and self-assembly methods [34], have been used for the preparation of 3D porous MXene
+materials; most of the 3D porous MXene materials have mesopores/macropores with wide
+size distribution proﬁles.
+Pliable and wearable electronics are currently undergoing rapid developments in re-
+sponse to the growing demand for wearable technology. SCs are an essential type of energy
+supply component that ineluctably experience different deformations such as bending,
+curving, and folding when used in practice. The creation of new SC electrode materials
+that exhibit exceptional versatility and excellent electrochemical achievement has greatly
+contributed to the growing energy demands of wearable technology. All things considered,
+Ti3C2Tx has shown remarkable potential as a SC electrode material for real-world energy
+storage applications. However, Ti3C2Tx (MXene) has yet to be extensively examined for
+use as a SC electrode material, even though there have been many reviews mentioning the
+beneﬁts of MXenes for electrochemical energy storage. Given the rapid advancements in
+this area and the advantageous uses of Ti 3C2Tx (MXene) in attractive pliable/wearable
+energy storage devices, there is an urgent need for a thorough analysis of SC electrodes
+based on MXene (Ti3C2Tx). In order to improve performance and practical applications, it is
+essential to examine the exact gold properties of MXene materials, including the interaction
+between MXenes and guest materials and the preservation of physical and mechanical
+properties of MXenes. Therefore, this paper provides an in-depth discussion of the most
+recent developments in Ti3C2Tx-based electrode materials for SCs, and it focuses on the
+important role played by Ti3C2Tx in achieving exceptional electrochemical results, along
+with related concepts. First, given that the special physicochemical features of Ti 3C2Tx
+(MXene) are intimately linked to the production procedures, we will examine the synthesis
+techniques for Ti3C2Tx (MXene) and how they affect the electrochemical properties of the
+obtained material. The second part will discuss the inﬂuence of electrolytes, surface ﬁnish
+groups, and electrode shape on the electrochemical outcome, as well as the suitability of
+pure Ti3C2Tx (MXene) for SC electrode use. Third, since Ti3C2Tx composites with materials
+such as carbon, polymers, and metal compounds have been used to fabricate SC electrodes
+(Figure 2), the ﬁnal section discusses the challenges currently facing Ti 3C2Tx-based ma-
+terials and their potential in SC applications. Altogether, this review paper meticulously
+discusses the fabrication process, mechanical properties, applications, and related advan-
+tages and disadvantages of Ti3C2Tx-based SC electrodes, as well as the fundamentals of SC
+design, fabrication, conﬁguration, and application.
+
+Nanomaterials 2023, 13, 919 4 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 4 of 39 
+ 
+ 
+  
+Figure 2. Overview of typical synthesis, variables affecting electrochemical achievement, and 
+Ti3C2Tx-based composite electrodes for SCs. 
+2. Synthesis of MXene 2D  
+Since the first report of Ti 3C2Tx MXene in 2011, an ever-increasing number of single 
+and multi-element bidirectional metal carbides , nitrides, and MXenes has been studied. 
+Top-down selective recording is commonly used to generate MXene. This aggregation 
+route has been shown to be scalable without losing or altering properties such as the batch 
+size increases. As shown in Figure 3, many techniques have been used to generate elusive 
+MXenes, including approaches using molten salt [35,36], Lewis acidic molten-salt etching 
+[37], chemical vapor deposition [38,39], electrochemical etching [40], and wet-etching [41–
+43]. 
+ 
+Figure 3. Synthesis methods of MXene from 2011–2022 [35–43]. 
+Figure 2. Overview of typical synthesis, variables affecting electrochemical achievement, and Ti3C2Tx-
+based composite electrodes for SCs.
+2. Synthesis of MXene 2D
+Since the ﬁrst report of Ti3C2Tx MXene in 2011, an ever-increasing number of single
+and multi-element bidirectional metal carbides, nitrides, and MXenes has been studied.
+Top-down selective recording is commonly used to generate MXene. This aggregation
+route has been shown to be scalable without losing or altering properties such as the
+batch size increases. As shown in Figure 3, many techniques have been used to generate
+elusive MXenes, including approaches using molten salt [35,36], Lewis acidic molten-salt
+etching [37], chemical vapor deposition [ 38,39], electrochemical etching [ 40], and wet-
+etching [41–43].
+Nanomaterials 2023, 21, x FOR PEER REVIEW 4 of 39 
+ 
+ 
+  
+Figure 2. Overview of typical synthesis, variables affecting electrochemical achievement, and 
+Ti3C2Tx-based composite electrodes for SCs. 
+2. Synthesis of MXene 2D  
+Since the first report of Ti 3C2Tx MXene in 2011, an ever-increasing number of single 
+and multi-element bidirectional metal carbides , nitrides, and MXenes has been studied. 
+Top-down selective recording is commonly used to generate MXene. This aggregation 
+route has been shown to be scalable without losing or altering properties such as the batch 
+size increases. As shown in Figure 3, many techniques have been used to generate elusive 
+MXenes, including approaches using molten salt [35,36], Lewis acidic molten-salt etching 
+[37], chemical vapor deposition [38,39], electrochemical etching [40], and wet-etching [41–
+43]. 
+ 
+Figure 3. Synthesis methods of MXene from 2011–2022 [35–43]. 
+Figure 3. Synthesis methods of MXene from 2011–2022 [35–43].
+
+Nanomaterials 2023, 13, 919 5 of 39
+For example, the surface of the carbide layers ends with O, OH, and/or F atoms
+when Ti3AlC2 is etched in HF solution at environmental temperature, thus resulting in the
+selective removal of the A(Al) atoms. In addition to HF solvent treatment, recent studies
+have reported on the use of various reagents and ions, such as DMSO [44], TBAOH [45],
+and alkali metal ions [ 46], with sonication treatment methods. Ti 3C2 (MXene) was ﬁrst
+reported in 2011, where its synthesis was described by immersing Ti3AlC2 (MAX) powder
+in a 50% concentrated HF solution (in Figure 4a). The ﬁnal MXene exhibits an accordion-
+like layered structure with multiple functional groups. Since Mxene was ﬁrst reported, the
+forms of MXene have come to include multifarious Ti2CTx, Ta4C3, TiNbC, (V0.5,Cr0.5)3C2,
+and Ti3CN using different etching times and different HF concentrated solutions [47]. The
+below equations express the overall chemical reactions of the etching process:
+Mn+1AlXn + 3HF = AlF3 + 3/2H2 + Mn+1Xn (1)
+Mn+1Xn + 2H2O = Mn+1Xn(OH)2 + H2 (2)
+Mn+1Xn + 2HF = Mn+1XnF2 + H2 (3)
+Moreover, single- or few-layer Ti 3C2Tx can be obtained by mixing with DMSO
+molecules after preparing Ti3C2Tx using an HF solution, then using ultrasound to increase
+the interlayer spacing or loosen the interlayer interactions [ 42]. An exfoliated Ti 3C2Tx
+prepared by HF etching of Ti3AlC2 as a SC electrode material was ﬁrst reported in 2013
+(Figure 4b) [48]. Multilayer Ti 3C2Tx was also decomposed using DMSO to form fewer
+layers. Subsequently, MXene particles were fabricated as ﬁlter-free paper electrodes [48].
+However, DMSO has been shown to be an effective cross-linking agent for delayering
+Ti3C2Tx [25] and (Mo2/3Ti1/3)3C2Tx [49]. As has been shown for V2CTx and Ti3CNTx, over-
+lapping samples can also be prepared using other organic molecules such as TBAOH [46].
+In addition to HF strong etching agent treatment, the non-direct use of HF etching treatment
+on MAX was reported in 2014 by Gogotsi and Barsoum [46]. Along with the LiF/HCl mix-
+ture solvent, ﬂuoride salts/HCl mixture solvents such as NaF, KF, NH4F, and FeF3/HCl as
+well as ﬂuorine-containing ammonium salts have been used for the preparation of Ti 3C2Tx,
+Ti2CTx, and V2CTx. An advantage of this method is that the etching exfoliation process
+proceeds in one step, and the entire synthesis path reduces the high usage of the HF agent.
+The interlayer distance of MXene is also increased due to the intercalation of Li+ and NH4+
+ions. Therefore, the products only require manual or ultrasonic stirring to be delaminated
+directly into monolayer ﬂakes. However, because monolayer MXene is easily oxidized in
+both air and aqueous solutions, methods to prevent the oxidation and storage of MXene
+at low temperatures, such as the use of additives—which do not interfere with the use of
+MXene—have been reviewed. All of these methods have excessively used F-based etching
+agents using HF or F-containing etching agents, which leads to considerable safety and
+environmental problems. In attempts to resolve these major problems, research on the use
+of ﬂuorine-free etching solutions for the development of MXene is gradually becoming
+increasingly popular. In 2018, an F-free hydrothermal alkali etching method was used
+for the synthesis of MXenes [50]. Therefore, MXene formation from MAX (Ti3SiC2) with
+non-Al was reported using a hybrid HF/H2O2 etchant solution [51]. Since then, different
+synthesis studies have been reported in 2019, such as adopting MXene metal oxides, MXene
+polymers, and MXene–carbon NCs, representing the composite MXene as a state-of-the-art
+hybrid material for versatile applications [52–54]. In 2016, Urbankowski et al. proposed
+a short period and effective etching method by using a molten ﬂuorine-containing salt
+mixture of LiF, NaF, and KF as an etchant to obtain the ﬁrst two-dimensional transition
+metal nitride MXene [ 36]. As shown in Figure 4d, the use of Lewis acid molten salt in
+the preparation of MXene has been reported with various MAX and A elements, such as
+Zn (Ti3ZnC2), Al (Ti2AlC), Si (Ti3SiC2), and Ga (Ti 2GaC). This etching technique offers
+remarkable opportunities to tune the surface chemistry and assets of MXenes, along with
+the potential to generate new MXenes, including those that cannot be prepared using the
+etching process. In addition to ﬂuorine-containing salt melts, Lewis acid melt salts have
+
+Nanomaterials 2023, 13, 919 6 of 39
+proven to be effective tools for etching the MAX phase. The “A” atom in the MAX precursor,
+and the cation in the Lewis acid, are removed by an oxidation-reduction reaction. In 2020,
+Talapin et al. proposed a general strategy and synthesized a variety of MXenes with single
+surface terminations (O, S, Se, Cl, Br, NH, and Te), as well as bare MXene without surface
+termination, and found that some of the Nb2C series MXenes, including Nb2CCl MXene,
+have superconductivity under low-temperature conditions [55].
+Nanomaterials 2023, 21, x FOR PEER REVIEW 6 of 39 
+ 
+ 
+etching process. In addition to fluorine-containing salt melts, Lewis acid melt salts have 
+proven to be effective tools for etching the MAX phase. The “A” atom in the MAX precur-
+sor, and the cation in the Lewis acid, are re moved by an oxidation-reduction reaction. In 
+2020, Talapin et al. proposed a general strategy and synthesized a variety of MXenes with 
+single surface terminations (O, S, Se, Cl, Br, NH, and Te), as well as bare MXene without 
+surface termination, and found that some of the Nb 2C series MXenes, including Nb 2CCl 
+MXene, have superconductivity under low-temperature conditions [55]. 
+ 
+Figure 4. (a) Ti3C2Tx-MXene [46], ( b) MXenes-based electrode for SCs [47], ( c) Ti3C2Tx-MXene clay 
+[45], and (d) Ti3C2Tx-MXene by molten-salt [37]. 
+The abovementioned etching methods were based on removing the “A” layer from 
+MAX and forming MXene with and without surface terminations, and the lateral 
+Figure 4. (a) Ti3C2Tx-MXene [46], ( b) MXenes-based electrode for SCs [ 47], ( c) Ti3C2Tx-MXene
+clay [45], and (d) Ti3C2Tx-MXene by molten-salt [37].
+The abovementioned etching methods were based on removing the “A” layer from
+MAX and forming MXene with and without surface terminations, and the lateral dimension
+
+Nanomaterials 2023, 13, 919 7 of 39
+of the chemically derived MXene was between several hundred nanometers to∼10 µm.
+Three different syntheses—chemical vapor deposition (CVD), lithiation expansion−micro
+explosion mechanism, and in situ electrochemical synthesis methods—are listed in the
+bottom-up approach used for MXene synthesis. In 2015, Xu et al. proposed a CVD method
+for synthesizing ultrathin and large-scale MXenes (Mo2C) [39]. Two years later, another
+research group reported a CVD method for MXene, which had a lateral dimension at the
+centimeter level [56]. In 2020, Buke et al. studied the inﬂuence of impurities on Mo 2C
+crystal formation [57]. For the lithiation expansion–micro explosion mechanism, Sun et al.
+developed a new method for preparing single-layer or few-layer MXenes from Ti 3AlC2
+MAX. In addition to that, the Ti3SiC2 MAX was used as a precursor material in this method
+(in 2019) [58]. Recently, in 2020, Zhi et al. reported an integrated process that combines the
+in situ etching of MAX and ion storage of MXene using LiTFSI and Zn(OTF)2-mixed ionic
+electrolyte as the etchant solution [59].
+3. Key Properties of 2D MXene for Supercapacitor
+The 2D MXene family members have outstanding properties that can be tuned by
+controlling the stoichiometric ratios of the M and X elements. Subsequently, the unique and
+tunable properties of MXene—including good mechanical properties, dispersibility in water,
+hydrophilic nature, metallic-like conductivity, and electrochemical active surface—make
+them potential candidate materials for the design of high-power and high-energy density
+capacitors. The unique properties of MXene are sequentially and concisely summarized in
+the following subsections.
+3.1. Excellent Mechanical Flexibility of MXene
+Two-dimensional-structured MXene exhibits excellent mechanical properties, which
+make the MXene highly suitable for use in pliant supercapacitor devices. The mechanical
+properties of the material includes its strength, elasticity, tractability, and machinability,
+and among these, the ﬂexibility properties of the material allow it to form in any shape.
+Recent years have brought signiﬁcantly increased demand for compact and holdable
+“micro-electronic” system devices, such as pliable SCs and micro-SCs, and the malleable
+and 2D-lamellar structure of MXenes make them promising candidates for such devices.
+Two-dimensional MXene nanosheets can be easily assembled as ﬁlm electrodes [ 60–62],
+and most of the research to date has focused on further improving the structural properties
+of MXene (as shown in Figure 5). The current research results show that progress is being
+made in these directions.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 7 of 39 
+ 
+ 
+dimension of the chemically derived MXene was between several hundred nanometers to 
+∼10 μm. Three different syntheses—chemical va por deposition (CVD), lithiation expan-
+sion−micro explosion mechanism, and in situ  electrochemical sy nthesis methods—are 
+listed in the bottom-up approach used for MXene synthesis. In 2015, Xu et al. proposed a 
+CVD method for synthesizing ultr athin and large-scale MXenes (Mo 2C) [39]. Two years 
+later, another research group reported a CVD method for MXene, which had a lateral di-
+mension at the centimeter level [56]. In 2020, Buke et al. studied the influence of impurities 
+on Mo2C crystal formation [57]. For the lithiation expansion–micro explosion mechanism, 
+Sun et al. developed a new method for preparing single-layer or few-layer MXenes from 
+Ti3AlC2 MAX. In addition to that, the Ti 3SiC2 MAX was used as a precursor material in 
+this method (in 2019) [58]. Recently, in 2020, Zhi et al. reported an integrated process that 
+combines the in situ etching of MAX an d ion storage of MXene using LiTFSI and 
+Zn(OTF)
+2-mixed ionic electrolyte as the etchant solution [59].  
+3. Key Properties of 2D MXene for Supercapacitor 
+The 2D MXene family members have outsta nding properties that can be tuned by 
+controlling the stoichiometric ratios of th e M and X elements. Subsequently, the unique 
+and tunable properties of MXene—including g ood mechanical properties, dispersibility 
+in water, hydrophilic nature, metallic-like conductivity, and electrochemical active sur-
+face—make them potential candidate material s for the design of high-power and high-
+energy density capacitors. The unique properties of MXene are sequentially and concisely 
+summarized in the following subsections.  
+3.1. Excellent Mechanical Flexibility of MXene 
+Two-dimensional-structured MXene exhibits excellent mechanical properties, which 
+make the MXene highly suitable for use in pliant supercapacitor devices. The mechanical 
+properties of the material includes its strength, elasticity, tractability, and machinability, 
+and among these, the flexibility properties of the material allow it to form in any shape. 
+Recent years have brought significantly increased demand for compact and holdable “mi-
+cro-electronic” system devices, such as pliable SCs and micro-SCs, and the malleable and 
+2D-lamellar structure of MXenes make them promising candidates for such devices. Two-
+dimensional MXene nanosheets ca n be easily assembled as fi lm electrodes [60–62], and 
+most of the research to date has focused on further improving the structural properties of 
+MXene (as shown in Figure 5). The current research results show that progress is being 
+made in these directions. 
+  
+Figure 5. Comparison of enhanced ion availability for digital photography of naturally deposited 
+MXene films [60]. 
+Figure 5. Comparison of enhanced ion availability for digital photography of naturally deposited
+MXene ﬁlms [60].
+
+Nanomaterials 2023, 13, 919 8 of 39
+3.2. Hydrophilic and Dispersibility of Mxene
+The hydrophilic surface of MXene has a strong afﬁnity for water, and the spreading
+of water over such surfaces is preferred. However, the ability of electrode materials to
+disperse in a variety of solvents is crucial for creating electrode inks that are subsequently
+used to create electrodes or composite electrodes. In the preparation of MXene, the choice
+of synthesis methods offers the control of the surface terminus (-OH, -F, -Cl, -O); thus, the
+–O and –OH groups are important in conferring the hydrophilicity of MXene in a stable
+manner in aqueous solution (in Figure 6). Moreover, the electrochemical outcome of the
+MXene-based electrodes is primarily driven by the surface terminus groups of MXene [63].
+Nanomaterials 2023, 21, x FOR PEER REVIEW 8 of 39 
+ 
+ 
+3.2. Hydrophilic and Dispersibility of Mxene 
+The hydrophilic surface of MXene has a strong affinity for water, and the spreading 
+of water over such surfaces is preferred. However, the ability of electrode materials to 
+disperse in a variety of solvents is crucial for creating electrode inks that are subsequently 
+used to create electrodes or composite electrodes. In the preparation of MXene, the choice 
+of synthesis methods offers the control of the surface terminus (-OH, -F, -Cl, -O); thus, the 
+–O and –OH groups are important in conferri ng the hydrophilicity of MXene in a stable 
+manner in aqueous solution (i n Figure 6). Moreover, the electrochemical outcome of the 
+MXene-based electrodes is primarily driven by the surface terminus groups of MXene 
+[63]. 
+ 
+Figure 6. (a) An exemplification of MXene with ( b) description of the synthesis and dispersion of 
+Ti3C2Tx in organic solvent, (c) and dispersibility of Ti3C2Tx in 12 different solvents [63]. 
+3.3. Conductivity of MXene 
+Supercapacitors typically have a high ener gy density and fast discharge rate; there-
+fore, they require electrodes with high conductivity, similar to Me, and the advantages of 
+MXene in facilitating the achievement of the above characteristics include the selection of 
+M and X and the adjustment of their surface termination groups to improve the conduc-
+tivity of MXene, which can be turned into metal-like, semi, or full insulation [64,65]. There-
+fore, the large lateral widths and low defect concentrations in MXenes are often associated 
+with higher conductivities [66,67]. As shown in Figure 7, fiber-molded Ti3C2Tx-MXene film 
+etched against cold-pressed Ti3C2Tx (MXene) film (1000 S cm−1) has severe defects. By con-
+trast, spin-cast Ti 3C2Tx (MXene) film can obtain an extremely high conductivity (6500 S 
+cm−1) after being etched with a LiF/HCl solution [68,69]. Obtaining large power densities 
+requires the very high conductivity of MX enes, but it can also reduce the need for 
+Figure 6. (a) An exempliﬁcation of MXene with ( b) description of the synthesis and dispersion of
+Ti3C2Tx in organic solvent, (c) and dispersibility of Ti3C2Tx in 12 different solvents [63].
+3.3. Conductivity of MXene
+Supercapacitors typically have a high energy density and fast discharge rate; therefore,
+they require electrodes with high conductivity, similar to Me, and the advantages of MXene
+in facilitating the achievement of the above characteristics include the selection of M and
+X and the adjustment of their surface termination groups to improve the conductivity of
+MXene, which can be turned into metal-like, semi, or full insulation [ 64,65]. Therefore,
+the large lateral widths and low defect concentrations in MXenes are often associated
+with higher conductivities [66,67]. As shown in Figure 7, ﬁber-molded Ti 3C2Tx-MXene
+ﬁlm etched against cold-pressed Ti3C2Tx (MXene) ﬁlm (1000 S cm−1) has severe defects.
+By contrast, spin-cast Ti 3C2Tx (MXene) ﬁlm can obtain an extremely high conductivity
+(6500 S cm−1) after being etched with a LiF/HCl solution [68,69]. Obtaining large power
+densities requires the very high conductivity of MXenes, but it can also reduce the need for
+
+Nanomaterials 2023, 13, 919 9 of 39
+conductive materials to make electrodes or even current collectors [47], thus boosting the
+device’s overall energy density.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 9 of 39 
+ 
+ 
+conductive materials to make electrodes or even current collectors [47], thus boosting the 
+device’s overall energy density. 
+ 
+Figure 7. (i) An exemplification of TC and TC-SA composite with EMI SE, ( ii) (a) XRD, and ( b–d) 
+SEM/TEM images before and after HF treatment on MAX [68]. 
+3.4. Charge Storage Mechanism 
+The pseudocapacitive ion-interstitial charge storage mechanism of MXenes contrib-
+utes to their high capacity and long life. Longevity and capacity are key components of a 
+SC. The 2D layered structure of MXene allows for the rapid intercalation of ions (e.g., H+, 
+Li+, or Na+), thus enabling both rapid pseudocapacitive charge storage as well as efficient 
+operation in acidic aqueous electrolytes and (as has recently been demonstrated) in elec-
+trolyte-free media. As a result, MXenes  have high capacitance (300–500 F g −1) or capaci-
+tance more or less comparable to that of EDLC carbon materials in aqueous electrolytes; 
+further, over thousands of cyclic operations, MXenes outperform pseudocapacitive mate-
+rials with little or no capacitance loss. In addition, the capacitance of MXene-based elec-
+trodes in SCs can be enhanced by controlling the composition of MXene-containing NCs. 
+For example, the Ni-MOF/Ti3C2Tx nanocomposite has a high specific capacitance of 497.6 
+F g −1 at 0.5 A g −1 in KOH/PVA electrolytes [70], Ti 3C2Tx-AuNPs film has capacitance of 
+696.67 F g−1 at 5 mVs−1 in 3 M H2SO4 electrolytes [71], and MnO2@V2C-MXene has a capac-
+itance approximately 551.8 F g −1, and a retentivity of about 96.5% after 5000 cycles [72]. 
+These results reveal an effici ent approach to fabricating high-performance metal oxide-
+based symmetric capacitors can be proposed, and a simple and easy way to improve the 
+design of MXene-based electrodes is presented. 
+3.5. High Density and Gravimetric Capacitance of MXene 
+High-volume MXenes produce high-density, high-gravity MXenes. In practical ap-
+plications, the increase in device power and energy density is highly dependent upon the 
+volume capacitance of the material [45,67]; available materials include vacuum-filtered 
+Ti
+3C2Tx (MXene) membrane, which can reach a volume capacitance of 900 F cm −3, while 
+MXene hydrogel membrane can attain a volume capacitance of 1500 F cm−3 [73]. Figure 8 
+shows all the data collected. These results are superior to those that have been obtained 
+for other supercapacitor electrode materials, such as the best-activated graphene electrode 
+(200–350 F cm−3) or porous AC (60–200 F cm−3) [74,75], while achieving the same outcomes. 
+Figure 7. (i) An exempliﬁcation of TC and TC-SA composite with EMI SE, ( ii) (a) XRD, and (b–d)
+SEM/TEM images before and after HF treatment on MAX [68].
+3.4. Charge Storage Mechanism
+The pseudocapacitive ion-interstitial charge storage mechanism of MXenes contributes
+to their high capacity and long life. Longevity and capacity are key components of a SC.
+The 2D layered structure of MXene allows for the rapid intercalation of ions (e.g., H+,
+Li+, or Na+), thus enabling both rapid pseudocapacitive charge storage as well as efﬁ-
+cient operation in acidic aqueous electrolytes and (as has recently been demonstrated)
+in electrolyte-free media. As a result, MXenes have high capacitance (300–500 F g−1) or
+capacitance more or less comparable to that of EDLC carbon materials in aqueous elec-
+trolytes; further, over thousands of cyclic operations, MXenes outperform pseudocapacitive
+materials with little or no capacitance loss. In addition, the capacitance of MXene-based
+electrodes in SCs can be enhanced by controlling the composition of MXene-containing
+NCs. For example, the Ni-MOF/Ti3C2Tx nanocomposite has a high speciﬁc capacitance of
+497.6 F g−1 at 0.5 A g−1 in KOH/PVA electrolytes [70], Ti3C2Tx-AuNPs ﬁlm has capacitance
+of 696.67 F g−1 at 5 mVs−1 in 3 M H 2SO4 electrolytes [71], and MnO2@V2C-MXene has
+a capacitance approximately 551.8 F g−1, and a retentivity of about 96.5% after 5000 cy-
+cles [72]. These results reveal an efﬁcient approach to fabricating high-performance metal
+oxide-based symmetric capacitors can be proposed, and a simple and easy way to improve
+the design of MXene-based electrodes is presented.
+3.5. High Density and Gravimetric Capacitance of MXene
+High-volume MXenes produce high-density, high-gravity MXenes. In practical ap-
+plications, the increase in device power and energy density is highly dependent upon the
+volume capacitance of the material [ 45,67]; available materials include vacuum-ﬁltered
+Ti3C2Tx (MXene) membrane, which can reach a volume capacitance of 900 F cm−3, while
+MXene hydrogel membrane can attain a volume capacitance of 1500 F cm−3 [73]. Figure 8
+shows all the data collected. These results are superior to those that have been obtained
+for other supercapacitor electrode materials, such as the best-activated graphene electrode
+(200–350 F cm−3) or porous AC (60–200 F cm−3) [74,75], while achieving the same outcomes.
+
+Nanomaterials 2023, 13, 919 10 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 10 of 39 
+ 
+ 
+  
+Figure 8. (i) An exemplification of MXenes. (b,c) Cyclic voltammograms of Ti3C2Tx paper electrode. 
+(d) Comparison study of MXene electrodes. ( e) Cross-sectional image [67]. ( ii) An exemplification 
+and SEM images of Ti3C2Tx MXene [74]. 
+4. Designing 2D-MXene Electrode 
+A battery and an electrochemical capacitor are two examples of energy storage tech-
+nologies that have long been used to bind ions together into layered materials, and few 
+core materials contain ions that are relatively larger than lithium. As has already been 
+mentioned, MXenes exhibit quick ion intercalation behavior, thus leading to a wide active 
+surface that is accessible for electrochemistry and suitable for use as a pseudocapacitive 
+mechanism in acidic aqueous and non-aqueous electrolytes. The first report on MXene in 
+a condenser electrode was published in 2013 [47]. This study demonstrated that cations of 
+various saline solutions were spontaneou sly intercalated between the MXene layers. 
+Moreover, the MXenes mix a hydrophilic—m ainly hydroxyl-terminated—surface with 
+2D conductive carbide layers. Thus, it is true that the electrochemical interaction of many 
+Figure 8. (i) An exempliﬁcation of MXenes. ( b,c) Cyclic voltammograms of Ti3C2Tx paper electrode.
+(d) Comparison study of MXene electrodes. (e) Cross-sectional image [67]. (ii) An exempliﬁcation
+and SEM images of Ti3C2Tx MXene [74].
+4. Designing 2D-MXene Electrode
+A battery and an electrochemical capacitor are two examples of energy storage tech-
+nologies that have long been used to bind ions together into layered materials, and few
+core materials contain ions that are relatively larger than lithium. As has already been
+mentioned, MXenes exhibit quick ion intercalation behavior, thus leading to a wide active
+surface that is accessible for electrochemistry and suitable for use as a pseudocapacitive
+mechanism in acidic aqueous and non-aqueous electrolytes. The ﬁrst report on MXene in
+a condenser electrode was published in 2013 [47]. This study demonstrated that cations
+of various saline solutions were spontaneously intercalated between the MXene layers.
+Moreover, the MXenes mix a hydrophilic—mainly hydroxyl-terminated—surface with 2D
+conductive carbide layers. Thus, it is true that the electrochemical interaction of many
+
+Nanomaterials 2023, 13, 919 11 of 39
+cations such as Na+, K+, NH4+, Mg2+, and Al3+ can provide a capacitance of more than 300
+farads per cubic centimeter (which is relatively higher than that of porous carbon). There-
+fore, in this study, not only were MXene (Ti3C2Tx) ﬂakes studied, but Ti3C2Tx binder-free
+paper was also prepared and used as a capacitor electrode. According to their study, a
+variety of cations of different charges and sizes from aqueous solutions can be successfully
+intercalated on exfoliated Ti3C2Tx-multilayers and on MXene paper consisting of several
+Ti3C2Tx layers. Both the pH and cation makeup affect this phenomenon. A thorough
+examination of the Ti3C2Tx’s electrochemical characteristics in these aqueous electrolytes
+revealed its signiﬁcant intercalation capacitances. In summary, the ﬁrst report of MXenes
+in capacitors with mono- and multivalent ions provides a basis for exploring the 2D su-
+perfamily for their suitability in electrochemical energy storage applications. The study
+presented above used the HF solvent as an etching agent for Ti 3C2Tx synthesis, while
+another research study used the mixture of LiF/HCl as an etching agent. According to their
+study, the LiF/HCl-etched Ti3C2 (MXene) clay exhibited outstanding 245 F g−1 gravimetric
+capacitance with an inﬁnitesimal capacitance loss after 10,000 cycles at 10A g−1. Moreover,
+while utilizing hydrogel Ti3C2Tx (MXene) electrodes in 3M H2SO4 electrolyte, the use of
+glassy carbon current collectors led to the achievement of capacitance as high as 380 F g−1
+or 1500 F cm−3 [76]. F-containing agents other than the LiF/HCl and HF etching agents
+were used; however, the energy storage of the MXene-based electrode did not outperform
+that of the above-mentioned results.
+Figure 9 shows the different patterning methods that are used for MXene-based SCs.
+Generally, the fabrication methods include two classes: (a) direct patterning of MXene on
+the current collector/substrate by laser scribing or reactive ion-etching; (b) transferring
+the MXene ink into different patterns by following printing methods. In addition to these
+methods, various types of methods have been used for the preparation of MXene-based
+SCs, such as spray coating with laser cutting, vacuum ﬁltration with laser cutting, direct
+writing, and freeze-drying with laser cutting methods.
+Figure 9. The fabrication methods for interdigital MXene SCs.
+5. Charge Storage and Its Inﬂuence on the Surface Group of MXene
+The energy storage process of MXene involves three main processes: electron transfer
+to the surface, ion propagation from the electrolyte to the inter-layer, and electron collection
+in the collector. Therefore, the conductivity of MXene-based electrodes should be as high
+as possible to store energy at high rates. The TMC core formed by the M and C layers
+
+Nanomaterials 2023, 13, 919 12 of 39
+interspersed in one layer of M 3C2 MXene is responsible for the conduction of electrons.
+The better electrical conductivity of Ti 3C2Tx than that of Ti 2CTx, as has been reported
+experimentally, may be explained by the lack of a carbide-core in an M 2C MXene. The
+second metal replaces the outer layer of the ﬁrst metal in ordered double TM-MXenes, thus
+forming the structures M12M2C2 and M12M22C3, where M1 and M2 represent two separate
+initial transition metals, which may be Mo, Cr, Ta, Nb, V , or Ti (as shown in Figure 10) [77].
+Nanomaterials 2023, 21, x FOR PEER REVIEW 12 of 39 
+ 
+ 
+5. Charge Storage and Its Influence on the Surface Group of MXene 
+The energy storage process of MXene involves three main processes: electron transfer 
+to the surface, ion propagation from the electrolyte to the inter-layer, and electron collec-
+tion in the collector. Therefore, the conducti vity of MXene-based electrodes should be as 
+high as possible to store energy at high rates. The TMC core formed by the M and C layers 
+interspersed in one layer of M 3C2 MXene is responsible for the conduction of electrons. 
+The better electrical conductivity of Ti 3C2Tx than that of Ti 2CTx, as has been reported ex-
+perimentally, may be explained by the lack of a carbide-core in an M2C MXene. The second 
+metal replaces the outer layer of the first metal in ordered double TM-MXenes, thus form-
+ing the structures M12M2C2 and M12M22C3, where M1 and M2 represent two separate initial 
+transition metals, which may be Mo, Cr, Ta, Nb, V, or Ti (as shown in Figure 10) [77].  
+ 
+Figure 10. Rate determination of 2D materials at three levels: intra and inter-layer, and electrode 
+morphology [77]. 
+Ti3C2Tx, made by extracting additional aluminum from the Ti3AlC2 (MAX) phase, has 
+the highest electrical conductivity of any known MXene—20,000 S cm −1. As the outermost 
+layer becomes Mo, the metal-like characteristics of MXene change from metal to semicon-
+ductor, EDLC can be developed on a surface of MXene, and pseudocapacitive ions can be 
+intercalated through the surface oxidation-reduction reaction. As illustrated in Figure 11a, 
+the interacting ions interact with MXene surface groups to partially transfer their electrons 
+to a material, therefore causing a surface oxid ation reaction on MXene. Thus, the charge 
+storage mode of MXene electrodes is the ps eudocapacity mode, and directly dependent 
+upon this quality, MXene can maintain and transmit substantially more capacity than 
+EDCL capacitors. To evaluate the effect of surface modification on the electrochemical 
+properties, Ti3C2Tx powder mixed with MXen e powder 80 wt%, 15 wt% carbon black, 
+and 5 wt% PTFE binder was processed into individual electrode films and tested in 3M 
+H2SO4 aqueous electrolyte. As shown in Figure 11b, a nitrogen surface functionalization 
+has enabled access to the full potential of MXene in a highly reversible, high-rate-perform-
+ing method. It would be interesting to extend these measurements to higher voltage win-
+dows, as even higher voltages cannot drive mo re ions to electro-adsorb in the current 
+mode; that is, we expect the curve to bend down at higher voltages.  
+Due to the surface oxidation-reduction ch arging mode, the surface chemical of 
+MXene affects the capacity of charge storage MXene-based electrodes. A functional group 
+is added to the surface of MXene after etchin g the MAX-A layer in a fascia solution. The 
+treatment of different etching agents has been shown to generate various electrochemical 
+characteristics, and the Ti3C2X (X = Cl, Br.) has been shown to manifest different improved 
+capacity. Moreover, surface defects and voids of MXene act as active sites for ion adsorp-
+tion and other interfacial reactions, which can affect rate-speed capabilities, potential 
+Figure 10. Rate determination of 2D materials at three levels: intra and inter-layer, and electrode
+morphology [77].
+Ti3C2Tx, made by extracting additional aluminum from the Ti 3AlC2 (MAX) phase,
+has the highest electrical conductivity of any known MXene—20,000 S cm −1. As the
+outermost layer becomes Mo, the metal-like characteristics of MXene change from metal
+to semiconductor, EDLC can be developed on a surface of MXene, and pseudocapacitive
+ions can be intercalated through the surface oxidation-reduction reaction. As illustrated in
+Figure 11a, the interacting ions interact with MXene surface groups to partially transfer
+their electrons to a material, therefore causing a surface oxidation reaction on MXene. Thus,
+the charge storage mode of MXene electrodes is the pseudocapacity mode, and directly
+dependent upon this quality, MXene can maintain and transmit substantially more capacity
+than EDCL capacitors. To evaluate the effect of surface modiﬁcation on the electrochemical
+properties, Ti3C2Tx powder mixed with MXene powder 80 wt%, 15 wt% carbon black, and
+5 wt% PTFE binder was processed into individual electrode ﬁlms and tested in 3M H 2SO4
+aqueous electrolyte. As shown in Figure 11b, a nitrogen surface functionalization has
+enabled access to the full potential of MXene in a highly reversible, high-rate-performing
+method. It would be interesting to extend these measurements to higher voltage windows,
+as even higher voltages cannot drive more ions to electro-adsorb in the current mode; that
+is, we expect the curve to bend down at higher voltages.
+
+Nanomaterials 2023, 13, 919 13 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 13 of 39 
+ 
+ 
+windows, and the capacitance of materials. In  many cases, Ti-deficient defects are clus-
+tered in the same sublayer (Figure 11c–e), and the concentration of surface defects can be 
+adjusted by changing the amount of etching agent used in the etching process. Figure 11c 
+shows the typical defect configurations in a single-layer Ti 3C2Tx flake: Ti vacancy (VTi) 
+and Ti vacancy clusters, with clusters rang ing from 2–17 VTi. The defect concentration 
+was tuned using an HF etchant with different concentrations, which influenced the Ti va-
+cancies on the surface functional groups, thereby adjusting the electronic conductivity. 
+The ability to tune the defect concentration is critical to control the functional properties 
+of the MXene phases. The microscopic crystal structures were further characterized by 
+high-resolution TEM (HRTEM) and the images are shown in Figure 11d.  
+ 
+ 
+Figure 11. (a) An exemplification of MXene. ( b) Charge storage rate [78]. ( c) Dark-filed TEM [79]. 
+(d,e) TEM image TM-nitride nanocrystals at 700 °C [80,81]. 
+6. MXenes as Electrode Materials for Supercapacitors 
+The synthesis method of MXene shows va rious surface termini and topographies 
+with different energy storage properties, and there have been multiple studies examining 
+surface modification, stoichiometric ratio, and electrode composition control. The follow-
+ing subsections summarize this research. 
+6.1. Control of Size of MXene Flake 
+The morphology and structure of MXenes are strongly influenced by the corrosivity 
+of the synthesis conditions. For example, pr olonging the etching time produces a more 
+open structure than the HF etching of Ti 3AlC2, which produces an accordion-like Ti3C2Tx 
+(MXene). Ti3C2 with a corrosion time of 216 h has a deformed octahedral structure that 
+Figure 11. (a) An exempliﬁcation of MXene. ( b) Charge storage rate [78]. ( c) Dark-ﬁled TEM [ 79].
+(d,e) TEM image TM-nitride nanocrystals at 700◦C [80,81].
+Due to the surface oxidation-reduction charging mode, the surface chemical of MXene
+affects the capacity of charge storage MXene-based electrodes. A functional group is added
+to the surface of MXene after etching the MAX-A layer in a fascia solution. The treatment of
+different etching agents has been shown to generate various electrochemical characteristics,
+and the Ti 3C2X (X = Cl, Br.) has been shown to manifest different improved capacity.
+Moreover, surface defects and voids of MXene act as active sites for ion adsorption and
+other interfacial reactions, which can affect rate-speed capabilities, potential windows,
+and the capacitance of materials. In many cases, Ti-deﬁcient defects are clustered in the
+same sublayer (Figure 11c–e), and the concentration of surface defects can be adjusted
+by changing the amount of etching agent used in the etching process. Figure 11c shows
+the typical defect conﬁgurations in a single-layer Ti 3C2Tx ﬂake: Ti vacancy (VTi) and Ti
+vacancy clusters, with clusters ranging from 2–17 VTi. The defect concentration was tuned
+using an HF etchant with different concentrations, which inﬂuenced the Ti vacancies on
+the surface functional groups, thereby adjusting the electronic conductivity. The ability to
+tune the defect concentration is critical to control the functional properties of the MXene
+phases. The microscopic crystal structures were further characterized by high-resolution
+TEM (HRTEM) and the images are shown in Figure 11d.
+6. MXenes as Electrode Materials for Supercapacitors
+The synthesis method of MXene shows various surface termini and topographies
+with different energy storage properties, and there have been multiple studies examining
+surface modiﬁcation, stoichiometric ratio, and electrode composition control. The following
+subsections summarize this research.
+
+Nanomaterials 2023, 13, 919 14 of 39
+6.1. Control of Size of MXene Flake
+The morphology and structure of MXenes are strongly inﬂuenced by the corrosivity
+of the synthesis conditions. For example, prolonging the etching time produces a more
+open structure than the HF etching of Ti3AlC2, which produces an accordion-like Ti3C2Tx
+(MXene). Ti3C2 with a corrosion time of 216 h has a deformed octahedral structure that loses
+more Ti and C contact on the surface than Ti3C2 with a short corrosion time of 24 h, thus
+giving it signiﬁcantly better capacitive achievement [81,82], as shown in Figure 12. However,
+despite the higher ionic conductivity and easier access to ion diffusion pathways, the
+smaller MXene fragments have higher electrical conductivity due to the higher resistance
+to intersurface contact. Kayali et al. [83] examined how the side diameters of MXenes affect
+their electrochemical properties. In addition, Mustafa et al. [71] demonstrated that rational
+design electrodes are fabricated by mixing MXene with an aqueous solution of chloroauric
+acid (HAuCl4). As shown in Figure 12g,h, the etching time had an inﬂuential effect on
+electrochemical properties of MXene. The symmetric supercapacitors made of MXene and
+AuNPs have shown exceptional speciﬁc capacitance of 696.67 F g−1 at 5 mV s−1 in 3 M
+H2SO4 electrolyte, and they can sustain 90% of their original capacitance for 5000 cycles (in
+Figure 13). The highest energy and power density of this device, which operates within a
+1.2 V potential window, are 138.4 Wh kg−1 and 2076 W kg−1, respectively. From topography
+analysis, it is clearly shown that Au NPS are homogeneously located on a MXene nanosheet;
+therefore, the Au NPs served as the best intercalators in the hybrid structure [ 84]. The
+thickness of the MXene/AuNPs composite ﬁlm had stacked layer with a 12 µm thickness.
+Figure 12. Schematic illustration of the typical structures of Ti3C2 with the evolution of the etching
+time: SEM images of the typical as-fabricated MXene with the CV curves and speciﬁc capacitance vs.
+scan rate for the electrodes with different etching times [81,82].
+
+Nanomaterials 2023, 13, 919 15 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 15 of 39 
+ 
+ 
+  
+Figure 13. (a) CV curves of MXene at different scan rates in 3-electrode setup; ( b) CV curves of 
+MX/AuNPs in 1 M H2SO4 at different scan rates in 3-electrode setup; (c) Nyquist plots of MX/AuNPs 
+with inset showing the equivalent ci rcuit model for the Nyquist plots; ( d) MX/AuNPs electrode 
+showing excellent cyclic stability with 98% capacitance retention at 100 mV s−1 1M H2SO4 after 5000 
+cycles; (e) cross-sectional image of the MX/AuNPs composite film demonstrating stacked layered 
+structure; (f) cross-sectional image showing the thickness of the composite film [84]. 
+6.2. Category of Composition 
+Table 1 summarizes most of the previous studies examining Ti 3C2Tx and other 
+MXenes for energy storage applications or supercapacitor electrodes. Ti 2CTx MXenes 
+[85,86] deliver outstanding outcomes. Compared to carbides, nitride-based MXene exhib-
+its higher electrical conductivity [87]. Accordion-structured, -O/-OH-terminated Ti 2NTx 
+Figure 13. (a) CV curves of MXene at different scan rates in 3-electrode setup; ( b) CV curves of
+MX/AuNPs in 1 M H2SO4 at different scan rates in 3-electrode setup; (c) Nyquist plots of MX/AuNPs
+with inset showing the equivalent circuit model for the Nyquist plots; ( d) MX/AuNPs electrode
+showing excellent cyclic stability with 98% capacitance retention at 100 mV s −1 1M H2SO4 after
+5000 cycles; ( e) cross-sectional image of the MX/AuNPs composite ﬁlm demonstrating stacked
+layered structure; (f) cross-sectional image showing the thickness of the composite ﬁlm [84].
+6.2. Category of Composition
+Table 1 summarizes most of the previous studies examining Ti3C2Tx and other MX-
+enes for energy storage applications or supercapacitor electrodes. Ti2CTx MXenes [85,86]
+deliver outstanding outcomes. Compared to carbides, nitride-based MXene exhibits higher
+
+Nanomaterials 2023, 13, 919 16 of 39
+electrical conductivity [87]. Accordion-structured, -O/-OH-terminated Ti2NTx nanolayers
+are obtained by synthesizing the Ti 2AlN (MAX) phase by oxygen-assisted molten salt
+followed by HCl treatment.
+Table 1. Capacitive capabilities of different MXene electrode materials for SCs.
+Versatility Synthesis Electrode
+Assembly Electrolyte Capacitance Cycle
+Stability Ref.
+Ti3C2Tx
+HF etching Ti3AlC2 and
+DMSO delamination
+Filtrating into
+ﬁlm 1 M KOH 350 F cm−3 no degradation
+(10,000 cycles) [41]
+Ti3C2Tx HCl/HF etching Ti3AlC2 Rolling 1 M H 2SO4
+900 F cm−3 or
+245 F g−1
+no degradation
+(10,000 cycles) [39]
+Ti3C2Tx
+Lewis acidic molten salt
+etching Ti3SiC2
+Rolling 1 M LiPF6-
+EC/DMC
+738 C g−1 or
+205 mAh g−1
+90%
+(2400 cycles) [31]
+Ti3CTx HF etching Ti2AlC Rolling 1 M KOH 517 F cm−3 no degradation
+(3000 cycles) [85]
+Ti3NTx
+oxygen-assisted molten
+salt etching Ti2AlN2 and
+HCl treatment
+Coating 1 M MgSO 4 201 F g−1 140%
+(1000 cycles) [88]
+V2C HF etching V2AlC and
+TMAOH delamination Rolling 1 M H 2SO4 487 F g−1 83% (10,000 cycles) [89]
+V4C3Tx HF etching V4AlC3 Coating 1 M H 2SO4 ~209 F g−1 97.23%
+(10,000 cycles) [90]
+Nb4C3Tx
+HF etching Nb4AlC3 and
+TMAOH
+delamination
+Rolling 1 M H 2SO4 1075 F cm−3 76% (5000 cycles) [91]
+Ta4C3 HF etching Ta4AlC3 Coating 0.1 M H 2SO4 481 F g−1 89% (2000 cycles) [92]
+Mo2CTx
+HF etching Mo2Ga2C
+and TBAOH
+delamination
+Filtrating into
+ﬁlm 1 M H2SO4 700 F cm−3 no degradation
+(10,000 cycles) [36]
+Mo2TiC2Tx
+HF etching and DMSO
+delamination Mo2TiAlC2
+Rolling 1 M H 2SO4 413 F cm−3 no degradation
+(10,000 cycles) [43]
+Nanolayered Ti2NTx MXene with -O/-OH surface terminations exhibited a capaci-
+tance of 200 F g−1 at a scan rate of 2 mV s−1 in 1 M MgSO4 electrolyte, and this MXene
+material was prepared by HCl treatment on Ti2AlN-MAX phase. In addition to traditional
+Ti-based MXene materials, members of the MXene family are expanded indeﬁnitely by
+using M-centered metal alloys to include C- and N-bonded transition metal species, such
+as Ta- [93] and Mo- [ 42] based MXenes, which are valued as reliable electrodes for su-
+percapacitor applications. Conductivity, stability, and electrochemical outcomes are all
+signiﬁcantly affected by the intrinsic properties of the M and X elements, and the surface
+ﬁnishes signiﬁcantly affect these qualities as well. On the other hand, since their properties
+can be modiﬁed by options of different M and X components and surface terminals can be
+managed, there is tremendous potential to develop new MXene with favorable capacity
+properties. Therefore, considering their potential utility in supercapacitors, newer MXenes
+with higher electrochemical efﬁciency are needed. An appropriate synthesis approach,
+including etching and separation processes, should be optimized for each MAX precursor
+because it has a unique atomic bond. This is necessary to achieve the desired structure and
+achievement. There is a need for a large amount of research to investigate new MXene and
+preparation techniques, which represents an important and difﬁcult task.
+
+Nanomaterials 2023, 13, 919 17 of 39
+6.3. Heteroatoms Doping and the Control of Surface-T erminus Group
+The surface properties and electron acceptability of the material can be changed by
+heteroatom doping. N-atom has been concluded to be an active heteroatom that affects
+the electrochemistry of MXenes, and many studies have examined these relationships.
+The reaction mechanisms can be summarized as follows: by replacing the C-atoms in
+the C-layer with N-atoms, it has been demonstrated that the distance between layers
+increases, effectively improving the electrical conductivity [ 94]. The most commonly
+used N-doping methods can be classiﬁed into heat treatment in ammonia [92], doping in
+liquid intermediates, water heat treatment [93,95], solvent heat treatment [96], and liquid
+peeling [97]. For example, as illustrated in Figure 14, a Ti3C2 ﬁlm with a ﬂexible N-doping
+layer was prepared by static adsorption and in situ solvent heat treatment using an alcohol
+solution saturated with urea as a source of N-atoms [96]. In addition, the intercalation of N
+in MXene increased the distanced of layers, therefore it offers the opportunity to tune the
+electrochemical properties.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 17 of 39 
+ 
+ 
+6.3. Heteroatoms Doping and the Control of Surface-Terminus Group 
+The surface properties and electron acceptab ility of the material can be changed by 
+heteroatom doping. N-atom has been concluded to be an active heteroatom that affects 
+the electrochemistry of MXenes, and many studies have examined these relationships. The 
+reaction mechanisms can be summarized as follows: by replacing the C-atoms in the C-
+layer with N-atoms, it has been demonstrated that the distance between layers increases, 
+effectively improving the electrical conductivity [94]. The most commonly used N-doping 
+methods can be classified into heat treatment in ammonia [92], doping in liquid interme-
+diates, water heat treatment [93,95], solvent heat treatment [96], and liquid peeling [97]. 
+For example, as illustrated in Figure 14, a Ti 3C2 film with a flexible N-doping layer was 
+prepared by static adsorption and in situ solvent heat treatment using an alcohol solution 
+saturated with urea as a source of N-atoms [96]. In addition, the intercalation of N in 
+MXene increased the distanced of layers, theref ore it offers the opportunity to tune the 
+electrochemical properties.  
+ 
+ 
+Figure 14. (i) An exemplification of charge storage and film-electrode fabrication of UN-Ti3C2 [96]. 
+(ii) Schematic illustration of film preparation and electrode fabrication of the UN-Ti3C2. 
+Moreover, Ti 2CTx-MXene underwent simultaneous liquid-gas phase delamination 
+and chemical doping with nitrogen  [97]. Under inert environs, the NH 2CN utilized as a 
+N-source and intercalant was bonded to the Ti2CTx nanosheets, and during heat treatment, 
+Figure 14. (i) An exempliﬁcation of charge storage and ﬁlm-electrode fabrication of UN-Ti3C2 [96].
+(ii) Schematic illustration of ﬁlm preparation and electrode fabrication of the UN-Ti3C2.
+Moreover, Ti2CTx-MXene underwent simultaneous liquid-gas phase delamination
+and chemical doping with nitrogen [97]. Under inert environs, the NH2CN utilized as a
+N-source and intercalant was bonded to the Ti2CTx nanosheets, and during heat treatment,
+a condensation reaction resulted in polymeric carbon nitride (p-C3N4). Solid-state doping
+
+Nanomaterials 2023, 13, 919 18 of 39
+was also shown to be possible. N and S co-doped Ti 3C2Tx-MXene with a 75 F g −1 at
+2 mV s−1 in Li2SO4 electrolyte were produced by pyrolysis of thiourea [98,99]. Nitrogen
+has been the primary focus of the majority of experiments investigating MXene doping. The
+potential to alter MXenes has also been demonstrated by using other types of doping atoms,
+such as metals and heteroatoms. The calculation results show that B-doping improves
+the stretchability of MXenes, thus making them ideal for use in pliable-electronics [ 100].
+The interlayer spacing, conductivity, and capacitance of MXenes can also be increased by
+adding metal atoms such as V [101] and Nb [102] doping. As discussed above, chemical
+modiﬁcation can be used to ﬁne-tune the properties of MXenes and improve their outcome
+rate. As vacancies can lead to ﬂaws in the MXene matrix and subsequently affect the
+structure, surface properties, and activity of MXenes, it may also be a useful strategy for
+modifying their properties. Novel types of terminus and doped atoms have been added
+to MXenes as a result of the growing depth of research examining chemical modiﬁcation
+techniques [103–107].
+6.4. Fabricating Vertical Alignments
+The RGO/Ti3C2Tx MXene-modiﬁed fabrics were fabricated by a facile dip-coating
+and spray-coating method and the schematic illustration of the procedure is shown in
+Figure 15. The electrochemical performance of RGO and MXene-modiﬁed fabrics were
+characterized via CV tests in two-electrode conﬁguration by using the 1 M H 2SO4/PVA
+gel electrolyte. Figure 15a shows the CV curves of all-solid-state MCF and RMC superca-
+pacitors at a scan rate of 10 mV s−1. The MCF-based supercapacitor shows the smallest
+enclosed CV curve (almost a line), indicating its inferior charge storage capability. Mean-
+while, the charge storage capability was signiﬁcantly increased after the incorporation
+of RGO, as the RMC-1 shows an enlarged CV area. In addition, the incorporation of
+RGO signiﬁcantly enhanced the CA to 62.9 mF cm−2 for RMC-1, and the CA was further
+increased to 92.5 mF cm−2, 115.0 mF cm−2, and 258.0 mF cm−2 for RMC-2, RMC-3, and
+RMC-4, respectively. The increased C A was ascribed to the synergistic effects between
+the increased electrical conductivity and dominated pseudocapacitance of MXene. The
+topography images of the RGO/Ti3C2Tx MXene were analyzed by SEM and the obtained
+images are shown in Figure 15g,h. As shown in the SEM image, the RGO and MXene
+sheets are compactly ﬁlled in the ﬁber gaps and ﬁber surfaces, and graphene sheets can be
+obviously observed in the gaps between the weft yarns and warp yarns.
+Efﬁcient longitudinal ion transfer can be achieved by fabricating MXene membrane
+electrodes from “T-shaped” fragments [ 108]. The Ti 3C2Tx ﬁlm electrode in the H 2SO4
+electrolyte showed a capacity ranging from 2 A g−1 to 361 F g−1, and showed a capacity
+increase of 76% when the current density was increased to 20 A g−1. Table 2 summarizes
+the design and results of electrodes that can meet the capacity and current efﬁciency
+requirements of a supercapacitor. As illustrated in Table 2, the theoretical limit of MXene
+capacity can be approached by designing a hydrogel framework, while high-speed results
+can be obtained at a scan rate of up to 10 V s −1 using the porous MXene structure, and
+high capacity power with a ﬁlm thickness of up to 200 µm can be obtained using vertically
+oriented MXene particles. This can conﬁrm the output result. These designs and their
+combinations have provided new and exciting possibilities for MXene in supercapacitor
+applications.
+
+Nanomaterials 2023, 13, 919 19 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 19 of 39 
+ 
+ 
+ 
+ 
+Figure 15. Schematic illustration of multifunctional RGO/Ti3C2Tx MXene fabrics, and electrochemi-
+cal performance of the MCF and RMC fabrics. ( a) CV curves of the MCF and RMC at 10 mV s −1. 
+Areal specific capacitance ( b) and gravimetric specific capacitance ( c) of MCF and RMC. ( d) Areal 
+and gravimetric specific capacitance of RMC comp ared with the reported MXene-modified fibers, 
+yarns, and fabrics. (e) Nyquist plots of MCF and RMC. ( f) Four RMC-4 supercapacitors connected 
+in series as a wristband to power a watch. (g,h) SEM images of fabrics [109]. 
+Table 2. Capacitive outcome of MXene electrodes with optimized structural design. 
+Electrode Preparation Electrolyte Capacitance Cyclability Ref. 
+Controlling flake size 
+Ti3C2Tx film Mixing large and small 
+flakes 3 M H2SO4 435~86 F g −1 10,000 cycles [69] 
+Adding spacer between MXene interlayer 
+75 μm Ti3C2Tx pillared 
+by 
+hydrazine 
+Suspending in  
+hydrazine 1 M H2SO4 250~210 F g −1  no decay 
+(10,000 cycles) [110] 
+Ti3C2Tx/graphene 3% 
+film Mixing and filtration 3 M H 2SO4 438~302 F g −1  no decay [111] 
+Sandwiched 
+Ti3C2Tx/CNT 5% 
+film 
+Alternative filtration 1 M MgSO 4 390~280 F cm −3  no decay [112] 
+Figure 15. Schematic illustration of multifunctional RGO/Ti3C2Tx MXene fabrics, and electrochem-
+ical performance of the MCF and RMC fabrics. ( a) CV curves of the MCF and RMC at 10 mV s−1.
+Areal speciﬁc capacitance (b) and gravimetric speciﬁc capacitance (c) of MCF and RMC. (d) Areal
+and gravimetric speciﬁc capacitance of RMC compared with the reported MXene-modiﬁed ﬁbers,
+yarns, and fabrics. (e) Nyquist plots of MCF and RMC. (f) Four RMC-4 supercapacitors connected in
+series as a wristband to power a watch. (g,h) SEM images of fabrics [109].
+Table 2. Capacitive outcome of MXene electrodes with optimized structural design.
+Electrode Preparation Electrolyte Capacitance Cyclability Ref.
+Controlling ﬂake size
+Ti3C2Tx ﬁlm Mixing large and small ﬂakes 3 M H 2SO4 435~86 F g−1 10,000 cycles [69]
+Adding spacer between MXene interlayer
+75 µm Ti3C2Txpillared by
+hydrazine
+Suspending in
+hydrazine 1 M H2SO4 250~210 F g−1 no decay
+(10,000 cycles) [110]
+Ti3C2Tx/graphene 3%
+ﬁlm Mixing and ﬁltration 3 M H 2SO4 438~302 F g−1 no decay [111]
+Sandwiched
+Ti3C2Tx/CNT 5%
+ﬁlm
+Alternative ﬁltration 1 M MgSO 4 390~280 F cm−3 no decay [112]
+
+Nanomaterials 2023, 13, 919 20 of 39
+Table 2. Cont.
+Electrode Preparation Electrolyte Capacitance Cyclability Ref.
+V2CTx/alkali metal
+cations ﬁlm
+Cation-driven
+assembly 3 M H2SO4 1315~>300 F cm−3 106 cycles [113]
+Ti3C2Txionogel ﬁlm Immersing into EMITFSI EMITFSI 70~52.5 F g−1 1000 cycles [114]
+Ti3C2/CNTs ﬁlm Electrophoretic
+deposition 6 M KOH 134~55 F g−1 no decay [115]
+carbon-intercalated
+Ti3C2Tx
+In situ carbonization 1 M H 2SO4 364.3~193.3 F g−1 10,000 cycles [116]
+Ti3C2Tx@rGO ﬁlm Plasma exfoliation PVA/H 2SO4 54~35 mF cm−2 1000 cycles [117]
+Designing 3D/porous structure
+13 µm Ti3C2Tx ﬁlm 1~2 µm PMMA template 3 M H 2SO4 310~100 F g−1 - [59]
+MXene/CNTs ﬁlm Ice template 3 M H 2SO4 375~92 F g−1 10,000 cycles [118]
+Ti3C2 aerogel assembly and
+freeze-drying 1 M KOH 87.1~66.7 F g−1 10,000 cycles [119]
+Ti3C2Txhydrogel assembly
+and freeze-drying H2SO4 370~165 F g−1 10,000 cycles [54]
+Ti3C2Tx/carbon cloth Freeze-drying with
+KOH treatment 1 M H2SO4 312~200 mF cm−2 8000 cycles [120]
+Ti3C2Tx/Ni foam Electrophoretic deposition 1 M KOH 140~110 F g−1 10,000 cycles [121]
+Compact and
+nanoporous
+Ti3C2Tx ﬁlm
+Freeze-drying and
+mechanically pressing 3 M H2SO4 932~462 F cm−3 5000 cycles [122]
+3D porous Ti3C2Tx ﬁlm
+Reduced-repulsion freeze
+casting
+assembly
+3 M H2SO4 358.8~207.9 F g−1 10,000 cycles [123]
+Fabricating vertical alignments
+Anti-T Ti3C2Tx ﬁlm
+Filtrating through an
+entwined
+metal mesh
+1 M H2SO4 361~275 F g−1 10,000 cycles [106]
+200 µm Ti3C2Tx ﬁlm
+Mechanical shearing of a
+discotic lamellar
+liquid-crystal
+MXene
+3 M H2SO4 >200 F g−1 20,000 cycles [105]
+6.5. 3D Microporous Sphere/T ube Ti3C2Tx
+Due to strong van der Waals interactions, both V- and Ti-based MXenes tend to re-stack,
+resulting in decreased surface area and potassium ion kinetics, and many methods have
+been developed to fabricate 3D architectures using PICs in attempts to solve this problem.
+To generate 3D microporous spheres or tubes made of Ti3C2Tx, Fang et al. devised a facile
+spray-lyophilization process [124]. Figure 16a,b shows a 3D Ti3C2 structure consisting of
+several smooth-surfaced spheres and some tubes. The development of 3D morphology
+successfully solved the stacking problem of MXene nanosheets and enabled the possibility
+of fast ion transport (Figure 16c). The constructed PICs offered signiﬁcant energy density
+and power density (98.4 Wh kg−1 and 7015.7 W kg−1). According to Figure 16d,e, Zhao
+et al. 3D K-pre-intercalated Ti3C2Tx (MXene) (K-Ti3C2Tx) was synthesized by electrostatic
+ﬂocculation, freeze-drying, and KOH treatment, and the MXene interlayer gap escalated to
+1.32 nm after K-intercalation, which was advantageous for the K+ kinetics. The proposed
+PICs exhibited an energy density of 163 Wh kg−1 and a high power density of 8.7 kW kg−1
+with the combination of an AC cathode with a 3D K-Ti3C2Tx anode. In addition to the above
+
+Nanomaterials 2023, 13, 919 21 of 39
+study, the Zhang et al. research group fabricated a 3D foam-like 3D FMS by electrostatically
+neutralizing Ti3C2Tx with positively charged melamine followed by calcination [ 115],
+where the K conductivity was accelerated due to a surface area of 89.5 m2 g−1. Figure 16f
+shows the schematic illustration of the synthesis procedure of the 3D-FMS nanocomposites.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 21 of 39 
+ 
+ 
+FMS by electrostatically neutralizing Ti3C2Tx with positively charged melamine followed 
+by calcination [115], where the K conductivity  was accelerated due to a surface area of 
+89.5 m2 g−1. Figure 16f shows the schematic illustration of the synthesis procedure of the 
+3D-FMS nanocomposites.  
+  
+Figure 16. (a,b) SEM images. (c) An exemplification of ion transport in 3D and 2D Ti 3C2 electrodes 
+[125]. (d) An exemplification of fabrication [126] and (e,f) the synthesis of 3D-FMS [127]. 
+6.6. Design of 3D Porous MXene Electrode 
+By assembling 2D MXene wafers into a 3D electrode structure, the achievement of 
+MXene materials for energy storage applicat ions can be improved. The design of the 
+MXene 3D foam was completed using a variety of technologies. Therefore, it is advanta-
+geous to reduce the size of the fragment and increase the interlayer distance so that the 
+transport and accessibility of ions to the active site can be improved to increase the effi-
+ciency of MXene. However, by forming a 3D/porous electrode structure with large active 
+Figure 16. (a,b) SEM images. ( c) An exempliﬁcation of ion transport in 3D and 2D Ti 3C2 elec-
+trodes [125]. (d) An exempliﬁcation of fabrication [126] and (e,f) the synthesis of 3D-FMS [127].
+6.6. Design of 3D Porous MXene Electrode
+By assembling 2D MXene wafers into a 3D electrode structure, the achievement of
+MXene materials for energy storage applications can be improved. The design of the MXene
+3D foam was completed using a variety of technologies. Therefore, it is advantageous to
+reduce the size of the fragment and increase the interlayer distance so that the transport
+and accessibility of ions to the active site can be improved to increase the efﬁciency of
+MXene. However, by forming a 3D/porous electrode structure with large active surfaces
+
+Nanomaterials 2023, 13, 919 22 of 39
+that are accessible to ions as well as interconnected holes for ion-transport channels, the
+high throughput potential of MXene can be increased further. The achievement of MXene is
+expected to increase as appropriate porous structures can provide paths for electrolyte wet-
+ting and ion transport, thus reducing electrical resistance and shortening diffusion distance.
+Porous MXene electrodes have been generated by a variety of methods, such as chemical
+etching [33], template method [29], hydrazine-induced foaming [128], and electrical depo-
+sition [129]. Recently, small ice particles have been used as a self-sacriﬁcing template for
+forming a ﬂexible MXene/CNT ﬁlm having large pores and nanopores. The controlled
+porous structure allows for capacities up to 375 and 251 F g−1 at 5 and 1000 mV s−1, respec-
+tively. Foaming, corrugation, and carbon assembly have also been suggested to be effective
+ways to create porous MXene frameworks [130–133].
+It is also possible to combine 3D MXene aerogels with graphene [115]. As shown in
+Figure 17, both GO/MXene nanosheets are forced to gradually arrange along the ice crystal
+boundary during the lyophilization of the mixed GO and MXene solution, and they are
+eventually crosslinked through interactions to create a 3D lattice porous structure.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 22 of 39 
+ 
+ 
+surfaces that are accessible to ions as well as interconnected holes for ion-transport chan-
+nels, the high throughput potential of MXen e can be increased further. The achievement 
+of MXene is expected to increase as appropri ate porous structures can provide paths for 
+electrolyte wetting and ion transport, thus reducing electrical resistance and shortening 
+diffusion distance. Porous MXene electrodes have been generated by a variety of methods, 
+such as chemical etching [33] , template method [29], hydrazine-induced foaming [128], 
+and electrical deposition [129]. Recently, small ice particles have been used as a self-sacri-
+ficing template for forming a flexible MXene/CNT film having large pores and nanopores. 
+The controlled porous structure allows for capacities up to 375 and 251 F g−1 at 5 and 1000 
+mV s −1, respectively. Foaming, corrugation, and carbon assembly have also been sug-
+gested to be effective ways to create porous MXene frameworks [130–133]. 
+It is also possible to combine 3D MXene aerogels with graphene [115]. As shown in 
+Figure 17, both GO/MXene nanosheets are forced to gradually arrange along the ice crys-
+tal boundary during the lyophilization of the mixed GO and MXene solution, and they 
+are eventually crosslinked through interactions to create a 3D lattice porous structure. 
+ 
+Figure 17. An exemplification of fabrication of (a) aerogel, (b) MSCs, (c) photo of NCs in dispersion 
+of water, (d) size of MXene flake, and (e) pressure-strain curve [134]. 
+7. MXene Composite Material for Capacitor Electrode 
+MXenes have been considered to be potential building blocks for composites for use 
+in energy storage applications due to their distinctive 2D wafer structure and superior 
+electrical conductivity. MXenes have been combined with multiple active ingredients, in-
+cluding metal oxides and conductive polymers, to produce a synergistic effect. However, 
+these elements increase interlayer spacing and reduce MXene rearrangements, which is 
+expected to improve ion accessibility and accelerate ion transfer. Therefore, MXene-based 
+composites often exhibit enhanced electrochemical capabilities, thus indicating the poten-
+tial utility of MXene in supercapacitor  technology. The studied MXene-composite 
+Figure 17. An exempliﬁcation of fabrication of (a) aerogel, (b) MSCs, (c) photo of NCs in dispersion
+of water, (d) size of MXene ﬂake, and (e) pressure-strain curve [134].
+7. MXene Composite Material for Capacitor Electrode
+MXenes have been considered to be potential building blocks for composites for use
+in energy storage applications due to their distinctive 2D wafer structure and superior
+electrical conductivity. MXenes have been combined with multiple active ingredients,
+including metal oxides and conductive polymers, to produce a synergistic effect. However,
+these elements increase interlayer spacing and reduce MXene rearrangements, which is
+expected to improve ion accessibility and accelerate ion transfer. Therefore, MXene-based
+composites often exhibit enhanced electrochemical capabilities, thus indicating the potential
+utility of MXene in supercapacitor technology. The studied MXene-composite materials
+
+Nanomaterials 2023, 13, 919 23 of 39
+and their electrochemical properties in the capacitor ﬁeld are reviewed in the following
+subsections.
+7.1. MXene/Conducting Polymers
+Organic polymers, also known as conductive polymers, or more accurately, intrin-
+sically conducting polymers (ICPs), are those that conduct electricity. The substances
+in question may be semiconductors or have metallic conductivity. Charge transfer com-
+plexes were the ﬁrst highly conductive organic compounds, because they were the ﬁrst
+conducting polymers, such as polyaniline, which was ﬁrst identiﬁed in the middle of the
+19th century. Superconductivity was ﬁrst demonstrated in 1980; however, researchers
+ﬁrst showed that salts of tetrathiafulvalene exhibit conductivity that is virtually metallic
+in the early 1970s. Conducting polymers have signiﬁcant beneﬁts for wearable superca-
+pacitors compared to other pseudocapacitive materials due to their inherent ﬂexibility
+and conductivity. The composites of MXene and conducting polymers can also achieve
+high capacitance in acidic solutions. Multiple conducting polymers, including PANI [135],
+PEDOT [136,137], PPy [138], PDA [139], and PFDs [140], have been combined with MXenes
+to produce hybrids with excellent electrochemical characteristics.
+A conducting polymer that is commonly combined with MXene is the highly con-
+ductive PANI [135,141,142], and CP@rGO electrodes with Ti 3C2Tx ﬁlm electrodes have
+been formed by polymerization as shown in Figure 18a [ 135]. Figure 18b shows the
+strategy to expand the voltage window of the CP-containing supercapacitors by pairing
+them with 2D Ti3C2TX sheets in 3 M H2SO4. The topography image of the MXene elec-
+trode ﬁlms conﬁrmed that MXene ﬁlm is composed of well-aligned stacked sheets, as
+shown in Figure 18c. Figure 18d–i shows the CV curves (5 mV s −1) of the individual
+electrodes (Ti3C2Tx, and CP@rGO) in a three-electrode setup in which both electrodes
+showed redox activity at entirely different potentials, demonstrating the possibility to man-
+ufacture all-pseudocapacitive asymmetric devices in aqueous electrolyte. The formation of
+Ti3C2Tx//PEDOT@rGO showed it had stable pseudocapacitive character even at a scan
+rate of 100 mV s−1, conﬁrming facile proton transport within hybrid devices.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 24 of 39 
+ 
+ 
+ 
+ 
+Figure 18. (a) An exemplification of MXene synthesis, (b) schematic illustration of the tests, (c) cross-
+sectional image and the (d–i) CV curve of the MXene-based electrodes [135]. 
+7.2. MXene/Metal and MXene/Metal Oxides 
+Pseudocapacitive materials for supercapacitors include a variety of metal-based com-
+pounds. These materials often display below-average electronic conductivity despite hav-
+ing high theoretical potential. Due to the metal-like conductivity of MXene, composites 
+consisting of MXene and metal have been investigated as a potential solution to this prob-
+lem. For MO, MnO2, MoO3, RuO2, SnO2, TiO2, NiO, WO3, and ZnO are often used in com-
+bination with MXene to obtain excellent capacitance [143–146]. MXene/MO composites 
+can be generated by in situ processing or field assembly. A simple technique to induce 
+meaningful interactions between components fo r in situ synthesis is to chemically grow 
+metal oxides directly on liquid phase MXene nanosheets [147]. Figure 19a shows the syn-
+thesis procedure of CoS2 nanoparticles’ growth on a MXene surface and a simple one-step 
+solvent thermal method has been used for the synthesis 
+From SEM images, it can be observed fr om the figure that the composite has two 
+kinds of morphologies: one is spherical structure and the other is lamellar structure. A 
+synergistic effect can be generated between them, promoting its electrochemical perfor-
+mance. Figure 19b–g represents the electrochemical tests of the MXene/CoS2 (CCH) com-
+posite in 2 M KOH aqueous electrolyte. As show in Figure 19b–g, the MXene/CoS 2 
+Figure 18. Cont.
+
+Nanomaterials 2023, 13, 919 24 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 24 of 39 
+ 
+ 
+ 
+ 
+Figure 18. (a) An exemplification of MXene synthesis, (b) schematic illustration of the tests, (c) cross-
+sectional image and the (d–i) CV curve of the MXene-based electrodes [135]. 
+7.2. MXene/Metal and MXene/Metal Oxides 
+Pseudocapacitive materials for supercapacitors include a variety of metal-based com-
+pounds. These materials often display below-average electronic conductivity despite hav-
+ing high theoretical potential. Due to the metal-like conductivity of MXene, composites 
+consisting of MXene and metal have been investigated as a potential solution to this prob-
+lem. For MO, MnO2, MoO3, RuO2, SnO2, TiO2, NiO, WO3, and ZnO are often used in com-
+bination with MXene to obtain excellent capacitance [143–146]. MXene/MO composites 
+can be generated by in situ processing or field assembly. A simple technique to induce 
+meaningful interactions between components fo r in situ synthesis is to chemically grow 
+metal oxides directly on liquid phase MXene nanosheets [147]. Figure 19a shows the syn-
+thesis procedure of CoS2 nanoparticles’ growth on a MXene surface and a simple one-step 
+solvent thermal method has been used for the synthesis 
+From SEM images, it can be observed fr om the figure that the composite has two 
+kinds of morphologies: one is spherical structure and the other is lamellar structure. A 
+synergistic effect can be generated between them, promoting its electrochemical perfor-
+mance. Figure 19b–g represents the electrochemical tests of the MXene/CoS2 (CCH) com-
+posite in 2 M KOH aqueous electrolyte. As show in Figure 19b–g, the MXene/CoS 2 
+Figure 18. (a) An exempliﬁcation of MXene synthesis, (b) schematic illustration of the tests, (c) cross-
+sectional image and the (d–i) CV curve of the MXene-based electrodes [135].
+7.2. MXene/Metal and MXene/Metal Oxides
+Pseudocapacitive materials for supercapacitors include a variety of metal-based com-
+pounds. These materials often display below-average electronic conductivity despite
+having high theoretical potential. Due to the metal-like conductivity of MXene, compos-
+ites consisting of MXene and metal have been investigated as a potential solution to this
+problem. For MO, MnO2, MoO3, RuO2, SnO2, TiO2, NiO, WO3, and ZnO are often used
+in combination with MXene to obtain excellent capacitance [143–146]. MXene/MO com-
+posites can be generated by in situ processing or ﬁeld assembly. A simple technique to
+induce meaningful interactions between components for in situ synthesis is to chemically
+grow metal oxides directly on liquid phase MXene nanosheets [ 147]. Figure 19a shows
+the synthesis procedure of CoS2 nanoparticles’ growth on a MXene surface and a simple
+one-step solvent thermal method has been used for the synthesis.
+From SEM images, it can be observed from the ﬁgure that the composite has two kinds
+of morphologies: one is spherical structure and the other is lamellar structure. A syner-
+gistic effect can be generated between them, promoting its electrochemical performance.
+Figure 19b–g represents the electrochemical tests of the MXene/CoS2 (CCH) composite in
+2 M KOH aqueous electrolyte. As show in Figure 19b–g, the MXene/CoS 2 (CCH)/rGO
+ASCs can reach a maximum operating voltage window of 1.6 V . In addition, the speciﬁc
+capacitance retention of the device is about 98% after 5000 cycles of charging and discharg-
+ing, meaning it has excellent long-term cycling performance. It is worth noting that the
+capacitance drops slowly in the initial 1000 cycles and increases to 98% in the range of
+1000–5000 cycles. The possible explanation is the activation of electrode materials and the
+remarkable enhancement of wettability between active materials and electrolyte ions.
+TiO2/Ti3C2 composites can be produced in situ by adding TiO 2 precursors or by
+directly oxidizing Ti3C, because TiO 2 is a metal oxide that can be made by converting
+Ti3C2 MXenes. Using tetrabutyl titanate as a precursor, TiO2 NPs were incorporated into
+Ti3C2 nanolayers, where in situ hydrolysis resulted in a high speciﬁc surface area, large
+interlayer distances of MXene, and the transport path of MXene open ions [146]. Then, for
+the synthesis of Ti3C2/TiO2 nanocomposites, a less difﬁcult one-step oxidation process at
+room temperature was proposed (Figure 20).
+
+Nanomaterials 2023, 13, 919 25 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 25 of 39 
+ 
+ 
+(CCH)/rGO ASCs can reach a maximum operating voltage window of 1.6 V. In addition, 
+the specific capacitance retention of the device is about 98% after 5000 cycles of charging 
+and discharging, meaning it has excellent long-term cycling performance. It is worth not-
+ing that the capacitance drops slowly in the initial 1000 cycles and increases to 98% in the 
+range of 1000–5000 cycles. The possible explanation is the activation of electrode materials 
+and the remarkable enhancement of wettabilit y between active materials and electrolyte 
+ions. 
+ 
+Figure 19. (a) Schematic diagram for the synthesis process of MXene/CoS 2 (CCH) composite with 
+the (b) SEM image, and the ( b–g) electrochemical performance of MXene/CoS 2 (CCH)//rGO ASCs 
+in 2 M KOH aqueous electrolyte. [148]. 
+TiO2/Ti3C2 composites can be produced in situ by adding TiO 2 precursors or by di-
+rectly oxidizing Ti3C, because TiO2 is a metal oxide that can be made by converting Ti 3C2 
+MXenes. Using tetrabutyl titanate as a precursor, TiO 2 NPs were incorporated into Ti 3C2 
+nanolayers, where in situ hydrol ysis resulted in a high spec ific surface area, large inter-
+layer distances of MXene, and the transport path of MXene open ions [146]. Then, for the 
+Figure 19. (a) Schematic diagram for the synthesis process of MXene/CoS2 (CCH) composite with
+the (b) SEM image, and the (b–g) electrochemical performance of MXene/CoS2 (CCH)//rGO ASCs
+in 2 M KOH aqueous electrolyte [148].
+Under various hydrothermal conditions, Ti3C2 MXene has been coupled with mono-
+clinic WO3 nanorods and hexagonal WO3 NPs using HCl and HNO3, respectively [149].
+The capacitance of the hexagonal WO 3/Ti3C2 composites (566 F g−1) was nearly twice
+that of pure hexagonal WO3 in 0.5 M H2SO4 electrolyte within a−0.5 to 0 V vs. Ag/AgCl
+potential range (Figure 21). A microwave process has also been used to combine metal
+oxides and MXenes [150]. MXenes in composites in basic electrolytes primarily facilitate
+rapid electron transfer and sporadic ﬂexibility with minimal capacitance contribution.
+MXenes also serve as active materials in acidic electrolytes because they can offer high
+pseudocapacitance based on redox reactions starting from H+ intercalation.
+
+Nanomaterials 2023, 13, 919 26 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 26 of 39 
+ 
+ 
+synthesis of Ti3C2/TiO2 nanocomposites, a less difficult one-step oxidation process at room 
+temperature was proposed (Figure 20). 
+ 
+Figure 20. An exemplification of Ti 3C2/TiO2 composites fabrication, ( a) EIS, and ( b–d) cyclability 
+retention of various Ti3C2/TiO2 -electrode [147]. 
+Under various hydrothermal conditions, Ti3C2 MXene has been coupled with mono-
+clinic WO3 nanorods and hexagonal WO 3 NPs using HCl and HNO 3, respectively [149]. 
+The capacitance of the hexagonal WO3/Ti3C2 composites (566 F g−1) was nearly twice that 
+of pure hexagonal WO3 in 0.5 M H2SO4 electrolyte within a −0.5 to 0 V vs. Ag/AgCl poten-
+tial range (Figure 21). A microwave process ha s also been used to combine metal oxides 
+and MXenes [150]. MXenes in composites in basic electrolytes primarily facilitate rapid 
+electron transfer and sporadic flexibility with minimal capacitance contribution. MXenes 
+also serve as active materials in acidic elec trolytes because they can offer high pseudo-
+capacitance based on redox reactions starting from H+ intercalation. 
+Figure 20. An exempliﬁcation of Ti3C2/TiO2 composites fabrication, (a) EIS, and (b–d) cyclability
+retention of various Ti3C2/TiO2 -electrode [147].
+
+Nanomaterials 2023, 13, 919 27 of 39
+Nanomaterials 2023, 21, x FOR PEER REVIEW 27 of 39 
+ 
+ 
+ 
+Figure 21. (a) An exemplification of fabrication, ( b–e) FESEM, AFM, and vial images with the ( f) 
+specific capacitance rate of Hexa-WO3 electrodes [149]. 
+8. Capacitive Mechanism of MXene in Electrolytes 
+The development of new or improved methods for MXene-based electrodes for en-
+ergy storage applications and their achievemen t of high capacity are based on the basic 
+understanding of the energy storage mechanism of MXenes. Moreover, the electrochemi-
+cal signature of MXene in acidic electrolyt e under a high scan rate environment shows 
+broad redox peaks on top of a rectangular CV shape, which is indicative of redox pseudo-
+capacitance. Intercalation pseudocapacitance is a storage mechanism characterized by the 
+location of H + insertion reaction sites between layers of MXene in an acidic electrolyte 
+without phase transition [151]. This property contrasts with the sluggish ion intercalation 
+that is observed in battery-type layered electr ode materials such as graphite, and it also 
+has a long cycle life (more than 10,000 cycles). This section reviews and discusses recent 
+developments in the field of research examining the capacitive properties and charge stor-
+age processes of MXenes in various electrolyt es. For capacitors, various types of electro-
+lytes have been used, including acidic, aqueous (basic and neutral), and non-aqueous 
+Figure 21. (a) An exempliﬁcation of fabrication, ( b–e) FESEM, AFM, and vial images with the ( f)
+speciﬁc capacitance rate of Hexa-WO 3 electrodes [149].
+8. Capacitive Mechanism of MXene in Electrolytes
+The development of new or improved methods for MXene-based electrodes for en-
+ergy storage applications and their achievement of high capacity are based on the basic
+understanding of the energy storage mechanism of MXenes. Moreover, the electrochemical
+signature of MXene in acidic electrolyte under a high scan rate environment shows broad
+redox peaks on top of a rectangular CV shape, which is indicative of redox pseudocapaci-
+tance. Intercalation pseudocapacitance is a storage mechanism characterized by the location
+of H+ insertion reaction sites between layers of MXene in an acidic electrolyte without
+phase transition [151]. This property contrasts with the sluggish ion intercalation that is
+observed in battery-type layered electrode materials such as graphite, and it also has a long
+cycle life (more than 10,000 cycles). This section reviews and discusses recent developments
+in the ﬁeld of research examining the capacitive properties and charge storage processes
+of MXenes in various electrolytes. For capacitors, various types of electrolytes have been
+used, including acidic, aqueous (basic and neutral), and non-aqueous electrolytes. Be-
+
+Nanomaterials 2023, 13, 919 28 of 39
+cause acidic electrolytes use a different charge storage mechanism to basic and neutral
+electrolytes, MXene electrodes have the maximum capacitance in H 2SO4 electrolytes in
+acidic electrolytes, along with excellent rate production. Figure 22a [152] compares the CV
+proﬁles of Ti3C2Tx ﬁlm electrodes in acidic and neutral electrolytes. The existence of pseu-
+docapacitive behavior can be seen in the H2SO4 electrolyte by looking at the large redox
+bumps at−0.4 to−0.3 V in the CV curves. In contrast to its neutral equivalents ((NH4)2SO4
+and MgSO4), the H2SO4 electrolyte produces a substantially larger capacitance [152]. The
+results of in situ X-ray absorption spectrometry (XAS) measurements reveal the change in
+the oxidation state of Ti during the electrochemical discharge activity of Ti3C2Tx in H2SO4,
+thus conﬁrming the pseudocapacitive behavior based on redox reactions [106]. Figure 22b
+uses in situ electrochemical Raman spectroscopy to represent the discharge process of the
+Ti3C2Tx ﬁlm electrode in the H2SO4. According to [152], a reversible voltage-subordinate
+change is observed after discharge, which indicates an electrochemical reaction:
+(M=Ox) + 1/2xH+ + 1/2xe-→ M-O(1/2)x (OH)(1/2)x (4)
+In contrast to basic and neutral electrolytes, acidic electrolytes exhibit pseudocapacitive
+behavior with redox reactions, thus leading to higher capacitance and faster kinetics as
+a result of rapid proton transport. For example, they can continue to deliver 500 F cm−3
+at a potential scan rate of 1000 mV s−1 [70]. There is much evidence showing that acidic
+electrolytes and electrode materials that exhibit rapid faradic reactions, such as metal oxides,
+are compatible [14]. In acidic electrolytes, the higher capacitance of MXene (more than
+1500 F cm−3) can be fully utilized. However, despite the fact that MXenes may function
+with high capacitance and rate in acidic aqueous electrolytes based on the intercalation
+pseudocapacitive process, the actual utility of such devices is constrained by their limited
+operating voltage range (approximately 1 V).
+Nanomaterials 2023, 21, x FOR PEER REVIEW 28 of 39 
+ 
+ 
+electrolytes. Because acidic electrolytes use a different charge storage mechanism to basic 
+and neutral electrolytes, MXene electrodes have the maximum capacitance in H2SO4 elec-
+trolytes in acidic electrolytes, along with excellent rate production. Figure 22a [152] com-
+pares the CV profiles of Ti3C2Tx film electrodes in acidic and neutral electrolytes. The ex-
+istence of pseudocapacitive behavior can be seen in the H2SO4 electrolyte by looking at the 
+large redox bumps at −0.4 to −0.3 V in the CV curves. In contrast to its neutral equivalents 
+((NH4)2SO4 and MgSO4), the H2SO4 electrolyte produces a substantially larger capacitance 
+[152]. The results of in situ X-ray absorption spectrometry (XAS) measurements reveal the 
+change in the oxidation state of Ti during the electrochemical discharge activity of Ti3C2Tx 
+in H2SO4, thus confirming the pseudocapacitive behavior based on redox reactions [106]. 
+Figure 22b uses in situ electrochemical Ra man spectroscopy to represent the discharge 
+process of the Ti3C2Tx film electrode in the H2SO4. According to [152], a reversible voltage-
+subordinate change is observed after discharge, which indicates an electrochemical reac-
+tion: 
+(M=Ox) + 1/2xH+ + 1/2xe- → M-O(1/2)x (OH)(1/2)x (4)
+In contrast to basic and neutral electrolytes, acidic electrolytes exhibit pseudocapaci-
+tive behavior with redox reactions, thus leading to higher capacitance and faster kinetics 
+as a result of rapid proton transport. For example, they can continue to deliver 500 F cm−3 
+at a potential scan rate of 1000 mV s −1 [70]. There is much evidence showing that acidic 
+electrolytes and electrode materials that exhibit rapid faradic reactions, such as metal ox-
+ides, are compatible [14]. In acidic electrol ytes, the higher capacitance of MXene (more 
+than 1500 F cm−3) can be fully utilized. However, despite the fact that MXenes may func-
+tion with high capacitance and rate in acidic aqueous electrolytes based on the intercala-
+tion pseudocapacitive process, the actual uti lity of such devices is constrained by their 
+limited operating voltage range (approximately 1 V). 
+ 
+Figure 22. (a) CV-curves (b) In situ Raman spectra of Ti3C2Tx MXene recorded on a positive electrode 
+and a negative electrode [152]. 
+To attain high capacity, water molecules must be present between the MXene layers. 
+They support ion intercalation and adsorption [153–155] as well as electrical double layer 
+(EDL) formation in the MXene interstitial space. As shown in Figure 23, hydrated cations, 
+such as Li
++, are formed by water molecules around the cation intercalated in MXene layers 
+Figure 22. (a) CV-curves (b) In situ Raman spectra of Ti3C2Tx MXene recorded on a positive electrode
+and a negative electrode [152].
+To attain high capacity, water molecules must be present between the MXene layers.
+They support ion intercalation and adsorption [153–155] as well as electrical double layer
+(EDL) formation in the MXene interstitial space. As shown in Figure 23, hydrated cations,
+such as Li +, are formed by water molecules around the cation intercalated in MXene
+
+Nanomaterials 2023, 13, 919 29 of 39
+layers without dehydration. The hydration shell isolates the atomic orbitals of the cation
+and the MXene, prevents orbital hybridization, and separates the positive and negative
+charges. Due to this potential difference in the spacing between layers, an internal EDCL
+is generated. Thus, despite the intercalation of hydrated cations in the interstitial space,
+MXenes exhibit most of the properties typical of an EDLC with a near-constant capacity in
+the potential window of the aqueous electrolyte.
+Nanomaterials 2023, 21, x FOR PEER REVIEW 29 of 39 
+ 
+ 
+without dehydration. The hydration shell isolates the atomic orbitals of the cation and the 
+MXene, prevents orbital hybridization, and se parates the positive and negative charges. 
+Due to this potential difference in the spacing between layers, an internal EDCL is gener-
+ated. Thus, despite the intercalation of hydrat ed cations in the interstitial space, MXenes 
+exhibit most of the properties typical of an EDLC with a near-constant capacity in the 
+potential window of the aqueous electrolyte. 
+ 
+Figure 23. (a,b) CV profiles of Ti3C2Tx-based SCs in basic and neutral electrolytes [38]. 
+Solid-state electrolyte (SSE)-based SCs have recently attracted considerable interest 
+due to the rapidly increasing power demands of wearable electronics, portable electronics, 
+printable electronics, microelectronics, and highly flexible electronic devices. Electrolytes 
+are essential components of supercapacitors and play an influential role in transferring 
+and balancing the charge between the two electrodes. It is true that the interaction be-
+tween electrolyte and electrode in electrochemical processes broadly affects the state of 
+the electrode–electrolyte interface and the internal structure of the active material, and it 
+is noteworthy for the advanced application of flexible supercapacitors. Designing MXene 
+materials and suitable solid electrolyte/MXene interfaces is a highly valued approach. SCs 
+composed of aqueous electrolyte ionic liquids are available to operate at high voltage and 
+possess high conductivity and capacitance, but have a leakage problem. The use of SSEs 
+may help to avoid the leakage problem [156]. SSEs are composed of inorganic-solid and 
+organic-polymer electrolytes. The inorganic-so lid electrolytes include a single crystal, 
+amorphous compound and are polycrystallin e, whereas organic-polymer solid electro-
+lytes are composed of an organic polymer matrix and a salt. Most SSEs for SCs have been 
+based on polymer, including solid polymers, gel polymers (quasi-solid state), and poly-
+electrolytes. Among these three SSEs, gel-polymer electrolytes have been extensively used 
+in SCs due to their high ionic conductivity derived from the liquid phase. For the prepa-
+ration of gel-polymer electr olytes, various types of polymer used include PVA, PMMA, 
+PVDF-HFP, etc., and water, some organic solvents (DMF, EC, PC) are used as a plasticizer 
+[157–160]. Figure 24 is a graphical representa tion of a hydrogel polymer composed of a 
+polymer host (PEO, PVA or PEG) and an aqueous electrolyte (H
+2SO4, KOH. etc.,) or a 
+conducing salt dissolved in a solvent [161]. 
+Figure 23. (a,b) CV proﬁles of Ti3C2Tx-based SCs in basic and neutral electrolytes [38].
+Solid-state electrolyte (SSE)-based SCs have recently attracted considerable interest
+due to the rapidly increasing power demands of wearable electronics, portable electronics,
+printable electronics, microelectronics, and highly ﬂexible electronic devices. Electrolytes
+are essential components of supercapacitors and play an inﬂuential role in transferring
+and balancing the charge between the two electrodes. It is true that the interaction be-
+tween electrolyte and electrode in electrochemical processes broadly affects the state of
+the electrode–electrolyte interface and the internal structure of the active material, and it
+is noteworthy for the advanced application of ﬂexible supercapacitors. Designing MXene
+materials and suitable solid electrolyte/MXene interfaces is a highly valued approach.
+SCs composed of aqueous electrolyte ionic liquids are available to operate at high voltage
+and possess high conductivity and capacitance, but have a leakage problem. The use of
+SSEs may help to avoid the leakage problem [156]. SSEs are composed of inorganic-solid
+and organic-polymer electrolytes. The inorganic-solid electrolytes include a single crystal,
+amorphous compound and are polycrystalline, whereas organic-polymer solid electrolytes
+are composed of an organic polymer matrix and a salt. Most SSEs for SCs have been based
+on polymer, including solid polymers, gel polymers (quasi-solid state), and polyelectrolytes.
+Among these three SSEs, gel-polymer electrolytes have been extensively used in SCs due
+to their high ionic conductivity derived from the liquid phase. For the preparation of
+gel-polymer electrolytes, various types of polymer used include PVA, PMMA, PVDF-HFP ,
+etc., and water, some organic solvents (DMF, EC, PC) are used as a plasticizer [157–160].
+Figure 24 is a graphical representation of a hydrogel polymer composed of a polymer host
+(PEO, PVA or PEG) and an aqueous electrolyte (H2SO4, KOH. etc.,) or a conducing salt
+dissolved in a solvent [161].
+
+Nanomaterials 2023, 13, 919 30 of 39
+ 
+ 
+ 
+ 
+Nanomaterials 2023, 21, x. https://doi.org/10.3390/xxxxx www.mdpi.com/journal/nanomaterials 
+ 
+Figure 24. Graphical representation of the hydrogel polymer electrolyte (PVA/KOH/H2O) [161].
+The comparison study results of the pure MXene SCs, MXene composite SCs, and other
+SCs are summarized in Table 3. As shown in Table 3, MXene-based SCs have long-term
+reusability properties with high gravimetric capacitance, which further strongly conﬁrms
+the theoretical reason that MXene has emerged as a candidate for SCs.
+Table 3. Comparison study of pure MXene SCs, MXene composite SCs, and other SCs.
+Electrode Electrolyte
+Gravimetric
+Capacitance
+(F g−1)
+Cycling Stability Flexibility Ref.
+Ti3C2Tx 1 M H2SO4 314 (2 mV s−1) 89.1% retention (5 mA g−1),
+10,000 cycles - [52]
+Ti3C2Tx 3 M H2SO4 380 (10 mV s−1) Over 90% retention (10 mA
+g−1), 10,000 cycles
+Flexible
+ﬁlm [78]
+Ti3C2Tx 1 M KOH 130 (2 mV s−1) 100% retention (1 mA g−1),
+10,000 cycles
+Flexible
+ﬁlm [162]
+Ti3C2Tx/rGO 3 M H 2SO4 335 (2 mV s−1) 100% retention (1 mA g−1),
+20,000 cycles
+Flexible
+ﬁlm [163]
+Ti3C2Tx/CNT MgSO 4 125 (2 mV s−1) 100% retention (5 A g−1),
+10,000 cycles
+Flexible
+ﬁlm [112]
+Ti3C2Tx/PPy 1 M H 2SO4 416 (5 mV s−1) 92% retention (100 mV s−1),
+25,000 cycles
+Flexible
+ﬁlm [117]
+Ti3C2Tx/NiCo2S4 3 M KOH 1147.47 (1 A g−1) 91.1% retention (10 A g−1),
+3000 cycles - [164]
+Ti3C2Tx/graphene H 2SO4 542 (5 mV s−1) ~ 52% retention (1000 mV s−1)
+5000 cycles - [165]
+Ti3C2Tx/hydrogel H 2SO4
+370~165
+(5~1000 A g−1)
+~ 98% retention (10 A g−1)
+10,000 cycles - [166]
+CuO@ AuPd@MnO2
+Core-shell whiskers 1 M KOH 1376 (5 mV s−1)
+99% retention
+(5 mVs−1)
+5000 cycles
+- [167]
+
+Nanomaterials 2023, 13, 919 31 of 39
+Table 3. Cont.
+Electrode Electrolyte
+Gravimetric
+Capacitance
+(F g−1)
+Cycling Stability Flexibility Ref.
+Ni-MOF 3 M KOH 988 (1.4 A g−1) 96.5% retention(1.4 A g−1)
+5000 cycles
+Flexible
+ﬁlm [168]
+PANI-ZIF67 3 M KCl 2146 (10 mV s−1) - Flexible [169]
+α-Fe2O3@ C 1 M
+Na2SO4
+1232.4 (2 mA
+cm−2)
+97.6% retention(2 mA cm−2)
+4000 cycles
+Flexible (97.1 6%
+retention after 4000
+bending cycles)
+[170]
+MOFC/CNT 6 M KOH 381.2 (5 mV s−1) 95% retention (5 mV s−1)
+10,000 cycles Flexible [171]
+TiO2 nanospindles 6 M KOH 897 (0.21 A g−1) 75% retention (0.21 A g−1)
+5000 cycles - [172]
+NiCo2O4
+NWARs/PPy 3 M KOH 2244 (1 A g−1) 89.2% retention (1 A g−1)
+5000 cycles - [173]
+CoO-NiO-ZnO 3 M KOH 2115.5 (1 A g−1) 87.9% retention (1 A g−1)
+5000 cycles - [174]
+ZIF/PPy 1 M
+Na2SO4
+554.4 (0.5 A g−1) 90.7% retention (0.5 A g−1)
+10,000 cycles
+Little capacitance
+fading up to 180
+bending cycles
+[175]
+UiO-66/polypyrrole 3 M KCl 90.5 (5 mV s−1) 96% retention (5 mV s−1)
+1000 cycles
+96% retention after
+1000 bending cycles [176]
+PANI/UiO-66 PVA/H2SO4 1015 (1 A g−1) 84% retention (1 A g−1)
+3500 cycles
+90% retention after 800
+bending cycle is [177]
+9. Conclusions
+It is of utmost importance to review the exact gold properties of MXenes materials in
+terms of improving performance and practical applications. In addition, it is challenging
+to fabricate ﬁnely structured ﬁlms reliably and inexpensively, and further investigation of
+the communication and interactions between MXenes and guest materials is considered
+as a further area of review. In addition to the material composition, the design of new
+advanced MXene-based SCs by improving the electrochemical properties while maintaining
+mechanical properties such as ﬂexibility, strength, and hardness of the material is an
+inﬂuential area of future research.
+The key properties of MXene, such as its 2D slab structure, metal-like conductivity,
+density, variable surface endpoints, and pseudo-interactive capacitance, make it a good
+candidate. In this paper, we describe the latest advances in MXene-based electrodes
+for energy storage applications and review recent studies on the synthesis technology,
+structural design, chemical changes, electrochemical characterization, and basic knowledge
+of charge storage mechanisms in various electrolytes. Methods used in the construction and
+electrochemical capabilities of MXene-based hybrid supercapacitors and other devices are
+also discussed. Since their discovery in 2011, MXenes have been prepared using three main
+synthetic methods: HF etching with subsequent cation intercalation and delamination,
+etching in moderately F-containing solutions (such as LiF/HCl or NH4HF2), and etching
+in F-free electrolytes (such as Lewis acidic molten salts). F-free preparation is considered
+a desirable approach in terms of electrochemical performance, safety, and environmental
+friendliness. Ti 3C2Tx is the subject of most research reported in the literature, with less
+focus on alternative compositions. Energy storage is one of the key applications that can
+leverage the diversity of MXene materials that can be generated and their ability to modify
+surface chemistry. A fundamental research plan will need to be established to develop our
+basic knowledge of the MXene/electrolyte interface and to develop new methods to control
+
+Nanomaterials 2023, 13, 919 32 of 39
+surface chemistry. Even if the 2D lamellar structure of MXene nanosheets improves the
+ion accessibility and the resulting electrochemical reaction rate, it is important to prevent
+agglomeration and restacking. To address this problem, various structural and electrode
+architecture approaches have been developed, such as generating vertical alignment and
+controlling the ﬂake size and interlayer spacing. In particular, in terms of speed capability,
+the display of MXene is greatly enhanced by rational shape and structural design. One of
+the most important techniques for improving the electrochemical properties of MXenes
+is surface chemical modiﬁcation. MXene can perform chemical transformation through
+doping and surface adjustment. When a material is manufactured using a ﬂuorinated
+corrosive electrolyte, an additional manufacturing method without ﬂuorine as well as
+a post-treatment process to remove the F-terminal can be developed, thus disrupting
+payload transport and reducing the number of active sites. Thus, the selection of an
+electrolyte is also a major inﬂuencing factor on the electrochemical results of MXene
+electrodes, as the improvement of the electrochemical result of MXene depends on the
+MXene/electrolyte interface and the mastery of the charge storage mechanism in non-
+aqueous electrolytes. Furthermore, reinforced materials can be incorporated into MXene
+matrices without affecting the electrochemical results of ﬂexible and printable MXene-
+based supercapacitors to improve their mechanical properties. The inﬁnite possibility of
+generating new MXenes and tuning their functions suggests that advances in MXenes
+for SC are still in their early stages despite numerous improvements and achievements.
+Understanding capacitive energy storage mechanisms, managing surface chemistry, and
+creating designs that support high-performance supercapacitors are the next steps.
+Due to their unique physicochemical properties and typical structural features, MX-
+enes can offer many new potential applications. To date, various approaches to overcome
+the problems associated with MXene continue to be reported in the ﬁeld of energy storage,
+advancing the design process for improving the MXene layer and enabling further potential
+applications related to electromagnetic shielding, sensors, and wearable SCs. Continued
+rapid development of fundamental concepts and technical developments related to MXenes
+can be expected to open the door to more exciting discoveries.
+Author Contributions: Conceptualization, S.Y. and I.-J.K.; writing—original draft preparation, Z.O.;
+writing—review and editing and supervision, W.-C.O. All authors have read and agreed to the
+published version of the manuscript.
+Funding: This research received no external funding.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Data can be made available upon written request to the corresponding
+author and with a proper justiﬁcation.
+Acknowledgments: This work was supported by the Technology Innovation Program (Development
+of Performance Improvement Technology for High-Power Capacitors for Demand Companies))
+(00156073, Development of lithium-ion capacitors for the control of load variation of hydrogen
+vehicles, 2023) funded By the Ministry of Trade, Industry & Energy (MOTIE, Korea). This research
+was supported by Korea Electrotechnology Research Institute (KERI) Primary research program
+through the National Research Council of Science & Technology (NST) funded by the Ministry of
+Science and ICT (MSIT) (No. 23A01033) and the Technology Innovation Program (20016795, 20009866)
+funded by the Ministry of Trade, Industry & Energy (MOTIE, Korea).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+
+Nanomaterials 2023, 13, 919 33 of 39
+References
+1. Wen, Z.; Yeh, M.H.; Guo, H.; Wang, J.; Zi, Y.; Xu, W.; Deng, J.; Zhu, L.; Wang, X.; Hu, C.; et al. Self-powered textile for wearable
+electronics by hybridizing ﬁber-shaped nanogenerators, solar cells, and supercapacitors. Sci. Adv. 2016, 2, e1600097. [CrossRef]
+[PubMed]
+2. Tarascon, J.M.; Armand, M. Issues and challenges facing rechargeable lithium batteries. Nature 2001, 414, 359–367. [CrossRef]
+[PubMed]
+3. Yi, F.; Wang, J.; Wang, X.F.; Niu, S.M.; Li, S.M.; Liao, Q.L.; Xu, Y.L.; You, Z.; Zhang, Y.; Wang, Z.L. Stretchable and Waterproof
+Self-Charging Power System for Harvesting Energy from Diverse Deformation and Powering Wearable Electronics. ACS Nano
+2016, 10, 6519–6525. [CrossRef] [PubMed]
+4. Wang, X.F.; Yin, Y.J.; Yi, F.; Dai, K.R.; Niu, S.M.; Han, Y.Z.; Zhang, Y.; You, Z. Bioinspired stretchable triboelectric nanogenerator as
+energy-harvesting skin for self-powered electronics. Nano Energy 2017, 39, 429–436. [CrossRef]
+5. Dunn, B.; Kamath, H.; Tarascon, J.M. Electrical energy storage for the grid: A battery of choices. Science 2011, 334, 928–935.
+[CrossRef] [PubMed]
+6. Cao, J.M.; Li, J.Z.; Li, L.; Zhang, Y.; Cai, D.; Chen, D.; Han, W. Mn-Doped Ni/Co LDH Nanosheets Grown on the Natural
+N-Dispersed PANI-Derived Porous Carbon Template for a Flexible Asymmetric Supercapacitor.ACS Sustain. Chem. Eng. 2019, 7,
+10699–10707. [CrossRef]
+7. Yi, F.; Ren, H.Y.; Dai, K.R.; Wang, X.F.; Han, Y.Z.; Wang, K.X.; Li, K.; Guan, B.L.; Wang, J.; Tang, M.; et al. Solar thermal-driven
+capacitance enhancement of supercapacitors. Energy Environ. Sci. 2018, 11, 2016–2024. [CrossRef]
+8. Cao, J.M.; Li, J.Z.; Zhou, L.; Xi, Y.L.; Cao, X.; Zhang, Y.M.; Han, W. Tunable agglomeration of Co3O4 nanowires as the growing core
+for in-situ formation of Co2NiO4 assembled with polyaniline-derived carbonaceous ﬁbers as the high-performance asymmetric
+supercapacitors. J. Alloys Compd. 2021, 853, 157210. [CrossRef]
+9. Choi, N.S.; Chen, Z.; Freunberger, S.A.; Ji, X.; Sun, Y.K.; Amine, K.; Yushin, G.; Nazar, L.F.; Cho, J.; Bruce, P .G. Challenges Facing
+Lithium Batteries and Electrical Double-Layer Capacitors. Angew. Chem. Int. Ed. 2012, 51, 9994–10024. [CrossRef]
+10. Winter, M.; Brodd, R.J. What are batteries, fuel cells, supercapacitors? Chem. Rev. 2005, 105, 4245–4269.
+11. Zhu, Y.; Murali, S.; Stoller, M.D.; Ganesh, K.J.; Cai, W.; Ferreira, P .J.; Pirkle, A.; Wallace, R.M.; Cychosz, K.A.; Thommes, M.
+Carbon-based supercapacitors produced by activation of graphene. Science 2011, 332, 1537–1541. [CrossRef]
+12. Pandolfe, A.G.; Hollenkamp, A.F. Carbon properties and their role in supercapacitors.J. Power Sources 2006, 157, 11–27. [CrossRef]
+13. Yuan, Z.Y.; Wang, L.L.; Cao, J.M.; Zhao, L.J.; Han, W. Ultraviolet-Assisted Construction of Nitrogen-Rich Ag@Ti3C2Tx MXene for
+Highly Efﬁcient Hydrogen Evolution Electrocatalysis and Supercapacitor. Adv. Mater. Interfaces 2020, 7, 2001449. [CrossRef]
+14. Simon, P .; Gogotsi, Y. Materials for electrochemical capacitors. Nat. Mater. 2008, 7, 845–854. [CrossRef]
+15. Wang, Y.; Song, Y.; Xia, Y. Electrochemical capacitors: Mechanism; materials, systems, characterization, applications.Chem. Soc.
+Rev. 2016, 45, 5925–5950. [CrossRef]
+16. Yi, F.; Ren, H.Y.; Shan, J.Y.; Sun, X.; Wei, D.; Liu, Z.F. Wearable energy sources based on 2D materials.Chem. Soc. Rev. 2018, 47,
+3152–3188. [CrossRef] [PubMed]
+17. Zhang, L.L.; Zhao, X.S. Carbon-based materials as supercapacitor electrodes. Chem. Soc. Rev. 2009, 38, 2520–2531. [CrossRef]
+18. Kotz, R.; Carlen, M. Principles and applications of electrochemical capacitors. Electrochim. Acta 2000, 45, 2483–2498. [CrossRef]
+19. Cao, J.; Sun, Z.; Li, J.; Zhu, Y.; Yuan, Z.; Zhang, Y.; Li, D.; Wang, L.; Han, W. Microbe-Assisted Assembly of Ti3C2Tx MXene on
+Fungi-Derived Nanoribbon Heterostructures for Ultrastable Sodium and Potassium Ion Storage. ACS Nano 2021, 15, 3423–3433.
+[CrossRef] [PubMed]
+20. Yan, B.; Feng, L.; Zheng, J.; Jiang, S.; Zhang, C.; Ding, Y.; Han, J.; Chen, W.; He, S. High performance supercapacitors based on
+wood-derived thick carbon electrodes synthesized via green activation process. Inorg. Chem. Front. 2022, 9, 6108–6123. [CrossRef]
+21. Zheng, J.; Yan, B.; Zhang, Q.; Zhang, C.; Yang, W.; Han, J.; Jiang, S.; He, S. Potassium citrate assisted synthesis of hierarchical
+porous carbon materials for high performance supercapacitors. Diam. Relat. Mater. 2022, 128, 109247. [CrossRef]
+22. Zheng, S.; Zhang, J.; Deng, H.; Du, Y.; Shi, X. Chitin derived nitrogen-doped porous carbons with ultrahigh speciﬁc surface area
+and tailored hierarchical porosity for high performance supercapacitors. J. Bioresour. Bioprod. 2021, 6, 142–151. [CrossRef]
+23. Wei, L.; Deng, W.; Li, S.; Wu, Z.; Cai, J.; Luo, J. Sandwich-like chitosan porous carbon Spheres/MXene composite with high
+speciﬁc capacitance and rate performance for supercapacitors. J. Bioresour. Bioprod. 2022, 7, 63–72. [CrossRef]
+24. Xiao, J.; Li, H.; Zhang, H.; He, S.; Zhang, Q.; Liu, K.; Jiang, S.; Duan, G.; Zhang, K. Nanocellulose and its derived composite
+electrodes toward supercapacitors: Fabrication, properties, and challenges. J. Bioresour. Bioprod. 2022, 7, 245–269. [CrossRef]
+25. Shao, Y.; El-Kady, M.F.; Sun, J.; Li, Y.; Zhang, Q.; Zhu, M.; Wang, H.; Dunn, B.; Kaner, R.B. Design and Mechanisms of Asymmetric
+Supercapacitors. Chem. Rev. 2018, 118, 9233–9280. [CrossRef] [PubMed]
+26. Dubal, D.P .; Jayaramulu, K.; Sunil, J.; Kment, S.; Gomez-Romero, P .; Narayana, C.; Zboril, R.; Fischer, R. Metal-Organic Framework
+(MOF) Derived Electrodes with Robust and Fast Lithium Storage for Li-Ion Hybrid Capacitors. Adv. Funct. Mater. 2019, 29,
+1900532. [CrossRef]
+27. Yu, H.; Wang, Y.; Jing, Y.; Ma, J.; Du, C.F.; Yan, Q. Surface Modiﬁed MXene-Based Nanocomposites for Electrochemical Energy
+Conversion and Storage. Small 2019, 15, 1901503. [CrossRef]
+28. Xiong, D.; Li, X.; Bai, Z.; Lu, S. Recent Advances in Layered Ti3C2Tx MXene for Electrochemical Energy Storage. Small 2018, 14,
+1703419. [CrossRef]
+
+Nanomaterials 2023, 13, 919 34 of 39
+29. Zhao, M.; Xie, X.; Ren, C.; Makaryan, T.; Anasori, B.; Wang, G.; Gogotsi, Y. Hollow MXene Spheres and 3D Macroporous MXene
+Frameworks for Na-Ion Storage. Adv. Mater. 2017, 29, 1702410. [CrossRef]
+30. Liu, J.; Zhang, H.-B.; Xie, X.; Yang, R.; Liu, Z.; Liu, Y.; Yu, Z. Multifunctional, Superelastic and Lightweight MXene/Polyimide
+Aerogels. Small 2018, 14, 1802479. [CrossRef]
+31. Li, X.; Yin, X.; Xu, H.; Han, M.; Li, M.; Liang, S.; Cheng, L.; Zhang, L.; MXene-Coated, U. Interconnected SiCnws Three-
+Dimensional Lamellar Foams for Efﬁcient Microwave Absorption in the X-Band. ACS Appl. Mater. Interfaces 2018, 10, 34524–34533.
+[CrossRef] [PubMed]
+32. Xing, C.; Chen, S.; Liang, X.; Liu, Q.; Qu, M.; Zou, Q.; Li, J.; Tan, H.; Liu, L.; Fan, D.; et al. Two-Dimensional MXene (Ti 3C2)-
+Integrated Cellulose Hydrogels: Toward Smart Three-Dimensional Network Nanoplatforms Exhibiting Light-Induced Swelling
+and Bimodal Photothermal/Chemotherapy Anticancer Activity. ACS Appl. Mater. Interfaces 2018, 10, 27631–27643. [CrossRef]
+[PubMed]
+33. Ren, C.; Zhao, M.; Makaryan, T.; Halim, J.; Boota, M.; Kota, S.; Anasori, B.; Barsoum, M.; Gogotsi, Y. Porous Two-Dimensional
+Transition Metal Carbide (MXene) Flakes for High-Performance Li-Ion Storage. ChemElectroChem 2016, 3, 689–693. [CrossRef]
+34. Liu, Y.; Zhang, P .; Sun, N.; Anasori, B.; Zhu, Q.-Z.; Liu, H.; Gogotsi, Y.; Xu, B. Self-Assembly of Transition Metal Oxide
+Nanostructures on MXene Nanosheets for Fast and Stable Lithium Storage. Adv. Mater. 2018, 30, 1707334. [CrossRef] [PubMed]
+35. Li, M.; Lu, J.; Luo, K.; Li, Y.; Chang, K.; Chen, K.; Zhou, J.; Rosen, J.; Hultman, L.; Eklund, P .; et al. Element Replacement Approach
+by Reaction with Lewis Acidic Molten Salts to Synthesize Nanolaminated MAX Phases and MXenes. J. Am. Chem. Soc. 2019, 141,
+4730–4737. [CrossRef] [PubMed]
+36. Urbankowski, P .; Anasori, B.; Makaryan, T.; Er, D.; Kota, S.; Walsh, P .L.; Zhao, M.; Shenoy, V .B.; Barsoum, M.W.; Gogotsi, Y.
+Synthesis of two-dimensional titanium nitride Ti4N3 (MXene). Nanoscale 2016, 8, 11385–11391. [CrossRef]
+37. Hu, J.; Liang, C.; Li, J.; Lin, C.; Liang, Y.; Wang, H.; LI, X.; Wang, Q.; Dong, D. Lewis acidic molten salts etching route
+driven construction of double-layered MXene-Fe/carbon nanotube/silicone rubber composites for high-performance microwave
+absorption. Carbon 2023, 204, 136–146. [CrossRef]
+38. Gogotsi, Y. Chemical vapour deposition: Transition metal carbides go 2D. Nat. Mater. 2015, 14, 1079–1080. [CrossRef]
+39. Xu, C.; Wang, L.; Liu, Z.; Chen, L.; Guo, J.; Kang, N.; Ma, X.-L.; Cheng, H.-M.; Ren, W. Large-area high-quality 2D ultrathin Mo2C
+superconducting crystals. Nat. Mater. 2015, 14, 1135–1141. [CrossRef]
+40. Pang, S.; Wong, Y.; Yuan, S.; Liu, Y.; Tsang, M.-K.; Yang, Z.; Huang, H.; Wong, W.; Hao, J. Universal Strategy for HF-Free Facile
+and Rapid Synthesis of Two-dimensional MXenes as Multifunctional Energy Materials. J. Am. Chem. Soc. 2019, 141, 9610–9616.
+[CrossRef]
+41. Zhou, J.; Zha, X.; Zhou, X.; Chen, F.; Gao, G.; Wang, S.; Shen, C.; Chen, T.; Zhi, C.; Eklund, P .; et al. Synthesis and Electrochemical
+Properties of Two-Dimensional Hafnium Carbide. ACS Nano 2017, 11, 3841–3850. [CrossRef]
+42. Halim, J.; Kota, S.; Lukatskaya, M.R.; Naguib, M.; Zhao, M.-Q.; Moon, E.J.; Pitock, J.; Nanda, J.; May, S.J.; Gogotsi, Y.; et al.
+Synthesis and Characterization of 2D Molybdenum Carbide (MXene). Adv. Funct. Mater. 2016, 26, 3118–3127. [CrossRef]
+43. Ghidiu, M.; Naguib, M.; Shi, C.; Mashtalir, O.; Pan, L.M.; Zhang, B.; Yang, J.; Gogotsi, Y.; Billinge, S.J.L.; Barsoum, M.W. Synthesis
+and characterization of two-dimensional Nb4C3 (MXene). Chem. Commun. 2014, 50, 9517–9520. [CrossRef]
+44. Naguib, M.; Kurtoglu, M.; Presser, V .; Lu, J.; Niu, J.; Heon, M.; Hultman, L.; Gogotsi, Y.; Barsoum, M.W. Two-dimensional
+nanocrystals produced by exfoliation of Ti3AlC2. Adv. Mater. 2011, 23, 4248–4253. [CrossRef] [PubMed]
+45. Mashtalir, O.; Naguib, M.; Mochalin, V .N.; Dall’Agnese, Y.; Heon, M.; Barsoum, M.W.; Gogotsi, Y. Intercalation and delamination
+of layered carbides and carbonitrides. Nat. Commun. 2013, 4, 1716. [CrossRef] [PubMed]
+46. Naguib, M.; Unocic, R.R.; Armstrong, B.L.; Nanda, J. Large-scale delamination of multi-layers transition metal carbides and
+carbonitrides “MXenes”. Dalton T rans.2015, 44, 9353–9358. [CrossRef] [PubMed]
+47. Arole, K.; Blivin, J.W.; Saha, S.; Holta, D.E.; Zhao, X.; Sarmah, A.; Cao, H.; Radovic, M.; Lutkenhaus, J.L.; Green, M.J. Water-
+dispersible Ti3C2Tz MXene nanosheets by molten salt etching. iScience 2021, 24, 103403. [CrossRef] [PubMed]
+48. Naguib, M.; Mashtalir, O.; Carle, J.; Presser, V .; Lu, J.; Hultman, L.; Gogotsi, Y.; Barsoum, M.W. Two-dimensional transition metal
+carbides. ACS Nano 2012, 6, 1322–1331. [CrossRef] [PubMed]
+49. Lukatskaya, M.R.; Mashtalir, O.; Ren, C.E.; Dall, Y.; Rozier, P .; Taberna, P .L.; Naguib, M.; Simon, P .; Barsoum, M.W.; Gogotsi,
+Y. Cation intercalation and high volumetric capacitance of two-dimensional titanium carbide. Science 2013, 341, 1502–1505.
+[CrossRef]
+50. Anasori, B.; Xie, Y.; Beidaghi, M.; Lu, J.; Hosler, B.C.; Hultman, L.; Kent, P .R.C.; Gogotsi, Y.; Barsoum, M.W. Two-Dimensional,
+Ordered, Double Transition Metals Carbides (MXenes). ACS Nano 2015, 9, 9507–9516. [CrossRef]
+51. Li, T.; Yao, L.; Liu, Q.; Gu, J.; Luo, R.; Li, J.; Yan, X.; Wang, W.; Liu, P .; Chen, B.; et al. Fluorine-free synthesis of high-purity Ti3C2Tx
+(T=OH, O) via Alkali treatment. Angew. Chem. Int. Ed. Engl. 2018, 57, 6115–6119. [CrossRef] [PubMed]
+52. Alhabeb, M.; Maleski, K.; Mathis, T.S.; Sarycheva, A.; Hatter, C.B.; Uzun, S.; Levitt, A.; Gogotsi, Y. Selective etching of silicon from
+Ti3SiC2 (MAX) to obtain 2D titanium carbide (MXene). Angew. Chem. Int. Ed. Engl. 2018, 57, 5444–5448. [CrossRef] [PubMed]
+53. Gund, G.S.; Park, J.H.; Harpalsinh, R.; Kota, M.; Shin, J.H.; Kim, T.I.; Gogotsi, Y.; Park, H.S. MXene/polymer hybrid materials for
+ﬂexible AC-ﬁltering electrochemical capacitors. Joule 2019, 3, 164–176. [CrossRef]
+54. Li, J.; Levitt, A.; Kurra, N.; Juan, K.; Noriega, N.; Xiao, X.; Wang, X.; Wang, H.; Alshareef, H.N.; Gogotsi, Y. MXene-conducting
+polymer electrochromic microsupercapacitors. Energy Storage Mater. 2019, 20, 455–461. [CrossRef]
+
+Nanomaterials 2023, 13, 919 35 of 39
+55. Shang, T.; Lin, Z.; Qi, C.; Liu, X.; Li, P .; Tao, Y.; Wu, Z.; Li, D.; Simon, P .; Yang, Q. 3D macroscopic architectures from self-assembled
+MXene hydrogels. Adv. Funct. Mater. 2019, 29, 1903960. [CrossRef]
+56. Kamysbayev, V .; Filatov, A.S.; Hu, H.C.; Rui, X.; Lagunas, F.; Wang, D.; Klie, R.F. Covalent surface modiﬁcations and supercon-
+ductivity of two-dimensional metal carbide MXenes. Science 2020, 369, 979–983. [CrossRef]
+57. Geng, D.; Zhao, X.; Chen, Z.; Sun, W.; Fu, W.; Chen, J.; Liu, W.; Zhou, W.; Loh, K.P . Direct synthesis of large-area 2D Mo2C on in
+situ grown graphene. Adv. Mater. 2017, 29, 1700072. [CrossRef]
+58. Turker, F.; Caylan, O.R.; Mehmood, N.; Kasirga, T.S.; Sevik, C.; Buke, C.G. CVD synthesis and characterization of thin Mo2C
+crystals. J. Am. Ceram. Soc. 2020, 103, 5586–5593. [CrossRef]
+59. Sun, Z.; Yuan, M.; Lin, L.; Yang, H.; Nan, C.; Li, H.; Sun, G.; Yang, X. Selective lithiation–expansion–microexplosion synthesis of
+two-dimensional ﬂuoride-free Mxene. ACS Mater. Lett. 2019, 1, 628–632. [CrossRef]
+60. Li, Z.; Ren, Y.; Mo, L.; Liu, C.; Hsu, K.; Ding, Y.; Zhang, X.; Li, X.; Hu, L.; Ji, D.; et al. Impacts of oxygen vacancies on zinc ion
+intercalation in VO2. ACS Nano 2020, 14, 5581–5589. [CrossRef]
+61. Sun, N.; Guan, Z.; Zhu, Q.; Anasori, B.; Gogotsi, Y.; Xu, B. Enhanced Ionic Accessibility of Flexible MXene Electrodes Produced by
+Natural Sedimentation. Nano-Micro Lett. 2020, 12, 89. [CrossRef] [PubMed]
+62. Ling, Z.; Ren, C.E.; Zhao, M.-Q.; Yang, J.; Giammarco, J.M.; Qiu, J.; Barsoum, M.W.; Gogotsi, Y. Flexible and conductive MXene
+ﬁlms and nanocomposites with high capacitance. Proc. Natl. Acad. Sci. USA 2014, 111, 16676–16681. [CrossRef] [PubMed]
+63. Hantanasirisakul, K.; Zhao, M.-Q.; Urbankowski, P .; Halim, J.; Anasori, B.; Kota, S.; Ren, C.E.; Barsoum, M.W.; Gogotsi, Y.
+Fabrication of Ti3C2Tx MXene Transparent Thin Films with Tunable Optoelectronic Properties. Adv. Electron. Mater. 2016, 2,
+1600050. [CrossRef]
+64. Maleski, K.; Mochalin, V .N.; Gogotsi, Y. Dispersions of Two-Dimensional Titanium Carbide MXene in Organic Solvents.Chem.
+Mater. 2017, 29, 1632–1640. [CrossRef]
+65. Huang, K.; Li, Z.; Lin, J.; Han, G.; Huang, P . Correction: Two-dimensional transition metal carbides and nitrides (MXenes) for
+biomedical applications. Chem. Soc. Rev. 2018, 47, 5109–5124. [CrossRef] [PubMed]
+66. Verger, L.; Natu, V .; Carey, M.; Barsoum, M.W. MXenes: An Introduction of Their Synthesis, Select Properties, and Applications.
+T rends Chem.2019, 1, 656–669. [CrossRef]
+67. Dillon, A.D.; Ghidiu, M.J.; Krick, A.L.; Griggs, J.; May, S.J.; Gogotsi, Y.; Barsoum, M.W.; Fafarman, A.T. Highly Conductive Optical
+Quality Solution-Processed Films of 2D Titanium Carbide. Adv. Funct. Mater. 2016, 26, 4162–4168. [CrossRef]
+68. Anasori, B.; Lukatskaya, M.R.; Gogotsi, Y. 2D metal carbides and nitrides (MXenes) for energy storage. Nat. Rev. Mater. 2017, 2,
+16098. [CrossRef]
+69. Wang, H.; Wu, Y.; Zhang, J.; Li, G.; Huang, H.; Zhang, X.; Jiang, Q. Enhancement of the electrical properties of MXene Ti 3C2
+nanosheets by post-treatments of alkalization and calcination. Mater. Lett. 2015, 160, 537–540. [CrossRef]
+70. Zhang, J.; Kong, N.; Uzun, S.; Levitt, A.; Seyedin, S.; Lynch, P .A.; Qin, S.; Han, M.; Yang, W.; Liu, J.; et al. Scalable Manufacturing
+of Free-Standing, Strong Ti3C2 Tx MXene Films with Outstanding Conductivity. Adv. Mater. 2020, 32, 2001093. [CrossRef]
+71. Li, S.; Wang, Y.; Li, Y.; Xu, J.; Li, T.; Zhang, T. In Situ Growth of Ni-MOF Nanorods Array on Ti3C2Tx Nanosheets for Supercapaci-
+tive Electrodes. Nanomaterials 2023, 13, 610. [CrossRef] [PubMed]
+72. Mustafa, B.; Lu, W.; Wang, Z.; Lian, F.; Shen, A.; Yang, B.; Yuan, J.; Wu, C.; Liu, Y.; Hu, W.; et al. Ultrahigh Energy and Power
+Densities of d-MXene-Based Symmetric Supercapacitors. Nanomaterials 2022, 12, 3294. [CrossRef] [PubMed]
+73. Fatima, M.; Zahra, S.A.; Khan, S.A.; Akinwande, D.; Min ár, J.; Rizwan, S. Experimental and Computational Analysis of
+MnO2@V2C-MXene for Enhanced Energy Storage. Nanomaterials 2021, 11, 1707. [CrossRef] [PubMed]
+74. Lukatskaya, M.R.; Kota, S.; Lin, Z.; Zhao, M.-Q.; Shpigel, N.; Levi, M.D.; Halim, J.; Taberna, P .-L.; Barsoum, M.W.; Simon, P .;
+et al. Ultra-high-rate pseudocapacitive energy storage in two-dimensional transition metal carbides. Nat. Energy 2017, 2, 17105.
+[CrossRef]
+75. Tao, Y.; Xie, X.; Lv, W.; Tang, D.-M.; Kong, D.; Huang, Z.; Nishihara, H.; Ishii, T.; Li, B.; Golberg, D.; et al. Towards ultrahigh
+volumetric capacitance: Graphene derived highly dense but porous carbons for supercapacitors. Sci. Rep. 2013, 3, 2975. [CrossRef]
+76. Wang, Z.; Tammela, P .; Strømme, M.; Nyholm, L. Nanocellulose coupled ﬂexible polypyrrole@graphene oxide composite paper
+electrodes with high volumetric capacitance. Nanoscale 2015, 7, 3418–3423. [CrossRef]
+77. Wang, X.; Bannenbreg, L. Design and characterization of 2D MXene-based electrode with high-rate capability. MRS Bull. 2021, 46,
+756–766. [CrossRef]
+78. Liu, L.; Zschiesche, H.; Antionietti, M.; Daffos, B.; Tarakina, N.V .; Gibilaro, M.; Chamelot, P .; Massot, L.; Duployer, B.; Taberna,
+P .L.; et al. Tuning the Surface Chemistry of MXene to Improve Energy Storage: Example of Nitriﬁcation by Salt Melt.Adv. Ener.
+Mater. 2023, 13, 2202709. [CrossRef]
+79. Sang, X.; Yilmaz, D.; Xie, Y.; Alhabeb, M.; Anasori, B.; Li, X.; Xiao, K.; Kent, P .R.C.; van Duin, A.; Gogotsi, Y.; et al. Atomic Defects
+and Edge Structure in Single-layer Ti3C2Tx MXene. Microsc. Microanal. 2017, 23, 1704–1705. [CrossRef]
+80. Tang, J.; Mathis, T.; Kurra, N.; Sarycheva, A.; Xiao, X.; Hedhili, M.; Jiang, Q.; Alshareef, H.; Xu, B.; Pan, F. Tuning the
+Electrochemical Performance of Titanium Carbide MXene by Controllable In Situ Anodic Oxidation. Angew. Chem. Int. Ed. 2019,
+58, 17849–17855. [CrossRef]
+81. Xiao, X.; Wang, H.; Bao, W.; Urbankowski, P .; Yang, L.; Yang, Y.; Maleski, K.; Cui, L.; Billinge, S.; Wang, G. Two-dimensional
+arrays of transition metal nitride nanocrystals. Adv. Mater. 2019, 31, 1902393. [CrossRef] [PubMed]
+
+Nanomaterials 2023, 13, 919 36 of 39
+82. Tang, Y.; Zhu, J.F.; Yang, C.H.; Wang, F. Enhanced Capacitive Performance Based on Diverse Layered Structure of Two-Dimensional
+Ti3C2 MXene with Long Etching Time. J. Electrochem. Soc. 2016, 163, A1975–A1982. [CrossRef]
+83. Maleski, K.; Ren, C.E.; Zhao, M.-Q.; Anasori, B.; Gogotsi, Y. Size-Dependent Physical and Electrochemical Properties of Two-
+Dimensional MXene Flakes. ACS Appl. Mater. Interfaces 2018, 10, 24491–24498. [CrossRef] [PubMed]
+84. Zhu, K.; Jin, Y.; Du, F.; Gao, S.; Gao, Z.; Meng, X.; Chen, G.; Wei, Y.; Gao, Y. Synthesis of Ti2CTx MXene as electrode materials for
+symmetric supercapacitor with capable volumetric capacitance. J. Energy Chem. 2019, 31, 11–18. [CrossRef]
+85. Li, L.; Wang, F.; Zhu, J.; Wu, W. The facile synthesis of layered Ti2C MXene/carbon nanotube composite paper with enhanced
+electrochemical properties. Dalton T rans.2017, 46, 14880–14887. [CrossRef]
+86. Yao, B.; Li, M.; Zhang, J.; Zhang, L.; Song, Y.; Xiao, W.; Cruz, A.; Tong, Y.; Li, Y. TiN Paper for Ultrafast-Charging Supercapacitors.
+Nano-Micro Lett. 2020, 12, 3. [CrossRef]
+87. Djire, A.; Bos, A.; Liu, J.; Zhang, H.; Miller, E.M.; Neale, N.R. Pseudocapacitive Storage in Nanolayered Ti2NTx MXene Using
+Mg-Ion Electrolyte. ACS Appl. Nano Mater. 2019, 2, 2785–2795. [CrossRef]
+88. Shan, Q.; Mu, X.; Alhabeb, M.; Shuck, C.E.; Pang, D.; Zhao, X.; Chu, X.-F.; Wei, Y.; Du, F.; Chen, G.; et al. Two-dimensional
+vanadium carbide (V 2C) MXene as electrode for supercapacitors with aqueous electrolytes. Electrochem. Commun. 2018, 96,
+103–107. [CrossRef]
+89. Wang, X.; Lin, S.; Tong, H.; Huang, Y.; Tong, P .; Zhao, B.; Dai, J.; Liang, C.; Wang, H.; Zhu, X.; et al. Two-dimensional V4C3MXene
+as high performance electrodematerials for supercapacitors. Electrochim. Acta 2019, 307, 414–421. [CrossRef]
+90. Zhao, S.; Chen, C.; Zhao, X.; Chu, X.; Du, F.; Chen, G.; Gogotsi, Y.; Gao, Y.; Dall’ Agnese, Y. Flexible Nb4C3Tx Film with Large
+Interlayer Spacing for High-Performance Supercapacitors. Adv. Funct. Mater. 2020, 30, 2000815. [CrossRef]
+91. Syamsai, R.; Grace, A.N. Ta 4C3 MXene as supercapacitor electrodes. J. Alloys Compd. 2019, 792, 1230–1238. [CrossRef]
+92. Wen, Y.; Rufford, T.E.; Chen, X.; Li, N.; Lyu, M.; Dai, L.; Wang, L. Nitrogen-doped Ti3C2Tx MXene electrodes for high-performance
+supercapacitors. Nano Energy 2017, 38, 368–376. [CrossRef]
+93. Yang, L.; Zheng, W.; Zhang, P .; Chen, J.; Zhang, W.; Tian, W.B.; Sun, Z.M. Freestanding nitrogen-doped d-Ti3C2/reduced graphene
+oxide hybrid ﬁlms for high performance supercapacitors. Electrochim. Acta 2019, 300, 349–356. [CrossRef]
+94. Yang, C.; Que, W.; Tang, Y.; Tian, Y.; Yin, X. Nitrogen and sulfur Co-doped 2D titanium carbides for enhanced electrochemical
+performance. J. Electrochem. Soc. 2017, 164, A1939–A1945. [CrossRef]
+95. Yang, C.; Tang, Y.; Tian, Y.; Luo, Y.; Din, M.F.U.; Yin, X.; Que, W. Flexible Nitrogen-Doped 2D Titanium Carbides (MXene) Films
+Constructed by an Ex Situ Solvothermal Method with Extraordinary Volumetric Capacitance. Adv. Energy Mater. 2018, 8, 1802087.
+[CrossRef]
+96. Yang, C.; Que, W.; Yin, X.; Tian, Y.; Yang, Y.; Que, M. Improved capacitance of nitrogen-doped delaminated two-dimensional
+titanium carbide by urea-assisted synthesis. Electrochim. Acta 2017, 225, 416–424. [CrossRef]
+97. Yoon, Y.; Lee, M.; Kim, S.K.; Bae, G.; Song, W.; Myung, S.; Lim, J.; Lee, S.S.; Zyung, T.; An, K.-S. A strategy for synthesis of carbon
+nitride induced chemically doped 2D MXene for high-performance supercapacitor electrodes. Adv. Energy Mater. 2018, 8, 1703173.
+[CrossRef]
+98. Tang, Y.; Zhu, J.; Wu, W.; Yang, C.; Lv, W.; Wang, F. Synthesis of Nitrogen-Doped Two-Dimensional Ti 3C2 with Enhanced
+Electrochemical Performance. J. Electrochem. Soc. 2017, 164, A923–A929. [CrossRef]
+99. Chakraborty, P .; Das, T.; Nafday, D.; Boeri, L.; Saha-Dasgupta, T. Manipulating the mechanical properties of Ti2C MXene: Effect of
+substitutional doping. Phys. Rev. B 2017, 95, 184106. [CrossRef]
+100. Gao, Z.; Zheng, W.; Lee, L.Y.S. Highly Enhanced Pseudocapacitive Performance of Vanadium-Doped MXenes in Neutral
+Electrolytes. Small 2019, 15, 1902649. [CrossRef]
+101. Fatima, M.; Fatheema, J.; Monir, N.B.; Siddique, A.H.; Khan, B.; Islam, A.; Akinwande, D.; Rizwan, S. Nb-Doped MXene With
+Enhanced Energy Storage Capacity and Stability. Front. Chem. 2020, 8, 168. [CrossRef] [PubMed]
+102. Hart, J.L.; Hantanasirisakul, K.; Lang, A.C.; Anasori, B.; Pinto, D.; Pivak, Y.; Omme, T.J.; May, S.J.; Gogotsi, Y.; Taheri, M.L. Control
+of MXenes’ electronic properties through termination and intercalation.Nat. Commun. 2019, 10, 522. [CrossRef] [PubMed]
+103. Zhang, X.; Liu, Y.; Dong, S.; Yang, J.; Liu, X. Surface modiﬁed MXene ﬁlm as ﬂexible electrode with ultrahigh volumetric
+capacitance. Electrochim. Acta 2019, 294, 233–239. [CrossRef]
+104. Hu, M.; Hu, T.; Li, Z.; Yang, Y.; Cheng, R.; Yang, J.; Cui, C.; Wang, X. Surface Functional Groups and Interlayer Water Determine
+the Electrochemical Capacitance of Ti3C2Tx MXene. ACS Nano 2018, 12, 3578–3586. [CrossRef] [PubMed]
+105. Tang, Q.; Zhou, Z.; Shen, P . Are MXenes promising anode materials for Li ion batteries? Computational studies on electronic
+properties and Li storage capability of Ti 3C2 and Ti3C2X2 (X = F, OH) monolayer. J. Am. Chem. Soc. 2012, 134, 16909–16916.
+[CrossRef] [PubMed]
+106. Lukatskaya, M.R.; Bak, S.-M.; Yu, X.; Yang, X.-Q.; Barsoum, M.W.; Gogotsi, Y. Probing the Mechanism of High Capacitance in 2D
+Titanium Carbide Using In Situ X-Ray Absorption Spectroscopy. Adv. Energy Mater. 2015, 5, 1500589. [CrossRef]
+107. Zheng, X.; Nie, W.; Hu, Q.; Wang, X.; Wang, Z.; Zou, L.; Hong, X.; Yang, H.; Shen, J.; Li, C. Multifunctional RGO/Ti3C2Tx MXene
+fabrics for electrochemical energy storage, electromagnetic interference shielding, electrothermal and human motion detection.
+Mater. Des. 2021, 200, 109442. [CrossRef]
+108. Mashtalir, O.; Lukatskaya, M.R.; Kolesnikov, A.I.; Raymundo-Piñero, E.; Naguib, M.; Barsoum, M.W.; Gogotsi, Y. The effect of
+hydrazine intercalation on the structure and capacitance of 2D titanium carbide (MXene). Nanoscale 2016, 8, 9128–9133. [CrossRef]
+
+Nanomaterials 2023, 13, 919 37 of 39
+109. Lu, M.; Han, W.; Li, H.; Li, H.; Zhang, B.; Zhang, W.; Zheng, W. Magazine-Bending-Inspired Architecting Anti-T of MXene Flakes
+with Vertical Ion Transport for High-Performance Supercapacitors.Adv. Mater. Interfaces 2019, 6, 1900160. [CrossRef]
+110. Fan, Z.; Wang, Y.; Xie, Z.; Wang, D.; Yuan, Y.; Kang, H.; Su, B.; Cheng, Z.; Liu, Y. Modiﬁed MXene/Holey Graphene Films for
+Advanced Supercapacitor Electrodes with Superior Energy Storage. Adv. Sci. 2018, 5, 1800750. [CrossRef]
+111. Zhao, M.; Ren, C.E.; Ling, Z.; Lukatskaya, M.R.; Zhang, C.; Aken, K.L.V .; Barsoum, M.W.; Gogotsi, Y. Flexible MXene/Carbon
+Nanotube Composite Paper with High Volumetric Capacitance. Adv. Mater. 2015, 27, 339–345. [CrossRef] [PubMed]
+112. Mohammadi, A.V .; Mojtabavi, M.; Caffrey, N.M.; Wanunu, M.; Beidaghi, M. Assembling 2D MXenes into Highly Stable
+Pseudocapacitive Electrodes with High Power and Energy Densities. Adv. Mater. 2018, 31, 1806931.
+113. Lin, Z.; Barbara, D.; Taberna, P .-L.; Aken, K.L.V .; Anasori, B.; Gogotsi, Y.; Simon, P . Capacitance of Ti3C2Tx MXene in ionic liquid
+electrolyte. J. Power Sources 2016, 326, 575–579. [CrossRef]
+114. Yang, L.; Zheng, W.; Zhang, P .; Chen, J.; Tian, W.B.; Zhang, Y.M.; Sun, Z.M.J. In situ synthesis of CNTs@Ti3C2 hybrid structures by
+microwave irradiation for high-performance anodes in lithium ion batteries. Electroanal. Chem. 2018, 6, 830–831.
+115. Shen, L.; Zhou, X.; Zhang, X.; Zhang, Y.; Liu, Y.; Wang, W.; Si, W.; Dong, X. Carbon-intercalated Ti 3C2Tx MXene for high-
+performance electrochemical energy storage. J. Mater. Chem. A 2018, 6, 23513–23520. [CrossRef]
+116. Wang, K.; Zheng, B.; Mackinder, M.; Baule, N.; Qiao, H.; Jin, H.; Schuelke, T.; Fan, Q.H. Graphene wrapped MXene via plasma
+exfoliation for all-solid-state ﬂexible supercapacitors. Energy Storage Mater. 2019, 20, 299–306. [CrossRef]
+117. Zhang, P .; Zhu, Q.; Soomro, R.A.; He, S.; Sun, N.; Qiao, N.; Xu, B. In situ ice template approach to fabricate 3D ﬂexible MXene
+ﬁlm-based electrode for high performance supercapacitors. Adv. Funct. Mater. 2020, 30, 2000922. [CrossRef]
+118. Li, L.; Zhang, M.; Zhang, X.; Zhang, Z. New Ti3C2 aerogel as promising negative electrode materials for asymmetric supercapaci-
+tors. J. Power Sources 2017, 364, 234–241. [CrossRef]
+119. Zhang, X.; Liu, Y.; Dong, S.; Yang, J.; Liu, X. Self-assembled three-dimensional Ti3C2Tx nanosheets network on carbon cloth as
+ﬂexible electrode for supercapacitors. Appl. Surf. Sci. 2019, 485, 1–7. [CrossRef]
+120. Fan, Z.; Wang, J.; Kang, H.; Wang, Y.; Xie, Z.; Cheng, Z.; Liu, Y. A Compact MXene Film with Folded Structure for Advanced
+Supercapacitor Electrode Material. ACS Appl. Energy Mater. 2020, 3, 1811–1820. [CrossRef]
+121. Hu, M.; Hu, T.; Cheng, R.; Yang, J.; Cui, C.; Zhang, C.; Wang, X. MXene-coated silk-derived carbon cloth toward ﬂexible electrode
+for supercapacitor application. J. Energy Chem. 2018, 27, 161–166. [CrossRef]
+122. Halim, J.; Lukatskaya, M.R.; Cook, K.M.; Lu, J.; Smith, C.R.; Näslund, L.-Å.; May, S.J.; Hultman, L.; Gogotsi, Y.; Eklund, P .; et al.
+Transparent Conductive Two-Dimensional Titanium Carbide Epitaxial Thin Films.Chem. Mater. 2014, 26, 2374–2381. [CrossRef]
+[PubMed]
+123. Fang, Y.; Hu, R.; Zhu, K.; Ye, K.; Yan, J.; Wang, G.; Cao, D. Aggregation-Resistant 3D Ti3C2Tx MXene with Enhanced kinetics for
+potassium ion hybrid capacitors. Adv. Funct. Mater. 2020, 30, 2005663. [CrossRef]
+124. Chen, W.; Tang, J.; Cheng, P .; Ai, Y.; Xu, Y.; Ye, N. 3D Porous MXene (Ti3C2Tx) prepared by Alkaline induced ﬂocculation for
+supercapacitor electrodes. Materials 2022, 15, 925. [CrossRef]
+125. Zhang, P .; Oeng, Y.; Zhu, Q.; Soomro, R.; Sun, N.; Xu, B. 3D form-based MXene architectures: Structural and electrolytic
+engineering for advanced potassium-ion storage. Energy Environ. Mater. 2022, 9999, 1–10.
+126. Liu, J.; Zhang, H.-B.; Sun, R.; Liu, Y.; Liu, Z.; Zhou, A.; Yu, Z.-Z. Hydrophobic, Flexible, and Lightweight MXene Foams for
+High-Performance Electromagnetic-Interference Shielding. Adv. Mater. 2017, 29, 1702367. [CrossRef]
+127. Collini, P .; Kota, S.; Dillon, A.D.; Barsoum, M.W.; Fafarman, A.T. Electrophoretic Deposition of Two-Dimensional Titanium
+Carbide (MXene) Thick Films. J. Electrochem. Soc. 2017, 164, D573–D580. [CrossRef]
+128. Shi, L.; Lin, S.; Li, L.; Wu, W.; Wu, L.; Gao, H.; Zhang, X. Ti 3C2Tx-foam as free-standing electrode for supercapacitor with
+improved electrochemical performance. Ceram. Int. 2018, 44, 13901–13907. [CrossRef]
+129. Yue, Y.; Liu, N.; Ma, Y.; Wang, S.; Liu, W.; Luo, C.; Zhang, H.; Cheng, F.; Rao, J.; Hu, X.; et al. Highly Self-Healable 3D
+Microsupercapacitor with MXene-Graphene Composite Aerogel. ACS Nano 2018, 12, 4224–4232. [CrossRef]
+130. Zhang, X.; Liu, X.; Dong, S.; Yang, J.; Liu, Y. Template-free synthesized 3D macroporous MXene with superior performance for
+supercapacitors. Appl. Mater. T oday2019, 16, 315–321. [CrossRef]
+131. Guo, J.; Zhao, Y.; Liu, A.; Ma, T. Electrostatic self-assembly of 2D delaminated MXene (Ti 3C2) onto Ni foam with superior
+electrochemical performance for supercapacitor. Electrochim. Acta 2019, 305, 164–174. [CrossRef]
+132. Boota, M.; Gogotsi, Y. MXene—Conducting Polymer Asymmetric Pseudocapacitors. Adv. Energy Mater. 2019, 9, 1802917.
+[CrossRef]
+133. Qin, L.; Tao, Q.; Ghazaly, A.E.; Fernandez-Rodriguez, J.; Persson, P .O.Å.; Rosen, J.; Zhang, F. High-Performance Ultrathin Flexible
+Solid-State Supercapacitors Based on Solution Processable Mo1.33C MXene and PEDOT:PSS. Adv. Funct. Mater. 2018, 28, 1703808.
+[CrossRef]
+134. Xu, S.; Wei, G.; Li, J.; Ji, Y.; Klyui, N.; Izotov, V .; Han, W. Binder-free Ti3C2Tx MXene electrode ﬁlm for supercapacitor produced by
+electrophoretic deposition method. Chem. Eng. J. 2017, 317, 1026–1036. [CrossRef]
+135. Chen, Z.; Han, Y.; Li, T.; Zhang, X.; Wang, T.; Zhang, Z. Preparation and electrochemical performances of doped MXene/poly(3,4-
+ethylenedioxythiophene) composites. Mater. Lett. 2018, 220, 305–308. [CrossRef]
+136. Wu, W.; Wei, D.; Zhu, J.; Niu, D.; Wang, F.; Wang, L.; Yang, L.; Yang, P .; Wang, C. Enhanced electrochemical performances
+of organ-like Ti3C2 MXenes/polypyrrole composites as supercapacitors electrode materials. Ceram. Int. 2019, 45, 7328–7337.
+[CrossRef]
+
+Nanomaterials 2023, 13, 919 38 of 39
+137. Wang, H.; Li, L.; Zhu, C.; Lin, S.; Wen, J.; Jin, Q.; Zhang, X. In situ polymerized Ti 3C2Tx/PDA electrode with superior areal
+capacitance for supercapacitors. J. Alloys Compd. 2019, 778, 858–865. [CrossRef]
+138. Boota, M.; Pasini, M.; Galeotti, F.; Porzio, W.; Zhao, M.-Q.; Halim, J.; Gogotsi, Y. Interaction of Polar and Nonpolar Polyﬂuorenes
+with Layers of Two-Dimensional Titanium Carbide (MXene): Intercalation and Pseudocapacitance. Chem. Mater. 2017, 29,
+2731–2738. [CrossRef]
+139. Lu, X.; Zhu, J.; Wu, W.; Zhang, B. Hierarchical architecture of PANI@TiO2/Ti3C2Tx ternary composite electrode for enhanced
+electrochemical performance. Electrochim. Acta 2017, 228, 282–289. [CrossRef]
+140. Ren, Y.; Zhu, J.; Wang, L.; Liu, H.; Liu, Y.; Wu, W.; Wang, F. Synthesis of polyaniline nanoparticles deposited on two-dimensional
+titanium carbide for high-performance supercapacitors. Mater. Lett. 2018, 214, 84–87. [CrossRef]
+141. Tang, Y.; Zhu, J.; Yang, C.; Wang, F. Enhanced supercapacitive performance of manganese oxides doped two-dimensional titanium
+carbide nanocomposite in alkaline electrolyte. J. Alloys Compd. 2016, 685, 194–201. [CrossRef]
+142. Zhu, J.; Lu, X.; Wang, L. Synthesis of a MoO3/Ti3C2Tx composite with enhanced capacitive performance for supercapacitors.
+RSC Adv. 2016, 6, 98506–98513. [CrossRef]
+143. Zheng, W.; Zhang, P .; Tian, W.; Wang, Y.; Zhang, Y.; Chen, J.; Sun, Z.M. Microwave-assisted synthesis of SnO2-Ti3C2 nanocomposite
+for enhanced supercapacitive performance. Mater. Lett. 2017, 209, 122–125. [CrossRef]
+144. Zhu, J.; Tang, Y.; Yang, C.; Wang, F.; Cao, M. Composites of TiO2 Nanoparticles Deposited on Ti3C2 MXene Nanosheets with
+Enhanced Electrochemical Performance. J. Electrochem. Soc. 2016, 163, A785–A791. [CrossRef]
+145. Cao, M.; Wang, F.; Wang, L.; Wu, W.; Lv, W.; Zhu, J. Room temperature oxidation of Ti3C2 MXene for supercapacitor electrodes. J.
+Electrochem. Soc. 2017, 164, A3933–A3942. [CrossRef]
+146. Ambade, S.B.; Ambade, R.B.; Eom, W.; Noh, S.H.; Kim, S.H.; Han, T.H. 2D Ti3C2 MXene/WO3 Hybrid Architectures for High-Rate
+Supercapacitors. Adv. Mater. Interfaces 2018, 5, 1801361. [CrossRef]
+147. Tian, Y.; Yang, C.; Que, W.; Liu, X.; Yin, X.; Kong, L.B. Flexible and free-standing 2D titanium carbide ﬁlm decorated with
+manganese oxide nanoparticles as a high volumetric capacity electrode for supercapacitor. J. Power Sources 2017, 359, 332–339.
+[CrossRef]
+148. Choi, C.; Ashby, D.S.; Butts, D.M.; DeBlock, R.H.; Wei, Q.; Lau, J.; Dunn, B. Achieving high energy density and high power
+density with pseudocapacitive materials. Nat. Rev. Mater. 2020, 5, 5–17. [CrossRef]
+149. Jiang, H.; Wang, Z.; Yang, Q.; Hanif, M.; Wang, Z.; Dong, L.; Dong, M. A novel MnO2/Ti3C2Tx MXene nanocomposite as high
+performance electrode materials for ﬂexible supercapacitors. Electrochim. Acta 2018, 290, 695–703. [CrossRef]
+150. Liu, H.; Hu, R.; Qi, J.; Sui, Y.; He, Y.; Meng, Q.; Wei, F.; Ren, Y.; Zhao, Y.; Wei, W. One-Step Synthesis of Nanostructured CoS2
+Grown on Titanium Carbide MXene for High-Performance Asymmetrical Supercapacitors. Adv. Mater. Interfaces 2020, 7, 1902659.
+[CrossRef]
+151. Hu, M.; Li, Z.; Hu, T.; Zhu, S.; Zhang, C.; Wang, X. High-Capacitance Mechanism for Ti3C2Tx MXene by in Situ Electrochemical
+Raman Spectroscopy Investigation. ACS Nano 2016, 10, 11344–11350. [CrossRef] [PubMed]
+152. Levi, M.D.; Lukatskaya, M.R.; Sigalov, S.; Beidaghi, M.; Shpigel, N.; Daikhin, L.; Aurbach, D.; Barsoum, M.W.; Gogotsi, Y. Solving
+the Capacitive Paradox of 2D MXene using Electrochemical Quartz-Crystal Admittance and In Situ Electronic Conductance
+Measurements. Adv. Energy Mater. 2015, 5, 1400815. [CrossRef]
+153. Ando, Y.; Okubo, M.; Yamada, A.; Otani, M. Capacitive versus Pseudocapacitive Storage in MXene.Adv. Funct. Mater. 2020, 30,
+2000820. [CrossRef]
+154. Okubo, M.; Sugahara, A.; Kajiyama, S.; Yamada, A. MXene as a Charge Storage Host.Acc. Chem. Res. 2018, 51, 591–599. [CrossRef]
+[PubMed]
+155. Francisco, B.E.; Jones, C.M.; Lee, S.-H.; Stoldt, C.R. Nanostructured all-solid-state supercapacitor based on Li2S-P2S5 glass-ceramic
+electrolyte. Appl. Phys. Lett. 2012, 100, 103902. [CrossRef]
+156. Duay, J.; Gillette, E.; Liu, R.; Lee, S.B. Highly ﬂexible pseudocapacitor based on freestanding heterogeneous MnO2/conductive
+polymernanowire arrays. Phys. Chem. Chem. Phys. 2012, 14, 3329–3337. [CrossRef] [PubMed]
+157. Huang, C.W.; Wu, C.A.; Hou, S.S.; Kuo, P .L.; Hsieh, C.T.; Teng, H. Gel Electrolyte Derived from Poly(ethylene glycol) Blending
+Poly(acrylonitrile) Applicable to Roll-to-Roll Assembly of Electric Double Layer Capacitors.Adv. Funct. Mater. 2012, 22, 4677–4685.
+[CrossRef]
+158. Sudhakar, Y.N.; Selvakumar, M.; Bhat, D.K. LiClO4-doped plasticized chitosan and poly(ethylene glycol) blend as biodegradable
+polymer electrolyte for supercapacitors. Ionics 2013, 19, 277–285. [CrossRef]
+159. Ramasamy, C.; Del Vel, J.P .; Anderson, M. An activated carbon supercapacitor analysis by using a gel electrolyte of sodium
+salt-polyethylene oxide in an organic mixture solvent. J. Solid State Electrochem. 2014, 18, 2217–2223. [CrossRef]
+160. Pal, B.; Yasin, A.; Kunwar, R.; Yang, S.; Yusoff, M.M.; Jose, R. Polymer versus Cation of Gel Polymer Electrolytes in the Charge
+Storage of Asymmetric Supercapacitors. Ind. Eng. Chem. Res. 2019, 58, 654–664. [CrossRef]
+161. Heon, M.; Lo, S.; Applegate, J.; Nolte, R.; Cortes, E.; Hettinger, J.D.; Taberna, P .L.; Simon, P .; Huang, P .H.; Brunet, M.; et al.
+Continuous carbide-derived carbon ﬁlms with high volumetric capacitance. Energy Environ. Sci. 2011, 4, 135–138. [CrossRef]
+162. Yan, J.; Ren, C.E.; Maleski, K.; Hatter, C.B.; Anasori, B.; Urbankowski, P .; Sarycheva, A.; Gogotsi, Y. Flexible MXene/Graphene
+Films for Ultrafast Supercapacitors with Outstanding Volumetric Capacitance. Adv. Funct. Mater. 2017, 27, 1701264. [CrossRef]
+
+Nanomaterials 2023, 13, 919 39 of 39
+163. Li, K.; Wang, X.H.; Li, S.; Urbankowski, P .; Li, J.M.; Xu, Y.X.; Gogotsi, Y. An Ultrafast Conducting Polymer@MXene Positive
+Electrode with High Volumetric Capacitance for Advanced Asymmetric Supercapacitors. Small 2020, 16, 1906851. [CrossRef]
+[PubMed]
+164. Li, H.; Chen, X.; Zalnezhad, E.; Hui, K.N.; Hui, K.S.; Ko, M.J. 3D hierarchical transition-metal sulﬁdes deposited on MXene as
+binder-free electrode for high-performance supercapacitors. J. Ind. Eng. Chem. 2020, 82, 309–316. [CrossRef]
+165. Kumar, S.; Rehman, M.A.; Lee, S.; Kim, M.; Hong, H.; Park, J.Y.; Seo, Y. Supercapacitors based on Ti3C2Tx MXene extracted from
+supernatant and current collectors passivated by CVD-graphene. Sci. Rep. 2021, 11, 649. [CrossRef] [PubMed]
+166. Ge, G.; Zhang, Y.Z.; Zhang, W.; Yuan, W.; El-Demellawi, J.K.; Zhang, P .; Fabrizio, E.D.; Dong, X.; Alsshareef, H.N. Ti 3C2Tx
+MXene-Activated Fast Gelation of Stretchable and Self-Healing Hydrogels: A Molecular Approach. ACS Nano 2021, 15, 2698–2706.
+[CrossRef] [PubMed]
+167. Yu, Z.; Thomas, J. Energy Storing Electrical Cables: Integrating Energy Storage and Electrical Conduction. Adv. Mater. 2014, 26,
+4279–4285. [CrossRef] [PubMed]
+168. Yan, Y.; Gu, P .; Zheng, S.; Zheng, M.; Pang, H.; Xue, H. Facile synthesis of an accordion-like Ni-MOF superstructure for
+high-performance ﬂexible supercapacitors. J. Mater. Chem. A 2016, 4, 19078–19085. [CrossRef]
+169. Wang, L.; Feng, X.; Ren, L.; Piao, Q.; Zhong, J.; Wang, Y.; Li, H.; Chen, Y.; Wang, B. Flexible Solid-State Supercapacitor Based on a
+Metal-Organic Framework Interwoven by Electrochemically-Deposited PANI. J. Am. Chem. Soc. 2015, 137, 4920–4923. [CrossRef]
+170. Zhou, Z.; Zhang, Q.; Sun, J.; He, B.; Guo, J.; Li, Q.; Li, C.; Xie, L.; Yao, Y. Metal–organic framework derived spindle-like carbon
+incorporated α-Fe2O3 grown on carbon nanotube ﬁber as anodes for high-performance wearable asymmetric supercapacitors.
+ACS Nano 2018, 12, 9333–9341. [CrossRef]
+171. Liu, Y.; Li, G.; Guo, Y.; Ying, Y.; Peng, X. Functionalized Porous Aromatic Framework for Efﬁcient Uranium Adsorption from
+Aqueous Solutions. ACS Appl. Mater. Interfaces 2017, 9, 12511–12517. [CrossRef] [PubMed]
+172. Ding, Y.; Bai, W.; Sun, J.; Wu, Y.; Memon, M.A.; Wang, C.; Liu, C.; Huang, Y.; Geng, J. Cellulose tailored anatase TiO2 nanospindles
+in three-dimensional graphene composites for high-performance supercapacitors. ACS Appl. Mater. Interfaces 2016, 8, 12165–12175.
+[CrossRef] [PubMed]
+173. Kong, D.; Ren, W.; Cheng, C.; Wang, Y.; Huang, Z.H.Y. Yang Three-dimensional NiCo2O4@ polypyrrole coaxial nanowire arrays
+on carbon textiles for high-performance ﬂexible asymmetric solid-state supercapacitor. ACS Appl. Mater. Interfaces 2016, 7,
+21334–21346. [CrossRef] [PubMed]
+174. Sun, M.; Wang, J.; Xu, M.; Fang, Z.; Jiang, L.; Han, Q.; Liu, J.; Yan, M.; Wang, Q.; Bi, H. Hybrid Supercapacitors Based on
+Interwoven CoO-NiO-ZnO Nanowires and Porous Graphene Hydrogel Electrodes with Safe Aqueous Electrolyte for High
+Supercapacitance. Adv. Electron. Mater. 2019, 5, 1900297. [CrossRef]
+175. Xu, X.; Tang, J.; Qian, H.; Hou, S.; Bando, Y.; Hossain, M.S.A.; Pan, L.; Yamauchi, Y. Three-Dimensional Networked Metal-Organic
+Frameworks with Conductive Polypyrrole Tubes for Flexible Supercapacitors. ACS Appl. Mater. Interfaces 2017, 9, 38737–38744.
+[CrossRef]
+176. Qi, K.; Hou, R.; Zaman, S.; Qiu, Y.; Xia, B.Y.; Duan, H. Construction of Metal-Organic Framework/Conductive Polymer Hybrid
+for All-solid-state Fabric Supercapacitor. ACS Appl. Mater. Interfaces 2018, 10, 18021–18028. [CrossRef]
+177. Shao, L.; Wang, Q.; Ma, Z.; Ji, Z.; Wang, X.; Song, D.; Liu, Y.; Wang, N. A high-capacitance ﬂexible solid-state supercapacitor
+based on polyaniline and Metal-Organic Framework (UiO-66) composites. J. Power Sources 2018, 379, 350–361. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

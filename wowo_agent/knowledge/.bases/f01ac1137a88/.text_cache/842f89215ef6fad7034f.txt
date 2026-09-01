@@ -1,0 +1,393 @@
+1
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+www.nature.com/scientificreports
+Crack-induced Ag nanowire 
+networks for transparent, 
+stretchable, and highly sensitive 
+strain sensors
+Chan-Jae Lee1, Keum Hwan Park1, Chul Jong Han1, Min Suk Oh1, Banseok You  1,  
+Young-Seok Kim1 & Jong-Woong Kim1,2
+Crack-based strain sensor systems have been known for its high sensitivity, but suffer from the 
+small fracture strain of the thin metal films employed in the sensor which results in its negligible 
+stretchability. Herein, we fabricated a transparent (>90% at 550 nm wavelength), stretchable (up to 
+100%), and sensitive (gauge factor (GF) of 30 at 100% strain) strain gauge by depositing an encapsulated 
+crack-induced Ag nanowire (AgNW) network on a hydroxylated poly(dimethylsiloxane) (PDMS) film. 
+Stretching the encapsulated AgNWs/PDMS resulted in the formation of a percolation network of 
+nanowire ligaments with abundant percolation paths. The encapsulating polymer was designed to 
+adhere strongly to both the AgNW and PDMS. The improved adhesion ensured the resistance of the 
+crack-induced network of AgNWs varied reversibly, stably, and sensitively when stretched and released, 
+at strains of up to 100%. The developed sensor successfully detected human motions when applied to 
+the skin.
+Piezoresistive strain gauges are used to measure the strain experienced by an object under an applied force and are 
+typically fabricated by laminating patterned metal foil or wires on an insulating flexible support
+1–4. These devices 
+are widely employed to measure mechanical deformations in various applications including weighing scales, 
+impact sensors, and medical sensors, because of their simple structure and read-out mechanism. Recent advance-
+ments in robotics and biomedical devices have led to the vigorous development of new stretchable strain gauges 
+to attain minimally invasive and implantable devices
+5–8. Stretchable strain gauges can adhere or be embedded in 
+various complex surfaces, such as skin, tissue, or organs, without severe wrinkling and buckling. Furthermore, 
+this class of strain gauges can be stretched, compressed, twisted, and deformed into complex, non-planar shapes 
+while maintaining high sensitivity, reliability, and integration
+9, 10.
+Various materials have been proposed for use in stretchable sensors and electronic devices, including car -
+bon nanotubes (CNTs)11, 12, graphene13–15, carbon black16, poly(3,4-ethylenedioxythiophene):poly(styrenesul-
+fonate) (PEDOT:PSS)17, and metal nanowires18–20. Stretchable strain gauges using these materials are typically 
+fabricated from a mixture of the conductive materials and a non-cross-linked liquid polymer, which yields a 
+three-dimensionally networked conductor when the polymer is cured
+21. Stretching the cured composite structure 
+decreases the percolation density, resulting in decreased electrical conductivity. Another method used to produce 
+these devices is to bury the percolated conductive networks at the surface of the cross-linked polymer
+22. Since this 
+approach usually employs metal nanowires or CNTs in very low densities, the fabricated structures are typically 
+transparent; this is an advantage for their use in devices. However, the sensitivity of the strain gauges produced by 
+both these methods is typically lower than those of crack-induced strain gauges.
+Ultrasensitive strain gauges based on crack-induced sensor systems have recently been reported to achieve 
+gauge factors (GF) as high as 16,000 at 2% strain, which is significantly higher than those of reported composite 
+structures
+23, 24. In these crack-induced sensors inspired by the geometry of a spider’s slit organ 23, the metallic 
+nanoscale cracks formed in a polymer layer are disconnected and reconnected with adjacent crack junctions 
+1Display Materials & Components Research Centre, Korea Electronics Technology Institute, Seongnam, 463-816, 
+Korea. 2School of Advanced Materials Engineering, Chonbuk National University, Deokjin-Dong 664-14, Jeonju 561-
+756, Korea. Chan-Jae Lee and Keum Hwan Park contributed equally to this work. Correspondence and requests for 
+materials should be addressed to Y .-S.K. (email: vis4freedom@keti.re.kr) or J.-W.K. (email: wyjd78@gmail.com)
+Received: 3 February 2017
+Accepted: 11 July 2017
+Published: xx xx xxxx
+OPEN
+
+
+www.nature.com/scientificreports/
+2
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+when strain is applied, which enables subtle changes in resistivity to be detected in response to external forces24. 
+The electrical resistance of a metal layer with some artificially formed cracks experiences an abrupt drop from 
+a finite value when the edges of the cracks are in contact, to zero when they disconnect. In this case, the high 
+strain sensitivity originates from the rare yet large gap-bridging steps on opposite edges of the artificially formed 
+crack
+23. However, since these sensors have employed the metal thin films such Pt for crack formation, the max-
+imum strain that can be withstood by the surface of these sensors is limited to ~2% by the low fracture strain of 
+the metals.
+Herein, we demonstrate that sensors based on crack junctions artificially formed on a percolated AgNW 
+network/poly(dimethylsiloxane) (PDMS) can simultaneously attain high sensitivity and stretchability. We used a 
+stretchable polymer which is compatible to both the AgNWs and PDMS for encapsulating the device in order to 
+improve its reversibility, reproducibility, and durability. The fabricated strain gauge was highly sensitive, highly 
+stretchable and optically transparent, which frees the device from problems of privacy when used to detect human 
+motion. The fabricated strain gauge could successfully detect strains induced by muscle movements on the skin of 
+a proximal interphalangeal joint and a human face.
+Methods
+Materials and Synthesis. Materials and synthesis for polyurethane urea (PUU) were described in our pre-
+vious studies25, 26. A Sylgard 184 elastomer kit was obtained from Dow Corning, USA. Pure PDMS was prepared 
+by mixing the base and curing agent with a weight ratio of 10:1.
+Fabrication of strain gauge. The fabrication of the stretchable strain gauge is schematically illustrated in 
+Fig. 1. A glass substrate was first cleaned using detergent, de-ionized water, isopropanol, and acetone. Pure PDMS 
+was spin-coated onto the glass, degassed, and thermally cured at 70 °C for 12 h. The thickness of the PDMS layer 
+after curing was around 150 μm. Oxygen plasma treatment was used to form hydroxyl groups on the PDMS 
+film. The O2 gas flow rate, gas pressure, power, and treating time were controlled to be 35 mL/min, 20 Pa, 50 W , 
+and 120 s, respectively. A solution of AgNWs dispersed in isopropanol (0.7  wt.%; Nanopyxis Ltd., Korea) was 
+spin-coated onto the PDMS film and heated on a hot plate at 60 °C for 10 min to remove any remaining solvent 
+from the coated layer. The synthesised encapsulant was spin-coated (spin velocity: 800 rpm, duration time: 60 s, 
+temperature: 25 °C) onto the AgNWs/PDMS film, followed by drying at 25 °C for 30 min to achieve a coating with 
+a thickness of 20 μm. The encapsulant/AgNWs/PDMS sensor was then peeled from the glass and stretched and 
+released at a specific strain to form cracks in the sensor.
+Evaluation of sensor. Field-emission scanning electron microscopy (FESEM; JSM6700F , JEOL Ltd., Japan) 
+was used to investigate the microstructure of the AgNW networks. The optical transmission was also meas-
+ured using a UV–visible spectrophotometer (V-560, Jasco, Japan), while the sheet resistance (R
+s) was measured 
+using a non-contact measurement system (EC-80P , Napson Corporation, Japan). An automatic stretch-testing 
+machine (Stretching Tester, Jaeil Optical System, Korea) was used to measure the long-term reliability under 
+repeated cycles of stretching. The sensors were stretched and released at a rate of 0.5 mm/s under varying strains 
+to measure the stress-strain behaviour, and the electrical resistance was measured during testing. This test used 
+uniaxial tensile strains of 25, 50, 75, and 100%, and stretched the samples at a cycle rate of 1.2 cycles/min. We also 
+conducted a long-term cyclic test of up to 2500 cycles at 100% strain. The sensor was worn by an adult human 
+to assess the wearability as well as the performance of the sensor under stretching condition at different body 
+locations. Informed consent was obtained from the human subject prior to the experiments. We confirm that the 
+Ethical Committee of the Korea Electronics Technology Institute (KETI) approved all the experiments described 
+in this paper. All methods in this study were performed in accordance with the relevant guidelines and regula-
+tions in KETI. More than 20 samples were fabricated, and their sensing performance was evaluated.
+Figure 1. Schematic illustration of the fabrication of crack-induced strain sensor.
+
+www.nature.com/scientificreports/
+3
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+Results and Discussion
+Since no thorough studies on the mechanism of fracture under large strains of AgNWs deposited on a stretcha-
+ble substrate have been reported, we investigated the type of failures that might occur in the nanowire network 
+by applying a large strain to AgNWs-based elastomeric electrodes. We first prepared a stretchable transparent 
+conductor by depositing AgNWs on a hydroxylated PDMS sheet using the method illustrated in Fig. 1. We inves-
+tigated the surfaces of the AgNW electrodes under varying levels of strain using an FESEM, and the results 
+are summarised in Fig.  2. As shown in Fig.  2a, the nanowires were deposited on the PDMS surface, result-
+ing in a porous networked structure. No disconnections of the nanowires, severe aggregation or cracking of 
+the underlying polymer were observed in the FESEM analysis. We note that the electrode was much rougher 
+(root-mean-square roughness (R
+RMS) of around 36  nm) than the embedded structures 27, implying that some 
+parts of the nanowire networks did not make a stable contact with the functionalized surface of PDMS. Some 
+microcracks were formed in the AgNW forest when we applied a uniaxial strain of 25% to the AgNWs/PDMS, 
+generating an ordered network of nanowire ligaments divided with cracks aligned perpendicular to the stretching 
+direction.
+We employed AgNWs to achieve a stretchable strain gauge because the network structure of AgNWs is known 
+to be appropriate for fabrication of flexible and stretchable electrodes based on two key properties: i) the intrinsic 
+durability of individual AgNWs, and ii) the networked structure of AgNW/polymer materials. Greer and Nix 
+explained the first property using the dislocation starvation effect, in which dislocation in the nanoscale crystals 
+can travel only very limited distances before annihilating at free surfaces. Thus, the overall dislocation multipli-
+cation rate can be significantly lowered
+28. Gliding dislocations leave the crystal more rapidly than they multiply, 
+thereby decreasing the overall dislocation density. This decrease leads to a dislocation-starved state requiring 
+very high stresses to nucleate new dislocations
+28. The second property arises from a geometrical feature of the 
+AgNWs/polymer electrode, in that much of the stress is relieved by the softer polymer regions when a large strain 
+is induced in a low-density AgNW network. Further, individual nanowires can slide during the stretching and 
+release of the AgNW/polymer composite, providing excellent resistance to stretching fatigue
+29.
+While these advantageous properties suggest that a stretchability of up to 100% might be reasonably expected 
+for AgNW-based elastomeric electrodes, the fracture strain range of AgNWs has not been reported to exceed 
+4%
+30 despite the dislocation starvation effects. Our tests showed that the application of a 5% uniaxial strain to 
+the fabricated AgNWs-based elastomeric electrodes induced separation of the ligament structure and formation 
+of vertically aligned microcracks. These cracks may have originated from the parts of the nanowire network 
+that were not in contact with the functionalized PDMS surface. Figure  2 shows that the width and density of 
+the microcracks increased with an increase in the applied strain, forming either large cracks or a fine ligament 
+network of AgNWs at higher strain levels. The PDMS substrate elongated in a specific direction, forming stable 
+contacts with AgNWs during stretching to a specific level of strain. However, higher strain levels are believed to 
+detach some parts of the nanowire network from the underlying PDMS, causing the crack-like structures in the 
+stretched state.
+The microstructural images shown in Fig.  3 show a cracked nanowire electrode after being stretched and 
+released. The microcracks induced by stretching formed a uniformly shaped pattern spontaneously to release the 
+large induced strains. The separation of the ligaments should increase the electrode’s resistance, but also allows 
+Figure 2. SEM micrographs of AgNWs deposited on hydroxylated PDMS: (a) the pristine state, (b) the 25% 
+strain stretched state, (c) the 50% strain stretched state, (d) the 75% strain stretched state, and (e) shows an 
+image during stretching at 100% strain.
+
+www.nature.com/scientificreports/
+4
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+room for it to recover its original shape and resistance, as shown in Fig.  3. The prominent cracks closed after 
+release, implying that the separated ligaments were re-joined. Since the increase and decrease in resistance on 
+stretching and releasing the electrode were expected to be reversible, we induced 100% strain on the fabricated 
+electrode and released. The resistance significantly increased to beyond 100 kΩ after the first stretch, and the 
+resistance after release the strain was significantly higher than the original value; this irreversibility was attrib-
+uted to the mechanical instability of the electrode (Figure S2). Inverted-layer processing was firstly employed to 
+enhance the stability of the electrode
+27: AgNWs were embedded in the PDMS surface using a previously reported 
+method31. The inverted-layer processing has been used to achieve a robust AgNW-based flexible/stretchable elec-
+trode by an embedment of nanowires into the surface of a polymer. For this, the nanowire dispersion is firstly 
+deposited onto a preliminary supporting substrate, such as glass, Si wafer or polymer film, followed by overcoat-
+ing of liquid polymer such as polyimide varnish or PDMS solution, curing and peeling-off from the preliminary 
+substrate. This simple procedure made the nanowires fully buried beneath the surface of the polymer, so that 
+can exhibit an enhanced mechanical stability and surface smoothness. The resistance of the embedded structure 
+was measured during a stretch-release test employing a maximum strain of 100%, as shown in Fig.  4a (plotted 
+with solid black squares). The mechanical stability and reversibility were significantly enhanced, but the maxi-
+mum resistance continuously increased throughout the test. We investigated the microstructure of the embedded 
+electrodes during the stretching process. The formation of the ligament network was not observed; instead, the 
+nanowires behaved individually, rather than as a body. This behaviour occurred because the individual nanowires 
+all contacted the polymer support. We suggest that individual nanowires were damaged beneath the surface of the 
+PDMS during stretching, leading to the deterioration in the conductivity of the electrodes.
+Two important requirements must be satisfied for the application of an electrical conductor in a stretchable 
+sensory system: its conductivity must be reversible, and there must be a large variation in resistance with applied 
+strains. The two systems discussed above fulfilled the second requirement but not the first, because of their insuf-
+ficient mechanical stability. Therefore, we employed a transparent and stretchable polymer (PUU) to encapsulate 
+the AgNWs/PDMS composite electrode. This polymer was originally designed to enhance the adhesion between 
+AgNWs and PDMS and thereby facilitate the production of a stable and stretchable AgNW/PDMS-based electrode 
+based on them
+25, 26. The presence of carboxylic acid groups in the PUU polymer chain ensured its stable adhe-
+sion to AgNWs, and the favourable interactions between AgNWs and these hydrogen-bond donating carboxylic 
+acid groups increased the affinity of the polymer matrix for the AgNWs
+25. Furthermore, the encapsulant could 
+adhere to both the AgNWs and PDMS via hydrogen bonding between the hydroxyl groups of PDMS and the urea 
+(or urethane) of PUU; this adhesion was expected to enhance the interlayer interactions
+25. The high clarity and 
+Figure 3. AgNWs deposited on a hydroxylated PDMS film, (a) the pristine state, (b) under stretching with 
+100% strain and (c) after release.
+Figure 4. (a) Resistance variation of the AgNWs/PDMS and PUU/AgNWs/PDMS sensors measured during 
+stretching and release (strain: 100%) cycles for up to 2500 cycles. (b) Show that of the PUU/AgNWs/PDMS in 
+the time range of 1000–1250 s.
+
+
+www.nature.com/scientificreports/
+5
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+transparency of the polymer resulted in the encapsulated sensor having a transmittance of ~90.6% (at 550 nm) 
+and Rs of 11.01 Ω/□ as shown in Figure S1. The resistance of the electrode (width: 5 mm and length: 10 mm) was 
+measured during stretch/release employing a maximum strain of 100%, as shown in Fig. 4a (solid red circles) and 
+4b. The resistance increased from 79 Ω and decreased with each stretch and release, respectively, with a negligible 
+change in the maximum resistance over 2500 cycles. We assumed that the ligaments in the AgNWs film formed a 
+percolating network, ensuring electrical continuity. When elastomeric substrates that lacked an encapsulant were 
+stretched, uniform-shape ligaments were formed, as previously discussed, that resulted in a large increase in the 
+resistance during stretching and enhanced the strain sensitivity. However, while the variation of the electrode with 
+stretch/releasing was decreased in the encapsulated sensor, the mechanical stability was greatly enhanced.
+We investigated the electrodes after stretching with varying strain loads, as shown in Fig. 5, to analyse their strain 
+sensitivity. The formation of a thin polymeric layer on the AgNWs reduced the contrast of the SEM images of the 
+nanowires. As for the electrodes without PUU, the encapsulated nanowires formed a percolated ligament network 
+with microcracks aligned perpendicular to the stretching direction. However, the microcracks were less ordered in 
+the encapsulated electrode, so the percolating paths were more abundant even for the highest applied strain values. 
+The SEM images indicate that the ligaments remained in contact with each other and that the gaps between AgNWs 
+were less prominent. The microstructure was scarcely affected by repeated stretch–release tests, which explains why 
+the dynamic resistance range was smaller, and the encapsulated electrodes were more stable than the bare AgNWs/
+PDMS electrodes. As the stretching increased, the protected ligament network twisted and was deflected out of the 
+plane of the sensor
+32. Thus, a large elongation of the elastomeric substrate induces only weak elastic strains in the 
+Figure 5. SEM micrographs for encapsulated AgNWs deposited on hydroxylated PDMS: (a) the pristine state, 
+(b) the 25% strain stretched state, (c) the 50% strain stretched state, (d) the 75% strain stretched state, and (e) 
+the 100% strain stretched state.
+Figure 6. Stress-strain behaviour of the fabricated crack-induced strain sensor.
+
+www.nature.com/scientificreports/
+6
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+AgNW network. We also investigated the stress–strain behaviour by employing continuous stretch-and-release 
+testing without an interval between cycles. Figure 6 shows the hysteresis curve for the encapsulated electrode, indi-
+cating that the hysteresis curves completely converged and that reversibility was achieved. However, a demerit of 
+the sensor was also found in the hysteresis curve: the sensor was not properly stressed in the low strain range (0 to 
+7%), possibly originated from the residual stresses generated during the crack-making pre-stretching process. This 
+tendency was also found in the graph for the resistance of the sensor measured with the applied strain (Figure S3), 
+in that the sensitivity of the sensor was rather low in the low strain region.
+Considering the high sensitivity in high strain range (30 GF at 100% strain) with the low performance in 
+low strain region, our sensor is suitable for detecting large motions of stretchable objects such as movement of 
+human body joints or change in the facial expressions, while may not be acceptable for detecting subtle motions 
+or movements such as heartbeats or dilatation of the pupil. The electrode’s transparency and stretchability ensure 
+that the performance of the sensor is competitive with previously reported electrodes
+33–35. Amjadi et al. fabricated 
+a stretchable strain sensor based on an AgNW and PDMS elastomer nanocomposite in a sandwich structure 33. 
+The sensor was stretchable by up to 70% and suitable for application in motion detection. However, the highly 
+dense nanowire networks rendered the electrode opaque, and it was relatively insensitive (14 GF) compared to 
+our electrode. Y ao and Zhu fabricated a piezocapacitive strain gauge using AgNWs as electrodes (conductors) 
+and Ecoflex as a dielectric
+34. Their sensor showed a linear response to tensile strains of up to 50%, and a bilinear 
+response to pressure with a low GF of ~0.7. Further, their device was also not optically transparent because of the 
+use of a highly dense AgNW network. Lee et al. reported a sensor that used the change in the electrical resistance 
+of percolated Ag nanoparticles on a PDMS film caused by the opening/closure of micro-cracks under mechanical 
+deformation
+35. Although they employed the crack-induced approach, their sensor could be stretched by up to 
+20%. However, the GF of their sensor was low (2.05 GF at 20% strain), and it was also opaque. To the best of our 
+knowledge, our electrode has a higher sensitivity at high strain range (30 GH at 100% strain) than any reported 
+transparent (higher than 90% at 550 nm wavelength) and stretchable (up to 100% strain) strain gauges. We here 
+demonstrate its functionality as a motion sensor by investigating its ability to detect both the motion of the prox-
+imal interphalangeal joints and changes in facial expression.
+Figure 7a–d show the sensor being used to detect the motion of a finger joint. The sensor was affixed to the 
+joint when the finger was fully bent, so that good adhesion could be attained without forming any pores or dis-
+cordant wrinkles under the stretched state. The resistance across the elastomer electrode was measured as the 
+finger moved. We found that the resistance varied very sensitively with the motion of the finger. The sensor could 
+detect the finger joint bending forward and backwards, exhibiting clearly distinguishable changes in resistance. 
+We also affixed the sensor to a human cheek and monitored in real time the resistance change induced in the 
+sensor by the mechanical motion of the skin as the subject opened and closed his mouth several times (Fig. 7e). 
+The resistance varied sensitively with the motion of the facial muscles, and the sensor could even detect subtle 
+differences in expression near the mouth (see the resistance and expression at 5 s and 45 s). We also measured the 
+movement of the lateral skin of a human eye induced by winking (Fig. 7f). The resistance of the sensor sensitively 
+and reproducibly varied with the winking motions, implying that the fabricated sensor system can be useful for 
+motion detection in diverse parts of the human body.
+Conclusion
+We successfully fabricated a highly stretchable and transparent strain sensor based on crack-induced AgNW 
+networks that were encapsulated by a stretchable and transparent polymer. The encapsulating polymer was 
+selected for its compatibility with AgNWs, and its ability to form hydrogen bonds between the carbonyl groups 
+Figure 7. Resistance of the crack-induced sensor attached to the skin (a–d) around a proximal interphalangeal 
+joint, (e) around a human cheek, and (f) a lateral area of a human eye.
+
+www.nature.com/scientificreports/
+7
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+of the poly(vinylpyrrolidone) layer at the surface of AgNWs and the carboxylic acid groups of the polymer. 
+Furthermore, hydrogen bonding between the hydroxyl groups of the plasma-treated PDMS and urea (or ure-
+thane) ensures that the encapsulant can simultaneously adhere to both the AgNWs and PDMS, which is expected 
+to enhance the interlayer interactions. The encapsulating polymer was deposited on an AgNWs/PDMS electrode 
+to enhance the mechanical stability of the electrode. The nanowires formed a percolated network of nanowire 
+ligaments with abundant percolating paths in response to the stretching and release of the encapsulated AgNWs/
+PDMS electrodes. The resistance of the electrodes sensitively increased and decreased upon stretching and 
+release, respectively, with negligible hysteresis and high GF (30 GF at 100% strain). To the best of our knowledge, 
+this is the first report of a transparent strain sensor demonstrating both high sensitivity and large stretchability up 
+to 100% strain. The excellent sensing performance of the fabricated transparent sensor was demonstrated by the 
+detection of muscle-induced strains on the skin of a proximal interphalangeal joint and a human face.
+References
+ 1. Tee, B. C.-K., Wang, C., Allen, R. & Bao, Z. An electrically and mechanically self-healing composite with pressure- and flexion-
+sensitive properties for electronic skin applications. Nat. Nanotechnol. 7, 825–832 (2012).
+ 2. Wang, X., Gu, Y ., Xiong, Z., Cui, Z. & Zhang, T. Silk-Molded Flexible, Ultrasensitive, and Highly Stable Electronic Skin for 
+Monitoring Human Physiological Signals. Adv. Mater. 26, 1336–1342 (2014).
+ 3. Amjadi, M., Kyung, K.-U., Park, I. & Sitti, M. Stretchable, Skin-Mountable, and Wearable Strain Sensors and Their Potential 
+Applications: A Review. Adv. Funct. Mater. 26, 1678–1698 (2016).
+ 4. Hammock, M. L., Chortos, A., Tee, B. C. K., Tok, J. B. H. & Bao, Z. 25th Anniversary Article: The Evolution of Electronic Skin 
+(E-Skin): A Brief History, Design Considerations, and Recent Progress. Adv. Mater. 25, 5997–6038 (2013).
+ 5. Kim, T.-I. et al. Injectable, Cellular-Scale Optoelectronics with Applications for Wireless Optogenetics. Science 340, 211–216 (2013).
+ 6. Lee, H. et al. A graphene-based electrochemical device with thermoresponsive microneedles for diabetes monitoring and therapy. 
+Nat. Nanotechnol. 11, 566–572 (2016).
+ 7. Matsuzaki, R. & Tabayashi, K. Highly Stretchable, Global, and Distributed Local Strain Sensing Line Using GaInSn Electrodes for 
+Wearable Electronics. Adv. Funct. Mater. 25, 3806–3813 (2015).
+ 8. Park, S. I. et al. Soft, stretchable, fully implantable miniaturized optoelectronic systems for wireless optogenetics. Nat. Biotechnol. 33, 
+1280–1286 (2015).
+ 9. Lee, P . et al. Highly Stretchable and Highly Conductive Metal Electrode by Very Long Metal Nanowire Percolation Network. Adv. 
+Mater. 24, 3326–3332 (2012).
+ 10. Lee, J. et al. Very long Ag nanowire synthesis and its application in a highly transparent, conductive and flexible metal electrode 
+touch panel. Nanoscale 4, 6408–6414 (2012).
+ 11. Lipomi, D. J. et al. Skin-like pressure and strain sensors based on transparent elastic films of carbon nanotubes. Nat. Nanotechnol. 6, 
+788–792 (2011).
+ 12. Feng, C. et al. Flexible, Stretchable, Transparent Conducting Films Made from Superaligned Carbon Nanotubes. Adv. Funct. Mater. 
+20, 885–891 (2010).
+ 13. Hou, C., Wang, H., Zhang, Q., Li, Y . & Zhu, M. Highly Conductive, Flexible, and Compressible All-Graphene Passive Electronic Skin 
+for Sensing Human Touch. Adv. Mater. 26, 5018–5024 (2014).
+ 14. Jeong, Y. R. et al . Highly Stretchable and Sensitive Strain Sensors Using Fragmentized Graphene Foam. Adv. Funct. Mater. 25, 
+4228–4236 (2015).
+ 15. Zang, J. et al. Multifunctionality and control of the crumpling and unfolding of large-area graphene. Nat. Mater. 12, 321–325 (2013).
+ 16. Bhagavatheswaran, E. S. et al. Construction of an Interconnected Nanostructured Carbon Black Network: Development of Highly 
+Stretchable and Robust Elastomeric Conductors. J. Phys. Chem. C 119, 21723–21731 (2015).
+ 17. Vosgueritchian, M., Lipomi, D. J. & Bao, Z. Highly Conductive and Transparent PEDOT:PSS films with a Fluorosurfactant for 
+Stretchable and Flexible Transparent Electrodes. Adv. Funct. Mater. 22, 421–428 (2012).
+ 18. Heo, G., Pyo, K.-H., Lee, D. H., Kim, Y . & Kim, J.-W . Critical Role of Diels–Adler Adducts to Realise Stretchable Transparent 
+Electrodes Based on Silver Nanowires and Silicone Elastomer. Sci. Rep. 6, 25358 (2016).
+ 19. Kim, K. K. et al. Highly Sensitive and Stretchable Multidimensional Strain Sensor with Prestrained Anisotropic Metal Nanowire 
+Percolation Networks. Nano Lett. 15, 5240–5247 (2015).
+ 20. Akter, T. & Kim, W . S. Reversibly Stretchable Transparent Conductive Coatings of Spray-Deposited Silver Nanowires. ACS Appl. 
+Mater. Interfaces 4, 1855–1859 (2012).
+ 21. Y amada, T. et al. A stretchable carbon nanotube strain sensor for human-motion detection. Nat. Nanotechnol. 6, 296–301 (2011).
+ 22. Yu, Z., Niu, X., Liu, Z. & Pei, Q. Intrinsically Stretchable Polymer Light-Emitting Devices Using Carbon Nanotube-Polymer 
+Composite Electrodes. Adv. Mater. 23, 3989–3994 (2011).
+ 23. Kang, D. et al. Ultrasensitive mechanical crack-based sensor inspired by the spider sensory system. Nature 516, 222–226 (2014).
+ 24. Park, B. et al. Dramatically Enhanced Mechanosensitivity and Signal-to-Noise Ratio of Nanoscale Crack-Based Sensors: Effect of 
+Crack Depth. Adv. Mater. 28, 8130–8137 (2016).
+ 25. You, B. et al. A wearable piezocapacitive pressure sensor with a single layer of silver nanowire-based elastomeric composite 
+electrodes. J. Mater. Chem. A 4, 10435–10443 (2016).
+ 26. Kim, D.-H., Yu, K.-C., Kim, Y . & Kim, J.-W . Highly Stretchable and Mechanically Stable Transparent Electrode Based on Composite 
+of Silver Nanowires and Polyurethane–Urea. ACS Appl. Mater. Interfaces 7, 15214–15222 (2015).
+ 27. Ok, K.-H. et al. Ultra-thin and smooth transparent electrode for flexible and leakage-free organic light-emitting diodes. Sci. Rep. 5, 
+9464 (2015).
+ 28. Greer, J. R. & Nix, W . D. Nanoscale gold pillars strengthened through dislocation starvation. Phys. Rev. B. 73, 245410 (2006).
+ 29. Liang, J. et al. Silver Nanowire Percolation Network Soldered with Graphene Oxide at Room Temperature and Its Application for 
+Fully Stretchable Polymer Light-Emitting Diodes. ACS Nano 8, 1590–1600 (2014).
+ 30. Zhu, Y . et al. Size effects on elasticity, yielding, and fracture of silver nanowires: In situ experiments. Phys. Rev. B 85, 045443 (2012).
+ 31. Joo, Y . et al. Silver nanowire-embedded PDMS with a multiscale structure for a highly sensitive and robust flexible pressure sensor. 
+Nanoscale 7, 6208–6215 (2015).
+ 32. Lacour, S. P ., Chan, D., Wagner, S., Li, T. & Suo, Z. Mechanisms of reversible stretchability of thin metal films on elastomeric 
+substrates. Appl. Phys. Lett. 88, 204103 (2006).
+ 33. Amjadi, M., Pichitpajongkit, A., Lee, S., Ryu, S. & Park, I. Highly Stretchable and Sensitive Strain Sensor Based on Silver-Elastomer 
+Nanocomposite. ACS Nano 8, 5154–5163 (2014).
+ 34. Y ao, S. & Zhu, Y . Wearable multifunctional sensors using printed stretchable conductors made of silver nanowires. Nanoscale 6, 
+2345–2352 (2014).
+ 35. Lee, J. et al . A stretchable strain sensor based on a metal nanoparticle thin film for human motion detection. Nanoscale  6, 
+11932–11939 (2014).
+
+www.nature.com/scientificreports/
+8
+Scientific  REPORTS  | 7: 7959  | DOI:10.1038/s41598-017-08484-y
+Acknowledgements
+This work was supported by the Ministry of Trade, Industry & Energy of Korea (N0001231); and the Korea 
+Institute of Energy Technology Evaluation and Planning (KETEP) and the Ministry of Trade, Industry & Energy 
+(MOTIE) (No. 20153010140030) of the Republic of Korea. This work was also supported by the National Research 
+Foundation of Korea (NRF) grant funded by the Korea government (MSIP) (No. 2015R1A4A1042417 and No. 
+2016M3A7B4910).
+Author Contributions
+Dr. J.-W . Kim and Dr. Y .-S. Kim designed and supervised the research. Dr. J.-W . Kim wrote the paper. B.S. Y ou 
+fabricated and evaluated the electrodes. Dr. C.-J. Lee, Dr. K.H. Park, Dr. C.J. Han and Dr. M.S. Oh participated 
+in the fabrication and evaluation of the sensors. All authors have given approval to the final version of the 
+manuscript.
+Additional Information
+Supplementary information accompanies this paper at doi:10.1038/s41598-017-08484-y
+Competing Interests: The authors declare that they have no competing interests.
+Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Cre-
+ative Commons license, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons license, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons license and your intended use is not per-
+mitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the 
+copyright holder. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.
+ 
+© The Author(s) 2017

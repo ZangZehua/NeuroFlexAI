@@ -1,0 +1,1150 @@
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+1 of 13
+APPLIED SCIENCES AND ENGINEERING
+Printable elastomeric electrodes with sweat-enhanced 
+conductivity for wearables
+Jian Lv1†, Gurunathan Thangavel1†, Yi Li1,2, Jiaqing Xiong1‡, Dace Gao1, Jinghao Ciou1,  
+Matthew Wei Ming Tan1, Izzat Aziz1, Shaohua Chen1, Juntong Chen1, Xinran Zhou1,  
+Wei Church Poh1, Pooi See Lee1*
+We rationally synthesized the thermoplastic and hydrophilic poly(urethane-acrylate) (HPUA) binder for a type of 
+printable and stretchable Ag flakes–HPUA (Ag-HPUA) electrodes in which the conductivity can be enhanced by 
+human sweat. In the presence of human sweat, the synergistic effect of Cl − and lactic acid enables the partial re-
+moval of insulating surfactant on silver flakes and facilitates sintering of the exposed silver flakes, thus the resist-
+ance of Ag-HPUA electrodes can be notably reduced in both relaxed and stretched state. The on-body data show 
+that the resistance of one electrode has been decreased from 3.02 to 0.62 ohm during the subject’s 27-min sweat-
+ing activity. A stretchable textile sweat-activated battery using Ag-HPUA electrodes as current collectors and 
+human sweat as the electrolyte was constructed for wearable electronics. The enhanced conductivity of the wear-
+able wiring electrode from the reaction with sweat would provide meritorious insight into the design of wearable 
+devices.
+INTRODUCTION
+In the past decade, innovations in functional materials, mechanics, 
+and device design have stimulated the surging development of 
+wearable devices including sensing, signal transmission, and power 
+sources (1–5). The key components in wearable devices are the flex-
+ible and soft functional electrodes and conductive wiring (6, 7). The 
+interaction between wearable electrodes and body motion, body 
+heat, or biofluids can be applied to realize real-time physiological 
+signal sensing (8), human-machine interactions (9), drug delivery 
+(10), or bioenergy harvesting (11, 12). The materials design and in-
+teraction mechanism of wearable devices with the human body are 
+vital for the successful realization for specific applications, which 
+would open up a previously unknown era for the design of wearable 
+devices. However, most of the research focuses on the versatile de-
+sign of the functional electrodes, and the effect of biofluids on the 
+conductive wiring has rarely been studied.
+Human sweat is one of the most available biofluids that have 
+been applied in the fabrication of noninvasive biosensors for con-
+tinuous monitoring of physiological information (13–15). In addition, 
+biocompatible and safe wearable biofuel cells (16,  17), supercapac-
+itors (18), and batteries (19) that used human sweat as electrolytes 
+have been fabricated as power sources for wearable sensors. Sweat 
+containing lactic acid and glucose and ions (such as Na + and Cl −) 
+enables the realization of wearable biofuel cells, supercapacitors, 
+and batteries to function well as their regular counterparts. Con-
+ductive and stretchable wiring plays a key role in the design and 
+fabrication of stretchable devices. Among various flexible/stretchable 
+conductors, nano/micro Ag flakes–based electrodes have been 
+widely used in conductive textiles, printed flexible/stretchable elec-
+tronics, and microelectronic packaging for their high conductivity, 
+stability, and scalable manufacturability (20–22). Typically, the ef-
+fect of sweat on the Ag electrode has always been considered a dete-
+riorating effect for electrode’s conductivity because of the enhanced 
+corrosion behavior of bulk metals in the presence of saline solution 
+(23). This stereotype has impeded the investigations on the interac-
+tion between metal-based flexible/stretchable electrodes with sweat. 
+Until now, no reported works have shown that the interaction with 
+sweat biofluid has a potentially positive influence on stretchable 
+electrodes.
+Here, we demonstrate the first example of stretchable Ag elec-
+trodes in which the conductivity can be enhanced by human sweat-
+ing behavior. The stretchable electrodes were fabricated by directly 
+printing the ink composing of conductive filler Ag flakes and ratio-
+nally designed elastic binder hydrophilic poly(urethane-acrylate) 
+(HPUA) on hydrophilic textiles. The high stretchability and good 
+hydrophilicity of the HPUA elastic binder are ascribed to the pres-
+ence of rationally controlled hard-soft domains and the existence of 
+urethane-acrylate (C═C) groups, respectively. In the presence of 
+sweat, the Cl − and the acidic environment work synergistically to 
+remove the surfactant of the Ag flakes and increase the connections 
+of adjacent flakes on printed electrodes, which can reduce the resist-
+ance of electrodes in both relaxed and stretched states, as shown in 
+Fig. 1A. When one electrode was mounted on a subject’s arm with 
+sweat, its resistance could be decreased from 3.02 to 0.62  ohm, 
+showing the positive effect of sweating on wiring electrodes. As an 
+example to show the application of our sweat-enhanced stretchable 
+electrodes, a kind of stretchable safe zinc battery using human sweat 
+as the electrolyte and Ag-HPUA electrodes as the current collector 
+was printed on textiles to serve as the wearable power source that 
+can function under 50% strain.
+RESULTS
+Figure 1B shows the formulation of the ink for Ag-HPUA in which 
+the Ag flakes and HPUA served as the conductive fillers and elastic 
+binder, respectively. Ag flakes have been widely used as conductive 
+fillers for printed stretchable conductors considering their high 
+1School of Materials Science and Engineering, Nanyang Technological University, 
+Singapore 639798, Singapore. 2School of Electrical Engineering and Automation, 
+Wuhan University, Wuhan, Hubei, 430072, China.
+*Corresponding author. Email: pslee@ntu.edu.sg
+†These authors contributed equally to this work.
+‡Present address: Innovation Center for Textile Science and Technology, Donghua 
+University, Shanghai 201620, China.
+Copyright © 2021 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim to 
+original U.S. Government 
+Works. Distributed 
+under a Creative 
+Commons Attribution
+NonCommercial
+License 4.0 (CC BY-NC).
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+2 of 13
+conductivity, ease of forming conductive percolation, and scalable 
+manufacturing process (24). The massive production of Ag flakes 
+involves the syntheses of Ag nano-/microparticles and subsequent 
+ball milling. To avoid the cold welding and severe oxidation of Ag 
+particles, fatty acid surfactants were added to form a layer of lubri-
+cant. The lubricant layer increases the dispersion of Ag flakes in ink 
+formulation but decreases the conductivity of Ag flakes–based elec-
+trodes for its electrical insulating nature (25). Human sweat is rela-
+tively acidic (pH 4 to 6.8) (26) and rich in Cl− ions, and both factors 
+are favorable for the chemical sintering of Ag flakes (27, 28). When 
+the printed electrodes encounter human sweat, the acidic environ-
+ment and Cl − work together to partially remove the insulating lu-
+bricant layer and increase the contact among adjacent Ag flakes by 
+redepositing Ag from dissolved Ag +, making the surface of Ag-
+HPUA electrodes rougher, as shown in Fig. 1 (C and D). This effect 
+enables the printed Ag-HPUA electrode with enhanced conductiv-
+ity in both original and stretched states compared with dry elec-
+trodes without involving sweat (Fig. 1A).
+HPUA with ambient photocurable property, hydrophilic nature, 
+and high stretchability was synthesized to serve as the binder to in-
+crease the favorability of printing, accessibility of sweat, and endur-
+ability to mechanical deformation, respectively. The photo-induced 
+HPUA elastic binder composed of hard segments made up of carba-
+mate groups (-NH-C═O-O-) and soft-segments made up of ali-
+phatic polyether (-O-) or polyester (-CO-O-) backbone is capped with 
+acrylate (C═C) functionality at each end. In the HPUA synthesis, 
+2-hydroxyethyl methacrylate (HEMA) and polyoxyethylene (POE) 
+are the key components in the design of photocurable HPUA. Be-
+yond acting as the reactive diluent to tune the viscosity of the pre-
+polymer for the ease of printing, HEMA is crucial for the double 
+bond of the acrylate group on the covalent networks (29). The POE 
+can enhance the hydrophilicity due to their ether oxygen bonds on 
+soft segments (30). The fast ambient photocurable nature of HPUA 
+polymer enables green printing without the massive use of organic 
+solvents and the potential for complex and high-precision struc-
+tures design in three-dimensional (3D) printing (31). Considering 
+the low sweat generation on some occasions, the hydrophilic HPUA 
+binder favors the contact between human sweat and Ag-HPUA 
+electrodes.
+Comparing with commonly used thin polymer film substrates, 
+the hydrophilic textile substrate used here facilitates the in situ sweat 
+sampling and as a reservoir. Sweat-reserving capability and porous 
+structure of textiles give prolonged reaction time and enhanced sur-
+face area for printed electrodes to contact with sweat. Besides, the 
+component of human sweat varies with gender, secretion area, sur-
+rounding, time of day, age, and sweating rate, which will impede the 
+completeness of sintering effects. The textile substrate can be used to 
+prestore active substances, such as lactic acid and Cl− salt to weaken 
+the effects of irregular sweating behavior of wearers. In our design, 
+the whole electrode fabrication involves the direct printing on tex -
+tiles, including screen printing and direct writing (Fig. 1, E to H), 
+and then curing in ambient condition without any heat or specific 
+Fig. 1. Schematic of the enhanced conductivity from human sweat and the preparation of the Ag-HPUA electrode. (A) Schematic of the enhanced conductivity 
+from human sweat and the surface changes of the printed Ag-HPUA electrodes upon contact with sweat before and after stretching. (B) Composition and photo image 
+of the Ag-HPUA ink. Scale bar, 2 cm. (C and D) SEM images of Ag-HPUA electrode before and after soaking with sweat, respectively. Scale bars, 1 m. Illustrations of fabri-
+cation Ag-HPUA electrodes on the textile by screen printing (E) and direct writing (F), respectively. (G and H) Screen-printed and direct-writing patterns on the textile, 
+respectively. Scale bars, 2 cm. Photo credit: Jian Lv, Nanyang Technological University.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+3 of 13
+ultraviolet (UV) curing after possess, which is favorable for both 
+wearable electronics and textile technologies. The elaborate con-
+ductive filler selection, well-designed HPUA binder structure, and 
+sweat-soaking friendly textile substrate endowed our printed elec-
+trode to be in good contact and reaction with sweat to enhance the 
+conductivity in both relaxed and stretched states.
+Synthesis and characterization of HPUA
+The photocurable HPUA elastomeric binder was synthesized by a 
+one-pot step-growth polycondensation, followed by radical polym-
+erization from simply available polytetrahydrofuran glycol (PTHF) as a 
+diol, isophorone diisocyanate (IPDI) as a diisocyanate, hydrophilic POE 
+as a chain extender, trimethylolpropane (TMP) as an internal cross-
+linker, and hydrophilic HEMA as a reactive diluent in the presence 
+of catalyst dibutyltin dilaurate (DBTDL) (figs. S1 and S2). The amount 
+of HEMA was varied at 10, 20, and 30 weight % (wt %) to form HPUA-1, 
+HPUA-2, and HPUA-3. The chemical structure of the multifunction-
+al hydrophilic HPUA elastomer is depicted in Fig. 2A. Prepolymerized 
+intermediates OCN-PTHF-NCO were synthesized by terminating 
+the PTHF diol with an NCO group of IPDI, as shown in fig. S1. 
+Then, OCN-PTHF-NCO was subsequently reacted with hydrophilic 
+POE and TMP to extend the polymer chains and obtain the OCN-PU- 
+NCO prepolymer precursor (fig. S2). The well-designed free radical 
+acrylate (C═C) polymerization mechanism under the UV irradia-
+tion ensures the photocurability of HPUA, as shown in fig. S3. PTHF 
+(-OH) was used as the soft segment because its chain is flexible and 
+can facilitate the chain motion for better stretchability (32). Among 
+various hard-segment candidates, IPDI (N═C═O) was selected be-
+cause of its nature of two different reactivity of -NCO groups and 
+stable mechanical performance with nondiscoloring properties 
+(33). Furthermore, the IPDI bulky asymmetric alicyclic structure 
+inhibits the crystallization and provides sufficient chain mobility to 
+influence UV curability of HEMA while retaining remarkable ten-
+sile properties (34). In terms of high hydrophilicity, the sec-
+ondary -NCO is more active in the presence of DBTDL because of 
+the steric effect, and thus, most of the -OH groups will react with the 
+Fig. 2. Hydrophilic HPUA elastomer design and characterization. (A) Chemical structure of multifunctional hydrophilic HPUA elastomer. (B) Temperature dependence 
+of storage modulus (E) and dissipation factor (tan ) of HPUA-1, HPUA-2, and HPUA-3 measured by dynamic mechanical analysis under a N2 atmosphere, at a heating rate 
+of 3°C/min and a frequency of 1 Hz. (C) UV-vis spectra of HPUAs with different weight % of HEMA. a.u., arbitrary units. (D and E) Compared images and the dynamic contact 
+angles (C.A.) of artificial sweat droplet on the HPUA and SEBS glass substrate, respectively. (F ) Digital photograph of the highly stretchable HPUA film. Scale bar, 3 cm. 
+(G) Schematic representation of the reversible covalent bond constructed hybrid dynamic HPUA networks. (H) Tensile stress-strain curve of HPUA elastomer films pre-
+pared with different molar ratios of HEMA with a sample a strain rate of 100 mm/min. (I) Tensile stress-strain curves of the unnotched and notched films of HPUA. A notch 
+of 2.5 mm in length, 1 mm in thickness, a distance of 10 mm, and 5 mm in width. Deformation rate of 100 mm/min. (J) Tensile loading-unloading curves of hydrophilic 
+HPUA at different strains of 100 to 600%. (K ) Tensile stress-strain curves of original HPUA and HPUA soaked in artificial sweat for 1 to 3 days at ambient condition. 
+Photo credit: Jian Lv, Nanyang Technological University.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+4 of 13
+secondary -NCO, which is helpful to increase the hydrophilicity of 
+the urethane elastomer. POE is selected as the soft segment, because 
+of its hydrophilic cross-linked networks (35).
+The successful synthesis of HPUA and its intermediates were 
+verified by 1H (proton) and 13C nuclear magnetic resonance (NMR) 
+and Fourier transform infrared spectroscopy (FTIR), and the details 
+are shown in fig. S5 to S7. The FTIR characteristic peaks at 3318 cm−1 
+(N─H) and 1713 cm−1 (C═O) stretching vibrations, indicating the 
+formation of -NH-C═O-O groups (fig. S8, A and B). From the FTIR 
+spectra, the disappearance of the characteristic absorption band at 
+2270 cm−1 (-NCO) indicated the completion of the reaction. There 
+are negligible peaks at 1712 cm−1 (C═O) and 1635 cm−1 (-CH═CH2), 
+which reveals that the monomer of IPDI has completely reacted 
+with HEMA to make a covalent bond, and the HPUA forms a cross-
+linked network (fig. S7A). The decrease in the intensity of specific 
+peak at 1635 and 810 cm−1 related to -CH═CH2 bond with increas-
+ing ambient UV curing time indicates that the HPUA was fully 
+cured. The thermal properties of HPUAs were characterized by dy-
+namic mechanical analysis (DMA) in tensile mode (Fig. 2B). The 
+glass transition temperatures (Tg) observed from loss factor (tan ) 
+value of HPUA-1, HPUA-2, and HPUA-3 were 8.52, −4.96, and 
+3.21, respectively, indicating that the sufficient chain mobility for 
+the reformation of the covalent urethane bonds (NH-C═ O-O-). 
+The storage modulus (E ) reaches a rubbery plateau after T g and 
+then after continuously drops to nearly zero at high temperature. 
+The thermogravimetric analysis (TGA) shows that the HPUA films 
+exhibit relatively good thermal stability, with displayed two-step 
+weight-loss regions with peak maxima at 280°C and 350° to 450°C, 
+respectively (fig. S9). The UV-visible (UV-vis) absorbance spectra 
+of HPUA-1, HPUA-2, and HPUA-3 are shown in Fig. 2C, and the 
+cutoff wavelengths of the films are in the range of 210 to 400 nm. 
+There two peaks at 240 to 260 nm and 297 to 300 nm are assigned 
+to the urethane carbonyl (C═O) and carbon-carbon double bond of 
+the acrylate groups, respectively, indicating that the HPUA can be 
+photopolymerized under UV illumination. They can produce п*-п* 
+transitions of conjugate carbon-carbon double bond (C═C) and 
+urethane carbonyl (C═O) as shown in the literature (36).
+Compared with polystyrene-block-poly(ethylene butylene)-block- 
+polystyrene [styrene-ethylene-butylene-styrene (SEBS)], one of the 
+representatives of widely used polystyrene-based block copolymers 
+binder in printed stretchable conductors (37,  38), the synthesized 
+HPUA shows the hydrophilic property to artificial sweat. The con-
+tact angle of the HPUA binder is 82.59° and gradually decreases to 
+15.12° over a period from 0 to 80 min (Fig. 2, D and E, and fig. S10). 
+Such behaviors result in the HPUA having a higher tendency to in-
+teract with artificial sweat, owing to their hydrophilic -NH-C═O-O- 
+functionality of the HPUAs (fig. S10). The highly stretchable HPUA 
+films (0.6 mm in thickness) had good optical properties and showed 
+high transparency with a transmittance of ~85% in the visible range 
+of 425 to 800 mm (Fig. 2F and fig. S11). Under the strain, the 
+urethane-based covalent cross-links fix the HPUA networks. Dynamic 
+cross-link based on urethane (-NH-C═O-O-) hydrogen bonds act 
+as sacrificial bonds that can rupture upon loading to dissipate energy 
+and reform after unloading to restore the mechanical properties 
+(schematically illustrated in Fig. 2G).
+The tensile-test results showed that the HPUA-2 exhibits superi-
+or mechanical properties (Fig. 2H). The high stretchability can be 
+attributed to the presence of a large number of hydrogen bonding in 
+the N-H and C═O urethane regions as shown in fig. S4. The tensile 
+strength and elongation at the break of HPUA-2 were 3.69 MPa and 
+4954.83%, respectively. The incorporation of HEMA markedly 
+changes the mechanical properties with improved tensile strength 
+and stretchability (fig. S12, A and B). However, the increase of the 
+HEMA content to 30 wt % markedly reduces the stretchability and 
+tensile strength of HPUA-3 owing to the distribution of the hard 
+segments in the carbamate linkage and the reduction in the cross- 
+linking density. The notched HPUA specimen (ASTM D412) ex-
+hibited good tear resistance behavior (Fig. 2I and fig. S13, A to D), 
+of which HPUA-2 was the best one. Even with a 2.5-mm notch of 
+the total width (5 mm), it could still bear the strain at breakup to 
+1569.20% because of its fixing capability on the dynamic cross-links 
+based on hydrogen bonds in the -NH-C═O-O- network structure. 
+Repeated cyclic tensile test and qualitative loading-unloading test 
+were performed, and it showed minimal hysteresis with optimal 
+elastic properties of the HPUA binders because of the strong refor-
+mation capability of hydrogen bonds on the N-H group (Fig. 2J). As 
+the electrode needs to be in contact with human sweat, the stability 
+of the HPUA binder in sweat was evaluated by tensile-strain test 
+and FTIR. After soaking in artificial sweat, no change in color could 
+be identified, and the tensile strains of the soaked HPUA-2 film re-
+main the same as the original unsoaked one, confirming the excel-
+lent stability in artificial sweat (Fig.  2K). FTIR curves of original 
+HPUA-2 and HPUA-2 after 1 to 3 days of soaking, represent no 
+changes in the molecular structure after long-time artificial sweat 
+absorption (fig. S14). The results presented in fig. S15 show that the 
+weight-swelling ratio of HPUA increases with time and then reaches 
+equilibrium at around 4.5%, suggesting that there is no significant 
+swelling of the HPUA film in the artificial sweat.
+Enhanced conductivity from sweat
+The viscosity curves of the pure HPUA polymer and the Ag-HPUA 
+ink as the function of shear rate are shown in fig. S16A. Typical 
+shear-thinning behavior appears in both HPUA and Ag-HPUA 
+inks, and the adding of Ag flakes increases the viscosity of HPUA in 
+the range of reported inks for direct writing and screen printing 
+(39, 40). The variation of storage shear modulus (G′) and loss shear 
+modulus (G′′) in HPUA-Ag with the shear stress is shown in fig. 
+S16B in which the G′ is larger than G′′, suggesting that they behave 
+more like solid substance when dropping on the substrate (39). The 
+printed electrodes attach well on the top of the textile substrate after 
+printing, as shown in the cross-sectional scanning electron micros-
+copy (SEM) images of the printed Ag-HPUA electrodes before and 
+after soaking with sweat in fig. S17. Uniaxial single and 50% cycling 
+stress-strain curves of the bare and the printed textiles were mea-
+sured (fig. S18), indicating that printing with a layer of Ag-HPUA 
+electrode has a minor effect on the mechanical properties and re-
+coverability of the textile. Compared with using thin polymer film 
+as the substrate, direct printing of ink on the porous textile makes 
+the bottom part of the electrode fill with fiber bundles and with a 
+higher surface area. This design is favorable for the reaction be-
+tween the printed electrode and sweat. The hydrophilic fiber bundles 
+introduce the sweat solution to the neighboring area of electrodes, 
+and thus, more reactions among the ions in sweat and electrodes 
+will be initiated, as shown in Fig. 3A and fig. S19.
+Meanwhile, the well-designed hydrophilic HPUA binder can en-
+hance the affinity between sweat and the electrode, which is valuable 
+when insufficient sweat is secreted by wearers, especially consider-
+ing that the pH of sweat generated in the initial sweating period 
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+5 of 13
+with a limited amount is relatively lower than that of subsequent 
+sweat and that the lower pH is more preferable for the sintering re-
+action (41). The comparison between the Ag-HPUA and Ag-SEBS 
+electrodes when insufficient sweat (pH 4) is applied on the elec-
+trodes is shown in fig. S20. The sweat was sprayed every 2 min, and 
+excessive sweat was sprayed after 30 min. When applied sweat is not 
+enough to cover the surface of electrodes, the Ag-HPUA electrode 
+exhibited a higher resistance drop than that of the Ag-SEBS elec-
+trode. This probably comes from the higher affinity between sweat 
+droplets and the Ag-HPUA induced by the hydrophilic nature of 
+the HPUA. The contact angle between the Ag-HPUA electrode and 
+sweat is smaller at around 98.9°, whereas the contact angle between 
+Ag-SEBS electrodes and sweat solution is 128.2°, as shown in 
+Fig. 3B. Both contact angles are higher than respective bare polymer 
+films, resulting from the addition of Ag flakes.
+The composition of the original artificial sweat follows the Euro-
+pean Standard that contains 87 mM NaCl, 13 mM KCl, 17 mM lac-
+tic acid, and 16 mM urea, and the original pH is 2.7 (42). The 
+resistance change of the Ag-HPUA electrodes after soaking with 
+four solutions including lactic acid/urea, NaCl/KCl/urea, lactic 
+acid/NaCl/KCl, and original artificial sweat was studied, as shown 
+in Fig. 3C. The original artificial sweat can instantly decrease the 
+resistance of Ag-HPUA electrodes. When enough original artificial 
+sweat without pH tuning was added on Ag-HPUA textile elec-
+trodes, the resistance was decreased from 3 to 0.6 ohm in 14 min. 
+The 50 and 90% resistance reduction can be reached after 8.5 and 66 s, 
+respectively, showing the fast reaction between original artificial 
+sweat and printed Ag electrodes. The lactic acid/NaCl/KCl solution 
+has a similar capability with that of artificial sweat to reduce the re-
+sistance of electrodes, whereas lactic acid/urea and NaCl/KCl/urea 
+have minor effects within 14 min, suggesting that the enhanced 
+conductivity comes from the synergistic function from lactic acid 
+and NaCl/KCl. The effect of lactic acid and NaCl/KCl was further 
+illustrated in fig. S21. It is clear that even adding a little amount of 
+NaCl/KCl (24.5 mM) and lactic acid (2.125 mM) in lactic acid/urea 
+and NaCl/KCl/urea solution, respectively, the resistance reductions 
+are much more prominent, further confirming that the lactic acid 
+and NaCl/KCl work together to enhance the conductivity of printed 
+electrodes.
+To verify the stability of the produced electron-transfer traces, 
+the electrode was immersed in pure water washing with magnetic 
+stirring after the reaction with artificial sweat. The resistance keeps 
+stable at around 0.60 ohm with minor fluctuations (Fig. 3D). This 
+means that the resistance change is irreversible and stable once the 
+Fig. 3. Characterization and mechanism of the sweat-enhanced conductivity in Ag-HPUA electrodes. (A) Scheme of the interface between the textile and the Ag-HPUA 
+electrode as well as the textile-enhanced contact area among active ions and Ag-HPUA electrodes. (B) Artificial sweat contact angles of the Ag-HPUA and the Ag-SEBS 
+electrode. (C) Resistance changes of Ag-HPUA electrodes after soaking with NaCl/KCl/urea, NaCl/KCl/lactic acid, lactic acid, and artificial sweat solutions, respectively. 
+(D) Resistance of an Ag-HPUA electrode on textiles after soaking with the original artificial sweat and subsequent washing by deionized water. The inset is the magnifica-
+tion of the marked area. (E) Resistance changes of Ag-HPUA electrodes after soaking with artificial sweats with different pH. (F) Resistance changes of Ag-HPUA electrodes 
+after soaking with sweat solutions (pH 4) with different concentrations of Cl −. (G) Resistance changes of Ag-HPUA electrodes printed on the bare (black plot) and 0.4% 
+lactic acid–soaked (red plot) textiles after contacting artificial sweat (pH 5.5). (H ) Comparison for resistance changes of Ag-HPUA electrodes after applying the sweat 
+(pH 4) by spraying with 2-min intervals and soaking. (I and J) High-magnification SEM images of Ag-HPUA before and after contact with artificial sweat for 30 min, respec-
+tively. Scale bars, 3 m. (K and L) Conductive atomic force microscopy of the Ag-HPUA electrode before and after reaction with artificial sweat, respectively.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+6 of 13
+resistance of Ag-HPUA electrodes was reduced by sweats containing 
+both a low pH and a high concentration of Cl− ions; this conductivity 
+enhancement can be maintained even when the component of sweat 
+fluctuations.
+The resistance loss induced by sweats with different pH is shown 
+in Fig. 3E, and the statistical plot of resistance drop and pH with the 
+error bar (n = 3) is shown in fig. S22. The capability of sweat to re-
+duce the resistance of printed Ag-HPUA electrodes increases with 
+the decreasing of pH. As the pH increased from 3.5 to 5.5, the inten-
+sity of resistance reduction is gradually decreasing but still obvious 
+within 2 min (Fig. 3D). This pH range covers the pH of most people 
+when no sweat stimulation drugs are used to secrete perspiration, 
+for example, the pilocarpine (43). Beyond low pH, the high concen-
+tration of Cl− is also beneficiary for the sintering performance, the 
+effect of Cl − (pH 4) on the sintering performance was studied in 
+Fig. 3F, and the plot of resistance drop and Cl − concentration with 
+error bar (n = 3) is shown in fig. S23. The Cl − concentration in the 
+typical sweat is in the range of 10 to 100 mM (15). When the con-
+centration of Cl− in sweat is 24.5 mM, the resistance of the Ag-HPUA 
+electrode experienced a 26.3% (SD = 3.0%) drop. When increased 
+to 49 mM, the resistance drop is 51.6% (SD = 5.1%), which is close 
+to that of 98 mM (53.7%, SD = 3.1%).
+Low pH and high concentration of Cl − are favorable factors for 
+the sintering reaction between sweat and the Ag-HPUA electrode. 
+In the real application scenarios, the component of human sweat 
+changes with the sweat rate, for example, the pH at high sweating 
+rates is higher than that at low sweating rates (41). Reserving enough 
+active species (lactic acid and Cl−) inside the porous textile substrate 
+can be a way to attain a stable sintering reaction despite acidic and/
+or Cl− deficient sweats. We soaked the textile in a 0.4% lactate solu-
+tion and then dried it to store lactic acid in the textile before print-
+ing the electrodes on. When the textile contacts with water, the 
+reserved lactic acid will dissolve immediately and take part in the 
+sintering reaction. As shown in Fig. 3G, the lactic acid–soaked tex-
+tile electrode shows a much significant resistance drop than the 
+electrode printed on the bare textile after soaking in pH 5.5 artificial 
+sweat. The slower reaction than that from low-pH artificial sweat–
+soaked samples is probably related to the dilution process of the 
+concentrated lactic acid.
+In addition, in the real sweating behavior, the insufficient secreted 
+sweat at the initial period typically appears in the form of droplets. 
+We applied the artificial sweat (pH 4) on the Ag-HPUA by spraying 
+after every 2-min interval to mimic the real sweating behavior. As 
+shown in Fig. 3H, as the sweat was gradually sprayed on the Ag-
+HPUA, the resistance did not experience a steep drop as insufficient 
+sweat was applied. The final resistance of Ag-HUPA sprayed by 
+sweat is around 0.62 ohm, which is much lower than that (1.21 ohms) 
+of the electrode treated by immersing in the same sweat. This means 
+that the real sweating behavior is favorable in attaining the low re-
+sistance from the sweat-induced sintering reaction. The significant 
+difference may come from the involvement of more O 2 at the 
+air-sweat-electrode ternary interfaces and the accumulation of ac-
+tive species induced by the faster evaporation of sweat droplets.
+The fast resistance drop likely comes from the reaction between 
+the exposed Ag flakes of the Ag-HPUA electrode and sweat instead 
+of the interaction/reaction between the inner Ag flakes. The change 
+in resistance is faster than the drop in contact angle as a function of 
+time (fig. S24), indicating that the surface Ag flakes reacting with 
+the sweat play dominant roles in the resistance reduction. The SEM 
+images of electrodes before and after the reaction with artificial 
+sweat are shown in fig. S25 and Fig.  3,  I  and  J. Original artificial 
+sweat with pH 2.7 was chosen to clearly show the reaction between 
+artificial sweat and printed electrodes. The Ag-HPUA matrix keeps 
+intact after reacting with artificial sweat. However, the surface of 
+exposed Ag flakes becomes coarser, and some adjacent flakes merge 
+as shown in high-magnification SEM images.
+To further unveil the reaction between the Ag-HPUA and artifi-
+cial sweat, Ag flake powders were immersed inside the urea, lactic 
+acid/urea, NaCl/KCl/urea solutions, and artificial sweat. The lubri-
+cant layer on the surface of Ag flakes is made from hydrophobic 
+fatty acid. This is the reason why most Ag flakes in urea solution, 
+lactic acid/urea, and NaCl/KCl/urea solution stay on the top of 
+solutions, as shown in fig. S26. However, all silver flakes aggregated 
+together and dropped to the bottom of the glass vials in the artificial 
+sweat solution, suggesting that artificial sweat containing both lactic 
+acid and Cl− ions causes the most intensive reaction with Ag flakes. 
+The SEM images of Ag flakes after mixing with different solutions 
+are shown in fig. S27. Similar to the exposed Ag flakes in Ag-HPUA 
+electrodes, the surface of artificial sweat-treated and NaCl/KCl/urea- 
+treated silver flakes become coarser, whereas lactic acid/urea-treated 
+Ag flakes have a smooth surface as that of pristine silver flakes, 
+showing that the Cl − is the key factor to induce the surface rough-
+ness change. Although there is slight aggregation in the NaCl/KCl/
+urea solution and a coarse surface on Ag flakes is resulted, solely 
+having Cl− ions cannot fully remove the surfactants on the flakes (as 
+evident from the partial settling of Ag flakes at the bottom of the 
+glass vial). The coexistence of lactic acid and NaCl/KCl would be 
+essential for the sweat sintering of Ag flakes.
+It has been reported that both H+ and Cl− can remove the lubri-
+cant and increase the conductivity of the Ag-based electrodes 
+(27,  28,  44). The long-term resistance change of Ag-HPUA elec-
+trodes after soaking lactic acid/urea and NaCl/KCl/urea is shown in 
+fig. S28. In the presence of lactic/acid/urea and NaCl/KCl/urea solutions, 
+the resistances of the Ag-HPUA electrodes experienced a continu-
+ous reduction in 15 hours, coming from the effects of H + and Cl−, 
+respectively, although both of them have minor declination within 
+14 min. Especially, after 6 hours, the Ag-HPUA electrodes with 
+NaCl/KCl/urea and lactic acid/urea solutions start to go through 
+faster resistance reduction that may result from the evaporation- 
+induced high concentration of Cl− ions and lactic acid.
+Lactic acid plays a similar role as the short-chain acids—such as 
+malonic acid, adipic acid (45), acetic acid (46), and sulfuric acid 
+(47)—which could partially or fully remove or reduce the fatty 
+acid–based lubricants. Besides, H+ is helpful in the dissolution of Ag 
+with the presence of O2 through the following reaction (48, 49)
+  4Ag +  O  2   = 2  Ag  2   O  (1)
+   Ag  2   O + 2  H   +  = 2  Ag   +  +  H  2   O  (2)
+However, the reaction between Ag-HPUA and urea/lactic acid 
+solution is not obvious because the concentration of lactic acid is 
+low at 0.1% and lactic acid is a weak acid that is hard to dissociate 
+completely to release H + for lubricant removal and the release of 
+Ag+. Beyond removing the lubricant, the Cl− ions have adverse effects 
+on the dissolution and agglomeration of Ag flakes. On one hand, 
+the Cl− ions have a high affinity with Ag+, which will accelerate the 
+dissolution of Ag 0 to Ag +. The Cl/Ag ratio decides the interaction 
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+7 of 13
+between Ag and Cl− to form insoluble AgCl or soluble AgClx
+1-x spe-
+cies (50). The low Cl/Ag ratio forms AgCl that impedes the further 
+dissolution of Ag0, whereas the high ratio induces the formation of 
+soluble Ag-Cl species that increases the dissolution rate (51). In our 
+case, the ratio of Cl/Ag is relatively high, and a negligible amount of 
+insoluble AgCl was formed because of the lubricant layer that limited 
+the exposed surface area of Ag flakes. The x-ray diffraction (XRD) 
+in fig. S29 shows that all the diffraction peaks of NaCl/KCl/urea and 
+artificial sweat–treated Ag flakes belong to Ag, and no AgCl and 
+other impurities are detected. The x-ray photoelectron spectrosco-
+py (XPS) survey scans in fig. S30A show that weak Cl 2p peaks can 
+be detected in NaCl/KCl/urea and artificial sweat–treated Ag flakes. 
+The peaks at 199.6 and 198 eV can be assigned to Cl 2p 1/2 and Cl 
+2p3/2 of AgCl, respectively, as shown in fig. S30B (52). Both Ag0 and 
+Ag+ with the spin-orbit doublets (the separation is 6 eV) can be 
+found in Ag 3D spectra (fig. S30C). The atomic percentage of Ag0 in 
+Ag flakes is 83%. After treatments with NaCl/KCl/urea and artificial 
+sweat, the fraction of Ag 0 increased to 90 and 94%, respectively, 
+suggesting that most of the newly formed nanoparticles are Ag.
+In the dynamic equilibration of Ag 0-Ag+ system, some Ag + can 
+redeposit to Ag 0. The Cl − ions induce the aggregation of Ag 0 by 
+decreasing the surface double electrical layer of the Ag particles via 
+elongated ionic length and partially destroying the absorbed lubri-
+cant surfactant at high concentration (28, 53). As a result, the rede-
+posited Ag (mostly) and precipitated AgCl make the Cl−-treated Ag 
+flakes coarser and more liable to aggregation compared with lactic 
+acid/urea-treated Ag flakes. However, most of the NaCl/KCl/urea-  
+treated Ag flakes still float on top of the solution, and Ag-HPUA 
+electrodes experience a minor resistance drop within 14 min, prob-
+ably due to the limited capability of low-concentration Cl − ions to 
+remove the lubricant and sinter the Ag flakes.
+Synergistically, the combination of low-concentration lactic acid 
+and Cl− ions induces the enhanced aggregation of silver flakes and 
+fast resistance drop of Ag-HPUA electrodes because of the aug-
+mented capability to remove lubricant surfactant and accelerate 
+dissolution/redeposition of Ag. TGA was applied to detect the weight % 
+of lubricant in Ag flakes. The result in fig. S31 clearly shows that 
+the remaining weight of artificial sweat–treated Ag flakes is 99.8%, 
+which is higher than that of pristine, lactic acid/urea, and NaCl/
+KCl-treated Ag flakes, suggesting that the artificial sweat containing 
+lactic acid and Cl− ions is the most powerful solution to remove the 
+lubricant. Also, the atomic ratio of C/Ag in the XPS spectrum de-
+creased from 1.96 to 0.62 (fig. S30D). However, lubricant cannot be 
+fully removed by artificial sweat. The FTIR result of Ag flakes treat-
+ed with artificial sweat in fig. S32 shows that the functional groups 
+from the lubricant layer remain on the surface of Ag flakes after the 
+reaction with artificial sweat. The deprotonated carboxylate bands at 
+1635 and 1577 cm−1 are observed, which are attributed to (COO-)asym 
+and (COO-)sym, respectively (54), resulting from the lubricant 
+layer on the surface of Ag flakes. The removal of lubricant weakens 
+the physical barrier and favors the reaction among Ag flakes, lactic 
+acid, and Cl− ions.
+During the reaction between artificial sweat and Ag-HPUA elec-
+trodes, certainly, some Ag+ ions redeposit on the exposed Ag flakes, 
+although the dissolution of Ag is also taking place. In the junction 
+area, the surface potential is higher than other surface areas; the dis-
+solved Ag+ ions may be more prone to redeposit in the conjunction 
+area, resulting in the fusion of the adjacent Ag flakes and enhanced 
+electrical conductivity (44). The conductive atomic force microscopy 
+(C-AFM) comparison shows that the surface of electrodes turns to 
+be more conductive after reaction with artificial sweat (Fig. 3, K and L, 
+and fig. S33). These surface changes probably result from the reaction 
+between the exposed Ag flakes and artificial sweat and account for 
+the sweat-induced conductivity increment of the printed electrode.
+Sweat-enhanced conductivity during stretching
+The durability of electrodes to mechanical deformations caused by 
+the wearer’s daily activities, especially for stretching, can guarantee 
+wearable devices to work properly under and after the strain. Be-
+cause of the flowing property and fast curing of the Ag-HPUA ink, 
+the formed electrodes cannot penetrate deeply and fully cover the 
+surface of each fiber; instead, the cavities of the textile substrate are 
+filled and fiber bundles are bonded by printed inks. This behavior is 
+not favorable for stretchable textile electrodes, because the strain 
+from the deformed textile substrates will transmit fully to the printed 
+electrode by the movement of fibers (20, 55). However, the synthe-
+sized highly stretchable and elastic HPUA binder can resist the for-
+mation of obvious cracks on the Ag-HPUA electrodes upon 50% 
+strain, as shown in Fig. 4A. When the printed electrodes were soaked 
+with artificial sweat and then stretched, both the initial resistance 
+and the resistance increment under stretching are lower than that of 
+the original Ag-HPUA electrode (Fig. 4B). Also, a low pH is favor -
+able for sintering reaction under stretching, and the resist ances of 
+pH 4 sweat and original artificial sweat (pH 2.7)–soaked electrodes 
+increased from 0.57 to 82.5 ohms and 0.36 to 3.5 ohms, respectively.
+During the stretching with the presence of artificial sweat, the 
+separation of Ag flakes and the sintering reaction take place simul-
+taneously. Stretching makes Ag flakes inside the HPUA matrix slide 
+with each other to accommodate the imparted strain, showing in 
+the form of resistance increase. The reaction between artificial sweat 
+and Ag-HPUA electrodes can create new electron transfer paths 
+during the stretching and counteract stretching-induced conduc-
+tivity loss. The SEM images of the dry and sweat-soaked electrodes 
+under 50% stretching are shown in Fig. 4C [(I) and (II), respectively], 
+and (III) and (IV) in Fig. 4C are the corresponding higher magnifi-
+cations. Under the stretching, more Ag flakes inside Ag-HPUA 
+electrodes are exposed and react with human sweat, making the 
+surface of Ag flakes coarser than that of the dry electrode, which 
+agrees well with the observations in nonstretched electrodes.
+The sweat-induced sintering reaction also significantly increases 
+the electrode’s durability to cyclic tensile deformation which is super 
+catastrophic in real application scenarios, as shown in Fig. 4D. Without 
+sweat, the resistance of the printed electrodes increased to more 
+than 40 kilohm at the strained state and 5 kilohm at the released 
+state. In contrast, the pH 4 sweat enables the electrode to have a 
+much less resistance increment after 100 cycles of 30% stretching, 
+maintaining at 2.4 ohm at the strained state and 0.76 ohm at the relaxed 
+state. The original artificial sweat with pH 2.7 is more powerful to 
+minimize the resistance increment caused by cycling stretching. 
+The effect of sweat in reducing the stretching-induced resistance 
+increase is more distinct in cyclic stretching than in single 120% 
+stretching, resulting from the prolonged reaction-induced continu-
+ous generation of electron transfer paths. The resistance at both the 
+stretched state and the relaxed state keeps dropping with the 
+continuous cycling stretching, which is opposite with previously 
+reported printed stretchable Ag flakes–based electrodes (20).
+In our design, the stretchable HPUA binder can hold the con-
+ductive fillers together, and the sintering reaction is responsible for 
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+8 of 13
+creating new conductive networks, making sweat (pH 4)–soaked 
+Ag-HPUA electrode maintain low resistance at both released status 
+(0.26 ohm) and stretched status (5 ohm) even after 500 cycles of 
+30% stretching (Fig. 4E). Even after washing with water and drying, 
+the sweat-treated sample still can maintain lower resistance upon 
+cycling stretching compared with that of the original Ag-HPUA 
+electrode, as shown in fig. S34. When repeating with the same pro-
+cess, the resistance maintains low. The acidic sweat also can repair 
+the conductivity loss of electrodes caused by stretching. As shown 
+in Fig. 4F, the resistance of the dry Ag-HPUA electrode increased 
+from 2.62 to 36.7 ohm after 10 cycles of 30% stretching, and then 
+the spraying of pH 4 artificial sweat could reduce the resistance to 
+less than 5 ohm within 2 min, further showing the ability of sweat 
+in reducing the resistance of stretchable Ag-HPUA electrodes 
+(movie S1).
+The real-time study was carried out by monitoring the resistance 
+change of Ag-HPUA electrodes wrapped on the subject’s arm when 
+the subject was doing the stationary cycling to initiate the sweating, 
+as shown in Fig. 4 (G to I). The test was conducted under the ap-
+proved IRB-2017-08-038-02. The initial resistance is around 3.02 ohm 
+and dropped to 0.62 ohm after 27-min cycling, demonstrating the 
+practical capability of sweat to reduce the resistance of Ag-HPUA 
+electrodes. For real application scenarios, the amount of released 
+Ag+ into the sweat is crucial to evaluate the toxicity of Ag-HPUA 
+electrodes because the Ag+ is the most detrimental form of Ag ele-
+ment to human skin. As shown in fig. S35, the release of Ag + into 
+the sweat is around 1.26 g/cm 2 area of Ag-HPUA electrodes after 
+12 hours, which is in a range comparable with commercial Ag 
+nanoparticle-coated antibacterial textiles, although our electrodes 
+contain higher Ag loading (36.5 wt %) than the commercial anti-
+bacterial textiles (with <0.02 wt % Ag loading) (56). This is because 
+most of the Ag flakes are wrapped by HPUA that would prevent 
+contact among inner flakes and sweat.
+Demonstration for wearables
+The capability of sweat to enhance the conductivity of Ag-HPUA 
+electrodes provides more guidance into the design of the wearable 
+electronics that need to have intimate contact with human skin as 
+sweat is one of the most liable biofluids secreted by the human 
+body. To demonstrate the application of sweat sintering reaction, 
+we designed the first example of a textile-based stretchable Zn-
+Ag2O sweat battery that uses human sweat as the electrolyte and 
+Ag-HPUA electrodes as stretchable current collectors to provide 
+energy for wearable electronics. The structure of the stretchable 
+sweat-activated battery is shown in Fig. 5A. The printed Zn elec-
+trode was selected as the anode, and Ag 2O served as the cathode, 
+Fig. 4. The effect of sweat on the stretched Ag-HPUA electrode and on-body real-time test. (A) SEM image of the artificial sweat-soaked Ag-HPUA electrode on 
+textiles under 50% stretching and the arrow shows the stretching direction. Scale bar, 300 m. (B) Resistance versus strain plots of the Ag-HPUA textile electrode without 
+(black plot) and with the presence of artificial sweat (pH 4) (red plot) and original artificial sweat (blue plot). (C) Low-magnification (I and II) and high-magnification (III and 
+IV) SEM images of the stretched Ag-HPUA electrode before and after soaking with original artificial sweat. Scale bars, 20 m (I and II) and 2 m (III and IV). (D) Resistance 
+changes of the Ag-HPUA textile electrode under 30% cycling stretching without (black plot) and with the presence of artificial sweat (pH 4) (red plot) and original artificial 
+sweat (blue plot). (E) Resistance changes of the Ag-HPUA textile electrode during 500 cycles of 30% stretching in the presence of artificial sweat (pH 4). (F) Resistance 
+changes of one Ag-HPUA textile electrode experiencing the first 10 cycles of 30% stretching and subsequent artificial sweat (pH 4) spraying . The inset is the magnification 
+of the marked square. (G and H) Photo images of anchoring the printed Ag-HPUA electrode on one subject’s forearm for real-time testing. Scale bar, 3 cm. (I) Resistance 
+changes of one Ag-HPUA electrode during the whole stationary cycling exercise of the subject. Photo credit: Jian Lv, Nanyang Technological University.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+9 of 13
+respectively. Besides serving as the sweat absorbent and separator, 
+the porous textile substrate also enables the high loading of electrode 
+inks, as shown in Fig. 5B. In the presence of human sweat, electrons 
+are generated on the anode from Zn flakes and then transferred to 
+the cathode through external loading to reduce Ag 2O to Ag. Com-
+pared with the reported sweat-activated battery (19), the scalable 
+and pattern- designable printing technology facilitates the massive 
+and cheap manufacturing of the sweat-activated batteries, as shown 
+in Fig. 5C.
+The linear sweep voltammetry curves and power curves of the 
+stretchable sweat-activated battery using artificial sweat electrolyte 
+with the increased concentration of NaCl were shown in Fig.  5 
+(D and E), respectively. The power density of the printed batteries is 
+boosted from 0.149 to 3.47 mW/cm 2 when the concentration of 
+NaCl increased from 0 to 147 mM. At a discharging current of 
+0.2 mA/cm2 (Fig. 5F), the capacity of the battery is around 4 mAh/cm2, 
+which is comparable to the reported stretchable Li-ion battery (57). 
+With the presence of sweat, the new conductive networks can be 
+formed on Ag-HPUA current collectors by the reaction between Ag 
+flakes and sweat, making the sweat batteries work properly under 
+external strain. As shown in Fig. 5G, 25 and 50% stretching cause a 
+minor change to the voltage of the battery when it was discharged at 
+a current density of 0.4 mA/cm2.
+The durability of mechanical deformation enables the printed 
+batteries to generate energy properly on the subject’s forearm 
+during the secretion of sweat (Fig.  5H). The current density of a 
+printed battery with 1-kilohm external loading was increased from 
+0 to 0.97 mA/cm2 after 16-min exercise and maintained at this level 
+afterward (Fig. 5I), demonstrating the practical workability of the 
+human sweat to serve as the biocompatible electrolyte for Zn-Ag2O 
+batteries. As the coronavirus 2019 is plaguing the world, the contin-
+uous monitoring of the body temperature is valuable in the preven-
+tion of infection (58). Printed stretchable sweat batteries can serve 
+as the power source to power a commercial wireless temperature 
+sensor monitoring the temperature on the hand of the subject and 
+sending the data to the smartphone, as shown in movie S2, fig. S36, 
+and Fig. 5J. Ecoflex was printed to confine each battery for avoiding 
+the short circuit. A 5.6-mF capacitor was used to buffer the energy 
+generated by batteries, and the voltage change of the capacitor and 
+the current change of the circuit are shown in Fig. 5K and fig. S37, 
+respectively. After enough sweat was secreted by 16-min exercise, 
+four series-connected batteries can charge the capacitor to 4.17 V in 
+40 s, and then the sensor started to send high current pulse signals 
+to connect the smartphone and send real-time temperature data. 
+The average power needed in the pairing period and data sending 
+period are less than 0.24 and 0.162 mW, respectively. The batteries 
+Fig. 5. Demonstration of the stretchable sweat-activated battery using Ag-HPUA electrode as the current collector. (A) and (B) Scheme and reaction mechanism 
+of the printed sweat-activated Zn-Ag2O battery on the textile. (C) Photo image of four printed Zn-Ag2O batteries connected in series. Scale bar, 2 cm. (D) Polarization curve 
+and (E) power density (P.D.) curve plots of the sweat-activated battery in the presence of artificial sweat (pH 4) with different Cl − concentrations from 0 to 147 mM. 
+(F) Long-time discharge curve of the printed Zn-Ag2O battery at the current density of 0.2 mA/cm2. The electrolyte used here is the sweat (pH 4) with 87 mM NaCl, 13 mM 
+KCl, 17 mM lactic acid, and 16 mM urea. (G ) Discharge curves of two printed Zn-Ag 2O batteries using the Ag-HPUA as the conductors under 25 and 50% stretching. 
+(H) Photo image of the printed batteries band on the subject’s arm. Scale bar, 3 cm. (I) Real-time current density versus time plot of printed battery during the stationary 
+cycling exercise of the subject. (J) Real-time temperature curve of the wearable temperature sensor powered by four series-connected Zn-Ag2O sweat batteries. The inset 
+shows the screen of the smartphone and the setup of the temperature sensor and printed batteries when the self-powered sensing system is working. (K) Voltage changes 
+of the supercapacitor charged by four Zn-Ag2O sweat batteries during powering the wearable temperature sensor. The black square is the sensor and smartphone con-
+necting period. Photo credit: Jian Lv, Nanyang Technological University.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+10 of 13
+can timely compensate the consumed energy in the capacitor in 
+both the connecting period and data sending period. Especially in 
+the connecting period, the consumed energy by the wireless circuit 
+is higher, and our batteries still can supply enough energy for the 
+sensor to work properly.
+DISCUSSION
+In summary, we designed printable, photocurable, and textile-based 
+Ag-HPUA electrodes of which the resistance can be reduced by human 
+sweat in both original and stretched states. The electrodes compose 
+of Ag flakes and HPUA binder with hydrophilic, photocurable, and 
+high stretchable properties. Within the elaborately designed HPUA 
+binder, hard segments made up of carbamate groups (-NH-C═O-O-) 
+and soft segments made up of aliphatic polyether (-O-) or polyester 
+(-CO-O-) backbone were capped with acrylate (C═C) functionality 
+at each end. When the Ag-HPUA encounters the sweat, the lactic 
+acid and Cl− work synergistically to enhance the conductivity rapidly 
+and permanently by removing the lubricant and sintering the ex-
+posed Ag flakes. The affecting factors and mechanism of the reac-
+tion between the Ag-HPUA electrode and sweat were well explored. 
+The sweat also can significantly improve the electrode’s durability 
+to stretching deformation. The on-body test has shown that the re-
+sistance of the electrode can be reduced from 3.02 to 0.6 ohm after 
+the subject started to secrete sweat. Further research will explore the 
+effects of other components in sweat and wearing behaviors, such as 
+the heat transferring from the human body, on the sintering reac-
+tion. Nevertheless, the enhanced conductivity coming from human 
+sweat demonstrated in our work enriches the design of stretchable 
+wiring electrodes and skin-mountable devices. As an example, a type 
+of stretchable sweat-based Zn-Ag2O battery using Ag-HPUA as the 
+current collector was directly printed on textile to supply energy for 
+a wearable wireless temperature sensor. Apart from acting as the electro-
+lyte, human sweat also enables the battery to work properly under 
+stretching by sweat sintering of the current collector. Our method 
+uses sweat that is unharmful to human skin as the sintering agent that 
+reduces the resistance of printed stretchable electrodes during wearing, 
+providing a new route in the design of printed stretchable devices.
+MATERIALS AND METHODS
+Materials
+PTHF [Mw (weight-average molecular weight) = 1000 g/mol, 98%] 
+and POE (M w = 1000 g/mol, 98%) were purchased from Sigma-  
+Aldrich and degassed at 130°C for 3 hours before use. TMP 
+(Mw = 134.17 g/mol, 97%), DBTDL (95%), HEMA (Mw = 130.14 g/mol, 
+≥99 DBTDL (Mw = 631.56 g/mol, 95%), acetone (anhydrous ≥99.5%), 
+sodium chloride, dl-lactic acid (~90%), potassium chloride, sodium 
+hydroxide, and urea were also received from Sigma-Aldrich and used 
+without any purification. IPDI (a mixture of isomers, 98%), methyl 
+ethyl ketone (MEK; ≥99%), 1-hydroxycyclohexyl phenyl ketone 
+(IRGACURE 184; Mw = 204.3 g/mol, 99%), Ag flakes (10 m), the 
+SEBS (Tuftec H1052) with 20/80 S/EB weight ratio, and the hydro-
+philic textile were obtained from Alfa Aesar, Fisher Chemical, Ciba 
+Specialty Chemicals, Puwei Applied Materials Technology, Asahi 
+Kasei Corporation, and MHTC Technology Company, respectively. 
+Deuterated solvents for NMR characterization were obtained from 
+Cambridge Isotope Laboratories Inc. Deionized water was used 
+throughout the study.
+Elastomer characterization
+1H NMR spectroscopy (400-MHz Bruker DPX 400), 13C NMR 
+(400-MHz Bruker DPX 400), and FTIR (FTIR-ATR, PerkinElmer, 
+Frontier) were systematically investigated to understand the chem-
+ical structure of the synthesized UV-curable hydrophilic HPUA.  
+1H (proton) and 13C NMR were carried out at ambient temperature 
+using deuterated solvents as the lock and the residual solvent or 
+tetramethylsilane signal as the internal standard. The thermal prop-
+erty of the HPUA film was characterized using TGA (TA Instru-
+ments Q50). HPUA samples (10 to 25 mg) were placed in a platinum 
+pan and heated from room temperature to 700°C under a nitrogen 
+atmosphere at a heating rate of 10°C/min. DMA analysis was con-
+ducted on a dynamic mechanical analyzer (DMA; TA Instruments, 
+DMA Q800), and samples were measured in a temperature range 
+of −80° to 170°C using a heating rate of 10°C/min in a liquid N 2 
+environment. UV-vis absorption and transmission spectra were re-
+corded with a spectrometer (Shimadzu, UV-2501 PC) in the range 
+of 190 to 900 nm at ambient temperature. All tensile test samples 
+were prepared according to ASTM D638-10, and mechanical stress- 
+strain was obtained with Materials Testing Systems (MTS) criterion 
+model 43 (MTS Systems Corporation, Eden Prairie, MN, USA) static 
+mechanical tester with a load cell of 500 kN at a strain rate of 100 mm/
+min at room temperature. Dynamic contact angles of artificial sweat 
+on the Ag-HPUA surface of the prepared films were measured at ambi-
+ent temperature using a contact angle meter (Data Physics OCA 15 Pro).
+Synthesis of NCO-functionalized urethane prepolymers 
+(OCN-PTHF-NCO)
+PTHF (14.50 mmol) was charged in a dried three-necked glass ves-
+sel equipped with a thermometer, a mechanical stirrer, a con-
+denser, and an nitrogen atmosphere at 100°C for 1 hour to remove 
+any moisture and then reduced to 85°C. Isophorone diisocyanate 
+(44.95 mmol) and catalyst (DBTDL, 0.2  wt % PTHF and IPDI, 
+2000 parts per million) dissolved in MEK (5 ml) were added drop-
+wise into the vessel, and the resultant mixture was kept stirring at 
+85°C for 6  hours under an N 2 atmosphere to yield OCN-PTHF-
+NCO. Afterward, 20 ml of dry MEK was added to dissolve OCN- 
+PTHF-NCO.
+Synthesis of HPUA
+A typical procedure of the preparation of the HPUA and their 
+chemical structures are shown in fig. S2. The two-step synthesis 
+routes were described briefly as follows: First, POE (14.50 mmol) 
+and TMP (7.25 mmol) were added to the OCN-PTHF-NCO 
+prepolymer solution. The reaction was carried out at 85°C for 
+another 4 hours with nitrogen protection, and then 20 ml of MEK 
+was added to reduce the viscosity and prevent gelation. The rate of 
+reaction has been monitored by the n-butyl amine back titration 
+method according to ASTM D 2572-97. After the synthesis of the 
+OCN-PU-NCO, the reaction mixture cools down to 60°C, and then 
+OCN-PU-NCO was end-capped with the required amount of 
+HEMA. The resulting HPUA mixture was further stirred for 
+2 hours at 60°C under nitrogen atmosphere to ensure that all iso-
+cyanate (-NCO) groups were consumed. FTIR spectra were collected 
+at regular time intervals, measuring the progressive decrease of the 
+isocyanate (-NCO) region at 2270 cm −1. The peak associated with 
+the -NCO group disappears in the final synthesized HPUA, and 
+thus, it signifies the formation of HPUA end-capped with acrylate 
+double bonds.
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+11 of 13
+Fabrication of HPUA film
+The freestanding film of HPUA was prepared as follows: The syn-
+thesized HPUA was diluted with anhydrous 2-butanone (85 wt %) 
+and stirred at 40°C for 30 min. After a perfect mixing, 1 wt % 
+1- hydroxycyclohexyl phenyl ketone of the total weight of the HPUA 
+resin was added and stirred for another 30 min at room tempera-
+ture to obtain a homogeneous HPUA mixture. The resulting HPUA 
+resin was then poured onto a glass petri dish and irradiated by a 
+medium pressure UV lamp (365 nm) for 30 min, with a distance of 
+8 to 10 cm from the UV lamp to the focal point of the samples. The 
+petri dish was coated with a releasing agent to prevent adhesion of 
+HPUA resin and easily release from the petri dish. The resultant 
+HPUA films were peeled off and placed into the desiccator at the 
+ambient condition for further analysis. The curing behavior of the 
+HPUA film was analyzed by observing the changes in the absorp-
+tion band of the acrylate group (C═C) at 1634 and 810 cm−1.
+Formulation of the ag-HPUA ink and electrode printing
+The amber glass vials were used as containers to avoid the photo-
+curing of the ink before printing. HPUA (0.75 g) was mixed with 
+1 g of Ag flakes by shaking for 10 min. A stainless-steel stencil 
+(Micro Tech Technology, Shenzhen, China) fabricated by laser cut-
+ting with a thickness of 200 m was applied to perform the screen 
+printing. Electrode patterns are designed on AutoCAD software. The 
+electrodes were directly printed on top of the textile in a laboratory- 
+made black box and then cured in the ambient laboratory environ-
+ment for 30 min. A 3D printer called System 30 M manufactured by 
+Hyrel 3D (USA) with a 0.36-mm nozzle was used to perform the 3D 
+printing on textile. The printing speed is 10 mm/s, and the curing 
+process was finished in a room environment without heating and 
+UV lighting.
+Formulation of the ag-SEBS ink
+The Ag-SEBS ink was formulated by mixing Ag flakes with SEBS 
+resin (3 g of SEBS/10 ml of toluene) at a weight ratio of 1:0.75 under 
+the shaking.
+The characterization of printed Ag-HPUA electrodes
+The sweat-enhanced conductivity was performed by using a multi-
+meter (DAQ6510, Keithley) to test the resistance change of elec-
+trodes with one-pass printing (length, 2 cm; width, 0.3 cm) after 
+adding the artificial sweat. The artificial sweat was prepared on the 
+basis of European Standard, and pH was tested by a pH meter 
+(HI 2020F edge, Hanna Instruments) and tuned by adding 0.1 M 
+NaOH. The stretching test was performed on electrodes with three 
+passes of printing using a motorized force test stand (ESM303, 
+Mark-10) with a speed of 10 mm/min. The speed of cyclic stretch-
+ing is 20 mm/min. The SEM characterization was performed on 
+JEOL 7600, and the surface conductivity of the electrode was tested 
+by C-AFM (Asylum Research Cypher S). The XRD and XPS were 
+characterized by a Shimadzu powder diffractometer (Cu K , 
+ = 1.5406 Å) and a Physical Electronics Inc. Quantera II, respectively. 
+The FTIR spectrometer (Frontier, PerkinElmer) and the TG Q500 
+analyzer (TA Instruments) were used to characterize the functional 
+groups and weight % of surfactant on Ag flakes, respectively.
+The printing of stretchable Zn-Ag2O sweat battery
+The Zn flake powder and Ag 2O powder were mixed with carbon 
+black (CB) at the weight ratios of 90:10 and 95:5, respectively, by 
+mortar grinding for 10 min. The Zn inks and Ag 2O inks were 
+formulated by mixing Zn/CB and Ag2O/CB with the HPUA binder 
+with the ratio of 1:2 and 1:1.2, respectively, and then shaking for 
+10 min. Two formulated inks were printed on the textile sub-
+strate in an interdigit shape in a laboratory-made black box and 
+cured outside for 10 min without any heating or specific UV 
+lightning. Then, Ag-HPUA inks were printed on top of two elec-
+trodes as the current collector and cured at the laboratory ambient 
+environment.
+The electrochemical characterization of stretchable Zn-Ag2O 
+sweat battery
+The artificial sweats with a pH 4 with different NaCl/KCl con-
+centrations were used as the electrolytes for in  vivo studies. The 
+polarization curves were tested by an electrochemical potentiostat 
+(Autolab) with a scan rate of 5 mV/s from open circuit potential to 
+0 V. The discharging curve was obtained from a battery-testing 
+instrument (Newar) at a current density of 0.2 mA/cm2. The in vivo 
+energy generation was tested by anchoring the printed battery with 
+a series-connected 1-kilohm resistor on a subject’s arm and moni-
+toring the current of the circuit continuously during stationary 
+cycling. The application demonstration of the battery was per-
+formed by powering a wireless epidermal temperature sensor 
+(MMC-T201-1, Miaomiaoce, China) with a 5.6-mF capacitor to 
+modulate the energy generated by four series-connected sweat 
+batteries on the subject’s arm. The voltage of the capacitor was measured 
+by the DAQ6510 multimeter, and the temperature sensor sends 
+in vivo data continuously to the application in smartphone every 2 s.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/7/29/eabg8433/DC1
+REFERENCES AND NOTES
+ 1. J. Xiong, J. Chen, P. S. Lee, Functional fibers and fabrics for soft robotics, wearables, 
+and human-robot interface. Adv. Mater. 33, 2002640 (2021).
+ 2. T. R. Ray, J. Choi, A. J. Bandodkar, S. Krishnan, P. Gutruf, L. Tian, R. Ghaffari, J. A. Rogers, 
+Bio-integrated wearable systems: A comprehensive review. Chem. Rev. 119, 5461–5533 
+(2019).
+ 3. T. Someya, Z. Bao, G. G. Malliaras, The rise of plastic bioelectronics. Nature 540, 379–385 
+(2016).
+ 4. W. Gao, S. Emaminejad, H. Y. Y. Nyein, S. Challa, K. Chen, A. Peck, H. M. Fahad, H. Ota, 
+H. Shiraki, D. Kiriya, D.-H. Lien, G. A. Brooks, R. W. Davis, A. Javey, Fully integrated 
+wearable sensor arrays for multiplexed in situ perspiration analysis. Nature 529, 
+509–514 (2016).
+ 5. Y. Ling, T. An, L. W. Yap, B. Zhu, S. Gong, W. Cheng, Disruptive, soft, wearable sensors. 
+Adv. Mater. 32, e1904664 (2020).
+ 6. P. Li, Y. Zhang, Z. Zheng, Polymer-assisted metal deposition (PAMD) for flexible 
+and wearable electronics: Principle, materials, printing, and devices. Adv. Mater. 31, 
+1902987 (2019).
+ 7. S. An, H. S. Jo, D.-Y. Kim, H. J. Lee, B.-K. Ju, S. S. Al-Deyab, J.-H. Ahn, Y. Qin, 
+M. T. Swihart, A. L. Yarin, S. S. Yoon, Self-junctioned copper nanofiber transparent 
+flexible conducting film via electrospinning and electroplating. Adv. Mater. 28, 
+7149–7154 (2016).
+ 8. J. Kim, A. S. Campbell, B. E.-F. de Ávila, J. Wang, Wearable biosensors for healthcare 
+monitoring. Nat. Biotechnol. 37, 389–406 (2019).
+ 9. J. Wang, M.-F. Lin, S. Park, P. S. Lee, Deformable conductors for human-machine interface. 
+Mater. Today 21, 508–526 (2018).
+ 10. H. Lee, C. Song, S. Baik, D. Kim, T. Hyeon, D.-H. Kim, Device-assisted transdermal drug 
+delivery. Adv. Drug Deliv. Rev. 127, 35–45 (2018).
+ 11. X. Pu, W. Hu, Z. L. Wang, Toward wearable self-charging power systems: The integration 
+of energy-harvesting and storage devices. Small 14, 1702817 (2018).
+ 12. J. Xiong, P. S. Lee, Progress on wearable triboelectric nanogenerators in shapes of fiber, 
+yarn, and textile. Sci. Technol. Adv. Mater. 20, 837–857 (2019).
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+12 of 13
+ 13. J. Kim, I. Jeerapan, J. R. Sempionatto, A. Barfidokht, R. K. Mishra, A. S. Campbell, 
+L. J. Hubble, J. Wang, Wearable bioelectronics: Enzyme-based body-worn electronic 
+devices. Acc. Chem. Res. 51, 2820–2828 (2018).
+ 14. Y. Yu, H. Y. Y. Nyein, W. Gao, A. Javey, Flexible electrochemical bioelectronics: The rise 
+of in situ bioanalysis. Adv. Mater. 32, 1902083 (2020).
+ 15. M. Bariya, H. Y. Y. Nyein, A. Javey, Wearable sweat sensors. Nat. Electron. 1, 160–171 
+(2018).
+ 16. J. Lv, I. Jeerapan, F. Tehrani, L. Yin, C. A. Silva-Lopez, J.-H. Jang, D. Joshuia, R. Shah, 
+Y. Liang, L. Xie, F. Soto, C. Chen, E. Karshalev, C. Kong, Z. Yang, J. Wang, Sweat-based 
+wearable energy harvesting-storage hybrid textile devices. Energ. Environ. Sci. 11, 
+3431–3442 (2018).
+ 17. Y. Yu, J. Nassar, C. Xu, J. Min, Y. Yang, A. Dai, R. Doshi, A. Huang, Y. Song, R. Gehlhar, 
+A. D. Ames, W. Gao, Biofuel-powered soft electronic skin with multiplexed and wireless 
+sensing for human-machine interfaces. Sci. Robot. 5, eaaz7946 (2020).
+ 18. L. Manjakkal, A. Pullanchiyodan, N. Yogeswaran, E. S. Hosseini, R. Dahiya, A wearable 
+supercapacitor based on conductive PEDOT:PSS-coated cloth and a sweat electrolyte. 
+Adv. Mater. 32, 1907254 (2020).
+ 19. A. J. Bandodkar, S. P. Lee, I. Huang, W. Li, S. Wang, C.-J. Su, W. J. Jeang, T. Hang, S. Mehta, 
+N. Nyberg, P. Gutruf, J. Choi, J. Koo, J. T. Reeder, R. Tseng, R. Ghaffari, J. A. Rogers, 
+Sweat-activated biocompatible batteries for epidermal electronic and microfluidic 
+systems. Nat. Electron. 3, 554–562 (2020).
+ 20. H. Jin, N. Matsuhisa, S. Lee, M. Abbas, T. Yokota, T. Someya, Enhancing the performance 
+of stretchable conductors for E-textiles by controlled ink permeation. Adv. Mater. 29, 
+1605848 (2017).
+ 21. L. Yin, J. Lv, J. Wang, Structural innovations in printed, flexible, and stretchable 
+electronics. Adv. Mater. Technol. 5, 2000694 (2020).
+ 22. A. Kamyshny, S. Magdassi, Conductive nanomaterials for 2D and 3D printed flexible 
+electronics. Chem. Soc. Rev. 48, 1712–1740 (2019).
+ 23. W. Zhou, S. Yao, H. Wang, Q. Du, Y. Ma, Y. Zhu, Gas-permeable, ultrathin, stretchable 
+epidermal electronics with porous electrodes. ACS Nano 14, 5798–5805 (2020).
+ 24. N. Matsuhisa, D. Inoue, P. Zalar, H. Jin, Y. Matsuba, A. Itoh, T. Yokota, D. Hashizume, 
+T. Someya, Printable elastic conductors by in situ formation of silver nanoparticles 
+from silver flakes. Nat. Mater. 16, 834–840 (2017).
+ 25. D. Lu, C. P. Wong, Characterization of silver flake lubricants. J. Therm. Anal. and Calorim. 
+59, 729–740 (2000).
+ 26. A. Mena-Bravo, M. D. Luque de Castro, Sweat: A sample with limited present 
+applications and promising future in metabolomics. J. Pharm. Biomed. Anal. 90, 
+139–147 (2014).
+ 27. S. Sun, Z. Pan, W. Zhang, F. K. Yang, Y. Huang, B. Zhao, Acid treatment of silver flake 
+coatings and its application in the flexible electrical circuits. J. Mater. Sci. Mater. Electron. 
+27, 4363–4371 (2016).
+ 28. M. Grouchko, A. Kamyshny, C. F. Mihailescu, D. F. Anghel, S. Magdassi, Conductive inks 
+with a “built-In” mechanism that enables sintering at room temperature. ACS Nano 5, 
+3354–3359 (2011).
+ 29. K. Parida, G. Thangavel, G. Cai, X. Zhou, S. Park, J. Xiong, P. S. Lee, Extremely stretchable 
+and self-healing conductor based on thermoplastic elastomer for all-three-dimensional 
+printed triboelectric nanogenerator. Nat. Commun. 10, 2158 (2019).
+ 30. D. Kokkinis, M. Schaffner, A. R. Studart, Multimaterial magnetically assisted 3D printing 
+of composite materials. Nat. Commun. 6, 8643 (2015).
+ 31. D. K. Patel, A. H. Sakhaei, M. Layani, B. Zhang, Q. Ge, S. Magdassi, Highly stretchable 
+and UV curable elastomers for digital light processing based 3D printing. Adv. Mater. 29, 
+1606000 (2017).
+ 32. D. Fu, W. Pu, Z. Wang, X. Lu, S. Sun, C. Yu, H. Xia, A facile dynamic crosslinked healable 
+poly(oxime-urethane) elastomer with high elastic recovery and recyclability. J. Mater. 
+Chem. A 6, 18154–18164 (2018).
+ 33. J. Xiong, G. Thangavel, J. Wang, X. Zhou, P. S. Lee, Self-healable sticky porous elastomer 
+for gas-solid interacted power generation. Sci. Adv. 6, eabb4246 (2020).
+ 34. S.-M. Kim, H. Jeon, S.-H. Shin, S.-A. Park, J. Jegal, S. Y. Hwang, D. X. Oh, J. Park, Superior 
+toughness and fast self-healing at room temperature engineered by transparent 
+elastomers. Adv. Mater. 30, 1705145 (2018).
+ 35. Y. S. Choi, Y.-Y. Hsueh, J. Koo, Q. Yang, R. Avila, B. Hu, Z. Xie, G. Lee, Z. Ning, C. Liu, Y. Xu, 
+Y. J. Lee, W. Zhao, J. Fang, Y. Deng, S. M. Lee, A. Vázquez-Guardado, I. Stepien, Y. Yan, 
+J. W. Song, C. Haney, Y. S. Oh, W. Liu, H.-J. Yoon, A. Banks, M. R. MacEwan, G. A. Ameer, 
+W. Z. Ray, Y. Huang, T. Xie, C. K. Franz, S. Li, J. A. Rogers, Stretchable, dynamic covalent 
+polymers for soft, long-lived bioresorbable electronic stimulators designed to facilitate 
+neuromuscular regeneration. Nat. Commun. 11, 5990 (2020).
+ 36. W. H. Lu, W. J. Xu, Y. M. Wu, X. Zhou, Y. B. Lu, Y. Q. Xiong, Synthesis of dendritic 
+poly(urethane acrylate) used for UV-curable coatings. Prog. Org. Coat. 56, 252–255 
+(2006).
+ 37. I. You, M. Kong, U. Jeong, Block copolymer elastomers for stretchable electronics.  
+Acc. Chem. Res. 52, 63–72 (2019).
+ 38. C. A. Silva, J. Lv, L. Yin, I. Jeerapan, G. Innocenzi, F. Soto, Y.-G. Ha, J. Wang, Liquid metal 
+based island-bridge architectures for all Printed stretchable electrochemical devices. 
+Adv. Funct. Mater. 30, 2002041 (2020).
+ 39. M. Zhang, R. Guo, K. Chen, Y. Wang, J. Niu, Y. Guo, Y. Zhang, Z. Yin, K. Xia, B. Zhou, 
+H. Wang, W. He, J. Liu, M. Sitti, Y. Zhang, Microribbons composed of directionally 
+self-assembled nanoflakes as highly stretchable ionic neural electrodes. Proc. Natl. Acad. 
+Sci. U.S.A. 117, 14667–14675 (2020).
+ 40. J. Kim, R. Kumar, A. J. Bandodkar, J. Wang, Advanced materials for printed wearable 
+electrochemical devices: A review. Adv. Electron. Mater. 3, 1600260 (2017).
+ 41. H. M. Emrich, E. Stoll, B. Friolet, J. P. Colombo, R. Richterich, E. Rossi, Sweat composition 
+in relation to rate of sweating in patients with cystic fibrosis of the pancreas. Pediatr. Res. 
+2, 464–478 (1968).
+ 42. G. Liu, C. Ho, N. Slappey, Z. Zhou, S. E. Snelgrove, M. Brown, A. Grabinski, X. Guo, Y. Chen, 
+K. Miller, J. Edwards, T. Kaya, A wearable conductivity sensor for wireless real-time sweat 
+monitoring. Sens. Actuators B 227, 35–42 (2016).
+ 43. F. Herrmann, L. Mandol, Studies of pH of sweat produced by different forms 
+of stimulation. J.. Invest. Dermatol. 24, 225–246 (1955).
+ 44. S. J. Lee, Y.-H. Kim, J. K. Kim, H. Baik, J. H. Park, J. Lee, J. Nam, J. H. Park, T.-W. Lee, G.-R. Yi, 
+J. H. Cho, A roll-to-roll welding process for planarized silver nanowire electrodes. 
+Nanoscale 6, 11828–11834 (2014).
+ 45. Y. Li, K.-s. Moon, H. Li, C. P. Wong, Development of isotropic conductive adhesives with 
+improved conductivity, in 2004 Proceedings of the 9th International Symposium on 
+Advanced Packaging Materials: Processes, Properties and Interfaces (IEEE catalog no. 
+04TH8742, 2004), pp. 1–6.
+ 46. D. Lu, Q. K. Tong, C. P. Wong, A study of lubricants on silver flakes for microelectronics 
+conductive adhesives. IEEE Trans. Compon. Packaging Technol. 22, 365–371 (1999).
+ 47. F. Tan, X. Qiao, J. Chen, Removal of chemisorbed lubricant on the surface of silver flakes 
+by chemicals. Appl. Surf. Sci. 253, 703–707 (2006).
+ 48. X. Li, J. J. Lenhart, H. W. Walker, Dissolution-accompanied aggregation kinetics of silver 
+nanoparticles. Langmuir 26, 16690–16698 (2010).
+ 49. T. S. Peretyazhko, Q. Zhang, V. L. Colvin, Size-controlled dissolution of silver nanoparticles 
+at neutral and acidic pH conditions: Kinetics and size changes. Environ. Sci. Technol. 48, 
+11954–11961 (2014).
+ 50. C. Levard, S. Mitra, T. Yang, A. D. Jew, A. R. Badireddy, G. V. Lowry, G. E. Brown Jr., Effect 
+of chloride on the dissolution rate of silver nanoparticles and toxicity to E. coli. Environ. 
+Sci. Technol. 47, 5738–5745 (2013).
+ 51. Y. Li, J. Zhao, E. Shang, X. Xia, J. Niu, J. Crittenden, Effects of chloride ions on dissolution, 
+ROS generation, and toxicity of silver nanoparticles under UV irradiation. Environ. Sci. 
+Technol. 52, 4842–4849 (2018).
+ 52. M. El, F. Nehal, A. Bouzidi, A. Nakrela, R. Miloua, M. Medles, R. Desfeux, J.-F. Blach, 
+P. Simon, M. Huvé, Synthesis and characterization of antireflective Ag@AgCl 
+nanocomposite thin films. Optik 224, 165568 (2020).
+ 53. K. I. Peterson, M. E. Lipnick, L. A. Mejia, D. P. Pullman, Temperature dependence 
+and mechanism of chloride-Induced aggregation of silver nanoparticles. J. Phys. Chem. C 
+120, 23268–23275 (2016).
+ 54. Y.-X. Zeng, X.-W. Zhong, Z.-Q. Liu, S. Chen, N. Li, Preparation and enhancement of thermal 
+conductivity of heat transfer oil-based MoS2 nanofluids. J. Nanomater. 2013, 270490 
+(2013).
+ 55. L. Wang, X. Fu, J. He, X. Shi, T. Chen, P. Chen, B. Wang, H. Peng, Application challenges 
+in fiber and textile electronics. Adv. Mater. 32, 1901971 (2020).
+ 56. N. von Goetz, C. Lorenz, L. Windler, B. Nowack, M. Heuberger, K. Hungerbühler, 
+Migration of Ag- and TiO 2-(Nano)particles from textiles into artificial sweat under 
+physical stress: Experiments and exposure modeling. Environ. Sci. Technol. 47, 
+9979–9987 (2013).
+ 57. D. G. Mackanic, X. Yan, Q. Zhang, N. Matsuhisa, Z. Yu, Y. Jiang, T. Manika, J. Lopez, H. Yan, 
+K. Liu, X. Chen, Y. Cui, Z. Bao, Decoupling of mechanical properties and ionic conductivity 
+in supramolecular lithium ion conductors. Nat. Commun. 10, 5384 (2019).
+ 58. D. R. Seshadri, E. V. Davies, E. R. Harlow, J. J. Hsu, S. C. Knighton, T. A. Walker, J. E. Voos, 
+C. K. Drummond, Wearable sensors for COVID-19: A call to action to harness our digital 
+infrastructure for remote patient monitoring and virtual assessments. Front. Digit. Health 
+2, 8 (2020).
+Acknowledgments 
+Funding: The project is funded by the National Research Foundation under the NRF-
+Investigatorship NRF-NRFI2016-05. Author contributions: J.L., G.T., and P.S.L. conceived the 
+idea, designed the experiments, guided the projects, and wrote the manuscript. G.T. 
+performed the synthesis, characterizations, and analysis of elastomer. J.L., Y.L., D.G., and J.Ch. 
+formulated Ag-HPUA inks and performed the characterizations, applications, and analysis of 
+the electrodes and devices. J.X. performed SEM characterization, result discussion, and 
+on-body experiments. J.Ci., M.W.M.T., I.A., and S.C. contributed to chemical bonds 
+characterization, thermal analysis, AFM characterization, and XRD analysis, respectively. X.Z. 
+
+Lv et al., Sci. Adv. 2021; 7 : eabg8433     14 July 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+13 of 13
+and W.C.P. assisted in direct writing and NMR characterization, respectively. J.L. and G.T. 
+contributed equally to this work. P.S.L. supervised this project. All authors discussed the 
+results and commented on the manuscript. Competing interests: J.L., G.T., and P.S.L. are the 
+inventor for “Conductive electronic textiles” filed by the Nanyang Technological University 
+(Singapore provisional patent application no. 10202100851 U). The authors declare that they 
+have no other competing interests. Data and materials availability: All data needed to 
+evaluate the conclusions in the paper are present in the paper and/or the Supplementary 
+Materials. Additional data related to this paper may be requested from the authors.
+Submitted 1 February 2021
+Accepted 28 May 2021
+Published 14 July 2021
+10.1126/sciadv.abg8433
+Citation: J. Lv, G. Thangavel, Y. Li, J. Xiong, D. Gao, J. Ciou, M. W. M. Tan, I. Aziz, S. Chen, J. Chen, 
+X. Zhou, W. C. Poh, P. S. Lee, Printable elastomeric electrodes with sweat-enhanced conductivity 
+for wearables. Sci. Adv. 7, eabg8433 (2021).

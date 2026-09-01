@@ -1,0 +1,727 @@
+ARTICLE OPEN
+Stretchable transparent electrodes for conformable wearable
+organic photovoltaic devices
+Nan Cui 1,2, Yu Song 1,2, Ching-Hong Tan 1, Kai Zhang 1, Xiye Yang 1, Sheng Dong 1, Boming Xie 1 and Fei Huang 1 ✉
+To achieve adhesive and conformable wearable electronics, improving stretchable transparent electrode (STE) becomes an
+indispensable bottleneck needed to be addressed. Here, we adopt a nonuniform Young ’s modulus structure with silver nanowire
+(AgNW) and fabricate a STE layer. This layer possesses transparency of >88% over a wide spectrum range of 400 – 1000 nm, sheet
+resistance below 20 Ω sq−1, stretchability of up to 100%, enhanced mechanical robustness, low surface roughness, and good
+interfacial wettability for solution process. As a result of all these properties, the STE enables the fabrication of a highly ef ﬁcient
+ultraﬂexible wearable device comprising of both organic photovoltaic (OPV) and organic photodetector (OPD) parts with high
+mechanical durability and conformability, for energy-harvesting and biomedical-sensing applications, respectively. This
+demonstrates the great potential of the integration of OPVs and OPDs, capable of harvesting energy independently for biomedical
+applications, paving the way to a future of independent conformable wearable OPV/OPDs for different applications.
+npj Flexible Electronics            (2021) 5:31 ; https://doi.org/10.1038/s41528-021-00127-7
+INTRODUCTION
+Wearable organic photovoltaics (WOPVs) for self-powered electro-
+nic skins, human – machine interactions (HMIs), real-time health
+monitoring, internet of things (IoTs) require a strong and
+comfortable adhesion that adapts to the complexity of human ’s
+skin movement without compromising their performance and
+lifetime
+1– 4. Devices that can conform to the skin surface
+seamlessly would provide an accurate and precise measurement
+of any physiological signal of interest 5. Numerous studies on
+ﬂexible transparent electrodes have achieved mechanical bending
+durable OPV devices with performance comparable to indium tin
+oxide (ITO) analogs
+6– 8. Among different ﬂexible transparent
+electrodes7,9– 16, silver nanowires (AgNWs) are perceived as the
+promising alternative for ﬂexible OPV devices owing to some of its
+remarkable properties such as low percolation threshold, superior
+transparency, high electrical conductivity, and excellent ﬂexibil-
+ity
+17. Nonetheless, AgNW electrodes suffer from several short-
+comings, such as high surface roughness and poor adhesion to
+substrates, leading to severe leakage current and poor mechanical
+robustness
+18. To improve device conformation to skin irregular
+surface stretches for portable and WOPV devices, the develop-
+ment of stretchable transparent electrodes (STEs) which utilizes a
+soft substrate as an interface between the device and human skin
+is of particular interest. Recently, the incorporation of grid-like
+AgNW electrode on the plastic polyethylene terephthalate (PET)
+substrates is shown to lower the surface roughness for highly
+efﬁcient ﬂexible single-junction and tandem OPV device
+2. The
+combination AgNW/PET device is also exhibited to have high
+bending durability at a bending radius of 3 mm and retained
+>90% of its initial ef ﬁciency after 1000 bending cycles
+19. These
+studies independently indicate the importance of the integration
+between AgNW and the underlying substrate to have a better
+adhesion for a highly robust WOPV device 2,10,19. However, the
+plastic polymer substrates, such as PET, polyethylene naphthalate
+(PEN), perylene, and polyimide (PI)
+3,20 applied in these OPV
+devices, possessing Young’s moduli of 2.8 – 6.1 GPa21, are unable to
+utilize the stretchability of the AgNW network. While reports have
+shown that AgNWs integrated with more elastic polymers such as
+polydimethylsiloxane (PDMS), polyurethane (PU), and polyur-
+ethane acrylate (PUA), which have a similar Young ’s modulus to
+the human body, enable the network to withstand a large
+stretchability of over 50%
+22– 25, the poor chemical stability of the
+elastic polymer substrate remains a huge challenge for high-
+performance WOPV devices using AgNW-based STEs. To improve
+the chemical stability of the polymer, a lamination strategy was
+introduced that avoids the direct contact of chemical reagents,
+but this creates a high contact resistance, leading to a poor
+performance of the organic thin- ﬁlm devices
+26. Other than
+focusing on the conformability of a substrate, the tensile strength
+has been shown to be one of the important indicators for the
+mechanical robustness and durability of the materials 27.
+Organic photodetectors (OPDs) with a near-infrared (NIR)
+absorbing bulk-heterojunction (BHJ) con ﬁguration on the other
+hand, has also attracted increasing attention for their potential in
+biomedical wearable electronic application 5,28,29. In particular, NIR
+can play a prominent role in biomedical and clinical applications
+due to the deep penetration depth of NIR photons transmitting
+beyond the skin surface, making the high transparency of AgNW-
+based STE in the NIR region an appealing component in wearable
+OPDs (WOPDs) for biomedical sensing
+30. However, the demon-
+stration of such conformable WOPDs based on AgNW electrodes
+has been scarce for biological sensing. To meet the requirements
+for wearable application, the electrode should achieve several vital
+features simultaneously: excellent conductivity and high transpar-
+ency that are crucial for device performance; mechanical
+deformability/stretchability and robust ﬂexibility for maintaining
+continuous conducting paths in dynamic operating environment;
+good chemical stability, and wettability for low-cost solution
+process; smooth surface for decreasing contact resistance and
+avoiding large leakage current
+2,17,21,31.
+Here, we demonstrate the fabrication of AgNW-based STEs
+using a nonuniform Young ’s modulus structure. The nonuniform
+1Institute of Polymer Optoelectronic Materials and Devices, State Key Laboratory of Luminescent Materials and Devices, South China University of Te chnology, 510640
+Guangzhou, People ’s Republic of China. 2These authors contributed equally: Nan Cui, Yu Song. ✉email: msfhuang@scut.edu.cn
+www.nature.com/npjﬂexelectron
+Published in partnership with Nanjing Tech University
+1234567890():,;
+
+Young’s modulus structure endows the STEs with enhanced
+mechanical durability and tensile strength, high chemical stability,
+and improved interfacial wettability for the organic active layers.
+The obtained electrode shows a sheet resistance below 20 Ω sq
+−1,
+transparency of >88% (including the substrate), surface roughness
+of 2.24 nm, and a stretchability of up to 100%, all of which meet
+the basic requirements for a wearable electronic application. The
+WOPV device fabricated using said STE achieved performance
+comparable to its traditional rigid ITO-based counterpart and
+maintained >96% of the initial power conversion ef ﬁciency (PCE)
+after 4000 bending cycles at an extreme bending radius of
+0.5 mm, indicating excellent mechanical stability. The WOPD
+which adopts the same device structure and STE demonstrates a
+successful heart rate detection for biomedical application.
+Altogether, the study herein illustrates the potential of AgNW-
+based STE for conformal dual-purpose WOPD biomedical sensing
+and WOPV energy-harvesting devices.
+RESULTS AND DISCUSSION
+STE with nonuniform Young ’s modulus structure
+The procedure for fabricating the STE with nonuniform Young ’s
+modulus structure is schematically displayed in Fig. 1a. AgNW
+network was fabricated onto an octadecyltrichlorosilane-modi ﬁed
+glass (OTS/glass) via spin-coating. The OTS modi ﬁcation provides a
+low surface-energy interface
+32, which is bene ﬁcial for the
+subsequent mechanical peeling processes to obtain an embedded
+STE. Cross-linked polyvinyl alcohol (C-PVA) and PDMS were
+successively applied onto AgNW network to form a bilayer
+polymer substrate forming a nonuniform Young ’s modulus matrix
+by the spin-coating process. Owing to the good mechanical
+stretchability and biocompatibility of PDMS, it has been widely
+utilized in skin-like and wearable electronics
+33. However, PDMS is
+hardly compatible with common organic solvent due to its poor
+chemical resistance and is a non-preferred solvent in the
+manufacturing process of various chemical treatments. C-PVA
+adopted here has been demonstrated with the advantages of
+ﬂexibility, transparency, ultrathin, and biocompatibility in the
+previous reports 34. Moreover, C-PVA is solvent-resistant, which
+remedies the shortage of PDMS. Finally, the whole electrode
+structure, including AgNW network, C-PVA, and PDMS, was easily
+peeled off from the OTS/glass and ﬂipped over to form a STE. The
+upper right inset of Fig. 1a shows that the AgNW network is
+embedded in the nonuniform Young ’s modulus polymer matrix
+composed of ﬂexible C-PVA and elastic PDMS. The ultrathin C-PVA
+ﬁlm acts as the buffer layer located between AgNW conductive
+Fig. 1 Stretchable transparent electrode with nonuniform Young ’s modulus polymer structure. a Schematic illustration of the fabrication
+process for AgNW/C-PVA/PDMS electrode. The inset is the section view of the embedded AgNW/C-PVA/PDMS electrode. b Optical
+transmittance of stretchable AgNW/C-PVA/PDMS and commercial rigid ITO/glass electrodes. c Average transmittance at a wavelength ranging
+from 400 to 1000 nm and sheet resistance of AgNW-based electrodes as a function of spinning speed. Error bars represent the standard
+deviation. d AFM image of embedded AgNW/C-PVA/PDMS electrode with surface roughness of 2.24 nm. Scale bar is 1 μm. e Typical
+mechanical testing curves of C-PVA, PDMS, and C-PVA/PDMS under tensile strain. f Photographs of AgNW/C-PVA/PDMS electrodes conformed
+onto thumbprint and the moving wrist. Scale bar is 1 cm. g Photographs of AgNW/C-PVA/PDMS electrodes withstanding various deformations
+of stretching, twisting, crumpling, and recovery after deformations.
+N. Cui et al.
+2
+npj Flexible Electronics (2021)    31 Published in partnership with Nanjing Tech University
+1234567890():,;
+
+layer and hydrophobic PDMS. The AgNW/C-PVA/PDMS electrode,
+employing the embedded structure, is coplanar and ﬂat. The
+fabrication process for STE is simple and feasible, indicating a
+great potential for all-solution, low-cost fabrication.
+Due to the excellent transparency of all the components (AgNW
+network, C-PVA, and PDMS) within the STE structure, the prepared
+electrode including the soft substrate presents an average
+transmittance ( Tavg) of 88%, over the wide range of
+400– 1000 nm (Fig. 1b). Compared to commercial rigid transparent
+ITO electrode ( Tavg of 85%) on glass, the stretchable transparent
+AgNW/C-PVA/PDMS electrode shows higher transparency, espe-
+cially in the wavelength range of 600 – 1000 nm. Due to high tissue
+transparency in the NIR region, the stretchable transparent AgNW/
+C-PVA/PDMS electrode is promising for biological applications
+that require, in addition to high conformability, transparency in
+the NIR wavelength region
+35. As shown in Fig. 1c, the optical
+transparency and electrical properties of AgNW-based electrodes
+can be tuned by modulating the spinning speed. The sheet
+resistance (Rs) of AgNW network prepared by spin-coating at 2000
+rpm was 12.2 ± 0.7 Ω sq−1 with Tavg of 84.2 ± 3.1%. When the
+spinning speed increased to 6000 rpm, the average transmittance
+and sheet resistance increased up to 90.7 ± 2.7% and 22.3 ± 0.5 Ω
+sq−1, respectively. Along with the increase of spinning speed, both
+thickness and AgNW area coverage decreased, and the resulted
+sparse network led to the increase of transmittance and sheet
+resistance. The thickness of the AgNW network obtained by
+different spinning speed can be found in Supplementary Table 1.
+The superior electrical conductivity and optical transparency of
+AgNW/C-PVA/PDMS which are comparable to the performances of
+commercial rigid ITO are much higher than those of CNTs and
+graphene reported
+36, indicating the application capability of
+stretchable transparent AgNW-based electrode in wearable
+optoelectronic devices. Considering the integration of AgNW-
+based STE into thin- ﬁlm devices, surface roughness is another
+important factor that affects the device ’s performance. The atomic
+force microscope (AFM) image in Fig. 1d presents that the surface
+roughness of AgNW/C-PVA/PDMS is 2.24 nm. The ﬂat and smooth
+surface avoids severe leakage current caused by protruding
+nanowires in organic thin- ﬁlm devices for the active layer of
+~100 nm thickness. It is noteworthy that the voids within AgNW
+network are ﬁlled with C-PVA, which may enhance the adhesion
+and tightness at the wire – wire junctions, and prevent PDMS from
+directly contacting with organic solvents.
+To investigate the mechanical properties of the polymer matrix,
+the tensile tests of C-PVA, PDMS, and C-PVA/PDMS were
+performed as illustrated in Fig. 1e. C-PVA with a high Young ’s
+modulus of 1.3 GPa possesses a high tensile strength of 64.6 MPa,
+but poor stretchability with the elongation at break occurring at
+only 5.5% tensile strain; PDMS with a low Young ’s modulus of
+2.8 MPa has a stretchability up to 165%, but a low tensile strength
+of 4.8 MPa. Elongation at break is de ﬁned as ( L
+f − L0)/L0(100%),
+where L0 and Lf represent the original length and the length at the
+break, respectively. In comparison with pristine C-PVA and PDMS,
+the mechanical properties of combined C-PVA/PDMS have been
+prominently improved. The tensile strength and elongation at
+break of C-PVA/PDMS were 6.3 MPa and 252%, which increased
+25% and 51.8% to that of PDMS. Obviously, C-PVA/PDMS hybrid
+polymer matrix with the nonuniform Young ’s modulus structure
+makes up for the mechanical de ﬁciency of C-PVA and PDMS. The
+cause may be that during the large tensile strain, amounts of
+impact energy on C-PVA/PDMS is dissipated by the cracks that
+occurred in C-PVA, which in turn improves the impact strength of
+the hybrid material. The optical images of C-PVA/PDMS under
+different tensile strains can be found in Supplementary Fig. 1.
+Despite the distinctly enhanced mechanical tensile strength of the
+hybrid polymer, Young ’s modulus of C-PVA/PDMS (2.9 MPa) is still
+much approximate to PDMS (2.8 MPa). The low Young ’s modulus
+is bene ﬁcial for realizing the soft conformal contact with
+expandable skins, tissues, and organs of the human being for
+bio-integrated electronic applications
+37. As can be seen in Fig. 1f,
+g, the STEs could be conformally coupled onto the human skin
+and kept seamless contact with the thumbprint and the wrinkled
+skin by Van der Waals force. Due to the high transparency, the
+STEs can also serve for invisible wearable electronics with
+esthetics. The enhanced mechanical properties make the elec-
+trode withstand various deformations, such as stretching, twisting,
+and crumpling. Due to the stress relief in a bilayer structure, the
+AgNW/C-PVA/PDMS electrode is able to recover from the
+crumpling without mechanical damage, which contributes greatly
+to effective manipulation during practical application. This
+strategy provides a simple and ef ﬁcient approach by recombining
+the advantages of PDMS and C-PVA into the STE with a double-
+layered scheme, and achieves the polymer matrix combined high
+tensile strength and low Young ’s modulus.
+Furthermore, the electrical properties of ﬂexible electrodes were
+evaluated under mechanical deformations. Figure 2a compares
+the electrical resistance changes of ITO/PET, AgNW/PDMS, and
+AgNW/C-PVA/PDMS electrodes under different outcurve-bending
+radii ( r). For commercial ﬂexible ITO/PET electrode, the relative
+change in resistance increased dramatically with bending radius
+decreased below 5 mm due to its brittle nature, whereas the
+conductivity of AgNW-based electrodes remained relatively stable
+even at the extremely small radius of 0.2 mm. Long-term reliability
+under cyclic mechanical stress is of great signi ﬁcance for the
+practical use of ﬂexible electrodes. Taking this into account, the
+real-time bending measurement was conducted in Fig. 2b. At a
+constant bending radius of 5 mm, the AgNW-based embedded
+electrodes can withstand more than 4000 bending cycles without
+noticeable resistance variation. However, the resistance of ITO/PET
+had increased about ~40 times to its original resistance after the
+cyclic bending. The inset provides the partially enlarged views of
+the curves for AgNW/PDMS and AgNW/C-PVA/PDMS. The
+resistance dynamic range of AgNW/C-PVA/PDMS was much
+smaller than that of AgNW/PDMS during cyclic bending, indicating
+the positive effect of C-PVA interlayer for mechanical robustness
+and stability. Figure 2c, d also shows the bene ﬁcial effects of the
+C-PVA interlayer on the mechanical stretchability of the STEs.
+Figure 2c illustrates the measured resistance change of embedded
+AgNW/PDMS and AgNW/C-PVA/PDMS as a function of increasing
+tensile strain. The AgNW/PDMS showed a signi ﬁcant increase in
+resistance with the strain increasing over 40% in comparison with
+AgNW/C-PVA/PDMS electrode. During the cyclic stretch-release
+test employing 0 – 20% tensile strain, the resistance variation of
+AgNW/PDMS continuously increased as more cycles were
+completed (Fig. 2d). Clearly, the conductivity of AgNW/C-PVA/
+PDMS hold relatively stable during 4000 cycles of deformation,
+indicating good mechanical stability during the stretching and
+releasing cycles. As mentioned above, the hybrid C-PVA/PDMS
+polymer substrate showed better tensile strength than PDMS. The
+poor stability of AgNWs/PDMS electrodes may origin from the low
+strength of PDMS and vastly mismatched Young ’s modulus
+between AgNW and PDMS. The ultrathin ﬂexible C-PVA of
+270 nm adopted here serving as an effective buffer layer between
+AgNW and PDMS due to the moderate Young ’s modulus value
+between metallic materials and elastic polymer. Besides, the
+conductivity of the AgNW/C-PVA/PDMS electrodes did not decay
+at all even after conducting 50 tape tests without exfoliation
+(Supplementary Fig. 2), indicating the strong adhesion between
+PDMS and C-PVA thin ﬁlms by noncovalent bonding. In Fig. 2e, the
+stretchable transparent AgNW/C-PVA/PDMS electrode, serving as
+the interconnectors of a yellow commercial LED, presents
+excellent conductivity under different tensile strains. During the
+stretching of the AgNW/C-PVA/PDMS interconnectors, the yellow
+LED showed bright yellow light, indicating the outstanding
+mechanical stretchability and good conductivity of the AgNW/C-
+PVA/PDMS conductor. The LED could be lit up even at the tensile
+N. Cui et al.
+3
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2021)    31 
+
+Fig. 2 Electrical properties of ﬂexible electrodes under various mechanical strains. a Relative changes in resistance (( R − R0)/R0) of ITO/PET,
+AgNW/PDMS, and AgNW/C-PVA/PDMS versus different bending radii ( r) and ( b) bending cycles at a bending radius of 5 mm. Where R is the
+resistance of the ﬂexible electrode under strain, and R0 represents the original resistance. The inset is the magni ﬁed region of relative
+resistance change under cyclic bending. c Relative resistance changes of AgNW/PDMS and AgNW/C-PVA/PDMS electrodes versus tensile strain
+and ( d) cyclic tensile stretching and releasing between 0 and 20% strains. e AgNW/C-PVA/PDMS interconnections connected to commercial
+yellow LEDs with different tensile strains ( ε).
+N. Cui et al.
+4
+npj Flexible Electronics (2021)    31 Published in partnership with Nanjing Tech University
+
+strain of 72.4%, which met the basic elastic needs of the human
+body38,39.
+Conformable OPVs with STEs for harvesting energy
+Based on the AgNW/C-PVA/PDMS STEs, the conformable OPVs for
+harvesting energy were fabricated with inverted structure as
+shown in Fig. 3a. The conformable transparent AgNW/C-PVA/
+PDMS structure acts as both the bottom transparent electrode and
+the soft substrate. The typical ef ﬁcient non-fullerene PM6:Y6 bulk
+heterojunction (BHJ) is employed here as the active layer of the
+ultraﬂexible conformable OPVs. Aluminum-doped zinc oxide
+(AZO) with the optimized aluminum atomic ratio of 3 at% was
+adopted as an electron transfer layer (ETL). Compared with
+traditional zinc oxide (ZnO) ETL, AZO ﬁlls the voids among
+nanowires and helps increase the short-circuit current density ( J
+sc)
+of the OPVs due to the better conductivity (Supplementary Fig.
+3)40. The MoO 3 (10 nm)/Ag (100 nm) was evaporated on the active
+layer as the anode. Figure 3b shows an energy-level diagram of
+the conformable OPVs. The representative current density-voltage
+(J– V) characteristics of the PM6:Y6-based OPVs with ITO/glass and
+AgNW/C-PVA/PDMS electrodes under 1 sun illumination are
+presented in Fig. 3c. The photovoltaic parameters of correspond-
+ing devices are summarized in Table 1. For the rigid cells with
+commercial ITO/glass ( R
+s of 12 Ω sq−1, Tavg of 85%) electrodes
+show a PCE of 15.8%, an open-circuit voltage ( Voc) of 0.83 V, a Jsc of
+24.9 mA cm−2, and a ﬁll factor of 76.2%. The conformable cells
+based on AgNW/C-PVA/PDMS STEs ( Rs of 18 Ω sq−1, Tavg of 90%)
+show a PCE of 15.2%, a Voc of 0.83 V, a Jsc of 25.0 mA cm−2, and a
+ﬁll factor of 73.2%. The integrated Jsc values calculated using the
+external photovoltaic quantum ef ﬁciency (EQE) spectra (Supple-
+mentary Fig. 4) were 23.8 and 24.0 mA cm −2 for the OPV devices
+based on the ITO/glass and AgNW/C-PVA/PDMS electrodes,
+respectively. The results coincided with the Jsc measured under
+the solar simulator with a deviation <5%. It is seen that the
+performances of conformable OPVs are comparable to those of
+rigid ITO-based devices and has been at the top level among the
+reported ﬂexible PM6:Y6 devices with inverted structure
+7,41,42.
+The mechanical robustness and durability of the soft OPVs are
+evaluated as shown in Fig. 3d, e. The parameters of the
+conformable OPV devices almost remained unchanged, with an
+extreme bending radius down to 0.2 mm. The durability of
+conformable OPV devices was evaluated by employing cyclic
+bending tests with 4000 cycles at the bending radius of 0.5 mm
+(Fig. 3e), which is one order of magnitude lower than the most
+cyclic bending radii applied on the reported ﬂexible OPVs
+2,7,19. The
+bending strain is estimated as ~3%. The inset presents the optical
+image of the conformal solar cells coiling around a needle.
+Moreover, the conformable OPVs based on the STEs retained over
+Fig. 3 Conformable OPVs for energy harvesting with stretchable transparent AgNW/C-PVA/PDMS electrodes. a Schematic diagram of
+conformable OPV structure. b Energy-level diagram of conformable OPVs based on AgNW/C-PVA/PDMS bottom electrodes. c J–V
+characteristics of conformable AgNW/C-PVA/PDMS-based OPVs and traditional rigid ITO-based OPV devices. d Normalized photovoltaic
+parameters of conformable OPVs as a function of bending radius ( r). The inset is the schematic of bending OPVs. e Dependence of normalized
+performance parameters and bending cycles (bending radius of 0.5 mm). The inset is conformable OPVs coiling around a needle. Scale
+bar is 2 mm.
+Table 1. Photovoltaic parameters of OPVs based on ITO/glass and
+AgNW/C-PVA/PDMS electrodes with typical PM6:Y6 active layer
+measured under AM 1.5 illumination at 100 mW cm −2.
+Electrode Voc (V) Jsc (mA
+cm−2)
+FF (%) PCE max (PCEave)a (%)
+ITO/glass 0.83 24.9 76.2 15.8 (15.4 ± 0.3)
+AgNW/C-PVA/
+PDMS
+0.83 25.0 73.2 15.2 (14.9 ± 0.2)
+aThe average PCE values were calculated from over 12 devices with
+standard deviations.
+N. Cui et al.
+5
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2021)    31 
+
+96% of their original PCE throughout 4000 bending cycles,
+demonstrating extraordinary bending durability.
+Conformable wearable OPDs with STEs for heart rate
+detection
+Based on the same device structure as depicted above, highly
+ﬂexible and conformable wearable organic photodetectors were
+also achieved for real-time heart rate detection as shown in Fig. 4,
+demonstrating the dual-use capacity of conformable OPV devices.
+Compared to traditional rigid detecting systems, the conformable
+photodetectors integrated with light sources are able to monitor
+heart rate through photoplethysmography (PPG) noninvasively for
+wearable health and wellness trackers with great convenience and
+comfort
+1. With the thin and soft AgNW/C-PVA/PDMS electrodes,
+the skin-like OPDs enable mechanical compatibility with soft
+tissues, as shown in Fig. 4a, the application for real-time biological
+signal detection was realized by conformally attaching the OPDs
+on the ﬁnger. Then the underneath incident red or NIR light ﬁrst
+penetrates the ﬁnger and gets into the conformable photode-
+tector. The transmitted light intensity changes along with the
+heartbeat due to the changing subcutaneous blood volume, and
+the electrical signal ﬂuctuation of the detector occurs with the
+heartbeat
+28.
+The EQE values of PM6:Y6 photodetectors with AgNW/C-PVA/
+PDMS and ITO/glass electrodes under different bias voltages are
+shown in Fig. 4b. Compared with traditional rigid ITO-based
+devices, the conformable OPDs with AgNW/C-PVA/PDMS electro-
+des present higher EQE values, especially in the wavelength of
+700– 900 nm due to the higher transparency of AgNW-based
+bottom electrodes. For example, the EQE value at 820 nm of the
+conformable device is 15.2% higher than that of ITO-based
+devices under the 0 V bias. The conformable devices behave with
+a very weak dependence on the bias voltage, indicating the
+efﬁcient charge extraction. The spectral responsivity of the
+conformable and rigid devices measured under zero bias is
+shown in Supplementary Note 1 and Supplementary Fig. 5
+43. The
+peak responsivity of the rigid device is 0.52 A W −1 at 850 nm.
+While the conformable device displays a higher responsivity of
+0.54 A W
+−1 at 850 nm bene ﬁting from the improved NIR EQE. The
+experimental dark current density ( Jd) characteristics of OPD
+devices employing AgNW/C-PVA/PDMS and ITO/glass electrodes
+are shown in Fig. 4c. It was found that the J
+d values for the two
+devices are comparable (5.9 × 10 −10 and 3.3 × 10 −10 Ac m−2 at
+−0.1 V for AgNW/C-PVA/PDMS and ITO/glass devices, respec-
+tively). The ultra-low dark current density and the mechanical
+conformability of the OPD devices are in favor of achieving high-
+quality physiological signals for broad utility in biomedical
+Fig. 4 Conformable wearable OPDs for heart rate detection. a Photographs of conformable OPD devices attached to a ﬁnger. Scale bar is
+2 cm. b EQE curves of the conformable OPDs with AgNW/C-PVA/PDMS electrode and reference rigid device with ITO/glass electrode under 0,
+0.1, 0.5, and 1 V bias. c Dark current density of conformable OPD and reference rigid device based on PM6/Y6. d Linear dynamic range of a
+conformable OPD under the illumination of 850 nm LED at −0.1 V. e, f Noise spectral density and speci ﬁc detectivity for conformable OPD
+operated under −0.1 V bias. g, h Signal ﬂuctuations of the conformable and rigid OPDs with the heartbeat under the light of 720 and 850 nm.
+N. Cui et al.
+6
+npj Flexible Electronics (2021)    31 Published in partnership with Nanjing Tech University
+
+applications44. To investigate the capability of photodetectors
+operating at a wide range of light intensities, the current density
+of the conformable device under 850 nm illumination with light
+intensity ranging from 0.12 nW cm −2 to 1.93 mW cm −2 are
+measured (Supplementary Fig. 6). Figure 4d shows that the
+current density exhibits broad linearity within the test range, and
+the linear dynamic range (LDR) is calculated as 129 dB (Supple-
+mentary Note 2) 45, indicating the good light detect the capability
+of conformable OPD. Figure 4e shows the measured total noise
+under −0.1 V bias is frequency-independent at the low-frequency
+range, and the noise spectral density is around 1.05 × 10 −14 A
+Hz−1/2 at 10 Hz, which is close to the calculated noise of 8.7 ×
+10−15 AH z−1/2. The calculation can be found in Supplementary
+Note 3, which indicates that the noise is mainly dominated by the
+shot noise and Johnson noise. As shown in Fig. 4f, the
+corresponding D* pro ﬁles calculated using the noise current are
+derived according to Supplementary Note 4. The peak D* of the
+conformable OPD reaches 1.67 × 10
+13 Jones at 850 nm, which is
+comparable to commercial silicon-based photodiodes 46.
+Figure 4g, h shows the electrical signals of the conformal and
+rigid detectors with heartbeat under the 720 and 850 nm source
+light. Due to the reduced photon scattering, the sensing of optical
+signals at 850 nm wavelengths is more distinct for heart rate
+detection than that measured at 720 nm. At the same source light,
+the AgNW-based conformable device presents better sensing
+properties than ITO-based rigid devices, attributing to the high
+transparency in the NIR region and mechanical conformability.
+The calculated heart rate values from conformable and rigid OPDs
+are 69.6 and 67.1 beats per minute, respectively. The heart rate
+values with acceptable deviation <4% were observed. The
+demonstration of heart rate sensing highlights a potential
+application of AgNW-based conformable OPDs in wearable
+devices.
+In summary, the STE made using an AgNW network with a
+nonuniform Young ’s modulus structure has a high transmittance
+in the wide spectrum range, a low sheet resistance, an
+approaching ideal stretchability, a low surface roughness, and a
+superior interface wettability. The outstanding characteristics of
+the STEs enable the fabrication of a highly ef ﬁcient conformal
+WOPV device, with high mechanical durability even at an extreme
+bending radius of 0.5 mm. The PCE of said device, comparable to
+its ITO analog maintained 96% of it after 4000 bending cycles.
+Utilizing the same WOPV device architecture, the conformable
+WOPD was successfully demonstrated for heart rate detection
+application, indicating STE potential for conformal dual-purpose
+wearable applications such as health monitoring WOPD and
+energy-harvesting WOPV device simultaneously, as demonstrated
+in the study herein. This study paves the way to realize
+multifunctional WOPV/OPDs that are not only wearable but more
+importantly, conformable to skin surface seamlessly in the future.
+METHODS
+Electrode fabrication
+A 0.25 wt% AgNW dispersion with a diameter of 30 nm was purchased
+from Gu’ NANO without further treatment. The AgNW dispersion was spin-
+coated onto the OTS-modi ﬁed glass substrates, and the solvent was
+evaporated by annealing at 100 °C for 5 min. The cross-linked PVA was
+obtained by adding the cross-linking agent glutaraldehyde (Aladdin, 50 wt
+%) into PVA (Sigma-Aldrich) aqueous solution (6 wt%) with the volume
+ratio of 1:80. Then, C-PVA was spin-coated on the AgNW network at
+7000 rpm for 60 s. The C-PVA substrate was annealed at 100 °C for 1 min on
+a hot plate to evaporate water. PDMS (Sylgard 184, Dow Corning) was
+prepared by mixing the base and the cross-linking curing agent in a weight
+ratio of 10:1, and then was spin-coated at 4000 rpm for 60 s on the C-PVA
+ﬁlm, and the PDMS was cured at curing temperature of 100 °C for 5 min.
+After the PDMS was cured, the AgNW/C-PVA/PDMS embedded electrodes
+were peeled off from the OTS/glass.
+Device fabrication
+Conformable OPVs and OPDs were fabricated on the AgNW/C-PVA/PDMS
+electrodes. First, the free-standing AgNW/C-PVA/PDMS electrode with a
+thickness of ~30 μm was transferred onto a glass supporting substrate to
+form a ﬂat surface for further device fabrication. Then, the AZO ETL (40 nm
+thick) was spin-coated onto the AgNW/C-PVA/PDMS with the spinning rate
+of 2500 rpm, followed by annealing at 150 °C for 10 min. The optimized
+sol– gel AZO solution was prepared by dissolving 0.44 g zinc acetate
+dehydrate, 0.0228 g aluminum nitrate nonahydrate, and 122 μL ethanola-
+mine in 20 mL methoxyethanol. For OPV devices, PM6:Y6 active layer was
+prepared with a weight ratio of 1:1.2, and was deposited from 6 mg mL
+−1
+PM6 concentration in chloroform solution (containing 0.5 vol% chloro-
+naphthalene) at 2700 rpm for 30 s. For OPD devices, PM6:Y6 active layer
+was optimized with a weight ratio of 1:1.5, and was deposited from 10 mg
+mL
+−1 PM6 concentration in chloroform solution (containing 0.5 vol%
+chloronaphthalene) at 2000 rpm for 30 s. The blend ﬁlm was annealed at
+110 °C for 10 min in a glove box. The optimized thickness of PM6:Y6 active
+layer for OPV and OPD were 89 nm and 290 nm, respectively. The 10 nm
+MoO
+3 HTL and 100 nm Ag anode were thermally evaporated on the active
+layer through a mask (with a 0.0516 cm² area opening) in a vacuum
+chamber at a base pressure below 1 × 10
+−6 Pa. Finally, the ﬂexible devices
+were obtained by peeling off from the supporting substrate. The
+lamination and delamination process can be found in Supplementary
+Fig. 7. The reference ITO/glass devices were fabricated with the same
+conditions.
+Device characterization
+The sheet resistance of the electrodes was measured using a four-point probe
+setup. The electrical properties under mechanical deformations were
+conducted using a lab-made apparatus and Keithley 2450 source meter.
+Tensile strength and elongation at break were measured with an INSTRON
+3300 testing frame. The surface roughness of the embedded electrodes was
+analyzed by atomic force microscopy (Bruker, Germany). The thickness of the
+ﬁlms was determined by a Dektak 150 surface proﬁler. The J– V curves of OPVs
+were performed under standard AM 1.5 G irradiation with a light intensity of
+100 mW cm
+−2.B e f o r et h eJ– V test, a physical mask of an aperture with a
+precise area of 0.04 cm 2 was used to de ﬁne the OPV device area. The EQE
+spectra were acquired with a Solar Cell Spectral Response Measurement
+System QE-R3011 (Enlitech Co., Ltd). The light intensity at each wavelength
+was calibrated using a standard single-crystal Si photovoltaic cell. The J
+d– V
+characteristics of the OPD devices were measured on a semiconductor
+parameter analyzer (Platform Design Automation, PDA FS380 Pro) in an
+electrically and optically shielded box. The device active area for OPD was
+0.0516 cm
+2. The noise current from the device was ﬁrst ampli ﬁed by the
+current pre-ampliﬁer (SR 570) and then digitized by a FFT spectrum analyzer
+(Stanford Research, SR785). The signal response was recorded using a digital
+oscilloscope (Tektronix TDS3052B). And a current pre-ampli ﬁer (Stanford
+Research, SR 570) was adopted to amplify the input signal and to bias the
+device simultaneously.
+DATA AVAILABILITY
+All relevant data that support the ﬁndings of this study are available from authors
+upon reasonable request.
+Received: 26 July 2021; Accepted: 13 October 2021;
+REFERENCES
+1. Jinno, H. et al. Self-powered ultra ﬂexible photonic skin for continuous bio-signal
+detection via air-operation-stable polymer light-emitting diodes. Nat. Commun.
+12, 2234 (2021).
+2. Sun, Y. et al. Flexible organic photovoltaics based on water-processed silver
+nanowire electrodes. Nat. Electron. 2, 513 – 520 (2019).
+3. Kim, J. et al. High performance ﬂexible transparent electrode via one-step mul-
+tifunctional treatment for Ag nanonetwork composites semi-embedded in low-
+temperature-processed substrate for highly performed organic photovoltaics.
+Adv. Energy Mater. 10, 1903919 (2020).
+4. Xie, B., Chen, Z., Ying, L., Huang, F. & Cao, Y. Near-infrared organic photoelectric
+materials for light harvesting systems: organic photovoltaics and organic pho-
+todiodes. InfoMat 2,5 7 – 91 (2020).
+N. Cui et al.
+7
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2021)    31 
+
+5. Park, S. et al. Ultra ﬂexible near-infrared organic photodetectors for conformal
+photoplethysmogram sensors. Adv. Mater. 30, 1802359 (2018).
+6. Meng, X. et al. A general approach for lab-to-manufacturing translation on ﬂex-
+ible organic solar cells. Adv. Mater. 31, 1903649 (2019).
+7. Koo, D. et al. Flexible organic solar cells over 15% ef ﬁciency with polyimide-
+integrated graphene electrodes. Joule 4, 1021 – 1034 (2020).
+8. Qu, T.-Y. et al. Biomimetic electrodes for ﬂexible organic solar cells with ef ﬁ-
+ciencies over 16%. Adv. Optical Mater. 8, 2000669 (2020).
+9. Kim, J.-y et al. Low-temperature processable high-performance D-A-type random
+copolymers for nonfullerene polymer solar cells and application to ﬂexible
+devices. Adv. Energy Mater. 8, 1801601 (2018).
+10. Chen, X. et al. Realizing ultrahigh mechanical ﬂexibility and >15% ef ﬁciency of
+ﬂexible organic solar cells via a “welding” ﬂexible transparent electrode. Adv.
+Mater. 32, 1908478 (2020).
+11. Seo, K.-W., Lee, J., Jo, J., Cho, C. & Lee, J.-Y. Highly ef ﬁcient (>10%) ﬂexible organic
+solar cells on PEDOT-free and ITO-free transparent electrodes. Adv. Mater. 31,
+1902447 (2019).
+12. Wu, H. et al. Electrospun metal nano ﬁber webs as high-performance transparent
+electrode. Nano Lett. 10, 4242 – 4248 (2010).
+13. Jeon, I. et al. Direct and dry deposited single-walled carbon nanotube ﬁlms
+doped with MoO x as electron-blocking transparent electrodes for ﬂexible organic
+solar cells. J. Am. Chem. Soc. 137, 7982 – 7985 (2015).
+14. Song, W. et al. Foldable semitransparent organic solar cells for photovoltaic and
+photosynthesis. Adv. Energy Mater. 10, 2000136 (2020).
+15. Bergqvist, J. et al. Asymmetric photocurrent extraction in semitransparent lami-
+nated ﬂexible organic solar cells. npj Flex. Electron. 2, 4 (2018).
+16. Tang, H. et al. Highly conducting MXene-silver nanowire transparent electrodes
+for ﬂexible organic solar cells. ACS Appl. Mater. Interfaces 11, 25330– 25337 (2019).
+17. Azani, M.-R., Hassanpour, A. & Torres, T. Bene ﬁts, problems, and solutions of silver
+nanowire transparent conductive electrodes in indium tin oxide (ITO)-Free ﬂex-
+ible solar cells. Adv. Energy Mater. 10, 2002536 (2020).
+18. Fan, X. Doping and design of ﬂexible transparent electrodes for high-
+performance ﬂexible organic solar cells: recent advances and perspectives. Adv.
+Funct. Mater. 31, 2009399 (2021).
+19. Sun, Y. et al. Flexible high-performance and solution-processed organic photo-
+voltaics with robust mechanical stability. Adv. Funct. Mater. 31, 2010000 (2021).
+20. Yan, T. et al. 16.67% rigid and 14.06% ﬂexible organic solar cells enabled by
+ternary heterojunction strategy. Adv. Mater. 31, 1902210 (2019).
+21. Fukuda, K., Yu, K. & Someya, T. The future of ﬂexible organic solar cells. Adv.
+Energy Mater. 10, 2000765 (2020).
+22. Yan, C. et al. Stretchable and wearable electrochromic devices. ACS Nano 8,
+316– 322 (2014).
+23. Liang, J., Tong, K. & Pei, Q. A water-based silver-nanowire screen-print ink for the
+fabrication of stretchable conductors and wearable thin- ﬁlm transistors. Adv.
+Mater. 28, 5986 – 5996 (2016).
+24. Yang, Y. et al. Facile fabrication of stretchable Ag nanowire/polyurethane elec-
+trodes using high intensity pulsed light. Nano Res. 9, 401 – 414 (2016).
+25. Yao, S. et al. A wearable hydration sensor with conformal nanowire electrodes.
+Adv. Healthc. Mater. 6, 1601159 (2017).
+26. Xu, J. et al. Highly stretchable polymer semiconductor ﬁlms through the nano-
+conﬁnement effect. Science 355,5 9 – 64 (2017).
+27. Chen, Z. H., Fang, R., Li, W. & Guan, J. Stretchable transparent conductors: from
+micro/macromechanics to applications. Adv. Mater. 31, 1900756 (2019).
+28. Xia, Y., Aguirre, L. E., Xu, X. & Inganäs, O. All-polymer high-performance photo-
+detector through lamination. Adv. Electron. Mater. 6, 1901017 (2020).
+29. Lochner, C. M., Khan, Y., Pierre, A. & Arias, A. C. All-organic optoelectronic sensor
+for pulse oximetry. Nat. Commun. 5, 5745 (2014).
+30. Armin, A., Vuuren, R. D. J.-v, Kopidakis, N., Burn, P. L. & Meredith, P. Narrowband
+light detection via internal quantum ef ﬁciency manipulation of organic photo-
+diodes. Nat. Commun. 6, 6343 (2015).
+31. Wang, S., Oh, J. Y., Xu, J., Tran, H. & Bao, Z. Skin-inspired electronics: an emerging
+paradigm. Acc. Chem. Res. 51, 1033 – 1045 (2018).
+32. Cui, N. et al. A photolithographic stretchable transparent electrode for an all-
+solution-processed fully transparent conformal organic transistor array. J. Mater.
+Chem. C. 7, 5385 – 5393 (2019).
+33. Jeong, S. H., Zhang, S., Hjort, K., Hilborn, J. & Wu, Z. PDMS-based elastomer tuned
+soft, stretchable, and sticky for epidermal electronics. Adv. Mater. 28, 5830 – 5836
+(2016).
+34. Ren, H. et al. High-performance, ultrathin, ultra ﬂexible organic thin- ﬁlm transistor
+array via solution process. Small 14, 1801020 (2018).
+35. Atkinson, J. & Goldthorpe, I. A. Near-infrared properties of silver nanowire net-
+works. Nanotechnology 31, 365201 (2020).
+36. Qin, J. et al. Recent progress in ﬂexible and stretchable organic solar cells. Adv.
+Funct. Mater. 30, 2002529 (2020).
+37. Dagdeviren, C. et al. Conformal piezoelectric systems for clinical and experi-
+mental characterization of soft tissue biomechanics. Nat. Mater. 14, 728 (2015).
+38. Sun, Z. et al. Skin-like ultrasensitive strain sensor for full-range detection of
+human health monitoring. ACS Appl. Mater. Interfaces 12, 13287 – 13295 (2020).
+39. Iqbal, S. M. A., Mahgoub, I., Du, E., Leavitt, M. A. & Asghar, W. Advances in
+healthcare wearable devices. npj Flex. Electron. 5, 9 (2021).
+40. Stubhan, T. et al. Inverted organic solar cells using a solution processed
+aluminum-doped zinc oxide buffer layer. Org. Electron. 12, 1539 – 1543 (2011).
+41. Kim, J. et al. High performance ﬂexible transparent electrode via one-step mul-
+tifunctional treatment for ag nanonetwork composites semi-embedded in low-
+temperature-processed substrate for highly performed organic photovoltaics.
+Adv. Energy Mater. 10, 1903919 (2020).
+42. Zhang, W. et al. Graphene:silver nanowire composite transparent electrode based
+ﬂexible organic solar cells with 13.4% ef ﬁciency. J. Mater. Chem. A 7, 22021 (2019).
+43. Wang, X. et al. High-performance all-polymer photoresponse devices based on
+acceptor-acceptor conjugated polymers. Adv. Funct. Mater. 26, 6306– 6315 (2016).
+44. Jiang, Z. et al. Ultra ﬂexible integrated organic electronics for ultrasensitive pho-
+todetection. Adv. Mater. Technol. 6, 2000956 (2020).
+45. Zhao, Z., Xu, C., Niu, L., Zhang, X. & Zhang, F. Recent progress on broadband organic
+photodetectors and their applications.Laser Photonics Rev. 14, 2000262 (2020).
+46. Yang, D. & Ma, D. Development of organic semiconductor photodetectors: from
+mechanism to applications. Adv. Optical Mater. 7, 1800522 (2019).
+ACKNOWLEDGEMENTS
+This work was ﬁnancially supported by the National Key Research and Development
+Program of China (No. 2019YFA0705900) funded by MOST, the Basic and Applied
+Basic Research Major Program of Guangdong Province (No. 2019B030302007), the
+National Natural Science Foundation of China (No. 51521002), and Guangdong-Hong
+Kong-Macao joint laboratory of optoelectronic and magnetic functional materials
+(No. 2019B121205002).
+AUTHOR CONTRIBUTIONS
+F.H. and N.C. conceived and designed the work. N.C. carried out conformable device
+fabrication and performed electrical and optical measurements. Y.S. and N.C.
+conducted characterization of OPD characterization and implemented heart rate
+detecting. F.H., C.N., and C.-H.T. wrote and revised the manuscript. K.Z., X.Y., S.D., and
+B.X. analyzed and interpreted the data. All authors discussed the results and
+commented on the ﬁnal manuscript. F.H. supervised the project.
+COMPETING INTERESTS
+The authors declare no competing interests.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41528-021-00127-7.
+Correspondence and requests for materials should be addressed to Fei Huang.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article ’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the article’s
+Creative Commons license and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this license, visithttp://creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2021
+N. Cui et al.
+8
+npj Flexible Electronics (2021)    31 Published in partnership with Nanjing Tech University

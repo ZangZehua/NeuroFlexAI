@@ -1,0 +1,930 @@
+nanomaterials 
+Article
+Highly Skin-Conformal Laser-Induced Graphene-Based
+Human Motion Monitoring Sensor
+Sung-Yeob Jeong 1,†
+ , Jun-Uk Lee 2,† , Sung-Moo Hong 3, Chan-Woo Lee 2
+ , Sung-Hwan Hwang 2, Su-Chan Cho 2
+and Bo-Sung Shin 3,4, *
+/gid00030/gid00035/gid00032/gid00030/gid00038/gid00001/gid00033/gid00042/gid00045/gid00001
+/gid00048/gid00043/gid00031/gid00028/gid00047/gid00032/gid00046
+Citation: Jeong, S.-Y.; Lee, J.-U.;
+Hong, S.-M.; Lee, C.-W.; Hwang,
+S.-H.; Cho, S.-C.; Shin, B.-S. Highly
+Skin-Conformal Laser-Induced
+Graphene-Based Human Motion
+Monitoring Sensor. Nanomaterials
+2021, 11, 951. https://doi.org/
+10.3390/nano11040951
+Academic Editor: Kinga Pielichowska
+Received: 20 March 2021
+Accepted: 7 April 2021
+Published: 8 April 2021
+Publisher’s Note:MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+1 Department of Mechanical Engineering, The University of Tokyo, Tokyo 113-8656, Japan;
+ysjsykj8025@naver.com
+2 Department of Cogno-Mechatronics Engineering, Pusan National University, Pusan 46241, Korea;
+lju3534@naver.com (J.-U.L.); cwleeho2@naver.com (C.-W.L.); po78765@naver.com (S.-H.H.);
+cho_brian@naver.com (S.-C.C.)
+3 Interdisciplinary Department for Advanced Innovative Manufacturing Engineering,
+Pusan National University, Pusan 46241, Korea; hsm14789@naver.com
+4 Department of Optics and Mechatronics Engineering, Pusan National University, Pusan 46241, Korea
+* Correspondence: bosung@pusan.ac.kr; Tel.: +82-51-510-2787
+† These authors contributed equally to this work.
+Abstract: Bio-compatible strain sensors based on elastomeric conductive polymer composites play
+pivotal roles in human monitoring devices. However, fabricating highly sensitive and skin-like
+(ﬂexible and stretchable) strain sensors with broad working range is still an enormous challenge.
+Herein, we report on a novel fabrication technology for building elastomeric conductive skin-like
+composite by mixing polymer solutions. Our e-skin substrates were fabricated according to the
+weight of polydimethylsiloxane (PDMS) and photosensitive polyimide (PSPI) solutions, which could
+control substrate color. An e-skin and 3-D ﬂexible strain sensor was developed with the formation of
+laser induced graphene (LIG) on the skin-like substrates. For a one-step process, Laser direct writing
+(LDW) was employed to construct superior durable LIG/PDMS/PSPI composites with a closed-
+pore porous structure. Graphene sheets of LIG coated on the closed-porous structure constitute a
+deformable conductive path. The LIG integrated with the closed-porous structure intensiﬁes the
+deformation of the conductive network when tensile strain is applied, which enhances the sensitivity.
+Our sensor can efﬁciently monitor not only energetic human motions but also subtle oscillation and
+physiological signals for intelligent sound sensing. The skin-like strain sensor showed a perfect
+combination of ultrawide sensing range (120% strain), large sensitivity (gauge factor of ~380), short
+response time (90 ms) and recovery time (140 ms), as well as superior stability. Our sensor has great
+potential for innovative applications in wearable health-monitoring devices, robot tactile systems,
+and human–machine interface systems.
+Keywords: laser-induced graphene; wearable sensor; motion monitoring; photosensitive poly-
+imide; polydimethylsiloxane
+1. Introduction
+Over the past decades, strain sensors have been developed for industrial safety,
+architectural accuracy, and micro processing [ 1–5]. Recently, the importance of strain
+sensors has been increasing with the leap into the hyper-connected age of the 4th industrial
+revolution. It is possible to receive data from the human body; these data are the most
+important part of connectivity between human and technology and involve using strain
+sensors [6–13]. Therefore, it is necessary to develop a strain sensor that has good contact
+with the body and is thin, hydrophobic, ﬂexible, and similar in color to human skin.
+Such a sensor will be directly attached to the human body, handicapped prosthetic limb,
+or robot. Various attempts have been made to use polydimethylsiloxane (PDMS) as a
+Nanomaterials 2021, 11, 951. https://doi.org/10.3390/nano11040951 https://www.mdpi.com/journal/nanomaterials
+
+Nanomaterials 2021, 11, 951 2 of 15
+substrate for a strain sensor [13–17]. As PDMS has good advantages such as hydrophobicity,
+moldability, low interfacial free energy, and thermal and chemical stability, it is actively
+used as biocompatible substrate of a strain sensor [17–22]. Carbon-based nanomaterials
+are actively applied as electrodes of these strain sensors. Among such nanomaterials,
+graphene has received a lot of attention. Graphene is a single layer of carbon and has a
+unique structure, like a honeycomb made of sp2 bonds [23–25]. Graphene has a variety of
+advantages such as strong physical properties with a tensile strength of 130 GPa and an elastic
+modulus of 1 TPa, as well as high thermal conductivity and optical transparency [25]. Graphene
+can be fabricated via a variety of fabrication methods such as dry exfoliation[26–28], epitaxial
+growth [28–32], and chemical vapor deposition (CVD) [32–34]. In terms of mass production,
+various processes have been developed, but it is tricky to apply graphene’s remarkable
+properties to sensors because of the Van der Waals forces based on the 2-D structure [35].
+These cause aggregation [36], restacking [37], and disorder [38] in the graphene sheets and
+result in dramatically reduced surface area. Recently, 3-D porous structures of graphene
+(3-D PGS), called “Graphene aerosol”, have been reported to have better properties than
+those of 2-D graphene [39–42]. Therefore, many researchers have attempted to fabricate
+3-D PGS. Tour et al. published several papers on laser induced graphene (LIG) based on
+3-D PGS formed by irradiating a polymer using a CO2 infrared laser with a wavelength of
+1064 nm [43–47]. These types of LIG exhibit properties similar to those of graphene and
+are applicable to various ﬁelds. Tao et al. reported LIG fabricated using a 450 nm visible
+laser for application to sound-sensing [ 48]. Carvalho et al. presented a sensitive strain
+sensor utilizing LIG produced by UV irradiation [49]. Shin’s group also investigated the
+characteristics of LIG fabricated using a 355-nm UV pulsed laser and applied to physical
+and electrochemical sensors [50–52]. LIG has been proven through recent research that a
+signiﬁcant number of both pentagonal and heptangular carbon rings are formed in the
+structure by laser irradiation on the polymer, forming a three-dimensional carbon structure
+in which carbon rings are entangled [53]. Since graphene aerosol is not only ﬂexible but
+also highly sensitive to various changes in electrical properties stemming from physical
+changes, this material tends to be applied to human motion, voice, breathing, and pulse
+sensing. In this paper, we present a new fabrication method for a superbly sensitive skin
+color-like human monitoring strain sensor based on LIG fabricated by UV pulsed laser. We
+conducted an experiment to manufacture LIG by mixing liquid photosensitive polyimide
+(PSPI) into PDMS and irradiating the mixture with a 355 nm UV pulsed laser. Unlike
+conventional polyimide-based LIG sensors or other nanometal wire sensors, this skin color-
+like LIG sensor has advantages such as ﬂexibility, obtained by using PDMS substrate, and
+high sensitivity to physical elongation, obtained by using an LIG electrode, which induces
+a piezoresistive effect. The most important part of this skin color-like LIG patterned sensor
+is that it can be easily attached to many parts of the human body (biceps, elbow, ﬁnger, and
+throat). The attached sensor was able clearly to detect movements (strain: 40%) according
+to bending and stretching of the body; electrical properties of the sensor according to
+usage of sounds were also different, so that it can be used for voice detection. As a result,
+because our fabrication method is very simple, this sensor has high potential for medical
+and athletic wearable electronics and promising applications in a variety of ﬁelds.
+2. Materials and Methods
+2.1. Preparation of Skin Color-Like Polymers (SLPs)
+All prepolymers were prepared in liquid state for uniform dispersion. PSPI (PIP 100,
+PNS technology, Anyang, Korea) was added to PDMS base and its cross-linking agent
+(Sylgard 184, Sigma-Aldrich, St. Louis, MO, USA) and then magnetically stirred for about
+5 min. The mixtures were prepared by adjusting the weight ratio (PDMS:PSPI = 20:1, 10:1,
+5:1, and 5:2). As-prepared mixtures was transferred onto silicon wafer (4SWP06, Prime
+grade, Silicon Technology Corp, Tokyo, Japan) and then spin-coated at 500 rpm for 1 min.
+Subsequently, the sample was cured for 1 h at 200 ◦C on a hot plate and then cooled to
+room temperature.
+
+Nanomaterials 2021, 11, 951 3 of 15
+2.2. Electronic Skin Fabrication via UV Pulsed Laser System
+Facile Laser Direct Writing (LDW) was adopted for the preparation of active materials
+of the skin color-like strain sensor. A 3-D PGS of LIG was fabricated using a 355 nm pulsed
+laser (AONano 355-5-30-V from Advanced Optowave, Ronkonkoma, NA, USA) under
+ambient condition. Laser beam trapping was performed through the movements of the
+mirrors of the galvano scanner (HurrySCAN III 14 from SCANLAB, Pucheim, Germany)
+and the F-θ lens, f: 105.9 mm (S4LFT4100/075 Telecen-tric Scan Lens from Sill Optics,
+Wendelstein, Germany).
+2.3. Characterization
+The morphology of the LIG of the sensor was analyzed by ﬁeld emission scanning
+electron microscope (FE-SEM, TESCAN MIRA 3 LMH In-Beam Detector, Brno, Czechia)
+imaging. For the elemental analysis, an energy dispersive X-ray spectrometer (EDS, TES-
+CAN MIRA 3 LMH In-Beam Detector, Brno, Czechia) was also utilized. Raman spectra
+were obtained using a Micro Raman spectrometer (JASCO NRS-5100, Easton, MD, USA)
+with a 532 nm excitation laser system. Fourier transform infrared spectroscopy (FTIR)
+spectra were recorded in the range 500–3500 cm−1 employing a JASCO FT-4100 (Easton,
+MD, USA). For the analysis of the composition and chemical bond state of the LIG pat-
+terns, X-ray photoelectron spectrometer (XPS) spectra were analyzed with a THERMO VG
+SCIENTIFIC Multilab 2000 (Waltham, MA, USA). To obtain the crystalline characteristics,
+XRD was conducted on an X’Pert-MPD System (PHILIPS, Amsterdam, The Netherlands)
+with Cu Ka radiation (λ = 1.54 Å). Instantaneous resistance measurements were performed
+using an LCR meter (LCR Meter, Keithley Tektronix, Beaverton, OR, USA) at a DC voltage
+of 1 V .
+2.4. Formula
+For the initial length L0 and secondary length Ls, the strain is deﬁned as follows:
+ε (%) = x =
+⏐⏐⏐⏐
+Ls− L0
+L0
+⏐⏐⏐⏐× 100% (1)
+A common representation of the sensitivity of the sensor’s electrical response to
+mechanical changes is the gauge factor, which depends on the electrical resistance of the
+sensor when strain is applied:
+GF =
+⏐⏐⏐⏐
+R(ε)− R0
+ε
+⏐⏐⏐⏐ (2)
+where R0 and R(ε) are the initial electrical resistance and the electrical resistance in the
+presence of strain, respectively.
+The average value of the hysteresis (h) was calculated from the resistance (R) values,
+as follows:
+h (%) = x =
+⏐⏐⏐⏐
+RS− Rr
+Rm
+⏐⏐⏐⏐× 100 % (3)
+where the subscripts s, r, and m represent the stretching, release, and maximum value of
+the resistance at a particular strain, respectively.
+The Simmons equation is deﬁned as:
+Rtunnel = V
+AJ = h2d
+Ae2√
+2mλ
+· exp
+( 4πd
+h
+√
+2mλ
+)
+(4)
+where J is the tunneling current density; V is the electrical potential difference; A is the
+cross-sectional area of the tunnel; e is the quantum value of electricity; m is the mass of an
+electron; h is Planck’s constant; d is the distance between conductive particles; andλ is the
+height of the energy barrier.
+
+Nanomaterials 2021, 11, 951 4 of 15
+The crystalline size along the a axis is calculated from the ratio of the intensity of
+the G peak to that of the D peak in the Raman spectrum. L a can be obtained from the
+following equation:
+La = 2.4× 10−10×λR×
+( IG
+ID
+)
+(5)
+whereλR is the wavelength of the Raman laser (λR = 532 nm).
+The domain size (L a) and crystalline size (L c) of LIG are calculated from the XRD
+characteristics using the following equations:
+La = 1.84λ
+B(2θ)cosθ (6)
+Lc = 0.89λ
+B(2θ)cosθ (7)
+where B(2θ) (in radian units) is the full width at half maximum of peaks (002) and (100)
+andλ is the wavelength of the X-rays (λ = 1.54 Å).
+3. Results
+3.1. Fabrication of Electronic Skin Based on LIG
+Our ﬂexible and stretchable electronic skin (e-skin) consists of 3-D PGS networks
+produced by direct laser scribing. The laser used in this experiment is a UV pulsed
+laser with a wavelength of 355 nm, which causes a photochemical ablation, resulting
+in a high surface area porosity on the surface of the laser-induced graphene specimen.
+The fabrication process is shown in Figure 1a. Skin color-like polymers (for details, refer
+to Experimental Section 2.1) were spin-coated to give the samples constant thickness
+of from tens to hundreds of micrometers, with uniform dispersion. Depending on the
+different curing temperatures of PDMS (100◦C) and PSPI (250◦C), we baked the PDMS
+ﬁrst and then applied a hot plate to maintain the temperature at which the PSPI could cure
+completely. When baking at the curing temperature of PSPI from the beginning, because
+the heat resistance of PDMS is exceeded, noticeable pores appear after gases radically
+evaporate from the sample, and the ﬂexible PDMS itself loses its properties. What is
+noteworthy here is that the skin color can be determined according to the composition
+of the PDMS/PSPI mixture. The color of the skin color-like polymer becomes darker as
+the PSPI composition increases. The polymers were placed in a defocused 355 nm laser
+beam under ambient condition. Skin color-like substrate was irradiated with laser scanning
+speed from 40 mm/s to 60 mm/s and laser power of 1.2 W to obtain LIG optimized
+for human-motion monitoring sensors. In the viewpoint of mass production, the time to
+fabricate a sensor platform by directly irradiating the prepared polymer with a laser is ~15 s.
+A scanning gap larger than the spot diameter was implemented to leave an unburned area
+between the two scan lines. On the other hand, a smaller scanning gap was used to overlap
+the carbonized areas, causing over-burning of the skin color-like polymers. Likewise,
+the high speed of the laser tip sparsely burns the polymer, causing less graphitization.
+Considering these experimental conditions, we adopted a scribing power of 1.2 W, a line
+gap of 0.6µm, and a scanning speed of 60 mm/s. The e-skin was fabricated to produce a
+sensing area of 1× 0.5 cm2. Electrical contacts were formed on both sides of the sensing
+area by connecting Cu wires with the help of silver paste. As can be seen in Figure 1b,
+the e-skin is skin-conformal and skin color-like. Figure S1 shows the color of prepared
+samples according to the weight ratio of PDMS and PSPI. The surface morphology of
+e-skin fabricated according to the weight ratio of PSPI/PDMS was analyzed by FE-SEM
+in EDS mode, with results shown in Figure 1c and Figures S2–S3. The FE-SEM image in
+the ﬁgure and its inset clearly show that UV laser scribing of skin color-like substrates
+results in a 3-D PGS with a nanostructure composed of a wrinkled ﬂake-like morphology,
+resulting from the rapid liberation of carbonaceous and gaseous products. Figure S3 shows
+laser-induced graphitic patterns with porous structure due to instantaneous emission of
+
+Nanomaterials 2021, 11, 951 5 of 15
+gas due to the generation of very high localized temperature during laser irradiation. The
+pore size of the structure is tunable by controlling the laser power, resulting in a rate
+and an amount of liberation of the gas [ 43–47]. Elemental mapping of the e-skin was in
+FESEM-EDS mode. Obviously, as the weight ratio of PSPI in our skin color-like polymer
+increases, SEM images show that, after laser irradiation, many micron-sized cotton-like
+constituents, mostly composed of carbon, silicon, and oxygen (Figure S2), are generated.
+This causes the volume occupied by the pattern per unit mass to increase, and thus the
+permittivity increases as the presence of wrinkled LIG ﬂakes increases, giving the sensor
+better electrical properties. According to the EDS analysis results shown in Figure S2, the
+lower the weight ratio of PSPI, the lower the oxygen composition ratio in the graphitic
+pattern after laser irradiation. This is because the lower the PSPI ratio was, the higher
+laser ﬂuence that was needed to irradiate the substrate, and the higher the localized heat
+generated at this time to quickly discharge the gas. Studies reveal that, because of oxidation
+in the laser-scribed zone, the fabrication of large-scale porous graphene is possible without
+need for an inert atmosphere. The ﬂexible and stretchable e-skin can be fabricated through
+a simple one-step method of direct UV laser scribing. Many studies have successfully
+converted polyimide ﬁlms and particles to LIG using various lasers, and so graphene
+formation is most likely a photothermal process in which high localized temperatures of
+>2500◦C can easily break the C-O, C=O, and C-N bonds of PI. This paper reports that PSPI
+is successfully converted to LIG by 355 nm pulsed laser irradiation. To further analyze the
+crystallinity, elemental composition, chemical interactions, and compositions of the active
+areas of e-skin based on LIG, the material was systemically studied by Raman spectroscopy,
+XPS, FTIR, EDS, and XRD, respectively. The typical Raman spectrum of carbon materials
+contains bands marked as D, G, and 2D [ 54]. The D peak at 1350 cm -1 is an indication
+of a disorder band, showing that the graphene layers had considerable defects, such as
+vacancies and strained hexagonal/non-hexagonal (pentagon or heptagon) distortions that
+result in corrugation and twisting of layers [55]. The two Raman signatures of graphene
+are the G peak at ~1580 cm−1 and the 2D peak at ~2700 cm−1 [54]. The G peak is related
+to in-plane vibration of the sp 2 hybridized carbon atoms of graphene. The 2D peak is
+related to the number of and the stacking order of the graphene layers. Based on data
+obtained from the Raman spectra, additional information about the carbon materials can be
+obtained by analyzing the ratio of the intensities of individual peaks [56]. Figure 2a shows
+that the PDMS + PSPI model was graphitized after laser irradiation and clearly shows D,
+G, and 2D peaks. To analyze the crystal characteristics of LIG according to the ratio of
+PSPI/PDMS, we analyzed the intensity ratio and full width at half maximum (FWHM)
+of the G peak in Figure 2b or Figure S4. As a result of analyzing the Raman spectrum for
+each polymer model, when models 1 and 2 were graphitized after laser irradiation, the
+Raman spectra were similar to that of glassy carbon, as shown in Figure S4. However,
+the spectra from models 3 and 4 are obviously different from those of glassy carbon.
+The ID/IG ratio is related to the number of defects present in the carbon-based material.
+Figure 2b shows that the 5:2 (PDMS:PSPI) weight ratio sample has the structure with the
+fewest defects. The ratio of the peak intensities I2D/IG indicates the number of graphene
+layers in the material [57,58]. When the 2D band increases and the G band decreases, the
+number of layers in the material is assumed to increase. Therefore, the 5:1(PDMS:PSPI)
+ratio sample has the fewest graphene layers among all samples. We obtained the FWHM
+of the G peak and used it as a parameter for the estimation of the degree of development of
+carbon crystallities [59–62]. The G peak becomes narrower with the development of carbon
+crystallites in carbonaceous materials [61].
+
+Nanomaterials 2021, 11, 951 6 of 15
+Nanomaterials 2021, 11, x FOR PEER REVIEW 6 of 16 
+ 
+ 
+ 
+Figure 1. E-skin formed from skin-like polymer using UV pulsed laser irradiation; ( a) schematic of fabrication process of 
+e-skin from skin-like polymer, (b) E-skin placed onto wrist to sense joint movement, ( c) SEM image of laser induced gra-
+phene (LIG) patterned on skin-like polymer. (scale bar: 20 μm). 
+The sample with the 5:1 weight ratio is assumed to have the best crystalline charac-
+teristic, and this indicates that the 5:1 samp le has better crystalline graphene formation 
+and fewer layers of graphene formatio n. Additionally, the domain size (L a) of graphene 
+aerosol was analyzed through ID/IG analysis of each skin-polymer sample” OR “individual 
+skin-polymer samples. Raman spectroscopy plays a pivotal role in obtaining the crystal-
+line size along the a axis of a carbon material. Figure 2c shows the increase in the crystal-
+line size (L
+a) to ~49 nm as the weight ratio of PSPI  increases. These values are calculated 
+from Equation (5) in Section 2.4, Formulas. Fourier transform infra-red (FT-IR) analysis 
+was performed to investigate the molecular groups within the active surface area of the e-
+skin during the laser processing procedure.  The patterns are similar to those of PDMS 
+because of the high weight ratio of PDMS [63]. Among the patterns, the most intense ones 
+obtained were those associated with asymmetric −CH3 stretching in Si −CH3 (2950–2970 
+cm−1), stretching vibration of Si −O−Si bonds (1000–1100 cm −1), −CH3 rocking, and Si −C 
+stretching vibration in Si−CH3 (785–815 cm−1) [64–66]. By comparing the spectra of four of 
+the as-prepared samples, as shown in Figure S5, it can be concluded that the absorption 
+peaks at 704–760 cm−1 due to Si-C stretching become intense with increases in the weight 
+ratio of PSPI, indicating that this is a good carbon-based material precursor for detecting 
+strain [67,68]. It is obvious that all e-skin samples show an absorption peak at about 1073 
+cm-1, which is assigned to the C–O–C stretching vibrations of graphene [69]. The patterns 
+show a small peak at 1264 cm−1 assigned to the C–C bonds [70]. The C-H stretching vibra-
+tion peak of the methyl group associated with PDMS and graphene-based materials is 
+observed at 2929 cm −1 [71]. However, this signal overlaps with the absorption resulting 
+from the sulfonic acid group, which is in the same region [72]. It can be seen that LIG is 
+partially formed on the skin color-like substrate. The chemical composition of the active 
+materials contained in our sensing material was further confirmed by XPS spectra. The 
+survey spectra acquired on the e-skin confirm the presence of C, O, and Si; all of these 
+were also confirmed by the EDS spectra. As can be seen in Figure 2e, the XPS spectrum of 
+our graphitic pattern exhibits two distinct peaks, an O1s peak and a C1s peak. Comparison 
+of the five curves shows that the C1s peak ri ses as the PSPI ratio of the model increases. 
+This is further confirmed by the high resolution C1s XPS spectrum of our laser-induced 
+Figure 1. E-skin formed from skin-like polymer using UV pulsed laser irradiation; ( a) schematic of fabrication process
+of e-skin from skin-like polymer, (b) E-skin placed onto wrist to sense joint movement, ( c) SEM image of laser induced
+graphene (LIG) patterned on skin-like polymer. (scale bar: 20µm).
+The sample with the 5:1 weight ratio is assumed to have the best crystalline charac-
+teristic, and this indicates that the 5:1 sample has better crystalline graphene formation
+and fewer layers of graphene formation. Additionally, the domain size (La) of graphene
+aerosol was analyzed through I D/IG analysis of each skin-polymer sample” OR “indi-
+vidual skin-polymer samples. Raman spectroscopy plays a pivotal role in obtaining the
+crystalline size along the a axis of a carbon material. Figure 2c shows the increase in the
+crystalline size (L a) to ~49 nm as the weight ratio of PSPI increases. These values are
+calculated from Equation (5) in Section 2.4, Formulas. Fourier transform infra-red (FT-IR)
+analysis was performed to investigate the molecular groups within the active surface area
+of the e-skin during the laser processing procedure. The patterns are similar to those
+of PDMS because of the high weight ratio of PDMS [ 63]. Among the patterns, the most
+intense ones obtained were those associated with asymmetric−CH3 stretching in Si−CH3
+(2950–2970 cm−1), stretching vibration of Si−O−Si bonds (1000–1100 cm−1),−CH3 rock-
+ing, and Si−C stretching vibration in Si−CH3 (785–815 cm−1) [64–66]. By comparing the
+spectra of four of the as-prepared samples, as shown in Figure S5, it can be concluded that
+the absorption peaks at 704–760 cm−1 due to Si-C stretching become intense with increases
+in the weight ratio of PSPI, indicating that this is a good carbon-based material precursor
+for detecting strain [67,68]. It is obvious that all e-skin samples show an absorption peak at
+about 1073 cm−1, which is assigned to the C–O–C stretching vibrations of graphene [69].
+The patterns show a small peak at 1264 cm−1 assigned to the C–C bonds [70]. The C-H
+stretching vibration peak of the methyl group associated with PDMS and graphene-based
+materials is observed at 2929 cm−1 [71]. However, this signal overlaps with the absorption
+resulting from the sulfonic acid group, which is in the same region [72]. It can be seen that
+LIG is partially formed on the skin color-like substrate. The chemical composition of the
+active materials contained in our sensing material was further conﬁrmed by XPS spectra.
+The survey spectra acquired on the e-skin conﬁrm the presence of C, O, and Si; all of these
+were also conﬁrmed by the EDS spectra. As can be seen in Figure 2e, the XPS spectrum of
+our graphitic pattern exhibits two distinct peaks, an O1s peak and a C1s peak. Comparison
+of the ﬁve curves shows that the C1s peak rises as the PSPI ratio of the model increases.
+This is further conﬁrmed by the high resolution C1s XPS spectrum of our laser-induced
+graphitic pattern, shown in Figure S6. This indicates that, due to UV laser irradiation,
+the C-C peak increased and the C=O and C-Si peak decreased, resulting in better quality
+graphene layers; these results agree well with the Raman spectra and XRD results.
+
+Nanomaterials 2021, 11, 951 7 of 15
+We carried out XRD analysis of the skin color-like substrate and e-skin with variation
+of the PDMS/PSPI weight ratio, with results shown in Figure 2d. For the pure, skin-like
+substrate, there is a broad diffraction peak ranging from 18 to 80◦. As we had speculated
+from the composition of the skin-like polymer substrate, we observed a characteristic
+broad peak at a 2θ of about 12 in the XRD pattern, indicating the amorphous nature of
+PDMS [73]. These results are compared with the e-skin’s active area, fabricated by laser
+irradiation of the substrate. The XRD patterns of the e-skin show similar characteristics.
+Broad diffraction peaks are observed at around 25◦; these are related to the presence of a
+short-range order graphitic structure [74,75]. These three XRD patterns indicate that LIG
+ﬂakes were uniformly localized on the surfaces of the skin-like substrate. The crystalline
+size along the c axis (Lc) and a axis (La, domain size) are calculated using Equations (6) and
+(7) from Section 2.4 (Formulas). These results are deduced from the characteristics of the
+XRD peaks and calculated as Lc = ~32 nm and La = 48 nm, respectively.
+Nanomaterials 2021, 11, x FOR PEER REVIEW 7 of 16 
+ 
+ 
+graphitic pattern, shown in Figure S6. This indicates that, due to UV laser irradiation, the 
+C-C peak increased and the C=O and C-Si peak decreased, resulting in better quality gra-
+phene layers; these results agree well with the Raman spectra and XRD results. 
+We carried out XRD analysis of the skin color-like substrate and e-skin with variation 
+of the PDMS/PSPI weight ratio, with results shown in Figure 2d. For the pure, skin-like 
+substrate, there is a broad diffraction peak ranging from 18 to 80°. As we had speculated 
+from the composition of the skin-like polyme r substrate, we observed a characteristic 
+broad peak at a 2 θ of about 12 in the XRD pattern, indicating the amorphous nature of 
+PDMS [73]. These results are compared with th e e-skin’s active area, fabricated by laser 
+irradiation of the substrate. The XRD patterns of the e-skin show similar characteristics. 
+Broad diffraction peaks are observed at around 25°; these are related to the presence of a 
+short-range order graphitic structure [74,75]. These three XRD patterns indicate that LIG 
+flakes were uniformly localized on the surfaces of the skin-like substrate. The crystalline 
+size along the c axis (L c) and a axis (L a, domain size) are calculated using Equations (6) 
+and (7) from Section 2.4 (Formulas). These results are deduced from the characteristics of 
+the XRD peaks and calculated as Lc = ~32 nm and La = 48 nm, respectively. 
+Figure 2. Characterizations of laser-induced graphitic pattern fabricated according to different weight ratio of polydime-
+thylsiloxane (PDMS)/photosensitive polyimide (PSPI); ( a) Raman spectrum of an LIG patte rn and the skin-like polymer, 
+(b) statistical analysis of Raman spectra, ( c) average domain size along the a-axis of graphene aerosol in the LIG pattern, 
+(d) the XRD results of e-skin and the skin-like polymer, (e) XPS characteristics of the e-skin fabricated by according to the 
+various weight ratio of PDMS/PSPI. 
+3.2. Working Mechanism of Skin-Like Electronic Skin. 
+Strain sensors are electronic devices that can transform mechanical deformation into 
+electrical signals; these sensors have been widely applied in wearable electronics and 
+health care devices such as electronic skin (e -skin). There are a variety of kinds of strain 
+sensor based on fiber Bragg grating, relative change of capacitance, and variation of light 
+absorption; resistive strain sensors have been investigated intensively due to their ease of 
+fabrication, compatibility with electronic circuits and excellent mechanical tunability [76–
+81].  
+Figure 2. Characterizations of laser-induced graphitic pattern fabricated according to different weight ratio of polydimethyl-
+siloxane (PDMS)/photosensitive polyimide (PSPI); ( a) Raman spectrum of an LIG pattern and the skin-like polymer,
+(b) statistical analysis of Raman spectra, (c) average domain size along the a-axis of graphene aerosol in the LIG pattern,
+(d) the XRD results of e-skin and the skin-like polymer, (e) XPS characteristics of the e-skin fabricated by according to the
+various weight ratio of PDMS/PSPI.
+3.2. Working Mechanism of Skin-Like Electronic Skin
+Strain sensors are electronic devices that can transform mechanical deformation into
+electrical signals; these sensors have been widely applied in wearable electronics and health
+care devices such as electronic skin (e-skin). There are a variety of kinds of strain sensor
+based on fiber Bragg grating, relative change of capacitance, and variation of light absorption;
+resistive strain sensors have been investigated intensively due to their ease of fabrication,
+compatibility with electronic circuits and excellent mechanical tunability [76–81].
+As mentioned in the introduction, there are various methods of fabrication of resis-
+tive strain sensors based on graphene, which have excellent properties [ 49,50]. Strain
+sensors have been developed to have excellent stretchability and sensitivity by embed-
+ding graphene-based material within an elastic substrate such as PDMS and ECOFLEX.
+Although such sensors offer high Gauge Factors (GFs) and stretchability, durability and
+overshoot in the resistance response limit their practical applications in subtle human skin
+deformation. In this work, the naturally viscous material PSPI is used to give the substrate
+
+Nanomaterials 2021, 11, 951 8 of 15
+an excellent repeatable stretching property and good uniformity of the small thickness of
+the substrate for detecting small deformation from human motion. Our e-skin has similar
+mechanisms through which, when some external mechanical stimulation is applied, the
+internal conductive network becomes disconnected, and this results in resistance change.
+However, there is no limit of durability stemming from the mis-matched strain between
+the substrate and the active materials. This is because the sensing area was fabricated by
+irradiating a UV laser on the substrate itself. To further investigate the sensing mechanism
+of e-skin, the morphology variations of the sensing unit under strain were investigated.
+The strain (30, 60 and 90%) applied to the samples directly changes the morphological
+characteristics, as shown in Figure S7. It can be seen that graphene ﬂakes moved away
+under applied strain, which could explain the change of the structure characteristics. Based
+on the unique properties of graphene nanosheets, the resistance of e-skin under small strain
+range is attributed to the change of the tunneling effect between the graphene sheets [82].
+According to the Simmons function, the resistance of the e-skin can be calculated through
+the Equation (4) from Section 2.4 [83]. Under a small range of strains, the current pathway
+will be reduced within the e-skin intra-layer inside the graphene nano sheet and inter-layer
+in the overlapping areas of the graphene nano sheets. Some of the interconnections at the
+edges of graphene may also be broken [84]. By increasing the length of the e-skin, high
+variation of the electrical resistance of the multilayer graphene nano sheets results due
+to displacement of the layers and changing of the overlapping area and interruption of
+the layer connections. This mechanism may make it possible to explain that the change
+in GF according to the deformation of our e-skin is very linear. However, under a strain
+of approximately 120%, the large mathematical value of GF of ~380 calculated from the
+extremely high resistance change is ultimately the result of the complete loss of electrical
+connection (as can be seen in point F2 in Figure 3d). Therefore, the GF of the sensor that
+can be stably tested can be selected from the range of strain 0 to 110% and the GF in this
+case is ~110 (as can be seen in point F1 in Figure 3d).
+Nanomaterials 2021, 11, x FOR PEER REVIEW 9 of 16 
+ 
+ 
+ 
+Figure 3. Strain sensing performance of the e-skin ; change in relative resistance for ( a) 30% strain, (b) 60% strain, and (c) 
+90% strain. (d) linear relative resistance changes from 0 to 120% strain of the e-skin, (e) response and recovery time of the 
+e-skin for strain, (f) changes in current-voltage (I-V) characteristics of e-skin according to strain. 
+3.3. Human-Motion Monitoring Using Electronic Skin. 
+The piezoresistive properties of the grap hitic patterns embedded in the skin color-
+like substrates were investigated for human motion monitoring by using a motorized ten-
+sile machine that was able to apply uniaxial tensile strain to the substrates. Video S1 shows 
+the measurement system used to investigate th e piezoresistive properties of the e-skin 
+under tensile strain. Using an LCR meter and a source meter, the piezoresistive properties 
+were recorded by applying a continuous voltage (1V) to the e-skin to measure the change 
+of electrical resistance during tensile deformation of the sensor. The current-voltage (I-V) 
+characteristic of e-skins for various strains (30, 60, and 90% strain) is depicted in Figure 3. 
+Figure 3a–c shows the testing repeatability (over 10,000 times) at 30, 60, and 90% strain 
+with frequency of 1 Hz. Since we fabricated e-skin by irradiating a UV laser on the sub-
+strate itself, there is no contact resistance between the sensing part and the skin color-like 
+substrate, which would adversely affect the durability. Therefore, strong adhesion be-
+tween the graphene flakes and the substrate causes graphene embedded in the substrate 
+to experience the same strain level as the su bstrate. Our e-skin showed low electrical re-
+sistance hysteresis of 4% (at 90% strain). As can be seen in Figure 3e, the e-skin exhibited 
+a response time and recovery time of ~90 ms and ~140 ms, very fast speeds compared to 
+those of other wearable sensors [4–22]. When e-skin is subjected to strain, the gap between 
+graphene-aerosol flakes increases linearly with increasing strain because of deformation 
+of the PDMS/PSPI substrate. In the 90% strain repeatability test, it is presumed that the 
+gap between the graphene-aerosol flakes, due to the Van der Waals force, widens because 
+of electrical hysteresis. Therefore, after 10,000 iterations of the tensile strain test, the struc-
+ture of the e-skin does not return to its initial state. In spite of this phenomenon, our sensor 
+has high consistency of all stra in-cycle responses under cyclic processes. In addition, as 
+shown in Figure S8, the e-skin shows a low hysteresis effect at 30 and 60% strain, demon-
+strating its reliable durability and showing hi gh possibility for use in wearable devices. 
+Figure 3. Strain sensing performance of the e-skin; change in relative resistance for (a) 30% strain, (b) 60% strain, and (c) 90%
+strain. (d) linear relative resistance changes from 0 to 120% strain of the e-skin, (e) response and recovery time of the e-skin
+for strain, (f) changes in current-voltage (I-V) characteristics of e-skin according to strain.
+
+Nanomaterials 2021, 11, 951 9 of 15
+3.3. Human-Motion Monitoring Using Electronic Skin
+The piezoresistive properties of the graphitic patterns embedded in the skin color-
+like substrates were investigated for human motion monitoring by using a motorized
+tensile machine that was able to apply uniaxial tensile strain to the substrates. Video S1
+shows the measurement system used to investigate the piezoresistive properties of the
+e-skin under tensile strain. Using an LCR meter and a source meter, the piezoresistive
+properties were recorded by applying a continuous voltage (1V) to the e-skin to measure
+the change of electrical resistance during tensile deformation of the sensor. The current-
+voltage (I-V) characteristic of e-skins for various strains (30, 60, and 90% strain) is depicted
+in Figure 3. Figure 3a–c shows the testing repeatability (over 10,000 times) at 30, 60, and
+90% strain with frequency of 1 Hz. Since we fabricated e-skin by irradiating a UV laser
+on the substrate itself, there is no contact resistance between the sensing part and the
+skin color-like substrate, which would adversely affect the durability. Therefore, strong
+adhesion between the graphene ﬂakes and the substrate causes graphene embedded in
+the substrate to experience the same strain level as the substrate. Our e-skin showed low
+electrical resistance hysteresis of 4% (at 90% strain). As can be seen in Figure 3e, the e-skin
+exhibited a response time and recovery time of ~90 ms and ~140 ms, very fast speeds
+compared to those of other wearable sensors [ 4–22]. When e-skin is subjected to strain,
+the gap between graphene-aerosol ﬂakes increases linearly with increasing strain because
+of deformation of the PDMS/PSPI substrate. In the 90% strain repeatability test, it is
+presumed that the gap between the graphene-aerosol ﬂakes, due to the Van der Waals
+force, widens because of electrical hysteresis. Therefore, after 10,000 iterations of the tensile
+strain test, the structure of the e-skin does not return to its initial state. In spite of this
+phenomenon, our sensor has high consistency of all strain-cycle responses under cyclic
+processes. In addition, as shown in Figure S8, the e-skin shows a low hysteresis effect
+at 30 and 60% strain, demonstrating its reliable durability and showing high possibility
+for use in wearable devices. All e-skin samples have relative resistance variation curves
+that ascend with increase in strain and fracture at ~125% strain, as shown in Figure 3d.
+Therefore, the strain sensing range of the e-skin is 120%, and this is entirely due to the
+physical properties of the skin color-like substrates. The value of GF is 21–35 in the strain
+range from 0 to ~1%, which indicates that our e-skin has high potential for application to
+wearable human motion detecting devices. Additionally, the value of GF reaches ~380 in
+the strain range of 115 to 120%, which easily exceeds those of other graphene family-based
+strain sensors [12,15,17,18,22,85]. Figure 3f shows that the body of the sensing area of the
+e-skin changes according to the application of strain, which affects the relative resistance.
+Additionally, by applying stress (which results in strain) in steps, with each application of
+force the V-I curve starts to shift.
+3.4. Application of E-Skin for Human Motion Detection
+To evaluate the potential of the skin color-like e-skin as a wearable device for human-
+motion and sound (from vocal cords) detection, the e-skin was attached to different skin
+parts of the human body (eyebrow, mouth, ﬁnger, biceps, wrist, and throat), as shown
+in Figure 4a. Since our e-skin shows large relative resistance changes to ﬁne strain, it
+has excellent responsiveness in detecting changes in the human pulse, vocal cords, and
+facial expressions. Figure 4b,c exhibit responses of the e-skin to the raise–relax cycle of
+the eyebrows and to movements of the muscles near the lips. The sensing unit of the
+e-skin shows relative resistance changes with movement, which indicates its ability to
+sensitively detect subtle facial movements. This result could suggest the potential to apply
+this material as an emotion recognition sensor. Our e-skin showed great responses to
+joint and muscle movements. Figure 4d shows the relative resistance curve resulting from
+analysis of movement of bending a ﬁnger and indicates our sensor’s potential application
+in the ﬁeld of ﬁnger-gesture control in robots and humans. Since the e-skin has response
+and recovery times of ~90 ms and ~140 ms, it is able to detect the strain created by even very
+fast ﬁnger movements. In another case, our e-skin was found to be capable of capturing
+
+Nanomaterials 2021, 11, 951 10 of 15
+subtle signals with high sensitivity under small strain changes caused by stepped-bending
+of a ﬁnger. Figure 4e shows that the skin color-like sensor has great sensitivity to bicep
+contraction and relaxation (two types: squeeze–relax and rotate–relax) over very short time
+intervals. The change in resistance due to muscle contraction caused by squeezing the
+muscle is more pronounced than the change in muscle contraction due to rotating, which
+shows the possibility that this sensor could make a contribution to a wearable system for
+muscle training or rehabilitation exercises. The response time and recovery time of the
+sensor are ~90 and ~140 ms, which are impressively fast compared to those of other strain
+sensors [5–22,54,55].
+Nanomaterials 2021, 11, x FOR PEER REVIEW 11 of 16 
+ 
+ 
+ 
+Figure 4. Application of e-skin for wearable devices; ( a) schematic image of e-skin atta ched to various parts (eyebrow, 
+mouth, finger, biceps, wrist, vocal cord) of the human body; (b,c) response of the e-skin for movement of the eyebrow and 
+mouth to sense facial expression; (d,e) response of e-skin for movement of finger and biceps while stepping and moving 
+fast. (f) Sensor response of e-skin for pulse. (g) Sensing for the sounds “E”, ”A”, and “O” while attached onto throat (vocal 
+cord). 
+PDMS, the substrate of the e-skin, is not at all harmful to the skin and is flexible, and 
+so the attached sensor is very suitable for sk in and has high sensitivity to subtle muscle 
+movements including the pulse of the wrist, as shown in Figure 4f. In modern times, meas-
+uring arterial pulse rate per minute, or heart rate, is very important. Therefore, most strain 
+sensors measure the pressure wave generated by the heart through the wrist or neck, 
+which is a general standard for strain sensors [57–62]. Analysis of pulse waves can be used 
+to measure various health conditions of th e human cardiovascular system. Figure 4f 
+shows the response of the e-skin when cont inuously monitoring the pulse of a 28-year-
+old male subject. The pulse pressure wave induces deformation of the graphitic area, 
+which is the sensing area of the e-skin; there is a gap between the 3-dimensional graphene 
+flakes that leads to a distinct change in the relative resistance of the sensor. From the arte-
+rial pulse, a distinct change in electrical property of the e-skin was observed and it can be 
+seen that the e-skin recorded 6 to 7 pulses ov er 5 s, which is 70 to 80 pulses/minute. In 
+addition, Figure S9 shows that the e-skin can detect characteristics of the wrist pulse con-
+sisting of three peaks (P1: percussion peaks, P2: tidal peaks, and P3: diastolic peaks). This 
+means that our e-skin can detect a whole range of body movements, from very subtle 
+pulse pressure waves to movements of muscles and joints and suggests that the e-skin has 
+the potential for application to fields of bi o-healthcare and robot control. As shown in 
+Figure 4f, different waveforms were recorded as the sensor responded to repetitive 
+sounds. The subtle movements of the vocal cords, the difference in the intensity of sound, 
+Figure 4. Application of e-skin for wearable devices; ( a) schematic image of e-skin attached to various parts (eyebrow,
+mouth, ﬁnger, biceps, wrist, vocal cord) of the human body; (b,c) response of the e-skin for movement of the eyebrow and
+mouth to sense facial expression; (d,e) response of e-skin for movement of ﬁnger and biceps while stepping and moving fast.
+(f) Sensor response of e-skin for pulse. (g) Sensing for the sounds “E”, ”A”, and “O” while attached onto throat (vocal cord).
+PDMS, the substrate of the e-skin, is not at all harmful to the skin and is ﬂexible, and
+so the attached sensor is very suitable for skin and has high sensitivity to subtle muscle
+movements including the pulse of the wrist, as shown in Figure 4f. In modern times,
+measuring arterial pulse rate per minute, or heart rate, is very important. Therefore, most
+strain sensors measure the pressure wave generated by the heart through the wrist or neck,
+which is a general standard for strain sensors [ 57–62]. Analysis of pulse waves can be
+used to measure various health conditions of the human cardiovascular system. Figure 4f
+shows the response of the e-skin when continuously monitoring the pulse of a 28-year-old
+male subject. The pulse pressure wave induces deformation of the graphitic area, which is
+the sensing area of the e-skin; there is a gap between the 3-dimensional graphene ﬂakes
+that leads to a distinct change in the relative resistance of the sensor. From the arterial
+pulse, a distinct change in electrical property of the e-skin was observed and it can be seen
+that the e-skin recorded 6 to 7 pulses over 5 s, which is 70 to 80 pulses/min. In addition,
+Figure S9 shows that the e-skin can detect characteristics of the wrist pulse consisting of
+
+Nanomaterials 2021, 11, 951 11 of 15
+three peaks (P1: percussion peaks, P2: tidal peaks, and P3: diastolic peaks). This means
+that our e-skin can detect a whole range of body movements, from very subtle pulse
+pressure waves to movements of muscles and joints and suggests that the e-skin has the
+potential for application to ﬁelds of bio-healthcare and robot control. As shown in Figure 4f,
+different waveforms were recorded as the sensor responded to repetitive sounds. The subtle
+movements of the vocal cords, the difference in the intensity of sound, and the difference in
+the height of sound appear as different waveforms through the sensor, and it is possible to
+apply the uniquely formed signals to the Internet of Things (IoT) and other industries that
+involved voice recognition. In addition, Figure 5 shows the sensing ability of our e-skin
+to subtle oscillations from vocal cord. The e-skin was attached to the Adam’s apple as
+shown in Figure 5, monitoring subtle oscillations of Larynx and vocal cord due to saliva
+swallowing (Figure 5a), snifﬁng (Figure 5b), coughing (Figure 5c), yawning (Figure 5d), and
+as well as phonation of four different greetings (Figure 5e–h). The electrical signal records
+in response to saliva swallowing present two distinct curves for each time. Likewise, the
+expansion of the bronchi caused by the instantaneous breathing in a large amount applied
+strain to the e-skin, causing relative resistance changes to appear. In the case of coughing,
+the subtle movement of the neck is also a huge factor of strain applied to the e-skin, so it
+induced the relative resistance change to ~40. The e-skin presents the different electrical
+signal changes for the four greetings: Korean (Annyounghaseyo), Japanese (Konnichiwa),
+Chinese (Nihao), and English. The sensor showed peaks in the pronunciation where
+movement of the vocal cords such as “YO”, “A”, “WA”, and “OU” occurs.
+Nanomaterials 2021, 11, x FOR PEER REVIEW 12 of 16 
+ 
+ 
+and the difference in the height of sound appear as different waveforms through the sen-
+sor, and it is possible to apply the uniquely formed signals to the Internet of Things (IoT) 
+and other industries that involved voice recognition. In addition, Figure 5 shows the sens-
+ing ability of our e-skin to subtle oscillations from vocal cord. The e-skin was attached to 
+the Adam’s apple as shown in Figure 5, monitoring subtle oscillations of Larynx and vocal 
+cord due to saliva swallowing (Figure 5a), sniffing (Figure 5b), coughing (Figure 5c), 
+yawning (Figure 5d), and as well as phonation of four different greetings (Figure 5e–h). 
+The electrical signal records in response to saliva swallowing present two distinct curves 
+for each time. Likewise, the expansion of the bronchi caused by the instantaneous breath-
+ing in a large amount applied strain to the e- skin, causing relative resistance changes to 
+appear. In the case of coughing, the subtle move ment of the neck is al so a huge factor of 
+strain applied to the e-skin, so it induced the relative resistance change to ~40. The e-skin 
+presents the different electrical signal changes for the four greetings: Korean (Annyoung-
+haseyo), Japanese (Konnichiwa), Chinese (Nihao), and English. The sensor showed peaks 
+in the pronunciation where movement of the vocal cords such as “YO”, “A”, “WA”, and 
+“OU” occurs. 
+ 
+Figure 5. Electrical signal records for subtle oscillations associated with the human vocal cord; the corresponding time 
+dependent electrical signals of (a) swallowing salvia, (b) sniffing, (c) coughing, (d) yawning, and phonation of words four 
+greetings: (e) Korean, (f) Chinese, (g) Japanese, and (h) English. 
+Therefore, the peak pattern in signal reco rds were distinguishable from each other, 
+confirming the reliability of the e-skin to detect motion from vocal cords. Most diseases 
+that cause dysphagia are senile nervous system diseases such as dementia and Parkin-
+son’s disease, of which stroke is the most common. The process of swallowing food is 
+controlled by the central part of the brainstem, through the cranial nerves to the oral cav-
+ity, pharynx, and larynx. Therefore, finding out whether the subject’s salivation process 
+is doing well can be of great help in diagnosing the aforementioned diseases. 
+4. Conclusions 
+In summary, based on LIG, strain sensors with a closed-porous structure were fabri-
+cated by irradiating a laser onto a PDMS/PSPI substrate using LDW; this is a controlled, 
+cost-effective, one-step, and continuous process. By changing the weight ratio of PDMS to 
+PSPI and the laser scanning speed, the color of the substrate and the working range, re-
+spectively, can be tuned. We demonstrated the advantage of introducing hollow struc-
+tures into the LIG to further increase the air gap volume and reduce the effective mechan-
+ical modulus. The fabricated strain sensor shows a high stretchability (over 90%) and high 
+sensitivity (~35-gauge factor) as well as a good linear relationship between the applied 
+strain and electrical resistance change. Furthermore, the skin color-like strain sensor 
+showed small hysteresis and excellent durability under cyclic stretching–releasing cycles. 
+A tremendous number of potential applications for our sensor, in detecting not only subtle 
+Figure 5. Electrical signal records for subtle oscillations associated with the human vocal cord; the corresponding time
+dependent electrical signals of (a) swallowing salvia, (b) snifﬁng, (c) coughing, (d) yawning, and phonation of words four
+greetings: (e) Korean, (f) Chinese, (g) Japanese, and (h) English.
+Therefore, the peak pattern in signal records were distinguishable from each other,
+conﬁrming the reliability of the e-skin to detect motion from vocal cords. Most diseases
+that cause dysphagia are senile nervous system diseases such as dementia and Parkinson’s
+disease, of which stroke is the most common. The process of swallowing food is controlled
+by the central part of the brainstem, through the cranial nerves to the oral cavity, pharynx,
+and larynx. Therefore, ﬁnding out whether the subject’s salivation process is doing well
+can be of great help in diagnosing the aforementioned diseases.
+4. Conclusions
+In summary, based on LIG, strain sensors with a closed-porous structure were fabri-
+cated by irradiating a laser onto a PDMS/PSPI substrate using LDW; this is a controlled,
+cost-effective, one-step, and continuous process. By changing the weight ratio of PDMS to
+PSPI and the laser scanning speed, the color of the substrate and the working range, respec-
+tively, can be tuned. We demonstrated the advantage of introducing hollow structures into
+the LIG to further increase the air gap volume and reduce the effective mechanical modulus.
+
+Nanomaterials 2021, 11, 951 12 of 15
+The fabricated strain sensor shows a high stretchability (over 90%) and high sensitivity
+(~35-gauge factor) as well as a good linear relationship between the applied strain and
+electrical resistance change. Furthermore, the skin color-like strain sensor showed small
+hysteresis and excellent durability under cyclic stretching–releasing cycles. A tremendous
+number of potential applications for our sensor, in detecting not only subtle oscillation but
+also vigorous human motions (such as ﬁnger, wrist, elbow, and knee bending) were demon-
+strated. Such novel strain sensors are expected to be applied as next-generation materials
+for facile integration into smart wearable devices for human motion detection, personalized
+healthcare, and electronic skin. Our e-skin showed excellent response to subject’s saliva
+swallowing, which proves the possibility of using the sensor as a diagnostic device.
+Supplementary Materials: The following are available online at https://www.mdpi.com/2079-4
+991/11/4/951/s1, Figure S1. (a) Schematic image of the sample made through this experiment;
+PDMS/PSPI weight ratio for each sample; (c) 20:1, (d) 10:1, (e) 5:1, and (f) 5:2. The color of the
+model depends on the PSPI weight ratio. Figure S1b. Schematic image of the samples attached
+to body parts; Figure S2. Elemental mapping of cotton-like materials in LIG patterns by energy
+dispersive x-ray (EDS) spectrometer from each sample. Figure S3. Top view SEM images of the
+skin-like electronic skin. Figure S4. Raman spectra of controlled samples; each skin-like polymer was
+carbonized by 355 pulsed laser irradiations with laser power of 1.2 W and scanning speed of 60 mm/s;
+skin-like polymer was fabricated by mixing two liquid-state materials (PDMS and PSPI); (a) 5:2,
+(b) 5:1, (c) 10:1, and (d) 20:1. Figure S5. FTIR spectra of e-skin fabricated with (a) 5:2 (PDMS:PSPI)-,
+(b) 5:1 (PDMS:PSPI)-, (c) 10:1 (PDMS:PSPI)-, and (d) 20:1 (PDMS:PSPI)-skin-like polymers. Figure S6.
+XPS characterization of each e-skin; In the sensing unit of e-skin fabricated after laser irradiation,
+as the ratio of PSPI in the polymer increases, the ratio of C-C bonds increases, and the ratio of C-Si
+bonds decreases. Figure S7. The Top-view of e-skin surface under strain of (a) 0%, (b) 30%, (c) 60%,
+and (d) 90% (cracks generated by strain are marked as yellow). Figure S8. Hysteresis error of the
+E-skin under strain of (a) 30%, (b) 60% and (c) 90%. Figure S9. The characteristic proﬁle of wrist
+pulses with each composed of three peaks; P1—Percussion peak, P2—Tidal peak, and P3—Diastolic
+peak. Video S1: Cyclic tensile strain test system composed of the Arduino railroad, computer, source
+meter and LCR meter.
+Author Contributions: Conceptualization, S.-Y.J. and J.-U.L.; methodology, S.-Y.J.; software J.-U.L.;
+validation, S.-Y.J., C.-W.L. and J.-U.L.; formal analysis, S.-M.H.; investigation, S.-Y.J.; resources, S.-
+C.C.; data curation, S.-H.H.; writing—original draft preparation, S.-Y.J. and J.-U.L.; writing—review
+and editing, S.-M.H. and B.-S.S.; visualization J.-U.L.; supervision, B.-S.S.; project administration,
+B.-S.S.; funding acquisition, B.-S.S. All authors have read and agreed to the published version of
+the manuscript.
+Funding: This research received no external funding.
+Acknowledgments: This research was also supported by the Basic Science Research Program,
+through a National Research Foundation of Korea (NRF) grant funded by the Ministry of Edu-
+cation (2018R1D1A3B07045662). This paper was supported by a Korea Institute for the Advancement
+of Technology (KIAT) grant funded by the Korean government (MOTIE). This work was supported
+by the Technology Innovation Program (N0002310 and P0008763) funded by the Ministry of Trade,
+Industry, and Energy (MOTIE, Korea).
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Kersey, A.D.; Berkoff, T.A.; Morey, W.W. Multiplexed ﬁber Bragg grating strain-sensor system with a ﬁber Fabry–Perot wavelength
+ﬁlter. Opt. Lett. 1993, 18, 1370–1372. [CrossRef]
+2. Bao, X.; Webb, D.J.; Jackson, D.A. Combined distributed temperature and strain sensor based on Brillouin loss in an optical ﬁber.
+Opt. Lett. 1994, 19, 141–143. [CrossRef] [PubMed]
+3. Wang, X.; Chung, D.D.L. Short carbon ﬁber reinforced epoxy coating as a piezoresistive strain sensor for cement mortar. Sens.
+Actuator A Phys. 1998, 71, 208–212. [CrossRef]
+4. Han, B.; Ou, J. Embedded piezoresistive cement-based stress/strain sensor. Sens. Actuator A Phys. 2007, 138, 294–298. [CrossRef]
+5. Zhou, J.; Gu, Y.; Fei, P .; Mai, W.; Gao, Y.; Yang, R.; Bao, G.; Wang, Z.L. Flexible Piezotronic Strain Sensor. Nano Lett. 2008, 8,
+3035–3040. [CrossRef]
+
+Nanomaterials 2021, 11, 951 13 of 15
+6. Kang, I.; Shulz, M.J.; Kim, J.H.; Shanov, V .; Shi, D. A carbon nanotube strain sensor for structural health monitoring.Smart Mater.
+Struct. 2006, 15, 737–748. [CrossRef]
+7. Yamada, T.; Hayamizu, Y.; Yamamoto, Y.; Yomogida, Y.; Izadi-Nafafabadi, A.; Futaba, D.N.; Hata, K. A stretchable carbon
+nanotube strain sensor for human-motion detection. Nat. Nanotechnol. 2011, 6, 296–301. [CrossRef]
+8. Lee, J.; Kim, S.; Lee, J.; Yang, D.; Park, B.C.; Ryu, S.; Park, I. A stretchable strain sensor based on a metal nanoparticle thin ﬁlm for
+human motion detection. Nanoscale 2014, 6, 11932–11939. [CrossRef] [PubMed]
+9. Ryu, S.; Lee, P .; Chou, J.B.; Xu, R.; Zhao, R.; Hart, A.J.; Kim, S.G. Extremely Elastic Wearable Carbon Nanotube Fiber Strain Sensor
+for Monitoring of Human Motion. ACS Nano 2015, 9, 5929–5936. [CrossRef] [PubMed]
+10. Roh, E.; Hwang, B.U.; Kim, D.; Kim, B.Y.; Lee, N.E. Stretchable, Transparent, Ultrasensitive, and Patchable Strain Sensor for
+Human–Machine Interfaces Comprising a Nanohybrid of Carbon Nanotubes and Conductive Elastomers. ACS Nano 2015, 9,
+6252–6261. [CrossRef] [PubMed]
+11. Choi, D.Y.; Kim, M.H.; Oh, Y.S.; Jung, S.H.; Jung, J.H.; Sung, H.J.; Lee, H.W.; Lee, H.M. Highly Stretchable, Hysteresis-Free Ionic
+Liquid-Based Strain Sensor for Precise Human Motion Monitoring. ACS Appl. Mater. Interfaces 2017, 9, 1770–1780. [CrossRef]
+12. Zheng, Y.; Li, Y.; Dai, K.; Wang, Y.; Zheng, G.; Liu, C.; Shen, C. A highly stretchable and stable strain sensor based on hybrid
+carbon nanoﬁllers/polydimethylsiloxane conductive composites for large human motions monitoring. Compos. Sci. T echnol. 2018,
+156, 276–286. [CrossRef]
+13. Tabish, T.A.; Aumber, A.; Roger, J.N. Graphene nanocomposites for transdermal biosensing.Wiley Int. Rev. Nanomed. Nanobiotech-
+nol. 2021, e1699. [CrossRef]
+14. Wu, S.; Ladani, R.B.; Zhang, J.; Ghorbani, K.; Zhang, X.; Mouritz, A.P .; Kinloch, A.J.; Wang, C.H. Strain Sensors with Adjustable
+Sensitivity by Tailoring the Microstructure of Graphene Aerogel/PDMS Nanocomposites. ACS Appl. Mater. Interfaces 2016, 8,
+24853–24861. [CrossRef] [PubMed]
+15. Wu, S.; Zhang, J.; Ladnai, R.B.; Racindran, A.R.; Mouritz, A.P .; Kinloch, A.J.; Wang, C.H. Novel Electrically Conductive Porous
+PDMS/Carbon Nanoﬁber Composites for Deformable Strain Sensors and Conductors. ACS Appl. Mater. Interfaces 2017, 9,
+14207–14215. [CrossRef]
+16. Chen, J.; Zheng, J.; Gao, Q.; Zhang, J.; Zhang, J.; Omisore, O.M.; Wang, L.; Li, H. Polydimethylsiloxane (PDMS)-Based Flexible
+Resistive Strain Sensors for Wearable Applications. Appl. Sci. 2018, 8, 345. [CrossRef]
+17. Wang, L.; Chen, W.; Lin, L.; Wang, H.; Huang, X.; Xue, H.; Gao, J. Highly stretchable, anti-corrosive and wearable strain sensors
+based on the PDMS/CNTs decorated elastomer nanoﬁber composite. Chem. Eng. J. 2019, 362, 89–98. [CrossRef]
+18. Wang, Y.; Wang, L.; Li, X.; Zang, X.; Zhu, M.; Wang, K.; Wu, D.; Zhu, H. Wearable and Highly Sensitive Graphene Strain Sensors
+for Human Motion Monitoring. Adv. Funct. Mater. 2014, 24, 4666–4670. [CrossRef]
+19. Wang, S.; Xiao, P .; Liang, Y.; Zhang, J.; Huang, Y.; Wu, S.; Kuo, S.W.; Chen, T. Network cracks-based wearable strain sensors for
+subtle and large strain detection of human motions. J. Mater. Chem. C 2018, 6, 5140–5147. [CrossRef]
+20. Kim, I.; Woo, K.; Zhong, Z.; Ko, P .; Jang, Y.; Jung, M.; Jo, J.; Kwon, S.; Lee, S.H.; Lee, S.; et al. A photonic sintering derived Ag
+ﬂake/nanoparticle-based highly sensitive stretchable strain sensor for human motion monitoring. Nanoscale 2018, 10, 7890–7897.
+[CrossRef]
+21. Ma, J.; Wang, P .; Chen, H.; Bao, S.; Chen, W.; Lu, H. Highly Sensitive and Large-Range Strain Sensor with a Self-Compensated
+Two-Order Structure for Human Motion Detection. ACS Appl. Mater. Interfaces 2019, 11, 8527–8536. [CrossRef]
+22. Li, T.; Li, J.; Zhong, A.; Han, F.; Sun, R.; Wong, C.P .; Niu, F.; Zhang, G.; Jun, Y. A ﬂexible strain sensor based on CNTs/PDMS
+microspheres for human motion detection. Sens. Actuator A Phys. 2020, 306, 111959. [CrossRef]
+23. Stankovich, S.; Dikin, D.A.; Dommett, G.H.B.; Kohlhaas, K.M.; Zimney, E.J.; Stach, E.A.; Piner, R.D.; Nguyen, S.T.; Ruoff, R.S.
+Graphene based composite materials. Nature 2006, 442, 282–286. [CrossRef] [PubMed]
+24. Castro Neto, A.H.; Guinea, F.; Peres, N.M.R.; Novoselov, K.S.; Geim, A.K. The electronic properties of graphene.Rev. Mod. Phys.
+2009, 81, 109–162. [CrossRef]
+25. Geim, A.K. Graphene: Status and Prospects. Science 2009, 324, 1530–1534. [CrossRef] [PubMed]
+26. Lee, C.; Wei, X.; Kysar, J.W.; Hone, J. Measurement of the Elastic Properties and Intrinsic Strength of Monolayer Graphene.Science
+2008, 321, 385–388. [CrossRef] [PubMed]
+27. Novoselov, K.S.; Jiang, D.; Schedin, F.; Booth, T.J.; Khotkevich, V .V .; Morozov, S.V .; Geim, A.K. Two-dimensional atomic crystals.
+Proc. Nalt. Acad. Sci. USA 2005, 102, 10451–10453. [CrossRef]
+28. Shukla, A.; Kumar, R.; Mazher, J.; Balan, A. Graphene made easy: High quality, large-area samples. Solid State Commun. 2009, 149,
+718–721. [CrossRef]
+29. Dhar, S.; Barman, A.R.; Ni, G.X.; Wang, X.; Xu, X.F.; Zheng, Y.; Tripathy, S.; Ariando; Rusydi, A.; Loh, K.P .; et al. A new route to
+graphene layers by selective laser ablation. AIP Adv. 2011, 1, 022109. [CrossRef]
+30. Gao, M.; Pan, Y.; Huang, L.; Hu, H.; Zhang, L.Z.; Guo, H.M.; Du, S.X.; Hao, H.J. Epitaxial growth and structural property of
+graphene on Pt(111). Appl. Phys. Lett. 2011, 98, 033101. [CrossRef]
+31. Wang, W.; Chen, G.; Shi, Z.; Liu, C.; Zhang, L.; Xie, G.; Cheng, M.; Wang, D.; Yang, R.; Shi, D.; et al. Epitaxial growth of
+single-domain graphene on hexagonal boron nitride. Nat. Mater. 2013, 12, 792–797.
+32. Xu, X.; Zhang, Z.; Dong, J.; Yi, D.; Niu, J.; Wu, M.; Lin, L.; Yin, R.; Li, M.; Zhou, J.; et al. Ultrafast epitaxial growth of metre-sized
+single-crystal graphene on industrial Cu foil. Sci. Bull. 2017, 62, 1074–1080. [CrossRef]
+
+Nanomaterials 2021, 11, 951 14 of 15
+33. Coraux, J.; N’Diaye, A.T.; Busse, C.; Michely, T. Structural Coherency of Graphene on Ir(111). Nano Lett. 2008, 8, 565–570.
+[CrossRef]
+34. Rummeli, M.H.; Bachmatiuk, A.; Scott, A.; Bornert, F.; Warner, J.H.; Hoffman, V .; Lin, J.H.; Cuniberti, G.; Buchener, B. Direct
+Low-Temperature Nanographene CVD Synthesis over a Dielectric Insulator. ACS Nano 2010, 4, 4206–4210. [CrossRef] [PubMed]
+35. Yankowitz, M.; Ma, Q.; Jarillo-Herrero, P .; LeRoy, B.J. Van der Waals heterostructures combining graphene and hexagonal boron
+nitride. Nat. Rev. Phys. 2019, 1, 112–125. [CrossRef]
+36. Su, H.; Zhang, C.; Li, X.; Wu, L.; Chen, Y. Aggregation prevention: Reduction of graphene oxide in mixed medium of alkylphenol
+polyoxyethylene (7) ether and 2-methoxyethanol. RSC Adv. 2018, 8, 39140–39148. [CrossRef]
+37. Wang, Y.; Wu, Y.; Huang, Y.; Zhang, F.; Yang, X.; Ma, Y.; Chen, Y. Preventing Graphene Sheets from Restacking for High-
+Capacitance Performance. J. Phys. Chem. C 2011, 115, 23192–23197. [CrossRef]
+38. Rhodes, D.; Chae, S.H.; Ribeiro-Palau, R.; Hone, J. Disorder in van der Waals heterostructures of 2D materials. Nat. Mater. 2019,
+18, 541–549. [CrossRef]
+39. Xiao, J.; Mei, D.; Li, X.; Xu, W.; Wang, D.; Graff, G.L.; Benett, W.D.; Nie, Z.; Saraf, L.V .; Aksay, I.A.; et al. Hierarchically Porous
+Graphene as a Lithium–Air Battery Electrode. Nano Lett. 2011, 11, 5071–5078. [CrossRef] [PubMed]
+40. Fan, Z.; Zhao, Q.; Li, T.; Yan, J.; Ren, Y.; Feg, J.; Wei, T. Easy synthesis of porous graphene nanosheets and their use in
+supercapacitors. Carbon 2012, 50, 1699–1703. [CrossRef]
+41. Srinivas, G.; Burress, J.W.; Ford, J.; Yildirim, T. Porous graphene oxide frameworks: Synthesis and gas sorption properties. J.
+Mater. Chem. 2011, 21, 11323–11329. [CrossRef]
+42. Huang, X.; Qian, K.; Yang, J.; Zhang, J.; Li, L.; Yu, C.; Zhao, D. Functional Nanoporous Graphene Foams with Controlled Pore
+Sizes. Adv. Mater. 2012, 24, 4419–4423. [CrossRef] [PubMed]
+43. Lin, J.; Peng, Z.; Liu, Y.; Ruiz-zepeda, F.; Ye, R.; Samuel, E.L.G.; Yacaman, M.J.; Yakobson, B.I.; Tour, J.M. Laser-induced porous
+graphene ﬁlms from commercial polymers. Nat. Commun. 2015, 5, 5714. [CrossRef] [PubMed]
+44. Singh, S.P .; Li, Y.; Be’er, A.; Oren, Y.; Tour, J.M.; Arnusch, C.J. Laser-Induced Graphene Layers and Electrodes Prevents Microbial
+Fouling and Exerts Antimicrobial Action. ACS Appl. Mater. Interfaces 2017, 9, 18238–18247. [CrossRef] [PubMed]
+45. Zhang, J.; Zhang, C.; Sha, J.; Fei, H.; Li, Y.; Tour, J.M. Efﬁcient Water-Splitting Electrodes Based on Laser-Induced Graphene.ACS
+Appl. Mater. Interfaces 2017, 9, 26840–26847. [CrossRef] [PubMed]
+46. Stanford, M.G.; Yang, K.; Chyan, Y.; Kittrell, C.; Tour, J.M. Laser-Induced Graphene for Flexible and Embeddable Gas Sensors.
+ACS Nano 2019, 13, 3474–3482. [CrossRef]
+47. Ren, M.; Zhang, J.; Tour, J.M. Laser-Induced Graphene Hybrid Catalysts for Rechargeable Zn-Air Batteries.ACS Appl. Energy
+Mater. 2019, 2, 1460–1468. [CrossRef]
+48. Tao, L.Q.; Tian, H.; Liu, Y.; Ju, Z.Y.; Pang, Y.; Chen, Y.Q.; Wang, D.Y.; Tian, X.G.; Yan, J.C.; Deng, N.Q.; et al. An intelligent artiﬁcial
+throat with sound-sensing ability based on laser induced graphene. Nat. Commun. 2017, 8, 14579. [CrossRef] [PubMed]
+49. Carvalho, A.F.; Fernandes, A.J.S.; Leitao, C.; Deuermeier, J.; Marques, A.C. Laser-Induced Graphene Strain Sensors Produced by
+Ultraviolet Irradiation of Polyimide. Adv. Funct. Mater. 2018, 28, 1805271. [CrossRef]
+50. Jeong, S.Y.; Ma, Y.W.; Lee, J.U.; Je, G.J.; Shin, B.S. Flexible and Highly Sensitive Strain Sensor Based on Laser-Induced Graphene
+Pattern Fabricated by 355 nm Pulsed Laser. Sensors 2019, 19, 4867. [CrossRef]
+51. Lee, J.U.; Ma, Y.W.; Jeong, S.Y.; Shin, B.S. Direct Fabrication of Ultra-Sensitive Humidity Sensor Based on Hair-Like Laser-Induced
+Graphene Patterns. Micromachines 2020, 11, 476. [CrossRef] [PubMed]
+52. Jeong, S.-Y.; Lee, C.-W.; Lee, J.-U.; Ma, Y.-W.; Shin, B.-S. Laser-Induced Biochar Formation through 355 nm Pulsed Laser Irradiation
+of Wood, and Application to Eco-Friendly pH Sensors. Nanomaterials 2020, 10, 1904. [CrossRef]
+53. Vashisth, A.; Kowalik, M.; Gerringer, J.C.; Ashraf, C.; Van Duin, A.C.; Green, M.J. ReaxFF Simulations of Laser-Induced Graphene
+(LIG) Formation for Multifunctional Polymer Nanocomposites. ACS Appl. Nano Mater. 2020, 3, 1881–1890. [CrossRef]
+54. Ferrari, A.C.; Meyer, J.C.; Scardaci, V .; Casiraghi, C.; Lazzeri, M.; Mauri, F.; Piscanec, S.; Jiang, D.; Novoselov, K.S.; Roth, S.; et al.
+Raman spectrum of Graphene and Graphene layers. Phys. Rev. Lett. 2006, 97, 187–401. [CrossRef]
+55. John, R.; Ashokreddy, A.; Vijayan, C.; Pradeep, T. Single- and few-layer graphene growth on stainless steel substrates by direct
+thermal chemical vapor deposition. Nanotechnology 2011, 22, 165701. [CrossRef]
+56. Hao, Y.; Wang, Y.; Wang, L.; Ni, Z.; Wang, Z.; Wang, R.; Koo, C.K.; Shen, Z.; Thong, J.T. Probing layer number and stacking order
+of few-layer graphene by Raman spectroscopy. Small 2010, 6, 195–200. [CrossRef] [PubMed]
+57. Ni, Z.H.; Wang, H.M.; Kasim, J.; Fan, H.M.; Yu, T.; Wu, Y.H.; Feng, Y.P .; Shen, Z.X. Graphene Thickness Determination Using
+Reﬂection and Contrast Spectroscopy. Nano Lett. 2007, 7, 2758–2763. [CrossRef] [PubMed]
+58. Reina, A.; Jia, X.; Ho, J.; Nezich, D.; Son, H.; Bulovic, V .; Dresselhaus, M.S.; Kong, J. Large Area, Few-Layer Graphene Films on
+Arbitrary Substrates by Chemical Vapor Deposition. Nano Lett. 2008, 9, 30–35. [CrossRef] [PubMed]
+59. Katagiri, G.; Ishida, H.; Ishitani, A. Raman spectra of graphite edge planes. Carbon 1988, 26, 565–571. [CrossRef]
+60. Jawhari, T.; Roid, A.; Casado, J. Raman spectroscopic characterization of some commercially available carbon black materials.
+Carbon 1995, 33, 1561–1565. [CrossRef]
+61. Pantea, D.; Darmstadt, H.; Kaliaguine, S.; Summchen, L.; Roy, C. Electrical conductivity of thermal carbon blacks: Inﬂuence of
+surface chemistry. Carbon 2001, 39, 1147–1158. [CrossRef]
+62. Darmstadt, H.; Roy, C.; Kaliaguine, S.; Choi, S.J.; Ryoo, R. Surface chemistry of ordered mesoporous carbons.Carbon 2002, 40,
+2673–2683. [CrossRef]
+
+Nanomaterials 2021, 11, 951 15 of 15
+63. Eﬁmenko, K.; Wallace, W.E.; Genzer, J. Surface Modiﬁcation of Sylgard-184 Poly(dimethyl siloxane) Networks by Ultraviolet and
+Ultraviolet/Ozone Treatment. J. Colloid Interface Sci. 2002, 254, 306–315. [CrossRef] [PubMed]
+64. Fu, Y.-J.; Qui, H.-Z.; Liao, K.-S.; Lue, S.J.; Hu, C.-C.; Lee, K.-R.; Lai, J.-Y. Effect of UV-Ozone Treatment on Poly (Dimethylsiloxane)
+Membranes: Surface Characterization and Gas Separation Performance. Langmuir 2010, 26, 4392–4399. [CrossRef]
+65. Juarez-Moreno, J.A.; Ávila-Ortega, A.; Oliva, A.I.; Avilés, F.; Cauich-Rodríguez, J.V . Effect of Wettability and Surface Roughness
+on the Adhesion Properties of Collagen on Pdms Films Treated by Capacitively Coupled Oxygen Plasma. Appl. Surf. Sci. 2015,
+349, 763–773. [CrossRef]
+66. Raveendran, R.; Namboothiry, M.A.G. Surface-Treated Poly(dimethylsiloxane) as a Gate Dielectric in Solution-Processed Organic
+Field-Effect Transistors. ACS Omega 2018, 3, 11278–11285. [CrossRef]
+67. Lee, C.; Chen, J.; Shiu, H.; Ho, K.; Wu, S.; Hsieh, K.; Wang, Y. Effect of bridging groups on sulfonated poly(imide-siloxane) for
+application in proton exchange membrane. J. Fuel Cell Sci. T echnol. 2010, 7, 021023. [CrossRef]
+68. Tseng, C.; Ye, Y.; Joseph, J.; Kao, K.; Rick, J.; Huang, S.; Hwang, B. Tuning transport properties by manipulating the phase
+segregation of tetramethyldisiloxane segments in modiﬁed polyimide electrolytes. J. Power Source 2011, 196, 3470–3478. [CrossRef]
+69. Chen, J.; Gu, B.; LeBoeuf, E.J.; Pan, H.; Dai, S. Spectroscopic characterization of the structural and functional properties of natural
+organic matter fractions. Chemosphere 2002, 48, 59–68. [CrossRef]
+70. Ganjali, S.T.; Motiee, F.; Tabatabaie, Z.G. Correlation between physico-mechanical and rheological properties of rubber compounds
+based on NR-BR with CC gel content in polybutadiene. Polymer 2014, 38, 425–433.
+71. Wei, X.; Zhong, H.; Yang, Q.; Yao, E.; Zhang, Y.; Zou, H. Studying the mechanisms of natural rubber pyrolysis gas generation
+using RMD simulations and Tg-FTIR experiments. Convers. Manag. 2019, 189, 143–152. [CrossRef]
+72. Zhang, S.; Li, J.; Huang, X.; Zhang, Y.; Hang, Y. Sulfonated poly(imide-siloxane) membrane as a low vanadium ion permeable
+separator for a vanadium redox ﬂow battery. Polym. J. 2015, 47, 701–708. [CrossRef]
+73. Sun, D.; Li, B.-B.; Xu, Z.-L. Preparation and characterization of poly(dimethylsiloxane)-polytetraﬂuoroethylene (PDMS-PTFE)
+composite membrane for pervaporation of chloroform from aqueous solution.Korean J. Chem. Eng. 2013, 30, 2059–2067. [CrossRef]
+74. Liu, H.; Li, Y.; Dai, K.; Zheng, G.; Liu, C.; Shen, C.; Yan, X.; Guo, J.; Guo, Z. Electrically conductive thermoplastic elastomer
+nanocomposites at ultralow graphene loading levels for strain sensor applications. J. Mater. Chem. C 2016, 4, 157–166. [CrossRef]
+75. Gao, J.; Hu, M.; Dong, Y.; Li, R.K.Y. Graphite-Nanoplatelet-Decorated Polymer Nanoﬁber with Improved Thermal, Electrical, and
+Mechanical Properties. ACS Appl. Mater. Interfaces 2013, 5, 7758–7764. [CrossRef] [PubMed]
+76. Li, Y.; He, T.; Shi, L.; Wang, R.; Sun, J. Strain Sensor with Both a Wide Sensing Range and High Sensitivity Based on Braided
+Graphene Belts. ACS Appl. Mater. Interfaces 2020, 12, 17691–17698. [CrossRef] [PubMed]
+77. Kedambaimoole, V .; Kumar, N.; Shirhatti, V .; Nuthalapati, S.; Sen, P .; Nayak, M.-M.; Rajanna, K.; Kumar, S. Laser-Induced Direct
+Patterning of Free-standing Ti3C2–MXene Films for Skin Conformal Tattoo Sensors. ACS Sens. 2020, 5, 2086–2095. [CrossRef]
+78. Tolvanen, J.; Hannu, J.; Jantunen, H. Stretchable and Washable Strain Sensor Based on Cracking Structure for Human Motion
+Monitoring. Sci Rep. 2018, 8, 13241. [CrossRef] [PubMed]
+79. Liang, B.; Lin, Z.; Chen, W.; He, Z.; Zhong, J.; Zhu, H.; Tang, Z.; Gui, X. Ultra-stretchable and highly sensitive strain sensor based
+on gradient structure carbon nanotubes. Nanoscale 2018, 10, 13599–13606. [CrossRef]
+80. Yang, T.; Jiang, X.; Zhong, Y.; Zhao, X. A wearable and highly sensitive graphene strain sensor for precise home-based pulse wave
+monitoring. ACS Sens. 2017, 2, 967–974. [CrossRef] [PubMed]
+81. Wu, Y.; Becker, L.; Karakurt, I.; Cai, W.; Elwood, J.; Li, X.; Zhong, J.; Zhang, M.; Wang, X.; Lin, L. High resolution ﬂexible strain
+sensors for biological signal measurements. In Proceedings of the 2017 19th International Conference on Solid-State Sensors,
+Actuators and Microsystems (TRANSDUCERS), Kaohsiung, Taiwan, 19 June 2017; pp. 1144–1147.
+82. Ye, X.; Yuan, Z.; Tai, H.; Li, W.; Du, X.; Jaing, Y. A wearable and highly sensitive strain sensor based on a polyethylenimine–rGO
+layered nanocomposite thin ﬁlm. J. Mater. Chem. C 2017, 5, 7746–7752. [CrossRef]
+83. Wittstock, A.; Biener, J.; Baumer, M. Nanoporous gold: A new material for catalytic and sensor applications. Phys. Chem. Chem.
+Phys. 2010, 12, 12919–12930. [CrossRef]
+84. Cancado, L.G. General equation for the determination of the crystallite size La of nanographite by Raman spectroscopy. Appl.
+Phys. Lett. 2006, 88, 163106. [CrossRef]
+85. Warren, B.E. X-ray diffraction in random layer lattices. Phys. Rev. B 1941, 47, 558–561. [CrossRef]

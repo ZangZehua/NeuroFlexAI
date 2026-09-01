@@ -1,0 +1,744 @@
+ARTICLE
+Integrated multilayer stretchable printed circuit
+boards paving the way for deformable active matrix
+Shantonu Biswas 1, Andreas Schoeberl 2, Yufei Hao 3, Johannes Reiprich 2, Thomas Stauden 2, Joerg Pezoldt 2 &
+Heiko O. Jacobs 2*
+Conventional rigid electronic systems use a number of metallization layers to route all
+necessary connections to and from isolated surface mount devices using well-established
+printed circuit board technology. In contrast, present solutions to prepare stretchable elec-
+tronic systems are typically con ﬁned to a single stretchable metallization layer. Crossovers
+and vertical interconnect accesses remain challenging; consequently, no reliable stretchable
+printed circuit board (SPCB) method has established. This article reports an industry com-
+patible SPCB manufacturing method that enables multilayer crossovers and vertical inter-
+connect accesses to interconnect isolated devices within an elastomeric matrix. As a
+demonstration, a stretchable (260%) active matrix with integrated electronic and optoe-
+lectronic surface mount devices is shown that can deform reversibly into various 3D shapes
+including hemispherical, conical or pyramid.
+https://doi.org/10.1038/s41467-019-12870-7 OPEN
+1 California NanoSystems Institute, Elings Hall, Building 266, Mesa Road, University of California, Santa Barbara, CA 93106-6105, USA. 2 Fachgebiet
+Nanotechnologie, Institut für Mikro- und Nanotechnologien MacroNano ®, Technische Universität Ilmenau, Gustav-Kirchhoff-Strasse 1, D-98693 Ilmenau,
+Germany. 3 School of Mechanical Engineering and Automation, Haidian District, Beijing Institute of Road 37, Beihang University, 100191 Beijing, China.
+*email: heiko.jacobs@tu-ilmenau.de
+NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications 1
+1234567890():,;
+
+A
+dramatic increase in research activities has been per-
+ceived for last decade to enable mechanically stretchable
+and deformable functional electronic devices 1–4. Conse-
+quently, a large number of stretchable devices have been realized
+demonstrating a wide range of diverse applications that includes
+soft robotics
+5,6, actuators 7, electronic eye cameras 8,e p i d e r m a l
+electronics9, wearable electronics10,11, metamorphic electronics12,13,
+edible electronics 14, acoustoelectronics 15,16, health monitoring
+devices17–19,s m a r tt e x t i l e s20 to give a few examples. Most of these
+demonstrators often use highly specialized technologies and
+unconventional materials that make these technologies more
+interesting for research, but less favorable for industrial production
+for mass people. Till today, there exist no reliable manufacturing
+methods that can be generalized as stretchable printed circuit board
+(SPCB) technology21.
+Conventional rigid printed circuit boards (PCB) typically
+consists of more than one metallization layers to route metal
+tracks to interconnect surface mount devices (SMDs) using well-
+established manufacturing methods, which is one of the main
+reasons behind the paramount success of this technology. On the
+other hand, stretchable electronics mostly remains limited to a
+single active layer with less complex device integration, which is
+primarily due to the lack of reliable manufacturing methods.
+Although, there are a few lab prototypes of stretchable devices
+demonstrating multilayer electronic systems with different func-
+tionalities22–24, the materials and methods used to realize such
+devices are unconventional and rarely suitable for industrial
+production. This technological and materials lacking con ﬁnes the
+complexity of demonstrated stretchable electronic devices 25. For
+instance, even the simplest functional active matrix requires at
+least two metallization layers 26.
+Additionally, vertical interconnect accesses (VIAs) are required
+to interconnect between different active layers in the circuit
+boards, which is not well-established in the manufacturing pro-
+cess of stretchable electronics. Although, a few approaches have
+been reported to realize VIAs in stretchable substrates using
+liquid alloys27,28 or solid phase materials 22,29, again, the methods
+and the materials are incompatible to conventional processing.
+Thus, an industry-compatible processing of multilayer metal
+tracks and reliable VIAs, which are two important elements to
+realize a SPCB technology, remains a primary challenge.
+Recently, we demonstrated a single layer SPCB method that
+enabled “on-hard-carrier” fabrication using conventional planar
+microfabrication techniques that delays use of elastomeric sub-
+strate to the end 30. The reported method enabled high tem-
+perature processing, high alignment and registration, and allowed
+conventional chip assembly methods on a rigid carrier. However,
+the previously demonstrated methods used only a single active
+layer without complex routing of the metal tracks, which limited
+the complexity of the circuit and the device 12,13,30. In this article,
+we engineered a similar method to realize integrated multilayer
+SPCB and demonstrate an alternative development towards the
+realization of stretchable electronics with higher integration
+density capabilities by introducing stable VIAs through inter-
+connection between different metallization layers. The method
+used in this article is compatible with conventional micro fabri-
+cation processes and uses commercially available pristine SMDs.
+Here, we report a SPCB method which replaces the rigid
+insulator substrate of conventional PCB with a highly stretchable
+silicone elastomer (EcoFlex). Demonstrated manufacturing
+method to realize SPCB can be divided in two steps, the ﬁrst step
+uses hard-carrier fabrication method that is fully compatible with
+conventional planar microfabrication techniques, where the sec-
+ond step introduces elastomeric substrate and no active fabrica-
+tion is required during this. This method has several bene ﬁts over
+other demonstrated methods in the ﬁeld of stretchable
+electronics22 since it delays the introduction of rubber substrate
+which enables high temperature processing, higher registration
+and alignment accuracy, and allows to use conventional robotic
+or advanced self-assembly of SMD dies 31. Additionally, the
+method allows testing the device functionality on hard-carrier
+which is bene ﬁcial since it allows for the identi ﬁcation of failure
+modes of the circuit and device layer before and after we detach,
+bend or stretch the structure. Moreover, like conventional PCB
+technology, this method allows direct use of SMD chips. To
+realize VIAs in the SPCB, a similar method to the conventional
+PCB technology is used here. A highly stretchable (elongated up
+to 260% of the original length) multilayered integrated SPCB
+design is discussed. To demonstrate the applicability, a fully
+addressable LED active matrix has been realized. The integrated
+LED display can be deformed to various three-dimensional (3D)
+geometrical shapes to morph hemisphere, cone, and pyramid.
+Results
+On hard carrier fabrication . Figure 1 shows design and ﬁrst part
+of the multilayer SPCB manufacturing method on a hard carrier.
+As an example, an active matrix LED display segment is realized.
+As mentioned, active matrix LED array requires at least two
+metallization layers, VIAs, and the integration of transistors and
+LEDs (1a) in an array type fashion. From materials and proces-
+sing point of view, several elements are important to achieve this.
+Figure 1b schematically presents elements of the ﬁrst step of
+SPCB manufacturing process on hard-carrier. The depicted
+method uses a rigid Si wafer (500 µm thick, MicroChemicals,
+Ulm, Germany) as a carrier substrate and forgoing processing are
+performed on this rigid substrate. The details of the processing
+are added in the methods and supplementary methods (Supple-
+mentary Fig. 1).
+Release and peeling layer : Even though there are several bene ﬁts
+of using a rigid carrier substrate for the processing, one drawback
+of this method is that the ﬁnal device has to be detached from
+the rigid substrate to be stretchable. A few other demonstrators
+use sequential transfer methods to retrieve different parts of the
+device such as metal tracks, active components etc. from rigid
+carriers to a stretchable substrate. This approach becomes highly
+challenging when active elements of the device become fairly
+small due to the alignments and registrations, and thus achieving
+higher integration density becomes dif ﬁcult. In the depicted
+approach, we realize the complete functional electronics on-hard-
+carrier and detach the entire device to a stretchable substrate by a
+single step transfer technique using prede ﬁned two sacri ﬁcial
+layers of poly(methyl-methacrylate) (PMMA) and polyimide (PI).
+In this approach spin coated PMMA, (1 µm thick, green in
+Fig. 1b) and an eight µm thick layer of PI (blue in Fig. 1b) is used
+as a release and a peeling layer, respectively. The peeling layer
+supports the buildup of the circuit and enables detachment of the
+circuit after the fabrication is completed.
+Metal 1: One of the major elements of the stretchable electronic
+devices is the conductive interconnects where rigid SMDs are
+used, since the interconnects directly contribute to the stretch-
+ability of the device. In the current demonstrator, we used 10 µm
+thick copper (Cu) tracks patterned as stress-adaptive meander
+shaped
+32. Initially a 50 nm/200 nm thick sputter coated seed layer
+of Al/Cu is deposited, which is patterned by photolithography to
+electroplate 10 µm thick layer of Cu (Supplementary Fig. 2) to
+increase the mechanical robustness of the metal tracks (reddish in
+Fig. 1b). Thick metal tracks (>5 µm) were found to be more
+robust than previously used thin (<1 µm) metallization layers 33.
+This metallization layer forms the columns in the addressing
+system (Fig. 1c). Moreover, a part of it (50 nm Al) serves as a self-
+aligned etch mask in a later plasma etching step, necessary to
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7
+2 NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications
+
+remove the sacri ﬁcial PI layer and the photo-patternable PI
+insulation layer.
+Insulation layer: Multilayer electronic systems require electrical
+isolation in between different metal tracks to prevent electrical
+short-circuits. In the depicted case, the rows and the columns are
+separated using a photo-patternable PI layer (HD 4100) layer.
+Speciﬁcally, a spin-coated 20 μm thick photo-patternable PI layer
+is used to entirely cover the ﬁrst metal tracks. As illustrated in the
+ﬁgure, the intermediate photo-patternable PI layer (Fig. 1d)
+serves as an insulation layer. The optical microscope image
+(Fig. 1e, Supplementary Fig. 3) shows a top view of one of the
+crossing regions. The bottom metal appears darker, because it is
+buried underneath the photo-patternable PI layer. The colored
+SEM image (Fig. 1f) shows a tilted view. The photo-patternable PI
+layer follows the surface pro ﬁle and covers the top and sidewalls
+of the ﬁrst metal tracks. This results in a raised surface, and this
+surface topography continues to the second metallization layer,
+which produces the visible crossing. The thickness of the
+insolation layer is 20 μm. This layer is selectively removed by
+plasma etching after encapsulation and detachment using the ﬁrst
+metal tracks (Al) as a mask. As a result, in the ﬁnal device
+the isolation layer has a similar geometry as metal 1 and can
+be stretched. Electrically we found no short-circuits or leakage
+currents between individual rows and columns before or after the
+detachment of the device.
+VIAs: As mentioned earlier, metal tracks in different layers
+require to be interconnected through VIAs and realizing reliable
+VIAs in SPCB remained a challenge till today. In the depicted
+approach, like the conventional PCB method, we use electro-
+plated Cu to realize the VIAs. The photo-patternable PI layer is
+also photolithographically patterned to de ﬁne openings and
+locations of the VIAs, which are subsequently ﬁlled with 20 μmo f
+electrodeposited copper. This second electrodeposition step is
+necessary in order to ensure good electrical contact in between
+the ﬁrst metal tracks and the VIAs, which is dif ﬁcult to achieve
+using thin-ﬁlm deposition methods through 20 μm deep holes. A
+similar electrodeposition method is also used in conventional
+PCB technologies to grow thick VIAs. As shown schematically in
+Fig. 1g, the VIAs are grown using metal 1 as a seed layer through
+predeﬁned openings in the photo-patternable PI layer. A plasma
+cleaning process is required prior to electrodeposit the VIAs in
+order to remove the residues from photo-patternable PI
+(Supplementary Fig. 4) to ensure good electrical and stable
+mechanical contact between different metal layers in these
+regions.
+Metal 2 : Second metal tracks are directly deposited on top of
+the isolation layer and the VIAs ensuring good electrical contact
+between metal 1, VIA, and metal 2. Another 10 µm thick layer of
+Cu is used as the second metallization layer (reddish layer). The
+colored SEM image (Fig. 1h) shows a tilted view (and optical
+1 cm
+50 µm
+e Microscope image
+50 µm
+f SEM image
+VIA
+Metal 2
+Metal 1 10 µm
+i Cross-section
+Metal 1
+Metal 2
+VIA
+h SEM image
+50 µm
+PP PI
+VIA
+Metal 2
+Metal 1
+SMD
+Metal tracks
+crossing 
+Si
+VIA
+PI
+PP PI
+Vg
+V–
+V+
+PMMA
+PI
+a b Active matrix layout Layers in SPCB c Functionality test on hard carrier
+d Metal tracks crossing
+g 
+PP PI
+isolation 
+Metal 2
+Metal 1
+VIA in SPCB
+Fig. 1 First steps to realize integrated stretchable printed circuit boards. Schematic layout of an active matrix using LEDs and transistors ( a), layers build-up
+in the SPCB ( b) and “on-hard-carrier” functionality test (c). Metal layers crossing: schematics ( d) next to corresponding optical microscope image ( e), and
+colored SEM image ( f); the two metal layers are separated by a 20 µm thick photo-patternable PI layer, the layer is black in the microscope and gray in the
+SEM image. VIA: schematics ( g) next to a colored tilted SEM image ( h) depicting the PI peeling layer (turquoise), bottom metal (yellow) (in parts covered
+by photo-patternable PI, (darker turquoise), VIA (reddish), and top metal (reddish) and cross-section ( i) of the same. PI polyimide, PMMA poly(methyl-
+methacrylate), PP PI photo-patternable PI, SMD surface mount device, VIA vertical interconnect access, SPCB stretchable printed circuit board
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications 3
+
+microscope image in Supplementary Fig. 5 shows top view) of the
+VIA region, revealing the PI peeling layer, metal 1, the photo-
+patternable PI layer, VIA, and metal 2, and the cross-sectional
+SEM image (Fig. 1i) shows different metal layers in the VIA
+region.
+Solder bump application : The solder bumps are used to make
+mechanical and electrical contact in between the metal tracks and
+the active components. A low melting point solder (Indalloy
+#117) is used for this purpose because the solder is applied by
+a parallel dip-coating process in a liquid solder bath 34 using a
+10 µm thick photoresist mask to de ﬁne the solder bump locations
+(see Supplementary Fig. 6). However, a higher melting point
+solder could be used as well following other solder printing
+methods.
+Component assembly : The fabrication process is compatible
+with various types of chip attachment and component assembly
+methods, including solder bump-based interconnects 35, ﬂip-chip
+die attachment, robotic pick-and-place or engineered self-assembly
+using molten solder 31. In the demonstrated case, we use a semi-
+automated pick-and-place process to mount the components. This
+demonstrator contains a number of lab-fabricated (bare dies,
+requiring ﬂip-chip die assembly) ﬁeld effect µ-transistors (µ-FET,
+see Supplementary Fig. 7) (0.5 × 0.5 × 0.5 mm) and an equal
+number of commercially-bought standard surface mount LEDs
+(1 × 0.6 × 0.2 mm, 459 nm, Creative LED GMBH, Schaan, Für-
+stentum Liechtenstein).
+On hard carrier functionality tests : The depicted approach
+enables “on-hard-carrier” functionality tests. This is different
+from other methods, which build on a soft elastomeric rubber
+substrate. This is bene ﬁcial since it allows for the identi ﬁcation of
+failure modes of the circuit and device layers before and after we
+detach, bend, or stretch the structure. For example, in the
+depicted hard carrier functionality tests (Fig. 1c) all the LEDs
+function properly and response to the addressing system.
+Introducing elastomeric substrate . In this step, an elastomeric
+material is introduced in liquid form which will become the ﬁnal
+stretchable substrate after curing. A wide range of elastomeric
+resin is available including silicone or plastic which make this
+method compatible with a large variety of substrate materials with
+different mechanical and optical properties. Mainly two proces-
+sing steps are involved in this part.
+Encapsulation and detachment: To detach the device layer
+from the hard carrier, we use a castable 3 mm thick and thermo-
+curable (room temperature, 15 h) layer of EcoFlex (Smooth-On,
+EcoFlex 00-30) as a stretchable encapsulation layer which is
+poured evenly over the entire surface of the fabricated device. To
+increase the bond strength between the active layers and the
+EcoFlex, a preceding 5 min long O 2 plasma activation step is used.
+The process is carried out without any mask, meaning the whole
+surface is exposed to the plasma which includes the isolation
+layer, metal 2, solder, and the SMDs. In general, the plasma cleans
+the surfaces, increases the surface roughness and activates the
+polymer surface with increasing –OH group.
+As shown schematically in Fig. 2a (and Supplementary Fig. 8),
+the molding process encapsulates the SMDs, meaning the EcoFlex
+under ﬁll the SMDs. It is known that elastomers with high
+viscosities will require high local pressures to ﬁll in small gaps.
+However, we observed that EcoFlex 00-30 (viscosity, η = 3000 cP)
+can ﬁll smaller gaps than 10 µm (see Supplementary Fig. 9).
+Comparing with Polydimethylsiloxane (PDMS), which is well
+known for micro-patterning through soft-lithography, has a
+viscosity of 3500 cP. Both of these two polymers are strong
+candidates as a stretchable substrate for high dense stretchable
+electronics.
+The detachment process uses the differential interfacial
+adhesion of the stacked layers through an interface that can be
+detached. Speci ﬁcally, the PI layer has a low level of adhesion to
+the PMMA coated carrier and this interface (PMMA ↔ PI)
+detached during this step. The detachment process works
+particularly well using the introduced PI ﬁlm, which forms a
+uniform non-stretchable and supporting peeling layer beneath the
+circuit. Figure 2b shows an image of the detachment process
+while the LEDs are turn on and no damage to the device is
+introduced during this process. It should be noted that no solvent
+is required during the detachment process which increases the
+robustness of the method since some electronic components get
+damaged in some solvents.
+Removal of unwanted PI: After detachment, the Cu metal
+tracks continue to be covered with the PI peeling foil (schematics
+in Fig. 2b inset and Supplementary Fig. 10), which needs to be
+removed. Moreover, large sections of the intermediate PI foil are
+treated as an unwanted layer, because a continuous ﬁlm of PI
+reduces the stretchability of the system. We used electron
+cyclotron resonance (ECR) plasma etching process (40 SCCM
+O2, 10 SCCM CF 4, 100 W RF power, 30 min at 0.025 mbar) to
+accomplish the removal of these two layers. The interesting part is
+the second intermediate photo-patternable PI layer which is used
+as an isolation layer between two metal layers. This layer will be
+removed everywhere, except for the region that is covered with
+metal 1. The ﬁrst metal track acts as hard mask during the
+plasma etching process which means that the photo-patternable
+PI layer will have the same stretchable-meander shape structure
+as Metal 1. The image in Fig. 2c shows that all the LEDs are
+lighting in the EcoFlex substrate after completing the entire
+fabrication process.
+Device in rubber matrix . Figure 2d–f shows images of a single
+pixel, crossing of two metal tracks, and VIA, respectively, in the
+SPCB in EcoFlex matrix. The active devices remain completely
+embedded in EcoFlex (surrounded and under- ﬁlled), which
+provides protection during ﬁnal stretching operations. The close-
+up image reveals the bottom side of a single pixel in the active
+matrix showing the transistor and the LED (Fig. 2d). The bottom
+provides access to the metallization layer, meaning the structure
+has a surface mount like geometry. Pads are accessible from the
+bottom and all other elements are embedded and surrounded
+with silicone; this is different from methods that build on top of
+an elastomeric carrier. The SEM image (Fig. 2e) shows the
+crossing of two metal tracks in the EcoFlex. After detachment, the
+metal 1 becomes on top and metal 2 encapsulates in the EcoFlex
+matrix. The insulator (photo-patternable PI layer follows the
+shape of the meander of metal 1 and no critical alignment is
+required to prevent short-circuits. Figure 2f shows a SEM image
+of a VIA intentionally lifted off from the EcoFlex substrate con-
+necting two metal tracks.
+Reliability of VIAs . The VIAs play a major role in the system
+with more than one metallization layers, and are the key
+challenges in the ﬁeld of multilayer stretchable electronics.
+Speciﬁcally, the area of the VIAs had to be optimized in order
+to achieve fully functioning arrays. The results of this optimi-
+zation are summarized in Fig. 3 with computer simulated stress
+proﬁle at the VIA locations while stretched. VIAs connecting
+bottom and top metal track in an open location (Fig. 3a, b) and
+VIAs connecting a metal track to one of the contact pads of a
+component (Fig. 3c, d) can be distinguished. A goal was to
+establish the maximum level of uniaxial elongation of the sys-
+tem to cause an electrical discontinuity. The measured values of
+the elongation ranged up to 260% of the original length can be
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7
+4 NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications
+
+achieved. Considering VIAs to the contact pads, it was found
+that maximizing the footprint is bene ﬁcial. An increase in the
+VIA size from 50 × 70 µm to 350 × 500 µm improved the
+elongation limit from 135 to 260%. As a comparison, in a
+previous report, the elongation limit of a single metal layer
+system was 320% 32. This is interesting since the shape of the
+meander was identical to the one reported here. Clearly, the
+reported VIA limits the stretchability at the current state.
+Moreover, the location of the VIA within the system has an
+effect. For example, VIAs between metal tracks show a different
+size dependent failure rate mechanism (Fig. 3a, c). Again, small
+(50 × 70 µm) VIAs failed ﬁrst.
+1 mm 10 µmInsulator
+Si
+PMMA
+2 cm
+b Detachment between
+PMMA & PI layer 
+1 cm
+50 µm
+VIAMetal 1
+Metal 2 EcoFlex
+a Over molding silicone
+PI
+EcoFlex
+Device layer
+c Active matrix in EcoFlex
+d A single pixel e Crossing in EcoFlex f VIA in EcoFlex
+Fig. 2 Second steps to realize integrated stretchable printed circuit boards. Schematic of silicone encapsulation of the device on hard carrier a.A
+photograph of the detachment process of the device layer from the hard carrier while the device is under operation ( b) and functionality test of the ﬁnal
+device in EcoFlex ( c). Device in rubber matrix: Photograph of a single pixel of the active matrix encapsulated in EcoFlex showing a transistor and a LED ( d).
+SEM image of a crossing of two metal layers in EcoFlex ( e) and a VIA lifted off from the silicone substrate connecting two metal tracks ( f)
+0.2 mm
+Gate
+contact 
+1 cm
+2.2 cm
+VIA
+Stress profile
+at 125%
+elongation  
+0.2 mm
+0.5 mm
+PP PI
+115% 165% 190% Maximum level of
+elongation 135% 205% 260%
+Metal 1
+Metal 2
+Silicone
+Cu
+50 × 70 200 × 275 350 × 500 VIA size in µm 50 × 70 200 × 275 350 × 500
+hg
+d
+f
+e
+b
+a c
+r = 150 µm
+w = 50 µm
+t = 10 µm
+PP PI = 20 µm
+VIA connecting to one of the contact padsVIA connecting two metal tracks in an open location
+Computer simulated stress profile while elongated 125% to its original length
+Fig. 3 VIA designs affecting the maximum level of elongation. a, b VIAs connecting bottom and top metal tracks in an open location and c, d VIAs
+connecting a metal track to one of the contact pads of a SMD. Optical microscope photographs of the VIAs ( a, c) and computer simulated stress pro ﬁle in
+the metal tracks while elongated 125% to its original length ( b, d). The dimensions of the VIAs and corresponding maximum level of uniaxial elongation are
+shown in the table. e, f Results of the stretching tests using a stress adaptive meander shaped metal track in unstretched condition ( e) and while elongated
+to 220% (up to 260%) to its original length ( f). g Schematic dimensions of the meander shaped metal tracks and h image of a failure mode in the SPCB
+using current design. VIA vertical interconnect access, PP PI photo-patternable PI
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications 5
+
+These results are supported by computer aided stress pro ﬁle
+simulations at the VIA locations for different VIA dimensions
+and conditions (Fig. 3b, d). As can be seen, the local stresses in
+the metal tracks connected to the VIAs vary gradually. At the
+same time, the stress concentrations for smaller VIAs are higher
+than the larger VIAs, which provides higher mechanical stability
+to the larger VIAs (see Supplementary Fig. 11). Also technically,
+relatively large VIAs are bene ﬁcial since this will result uniform
+deposition of materials during the electrodeposition process.
+However, the effects of different locations of VIAs are not well
+understood from the simulated stress pro ﬁle. This is probably due
+to the additional support from the mounted component, which is
+not the case for the VIAs between two metal tracks.
+Figure 3e, f present photographs of an array of the active
+matrix while the device is in unstretched condition and while
+being stretched to 220% to its original length using a stress
+adaptive meander shape metal track, respectively. The design
+parameters of the metal track are presented in the schematic
+image (Fig. 3g). Experimentally, we observed that the primary
+mechanism involved to fail the device is due to the detachment of
+the metal tracks from the stretchable substrate which eventually
+results electrical shorts between the metal tracks as shown in
+Fig. 3h.
+It is worth to mention that the rigid components are embedded
+and the second metal tracks are submerged within the elastomeric
+matrix, meaning the second metallization tracks are surrounded
+by the stretchable substrate from three sides. However, the ﬁrst
+metallization tracks are only attached with the substrate from one
+side via the photo-patternable PI layer (see Fig. 2e). Experimen-
+tally, we observed that this metal layer is at risk to be peeled off
+from the elastomeric substrate after prolonged and improper use
+(Fig. 3h, Supplementary Fig. 12). Full encapsulation using an
+additional 20 µm thick spin coated layer of EcoFlex decreases the
+risk of detachment.
+The depicted active matrix contains 36 pixels, 6 arrays, and 6
+columns of LEDs and transistors within a rubber substrate. In the
+current array, the pitch of each pixel is 1 cm. However, the spatial
+resolution of the matrix is not limited by the manufacturing
+method since the approach uses standard microfabrication
+techniques to de ﬁne the metal tracks and the VIAs. The spatial
+resolution is primarily limited by the physical dimensions of the
+surface mount components. However, since the approach uses
+non-stretchable SMDs as functional elements connected via
+meander-shape metal tracks, the total stretchability of the device
+depends on the stretchable interconnects and the available
+stretchable areas in the device, which means that highly dense
+rigid SMDs will reduce the total stretchability of the system.
+On the other hand, direct use of commercial chips is bene ﬁcial
+since those chips are highly developed, integrated and miniatur-
+ized with a wide range of functionalities, which eliminates the
+requirements of developing new electrical components. The
+miniaturized commercial components in the stretchable electro-
+nics will also advance the sensing and actuation capabilities.
+Furthermore, their integration into free form metamorphic
+systems will allow to target new applications in robotics, wearable
+health care, bioengineering, and in biomedicines.
+The structure is robust enough to demonstrate deformation
+behavior. In the device shown, the integrated LED matrix is
+deformed using different methods to morph from a planar shape
+(Fig. 4a) to a concave (Fig. 4b) or convex (Fig. 4c) shapes through
+air de ﬂation or in ﬂation, respectively. Additional deformation
+involves 3D guided shape or vacuum forming to form cone
+(Fig. 4d) or to a pyramid (Fig. 4e), respectively (see Supplemen-
+tary Fig. 13). Since the guiding structure is printed using a 3D
+printer, a large variety of 3D shapes can be made; other topologies
+have been demonstrated previously
+12,30. Figure 4f (and Supple-
+mentary Fig. 14) shows the addressability of the active LED
+arrays, where two sides of the pyramid are addressed. In other
+words, 18 addressing lines, 36 VIAs, and 252 electrical
+connections to the 72 devices remained intact.
+Discussion
+In summary, we reported a design and the fabrication of a
+stretchable electrical wiring with crossovers and VIAs to isolated
+devices within an elastomeric matrix. The process shares some
+similarities with current PCB based fabrication concepts. The goal
+was to ﬁnd a solution to transform these commonly rigid struc-
+tures into a stretchable and deformable counterpart. Currently,
+only two metallization layers were required from a signal routing
+point of view. However, the described method can, in principle,
+be scaled to greater numbers of metal layers with local VIAs in
+between; a simple solution to prepare “global VIAs ”, i.e., VIAs
+1 cm 1 cm
+1 cm 1 cm 1 cm
+1 cm
+b ca
+d e f
+Fig. 4 Deformable LED active matrix realized using SPCB method. The planar a addressable LED matrix can be deformed to different shapes without
+altering its electrical functionality. The deformation involves de ﬂation (b), inﬂation (c), 3D guided shapes ( d), and vacuum forming ( e). The addressability
+of the array remains unaltered after mechanical deformation ( f)
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7
+6 NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications
+
+crossing the entire stack is yet to be found. A systematic study led
+to optimized dimensions of VIA that could achieve a 260% sys-
+tem level elongation. Still the VIA remains the most fragile ele-
+ment from a system level failure point of view.
+The recent research trends in stretchable electronics clearly
+indicate that this emerging technology will not be limited to only
+lab-based prototypes, it will pursue enormous attraction in
+commercial products as well. Devices which are already demon-
+strated in stretchable electronics proof that the technology will
+ﬁnd many new types of applications and will improve the per-
+formance of many existing devices in various manners. Thus, the
+limitations remain to be technology related. Stretchable electro-
+nics continues to be limited when it comes to a large number of
+interconnects or multilayer designs with highly integrated elec-
+tronics which cannot be manufactured reliably for long-term
+performance using the current state-of-the-art. However, once
+fully developed, most electronic system known to mankind could
+be stretchable and could morph to take on new interesting form
+factors in the future. Many interesting shape adaptive functions
+could be demonstrated.
+Methods
+Fabrication of multilayer integrated stretchable printed circuit boards .A
+525 µm thick Si wafer (MicroChemicals, Ulm, Germany) was spin coated with a
+1 µm thick layer of PMMA (AR-P 6510, Allresist, Strausberg, Germany) and with
+an 8 µm thick layer of PI (PI 2611, HD Microsystem, Neu-Isenburg, Germany) and
+cured in a convection oven at 250 °C for 5 hours under N
+2 ﬂow. 50 nm/200 nm
+thick layers of Al/Cu was sputter deposited on top of plasma-activated PI layer. The
+wafer was then patterned for electroplating by photolithography using a negative
+resist (AZ 15NXT, MicroChemicals, Ulm, Germany). A 10 µm thick layer of Cu
+was electroplated using Cu 100 electrolyte (NB Technologies, Bremen, Germany).
+A current density of ~15 mA/cm
+2 was applied to grow a smooth Cu layer at room
+temperature. Unwanted Cu and Al were chemically removed using standard Cu
+and Al etchant (MicroChemicals, Ulm, Germany).
+A 20 µm thick photo-patternable polyimide (HD 4100, HD Microsystem, Neu-
+Isenburg, Germany) was spin coated, baked at 150 °C for 10 min on a hotplate, and
+patterned for VIA openings by photolithography. A subsequent descumming
+process (5 min, 50 W, 50 SCCM O
+2) was performed to remove any residues from
+the patterned photo-patternable PI in the opening. Then, a 20 µm tall VIA of Cu
+was electroplated at the openings using the ﬁrst metal tracks as the seed layer.
+Another 20 nm/200 nm of Ti/Cu was sputter deposited as a second
+metallization layer and the wafer was then patterned for electroplating by
+photolithography. Another 10 µm thick layer of Cu was electroplated on top of the
+Cu seed layer. A chemical etching process was carried out to etch the unwanted
+Ti/Cu. The wafer was then patterned for soldering by photolithography using AZ
+1518 positive resist and baked at 120 °C for 10 min. The pads were coated by dip
+coating in a solder bath (Indalloy #117, MP. 47 °C, Indium Corp., NY).
+Assembly of the SMD components . The SMD components were assembled on the
+wafer following a standard pick-and-place technique. The wafer was heated from the
+back to melt the solder and then the surface mounted components were assembled.
+Device tests were performed on the wafer to check the interconnections and the
+device performance was compared before and after the detachment process.
+Encapsulation and detachment . The silicone EcoFlex (Smooth-On, EcoFlex 00-
+30) resin was prepared by mixing Part A and Part B (1:1 volume ratio) and by
+degassing the mixture in a desiccator. The liquid resin of silicone was poured on
+top of the substrate with assembled components and cured overnight at room
+temperature. First, EcoFlex was removed manually from the edges of the wafer as
+EcoFlex is strongly bonded to bare Si. Then the EcoFlex layer was peeled using the
+sacriﬁcial PI layer. As a ﬁnal step, the sacri ﬁcial PI peeling layer was etched in ECR
+(40 SCCM O
+2 + 10 SCCM CF 4, 100 W RF power, 0.025 mbar) for 30 min.
+Code availability
+The article does not contain any codes. However, the simulation parameters that were
+used to support the ﬁndings of this study are available from the corresponding author
+upon reasonable request.
+Data availability
+The data that support the ﬁndings of this study are available from the corresponding
+author upon reasonable request. The source data for all ﬁgures are provided with
+the paper.
+Received: 26 April 2019; Accepted: 26 September 2019;
+References
+1. Rogers, J. A., Someya, T. & Huang, Y. Materials and mechanics for stretchable
+electronics. Science 327, 1603 LP –1601607 (2010).
+2. Sekitani, T. & Someya, T. Stretchable, large-area organic electronics. Adv.
+Mater. (2010). https://doi.org/10.1002/adma.200904054.
+3. Xu, F., Lu, W. & Zhu, Y. Controlled 3D buckling of silicon nanowires for
+stretchable electronics. ACS Nano 5, 672 –678 (2011).
+4. Wagner, S. & Bauer, S. Materials for stretchable electronics. MRS Bull. (2012).
+https://doi.org/10.1557/mrs.2012.37.
+5. Majidi, C. Soft robotics: a perspective — current trends and prospects for the
+future. Soft Robot. 1,5 –11 (2014).
+6. Bauer, S. et al. 25th anniversary article: a soft future: from robots and sensor
+skin to energy harvesters. Adv. Mater. 26, 149 –161 (2014).
+7. Biswas, S. & Visell, Y. Emerging material technologies for haptics. Adv. Mater.
+Technol. 4, 1900042 (2019).
+8. Hwang, S.-W. et al. Materials and fabrication processes for transient and
+bioresorbable high-performance electronics.Adv. Funct. Mater. 23,4 0 8 7–4093
+(2013).
+9. Lee, S. Y. et al. Water-resistant ﬂexible GaN LED on a liquid crystal polymer
+substrate for implantable biomedical applications.Nano Energy1,1 4 5–151 (2012).
+10. Case, J. et al. Stretchable bioelectronics for medical devices and systems. in
+Stretchable Bioelectronics for Medical Devices and Systems (2016). https://doi.
+org/10.1007/978-3-319-28694-5.
+11. Choi, S., Lee, H., Ghaffari, R., Hyeon, T. & Kim, D.-H. Recent advances in
+ﬂexible and stretchable bio-electronic devices integrated with nanomaterials.
+Adv. Mater. 28, 4203 –4218 (2016).
+12. Biswas, S. et al. 3D metamorphic stretchable microphone arrays. Adv. Mater.
+Technol. 2, 1700131 (2017).
+13. Biswas, S., Reiprich, J., Pezoldt, J., Stauden, T. & Jacobs, H. O. Metamorphic
+stretchable touchpad. Adv. Mater. Technol. 4, 1800446 (2019).
+14. Hwang, S.-W. et al. Biodegradable elastomers and silicon nanomembranes/
+nanoribbons for stretchable, transient electronics, and biosensors. Nano Lett.
+15, 2801 –2808 (2015).
+15. Jin, S. W. et al. Stretchable loudspeaker using liquid metal microchannel. Sci.
+Rep. 5, 11695 (2015).
+16. Biswas, S. et al. Metamorphic hemispherical microphone array for three-
+dimensional acoustics. Appl. Phys. Lett. 111, 043109 (2017).
+17. Amjadi, M., Kyung, K.-U., Park, I. & Sitti, M. Stretchable, skin-mountable,
+and wearable strain sensors and their potential applications: a review. Adv.
+Funct. Mater. 26, 1678 –1698 (2016).
+18. Khan, Y., Ostfeld, A. E., Lochner, C. M., Pierre, A. & Arias, A. C. Monitoring
+of vital signs with ﬂexible and wearable medical devices. Adv. Mater. 28,
+4373–4395 (2016).
+19. Zamarayeva, A. M. et al. Flexible and stretchable power sources for wearable
+electronics. Sci. Adv. 3, e1602051 (2017).
+20. Cherenack, K. & van Pieterson, L. Smart textiles: challenges and opportunities.
+J. Appl. Phys. 112, 091301 (2012).
+21. Van ﬂeteren, J. et al. Printed circuit board technology inspired stretchable
+circuits. MRS Bull. 37, 254 –260 (2012).
+22. Huang, Z. et al. Three-dimensional integrated stretchable electronics. Nat.
+Electron. 1, 473 –480 (2018).
+23. Wang, S. et al. Skin electronics from scalable fabrication of an intrinsically
+stretchable transistor array. Nature 555,8 3 –88 (2018).
+24. Yu, K. J. et al. Bioresorbable silicon electronics for transient spatiotemporal
+mapping of electrical activity from the cerebral cortex. Nat. Mater. 15,
+782–791 (2016).
+25. Gonzalez, M. et al. Design of metal interconnects for stretchable electronic
+circuits. Microelectron. Reliab. 48, 825 –832 (2008).
+26. Verplancke, R. et al. 49-2: Invited Paper: stretchable passive matrix LED display
+with thin-ﬁlm based interconnects.SID Symp. Dig. Tech. Pap. 47, 664–667 (2016).
+27. Lim, Y. et al. Biaxially stretchable, integrated array of high performance
+microsupercapacitors. ACS Nano 8, 11639 –11650 (2014).
+28. Green Marques, D., Alhais Lopes, P., T. de Almeida, A., Majidi, C. & Tavakoli,
+M. Reliable interfaces for EGaIn multi-layer stretchable circuits and
+microelectronics. Lab Chip 19, 897 –906 (2019).
+29. Guo, L. & DeWeerth, S. P. High-density stretchable electronics: toward an
+integrated multilayer composite. Adv. Mater. 22, 4030 –4033 (2010).
+30. Biswas, S. et al. Deformable printed circuit boards that enable metamorphic
+electronics. NPG Asia Mater. 8, e336 –e336 (2016).
+31. Biswas, S., Mozafari, M., Stauden, T. & Jacobs, H. Surface tension directed
+ﬂuidic self-assembly of semiconductor chips across length scales and material
+boundaries. Micromachines 7, 54 (2016).
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications 7
+
+32. Biswas, S. et al. Stress-adaptive meander track for stretchable electronics. Flex.
+Print. Electron. 3, 032001 (2018).
+33. Park, S.-C. et al. Millimeter thin and rubber-like solid-state lighting modules
+fabricated using roll-to-roll ﬂuidic self-assembly and lamination. Adv. Mater.
+27, 3661 –3668 (2015).
+34. Park, S.-C. et al. A ﬁrst implementation of an automated reel-to-reel ﬂuidic
+self-assembly machine. Adv. Mater. 26, 5942 –5949 (2014).
+35. Kaltwasser, M. et al. Core –shell transformation-imprinted solder bumps
+enabling low-temperature ﬂuidic self-assembly and self-alignment of chips
+and high melting point interconnects. ACS Appl. Mater. Interfaces 10,
+40608–40613 (2018).
+Acknowledgements
+The research received ﬁnancial support through grants from German Science Foundation
+(JA 1023/3-1, JA1023/8-1, STA556/8-1). S. Biswas would like to thank J. Uziel, I Mar-
+quardt, D. Schäfer and B. Hartmann for their help.
+Author contributions
+S.B. and H.O.J. conceived the idea, S.B. and A.S. designed and performed the experiments.
+J.R. and T.S. assisted during the experiments. Y.H. performed the computer simulations. S.
+B. and J.P. analyzed the data. All authors contributed writing the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary information is available for this paper at https://doi.org/10.1038/s41467-
+019-12870-7.
+Correspondence and requests for materials should be addressed to H.O.J.
+Peer review information Nature Communications thanks Jan Van ﬂeteren and the other,
+anonymous, reviewer(s) for their contribution to the peer review of this work. Peer
+reviewer reports are available.
+Reprints and permission information is available at http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article ’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2019
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-12870-7
+8 NATURE COMMUNICATIONS |         (2019) 10:4909 | https://doi.org/10.1038/s41467-019-12870-7 | www.nature.com/naturecommunications

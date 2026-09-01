@@ -1,0 +1,675 @@
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+1 of 8
+MATERIALS SCIENCE
+Hydroplastic foaming of graphene aerogels 
+and artificially intelligent tactile sensors
+Kai Pang1, Xian Song2, Zhen Xu1*, Xiaoting Liu1, Yingjun Liu1*, Liang Zhong2, Yuxin Peng2*, 
+Jianxiang Wang2, Jingzhi Zhou2, Fanxu Meng1, Jian Wang2, Chao Gao1*
+Direct foaming from solids is the most efficient method to fabricate porous materials. However, the ideal foaming 
+fails to prepare aerogel of nanoparticles because the plasticity of their solids is denied by the overwhelming inter-
+face interactions. Here, we invent a hydroplastic foaming method to directly convert graphene oxide solids into 
+aerogel bulks and microarrays, replacing the prevalent freezing method. The water intercalation plasticizes 
+graphene oxide solids and enables direct foaming instead of catastrophic fragmentation. The bubble formation 
+follows a general crystallization rule and allows nanometer-precision control of cellular wall thickness down to 
+8 nm. Bubble clustering generates hyperboloid structures with seamless basal connection and renders graphene 
+aerogels with ultrarobust mechanical stability against extreme deformations. We exploit graphene aerogel to 
+fabricate tactile microarray sensors with ultrasensitivity and ultrastability, achieving a high accuracy (80%) in ar-
+tificially intelligent touch identification that outperforms human fingers (30%).
+INTRODUCTION
+Ultralight aerogel with high porosity is an important macroscopic 
+form to harness the extraordinary surface properties of nanoma-
+terials and has exhibited great applicable potentials in energy stor-
+age, catalysis, thermal insulators, sensors, and composites (1–5). In 
+the example of graphene aerogel (GA), two basic preparation ap-
+proaches have been developed: sol-gel and templating methods. 
+Both methods start from dilute dispersions of solvable graphene or 
+its derivatives (6 , 7). In the conventional Kistler’s sol-gel method 
+(8), dispersed graphene derivatives form interconnected gel and 
+then specific drying techniques, such as supercritical drying (6) and 
+freeze-drying (7 ), are usually adopted to prepare GAs to avoid 
+structural collapse. This sol-gel method has been extended to pre-
+pare aerogels of many nanoparticles with different topologies, such 
+as MXene (9) and carbon nanotubes (10), but limited by the high 
+cost of specific drying and the imprecise regulation of porous struc-
+ture. For the other templating method, sacrificial templates (11–13) 
+are introduced to support graphene, and the removal of templates 
+leaves graphene to form porous networks, represented by the 
+freeze-dried (FD) GA with ice as template. Despite the high design-
+ability in structure and functionalities, the burdened removal of 
+templates limits the scalable production of GA, and the cracking of 
+ice or template boundaries (14) inevitably generate structural de-
+fects, resulting in poor structural integrity to resist complicated de-
+formations. To date, the prevalent freeze-drying method has been 
+widely adopted for small-scale preparation, yet unfulfilled the au-
+thentic industrial production with high efficiency as thermal plastic 
+polymeric sponges.
+Direct foaming from solids has become a possibly ideal method 
+to prepare highly porous materials, exemplified by the thermoplastic 
+foaming for various polymeric sponges (15), including polystyrene 
+and polyurethane (PU). Distinct from the freeze-drying method, 
+this “top-down” foaming from solid eliminates the burden of high 
+energy costs of specific drying and the necessity of templates and 
+prevents freeze-cracking, enabling millions of tons of polymeric 
+sponges every year. The prerequisite of direct solid foaming is the 
+high enough mobility of constituent molecules to adapt the bubble 
+formation to form continuous connections without catastrophic 
+breakage (15). This plastic state of solid is commonplace for poly-
+mers, but not for solids of two-dimensional (2D) graphene sheets, 
+in which the overwhelming interlayer interactions immobilize 
+graphene sheets and defy their plastic state. Previous reports have 
+tried the thermal expanding method to prepare small-size GA sam-
+ples (16) but usually obtained fluffy powders without any structural 
+integrity. To date, realizing the direct solid foaming GA as industrial 
+polymeric sponges remains a great challenge.
+Here, we invent a hydroplastic foaming (HPF) method to directly 
+convert laminated graphene oxide (GO) solid into GAs, not only in 
+continuous bulks but also in large-area microarrays. HPF achieves 
+the direct foaming of GAs similar to industrial thermoplastic poly-
+meric sponges. The intercalation of water into GO interlayer space 
+provides the plasticity for bubble nucleation and growth. We reveal 
+that the bubble formation follows the classical crystallization rule, 
+allowing the precise control of the cellular wall thickness (8 to 40 nm) 
+and density (5 to 20 mg cm−3) of GAs. The stable bubble clustering 
+generates seamless basal connection of 2D sheets and renders GAs 
+with ultrarobust mechanical stability against extreme deformations, 
+such as tear and shear, comparable to polymeric sponges. Directly 
+foamed GA simultaneously performs a high gauge factor (GF) (~2) 
+and an ultrabroad strain range (0 to 95%) with ultrastability (for 
+104 cycles), outperforming most strain sensors. By integrating the 
+direct HPF with ink printing, we fabricate large-area GA microar-
+ray sensors with a spatial accuracy of ~100 m. In the frame of deep 
+learning, the flexible GA arrays are used as an artificially intelligent 
+(AI) tactile sensor to achieve over 80% accuracy in identifying ma-
+terial species and surface structures, far exceeding the average capa-
+bility of human fingers (30%).
+1MOE Key Laboratory of Macromolecular Synthesis and Functionalization, Depart-
+ment of Polymer Science and Engineering, Key Laboratory of Adsorption and Sep-
+aration Materials & Technologies of Zhejiang Province, Zhejiang University, 38 Zheda 
+Road, Hangzhou 310027, China. 2Department of Sports Science, Zhejiang University, 
+Hangzhou 310058, China.
+*Corresponding author. Email: zhenxu@zju.edu.cn (Z.X.); yingjunliu@zju.edu.cn 
+(Y.L.); yxpeng@zju.edu.cn (Y.P.); chaogao@zju.edu.cn (C.G.)
+Copyright © 2020 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim to 
+original U.S. Government 
+Works. Distributed 
+under a Creative 
+Commons Attribution 
+NonCommercial 
+License 4.0 (CC BY-NC).
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+2 of 8
+RESULTS AND DISCUSSION
+Fabrication and mechanism of HPF GAs
+Direct foaming GO solids were continuously processed by three 
+steps (Fig. 1A), which are water plasticization, bubble foaming, and 
+direct drying. In the first hydroplastic step, the water intercalation 
+turns stiff GO solid (fig. S1A) into a plastic state. As GO solid films 
+contacted water, water molecules penetrated the GO interlayer 
+gallery and the intercalation was completed in a few seconds (Fig. 1B) 
+(17), driven by its hydrophilicity (fig. S1, B and C). The interlayer 
+spacing increased from 0.90 nm in dried GO to 2.32 nm in plastic 
+GO solid (GO/water = 1/3, volume ratio), revealed by the 2  peak 
+shifting from 9.8° to 3.2° in x-ray diffraction spectra (fig. S2A). 
+An intuitional softening phenomenon was observed where the 
+plasticized GO films can recover to original states without fracture 
+after multiple folding (fig. S2B). Mechanical tests showed that the 
+interlayer peel strength decreases by ~12.7 times after water inter -
+calation (fig. S2C) owing to the considerably weakened interlayer 
+interaction. The decline of elastic modulus for the hydroplastic GO 
+film (fig. S2D) demonstrates the enhanced mobility of GO sheets. 
+We defined this process as hydroplasticization in contrast with the 
+thermal plasticity of polymers.
+In the following bubble foaming, the reaction of N 2H4 with 
+oxygen-containing groups of GO sheets or the decomposition of 
+other foaming reagents (NaBH 4 and NaHCO3) exhausted gas (18) 
+(such as CO2, CO, H2, and H2O) and generated bubbles in the in-
+terlayer space (fig. S3 and movies S1 and S2). According to the 
+Henry gas theory (19), the decreasing interlayer attraction in plas-
+tic GO weakens the constraint of bubble growth and lowers the 
+bubble nucleation threshold pressure, facilitating the gradual foam-
+ing (fig. S4). The activated mobility of GO sheets in the hydroplastic 
+state renders their rearrangement by sheet slippage and deforma-
+tion to adapt the bubble growth (Fig. 1C). This foaming process 
+resembles the thermoplastic foaming of polymeric sponges, in 
+which plasticity is just triggered by thermal activation of polymer 
+chains (15). In contrast, direct foaming GO solids without plastici-
+zation treatment only yielded high-density porous film (fig. S5) 
+(18) or even fluffy powders (16), caused by the catastrophic expan-
+sion of GO laminates.
+Fig. 1. Fabrication and mechanism of HPF GAs. (A) The process of HPF. GO solid film was continuously transformed to rolled GAs (~10 m, the photo in right panel) via 
+three steps: hydroplasticization, bubble foaming, and direct drying. (B) The intercalation of water into GO solid to expand the interlayer spacing. (C) Self-structural adjust-
+ment of GO layers through plastic slippage to conform to the bubbling process to maintain structural integrity and avoid catastrophic expanding burst. (D) Seamless 
+basal connections of graphene sheets formed by capillary-driven bubble clustering after drying. (E ) SEM images of dried GA and the corresponding structural model 
+of three-bubble connection (inset). Scale bars, 3 cm (A) and 200 m (E). Photo credit: Kai Pang, Zhejiang University.
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+3 of 8
+In the drying process, water was directly evaporated by heating 
+to avoid unnecessary freeze-drying (7) and solvent replacement (20). 
+During drying, the capillary force drives the clustering of bubbles 
+and the adaptable GO walls bind together to form a continuous 
+framework of GAs (Fig. 1D), obeying Plateau’s law to minimize the 
+surface area (21). The geometry of connected GO walls of aerogel 
+has similar attributes to the clusters of soap bubbles, such as spher-
+ical walls, faces, Plateau borders, and vortex voids, as demonstrated 
+in a three-bubble contact model (Fig. 1E). In HPF GAs, the face-to-
+face configuration of graphene walls dominates to form a hyperbo-
+loid structure (positive Gaussian curvature) with seamless basal 
+connection, instead of staggering configurations in FD aerogels (fig. 
+S6). The plastic foaming proceeds continuously and homogeneously 
+even for continuous GA rolls (length of 10 m) and large monoliths 
+(size of 30 cm by 15 cm) (Fig. 1A and fig. S7), eliminating the inho-
+mogeneous volume expansion and stress cracking in the prevalent 
+freeze-drying method. Moreover, the HPF method can possibly be 
+extended to almost any nanoparticles, and we have specifically 
+shown that it works for 1D cellulose nanofibers (fig. S8).
+Bubbling mechanism and structural control
+The HPF method exhibits high controllability on the microstruc-
+ture and porosity (or density) of GAs, by controlling the nucleation 
+density (Nn) and the size of bubbles (Rb). Figure 2 (A and B) shows 
+the conclusive diagram of N n and Rb, revealed by real-time optical 
+microscope observations in the ultrathin GO film model (fig. S9 
+and movie S3). The bubble evolution can be described as two sepa-
+rate elementary processes in the classic crystallization theory, which 
+are nucleation and growth. Nn is regulated by the concentration of 
+the foaming reagent N 2H4 ( CN2H4 ) and increases from 162 to 
+794 mm−2 as CN2H4 increases from 10 to 85% [weight % (wt %)] at 
+room temperature, conforming to a linear function of N n = 12.4 + 
+8.68CN2H4 (fig. S10A). The nucleation rate approaches an equilibrium 
+with CN2H4 increasing to 50% (fig. S11A). Raising temperature 
+accelerated the gas exhaust and therefore the nucleation rate of bub-
+bles (fig. S11B). At a given Nn, the bubble growth follows the Ostwald 
+ripening rule (15), and R b increases from 6 to 470 m as the HPF 
+time (t , min) extends, obeying a relationship of R b = 15.3  t −0.8 
+(fig. S10B).
+The clarified evolution of bubble nucleation and growth allows 
+the precise control of the microstructure and porosity of GAs. Bub-
+bles act as separators to delaminate thick GO laminates into thinner 
+walls and determine the pore size (Rp), which can be described by a 
+sinusoid wavy surface model (fig. S12). Following this top-down 
+principle, higher Nn generated thinner walls (Fig. 2D) and the wall 
+thickness (T ) was precisely tuned by controlling N n following an 
+exponential relationship of T = 33Nn
+−1.0, as shown in the statistical 
+results by scanning electron microscopy (SEM) measurements 
+(Fig. 2C and fig. S13, A and B). This exponential relation equates 
+the theoretic scaling law of T  ~  Nn
+−1 (fig. S12). High-resolution 
+transmission electron microscopy (HR-TEM) analysis revealed that 
+the wall thickness was tuned from ~40 to ~8 nm, reaching a high 
+accuracy in the nanometer scale. The porosity, or the apparent den-
+sity (), is tuned by R b and t, at given N n and temperature. The av-
+erage Rp of GAs expanded from 40  m at 0.17 min to 190  m at 
+120 min (fig. S13C). As a result,   decreased with the extending t 
+and expanding of R p, obeying the power relations of  = 13.3  t−0.2 
+and  = 386.4 Rp
+−0.8 (Fig. 2E and fig. S10C), close to the theoretical 
+relation of   ~  Rp
+−1 (fig. S12). The control on T  and R p can be 
+separated by tuning N n and t, respectively (fig. S13, E and F). At a 
+given Nn, the wall thickness of GAs at different times and tempera-
+tures barely changed (fig. S14, A to E). The benefits of HPF method-
+ology include not only high productivity and low costs by avoiding 
+complex drying processes but also the precise yet facile controllabil-
+ity on microstructures of GAs by the top-down bubbling strategy, 
+which are difficult for conventional sol-gel and templated methods 
+(table S1).
+Mechanical robustness of HPF GAs
+The hyperboloid structures with the seamless basal connection of 
+cellular graphene walls and the structural integrity enable HPF GAs 
+to endure complex deformations, including the ordinary compres-
+sion and the extreme tearing and shearing. To assess the structural 
+integrity under extreme deformations, the bulk HPF GA (  of 
+3.5 mg cm −3) was crumpled to its 30% size and forced to pass 
+through a smaller pipe without any rupture (Fig. 3A and movie S4). 
+The global crumpling has complicated deformation patterns and 
+includes compression, stretching, tearing, and twisting. The survival 
+of HPF GAs under this harsh test denotes the superior mechanical 
+robustness of polymeric sponges, which has never been achieved in 
+the neat FD GAs (fig. S15).
+To quantitatively evaluate mechanical robustness, we measured 
+HPF GAs in different elementary deformation modes: compression, 
+tension, bending, shearing, and tearing, in comparison with the tra-
+ditional FD aerogel. HPF GA bulks exhibited excellent resilience at 
+90% compressive strain for 105 cycles and kept a small variation of 
+Fig. 2. Bubbling mechanism and structural control. (A) A conclusive bubble di-
+agram of Nn and Rb by in situ optical microscope observation of the HPF process at 
+room temperature with different CN2H4. (B) Snapshots of bubble nucleation (increasing 
+density) and bubble growth (bubble expanding) and their corresponding diagrams. 
+(C) The tunable wall thickness of GAs by N n and corresponding HR-TEM images. 
+The fitting curve is T = 33Nn
+−1.0. (D) Schematic of decreasing wall thickness with 
+bubble nucleation density. (E ) Numerical correlation of HPF time with density of 
+GAs ( = 13.3 t −0.2) at 60°C and CN2H4 of 85 wt %. Scale bars, 50 m (B) and 10 nm (C).
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+4 of 8
+energy loss coefficient of ~0.05 (Fig. 3B and fig. S16A). Under long-
+term compression for 15 days at 99% strain, HPF GAs held a high 
+recovery (99% stress and 100% strain remaining) with negligible re-
+laxation (fig. S16B). Previous studies on FD GAs (7, 11, 12, 20, 22–29) 
+only exhibited sound, pure-compression resilience; however, our 
+HPF GAs elevated the capability limit on the minimal plastic defor-
+mation and the remaining maximal stress (Fig. 3C). The compres-
+sion resilience of HPF GAs remained stable in a wide temperature 
+range from −196°C (in liquid nitrogen) to 400°C, with a 100% re-
+tention of the maximum stress (fig. S16C). In addition, the Young’s 
+modulus (E) of HPF GA correlated with density as E ~ 0.83 (fig. S21, 
+A and B), and thinner walls were beneficial for the improvement of 
+compressive strength and modulus (fig. S21, C and D).
+Mechanical tests in other elementary deformation modes 
+demonstrated that HPF GAs behave stronger and tougher than FD 
+GAs with the same  of 5 mg cm −3 (Fig. 3, D to G). In tensile tests, 
+HPF GAs exhibited 340% higher fracture strength and 250% higher 
+breakage elongation than that of FD aerogels (Fig. 3D). The bend-
+ing modulus and strength are 11- and 2.43-fold higher than those of 
+FD aerogels, respectively (Fig. 3F). The remarkable superiority of 
+HPF GAs is the strength against shear and tear, outperforming FD 
+aerogels by 12.4 (Fig. 3E) and 10.4 times (Fig. 3G), respectively. Pre-
+vious reports (7, 11, 12, 20, 22–29) and our control experiments im-
+plied that FD aerogels could not endure the extreme shear and tear 
+deformations because of freeze-cracking and weak interconnection. 
+As a contrast, HPF GAs even exhibited remarkable recoverable abil-
+ities to tensile, bending, and shear tests for more than 1000 times, 
+similar to polymeric sponges (fig. S17). The overall superior me-
+chanical performances of HPF GAs originate from the hyperboloid 
+structure with seamless connection and the absence of cracks. In situ 
+SEM inspections revealed that the basal graphene walls could adapt 
+deformations without breakage, but the point-to-point and point-
+to-face connections between cellular walls in FD aerogels were weak 
+points to break easily (fig. S18).
+High-sensitive GA strain sensor
+The high compressibility and superior mechanical robustness of HPF 
+GAs guarantee the prerequisite of stability and reliability as strain 
+sensors based on the piezoresistive effect. We assessed the sensor 
+merits of a single HPF GA sensor that was encapsulated on silver 
+electrodes by PU film (Fig. 4A), and it exhibited high sensibility in a 
+wide strain range (fig. S19A). The GF, an important parameter to 
+evaluate the response sensitivity, exhibits three linear regimes: 
+GF = 2.01 in the strain range of 0 to 7%, GF = 0.55 in 7 to 70%, and 
+GF = 1.24 in 70 to 95%. The GF and sensing curves have a small 
+fluctuation for 104 test cycles at a high strain of 90% (Fig. 4C and fig. 
+S22A). The evolution of resistance fits a single monotonic function 
+of  = − 0.0004 2 + 0.016  + 0.02 (where  is the relative resistance 
+change R/R0 and  is the mechanical strain), which can be used as 
+a master curve for reliable data processing in practical applications 
+(Fig. 4B).
+For most strain sensors, the strain sensitivity and sensing strain 
+are a pair of paradoxes (12,  30–34). The HPF GA sensor with high 
+porosity (above 99%) fills the gap by providing an ultrabroad strain 
+range and a reliably high GF, simultaneously. On one hand, given the 
+high GF, the sensing range (0 to 95%) of the HPF GA sensor is broader 
+than that of (usually below 5%) conventional piezoresistive sensors 
+based on conductive networks of nanowires (30), microcracking 
+Fig. 3. Superior mechanical robustness of HPF GAs. (A) HPF GAs survive the extreme deformation test by passing through a smaller pipe, exhibiting superior structur-
+al integrity without any breakage. (B) Stress-strain curves of GAs under high compression strain (90%) for 105 cycles. (C) A comparison chart plotting plastic deformation 
+versus stress remaining during different compression cycles for HPF GAs and previously reported GAs. (D to G) Mechanical tests under elementary deformation modes: 
+tensile (D) shear (E), bending (F), and tear (G) tests. Scale bars in (A), 10 mm (left and right) and 20 mm (middle). Photo credit: Kai Pang, Zhejiang University.
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+5 of 8
+(31), and spacing regulation (MXene film) (32). On the other hand, 
+the GF of HPF GA behaves much higher than other carbon aerogels, 
+including carbonaceous nanofibrous aerogel (33), carbon nanotube 
+aerogel (34), and biomimetic GA (12) prepared from conventional 
+sol-gel and templating methods (Fig. 4D). Moreover, the lowered 
+density or wall thickness of GA enhanced GF at small strains (fig. 
+S21, D and E). Besides the high GF and broad sensing range, the GA 
+sensor exhibited an exceptionally high sensitivity of force down to 
+4 mN and pressure to 25 Pa (fig. S19, B to D), benefiting from its 
+high porosity for easy deformation (Fig. 3B). For the extreme cir-
+cumstance, the GA sensor is able to recognize the density change of 
+ultralight carbon aerogels, even down to 1 mg cm−3. We patched the 
+GA sensor on the fingertips of a robotic hand to pinch ultralight 
+carbon aerogels (Fig. 4E). The GA sensor identified the density dif-
+ference of carbon aerogels by either slight touching (low strain) or 
+hard pinching (high strain), judging from the response curves of 
+resistance by the Gaussian kernel process (Fig. 4F, fig. S20, and 
+movie S5) (35). Moreover, to further evaluate the reliability of GA 
+sensors for practical applications, we have prepared 10 batches of 
+GAs and compared their mechanical and sensing performances 
+(fig. S22, B and C). We found that there was little change in their 
+compressive and strain sensing curves, demonstrating the high re-
+peatability and reproducibility of the HPF process.
+AI microarray sensor of GAs
+We developed a direct method to fabricate large-area GA sensor 
+microarrays (Fig. 5A and fig. 23, A and B), by integrating the ink- 
+printing technique with HPF. GO was ink-printed between electrode 
+channels on polyethylene terephthalate (PET) substrate and the HPF 
+converted deposited GO arrays to GA arrays, followed by chemical 
+reduction and PU capsulation. The area can be easily scaled up to 
+reach a continuity to match continuous printing. We were able to 
+achieve the GA unit with a size resolution of 100  m (fig. S23C), 
+much smaller than the ridge width of the adult human fingerprint 
+(~500 m). Large-area GA sensor arrays (11 cm by 16 cm, 100 pixels) 
+can map the shape of objects and compression distribution on them 
+(Fig. 5B), such as a hand contour in Fig. 5A (see details in fig. S23D).
+We equipped the GA microarray sensor (64 sensors on 7 mm by 
+8 mm; Fig. 5C) onto a robotic fingertip and evaluated its sensing 
+ability to identify micro-sculpture patterns (a model of English letters 
+A to Z) (Fig. 5D), aided by the deep-learning data processing. Test-
+ing signals (fig. S24B) were acquired by signal modification circuits 
+(Fig. 5E and fig. S24A) and then converted into pixels by normaliz-
+ing to the range of 0 to 255 and assembled as an 8 × 8 letter image 
+corresponding to their locations (Fig. 5F). Collected letter images 
+were enhanced 64 times and used as test inputs into the trained con-
+volutional neural network (CNN) model, a usual model for sensor 
+data analysis (36–37), to conduct practical letter identification (see 
+movie S6). More than 105 letters in Eminist datasets (38) were used 
+to train the CNN by back-propagating errors (fig. S25A). The output 
+confusion matrix of actual and predicted object labels (fig. S25B) 
+indicated the considerable variation of classification accuracy for 
+individual letters due to the image variety in the handwriting Eminist 
+dataset.
+The ultrastability of the GA array sensor enables the reliability of 
+massive data (fig. S26), setting the basis for reliable AI tactile finger 
+Fig. 4. High sensitivity of the GA sensor. (A) Structure of the GA press sensor and its SEM image. (B) The resistance change ratio (R/R0, ) of the GA sensor to 95% strain 
+and its fitting as  = −0.0004 2 + 0.016  + 0.02. (C) Fatigue resistance of the GA sensor up to 90% strain for 10 4 cycles. (D) The comparison between the GA device and 
+other piezoresistive sensors (30–32) and carbon aerogels (12, 33, 34), in the merits of GF and strain range. (E) Mechanical control of the robotic hand with the GA sensor to 
+identify the density of ultralight carbon aerogel (ULCA). The responsive data signals were collected by an eight-channel data acquisition card. (F) The cubic fitting curves 
+between the press distance and resistance to determine the ULCA density by a Gaussian kernel process (fig. S20 and movie S5). Scale bar in (A), 50 m. Photo credit: Kai 
+Pang, Zhejiang University.
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+6 of 8
+sensors. The accuracy of the AI GA tactile sensor to identify letters 
+reached 80% (Fig. 5G), using a diverse set of tactile maps (from A to 
+Z) with inputting N distinct clusters (1 to 100). We launched a com-
+petitive test between an AI GA finger sensor and an adult person’s 
+finger in the letter identification (Fig. 5G). The average accuracy of 
+the GA finger sensor (80%) was overwhelmingly higher than that 
+(30%) of human fingers (80 people samples), simultaneously per-
+formed at a faster response speed (within 1 s). Moreover, a stride 
+enlarging method was conducted by adding a black pixel for 64 times 
+in the acquired images to simulate the broken situations. The en-
+larged datasets (26 × 64 images) were divided into training and test-
+ing classes (9:1) to test the probability of self-learning, and the GA 
+microarray sensor reached the perfect accuracy of letter identifica-
+tion (near 100%) (Fig. 5H). Through machine intelligence training, 
+the accuracy of the finger sensor with eight GA arrays to identify the 
+material species can be gradually enhanced to nearly 88%. Seven 
+types of materials were identified, including stainless steel, polylactic 
+acid, wood, hardboard, silicon rubber, sponge, and tissue (see details 
+in fig. S27). The identification accuracy of our GA tactile sensor has 
+reached a leading level of wearable sensors in recognition of materials 
+species and pattern (36, 37).
+Conclusions
+We present a new HPF method to fabricate ultralight aerogels of 
+nanomaterials directly from their solid, mainly exemplified by GA. 
+The underlying hydroplastic and bubbling mechanisms are re-
+vealed to guide the precise regulation of cellular wall thickness and 
+porosity of aerogels, extending our capability to design and control 
+structures of porous materials. Following the HPF mechanism, 
+GAs intrinsically feature seamless basal connection and structural 
+Fig. 5. AI microarray sensor of GAs. ( A) Hand pressing on a 10 × 10 GA array sensor (single pixel, 0.5 mm by 0.7 mm). (B ) Pressure distribution maps of hand [in (A)]. 
+(C) Photo of an 8 × 8 microarray sensor with a single cell size of ~300 m. (D) A robotic finger with a GA microarray sensor is touching the letter patterns. (E) Flowchart of 
+AI identification, including data acquisition, image conversion, and AI learning. The trained CNN by error back-propagation with the Eminist dataset (over 10 5 letters) as 
+training set contains three convolutional layers, three pooling layers, and two fully connected layers. (F) Collected letter images of A to Z through flow [in (E)]. (G) The 
+identification contest between an AI GA finger sensor and an adult human finger. The average accuracy of the finger sensor by using a diverse set of tactile maps with N 
+distinct clusters as input and the accuracy of the human finger by sampling from 80 people. (H) The letter identification accuracy is close to 100% by using collected letter 
+images with stride enlarged technics (64 times for 26 letters) as a training dataset. Scale bar in (C), 1.5 mm. Photo credit: Kai Pang, Zhejiang University.
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+7 of 8
+homogeneity in large scale, determining their superior mechanical 
+robustness to endure complex and extreme deformations, greatly 
+relieving the structural weakness and brittleness of GAs with ultra-
+high porosity. Beyond the pure compressibility in previous reports, 
+hydroplastic foamed GA exhibits an all-around structural integra-
+tion against complex deformations, performing like the daily used 
+polymer sponges.
+Extending from the ordinary aerogel bulks, we integrate the HPF 
+method with an ink-printing technique to continuously produce 
+GA microarrays with high size precision in a large scale. The GA strain 
+sensor exhibits both high sensibility and wide strain range, filling the 
+gap between conventional piezoresistive sensors and other conductive 
+porous sensors. The superior dynamic structural stability of GA frame-
+works guarantees the high sensing stability and massive reliable data 
+for the use of AI tactile sensor devices. The AI GA tactile sensor per-
+forms a much higher accuracy exceeding 80% to identify material 
+species and micro-sculpture patterns, showing a complete superiority 
+to human fingers. As a versatile methodology, our HPF promotes the 
+industrial production of aerogels of graphene and other nanomaterials, 
+replacing the prevalent freeze-drying method. The greatly enhanced 
+mechanical robustness increases the practical worth of aerogel mate-
+rials for broad applications in advanced nanocomposites, smart 
+electronics, thermal management, absorption, and separation.
+MATERIALS AND METHODS
+Fabrication of GO films
+Aqueous GO dispersions were purchased from Hangzhou Gaoxi 
+Technology Co. Ltd. (www.gaoxitech.com). Typically, aqueous GO 
+suspension (8 mg ml −1) was cast-dried on the PET substrate and 
+peeled off to obtain freestanding GO films.
+Direct fabrication of GAs
+For the direct HPF process, the GO films were immersed into the 
+N2H4/H2O solution. The N2H4 ratios (10, 30, 55, and 85 wt %), tem-
+perature (20°, 40°, 60°, 80°, and 100°C), and time were tuned to con-
+trol the nucleation density, foaming rate, and pore size, respectively. 
+The GAs were obtained after drying. The GAs for mechanical tests 
+and sensor evaluation were further annealed at 1600°C.
+Continuous fabrication of GAs
+The rolled GO films were pulled into the water and aqueous solu-
+tion of foaming agents (30% N 2H4 solution, wt/wt); thus, the con-
+tinuous GAs were achieved after air-drying at 60°C.
+In situ HPF fabrication of GA array
+Solid GO microunits were obtained by the direct printing with 
+high-concentration GO suspension (30 mg ml −1) on the designed 
+electrical circuits. GA array was achieved by in situ squeezing of 
+N2H4/H2O solution (30%, wt/wt) on the GO solid for 10 min to 
+proceed with the HPF process. The electrical conductivity of GAs 
+for piezoresistive sensing was further enhanced (9.7 ± 2 s/m) by 
+hydroiodic acid (HI) reduction at 90°C. The wall thickness and 
+density of the GA in the sensor array were about 20 ± 4 nm and 
+25 ± 2 mg/cm3, respectively.
+Device of GA array sensor for AI identification
+The sensor array for letter identification was grown on a flexible 
+print circuit (FPC) fabricated by the zedoary process. The size of the 
+FPC was 7 mm (L) by 8 mm (W) by 0.13 mm (H) with a total of 
+64 electrode pairs, where a single pair was shaped as 0.65 mm (L) by 
+0.5 mm (W). Sensor signals were obtained by scanning reading, and 
+its circuit topology was conducted by buried vias on electrodes. The 
+GA sensor units were fabricated by in situ HPF processes. This tactile 
+array of GA sensors was attached on the robotic finger by the PU 
+encapsulation with superior flexibility and stability.
+Machine learning and identification
+The machine learning for letter identification was to classify the sensor 
+image. Raw image inputs were unified by comparing the differences 
+between activation values and initial values of sensor outputs. The 
+generated image was scaled up to 64 × 64 to fit the input standard of 
+the later mentioned CNN. A modified LeNet-5 was adopted to con-
+duct the classification task to gain an optimal result. It consisted of 
+three convolutional layers, three maximum pooling layers, two fully 
+connected layers, and one softmax output layer. It was trained on a 
+deep learning platform with 32 GB random-access memory, dual 2080Ti 
+graphics processing unit (GPU), and Core i9 9900k central processing 
+unit (CPU). Furthermore, the size of the convolution kernel was 
+5 × 5, and the convolution stride was 2. The loss function of back- 
+propagation was optimized by the Adam algorithm. To avoid over-
+fitting, the dropout function was used in the networks.
+The Eminist dataset was selected as the training dataset of this 
+work to verify the model generalization and ensure its robustness. 
+The Eminist dataset was also reshaped as 64 × 64 to meet the input 
+requirement of the abovementioned neural networks, and the cor-
+rection rate of this task achieved 80%. Moreover, the classification 
+was conducted by using the sensor images as both training and test-
+ing data with a proportion of 9:1.
+Characterizations
+The structure and morphology were investigated by optical micros-
+copy, SEM, HR-SEM, HR-TEM, and atomic force microscopy on 
+ZEISS Axio Scope, Hitachi S4800, ZEISS Utral 55, JEM-2100, and 
+VEECO Multimode systems, respectively. To determine the accurate 
+wall thickness by HR-TEM, the GAs were embedded with epoxy resin 
+and then sliced ultrathin for further observation. The homemade 
+stage with manual step length was used to observe the structure of 
+GAs during compression and bending. In situ SEM observation of 
+GAs during compression and bending was manipulated by scanning 
+at different strain states with a retractable sample holder.
+The compressive tests were performed on a microcomputer 
+control electronic universal testing machine (RGWT-4000-20, 
+REGER). The Instron Legend 2344 machine is used for tensile, tear, 
+and peel tests. Shear tests were taken on the HAAKE RS6000 
+machine. The change of electrical properties of GA sensors was 
+evaluated by the combination of mechanical testing systems and 
+the Keithley 2400 Source Meter.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/6/46/eabd4045/DC1
+REFERENCES AND NOTES
+ 1. X. Xu, Q. Zhang, M. Hao, Y. Hu, Z. Lin, L. Peng, T. Wang, X. Ren, C. Wang, Z. Zhao, C. Wan, 
+H. Fei, L. Wang, J. Zhu, H. Sun, W. Chen, T. Du, B. Deng, G. J. Cheng, I. Shakir, C. Dames, 
+T. S. Fisher, X. Zhang, H. Li, Y. Huang, X. Duan, Double-negative-index ceramic aerogels 
+for thermal superinsulation. Science 363, 723–727 (2019).
+
+Pang et al., Sci. Adv. 2020; 6 : eabd4045     11 November 2020
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+8 of 8
+ 2. M.-C. Lin, M. Gong, B. Lu, Y. P. Wu, D.-Y. Wang, M. Guan, M. Angell, C. Chen, J. Yang, 
+B.-J. Hwang, H. Dai, An ultrafast rechargeable aluminium-ion battery. Nature 520, 
+325–328 (2015).
+ 3. Z.-S. Wu, S. Yang, Y. Sun, K. Parvez, X. Feng, K. Müllen, 3D nitrogen-doped graphene 
+aerogel-supported Fe3O4 nanoparticles as efficient electrocatalysts for the oxygen 
+reduction reaction. J. Am. Chem. Soc. 134, 9082–9085 (2012).
+ 4. S. Nardecchia, D. Carriazo, M. L. Ferrer, M. C. Gutiérrez, F. del Monte, Three dimensional 
+macroporous architectures and aerogels built of carbon nanotubes and/or graphene: 
+Synthesis and applications. Chem. Soc. Rev. 42, 794–830 (2013).
+ 5. X. Huang, X. Qi, F. Boey, H. Zhang, Graphene-based composites. Chem. Soc. Rev. 41, 
+666–686 (2012).
+ 6. M. A. Worsley, P. J. Pauzauskie, T. Y. Olson, J. Biener, J. H. Satcher Jr., T. F. Baumann, 
+Synthesis of graphene aerogel with high electrical conductivity. J. Am. Chem. Soc. 132, 
+14067–14069 (2010).
+ 7. H. Hu, Z. Zhao, W. Wan, Y. Gogotsi, J. Qiu, Ultralight and highly compressible graphene 
+aerogels. Adv. Mater. 25, 2219–2223 (2013).
+ 8. S. S. Kistler, Coherent expanded aerogels and jellies. Nature 127, 741–741 (1931).
+ 9. X. Zhang, R. Lv, A. Wang, W. Guo, X. Liu, J. Luo, MXene aerogel scaffolds for high-rate 
+lithium metal anodes. Angew. Chem. Int. Ed. 57, 15028–15033 (2018).
+ 10. J. Zou, J. Liu, A. S. Karakoti, A. Kumar, D. Joung, Q. A. Li, S. I. Khondaker, S. Seal, L. Zhai, 
+Ultralight multiwalled carbon nanotube aerogel. ACS Nano 4, 7293–7302 (2010).
+ 11. X. Wang, L.-L. Lu, Z.-L. Yu, X.-W. Xu, Y.-R. Zheng, S.-H. Yu, Scalable template synthesis 
+of resorcinol-formaldehyde/graphene oxide composite aerogels with tunable densities 
+and mechanical properties. Angew. Chem. Int. Ed. 54, 2397–2401 (2015).
+ 12. L. Qiu, J. Z. Liu, S. L. Y. Chang, Y. Wu, D. Li, Biomimetic superelastic graphene-based 
+cellular monoliths. Nat. Commun. 3, 1241 (2012).
+ 13. Z. Chen, W. Ren, L. Gao, B. Liu, S. Pei, H.-M. Cheng, Three-dimensional flexible and 
+conductive interconnected graphene networks grown by chemical vapour deposition. 
+Nat. Mater. 10, 424–428 (2011).
+ 14. S. S. L. Peppin, M. G. Worster, J. S. Wettlaufer, Morphological instability in freezing 
+colloidal suspensions. Proc. R. Soc. A. 463, 723–733 (2007).
+ 15. S.-T. Lee, C. B. Park, Foam Extrusion: Principles and Practice (CRC Press, 2004).
+ 16. T. Kim, G. Jung, S. Yoo, K. S. Suh, R. S. Ruoff, Activated graphene-based carbons as 
+supercapacitor electrodes with macro- and mesopores. ACS Nano 7, 6899–6905 (2013).
+ 17. R. K. Joshi, P. Carbone, F. C. Wang, V. G. Kravets, Y. Su, I. V. Grigorieva, H. A. Wu, A. K. Geim, 
+R. R. Nair, Precise and ultrafast molecular sieving through graphene oxide membranes. 
+Science 343, 752–754 (2014).
+ 18. Z. Niu, J. Chen, H. H. Hng, J. Ma, X. Chen, A leavening strategy to prepare reduced 
+graphene oxide foams. Adv. Mater. 24, 4144–4150 (2012).
+ 19. A. K. Coker, Ludwig’s Applied Process Design for Chemical and Petrochemical Plants  
+(GPP Press, 2015).
+ 20. Q. Zhang, X. Xu, D. Lin, W. Chen, G. Xiong, Y. Yu, T. Fisher, H. Li, Hyperbolically patterned 
+3D graphene metamaterial with negative Poisson’s ratio and superelasticity. Adv. Mater. 
+28, 2229–2237 (2016).
+ 21. C. Isabelle, C. A. Sylvie, E. Florence, G. François, H. Reinhard, P. Olivier, R. Florence,  
+S. J. Arnaud, Foams: Structure and Dynamics (Oxford Univ. Press, 2013).
+ 22. B. Yao, J. Chen, L. Huang, Q. Zhou, G. Shi, Base-induced liquid crystals of graphene oxide 
+for preparing elastic graphene foams with long-range ordered microstructures.  
+Adv. Mater. 28, 1623–1629 (2016).
+ 23. Y. Wu, N. Yi, L. Huang, T. Zhang, S. Fang, H. Chang, N. Li, J. Oh, J. Lee, M. Kozlov, 
+A. Chipara, H. Terrones, P. Xiao, G. Long, Y. Huang, F. Zhang, L. Zhang, X. Lepró, C. Haines, 
+M. D. Lima, N. P. Lopez, L. P. Rajukumar, A. L. Elias, S. Feng, S. J. Kim, N. T. Narayanan, 
+P. M. Ajayan, M. Terrones, A. Aliev, P. Chu, Z. Zhang, R. H. Baughman, Y. Chen, 
+Three-dimensionally bonded spongy graphene material with super compressive 
+elasticity and near-zero Poisson’s ratio. Nat. Commun. 6, 6141 (2015).
+ 24. H.-L. Gao, Y.-B. Zhu, L.-B. Mao, F.-C. Wang, X.-S. Luo, Y.-Y. Liu, Y. Lu, Z. Pan, J. Ge, W. Shen, 
+Y.-R. Zheng, L. Xu, L.-J. Wang, W.-H. Xu, H.-A. Wu, S.-H. Yu, Super-elastic and fatigue 
+resistant carbon material with lamellar multi-arch microstructure. Nat. Commun. 7, 
+12920 (2016).
+ 25. M. Yang, N. Zhao, Y. Cui, W. Gao, Q. Zhao, C. Gao, H. Bai, T. Xie, Biomimetic architectured 
+graphene aerogel with exceptional strength and resilience. ACS Nano 11, 6817–6824 (2017).
+ 26. X. Zhao, W. Yao, W. Gao, H. Chen, C. Gao, Wet-spun superelastic graphene aerogel 
+millispheres with group effect. Adv. Mater. 29, 1701482 (2017).
+ 27. C. Zhu, T. Y.-J. Han, E. B. Duoss, A. M. Golobic, J. D. Kuntz, C. M. Spadaccini, M. A. Worsley, 
+Highly compressible 3D periodic graphene aerogel microlattices. Nat. Commun. 6, 6962 
+(2015).
+ 28. S. Barg, F. M. Perez, N. Ni, P. do Vale Pereira, R. C. Maher, E. Garcia-Tuñon, S. Eslava, 
+S. Agnoli, C. Mattevi, E. Saiz, Mesoscale assembly of chemically modified graphene into 
+complex cellular networks. Nat. Commun. 5, 4328 (2014).
+ 29. H. Zhuo, Y. Hu, X. Tong, Z. Chen, L. Zhong, H. Lai, L. Liu, S. Jing, Q. Liu, C. Liu, X. Peng, 
+R. Sun, A supercompressible, elastic, and bendable carbon aerogel with ultrasensitive 
+detection limits for compression strain, pressure, and bending angle. Adv. Mater. 30, 
+e1706705 (2018).
+ 30. C. Pang, G.-Y. Lee, T.-i. Kim, S. M. Kim, H. N. Kim, S.-H. Ahn, K.-Y. Suh, A flexible and highly 
+sensitive strain-gauge sensor using reversible interlocking of nanofibres. Nat. Mater. 11, 
+795–801 (2012).
+ 31. C. Wang, J. Zhao, C. Ma, J. Sun, L. Tian, X. Li, F. Li, X. Han, C. Liu, C. Shen, L. Dong, J. Yang, 
+C. Pan, Detection of non-joint areas tiny strain and anti-interference voice recognition by 
+micro-cracked metal thin film. Nano Energy 34, 578–585 (2017).
+ 32. Y. Ma, N. Liu, L. Li, X. Hu, Z. Zou, J. Wang, S. Luo, Y. Gao, A highly flexible and sensitive 
+piezoresistive sensor based on MXene with greatly changed interlayer distances.  
+Nat. Commun. 8, 1207 (2017).
+ 33. Z.-L. Yu, B. Qin, Z.-Y. Ma, J. Huang, S.-C. Li, H.-Y. Zhao, H. Li, Y.-B. Zhu, H.-A. Wu, S.-H. Yu, 
+Superelastic hard carbon nanofiber aerogels. Adv. Mater. 31, e1900651 (2019).
+ 34. K. H. Kim, Y. Oh, M. F. Islam, Graphene coating makes carbon nanotube aerogels 
+superelastic and resistant to fatigue. Nat. Nanotechnol. 7, 562–566 (2012).
+ 35. W. Wang, Z. Xu, W. Lu, X. Zhang, Determination of the spread parameter in   
+the Gaussian kernel for classification and regression. Neurocomputing 55, 643–663 
+(2003).
+ 36. S. Sundaram, P. Kellnhofer, Y. Li, J.-Y. Zhu, A. Torralba, W. Matusik, Learning 
+the signatures of the human grasp using a scalable tactile glove. Nature 569, 698–702 
+(2019).
+ 37. M. Wang, Z. Yan, T. Wang, P. Cai, S. Gao, Y. Zeng, C. Wan, H. Wang, L. Pan, J. Yu, S. Pan, 
+K. He, J. Lu, X. Chen, Gesture recognition using a bioinspired learning architecture that 
+integrates visual data with somatosensory data from stretchable sensors. Nat. Electron. 3, 
+563–570 (2020).
+ 38. G. Cohen, S. Afshar, J. Tapson, A. van Schaik, EMNIST: Extending MNIST to handwritten 
+letters, in Proceedings of 2017 International Joint Conference on Neural Networks  
+(IEEE, Anchorage, AK, USA, 2017), pp. 2921–2926.
+ 39. Y. Si, J. Yu, X. Tang, J. Ge, B. Ding, Ultralight nanofibre-assembled cellular aerogels 
+with superelasticity and multifunctionality. Nat. Commun. 5, 5802 (2014).
+ 40. Y. Si, X. Wang, C. Yan, L. Yang, J. Yu, B. Ding, Ultralight biomass-derived carbonaceous 
+nanofibrous aerogels with superelasticity and high pressure-sensitivity. Adv. Mater. 28, 
+9512–9518 (2016).
+ 41. C. J. Burges, A tutorial on support vector machines for pattern recognition. Data Min. 
+Knowl. Discov. 2, 121–167 (1998).
+ 42. H. Yang, Z. Li, G. Sun, X. Jin, B. Lu, P. Zhang, T. Lin, L. Qu, Superplastic air-dryable 
+graphene hydrogels for wet-press assembly of ultrastrong superelastic aerogels 
+with infinite macroscale. Adv. Funct. Mater. 29, 1901917 (2019).
+Acknowledgments 
+Funding: This work is financially supported by the National Natural Science Foundation of 
+China (nos. 51533008, 51973191, 51703194, and 51803177), the National Key R&D Program of 
+China (no. 2016YFA0200200), the Hundred Talents Program of Zhejiang University 
+(188020*194231701/113), the Fujian Provincial Science and Technology Major Projects  
+(no. 2018HZ0001-2), the Key Research and Development Plan of Zhejiang Province (2018C01049), 
+the Foundation of National Key Laboratory on Electromagnetic Environment Effects  
+(no. 614220504030717), the Key Laboratory of Novel Adsorption and Separation Materials and 
+Application Technology of Zhejiang Province (512301-I21502), the Fundamental Research 
+Funds for the Central Universities (no. K20200060), the Ministry of Education in China Project 
+of Humanities and Social Sciences (no. 19YJCZH126), and the Zhejiang Province Qian Jiang 
+Talent Program of 2018 (no. QJC1802009). Author contributions: Z.X. and C.G. conceived the 
+research. K.P., Z.X., and Y.L. designed experiments, analyzed the data, and wrote the 
+manuscript. K.P. and X.L. did the mechanical tests of GAs. K.P. and L.Z. did the electrical tests of 
+the GA sensor. Y.P., Jian W., X.S., and J.Z. conceived and designed the electronic circuit of 
+sensor arrays. X.S. and Jianxiang W. conducted machine learning and identification. F.M. built 
+the sinusoid wavy surface model. Competing interests: The authors declare that they have 
+no competing interests. Data and materials availability: All data needed to evaluate the 
+conclusions in the paper are present in the paper and/or the Supplementary Materials. 
+Additional data related to this paper may be requested from the authors.
+Submitted 20 June 2020
+Accepted 16 September 2020
+Published 11 November 2020
+10.1126/sciadv.abd4045
+Citation: K. Pang, X. Song, Z. Xu, X. Liu, Y. Liu, L. Zhong, Y. Peng, J. Wang, J. Zhou, F. Meng, J. Wang, 
+C. Gao, Hydroplastic foaming of graphene aerogels and artificially intelligent tactile sensors. 
+Sci. Adv. 6, eabd4045 (2020).

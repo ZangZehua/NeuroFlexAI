@@ -1,0 +1,3581 @@
+Sunwoo et al. NPG Asia Materials (2025) 17:40
+https://doi.org/10.1038/s41427-025-00621-8 NPG Asia Materials
+REVIEW ARTICLE Open Access
+Intrinsically soft electronics using conducting
+nanomaterials and liquid metals
+Sung-Hyuk Sunwoo1,2,3,H y eJ i nK i m2,4, Jae Hyuk Kim 1, Dong Chan Kim5,6 and Dae-Hyeong Kim 2,7,8
+Abstract
+Flexible electronics have signiﬁcantly inﬂuenced modern daily life, particularly in personalized, human-centric applications,
+due to their ability to conform to curved surfaces. Building on this adaptability, researchers are now focusing on
+developing stretchable electronic devices that promise next-generation form factors, offering unprecedented user
+experience and functionalities. Current approaches employ rigid electronic materials conﬁgured in strain-accommodating
+geometries, achieving a high level of technological maturity by leveraging well-established technologies. However, these
+strategies face limitations, particularly in terms of long-term durability under repeated deformation, primarily due to their
+reliance on non-stretchable components. To overcome these limitations and facilitate durable deformation, intrinsically
+stretchable electronic materials have emerged as a promising solution. This review highlights recent advancements in
+intrinsically soft electronics, with a particular focus on stretchable conductors based on metallic components. Key
+elements of intrinsically stretchable conductors are discussed, including elastomers used as stretchable substrates, and
+metallic ingredients such as low-dimensional metallic nanomaterials and liquid metals. Additionally, we explore various
+assembly and patterning techniques for these materials. Practical applications of metal-based intrinsically soft conductors
+are highlighted, and this review concludes with an outlook on the prospects and potential challenges for these emerging
+technologies.
+Introduction
+Recent advancements in electronics have propelled
+modern human civilization forward in transformative
+ways. Innovations in materials science and semi-
+conductor processing have enabled the creation of
+electronic devices that are not only smaller in size but
+also vastly superior in perf ormance. For example, the
+computational power of modern mobile phones far
+exceeds that of the Apollo 11 mission ’s onboard com-
+puter, while being remarkably compact
+1.T h e s e
+advancements have paved t h ew a yf o rt h ed e v e l o p m e n t
+of wearable and implantable electronics, technologies
+that seamlessly integrate with the human body.
+Applications of these devices span from medical and
+biological monitoring to sports, entertainment, and
+industrial operations, enhancing both functionality and
+efﬁciency.
+Traditional electronic materials, such as metals and
+silicon, have been instrumental in these achievements due
+to their excellent electrical properties and ease of pro-
+cessing
+2,3. Moreover, processing those materials in ultra-
+thin, sub-micrometer scale and patterning them with the
+structures, which absorb mechanical stress, enabled ﬂex-
+ibility and even stretchability 4–7. However, this metho-
+dology is constrained by limited deformation capabilities
+and susceptibility to mechanical fatigue during repeated
+use
+8,9.
+To overcome these challenges, recent research has
+shifted toward developing intrinsically soft and stretch-
+able materials 8,10. These materials not only withstand
+extensive deformation but also retain their performance
+under repeated mechanical stresses
+11,12. For instance,
+hydrogels, liquid metals (LMs), and polymer composites
+with conductive ﬁllers have emerged as promising
+© The Author(s) 2025
+Open AccessThis article is licensed under a Creative CommonsAttribution-NonCommercial-NoDerivatives 4.0 International License, which permits any non-commercial
+use, sharing, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the
+Creative Commons licence, and indicate if you modiﬁed the licensed material. You do not have permission under this licence to share adapted material derived from this article or parts of it.
+The images or other third party material inthis article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+in the article’s Creative Commons licence and your intended use isnot permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the
+copyright holder. To view a copy of this licence, visithttp://creativecommons.org/licenses/by-nc-nd/4.0/.
+Correspondence: Dong Chan Kim ( dckim@gachon.ac.kr)o r
+Dae-Hyeong Kim ( dkim98@snu.ac.kr)
+1Department of Chemical Engineering, Kumoh National Institute of
+Technology, Gumi, Republic of Korea
+2Center for Nanoparticle Research, Institute for Basic Science (IBS), Seoul,
+Republic of Korea
+Full list of author information is available at the end of the article
+These authors contributed equally: Sung-Hyuk Sunwoo, Hye Jin Kim
+1234567890():,;1234567890():,;
+1234567890():,;
+1234567890():,;
+
+candidates due to their unique combination of softness,
+stretchability, and excellent electrical properties 13. Such
+materials are particularly valuable in biomedical and
+industrial applications, where ﬂexibility and biocompat-
+ibility are critical 14.
+This study reviews the latest research trends and future
+directions for intrinsically so ft electronic materials, with
+a focus on metal-based systems (Fig. 1). It ﬁrst examines
+structural engineering strat egies for imparting stretch-
+ability to traditional rigid materials, analyzing their
+advantages and limitations. Next, it introduces cutting-
+edge intrinsically soft metallic materials, detailing their
+properties and how they overcome the constraints of
+rigid counterparts. The discussion then shifts to fabri-
+cation techniques and structural designs that enhance
+the performance and durability of these materials.
+Finally, the study highlights applications of these mate-
+rials in electronic component ss u c ha sc i r c u i t s ,d i s p l a y s ,
+energy storage devices, and computing systems, illus-
+trating their potential to revolutionize the ﬁeld of ﬂexible
+electronics.
+Complications of conventional ﬂexible electronics
+The development of ﬂexible electronics has revolutio-
+nized applications in wearable devices, medical implants,
+and soft robotics. However, conventional approaches
+encounter critical limitations, particularly under highly
+deformable or stretchable conditions. The primary strat-
+egy has relied on ultrathin materials capable of con-
+forming to non-planar surfaces while preserving
+functionality. Despite their potential, these methods are
+hindered by the intrinsic rigidity of the materials and the
+intricate mechanical and electrical design processes nee-
+ded to maintain performance under strain. This chapter
+delves into these challenges, analyzing the strategies
+employed and their associated limitations.
+Strategies for ﬂexible electronics
+Flexible electronics have primarily achieved mechanical
+compliance by employing ultrathin materials, enabling
+devices to conform to curved or dynamic surfaces without
+signiﬁcantly compromising electrical properties 15. Thin
+metal ﬁlms, often deposited and patterned on ﬂexible
+Fig. 1 Systemic illustration introducing overall ﬂow of this review. Reproduced with permission 107. Copyright 2021, AAAS.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 2 of 42
+
+substrates like polyimide (PI) or parylene, exemplify this
+approach. The primary advantage of ultrathin materials is
+their ability to reduce bending stiffness, allowing for
+substantial ﬂexibility even when rigid materials are uti-
+lized. However, while effective for addressing ﬂexibility in
+bending, this strategy falls short when dealing with
+complex deformations such as stretching or twisting, key
+requirements for next-generation applications like epi-
+dermal electronics and biomedical implants.
+Structural designs for stretchable electronics using
+ultrathin materials
+To address the limitations of ultrathin materials, various
+structural designs have been employed to enhance the
+stretchability of ﬂexible electronics. These designs enable
+rigid materials to withstand greater mechanical strain
+without compromising their electrical performance. Four
+major approaches are commonly used:
+In-plane serpentine structure
+In-plane serpentine structures utilize wavy or serpen-
+tine patterns for conductive traces, enabling stretchability
+by allowing the material to unfold under tensile stress.
+This geometric con ﬁguration accommodates mechanical
+deformation while the conductive material itself remains
+rigid, thus enhancing ﬂexibility (Fig. 2a)
+16. However, a key
+limitation of this approach is the signi ﬁcant space
+required for serpentine patterns, which reduces the
+effective functional density of the device.
+For instance, Jiao et al. developed a vertical serpentine
+structure to achieve ﬂexibility and stretchability using
+intrinsically rigid materials 17. This structure was fabri-
+cated on a silicon-based platform, where functional nodes
+were interconnected through serpentine designs to pro-
+vide mechanical compliance. The process involved pho-
+tolithography and etching on a silicon wafer to create the
+base for the serpentine interconnects, which were subse-
+quently encapsulated in multiple layers of Parylene-C.
+This encapsulation protected the conductive layers while
+allowing the structure to stretch and bend without com-
+promising electrical performance. The resulting vertical
+serpentine conductor exhibited exceptional mechanical
+properties, withstanding up to 350% strain while main-
+taining electrical stability. Experimental results indicated
+less than a 2% change in electrical resistance under 300%
+strain (Fig. 2b), and the structure endured over
+100 stretching cycles at 100% strain without signi ﬁcant
+degradation, demonstrating its durability.
+Out-of-plane buckling structure
+Out-of-plane buckling structures enable stretchability
+by leveraging vertical deformations. When a thin, rigid
+ﬁlm is bonded to a pre-stretched elastomer and subse-
+quently released, the ﬁlm forms out-of-plane wrinkles or
+buckles (Fig. 2c)18. This con ﬁguration accommodates
+strain without stretching the material itself, effectively
+maintaining conductivity during deformation. However,
+controlling the uniformity and direction of buckling pat-
+terns remains challenging.
+For example, Xu et al. employed this technique by
+bonding silicon microstructures onto a pre-stretched
+elastomer substrate
+19. Upon releasing the pre-strain, the
+silicon structures buckled into three-dimensional (3D)
+geometries, enabling mechanical strain accommodation
+without fracturing (Fig. 2d). The structures maintained
+electrical continuity and mechanical stability under cyclic
+strains of up to 100% over 1,000 cycles, demonstrating
+their durability for stretchable electronics.
+Coiled structure and helical structure
+The coiled and/or helical structure, often applied to
+wires and ﬁbers, involves creating a spring-like con ﬁg-
+uration that extends and compresses under strain. This
+conﬁguration offers signi ﬁcant stretchability while main-
+taining electrical continuity (Fig. 2e)
+20. The downside of
+this design as electronic materials is that it introduces
+inductance and resistance variations under different strain
+conditions, which can lead to signal distortion in high-
+frequency applications (Fig. 2f)
+21.
+Origami and Kirigami design
+Origami and kirigami techniques utilize folding and
+cutting patterns in thin ﬁlms to enable stretchability,
+accommodating signi ﬁcant mechanical deformation
+without damaging the material (Fig. 2g)22. These designs
+are particularly effective for applications requiring large
+strains, though they can reduce functional density and
+complicate fabrication processes.
+For example, Guan et al. implemented a kirigami-
+inspired design to transform non-stretchable polymer
+conducting nanosheets (NSs) into highly stretchable
+materials
+23. By introducing precise cuts into a polymer
+sheet containing Poly(3-butylthiophene-2,5-diyl) con-
+ductive nanowires (NWs) embedded in a robust polymer
+matrix, the structure achieved up to 2000% strain by
+deforming along the cut lines. The NSs retained stable
+electrical performance over 1000 cycles of 2000% strain,
+with conductivity improving to 4.002 S/cm after iodine
+doping, compared to the original 2.2 × 10 ⁻³ S/cm (Fig. 2h).
+Drawbacks of structural design strategies
+While structural design strategies offer innovative ways
+to impart stretchability to rigid materials, these approa-
+ches are fundamentally limited by the intrinsic rigidity of
+the materials themselves. Metals, semiconductors, and
+other stiff components encounter signi ﬁcant challenges
+under repetitive mechanical strain, constraining their
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 3 of 42
+
+long-term reliability and applicability in soft electronic
+devices.
+One major limitation is the complexity of adapting rigid
+materials for stretchable applications. Geometric designs
+often require intricate patterns and thin- ﬁlm archi-
+tectures, necessitating advanced fabrication techniques
+that involve multiple deposition, patterning steps, and
+even transfer
+24. These processes are not only technically
+Fig. 2 Stretchable electronics using ultrathin but intrinsically rigid materials and their complications. a , b In-plane serpentine structure for
+stretchability. Reproduced with permission 16. Copyright 2013, RSC Publishing. Reproduced with permission 17. Copyright 2023, Springer Nature.
+c, d Out-of-plane buckling structure for stretchability. Reproduced with permission 18. Copyright 2006, Springer Nature. Reproduced with
+permission19. Copyright 2015, AAAS. e, f Helical structure for stretchability. Reproduced with permission 14. Copyright 2020, Springer Nature.
+Reproduced with permission21. Copyright 2024, Springer Nature. g, h Origami and kirigami structure for stretchability. Reproduced with permission 22.
+Copyright 2022, Springer Nature. Reproduced with permission 23. Copyright 2018, John Wiley & Sons. i– l Complications of the stretchable designs;
+complicated design and manufacturing processes, low device resolution, and mechanical stress. Reproduced with permission 24. Copyright 2014,
+National Academy of Science. Reproduced with permission 25. Copyright 2022, Elsevier. Reproduced with permission 26. Copyright 2020, Elsevier.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 4 of 42
+
+demanding but also time-intensive and costly, adding
+signiﬁcant barriers to scalability and widespread adoption
+(Fig. 2i, j).
+Another drawback arises from the need for 3D defor-
+mation in inherently 2D materials. Accommodating such
+deformations requires the inclusion of marginal spaces in
+the design, leading to increased size and reduced func-
+tional density (Fig. 2k)
+25. For instance, serpentine struc-
+tures used in stretchable displays demand additional
+spacing, which decreases pixel density, diminishing image
+resolution and overall device performance. This trade-off
+between stretchability and functional density remains a
+critical challenge for applications requiring high precision
+and compact designs.
+Moreover, reducing the thickness of rigid materials to
+enhance ﬂexibility compromises their mechanical robust-
+ness (Fig. 2l)
+26. Under repetitive mechanical strain, such as
+cyclic stretching or bending, stress accumulates within the
+material, eventually leading to fatigue, micro-cracking, or
+delamination at interfaces. These issues degrade perfor-
+mance and shorten the device ’s operational lifespan. Even
+in commercially available ﬂexible electronics, hinge regions
+often experience accelerated mechanical degradation due
+to repeated stress.
+Despite advancements in structural design, these lim-
+itations underscore the necessity of alternative approa-
+ches. Intrinsically soft materials offer a promising solution
+by eliminating the reliance on geometric adaptations to
+achieve stretchability. By addressing the fundamental
+challenges posed by rigid materials, intrinsically soft
+electronics can enable devices that are not only stretch-
+able but also robust, functional, and reliable over exten-
+ded periods.
+Intrinsically stretchable substrate/encapsulation
+materials
+As electronics evolve towards wearable, implantable,
+and soft robotic applications, the demand for highly
+stretchable and deformable materials, particularly those
+suitable for use as substrates and encapsulation layers, has
+become increasingly critical
+27. Conventional electronics
+rely on rigid or semi-rigid substrates, which signi ﬁcantly
+limit their performance in environments requiring high
+ﬂexibility and adaptability. In contrast, intrinsically soft
+materials offer an innovative solution by combining high
+elasticity with mechanical compliance, enabling electronic
+devices to withstand stretching, twisting, and bending
+without compromising functionality.
+Soft electronics typically involve conductive compo-
+nents, which serve as circuits, and insulating materials,
+which function as substrates or encapsulation layers. To
+achieve truly intrinsically soft electronics, both conductive
+and insulating materials must exhibit comparable soft-
+ness. This chapter delves into a range of intrinsically soft
+insulating materials, including ﬂexible polymers, elasto-
+mers, and hydrogels, that are widely utilized as substrates
+or encapsulation layers in soft electronics, highlighting
+their properties and applications.
+Flexible polymers
+Flexible polymers, such as polyimide and parylene, have
+long been considered for use in ﬂexible electronics due to
+their mechanical ﬂexibility and ease of processing. While
+not inherently stretchable, these polymers can serve as
+ﬂexible substrates for thin- ﬁlm electronics or in combi-
+nation with more elastic materials.
+Parylene
+Parylene is a widely utilized material in ﬂexible elec-
+tronics, valued for its exceptional dielectric properties and
+chemical resistance. Its vapor-phase deposition process
+enables the formation of conformal, pinhole-free coatings,
+making it ideal for applications requiring electrical insu-
+lation and protection from environmental factors like
+moisture and chemicals
+28. Parylene ’s inherent ﬂexibility
+further enhances its suitability for scenarios where devices
+must endure mechanical deformation.
+For example, Werkmeister and Nickel investigated
+the use of Parylene-N and Parylene-C as substrates and
+gate dielectrics in organic thin- ﬁlm transistors
+29.T h e
+chemically vapor-deposited Parylene-N ﬁlm demon-
+strated an impressively low surface roughness of
+approximately 4 nm. Utilizing the lift-off technique, a
+gold layer and a pentacene layer were deposited onto
+the parylene substrate to construct the electronic
+components. The resulting organic thin- ﬁlm transistor
+exhibited remarkable mechanical ﬂexibility, maintain-
+ing consistent performance even under deformation
+with a bending radius as small as 1 mm (Fig. 3a). This
+highlights Parylene ’s potential in advanced ﬂexible
+electronic applications.
+Polyimide (PI)
+PI is a high-performance polymer renowned for its
+excellent thermal stability ( –296 to 400 °C), mechanical
+robustness, and ﬂexibility30. These properties make PI a
+preferred choice for applications such as ﬂexible printed
+circuit boards (FPCBs), where it serves as a reliable sub-
+strate for thin metal interconnects. Its outstanding ther-
+mal resistance ensures durability in high-temperature
+environments, while its mechanical ﬂexibility makes it
+ideal for wearable electronics requiring minimal bending
+stiffness.
+For example, Jin et al. developed ﬂexible surface
+acoustic wave resonators using vertically-aligned zinc
+oxide (ZnO) nanocrystals deposited on PI ﬁlm. The ZnO
+nanocrystal ﬁlm, with a thickness of 1.7 –4 μm, was
+sputtered onto a 100 μm-thick PI substrate
+31. The
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 5 of 42
+
+Fig. 3 (See legend on next page.)
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 6 of 42
+
+resulting resonator exhibited remarkable ﬂexibility,
+maintaining its functionality even when wrapped around a
+ﬁnger. This demonstrates polyimide ’s potential for use in
+ﬂexible electronics, sensors, and lab-on-a-chip devices,
+highlighting its capability to endure substantial mechan-
+ical deformation while preserving performance (Fig. 3b).
+Polyethylene terephthalate (PET)
+Polyethylene terephthalate (PET) is widely used in
+ﬂexible electronics due to its transparency, mechanical
+strength, and cost-effectiveness 32,33. Its optical clarity and
+ﬂexibility make it a popular choice for applications like
+ﬂexible displays and touchscreens. However, PET ’s low
+stretchability and limited thermal and chemical stability
+restrict its use in environments requiring signi ﬁcant
+elongation or harsh conditions. For instance, Li et al.
+fabricated large-scale, transparent molybdenum disul ﬁde
+(MoS₂)-based transistors and logic circuits on PET sub-
+strates (Fig. 3c) by transferring a wafer-scale MoS ₂
+monolayer onto indium tin oxide (ITO) and aluminum
+oxide (Al
+2O3)-treated PET 34. The resulting devices
+demonstrated durability, maintaining functionality after
+1,000 bending cycles at 2% strain.
+Other ﬂexible polymers
+In addition to parylene, polyimide, and PET, polymers
+such as polycarbonate (PC) 35 and polyether ether ketone
+(PEEK)36 have been explored for ﬂexible electronics due
+to their balance of ﬂexibility, strength, and durability.
+These materials are suitable for applications in ﬂexible
+circuits, displays, and biomedical devices. For instance,
+Quereda et al. fabricated a tungsten disul ﬁde (WS ₂)
+photodetector on a transparent polycarbonate ﬁlm
+through a simple direct rubbing technique with WS ₂
+micropowder (Fig. 3d)
+37. The polycarbonate substrate,
+chosen for its abrasion resistance, supported the fabrica-
+tion process without degradation. The photodetector
+demonstrated a responsivity of 114 mA/W and a fast
+response time of ~70 μs, with stable performance under
+0.7% uniaxial elongation.
+Elastomeric materials
+Elastomers are a class of polymers that are intrinsically
+stretchable, offering both high elasticity and mechanical
+compliance. These materials can undergo large strains (up
+to several hundred percent) without permanent defor-
+mation, making them ideal for applications in soft elec-
+tronics where signi ﬁcant mechanical deformation is
+required. Elastomers can be broadly classi ﬁed into phy-
+sically crosslinked elastomers and chemically crosslinked
+elastomers, each with a crosslinking mechanism, distinct
+properties, and fabrication processes.
+Physically crosslinked elastomers
+Physically crosslinked elastomers rely on physical inter-
+chain interactions, such as hydrogen bonding and elec-
+trostatic forces, to maintain their structure 38,39. These
+materials typically consist of soft segments, which provide
+stretchability by unfolding under mechanical deformation,
+and hard segments, which ensure structural integrity
+through inter-chain interactions (Fig. 3e). The ratio of soft
+to hard segments dictates the material ’s overall softness
+and stretchability. Compared to chemically crosslinked
+elastomers, physically crosslinked variants exhibit greater
+plasticity and stretchability due to their lower crosslinking
+density and reversible bonding mechanisms. Additionally,
+their capacity to accommodate nano ﬁllers makes them
+well-suited as nanocomposite matrices. However, their
+weak resistance to heat and chemicals limits their dur-
+ability in harsh environments.
+Polyurethane (PU) Polyurethane (PU) is a physically
+crosslinked elastomer valued for its high elasticity and
+toughness, making it a popular material in wearable
+electronics, sensors, and soft robotics. Its ability to endure
+high strain without mechanical failure makes it particu-
+larly suitable for harsh environments
+40,41. However, PU ’s
+sensitivity to moisture and humidity can affect its long-
+term mechanical properties. Despite this limitation, PU
+remains a versatile and easily tunable material for soft
+electronics due to its mechanical robustness and ease of
+processing
+42.
+(see ﬁgure on previous page)
+Fig. 3 Intrinsically stretchable substrate and encapsulation materials. a – d Flexible polymers. Reproduced with permission 29. Copyright 2013,
+RSC Publishing. Reproduced with permission 31. Copyright 2013, Springer Nature. Reproduced with permission 34. Copyright 2020, Springer Nature.
+Reproduced with permission 23. Copyright 2022, Springer Nature. e, f Physically (e) and chemically (f) crosslinked elastomers. Reproduced with
+permission37. Copyright 2021, John Wiley & Sons. g, h Thermoplastics. Reproduced with permission 43. Copyright 2024, Springer Nature. Reproduced
+with permission 44. Copyright 2023, Springer Nature. i, j Block-copolymers. Reproduced with permission 46. Copyright 2023, Springer Nature.
+Reproduced with permission 45. Copyright 2023, Springer Nature. k, l Silicones. Reproduced with permission 54. Copyright 2024, Springer Nature.
+Reproduced with permission44. Copyright 2023, Springer Nature. m, n Photocrosslinkable elastomers. Reproduced with permission 57. Copyright 2020,
+Springer Nature. Reproduced with permission 58. Copyright 2021, AAAS. o– q Intrinsically soft hydrogel substrate. Reproduced with permission 62.
+Copyright 2021, Springer Nature. Reproduced with permission 63. Copyright 2019, Springer Nature. Reproduced with permission 64. Copyright 2023,
+Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 7 of 42
+
+For example, Cao et al. developed stretchable electrodes
+with anti-friction properties by forming hydrogen bonds
+between hydrophilic PU and wet gold grains, achieving a
+robust interfacial binding strength of 1,243.4 N/m —
+signiﬁcantly higher than polydimethylsiloxane (PDMS)
+or styrene-ethylene-butylene-styrene (SEBS) substrates
+(Fig. 3g)
+43. The Au/PU device demonstrated excellent
+electrical conductivity (<500 Ω/□) even after 1100
+friction cycles at 130 kPa and maintained low electrical
+resistance (1.09 × 10 ⁻³ Ω·m) under 400% strain. This
+versatile electrode was successfully used as a bioelectrode
+and an anti-friction pressure sensor array.
+Lv et al. introduced a sustainable PU-based printed
+conductor using vegetable oil-derived polyols crosslinked
+through carbamate-oxime and hydrogen bonds
+44. This
+PU/Ag composite exhibited a conductivity of 12,833 S/
+cm, stretchability of 350%, and low hysteresis (0.333) after
+100% cyclic stretching (Fig. 3h). As a proof of concept, the
+composite was implemented in a soft smart gripper for
+fruit maturity sensing, detecting ripeness via impedance
+spectroscopy and transmitting signals to a pneumatic
+actuator for automated gripping. Additionally, the com-
+posite was recyclable, allowing separation into reusable
+PU and Ag ﬂakes through solvent dissolution and
+centrifugation.
+Block-copolymers Block copolymers, such as styrene-
+butadiene-styrene (SBS) and SEBS, are widely used as
+physically crosslinked elastomers due to their combina-
+tion of mechanical strength and stretchability
+45.T h e s e
+materials consist of alternating hard and soft segments,
+where the hard blocks provide reinforcement, and the
+soft blocks contribute to elasticity, making them ideal
+for ﬂexible conductive composites and stretchable
+electrodes.
+For example, Koo et al. developed intrinsically soft
+transistors by integrating semiconducting carbon nano-
+tubes (CNTs), microcracked gold nanomembranes, and a
+chemically vapor-deposited elastic polymer dielectric on a
+SEBS substrate (Fig. 3i)
+46. The dielectric material,
+designed with soft (isononyl acrylate) and hard (tri-
+methyl-trivinyl cyclotrisiloxane) segments, maintained
+stretchability while ensuring high uniformity and stable
+electrical performance. The transistor array, comprising
+1000 devices on a wafer, demonstrated functionality
+under 40% strain for over 1000 cycles and supported
+logic operations such as NAND, NOR, and XOR gates.
+In another study, Li et al. incorporated a soft SEBS
+interlayer with a Young ’s modulus of 2.83 MPa to create
+tissue-level modulus devices, including transistors and
+sensors (Fig. 3j)
+45. The SEBS layer, combined with
+polyacrylamide (PAAm) hydrogel, exhibited signi ﬁcantly
+reduced stiffness compared to SEBS-PDMS composites. A
+stretchable polymer semiconductor and CNTs network
+were deposited onto the SEBS-PAAm substrate, resulting
+in a soft transistor with an on/off ratio of 10 ⁴ and stable
+charge-carrier mobility (~0.7 cm²/Vs) after 1000 cycles at
+100% strain. The device ’s tissue-like softness enabled
+conformal skin contact without delamination during
+mechanical deformation.
+Chemically crosslinked elastomers
+Chemically crosslinked elastomers are characterized by
+irreversible inter-chain interactions formed through
+covalent bonds. These crosslinks are typically initiated
+by external triggers, such as crosslinking agents or
+UV radiation, depending on the mechanism employed
+(Fig. 3f)
+38,47. The strong covalent bonds provide excep-
+tional resistance to chemical, mechanical, and thermal
+stimuli, making these elastomers highly durable. However,
+the dense crosslinking limits nano ﬁller incorporation and
+reduces plasticity, often resulting in a higher modulus
+compared to their physically crosslinked counterparts
+48.
+Silicone (PDMS, Eco ﬂex) Silicone elastomers, particu-
+larly PDMS and Eco ﬂex, are widely utilized in soft
+electronics due to their softness, with Young ’s modulus
+values of 43.3 kPa for Eco ﬂex and 353 kPa for PDMS —
+comparable to that of human skin (25 –260 kPa)49. PDMS
+is prized for its biocompatibility, optical transparency, and
+chemical inertness, making it a versatile material for
+substrates, encapsulation layers, and dielectric applica-
+tions
+50,51. Its elasticity enables stretching up to several
+hundred percent without permanent deformation 52.
+Ecoﬂex, being softer, is often used in applications
+requiring extreme deformability, such as soft robotics
+and wearable sensors.
+A key strength of silicone elastomers is their processa-
+bility; PDMS can be molded into complex shapes via soft
+lithography, ideal for micro ﬂuidics, ﬂexible circuits, and
+stretchable sensors. However, limitations like poor adhe-
+sion and high gas permeability (55 μm for CO ₂ and He)
+53
+necessitate surface modi ﬁcations or composite designs to
+enhance performance.
+For instance, Lu et al. developed a laser-induced
+graphene (LIG)-PDMS composite, increasing the stretch-
+ability of brittle LIG from 20% to 220% using an adhesive
+hydrogel transfer process (Fig. 3k)
+54. The LIG-hydrogel
+electrode on PDMS demonstrated high biocompatibility
+and antibacterial properties, serving as wearable sensors
+for mechanical, humidity, and electrocardiography (ECG)
+monitoring. Its softness enabled its application as an
+implantable epicardial monitor on rodent hearts. Simi-
+larly, Lee et al. created a printable conductive elastomer
+composite combining Ag particles, multi-walled CNTs,
+and PDMS, achieving high stretchability (150%) and
+conductivity (6682 S/cm)
+55. Printed into freestanding 3D
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 8 of 42
+
+structures with 100 μm resolution (Fig. 3l), the composite
+functioned as on-skin electrodes for temperature sensing
+and feedback displays, maintaining performance under
+40% strain.
+Photocrosslinkable elastomers Photocrosslinkable elas-
+tomers represent a promising class of materials for soft
+electronics, offering precise control over mechanical
+properties and geometry through UV-induced chemical
+crosslinking. These materials are particularly suited for
+applications requiring high-resolution patterning, such as
+microelectronics and micro ﬂuidic devices, due to their
+tunable stiffness, elasticity, and stretchability. A com-
+monly used example, pure polyurethane acrylate (PUA),
+exhibits a Young ’s modulus of 1.4 MPa
+56. Fabrication
+involves spin-coating or printing liquid precursors onto
+substrates, followed by UV curing, enabling intricate,
+ﬂexible patterns. While promising, further research is
+necessary to optimize their mechanical and electrical
+performance for practical applications.
+For instance, Liu et al. developed a fully stretchable
+organic light-emitting electrochemical cell array and thin-
+ﬁlm transistor using a PUA-AgNWs electrode, poly(3 4-
+ethylenedioxythiophene):polystyrene sulfonate (PED-
+OT:PSS) hole injection layer, and diamethacrylate-
+modiﬁed per ﬂuoropolyether dielectric
+57. The UV-
+crosslinked dielectric layer demonstrated resistance to
+mechanical deformation and chemical exposure, with a
+high breakdown voltage of over 100 V at a thickness
+below 200 nm, highlighting its potential for stretchable
+organic thin- ﬁlm transistors (Fig. 3m). The integrated
+device achieved 30% stretchability without delamination
+or cracking and exhibited a turn-on current density of
+~2 mA/cm².
+In another study, Li et al. introduced photopatternable
+liquid crystal elastomer (LCE) actuators using digital light
+processing
+58. During fabrication, shear printing aligned
+the liquid crystal in the resin tray, followed by photo-
+crosslinking with projected UV light (Fig. 3n). The
+resulting LCE exhibited thermal actuation properties,
+reconﬁguring its crosslinking network in response to heat.
+This enabled behaviors such as locomotion and weight
+lifting, showcasing its potential for optoelectric sensing
+and actuation in soft robotics.
+Hydrogels
+Hydrogels are water-swollen polymers with tunable
+mechanical properties and high biocompatibility, making
+them ideal for elastic electronics
+59,60. Their tissue-like
+softness and conformability enable seamless integration
+with biological tissues, making them valuable for wearable
+devices, bioelectronics, and implantable sensors. Hydro-
+gels serve as substrates, dielectric layers, or encapsulation
+materials, offering ﬂexibility and adaptability to various
+shapes
+61.
+One advantage of hydrogels is their adjustable
+mechanical properties, controlled by crosslinking density,
+polymer composition, or water content. This tunability
+ensures compatibility with biological tissues, minimizing
+mechanical mismatch in bioelectronic applications.
+Hydrogels’ swelling behavior can also enable self-healing
+or adaptive responses to environmental changes like
+humidity or temperature. Commonly used hydrogels
+include polyvinyl alcohol (PVA) for mechanical strength
+and encapsulation, PAAm for high elasticity, and poly-
+ethylene glycol for biocompatibility and resistance to
+protein adsorption. Advanced hydrogels, such as those
+with nano ﬁllers or double-network structures, offer
+enhanced toughness and stability.
+Despite their bene ﬁts, hydrogels face challenges,
+including susceptibility to drying and residual ionic con-
+ductivity, which can cause signal leakage or noise in
+dielectric applications. Strategies like composite designs
+or hydrophobic coatings mitigate these issues, extending
+hydrogel functionality in practical devices.
+For instance, Ohm et al. developed a conductive
+hydrogel composite with a soft modulus of 10 kPa and
+conductivity of 374 S/cm using 5 vol.% Ag ﬂakes forming
+a percolation network in a PAAm-alginate matrix
+62. The
+composite exhibited stable electrical performance under
+250% strain and minimal resistance change over
+100 stretching cycles, making it suitable for neural elec-
+trodes and actuators. Integrated with a shape-memory
+alloy, the hydrogel powered a swimming robot with a
+speed of 40 mm/s (Fig. 3o).
+Liu et al. created a conductive hydrogel for neuro-
+modulation by removing ionic liquid from an ionic
+liquid-PEDOT:PSS hydrogel
+63. The resulting material
+achieved a conductivity of 47.4 S/cm, stretchability of
+20%, and a Young ’s modulus of 32 kPa. It maintained
+stable impedance under deformation and withstood
+10,000 stretching cycles wi th minimal resistance chan-
+ges. Using photolithography, the hydrogel was pat-
+terned with 100 μm resolution and exhibited high
+charge storage capacity (164 mC/cm²), making it
+effective for low-voltage sciatic nerve stimulation in
+rodents (Fig. 3p).
+Huang et al. enhanced hydrogel mechanics for soft
+electronics by developing a double-network poly-
+acrylamide-calcium alginate hydrogel
+64. This design
+enabled 400% strain without damage due to its inter-
+connected porous structure. Replacing water with glycerol
+increased the Young ’s modulus from 77.5 to 252 kPa,
+improving stability in low-humidity conditions. The
+organohydrogel retained over 80% of its weight after
+36 hours, proving its suitability for wearable sensors in
+variable environments (Fig. 3q).
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 9 of 42
+
+Conductive metallic nanomaterials for intrinsically
+soft nanocomposites
+The advancement of intrinsically soft electronics relies
+on the development of materials that combine high
+electrical conductivity with exceptional deformability.
+Metallic nanomaterials, including zero-dimensional (0D)
+nanoparticles (NPs), one-dimensional (1D) NWs, and
+two-dimensional (2D) NSs, play a pivotal role in creating
+conductive and stretchable composites. By embedding
+these nanomaterials into elastomeric or other soft
+matrices, conductive networks are formed that preserve
+electrical performance under mechanical deformation.
+This chapter explores the unique properties, advantages,
+and fabrication techniques of metallic nanomaterials,
+focusing on their integration into soft electronics
+65.
+Additionally, methods to functionalize and enhance these
+nanocomposites for improved performance, such as
+electric conductivity, stretchability, and biocompatibility,
+are discussed, emphasizing their potential in next-
+generation electronic applications. The summary dis-
+cussing characteristics of the metallic nanomaterials and
+LMs are presented in Table 1.
+Percolation network theory and nanocomposites
+Understanding the role of metallic nanomaterials in soft
+electronics begins with the concept of a percolation net-
+work. Percolation theory explains how conductive ﬁllers,
+dispersed within an insulating matrix (such as an elasto-
+mer), form continuous pathways for electrical conduction
+once their concentration surpasses a critical threshold —
+the percolation threshold
+66,67. Below this threshold, the
+material remains non-conductive, but exceeding it
+establishes a conductive network, enabling current ﬂow
+(Fig. 4a, b)
+68,69.
+In metallic nanocomposites, achieving an effective per-
+colation network with minimal ﬁller content is crucial.
+The geometry 70, size, and distribution of metallic ﬁllers
+signiﬁcantly in ﬂuence the percolation threshold and
+Table 1 Characteristic summary of metallic and liquid metal-based ﬁllers.
+Category Example
+Material
+Electrical
+Conductivity
+Percolation
+Threshold
+Pros Cons
+0D Metallic
+Nanoﬁllers
+AgNPs Medium
+(~10⁴–10⁵ S/m)
+High
+(~20–40 vol%)
+High conductivity;
+Easy dispersion;
+Printable inks
+Poor percolation;
+Aggregation;
+Oxidation issues
+AuNPs Medium
+(~10⁴–10⁵ S/m)
+High
+(~20–40 vol%)
+Excellent biocompatibility;
+Chemical stability
+Poor percolation;
+High cost;
+CuNPs Medium
+(~10⁴–10⁵ S/m)
+High
+(~20–40 vol%)
+Cost-effective;
+Good conductivity
+Poor percolation;
+Oxidation sensitivity
+1D Metallic
+Nanoﬁllers
+AgNWs Very High
+(~10⁵–10⁶ S/m)
+Low
+(~1–5 vol%)
+Excellent percolation;
+High stretchability;
+Low ﬁller loading
+Junction instability under
+cyclic strain
+AuNWs High
+(~10⁵–10⁶ S/m)
+Low
+(~1–5 vol%)
+Stable; Biocompatible;
+Oxidation-resistant
+Expensive;
+Low aspect ratio
+CuNWs Very High
+(~10⁵–10⁶ S/m)
+Low
+(~1
+–5 vol%)
+Cost-effective;
+High conductivity
+Oxidation sensitivity;
+Junction degradation
+2D Metallic
+Nanoﬁllers
+AuNSs High
+(~10⁵–10⁶ S/m)
+Medium
+(~5–10 vol%)
+High surface area; Stable
+conductivity; Biocompatibility
+High cost;
+Small size
+Silver ﬂakes Very High
+(~10⁵–10⁶ S/m)
+Medium
+(~5–10 vol%)
+Good conductivity; Effective
+percolation
+Aggregation;
+Non-transparency
+Liquid Metals
+(LMs)
+EGaIn Very High
+(~10⁶ S/m)
+N/A (Liquid) Ultra-high stretchability; Self-
+healing; Recon ﬁgurable
+Leakage issues;
+Oxide skin formation;
+Patterning complexity
+Galinstan Very High
+(~10⁶ S/m)
+N/A (Liquid) Non-toxic;
+High conductivity;
+Low melting point
+Oxide layer;
+Leakage;
+High surface tension
+Gallium Very High
+(~10⁶ S/m)
+N/A (Liquid) High conductivity; Recon ﬁgurable Oxide formation; Leakage
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 10 of 42
+
+Fig. 4 Percolation network theory and metallic nano ﬁllers. a , b Percolation network theory and percolation thresholds. Reproduced with
+permission69. Copyright 2024, MDPI. c– f 0D metallic nanoparticles. Reproduced with permission 75. Copyright 2023, Springer Nature. Reproduced with
+permission77. Copyright 2018, Springer Nature. Reproduced with permission 79. Copyright 2022, Springer Nature. g– j Quantum dots. Reproduced with
+permission81. Copyright 2023, Springer Nature. Reproduced with permission 82. Copyright 2020, Springer Nature. k– n 1D metallic nanowires.
+Reproduced with permission 87. Copyright 2017, American Chemical Society. Reproduced with permission 91. Copyright 2017, Springer Nature.
+Reproduced with permission 94. Copyright 2014, Springer Nature. o– r 2D metallic nanosheets. Reproduced with permission 98. Copyright 2021, AAAS.
+Reproduced with permission 100. Copyright 2022, Springer Nature. Reproduced with permission 101. Copyright 2022, American Chemical Society.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 11 of 42
+
+composite conductivity 71. Furthermore, these factors
+impact the mechanical properties of the composite,
+including stretchability and durability, by governing the
+interactions between the ﬁllers and the matrix. Careful
+optimization of these parameters facilitates the develop-
+ment of soft, conductive nanocomposites suitable for
+diverse applications, such as sensors, circuits, and energy
+storage devices
+72.
+Metallic nano ﬁllers
+Metallic nano ﬁllers are the core components used to
+create percolation networks in soft, conductive compo-
+sites. These ﬁllers can be classi ﬁed into three main cate-
+gories based on their dimensionality: 0D NPs, 1D NWs,
+and 2D NSs. Each of these forms of nanomaterials offers
+unique properties that can be leveraged to optimize the
+performance of soft electronics.
+0D metallic nanoparticles (NPs)
+Metallic NPs are 0D nanomaterials with small aspect
+ratios, characterized by their ability to in ﬁltrate polymeric
+matrices or ﬁll gaps between other nanomaterials without
+compromising functionality (Fig. 4c)73. However, their
+small size and low aspect ratio make it challenging for
+NPs alone to form effective percolation networks
+74.
+Consequently, nanoparticles are often used as secondary
+or additive ﬁllers to enhance the properties of nano-
+composites, complementing primary ﬁllers that establish
+the percolation network. While they are limited in inde-
+pendently forming conductive networks, nanoparticles
+contribute additional functionalities without signi ﬁcantly
+affecting the composite ’s mechanical or electrical
+performance.
+Silver nanoparticles (AgNPs) Silver nanoparticles
+(AgNPs) are extensively utilized in ﬂexible and soft
+electronics due to their excellent electrical conductivity
+and relatively low cost (Fig. 4d)
+75. Common applications
+include conductive inks for printed electronics, wearable
+sensors, and ﬂexible circuits. Their nanoscale size,
+typically below 100 nm, provides a high surface area-to-
+volume ratio, facilitating interactions with the surround-
+ing matrix and supporting the formation of conductive
+networks
+76. As secondary ﬁllers, AgNPs effectively
+stabilize connections between primary ﬁllers, enhancing
+the inter- ﬁller network.
+Despite their advantages, AgNPs face limitations due to
+their low aspect ratio, which results in conductivity being
+dominated by inter- ﬁller resistance rather than intra- ﬁller
+pathways. This characteristic reduces their effectiveness in
+conductive networks, especially under repeated mechan-
+ical deformation, where disruptions in inter- ﬁller contact
+can compromise electrical connectivity. Additionally,
+AgNPs are prone to oxidation, which degrades their
+electrical properties over time, and their potential
+cytotoxicity raises concerns for bioelectronic applications.
+Gold nanoparticles (AuNPs) Gold nanoparticles
+(AuNPs) are highly valued as 0D metallic ﬁllers due to
+their exceptional electrical conductivity, chemical stabi-
+lity, and biocompatibility (Fig. 4e)
+77. Although costlier
+than silver, AuNPs excel in applications where biocom-
+patibility and long-term reliability are critical, such as
+biomedical devices, biosensors, and implantable electro-
+nics
+78. Unlike many metallic NPs, AuNPs resist oxidation,
+preserving their electrical properties over extended
+periods and ensuring durability in demanding
+environments.
+In addition to their stability and conductivity, AuNPs
+exhibit remarkable optical properties driven by localized
+surface plasmon resonance. This phenomenon causes free
+electrons to resonate with light at speci ﬁc wavelengths,
+producing intense absorption and scattering effects.
+These optical characteristics enable their use as highly
+sensitive optical sensors, where shifts in plasmon reso-
+nance wavelength can detect environmental changes,
+making them invaluable in cancer diagnostics and
+molecular imaging.
+AuNPs also offer extensive versatility in surface functio-
+nalization, facilitating the attachment of biomolecules,
+drugs, or targeting agents. Functionalization with thiol or
+amine groups enhances their stability and compatibility in
+biological environments, supporting applications such as
+targeted drug delivery and biosensors, where precise
+molecular recognition is essential.
+Copper nanoparticles (CuNPs) Copper nanoparticles
+(CuNPs) offer a cost-effective alternative to AgNPs and
+AuNPs, delivering comparable electrical conductivity at a
+signiﬁcantly lower price (Fig. 4f)
+79. Their high thermal
+conductivity further enhances their utility in energy
+storage devices, conductive adhesives, and printed elec-
+tronics
+79. Additionally, CuNPs exhibit a degree of
+biocompatibility and biodegradability, making them
+suitable for environmentally sustainable applications,
+including transient and bioelectronic devices.
+A major limitation of CuNPs is their susceptibility to
+oxidation, which signi ﬁcantly degrades their electrical
+performance. Exposure to air or moisture increases
+resistance and can result in a complete loss of con-
+ductivity, posing challenges for stable, long-term use. To
+mitigate this, protective coatings or stabilizing agents,
+such as polymers, graphene, or silver layers, are applied to
+prevent oxidation. These stabilization strategies preserve
+the NPs ’ conductivity and enable reliable performance in
+demanding applications.
+The combination of electrical and thermal conductivity
+broadens the application scope of CuNPs, particularly in
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 12 of 42
+
+systems requiring ef ﬁcient heat dissipation, such as
+ﬂexible electronics. Their relative abundance, low toxicity,
+and biodegradability further position CuNPs as a sustain-
+able choice, aligning with the growing emphasis on
+environmentally conscious materials in advanced electro-
+nic technologies.
+Platinum nanoparticles (PtNPs) Platinum nanoparti-
+cles (PtNPs) are distinguished among 0D metallic
+nanomaterials for their exceptional catalytic activity,
+chemical stability, and high conductivity, making them
+indispensable in applications such as fuel cells, catalysis,
+sensors, and biosensing
+80. While their high cost, owing to
+platinum’s status as a precious metal, limits widespread
+commercial use, the unparalleled ef ﬁciency and durability
+of PtNPs often justify their expense in specialized
+applications.
+The de ﬁning feature of PtNPs is their superior catalytic
+activity. Platinum ’s ability to facilitate redox reactions
+without degradation makes it invaluable for fuel cells,
+where it catalyzes the hydrogen oxidation and oxygen
+reduction reactions. The nanoscale size of PtNPs further
+enhances their performance by providing a high surface
+area, enabling ef ﬁcient energy conversion in fuel cells
+and other energy systems. Compared to other metals,
+PtNPs deliver signi ﬁcantly greater catalytic ef ﬁciency,
+making them indispensable in high-performance energy
+applications.
+In addition to their catalytic properties, PtNPs exhibit
+exceptional chemical stability. Unlike copper, which
+oxidizes readily, or silver, which tarnishes over time,
+platinum resists oxidation and corrosion even in harsh
+chemical or thermal environments. This stability ensures
+the reliability and longevity of devices like catalytic
+converters and high-temperature fuel cells. Furthermore,
+PtNPs are biocompatible and robust, making them
+suitable for long-term biological applications, including
+biosensors and drug delivery systems.
+Despite these advantages, the high cost and scarcity of
+platinum pose signi ﬁcant limitations. PtNPs are generally
+reserved for applications where their unique properties
+are essential, as their economic and environmental costs
+hinder broader adoption. Additionally, while PtNPs
+exhibit high conductivity, their lack of plasmonic proper-
+ties limits their use in optical applications. These
+challenges highlight the importance of optimizing PtNPs
+usage and exploring sustainable alternatives for broader
+applications.
+Quantum dots (QDs) QDs are nanoscale semiconductor
+particles that exhibit unique optical and electronic
+properties due to quantum con ﬁnement effects, which
+occur when the particle size is smaller than the exciton
+Bohr radius (Fig. 4g). This con ﬁnement restricts electron
+and hole motion, creating discrete energy levels instead of
+the continuous bands seen in bulk materials. Conse-
+quently, QDs can absorb and emit light at speci ﬁc
+wavelengths determined by their size, composition, and
+surface structure. This tunable photoluminescence, com-
+bined with high brightness and photostability, makes QDs
+valuable for applications in displays, solar cells, bioima-
+ging, and sensing (Fig. 4h)
+81.
+QDs are typically composed of semiconductor materials,
+with cadmium selenide (CdSe), cadmium sul ﬁde (CdS),
+and lead sul ﬁde (PbS) being among the most widely used
+due to their favorable bandgap properties. However,
+concerns over cadmium and lead toxicity have driven
+interest in more environmentally friendly alternatives,
+such as indium phosphide (InP) and carbon-based QDs
+(Fig. 4i, j)
+82. To enhance optical performance and stability,
+core-shell structures are often employed; for example, a
+CdSe core with a zinc sul ﬁde (ZnS) shell improves
+photostability and quantum yield by reducing surface
+defects and protecting the core from environmental
+degradation.
+1D metallic nanowires (NWs)
+Metallic NWs and nanorods, collectively referred to as
+NWs, are 1D nanomaterials characterized by high aspect
+ratios. Their directional geometry facilitates the formation
+of percolation networks with minimal ﬁller content,
+making them effective as primary ﬁllers in conductive
+composites (Fig. 4k)
+83. NWs also integrate seamlessly into
+polymeric matrices, maintaining structural integrity while
+ensuring electrical connectivity under mechanical strain.
+This unique property enables NWs to slide and rearrange
+within the matrix, preserving conduction during stretch-
+ing or bending, which is essential for soft electronics.
+NWs share many material properties with metallic NPs
+but offer the added advantage of precise control over their
+dimensions. Template-assisted synthesis uses porous
+templates like anodic aluminum oxide to de ﬁne NWs ’
+length and diameter through controlled metal deposition.
+The polyol process employs solvents like ethylene glycol
+(EG) and capping agents such as polyvinylpyrrolidone
+(PVP) to drive anisotropic growth, particularly effective
+for AgNWs and CuNWs. Seed-mediated growth intro-
+duces seed particles into a growth solution, enabling
+controlled elongation of AuNWs by adjusting seed con-
+centration and reaction conditions. These methods allow
+customization of NWs’ properties for diverse applications,
+including ﬂexible electronics, transparent conductive
+ﬁlms, and catalytic systems.
+Silver nanowires (AgNWs) AgNWs share many mate-
+rial characteristics with AgNPs
+72,84. Their high conduc-
+tivity and aspect ratio make AgNWs some of the most
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 13 of 42
+
+extensively studied one-dimensional metallic nanomater-
+ials for soft and stretchable electronics 85. AgNWs form
+efﬁcient percolation networks at low ﬁller concentrations,
+resulting in ﬂexible and stretchable conductive compo-
+sites with low percolation thresholds. These properties
+make them ideal for applications such as transparent
+electrodes, ﬂexible touchscreens, and stretchable
+circuits
+52,86.
+For example, Qian et al. fabricated ultralight, conductive
+silver aerogels using AgNWs (Fig. 4l)87. AgNWs with
+diameters of 50 –100 nm and lengths of 40 –80 μm,
+synthesized via the polyol process, served as building
+blocks for the aerogels. The process involved freezing an
+AgNW suspension, lyophilizing it to form a porous
+network, and sintering at 250 °C under hydrogen gas to
+weld the NWs ’ junctions. The resulting aerogel demon-
+strated an ultralight density of 4.8 mg/cm³, electrical
+conductivity of 51,000 S/m, and a Young ’s modulus of
+16.8 kPa, highlighting its exceptional softness and
+conductivity.
+Gold nanowires (AuNWs) AuNWs offer advantages
+similar to AgNWs, including excellent conductivity, but
+with superior chemical stability and biocompatibility,
+making them suitable for stretchable biosensors, implan-
+table devices, and ﬂexible circuits
+88. However, their high
+cost limits commercial scalability, con ﬁning their use to
+high-performance devices where stability and biocompat-
+ibility justify the expense.
+A major challenge with AuNWs is achieving a high
+aspect ratio comparable to AgNWs or CuNWs due to
+gold’s unstable surface diffusion and lack of protective
+oxidation. Consequently, Au is often synthesized as
+nanorods rather than true NWs. A promising solution
+involves coating high-aspect-ratio NWs with gold, as seen
+in Au-AgNWs, which combine Ag ’s conductivity with
+Au’s stability
+89,90. However, creating one-dimensional
+networks of pure Au remains more complex.
+For example, Miyamoto et al. developed ultrathin,
+lightweight, and stretchable gold nanomeshes directly
+laminable onto human skin without irritating (Fig. 4m)
+91.
+This process involved electrospinning PVA nano ﬁbers
+into a mesh structure, coating it with a 70 –100 nm gold
+layer, and dissolving the PVA scaffold with water to leave
+a conductive gold network. The nanomesh exhibited
+exceptional biocompatibility and electrical resistivity of
+5.3 × 10⁻⁷ Ω·m, comparable to bulk gold. Although lacking
+an elastomeric matrix, the nanomesh maintained con-
+ductivity under up to 48% strain and remained stable over
+500 cycles of 25% strain stretching.
+Copper nanowires (CuNWs) CuNWs present a low-
+cost alternative to AgNWs and AuNWs, offering excellent
+electrical and thermal conductivity while being
+synthesized through relatively inexpensive methods
+92.
+These properties make CuNWs attractive for applications
+in stretchable circuits, sensors, and energy devices
+93.
+However, their susceptibility to oxidation signi ﬁcantly
+reduces conductivity over time. To address this, protec-
+tive coatings or polymer encapsulation are commonly
+employed, enabling CuNWs to remain viable for large-
+scale, cost-effective soft electronics, particularly in con-
+sumer electronics and energy storage.
+Won et al. developed an annealing-free, scalable
+CuNWs-based stretchable electrode using a cost-
+effective process (Fig. 4n)
+94.C u N W s ,a v e r a g i n g6 6n m
+in diameter and 50 μm in length, were synthesized via
+a chemical reaction between copper chloride and a
+capping agent, followed by vacuum ﬁltration to form a
+conductive ﬁlm. This ﬁlm was transferred onto a 40%
+pre-stretched PDMS substrate, achieving a sheet resis-
+tance of 6 –12 Ω/sq. While pristine copper ﬁlms failed
+under 25% strain, the CuNWs/PDMS ﬁlm withstood
+strains up to 90%. Additionally, the PDMS substrate was
+molded into a helical structure to further enhance strain
+absorption. The helical CuNW s/PDMS electrode exhib-
+ited a minimal relative resistance change of 3.9 under
+700% strain and maintained functionality after 100 cycles
+of 100% strain.
+2D metallic nanosheets (NSs)
+2D metallic NSs offer unique advantages for applica-
+tions requiring ﬂat, conductive networks or ﬁlms due to
+their broad, plate-like structures and large surface area,
+which enhance charge and heat transfer (Fig. 4o)
+95. While
+NSs excel in forming 2D conductive ﬁlms, integrating
+them into 3D percolation networks within elastomeric
+matrices poses challenges. Aggregation tendencies and
+their ﬂat geometry can hinder dispersion and disrupt
+elastomer crosslinking, complicating the balance between
+conductivity and mechanical integrity.
+Several methods are utilized to synthesize metallic NSs
+while maximizing surface area and ensuring uniform
+thickness. Liquid-phase exfoliation, a widely used method,
+involves exfoliating bulk metals into thin sheets using
+solvents and sonication. Optimizing solvent and surfac-
+tant selection minimizes aggregation and enhances dis-
+persion in polymer matrices. Chemical vapor deposition
+(CVD) enables precise control over NSs ’ thickness and
+lateral dimensions by depositing vaporized metal pre-
+cursors onto substrates, producing high-quality, defect-
+free ﬁlms. Wet chemical synthesis offers versatility,
+reducing metal salts in solution with surfactants or cap-
+ping agents to guide 2D growth, allowing for NSs with
+tunable surface chemistries and improved compatibility
+with elastomers.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 14 of 42
+
+Silver ﬂakes Silver ﬂakes, as 2D metallic nanomaterials,
+provide a distinctive approach to achieving conductivity
+in ﬂexible and stretchable composites
+96. Their large
+lateral dimensions enable the formation of continuous
+conductive pathways at low ﬁller concentrations, making
+them ideal for conductive adhesives, ﬂexible circuits, and
+printed electronics. Even under mechanical strain, silver
+ﬂakes maintain electrical contact through sliding mechan-
+isms
+97. However, challenges such as high cost and
+susceptibility to oxidation limit their broader application.
+For example, Lv et al. developed a stretchable Ag ﬂake
+electrode enhanced by human sweat (Fig. 4p)98. Silver
+ﬂakes dispersed in hydrophilic PUA (HPUA) were used to
+create conductive ink directly printable onto hydrophilic
+textiles. Exposure to sweat facilitated a chloride ion-
+mediated surfactant removal process, improving inter-
+ﬂake connectivity and reducing resistance from 3.02 to
+0.62 Ω. This sweat-induced sintering also enhanced the
+electrode’s durability, maintaining resistance below 5 Ω
+through 500 cycles of 30% stretching and showing stable
+conductivity under 120% strain. The Ag ﬂake-HPUA
+electrode demonstrates strong potential for wearable
+electronics, such as soft batteries and current collectors,
+due to its softness and performance improvements under
+real-world conditions.
+Gold nanosheets (AuNSs) AuNSs have gained attention
+for their exceptional conductivity and chemical stability,
+making them ideal for biomedical devices, sensors, and
+ﬂexible electronics
+99. Their 2D structure facilitates the
+formation of robust percolation networks with high
+conductivity and durability under mechanical deforma-
+tion. Despite their advantages, the high cost of gold limits
+widespread application.
+Heo et al. developed elastomeric electrodes incorpor-
+ating interconnected AuNS s optimized for mechanical
+resilience and cyclic stretching
+100. The AuNSs, synthe-
+sized via a solution-based process, were transferred onto
+aP D M Sm a t r i xu s i n gah o t - p r e s s i n gm e t h o d ,w h i c h
+removed surface ligands and improved interlayer contact
+(Fig. 4q). This process produced electrodes with a sheet
+resistance as low as 0.15 Ω/sq, increasing only slightly to
+1.8 Ω/sq under 50% strain. The electrodes demonstrated
+exceptional durability, maintaining performance over
+100,000 stretching cycles. Using these AuNS-based
+elastomeric electrodes, Heo et al. fabricated resilient
+electronic devices, including transistors, inverters, and
+NOR/NAND logic gates, achieving stable ﬁeld-effect
+mobilities of 19.8 cm²/V·s even under deformation.
+These electrodes also proved effective in soft robotic
+systems, where integrated electronic components
+retained functionality during various grip motions,
+highlighting their potential for wearable devices and
+robotics.
+Lim et al. introduced whiskered AuNSs (W-AuNSs) to
+enhance percolation networks in stretchable electro-
+nics
+101. Featuring whisker-like extensions, W-AuNSs
+exhibited a signi ﬁcantly lower percolation threshold
+(1.56 vol%) compared to conventional AuNSs. Nanocom-
+posites incorporating W-AuNSs achieved a conductivity
+of 91 S/cm at a 2.13% ﬁller volume fraction and
+maintained stretchability up to 200% elongation at 7.9
+vol%. These W-AuNSs also demonstrated stable perfor-
+mance under cyclic testing, with minimal resistance
+variation. When applied as bioelectrodes for electrophy-
+siological monitoring and stimulation, W-AuNSs pro-
+vided consistent, high-performance results under
+mechanical strain, showcasing their suitability for wear-
+able biomedical applications.
+Functionalization of metallic nanocomposites
+To enhance the performance of metallic nanocompo-
+sites, several functionalization techniques have been
+developed. These techniques aim to improve the electrical
+conductivity, mechanical properties, and stability of the
+composites by modifying the structure, composition, or
+arrangement of the metallic nano ﬁllers.
+Secondary ﬁllers
+The incorporation of secondary ﬁllers, such as carbon-
+based nanomaterials, metallic NPs, and ionic liquids,
+signiﬁcantly enhances the mechanical strength, stretch-
+ability, and conductivity of metallic nanocomposites
+(Fig. 5a). These ﬁllers in ﬁltrate the gaps between primary
+ﬁllers or within the polymeric matrix, supporting the
+percolation network and introducing additional func-
+tionalities, such as improved electrochemical perfor-
+mance, antibacterial properties, and reactive oxygen
+species scavenging. This synergy enables tailored com-
+posites optimized for speci ﬁc applications.
+For instance, Sunwoo et al. developed a stretchable
+nanocomposite integrating Ag –Au core-shell NWs with
+platinum black (Pt black) as a secondary ﬁller to enhance
+electrochemical properties for epicardial recording and
+stimulation
+89. The addition of 13 wt% Pt black increased
+the charge storage capacity (CSC) eightfold to 25 mC/cm²
+and reduced impedance from 2348 to 112 Ω at 40 Hz
+(Fig. 5b). This composite achieved a high signal-to-noise
+ratio (SNR) of 20.05 dB and maintained durable perfor-
+mance under strain. When implanted in an epicardial
+mesh, it enabled synchronized biventricular pacing and
+stable heart rate modulation in rodent models, demon-
+strating its potential for advanced cardiac support devices.
+In situ-formed metallic NPs offer a homogeneous dis-
+tribution within the matrix, enhancing the performance of
+nanocomposites. Matsuhisa et al. reported a printable
+elastic conductor with in situ-generated AgNPs formed
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 15 of 42
+
+Fig. 5 (See legend on next page.)
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 16 of 42
+
+during thermal processing 102. The AgNPs bridged the
+gaps between Ag ﬂakes, bolstering conductivity to
+6,168 S/cm at 0% strain and 935 S/cm at 400% strain
+(Fig. 5c). This composite was utilized in fully printed
+stretchable sensor networks for pressure and tem-
+perature monitoring on dyna mic surfaces, highlighting
+its potential for ﬂexible electronics.
+Similarly, a study incorporating in situ-formed PtNPs
+into an SEBS matrix demonstrated improved con-
+ductivity and structural integrity
+103. The homogeneously
+dispersed PtNPs enhanced the percolation network,
+achieving a conductivity of 11,000 S/cm, stretchability of
+480%, and low impedance (166.5 Ω at 1 kHz) (Fig. 5d).
+When applied in a rat model, the nanocomposite elec-
+trode provided stable biosignal recording, arrhythmia
+management, and ef ﬁcient pacing with reduced capture
+thresholds, underscoring its suitability for advanced
+bioelectronic devices.
+Heterogeneous ﬁller
+Incorporating multiple ﬁllers into composites often
+constrains the performance of primary ﬁllers. To address
+this, heterogeneous ﬁllers, which integrate multiple
+materials into a single nanostructure, have emerged as an
+effective alternative. These ﬁllers combine the strengths of
+different materials, enhancing overall composite perfor-
+mance. Techniques such as core-sheath structures and
+doped nanomaterials are commonly employed, with each
+component contributing distinct properties.
+For example, Zhang et al. used a nonepitaxial growth
+method to synthesize hybrid core-shell NPs, addressing
+lattice mismatch issues between core and shell materi-
+als
+104. This solution-phase process sequentially deposited
+metals to form core-shell structures, enhancing stability
+and electronic properties due to the integration of mate-
+rials with different crystalline structures (Fig. 5f). These
+advancements have broadened applications in electronics,
+catalysis, and energy storage.
+In another study, Choi et al. developed AgNW-Au core-
+sheath NWs to achieve high conductivity, stretchability,
+and biocompatibility
+105. Au was galvanically deposited on
+AgNWs to prevent oxidation, forming a composite inte-
+grated into an SBS elastomer (Fig. 5g). The material
+achieved conductivity of 41,850 S/cm, enhanced to 72,600
+S/cm with heat rolling, and stretchability up to 266%,
+increasing to 840% under strain. The Au coating reduced
+Ag ion leaching, improving biocompatibility. This com-
+posite demonstrated stable performance under strain and
+oxidative conditions, making it suitable for wearable and
+implantable bioelectronics.
+Sunwoo et al. further advanced this approach with an
+Ag–Au–Pt core-shell-shell NWs composite incorporating
+in situ synthesized PtNPs
+103. This design leveraged silver ’s
+high conductivity, gold ’s biocompatibility, and platinum ’s
+low impedance (Fig. 5h). The embossed Pt shell increased
+surface area, enhancing charge transfer and lowering
+impedance, while PtNPs within the matrix improved
+percolation network ef ﬁciency. The composite achieved a
+conductivity of 11,000 S/cm and 500% stretchability, with
+dual Au –Pt coatings reducing silver ion leaching. Tested
+in bioelectronic applications, the material demonstrated
+excellent signal clarity and lower capture thresholds
+during in vivo cardiac monitoring, highlighting its
+potential for advanced biosignal monitoring and cardiac
+rhythm management.
+Phase separation and ﬁller alignment
+Controlling phase separation and alignment of metallic
+nanoﬁllers within a matrix signi ﬁcantly enhances com-
+posite performance (Fig. 5i). Phase separation allows
+selective localization of nano ﬁllers, creating ef ﬁcient
+percolation networks, while alignment of ﬁllers like
+AgNWs or AuNWs along the direction of mechanical
+strain improves conductivity and stretchability. Techni-
+ques such as mechanical stretching and magnetic ﬁeld
+alignment are commonly used to achieve these effects.
+For instance, Choi et al. leveraged phase separation
+during solvent drying to enhance the properties of an
+Ag–Au nanocomposite
+105. By introducing hexylamine,
+phase separation formed microstructured regions enri-
+ched with Ag –Au NWs and SBS elastomer (Fig. 5j). This
+microstructure reduced the composite ’s Young’s modulus
+and improved softness, enabling stretchability up to
+~266% while maintaining high conductivity (41,850 S/cm).
+Without hexylamine, the composite exhibited lower
+stretchability and a homogenous structure, demonstrating
+(see ﬁgure on previous page)
+Fig. 5 Functionalization of metallic nanocomposites. a – d Applying secondary ﬁller. Reproduced with permission 89. Copyright 2019, John Wiley &
+Sons. Reproduced with permission 102. Copyright 2017, Springer Nature. Reproduced with permission 103. Copyright 2023, American Chemical Society.
+e– h Applying heterogeneous ﬁllers. Reproduced with permission104. Copyright 2010, AAAS. Reproduced with permission 105. Copyright 2018, Springer
+Nature. Reproduced with permission 103. Copyright 2023, American Chemical Society. i– l Phase separation and alignment of the ﬁllers. Copyright with
+permission105. Copyright 2018, Springer Nature. Reproduced with permission 106. Copyright 2013, Springer Nature. Reproduced with permission 107.
+Copyright 2021, AAAS. m– p Nanoﬁller welding techniques. Reproduced with permission 108. Copyright 2012, Springer Nature. Reproduced with
+permission109. Copyright 2010, Springer Nature. Reproduced with permission 110. Copyright 2017, American Chemical Society. q– t Modifying
+geometry of the ﬁllers. Reproduced with permission 111. Copyright 2017, RSC Publishing. Reproduced with permission 112. Copyright 2018, RSC
+Publishing. Reproduced with permission 113. Copyright 2008, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 17 of 42
+
+the critical role of phase separation in balancing
+mechanical and electrical properties.
+Kim et al. employed vacuum-assisted ﬂocculation (VAF)
+to integrate citrate-stabilized AuNPs into a PU matrix,
+enhancing phase separation and self-organization 106. This
+approach produced composites with stretchability up to
+486%, as NPs formed conductive pathways under strain
+(Fig. 5k). VAF composites exhibited larger PU domains,
+optimizing stretchability, while layer-by-layer composites
+offered higher initial conductivity (11,000 S/cm) due to
+uniform NPs dispersion. SAXS and TEM analysis revealed
+that NPs alignment under strain improved conductivity
+by lowering the percolation threshold.
+Jung et al. developed a highly conductive and stretch-
+able AgNWs nanomembrane using a ﬂoat assembly
+method
+107. This process aligned AgNWs at the water –oil
+interface through Marangoni ﬂow, creating a compact
+monolayer embedded in an ultrathin elastomer mem-
+brane (Fig. 5l). The aligned network achieved exceptional
+conductivity (165,700 S/cm) and stretchability, with-
+standing strains over 1,000%. This structural design ef ﬁ-
+ciently dissipated strain through elastomeric regions,
+making the nanomembrane suitable for advanced soft
+electronic applications.
+Welding of metallic nano ﬁllers
+Welding techniques, such as thermal annealing and
+chemical welding, signi ﬁcantly enhance the connectivity
+between metallic nano ﬁllers by reducing contact resis-
+tance and boosting composite conductivity (Fig. 5m)87.
+These methods are particularly bene ﬁcial for NW net-
+works, where individual wires can lose contact under
+mechanical strain.
+Garnett et al. developed a self-limited plasmonic weld-
+ing technique for AgNWs junctions using light-induced
+plasmonic heating to generate localized heat at contact
+points
+108. This process, driven by a tungsten halogen
+lamp, achieved epitaxial recrystallization at junctions
+without damaging surrounding areas (Fig. 5n). Junction
+resistance was reduced by over three orders of magnitude
+within 60 seconds, yielding electrical performance com-
+parable to continuous NWs. The self-limiting nature of
+the process prevented over-welding, ensuring structural
+integrity.
+Lu et al. demonstrated cold welding of ultrathin
+AuNWs without localized heating
+109. By applying mini-
+mal mechanical pressure, single-crystalline AuNWs (3 –10
+nm in diameter) were seamlessly bonded via surface atom
+diffusion and oriented attachment (Fig. 5o). Welded
+junctions maintained crystal orientation and exhibited
+mechanical strength (~580 MPa) and resistivity
+(~298.1 Ω·nm) comparable to pristine NWs. The tech-
+nique was also applicable to Ag –Ag and Au–Ag junctions,
+highlighting its versatility for nanoscale interconnects in
+electronic systems.
+Liu et al. introduced a capillary-force-induced cold
+welding method for AgNW ﬁlms
+110. Moisture applied to
+the ﬁlms created liquid bridges at junctions, drawing wires
+together as the liquid dried (Fig. 5p). This simple process
+reduced sheet resistance from 2.25 × 10 ⁵ Ω/sq to 179 Ω/
+sq while maintaining optical transparency (<1% change).
+Treated ﬁlms showed enhanced ﬂexibility, enduring up to
+100% strain with minimal resistance increase (~1.5 times),
+demonstrating the technique ’s effectiveness for ﬂexible
+electronics.
+Filler geometry modi ﬁcation
+Modifying the geometry of metallic nano ﬁllers offers a
+promising route to enhance their performance in soft
+electronics by improving ﬁller contact and optimizing the
+percolation network (Fig. 5q). Branched or curved NWs,
+for instance, provide additional contact points between
+ﬁllers, enhancing conductivity and mechanical com-
+pliance. These geometrical modi ﬁcations enable tailored
+nanocomposites suited for applications like stretchable
+sensors and ﬂexible circuits.
+Lim et al. demonstrated the formation of curved
+AgNWs through a spray-coating process that induced
+elasto-capillary interactions
+111. High-speed spraying gen-
+erated micrometer-sized liquid droplets, within which
+AgNWs were elastically deformed into curved shapes as
+the droplets dried, forming AgNW rings instead of linear
+structures (Fig. 5r). The curved networks, embedded in a
+PDMS matrix, exhibited exceptional durability, main-
+taining stable resistance over 5000 cycles of 30% strain. In
+contrast, traditional linear AgNW networks showed
+breakage and increased resistance under similar condi-
+tions, highlighting the superior electromechanical stability
+of the curved structures.
+Another approach involved synthesizing ultra-long
+AgNWs exceeding 100 μm via a solvothermal method,
+yielding a high aspect ratio critical for ef ﬁcient percolation
+network formation
+112. The extended lengths reduced
+inter-NWs junctions, minimizing resistive losses and
+enhancing connectivity (Fig. 5s). These AgNW ﬁlms,
+applied as transparent conductive layers on PET sub-
+strates, achieved a low sheet resistance of ~19 Ω/sq and
+high optical transmittance (88%). The dense, stable net-
+works outperformed conventional materials like ITO in
+both ﬂexibility and durability.
+Zhu et al. explored chiral branched PbSe NWs grown
+through the Eshelby Twist, which combined vapor-liquid-
+solid and screw dislocation-mediated mechanisms
+113. The
+resulting structures exhibited branching and chiral motifs,
+with perpendicular branches twisting around central NWs
+due to axial dislocations (Fig. 5t). While not directly tested
+for percolation networks, these branched con ﬁgurations
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 18 of 42
+
+suggest improved connectivity and enhanced electron
+transport potential, ideal for applications requiring robust,
+interconnected NW networks.
+Liquid metals (LMs)
+LMs represent a unique class of materials for intrinsi-
+cally soft electronics, combining metallic conductivity
+with ﬂuid-like mechanical properties
+114. These materials
+offer exceptional electrical conductivity, comparable to
+traditional solid metals, which is essential for ef ﬁcient
+circuit operation. Their ﬂuid nature provides intrinsic
+deformability, enabling them to conform to various
+shapes and withstand mechanical forces such as stretch-
+ing, twisting, or compressing. These properties make LMs
+particularly suitable for applications in soft robotics,
+wearable electronics, and ﬂexible sensors, where con-
+ventional rigid materials are inadequate.
+Despite these advantages, LMs face several challenges in
+practical applications. Certain LMs, such as mercury, are
+toxic
+115, while others, like cesium, are radioactive 116,o r
+highly ﬂammable, such as sodium-potassium alloys 117.
+Additionally, surface oxidation can hinder the electrical
+properties of some LMs. Furthermore, precise patterning
+and reliable encapsulation methods are critical to prevent
+leakage and ensure safe operation across diverse envir-
+onments. The following sections explore the most com-
+monly used LMs, their inherent limitations, and the
+innovative techniques developed to integrate them into
+soft electronic devices effectively.
+Commonly used LMs
+Several LMs are commonly used in soft electronic
+applications. These metals are typically chosen based on
+their electrical properties, melting points, and ease of
+processing. The most prominent examples include gal-
+lium and its alloys, such as eutectic gallium-indium
+(EGaIn) and gallium-indium-tin (Galinstan).
+Gallium
+Gallium (Ga) is a widely used liquid metal in soft elec-
+tronics, primarily due to its low melting point of 29.76 °C,
+allowing it to remain liquid at or near room temperature
+(Fig. 6a)
+118. Gallium ’s relative abundance, low toxicity,
+and high electrical conductivity make it a safer and ef ﬁ-
+cient alternative to hazardous materials like mercury.
+These properties render gallium ideal for applications
+such as stretchable circuits, ﬂexible antennas, and wear-
+able sensors.
+A key challenge with pure gallium is its tendency to
+form a thin oxide layer when exposed to air. This
+nanometer-scale oxide layer increases electrical resis-
+tance, potentially limiting gallium ’s effectiveness in
+applications requiring ultra-low resistivity. However, the
+oxide layer also enhances structural integrity, enabling the
+formation of stable liquid metal structures. Strategies such
+as encapsulation and surface treatments have been
+developed to control oxide formation and optimize gal-
+lium’s performance in electronic devices.
+For instance, Wang et al. introduced supercooled liquid
+gallium (SLGa) to create intrinsically stretchable electro-
+nics
+119. Encapsulating gallium with low-surface-energy
+materials like PDMS prevented crystallization, maintain-
+ing its liquid state down to -22 °C. This enabled the fab-
+rication of stretchable circuits and ECG patches capable
+of stable operation in cold conditions and underwater
+environments. Using spray-printing, uniform SLGa
+microelectrode arrays with low impedance and high
+conformability to human skin were created. These circuits
+demonstrated stable resistance under strains up to 50%,
+highlighting their suitability for ﬂexible and wearable
+electronics (Fig. 6b).
+In another study, Dejace et al. developed highly
+stretchable and transparent electronics by patterning
+microscale gallium conductors within a PDMS sub-
+strate
+120. Through soft lithography and thermal evapora-
+tion, high-aspect-ratio gallium channels as narrow as
+2 μm were fabricated, achieving up to 89.6% optical
+transparency at 550 nm and a sheet resistance as low as
+4.3 Ω/sq. This precise patterning enabled scalable designs
+for large-area applications (Fig. 6c). The patterned con-
+ductors exhibited stable electrical performance under
+strain, with resistance increasing by less than 0.2-fold after
+50% strain cycles. By adjusting the grid pitch, the trans-
+parency and conductivity of the gallium structures were
+ﬁne-tuned, making them suitable for wearable and
+transparent electronics (Fig. 6d).
+EGaIn (eutectic gallium-indium)
+EGaIn, a eutectic alloy of gallium (75%) and indium
+(25%), has a melting point of approximately 15.7 °C,
+making it liquid at room temperature (Fig. 6e)121. Com-
+pared to pure gallium, EGaIn offers enhanced properties
+such as lower viscosity and improved stability. Its high
+electrical conductivity and ease of processing make it ideal
+for applications in stretchable electronics, soft robotics,
+and ﬂexible circuits. While EGaIn forms a thin oxide layer
+upon air exposure, which acts as a self-passivating barrier
+to further oxidation, this layer can also pose challenges for
+consistent conductivity, particularly in high-frequency
+applications. Nevertheless, its low toxicity compared to
+other LMs makes EGaIn highly suitable for wearable and
+biomedical devices.
+For instance, Lee et al. utilized meniscus-guided print-
+ing to create high-resolution patterns of polyelectrolyte-
+attached liquid metal particles prepared from EGaIn
+(Fig. 6f)
+114. This technique enabled stable, post-
+processing-free patterning with resolutions as ﬁne as
+50 μm. The printed ﬁlms exhibited an initial conductivity
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 19 of 42
+
+of 1.5 × 10 ⁶ S/m and endured up to 500% strain while
+maintaining minimal resistance changes under 10,000
+cycles of testing. This versatile approach allowed direct
+printing on substrates like PDMS and hydrogels, facil-
+itating applications in wearable e-skin and customizable
+ECG sensors.
+In another study, Kim et al. introduced an imbibition-
+induced selective wetting method to pattern EGaIn on
+microstructured copper surfaces (Fig. 6g)
+122. Using HCl
+vapor to remove the oxide layer, the researchers achieved
+uniform, oxide-free coating and precise patterns without
+complex processing. The resulting EGaIn ﬁlms
+Fig. 6 Liquid metal ﬁllers. a – d Gallium and their applications. Reproduced with permission 118. Copyright 2014, Springer Nature. Reproduced with
+permission119. Copyright 2023, Springer Nature. Reproduced with permission 120. Copyright 2021, John Wiley & Sons. e– h EGaIn and their applications.
+Reproduced with permission 121. Copyright 2014, National Academy of Science. Reproduced with permission 114. Copyright 2022, Springer Nature.
+Reproduced with permission122. Copyright 2022, Springer Nature. Reproduced with permission 123. Copyright 2023, Springer Nature. i– l Ga-In-Sn alloy
+and their applications. Reproduced with permission 124. Copyright 2016, John Wiley & Sons. Reproduced with permission 125. Copyright 2014, Springer
+Nature. Reproduced with permission 126. Copyright 2022, Springer Nature. Reproduced with permission 127. Copyright 2023, John Wiley & Sons.
+m Mercury. Reproduced with permission 128. Copyright 2013, Springer Nature. n Cesium. o, p Sodium-potassium alloy. Reproduced with
+permission130. Copyright 2014, Springer Nature. Reproduced with permission 117. Copyright 2023, John Wiley & Sons.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 20 of 42
+
+demonstrated stable conductivity, maintaining low resis-
+tance under 70% strain with a gauge factor of 2.6. Dur-
+ability was further con ﬁrmed through 4,000 cycles of 30%
+strain.
+Additionally, researchers developed 3D ﬂexible elec-
+tronics using the regulated plasticity of a Ga –10In alloy
+(gallium with 10% indium by weight) (Fig. 6h)
+123.B y
+exploiting its solid –liquid phase transition, the alloy was
+shaped into complex 3D conductive structures in its solid
+form and encapsulated in the elastomer. Above 22.7 °C,
+the alloy transitioned to a liquid state, ensuring ﬂexibility
+and temperature stability. These 3D circuits demonstrated
+robust performance, with strain sensors achieving a gauge
+factor exceeding 2000 and maintaining electrical con-
+nections after 20,000 bending cycles, showcasing their
+potential for advanced stretchable devices.
+Galinstan (gallium-indium-tin alloy)
+Galinstan, a eutectic alloy of gallium, indium, and tin,
+remains liquid at sub-zero temperatures due to its
+exceptionally low melting point of approximately 11 °C
+(Fig. 6i)124. Its non-toxic, environmentally friendly prop-
+erties make it suitable for applications in medical devices,
+consumer products, and thermal management systems.
+Galinstan shares similarities with gallium and EGaIn,
+forming a surface oxide layer upon air exposure. However,
+its low viscosity and high ﬂuidity make it ideal for
+deformable conductive materials, such as stretchable
+interconnects, ﬂexible displays, and ﬂuidic sensors.
+For instance, Ota et al. developed deformable liquid-
+state heterojunction sensors using Galinstan within
+PDMS micro ﬂuidic channels (Fig. 6j)
+125. By pairing
+Galinstan with ionic liquids and controlling channel
+dimensions, they created stable liquid –liquid junctions.
+The sensors exhibited high ﬂexibility, with stable electrical
+properties under 90% strain, and achieved a temperature
+sensitivity of 3.9% per °C, outperforming conventional
+solid-state sensors. They also showed high responsiveness
+to humidity (1.7% per 1% increase) and oxygen con-
+centration (1.0% per 1% increase).
+In another example, Lin et al. fabricated ﬂexible, con-
+ductive textiles by injecting Galinstan into per ﬂuoroalk-
+oxy alkane tubing, forming liquid metal ﬁbers with a
+conductivity of 3.46 × 10 ⁶ S/m (Fig. 6k)
+126. These ﬁbers
+were embroidered onto fabrics to create durable electro-
+nic textiles capable of withstanding 10,000 bending cycles
+and multiple washes. The textiles enabled wireless com-
+munication and power transfer, achieving a quality factor
+of 44.4 at 13.56 MHz for textile-based inductors, out-
+performing conventional threads.
+Guo et al. utilized Galinstan for ﬂexible strain sensors by
+embedding the liquid metal within PDMS microchannels
+fabricated using a PVA microridge mold (Fig. 6l)
+127. Pre-
+stretching the PDMS increased the channel ’s contact area,
+enhancing performance. The sensors demonstrated linear
+sensitivity with a gauge factor of ~1, low hysteresis, and
+excellent durability ( ΔR/R
+0 <0.8) over 10,000 cycles under
+75% strain.
+Other LMs
+Although gallium-based metals are the most commonly
+used, other LMs have been investigated for speci ﬁc
+applications. Mercury (Hg), for instance, has historically
+been employed in electronic devices because of its high
+conductivity and low melting point (Fig. 6m)
+128. However,
+its toxicity and environmental hazards have signi ﬁcantly
+curtailed its use in modern applications 115. Cesium (Cs),
+liquid at 28.5 °C, offers potential for low-temperature
+applications but is highly reactive, making handling dif-
+ﬁcult (Fig. 6n)
+116. Similarly, the sodium-potassium alloy
+(NaK) is liquid at room temperature and is used in con-
+trolled environments, such as in specialized chemical or
+nuclear systems, due to its extreme reactivity (Fig. 6o,
+p)
+117,129,130. While these metals exhibit unique properties,
+their use in soft electronics remains limited because of
+safety concerns and the practicality of safer alternatives
+like gallium-based alloys.
+Challenges of LMs in soft electronics
+LMs, owing to their intrinsic ﬂuidity and high surface
+tension, pose practical challenges including aggregation,
+leakage, and unstable conductivity under mechanical
+deformation. To address these issues, several strategies
+have been developed. Encapsulation within micro ﬂuidic
+elastomeric channels, typically using PDMS, effectively
+conﬁnes liquid metals, preventing undesired leakage and
+enhancing structural stability under strain. Another
+robust approach involves forming a native oxide skin on
+LMs, which stabilizes their shape and suppresses aggre-
+gation by providing a mechanically supportive and self-
+limiting barrier. Recent advances have employed polymer
+grafting methods, such as poly(methyl methacrylate)
+surface modi ﬁcation, to enhance dispersion and prevent
+coalescence of LM droplets within polymer matrices.
+Additionally, composite approaches embedding LM
+micro- or NPs within elastomeric substrates further
+improve mechanical stability and conductivity retention
+upon stretching. These encapsulation and composite
+formation techniques collectively enable precise pattern-
+ing, stable electrical performance, and reliable mechanical
+deformability, facilitating broader practical adoption of
+liquid-metal-based intrinsically soft electronic devices.
+Patterning techniques of liquid metals
+One of the most signi ﬁcant challenges in working with
+liquid metals is the development of reliable patterning
+techniques that allow for precise control over their shape
+and placement within electronic devices. Liquid metals, by
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 21 of 42
+
+nature, are prone to spreading and leaking, making it
+essential to develop methods for their encapsulation and
+conﬁnement. In this section, we discuss various pattern-
+ing techniques, including encapsulation in micro ﬂuidic
+channels, surface patterning on metal layers, liquid metal
+nanocomposites, and self-oxidation methods.
+Encapsulation in channels
+Encapsulating liquid metals within micro ﬂuidic chan-
+nels is a widely used approach for controlling their ﬂow
+and shape in soft electronics (Fig. 7a). This method
+involves fabricating prede ﬁned channels within an elas-
+tomeric matrix, such as PDMS, and injecting liquid metal
+Fig. 7 Patterning techniques of liquid metals. a – d Encapsulating liquid metals in micro ﬂuidic channels. Reproduced with permission 131. Copyright
+2019, Springer Nature. Reproduced with permission 132. Copyright 2020, John Wiley & Sons. Reproduced with permission 125. Copyright 2014, Springer
+Nature. e– h Direct patterning on metal surfaces. Reproduced with permission 133. Copyright 2021, Springer Nature. Reproduced with permission 122.
+Copyright 2022, Springer Nature. i– l Embedding in elastomeric materials. Reproduced with permission 134. Copyright 2019, Springer Nature.
+Reproduced with permission 135. Copyright 2021, Springer Nature. Reproduced with permission 136. Copyright 2021, Springer Nature. m– p
+Freestanding liquid metals using oxide sheath. Copyright with permission 137. Copyright 2022, Springer Nature. Reproduced with permission 114.
+Copyright 2022, Springer Nature. Reproduced with permission 138. Copyright 2022, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 22 of 42
+
+into these channels. The elastomeric matrix con ﬁnes the
+liquid metal, preventing leakage and maintaining its
+position along designated pathways. This encapsulation
+approach is particularly advantageous in stretchable cir-
+cuits, where liquid metals serve as conductive traces,
+connecting electronic components while tolerating sig-
+niﬁcant mechanical deformation. The liquid metal can
+ﬂow and adapt to the stretching or bending of the elas-
+tomeric matrix, preserving conductivity even under strain.
+Additionally, encapsulation minimizes surface oxidation,
+enhancing the liquid metal ’s long-term stability and
+performance.
+For instance, Li et al. developed a method for
+encapsulating liquid metal droplets using biological
+nanoﬁbrils to create stable conductive channels while
+preventing leakage (Fig. 7b)
+131.I nt h i sp r o c e s s ,E G a I n
+droplets were dispersed in a nano ﬁbril suspension,
+forming a bilayer structure through evaporation-
+induced sintering. The resulting structure featured a
+conductive EGaIn-rich layer beneath an insulating
+nanoﬁbril-rich layer, enabling conductivity up to
+8.9×10
+5 S/m and strain tolerance of 200% with minimal
+resistance increase. Addition ally, the bilayer structure
+exhibited an electromagnetic shielding ef ﬁciency
+exceeding 12 dB for a 20-μ m-thick layer in the
+X-band range.
+In another approach, researchers micropatterned
+EGaIn onto a chemically cross-linked hydrogel,
+achieving autonomous surface reconciliation and high
+deformability (Fig. 7c)
+132. By leveraging the interaction
+between hydroxyl groups on the hydrogel and the
+native Ga ₂O₃ layer on EGaIn, the liquid metal adhered
+strongly to the hydrogel surface. Using a 3D-printed
+mold, patterns with resolutions as ﬁne as 100 μm were
+created. These patterned hy drogels exhibited excep-
+tional stretchability, tolerating strains of up to 1500%
+while maintaining a low resistance (initial resistance
+~2 Ω,i n c r e a s i n gt o~ 4 . 6Ω at maximum strain). After
+1400 cycles of 700% strain, resistance variation
+remained stable, demonstrati ng durability suitable for
+wearable applications.
+Ota et al. introduced a technique for encapsulating
+liquid metal within microchannels to form liquid –liquid
+heterojunctions (Fig. 7d)
+125. Using a PDMS micro ﬂuidic
+template with channels approximately 30 μm wide and
+31 μm high, galinstan was con ﬁned alongside various
+ionic liquids. Controlled injection prevented intermixing,
+creating stable junctions. The encapsulated galinstan
+maintained high conductivity (3.4 × 10
+6 S/m) and endured
+90% strain without compromising performance. These
+conﬁgurations enabled the development of ﬂexible sen-
+sors capable of measuring temperature, humidity, and
+oxygen levels with excellent durability under mechanical
+deformation.
+Patterning on metal electronics
+Another technique for patterning liquid metals involves
+directly depositing or printing the metal onto pre-
+patterned surfaces, such as metal layers or ﬂexible sub-
+strates. For example, liquid metals can be selectively
+deposited onto chemically treated copper surfaces, where
+they adhere spontaneously, forming conductive pathways.
+This method is particularly effective for creating ﬂexible
+circuits, antennas, and sensors. Compared to encapsula-
+tion methods, surface patterning provides higher preci-
+sion in de ﬁning liquid metal geometries. However,
+controlling the wetting behavior of the liquid metal on the
+substrate is crucial. Surface treatments, including chemi-
+cal etching or plasma activation, are often employed to
+enhance adhesion and prevent the uncontrolled spreading
+of the liquid metal.
+In one approach, Zhu et al. developed a solution-
+based technique for patterning liquid metal onto an
+elastomeric substrate by employing a series of chemical
+modiﬁcations to achieve precise and durable features
+(Fig. 7f, g)
+133. The process began with the application of
+as a c r iﬁcial screen-printed mask to de ﬁne the desired
+patterns on a SEBS substrate. A polydopamine layer was
+then deposited to act as a base for subsequent copper
+plating. Immersion of the su bstrate in a silver nitrate
+solution catalyzed the electroless deposition of copper,
+forming a metallic ﬁlm. Galinstan liquid metal was
+selectively deposited onto the copper, taking advantage
+of its high wettability contrast with the SEBS substrate.
+The resulting patterns exhibited resolutions as ﬁne as
+100 μm and a conductivity of 4.15 × 10
+4 S/cm. These
+features demonstrated exce ptional stretchability,
+retaining conductivity under strains of up to 1000% and
+maintaining consistent per formance through repeated
+mechanical cycles, underscoring their potential for
+ﬂexible electronic applications.
+In another example, researchers achieved selective
+patterning of liquid metal, speci ﬁcally EGaIn, onto che-
+mically modi ﬁed metallic microstructures through an
+imbibition-induced wetting process (Fig. 7h)
+122. The
+method involved preparing a copper-coated micro-
+structured substrate and exposing it to HCl vapor to
+remove the oxide layer from the EGaIn. This treatment
+enabled spontaneous wetting of the liquid metal on the
+metallic surface. By employing a microstructured PDMS
+substrate coated with copper, patterned posts and pyr-
+amids were created to control EGaIn ’s spreading behavior.
+Within 30 seconds, the contact angle reduced to nearly 0°,
+resulting in uniform wetting across the patterned regions.
+This approach achieved precise micro-scale resolution
+without external force and demonstrated excellent dur-
+ability. The patterned EGaIn structures retained electrical
+conductivity under strain, with stable resistance changes
+even after multiple stretching cycles.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 23 of 42
+
+Liquid metal nanocomposites in elastomeric matrix
+Embedding liquid metals within an elastomeric
+matrix to form liquid metal nanocomposites is a pro-
+mising strategy for developing stretchable electronics
+(Fig. 7i). In this approach, liquid metal droplets are
+dispersed throughout the elastomer, combining the
+high conductivity of liquid metals with the elasticity of
+the matrix. When strained, the droplets rupture,
+creating new conductive pathways that preserve elec-
+trical connectivity even under extreme deformation.
+These nanocomposites have been widely applied in soft
+sensors, stretchable interconnects, and ﬂexible energy
+devices, offering materials capable of stretching, com-
+pressing, and bending without signi ﬁcant loss of elec-
+trical performance.
+One example involves embedding EGaIn nanodroplets
+in an elastomeric matrix using surface-initiated atom
+transfer radical polymerization for effective dispersion
+(Fig. 7j)
+134. Poly(methyl methacrylate) was grafted onto
+the EGaIn nanodroplets through radical polymerization,
+achieving a stable, homogeneous distribution within the
+polymer matrix and reducing droplet size to ~200 nm.
+This uniform dispersion prevented coalescence and
+ensured consistent conductivity. The composite exhibited
+an electrical conductivity of 8.9 × 10
+5 S/m, maintained its
+performance under up to 300% elongation, and demon-
+strated suitability for ﬂexible electronics, such as soft
+robotics and stretchable sensors.
+In another study, researchers developed a liquid
+metal–elastomer composite using a scalable embossing
+technique with a styrene –isoprene–styrene elastomer
+matrix and micron-sized EGaIn droplets (Fig. 7k)
+135. The
+droplets were dispersed in the SIS matrix and selectively
+connected through a compressive embossing load, form-
+ing conductive pathways. The process allowed precise
+control over trace resistance, yielding an initial con-
+ductivity of 150 S/cm that increased to 45,400 S/m under
+1200% strain. The composite demonstrated exceptional
+mechanical resilience, with strain-invariant resistance
+under stretching and stability over multiple cycles, mak-
+ing it ideal for recon ﬁgurable, recyclable electronics in
+soft robotics and wearable devices.
+In a further example, EGaIn was incorporated into an
+electrospun SBS ﬁber mat to create a highly permeable,
+stretchable conductor (Fig. 7l)
+136. Electrospinning was
+f o l l o w e db yc o a t i n gt h eS B Sm a tw i t hE G a I n ,w h i c hw a s
+then pre-stretched to 1,800% strain to form a porous,
+mesh-like structure. This d esign achieved an initial
+conductivity of 10,000 S/m, which increased to
+1,800,000 S/m with higher EGaIn loading. The com-
+posite maintained remarkable electrical stability, with
+resistance increasing by only 4.1% under strains of up to
+1800%, highlighting its potential for wearable and soft
+electronic applications.
+Self-oxidation and freestanding
+A recent approach to utilizing liquid metals in
+stretchable electronics leve rages the natural oxide layer
+or thin polymeric skins that form on their surface to
+create freestanding structures (Fig. 7m). This self-
+oxidation process produces a solid skin around the
+liquid metal, enabling stable, self-supporting con-
+ductive patterns. The oxide or polymeric skin prevents
+uncontrolled ﬂow, making it possible to shape the
+liquid metal into intricate structures. While the oxide
+layer increases resistance, limiting its use in ultra-low-
+resistance applications, this method excels in scenarios
+prioritizing mechanical ﬂexibility and deformability
+over conductivity.
+For example, Wu et al. demonstrated the fabrication of
+freestanding liquid metal structures through suspension
+printing, stabilizing the metal with an oxide layer formed
+during extrusion
+137. Using a yield-stress acrylamide/
+nanoclay suspension with hydrogen peroxide as the sup-
+port bath, they enabled high- ﬁdelity 3D printing of
+Galinstan-based liquid metal. The hydrogen peroxide
+induced rapid Ga ₂O₃ formation, stabilizing the liquid
+metal and preventing droplet formation due to surface
+tension. This technique achieved continuous ﬁlaments
+with diameters of ~150 μm and high spatial resolution
+(Fig. 7n). Embedded constructs within a hydrogel matrix
+demonstrated remarkable mechanical resilience, enduring
+tensile deformation up to 500%.
+In another study, researchers developed semi-solid-state
+liquid metal structures using polyelectrolyte-attached
+skins to create freestanding and stretchable electronic
+components (Fig. 7o)
+114. Employing a meniscus-guided
+printing process, they printed polyelectrolyte-coated
+liquid metal microgranular particles onto diverse sub-
+strates with resolutions as ﬁne as 50 μm. This method
+required no post-processing and achieved an initial con-
+ductivity of 1.5 × 10
+6 S/m. The ink formulation minimized
+interparticle repulsion, facilitating compact assembly
+during printing. The resulting structures retained con-
+ductivity under 500% strain and withstood over
+10,000 stretching cycles with minimal resistance changes.
+Another innovative approach introduced freestanding
+liquid metal thin- ﬁlm conductors (FS-GaIn) by integrat-
+ing AgNWs into a Ga-In alloy and utilizing a selective
+laser process (Fig. 7p)
+138. Vacuum ﬁltration produced a
+uniform LM-AgNWs thin ﬁlm, which was patterned via
+laser sintering. This process induced multiphase sintering
+between the liquid metal and NWs, forming a robust
+oxide shell for structural stability. Subsequent etching
+removed unsintered regions, yielding a substrate-free
+conductor. The FS-GaIn ﬁlm exhibited an initial con-
+ductivity of 5.79 × 10
+5 S/m and maintained functionality
+under strains up to 1358%. Remarkably, the conductor
+experienced only a tenfold resistance increase at
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 24 of 42
+
+maximum strain and endured over 10,000 stretching
+cycles at 100% strain with negligible resistance
+ﬂuctuations.
+Unconventional patterning process of intrinsically
+soft materials
+Creating intricate patterns from intrinsically soft
+materials is essential for advancing deformable electronics
+that remain functional under mechanical strain. Tradi-
+tional patterning processes often prove unsuitable for
+these materials due to their distinctive mechanical prop-
+erties. To overcome these challenges, unconventional
+patterning techniques have been developed, enabling
+precise structuring of soft materials while preserving their
+ﬂexibility and stretchability. This chapter examines
+innovative approaches such as inkjet printing, 3D print-
+ing, photolithography, soft lithography, and laser pat-
+terning, which have been adapted to address the
+limitations of conventional methods. These advancements
+allow for the seamless integration of soft materials with
+metallic components, enabling the fabrication of complex
+and functional structures. By leveraging these cutting-
+edge techniques, next-generation soft electronics with
+enhanced functionality and durability are becoming
+increasingly achievable.
+Printing technologies
+Printing techniques, such as inkjet printing and 3D
+printing, represent additive manufacturing techniques
+that have gained popularity for fabricating soft electronics
+due to their precision, scalability, and compatibility with
+soft materials.
+Inkjet printing
+Inkjet printing is a versatile, non-contact technique for
+patterning conductive inks and functional materials
+directly onto substrates. In soft electronics, it enables the
+deposition of conductive patterns using metallic NPs,
+conductive polymers, or liquid metals
+139. Its primary
+advantages include high-resolution patterning without the
+need for complex masks or etching processes
+140,141,a s
+well as rapid prototyping and customization, making it
+suitable for ﬂexible and stretchable electronics 142.
+The process involves ejecting tiny ink droplets from a
+nozzle onto the substrate, with parameters like droplet
+size, ejection speed, and substrate surface energy carefully
+adjusted to achieve precise patterns. This method is par-
+ticularly effective for creating conductive traces on ﬂexible
+substrates, such as PDMS or polyimide. Metallic NPs-
+based inks are commonly used due to their high con-
+ductivity after sintering. However, the sintering process
+must be controlled to prevent damage to heat-sensitive
+substrates. Inkjet printing is also compatible with
+stretchable polymers and biomaterials, making it a pro-
+mising tool for fabricating bioelectronic devices.
+3D printing
+3D printing, or additive manufacturing, enables the
+layer-by-layer fabrication of complex 3D structures,
+making it particularly valuable for creating intricate geo-
+metries in soft and stretchable electronics
+143,144. This
+technique has been adapted to produce stretchable con-
+ductive circuits, ﬂexible sensors, and complete electronic
+devices that are challenging to fabricate using traditional
+methods. A key advantage of 3D printing is its ability to
+directly create structures like serpentine patterns or
+helical coils, which enhance stretchability
+145,146. It also
+supports the deposition of conductive inks or metallic
+materials onto elastomeric substrates, forming deform-
+able conductive traces. Additionally, 3D printing facil-
+itates the fabrication of structural components, such as
+encapsulation layers and ﬂexible scaffolds, that improve
+the mechanical stability of soft devices. By precisely
+controlling material deposition, this technique integrates
+multiple functional components into customized devices
+for applications like wearable electronics and implantable
+sensors
+147,148.
+For example, an omnidirectionally printable elastic
+conductor, comprising silver particles and PDMS, was
+successfully 3D printed
+55. Using an emulsion-based ink
+with diethylene glycol, the composite exhibited solid-like
+behavior upon extrusion, maintaining clear 3D spiral
+structures (Fig. 8a–d). The printed composite demon-
+strated elasticity without additional encapsulation, allow-
+ing it to conform to external stimuli and recover
+elastically. The printing resolution, adjustable by nozzle
+size, reached as low as 100 μm. After the diethylene glycol
+evaporated, the composite showed numerous pores,
+which concentrated silver at the surface, forming a highly
+localized conductive layer. This increased conductivity,
+with stable R/R
+0 values below 5 under 100% strain. Even
+after 3000 cycles of 50% strain, R/R 0 values remained
+under 3. Directly printed on a skin-like substrate, the
+composite was integrated with mini light-emitting diodes
+(LEDs) and microcontroller units, demonstrating its
+potential for wearable sensors and feedback displays.
+Photolithography
+Photolithography, a well-established technique in
+semiconductor manufacturing, has been adapted to
+enable precise patterning of thin ﬁlms for soft electronics
+(Fig. 8e)
+149. While conventional photolithography is
+challenging to apply to intrinsically soft materials due to
+their mechanical properties
+3,150, advancements in soft-
+compatible resists and substrates have made it feasible.
+This process involves coating a photosensitive resist onto
+a substrate, exposing it to light through a mask, and
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 25 of 42
+
+developing the exposed regions to form patterns. Con-
+ductive materials, such as metallic NWs or LMs, can then
+be deposited onto these patterns. Recent developments in
+elastomeric photoresists have improved the stretchability
+and durability of these patterns, maintaining integrity
+under mechanical strain.
+For example, Kang et al. introduced a molecularly tai-
+lored elastomeric substrate compatible with photo-
+lithography
+151. They used a dual-island structure of PUA
+and polyepoxy acrylate, enabl/ing stable patterning with
+resolutions down to ~10 μm (Fig. 8f). Using a CMOS-
+compatible lift-off process, they patterned EGaIn liquid
+Fig. 8 Unconventional fabrication techniques for soft materials. a – d Inkjet and 3D printing. Reproduced with permission 55. Copyright 2023,
+Springer Nature. e– h Photolithography and MEMS process. Reproduced with permission 149. Copyright 2021, Springer Nature. Reproduced with
+permission151. Copyright 2024, Springer Nature. Reproduced with permission 152. Copyright 2024, Springer Nature. Reproduced with permission 153.
+Copyright 2024, Springer Nature. i– l Soft lithography process. Reproduced with permission 154. Copyright 2010, Springer Nature. Reproduced with
+permission157. Copyright 2024, Springer Nature. Reproduced with permission 158. Copyright 2022, AAAS. Reproduced with permission 160. Copyright
+2019, Springer Nature. m– p Laser patterning process. Reproduced with permission 163. Copyright 2022, Springer Nature. Reproduced with
+permission166. Copyright 2018, Springer Nature. Reproduced with permission 167. Copyright 2023, American Chemical Society. Reproduced with
+permission168. Copyright 2014, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 26 of 42
+
+metal interconnections, achieving excellent electrical
+stability. The devices maintained consistent conductivity
+under 50% strain and withstood 10,000 cycles of 30%
+strain without signi ﬁcant degradation.
+Wang et al. developed an in-textile photolithography
+method to fabricate precise conductive patterns on textile
+substrates
+152. This method used polymer-assisted metal
+deposition to anchor metal layers onto textile ﬁbers, fol-
+lowed by double-sided photolithography for uniform
+patterning (Fig. 8g). The technique achieved sub-100 μm
+resolution and produced conductive tracks with linear
+resistance as low as 22 Ω/cm for 200 μm-wide features.
+These patterns remained conductive after 10,000 bending
+cycles (bending radius 4.7 mm) and 20 wash cycles,
+demonstrating robustness for wearable applications.
+Zhong et al. presented a high-resolution photolitho-
+graphic approach using stretchable elastomers integrated
+with conductive materials
+153. They combined semi-
+conducting CNTs with a high- κ nitrile-butadiene rubber
+dielectric layer, achieving patterning resolutions down to
+~0.8 μm( F i g .8h). Metallic CNTs/palladium source-drain
+electrodes enhanced electrical performance, resulting in low
+contact resistance and effective charge injection. The devi-
+ces exhibited exceptional electrical properties, with ﬁeld-
+effect mobility exceeding 20 cm²/V·s under 100% strain and
+device densities reaching 100,000 transistors per cm².
+Soft lithography
+Soft lithography, which utilizes elastomeric stamps or
+molds to pattern materials, has become a vital tool in
+fabricating soft electronics (Fig. 8i)
+154. Unlike traditional
+photolithography that relies on rigid masks, soft litho-
+graphy employs ﬂexible molds made from soft materials
+such as PDMS, enabling the patterning of materials on
+non-planar surfaces. This ﬂexibility makes it particularly
+effective for applications involving soft and deformable
+materials, including conductive polymers, hydrogels, and
+other stretchable components used in bioelectronics, soft
+robotics, and ﬂexible sensors
+154,155.
+One widely used approach in soft lithography is
+microcontact printing, where a PDMS stamp transfers
+functional materials onto a substrate
+156. The stamp, inked
+with materials such as metallic NPs or LMs, is pressed
+onto the surface to create conductive patterns. This
+technique is scalable and ideal for fabricating large-area
+ﬂexible electronics. Zheng et al. fabricated a nano ﬁber
+membrane with semi-embedded liquid metal micro-
+particles via electrospinning. A 3D-printed stamp was
+used to rupture the particles locally, forming conductive
+paths under pressure
+157. Through electrospinning, semi-
+embedded liquid metal particles were integrated into a
+TPU nano ﬁber membrane, and a 3D-printed stamp was
+used to rupture the particles under localized pressure.
+This process formed continuous conductive paths within
+the membrane (Fig. 8j). The patterned LMNM achieved a
+resolution of 50 μm and exhibited excellent electrical
+properties, with a sheet resistance as low as 1 Ω/sq at 40%
+liquid metal content, corresponding to a conductivity of
+approximately 2.13 × 10 ⁶ S/m. The membrane also
+demonstrated remarkable elasticity, retaining stable
+resistance over 30,000 cycles at 100% strain, underscoring
+its potential for wearable and stretchable electronics.
+Another soft lithography technique, replica molding,
+uses PDMS molds to shape soft materials into complex
+geometries
+158. Liu et al. employed micromolding in
+capillaries to fabricate ﬁne patterns of AgNWs on elas-
+tomeric substrates 159. By guiding an AgNW solution
+through microchannels within a PDMS mold, they
+achieved highly uniform patterns with a resolution of
+approximately 20 μm (Fig. 8k). The resulting structures
+demonstrated excellent conductivity of 6.3 × 10 ⁶ S/m and
+maintained their electrical properties under 20% strain,
+making them suitable for ﬂexible sensors and transparent
+electrodes.
+In addition, a “coat-and-print” method has been devel-
+oped to simplify patterning processes for soft electro-
+nics
+160. Li et al. used this approach to create AgNW
+patterns by spin-coating a dense conductive network onto
+a substrate, followed by inkjet-printing a PMMA protec-
+tive layer to de ﬁne the desired pattern. Excess AgNWs
+were removed through wet wiping, and the PMMA was
+dissolved, leaving behind precise conductive patterns
+(Fig. 8l). This method achieved a resolution of 60 μm and
+produced patterns with sheet resistance values between
+7.1 and 30 Ω/sq. The AgNW patterns retained con-
+ductivity after over 1000 bending cycles with a radius as
+small as 3.5 mm, demonstrating their robustness and
+compatibility with ﬂexible substrates for applications such
+as wearable antennas and transparent touchscreens.
+Laser patterning
+The laser ablation technique has emerged as a promising
+method for patterning soft electronic materials, offering
+several advantages, including time and cost ef ﬁciency, a
+reliable and scalable patterning process, and precise con-
+trol over material properties and structures. Additionally,
+it eliminates the need for masks or molds, further
+streamlining the fabrication process
+161,162. By using a
+focused laser beam, this method can selectively modify
+material properties or remove material from a surface to
+create high-precision patterns (Fig. 7m)
+163. The process is
+particularly suited for soft and stretchable materials,
+enabling direct patterning without causing mechanical
+damage, thanks to its non-contact nature
+164. Additionally,
+laser patterning achieves sub-micrometer precision by
+focusing the laser beam into a small spot, making it pos-
+sible to create intricate features that are challenging to
+replicate using other patterning techniques
+165.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 27 of 42
+
+For example, Huang et al. demonstrated laser abla-
+tion to form microstructured conductive pathways on a
+silicone elastomer, showcasing the capability of lasers
+in directly patterning soft materials
+166.U s i n ga
+nanosecond-pulsed laser at a 1,064 nm wavelength,
+they selectively ablated a black-dye-modi ﬁed silicone
+elastomer to increase laser absorption and improve
+patterning ef ﬁciency. This technique provided ﬁne
+control over the depth and diameter of the ablation,
+achieving a resolution of approximately 45 μm. The
+resulting conductive pathways exhibited a low resis-
+tance of 68.7 m Ω, which remained stable under strains
+of up to 138% elongation. The structure also demon-
+strated exceptional durabili ty, retaining electrical per-
+formance through over 2000 stretching cycles. This
+approach highlights the potential for integrating pre-
+cise, multilayered circuits i nto stretchable electronics
+for wearable devices and ﬂexible robotics (Fig. 7n).
+In another study, Song et al. utilized photothermal
+lithography to achieve high-resolution patterning of
+stretchable electronic circuits using a nanosecond-pulsed
+laser
+167. By selectively heating a silver ﬂake–PDMS
+nanocomposite with an infrared laser, they induced pho-
+tothermal curing to create conductive pathways with a
+resolution of 50 μm. The patterned conductor exhibited
+excellent conductivity, reaching 5,940 S/cm, and main-
+tained electrical stability under strain, with resistance
+changes (R/R
+0 ≈ 40) remaining minimal even after 5000
+cycles at 30% strain. This method demonstrated sig-
+niﬁcant mechanical durability, making it ideal for complex
+circuit designs in applications like wearable pressure
+sensors and passive matrix LED arrays (Fig. 7o).
+Although not metal-based, LIG has gained attention for
+forming carbon-based conductive patterns directly with
+laser irradiation. Lin et al. employed this technique to pro-
+duce porous grapheneﬁlms by laser scribing on commercial
+PI ﬁlms
+168. By converting sp³ carbon in PI to sp² carbon
+using a CO₂ laser under ambient conditions, they formed a
+3D porous graphene network. The process achieved a
+resolution of approximately 120 μm( F i g .8p). The resulting
+LIG exhibited a sheet resistance as low as 15 Ω/ s qa th i g h e r
+laser power (5.4 W), alongside excellent mechanical ﬂex-
+ibility, allowing the material to endure bending and
+stretching without loss of conductivity. This scalable, one-
+step process is particularly suitable for energy storage
+applications, such as microsupercapacitors, where high
+s u r f a c ea r e aa n dc o n d u c t i v i t ya r ec r i t i c a lf o rp e r f o r m a n c e .
+These examples illustrate the versatility of laser pat-
+terning in creating precise, durable, and high-
+performance structures for next-generation soft electro-
+nics. From conductive pathways on elastomers to carbon-
+based ﬁlms for energy devices, laser patterning continues
+to expand the possibilities for integrating soft materials
+into advanced electronic systems.
+Applications of intrinsically soft electronics
+Driven by advancements in material engineering and
+assembly strategies, intrinsically soft electronics have
+rapidly evolved, emerging as promising alternatives to
+traditional electronics in applications where adaptability
+and comfort are essential. These devices have been
+employed in diverse applications, including intrinsically
+soft interfacing electrodes, sensors, interconnections,
+displays, antennas, batteries, and computing elements.
+This section delves into various intrinsically soft electro-
+nic components and their applications, highlighting their
+transformative potential in wearable technologies, ﬂexible
+devices, and electronic skins.
+Intrinsically soft electrodes and sensors
+Intrinsically soft interfacing electrodes play a critical
+role in monitoring physiological electrical signals such as
+those generated by muscles or organs, including electro-
+encephalography (EEG), electrocorticography (ECoG),
+ECG, and electromyography (EMG)
+65. These electrodes
+facilitate precise physiological monitoring and disease
+diagnosis while also enabling targeted electrical stimula-
+tion for treating and rehabilitating conditions like cere-
+brovascular diseases, cognitive impairments
+12, cardiac
+disorders39,169,170, and movement disorders 5,171. Their
+design focuses on ensuring high-quality signal acquisition
+and minimizing impedance, which is critical for capturing
+weak signals ranging from tens of microvolts to several
+millivolts. High charge-transfer ef ﬁciency is essential for
+smooth charge mobility between the electrode and tissue,
+while low surface impedance minimizes signal loss, opti-
+mizing performance
+172–174. Conductive materials like
+platinum, Pt black, and PEDOT:PSS have been widely
+used for their excellent impedance characteristics
+13,89, and
+liquid metal with intrinsic ﬂuidity and conductivity have
+emerged as adaptable options for body-conformable
+electrode designs 175. Additionally, ultrathin electrodes,
+less than a few hundred nanometers thick, improve tissue
+contact and further reduce impedance, enhancing both
+signal quality and accuracy
+107.
+Implantable electrodes, integrated directly with
+internal organs, eliminate resistance and noise from
+non-targeted tissues 176,177,r e s u l t i n gi ns i g n iﬁcantly
+improved signal quality 178. For instance, epicardial
+mesh electrodes fabricated from AgNWs embedded in
+SBS elastomer have demonstrated high conductivity
+(~10,000 S/m) and stretchab ility up to 60%, adhering
+seamlessly to the heart surface
+179. These electrodes not
+only detect abnormal electrical activity but also
+enhance cardiac contractility through electrical stimu-
+lation. However, challenges such as silver ion leaching
+and NWs oxidation have limited their long-term per-
+formance. Innovations in materials, such as incorpor-
+ating core –shell Ag –Au–PtNWs and SEBS elastomers
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 28 of 42
+
+integrated with PtNPs, have addressed these issues
+(Fig. 9a)103. The gold shell prevents oxidation and ion
+leaching, while the platinum enhances charge storage
+and reduces impedance, signi ﬁcantly improving stabi-
+lity and the signal-to-noise ratio during ECG record-
+ings, while also supportin g low-voltage electrical
+stimulation with greater ef ﬁcacy
+180.
+Another promising design involves ﬁber-based electro-
+des that minimize tissue damage during implantation. As
+a notable example, Nam et al. discussed the development
+of a minimally invasive, needle-like micro ﬁber featuring a
+LM core and a nanocomposite shell for use as an intrin-
+sically soft electrode (Fig. 9b)
+181. The LM core ensures
+high conductivity (~3.4 × 10 ⁴ S/cm), stretchability
+(~800%), and strain-insensitive electrical properties. The
+nanocomposite shell, comprising Ag-Au NWs, Pt black
+microparticles, and IrO ₂ NPs, enables multifunctionality,
+including low impedance and pH sensing.
+Fig. 9 Applications of intrinsically soft electronics as electrode and sensors. a , b Implantable electrophysiological sensors. Reproduced with
+permission103. Copyright 2023, American Chemical Society. Reproduced with permission 181. Copyright 2024, John Wiley & Sons. c, d Wearable
+electrophysiological sensors. Reproduced with permission107. Copyright 2021, AAAS. Reproduced with permission 183. Copyright 2024, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 29 of 42
+
+Wearable intrinsically soft electrodes offer an alter-
+native for measuring physiological signals from the skin
+surface, avoiding immune responses associated with
+implantation
+52,84. These electrodes rely on materials
+with low inherent impedance or designs that maximize
+the conductive surface area
+182,183.F o ri n s t a n c e ,J u n g
+et al. described a ﬂoat assembly method to fabricate
+ultrathin (~250 nm), highly conductive nanomembranes
+for wearable electronics (Fig. 9c)
+107.U s i n gm a t e r i a l sl i k e
+AgNWs embedded in elastomers, the membranes
+achieve conductivity of 103,100 S/cm (parallel direction)
+and maintain performance under strains up to 1000%.
+Photolithographic patterning and cold welding enhance
+performance and adaptability. These nanomembranes
+are applied to multifunctional, reliable skin sensors for
+electrophysiology, strain, and humidity monitoring,
+demonstrating reliable, scal able functionality for wear-
+able electronics. In the following work, Lee et al.
+described a phase-separated nanocomposite for intrin-
+sically soft wearable electronics (Fig. 9d)
+184. Fabricated
+using AgNWs and AgNPs within a SEBS elastomer
+matrix, the nanocomposite achieves a conductivity of
+18,535 S/cm and stretchability of ~80%. Phase separa-
+tion improves charge transfer ef ﬁciency, reducing con-
+tact resistance (~0.132 Ω). Applications include
+electrophysiology sensors wi th superior signal-to-noise
+ratios, strain sensors detecting joint motions with ~80%
+resistance change, and wearab le heaters achieving stable
+temperature control under motion.
+The evolution of intrinsically soft electrodes highlights
+their potential to transform medical monitoring and
+wearable technologies. Their adaptability, combined with
+advanced material and design innovations, ensures high-
+quality signal acquisition, minimal physiological inter-
+ference, and enhanced comfort, making them invaluable
+for a wide range of biomedical applications.
+Intrinsically stretchable interconnections and circuits
+Intrinsically stretchable interconnections are critical
+components of stretchable circuits, addressing the lim-
+itations of traditional structure-based designs like
+serpentine-shaped thin metal ﬁlms. These advanced
+interconnections enable in-plane deformation while sur-
+passing existing constraints on resolution, stretchability,
+and mechanical stability. One of their key strengths is
+strain insensitivity, ensuring consistent electrical perfor-
+mance and structural integrity even under signi ﬁcant
+deformation. Strain insensitivity is achieved by allowing
+conducting ﬁllers within the matrix to move freely,
+maintaining the electrical percolation network under
+applied strain. Various strategies, including the use of
+LMs
+135, reduction of binding energy between the matrix
+and ﬁllers185, and enabling the free reorganization of ﬁl-
+lers, have been employed to achieve these properties.
+One innovative approach to intrinsically stretchable
+interconnections was introduced by Tutika et al., who
+developed a LM-elastomer composite as a regenerative
+platform for soft electronics (Fig. 10a)
+135. This composite
+utilized a styrene–isoprene–styrene block copolymer as the
+matrix, which is physically crosslinked and reprocessable.
+The reconﬁgurable LM droplets within this matrix allowed
+for self-healing, recon ﬁgurable, and recyclable electrical
+circuits. Initially dispersed as insulated particles, the LM
+droplets were restructured into interconnected networks
+through a scalable embossing technique. The composite
+demonstrated high conductivity (up to 150 S/cm at 0%
+strain) and exceptional performance under strain, achiev-
+ing conductivities as high as 45,400 S/cm at 1200% strain.
+Additionally, the LM droplets autonomously recon ﬁgured
+under extreme damage, maintaining conductivity, while
+the robust polymer matrix exhibited stretchability
+exceeding 900%, even after substantial damage.
+Another approach was introduced by Lee et al., who
+developed omnidirectional printing for intrinsically
+stretchable conductors, enabling the creation of out-of-
+plane 3D structures (Fig. 10b)
+55. Their formulation
+involved an emulsi ﬁed ink composed of elastomeric
+composites with conductive ﬁllers, including silver parti-
+cles and multiwalled CNTs, in a mixture of diethylene
+glycol and chloroform. The ink exhibited excellent struc-
+tural integrity after extrusion, avoiding particle aggregation
+and nozzle clogging. The printing process produced elastic
+conductors with freestanding 3D structures, achieving
+feature sizes below 100 μm and stretchability exceeding
+150%. During printing, the evaporation of the immiscible
+solvent formed self-assembled microstructures with metal
+particles concentrated at the micropore surfaces, resulting
+in robust conductive pathways and enhanced electrical
+conductivity of up to 6682 S/cm. This technology was
+demonstrated through a skin-mountable electronic device
+capable of measuring and displaying body temperature
+using a matrix-type stretchable display.
+Bao et al. introduced the BIND (biphasic, nano-dis-
+persed) interface, which enabled robust and highly
+stretchable connections between soft, rigid, and encap-
+sulated modules in a plug-and-play manner (Fig. 10c)
+186.
+The BIND interface was created by thermally depositing
+AuNPs or AgNPs onto a self-adhesive SEBS elastomer,
+forming an interpenetrating nanostructure. This con ﬁg-
+uration enhanced contact between NPs and stabilized
+both mechanical and electrical connections. Under phy-
+sical pressure, the interface strengthened the bond
+between modules, providing reliable connectivity. The
+soft-soft BIND connections achieved over 180% electrical
+stretchability and more than 600% mechanical stretch-
+ability, while soft-rigid BIND connections with substrates
+like PI, PET, glass, and metal attained approximately 200%
+electrical stretchability. The soft-encapsulation BIND
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 30 of 42
+
+connections exhibited interfacial toughness 60 times
+greater than traditional methods, allowing the fabrication
+of complex stretchable devices. For instance, a 21-channel
+on-skin EMG electrode utilizing the BIND interface col-
+lected high-quality EMG signals while resisting mechan-
+ical interference, showcasing the potential of this
+approach in practical applications.
+Intrinsically stretchable optoelectronic devices
+Intrinsically stretchable optoelectronic devices, such as
+LEDs187,188 and photodetectors (PDs) 189,190, are revolu-
+tionizing human-centric electronics by offering a combi-
+nation of ﬂexibility and advanced functionality
+14,191.
+Unlike traditional stretchable devices that rely on rigid-
+island structures connected by serpentine conductors
+192,
+these intrinsically soft devices provide seamless adapt-
+ability to curvilinear surfaces, even under signi ﬁcant
+deformation193. This soft and ﬂexible nature expands
+design possibilities, enhances user interaction, and
+enables novel applications in areas like smart textiles,
+ﬂexible smartphones, and implantable medical devices
+194.
+Current efforts focus on optimizing mechanical proper-
+ties, resolution, and color reproducibility while ensuring
+compatibility with other ﬂexible components.
+The material used in stretchable active layers —respon-
+sible for light emission or absorption —plays a pivotal role
+in determining device performance. Organic ﬁllers, such
+as semiconducting polymers, have garnered signi ﬁcant
+attention due to their excellent stretchability, arising from
+their ductility, dynamic chain behavior, and inter-
+penetrating polymer networks. These characteristics
+enable organic ﬁllers to retain their mechanical properties
+under deformation, making them ideal for stretchable
+optoelectronic applications.
+A notable example is the work by Kim et al., who
+developed an intrinsically stretchable organic light-
+Fig. 10 Applications of intrinsically soft electronics as circuits and interconnections. a –c Intrinsically soft circuits. Reproduced with
+permission135. Copyright 2021, Springer Nature. Reproduced with permission 55. Copyright 2023, Springer Nature. Reproduced with permission 186.
+Copyright 2023, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 31 of 42
+
+emitting diode (OLED) fabricated entirely from stretch-
+able materials (Fig. 11a)195. Their design employed a
+blend of the emissive material SuperYellow and Triton X,
+a nonionic surfactant that acted as a plasticizer. This
+combination increased the free volume in the polymer
+matrix, enhancing its ﬂexibility and stretchability. The
+resulting OLED achieved a turn-on voltage of 8 V and a
+maximum luminance of 4,400 cd/m², maintaining stable
+light emission even under 80% strain and over
+200 stretching cycles. Other strategies, such as blending
+SuperYellow with elastomers like polyurethane, have also
+proven effective in achieving stretchable emissive layers.
+Inorganic ﬁllers, including colloidal QDs and perovskite
+nanocrystals, have emerged as alternatives due to their
+superior electrical conductivity, high quantum ef ﬁciency,
+and narrow emission spectra
+196–199. However, these
+nanocrystals require embedding within elastomeric
+matrices to impart stretchability. Achieving the right
+balance between ﬁller content and elastomer properties is
+crucial for maintaining both mechanical integrity and
+electrical performance.
+For instance, Kim et al. developed intrinsically stretch-
+able QD-based light-emitting diodes (QLEDs) using a
+ternary nanocomposite emissive layer comprising colloi-
+dal QDs, an elastomeric polymer, and a charge-transport
+polymer (Fig. 11b)
+200. This design ensured stable inter-
+particle spacing and enhanced hole transport to the QDs,
+enabling the device to maintain consistent performance
+under 50% strain. The QLEDs achieved a turn-on voltage
+of 3.2 V, a maximum luminance of 15,170 cd/m² at 6.2 V,
+and stable brightness under deformation. This approach
+facilitated the development of full-color passive-matrix
+QLED arrays with red, green, and blue emissive layers,
+advancing ﬂexible and stretchable display technologies.
+Colloidal QDs have also been employed in stretchable
+light-absorbing layers, enabling the creation of intrinsi-
+cally stretchable photodetectors. Song et al. introduced a
+stretchable phototransistor array using a QD-based
+Fig. 11 Applications of intrinsically soft electronics as optoelectronics. a Intrinsically soft photodetectors. Reproduced with permission 195.
+Copyright 2021, AAAS. b, c Intrinsically soft displays. Reproduced with permission 200. Copyright 2024, Springer Nature. Reproduced with
+permission201. Copyright 2022, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 32 of 42
+
+semiconducting nanocomposite that integrated organic
+semiconducting polymers with size-tuned QDs and elas-
+tomeric matrices (Fig. 11c)201. By leveraging the surface
+energy mismatch between QDs and the elastomer, the
+design enhanced charge-transfer ef ﬁciency, achieving high
+photosensitivity and color resolution. To counter optical
+aberrations and mechanical deformation noise, a deep
+neural network algorithm was used, enabling accurate
+detection of red, green, and blue patterns in both ﬂat and
+deformed states.
+Intrinsically stretchable wireless communication
+components
+For fully integrated electronic systems, components for
+wireless communication are essential to ensure ef ﬁcient
+signal transmission and reception under mechanical
+deformation, enabling reliable wireless data transfer and
+energy harvesting. Intrinsically stretchable antennas play a
+crucial role in incorporating wireless communication and
+energy transfer into ﬂexible and adaptable electronic
+systems, making them indispensable for applications such
+as wearable devices and electronic skin
+202,203. Their ability
+to maintain performance while bending, stretching, or
+twisting is critical for advancing energy transfer systems,
+particularly in scenarios where ﬂexibility and durability
+are critical
+204.
+To achieve these properties, various advanced nano-
+materials, including metallic NPs, ceramic NPs, and
+carbon-based materials like graphene and CNTs, have
+been employed205,206. These materials are chosen for their
+high electrical conductivity and mechanical ﬂexibility,
+ensuring that antennas can adapt to deformations
+without compromising signal integrity or power transfer
+efﬁciency.
+For example, Kim et al. developed a stretchable near-
+ﬁeld communication (NFC) system that demonstrates
+robust wireless power and data transmission capabilities,
+even under signi ﬁcant mechanical deformation
+182. Using
+an innovative in situ phase separation technique, the
+researchers assembled microscale AgNWs within a poly-
+mer matrix, creating self-organized percolation networks
+along the surfaces of pores (Fig. 12a). This approach
+minimized the required ﬁller content while achieving
+highly conductive and strain-insensitive nanocomposites.
+The multiscale porous polymer matrix enhanced ﬂex-
+ibility and mechanical resilience, ensuring stable electrical
+conductivity. The stretchable NFC system exhibited reli-
+able performance with less than a 10% variation in wire-
+less power and data transmission under strains of up to
+50%, showcasing its potential for wearable communica-
+tion devices.
+In another study, Kim et al. introduced strain-invariant
+stretchable radio frequency (RF) components using a
+novel dielectroelastic elastomer (DEE) (Fig. 12b)
+207. DEE
+was synthesized by embedding high-dielectric-constant
+(κ) ceramic NPs, speci ﬁcally barium titanate oxide
+Fig. 12 Applications of intrinsically soft electronics as wireless communication devices. a Intrinsically soft NFC coils. Reproduced with
+permission182. Copyright 2024, Springer Nature. b Intrinsically soft wireless antenna system. Reproduced with permission 207. Copyright 2024, Springer
+Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 33 of 42
+
+(BaTiO₃), into an elastomeric matrix, resulting in
+enhanced electrical, mechanical, and thermal properties
+compared to conventional stretchable substrates. A
+unique feature of DEE is its ability to maintain consistent
+RF characteristics by tuning its dielectric properties under
+strain, effectively minimizing resonance frequency shifts
+and improving performance in dynamic environments,
+such as on the human skin. Stretchable RF electronics
+fabricated with DEE demonstrated wireless operation over
+distances of up to 30 m, maintaining excellent perfor-
+mance even under signi ﬁcant strain.
+Intrinsically stretchable energy device
+Powering components, encompassing energy storage
+systems and nanogenerators, are foundational for the
+evolution of portable and wearable electronics
+208. These
+components enable the seamless integration of energy
+storage and harvesting functionalities into devices
+designed for dynamic environments. Stretchable energy
+storage materials, such as CNTs, graphene, conductive
+polymers, and specialized alloys
+209, are designed to com-
+bine mechanical ﬂexibility with high electrochemical
+performance210,211. By employing innovative material
+strategies and structural designs, researchers have sig-
+niﬁcantly advanced the ﬂexibility and ef ﬁciency of these
+systems.
+A notable development in the ﬁeld is the creation of
+aqueous zinc-ion batteries capable of maintaining ef ﬁ-
+ciency at subzero temperatures, where the freezing of
+water in the electrolyte typically disrupts ion transport
+and hinders performance. To address this, Kim et al.
+developed an antifreezing gel electrolyte composed of
+PAAm, graphene oxide (GO), and EG (Fig. 13a)
+212. This
+composite gel leverages the mechanical strength provided
+by GO and the 3D macroporous network it forms, which
+enhances ion transport. Meanwhile, EG prevents freezing,
+ensuring reliable operation in extreme conditions. The
+resulting pAAM/GO/EG electrolyte demonstrated
+impressive ionic conductivity (14.9 mS/cm at –20 °C) and
+superior mechanical properties compared to conventional
+pAAM-based gels. When applied in a quasisolid-state
+zinc–manganese dioxide (Zn –MnO₂) battery, this elec-
+trolyte enabled robust electrochemical performance, even
+under harsh temperature conditions, showcasing its
+potential for use in ﬂexible and cold-resistant energy
+storage devices.
+Stretchable nanogenerators, on the other hand, harness
+mechanical energy and convert it into electrical energy
+through piezoelectric or triboelectric mechanisms
+213.
+These devices capture energy from movements, vibra-
+tions, or environmental forces, leveraging materials like
+piezoelectric polymers, thermoelectric polymers, NWs,
+and conductive elastomers
+214,215. However, the applica-
+tion of piezoelectric nanogenerators (PENGs) has been
+limited by their low output current density, reducing their
+effectiveness in ambient mechanical energy harvesting.
+Gu et al. addressed this limitation with an innovative 3D
+intercalation electrode (IENG) design (Fig. 13b)
+216. This
+design incorporates numerous boundary interfaces within
+a high-piezoelectric-coef ﬁcient material, thereby enhan-
+cing surface polarization charges and signi ﬁcantly
+increasing current density. The IENG achieved a peak
+short-circuit current of 320 μA and a current density of
+290 μA/cm², marking a 1.93-fold improvement over pre-
+vious PENGs and a 1.61-fold increase over triboelectric
+nanogenerators (TENGs). Additionally, it charged a 1 μF
+capacitor from 0 V to 8 V in just 21 cycles and exhibited
+an equivalent surface charge density of 1690 μC/m², sur-
+passing TENGs by 1.35 times. Demonstrating its poten-
+tial, the IENG powered 100 red commercial LEDs,
+representing a signi ﬁcant milestone in mechanical energy
+harvesting technology.
+Intrinsically stretchable memory devices
+Intrinsically stretchable memory devices are a vital
+component of next-generation stretchable electronics,
+addressing the growing need for data storage solutions
+that can withstand mechanical deformation while main-
+taining reliable performance. Unlike conventional rigid
+memory devices, these stretchable counterparts are
+designed to endure repeated stretching, bending, and
+twisting without compromising their electrical function-
+ality or data retention capabilities. Their unique combi-
+nation of mechanical ﬂexibility and high-performance
+data storage makes them indispensable for applications in
+wearable devices, electronic skin, and soft robotics, where
+adaptability to dynamic environments is crucial. These
+devices must maintain reliable performance under
+mechanical deformation while providing the durability
+and ﬂexibility required for dynamic environments.
+Addressing the challenges of integrating memory tech-
+nologies into ﬂexible systems, Kim et al. introduced a novel
+self-healing stretchable resistive random-access memory
+(SS-RRAM) (Fig. 13c)
+217. The SS-RRAM utilized a bilayer
+structure composed of Ag-gradient nanocomposites, which
+ensured a stable metal –insulator–metal con ﬁguration
+essential for reliable data storage and resistive switching
+performance. A key innovation in this design was the
+incorporation of a tough, self-healing polymer matrix
+combined with Ag microﬂakes and nanoﬂakes. This matrix
+provided both mechanical resilience and electrical stability,
+enabling the device to endure substantial deformation
+while maintaining functionality. The SS-RRAM demon-
+strated exceptional electrical endurance and data retention,
+even under strains of up to 100%. It achieved a high on/off
+ratio during resistive switching, highlighting its suitability
+for advanced memory applications. Additionally, the device
+exhibited robust durability, retaining performance over
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 34 of 42
+
+extended use and deformation cycles. These features make
+t h eS S - R R A Mas i g n iﬁcant step forward in creating
+intrinsically stretchable memory devices for next-
+generation ﬂexible electronics. Recently, Nam et al. pre-
+sented intrinsically stretchable ﬂoating-gate memory tran-
+sistors for use in electronic skin
+218. These devices use
+AgNPs embedded in an elastomer as the ﬂoating gate and a
+dual-stimuli writing system (optical and electrical). They
+exhibit a high memory on/off ratio (>10 ⁵), retention time
+(>10⁶ s), and mechanical durability under strains of 50%
+uniaxial and 30% biaxial. Applications include personalized
+data storage in E-skin systems, demonstrating reliability in
+dynamic environments.
+Conclusion and future perspectives
+Intrinsically soft electronics have gained prominence for
+their capacity to seamlessly integrate ﬂexibility with
+functionality, driving advancements in biomedicine, wear-
+able technology, and energy systems. These devices
+encompass a variety of components, including electrodes,
+batteries, displays, memory devices, energy storage systems,
+and communication modules, each offering distinct beneﬁts
+and addressing unique challenges. To meet the performance
+requirements for speci ﬁc applications, researchers must
+carefully select materials that align with the intended func-
+tion of these components. A thorough evaluation of the
+advantages and limitations of candidate materials is essential
+for achieving the desired balance between mechanical,
+electrical, and functional prop erties. Representative char-
+acteristics of the materials c ommonly used in intrinsically
+soft electronics are concisely summarized in Fig.14a, serving
+as a reference for their suitability across various applications.
+While intrinsically soft electronic materials incorporat-
+ing metallic ingredients have demonstrated remarkable
+Fig. 13 Applications of intrinsically soft electronics as power sources and memory devices. a , b Intrinsically soft power sources. Reproduced
+with permission 212. Copyright 2020, Frontiers Media. Reproduced with permission 216. Copyright 2020, Springer Nature. c Intrinsically soft memory
+devices. Reproduced with permission 217. Copyright 2022, Springer Nature.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 35 of 42
+
+potential as individual components, further advancements
+in material development and enhanced interaction among
+identical components are essential to achieve fully
+integrated, industrial-scale soft electronics (Fig. 14b).
+These advancements are crucial for transitioning from
+isolated functionalities to cohesive systems capable of
+Fig. 14 Summary and future prospects. a Summarized characteristics of the introduced materials. b Future prospects for intrinsically soft
+electronics using metallic ingredients.
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 36 of 42
+
+operating as complete, practical devices. In the sub-
+sequent sections, we will explore the future directions and
+research endeavors necessary to overcome current lim-
+itations and enable the realization of advanced, fully soft
+electronic systems. These discussions will highlight the
+critical challenges in material optimization, component
+integration, manufacturing scalability, and system-level
+functionality, outlining the roadmap for the next gen-
+eration of intrinsically soft electronics.
+Soft electrodes are particularly valuable in bridging the
+interface between electronic devices and biological sys-
+tems. Their ability to conform to tissue surfaces enhances
+their capacity to monitor and stimulate physiological
+processes, offering improved solutions for health mon-
+itoring and disease treatment. Meanwhile, soft batteries
+and energy storage devices ensure the reliable operation
+of implants and wearable devices by maintaining con-
+sistent performance under mechanical deformation. Soft
+displays, on the other hand, provide real-time feedback in
+applications such as health monitoring, enhancing user
+interaction, and patient care by adapting seamlessly to
+body contours for both comfort and functionality. These
+advancements in soft electrodes, batteries, and displays
+are driving the evolution of wearable health monitors,
+ﬁtness trackers, and smart clothing, making devices more
+versatile and effective.
+Soft memory devices and communication modules
+contribute signi ﬁcantly to the versatility of electronic
+systems. Memory devices in soft electronics need to
+maintain reliability and data retention while accom-
+modating mechanical deformation, ensuring seamless
+integration into ﬂexible systems. Soft communication
+modules facilitate ef ﬁcient data transfer and wireless
+communication, enabling the development of fully inte-
+grated systems with advanced connectivity. The potential
+applications of these components extend to everyday
+objects, where they can enable highly adaptable, con-
+nected, and ef ﬁcient electronic systems.
+Despite these advancements, the ﬁeld faces signi ﬁcant
+challenges. For instance, soft electrodes require further
+improvements in biocompatibility, dynamic stability, and
+electrical performance. Current research has aimed to
+enhance their ability to minimize immune responses,
+maintain long-term reliability, and optimize their inter-
+action with biological systems. Speci ﬁcally, applying a
+biohybrid system would dramatically improve bio-
+compatibility and biological interfacing. Similarly, soft
+batteries must overcome challenges related to energy
+density, mechanical ﬂexibility, and performance stability
+under stress. Energy storage devices require materials that
+can balance high storage capacity with ﬂexibility and
+durability, while soft displays must address issues of
+resolution and mechanical resilience to expand their
+applications
+219.
+Memory devices in soft electronics face challenges in
+achieving high storage density, reliability, and processing
+speed while maintaining their stretchable nature. Energy
+storage devices and generators must ensure mechanical
+stability and ef ﬁciency, even under signi ﬁcant deforma-
+tion. Novel materials and structures are essential to
+address these requirements. Communication modules
+must ensure robust signal transmission and data integrity
+in dynamic environments, necessitating advancements in
+materials and design to improve their overall
+performance.
+A critical area of focus for soft electronics lies in
+enhancing long-term durability and stability under
+dynamic conditions. Devices need to withstand mechan-
+ical stresses such as bending, stretching, and compression
+without losing functionality. Self-healing materials and
+strain-insensitive composites have emerged as promising
+solutions to extend the lifespan of these devices, enabling
+them to autonomously repair minor damage and adapt to
+mechanical strain. Additionally, addressing challenges
+related to nanomaterial toxicity and oxidation is essential
+to prevent performance degradation and ensure safety.
+Transitioning from laboratory prototypes to scalable,
+mass-produced devices presents its own set of challenges.
+The development of reproducible and cost-effective
+manufacturing processes is vital to achieving consistent
+quality and performance in large-scale production.
+Advances in patterning technologies and layer-integration
+techniques will be crucial for the commercialization of
+soft electronics.
+The integration of arti ﬁcial intelligence (AI) and closed-
+loop systems represents a signi ﬁcant step forward in the
+functionality of soft electronics. AI enables advanced data
+analysis, predictive modeling, and personalized treat-
+ments, enhancing the capabilities of these systems,
+including self-monitoring and calibration. Closed-loop
+designs, which rely on real-time sensing, data processing,
+and feedback mechanisms, offer the potential for
+responsive and adaptive applications in areas like phy-
+siological monitoring and therapeutic interventions.
+However, challenges related to data accuracy, security,
+and algorithm transparency must be addressed to fully
+realize these possibilities.
+To transition laboratory-scale advances into practical,
+commercially viable applications, the development of
+scalable, large-area fabrication techniques is essential.
+Prominent large-scale manufacturing methods include
+roll-to-roll printing, extrusion-based additive manu-
+facturing, and continuous casting, all of which enable
+high-throughput production of soft electronic devices
+with uniform quality. Roll-to-roll printing, for instance,
+has demonstrated potential in fabricating stretchable
+conductive ﬁlms using metallic nanowire-based inks,
+achieving consistent electrical and mechanical
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 37 of 42
+
+performance over large areas. Extrusion-based additive
+manufacturing facilitates precise three-dimensional pat-
+terning of conductive elastomer composites at industrial
+scales, suitable for customized wearable and implantable
+devices. However, these large-scale fabrication methods
+face critical challenges such as maintaining material
+homogeneity, controlling ink rheology for uniform
+deposition, and managing curing processes to preserve
+desired mechanical and electrical properties. Addressing
+these hurdles requires further research into optimized ink
+formulations, advanced quality control systems, and
+process automation. Bridging these gaps will signi ﬁcantly
+enhance the reliability and reproducibility of intrinsically
+soft electronics, accelerating their integration into
+healthcare monitoring, soft robotics, and ﬂexible con-
+sumer electronics.Lastly, ethical and regulatory con-
+siderations are paramount to ensuring the responsible
+development and deployment of soft electronics. Estab-
+lishing clear guidelines and frameworks can help address
+concerns about data privacy, security, and informed
+consent, while balancing innovation with ethical
+responsibilities.
+In conclusion, the continued development of intrinsi-
+cally soft electronics requires addressing a range of
+technical, manufacturing, and ethical challenges. By
+overcoming these obstacles, these technologies can
+unlock their full potential, revolutionizing applications in
+healthcare, wearable devices, and beyond.
+Acknowledgements
+This research was supported by the Institute for Basic Science (IBS-R006-A1),
+the National Research Foundation of Korea (2021R1C1C2004400, RS-2025-
+00555824), the Korea Health Industry Development Institute (RS-2025-
+02263839), and the Regional Innovation System & Education (RISE) program
+through the Gangwon RISE Center (2025-RISE-10-006, 2025-RISE-10-005).
+Author details
+1Department of Chemical Engineering, Kumoh National Institute of
+Technology, Gumi, Republic of Korea. 2Center for Nanoparticle Research,
+Institute for Basic Science (IBS), Seoul, Republic of Korea. 3Department of
+Chemical Engineering, Inha University, Incheon, Republic of Korea.
+4Department of Biomedical Engineering, Yonsei University, Wonju, Republic of
+Korea. 5Department of Chemical, Biological, and Battery Engineering, Gachon
+University, Gyeonggi-do, Republic of Korea. 6Department of Semiconductor
+Engineering, Gachon University, Gyeonggi-do, Republic of Korea. 7School of
+Chemical and Biological Engineering, and Institute of Chemical Processes,
+Seoul National University, Seoul, Republic of Korea. 8Department of Materials
+Science and Engineering, Seoul National University, Seoul, Republic of Korea
+Author contributions
+S.H.S. and H.J.K. contributed equally to this work. S.H.S., H.J.K. wrote the
+manuscript. J.H.K. modi ﬁed the ﬁgure images. D.C.K. and D.H.K. revised the
+overall manuscript.
+Competing interests
+The authors declare no competing interests.
+Publisher’s note
+Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional af ﬁliations.
+Received: 31 January 2025 Revised: 16 July 2025 Accepted: 1 August 2025.
+Published online: 10 October 2025
+References
+1 . C e r u z z i ,P .E .C h a p t e rf r o mNASA Spaceﬂight 89-127 (2018).
+2 . K i m ,D .H . ,L u ,N . ,G h a f f a r i ,R .&R o g e r s ,J .A .I n o r g a n i cs e m i c o n d u c t o r
+nanomaterials for ﬂexible and stretchable bio-integrated electronics. NPG
+Asia Mater. 4, e15 (2012).
+3. Fischer, A. C. et al. Integrating MEMS and ICs. Microsyst. Nanoeng.1, 15005
+(2015).
+4. Kim, J. et al. Stretchable silicon nano ribbon electronics for skin prosthesis.
+Nat. Commun. 5, 5747 (2014).
+5. Son, D. et al. Multifunctional wearable devices for diagnosis and therapy of
+movement disorders.Nat. Nanotechnol.9,3 9 7–404 (2014).
+6. Xu, S. et al. Stretchable batteries with self-similar serpentine interconnects
+and integrated wireless recharging systems.Nat. Commun. 4, 1543 (2013).
+7 . M y n y ,K .T h ed e v e l o p m e n to fﬂexible integrated circuits based on thin-ﬁlm
+transistors.Nat. Electron 1,3 0–39 (2018).
+8. Sunwoo, S.-H., Ha, K.-H., Lee, S., Lu, N. & Kim, D.-H. Wearable and implantable
+soft bioelectronics: Device designs and material strategies.Annu Rev. Chem.
+Biomol. Eng. 12,3 5 9–391 (2021).
+9. Wang, W. et al. Strain-insen sitive intrinsically stretchable transistors and cir-
+cuits. Nat. Electron 4, 143–150 (2021).
+10. Wang, S. et al. Skin electronics from sc alable fabrication of an intrinsically
+stretchable transistor array.Nature 555,8 3–88 (2018).
+11. Sunwoo, S.-H. et al. Soft bioelectronics for the management of cardiovascular
+diseases.Nat. Rev. Bioeng. 2,8 –
+24 (2023).
+12. Sunwoo, S. H. et al. Advances in soft bioelectronics for brain research and
+clinical neuroengineering.Matter 3, 1923–1947 (2020).
+13. Lim, C. et al. Tissue-like skin-device interface for wearable bioelectronics by
+using ultrasoft, mass-permeable, and low-impedance hydrogels.Sci. Adv. 7,
+eabd3716 (2021).
+14. Chang, S. et al. Flexible and stretch able light-emitting diodes and photo-
+detectors for human-centric optoelectronics. Chem. Rev. 124,7 6 8–859
+(2024).
+1 5 . K i m ,D . - H .e ta l .E p i d e r m a le l e c t r o n i c s .Science 333,8 3 8–843 (2011).
+16. Zhang, Y. et al. Buckling in serpentin e microstructures and applications in
+elastomer-supported ultra-stretchable electronics with high areal coverage.
+Soft Matter 9,8 0 6 2–8070 (2013).
+17. Jiao, R. et al. Vertical serpentine inter connect-enabled stretchable and curved
+electronics.Microsyst. Nanoeng.9, 149 (2023).
+1 8 . S u n ,Y . ,C h o i ,W .M . ,J i a n g ,H . ,H u a n g ,Y .Y .&R o g e r s ,J .A .C o n t r o l l e db u c k l i n g
+of semiconductor nanoribbons for stretchable electronics.Nat. Nanotechnol.
+1,2 0 1–207 (2006).
+19. Xu, S. et al. Assembly of micro/nanomaterials into complex, three-
+dimensional architecturesby compressive buckling. Science 347,1 5 4–159
+(2015).
+20. Woo, J. et al. Ultrastretchable helical conductive ﬁbers using percolated Ag
+nanoparticle networks encapsulated byelastic polymers with high durability
+in omnidirectional deformations for wearable electronics.Adv. Funct. Mater.
+30, 1910026 (2020).
+21. Stanley, J., Kunovski, P., Hunt, J. & Wei, Y. Stretchable electronic strips for
+electronic textiles enabled by 3D helical structure. Nat. Sci. Rep. 14, 11065
+(2024).
+2 2 . K i m ,Y .G . ,S o n g ,J .H . ,H o n g ,S .&A h n ,S .H .P i e z o e l e c t r i cs t r a i ns e n s o rw i t h
+high sensitivity and high stretchability based on kirigami design cutting.npj
+Flex. Electron.6, 52 (2022).
+23. Guan, Y. S., Zhang, Z., Tang, Y., Yin, J. & Ren, S. Kirigami-Inspired Nanoconﬁned
+Polymer Conducting Nanosheets with 2000% Stretchability.Adv. Mater. 30,
+1706390 (2018).
+24. Cho, Y. et al. Engineering the shape and structure of materials by fractal cut.
+P r o c .N a t l .A c a d .S c i .U S A111, 17390–17395 (2014).
+2 5 . L e e ,Y . ,K i m ,B .J . ,H u ,L . ,H o n g ,J .&A h n ,J .H .M o r p h a b l e3 Ds t r u c t u r ef o r
+stretchable display.Mater. Today 53,5 1–57 (2022).
+2 6 . K u m a r ,S . ,M i s h r a ,T .&M a h a t a ,A .M a n i p u l a t i o no fm e c h a n i c a lp r o p e r t i e so f
+monolayer molybdenum disul ﬁde: Kirigami and hetero-structure based
+approach.Mater. Chem. Phys. 252, 123280 (2020).
+2 7 . H o n g ,S . ,L e e ,S .&K i m ,D .H .M a t e r i a l sand design strategies of stretchable
+electrodes for electronic skin and its applications.Proc. IEEE 107,2 1 8 5–2197
+(2019).
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 38 of 42
+
+28. Correia, R. et al. Biocompatible parylene-C laser-induced graphene electrodes
+for microsupercapacitor applications. ACS Appl. Mater. Interfaces. 14,
+46427–46438 (2022).
+29. Werkmeister, F. & Nickel, B. Towards ﬂexible organic thin ﬁlm transistors
+(OTFTs) for biosensing.J. Mater. Chem. B 1, 3830–3835 (2013).
+30. Dong, Z. et al. Microfabric ation of functional polyimide ﬁlms and micro-
+structures for ﬂexible MEMS applications.Microsyst. Nanoeng.9, 31 (2023).
+31. Jin, H. et al. Flexible surface acous tic wave resonators built on disposable
+plastic ﬁlm for electronics and lab-o n-a-chip applications.Sci. Rep. 3,2 1 4 0
+(2013).
+3 2 . Z a r d e t t o ,V . ,B r o w n ,T .M . ,R e a l e ,A .&D iC a r l o ,A .S u b s t r a t e sf o rﬂexible
+electronics: A practical investigation on the electrical,ﬁlm ﬂexibility, optical,
+temperature, and solvent resistance properties.J. Polym. Sci. B Polym. Phys.49,
+638–648 (2011).
+33. Shan, S. et al. Flexibility characteris tics of a polyethylene terephthalate che-
+miresistor coated with a nanoparticle thinﬁlm assembly. J. Mater. Chem. C.
+Mater. 2,1 8 9 3–1903 (2014).
+34. Li, N. et al. Large-scale ﬂexible and transparent electronics based on
+monolayer molybdenum disulﬁde ﬁeld-effect transistors. Nat. Electron 3,
+711–717 (2020).
+35. Ska ﬁ, Z. et al. Flexible perovskitesolar cells on polycarbonateﬁlm substrates.
+Adv. Energy Mater. 14, 2400912 (2024).
+36. Wang, C., Hu, Y. & Li, L. Phase transitio n and electrical conversion properties
+of Ge/Sb nano-multilayerﬁlms on ﬂexible substrates.npj Flex. Electron. 8,8
+(2024).
+37. Quereda, J. et al. Scalable and low-cost fabrication of ﬂexible WS2 photo-
+detectors on polycarbonate.npj Flex. Electron. 6, 23 (2022).
+3 8 . S h i m ,H .J . ,S u n w o o ,S .H . ,K i m ,Y . ,K o o ,J .H .&K i m ,D .H .F u n c t i o n a l i z e d
+Elastomers for Intrinsically Soft and Biointegrated Electronics.Adv. Healthc.
+Mater. 10, 2002105 (2021).
+39. Han, W. B. et al. Ultra-stretchable and biodegradable elastomers for soft,
+transient electronics.Nat. Commun. 14, 2263 (2023).
+40. Takamatsu, S., Sato, S. & Itoh, T. Stress concentration-relocating interposer in
+electronic textile packaging using th ermoplastic elastic polyurethane ﬁlm
+with via holes for bearing textile stretch. Sci. Rep. 12, 9269 (2022).
+41. Chen, H. et al. A new route to fabricate ﬂexible, breathable composites with
+advanced thermal management capability for wearable electronics.npj Flex.
+Electron.7,2 4( 2 0 2 3 ) .
+4 2 . Z h o u ,J . ,Z h a o ,S . ,T a n g ,L . ,Z h a n g ,D .&S h e n g ,B .P r o g r a m m a b l ea n d
+Weldable SuperelasticEGaIn/TPU compositeﬁber by wet spinning for ﬂex-
+ible electronics.ACS Appl. Mater. Interfaces.15, 57533–57544 (2023).
+43. Cao, J. et al. Anti-friction gold-based stretchable electronics enabled by
+interfacial diffusion-induced cohesion.Nat. Commun. 15, 1116 (2024).
+44. Lv, J. et al. Printed sustainable elastomeric conductor for soft electronics.Nat.
+Commun. 14, 7132 (2023).
+45. Li, Y. et al. Achieving tissue-level softness on stretchable electronics through a
+generalizable soft interlayer design.Nat. Commun. 14, 4488 (2023).
+46. Koo, J. H. et al. A vacuum-deposited polymer dielectric for wafer-scale
+stretchable electronics.Nat. Electron 6,1 3 7–145 (2023).
+4 7 . M i w a ,Y . ,K u r a c h i ,J . ,K o h b a r a ,Y .&Kutsumizu, S. Dynamic ionic crosslinks
+enable high strength and ultrastretchability in a single elastomer.Commun.
+Chem. 1, 5 (2018).
+4 8 . A r i a t i ,R . ,S a l e s ,F . ,S o u z a ,A . ,L i m a ,R .A .&R i b e i r o ,J .P o l y d i m e t h y l s i l o x a n e
+composites characterization and its applications: A review.Polymers13,4 2 5 8
+(2021).
+49. Nishikawa, T., Yamane, H., Matsuhisa, N. & Miki, N. Stretchable Strain Sensor
+with Small but Sufﬁc i e n tA d h e s i o nt oS k i n .Sensors 23, 1774 (2023).
+50. Park, H. et al. Facile strategy for uni form gold coating on silver nanowires
+embedded PDMS for soft electronics.npj Flex. 8, 63 (2024).
+5 1 . J e o n g ,S .H . ,Z h a n g ,S . ,H j o r t ,K . ,H i l b o r n ,J .&W u ,Z .G .P D M S - b a s e de l a s t o m e r
+tuned soft, stretchable, and sticky for epidermal electronics.Adv. Mater. 28,
+5830–5836 (2016).
+52. Park, C. et al. Stretchable conductive nanocomposites and their applications
+in wearable devices. Appl. Phys. Rev. 9, 21312 (2022).
+53. Firpo, G., Angeli, E., Repetto, L. & Valbusa, U. Permeability thickness depen-
+dence of polydimethylsiloxane (PDMS) membranes.J. Memb. Sci. 481,1 –8
+(2015).
+54. Lu, Y. et al. Stretchable graphene –hydrogel interfaces for wearable and
+implantable bioelectronics.Nat. Electron 7,5 1–65 (2024).
+55. Lee, B. et al. Omnidirectional print ing of elastic conductors for three-
+dimensional stretchable electronics.Nat. Electron 6, 307–318 (2023).
+5 6 . K i m ,J .Y . ,P a r k ,K .S . ,K i m ,Z .S . ,B a e k ,K .H .&D o ,L .M .F a b r i c a t i o no fl o w - c o s t
+submicron patterned polymeric replica mold with high elastic modulus over
+al a r g ea r e a .Soft Matter 8,1 1 8 4–1189 (2012).
+57. Liu, J. et al. Fully stretchable active- matrix organic light-emitting electro-
+chemical cell array. Nat. Commun. 11, 3362 (2020).
+58. Li, S. et al. Digital light processing of liq uid crystal elastomers for self-sensing
+artiﬁcial muscles. Sci. Adv. 7, eabg3677 (2021).
+5 9 . C h a ,G .D .e ta l .M u l t i f u n c t i o n a lI n j e ctable Hydrogel for in Vivo Diagnostic and
+Therapeutic Applications.ACS Nano 16,5 5 4–567 (2022).
+6 0 . C h a ,G .D .e ta l .M i n i m a l l y - I n v a s i v eand In-Vivo Hydrogel Patterning Method
+for In Situ Fabrication of Implantable Hydrogel Devices. Small Methods 7,
+2300032 (2023).
+6 1 . C h a ,G .D . ,L e e ,W .H . ,L i m ,C . ,C h o i ,M .K .&K i m ,D .H .M a t e r i a l se n g i n e e r i n g ,
+processing, and device application of hydrogel nanocomposites.Nanoscale
+12, 10456–10473 (2020).
+6 2 . O h m ,Y .e ta l .A ne l e c t r ically conductive silver –polyacrylamide–alginate
+hydrogel composite for soft electronics.Nat. Electron 4,1 8 5–192 (2021).
+63. Liu, Y. et al. Soft and elastic hydrogel -based microelectronics for localized
+low-voltage neuromodulation.Nat. Biomed. Eng. 3,5 8–68 (2019).
+64. Huang, W. et al. Design of stretchable and self-powered sensing device for
+portable and remote trace biomarkers detection. Nat. Commun. 14,5 2 2 1
+(2023).
+65. Kim, H. J., Choi, H., Kim, D.-H. & Son, D. Stretchable Functional Nano-
+composites for Soft Implantable Bioelectronics. Nano Lett. 24,8 4 5 3–8464
+(2024).
+66. Ram, R., Rahaman, M., Aldalbahi, A. & Khastgir, D. Determination of perco-
+lation threshold and electrical conductivity of polyvinylideneﬂuoride (PVDF)/
+short carbonﬁber (SCF) composites: Effect of SCF aspect ratio.Polym. Int 66,
+573–582 (2017).
+6 7 . S h i ,Y .D . ,L i ,J . ,T a n ,Y .J . ,C h e n ,Y .F .&W a n g ,M .P e r c o l a t i o nb e h a v i o ro f
+electromagnetic interference shielding in polymer/multi-walled carbon
+nanotube nanocomposites.C o m p o s .S c i .T e c h n o l .170,7 0–76 (2019).
+6 8 . C h o i ,H .J . ,K i m ,M .S . ,A h n ,D . ,Y e o ,S .Y .&L e e ,S .E l e c t r i c a lp e r c o l a t i o n
+threshold of carbon black in a polymer matrix and its application to antistatic
+ﬁbre. Sci. Rep. 9, 6338 (2019).
+69. Zhang, Z. et al. Advances in monte car lo method for simulating the electrical
+percolation behavior of conductive polymer composites with a carbon-
+based ﬁlling. Polymers 16,5 4 5( 2 0 2 4 ) .
+7 0 . M u t i s o ,R .M . ,S h e r r o t t ,M .C . ,R a t h m e l l ,A .R . ,W i l e y ,B .J .&W i n e y ,K .I .I n t e -
+grating simulations and experiments topredict sheet resistance and optical
+transmittance in nanowire ﬁlms for transparent conductors. ACS Nano 7,
+7654–7663 (2013).
+71. Jagota, M. & Tansu, N. Conductivity of nanowire arrays under random and
+ordered orientation conﬁgurations.Sci. Rep. 5, 10219 (2015).
+72. Jung, D. et al. Adaptive Self-Organization of Nanomaterials Enables Strain-
+Insensitive Resistance of Stretchable Me tallic Nanocomposites. Adv. Mater.
+34, 2200980 (2022).
+73. Amina, S. J. & Guo, B. A review on the synthesis and functionalization of gold
+nanoparticles as a drug delivery vehicle. Int. J. Nanomed. 15,9 8 2 3–9857
+(2020).
+74. Lee, W., Yun, H., Song, J.-K., Sunwoo, S.-H. & Kim, D.-H. Nanoscale materials
+and deformable device designs for bioinspired and biointegrated electronics.
+Acc. Mater. Res. 2,2 6 6–281 (2021).
+75. Liu, Y. et al. Silver nanoparticle enhanced metal-organic matrix with interface-
+engineering for efﬁcient photocatalytic hydrogen evolution.Nat. Commun.
+14, 541 (2023).
+76. Zhang, Q., Lee, J. Y., Yang, J., Boothroyd, C. & Zhang, J. Size and composition
+tunable Ag-Au alloy nanoparticles by replacement reactions.Nanotechnology
+18, 245605 (2007).
+77. Lee, H. E. et al. Amino-acid- A nd peptide-directed synthesis of chiral plas-
+monic gold nanoparticles.Nature 556,3 6 0–365 (2018).
+78. Wang, C. et al. Characterization and an timicrobial application of biosynthe-
+sized gold and silver nanoparticles by using Microbacterium resistens.Artif.
+Cells Nanomed. Biotechnol.44,1 7 1 4–1721 (2016).
+7 9 . C h u n g ,K .e ta l .N o n - o x i d i z e db a r ec opper nanoparticles with surface excess
+electrons in air. Nat. Nanotechnol.17,2 8 5–291 (2022).
+8 0 . K h a n ,M .A .R . ,M a m u n ,M .S .A .&A r a ,M .H .R e v i e wo np l a t i n u mn a n o -
+particles: Synthesis, characterization, and applications. Microchem. J. 171,
+106840 (2021).
+8 1 . P r o p p e ,A .H . ,B e r k i n s k y ,D .B . ,Z h u ,H . ,Šverko, T. & Kaplan, A. E. K. Horowitz,
+et al. Highly stable and pure single-photon emission with 250 ps optical
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 39 of 42
+
+coherence times in InP colloidal quantum dots. Nat. Nanotechnol. 18,
+993–999 (2023).
+8 2 . K i m ,T .e ta l .E fﬁcient and stable blue quantum dot light-emitting diode.
+Nature 586, 385–389 (2020).
+83. Korte, K. E., Skrabalak, S. E. & Xia, Y . Rapid synthesis of silver nanowires
+through a CuCl- or CuCl2-mediated polyol process. J. Mater. Chem. 18,
+437–441 (2008).
+84. Jung, D. et al. Metal-like stretchable nanocomposite using locally-bundled
+nanowires for skin-mountable devices.Adv. Mater. 35, 2303458 (2023).
+85. Bardet, L. et al. Silver nanowire networks: Ways to enhance their physical
+properties and stability.Nanomaterials11, 2785 (2021).
+86. Nam, S. et al. Soft conductive nanocomposites for recording biosignals on
+skin. Soft Sci. 3,2 8( 2 0 2 3 ) .
+87. Qian, F. et al. Ultralight conduc tive silver nanowire aerogels. Nano Lett. 17,
+7171–7176 (2017).
+88. Dertli, E., Coskun, S. & Esenturk, E. N. Gold nanowires with high aspect ratio
+and morphological purity: Synthesis, c haracterization, and evaluation of
+parameters.J. Mater. Res 28, 250–260 (2013).
+89. Sunwoo, S. H. et al. Stretchable low-impedance nanocomposite comprised
+of Ag –Au core–shell nanowires and Pt black for epicardial recording and
+stimulation.Adv. Mater. Technol. 5, 1900768 (2020).
+90. Sunwoo, S.-H. et al. Stretchabl e low-impedance conductor with Ag–Au–Pt
+core–shell–shell nanowires and in situ formed Pt nanoparticles for wearable
+and implantable device.ACS Nano 17, 7550–7561 (2023).
+91. Miyamoto, A. et al. T. In ﬂammation-free, gas-permeable, lightweight,
+stretchable on-skin electronics with nanomeshes. Nat. Nanotechnol. 12,
+907–913 (2017).
+9 2 . L i u ,Y .Q . ,Z h a n g ,M . ,W a n g ,F .X .&P a n ,G .B .F a c i l em i c r o w a v e - a s s i s t e d
+synthesis of uniform single-crystal copper nanowires with excellent electrical
+conductivity.RSC Adv. 2, 11235–
+11237 (2012).
+9 3 . D u o n g ,T .H .&K i m ,H .C .E x t r e m e l ys i m p l ea n dr a p i df a b r i c a t i o no fﬂexible
+transparent electrodes using ultralong copper nanowires.Ind. Eng. Chem. Res
+57,3 0 7 6–3082 (2018).
+9 4 . W o n ,Y . ,K i m ,A . ,Y a n g ,W . ,J e o n g ,S .&M o o n ,J .Ah i g h l ys t r e t c h a b l e ,h e l i c a l
+copper nanowire conductor exhibiting a stretchability of 700. NPG Asia
+Mater. 6, e132 (2014).
+95. Luc, W. et al. Two-dimensional copper nanosheets for electrochemical
+reduction of carbon monoxide to acetate.Nat. Catal. 2,4 2 3–430 (2019).
+9 6 . Y o o n ,I .S . ,K i m ,S .H . ,O h ,Y . ,J u ,B .K .&H o n g ,J .M .A gﬂake/silicone rubber
+composite with high stability and stretching speed insensitive resistance via
+conductive bridge formation.Sci. Rep. 10, 5036 (2020).
+97. Seo, H. et al. Durable and fatigue-resistant soft peripheral neuroprosthetics
+for in vivo bidirectional signaling.Adv. Mater. 33, 2007346 (2021).
+98. Lv, J. et al. Printable elastomeric electrodes with sweat-enhanced con-
+ductivity for wearables.Sci. Adv. 7, eabg8433 (2021).
+9 9 . L i m ,G .H . ,L e e ,N .E .&L i m ,B .H i g h l ys e n s i t i v e ,t u n a b l e ,a n dd u r a b l eg o l d
+nanosheet strain sensors for human motion detection. J. Mater. Chem. C.
+Mater. 4,5 6 4 2–5647 (2016).
+100. Heo, S., Jeong, S., Kim, K. H. & Kim, H. J. Mechanically resilient integrated
+electronics realized using interconnected 2D gold-nanosheet elastomeric
+electrodes.NPG Asia Mater. 14, 37 (2022).
+101. Lim, C. et al. Facile and Scalable Syn thesis of Whiskered Gold Nanosheets for
+Stretchable, Conductive, and Biocompatible Nanocomposites.ACS Nano 16,
+10431–10442 (2022).
+102. Matsuhisa, N. et al. Printable elastic conductors by in situ formation of silver
+nanoparticles from silverﬂakes. Nat. Mater. 16,8 3 4–840 (2017).
+1 0 3 . S u n w o o ,S .H .e ta l .S t r e t c h a b l el o w-impedance conductor with Ag-Au-Pt
+core-shell-shell nanowires and in situ formed Pt nanoparticles for wearable
+and implantable device.ACS Nano 17, 7550–7561 (2023).
+1 0 4 . Z h a n g ,J . ,T a n g ,Y . ,L e e ,K .&O u y a n g ,M .N o n e p i t a x i a lg r o w t ho fh y b r i dc o r e -
+shell nanostructures with large lattice mismatches.Science 327, 1634–1638
+(2010).
+105. Choi, S. et al. Highly conductive , stretchable and biocompatible Ag –Au
+core–sheath nanowire composite for we arable and implantable bioelec-
+tronics. Nat. Nanotechnol.13, 1048–1056 (2018).
+106. Kim, Y. et al. Stretchable nanopartic le conductors with self-organized con-
+ductive pathways.Nature 500,5 9–63 (2013).
+107. Jung, D. et al. Highly conductive and elastic nanomembrane for skin elec-
+tronics. Science 373,1 0 2 2–1026 (2021).
+108. Garnett, E. C. et al. Self-limited plasmonic welding of silver nanowire junc-
+tions. Nat. Mater. 11,2 4 1–249 (2012).
+109. Lu, Y., Huang, J. Y., Wang, C., Sun, S . & Lou, J. Cold welding of ultrathin gold
+nanowires.Nat. Nanotechnol.5,2 1 8–224 (2010).
+110. Liu, Y. et al. Capillary-Force-Induced Cold Welding in Silver-Nanowire-Based
+Flexible Transparent Electrodes.Nano Lett. 17,1 0 9 0–1096 (2017).
+1 1 1 . L i m ,G .H . ,A h n ,K . ,B o k ,S . ,N a m ,J .&L i m ,B .C u r v i n gs i l v e rn a n o w i r e su s i n g
+liquid droplets for highly stretchable and durable percolation networks.
+Nanoscale9,8 9 3 8–8944 (2017).
+112. Li, Y. et al. One-step synthesis of ultra-long silver nanowires of over 100 μm
+and their application in ﬂexible transparent conductive ﬁlms. RSC Adv. 8,
+8057–8063 (2018).
+113. Zhu, J. et al. Formation of chiral branched nanowires by the Eshelby Twist.
+Nat. Nanotechnol.3,4 7 7–481 (2008).
+114. Lee, G. H. et al. Rapid meniscus-guided printing of stable semi-solid-state
+liquid metal microgranular-particle for soft electronics. Nat. Commun. 13,
+2643 (2022).
+115. Zhang, Y. et al. Global health effects of future atmospheric mercury emis-
+sions. Nat. Commun. 12, 3035 (2021).
+116. Kim, I. et al. Removal of radioactive cesium from an aqueous solution via
+bioaccumulation by microalgae and magnetic separation.Sci. Rep. 9, 10149
+(2019).
+1 1 7 . C u i ,J . ,J i n ,B . ,X u ,A . ,L i ,J .&S h a o ,M .Single-Atom Metallophilic Sites for Liquid
+NaK Alloy Con ﬁnement toward Stable Alkali-Metal Anodes. Adv. Sci. 10,
+2206479 (2023).
+118. Zhang, J., Sheng, L. & Liu, J. Synthetically chemical-electrical mechanism for
+controlling large scale reversible deformation of liquid metal objects.Sci. Rep.
+4, 7116 (2014).
+119. Wang, B., Maslik, J., Hellman, O., Gumi ero, A. & Hjort, K. Supercooled Liquid Ga
+Stretchable Electronics.Adv. Funct. Mater. 33, 2300036 (2023).
+1 2 0 . D e j a c e ,L . ,C h e n ,H . ,F u r f a r o ,I . ,S c h i a v o n e ,G .&L a c o u r ,S .P .M i c r o s c a l eL i q u i d
+Metal Conductors for Stretchable and Transparent Electronics. Adv. Mater.
+Technol. 6, 2100690 (2021).
+121. Khan, M. R., Eaker, C. B., Bowden, E. F. & Dickey, M. D. Giant and switchable
+surface activity of liquid metal via surface oxidation.Proc. Natl. Acad. Sci. USA
+111, 14047–14051 (2014).
+122. Kim, J. H. et al. Imbibition-induced selective wetting of liquid metal. Nat.
+Commun. 13, 4763 (2022).
+123. Li, G. et al. Three-dimensional ﬂexible electronics using solidiﬁed liquid metal
+with regulated plasticity.Nat. Electron 6,1 5 4–163 (2023).
+124. Ren, L. et al. Nanodroplets for Stretchable Superconducting Circuits. Adv.
+Funct. Mater. 26,8 1 1 1–8118 (2016).
+125. Ota, H. et al. Highly deformable liquid-state heterojunction sensors. Nat.
+Commun. 5, 5032 (2014).
+126. Lin, R. et al. Digitally-embroidered liquid metal electronic textiles for wearable
+wireless systems.Nat. Commun. 13, 2190 (2022).
+127. Guo, H. et al. Fabrication of a Flexible Strain Sensor with High-Aspect-Ratio
+Liquid-Metal Galinstan.Adv. Mater. Technol. 8, 2200749 (2023).
+128. Blum, J. D. Mesmerized by mercury. Nat. Chem. 5, 1066 (2013).
+129. Zhang, L. et al. Exploring Self-Healing Liquid Na –K Alloy for Dendrite-Free
+Electrochemical Energy Storage.Adv. Mater. 30, 1804011 (2018).
+130. Lu, X. et al. Liquid-metal electrode to enable ultra-low temperature sodium-
+beta alumina batteries for renewable energy storage.Nat. Commun. 5,4 5 7 8
+(2014).
+131. Li, X. et al. Evaporation-induced sin tering of liquid metal droplets with bio-
+logical nanoﬁbrils for ﬂexible conductivity and responsive actuation. Nat.
+Commun. 10, 3514 (2019).
+132. Park, J. E., Kang, H. S., Koo, M. & Park, C. Autonomous Surface Reconciliation of
+a Liquid-Metal Conductor Micropatterned on a Deformable Hydrogel.Adv.
+Mater. 32, 2002178 (2020).
+133. Zhu, H. et al. Fully solution processed liquid metal features as highly con-
+ductive and ultrastretchable conductors.npj Flex. Electron. 5, 25 (2021).
+134. Yan, J. et al. Solution processable liquid metal nanodroplets bysurface-initiated
+atom transfer radical polymerization.Nat. Nanotechnol.14,6 8 4–690 (2019).
+135. Tutika, R., Haque, A. B. M. T. & Bartlett, M. D. Self-healing liquid metal com-
+posite for reconﬁgurable and recyclable soft electronics.Commun. Mater. 2,
+64 (2021).
+136. Ma, Z. et al. Permeable superelastic liquid-metal ﬁbre mat enables bio-
+compatible and monolithic stretchable electronics.Nat. Mater. 20,8 5 9–868
+(2021).
+137. Wu, Q. et al. Suspension printing of liquid metal in yield-stress ﬂuid for
+resilient 3D constructs with electromagnetic functions.npj Flex. Electron.6,5 0
+(2022).
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 40 of 42
+
+138. Kim, M. et al. Nanowire-assisted freestanding liquid metal thin- ﬁlm patterns
+for highly stretchable electrodes on 3D surfaces.npj Flex. Electron.6, 99 (2022).
+139. Liu, Y. et al. Recent advances in inkjet-printing technologies for ﬂexible/
+wearable electronics.Nanoscale15, 6025–6051 (2023).
+140. Song, O. et al. All inkjet-printed e lectronics based on electrochemically
+exfoliated two-dimensional metal, semiconductor, and dielectric. NPJ 2D
+Mater. Appl 6, 64 (2022).
+141. Yu, Y. et al. Photoreactive and meta l-platable copolymer inks for high-
+throughput, room-temperature printing ofﬂexible metal electrodes for thin-
+ﬁlm electronics.Adv. Mater. 28,4 9 2 6–4934 (2016).
+142. Molina-Lopez, F. et al. Inkjet-printe d stretchable and low voltage synaptic
+transistor array.Nat. Commun. 10, 2676 (2019).
+143. Hui, Y. et al. Three-dimensional printing of soft hydrogel electronics. Nat.
+Electron 5,8 9 3–903 (2022).
+144. Hubbard, J. D. et al. Fully 3D-printed soft robots with integrated ﬂuidic
+circuitry.Sci. Adv. 7, 5257 (2021).
+1 4 5 . L e i ,I .M . ,S h e n g ,Y . ,L e i ,C .L . ,L e o w ,C .&H u a n g ,Y .Y .S .Ah a c k a b l e ,m u l t i -
+functional, and modular extrusion 3D printer for soft materials.Sci. Rep. 12,
+12294 (2022).
+1 4 6 . Z h a o ,J . ,L i ,X . ,J i ,D .&B a e ,J .E x t r u s i o n - b a s e d3 Dp r i n t i n go fs o f ta c t i v e
+materials.ResearchGate60, 7414–7426 (2024).
+147. Li, J., Cao, J., Lu, B. & Gu, G. 3D-printed PEDOT:PSS for soft robotics. Nat. Rev.
+Mater. 8,6 0 4–622 (2023).
+148. Park, Y. G. et al. High-resoluti on 3D printing for electronics. Adv. Sci. 9,
+2104623 (2022).
+149. Wang, B. et al. Foundry-compatible hi gh-resolution patterning of vertically
+phase-separated semiconductingﬁlms for ultra ﬂexible organic electronics.
+Nat. Commun. 12, 4937 (2021).
+1 5 0 . V a l l e ,J .J . ,S á n c h e z - C h i v a ,J .M . ,F e r n á n d e z ,D .&M a d r e n a s ,J .D e s i g n ,f a b r i -
+cation, characterization and reliability study of CMOS-MEMS Lorentz-force
+magnetometers.Microsyst. Nanoeng.8, 103 (2022).
+151. Kang, S. H. et al. Full integration of highly stretchable inorganic transistors and
+circuits within molecular-tailored elastic substrates on a large scale. Nat.
+Commun. 15,1 –12 (2024).
+152. Wang, P. et al. Well-de ﬁned in-textile photolithography towards permeable
+textile electronics.Nat. Commun. 15, 887 (2024).
+153. Zhong, D. et al. High-speed and large-scale intrinsically stretchable integrated
+circuits. Nature 627,3 1 3–320 (2024).
+1 5 4 . Q i n ,D . ,X i a ,Y .&W h i t e s i d e s ,G .M .S o f tl i t h o g r a p h yf o rm i c r o -a n dn a n o s c a l e
+patterning.Nat. Protoc. 5,4 9 1–502 (2010).
+155. Lee, S. H. et al. A soft lithographic approach to fabricate InAs nanowire ﬁeld-
+effect transistors.Sci. Rep. 8, 3204 (2018).
+156. Lee, S. H. et al. Multifunctional self-assembled monolayers via microcontact
+printing and degas-drivenﬂow guided patterning.Sci. Rep. 8, 16763 (2018).
+157. Zheng, S. et al. Pressure-stamped stretchable electronics using a nano ﬁbre
+membrane containing semi-embedded liquid metal particles.Nat. Electron.7,
+576–585 (2024).
+158. Wang, Y. et al. Benchtop micromolding of polystyrene by soft lithography.
+Lab Chip 11, 3089–3097 (2011).
+159. Liu, Y., Zheng, M., O ’Connor, B., Dong, J. & Zhu, Y. Curvilinear soft electronics
+by micromolding of metal nanowires in capillaries.Sci. Adv. 8, 6996 (2022).
+160. Li, W., Meredov, A. & Shamim, A. Coat-and-print patterning of silver nano-
+wires for ﬂexible and transparent electronics.npj Flex. Electron. 3,1 9( 2 0 1 9 ) .
+161. Marchiori, B., Delattre, R., Hannah, S., Blayac, S. & Ramuz, M. Laser-patterned
+metallic interconnections for all stretchable organic electrochemical transis-
+tors. Sci. Rep. 8, 8477 (2018).
+1 6 2 . H a m ,J . ,H a n ,A .K . ,C u t k o s k y ,M .R .&B a o ,Z .U V - l a s e r - m a c h i n e ds t r e t c h a b l e
+multi-modal sensor networkfor soft robot interaction.npj Flex. Electron.6,9 4
+(2022).
+163. Yang, Q. et al. High-speed, scanned la ser structuring of multi-layered eco/
+bioresorbable materials for advanced electronic systems.Nat. Commun. 13,
+6518 (2022).
+164. Park, S., Lee, H., Kim, Y. J. & Lee, P. S. Fully laser-patterned stretchable
+microsupercapacitors integrated with soft electronic circuit components.
+NPG Asia Mater. 10,9 5 9–969 (2018).
+165. Harper, A. F., Diemer, P. J. & Jurchescu, O. D. Contact patterning by laser
+printing for ﬂexible electronics on paper.npj Flex. Electron. 3,1 1( 2 0 1 9 ) .
+166. Huang, Z. et al. Three-dimensional integrated stretchable electronics. Nat.
+Electron 1,4 7 3–480 (2018).
+167. Song, S. et al. Photothermal Lithography for Realizing a Stretchable Multilayer
+Electronic Circuit Using a Laser. ACS Nano 17, 21443–21454 (2023).
+168. Lin, J. et al. Laser-induced porous graphene ﬁlms from commercial polymers.
+Nat. Commun. 5, 5714 (2014).
+1 6 9 . H o n g ,Y .J . ,J e o n g ,H . ,C h o ,K .W . ,L u ,N .&K i m ,D .H .W e a r a b l ea n dI m p l a n t a b l e
+Devices for Cardiovascular Healthcare: from Monitoring to Therapy Based on
+Flexible and Stretchable Electronics.Adv. Funct. Mater. 29, 1808247 (2019).
+170. Choi, S., Han, S. I., Kim, D., Hyeon, T. & Kim, D. H. High-performance stretchable
+conductive nanocomposites: Materials, processes, and device applications.
+Chem. Soc. Rev. 48,1 5 6 6–1595 (2019).
+171. Jin, S. et al. Injectable tissue prosthesis for instantaneous closed-loop reha-
+bilitation.Nature 623,5 8–65 (2023).
+172. Huang, Z. & Wang, M. A review of elect roencephalogram signal processing
+methods for brain-controlled robots.Cogn. Robot. 1,1 1 1–124 (2021).
+1 7 3 . R e a z ,M .B .I . ,H u s s a i n ,M .S .&M o h d - Y a s i n ,F .T e c h n i q u e so fE M Gs i g n a l
+analysis: Detection, processing, classiﬁcation and applications. Biol. Proced.
+Online 8,1 1–35 (2006).
+1 7 4 . K a r n e w a r ,J .S . ,S h a n d i l y a ,D . r V .K .&T a m b a k h e ,M .D .As t u d yo nE C Gs i g n a l
+analysis and ECG databases. Int. J. Res. Advent Technol. 7, 2321–9637 (2019).
+175. Deng, Y. et al. Stretchable liqui dm e t a lb a s e db i o m e d i c a ld e v i c e s .npj Flex.
+Electron. 8, 12 (2024).
+176. Gao, W. & Yu, C. Wearable and implantable devices for healthcare.Adv. Health
+Mater. 10, 2101548 (2021).
+177. Koo, J. H. et al. Electronic skin: Oppo rtunities and challenges in convergence
+with machine learning.Annu Rev. Biomed. Eng. 26,3 3 1–355 (2024).
+1 7 8 . Y o o ,S . ,K i m ,M . ,C h o i ,C . ,K i m ,D .H .&C h a ,G .D .S o f tb i o e l e c t r o n i c sf o r
+neuroengineering: New horizons in the treatment of brain tumor and epi-
+lepsy. Adv. Healthc. Mater. 13, 2303563 (2023).
+179. Park, J. et al. Electromechanical cardioplasty using a wrapped elasto-
+conductive epicardial mesh.Sci. Transl. Med. 8, 344 (2016).
+180. Han, S. I. et al. Next-generation cardiac interfacing technologies using
+nanomaterial-based soft bioelectronics. ACS Nano 18, 12025 –12048
+(2024).
+181. Nam, S. et al. Needle-like multifunctional biphasic micro ﬁber for minimally
+invasive implantable bioelectronics.Adv. Mater. 36, 2404101 (2024).
+182. Xu, Y. et al. Phase-separated porous nanocomposite with ultralow percola-
+tion threshold for wireless bioelectronics.Nat. Nanotechnol. 19,1 1 5 8–1167
+(2024).
+183. Kim, H. J. et al. Integration of conductive nanocomposites and nanomem-
+branes for high-performance stretchable conductors.Adv. Nanobiomed. Res
+3, 2200153 (2023).
+1 8 4 . L e e ,H . ,K i m ,H .J . ,S h i n ,Y .&K i m ,D .H .P h a s e - s e p a r a t e ds t r e t c h a b l ec o n d u c t i v e
+nanocomposite to reduce contact resistance of skin electronics.Sci. Rep. 14,
+1393 (2024).
+185. Jung, D. et al. Adaptive self-organiz ation of nanomaterials enables strain-
+insensitive resistance of stretchable metallic nanocomposites.Adv. Mater. 34,
+2200980 (2022).
+186. Jiang, Y. et al. A universal interface for plug-and-play assembly of stretchable
+devices. Nature 614,4 5 6–462 (2023).
+187. Kim, D. C. et al. Three-dimensional foldable quantum dot light-emitting
+diodes. Nat. Electron 4,6 7 1–680 (2021).
+188. Lee, M. et al. Nanomaterial-based synaptic optoelectronic devices for in-
+sensor preprocessing of image data.ACS Omega 8,5 2 0 9–5224 (2023).
+189. Choi, C., Lee, G. J., Chang, S., Song, Y. M. & Kim, D. H. Nanomaterial-based
+artiﬁcial vision systems: From bioinspired electronic eyes to in-sensor pro-
+cessing devices.ACS Nano 18,1 2 4 1–1256 (2024).
+190. Kim, M. et al. Cuttle ﬁsh eye–inspired artiﬁcial vision for high-quality imaging
+under uneven illumination conditions.Sci. Robot 8, eade4698 (2023).
+191. Park, T. et al. Advances in ﬂexible, foldable, and stretchable quantum dot
+light-emitting diodes: Materials and fabrication strategies. Korean J. Chem.
+Eng. 41, 3517–3543 (2024).
+192. Koo, J. H. et al. Recent advances in sof t electronic materials for intrinsically
+stretchable optoelectronic systems.Opto-Electron. Adv.5, 210131 (2022).
+193. Hong, J. H., Yoon, J., Kim, Y. & Lee, C. Embracing stretchable “Form Factor-
+Free” displays. Inf. Disp. (1975) 39,6 –10 (2023).
+1 9 4 . P a r k ,J . ,S e u n g ,H . ,K i m ,D .C . ,K i m ,M .S .&K i m ,D .H .U n c o n v e n t i o n a li m a g e -
+sensing and light-emitting devices for extended reality.Adv. Funct. Mater.31,
+2009281 (2021).
+195. Kim, J. H. & Park, J. W. Intrinsically st retchable organic light-emitting diodes.
+Sci. Adv. 7, 9715 (2021).
+1 9 6 . K i m ,J . ,R o h ,J . ,P a r k ,M .&L e e ,C .R e c e n ta d v a n c e sa n dc h a l l e n g e so fc o l l o i d a l
+quantum dot light-emitting diodes for display applications. Adv. Mater. 36,
+2212220 (2024).
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 41 of 42
+
+197. Sun, Y., Jiang, Y., Sun, X. W., Zhang, S. & Chen, S. Beyond OLED: Ef ﬁcient
+quantum dot light-emitting diodes fo r display and lighting application.
+Chem. Rec. 19,1 7 2 9–1752 (2019).
+198. Meng, X. et al. Stretchable perovskite solar cells with recoverable perfor-
+mance. Angew. Chem. Int. Ed. 59, 16602–16608 (2020).
+1 9 9 . B a d e ,S .G .R .e ta l .S t r e t c h a b l eL i ght-Emitting Diodes with Organometal-
+Halide-Perovskite–Polymer Composite Emitters. Adv. Mater. 29, 1607053
+(2017).
+200. Kim, D. C. et al. Intrinsically stretc hable quantum dot light-emitting diodes.
+Nat. Electron. 7,3 6 5–374 (2024).
+201. Song, J. K. et al. Stretchable colour-sensitive quantum dot nanocomposites
+for shape-tunable multiplexed phototransistor arrays. Nat. Nanotechnol. 17,
+849–856 (2022).
+202. Yoo, S. et al. Wireless power transfer and telemetry for implantable bioe-
+lectronics.Adv. Health Mater. 10, 2100614 (2021).
+203. Kim, H. et al. Wide-range robust wireless power transfer using hetero-
+geneously coupled andﬂippable neutrals in parity-time symmetry.Sci. Adv.8,
+eabo4610 (2023).
+204. Joo, H. et al. Soft implantable drug delivery device integrated wirelessly with
+wearable devices to treat fatal seizures.Sci. Adv. 7, eabd4639 (2021).
+205. Wang, C. et al. New Advances in Antenna Design toward Wearable Devices
+Based on Nanomaterials.Biosensors14, 35 (2024).
+2 0 6 . S h e k h a w a t ,S . ,S i n g h ,S .&K u m a rS i n g h ,S .Ar e v i e wo nb e n d i n ga n a l y s i so f
+polymer-based ﬂexible patch antenna for IoT and wireless applications.
+Mater. Today Proc. 66,3 5 1 1–3516 (2022).
+207. Kim, S. H. et al. Strain-invariant stretchable radio-frequency electronics.Nature
+629, 1047–1054 (2024).
+208. Lee, M. H. et al. A biodegradable sec ondary battery and its biodegradation
+mechanism for eco-friendly energy-storage systems.Adv. Mater.33, 2004902
+(2021).
+209. Hong, S. et al. Stretchable elect rode based on laterally combed carbon
+nanotubes for wearable energy harvesting and storage devices.Adv. Funct.
+Mater. 27, 1704353 (2017).
+210. Song, W. et al. The strategy of achieving ﬂexibility in materials and con-
+ﬁguration of ﬂexible lithium-ion batteries. Energy Technol. 9, 2100539
+(2021).
+211. Lee, W. H. et al. Floatable photocatalytic hydrogel nanocomposites for large-
+scale solar hydrogen production.Nat. Nanotechnol.18,7 5 4–762 (2023).
+2 1 2 . Q u a n ,Y . ,C h e n ,M . ,Z h o u ,W . ,T i a n ,Q .&C h e n ,J .H i g h - P e r f o r m a n c eA n t i -
+freezing Flexible Zn-MnO2 Battery Based on Polyacrylamide/Graphene
+Oxide/Ethylene Glycol Gel Electrolyte.Front Chem. 8, 603 (2020).
+2 1 3 . P a r k ,K .I .L . ,J e o n g ,C .K . ,K i m ,N .K .&L e e ,K .J .S t r e t c h a b l ep i e z o e l e c t r i c
+nanocomposite generator.Nano Convergence3, 12 (2016).
+2 1 4 . V a l l e m ,V . ,S a r g o l z a e i a v a l ,Y . ,O z t u r k ,M . ,L a i ,Y .C .&D i c k e y ,M .D .E n e r g y
+Harvesting and Storage with Soft and Stretchable Materials.Adv. Mater. 33,
+2004832 (2021).
+2 1 5 . X i a o ,X . ,C h e n ,G . ,L i b a n o r i ,A .&C h e n ,J .W e a r a b l et r i b o e l e c t r i cn a n o g e n -
+erators for therapeutics.Trends Chem. 3,2 7 9–290 (2021).
+216. Gu, L. et al. Enhancing the current density of a piezoelectric nanogenerator
+using a three-dimensional intercalation electrode.Nat. Commun. 11,1 0 3 0
+(2020).
+217. Park, J. et al. D. Reversible electric al percolation in a stretchable and self-
+healable silver-gradient nanocomposite bilayer. Nat. Commun. 13,5 2 3 3
+(2022).
+218. Nam, T. U. et al. Intrinsically stretchable ﬂoating gate memory transistors
+for data storage of electronic skin devices. ACS Nano 18, 14558 –14568
+(2024).
+2 1 9 . S h i m a n o e ,S . ,F u k u d a ,K . ,S o m e y a ,T .&Y o k o t a ,T .D e v e l o p m e n to fa i r - s t a b l e
+photomultiplication-type organic photodetector and analysis of active layer
+using removable top electrode.Adv. Electron Mater. 8, 2200651 (2022).
+Sunwoo et al. NPG Asia Materials (2025) 17:40 Page 42 of 42

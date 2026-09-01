@@ -1,0 +1,805 @@
+ARTICLE
+Received 1 Sep 2015 | Accepted 27 Nov 2015 | Published 22 Dec 2015
+A self-healable and highly stretchable
+supercapacitor based on a dual crosslinked
+polyelectrolyte
+Y an Huang1,*, Ming Zhong 2,*, Y ang Huang1, Minshen Zhu 1, Zengxia Pei 1, Zifeng Wang 1, Qi Xue 1, Xuming Xie 2
+& Chunyi Zhi 1,3
+Superior self-healability and stretchability are critical elements for the practical wide-scale
+adoption of personalized electronics such as portable and wearable energy storage devices.
+However, the low healing efﬁciency of self-healable supercapacitors and the small strain of
+stretchable supercapacitors are fundamentally limited by conventional polyvinyl alcohol-
+based acidic electrolytes, which are intrinsically neither self-healable nor highly stretchable.
+Here we report an electrolyte comprising polyacrylic acid dual crosslinked by hydrogen
+bonding and vinyl hybrid silica nanoparticles, which displays all superior functions and pro-
+vides a solution to the intrinsic self-healability and high stretchability problems of a super-
+capacitor. Supercapacitors with this electrolyte are non-autonomic self-healable, retaining the
+capacitance completely even after 20 cycles of breaking/healing. These supercapacitors are
+stretched up to 600% strain with enhanced performance using a designed facile electrode
+fabrication procedure.
+DOI: 10.1038/ncomms10310 OPEN
+1 Department of Physics and Materials Science, City University of Hong Kong, Hong Kong 999077, China. 2 Laboratory of Advanced Materials (MOE),
+Department of Chemical Engineering, T singhua University, Beijing 100084, China. 3 Shenzhen Research Institute, City University of Hong Kong,
+Shenzhen 518000, China. * These authors contributed equally to this work. Correspondence and requests for materials should be addressed to X.X.
+(email: xxm-dce@mail.tsinghua.edu.cn) or to C.Z. (email: cy.zhi@cityu.edu.hk).
+NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications 1
+
+T
+he design of highly self-healable and stretchable devices is a
+radical element in the development of many unprecedented
+applications such as electronic skin 1,2 and smart energy
+storage clothes3,4. Portable and wearable supercapacitors, coupled
+with either self-healability 5,6 or stretchability 7, have particularly
+become one mainstream in personalized electronics for their high-
+power density, fast rate of charge–discharge and long cycling
+lifetime in addition to the aforementioned functions 8–12.O no n e
+hand, self-mending polymeric materials based on physical
+crosslinking13,14 or external stimuli such as heat 15,16 and
+light17,18, have been successfully developed and employed for the
+mechanical recovery and electrical restoration of devices 5,6,19.
+Besides an indispensable layer of electrolyte sandwiched between
+two electrodes, an extra layer of self-healing polymer is wrapped
+onto electrodes or used as a substrate for all self-healable
+supercapacitors reported thus far. However, a key constraint lies
+in their low healing efﬁciency and cyclability. After merely a few
+breaking/healing cycles (no more than 5), the capacitances
+decrease dramatically (14.3–28.2%) 5,6,19. Another desirable
+feature missing in these devices is volume/mass economy owing
+to the use of an additional component, lowering the volumetric/
+mass capacitance. On the other hand, given that all
+electrocapacitive materials are not intrinsically stretchable,
+various modiﬁed structures (for example, non-coplanar
+buckled20, coplanar serpentine and wavy 21,22,p e r c o l a t i n g
+nanostructured23) and electron/ion-inactive stretchable substrates
+(such as elastomers 24,25 and stretchable textiles 26)h a v eb e e n
+utilized to introduce stretchability into conventionally rigid
+supercapacitors. However, most achieved strains did not exceed
+100% (refs 24,27,28) and the performance usually deteriorated at
+super-high strains 29. All these limitations of self-healable and
+stretchable supercapacitors are fundamentally attributed to the fact
+that the widely used polyvinyl alcohol (PVA)-based acidic
+electrolytes are neither healable nor very stretchable, giving rise
+to disadvantages of unsatisfactory performance, additional
+components and complex multi-step designs.
+Therefore, it is primarily important to develop a
+multifunctional polyelectrolyte to realize intrinsic self-healability
+and high stretchability. This requires effective ionic conduction,
+efﬁcient crack-activated hydrogen bonds crosslinking and
+reversible crosslinking interactions among polymer chains.
+Compared with the extensive and substantial research on
+electrodes, fewer relevant studies on indispensable poly-
+electrolytes have been performed, and even fewer studies have
+been conducted on multifunctional polyelectrolytes. In this paper,
+a new electrolyte is developed comprising polyacrylic acid
+dual crosslinked by hydrogen bonding and vinyl hybrid silica
+nanoparticles (VSNPs-PAA). The prepared polyelectrolyte pos-
+sesses all these advantages of tuneable ionic conductivity, self-
+healability and high stretchability. Movable protons in the
+polyelectrolyte provide an equivalent electrode capacitance
+compared with the commonly used PVA/H 3PO4 electro-
+lyte4,12,30,31. It can be easily self-repaired at room temperature
+and repaired samples display ionic properties similar to those of
+pristine samples after cycles of breaking/healing. In addition, it
+can be stretched over 3,700% without any crack, suggesting
+effectively reversible crosslinking interactions through stress
+transfer and energy dissipation. Supercapacitors are facilely
+assembled by the use of this polyelectrolyte and polypyrrole
+(PPy)-deposited carbon nanotube (CNT) paper electrodes
+with the incorporation of small CNT patches on the cutting
+wounds and a pre-stretched wavy structure. They exhibit the
+merits of self-healability ( B100% efﬁciency during all 20
+breaking/healing cycles), stretchability (600% strain with
+enhanced performance), the fewest number of components and
+facile fabrication.
+Results
+Synthesis and physicochemical properties of VSNPs-PAA .
+Silica nanoparticles-based nanocomposite polymers are widely
+employed to reinforce mechanical properties of polymeric
+materials32,33. We used a sol–gel method for the preparation of
+VSNPs34,35 (Fig. 1a; Supplementary Fig. 1a). An acrylic acid
+monomer and the as-prepared VSNPs (Supplementary Fig. 1b,c)
+were polymerized together in the presence of ammonium
+persulfate as the initiator. Phosphoric acid served as the
+regulator of water and proton ion content (Fig. 1b). By doing
+so, we took advantage of synergistic effects as follows. First,
+VSNPs serve as covalent crosslinking points and stress transfer
+centres, thus strengthening the network structure under large
+strains. Second, the PAA polymer chains provide sufﬁcient intra-
+and intermolecular hydrogen bonding. The non-sacriﬁcial
+hydrogen bond crosslinking is crucial for self-healing.
+Moreover, the broken intermolecular hydrogen bonds can
+dynamically recombine to dissipate energy and homogenize the
+network under stretching. Third, the variable content of water
+and protons in the VSNPs-PAA can tune the ionic conductivity,
+making the synthesized polymer an excellent candidate as the
+electrolyte of supercapacitors. These synergistic effects are
+responsible for the multiple functions of high stretchability and
+self-healability observed from our polyelectrolyte.
+With the increase in the water content, ions in the VSNPs-PAA
+move more easily, and the VSNPs-PAA chains are more
+sufﬁciently extended. Therefore, the ionic conductivity increases
+remarkably with increasing water content and is comparable to
+the conventional PVA/H 3PO4 electrolyte36 (Fig. 2a), suggesting
+the use of VSNPs-PAA as the electrolyte of supercapacitors. The
+content of VSNPs indicates the density of crosslinking points,
+which strongly inﬂuences the mechanical properties (Fig. 2b).
+Compared with pure PAA, a low VSNPs content (0.1 wt%)
+substantially increases the strength and the stretchability to
+43,700% strain (Fig. 2b,c), which is much higher than those
+stretchable polymers 37–41. A more detailed analysis of the effect
+of VSNPs content on mechanical properties is provided in
+Supplementary Fig. 2. As mentioned above, the super-high
+Vinyl-triethoxysilane
+(CH3CH2O)3Si(CHCH2)
+Sol–gel process
+Stir, 12 h, room temperature
+O O
+O
+Si
+: Silica nanoparticle
+VSNP
+VSNP VSNP cross linking PAA
+PAA () n
+(AA)
+APS, H2O, H3PO4
+OH
+O
+OH
+: PAA chain
+: Positive ion
+: Negative ion
+: Hydrogen bondingO
+b
+a
+Figure 1 | Preparation of the polyelectrolyte by using VSNPs crosslinker.
+(a) Preparation of VSNPs from vinyltriethoxysilane. ( b) Preparation of the
+VSNPs-PAA electrolyte from VSNPs (crosslinker), acrylic acid (AA, main
+monomer), ammonium persulfate (APS, initiator) and phosphoric acid
+(pH and water content regulator).
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310
+2 NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications
+
+stretchability arises from the VSNPs-aided toughening and
+hydrogen bond crosslinking. General polymers have a randomly
+coiled conformation in a relaxed state. Once the imposed strain
+achieves a speciﬁc extent, it becomes difﬁcult to uncoil the
+polymer chains. The energy can then be dissipated only
+through the rupture of the entangled polymer chains. In the
+case of our VSNPs-PAA, VSNPs and hydrogen bonding are the
+primary crosslinking mechanisms other than the polymer chain
+entanglement. The propagation of cracks is delayed by dispersing
+the applied stress via the anchoring VSNPs, resulting in the high
+strains observed. Beneﬁted from the intermolecular hydrogen
+bonds as reversible physical crosslinking points, our VSNPs-PAA
+can dynamically break and recombine to dissipate energy, as
+schematically shown in Fig. 2d. This dynamic process reorganizes
+the polymer chains and thus distributes the applied stress rapidly
+and uniformly over the entire network.
+The intermolecular hydrogen bonds among the crosslinked
+polymer chains on the VSNPs are also responsible for the
+superior self-healing property demonstrated in Fig. 3a. First, a
+VSNPs-PAA belt was bisected with scissors. The fresh cuts were
+then brought into contact under mild pressure. After the breakage
+was successfully self-healed within tens of minutes in the ambient
+condition, the belt could be stretched extensively without
+breaking. This good self-healing performance enabled our
+VSNPs-PAA to fulﬁl the demanding mechanical requirements
+(Fig. 3b). After a couple of breaking/healing cycles, the ionic
+conducting properties were well restored (Fig. 3c), and decent
+mechanical performance was maintained (Supplementary Fig. 3).
+To investigate the self-healing mechanism, a 1 M aqueous
+solution of urea (an efﬁcient hydrogen-bond-breaking
+reagent42,43) was used to prevent the formation of hydrogen
+bonds in the wound area (Supplementary Methods). The healed
+urea-treated VSNPs-PAA had much lower strain, tensile strength
+and tensile modulus, compared with the healed VSNPs-PAA
+without the urea treatment (Supplementary Fig. 4). This indicates
+that the self-healing was remarkably weakened and reveals that
+the self-healing was dominated by the formation of abundant
+reversible intermolecular hydrogen bond crosslinks 13,14. When
+breakage occurs in the contact region, the broken hydrogen bonds
+can recombine through the coordination of carboxyl groups on
+the PAA main chains (Fig. 3d).
+Electrochemical characterization of VSNPs-PAA . The synthe-
+sized VSNPs-PAA ﬁlm was used as an electrolyte without further
+treatment. PPy electrodeposited on CNT papers were utilized as
+both active materials and current collectors to construct solid-
+state supercapacitors. Besides its contribution to capacitance, the
+ﬂexible PPy can serve as a stress buffer during stretching, which is
+discussed below. Typically, two PPy@CNT paper electrodes were
+directly paved on the VSNPs-PAA ﬁlm electrolyte without a
+binder or separator (Fig. 4a). For the fabrication of a self-healable
+supercapacitor, small patches of conductive CNT paper were
+facilely paved on wounds to completely restore the electrical
+conductivity (Fig. 4b). Regarding the fabrication of a stretchable
+supercapacitor, the VSNPs-PAA polyelectrolyte ﬁlm was ﬁrst pre-
+stretched to over 600% strain. The PPy@CNT papers were then
+paved on each side of the stretched electrolyte layer. After
+releasing, the stretchable supercapacitor was realized with a wavy
+electrode structure (Fig. 4c).
+Figure 5a shows that CNT papers have a typical morphology of
+interweaved nanowires. By contrast, a thin ﬁlm of PPy was
+uniformly electrodeposited on CNT papers (Fig. 5b). The
+PPy-deposited CNT electrode was intentionally folded before
+the scanning electron microscopy (SEM) observation. Notably,
+the electrode was not cracked because of the good ﬂexibility of
+both PPy and the CNT paper. The prepared species was
+0.010
+0.005Ionic conductivity (S cm–1)
+0.000
+20 40 60 0
+0
+100
+1,000 2,000 3,000
+0 wt % VSNPs
+0.1 wt % VSNPs
+0.2 wt % VSNPs
+0.5 wt % VSNPs
+Water content  (wt %)
+Stretch Stretch
+VSNPs buffer stress
+hydrogen bonds break
+(yellow-dashed boxes)
+VSNPs buffer stress
+hydrogen bonds recombine
+(purple-dashed boxes)
+Strain (%)
+Stress (kPa)
+ba
+c
+d
+Figure 2 | Physicochemical properties of the VSNPs-PAA electrolyte.
+(a) Ionic conductivity as a function of water content in the VSNPs-PAA
+(weight fraction of water in the gel). (Error bars in the ﬁrst two points are
+too small to be observed, and they are based on maximum and minimum
+values in ﬁve measurements.) ( b) Stress–strain curves of VSNPs-PAA
+(60 wt% H2O) with various contents of VSNPs under stretching. ( c)
+Relaxed (left of panel) and elongated (right of panel) state of the VSNPs-
+PAA, exhibiting excellent stretchability. ( d) Schematic of the origin of super
+stretchability.
+Hydrogen bonding
+Hydrogen bonds reconnected
+Hydrogen bonds
+broken
+Bisect Heal Stretch healed
+Carboxyl group
+0.2
+0.1
+01234
+Healing times
+Ionic conductivity
+(mS cm–1)
+bc
+a
+d
+Figure 3 | Self-healing properties of the VSNPs-PAA electrolyte.
+(a) Demonstration of the self-healing process of VSNPs-PAA.
+(b) Demonstration of the self-healed VSNPs-PAA (3.4 mm thick and 1.8 cm
+wide) to completely support ca. 500 g mass, which equates to 80 kPa of
+stress: pristine sample (left of panel) and healed sample after the third
+breaking/healing cycle (right of panel). Red rectangles indicate the wound/
+healing positions. ( c) Ionic conductivity of the VSNPs-PAA after multiple
+breaking/healing cycles. (Error bars are based on maximum and minimum
+values in ﬁve measurements.) ( d) Schematic of self-healing arising from
+interfacial hydrogen bonding.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310 ARTICLE
+NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications 3
+
+conﬁrmed by Raman spectroscopy (Supplementary Fig. 5). The
+PPy has a thickness of o90 nm (Fig. 5b), favouring rapid ion
+transportation during charge/discharge.
+The cyclic voltammetry (CV) curves at scan rates of up to
+1,000 mV s/C0 1 and galvanostatic charge/discharge (GCD) curves
+at various currents from 0.1 to 5 mA are shown in Fig. 5c,d.
+Notably, the scan rates achieved here are much higher than most
+rates of PPy-based electrodes measured even in aqueous
+electrolytes44,45, and CVs maintain the rectangular shape at a
+high scan rate of 250 mV s /C0 1. These results indicate that the
+supercapacitor can endure very high voltage/current change rates,
+which is believed to be a result of the excellent ionic conductivity
+of the polyelectrolyte and effective electrochemical dynamic
+processes in the electrodes. At higher scan rates of 500 and
+1,000 mV s/C0 1, CVs deviate from the rectangular shape and
+gradually display more features of a resistor 46,47. This trend
+mainly arises from the higher ionic transfer resistance at the
+higher scan rate/current owing to the diffusion limitation 48,49.
+The capacitances were calculated using both these CV and
+GCD curves (Supplementary Fig. 6), which are comparable to or
+even higher than results tested in liquid electrolytes 26,44,50–53.
+With the same mass ratio of the electrolyte composition,
+electrocapacitive curves of PPy supercapacitors developed using
+our VSNPs-PAA completely overlay those generated using
+the common PVA (Supplementary Fig. 7). This result suggests
+that VSNPs-PAA can be a perfect alternative to PVA as the
+electrolyte without compromising electrode performance. The
+electrochemical performance of the VSNPs-PAA polyelectrolyte
+varies with the water content in the polyelectrolyte
+(Supplementary Fig. 8) but is independent of the VSNPs
+content (Supplementary Fig. 9).
+Complete self-healability of the supercapacitor . The self-heal-
+able VSNPs-PAA polyelectrolyte promises the mechanical and
+electronic self-healing properties of the supercapacitor. Small
+patches of CNT paper are utilized to overcome the well-known
+misalignment problem of self-healing supercapacitors. SEM
+Stretch
+CNT patches
+Wound
+Heal
+Pave electrodes
+Cut
+Release
+600% Stretchable
+PPy
+PPy
+– –
+–
+–
+–
+–
+–
+–
+––
+––
+–
+– –
+–
+–
+–
+–
+–
++
++ +
++
++ +
++
++
++ +
++
++
++
++
++
++
++
++
++
++
+CNT
+CNT
+ba
+c
+Figure 4 | Schematics of fabrication strategies for speciﬁc functional
+supercapacitors. (a) Schematic of the supercapacitor comprising the
+VSNPs-PAA polyelectrolyte and PPy@CNT paper electrodes. (b) Fabrication
+of the patch-assisted non-autonomic self-healable supercapacitor.
+(c) Schematic of the fabrication of a super-stretchable supercapacitor.
+0.02
+0.00
+0.0 0.3
+83.5 wt % H2O
+10 mV s–1 50 mV s–1
+250 mV s–1
+0.1 mA
+0.5 mA
+1 mA
+2.5 mA
+5 mA
+100 mV s–1
+500 mV s–1
+1,000 mV s–1
+83.5 wt % H2O
+0.6 2000 400
+0.0
+0.3
+0.6Voltage (V)
+Current (A)
+Voltage (V) Time (s)
+–0.02
+a b
+dc
+Figure 5 | Electrochemical performance of the VSNPs-PAA polyelectrolyte. (a) An SEM image of the CNT paper. Scale bar, 1 mm. (b) An SEM image of
+the PPy electrodeposited on CNT paper. Scale bar, 1 mm. (Inset is a cross-sectional SEM image of the PPy electrodeposited on CNT paper. Scale bar, 50 mm.)
+(c) CV curves at various scan rates from 10 to 1,000 mVs /C0 1.( d) GCD curves at various charging/discharging currents from 0.1 to 5 mA.
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310
+4 NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications
+
+images of both the polyelectrolyte and the PPy@CNT electrode
+before and after healing are provided in Supplementary Figs 10
+and 11.
+Electrochemical performances of the patch-assisted non-
+autonomic self-healable supercapacitor were systematically inves-
+tigated. Remarkably, both CV and GCD curves overlay almost
+completely even after the 20th breaking/healing cycle (Fig. 6a,b).
+As shown in Fig. 6c, the healing efﬁciency is B100% during all
+breaking/healing cycles, extremely outperforming other reported
+self-healable devices (no more than ﬁve cycles, 14.3 to 28.2%
+performance degradation) 5,6,19 (Supplementary Fig. 12).
+These results reveal the superiority of adopting our intrinsic
+self-healable electrolyte over conventional methods, which use
+additional outer or inner self-healable components to realize the
+self-healing5,6,19. This excellent self-healing property is also
+attributed to the high electrical conductivity of CNT paper
+patches, which connect the broken parts effectively
+(Supplementary Fig. 13). Notably, the healing efﬁciency slightly
+ﬂuctuates near 100% in these breaking/healing cycles. This
+could be explained by the accidental micro-adjustment
+between the broken electrodes. That is, the macroscopic
+manual operation would cause occasional microcosmic
+adjustment of the reconnected electrodes, leading to slight
+ﬂuctuation of the performance during breaking/healing cycles.
+In sum, it is the utilization of an intrinsically self-healable
+electrolyte and small CNT patches that provides our
+supercapacitor with such extreme self-healability, which is
+attractive for high-performance self-healable devices. Note that
+the fabrication of highly self-healable supercapacitors is very
+facile and effective (Fig. 6d, Supplementary Note 1 and
+Supplementary Movie 1), thus facilitates the future wide-scale
+adoption of these supercapacitors.
+Highly stretchable supercapacitor . Pre-strain is an effective
+approach to fabricate stretchable/highly stretchable devices 7,41,54.
+By using this approach, the supercapacitor achieved a high strain
+of 600% and electrodes were stably attached to the electrolyte.
+SEM images of the polyelectrolyte before and after stretching are
+shown in Supplementary Fig. 14. Owing to the excellent ﬂexibility
+of the PPy and CNT paper 47,55,56, no cracks on the released and
+stretched electrodes were observed from the SEM image
+(Fig. 7a,b).
+The wavy structure avoids the disadvantage of general
+stretchable devices, the performance of which is usually limited
+by the structural breakdown arising from the stretch imposed.
+By contrast, the fabricated supercapacitor exhibits enhanced
+electrochemical performance under stretching (Fig. 7c;
+Supplementary Fig. 15a). Both GCD and CV proﬁles expand
+with the increased strain. The capacitance calculated from the
+GCD and CV curves achieves an increase of 3.5-fold and 2.1-fold
+at 600% strain, respectively (Fig. 7d and Supplementary Fig. 15b).
+To the best of our knowledge, such device-level high intrinsic
+strain has never been achieved. The increased capacitance is a
+result of the larger contact areas between electrodes and the
+electrolyte induced by stretching. As seen in Figs 4c and 7a, there
+are uncontacted areas on the free wavy electrodes.
+Upon stretching, some initially uncontacted parts contact with
+the electrolyte, thus providing more effective electrode materials
+to participate in the electrocapacitive process. Because the
+highly ﬂexible electrodes are paved following the pre-stretching
+of the electrolyte, no structural breakdown is induced by the
+subsequent applied stretching. Therefore, it is the pre-stretched
+structure and the utilization of highly ﬂexible PPy@CNT
+paper electrodes that provide our supercapacitor with enhanced
+capacitance under super strains, which is attractive for
+0.003
+0.000
+–0.003
+0.0 0.3 0.6
+Voltage (V)
+Voltage (V)
+Current (A)
+Before healing
+Before healing
+After 10th healing
+After 10th healing
+After 5th healing
+After 5th healing
+After 15th healing
+After 15th healing
+After 20th healing
+After 20th healing
+0.6
+0.3
+0.0
+0 250 500
+Time (s)
+150
+100
+50
+0
+Healing efficiency (%)(from CV)
+Healing efficiency (%)(from GCD)
+0 5 10 15 20
+Healing times
+200
+150
+100
+50
+a b
+cd
+Figure 6 | Self-healing performance of the supercapacitor comprising the VSNPs-PAA polyelectrolyte. (a) CV curves at a scan rate of 5 mVs /C0 1.
+(b) GCD curves at a charging/discharging current of 1 mA. ( c) Healing efﬁciency calculated from CV (circle, red) and GCD (star, blue) curves. ( d) A photo
+of three supercapacitors connected in series, one of which has self-healed twice to power an LED bulb after self-healing. (Insets show enlarged proﬁl es of
+the twice self-healed supercapacitor and the lit LED bulb.)
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310 ARTICLE
+NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications 5
+
+high-performance super-stretchable devices. Note that although
+polydimethylsiloxane is a common substrate material used in
+super-stretchable devices, it cannot fulﬁl the function as an
+electrolyte due to the lack of free-moving ions (Supplementary
+Fig. 16). As a demonstration, our supercapacitor effectively
+powers an LED bulb during stretching. The complete process is
+shown in the Supplementary Movie 2. Similar to stretching,
+electrochemical performance is also improved by the compressive
+strains (Supplementary Fig. 17). This mainly arises from
+the improved interfacial contact and thus the ion transfer
+from the electrolyte to the surface of the electrode, rather than
+the thinner electrolyte (Supplementary Fig. 18).
+The excellent self-healability and high stretchability validate
+the application as multifunctional supercapacitors. To the best of
+our knowledge, the integration of these functions into one
+supercapacitor has never been reported, not to mention the facile
+assembly and the fewest number of components achieved in this
+work.
+Discussion
+A multifunctional polyelectrolyte was fabricated by polyacrylic
+acid dual crosslinked by hydrogen bonding and vinyl hybrid silica
+nanoparticles. The polyelectrolyte can be easily stretched to
+greater than 3,700% strain and, once cut, can be simply self-
+healed by combing the broken interfaces in ambient conditions.
+Beneﬁted from the intrinsic stretchability, self-healability and
+ionic conductivity of the new polyelectrolyte, supercapacitors
+based on this polyelectrolyte are highly superior to those with
+conventional PVA-based acidic electrolytes. For example, the
+facilely fabricated supercapacitor possesses intrinsic self-heal-
+ability and the capacitance is maintained completely during all 20
+breaking/healing cycles. This signiﬁcantly outperforms all
+reported self-healable devices. In addition, it can be 600%
+stretchable by simply incorporating wavy electrodes. To the best
+of our knowledge, the self-healing efﬁciency and stretchability
+of supercapacitor devices achieved here are the best among all
+that have been reported, which originate from the unique
+polyelectrolyte structure of polyacrylic acid dual crosslinked by
+hydrogen bonding and vinyl hybrid silica nanoparticles.
+Our study of the superior multifunctionality at the device level
+with facile fabrication and the fewest components creates
+considerable potential for the wide-scale application of multi-
+functional devices in many ﬁelds such as energy storage and
+biomimetic sensing.
+Methods
+Synthesis of vinyl hybrid silica nanoparticles-crosslinked polyacrylic acid
+electrolyte. First, vinyltriethoxysilane (3.8 g, Alfa Asear) was added into
+de-ionized water (30 g) under vigorous stirring until the oil-like droplets com-
+pletely disappeared and a transparent dispersion of vinyl hybrid silica nanoparticles
+was obtained (12 h). An acrylic acid monomer (12 g, Beijing Chemical Reagent)
+and ammonium persulfate (0.024 g, Xilong Chemical) were then added into the
+diluted aqueous dispersion of vinyl hybrid silica nanoparticles (18 ml, 0.067 wt%)
+and stirred for 0.5 h at room temperature. Before use, the acrylic acid monomer
+was puriﬁed by distillation under reduced pressure and stored in a refrigerator.
+After the magnetic stirring, the solution was degassed and sealed under N 2 to
+remove the dissolved oxygen. Next, free-radical polymerization was allowed to
+proceed in a water bath at 40 ±2 /C176C for 30 h. Finally, the as-prepared polymer was
+fully dried at room temperature and then soaked in phosphoric acid (500 ml) at
+various concentrations (0, 5, 10, 20, 30, 40, 50, 60 and 70 wt%) for 3 weeks to
+achieve the equilibrated state.
+Fabrication and electrochemical characterization of the supercapacitor using
+VSNPs-PAA as the polyelectrolyte . CNT papers (width: 1 cm; length: 20 cm)
+were electrodeposited with PPy at 0.8 V versus Ag/AgCl for 10 min in a solution of
+0.1 M p-Toluenesulfonic acid, 0.3 M sodium toluenesulfate and 0.5% pyrrole
+monomer (v:v) at 0 /C176C. Before electrodeposition, pyrrole was distilled to purify the
+pyrrole monomers. Two identical deposited PPy@CNT papers were placed on each
+side of the VSNPs-PAA ﬁlm under ambient conditions. Thus, the solid-state
+supercapacitor was obtained with the electrolyte also serving as a separator. The
+performance of the assembled supercapacitors was measured by CV and GCD in a
+0.6
+0.3
+0.0
+Voltage (V)
+0 20 40
+Time (s)
+300
+200
+100
+100 200 300 500 400 6000
+Tensile strain (%)
+Capacitance enhancement (%)
+0% stretch
+100% stretch
+200% stretch
+300% stretch
+400% stretch
+500% stretch
+600% stretch
+Original
+600% Strain
+Released Stretched
+ab
+dc
+Figure 7 | Electrochemical performance of the supercapacitor comprising the VSNPs-PAA polyelectrolyte under high stretching. (a) An SEM image of
+the released PPy@CNT paper electrode after pre-stretching. Scale bar, 50 mm. ( b) An SEM image of the stretched PPy@CNT paper electrode. Scale bar,
+50 mm. (c) GCD curves from 0 to 600% strain at a charging/discharging current of 2.5 mA. ( d) Capacitance enhancement ratio obtained from GCD curves
+as a function of the tensile strain. (Insets are photos of the supercapacitor at a fully released state and 600% strain.)
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310
+6 NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications
+
+two-electrode conﬁguration using a potentiostat (CHI 760E). Electrochemical
+impedance spectra (EIS) were measured at frequencies ranging from 0.01 to
+5,000 Hz with a potential amplitude of 5 mV. All measurements were performed at
+room temperature. The capacitance with respect to the single electrode ( Cm)w a s
+calculated using the charge integrated from GCD and CV curves individually
+according to the following formulas:
+C
+m ¼ 2It
+Um ð1Þ
+Cm ¼ 1
+Uvm
+Z U þ
+U /C0
+iUðÞ dU ð2Þ
+where I is the discharge current during GCD, t is the discharge time during GCD,
+U is the voltage range ( U ¼ U þ /C0 U /C0 ), m is the mass of PPy on one electrode, v is
+the scan rate of the CV curve and i(U) is the current during CV.
+References
+1. Kim, D. H. et al. Epidermal electronics. Science 333, 838–843 (2011).
+2. Sun, J. Y., Keplinger, C., Whitesides, G. M. & Suo, Z. G. Ionic skin. Adv. Mater.
+26, 7608–7614 (2014).
+3. Park, S. & Jayaraman, S. Smart textiles: wearable electronic systems. MRS Bull.
+28, 585–591 (2003).
+4. Hu, L. B. et al. Stretchable, porous, and conductive energy textiles. Nano Lett.
+10, 708–714 (2010).
+5. Wang, H. et al. A mechanically and electrically self-healing supercapacitor.
+Adv. Mater. 26, 3638–3643 (2014).
+6. Sun, H. et al. Self-healable electrically conducting wires for wearable
+microelectronics. Angew. Chem. Int. Ed. 53, 9526–9531 (2014).
+7. Zhang, Z. T. et al. Superelastic supercapacitors with high performances during
+stretching. Adv. Mater. 27, 356–362 (2015).
+8. Kou, L. et al. Coaxial wet-spun yarn supercapacitors for high-energy density
+and safe wearable electronics. Nat. Commun. 5, 3754 (2014).
+9. Wang, X. B. et al. Three-dimensional strutted graphene grown by substrate-free
+sugar blowing for high-power-density supercapacitors. Nat. Commun. 4, 2095
+(2013).
+10. Wang, X. F. et al. Fiber-based ﬂexible all-solid-state asymmetric supercapacitors
+for integrated photodetecting system. Angew. Chem. Int. Ed. 53, 1849–1853
+(2014).
+11. Cao, X. H., Yin, Z. Y. & Zhang, H. Three-dimensional graphene materials:
+preparation, structures and application in supercapacitors. Energy Environ. Sci.
+7, 1850–1865 (2014).
+12. Pushparaj, V. L. et al. Flexible energy storage devices based on nanocomposite
+paper. Proc. Natl Acad. Sci. USA 104, 13574–13577 (2007).
+13. Ahn, B. K., Lee, D. W., Israelachvili, J. N. & Waite, J. H. Surface-initiated
+self-healing of polymers in aqueous media. Nat. Mater. 13, 867–872 (2014).
+14. Neal, J. A., Mozhdehi, D. & Guan, Z. B. Enhancing mechanical performance of
+a covalent self-healing material by sacriﬁcial noncovalent bonds. J. Am. Chem.
+Soc. 137, 4846–4850 (2015).
+15. Chen, X. X. et al. A thermally re-mendable cross-linked polymeric material.
+Science 295, 1698–1702 (2002).
+16. Heo, Y. & Sodano, H. A. Self-healing polyurethanes with shape recovery. Adv.
+Funct. Mater. 24, 5261–5268 (2014).
+17. Ghosh, B. & Urban, M. W. Self-repairing oxetane-substituted chitosan
+polyurethane networks. Science 323, 1458–1460 (2009).
+18. Kang, H. S., Kim, H. T., Park, J. K. & Lee, S. Light-powered healing of a
+wearable electrical conductor. Adv. Funct. Mater. 24, 7273–7283 (2014).
+19. Huang, Y. et al. Magnetic-assisted, self-healable, yarn-based supercapacitor.
+ACS Nano 9, 6242–6251 (2015).
+20. Song, Y. M. et al. Digital cameras with designs inspired by the arthropod eye.
+Nature 497, 95–99 (2013).
+21. Kim, K. S. et al. Large-scale pattern growth of graphene ﬁlms for stretchable
+transparent electrodes. Nature 457, 706–710 (2009).
+22. Chen, T., Xue, Y. H., Roy, A. K. & Dai, L. M. Transparent and stretchable
+high-performance supercapacitors based on wrinkled graphene electrodes. ACS
+Nano 8, 1039–1046 (2014).
+23. Lee, P. et al. Highly stretchable and highly conductive metal electrode by very
+long metal nanowire percolation network. Adv. Mater. 24, 3326–3332 (2012).
+24. Yang, Z. B., Deng, J., Chen, X. L., Ren, J. & Peng, H. S. A highly
+stretchable, ﬁber-shaped supercapacitor. Angew. Chem. Int. Ed. 52,
+13453–13457 (2013).
+25. Wang, J. X., Yan, C. Y., Chee, K. J. & Lee, P. S. Highly stretchable and self-
+deformable alternating current electroluminescent devices. Adv. Mater. 27,
+2876–2882 (2015).
+26. Yue, B. B., Wang, C. Y., Ding, X. & Wallace, G. G. Polypyrrole coated nylon
+lycra fabric as stretchable electrode for supercapacitor applications. Electrochim.
+Acta 68, 18–24 (2012).
+27. Shin, M. et al. Highly stretchable polymer transistors consisting entirely of
+stretchable device components. Adv. Mater. 26, 3706–3711 (2014).
+28. Gaikwad, A. M. et al. Highly stretchable alkaline batteries based on an
+embedded conductive fabric. Adv. Mater. 24, 5071–5076 (2012).
+29. Zhang, Y. et al. Super-stretchy lithium-ion battery based on carbon nanotube
+ﬁber. J. Mater. Chem. A 2, 11054–11059 (2014).
+30. Jost, K. et al. Knitted and screen printed carbon-ﬁber supercapacitors for
+applications in wearable electronics. Energy Environ. Sci. 6, 2698–2705 (2013).
+31. Yu, D. S. et al. Scalable synthesis of hierarchically structured carbon
+nanotube-graphene ﬁbres for capacitive energy storage. Nat. Nanotechnol. 9,
+555–562 (2014).
+32. Zou, H., Wu, S. S. & Shen, J. Polymer/silica nanocomposites: preparation,
+characterization, properties, and applications. Chem. Rev. 108, 3893–3957
+(2008).
+33. Lin, W. C., Fan, W., Marcellan, A., Hourdet, D. & Creton, C. Large strain and
+fracture properties of poly(dimethylacrylamide)/silica hybrid hydrogels.
+Macromolecules 43, 2554–2563 (2010).
+34. Shi, F. K., Wang, X. P., Guo, R. H., Zhong, M. & Xie, X. M. Highly stretchable
+and super tough nanocomposite physical hydrogels facilitated by the coupling
+of intermolecular hydrogen bonds and analogous chemical crosslinking of
+nanoparticles. J. Mater. Chem. B 3, 1187–1192 (2015).
+35. Zhong, M. et al. Self-healable, tough and highly stretchable ionic
+nanocomposite physical hydrogels. Soft Matter 11, 4235–4241 (2015).
+36. Kuﬁan, M. Z., Majid, S. R. & Arof, A. K. Dielectric and conduction mechanism
+studies of pva-orthophosphoric acid polymer electrolyte. Ionics 13, 231–234
+(2007).
+37. Cordier, P., Tournilhac, F., Soulie-Ziakovic, C. & Leibler, L. Self-healing and
+thermoreversible rubber from supramolecular assembly. Nature 451, 977–980
+(2008).
+38. Sun, J. Y. et al. Highly stretchable and tough hydrogels. Nature 489, 133–136
+(2012).
+39. Liu, X. H., Wu, D. B., Wang, H. L. & Wang, Q. G. Self-recovering tough
+gel electrolyte with adjustable supercapacitor performance. Adv. Mater. 26,
+4370–4375 (2014).
+40. Bin Imran, A. et al. Extremely stretchable thermosensitive hydrogels by
+introducing slide-ring polyrotaxane cross-linkers and ionic groups into the
+polymer network. Nat. Commun. 5, 5124 (2014).
+41. Liu, Z. F. et al. Hierarchically buckled sheath-core ﬁbers for superelastic
+electronics, sensors, and muscles. Science 349, 400–404 (2015).
+42. Liu, J. Q., Song, G. S., He, C. C. & Wang, H. L. Self-healing in tough
+graphene oxide composite hydrogels. Macromol. Rapid Commun. 34,
+1002–1007 (2013).
+43. Mcqueenmason, S. & Cosgrove, D. J. Disruption of hydrogen-bonding between
+plant-cell wall polymers by proteins that induce wall extension. Proc. Natl Acad.
+Sci. USA 91, 6574–6578 (1994).
+44. Liu, T. et al. Polyaniline and polypyrrole pseudocapacitor electrodes with
+excellent cycling stability. Nano Lett. 14, 2522–2527 (2014).
+45. Wang, Z. L., Guo, R., Ding, L. X., Tong, Y. X. & Li, G. R. Controllable template-
+assisted electrodeposition of single- and multi-walled nanotube arrays for
+electrochemical energy storage. Sci. Rep. 3, 1204 (2013).
+46. Chen, W. et al. High-performance nanostructured supercapacitors on a sponge.
+Nano Lett. 11, 5165–5172 (2011).
+47. Huang, Y. et al. Super-high rate stretchable polypyrrole-based supercapacitors
+with excellent cycling stability. Nano Energy 11, 518–525 (2015).
+48. Ardizzone, S., Fregonara, G. & Trasatti, S. Inner and outer active surface of
+RuO2 electrodes. Electrochim. Acta 35, 263–267 (1990).
+49. Zhu, M. S., Meng, W. J., Huang, Y., Huang, Y. & Zhi, C. Y. Proton-insertion-
+enhanced pseudocapacitance based on the assembly structure of tungsten oxide.
+ACS Appl. Mat. Interfaces 6, 18901–18910 (2014).
+50. Fu, H., Du, Z. J., Zou, W., Li, H. Q. & Zhang, C. Carbon nanotube reinforced
+polypyrrole nanowire network as a high-performance supercapacitor electrode.
+J. Mater. Chem. A 1, 14943–14950 (2013).
+51. Zhang, D. et al. Preparation of a three-dimensional ordered macroporous
+carbon nanotube/polypyrrole composite for supercapacitors and diffusion
+modeling. J. Phys. Chem. C 117, 20446–20455 (2013).
+52. de Oliveira, H. P., Sydlik, S. A. & Swager, T. M. Supercapacitors from
+free-standing polypyrrole/graphene nanocomposites. J. Phys. Chem. C 117,
+10270–10276 (2013).
+53. Biswas, S. & Drzal, L. T. Multi layered nanoarchitecture of graphene nanosheets
+and polypyrrole nanowires for high performance supercapacitor electrodes.
+Chem. Mater. 22, 5667–5671 (2010).
+54. Yu, C. J., Masarapu, C., Rong, J. P., Wei, B. Q. & Jiang, H. Q. Stretchable
+supercapacitors based on buckled single-walled carbon nanotube macroﬁlms.
+Adv. Mater. 21, 4793–4797 (2009).
+55. Huang, Y. et al. From industrially weavable and knittable highly
+conductive yarns to large wearable energy storage textiles. ACS Nano 9,
+4766–4775 (2015).
+56. Huang, Y. et al. Enhanced tolerance to stretch-induced performance
+degradation of stretchable MnO
+2-based supercapacitors. ACS Appl. Mat.
+Interfaces 7, 2569–2574 (2015).
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310 ARTICLE
+NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications 7
+
+Acknowledgements
+This work was supported by the Early Career Scheme of the Research Grants Council
+of Hong Kong SAR, China (CityU 109213) and the Science Technology and
+Innovation Committee of Shenzhen Municipality (JCYJ20140419115507579).
+Prof. X. M. Xie and M. Zhong thank the ﬁnancial supporting of the Natural
+Science Foundation of China (NSFC) (No. 21474058), Tsinghua University
+Scientiﬁc Research Project (No. 2014Z22069) and State Key Laboratory for Modiﬁcation
+of Chemical Fibres and Polymer Materials, Donghua University (Project No.
+LK1404). The authors thank M. Zhang, Z.K. Wang and T.F. Hung for experimental
+support.
+Author contributions
+Y.H., X.X. and C.Z. conceived and designed the experiments. Y.H. carried out super-
+capacitor fabrication and electrochemical measurements. M.Z. conducted VSNPs-PAA
+synthesis. Y.H., Y.H. (Yang Huang), M.Z., Z.P., Z.W. and Q.X. performed LED
+demonstration. Y.H., X.X. and C.Z. analysed the data and co-wrote the paper. All authors
+discussed the results and commented on the manuscript.
+Additional information
+Supplementary Information accompanies this paper at http://www.nature.com/
+naturecommunications
+Competing ﬁnancial interests: The authors declare no competing ﬁnancial interests.
+Reprints and permission information is available online at http://npg.nature.com/
+reprintsandpermissions/
+How to cite this article: Huang, Y. et al. A self-healable and highly stretchable
+supercapacitor based on a dual crosslinked polyelectrolyte. Nat. Commun. 6:10310
+doi: 10.1038/ncomms10310 (2015).
+This work is licensed under a Creative Commons Attribution 4.0
+International License. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless indicated otherwise
+in the credit line; if the material is not included under the Creative Commons license,
+users will need to obtain permission from the license holder to reproduce the material.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms10310
+8 NATURE COMMUNICATIONS | 6:10310 | DOI: 10.1038/ncomms10310 | www.nature.com/naturecommunications

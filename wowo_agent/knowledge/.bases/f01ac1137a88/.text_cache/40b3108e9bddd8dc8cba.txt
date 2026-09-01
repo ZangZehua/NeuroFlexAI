@@ -1,0 +1,1136 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-025-00403-w
+Hexagonal metal complex based
+mechanically robust transparent ultrathin
+gold µECoG for electro-optical neural
+interfaces
+Check for updates
+Duhee Kim1,12, Murali Bissannagari1,2,3,12,B o i lK i m4,12,N a r iH o n g 1,2,J a e uP a r k 5, Hyeongtae Lim 1,
+Junhee Lee 1,J u n g h aL e e1,Y o o nK y o u n gK i m4, Youngjae Cho6, Kwang Lee4,J u n g h y u pL e e1,
+Jong-Hyeok Yoon1, Jae Eun Jang1, David Tsai7,8,S a n g h o o nL e e5, Hyuk-Jun Kwon 1,
+Han Kyoung Choe4 &H o n g k iK a n g3,9,10,11
+Transparent electro-optical neural interfacing technologies offer simultaneous high-spatial-resolution
+microscopic imaging, and high-temporal-resolution electrical recording and stimulation. However,
+fabricating transparent, ﬂexible, and mechanically robust neural electrodes with high electrochemical
+performance remains challenging. In this study, we fabricated transparent (72.7% at 570 nm),
+mechanically robust (0.05% resistance change after 50k bending cycles) ultrathin Au microelectrodes
+for micro-electrocorticography (µECoG) using a hexadentate metal-polymer ligand bonding with an
+EDTA/PSS seed layer. These transparent µECoG arrays, fabricated with biocompatible gold, exhibit
+excellent electrochemical properties (0.73 Ω·cm
+2) for neural recording and stimulation with long-term
+stability. We recorded brain surface waves in vivo, maintaining a low baseline noise and a high signal-
+to-noise ratio during acute and two-week recordings. In addition, we successfully performed
+optogenetic modulation without light-induced artifacts at 7.32 mW/mm
+2 laser power density. This
+approach shows great potential for scalable, implantable neural electrodes and wearable
+optoelectronic devices in digital healthcare systems.
+With increasing interest in developing multi-modal neurotechnology for a
+deeper understanding of our brain and treatment of neurological disorders,
+the need for transparent,ﬂexible neural interfacing electrodes is greater than
+ever1– 10. For example, high-resolution functional deep brain imaging such as
+three-photon microscopy with simult aneous electrophysiological signal
+recording could provide high spatiotemporal resolution investigation of the
+nervous systems11. Optical neural stimulation methods such as optogenetics
+and photothermal stimula tion provide versatile control of neural cell
+activities with high speciﬁcity and spatial resolution10,12– 14. These approaches
+must be accompanied by high-density, multichannel neural recording
+electrodes that are transparent to the illuminated light for reliable data
+analysis without false positive signals caused by photoelectric artifacts10,14– 19.
+The transparent electrodes must be highlyﬂexible for mechanically reliable
+long-term recordings in chronic implantation5,20.
+1Department of Electrical Engineering and Computer Science, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, Republic of Korea.
+2Information and Communication Engineering Research Center, Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, Republic of Korea .
+3Institute of Medical and Biological Engineering, Medical Research Center, Seoul National University, Seoul, Republic of Korea. 4Department of Brain Sciences,
+Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, Republic of Korea. 5Department of Robotics and Mechatronics Engineering, Daegu
+Gyeongbuk Institute of Science and Technology (DGIST), Daegu, Republic of Korea. 6School of Undergraduate Studies, College of Transdisciplinary Studies,
+Daegu Gyeongbuk Institute of Science and Technology (DGIST), Daegu, Republic of Korea.7Graduate School of Biomedical Engineering, UNSW Sydney, Sydney,
+NSW, Australia. 8School of Electrical Engineering, UNSW Sydney, Sydney, NSW, Australia. 9Department of Biomedical Engineering, Seoul National University
+College of Medicine, Seoul, Republic of Korea. 10Interdisciplinary Program in Bioengineering, College of Engineering, Seoul National University, Seoul, Republic of
+Korea. 11Department of Biomedical Engineering, Seoul National University Hospital, Seoul, Republic of Korea. 12These authors contributed equally: Duhee Kim,
+Murali Bissannagari, Boil Kim. e-mail: choehank@dgist.ac.kr; hongki.kang@snu.ac.kr
+npj Flexible Electronics |            (2025) 9:31 1
+1234567890():,;
+1234567890():,;
+
+However, fabricating highly transparent, high-density, and ﬂexible
+electrodes is difﬁcult because of the limitation of the materials in terms of
+good electrochemical characteristics and mechanicalﬂexibility, as well as the
+incompatibility with mass-producible conventional microfabrication pro-
+cesses. To overcome the mechanical brittleness of the most well-known
+transparent electrode, indium tin oxide (ITO) 21,22, conductive polymer-
+based ﬂexible materials such as PEDOT:PSS 14,16,23, polypyrrole 24,a n d
+polyaniline25, 2-dimentional (2D) materials such as graphene 5,26,27,a n d
+porous structures such as metallic nanowires6,28, carbon nanotube (CNT)15,29
+and nanomesh17,18,30 are suggested. However, conductive polymers have low
+electrical conductivity compared to the other metallic electrodes, limiting
+the high-density array design. 2D materials and 1D network showed
+excellent transparency andﬂexibility. However, the wafer-scale deposition
+and high-resolution micropatterning of the transparent 2D and 1D mate-
+rials are still not generally available inconventional microfabrication. Fur-
+ther, the nanomesh structures requ ire low throughput nanoscale hole
+patterning using e-beam lithography or unconventional nanospheres,
+which is unsuitable for general mass production.
+Recently, an ultrathin gold microelectrode, a new way of fabri-
+cating highly transparent, ﬂexible, and conductive electrodes using a
+conventional gold thin ﬁlm vacuum deposition process, has been
+proposed to overcome the aforementioned limitations
+31– 33.T h i s
+method involves pre-coating and patterning of biocompatible poly-
+electrolyte multilayers (PEM) as the vacuum-deposited gold
+nucleation-inducing polymer seed layer followed by ultrathin
+(<10 nm) Au ﬁlm deposition. Owing to the electrostatic attraction and
+adsorption between the amine side chains of the polymer seed layer and
+the gold, the ultrathin gold formed highly continuous electrode char-
+a c t e r i s t i c sd e s p i t ei t sl e s st h a n1 0 n mt h i c k n e s s
+33. Because of the sig-
+niﬁcant light penetration in less than 10 nm thick continuous metal
+ﬁlm, these ultrathin gold electrodes reported good optical transparency
+as well. Despite the advantages, the previous works in ultrathin gold
+electrodes using PEM still showed limitations for high-resolution
+transparent μECoG arrays
+33. Since photolithography patterning of
+photoresist on the PEM layer was challenging due to the pattern
+smearing after photoresist develo pment or swelling of the PEM layer
+during the photoresist developmen t, the ultrathin gold microelec-
+trodes in the previous work were fabricated by shadow mask
+lithography, limiting the minimum line width at 50 μm and tight line
+spacing for high-density microelect rode arrays. Therefore, there is a
+need to develop a thinner but more ef fective nucleation-inducing seed
+l a y e rt of o r mt h eu l t r a t h i nA um i c r o e l e c t r o d e s .
+In transparent optoelectronic devices, ethylene diamine tetraacetic acid
+(EDTA) has been recently suggested as an inter-layer to improve the efﬁ-
+ciency of solar cells by promoting electron transport in tin oxides 34,35.I n
+these works, the specialized hexagonal structure of the EDTA was
+demonstrated for efﬁciently capturing metal atoms in tin oxides with lots of
+chemical bonding parts
+36. Therefore, the stronger chemical interaction of
+t h eE D T Aw i t hm e t a li o n sc a nb eag o o dc a n d i d a t ef o ram o r ee fﬁcient
+nucleation-induced seed layer than the PEM in ultrathin gold electrode
+fabrication, requiring fewer layers for a more stable photolithography
+process on top of the gold electrodes.
+In this work, we fabricated an 8 nm-thick ultrathin gold micro-
+electrode by forming an EDTA-metal complex on a 25-μm-thick
+ﬂexible substrate (Fig. 1a). Despite single-layer coating, the EDTA/PSS
+seed layer complex effectively p revents the random migration of
+thermally evaporated Au particles b ecause of its hexadentate ligand
+with a long-chain structure (Fig. 1b). This ultrathin Au electrode
+showed excellent conductivity, tra nsparency, low electrochemical
+impedance, long-term stability in aqueous solutions, and stable
+mechanical reliability under tensile stress. By integrating this process
+with inkjet printing, we patterned PEDOT:PSS to less than 100 μm in
+diameter for fabricating a μECoG a rray with excellent electrochemical
+performance, while maintaining transparency. Further, we optically
+imaged the brain surface throu gh the transparent μECoG while
+simultaneously recording mouse brain wave signals in vivo, which
+exhibited 3.3 μV of low root-mean-square noise (RMS) and 43.28 dB of
+high signal-to-noise ratio (SNR ). We also successfully performed
+2 weeks of recording without signi ﬁcant recording quality degradation.
+Finally, we quanti ﬁed the optogenetic stimulation effect through our
+transparent electrode on ChR2 tra nsgenic mice by comparing it with a
+commercial opaque electrode. We successfully con ﬁrmed more ef ﬁ-
+cient optogenetic modulation thro ugh our transparent μECoG array
+without light-induced ar tifacts. The results con ﬁrm that our trans-
+parent electrode array can be suf ﬁciently used for elec tro-optical neural
+interfaces (Fig. 1c).
+Fig. 1 | Schematic of EDTA/PSS polymer seed layer-based ultrathin Au µECoG
+electrodes for electro-optical neural interfacing. a Overall layer structures of
+ultrathin metal-basedﬂexible, transparent 16-channel neural electrodes.b Schematic
+for EDTA/PSS seed layer-based ultrathin gold ﬁlm formation mechanism. EDTA
+(Orange color) forms a strong hexagonal bond with gold molecules, and PSS (Green
+color) forms a long chain structure to strengthen the bonding between EDTA and
+gold molecules. Each sphere represents a chemical part (Hydrogen-Sky blue, Oxygen-
+Red, Nitrogen-Purple, Gold-yellow, Sulfur-light green) c Multi-modal capability of
+transparent electro-optical μECoG arrays optical recording, simultaneous electrical
+two-week recording with light-induced artifact-free optogenetic modulation.
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 2
+
+Results
+EDTA/PSS seed layer-based transparent ultrathin Auﬁlm
+We fabricated an ultrathin Au elect rode based on the strong hexagonal
+bonding between Au and ethylenediaminetetraacetic acid/polystyrene sul-
+fonate (EDTA/PSS) seed layer (Fig.2a). Initially, the thermally evaporated
+8-nm-thick Au on the bare PEN substrate exhibited isolated island struc-
+tures of Au with non-conductivity. According to the Volmer– Weber ﬁlm
+growth mechanism, this random migration of thermally evaporated Au
+atoms is attributed to the attraction between the deposited Au atoms
+themselves
+37,38. To overcome the random migration issue, we developed a
+simple yet efﬁcient spin-coated EDTA/PSSseed layer on a bare PEN sub-
+strate surface to fabricate a uniform, ultrathin Auﬁlm. Figure2bs h o w st h e
+chemical reaction mechanism of EDTA-inactive (deprotonated [EDTA]0-,
+pH-adjusted active (protonated [EDTA] 4-) chemical structures and the
+formation of the Au/(EDTA/PSS) tri component system, respectively.
+EDTA at a low pH value does not dissolve in water (Supplementary Fig.
+S1a). The white precipitate EDTA solution had an inactive deprotonated
+chemical structure that cannot chemically interact with metal atoms. After
+adjusting the pH to 9– 10 using NH
+3, the EDTA solution appeared as a clear
+liquid (Supplementary Fig. S1b). The active-protonated [EDTA] 4- can
+strongly chemically interact with metal atoms and molecules39– 41.T h ef o r -
+mation of chelating complexes played a signi ﬁcant role in the chemical
+interaction between the EDTA seed layer and thermally evaporated Au,
+wherein EDTA acted as a multidentate ligand and coordinated with the
+metal. Au-EDTA forms a hexadentate chelate in which six of its oxygen and
+nitrogen atoms surround the Au atoms, thereby creating a stable ring-like
+structure, which is helpful in forming ultrathin Au ﬁlm by preventing
+random migration (Fig.2b). Moreover, the EDTA/PSS plays a pivotal role in
+the remarkable synergy of the Au/(EDTA/PSS) tricomponent system: this
+triad encompasses EDTA as a robust chelating agent, PSS as a polymeric
+electrolyte with enhanced adhesion between substrate surface and tri-
+component system, surface uniformity properties, and the PSS acts as a
+bridge to enhance the bonding afﬁnity between EDTA and Au because of its
+charged sulfonate groups, and the Au as a noble metal forming the bio-
+compatible neural electrodes.
+Without this polymer seed coatin g layer, Au forms separate island
+structures that are non-conductive when we deposit 8 nm of Au on the bare
+PEN ﬂexible substrate (Fig.2c). However, the same 8-nm-thick Au forms a
+continuous ﬁlm with fewer grain boundaries on the pre-polymer (EDTA/
+PSS)-coated PEN, thereby providing r emarkable electrical conductivity
+(8 ± 0.5Ω/sq, n = 20) (Fig.2d). To deeply understand the chemical bonding
+between Au and the polymer seed layer, we took a Fourier transform
+infrared spectra (FT-IR) on all the samples (Fig.2e). EDTA/PEN shows (i) a
+broad peak at 2966
+−1 (O-H stretch) and an intense peak at 1350 −1 (O-H
+stretch), attributed to the carboxylicc o m p o n e n t so fE D T A .T h es t r o n gp e a k
+at 1609 −1 (N-H bending) and medium intense peak at 1202 −1 (C-N
+Fig. 2 | EDTA/PSS seed layer-based transparent, conductive ultrathin Au ﬁlm.
+a Schematic of EDTA/PSS seed layer-based ultrathin Au ﬁlm formation.
+b Activation of EDTA for forming EDTA-metal complex. Refer to Fig. 1b for which
+colored circle represents which material. c SEM image of 8 nm Au/PEN ﬁlm (Scale
+bar: 500 nm). d SEM image of 8 nm Au/(EDTA/PSS)/PEN (Scale bar: 500 nm).
+e FT-IR spectra for (i) EDTA/PEN, (ii) EDTA/PSS/PEN, and (iii) 8 nm Au/EDTA/
+PSS/PEN. f XPS spectra in the Au-4f region for Au/(EDTA/PSS)/PEN, Au/EDTA/
+PEN, Au/PEN. g Transmittance spectrum of Au/(EDTA/PSS)/PEN ﬁlm with var-
+ious Au thicknesses. h Electro-optical performance of Au/(EDTA/PSS)/PEN with
+different Au thicknesses.
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 3
+
+stretching) were attributed to the a mine components of EDTA. Further,
+(EDTA/PSS)/PEN (ii) also showed intense peaks at 1609−1 (N-H bending),
+which was attributed to the amine components of the EDTA seed layer. The
+O-H stretching peak shift from 2966−1 to 3416−1 is attributed to the active
+carboxylic group of EDTA/PSS. The 8 nm Au/(EDTA/PSS)/PEN (iii)
+showed intense peaks with a shift in O-H stretching from 2966−1 to 3416−1,
+and C = O stretching from 1704 −1 to 1712 cm −1. These shifts can be
+attributed to the reduction of Au and the capping of the evaporated Au
+nanolayers on the polymer seed layer. The chemical binding energy between
+EDTA, PSS, and Au is a manifestation of the intricate electrostatic and
+chelation interactions. This manife sts as a cohesive force that strongly
+anchors EDTA/PSS to the Au surface. The EDTA/PSS complex exhibits a
+greater negative shift in bonding with Au than with only EDTA (Fig. 2f).
+This phenomenon contributed not on ly to the functionalized chemical
+bonding part of EDTA but also to the (-) sulfur group of PSS with long
+chains, which help form a dense polymer-metal complex. Compared to the
+multilayer-by-layer polyelectrolyte (PEI/PSS)
+5 coating, which we used in
+our previous work, we induce a greater negative shift in bonding with the
+EDTA/PSS composite
+33. Therefore, considering that EDTA/PSS compos-
+ited coating only requires one bi-layer, which is signi ﬁcantly less than a
+minimum of 10 layers of the previous po lyelectrolyte multilayer coating
+(PEI/PSS)5, EDTA/PSS polymer seed layer can signi ﬁcantly simplify the
+overall fabrication processes while being able to provide more ef ﬁcient
+formation of the ultrathin metalﬁlm.
+Transmittance was leveled depending on the Au thicknesses of
+6– 15 nm (Fig.2g). The electro-optical performance for various ultrathin Au
+thicknesses shows a trade-off relationship between sheet resistance and
+transmittance (Fig. 2h). Finally, we selected 8 nm of Au as the optimized
+thickness, which shows 8 Ω/sq sheet resistance and 73% transmittance at
+530 nm wavelength. We decreased the sheet resistance of 8 nm Au/(EDTA/
+PSS)/PEN ﬁlm from 8 Ω/sq to 6.2 Ω/sq after thermal treatment (150 °C,
+20 min) by improving the bonding between Au structures. The sheet
+resistance did not signiﬁcantly decrease over 20 min of thermal treatment
+(Supplementary Fig. S2).
+Mechanical robustness of the transparent, ultrathin Au Film
+To apply our 8 nm Au/(EDTA/PSS)/PENﬁlm for in vivo neural recording,
+we veriﬁed the mechanical robustness of our ultrathin Au ﬁlm by per-
+forming stress analysis and tensile strain ﬂexibility tests. The stress-strain
+(SS) curve is obtained from the tensile test of the (EDTA/PSS)/PENﬁlm to
+deﬁne the elastic/plastic boundary point (Fig. 3a, Supplementary Fig. 3a).
+The 120-μm-thick (EDTA/PSS)/PEN substrate is operated in the elastic
+region up to ~18 MPa (~2.5% strain) with Young’s modulus of 662 MPa and
+shows a linear increase in the elastic region. Further, to verify the electrical
+Fig. 3 | Mechanical robustness of the transparent, ultrathin Auﬁlm. a stress-strain
+curve from the tensile test with (EDTA/PSS)/PEN ﬁlm. b Electrical resistance
+changes during the strain test on the various ﬁlms. c Calculated stress and strain
+applied to the substrate according to the various radius of curvature of 8 nm Au/
+(EDTA/PSS)/PEN ﬁlm. d Maximum tensile stress of 8 nm Au/(EDTA/PSS)/PEN
+ﬁlm. e Resistance change during tensile stress on the ﬁlm with various bending radii
+for 8 nm Au/(EDTA/PSS)/PEN ﬁlm. f Resistance changes during various bending
+cycles. g– i SEM images of each metal ﬁlm before/after 50,000 times of bending.
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 4
+
+breakdown point of ultrathin 8 nm Au/(EDTA/PSS)/PEN ﬁlm, we mea-
+sured electrical resistance change d epending on the various strains with
+comparison samples Au/Ti (50 nm/5 nm) PEN and 50 nm Au/(EDTA/
+PSS)/PEN (Fig. 3b, Supplementary Fig. 3b). The 8 nm Au/(EDTA/PSS)/
+PEN ﬁlm exhibited linear and small resistance increase (~15%) until the
+mechanical fracture point of the PEN substrate (~150% strain). Also, 8 nm
+Au/(EDTA/PSS)/PEN shows electrical stability within the elastic region
+(~2.5%), which is less than 0.2% of the resistance increase. This phenom-
+enon can be attributed to stress relaxation caused by the low elastic modulus
+of the EDTA/PSS polymer layer between the ultrathin 8 nm Auﬁlm and the
+PEN substrate. As a counterexample, the resistance change of Au/Ti
+(50 nm/5 nm)/PEN was signiﬁcantly higher compared to the 8 nm Au/
+(EDTA/PSS)/PENﬁlm, which shows a 56% resistance increase on 50% of
+applied stress. Although 50 nm Au/(EDTA/PSS)/PEN ﬁlm showed a
+smaller resistance increase than the Au/Ti (50 nm/5 nm)/PEN from 0 to
+120% strain, it still showed a much higher resistance increase compared to
+the 8 nm Au/(EDTA/PSS)/PENﬁlm. We further analyzed the SEM images
+of three different metalﬁlms after 50% of tensile strain. As a result, 8 nm Au/
+(EDTA/PSS)/PEN ﬁlm shows small propagation of micro-cracks which
+originated from the PEN substrate. On the other hand, the 50 nm Au/
+(EDTA/PSS)/PEN ﬁlm shows a big propagation crack, and Au/Ti (50/
+5n m ) / P E Nﬁlm showed serious delamination (Supplementary Fig. 4a– d).
+Further, we implemented stress analysis using a ﬁnite-element method
+based on the extracted mechanical properties to verify theﬂexible bending
+safety margin (Fig.3c). The tensile stress applied to the PEN substrate was
+calculated based on the radius of the curvature. The substrate can elastically
+deform up to a bending radius of ~4.2 mm; the minimum operational
+bending radius was set to 5 mm, consi dering safety margins. The two-
+dimensional stress distribution of the (EDTA/PSS)/PEN substrate was
+simulated at a radius of curvature of 5 mm (Fig. 3d). We found that 8 N/
+mm
+2 of maximum tensile stress is applied to the top of the substrate, which is
+within the allowable elastic deformation range as shown in the inset of Fig.
+3a. Also, there was no signiﬁcant change in resistance when the radius of
+curvature was reduced from 50 to 5 mm in the simulation (Fig. 3e).
+Therefore, we veriﬁed that the device could operate without a signi ﬁcant
+change in resistance within the chosen bending condition (~5 mm).
+Finally, we performed a cyclic bending test at a previously determined
+bending radius of 5 mm to test the performance degradation caused by the
+cyclic fatigue failure (Fig.3f). The 8 nm Au/(EDTA/PSS)/PENﬁlm shows
+less than 0.05% resistance increase even after 50k bending cycles due to the
+strong hexagonal bonding with the polymer seed layer and small applied
+stress on 8 nm ultrathinﬁlm. In contrast, both 50 nm Au/(EDTA/PSS)/PEN
+and Au/Ti (50 nm/5 nm)/PEN exhibited critical and linear resistance
+increases of 26.8% and 36.4%, respectively, after 50k bending cycles. We
+believe it is because of the larger thickness of the goldﬁlms, which leads to
+higher tensile stress and, thus, more accumulated fatigue on the metalﬁlm.
+The most well-known transparent 50 nm ITO/PENﬁlm shows immediate
+failure (~100% resistance increment) in less than 50 bending. After 50k
+bending, the 8 nm Au/(EDTA/PSS)/PEN ﬁlm does not show signi ﬁcant
+cracks on the SEM image (Fig. 3g), whereas the 50-nm-thick Au/(EDTA/
+PSS)/PEN ﬁlm and Au/Ti (50 nm/5 nm)/PEN ﬁlm are severely damaged
+(Fig. 3h, i). These are inferred from the stress concentrations occurring in
+many microcracks and gaps in the thick electrodes.
+Electrochemical properties of µECoG array
+For more efﬁcient localﬁeld potential (LFP) recording, lower impedance at
+low frequency, 100 Hz or below, is required 4,10,42. Because single metal
+electrodes often cannot satisfy the req uirement, functionalized electrode
+materials have been used to improve the impedance for successful LFP
+neural recording. Pt
+8,T i2C3 MXene43,I r O2
+17 and nanoporous structures44
+are good examples of lowering impedance and also improving charge
+transfer characteristics such as cyclic voltammetry (CV) for neural stimu-
+lation, thereby enabling simultaneous electrical stimulation and neural
+recording. However, there is a trade-off between the electrode performance
+and optical transparency for these functional electrode materials.
+We fabricated two versions of transparent 16-channel μECoG arrays
+for the LFP recording of the brain surface based on the pre-characterized
+8 nm Au/(EDTA/PSS)/PEN ultrathin metalﬁlm. Firstly, we fabricated an
+ultrathin Au-only μECoG array based on the 8 nm Au/(EDTA/PSS)
+structure with a 100 μm diameter. Secondly, to further improve electro-
+chemical characteristics while maintaining optical transparency, we addi-
+tionally inkjet-printed a transparent PEDOT:PSS conductive polymer on
+the 16 microelectrodes of the Au 8 nm/(EDTA/PSS) μECoG array without
+any photomask (Fig. 4a, b). The detailed fabrication steps are provided in
+Supplementary Fig. 5. The PEDOT:PSS inkjetted stably without any satellite
+drops (Supplementary Fig. 6a). Owing to the 78.32° of high contact angle of
+gold ﬁlm, we successfully printed a 3 × 3 dot pattern with a 25 μm drop
+spacing of PEDOT:PSS ink without any spreading to SU-8 passivated region
+while maintaining high throughput in the vertical direction (Supplementary
+Fig. 6b). The 5 and 10 printing layers of the PEDOT:PSS dot patterns show
+80 μm and 140 μm diameter and concave structure with 900 nm, 1500 nm
+peak thickness, and 500 nm and 900 nm averaged thickness, respectively
+(Supplementary Fig. 6c). Due to the designed diameter of our μECoG as
+100 μm, we chose 80 μm as the diameter of printed PEDOT:PSS. The drop-
+on-demand inkjet printing-based patterning strategy can easily micro-
+pattern the conductive polymer at room temperature without any photo-
+mask. Also, complicated conventional microfabrication processes such as
+etching
+45, electroplating17, and parylene-C induced peel-off technique16,46 are
+not required. Our 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG
+array shows 55% and 43% transmittance at the 473 nm (blue) and 580 nm
+(amber) wavelengths, which are frequently used wavelengths for optoge-
+netic modulation and optical imaging (Fig. 4c)
+10,17,47,48. Owing to the
+transparency of both ultrathin 8 nm Au and the PEDOT:PSS, μECoG shows
+adjustable transparency, which is high enough to read the letters located
+behind the μECoG array (Fig.4c, Supplementary Fig. 7).
+The electrochemical properties of both 8 nm Au/(EDTA/PSS) μECoG
+and PEDOT:PSS interfaced 8 nm Au/(EDTA/PSS) μECoG were also char-
+acterized. Even without the printed PEDOT:PSS, the 8 nm Au/(EDTA/PSS)
+μECoG shows 112 kΩ o fi m p e d a n c ea t1 k H z ,w h i c hi s3 . 8t i m e sl o w e r
+compared to the opaque Au/Ti (50 nm/5 nm) μECoG at 1 kHz (Fig.4d). To
+more deeply understand the effect ofimpedance improvement, we scanned
+the 8 nm Au/(EDTA/PSS)ﬁl ma n dA u / T i( 5 0n m / 5n m )ﬁlm using atomic
+force microscopy (AFM) (Fig. 4e, Supplementary Fig. 8a, b). The surface
+roughness of the 8 nm Au/(EDTA/PSS)ﬁlm is 7.26 nm (R
+q), which is 6 times
+higher than that of the Au/Ti ﬁlm. A larger surface roughness induced a
+larger double-layer capacitance due to the larger effective surface area,
+thereby contributing to lowering the impedance 33.8 0 0 n m - t h i c ki n k j e t -
+printed PEDOT: PSS-based transparent μECoG showed 9.13 kΩ of impe-
+d a n c ea t1 k H z ,w h i c hi s5 3t i m e sa n d1 4t i m e sl o w e rt h a nt h e1 k H z
+impedance of Au/Ti and 8 nm Au/(EDTA/PSS) μECoG, respectively (Fig.
+4d). Both 500 nm and 800 nm thick PEDOT:PSS added μECoG showed
+nearly no differences in the impedance. The baseline impedance of the
+ﬂexible transparent electrodes saturated in the frequency range above
+200 Hz, and is directly related to the electrical resistance of the ultrathin Au
+ﬁlm. Therefore, optimizing the sheet resistance shown in Fig. 2hw h i l e
+maintaining the electrode’s transparency was crucial for reducing the elec-
+trode’s electrical and electrochemical impedance. The PEDOT:PSS ultrathin
+Au μECoGs showed less capacitive characteristics, while the Au/Ti showed
+the most capacitive characteristics over the entire frequency range, and 8 nm
+Au/(EDTA/PSS) μECoG showed intermediate characteristics (Fig.4f). There
+are several reasons why PEDOT:PSS printed on 8 nm Au exhibits low
+impedance characteristics. The PEDOT:PSS interface coating induces a
+larger electroactive surface area (ESA), which increases the area-proportional
+double layer capacitance (C
+dl) compared to non-porous metal electrodes,
+thereby lowering the overall impedance of the μECoG. Additionally, the
+charge transfer resistance (Rct), which is connected in parallel with Cdl,i sa l s o
+reduced due to the increase in charge on the surface induced by the larger
+ESA. This is further enhanced by the material properties of PEDOT:PSS,
+which facilitate more efﬁcient oxidation-reduction reactions compared to
+bulk gold. Moreover, PEDOT:PSS promotes rapid and efﬁcient ion diffusion
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 5
+
+at the interface, as related to the Warburg diffusion element (Zw), which helps
+lower the Faradic charge transfer resistance, even at low frequency regions17.
+To verify the feasibility of electrical stimulation, we performed cyclic
+voltammetry (CV) testing with a 500 nm PEDOT:PSS/8 nm Au/(EDTA/
+PSS) μECoG at voltage scan rates of 20– 1000 mV/s (Fig.4g). There was no
+signiﬁcant degradation of the CV area af ter 1000 times of voltage cycling
+(Supplementary Fig. 9). In addition, due to the wider window and higher
+peak current density than those of the opaque Au/Ti and 8 nm Au/(EDTA/
+PSS) μECoGs, 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG showed
+117.0 times higher charge storage capacity (CSC) than the Au/Ti μECoG,
+and 28.1 times higher than 8 nm Au/(EDTA/PSS) μECoGs at 20 mV/s scan
+rate (Fig. 4h). The 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG
+shows 945.5 μC/mm
+2 of CSC at a voltage scan rate of 1000 mV/s, 10.9 times
+higher than previously reported graphene μECoG work (87.8 μC/mm2)t h a t
+performed electrical stimulation wi th spatiotemporal neural response
+optical imaging on cortex of mouse in−0.8 V to 0.6 V voltage scan range26.
+Moreover, 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG shows less
+than 10% change of impedance after i mmersing in a phosphate-buffered
+s a l i n e( P B S )s o l u t i o na t3 7 . 5° Cf o r4w e e k s( F i g .4i). PEDOT:PSS interfaced
+surface showed no serious delamination after the 4 weeks in the PBS
+solution (Supplementary Fig. 10). Stabilization of PEDOT:PSS interface was
+achieved by adding 0.2% of (3-Glycidy loxypropyl) trimethoxysilane
+(GOPS) crosslinker in the PEDOT:PSS ink
+49. We expected that the 10%
+impedance variation of μECoG was from the hydrate swelling property of
+PSS as previously reported50.
+Finally, we compared the root mean square (RMS) noise and area-
+normalized impedance of our transparent μECoG with other in vivo MEAs
+(Fig. 4j)
+4,7,14,17,21,27,30,33,51,52. 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS)
+μECoG shows an average impedance of only 0.73 Ω·cm2 and a 3.3 μV of
+RMS noise, which is close to the baseline noise ﬂoor of the electronic
+Fig. 4 | Electrochemical Properties of µECoG Array. aSchematic of inkjet printed
+PEDOT:PSS on the ultrathin Au based transparent μECoG array. b Optical image
+of the PEDOT:PSS inkjet patterned ultrathin Au μECoG array (Scale bar:
+100 μm). c Transmittance spectrum of PEDOT:PSS printed transparent μECoG
+array (500 nm: average thickness, 900 nm: peak thickness). Inset images show
+representative samples of the two different regions. And the 473 nm (blue) and
+580 nm (amber) wavelength ranges used for optogenetics modulation are dis-
+played. d M a g n i t u d eo fB o d ep l o t so fr e p r e s e n t a t i v eE I Sd a t a .T h et h i c k n e s so f
+PEDOT:PSS reported as the averaged value. e AFM scanning results of Au/Ti
+(50 nm/5 nm) (left) and 8 nm Au/(EDTA/PSS) (right) ﬁlm (Scale bar : 200 nm).
+f Phase angle in the Bode plots of the representative EIS. g Cyclic voltammetry
+results of 500 nm PEDOT:PSS/8 nm Au/ (EDTA/PSS) μECoG array at various
+voltage scan rates. h Charge storage capacity of μECoG arrays at various voltage
+scan rates. i Long-term stability of μECoG array in PBS immersed environment
+(Totally 4 weeks, 37 °C) j Comparison of area-normalized electrochemical
+impedance and RMS noise among recently developed transparent/opaque
+microelectrodes for neural recording. (Minimum noise detection level of Intan
+recording: 2.4 μV).
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 6
+
+recording setup (~2.4 μV), and the best among the transparent in vivo MEA
+g r o u p( b l u ec o l o r e dd a t ai nF i g .4j). By comparing the opaque in vivo MEA
+g r o u p( r e dc o l o r e dd a t ai nF i g .4j), 500 nm PEDOT:PSS/8 nm Au/(EDTA/
+PSS) μECoG shows only 7 times higher impedance compared to the inkjet
+printed nanoporous Au interface which is reported as the lowest area-
+normalized impedance (0.1Ω·cm2 at 1 kHz) in all the MEAs. In sum, our
+500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG still belongs to the best
+performance group while providing optical transparency.
+In vivo epicortical recording with µECoG array
+Performing waveform analysis with in vivo brain recording signals is
+important for predicting and analy zing animal behavior in response to
+external stimuli and neurological disorders such as Alzheimer’s and Par-
+kinson’sd i s e a s e s
+4,8,10,14,15,53.A d d i t i o n a l l y ,t h eﬂexibility of the electrodes is
+also important depending on the targeted recording parts, such as the brain
+surface, muscles, and various organs5,7,10,14. To test the feasibility of using the
+optimized transparent, ﬂexible, ultrathin Au μECoG, we performed an
+in vivo brain surface recording. We placed the transparent 500 nm PED-
+OT:PSS/8 nm Au/(EDTA/PSS), μECoG array onto the parietal cortex of the
+mouse brain and then recorded the surface of the cortex signal while opti-
+cally imaging the vessels of the brain below the μECoG array (Fig. 5a). In
+contrast, optical imaging was impossible with an opaque 200 nm platinum
+μECoG array (Fig.5b). After integrating a μECoG array with a commercial
+electrophysiological recording system (Supplementary Fig. 11), the area-
+normalized impedance of each 8 nm Au/(EDTA/PSS) and 500 nm PED-
+OT:PSS/8 nm Au/(EDTA/PSS) μECoG array were 3.4 and 75.3 times lower
+than that of a 200 nm platinum μECoG array at 100 Hz and 1 kHz despite
+their optical transparency (Fig.5c).
+We recorded 16 channels of localﬁeld potential (LFP) for 2 min with
+200 Hz of lowpassﬁltering using the two different μECoG arrays. Note that
+w er e c o r d e dt h eb r a i nw a v eo ft h es a m emouse, but not simultaneously. The
+approximate interval between the two different μECoG array recordings is
+10 min. The exemplary 2-second window of the recorded signals for 4
+channels using our 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG
+array is displayed in Fig.5d. The peak-to-peak voltage scale and waveform of
+the recorded LFP signals showed similarity with other groups’works of in
+vivo brain signal recording
+4,10. All channels show similar LFP waveforms on
+the same time scale (Supplementary Fig. 12a). The recorded signal with
+200 nm platinum μECoG also shows similar LFP waveforms in the same
+time window (Supplementary Fig. 12b)
+Next, we analyzed the recorded signals by color-mapped power
+spectra density (PSD) of both 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS)
+μECoG array and 200 nm platinum μECoG array (Fig.5e). During in vivo
+recording for 60 s, spontaneous peak-to-peak signals of 400 to 800 μV are
+observed with excellent SNR (~43.28 dB) in both the 500 nm PED-
+OT:PSS/8 nm Au/(EDTA/PSS) μECoG array and the 200 nm platinum
+μECoG array by calculating RMS of the peak-to-peak signals with respect
+to the baseline RMS noise (Supplementary Fig. 12c)
+54. The spontaneous
+spikes detected during the in vivo brain surface recording might have been
+caused by the injected ketamine drug to anesthetize the mouse before
+in vivo neural recording to minimize the noise artifact from the movement
+of the mouse
+55,56. To additionally verify whether the recorded spikes are
+electrical noise or not, we performed the recording in PBS to immerse both
+500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG and 200 nm plati-
+num μECoG for 22 s, and there was no spontaneous spikes and baseline
+ﬂuctuation on both μECoG (Supplementary Fig. 13). The power spectral
+density (PSD) of neural signals shows sharp peaks simultaneously with
+spontaneous spikes and low-frequency oscillations (<6 Hz) on both
+recorded signals from each μECoG (Fig. 5e). However, the waveforms
+recorded from each μECoGs were slightly different, possibly because the
+two μECoG recordings were not performed simultaneously, and the
+recording electrode sizes are different, 100 μm diameter for 500 nm
+PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG and 200 μm diameter for the
+commercial platinum μECoG. We additionally analyzed the PSD of the
+signal in the frequency domain (Fig. 5f). 500 nm PEDOT:PSS/8 nm Au/
+(EDTA/PSS) μECoG and 200 nm platinum μECoG show very similar
+PSD distribution, and both recorded signals showed high delta frequency
+oscillation (0.5 – 3 Hz) without any signi ﬁcant power differences in all
+frequency ranges.
+To verify the long-term stability and recordability of our transparent
+μECoG array in vivo, we performed recordings over a 2-week period using
+both the transparent and opaque μECoG arrays (Fig. 5g). Both μECoG
+arrays showed stable brain wave reco rding performance with minimal
+degradation of RMS noise levels even after 2 weeks. Both arrays exhibited an
+approximately 3-fold increase in RMS noise after 7 days, which is expected
+as surgical effects resulting from the recovery process of surrounding tissues
+(Fig.5h). At day 14, both μECoG arrays showed less than 10% of RMS noise
+increase compared to day 7, while still exhibiting suitable values for in vivo
+recording (transparent: 11.2 μV, opaque: 8.5 μV), despite the transparent
+μECoG array being four times smaller in area than the opaque μECoG array.
+Frequency band analysis of the record ed signals revealed that the trans-
+parent μECoG array exhibited an overall increase in PSD across all fre-
+quency bands after day 7, but the increase was minimal, less than one order
+of magnitude, and there was no signiﬁcant difference of PSD between day 7
+and day 14 (Fig. 5i). The opaque μECoG array showed a slight increase in
+PSD in the frequency range above 10 Hz after 7 days compared to day 0, and
+this trend was maintained until day 14 (Fig. 5j). Both μECoG arrays
+exhibited similar PSD values within the same frequency range, with no
+signiﬁcant differences, conﬁrming that both arrays are suitable for two-week
+in vivo brain signal recording (Supplementary Fig. 14).
+Neural recording and 2D mapping using optogenetics
+To further verify the adjustability of our transparent μECoG array as an
+electro-optical neural interface, we performed optogenetic modulation
+using channelrhodopsin-2 (ChR2), photo-activated cation channel,-
+expressing mice using adeno-assoc iated viral (AAV) vector. We placed
+our transparent μECoG array on the AAV-ChR2-injected brain region
+and irradiated it with a 473-nm wavel ength blue laser using a pulse train
+of 50 on/off cycles (15 ms/500 ms) at a 7.32 mW/mm² of laser power
+density (Fig. 6a). We also conducted the same procedure with an opaque
+μECoG array on the AAV-ChR2-injected brain region at the same laser
+power density (Fig. 6b). After repeatedly irradiating the blue laser on the
+transparent μECoG array region, we observed up to 800 μV of evoked
+brain surface potential changes at the laser-aligned stimulation spot
+(Fig. 6c). However, the maximal response with opaque μECoG was
+limited to 350 μV, indicating that the opaque μECoG array shows lower
+optogenetic modulation perform ance compared to the transparent
+μECoG array. This highlights the advantage of the transparent μECoG
+array in terms of optogenetic modulation ef ﬁciency at the same laser
+power density (Fig. 6d).
+Additionally, to verify the ef ﬁciency of optogenetic modulation and
+quantify light-induced artifacts, weperformed optogenetic modulation at
+various laser power densities (Fig.6e). At a laser irradiation power density of
+2.35 mW/mm², the transparent μECoG array showed about 150 μV evoked
+voltage changes on the transgenic region, while no evoked voltage responses
+were observed in the opaque μECoG array. At 4.07 mW/mm² and
+7.32 mW/mm² laser power densities, the transparent μECoG array showed
+higher levels of evoked voltage changes (600 μV and 750 μV, respectively),
+while the opaque μECoG array exhibited lower changes of 150 μV and
+350 μV, respectively. These results indicate that the transparent μECoG
+array is much more ef ﬁcient for optogenetic modulation at all examined
+laser power density range, with a better sensitivity. Moreover, at 4.07 mW/
+mm² and 7.32 mW/mm² laser power densities, the opaque μECoG array
+showed repeated positive light-induced artifacts after laser irradiation,
+which interferes the precise quanti ﬁcation of optogenetic modulation
+results. To verify whether the induced voltage changes were due to opto-
+genetic modulation or light-induced artifacts, we performed repeated laser
+irradiation on both the transparent and opaque μECoG arrays at a laser
+power density of 7.32 mW/mm² in the AAV-Enhanced Green Fluorescent
+Protein (EGFP)-injected brain region, which does not react to the 473 nm
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 7
+
+wavelength laser (Fig. 6f). Brain surface signals recorded with the trans-
+parent μECoG array showed no light-induced artifacts with the repeated
+laser irradiation, whereas the brain signals recorded with the opaque μECoG
+array exhibited repeated light-induced artifacts. The reason why the
+photoelectric artifact is larger in the EGFP control region (600– 1200 μV)
+compared to the ChR2 injection region (300– 400 μV) under opaque ECoG
+conditions is that the EGFP control region does not respond to the blue laser
+(473 nm wavelength). Therefore, the negative voltage change from
+Fig. 5 | In vivo epicortical recording with µECoG array. a Optical images of
+transparent 500 nm PEDOT:PSS/8 nm Au/(EDTA/PSS) μECoG array (right
+zoom, scale bar: 100 μm) on mouse brain with a reference electrode: 8 nm Au/
+EDTA-PSS electrode (left zoom, scale bar: 500 μm). b Optical images of 200 nm
+thickness of platinum (opaque) μECoG a rray on mouse brain (scale bar: 100 μm).
+c Impedance measurement results of various μECoG arrays at 100 Hz and
+1000 Hz frequencies after integration with a recording system. d Local ﬁeld
+potentials (LFPs) in four representative channels of 500 nm PEDOT:PSS/8 nm
+Au/(EDTA/PSS) μECoG array after 200 Hz of low-pass ﬁltering. e Time-domain
+analysis of the short-time Fourier transform and f Power spectral density (PSD)
+analysis in the frequency domain for each μECoG array recording. g Image of the
+mouse with the transparent μECoG array implanted 2 weeks after surgery, along
+with in vivo recordings from the tran sparent and opaque μECoG arrays. h Root
+mean square noise of the transparent and opaque μECoG arrays after surgery.
+i, j PSD analysis of the transparent and opaque μECoG arrays over a period of
+2 weeks.
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 8
+
+optogenetic modulation does not cancel out the existing photoelectric
+artifact in the EGFP control region, r esulting in a larger voltage change
+compared to the ChR2 injection region.
+To further investigate light-induced artifacts in both transparent and
+opaque μECoG arrays, we performed baseline-free recordings in a PBS
+buffer solution with the laser placed6 mm distance from each μECoG array
+with 3 mm diameter laser irradiation spot (Supplementary Fig. 15a). The
+transparent μECoG array showed 2– 4 times lower light-induced artifacts
+compared to the opaque μECoG array from 0.75 to 68.9 mW/mm
+2 blue laser
+power density during repeated turn on/off (20/80 ms) cycles
+(Supplementary Fig. 15b, c). Generally, optogenetic modulation is per-
+formed in a power density range of 1 – 30 mW/mm9,15,57,58.A t7 . 0 2 m W /
+mm2, the transparent μECoG array shows small (~5 μV) light-induced
+artifacts owing to its transparency, whereas the opaque μECoG array shows
+a 20 μV of artifacts at the same laser power density (Supplementary Fig.
+15d). At 13.8 and 20.9 mW/mm 2, the transparent μECoG array shows
+10 μV and 23 μV of light-induced artifacts, which are 2 – 3 times lower
+compared to the opaque μECoG array (30 μV at 13.8 mW/mm2,5 0μ Va t
+20.9 mW/mm2). The same trend was observed during 580 nm amber laser
+irradiation on both μECoGs (Supplementary Fig. 15e).
+Fig. 6 | Neural recording and 2D mapping using optogenetics. a , b Images of the
+optogenetic modulation setup with the transparent μECoG array and opaque
+μECoG array on the ChR2 transgenic mouse brain. The distance between the laser
+ﬁber and the electrode array is 1 mm, and optogenetic modulated was performed at
+7.32 mW/mm² of laser power density. c, d 2D electrophysiological mapping of
+optogenetic stimulation from the 16-channel transparent μECoG array and 16-
+channel opaque μECoG array, showing the exact arrangement of the arrays and scale
+information. The color maps display voltage changes ( ΔVoltage) calculated the
+differences between before and after 15 ms of 473 nm laser irradiation, with a
+potential range of (−100– 800 μV). The 473 nm pulsed laser was modulated with 50
+cycles of on/off (15 ms/400 ms). e Optically evoked neural signals from the ChR2
+transgenic mouse at various laser power densities (2.35, 4.07, 7.32 mW/mm²) for
+both the transparent μECoG array and the opaque μECoG array. f Neural signals
+from the EGFP injection region (control) under the same 473 nm laser irradiation.
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 9
+
+In previous studies of light-induced artifact characterization on
+PEDOT:PSS/Au bilayer nanomesh electrodes, there were no signi ﬁcant
+differences in the light-induced artifacts on both PEDOT:PSS/Au bilayer
+nanomesh and Au nanomesh at the same laser power density (5– 20 μV),
+which means that PEDOT:PSS does not mainly contribute to the light-
+induced artifact
+17. The same results are reported on all PEDOT:PSS
+fabricated μECoG, which reports that there was no light-induced artifact
+even at high laser power density (80.88 mW/mm
+2)14. Since our trans-
+parent μECoG consists of 500 nm PEDOT:PSS/8 nm Au, the light-
+induced artifacts mainly originate from the 8 nm Au, not the 500 nm
+PEDOT:PSS. Moreover, owing to the transparency of our 8 nm ultrathin
+Au ﬁlm, the light-induced artifact is much smaller than the thick Auﬁlm.
+Our transparent μECoG did not show the light artifact at 0.75 mW/mm
+2,
+while opaque μECoG still showed 15 μV of artifact at the same laser
+power density. For the most representative optical recordings, such as
+diffuse optical tomography
+59 and calcium imaging 11,16, typical excitation
+laser power density is around 0.13 – 0.23 mW/mm2, which means our
+transparent μECoG is transparent enough to perform these optical
+recordings with simultaneous high SNR electrical recording without any
+light-induced artifacts.
+Inﬂammatory response to µECoG array
+In vivo electrophysiological recordings were conducted for two weeks
+post-surgery, followed by immunohistochemical analysis using Ionized
+calcium-binding adapter molecule 1(Iba1) and Glial ﬁbrillary acidic
+protein(GFAP), markers speci ﬁc for microglia and astrocytes, respec-
+tively, to assess in ﬂammatory responses (Fig. 7a, b Supplementary Fig.
+16a, b). Sections of the implanted cortex were compared with those of the
+contralateral, non-implanted cortex. Iba1 staining revealed no sig-
+niﬁcant differences between the implanted and non-implanted cortices
+for both the transparent μECoG array and the opaque μECoG array,
+indicating the absence of microglial activation and suggesting minimal or
+negligible in ﬂammation. Conversely, GFAP staining demonstrated a
+more pronounced astrocyte response in the implanted cortex for both
+electrode array types, implying that the physical insertion of the μECoG
+array induced mild tissue damage. Altogether, while GFAP expression
+exhibited marked differences, the absence of signi ﬁcant variation in
+Iba1 staining between the implanted and non-implanted cortices sug-
+gests that μECoG array implantation results in minor tissue damage and
+supports the biocompatibility of the transparent μECoG array.
+Discussion
+In this work, we fabricated ﬂexible, transparent, conductive, and
+mechanically robust ultrathin Au μECoG arrays by introducing hexagonal
+chemical bonding between (EDTA/PSS) and ultrathin 8 nm Auﬁlm. With
+the additional inkjet printing of PEDOT:PSS on μECoG interface directly,
+we successfully improved the impedance of the μECoG and its long-term
+stability in an aqueous solution wh ile maintaining transparency. Our
+μECoG successfully recorded neural signals from the brain surface of the
+cortical area, similar to the waveforms of commercial 200 nm platinum
+μECoG, and showed a high SNR value and long-term stability during 2
+weeks of recording. Finally, we performed optogenetic modulation with the
+transgenic mouse. The optogenetic stimulation effect through our trans-
+parent μECoG array was more efﬁcient than the opaque electrodes at the
+same laser power density without light-induced artifacts. With the simple
+wafer-scale fabrication processes,our ultrathin 8 nm Au electrode arrays
+will be a core technology as ﬂexible, transparent bioelectronics such as
+implantable neural probes along with high expandability toﬂexible trans-
+parent optoelectronics such as disp lay panels, solar cells, and smart
+windows.
+Fig. 7 | In ﬂammatory Response to µECoG Array.
+a DAPI, Iba1, and GFAP staining in the implanted
+cortex with the transparent μECoG array, showing
+markers for cell nuclei, microglia, and astrocytes,
+respectively. Scale bar = 100 μm. b DAPI, Iba1, and
+GFAP staining in the contralateral, non-implanted
+cortex for the transparent μECoG array, illustrating
+baseline levels of microglia and astrocytes (scale
+bar = 100 μm).
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 10
+
+Methods
+EDTA and PSS hybrid composite ink mixing
+EDTA ink: 1 M concentrated EDTA solution was prepared in 100 ml of
+volume. The optimization chemical composition is 18.60 g of 4 N EDTA
+(Sigma-Aldrich) mixed into 80 ml Milly-Q water and the solution was
+vigorously stirred by a magnetic stirrer. Then we slowly added the
+Ammonium solution (NH
+3( a q ) ,2 5 % )u pt oc l e a rt h es o l u t i o na p p r e n t i c e
+and adjust the pH around 9 to 10. Theﬁnal transparent solution wasﬁltered
+by a 1 μm PALL ﬁlter to remove any dust and contaminated particles.PSS
+ink: 10 grams of 4 N PSS and 0.5 grams of 4 N NaCl microparticles (Sigma-
+Aldrich, South Korea) were dissolved in 50 ml volume of water solvent.
+Once dissolved, add more water to bring the total volume up to 100 ml.
+EDTA and PSS hybrid composite ink: The EDTA and PSS separately pre-
+pared each solution was mixed with a 3:1 (EDTA: PSS) ratio in a 100 ml
+bottle at room temperature. The mixe d hybrid composite solution was
+vigorously stirred at 400 RPM for 5 h by a magnetic stirrer, and the ﬁnal
+solution was ﬁltered by a 1 μm PALL ﬁlter to remove any dust and con-
+taminated particles. The fresh hybri d composite solution always shows
+better performance than the long-time storage mixed solution.
+PEDOT:PSS ink optimization
+W em i x e dP E D O T : P S S( C l e v i o sP H1 0 0 0 )s o l u t i o na n dD Ia ta1 : 1r a t i oa n d
+added 5 wt% of Ethylene glycol (EG) (Sigma-Aldrich) to induce conductivity
+by separating PSS from PEDOT. We also added 0.2 wt% of GOPS as a
+crosslinker to enhance the durability of the transparent μECoG array in an
+aqueous solution. The prepared ink was stirred at 25 °C, 200 rpm, for 6 h with
+a magnetic bar for the uniform mixture. The viscosity of our ink was 9.55 cPs
+(DV3T, Brookﬁeld), which is the reasonable value for inkjet printing.
+Fabrication of transparent µECoG array
+We cleaned the 25-μm thick PEN substrates by sonication in acetone and
+IPA for 10 min. Then, we spin-coated EDTA/PSS to form a uniform
+polymer seed layer, following the pa tterning of the negative photoresist
+(NLoF 2035, 70 mJ/cm
+2). Both EDTA/PSS and NLoF were spin-coated at
+3500 rpm for 40 s. 8 nm of Au was thermal evaporated 0.1 Å/s (Korea
+Vacuum Tech, South Korea) and patterned by lift-off. We passivated the
+electrode with 700 nm thick biocompat ible insulator SU-8 (Microchem/
+2000.5) at 3000 rpm of spin coating speed and soft-baked at 95 °C for 1 min.
+Afterward, UV exposure (365 nm) was performed with an exposure energy
+of 70 mJ/cm
+2, and post-exposure bake was done at 95 °C for 2 min. After
+that, SU-8 was developed using SU-8 developer for 1 min and rinsed with DI
+water. We printed PEDOT:PSS ink on the 100 μm diameter of the trans-
+parent μECoG array, 3 by 3 dots with 25 μm drop spacing, and 5 printing
+layers. We used a drop-on-demand inkjet printer (DMP 2850, Dimatix
+Fujiﬁlm) and a 10-pL nozzle head cartridge (Dimatix DMC-11601). The
+jetting voltage was 20 V, and the single drop velocity was 7−9m / s ,s u i t a b l e
+for stable printing. The PEDOT:PSS patterns were thermally crosslinked by
+GOPS after the printing (100 °C, 1 h on a hot plate).
+Material properties
+To analyze the morphology of the surface of electrodes, we used FE-SEM
+(Hitachi/SU8230) and atomic force microscopy (AFM) (Park Systems/XE-
+150). The SEM image was taken at an acceleration voltage of 1.6 kV and a
+5.4– 6 mm working distance. The bonding energy and peaks between the
+metal and polymer seed layer were characterized by XPS (Thermo-Scien-
+tiﬁc/ESCALAB 250Xi) and FT-IR (Thermo Scientiﬁc/ Nicolet Continuum).
+The contact angle of the transparent μECoG array for PEDOT:PSS ink drop
+was characterized by a contact angle measurement system (SEO/Phoe-
+nix-MT).
+Mechanical properties
+The alterations in the stain and stress (SS) curve and resistance throughout
+t h et e n s i l ep r o c e d u r ew e r eq u a n t iﬁed employing an (SFM-100kN) state-of-
+the-art universal testing apparatus (United Calibration). Real-time mon-
+itoring of resistanceﬂuctuations was achieved by interfacing a specialized jig
+and a digital multimeter (Keithley2001) through a copper conductor. An
+automatic bending machine was used to measure the mechanical stability of
+ultrathin gold microelectrodes (25μm-thick PET substrates). Bending was
+performed up to 50,000 times under a bending radius of 5 mm. To assess
+fatigue failure through cyclic bending, we employed a cutting-edge 1-axis
+motion controller (MS Tech, South Korea).
+Electrochemical properties
+EIS measurements were done using an LCR meter (NF Model ZM2410/NF
+corporation) on a probe station (Model 8000, MS Tech, South Korea). One
+terminal was connected to the contact pad of a microelectrode, and the other
+terminal was connected to a large ref.8 nm Au/EDTA-PSS electrode. All the
+electrodes were covered with Dulbecco’s Phosphate Buffered Saline (DPBS)
+solution (Sigma-Aldrich, 806552) to form electrode/electrolyte interfaces.
+Electrochemical impedance and phase angle were measured using a 100-
+mV sine wave signal with a frequency range from 20 Hz to 100 kHz. Mul-
+tichannel potentiostat (Ivium-n-Stat, IVIUM Technology) was used to
+e v a l u a t et h ec y c l i cv o l t a m m e t r y( C V )window and charge storage capacity.
+Animal preparation
+All procedures were approved by the Institutional Animal Care and Use
+Committee of Daegu Gyeongbuk Institute of Science and Technology
+(DGIST) in compliance with DGIST’s laboratory safety guidelines (DGIST-
+IACUC-24121906-0004). C57BL/6 J micewere housed in standard mouse
+cages (16 × 36 × 12.5 cm³) with food and water provided ad libitum. Mice
+were weaned at 3– 4 weeks of age and housed with sex-matched siblings (up
+to four per cage) in a 12:12-h light/dark cycle at 22 ± 1 °C. A total ofﬁve male
+adult mice were used (two for acute recording, two for two-week recording,
+and one for optogenetics). No animals or data points were excluded from the
+analysis.
+Surgical procedures
+All surgeries were performed with mice anesthetized by intraperitoneal
+injection of a ketamine-xylazine mixture (100 mg/kg and 10 mg/kg,
+respectively) and secured in a stereotaxic apparatus. As the transparency of
+the uECoG used in the surgery was visually evident, the researcher was
+a w a r eo fw h e t h e rt h et r a n s p a r e n tu E C o Go rt h eo p a q u eu E C o Gw a sb e i n g
+utilized in the experiment. For elect rophysiological recordings, a cra-
+niotomy was performed on the right skull to expose the parietal cortex for
+electrode placement (E16-500-5-200;NeuroNexus, MI, USA, PEDOT:PSS
+500 nm/Au 8 nm/EDTA/PSS). Two bone screws were inserted into the skull
+over the cerebellum as reference and ground electrodes. For two-week
+recordings, Hemospon (Technew, São Paulo, Brazil) moistened with arti-
+ﬁcial cerebrospinalﬂuid (ACSF; Tocris Bioscience, Bristol, UK) was placed
+on top of the electrode. Kwik-Sil and Kwik-Cast (World Precision Instru-
+ments, Sarasota, FL, USA) were applied to seal the area. Finally, Super-Bond
+(Sun Medical Co., Ltd., Shiga, Japan) and dental cement were used to secure
+and insulate the assembly. For opto genetic experiments, AAV-hSyn-
+hChR2(H134R)-EYFP was injected into the left cortex and AAV-hSyn-
+EGFP into the right cortex (bilateral injections of 250 nL each) using a
+Nanoliter injector system (WPI, Sarasota, FL, USA) at a rate of <0.1μL/min.
+After a three-week recovery, electrophysiological recordings with optical
+stimulation were conducted.
+In vivo neural recording
+We integrate our transparent neural electrode withﬂexible PCB (FPCB) by
+anisotropic conductionﬁlm (ACF) bonding following 220 °C of tempera-
+ture during 30 s in the bonding region(Hitachi chemical/AC-7246LU-18).
+We integrated the FPCB with a customized PCB, which attached the
+omnetics 2114 connector to integrate with the Intan recording system (RHS
+2116 Stimulation/Recording System). Neural recordings were conducted
+using the Intan RHS stimulation/recording system (M4016, M4200; Intan
+Technologies, Los Angeles, CA, USA). Signals were recorded at 25 kHz and
+ﬁltered with a 0.98 Hz– 7.60 kHz band-passﬁlter and a 60 Hz notch ﬁlter.
+The signal was obtained after at least 30 min of acclimatisation in the
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 11
+
+recording room. The recorded signal’s power spectra density (PSD) was
+calculated and displayed by MATLAB.
+Optogenetics
+For optical stimulation, a 473 nm wavelength laser was used. Light was
+delivered via an opticalﬁber (core diameter: 100 μm, NA: 0.22; Doric Lenses,
+Quebec, Canada) positioned 1 mm above the electrode. The laser was
+operated using the Intan system, delivering 15 ms light pulses at 2.5 Hz with
+various power densities.
+Immunohistochemistry and confocal microscopy
+After all experimental sessions, mice were perfused intracardially with 4%
+paraformaldehyde and post- ﬁxed overnight at 4 °C. Brains were then
+dehydrated in 30% sucrose in phosphate-buffered saline (PBS) for 2 days at
+4 °C, embedded in optimal cutting temperature compound (Scigen, Para-
+mount, CA, USA), and frozen at −80 °C. Coronal sections (20 μm thick)
+were obtained with a Leica CM3050 S cryostat (Leica Microsystems, Wet-
+zlar, Germany). Primary antibodies used included mouse anti-GFAP (3670
+S, 1:200, Cell Signaling Technology, Danvers, MA, USA) and rabbit anti-
+IbaI (019-19741, 1:1000, Wako Chemicals USA, Inc., Richmond, VA, USA).
+Secondary antibodies were Alexa 488 donkey anti-rabbit (711-545-152,
+1:1000) and Cy3 donkey anti-mouse (715-165-150, 1:1000) from Jackson
+ImmunoResearch Laboratories (West Grove, PA, USA). DAPI (Sigma-
+Aldrich, St. Louis, MO, USA) was used for nuclear counterstaining, and
+images were captured on a Nikon C2 + confocal microscope (Nikon,
+Tokyo, Japan).
+Photoelectric artifact characterization
+We pre-performed power calibration of various laser knobs with an optical
+power meter (Cohernet/pm10) for the 473 nm and 580 nm wavelength
+(Shanghai Laser/ORS-1) lasers, resp ectively. For the characterization of
+photoelectric artifact in PBS solution, we placed a ﬁber-type laser with a
+wavelength of 473 nm at a distance of 6 mm from the transparent/opaque
+electrode and then irradiated the laser. The diameter of the laser spot was
+3 mm. The turn on/off (20 ms/80 ms) of the laser was controlled by TTL
+pulses generated from a multichannel recording system. For the char-
+acterization of photoelectric artifacts during in vivo brain signal recording,
+the laser was operated using the Intan system, delivering 15 ms light pulses
+at 2.5 Hz repeated modulation.
+Data availability
+All data needed to evaluate the discussions in the paper are present in the
+paper and/or the Supplementary Materials. Other raw data are available
+from the corresponding authors upon request.
+Received: 15 June 2024; Accepted: 17 March 2025;
+References
+1. Hong, J. W., Yoon, C., Jo, K., Won, J. H. & Park, S. Recent advances in
+recording and modulation technologies for next-generation neural
+interfaces. iScience 24, 103550 (2021).
+2. Zeng, Q. & Huang, Z. Challenges and opportunities of implantable
+neural interfaces: from material, electrochemical and biological
+perspectives. Adv. Funct. Mater. 33, 2301223 (2023).
+3. Cho, Y. U., Lim, S. L., Hong, J. H. & Yu, K. J. Transparent neural
+implantable devices: a comprehensive review of challenges and
+progress. npj Flex. Electron. 6, 53 (2022).
+4. Lee, J. M. et al. The ultra-thin, minimally invasive surface electrode array
+NeuroWeb for probing neural activity.Nat. Commun. 14, 7088 (2023).
+5. Viana, D. et al. Nanoporous graphene-based thin- ﬁlm microelectrodes
+for in vivo high-resolution neural recording and stimulation. Nat.
+Nanotechnol. https://doi.org/10.1038/s41565-023-01570-5(2024).
+6. Tybrandt, K. et al. High-density stretchable electrode grids for chronic
+neural recording. Adv. Mater. 30, e1706520 (2018).
+7. Ramezani, M. et al. High-density transparent graphene arrays for
+predicting cellular calcium activity at depth from surface potential
+recordings. Nat. Nanotechnol. https://doi.org/10.1038/s41565-023-
+01576-z (2024).
+8. Ganji, M. et al. Selective formation of porous Pt nanorods for highly
+electrochemically efﬁcient neural electrode interfaces. Nano Lett. 19,
+6244– 6254 (2019).
+9. Jhang, J. et al. Anterior cingulate cortex and its input to the basolateral
+amygdala control innate fear response. Nat. Commun. 9,1 – 16 (2018).
+10. Seo, J. W. et al. Artifact-Free 2D mapping of neural activity in vivo
+through transparent gold nanonetwork array. Adv. Funct. Mater. 30,
+1– 11 (2020).
+11. Streich, L. et al. High-resolution structural and functional deep brain
+imaging using adaptive optics three-photon microscopy. Nat.
+Methods 18, 1253– 1258 (2021).
+12. Wu, X. et al. Tether-free photothermal deep-brain stimulation in freely
+behaving mice via wide- ﬁeld illumination in the near-infrared-II
+window. Nat. Biomed. Eng. 6, 754– 770 (2022).
+13. Wang, Y., Garg, R., Cohen-Karni, D. & Cohen-Karni, T. Neural
+modulation with photothermally active nanomaterials. Nat. Rev.
+Bioeng. 1, 193– 207 (2023).
+14. Cho, Y. U. et al. Ultra-low cost, facile fabrication of transparent neural
+electrode array for electrocorticography with photoelectric artifact-
+free optogenetics. Adv. Funct. Mater. 32, 2105568 (2022).
+15. Zhang, J. et al. Stretchable transparent electrode arrays for
+simultaneous electrical and optical interrogation of neural circuits
+in vivo. Nano Lett. 18, 2903– 2911 (2018).
+16. Middya, S. et al. Microelectrode arrays for simultaneous electrophysiology
+and advanced optical microscopy.Adv. Sci.8,1 – 9 (2021).
+17. Qiang, Y. et al. Bilayer nanomesh structures for transparent recording
+and stimulating microelectrodes. Adv. Funct. Mater. 27, 1704117
+(2017).
+18. Qiang, Y. et al. Transparent arrays of bilayer-nanomesh
+microelectrodes for simultaneous electrophysiology and two-photon
+imaging in the brain. Sci. Adv. 4, eaat0626 (2018).
+19. Lee, W. et al. Transparent, conformable, active multielectrode array
+using organic electrochemical transistors. Proc. Natl. Acad. Sci. USA
+114, 10554– 10559 (2017).
+20. Tringides, C. M. et al. Viscoelastic surface electrode arrays to interface
+with viscoelastic tissues. Nat. Nanotechnol. 16, 1019– 1029 (2021).
+21. Chen, Z. et al. Flexible and Transparent Metal Oxide/Metal Grid Hybrid
+Interfaces for Electrophysiology and Optogenetics. Adv. Mater.
+Technol. 5,1 – 8 (2020).
+22. Gilshtein, E. et al. Inkjet-Printed Conductive ITO Patterns for Transparent
+Security Systems.Adv. Mater. Technol. 5, 2000369 (2020).
+23. Dijk, G., Kaszas, A., Pas, J. & O ’Connor, R. P. Fabrication and in vivo
+2-photon microscopy validation of transparent PEDOT:PSS
+microelectrode arrays. Microsyst. Nanoeng. 8, 90 (2022).
+24. Lan, L. et al. Highly ﬂexible polypyrrole electrode with acanthosphere-
+like structures for energy storage and actuator applications. Chem.
+Eng. J. 455, 140675 (2023).
+25. Zheng, W. et al. Nanocellulose-mediated hybrid polyaniline
+electrodes for high performance ﬂexible supercapacitors. J. Mater.
+Chem. A 5, 12969– 12976 (2017).
+26. Park, D. W. et al. Electrical neural stimulation and simultaneous in vivo
+monitoring with transparent graphene electrode arrays implanted in
+GCaMP6f Mice. ACS Nano 12, 148– 157 (2018).
+27. Kuzum, D. et al. Transparent and ﬂexible low noise graphene
+electrodes for simultaneous electrophysiology and neuroimaging.
+Nat. Commun. 5,1 – 10 (2014).
+28. Kim, C. L., Jung, C. W., Oh, Y. J. & Kim, D. E. A highly ﬂexible
+transparent conductive electrode based on nanomaterials. NPG Asia
+Mater.
+9, e438– e438 (2017).
+29. Wang, L. et al. Green manufacturing of ﬂexible sensors with a giant
+gauge factor: bridging effect of CNT and electricﬁeld enhancement at
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 12
+
+the percolation threshold. ACS Appl. Mater. Interfaces 14,
+26024– 26033 (2022).
+30. Seo, K. J. et al. Transparent electrophysiology microelectrodes and
+interconnects from metal nanomesh.ACS Nano 11, 4365– 4372 (2017).
+31. Kang, H., Jung, S., Jeong, S., Kim, G. & Lee, K. Polymer-metal hybrid
+transparent electrodes for ﬂexible electronics. Nat. Commun. 6,1 – 7
+(2015).
+32. Kim, D. et al. Inkjet-Printed polyelectrolyte seed layer-based,
+customizable, transparent, ultrathin gold electrodes and facile
+implementation of photothermal effect. ACS Appl. Mater. Interfaces
+15, 20508– 20519 (2023).
+33. Hong, W. et al. Ultrathin gold microelectrode array using
+polyelectrolyte multilayers for ﬂexible and transparent electro-optical
+neural interfaces. Adv. Funct. Mater. 32,1 – 11 (2022).
+34. Tao, J. et al. Functionalized SnO2 ﬁlms by using EDTA-2 M for high
+efﬁciency perovskite solar cells with efﬁciency over 23. Chem. Eng. J.
+430, 132683 (2022).
+35. Yang, D. et al. High ef ﬁciency planar-type perovskite solar cells with
+negligible hysteresis using EDTA-complexed SnO2.Nat. Commun. 9,
+3239 (2018).
+36. Park, G., Kim, D., Kim, G. & Jeong, U. High-Performance Indium-Tin
+Oxide (ITO) electrode enabled by a counteranion-free metal-polymer
+complex. ACS Nanosci. Au 2, 527– 538 (2022).
+37. Bi, Y. G. et al. Ultrathin metal ﬁlms as the transparent electrode in ITO-
+Free organic optoelectronic devices. Adv. Opt. Mater. 7,1 – 23 (2019).
+38. Kaiser, N. Review of the fundamentals of thin- ﬁlm growth. Appl. Opt.
+41, 3053 (2002).
+39. Kafshboran, H. R. & Ghasemi, S. Designing magnetic catalysts based
+on gold nanoparticles supported by ethylenediamine tetraacetic acid
+functionalized amino-modiﬁed poly(N-isopropyl acrylamide) for
+reduction of nitro compounds in water. Polym. Int. https://doi.org/10.
+1002/pi.6625 (2024).
+40. Kovács, A., Nemcsok, D. S. & Kocsis, T. Bonding interactions in EDTA
+complexes. J. Mol. Struct. THEOCHEM 950,9 3– 97 (2010).
+41. Dozol, H. et al. On the synthesis of Au nanoparticles using EDTA as a
+reducing agent.
+J. Phys. Chem. C. 117, 20958– 20966 (2013).
+42. Buzsáki, G., Anastassiou, C. A. & Koch, C. The origin of extracellular
+ﬁelds and currents-EEG, ECoG, LFP and spikes. Nat. Rev. Neurosci.
+13, 407– 420 (2012).
+43. Driscoll, N. et al. MXene-infused bioelectronic interfaces for multiscale
+electrophysiology and stimulation.Sci. Transl. Med. 13,1 – 14 (2021).
+44. Kim, R., Hong, N. & Nam, Y. Gold nanograin microelectrodes for
+neuroelectronic interfaces. Biotechnol. J. 8, 206– 214 (2013).
+45. Kim, S. M. et al. High-performance, polymer-based direct cellular
+interfaces for electrical stimulation and recording.NPG Asia Mater.10,
+255– 265 (2018).
+46. Susloparova, A. et al. Low impedance and highly transparent
+microelectrode arrays (MEA) for in vitro neuron electrical activity
+probing. Sensors Actuators, B Chem . 327, 128895 (2021).
+47. Neto, J. P. et al. Transparent and ﬂexible electrocorticography
+electrode arrays based on silver nanowire networks for neural
+recordings. ACS Appl. Nano Mater. 4, 5737– 5747 (2021).
+48. Zhang, F. et al. Multimodal electrocorticogram active electrode array
+based on zinc oxide-thin ﬁlm transistors. Adv. Sci. 10,1 – 10 (2023).
+49. Lee, Y. et al. Tunable organic active neural probe enabling near-
+sensor signal processing. Adv. Mater. 35,1 – 11 (2023).
+50. Bießmann, L. et al. Monitoring the swelling behavior of PEDOT:PSS
+electrodes under high humidity conditions. ACS Appl. Mater.
+Interfaces 10, 9865– 9872 (2018).
+51. Kim, Y. H. et al. In vitro extracellular recording and stimulation
+performance of nanoporous gold-modi ﬁed multi-electrode arrays. J.
+Neural Eng. 12, 066029 (2015).
+52. Chik, G. K. K. et al. Flexible multichannel neural probe developed by
+electropolymerization for localized stimulation and sensing. Adv.
+Mater. Technol. 7,1 – 12 (2022).
+53. Driscoll, N. et al. Two-dimensional Ti3C2 MXene for high-resolution
+neural interfaces. ACS Nano 12, 10419– 10429 (2018).
+54. Cho, Y. et al. Hybrid bionic nerve interface for application in bionic
+limbs. Adv. Sci
+. 10, 2303728 (2023).
+55. Michelson, N. J. & Kozai, T. D. Y. Iso ﬂurane and ketamine differentially
+inﬂuence spontaneous and evoked laminar electrophysiology in
+mouse V1. J. Neurophysiol. 120, 2232– 2245 (2018).
+56. Średniawa, W. et al. Network and synaptic mechanisms underlying
+high frequency oscillations in the rat and cat olfactory bulb
+under ketamine-xylazine anesthesia. Sci. Rep. 11,6 3 9 0
+(2021).
+57. Park, D. W. et al. Fabrication and utility of a transparent graphene
+neural electrode array for electrophysiology, in vivo imaging, and
+optogenetics. Nat. Protoc. 11, 2201– 2222 (2016).
+58. Cardin, J. A. et al. Targeted optogenetic stimulation and recording of
+neurons in vivo using cell-type-speci ﬁc expression of
+Channelrhodopsin-2. Nat. Protoc. 5, 247– 254 (2010).
+59. Zeff, B. W., White, B. R., Dehghani, H., Schlaggar, B. L. & Culver, J. P.
+Retinotopic mapping of adult human visual cortex with high-density
+diffuse optical tomography. Proc. Natl Acad. Sci. USA 104,
+12169– 12174 (2007).
+Acknowledgements
+This work was supported in part by the National Research Foundation of
+Korea(NRF) grant funded by the Korea government(MSIT) (No. RS-202
+2-NR069917, RS-2024-00416319), in part by the‘DGIST intramural grant’
+(25-IRJoint-03) and in part by an Ideas Grant from the National Health and
+Medical Research Council (NHMRC) of Australia (APP1188414), and in part
+by the Interdisciplinary Research Initiatives Program from College of Engi-
+neering and College of Medicine, Seoul National University (grant no. 800-
+20240490). The authors would like to thank the Institute of Next-generation
+Semiconductor convergence Technology (INST), Nano Fab Support Team
+and Advanced Convergence Analysis Team in DGIST. Part of Fig. 1ci s
+drawn with BioRender.com.
+Author contributions
+D. Kim, M. B., and B. Kim contributed equally to this work. D. Kim, M. B., B.
+Kim, and H. Kang conceived and designed the project. D. Kim and M. B.
+fabricated and characterized the transparent ultrathin gold µECoG. D. Kim,
+B. Kim, H. Kang and H. K. Choe planned animal experiments, and D. Kim and
+B. Kim performed all in vivo experiments, including neural acute/two-week
+recording, optogenetic modulation and immunohistochemistry. N. Hong
+contributed examination of brain recorded signal, J. Park contributed CV,
+CSC characterization, H. Lim contributed mechanical property
+characterization, Junhee Lee contributed impedance measurement, Jungha
+Lee contributed electrode noise analysis, Y. K. Kim contributed optogenetic
+modulation, and Y. Cho contributed inkjet printing. K. Lee, Junghyup Lee, J.-
+H. Yoon, H. Kwon, D. Tsai, S. Lee, J. Jang, H. K. Choe, and H. Kang provided
+analysis of the experimental data and resources for the experiments. D. Kim,
+M. B., B. Kim, and H. Kang wrote the initial draft. The ﬁnal manuscript was
+prepared with input from all the authors.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41528-025-00403-w
+.
+Correspondenceand requests for materials should be addressed to
+Han Kyoung Choe or Hongki Kang.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 13
+
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2025
+https://doi.org/10.1038/s41528-025-00403-w Article
+npj Flexible Electronics |            (2025) 9:31 14

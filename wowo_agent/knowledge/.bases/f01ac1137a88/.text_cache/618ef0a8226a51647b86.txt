@@ -1,0 +1,759 @@
+APPLIED SCIENCES AND ENGINEERING Copyright © 2017
+The Authors, some
+rights reserved;
+exclusive licensee
+American Association
+for the Advancement
+of Science. No claim to
+original U.S. Government
+Works. Distributed
+under a Creative
+Commons Attribution
+NonCommercial
+License 4.0 (CC BY-NC).
+Ultratransparent and stretchable graphene electrodes
+Nan Liu, 1* Alex Chortos, 1* Ting Lei, 1* Lihua Jin, 2 Taeho Roy Kim, 3 Won-Gyu Bae, 1 Chenxin Zhu, 4
+Sihong Wang, 1 Raphael Pfattner, 1 Xiyuan Chen, 5 Robert Sinclair, 3 Zhenan Bao 1†
+Two-dimensional materials, such as graphene, are attractive for both conventional semiconductor applications
+and nascent applications in flexible electronics. Howev er, the high tensile strength of graphene results in
+fracturing at low strain, making it challenging to take advantage of its extraordinary electronic properties in
+stretchable electronics. To enable excellent strain-dependent performance of transparent graphene conductors,
+we created graphene nanoscrolls in between stacked graphene layers, referred to as multilayer graphene/graphene
+scrolls (MGGs). Under strain, some scrolls bridged the fragmented domains of graphene to maintain a percolating
+network that enabled excellent conductivity at high strains. Trilayer MGGs supported on elastomers retained 65% of
+their original conductance at 100% strain, which is perpendicular to the direction of current flow, whereas trilayer
+films of graphene without nanoscrolls retained only 25% of their starting conductance. A stretchable all-carbon
+transistor fabricated using MGGs as electrodes exhibited a transmittance of >90% and retained 60% of its original
+current output at 120% strain (parallel to the direction of charge transport). These highly stretchable and transparent
+all-carbon transistors could enable sophisticated stretchable optoelectronics.
+INTRODUCTION
+Stretchable transparent electronics is a growing field that has important
+applications in advanced biointegrated systems ( 1, 2)a sw e l la st h e
+potential to integrate with stretchable optoelectronics (3, 4) to produce
+sophisticated soft robotics and displays. Graphene exhibits highly desir-
+able properties of atomic thickness, high transparency, and high con-
+ductivity, but its implementation in stretchable applications has been
+inhibited by its tendency to crack at small strains. Overcoming the
+mechanical limitations of graphene could enable new functionality in
+stretchable transparent devices.
+The unique properties of graphene make it a strong candidate for the
+next generation of transparent conductive electrodes (5, 6). Compared
+with the most commonly used transparent conductor, indium tin oxide
+[ITO; 100 ohms/square (sq) at 90% transparency], monolayer graphene
+grown by chemical vapor deposition(CVD) has a similar combination
+of sheet resistance (125 ohms/sq) and transparency (97.4%) (5). In ad-
+dition, graphene films have extraordinary flexibility compared to ITO
+(7). For example, on a plastic substrate, its conductance can be retained
+even for a bending radius of curvature as small as 0.8 mm (8). To further
+enhance its electrical performance as a transparent flexible conductor,
+previous works have developed graphene hybrid materials with one-
+dimensional (1D) silver nanowires or carbon nanotubes (CNTs) (9– 11).
+Moreover, graphene has been used as electrodes for mixed dimensional
+heterostructural semiconductors (such as 2D bulk Si, 1D nanowires/
+nanotubes, and 0D quantum dots) (12), flexible transistors, solar cells,
+and light-emitting diodes (LEDs) (13– 23).
+Although graphene has shown promising results for flexible elec-
+tronics, its application in stretchable electronics has been limited by
+its mechanical properties (17, 24, 25); graphene has an in-plane stiffness
+of 340 N/m and a Young’s modulus of 0.5 TPa (26). The strong carbon-
+carbon network does not provide any energy dissipation mechanisms
+for applied strain and therefore readily cracks at less than 5% strain. For
+example, CVD graphene transferred onto a polydimethylsiloxane
+(PDMS) elastic substrate can only maintain its conductivity at less than
+6% strain (8). Theoretical calculations show that crumpling and inter-
+play between different layers shouldstrongly decrease the stiffness (26).
+By stacking graphene into multiple layers, it is reported that this bi- or
+trilayer graphene is stretchable to 30% strain, exhibiting resistance
+change 13 times smaller than that of monolayer graphene (27). How-
+ever, this stretchability is still significantly inferior to state-of-the-art
+stretchable conductors (28, 29).
+Transistors are important in stretchable applications because they
+enable sophisticated sensor readout and signal analysis (30
+, 31). Tran-
+s i s t o r so nP D M Sw i t hm u l t i l a y e rg r aphene as source/drain electrodes
+and channel material can maintain electrical function up to 5% strain
+(32), which is significantly below the minimum required value (~50%)
+for wearable health-monitoringsensors and electronic skin (33, 34). Re-
+cently, a graphene kirigami approach has been explored, and the transistor
+gated by a liquid electrolyte can be stretched to as much as 240% (35).
+However, this method requires suspended graphene, which complicates
+the fabrication process.
+Here, we achieve highly stretchable graphene devices by intercalat-
+ing graphene scrolls (~1 to 20mml o n g ,~ 0 . 1t o1mmw i d e ,a n d~ 1 0t o
+100 nm high) in between graphene layers. We hypothesize that these
+graphene scrolls could provide conductive paths to bridge cracks in
+t h eg r a p h e n es h e e t s ,t h u sm a i n t a i ning high conductivity under strain.
+The graphene scrolls do not require additional synthesis or process; they
+are naturally formed during the wet transfer procedure. By using multi-
+layer G/G (graphene/graphene) scrolls (MGGs) graphene stretchable
+electrodes (source/drain and gate) and semiconducting CNTs, we were
+able to demonstrate highly transparent and highly stretchable all-carbon
+transistors, which can be stretched to 120% strain (parallel to the direc-
+tion of charge transport) and retain 60% of their original current output.
+This is the most stretchable transparent carbon-based transistor so far,
+and it provides sufficient current to drive an inorganic LED.
+RESULTS AND DISCUSSION
+Fabrication of MGG structures
+To enable large-area transparent stretchable graphene electrodes, we
+chose CVD-grown graphene on Cu foil. The Cu foil was suspended
+1Department of Chemical Engineering, Stanford University, Stanford, CA 94305,
+USA. 2Department of Civil and Environmental Engineering, Stanford University,
+Stanford, CA 94305, USA. 3Department of Materials Science and Engineering,
+Stanford University, Stanford, CA 94305, USA. 4Department of Electrical Engineer-
+ing, Stanford University, Stanford, CA 94305, USA. 5Department of Mechanical
+Engineering, Stanford University, Stanford, CA 94305, USA.
+*These authors contribute equally to this work.
+†Corresponding author: Email: zbao@stanford.edu
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 1o f1 0
+
+in the center of a CVD quartz tube to allow the growth of graphene
+on both sides, forming G/Cu/G structures. To transfer graphene, we
+first spin-coated a thin layer of poly(methyl methacrylate) (PMMA)
+to protect one side of the graphene, which we named topside graphene
+(vice versa for the other side of the graphene), and subsequently, the
+entire film (PMMA/top graphene/Cu/bottom graphene) was soaked in
+(NH
+4)2S2O8 solution to etch away the Cu foil. The bottom-side graphene
+without the PMMA coating will unavoidably have cracks and defects
+that allow an etchant to penetrate through ( 36, 37). As illustrated in
+Fig. 1A, under the effect of surface tension, the released graphene domains
+rolled up into scrolls and subsequently attached onto the remaining
+top-G/PMMA film. The top-G/G scrolls could be transferred onto any
+substrate, such as SiO
+2/Si, glass, or soft polymer. Repeating this transfer
+process several times onto the same substrate gives MGG structures.
+T ov e r i f yt h a tt h es c r o l l sa r er o l l e dg r a p h e n ei nn a t u r e ,w ec o n d u c t e d
+high-resolution transmission electron microscopy (TEM) and electron
+energy loss (EEL) spectroscopy studies on the monolayer top-G/G scroll
+structures. Figure 1B shows the hexagonal structure of a monolayer
+graphene, and the inset is an overall morphology of the film covered on
+a single carbon hole of the TEM grid. The monolayer graphene spans
+most of the grid, and some graphene flakes in the presence of multiple
+stacks of hexagonal rings appear (Fig. 1B). By zooming into an individ-
+ual scroll (Fig. 1C), we observed a large amount of graphene lattice
+fringes, with the lattice spacing in the range of 0.34 to 0.41 nm. These
+measurements suggest that the flakes are randomly rolled up and are
+not perfect graphite, which has a lattice spacing of 0.34 nm in“ABAB”
+layer stacking. Figure 1D shows the carbon K-edge EEL spectrum,
+where the peak at 285 eV originates from the p* orbital and the other
+one around 290 eV is due to the transition of the s* orbital. It can be
+seen that sp
+2 bonding dominates in this structure, verifying that the
+scrolls are highly graphitic.
+Morphological and electrical characterizations of MGGs
+Optical microscopy and atomic force microscopy (AFM) images
+provide insight into the distribut ion of graphene nanoscrolls in the
+MGGs (Fig. 1, E to G, and figs. S1 and S2). The scrolls are randomly
+distributed over the surface, and their in-plane density increases pro-
+portionally to the number of stacked layers. Many scrolls are tangled
+into knots and exhibit nonuniform heights in the range of 10 to 100 nm.
+They are 1 to 20 mml o n ga n d0 . 1t o1mm wide, depending on the sizes
+Fig. 1. Schematic illustrations and morphological characterizations of MGGs. (A) Schematic illustration of the fabrication procedure for MGGs as a stretchable
+electrode. During the graphene transfer, backside graphene on Cu foil was broken at boundaries and defects, rolled up into arbitrary shapes, and tigh tly attached onto
+the upper films, forming nanoscrolls. The fourth cartoon depicts the stacked MGG structure. ( B and C) High-resolution TEM characterizations of a monolayer MGG,
+focusing on the monolayer graphene (B) and the scroll (C) region, respectively. The inset of (B) is a low-magnification image showing the overall morp hology of
+monolayer MGGs on the TEM grid. Insets of (C) are the intensity profiles taken along the rectangular boxes indicated in the image, where the distances b etween
+the atomic planes are 0.34 and 0.41 nm. ( D) Carbon K-edge EEL spectrum with the characteristic graphitic p*a n d s* peaks labeled. ( E) Sectional AFM image of
+monolayer G/G scrolls with a height profile along the yellow dotted line. ( F to I) Optical microscopy and AFM images of trilayer G without (F and H) and with scrolls
+(G and I) on 300-nm-thick SiO 2/Si substrates, respectively. Representative scrolls and wrinkles were labeled to highlight their differences.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 2o f1 0
+
+of their initial graphene flakes. As shown in Fig. 1 (H and I), the scrolls
+have significantly larger sizes than the wrinkles, leading to a much
+rougher interface in between graphene layers.
+To measure the electrical properties, we patterned graphene films
+with or without scroll structures and layer stacking into 300-mm-wide
+and 2000-mm-long strips using photolithography. Two-probe resist-
+ances as a function of strain were measured under ambient conditions.
+The presence of scrolls reduced the resistivity for monolayer graphene
+by 80% with only a 2.2% decrease in the transmittance (fig. S4). This
+confirms that nanoscrolls, which have a high current density up to 5 ×
+10
+7 A/cm2 (38, 39), make a very positive electrical contribution to the
+MGGs. Among all the mono-, bi-, and trilayer plain graphene and
+MGGs, the trilayer MGG has the best conductance with a transparency
+of almost 90%. To compare with other sources of graphene reported in
+the literature, we also measured four-probe sheet resistances (fig. S5) and
+listed them as a function of transmittance at 550 nm (fig. S6) in Fig. 2A.
+MGG shows comparable or higher conductivity and transparency than
+artificially stacked multilayer plain graphene and reduced graphene
+oxide (RGO) ( 6, 8, 18). Note that the sheet resistances of artificially
+stacked multilayer plain graphene from literature are slightly higher
+than that of our MGG, probably because of their unoptimized growth
+conditions and transfer method.
+To evaluate the strain-dependent performance of the MGG, we
+transferred graphene onto thermoplastic elastomer styrene-ethylene-
+butadiene-styrene (SEBS) substrates (~2 cm wide and ~5 cm long),
+and the conductivity was measured as the substrate was stretched
+(see Materials and Methods) both perpendicular and parallel to the
+direction of current flow (Fig. 2, B and C). The strain-dependent elec-
+trical behavior improved with the incorporation of nanoscrolls and
+increasing numbers of graphene layers. For example, when strain is
+perpendicular to current flow, for monolayer graphene, the addition
+of scrolls increased the strain at electrical breakage from 5 to 70%. The
+strain tolerance of the trilayer graphene is also significantly improved
+compared with the monolayer graphene. With nanoscrolls, at 100%
+perpendicular strain, the resistance of the trilayer MGG structure only
+increased by 50%, in comparison to 300% for trilayer graphene with-
+out scrolls. Resistance change under cyclic strain loading was investi-
+gated. For comparison (Fig. 2D), the resistances of a plain bilayer
+graphene film increased about 7.5 times after ~700 cycles at 50% per-
+pendicular strain and kept increasing with strain in each cycle. On the
+other hand, the resistance of a bilayer MGG only increased about
+2.5 times after ~700 cycles. Applying up to 90% strain along the par-
+allel direction, the resistance of trilayer graphene increased ~100 times
+after 1000 cycles, whereas it is only~8 times in a trilayer MGG (Fig. 2E).
+Cycling results are shown in fig. S7. The relatively faster increase in
+resistance along the parallel straindirection is because the orientation
+of cracks is perpendicular to the direction of current flow. The deviation
+of resistance during loading and unloading strain is due to the viscoelastic
+Fig. 2. Comparison of electrical and optical properties of MGGs and graphene. (A) Four-probe sheet resistances versus transmittance at 550 nm for several types
+of graphene, where black squares denote mono-, bi-, and trilayer MGGs; red circles and blue triangles correspond with multilayer plain graphene grow n on Cu and Ni
+from the studies of Li et al .( 6) and Kim et al .( 8), respectively, and subsequently transferred onto SiO 2/Si or quartz; and green triangles are values for RGO at different
+reducing degrees from the study of Bonaccorso et al.( 18). (B and C) Normalized resistance change of mono-, bi- and trilayer MGGs and G as a function of perpendicular
+(B) and parallel (C) strain to the direction of current flow. ( D) Normalized resistance change of bilayer G (red) and MGG (black) under cyclic strain loading up to 50%
+perpendicular strain. ( E) Normalized resistance change of trilayer G (red) and MGG (black) under cyclic strain loading up to 90% parallel strain. ( F) Normalized capac-
+itance change of mono-, bi- and trilayer G and bi- and trilayer MGGs as a function of strain. The inset is the capacitor structure, where the polymer subs trate is SEBS and
+the polymer dielectric layer is the 2- mm-thick SEBS.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 3o f1 0
+
+recovery of SEBS elastomer substrate. The more stable resistance of the
+MGG strips during cycling is due to the presence of large scrolls that can
+bridge the cracked parts of the graphene (as observed by AFM), helping
+to maintain a percolating pathway. This phenomenon of maintaining
+conductivity by a percolating pathway has been reported before for
+cracked metal or semiconductor films on elastomer substrates (40, 41).
+To evaluate these graphene-based films as gate electrodes in
+stretchable devices, we covered the graphene layer with an SEBS di-
+electric layer (2 mm thick) and monitored the dielectric capacitance
+change as a function of strain (see Fig. 2F and the Supplementary
+Materials for details). We observed that capacitances with plain mono-
+layer and bilayer graphene electrodes quickly decreased because of the
+loss of in-plane conductivity of graphene. In contrast, capacitances
+gated by MGGs as well as plain trilayer graphene showed an increase
+of capacitance with strain, which is expected because of reduction in
+dielectric thickness with strain. The expected increase in capacitance
+matched very well with the MGG structure (fig. S8). This indicates that
+MGG is suitable as a gate electrode for stretchable transistors.
+Exploration of CNTs as a replacement of graphene scrolls
+To further investigate the role of the 1D graphene scroll on the strain
+tolerance of electrical conductivity and better control the separation in
+between graphene layers, we used spray-coated CNTs to replace the
+graphene scrolls (see Supplementary Materials). To mimic MGG struc-
+tures, we deposited three densities of CNTs (that is, CNT1<CNT2<CNT3)
+on graphene, followed by another transferred graphene layer to make
+a G-CNT-G stack (Fig. 3, A to C). Similar to the MGG structures,
+G-CNT-G also exhibits a moderate increase in resistance even up to
+100% strain, which is perpendicular to the direction of current flow.
+With a higher CNT density, the G-CNT-G stack demonstrated less
+resistance change with increasing strain at the expense of reduced
+optical transmittance (Fig. 3, D and E). This indicates that combining
+conductive 1D structures with transferred graphene is a general ap-
+proach to improving the electrical stretchability of graphene. The ad-
+vantage of graphene scrolls is that they are formed spontaneously
+during a transfer process without any additional processing steps. In
+addition, with similar film transmittance, both the conductivity and
+strain tolerance of MGG is better than G-CNT-G (Table 1). For exam-
+p l e ,t h er e s i s t a n c ec h a n g eo fG - C N T 3 - Gi sm o r et h a nt h r e et i m e sl a r g e r
+than that of a trilayer MGG although the transmittance is 1.1% lower
+than that of trilayer MGG. This implies that although intercalating con-
+ductive species in between graphene layers is a common approach
+toward stretchable and transparent electrodes, the MGG is better in
+electrical performance, transparency, and strain tolerance. This is most
+Fig. 3. Exploration of CNTs as a replacement of graphene scrolls. (A to C) AFM images of three different densities of CNTs (CNT1<CNT2<CNT3) on graphene. (D)O p t i c a l
+transmittances of G-CNT-G on quartz. (E) Normalized resistance change of G-CNT-G as a function of strain.Transmittance and normalized resistance change of trilayer MGGs
+are listed as a comparison.
+Table 1. Comparison of the transmittance at 550 nm and the nor-
+malized resistance change at designated strains of the two types of
+graphene structures. N/A, not applicable.
+Transmittance
+at 550 nm (%)
+(R − R
+0)/R0
+at 50%
+(R − R0)/R0
+at 100%
+Mono-G/G scrolls 95.9 1.96 N/A
+Bi-G/G scrolls 91.6 1.22 3.86
+Tri-G/G scrolls 88.5 0.24 0.54
+G-CNT1-G 94.6 2.07 7.29
+G-CNT2-G 91.3 1.39 4.72
+G-CNT3-G 87.4 0.72 2.22
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 4o f1 0
+
+likely due to the larger dimension and higher conductivity of the
+g r a p h e n en a n o s c r o l l sa sw e l la st h e i ri r r e g u l a rh e i g h t ,w h i c hi sm o r e
+effective in decreasing graphene layer-layer interaction and connecting
+the cracked graphene domains formed during strain.
+Understanding the strain tolerance of conductivity of
+various graphene structures
+To further understand their capability as electrodes for stretchable
+electronics, we systematically investigated the morphologies of MGG
+and G-CNT-G under strain. Optical microscopy and scanning electron
+microscopy (SEM) are not effectivecharacterization methods because
+both lack color contrast and SEM is subject to image artifacts during elec-
+tron scanning when graphene is on polymer substrates (figs. S9 and S10).
+To observe in situ the graphene surface under strain, we collected AFM
+measurements on trilayer MGGs and plain graphene after transferring
+onto very thin (~0.1 mm thick) and elastic SEBS substrates. Because of
+the intrinsic defects in CVD graphene and extrinsic damage during the
+transfer process, cracks are inevitably generated on the strained graphene,
+and with increasing strain, the cracks became denser (Fig. 4, A to D). De-
+pending on the stacking structure of the carbon-based electrodes, the
+cracks exhibit different morphologies (fig. S11) (27). Crack area density
+(defined as crack area/analyzed area) of multilayer graphene is less than
+that of monolayer graphene after strain, which is consistent with the in-
+crease in electrical conductivity for MGGs. On the other hand, scrolls are
+often observed to bridge the cracks, providing additional conductive
+pathways in the strained film. For example, as labeled in the image of
+Fig. 4. Understanding the strain tolerance of conductivity of various graphene structures. (A to H) In situ AFM images of trilayer G/G scrolls (A to D) and trilayer G
+structures (E to H) on a very thin SEBS (~0.1 mm thick) elastomer at 0, 20, 60, and 100% strain. Representative cracks and scrolls are pointed with arrows . All the AFM
+images are in an area of 15 mm×1 5 mm, using the same color scale bar as labeled. ( I) Simulation geometry of patterned monolayer graphene electrodes on the SEBS
+substrate. (J) Simulation contour map of the maximal principal logarithmic strain inthe monolayer graphene and the SEBS substrate at 20% external strain. (K)C o m p a r i s o no f
+crack area density (red column), scroll area de nsity (yellow column), and surface roughness (blue column) for different graphene structures.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 5o f1 0
+
+Fig. 5. Demonstration of stretchable and transparent all-carbon transistors. (A) Scheme of graphene-based stretchable transistor. SWNTs, single-walled carbon
+nanotubes. (B) Photo of the stretchable transistors made of graphene electrodes (top) and CNT electrodes (bottom). The difference in transparency is clearly noti ceable.
+(C and D) Transfer and output curves of the graphene-based transistor on SEBS before strain. ( E and F) Transfer curves, on and off current, on/off ratio, and mobility of
+the graphene-based transistor at different strains.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 6o f1 0
+
+Fig. 4B, a wide scroll crossed over a crack in the trilayer MGG, but no
+s c r o l lw a so b s e r v e di nt h ep l a i ng r a p hene (Fig. 4, E to H). Similarly, CNTs
+also bridged the cracks in graphene (fig. S11). The crack area density,
+scroll area density, and roughness of the films are summarized in Fig. 4K.
+When the MGG films are stretched, there is an important additional
+mechanism that the scrolls can bridge cracked regions of graphene,
+maintaining a percolating network. The graphene scrolls are promising
+because they can be tens of micrometers in length and therefore able to
+bridge cracks that are typically up to micrometer scale. Furthermore,
+because the scrolls consist of multilayers of graphene, they are expected
+to have low resistance. In comparison, relatively dense (lower transmit-
+tance) CNT networks are required to provide comparable conductive
+bridging capability, as CNTs are smaller (typically a few micrometers in
+length) and less conductive than scrolls. On the other hand, as shown in
+fig. S12, whereas the graphene cracks during stretching to accommodate
+strain, the scrolls do not crack, indicating that the latter might be sliding
+on the underlying graphene. The reason that they do not crack is likely
+due to the rolled-up structure, composed of many layers of graphene
+(~1 to 20 mml o n g ,~ 0 . 1t o1mm wide, and ~10 to 100 nm high), which
+has a higher effective modulus than the single-layer graphene. As re-
+ported by Green and Hersam (42), metallic CNT networks (tube diam-
+eter of 1.0 nm) can achieve low sheet resistances <100 ohms/sq despite
+the large junction resistance between CNTs. Considering that our
+graphene scrolls have widths of 0.1 to 1 mm and that the G/G scrolls
+have much larger contact areas than CNTs, the contact resistance
+and contact area between graphene and graphene scrolls should not
+be limiting factors to maintain high conductivity.
+The graphene has a much higher modulus than the SEBS substrate.
+Although the effective thickness of the graphene electrode is much lower
+than that of the substrate, the stiffness of the graphene times its thickness
+is comparable to that of the substrate (43, 44), resulting in a moderate
+rigid-island effect. We simulated the deformation of a 1-nm-thick
+graphene on an SEBS substrate (see Supplementary Materials for details).
+According to the simulation results, when 20% strain is applied to the
+SEBS substrate externally, the average strain in the graphene is ~6.6%
+(Fig. 4J and fig. S13D), which is consistent with experimental observations
+(see fig. S13). We compared the strain in the patterned graphene and
+substrate regions using optical microscopy and found the strain in the
+substrate region to be at least twice the strain in the graphene region.
+This indicates that the strain applied on graphene electrode patterns
+could be significantly confined, forming graphene stiff islands on top
+of SEBS (26, 43, 44).
+Therefore, the ability of MGG electrodes to maintain high conduc-
+tivity under high strain is likely enabled by two major mechanisms: (i)
+The scrolls can bridge disconnected regions to maintain a conductive
+percolation pathway, and (ii) the multilayer graphene sheets/elastomer
+may slide over each other, resulting in reduced strain on graphene elec-
+trodes. For multiple layers of transferred graphene on elastomer, the
+layers are not strongly attached with each other, which may slide in re-
+sponse to strain ( 27). The scrolls also increased the roughness of the
+graphene layers, which may help to increase the separation between
+graphene layers and therefore enable the sliding of the graphene
+layers.
+Demonstration of stretchable and transparent
+all-carbon transistors
+All-carbon devices are enthusiastically pursued because of low cost
+and high throughput. In our case, all-carbon transistors were fabri-
+cated using a bottom graphene gate, a top graphene source/drain con-
+tact, a sorted CNT semiconductor, and SEBS as a dielectric (Fig. 5A).
+As shown in Fig. 5B, an all-carbon device with CNTs as the source/
+drain and gate (bottom device) is more opaque than the device with
+graphene electrodes (top device). This is because CNT networks re-
+quire larger thicknesses and, consequently, lower optical transmit-
+tances to achieve sheet resistances similar to that of graphene (fig. S4).
+Figure 5 (C and D) shows representative transfer and output curves before
+strain for a transistor made with bilayer MGG electrodes. The channel
+width and length of the unstrained transistor were 800 and 100mm, respec-
+tively. The measured on/off ratio is greater than 10
+3 with on and off cur-
+rents at the levels of 10−5 and 10−8 A, respectively. The output curve exhibits
+ideal linear and saturation regimes with clear gate-voltage dependence,
+indicating ideal contact between CNTs and graphene electrodes (45).
+The contact resistance with graphene electrodes was observed to be
+lower than that with evaporated Au film (see fig. S14). The saturation
+mobility of the stretchable transistor is about 5.6 cm
+2/Vs, similar to
+that of the same polymer-sorted CNT transistors on rigid Si substrates
+with 300-nm SiO
+2 as a dielectric layer. Further improvement in mobility
+is possible with optimized tube density and other types of tubes (46).
+When the transparent, all-carbon device was stretched in the direc-
+tion parallel to the charge transport direction, minimal degradation was
+observed up to 120% strain. During stretching, the mobility continuously
+decreased from 5.6 cm
+2/Vs at 0% strain to 2.5 cm 2/Vs at 120% strain
+(Fig. 5F). We also compared the transistor performance for different
+channel lengths (see table S1). Notably, at a strain as large as 105%,
+all these transistors still exhibited a high on/off ratio (>10
+3)a n dm o b i l i t y
+(>3 cm2/Vs). In addition, we summarized all the recent work on all-
+carbon transistors (see table S2) ( 47– 52). By optimizing device fab-
+rication on elastomers and using MGGs as contacts, our all-carbon
+Fig. 6. Demonstration of stretchable LED control units by all-carbon transistors. (A) Circuit of a transistor to drive LED. GND, ground. ( B) Photo of the stretchable
+and transparent all-carbon transistor at 0% strain mounted above a green LED. ( C) The all-carbon transparent and stretchable transistor used to switch the LED is being
+mounted above the LED at 0% (left) and ~100% strain (right). White arrows point as the yellow markers on the device to show the distance change being stretched. (D)S i d e
+view of the stretched transistor, with the LED pushed into the elastomer.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 7o f1 0
+
+transistors show good performancein terms of mobility and hysteresis
+as well as being highly stretchable.
+As an application of the fully transparent and stretchable transistor,
+we used it to control an LED’s switching (Fig. 6A). As shown in Fig. 6B,
+the green LED can be seen clearly thr ough the stretchable all-carbon
+device placed directly above. While stretching to ~100% (Fig. 6, C and
+D), the LED light intensity does not change, which is consistent with the
+transistor performance described above (see movie S1). This is the first
+report of stretchable control units made using graphene electrodes,
+demonstrating a new possibility for graphene stretchable electronics.
+CONCLUSION
+In conclusion, we have developed a transparent conductive graphene
+structure that maintains high conductiv i t yu n d e rl a r g es t r a i n sa ss t r e t c h -
+able electrodes, enabled by graphene nanoscrolls in between stacked
+graphene layers. These bi- and trilayer MGG electrode structures on
+an elastomer can maintain 21 and 65%, respectively, of their 0% strain
+conductivities at a strain as high as 100%, compared to complete loss of
+conductivity at 5% strain for typical monolayer graphene electrodes.
+The additional conductive paths of graphene scrolls as well as the weak
+interaction between the transferred layers contribute to the superior
+conductivity stability under strain. We further applied this graphene
+structure to fabricate all-carbon stretchable transistors. So far, this is
+the most stretchable graphene-basedtransistor with the best transpar-
+ency without using buckling. Although the present study was conducted
+to enable graphene for stretchable electronics, we believe that this ap-
+proach can be extended to other 2D materials to enable stretchable 2D
+electronics.
+MATERIALS AND METHODS
+Fabrication of MGG structures
+Large-area CVD graphene was grown on suspended Cu foils (99.999%;
+Alfa Aesar) under a constant pressure of 0.5 mtorr with 50 – SCCM
+(standard cubic centimeter per minute) CH
+4 and 20 – SCCM H 2 as
+precursors at 1000°C. Both sides of the Cu foil were covered by
+monolayer graphene. A thin layer of PMMA (2000 rpm; A4, Microchem)
+was spin-coated on one side of the Cu foil, forming a PMMA/G/Cu foil/
+G structure. Subsequently, the whole film was soaked in 0.1 M ammo-
+nium persulfate [(NH
+4)2S2O8] solution for about 2 hours to etch away
+the Cu foil. During this process, the unprotected backside graphene first
+tore along the grain boundaries andthen rolled up into scrolls because
+of surface tension. The scrolls were attached onto the PMMA-
+supported upper graphene film, forming PMMA/G/G scrolls. The films
+were subsequently washed in deionized water several times and laid on a
+target substrate, such as a rigid SiO
+2/Si or plastic substrate. As soon as
+the attached film dried on the substrate, the sample was sequentially
+soaked in acetone, 1:1 acetone/IPA (isopropyl alcohol), and IPA for
+30 s each to remove PMMA. The films were heated at 100°C for
+15 min or kept in a vacuum overnight to completely remove the
+trapped water before another layerof G/G scroll was transferred onto
+it. This step was to avoid the detachment of graphene film from the
+substrate and ensure full coverage of MGGs during the release of
+PMMA carrier layer.
+Characterizations of MGG structures
+The morphology of the MGG structure was observed using an optical
+microscope (Leica) and a scanning electron microscope (1 kV; FEI). An
+atomic force microscope (Nanoscope III, Digital Instrument) was oper-
+ated in tapping mode to observe the details of the G scrolls. Film trans-
+parency was tested by an ultraviolet-visible spectrometer (Agilent Cary
+6000i). For the tests when the strain was along the perpendicular direc-
+tion of current flow, photolithography and O
+2 plasma were used to pat-
+tern graphene structures into strips (~300 mm wide and ~2000 mm
+long), and Au (50 nm) electrodes were thermally deposited using shadow
+masks at both ends of the long side. The graphene strips were then put
+in contact with an SEBS elastomer (~2 cm wide and ~5 cm long), with
+the long axis of the strips parallel to the short side of SEBS followed by
+BOE (buffered oxide etch) (HF:H
+2O 1:6) etching and eutectic gallium
+indium (EGaIn) as electrical contacts.For parallel strain tests, unpatterned
+graphene structures (~5 × 10 mm) were transferred onto SEBS substrates,
+with long axes parallel to the long side of the SEBS substrate. For both
+cases, the entire G (without G scrolls)/SEBS was stretched along the
+long side of the elastomer in a manual apparatus, and in situ, we
+measured their resistance changes under strain on a probe station with
+a semiconductor analyzer (Keithley 4200-SCS).
+Fabrication of transparent stretchable all-carbon transistors
+The highly stretchable and transparent all-carbon transistors on an elas-
+tic substrate were fabricated by the following procedures to avoid organic
+solvent damage of the polymer dielectric and substrate. MGG structures
+were transferred onto SEBS as gate electrodes. To obtain a uniform thin-
+film polymer dielectric layer (2mmt h i c k ) ,aS E B St o l u e n e( 8 0m g / m l )
+solution was spin-coated on an octadecyltrichlorosilane (OTS)– modified
+SiO
+2/Si substrate at 1000 rpm for 1 min. The thin dielectric film can be
+easily transferred from the hydrophobic OTS surface onto the SEBS
+substrate covered with the as-prepared graphene. A capacitor could be
+made by depositing a liquid-metal (EGaIn; Sigma-Aldrich) top electrode
+to determine the capacitance as a function of strain using an LCR
+(inductance, capacitance, resistance) meter (Agilent). The other part
+of the transistor consisted of polymer-sorted semiconducting CNTs,
+following the procedures reported previously ( 53). The patterned
+source/drain electrodes were fabricated on rigid SiO
+2/Si substrates.
+Subsequently, the two parts, dielectric/G/SEBS and CNTs/patterned
+G/SiO
+2/Si, were laminated to each other, and soaked in BOE to remove
+the rigid SiO2/Si substrate. Thus, the fully transparent and stretchable
+transistors were fabricated. The electrical testing under strain was per-
+formed on a manual stretching setup as the aforementioned method.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/3/9/e1700159/DC1
+Experimental section
+Additional supporting information
+fig. S1. Optical microscopy images of monolayer MGG on SiO
+2/Si substrates at different
+magnifications.
+fig. S2. SEM images of mono-, bi-, and trilayer MGGs on the SiO
+2/Si wafers.
+fig. S3. SEM images of graphene film covered with spray-coated CNTs.
+fig. S4. Comparison of two-probe sheet resistances and transmittances @550 nm of mono-,
+bi- and trilayer plain graphene (black squares), MGG (red circles), and CNTs (blue triangle).
+fig. S5. Sheet resistances of mono-, bi-, and trilayer MGGs.
+fig. S6. Optical transmittances of MGGs and multilayer plain graphene.
+fig. S7. Normalized resistance change of mono- and bilayer MGGs (black) and G (red) under
+~1000 cyclic strain loading up to 40 and 90% parallel strain, respectively.
+fig. S8. Calculation of relative areal capacitance change as a function of strain.
+fig. S9. Optical microscopy image of trilayer MGG on SEBS elastomer.
+fig. S10. SEM image of trilayer MGG on SEBS elastomer after strain, showing a long scroll cross
+over several cracks.
+fig. S11. AFM images of various graphene structures on SEBS elastomer after 100% strain.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 8o f1 0
+
+fig. S12. AFM image of trilayer MGG on very thin SEBS elastomer at 20% strain, showing that a
+scroll crossed over a crack.
+fig. S13. Optical microscopy observation and simulation of graphenes on SEBS under strain.
+fig. S14. Contact resistances of monolayer G/CNTs and Au/CNTs at different gate voltages.
+table S1. Mobilities of bilayer MGG –single-walled carbon nanotube transistors at different
+channel lengths before and after strain.
+table S2. Summary of recent work on all-carbon transistors.
+movie S1. Demonstration of stretchable LED control units by all-carbon transistors.
+References ( 54–58)
+REFERENCES AND NOTES
+1. D. Kuzum, H. Takano, E. Shim, J. C. Reed, H. Juul, A. G. Richardson, J. de Vries, H. Bink,
+M. A. Dichter, T. H. Lucas, D. A. Coulter, E. Cubukcu, B. Litt, Transparent and flexible low
+noise graphene electrodes for simultaneous electrophysiology and neuroimaging.
+Nat. Commun. 5, 5259 (2014).
+2. S. J. Kim, K. W. Cho, H. R. Cho, L. Wang, S. Y. Park, S. E. Lee, T. Hyeon, N. Lu, S. H. Choi,
+D.-H. Kim, Stretchable and transparent biointerface using cell-sheet –graphene hybrid for
+electrophysiology and therapy of skeletal muscle. Adv. Funct. Mater. 26, 3207 –3217
+(2016).
+3. J. Liang, L. Li, X. Niu, Z. Yu, Q. Pei, Elastomeric polymer light-emitting devices and
+displays. Nat. Photonics 7, 817 –824 (2013).
+4. S. Li, B. N. Peele, C. M. Larson, H. Zhao, R. F. Shepherd, A stretchable multicolor display
+and touch interface using photopatterning and transfer printing. Adv. Mater. 28,
+9770–9775 (2016).
+5. S. Bae, H. Kim, Y. Lee, X. Xu, J.-S. Park, Y. Zheng, J. Balakrishnan, T. Lei, H. R. Kim,
+Y. I. Song, Y.-J. Kim, K. S. Kim, B. Özyilmaz, J.-H. Ahn, B. H. Hong, S. Iijima,
+Roll-to-roll production of 30-inch graphene films for transparent electrodes.
+Nat. Nanotechnol. 5, 574 –578 (2010).
+6. X. Li, Y. Zhu, W. Cai, M. Borysiak, B. Han, D. Chen, R. D. Piner, L. Colombo, R. S. Ruoff,
+Transfer of large-area graphene films for high-performance transparent conductive
+electrodes. Nano Lett. 9, 4359 –4363 (2009).
+7. D. R. Cairns, R. P. Witte II, D. K. Sparacin, S. M. Sachsman, D. C. Paine, G. P. Crawford,
+Strain-dependent electrical resistance of tin-doped indium oxide on polymer substrates.
+Appl. Phys. Lett. 76, 1425 (2000).
+8. K. S. Kim, Y. Zhao, H. Jang, S. Y. Lee, J. M. Kim, K. S. Kim, J.-H. Ahn, P. Kim, J.-Y. Choi,
+B. H. Hong, Large-scale pattern growth of graphene films for stretchable transparent
+electrodes. Nature 457, 706 –710 (2009).
+9. H. Lee, I. Kim, M. Kim, H. Lee, Moving beyond flexible to stretchable conductive
+electrodes using metal nanowires and graphenes. Nanoscale 8, 1789 –1822
+(2016).
+10. T.-K. Hong, D. W. Lee, H. J. Choi, H. S. Shin, B.-S. Kim, Transparent, flexible conducting
+hybrid multilayer thin films of multiwalled carbon nanotubes with graphene nanosheets.
+ACS Nano 4, 3861 –3868 (2010).
+11. V. C. Tung, L.-M. Chen, M. J. Allen, J. K. Wassei, K. Nelson, R. B. Kaner, Y. Yang,
+low-temperature solution processing of graphene −carbon nanotube hybrid materials
+for high-performance transparent conductors. Nano Lett. 9, 1949 –1955 (2009).
+12. D. Jariwala, T. J. Marks, M. C. Hersam, Mixed-dimensional van der Waals heterostructures.
+Nat. Mater. 16, 170 –181 (2017).
+13. X. Wan, G. Long, L. Huang, Y. Chen, Graphene — A promising material for organic
+photovoltaic cells. Adv. Mater. 23, 5342 –5358 (2011).
+14. L. Britnell, R. V. Gorbachev, R. Jalil, B. D. Belle, F. Schedin, A. Mishchenko, T. Georgiou,
+M. I. Katsnelson, L. Eaves, S. V. Morozov, N. M. R. Peres, J. Leist, A. K. Geim, K. S. Novoselov,
+L. A. Ponomarenko, Field-effect tunneling transistor based on vertical graphene
+heterostructures. Science 335, 947
+–950 (2012).
+15. T. Georgiou, R. Jalil, B. D. Belle, L. Britnell, R. V. Gorbachev, S. V. Morozov, Y.-J. Kim,
+A. Gholinia, S. J. Haigh, O. Makarovsky, L. Eaves, L. A. Ponomarenko, A. K. Geim,
+K. S. Novoselov, A. Mishchenko, Vertical field-effect transistor based on graphene –WS
+2
+heterostructures for flexible and transparent electronics. Nat. Nanotechnol. 8,
+100–103 (2013).
+16. K. S. Novoselov, V. I. Fal ’ko, L. Colombo, P. R. Gellert, M. G. Schwab, K. Kim, A roadmap for
+graphene. Nature 490, 192 –200 (2012).
+17. H. Jang, Y. J. Park, X. Chen, T. Das, M.-S. Kim, J.-H. Ahn, Graphene-based flexible and
+stretchable electronics. Adv. Mater. 28, 4184 –4202 (2015).
+18. F. Bonaccorso, Z. Sun, T. Hasan, A. C. Ferrari, Graphene photonics and optoelectronics.
+Nat. Photonics 4, 611 –622 (2010).
+19. X. Huang, Z. Zeng, Z. Fan, J. Liu, H. Zhang, Graphene-based electrodes. Adv. Mater. 24,
+5979–6004 (2012).
+2 0 . S . - K .L e e ,H .Y .J a n g ,S .J a n g ,E .C h o i ,B .H .H o n g ,J .L e e ,S .P a r k ,J . - H .A h n ,A l lg r a p h e n e
+based thin film transistors on flexible plastic substrates. Nano Lett. 12, 3472 –3476
+(2012).
+21. T.-H. Han, Y. Lee, M.-R. Choi, S.-H. Woo, S.-H. Bae, B. H. Hong, J.-H. Ahn, T.-W. Lee,
+Extremely efficient flexible organic light-emitting diodes with modified graphene anode.
+Nat. Photonics 6, 105 –110 (2012).
+2 2 . J .L e e ,T . - H .H a n ,M . - H .P a r k ,D .Y .J u n g ,J .S e o ,H . - K .S e o ,H .C h o ,E .K i m ,J .C h u n g ,
+S.-Y. Choi, T.-S. Kim, T.-W. Lee, S. Yoo, Synergetic electrode architecture for
+efficient graphene-based flexible organic light-emitting diodes. Nat. Commun. 7,
+11791 (2016).
+23. T.-H. Han, S.-J. Kwon, N. Li, H.-K. Seo, W. Xu, K. S. Kim, T.-W. Lee, Versatile p-type chemical
+doping to achieve ideal flexible graphene electrodes. Angew. Chem. Int. Ed. Engl. 55,
+6197–6201 (2016).
+24. B. W. An, B. G. Hyun, S.-Y. Kim, M. Kim, M.-S. Lee, K. Lee, J. B. Koo, H. Y. Chu, B.-S. Bae,
+J.-U. Park, Stretchable and transparent electrodes using hybrid structures of graphene−metal
+nanotrough networks with high performances and ultimate uniformity.Nano Lett. 14,
+6322–6328 (2014).
+25. S. H. Chae, W. J. Yu, J. J. Bae, D. L. Duong, D. Perello, H. Y. Jeong, Q. H. Ta, T. H. Ly, Q. A. Vu,
+M. Yun, X. Duan, Y. H. Lee, Transferred wrinkled Al
+2O3 for highly stretchable and
+transparent graphene –carbon nanotube transistors. Nat. Mater. 12, 403 –409 (2013).
+26. R. J. T. Nicholl, H. J. Conley, N. V. Lavrik, I. Vlassiouk, Y. S. Puzyrev, V. P. Sreenivas,
+S. T. Pantelides, K. I. Bolotin, The effect of intrinsic crumpling on the mechanics of
+free-standing graphene. Nat. Commun. 6, 8789 (2015).
+27. S. Won, Y. Hwangbo, S.-K. Lee, K.-S. Kim, K.-S. Kim, S.-M. Lee, H.-J. Lee, J.-H. Ahn,
+J.-H. Kim, S.-B. Lee, Double-layer CVD graphene as stretchable transparent electrodes.
+Nanoscale 6, 6057 –6064 (2014).
+28. K.-Y. Chun, Y. Oh, J. Rho, J.-H. Ahn, Y.-J. Kim, H. R. Choi, S. Baik, Highly conductive,
+printable and stretchable composite films of carbon nanotubes and silver.
+Nat. Nanotechnol. 5, 853 –857 (2010).
+29. N. Matsuhisa, M. Kaltenbrunner, T. Yokota, H. Jinno, K. Kuribara, T. Sekitani, T. Someya,
+Printable elastic conductors with a high conductivity for electronic textile
+applications. Nat. Commun. 6, 7461 (2015).
+30. M. Kaltenbrunner, G. Adam, E. D. G łowacki, M. Drack, R. Schwödiauer, L. Leonat,
+D. H. Apaydin, H. Groiss, M. C. Scharber, M. S. White, N. S. Sariciftci, S. Bauer, Flexible high
+power-per-weight perovskite solar cells with chromium oxide –metal contacts for
+improved stability in air. Nat. Mater. 14, 1032 –1039 (2015).
+31. J. Viventi, D.-H. Kim, L. Vigeland, E. S. Frechette, J. A. Blanco, Y.-S. Kim, A. E. Avrin,
+V. R. Tiruvadi, S.-W. Hwang, A. C. Vanleer, D. F. Wulsin, K. Davis, C. E. Gelber, L. Palmer,
+J. Van der Spiegel, J. Wu, J. Xiao, Y. Huang, D. Contreras, J. A. Rogers, B. Litt, Flexible,
+foldable, actively multiplexed, high-density electrode array for mapping brain activity in
+vivo. Nat. Neurosci. 14, 1599 –1605 (2011).
+3 2 . S . - K .L e e ,B .J .K i m ,H .J a n g ,S .C .Y o o n ,C .L e e ,B .H .H o n g ,J .A .R o g e r s ,J .H .C h o ,
+J.-H. Ahn, Stretchable graphene transistors with printed dielectrics and gate
+electrodes. Nano Lett. 11, 4642 –4646 (2011).
+33. T. Yamada, Y. Hayamizu, Y. Yamamoto, Y. Yomogida, A. Izadi-Najafabadi, D. N. Futaba,
+K. Hata, A stretchable carbon nanotube strain sensor for human-motion detection.
+Nat. Nanotechnol. 6,2 9 6–301 (2011).
+34. N. Lu, C. Lu, S. Yang, J. Rogers, Highly sensitive skin-mountable strain gauges based
+entirely on elastomers. Adv. Funct. Mater. 22, 4044 –4050 (2012).
+3 5 . M .K .B l e e s ,A .W .B a r n a r d ,P .A .R o s e ,S .P .R o b e r t s ,K .L .M c G i l l ,P .Y .H u a n g ,
+A .R .R u y a c k ,J .W .K e v e k ,B .K o b r i n ,D .A .M u l l e r ,P .L .M c E u e n ,G r a p h e n ek i r i g a m i .
+Nature 524, 204 –207 (2015).
+36. O. V. Yazyev, S. G. Louie, Topological defects in graphene: Dislocations and grain
+boundaries. Phys. Rev. B Condens. Matter Mater. Phys. 81, 195420 (2010).
+37. B. Wang, Y. S. Puzyrev, S. T. Pantelides, Enhanced chemical reactions of oxygen at grain
+boundaries in polycrystalline graphene. Polyhedron 64, 158 –162 (2013).
+38. X. Xie, L. Ju, X. Feng, Y. Sun, R. Zhou, K. Liu, S. Fan, Q. Li, K. Jiang, Controlled fabrication of
+high-quality carbon nanoscrolls from monolayer graphene. Nano Lett. 9, 2565 –2570
+(2009).
+39. L. M. Viculis, J. J. Mack, R. B. Kaner, A chemical route to carbon nanoscrolls.
+Science 299,
+1361 (2003).
+40. I. M. Graz, D. P. J. Cotton, S. P. Lacour, Extended cyclic uniaxial loading of stretchable gold
+thin-films on elastomeric substrates. Appl. Phys. Lett. 94, 071902 (2009).
+4 1 . A .C h o r t o s ,J .L i m ,JW .F .T o ,M .V o s g u e r i t c h i a n ,T .J .D u s s e a u l t ,T . - H .K i m ,S .H w a n g ,
+Z. Bao, Highly stretchable transistors using a microcracked organic semiconductor.
+Adv. Mater. 26, 4253 –4259 (2014).
+42. A. A. Green, M. C. Hersam, Colored semitransparent conductive coatings consisting of
+monodisperse metallic single-walled carbon nanotubes.Nano Lett. 8, 1417–1422 (2008).
+43. R. Faccio, P. A. Denis, H. Pardo, C. Goyenola, A. W. Mombrú, Mechanical properties of
+graphene nanoribbons. J. Phys. Condens. Matter 21, 285304 (2009).
+44. C. Lee, X. Wei, J. W. Kysar, J. Hone, Measurement of the elastic properties and intrinsic
+strength of monolayer graphene. Science 321, 385 –388 (2008).
+45. C.-a. Di, D. Wei, G. Yu, Y. Liu, Y. Guo, D. Zhu, Patterned graphene as source/drain
+electrodes for bottom-contact organic field-effect transistors. Adv. Mater. 20, 3289 –3293
+(2008).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 9o f1 0
+
+46. T. Lei, G. Pitner, X. Chen, G. Hong, S. Park, P. Hayoz, R. T. Weitz, H.-S. P. Wong, Z. Bao,
+Dispersion of high-purity semiconducting arc-discharged carbon nanotubes using
+backbone engineered diketopyrrolopyrrole (DPP)-based polymers. Adv. Electron. Mater. 2,
+1500299 (2016).
+47. M. Xia, Z. Cheng, J. Han, S. Zhang, Extremely stretchable all-carbon-nanotube transistor
+on flexible and transparent substrates. Appl. Phys. Lett. 105, 143504 (2014).
+48. F. Xu, M.-Y. Wu, N. S. Safron, S. S. Roy, R. M. Jacobberger, D. J. Bindl, J.-H. Seo, T.-H. Chang,
+Z. Ma, M. S. Arnold, Highly stretchable carbon nanotube transistors with ion gel gate
+dielectrics. Nano Lett. 14, 682 –686 (2014).
+49. L. Cai, S. Zhang, J. Miao, Z. Yu, C. Wang, Fully printed stretchable thin-film transistors and
+integrated logic circuits. ACS Nano 10, 11459 –11468 (2016).
+50. A. Chortos, G. I. Koleilat, R. Pfattner, D. Kong, P. Lin, R. Nur, T. Lei, H. Wang, N. Liu, Y.-C. Lai,
+M.-G. Kim, J. W. Chung, S. Lee, Z. Bao, Mechanically durable and highly stretchable
+transistors employing carbon nanotube semiconductor and electrodes. Adv. Mater. 28,
+4441–4448 (2016).
+51. J. Liang, L. Li, D. Chen, T. Hajagos, Z. Ren, S.-Y. Chou, W. Hu, Q. Pei, Intrinsically
+stretchable and transparent thin-film transistors based on printable silver
+nanowires, carbon nanotubes and an elastomeric dielectric. Nat. Commun. 6, 7647
+(2015).
+52. A. Sekiguchi, F. Tanaka, T. Saito, Y. Kuwahara, S. Sakurai, D. N. Futaba, T. Yamada, K. Hata,
+Robust and soft elastomeric electronics tolerant to our daily lives. Nano Lett. 15,
+5716–5723 (2015).
+53. T. Lei, X. Chen, G. Pitner, H.-S. P. Wong, Z. Bao, Removable and recyclable conjugated
+polymers for highly selective and high-yield dispersion and release of low-cost carbon
+nanotubes. J. Am. Chem. Soc. 138, 802 –805 (2016).
+54. P. I. Hsu, R. Bhattacharya, H. Gleskova, M. Huang, Z. Xi, Z. Suo, S. Wagner, J. C. Sturmless,
+Thin-film transistor circuits on large-area spherical surfaces. Appl. Phys. Lett. 81,
+1723–1725 (2002).
+55. J. A. Rogers, T. Someya, Y. Huang, Materials and mechanics for stretchable electronics.
+Science 327, 1603 –1607 (2010).
+56. J. Song, Mechanics of stretchable electronics. Curr. Opin. Solid State Mater. Sci. 19,
+160–170 (2015).
+57. J. Dargahi, S. Najarian, Human tactile perception as a standard for artificial tactile
+sensing — Ar e v i e w .Int. J. Med. Robot. 1,2 3 –35 (2004).
+5 8 . N .C .C h e n ,P .H .C h a n g ,A .P .C h i u ,M .C .W a n g ,W .S .F e n g ,G .M .W u ,C .F .S h i h ,K .S .L i u ,
+Modified transmission line model and its application to aluminum ohmic contacts
+with n-type GaN. Appl. Phys. Lett. 84, 2584 –2586 (2004).
+Acknowledgments: M. Gebbie, M. Ferro, and N. Melosh at Stanford University gave advice on
+conductive AFM. H. Tian and H. Wang at the University of California, Los Angeles, provided
+part of the graphene sample on Cu foil. Funding: Z.B. acknowledges the support from
+Samsung Electronics and Air Force Office of Scientific Research (grant no. FA9550-15-1-0106).
+R.P. acknowledges support from the Marie Curie Cofund, Beatriu de Pinós fellowship (Agència
+de Gestió d‘
+Ajuts Universitaris i de Recerca, 2014 BP-A 00094).Author contributions:N.L. and Z.B.
+conceived the idea. N.L., A.C., and T.L. performed the experiments. N.L., A.C., T.L., L.J., T.R.K., R.S.,
+W.-G.B., C.Z., S.W., R.P., X.C., and Z.B. analyzed the data. N.L., A.C., L.J., and Z.B. wrote the paper.
+Competing interests: The authors declare that they have no competing interests. Data and
+materials availability:All data needed to evaluate the conclusions in the paper are present in
+the paper and/or the Supplementary Materials. Additional data related to this paper may be
+requested from the authors by emailing Z.B. at zbao@stanford.edu.
+Submitted 15 January 2017
+Accepted 9 August 2017
+Published 8 September 2017
+10.1126/sciadv.1700159
+Citation: N. Liu, A. Chortos, T. Lei, L. Jin, T. R. Kim, W.-G. Bae, C. Zhu, S. Wang, R. Pfattner,
+X. Chen, R. Sinclair, Z. Bao, Ultratransparent and stretchable graphene electrodes. Sci. Adv.
+3, e1700159 (2017).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Liu et al ., Sci. Adv. 2017; 3 : e1700159 8 September 2017 10 of 10

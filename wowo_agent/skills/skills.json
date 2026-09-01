@@ -1,0 +1,10 @@
+{
+  "current": "default",
+  "skills": [
+    {
+      "id": "default",
+      "name": "默认 Skill",
+      "content": "输出你好，这是默认skill"
+    }
+  ]
+}

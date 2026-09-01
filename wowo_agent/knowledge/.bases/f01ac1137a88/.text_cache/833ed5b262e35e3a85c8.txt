@@ -1,0 +1,444 @@
+Stretchable electronics based on
+Ag-PDMS composites
+Alexandre Larmagnac, Samuel Eggenberger, Hanna Janossy & Janos Vo¨ro¨s
+Laboratory of Biosensors and Bioelectronics, Institute for Biomedical Engineering, ETH Zurich, CH-8092, Switzerland.
+Patterned structures of flexible, stretchable, electrically conductive materials on soft substrates could lead to
+novel electronic devices with unique mechanical properties allowing them to bend, fold, stretch or conform
+to their environment. For the last decade, research on improving the stretchability of circuits on elastomeric
+substrates has made significant progresses but designing printed circuit assemblies on elastomers remains
+challenging. Here we present a simple, cost-effective, cleanroom-free process to produce large scale soft
+electronic hardware where standard surface-mounted electrical components were directly bonded onto
+all-elastomeric printed circuit boards, or soft PCBs. Ag-PDMS tracks were stencil printed onto a PDMS
+substrate and soft PCBs were made by bonding the top and bottom layers together and filling punched holes
+with Ag-PDMS to create vias. Silver epoxy was used to bond commercial electrical components and no
+mechanical failure was observed after hundreds of stretching cycles. We also demonstrate the fabrication of
+a stretchable clock generator.
+S
+tretchable electronics enables new applications such as stretchable displays 1, electronic skins 2, flexible
+sensors for personalized healthcare 3 and conformal electrode arrays to interface the heart and brain 4 that
+are not possible with rigid electronics. To achieve this, standard silicon or polymeric substrate materials
+were replaced by elastomers and one of the key technical challenges was to develop stretchable electronic
+materials that offer the electrical conductivity of metals while enduring large repeated strains. Several promising
+approaches have been developed to improve stretchability. One was to play with the geometry of inorganic
+conductors to compensate the mechanical properties mismatch with the elastomeric substrate either by using thin
+gold films 5, wavy silicon nanoribbons 6 or by patterning spring-shaped metal traces 7,8. Another approach con-
+sisted in shaping the substrate e.g. making it porous or engineering microfluidic channels and coating it with a
+metal layer9 or filling it with liquid metal alloys like eutectic GaIn10,11. A third approach was to produce stretchable
+conductive composites by dispersing12, casting13, reducing14 or implanting15 nano or micro conductive particles in
+poly(dimethylsiloxane) (PDMS) or polyurethane (PU). Although these methods are ingenious and useful for
+producing stretchable interconnects, they do not offer all the possibilities that printed circuit boards do. Large-
+scale production of solderable stretchable electronics using standard design and routing tools that can be inter-
+faced with rigid electronics remains a challenge but would make this technology even more attractive.
+In this paper we present a simple, low-cost and large scale process to produce all-elastomeric solderable
+stretchable printed circuit boards that we refer to as soft PCBs and we show a few stretchable circuits using
+commercial electrical components. The stretchable conductor used in this method, which is a mixture of Ag and
+PDMS, can be stretched at high strains while maintaining a high conductivity 12. Here, the electrical and mech-
+anical properties of the composite were investigated to determine the best mixture for stretchable circuit applica-
+tions. The conductivity, contact resistance and response to various applied strains as well as elastic modulus,
+maximum tensile strain and Poisson ratio of samples with different Ag volume contents were measured. We
+demonstrate that this composite can be stencil printed or screen printed with a resolution of 150 mm for large
+scale fabrication of large stretchable circuit boards on PDMS substrates. Double sided soft PCBs with vias were
+successfully produced by bonding the bottom and top layers and filling punched holes with the same composite to
+create vias. The conductivity of the printed composite surprisingly increased with the reduced wire dimensions.
+We believe this is due to the fact that particles are brought closer to each other during the printing of narrow lines.
+The tracks of a double sided soft PCB had a typical resistance of 2 Ohms/cm.
+Direct bonding of commercial electrical components on a stretchable substrate is challenging and usually
+requires the substrate to be stiffened 16–18 or the component to be encapsulated 19. Recently electroplated Ni on a
+conductive porous PDMS was used as a metal anchor for affixing LEDs 9. However this process involved several
+metal deposition and electroplating steps and required meander shaped tracks for stretchability. Here we demon-
+strated the use of Ag-epoxy to bond commercial electrical components on straight tracks for the construction of
+OPEN
+SUBJECT AREAS:
+ELECTRONIC DEVICES
+ELECTRICAL AND ELECTRONIC
+ENGINEERING
+Received
+8 July 2014
+Accepted
+20 October 2014
+Published
+1 December 2014
+Correspondence and
+requests for materials
+should be addressed to
+A.L. (larmagnac@
+biomed.ee.ethz.ch)
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 1
+
+electronic circuits for the first time as it is actually done with PCBs.
+We also show the compatibility of our soft PCBs with ZIF connectors
+to interface soft and hard circuits together.
+Results and discussion
+Fabrication of soft PCBs using stencil printing and screen printing.
+Stencil printing . Large-area Ag-PDMS structures were fabricated
+using standard industrial printing techniques: stencil printing and
+screen printing (see Methods). Custom-made copper stencils were
+used as shadow masks for patterning structures of Ag-PDMS as
+shown in Fig. 1a. The adhesion between the PDMS substrate and
+the stencil was affected by the roughness of the copper surface.
+Stencils with smooth surface (no treatment) adhered strongly to
+the substrate and did not move during printing whereas thinner
+stencils produced by wet etching from both sides poorly adhered
+to the PDMS due to their rougher surface. Hence, thinner stencils
+were produced by wet etching one side of the copper stencil while
+protecting the other side with tape. 150 mm wide lines with 100 mm
+spacing were achieved using 100 mm thick stencils as shown in
+Fig. 1b. Such stencils were robust enough to be reused several
+times without getting deformed contrary to thinner stencils that
+were more fragile. Hexane was used as a cleaner between
+consecutive printings. Printing could be repeated several times
+using the same stencil without losing quality. Mishandled stencils
+tended to buckle and did not lay perfectly flat during printing which
+led to defects and unwanted short circuits between lines. Figure 1c
+shows the cross sections of lines printed using Ag-PDMS with
+different viscosity. High resolution patterns could not be achieved
+using Ag-PDMS with filler content below 22vol% since the material
+was flowing after the stencil was removed due to its lower viscosity.
+Prolonged use of Ag-paste during repeated printings accelerated the
+cross linking and aging of the composite thus increasing excessively
+the viscosity of the paste and introducing short circuits between
+lines. However, Ag-PDMS pastes could be stored at 224uC over a
+year without dramatic loss of performance. Figure 1f shows typical
+short circuits between lines resulting from bad printing. Such defects
+could be manually removed before the composite was cured or after
+curing by cutting away the undesired parts, as it is done with
+standard PCBs, and filling the cavities with uncured PDMS.
+Closed lines could not be printed using this method because there
+was no frame to hold the stencil together.
+Screen printing. This was not anymore a problem when using screen
+printing since the screens are composed of a mesh on which a thick
+resin is applied. The screen was fixed on a frame and its vertical
+position could be adjusted with screws. The distance between the
+screen and the PDMS was set to 4 mm to prevent the resin to stick to
+the PDMS during printing. Hence a metallic mesh was preferred to a
+plastic mesh because of its superior rigidity to avoid buckling after
+such a large deformation. Large patterns could successfully be
+printed on 8 0 wafers covered with PDMS as shown in Fig. 1d. Line
+widths of 70 mm and spacing of 50 mm were achieved as shown in
+Fig. 1e. Lines were 40 mm thick, which corresponds to the thickness
+of the resin on the screen. Smaller features could not be fully trans-
+ferred and looked like dashed lines. Cleaning the mesh before each
+printing was necessary to remove residues clogging the mesh aper-
+tures. Figure 1g shows large soft PCBs produced using screen print-
+ing. The PCBs were soft enough to conform to various surfaces.
+Patterning conductive PDMS on elastomeric substrates have been
+investigated in quite a few ways by microcontact printing 20, trench
+filling21 or photocrosslinking conductive PDMS 22. High resolution
+patterns of highly viscous pastes can be achieved using trench filling
+or photopatternable conductive PDMS but are challenging using
+microcontact printing. stencil printing and screen printing are
+commonly used in the electronics manufacturing process to print
+Figure 1 | Fabrication of soft PCBs using stencil printing and screen printing. (a) Picture showing the stencil printing of Ag-PDMS composites.
+(b) SEM picture of the stencil printed lines with highest achieved resolution. (c) Microscopic images showing the cross sections of stencil printed A g-
+PDMS with 25vol% (top) and 13vol% (bottom). (d) Picture showing the setup for screen printing on 8 0 wafers. (e) Microscopic image of finest screen
+printed lines (black) and spacing (white). (f) Microscopic image showing typical defects like short circuits or delamination of the PDMS layer from t he
+glass substrate. (g) Picture of very long screen printed tracks. Scale bars are 0.1 mm in (c), 1 mm in (b), (e) and 10 mm in (g).
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 2
+
+electronic circuits. Although large stencil printed patterns of Ag-
+PDMS were already reported by others 23, we investigated here the
+feasibility of printing stretchable circuits of dimensions comparable
+to standard electronics. We also showed that screen printing was
+compatible with this material and that clogged Ag-PDMS can be
+removed to allow multiple printing.
+Electro-mechanical properties of Ag-PDMS composite . Percola-
+tion in composite materials depends on the filler material, aspect
+ratio, quality of dispersion and matrix material and influences both
+electrical and mechanical properties. Conductivity and contact
+resistance were measured using Kelvin sensing on stencil printed
+Ag-PDMS stripes (40 mm 3 5m m 3 0.1 mm) with different
+filler volume fractions ranging from 12% up to 25%. Cured
+samples were peeled off, placed on a glass slide and four probes
+were pressed against the sample using magnets. The volume
+content of Ag particles determines the size of percolation networks
+in the PDMS matrix and the conductivity of the composite. Electrical
+conductivity of 1 S/cm was measured in samples with 13vol% and
+then rapidly increased to 100 S/cm when adding small amounts of
+silver and finally reached 600 S/cm after loading 25vol% of silver in
+the PDMS matrix. The contact resistance followed the inverse
+behavior as shown in Fig. 2a. The data were best fitted with the
+following percolation model (red line) sc 5 s0(c 2ct)t where s0
+was 18168 S/cm, ct was 12.6% and t was 1.68. The changes in
+resistance R/R0 under quasi-static uniaxial strain were measured
+similarly in a tensile test machine at the rate of 1%/min. Rapid
+increase in resistance occurred in samples with low silver content
+when samples with higher concentrations were stretched above 100%
+as shown in Fig. 2b. Samples with 23vol%, 24vol% and 25vol% were
+still conductive before rupture. Large dog-bone samples of Ag-
+PDMS 13vol%, 16vol%, 19vol%, 22vol%, 25vol% and pure PDMS
+were molded and mounted in the tensile test machine to measure its
+mechanical properties. Figure 2c shows stress strain curves for a
+strain rate of 0.1 mm/s. The elastic moduli were defined as the
+slope for the first 1% and are plotted against the silver content in
+Figure 2d. The large error bar for 25vol% can be explained by the
+outlying behavior of one of the three samples that showed higher
+stiffness and early fracture. The max strains at break are shown in
+Figure 2e. It appears that samples loaded with silver particles
+exhibited a higher strain at break that increased with the silver
+volume content and was maximal for 19%. Adding more silver
+seemed to fragilize the material and decrease the maximal
+elongation at rupture. Excessive amount of silver also increased the
+viscosity, thus making the printing difficult and the samples more
+brittle. To investigate the changes in Poisson ratio with silver content,
+Ag-PDMS dog-bone samples were fixed on a custom-made manual
+stretcher placed under a measurescope. Changes in width were
+measured while stretching uniaxially. The Poisson ratio was lower
+for composites with higher filling contents and decreased with
+applied strains as shown in Fig. 2f. Elastomers like PDMS are
+generally considered to be incompressible with a value of Poisson
+ratio of 0.5. Increasing the amount of fillers decreased the Poisson
+ratio that was shown to be strain dependent probably due to
+dewetting and vacuole formation 24 due to weak bonding between
+the silver particles and PDMS. Under tensile strain the volume of
+the composite increased, which decreased the volume content of Ag
+towards the percolation threshold, which explains the rapid in-
+crease in resistance. The influence of sample sizes on conductivity
+and stretchability was also investigated. Narrower tracks (2 mm,
+1 mm, 0.6 mm, 0.3 mm, 0.25 mm, 0.2 mm and 0.15 mm) were
+stencil printed on the same substrate, cured, peeled off and placed
+on a glass slide. Figure 3a and 3b show resp. the max current densities
+and sheet resistances as a function of the line width. The sheet
+resistances unexpectedly decreased when reducing the track width,
+which is in contradiction with percolation theory. The electrical
+resistance of a composite conductor should increase when its
+dimensions become comparable to t h es i z eo ft h ef i l l e rp a r t i c l e s
+because of the lower probability of finding conductive pathways. The
+increase in maximum current densityis consistent with the decrease in
+sheet resistance. The mean conductivity for each line width was plotted
+against the volume fraction in Fig. 3c (without error bars for clarity)
+and the data were fitted using the previously introduced percolation
+model with the same values ofct ant t. The fitted apparent conductivity
+significantly increased when th e track width was decreased below
+0.5 mm as shown in Fig 3d. These results suggested that the
+conductivity of the material was influenced by the size of the printed
+patterns. There are at least two possible explanations to this effect. The
+particles may come in closer contact with each other thus lowering the
+resistance at the interface beca use of higher compressive forces
+when printed through a narrower mask or an increase in particles
+concentration due to the lateral flow of PDMS after printing. The
+samples of the first batch of Ag-PDMS 25vol% with different lines
+widths were stretched to 50% at a speed of 1 mm/s and the change
+in resistance was plotted in Fig. 3e. The narrower lines showed less
+increase in resistance, which is co nsistent with their previously
+described superior performances. Standard PCBs often have copper
+traces of 200 mm in width. These results suggest that printing
+stretchable conductive circuit boa rds with track widths similar to
+that of rigid PCBs is feasible. For t he production of double-sided soft
+PCBs, the top and bottom layers were bonded together and vias were
+created by punching holes through the board and filling them with the
+same Ag-PDMS paste as shown in Fig. 3f.
+Another method for creating through silicone vias reported else-
+where23 consisted in bonding patterned layers of Ag-PDMS to Ag-
+PDMS vias printed onto a PMMA substrate and filling the gap with
+uncured PDMS using a syringe. Here, we aimed at providing a
+method similar to what is found in the industry where drilled holes
+are filled with a conductive paste. This approach was also success-
+fully used with polyurethane composites for flexible electronic
+applications25.
+Bonding components and interfacing soft electronics with hard
+electronics. Interconnecting electrical circuits can be done in a
+reversible manner using mechanical clamping or in an irreversible
+way using solder bonding. Zero Insertion Force (ZIF) connectors
+were used to interconnect soft PCBs to rigid standard PCBs. A
+stretchable ribbon cable with 8 leads was produced using stencil
+printing and was clamped between two ZIF connectors as shown
+in Fig. 4a. The ZIF connectors provided good electrical contacts
+even when the ribbon cable underwent large strains as high as 40%
+(see Supplementary Movie 1) but mechanically damaged the printed
+tracks after repeated manual stretching cycles due shear stress
+exerted by the metallic contacts on the soft Ag-PDMS leads. To
+solve this problem, the local stress can be delocalized by
+reinforcing the terminals with a sheet of polyimide or additional
+clamping on the PDMS. Novel designs of ZIF connectors including
+a second clamping system could significantly improve the reliability
+of the connector. Another way of interconnecting was to use Ag
+epoxy to bond the soft ribbon cable onto a rigid double-sided PCB.
+Figure 4b shows the interconnection between a stretchable ribbon
+cable with 12 conductors and a miniature custom-made connector.
+This solution allowed for smaller contact area and miniaturized
+interconnections but the bond is permanent. The Ag epoxy
+bonding technique was also used to mount SMD components onto
+the soft PCB. Chip resistors of various sizes were bonded between
+two tracks with different widths. Figure 4c shows 0406, 0603 and
+0805 chip resistors after bonding. The samples were stretched to 20%
+over a thousand of cycles several cycles at 1 mm/s and the bond did
+not fail mechanically. When chip resistors were manually removed
+from the circuit by pulling on them some Ag-PDMS came off with
+the components suggesting good adhesion. High yield of the bonding
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 3
+
+was demonstrated with 6 3 7 arrays of LEDs 5 84 contacts (see
+Fig. 4d). A soft astable circuit generating a 2 kHz clock was pro-
+duced using the described method and is visible in Fig. 4e. Finally,
+a stretchable clock generator assembled on a double-sided PCB in-
+cluding vias with LEDs flashing every second and a ZIF connector is
+showed in Fig. 4f. The frequency of the clock determined by the
+values of the resistor and capacitor remained stable during manual
+bending and stretching (see Supplementary Movies 2 and 3).
+Conclusions
+The proposed method integrates important standard PCB design
+features like straight traces, vias, solderability, connectivity with
+Figure 2 | Electro-mechanical properties of different Ag-PDMS composites.(a) Electrical conductivity and contact resistivity of Ag-PDMS composite as
+a function of silver volume fraction (n53). Fitted parameters of the percolation model (red line) are s0 5 18168 S/cm, c t 5 12.6% and t 5 1.68; adj. R-
+squared is 99.2%. (b) Changes in resistance during quasi-static stretching tests. (c) Stress-strain curves at low strain rate for pure PDMS (black), Ag-
+PDMS 13vol% (red), 16vol% (green), 19vol% (dark blue), 22vol% (light blue) and 25vol% (pink) (n 53, error bars removed for clarity). Elastic moduli
+were derived from the slope at 1% strain (inset) and (d) plotted vs silver volume content. Data are well fitted with the Guth-Smallwood equation. E is the
+elastic modulus of pure PDMS and c is the silver volume fraction. (e) Maximal strain at rupture as a function of filler content (n 53) and (f) measured
+Poisson ratios for different silver contents.
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 4
+
+standard hardware and can be used to design soft and stretchable
+PCBs the same way rigid or flexible PCBs are designed. Stencil or
+screen printing Ag-PDMS is a simple solution for large scale pro-
+duction of PCBs at low costs and the method of bonding them
+together and making vias for double sided PCBs is convenient and
+similar to current industrial processes. Double-sided soft PCBs had
+in average a low ohmic resistance of 2 Ohm/cm. Commercial elec-
+trical components can be bonded onto Ag-PDMS tracks using a
+Figure 3 | Stencil printing of narrow lines for the fabrication of soft PCBs. (a) Maximum current densities and (b) sheet resistances for Ag-PDMS
+tracks with different widths and filler contents. (c) Mean values of measured conductivities for different tracks as a function of silver volume fraction and
+fitted using the percolation model with the apparent conductivity as only variable. (d) The fitted apparent conductivity as a function of track width .
+(e) Change in resistance after 50% strain 1 mm/s for Ag-PDMS 25vol% tracks with different widths. R is the resistance after releasing the strain and R 0 is
+the resistance before applying the strain. (f) Picture of a double-sided PCB with vias. The large footprint in the center is for the soldering of a SOIC 14 pins
+packaged IC. Scale bar is 10 mm.
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 5
+
+standard Ag-epoxy to fabricate soft circuits. These circuits can be
+interfaced to rigid electronics using commercial ZIF connectors. An
+astable circuit including all these features was made to demonstrate
+the presented method. This technique also enables the fabrication of
+thin, soft and stretchable conductive leads for multielectrode arrays
+with mechanical properties closer to tissue than state-of-the-art poly-
+imide-based neural interfaces. Such silicone-based implants can be
+used to stimulate or record from the brain or the spinal cord without
+damaging the delicate neural tissue even when implanted in the
+subdural region. This technology paves the way for a new generation
+of neuroprosthetic devices.
+Methods
+Fabrication of the Ag-PDMS composites . To fabricate the Ag-PDMS composites,
+the PDMS prepolymer (Sylgard 184) and silver powder, 2–3.5 micron, 99.9 1%
+(Sigma Aldrich) were first dispersed by hand using a spatula and then mixed in a
+planetary mixer (Thinky ARE-250) for 3 minutes at 2000 rpm and degassed for 1
+minute at 2200 rpm. Next, PDMS curing agent was added (respecting a 10 51 ratio
+between the prepolymer and curing agent) and incorporated into the mixture by
+stirring manually before mixing again for 1.5 minute at 2000 rpm and degassing for
+30 seconds at 2200 rpm. The viscous paste that was obtained was then stored in a
+freezer at 224uC until usage. Prior to usage, the paste was manually stirred with a
+spatula and mixed for 1 minute at 2000 rpm and degassed for 30 seconds at
+2200 rpm.
+Stencil printing and screen printing . Copper stencils were produced on site by wet
+etching of copper foils (Goodfellow, England). To print Ag-PDMS structures on a
+PDMS substrate, the Ag-paste was forced into the stencil using a tape-covered razor
+blade as a squeegee hold to a 45 u angle with the stencil. The applied pressure was just
+enough to remove the excess paste on the stencil. The stencil was then gently peeled
+off. Hexane was used to clean the stencil. Ag-PDMS was screen printed in a similar
+manner using screens purchased by Mantel Digital AG. A metallic screen with 400
+mesh and 40 microns thick resist was hold 4 mm far from the PDMS substrate. A
+hard squeegee was used to spread and press the paste into the mesh. The screen was
+cleaned using a cleaner solution (Mantel Digital AG, Wa ¨denswil, Swizerland). All
+printed samples were placed in an oven at 80uC for 4 hours and let cool down to room
+temperature.
+Mechanical characterization. A measurescope was used to measure the widths of
+printed narrow lines. A microscope was used to measure the thickness of printed lines
+by focusing successively the upper and lower surfaces. Stress strain curves were
+obtained using a tensile test machine (DO-FB0.5TS, Zwick Roell, Germany).
+Electrical characterization. Electrical resistances were measured using four-terminal
+sensing. A stabilized voltage source was used to deliver current to the probe. The
+current was measured over a sense resistor with value chosen in the same order of
+magnitude than the resistance of the probe. The resistances of the probe and of the
+contacts were derived from the measured voltage drop over the contacts and the
+probe.
+1. Sekitani, T. et al. Stretchable active-matrix organic light-emitting diode display
+using printable elastic conductors. Nat. Mater. 8, 494–499 (2009).
+Figure 4 | Fabrication of soft electrical circuits on PDMS integrating commercially available electrical components. (a) Picture of a ribbon cable
+with 8 conductors clamped on both ends by a commercial ZIF connector. (b) Picture of a custom-made miniature connector with 12 contacts. (c) Pictures
+of chip resistors bonded on conductive tracks (from left to right: 0805, 0603 and 0402 packages). (d) Picture of a large array of SMD LEDs bonded on a soft
+PCB. (e) Picture of a 2 kHz clock generator produced on a 0.2 mm thick soft single-sided PCB that conforms to a plastic brain. (f) Picture of a 1 Hz clock
+generetor with LEDs to display the output levels and produced on a 0.7 mm thick double-sided soft PCB (that shows less conformability on the plastic
+brain than the single-sided PCB) with vias and connected to a power supply with a ZIF connector.
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 6
+
+2. Cotton, D. P. J., Graz, I. M. & Lacour, S. P. A Multifunctional Capacitive Sensor for
+Stretchable Electronic Skins. IEEE Sens. J. 9, 2008–2009 (2009).
+3. Huang, X., Yeo, W. H., Liu, Y. H. & Rogers, J. A. Epidermal Differential
+Impedance Sensor for Conformal Skin Hydration Monitoring. Biointerphases 7
+(2012).
+4. Kim, D. H., Ghaffari, R., Lu, N. S. & Rogers, J. A. Flexible and Stretchable
+Electronics for Biointegrated Devices. Annu. Rev. Biomed. Eng. 14, 113–128
+(2012).
+5. Lacour, S. P., Wagner, S., Huang, Z. Y. & Suo, Z. Stretchable gold conductors on
+elastomeric substrates. Appl. Phys. Lett. 82, 2404–2406 (2003).
+6. Khang, D. Y., Jiang, H. Q., Huang, Y. & Rogers, J. A. A stretchable form of single-
+crystal silicon for high-performance electronics on rubber substrates. Science 311,
+208–212 (2006).
+7. Gray, D. S., Tien, J. & Chen, C. S. High-conductivity elastomeric electronics. Adv.
+Mater. 16, 393–1 (2004).
+8. Vanfleteren, J. et al. Printed circuit board technology inspired stretchable circuits.
+MRS Bull. 37, 254–260 (2012).
+9. Jeong, G. S. et al. Solderable and electroplatable flexible electronic circuit on a
+porous stretchable elastomer. Nat. Commun. 3 (2012).
+10. Park, J. et al. Three-dimensional nanonetworks for giant stretchability in
+dielectrics and conductors. Nat. Commun. 3 (2012).
+11. Zhu, S. et al. Ultrastretchable Fibers with Metallic Conductivity Using a Liquid
+Metal Alloy Core. Adv. Funct. Mater. 23, 2308–2314 (2013).
+12. Niu, X. Z., Peng, S. L., Liu, L. Y., Wen, W. J. & Sheng, P. Characterizing and
+patterning of PDMS-based conducting composites. Adv. Mater. 19, 2682–1
+(2007).
+13. Xu, F. & Zhu, Y. Highly Conductive and Stretchable Silver Nanowire Conductors.
+Adv. Mater. 24, 5117–5122 (2012).
+14. Park, M. et al. Highly stretchable electric circuits from a composite material of
+silver nanoparticles and elastomeric fibres. Nat. Nanotechnol. 7, 803–809 (2012).
+15. Rosset, S., Niklaus, M., Dubois, P. & Shea, H. R. Metal Ion Implantation for the
+Fabrication of Stretchable Electrodes on Elastomers. Adv. Funct. Mater. 19,
+470–478 (2009).
+16. Romeo, A., Liu, Q. H., Suo, Z. G. & Lacour, S. P. Elastomeric substrates with
+embedded stiff platforms for stretchable electronics. Appl. Phys. Lett. 102 (2013).
+17. Graz, I. M., Cotton, D. P. J., Robinson, A. & Lacour, S. P. Silicone substrate with in
+situ strain relief for stretchable thin-film transistors. Appl. Phys. Lett. 98 (2011).
+18. Lacour, S. P., Wagner, S., Narayan, R. J., Li, T. & Suo, Z. G. Stiff subcircuit islands
+of diamondlike carbon for stretchable electronics. J. Appl. Phys. 100 (2006).
+19. Kim, D. H. et al. Optimized Structural Designs for Stretchable Silicon Integrated
+Circuits. Small 5, 2841–2847 (2009).
+20. Liu, C. X. & Choi, J. W. Patterning conductive PDMS nanocomposite in an
+elastomer using microcontact printing. J Micromech Microeng 19 (2009).
+21. Yu, C. J. et al. All-Elastomeric, Strain-Responsive Thermochromic Color
+Indicators. Small 10, 1266–1271 (2014).
+22. Cong, H. L. & Pan, T. R. Photopatternable conductive PDMS materials for
+microfabrication. Adv. Funct. Mater. 18, 1912–1921 (2008).
+23. Agar, J. C., Durden, J., Zhang, R. W., Staiculescu, D. & Wong, C. P. Through
+Silicone Vias: Multilayer interconnects for Stretchable Electronics. Elec Comp C ,
+1567–1571 (2011).
+24. Farris, R. J. Dilatation of granular filled elastomers under high rates of strain.
+J. Appl. Polym. Sci. 8, 25–35 (1964).
+25. Li, Z. et al. Highly Conductive, Flexible, Polyurethane-Based Adhesives for
+Flexible and Printed Electronics. Adv. Funct. Mater. 23, 1459–1465 (2013).
+Acknowledgments
+We thank F. Mettler and T. Kinkeldei for technical help with the tensile test machine, S.
+Wheeler and M. Lanz for their valuable technical support. We thank the EU FP7 NEUWalk
+project and ETH Zurich for funding.
+Author contributions
+A.L. designed and performed most of the experiments, analyzed the data, prepared the
+figures and wrote the manuscript. S.E. was involved in the tensile tests measurements and
+results analysis. H.J. was involved in setting up the screen printing technique and tested the
+technique. A.L. and J.V. discussed the results and commented on the manuscript.
+Additional information
+Supplementary information accompanies this paper at http://www.nature.com/
+scientificreports
+Competing financial interests: The authors declare no competing financial interests.
+How to cite this article: Larmagnac, A., Eggenberger, S., Janossy, H. & Vo¨ro¨s, J. Stretchable
+electronics based on Ag-PDMS composites. Sci. Rep. 4, 7254; DOI:10.1038/srep07254
+(2014).
+This work is licensed under a Creative Commons Attribution-NonCommercial-
+NoDerivs 4.0 International License. The images or other third party material in
+this article are included in the article’s Creative Commons license, unless indicated
+otherwise in the credit line; if the material is not included under the Creative
+Commons license, users will need to obtain permission from the license holder
+in order to reproduce the material. To view a copy of this license, visit http://
+creativecommons.org/licenses/by-nc-nd/4.0/
+www.nature.com/ scientificreports
+SCIENTIFIC REPORTS | 4 : 7254 | DOI: 10.1038/srep07254 7

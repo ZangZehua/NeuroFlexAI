@@ -1,0 +1,1218 @@
+ARTICLE
+Received 20 Nov 2014 | Accepted 27 May 2015 | Published 15 Jul 2015
+Intrinsically stretchable and transparent thin-ﬁlm
+transistors based on printable silver nanowires,
+carbon nanotubes and an elastomeric dielectric
+Jiajie Liang 1,L uL i 1, Dustin Chen 1, Tibor Hajagos 1, Zhi Ren 1, Shu-Yu Chou 1, Wei Hu 1 & Qibing Pei 1
+Thin-ﬁlm ﬁeld-effect transistor is a fundamental component behind various mordern
+electronics. The development of stretchable electronics poses fundamental challenges in
+developing new electronic materials for stretchable thin-ﬁlm transistors that are mechanically
+compliant and solution processable. Here we report the fabrication of transparent thin-ﬁlm
+transistors that behave like an elastomer ﬁlm. The entire fabrication is carried out by solution-
+based techniques, and the resulting devices exhibit a mobility of B30 cm
+2 V /C0 1 s /C0 1, on/off
+ratio of 10 3–104, switching current 4100 mA, transconductance 450 mS and relative low
+operating voltages. The devices can be stretched by up to 50% strain and subjected to
+500 cycles of repeated stretching to 20% strain without signiﬁcant loss in electrical property.
+The thin-ﬁlm transistors are also used to drive organic light-emitting diodes. The approach
+and results represent an important progress toward the development of stretchable
+active-matrix displays.
+DOI: 10.1038/ncomms8647 OPEN
+1 Department of Materials Sciences and Engineering, Henry Samuli School of Engineering and Applied Science, University of California, Los Angeles, C alifornia
+90095, USA. Correspondence and requests for materials should be addressed to Q.B.P. (email: qpei@seas.ucla.edu).
+NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications 1
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+W
+earable and biomedical electronic applications
+demand advanced materials and electronic devices
+to simultaneously possess deformability, solid state,
+light weight, visual transparency and low processing cost 1–5.
+Stretchable thin-ﬁlm ﬁeld-effect transistor (TFT) would become a
+fundamental building component enabling a variety of stretchable
+electronic devices including displays, sensor arrays, thin-ﬁlm
+circuits and identiﬁcation tags for control, data-processing
+and communication. We have recently reported intrinsically
+stretchable solid-state organic light-emitting devices (OLED) 6–8
+and simple pixelated displays. For high-content information
+display, an intrinsically stretchable TFT array is also highly
+demanded to drive a display panel comprising a large number of
+pixels. Being transparent for the OLEDs and the TFTs would
+signiﬁcantly expand the range of applications of the active-matrix
+displays and increase the aperture ratio of the display pixels.
+Developing a stretchable transparent TFT is thus a fundamental
+step toward this challenging yet exciting goal.
+TFT is a three-terminal device comprised of source, drain and
+gate electrodes, a dielectric layer, a semiconductor layer and a
+substrate. Developing an intrinsically stretchable TFT entails
+development of all these materials with elastomeric stretchability.
+The requirements of visual transparency and printable process
+signiﬁcantly increase the challenges in materials and process
+development. Traditionally, amorphous silicon and polysilicon
+are widely used as semiconductor channel for TFTs; evaporated
+metal ﬁlms or indium tin oxide (ITO) and are preferred choices
+for the electrode materials; silicon oxide or high dielectric
+polymers are usually used for the dielectric materials. None
+of these materials is intrinsically stretchable, and most do not
+meet the requirements of being transparent and printable
+9.
+Advanced materials and processing techniques developed in
+recent years for ﬂexible nanoelectronics employing metallic
+nanowires, semiconducting nanowires, single-walled carbon
+nanotubes (SWCNTs) and functional polymer-based dielectrics
+offer unique functionalities, promising performance and low-cost
+processing strategies that could be explored for the development
+of stretchable TFTs
+10–13.
+To impart mechanical compliancy and robustness to these
+materials and the resulting TFTs, two general strategies have been
+employed to create TFTs capable of stretching without under-
+going physical damage 13. The ﬁrst approach conﬁgures
+conventional brittle or rigid inorganics into specialized
+structural layouts and mechanical designs, such as wrinkled or
+buckled structures, to accommodate strains applied in the
+materials14–21. Non-stretchable device islands connected with
+stretchable conductors or wavy metal interconnects have realized
+high-performance integrated systems that consist of hundreds
+and even thousands of TFTs 14,15. Kim et al. 17 introduced non-
+coplanar mesh designs and serpentine interconnects for the
+array of stretchable complementary metal-oxide-semiconductor
+integrated circuits, enabling them to accommodate even
+demanding conﬁgurations such as corkscrew twists with tight
+pitch and linear stretching to strains B140%. Kaltenbrunner
+et al. 18 fabricated organic ﬁeld-effect transistors directly on
+ultrathin (1 mm) polymer foils which accommodate stretching
+up to 230% on pre-strained elastomers. A stretchable TFT
+combining stretchable graphene/SWCNT electrodes and a
+SWCNT network channel with a geometrically wrinkled Al 2O3
+dielectric layer has also been reported through this approach 19.
+These reported devices can achieve high electrical performance
+and impressive stretchability, but lack visual transparency, and
+the fabrication process is cumbersome and incompatible with
+fully solution-printed process. The second strategy employs
+intrinsically stretchable materials and components to obtain
+fully (or intrinsically) stretchable TFT 22–25. Several intrinsically
+stretchable TFTs have been reported, including a graphene-based
+TFT employing graphene as both the semiconducting channel
+and the source/drain electrodes, and an ion gel as the gate 24,
+and an organic-based TFT using poly(3-hexylthiophene) as the
+channel, carbon nanotubes as the source/drain, polyurethane
+(PU) as dielectric and liquid metal as gate
+22. However, these
+devices are not solid state and suffer from either low electrical
+performance, opacity or limited stretchability. Despite great
+efforts being exerted in this ﬁeld, so far no one has succeeded in
+demonstrating a fully stretchable, solid state, transparent TFT
+suitable for stretchable thin-ﬁlm displays.
+In the following, we report the successful development of such
+a device, using all solution-based printable processes. The work
+includes the following essential elements: (1) the stretchable
+TFT employs a silver nanowire (AgNW)-PU acrylate (PUA)
+composite as the stretchable transparent electrodes with
+high surface conductivity and low surface roughness, SWCNT
+network channel and a PU- co-polyethylene glycol (PU- co-PEG)
+elastomeric dielectric; the TFT has high mobility, modest
+ON/OFF current ratio ( ION/OFF), high peak ON current ( ION),
+large transconductance and relatively low operating voltages in
+unstretched state. (2) The TFT can be stretched by up to 50%
+while retaining a high mobility; at 20% strain, it can be stretched
+by 500 cycles; (3) the entire fabrication process is printable: the
+electrodes, semiconductor layer, dielectric layer and substrate are
+all processed from solutions at ambient conditions. (4) The TFT
+exhibits optical transmittance of 490% in the 450–1,100 nm
+wavelength range. (5) The TFT can drive an OLED in the full
+brightness range.
+Results
+Stretchable TFT fabricated by solution-based techniques . The
+structure and fabrication process of the stretchable transparent
+TFT are illustrated in Fig. 1a. The ﬁrst key step of the process
+is to form the patterned stretchable source/drain electrode, as
+illustrated in Fig. 1b. It started with spray-printing a layer of
+AgNWs from dispersion in methanol through a shadow mask on
+glass substrate. The opening of the mask deﬁnes the source/drain
+electrode pattern, with a channel length ( L) of 100 mm and
+channel width ( W) of 5,000 mm. A stretchable polymer PUA is
+chosen to transfer and embed the AgNW source/drain electrode
+into the surface layer of a rubbery matrix, according to a
+previously reported approach 8. The inset scanning electron
+microscopy (SEM) image in Fig. 1b shows that the edge of the
+AgNW pattern is fairly smooth, which is essential to the
+reproducibility and stability of the TFT devices. The sheet
+resistance of AgNW-PUA composite electrode can be controlled
+in a wide range with varied transmittance. The electrode with
+15 O sq /C0 1 was chosen in this work for a compromised high
+conductivity, stretchability and optical transmittance 8.
+The second key step is to form a uniform channel material on
+the AgNW-PUA composite source/drain substrate which is
+hydrophobic. In this study, the active channel material was
+printed from drop-casting a certain amount of in-house
+formulated semiconductive SWCNT ink followed by drying and
+then rinsing with deionized water and isopropyl alcohol (IPA)
+alternatively. This semiconductive SWCNT ink was prepared
+by mixing Fluorosurfactant and propylene glycol with the
+99 þ % semiconductive SWCNT solution (IsoNanotubes-S
+from NanoIntegris, Inc.) at an optimized ratio (detailed in
+Experimental part). The addition of Fluorosurfactant and
+propylene glycol enhances wetting and levelling control and of
+the SWCNT solution, and thus brings up uniform deposition of
+the SWCNT network on channel (Supplementary Fig. 1). The
+density of the printed SWCNT depends on the amount of
+ARTICLE NATURE COMMUNICA TIONS | DOI: 10.1038/ncomms8647
+2 NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+SWCNT ink cast on the substrate. Three densities with estimated
+values of B25, 13 and 6 tubes mm /C0 1 from three different casting
+amounts as shown in the SEM images from Fig. 1e were made
+and investigated in this study.
+The third key aspect is to identify a stretchable and transparent
+dielectric layer with high dielectric constant and good mechanical
+compliance. For this purpose, PU-PEG copolymer with
+PU-co-PEG main chain and PEG side chain formed from
+siliconized urethane acrylate (CN990 from Sartomer Inc.),
+methoxy PEG monomethacrylate (SR550) and PEG diacrylate
+(SR259). The siliconized urethane acrylate oligomer was selected
+for its high stretchability and compatibility with the source/drain
+and gate composite electrode. The PEG diacrylate was selected
+for its high ﬂexibility, low monomer viscosity which is
+important for printing, high dielectric constant 26,27 and
+semicrystalline structure of its homopolymer 26. Methoxy PEG
+monomethacrylate was selected to introduce side chains with its
+high polarity and chain mobility at room temperature.
+The precursor solution was overcast and spin-printed on the
+SWCNT/AgNW-PUA source/drain followed by UV-curing to
+form a thin elastomeric dielectric overcoating and wrapping
+around the SWCNTs. The cross-sectional SEM image of a typical
+device (inset in Fig. 1a) conﬁrmed the dielectric-wrapped
+SWCNT structure. Various weight ratios of CN990:SR550:SR259
+were studied, and a ratio of 1:1:1 was found to give the optimal
+overall performance of the resulting elastomeric dielectric
+copolymer (EDC) in terms of dielectric constant (as high as
+B13 at 12 Hz, see Supplementary Fig. 2), optical transmittance
+(490% at 550 nm, see Supplementary Fig. 3a), and sufﬁcient
+elongation at break ( 450%, see Supplementary Fig. 3b).
+Moreover, as displayed in Supplementary Fig. 3c,d and
+Supplementary Table 1, the small loss factor ( B0.011), almost
+overlap of the stress-strain curves during loading and unloading,
+and high resilience value suggest small hysteresis, fast recovery
+and good elasticity for the EDC (see Supplementary Note 1).
+Finally, the resulting EDC/SWCNT/AgNW-PUA source/drain
+structure was laminated with another 15 O sq /C0 1 AgNW-PUA
+composite electrode as gate electrode on top of the dielectric layer
+to complete the TFT fabrication. Thanks to the amalgamation of
+all transparent components, the SWCNT-AgNW TFT arrays
+show high transparency, as displayed in Fig. 1c, where the
+element ‘Ag’ of the periodic table can be clearly seen through a
+TFT array consisting of six TFT devices (marked with brown
+dash lines) in the optical image. Figure 1d depicts that the optical
+transmittance of the array is 490% in the 450–1,100 nm
+wavelength range.
+Electrical properties of the stretchable TFT . Electrical char-
+acteristics of a typical SWCNT-AgNW TFT with a density of
+SWCNT about 25 tubes mm /C0 1 are shown in Fig. 2a,b. All devices
+Drop-coat SWCNT ink
+on source/drain electrodes
+Evaporate solvent and
+wash off surfactant
+Pattern the SWCNT
+Laminate stretchable
+gate electrode 
+Spray-print AgNWs
+source/drain pattern via mask
+Overcoat and cure
+elastomer matrix 
+Peel off the stretchable
+source/drain electrode 
+400 600 800 1,000
+50
+60
+70
+80
+90
+100Transmittance (%)
+Wavelength (nm)
+Drain/source
+Channel
+1 µm
+Spin-print and cure
+dielectric layer
+~25 tubes µm–1
+1 µm
+~13 tubes µm–1 ~6 tubes µm–1
+1 µm 1 µm
+100 nmPUA substrate
+AgNWs
+EDC
+SWCNTs
+Figure 1 | Fabrication process and the SEM and transmittance characterizations of the stretchable TFT. (a) Schematic illustration of the fabrication
+steps for a stretchable TFT. The optical microscopic image shows the AgNW-PUA composite source/drain electrodes covered with a SWCNT layer
+(100 mm channel length). ( b) Fabrication process of AgNW-PUA composite source/drain electrodes. Inset: cross-sectional SEM image showing the
+SWCNT s embedded into and wrapped by the dielectric layer. ( c) Optical image of a TFT array marked with a brown dash frame around the element ‘Ag’.
+(d) Optical transmittance of a TFT array. Inset photograph shows a folded TFT array. ( e) SEM images of SWCNT network printed on AgNW-PUA composite
+source/drain electrodes, showing that the density can be controlled by the amount of SWCNT ink cast on the substrate.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms8647 ARTICLE
+NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications 3
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+were tested in air at room temperature. The SWCNT (with
+99 þ % semiconductive SWCNTs) used in this work has a length
+range from 300 nm to 5 mm. Channel length of 420 mmi s
+reported to be required to decrease the probability of percolative
+transport through the metallic nanotubes in order to achieve
+ION/OFF4104 (refs 28,29). A channel length of 100 mm and
+channel width of 5,000 mm are thus selected, but not optimized, in
+the present work for all device testing. A family of output curves
+appears to be linear at low ﬁelds with gate voltage stepped from
+/C0 1t o /C0 5 V. The speciﬁc contact resistance between the
+semiconducting SWCNT network and AgNW electrodes is
+calculated to be 0.219 ±0.043 O cm2 through the transmission
+line model measurements as detailed in Supplementary Fig. 4 and
+Supplementary Note 2 (refs 30,31). The contact resistance
+between SWCNT and AgNW is higher than that between
+SWCNT and evaporated Ag electrode (0.02 O cm2)30,31. The
+work function of the AgNW is measured to be B4.90 eV by
+Kelvin probe force microscopy, which is higher than the typical
+work function of Ag (4.73 eV), indicating surface of AgNW
+partially covered by Ag 2O. This surface oxide might have a
+dominant effect on the interface characteristics with SWCNTs,
+and thus increase the contact resistance. However, this contact
+resistance between AgNW and SWCNTs is still negligibly small
+compared with the channel resistances because of the large
+channel length used in this work 32. Clear current saturation at
+high drain voltages due to pinch-off is also evident. Moreover,
+notable increase of the conductance of the channel with the
+increasing gate voltage from 0 to /C0 5 V in 1 V steps manifests the
+effective gate modulation of the EDC.
+From the transfer characteristics shown in Fig. 2b, one typical
+device exhibits a peak ION value of 140 mA and peak trans-
+conductance ( gm) of 54.4 mS, corresponding to 28.0 mAm m /C0 1
+(ION/W) and 10.9 mSm m /C0 1 (gm/W) as normalized by the
+channel width at VD ¼/C0 2.0 V. Well-deﬁned ON-state and
+OFF-state currents were observed with a ION/OFF of 7,000 at
+VD ¼/C0 2.0 V. A gate-sweep-rate-dependent hysteresis was
+also observed for the SWCNT-AgNW TFT devices (see
+Supplementary Fig. 5), which is typical for SWCNT-based
+devices (see Supplementary Note 3) 33,34. The mobility of the
+device is extracted using the following equation: m ¼ (dID/dVG)
+(L/VDCiW), where m is the device mobility, ID the drain current,
+VG gate voltage, L channel length, W channel width and Ci
+speciﬁc capacitance of the elastomeric dielectric. Ci was measured
+from parallel-plate test structures with an average value of
+B16.7 nF cm/C0 2 at 12 Hz with thickness being B1.1 mm. An
+unstretched device mobility of 32.5 cm 2 V /C0 1 s /C0 1 is thus
+calculated from the transfer characteristics in Fig. 2b. However,
+SWCNTs are sparsely distributed in the channel (Fig. 1e), and the
+parallel-plate capacitor model overestimates the gate capacitance
+and underestimates the mobility. Using the cylindrical model that
+takes into consideration of the effect of electrostatic coupling
+between nanotubes to estimate the gate capacitance
+19,35,36,
+a higher mobility of 51.6 cm 2 V /C0 1 s /C0 1 is obtained (see
+Supplementary Notes 4 and 5).
+In 7 different batches for a total of 36 TFT devices fabricated,
+the yield was 85.7%. The ION/OFF, peak ION value, gm and mobility
+were measured in the ranges of 4,500–12,300, 8.6–23.0 mA,
+32.3–72.1 mS and 19.3–43.1 cm 2 V /C0 1 s /C0 1, respectively. Fig. 2d–f
+present the histograms of the statistical variations for these 36
+devices in ION/OFF, ION/W, gm/W and mobility, respectively. The
+ION/W and gm/W were measured at VD ¼/C0 2.0 V, and the
+mobility was also extracted as described above at VD ¼/C0 2.0 V.
+The average of ION/OFF ratio, ION/W and gm/W and mobility is
+7,200±1,200, 30.0 ±8.93 mAm m /C0 1, 11.2 ±3.40 mSm m /C0 1 and
+27.0±7.44 cm2 V /C0 1 s /C0 1, respectively. The variation in the device
+performance has been widely observed in printed SWCNT
+transistors11 and could be improved by delicate control of the
+printing parameters 37.
+The device characteristics strongly depended on the density of
+the SWCNTs (see Supplementary Figs 6 and 7), which was
+controlled by the amount of SWCNT ink drop-casted on the
+substrates (Fig. 1e). Supplementary Figure 8 shows ION/W, gm/W,
+–8 –6 –4 –2 0
+0
+50
+100
+150
+200
+250
+300
+350
+Drain current (ID, µA)
+VD= –2.0 V
+VD= –3.0 V
+–8 –6 –4 –2
+1E–8
+1E–7
+1E–6
+1E–5
+1E–4
+VD = –2.0 V
+–2.0 –1.5 –1.0 –0.5 0.0
+–250
+–200
+–150
+–100
+–50
+0
+VG= 0 V
+VG= –1.0 V
+VG= –2.0 V
+VG= –3.0 V
+VG= –4.0 V
+VG= –5.0 V
+Drain current (ID, µA)
+Drain Voltage (VD, V)
+–8 –6 –4 –2 0
+0
+10
+20
+30
+40
+50
+60
+5 1 01 52 02 5
+0
+4
+8
+12
+16Number of devices
+20 30 40 50 60
+0
+5
+10
+15
+20Number of devices
+10 20 30 40 50
+0
+2
+4
+6
+8
+10
+12
+14Number of devices
+4,0006,0008,00010,00012,00014,000
+0
+4
+8
+12
+16Number of devices
+ION/OFF
+Gate voltage (VG, V)
+ID (A)
+VG (V)
+VD= –1.0 V
+Gain (gm, µS)
+VD=–2.0 V
+Gate voltage (VG, V)
+Mobility (cm2 v–1 s–1) gm/W (µs mm–1) ION/W (µA mm–1)
+Figure 2 | Electrical properties of a representative stretchable TFT and statistical variation studies in the electrical properties of 36 stretchab le TFTs.
+(a) Output ( ID–VD) characteristics of a typical SWCNT-AgNW TFT ( L ¼ 100 mm and W ¼ 5,000 mm) with VG from 0 to /C0 5 V in 1 V steps. ( b) T ransfer
+(ID–VG) characteristics of the same device with VD from /C0 1.0 to /C0 3.0 in 1.0 step. Inset, ID–VG curve at VD ¼/C0 2.0 V on a logarithmic scale.
+(c) T ransconductance at VD ¼/C0 2.0 V as a function of VG.( d–g) Histograms of TFT s showing the statistical distribution of ( d) mobility, ( e) unit width
+normalized transconductance, ( f) unit width normalized ION and ( g) the ION/OFF.
+ARTICLE NATURE COMMUNICA TIONS | DOI: 10.1038/ncomms8647
+4 NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+ION/OFF and mobility as a function of density of nanotubes for
+VD ¼/C0 2.0 V. As the density of nanotubes decreases from 25
+to 6 tubes mm /C0 1,t h ea v e r a g eo fION/OFF increases from 7,200 to
+18,300. This increase of ION/OFF ratio at low nanotube density is
+possible due to the decrease in the probability of percolative
+transport through the metallic nanotubes 29,38.A sl o n ga st h e
+percolation threshold is smaller than the density of CNTs but
+larger than that of the metallic tubes, all percolation paths from
+source to drain must involve at least one semiconducting segment.
+Gate modulation of this ‘week’ connection of semiconducting
+SWCNTs ensures high ION/OFF ratio39,40.A th i g hS W C N T
+densities, the density of metallic SWCNTs can exceed
+percolation threshold and the network forms continuous paths
+across the device, which results in high off current ( IOFF) and low
+ION/OFF. As a trade-off, low density of nanotubes leads to a
+decrease of ION/W and gm/W. As a result of the direct dependence
+of mobility with gm, the average mobility also decreases from 27.0
+to 9.22 cm 2 V /C0 1 s /C0 1 (parallel model) with the decrease of the
+density of SWCNT from 25 to 6 tubes mm /C0 1 (see Supplementary
+Note 5). In the present work, the SWCNT density for the TFT
+device was optimized to B25 tubes mm /C0 1 to have a high average
+mobility of 27.0 cm 2 V /C0 1 s /C0 1, and an average ION/OFF of 7,200,
+which meets the demand of an ION/OFF ratio of at least B103–104
+for the application of digital logic circuits 28,39.
+To investigate the electrical properties of the device under
+mechanical deformation, the transfer characteristics were further
+measured during the application of a uniaxial strain along either
+the channel length (Fig. 3a,b) or channel width (Fig. 3c,d). The
+ION value is declined by 52 and 51% with the strain increase from
+0 to 50% along the channel length and width directions
+respectively (see Supplementary Fig. 9). In the meanwhile,
+IOFF also exhibits a slight decrease under strain of up to 50%:
+the value is dropped by 17 and 46% with respect to the
+unstretched values along the channel length and width directions,
+respectively. The decrease in the source-drain channel current
+during stretching is mainly attributed to the increase in the
+contact resistance between the SWCNTs when stretched (see
+Supplementary Fig. 10) 19,41,42. The mobility determined from
+the gm and capacitance data (see Supplementary Fig. 11) exhibits
+a decrease, from 32.7 and 28.2 cm 2 V /C0 1 s /C0 1 before stretching,
+to 16.2 and 15.0 cm 2 V /C0 1 s /C0 1 at 50% strain along channel length
+and width directions, respectively. It is suggested that the decrease
+in capacitance of EDC with increasing strain is the main cause
+leading to the decrease of mobility (see Supplementary Fig. 11).
+The chain mobility of PEG in the DEC would be restricted
+when tensile strain is applied on the EDC, which results in the
+decrease of dielectric constant (see Supplementary Note 6).
+The elongation of the channel length between the AgNW-PUA
+–8 –6 –4
+–2
+0
+0
+50
+100
+150
+0
+10
+20
+304050Drain current (
+µA)
+Strain (%)
+Gate voltage (V)
+–8 –6 –4
+–2
+0
+0
+40
+80
+120
+0 1020304050Drain current (
+µA)
+Strain (%)
+Gate voltage (V)
+–8 –6 –4 –2 0
+1E–8
+1E–7
+1E–6
+1E–5
+1E–4
+VD = –2.0 V
+Drain current (A)
+Gate voltage (V)
+0%
+10%
+20%
+30%
+40%
+50%
+–8 –7 –6 –5 –4 –3 –2 –1 0
+1E–8
+1E–7
+1E–6
+1E–5
+1E–4
+VD = –2.0 V
+0%
+10%
+20%
+30%
+40%
+50%
+Drain current (A)
+Gate voltage (V)
+Length direction
+Width direction
+Length direction
+Width direction
+0% 20% 40%5 mm 5 mm 5 mm
+0 1 02 03 04 05 0
+1E–9
+1E–8
+1E–7
+1E–6
+1E–5
+1E–4
+1E–3
+IOFF
+Drain current (A)
+Strain (%)
+ION
+µ
+0
+10
+20
+30
+40
+50
+0 1 02 03 04 05 0
+1E–9
+1E–8
+1E–7
+1E–6
+1E–5
+1E–4
+1E–3
+VD = –2.0 VIOFF
+Drain current (A)
+Strain (%)
+ION
+µ
+0
+10
+20
+30
+40
+Mobility (cm2 v–1 s–1)Mobility (cm2 v–1 s–1)
+VD = –2.0 V
+Figure 3 | The device performance changes with tensile strain. (a) T ypical transfer characteristics (VD ¼/C0 2.0 V) of a TFT device under speciﬁc tensile
+strain applied along the channel length direction. The insets show log-scale characteristics. ( b) ION, IOFF and mobility as a function of applied strain along the
+channel length direction. ( c) T ypical transfer characteristics ( VD ¼/C0 2.0 V) of a device under speciﬁc tensile strain applied along the channel width
+direction. The insets show log-scale characteristics. ( d) ION, IOFF and mobility as a function of applied strain along the channel width direction. ( e) Magniﬁed
+photographs of a device at speciﬁed strains applied along the channel length direction. Scale bar ¼ 5 mm.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms8647 ARTICLE
+NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications 5
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+source and drain electrodes can be obviously observed from the
+magniﬁed photographs of TFTs at speciﬁc strain applied along
+channel length direction (Fig. 3e). The device fails when the strain
+is over 50% because of the tearing of elastomeric dielectric.
+Furthermore, ION/W, gm/W and I ON/OFF at strain of 50% along
+the channel length and width directions, which can be obtained
+from the transfer characteristics from Fig. 3a–c, are calculated to
+be 11.0 mAm m /C0 1, 8.22 mSm m /C0 1 and 8,400 along the channel
+length direction, and 10.4 mAm m /C0 1, 7.61 mSm m /C0 1 and 15,400
+along the channel width direction, respectively. It is of
+noteworthy that the electrical performance of the stretchable
+TFTs at 50% strain is still comparable to most unstretchable TFT
+devices using SWCNTs as the channel material.
+A fatigue test was subsequently performed by subjecting the
+TFT to 500 cycles of continuous stretch–relaxation between 0 and
+20% strains along channel length or width direction. Figure 4
+shows the electrical transfer characteristics, ION and IOFF change
+during the continuous stretch–relaxation cycles. The ION for both
+strain direction decreased lightly over the 500 stretch–relaxation
+cycles, and the ION value remained fairly high value of B60 mA
+(initial value B140 mA) along channel length direction and
+B90 mA (initial value B160 mA) along channel width direction
+after 500 cycles (see Supplementary Fig. 9). In contrast, the IOFF
+values remain relative constant throughout the cycling measure-
+ments along either direction. The calculated ION/OFF after 500
+stretching–relaxing cycles along the channel length and width
+directions is B10,000 and 13,000, respectively. The mobility
+degraded relatively fast in the initial 200 cycles for both direction,
+but slowed down in the following 300 cycles. Mobility of 11.7 and
+17.6 cm2 V /C0 1 s /C0 1 were obtained from the transfer characteristics
+–8 –6 –4 –2
+0
+0
+40
+80
+120
+160
+0 100
+200
+300400500Drain current (
+µA)
+Cycles
+Gate voltage (V)
+–8 –6 –4
+–2
+0
+Gate voltage (V)
+0
+50
+100
+150
+0 100
+200
+300
+400
+500Drain current (
+µA)
+Cycles
+–8 –6 –4 –2 0
+1E–4
+1E–5
+1E–6
+1E–7
+1E–8
+0 100 200 300 400 500
+IOFF
+ION
+0
+10
+20
+30
+40
+50
+VD = –2.0 V
+VD = –2.0V
+VD = –2.0V
+ION
+IOFF
+–10
+0
+10
+20
+30
+40
+50
+Drain current (A)Drain current (A)
+1E–3
+1E–4
+1E–5
+1E–6
+1E–7
+1E–8
+1E–9
+1E–3
+1E–4
+1E–5
+1E–6
+1E–7
+1E–8
+1E–9
+–10
+Mobility (cm2 v–1 s–1)Mobility (cm2 v–1 s–1)
+Width directionWidth direction
+Length directionLength direction
+Cycles
+0 100 200 300 400 500
+Cycles
+Gate voltage (V)
+–8 –6 –4 –2 0
+Gate voltage (V)
+Drain current (A)
+1E–4
+1E–5
+1E–6
+1E–7
+1E–8Drain current (A)
+Original
+20 cycles
+50 cycles
+100 cycles
+200 cycles
+300 cycles
+400 cycles
+500 cycles
+Original
+20 cycles
+50 cycles
+100 cycles
+200 cycles
+300 cycles
+400 cycles
+500 cycles VD = –2.0 V
+/afii9839
+/afii9839
+Figure 4 | Fatigue testing when stretching and releasing 500 times. (a) T ypical transfer characteristics ( VD ¼/C0 2.0 V) of a TFT device after speciﬁed
+cycles of 20% tensile strain applied along the channel length direction. The insets show log-scale characteristics. ( b) Plots of ION and IOFF at 0% strain
+during 500 cycles of continuous stretching–relaxing between 0 and 20% strains along the channel length direction. ( c) T ypical transfer characteristics
+(VD ¼/C0 2.0 V) of a device after speciﬁed cycles of 20% tensile strain applied along the channel width direction. The insets show log-scale characteristics.
+(d) Plots of ION and IOFF at 0% strain during 500 cycles of continuous stretching–relaxing between 0 and 20% strains along the channel width direction.
+0 20%
+02 0 %
+2.2
+2.0
+1.8
+1.6
+1.4
+1.2
+1.0
+Resistance change (R/Ro)
+Resistance change (R/Ro)
+5.0
+4.5
+4.0
+3.5
+3.0
+2.5
+2.0
+1.5
+1.0
+Cycle times
+01 , 0 0 0 800600400200
+Cycle times
+01 , 0 0 0 800600400200
+SWCNTs
+Stretchable
+substrate
+Elastomeric dielectric
+SWCNTs
+Stretchable
+substrate
+Figure 5 | Mechanical compliance of SWCNT network on PUA substrate. Normalized transient resistance of SWCNT coated on PUA substrate with
+(a) and without ( b) the elastomeric dielectric overcoat during 1,000 cycles of tensile stretching and releasing between 0 and 20% strains.
+ARTICLE NATURE COMMUNICA TIONS | DOI: 10.1038/ncomms8647
+6 NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+curves after 500 stretch–relaxation cycles along channel length
+and width direction respectively. The retention of the device
+mobility after repeated strain cycles is still much higher than data
+reported in literature for all-printed SWCNT-based transistors 37.
+We speculate this good device performance for the device after
+subjecting repeated stretch–relaxation cycles is resulted from the
+unique structure where the EDC inﬁltrate into the SWCNT
+network and wraps around the nanotubes (Fig. 1a). The
+elastomeric dielectric wrapping around the SWCNT should
+constrain the junction disjoining and tube sliding, help distribute
+the stress more uniformly under tensile strain and thus increase
+the stretchability and stability of the SWCNT network under
+large strains6,7,43,44. Figure 5a,b display the normalized resistance
+(R/R0, the ratio of the instantaneous resistance at a speciﬁc tensile
+–8 –7 –6 –5 –4 –3 –2 –1 0
+–8 –7 –6 –5 –4 –3 –2 –1
+VDD = –4 V
+VG
+–250
+–150
+–100
+0
+–50
+–200
+0
+–150
+–120
+–90
+–60
+–30
+IPLED (µA)
+IPLED (µA) Drain current (ID, A)
+Drain current (ID, µA)
+1E–4
+1E–5
+1E–6
+1E–7
+1E–8
+Drain voltage (VD, V) Drain voltage ( VG, V)
+Gate voltage (V)
+–2.0 –1.5 –1.0 –0.5 0.0
+VDD (V)
+0–4 –3 –2 –1
+0
+20
+40
+60
+80
+100
+VD = –2.0 VVG from –5 V to –1 V
+with 1 V steps
+VG from –5 V to 0 V
+with 1 V steps
+Vth of OLED
+Figure 6 | OLED control circuit driven by stretchable TFT. Stretchable SWCNT-AgNW TFT to control OLED devices. ( a) Output (ID–VD) characteristics of
+the TFT device used to control an OLED with different gate voltage. ( b) T ransfer (ID–VG) characteristics of the TFT under VD ¼/C0 2.0 V. (c) IOLED–VDD
+characteristics of the OLED control circuit with different VG. Inset: schematic diagram of the OLED control circuit. ( d) Plot of the IOLED over VG with
+VDD ¼/C0 4.0 V. The inset photographs show the OLED brightness at speciﬁc VG.
+–8 –7 –6 –5 –4 –3 –2
+0
+20
+40
+60
+80 VDD = –4 V
+IOLED (µA)
+Gate voltage (V)
+–4 –3 –2 –1 0
+–100
+–80
+–60
+–40
+–20
+0
+VG= 0 V
+VG= –1 V
+VG= –2 V
+VG= –3 V
+VG= –4 V
+VG= –5 V
+VG= 0 V
+VG= –1 V
+VG= –2 V
+VG= –3 V
+VG= –4 V
+VG= –5 V
+VG= 0 V
+VG= –1 V
+VG= –2 V
+VG= –3 V
+VG= –4 V
+VG= –5 V
+IOLED (µA)
+VDD (V)
+–4 –3 –2 –1 0
+–100
+–80
+–60
+–40
+–20
+0
+IOLED (µA)
+VDD (V)
+–8 –7 –6 –5 –4 –3 –2
+0
+20
+40
+60
+80 VDD = –4 V
+IOLED (µA)
+Gate voltage (V)
+–4 –3 –2 –1 0
+–100
+–80
+–60
+–40
+–20
+0
+IOLED (µA)
+VDD (V)
+–8 –7 –6 –5 –4 –3 –2
+0
+20
+40
+60
+80 VDD = –4 V
+IOLED (µA)
+Gate voltage (V)
+Strain=0%
+Strain=0%
+Strain=20%
+Strain=20%
+Strain=30%
+Strain=30%
+Figure 7 | Characterization of OLED control circuit with stretchable TFT under different strains. Output ( IOLED–VDD) characteristics of the OLED
+controlled by a stretchable SWCNT-AgNW TFT. The TFT is stretched along channel length direction by ( a) 0%, ( b) 20% and ( c) 30% strains. The VG is
+varied from 0 to /C0 5.0 V in 1 V increments. T ransfer ( IOLED–VG) characteristics at VDD ¼/C0 4.0 V for the TFT device used to control the OLED under 0%
+(d), 20% ( e) and 30% ( f) strains.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms8647 ARTICLE
+NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications 7
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+strain to the initial resistance at zero strain) for the SWCNT
+coated on PUA substrate with and without the EDC overcoat
+during 1,000 cycles of tensile stretching-releasing between 0 and
+20% strains. It can be seen that after a gradually increase in the
+initial 100 cycles, the resistance of the SWCNT Network with
+EDC overcoat becomes very stable in the subsequent 900 cycles.
+The resistance increase during the ﬁrst 100 cycles can be
+attributed to the alignment and sliding of the SWCNT network
+during deformation and the viscoelasticity of the elastomeric
+dielectric6,44. Overall, the elastomeric dielectric helps preserve the
+SWCNT network during large deformation very well. This trend
+of resistance change for the SWCNT network is consistent with
+the trend of mobility change for the TFT during continuous
+stretching–relaxing cycles as shown in Fig. 4b,d. In contrast, it can
+be observed from Fig. 5b that the SWCNT network without EDC
+overcoat exhibits a gradual increase in resistant continuously over
+1,000 cycles.
+OLED driven by stretchable TFT . To prove that the stretchable
+TFTs is applicable for stretchable active-matrix OLED displays, a
+prototype of white-light OLED driven by the stretchable
+SWCNT-AgNW TFT was demonstrated. Figure 6a,b present the
+output and transfer characteristics for the stretchable TFT used in
+the OLED control circuit. The TFT is able to source a
+current 150 mAa t VG ¼/C0 8 V and VD ¼/C0 2.0 V with an
+ION/OFFB1.0 /C2 104, which can meet the demand for driving and
+controlling the OLED. The white-light OLED used in this
+study has a sandwiched conﬁguration of glass/ITO/PEDOT:PSS
+(40 nm)/white emissive polymer layer (75 nm)/CsF (1 nm)/Al
+(100 nm) (see Supplementary Note 7). In the drive circuit (inset
+of Fig. 6c), the connection was made by putting a probe onto the
+drain electrode of the device, and the probe is connected to a
+clamp by a conductive wire. The clamp is then ﬁxed on the
+cathode of the OLED. A negative voltage was applied to anode of
+the OLED. Figure 6c displays a set of OLED current ( IOLED)
+versus drain supply ( VDD) characteristic curves for the OLED
+circuit under various input gate voltage VG. Good diode
+behaviour with a clear cutoff region and triode region could be
+clearly observed, indicating a good control from the stretchable
+TFT over the OLED. The cutoff voltage of VDD is approximate
+/C0 2.7 V, which is in accordance with the threshold voltage ( Vth,
+also called turn-on voltage) of the OLED (see Supplementary
+Fig. 12) 45. Moreover, from Fig. 6d, the current ﬂow through the
+OLED can be modulated by changing the input VG by a factor of
+B1,000. This modulation could lead to the control of the OLED
+luminance. The inset optical photographs in Fig. 6d demonstrate
+the OLED operated with VG ¼/C0 8 V (upper), /C0 3 V (middle),
+0 V (lower), respectively, obviously showing the OLED brightness
+modulation. When VG ¼/C0 8 V, the OLED (with lighting area of
+2.0 /C2 2.5 mm) is on and the light intensity is measured to be
+218 cd m /C0 2; when VG ¼ 0 V, the OLED is off and the luminance
+is measured to be lower than 0.01 cd m /C0 2, the detection limit.
+Thus, the modulation for the OLED luminance is larger than
+2 /C2 104.
+The OLED control circuit is further characterized by measur-
+ing the IOLED with the stretchable TFT under 0, 20 and 30%
+strains applied along the channel length direction respectively.
+From the IOLED–VDD characteristic in Fig. 7a–c, ﬁeld-effect
+transistor-like behaviour with various curves corresponding to
+various values of input V G is still clearly observed even when the
+TFT was stretched up to 20 and 30% strains respectively. The
+IOLED ﬂow through the OLED shows a mild decrease trend with
+the increasing strain. Figure 7d–f show the IOLED versus VG
+curves with the stretchable TFT under speciﬁc strains. A close
+examination of the curves reveals that the VG modulation factor is
+B1,000, 750 and 650 for the TFT under strain of 0, 20 and 30%,
+respectively. The decrease of the modulation factor is attributed
+to the decrease of ION, in consistency with the discussion above
+(Fig. 3). Figure 8 further shows the light-emitting properties of
+the OLED circuit at different VG when VDD is /C0 4 V. The
+brightness of the OLED integrated with TFT under different
+strains of 0, 20 and 30% is shown for comparison. When the TFT
+was stretched to 20% strain, the brightness decreased from
+196 cd m/C0 2 (initial value at 0% strain) to 120 cd m /C0 2 at VG ¼
+/C0 8 V, which is still sufﬁcient for display applications. When
+stretched up to 30%, the brightness declined by B68% to
+63 cd m/C0 2.
+Discussion
+In summary, a high-performance, transparent and intrinsically
+elastomeric TFT have been fabricated using a solution-based
+printable process. The device is made of all stretchable materials,
+including AgNW-PUA composite conductor as the source,
+drain, and gate, a SWCNT network channel and PU- co-PEG
+elastomeric dielectric. The SWCNT network is inﬁltrated by the
+elastomeric dielectric, and wrapping the nanotubes without
+interrupting the nanotube–nanotube junction is beneﬁcial for
+large-strain stretchability without signiﬁcantly diminishing elec-
+tric performance. The elastomeric TFT retains fairly high
+electrical performance at strains as high as 50% and can survive
+a large number of stretching cycles. The stretchable TFT is
+successfully adapted to switch a white-light OLED from totally
+dark to 196 cd m /C0 2 or display brightness. The TFT layout and
+fabrication process could be adapted to fabricate a large of TFT to
+achieve stretchable active-matrix OLED display.
+VG –2.0 V –4.0 V –4.5 V –5.0 V –6.0 V –7.0 V –8.0 V
+TFT under
+0% strain
+0 cd m–2 6.9 cd m–2 50 cd m–2 84 cd m–2 112 cd m–2 183 cd m–2 196 cd m–2
+TFT under
+20% strain
+0 cd m–2 4.5 cd m–2 33 cd m–2 51 cd m–2 98 cd m–2 110 cd m–2 120 cd m–2
+TFT under
+30% strain
+0 cd m–2 0 cd m–2 7.5 cd m–2 33 cd m–2 48 cd m–2 57 cd m–2 63 cd m–2
+Figure 8 | Luminance of an OLED driven by stretchable TFT under different inputs. Luminance was investigated for the TFT under strains (along channel
+length direction) of 0, 20 and 30%, respectively. VDD is /C0 4.0 V.
+ARTICLE NATURE COMMUNICA TIONS | DOI: 10.1038/ncomms8647
+8 NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+Methods
+Materials. AgNWs were synthesized according to a reported procedure 46.
+Siliconized urethane acrylate oligomer (CN990), ethoxylated bisphenol A
+dimethacrylate (SR540), PEG (200) diacrylate (SR259) and methoxy PEG (350)
+monomethacrylate (SR550) were supplied by Sartomer. 2,2-Dimethoxy-2-
+phenylacetophenone (photoinitiator) was obtained from Sigma-Aldrich.
+Semiconducting SWCNT (99% þ ) was obtained from Nanointegris Inc.
+Fluorosurfactant FC-4430 was purchased from 3M.
+Preparation of AgNW-PUA composite source/drain and gate electrode
+. To
+pattern the source/drain on glass, a dispersion of AgNWs in methanol (0.2 wt%)
+was spray-printed on glass through a patterned shadow mask using Paasche air
+brush. To fabricate the gate electrode on glass, a dispersion of AgNW (0.5 wt%) in
+IPA was drop-casted into a thin line at one end of the substrate and drawn down
+with a Meyer rod to spread the solution to form a uniform coating. The resulting
+transparent conductive coating (both source/drain and gate) on the glass substrates
+was then coated with a precursor solution consisting of 100 weight parts CN990,
+20 parts SR540 and 1 part photoinitiator. The coatings were cured under UV
+at 2.5 W cm
+-2 intensity and peeled off of the release substrate. The AgNW
+source/drain electrode with channel length of 100 mm and channel width of
+5,000 mm and gate electrode were transferred as the conductive surface of the
+resulting transparent composite electrodes. Both the AgNW-PUA composite
+source/drain and gate electrode were prepared with sheet resistance controlled
+to be 15 O sq /C0 18.
+Preparation of elastomeric dielectric . The precursor of DEC was formulated by
+mixing the components CN990, SR259, SR550 and photoinitiator, in an optimized
+weight ratio of 1:1:1:0.015. CN990 was chosen for the high stretchability and
+good bonding of its homopolymer with the AgNW-PUA source/drain and gate
+composite electrode. SR259 and SR550 were chosen for the good ﬂexibility and
+high dielectric constant of their homopolymer and low viscosity of their monomer
+(25 and 19 c.p.s. @ 25
+oC, respectively). SR550 can serve as a polar side chain to
+further improve the dielectric constant.
+Fabrication of fully transparent and stretchable transistor . The device
+fabrication started with printing SWCNT on the AgNW-PUA composite
+source/drain electrode. First, SWCNT ink was prepared by mixing 99% þ
+Semiconducting -SWCNT aqueous solutions (used as-received from Nanointegris
+Inc.), DI-water, propylene glycol and Fluorosurfactant at the ratio of 25:5:5:1,
+followed by untrasonicating for 20 min. Subsequently, a certain amount of SWCNT
+ink was uniformly drop-casted on the conductive surface of AgNW-PUA
+source/drain composite electrode, followed by heating up to 90
+oC on a hot plate to
+dry the SWCNT network. SWCNT densities on the source/drain channel was
+controlled by the amount of SWCNT ink being 6, 15 and 30 ml on 0.5 /C2 1.5 cm
+2
+AgNW-PUA composite source/drain electrode to obtain SWCNT densities of B6,
+B13 and B25 tubes mm /C0 1, respectively. The SWCNT/AgNW-PUA source/drain
+was rinsed with Deionized water and IPA alternatively to remove the sodium
+dodecyl sulphate surfactant and Fluorosurfactant, followed by drying in vacuum
+for 1 h. SWCNT was patterned by O 2 plasma etching to the source/drain electrode.
+Then, the elastomeric dielectric precursor was overcoated on the SWCNT/AgNW-
+PUA source/drain substrate, spin-printed at 8,000 r.p.m. for 1 min and then
+UV-cured in nitrogen gas. Transparent tape (3M) was used to deﬁne the openings
+for the source/drain electrode and peeled off after polymerizing the elastomeric
+dielectric. Finally, the resulting elastomeric dielectric/SWCNT/AgNW-PUA
+source/drain structure was laminated with another 15 O sq
+/C0 1 AgNW-PUA
+composite electrode as gate on top of the dielectric layer to complete the device
+fabrication.
+Characterization method . Cyclic strain tests were performed on a motorized
+linear stage with built-in controller (Zaber Technologies Inc.). A Keithley 2000
+digital multimeter was used tomonitor the resistance change. Strain and resistance
+data were recorded with a custom-made LabViewcode. The transmittance spectra
+were recorded utilizing a Shimadzu UV-1700 spectrophotometer. SEM was per-
+formed on a JEOL JSM-6701F scanning electron microscope. The dielectric con-
+stant and capacitance of the elastomeric dielectric were measured using LCR meter
+(GW INSTEK LCR-819.) the by fabricating 12 ITO–elastomeric dielectric–
+evaporated alumina capacitors and averaging the unit area capacitance of all 12
+capacitors. Kelvin probe force microscopy was conducted with a Bruker Dimension
+Icon Scanning Probe Microscope to measure the work function of AgNW. Tran-
+sistor electrical characterization was performed with two Keithley 2400 source
+meter. The measurement sequences were controlled by a custom-made LabView-
+code. All the transistor measurements were tested under ambient atmospheric
+conditions.
+References
+1. White, M. S. et al. Ultrathin, highly ﬂexible and stretchable PLEDs. Nat.
+Photonics 7, 811–816 (2013).
+2. Xu, S. et al. Soft microﬂuidic assemblies of sensors, circuits, and radios for the
+skin. Science 344, 70–74 (2014).
+3. Savagatrup, S., Printz, A. D., O’Connor, T. F., Zaretski, A. V. & Lipomi, D. J.
+Molecularly stretchable electronics. Chem. Mater. 26, 3028–3041 (2014).
+4. Kim, R. H. et al. Waterproof AlInGaP optoelectronics on stretchable
+substrates with applications in biomedicine and robotics. Nat. Mater. 9,
+929–937 (2010).
+5. Filiatrault, H. L., Porteous, G. C., Stephen, R., Davidson, G. J. E. & Breen, T.
+Stretchable light-emitting electrochemical cells using an elastomeric emmissive
+material. Adv. Mater. 24, 2673–2678 (2012).
+6. Yu, Z., Niu, X., Liu, Z. & Pei, Q. Intrinsically stretchable polymer light-emitting
+devices using carbon nanotube-polymer composite electrodes. Adv. Mater. 23,
+3989–3994 (2011).
+7. Liang, J. et al. Silver nanowire percolation network soldered with graphene
+oxide at room temperature and its application for fully stretchable polymer
+light-emitting diodes. ACS Nano 8, 1590–1600 (2014).
+8. Liang, J., Li, L., Niu, X., Yu, Z. & Pei, Q. Elastomeric polymer light-emitting
+devices and displays. Nat. Photonics 7, 817–824 (2013).
+9. Zhang, J., Wang, C. & Zhou, C. Rigid/ﬂexible transparent electronics based on
+separated carbon nanotube thin-ﬁlm transistors and their application in display
+electronics. ACS Nano 6, 7412–7419 (2012).
+10. Kim, S., Kim, S., Park, J., Ju, S. & Mohammadi, S. Fully transparent pixel
+circuits driven by random network carbon nanotube transistor circuitry. ACS
+Nano 4, 2994–2998 (2010).
+11. Lau, P. H. et al. Fully printed, high performance carbon nanotube thin-ﬁlm
+transistors on ﬂexible substrates. Nano Lett. 13, 3864–3869 (2013).
+12. Chen, P. C. et al. Fully printed separated carbon nanotube thin ﬁlm transistor
+circuits and its application in organic light emitting diode control. Nano Lett.
+11, 5301–5308 (2011).
+13. Vosgueritchian, M., Tok, J. B. H. & Bao, Z. Stretchable LEDs: Light-emitting
+electronic skin. Nat. Photonics 7, 769–771 (2013).
+14. Kim, D. H., Xiao, J. L., Song, J. Z., Huang, Y. G. & Rogers, J. A. Stretchable,
+curvilinear electronics based on inorganic materials. Adv. Mater. 22, 2108–2124
+(2010).
+15. Khang, Y. D., Rogers, J. A. & Lee, H. H. Mechanical buckling: mechanics,
+metrology, and stretchable electronics. Adv. Funct. Mater. 19, 1526–1536
+(2009).
+16. Rogers, J. A., Someya, T. & Huang, Y. G. Materials and mechanics for
+stretchable electronics. Science 327, 1603–1607 (2010).
+17. Kim, D. H. et al. Materials and noncoplanar mesh designs for integrated
+circuits with linear elastic responses to extreme mechanical deformations. Proc.
+Natl. Acad. Sci. USA 105, 18675–18680 (2008).
+18. Kaltenbrunner, M. et al. An ultra-lightweight design for imperceptible plastic
+electronics. Nature 499, 458–463 (2013).
+19. Chae, S. H. et al. Transferred wrinkled Al2O3 for highly stretchable and
+transparent graphene-carbon nanotube transistors. Nat. Mater. 12, 403–409
+(2013).
+20. Xu, F. et al. Highly stretchable carbon nanotube transistors with ion gel gate
+dielectrics. Nano Lett. 14, 682–686 (2014).
+21. Park, K. et al. Stretchable, transparent zinc oxide thin ﬁlm transistors. Adv.
+Funct. Mater. 20, 3577–3582 (2010).
+22. Chortos, A. et al. Highly stretchable transistors using a microcracked organic
+semiconductor. Adv. Mater. 26, 4253–4259 (2014).
+23. Pu, J. et al. Fabrication of stretchable MoS2 thin-ﬁlm transistors using elastic
+ion-gel gate dielectrics. Appl. Phys. Lett. 103, 023505 (2013).
+24. Lee, S. et al. Stretchable graphene transistors with printed dielectrics and gate
+electrodes. Nano Lett. 11, 4642–4646 (2011).
+25. Shin, M. et al. Highly stretchable polymer transistors consisting entirely of
+stretchable device components. Adv. Mater. 26, 3706–3711 (2014).
+26. Liu, H. L. et al. A new kind of electro-active polymer composite composed of
+silicone elastomer and polyethylene glycol. J. Phys. D Appl. Phys 45, 485303
+(2012).
+27. Mali, C. S., Chavan, S. D., Kanse, K. S., Kumbharkhane, A. C. & Mehrotra, S. C.
+Dielectric relaxation of poly ethylene glycol–water mixtures using time domain
+technique. Indian J. Pure Appl. Phys. 45, 476–481 (2007).
+28. Wang, C. et al. Extremely bendable, high-performance integrated circuits
+using semiconducting carbon nanotube networks for digital, analog, and
+radio-frequency applications. Nano Lett. 12, 1527–1533 (2012).
+29. Wang, C. et al. Wafer-scale fabrication of separated carbon nanotube thin-ﬁlm
+transistors for display applications. Nano Lett. 9, 4285–4291 (2009).
+30. Xu, H., Chen, L., Hu, L. B. & Zhitenev, N. Contact resistance of ﬂexible,
+transparent carbon nanotube ﬁlms with metals. Appl. Phys. Lett. 97, 143116
+(2010).
+31. Jackson, R. & Graham, S. Speciﬁc contact resistance at metal/carbon nanotube
+interfaces. Appl. Phys. Lett. 94, 012109 (2009).
+32. Cao, Q. & Rogers, J. A. Random networks and aligned arrays of single-walled
+carbon nanotubes for electronic device applications. Nano Res 1, 259–272
+(2008).
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms8647 ARTICLE
+NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications 9
+& 2015 Macmillan Publishers Limited. All rights reserved.
+
+33. Kim, W. et al. Hysteresis caused by water molecules in carbon nanotube ﬁeld-
+effect transistors. Nano Lett. 3, 193–198 (2003).
+34. Jin, S. H. et al. Sources of hysteresis in carbon nanotube ﬁeld-effect transistors
+and their elimination via methylsiloxane encapsulants and optimized growth
+procedures. Adv. Funct. Mater. 22, 2276–2284 (2012).
+35. Cao, Q. et al. Gate capacitance coupling of singled-walled carbon nanotube
+thin-ﬁlm transistors. Appl. Phys. Lett. 90, 023516 (2007).
+36. Kang, S. J. et al. High-performance electronics using dense, perfectly aligned
+arrays of single-walled carbon nanotubes. Nat. Nanotechnol 2, 230–236 (2007).
+37. Shi, J., Guo, C. X., Chan-Park, M. B. & Li, C. M. All-printed carbon nanotube
+ﬁnFETs on plastic substrates for high-performance ﬂexible electronics. Adv.
+Mater. 24, 358–361 (2012).
+38. Park, S., Vosguerichian, M. & Bao, Z. N. A review of fabrication and
+applications of carbon nanotube ﬁlm-based ﬂexible electronics. Nanoscale 5,
+1727–1752 (2013).
+39. Pimparkar, N., Cao, Q., Rogers, J. A. & Alam, M. A. Theory and practice of
+‘‘striping’’ for improved ON/OFF ratio in carbon nanonet thin ﬁlm transistors.
+Nano Res 2, 167–175 (2009).
+40. Snow, E. S., Novak, J. P., Campbell, P. M. & Park, D. Random networks of
+carbon nanotubes as an electronic material. Appl. Phys. Lett. 82, 2145–2147
+(2003).
+41. Li, Q. et al. Structure-dependent electrical properties of carbon nanotube ﬁbers.
+Adv. Mater. 19, 3358–3363 (2007).
+42. Zhang, Y. et al. Polymer-embedded carbon nanotube ribbons for stretchable
+conductors. Adv. Mater. 22, 3027–3031 (2010).
+43. Xu, F. & Zhu, Y. Highly conductive and stretchable silver nanowire conductors.
+Adv. Mater. 24, 5117–5122 (2012).
+44. Hu, W., Niu, X., Zhao, R. & Pei, Q. Elastomeric transparent capacitive sensors
+based on an interpenetrating composite of silver nanowires and polyurethane.
+Appl. Phys. Lett. 102, 083303 (2013).
+45. Li, L. et al. A solution processed ﬂexible nanocomposite electrode with efﬁcient
+light extraction for organic light emitting diodes. Sci. Rep 4, 4307 (2014).
+46. Sun, Y., Gates, B., Mayers, B. & Xia, Y. Crystalline silver nanowires by soft
+solution processing. Nano Lett. 2, 165–168 (2002).
+Acknowledgements
+The work reported here was supported by the Air Force Ofﬁce of Scientiﬁc Research
+(Program Director: Dr Charles Lee; Grant no. FA9550-12-1-0074).
+Author contributions
+J.L. and Q.P. conceived and designed the research. Z.R., W.H., S.C. carried the
+mechanical measurement, and s.e.m. characterization. J.L., L.L., D.C., T.H., Q.P.
+participated in materials preparation, device fabrication, device test or interpretation
+of results. J.L. and Q.P. wrote the paper. Q.P. supervised the project.
+Additional information
+Supplementary Information accompanies this paper at http://www.nature.com/
+naturecommunications
+Competing ﬁnancial interests: The authors declare no competing ﬁnancial interests.
+Reprints and permission information is available online at http://npg.nature.com/
+reprintsandpermissions/
+How to cite this article: Liang, J. et al. Intrinsically-stretchable and transparent thin-ﬁlm
+transistors based on printable silver nanowires, carbon nanotubes and an elastomeric
+dielectric. Nat. Commun. 6:7647 doi: 10.1038/ncomms8647 (2015).
+This work is licensed under a Creative Commons Attribution 4.0
+International License. The images or other third party material in this
+article are included in the article’s Creative Commons license, unless indicated otherwise
+in the credit line; if the material is not included under the Creative Commons license,
+users will need to obtain permission from the license holder to reproduce the material.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+ARTICLE NATURE COMMUNICA TIONS | DOI: 10.1038/ncomms8647
+10 NATURE COMMUNICATIONS | 6:7647 | DOI: 10.1038/ncomms8647 | www.nature.com/naturecommunications
+& 2015 Macmillan Publishers Limited. All rights reserved.

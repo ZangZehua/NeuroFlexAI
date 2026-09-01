@@ -1,0 +1,1104 @@
+ARTICLE
+Pure PEDOT:PSS hydrogels
+Baoyang Lu 1,2, Hyunwoo Yuk 2, Shaoting Lin 2, Nannan Jian 1, Kai Qu 1, Jingkun Xu 1,3 & Xuanhe Zhao 2,4
+Hydrogels of conducting polymers, particularly poly(3,4-ethylenedioxythiophene):poly
+(styrene sulfonate) (PEDOT:PSS), provide a promising electrical interface with biological
+tissues for sensing and stimulation, owing to their favorable electrical and mechanical
+properties. While existing methods mostly blend PEDOT:PSS with other compositions such
+as non-conductive polymers, the blending can compromise resultant hydrogels ’ mechanical
+and/or electrical properties. Here, we show that designing interconnected networks of
+PEDOT:PSS nano ﬁbrils via a simple method can yield high-performance pure PEDOT:PSS
+hydrogels. The method involves mixing volatile additive dimethyl sulfoxide (DMSO) into
+aqueous PEDOT:PSS solutions followed by controlled dry-annealing and rehydration.
+The resultant hydrogels exhibit a set of properties highly desirable for bioelectronic appli-
+cations, including high electrical conductivity (~20 S cm
+−1 in PBS, ~40 S cm −1 in deionized
+water), high stretchability (> 35% strain), low Young ’s modulus (~2 MPa), superior
+mechanical, electrical and electrochemical stability, and tunable isotropic/anisotropic
+swelling in wet physiological environments.
+https://doi.org/10.1038/s41467-019-09003-5 OPEN
+1 School of Pharmacy, Jiangxi Science and Technology Normal University, 330013 Nanchang, China. 2 Department of Mechanical Engineering, Massachusetts
+Institute of Technology, Cambridge, MA 02139, USA. 3 School of Chemistry and Molecular Engineering, Qingdao University of Science and Technology,
+266042 Qingdao, China. 4 Department of Civil and Environmental Engineering, Massachusetts Institute of Technology, Cambridge, MA 02139, USA. These
+authors contributed equally: Baoyang Lu, Hyunwoo Yuk. Correspondence and requests for materials should be addressed to X.Z. (email: zhaox@mit.edu)
+NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications 1
+1234567890():,;
+
+R
+ecent advances in bioelectronics are making the gap
+between electronic systems and human body ever closer 1–5.
+A number of bioelectronic devices, such as commercially
+available silicon probes 3, epidermal electronics 6, stretchable
+neural interfaces7–9, and nanoscale sensor arrays 10, have shown a
+great promise toward seamless merging of biology and electro-
+nics. Despite these recent successes, the majority of bioelectronic
+devices still rely on electrode materials, which are physically and
+mechanically dissimilar to biological tissues. Biological tissues are
+typically soft (e.g., Young ’s moduli in the range of 1 kPa –1 MPa)
+and contain large amounts of water (e.g., over 70%) with dis-
+solved ionic species 1,3. In contrast, most inorganic materials (e.g.,
+Si, Au, Pt, and Sn) and dry polymers (e.g., polycarbonate and
+polyimide) in bioelectronic devices exhibit much higher elastic
+moduli (e.g., Young ’s moduli in the range of 100 MPa –10 GPa)
+with virtually no water content 1,2. Hence, the search toward more
+tissue-like bioelectronic interface has been a grand but ongoing
+challenge in the ﬁeld of bioelectronics.
+Among many engineering materials, hydrogels show a great
+promise as ideal interfacing materials to biological tissues, owing
+to their unique tissue-like mechanical property, water-rich nature,
+superior biocompatibility, and ﬂexibility and versatility in
+designing their properties 11–13. However, conventional hydrogels
+typically lack electronic conductivity, and the ionic conductivity
+of hydrogels in physiological conditions is very low (e.g., 6 –9
+orders of magnitude lower than the conductivity of metals) 14.
+Unlike conventional hydrogels, conducting polymer hydrogels
+offer both electronic and ionic conductivity, rendering them as
+one of the most promising materials in the emerging ﬁeld of
+hydrogel bioelectronics 15–18. Particularly, poly(3,4-ethylenediox-
+ythiophene):poly(styrene sulfonate) (PEDOT:PSS) based hydro-
+gels have attracted extensive studies owing to their favorable
+cytocompatibility19,20. Existing methods to prepare PEDOT:PSS
+hydrogels mostly rely on mixing or in situ polymerization of
+PEDOT:PSS within non-conductive hydrogel templates to form
+interpenetrating polymer networks (IPN) 15,18,21–23. However,
+such IPN-based conducting polymer hydrogels can potentially
+compromise electrical conductivity and/or electrochemical per-
+formances as the non-conductive hydrogel network acts as an
+electrical insulator (e.g., electrical conductivity is typically below
+1Sc m
+−1 in deionized water) 15,18,21,22. While conductive nano-
+ﬁllers, such as metal nanoparticles/wires, carbon nanotubes, and
+graphene, have also been added into IPN-based PEDOT:PSS
+hydrogels to enhance electrical conductivity 15,24,25, the dispersion
+of nano- ﬁllers within polymer chains of hydrogel networks
+(typically sub-nm scale) can invite potential issues such as
+inhomogeneity in mechanical and electrical properties, as well
+as instability and cytotoxicity in contact with wet biological
+tissues15,24–27. In light of these challenges, pure PEDOT:PSS
+hydrogels have been developed by avoiding the use of other
+compositions such as non-conducting hydrogel template and/or
+nano-ﬁllers28–32, but they still face numerous technical challenges
+including low electrical conductivity (<10 S cm −1), low stretch-
+ability (<10% strain), high Young ’s moduli (>100 MPa), and/or
+poor stability in wet physiological environments due to the
+absence of supporting matrix. While a recent work reports the
+highest electrical conductivity (8.8 S cm −1) of pure PEDOT:PSS
+hydrogels33, the hydrogel requires concentrated sulfuric acid to
+fabricate and the electrical conductivity is tested in an acidic
+solution (pH 1), making it unsuitable for in vivo bioelectronic
+applications. In addition, the swelling properties of PEDOT:PSS
+hydrogels in wet physiological environments are of particular
+importance to their applications in bioelectronics, but such
+swelling properties have yet been well studied or controlled.
+Here, we show that designing interconnected networks of
+PEDOT:PSS nano ﬁbrils via a simple yet effective method can
+achieve pure PEDOT:PSS hydrogels with extraordinary electrical,
+mechanical, and swelling properties without blending other
+compositions. We show that adding volatile additive dimethyl
+sulfoxide (DMSO) into aqueous PEDOT:PSS solutions followed
+by controlled dry-annealing, and subsequent rehydration
+can yield pure PEDOT:PSS hydrogels, of which electrical,
+mechanical, and swelling properties can be systematically tuned
+by the amount of added DMSO and the way of dry-annealing.
+The pure PEDOT:PSS hydrogels with the optimized amount
+of DMSO (13 vol.%) and annealing condition (three cycles
+of 30 min annealing at 130 °C) give superior electrical con-
+ductivity of ~20 S cm
+−1 in phosphate buffered saline (PBS) and
+~40 S cm−1 in deionized water, as well as low Young ’s modulus
+of ~2 MPa and high stretchability of over 35% strain in wet
+physiological environments. (Note that vol.% indicates the
+volume fraction of the added DMSO to the ﬁnal solution
+volume.) The resultant pure PEDOT:PSS hydrogels exhibit
+remarkably long-term mechanical (no observable damage over
+3 months), electrical (negligible change in electrical conductivity
+over 3 months), and electrochemical stability (less than 10%
+change in charge storage capability and charge injection capacity
+values after 20,000 charging and discharging cycles) in wet phy-
+siological conditions. In addition, we discover that the formation
+of isotropic or anisotropic interconnected networks of PEDOT:
+PSS nano ﬁbrils by controlled dry-annealing of the PEDOT:PSS
+solution under mechanically unconstrained or constrained con-
+ditions can yield a pure PEDOT:PSS hydrogel that swells iso-
+tropically or anisotropically, respectively, providing tunable
+swelling behaviors compatible to various fabrication approaches.
+We further demonstrate highly conductive, stretchable, and stable
+pure PEDOT:PSS hydrogels both in free-standing and robust
+laminate forms with complex patterns, uniquely enabled by the
+proposed method.
+Results
+Design of pure PEDOT:PSS hydrogels . Stable water dispersion
+of PEDOT is generally achieved by introducing anionic polymers
+such as poly(styrene sulfonic acid) (PSS), which serve as a charge-
+balancing counter ion template (Fig. 1a). In aqueous colloidal
+dispersion solution, PEDOT:PSS tends to form micellar micro-
+structures that consist of hydrophobic PEDOT-rich core and
+hydrophilic PSS-rich shell (Fig. 1b). There are three major
+molecular interactions in PEDOT:PSS: (i) electrostatic forces
+of attraction between π-conjugated PEDOT chains and negative
+charged PSS chains, (ii) π-π stacking of adjacent PEDOT chains,
+and (iii) interchain entanglements mostly between long PSS
+chains. To design a pure PEDOT:PSS hydrogel with high elec-
+trical conductivity, these molecular interactions should be tamed
+appropriately to achieve a water-stable network of rigid hydro-
+phobic PEDOT-rich semi-crystalline domains and soft hydro-
+philic PSS-rich matrix.
+One approach to realize pure PEDOT:PSS hydrogels is to dry-
+anneal the aqueous PEDOT:PSS solution in a controlled manner,
+and then reswell the dry-annealed PEDOT:PSS into a hydrogel.
+The loss of water in aqueous PEDOT:PSS solution during the
+drying process concentrates PEDOT:PSS, and the subsequent
+annealing in an elevated temperature enables recrystallization
+of PEDOT-rich nano ﬁbrils and chain rearrangement for both
+PEDOT and PSS 34–36. Thus, the resultant dry PEDOT:PSS likely
+undergoes phase separation into three different domains: (i) rigid
+conjugated PEDOT-rich crystalline region, (ii) disordered
+PEDOT:PSS semi-crystalline region, and (iii) PSS-rich soft
+region37,38. By controlling these three domains into a well-
+distributed network, a stable and highly conductive PEDOT:PSS
+hydrogel can be achieved by swelling the hydrophilic PSS-rich
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5
+2 NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications
+
+domains while maintaining the interconnected networks of
+PEDOT:PSS nano ﬁbrils (Fig. 1c). For this purpose, we choose
+high boiling point polar co-solvent dimethyl sulfoxide (DMSO) as
+an additive to the aqueous PEDOT:PSS solution to facilitate the
+recrystallization of PEDOT-rich nano ﬁbrils and chain rearrange-
+ment of PEDOT:PSS during the dry-annealing process 39.
+Notably, both solvents (i.e., water and DMSO) can be completely
+removed by thorough evaporation during the drying (24 h at
+60 °C) and the subsequent high-temperature annealing processes
+(three cycles of 30 min annealing at 130 °C), yielding pure
+PEDOT:PSS hydrogels as the ﬁnal product. (See the ‘Method’
+section for detailed procedures.)
+Mechanical stability of pure PEDOT:PSS hydrogels .W e ﬁrst
+dry the pristine aqueous PEDOT:PSS solution without any
+additive (Fig. 1b). The resultant dried pristine PEDOT:PSS dis-
+sociates easily into fragmented microgels in wet environment
+due to the absence of interconnected PEDOT:PSS nano ﬁbrils
+to maintain mechanical integrity during the swelling process
+(Supplementary Fig. 1 and Supplementary Movie 1). The
+Stable pure PEDOT:PSS hydrogel
+with extraordinary properties
+Aqueous solution
+c
+PEDOT:PSS
+colloidal gel
+Additive
+Isotropic
+swelling
+Anisotropic
+swelling
+Anisotropic
+dry-annealing
+Isotropic
+dry-annealing
+Water
+Solvent evaporation
+PSS-rich domain
+PSS–rich domain
+Interconnected
+PEDOT–PSS nanofibrils
+Interconnected
+PEDOT–PSS nanofibrils
+Solvent evaporation
+b
+Water evaporation
+PEDOT–rich domain
+Dissolved PSS
+Fragmented
+PEDOT:PSS microgel
+PSS–rich domain
+WaterWaterPEDOT:PSS
+Colloidal gel
+Swelling
+Fragmented-microgel suspensionAqueous solution
+Drying
+a
+S
+S
+S
+S
+S
+S
+OO
+OO
+OO
+OO
+OO
+OO
++
+Additive
+Dimethyl sulfoxide (DMSO)
+O
+S
+PEDOT
+SO3H SO3HSO3
+– SO3HS O 3HSO3
+–
+PSS–
+Fig. 1 Schematic illustration of pure PEDOT:PSS hydrogel preparation. a Chemical structures of PEDOT, PSS, and DMSO. b Typical drying and swelling
+processes of pristine PEDOT:PSS without DMSO. c Dry-annealing and swelling processes of PEDOT:PSS with DMSO as the additive. Isotropic dry-
+annealing of PEDOT:PSS aqueous solution with DMSO leads to isotropic swelling of the stable pure PEDOT:PSS hydrogel with extraordinary properties,
+while anisotropic dry-annealing provides anisotropic swelling in out-of-plane or thickness direction
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications 3
+
+observed instability of the pristine PEDOT:PSS in wet environ-
+ment is consistent with the previous reports on dissolution of the
+PEDOT:PSS electrodes in aqueous media 40.
+Strong polar co-solvents such as DMSO are known to increase
+the electrical conductivity of PEDOT:PSS by secondary doping 41
+(from ~0.1 to over 10 3 Sc m−1). Such conductivity enhancing
+additives can effectively extend PEDOT:PSS microgel particles
+from a trapped and/or folded state into linear long chains 39, and
+therefore, facilitate the formation of a larger crystalline PEDOT-
+rich nano ﬁbrils and the interchain entanglements between PSS
+chains during the drying process 37,39 (Fig. 1c). By adding 5 vol.%
+DMSO into the pristine aqueous PEDOT:PSS solution and
+subsequently dry-annealing (24 h at 60 °C drying followed by
+three cycles of 30 min annealing at 130 °C) the mixture to
+thoroughly remove both water and DMSO, we prepare pure
+PEDOT:PSS microballs or ﬁlms (Fig. 2a, b and Supplementary
+Movies 2, 3. See the ‘Method’ section for detailed procedures).
+The characteristic FT-IR spectral absorption peaks for DMSO
+(1024 cm−1 for stretching vibration of sulfoxyl group; 950 cm −1
+for bending and 3000 and 2910 cm −1 for stretching vibration
+of methyl group) clearly present in DMSO-containing aqueous
+PEDOT:PSS solutions while such absorption peaks completely
+disappear in the FT-IR spectra of the dry-annealed PEDOT:PSS
+(Supplementary Fig. 2). This indicates that the added DMSO
+is fully removed during the dry-annealing process, yielding pure
+PEDOT:PSS.
+We further ﬁnd that the dry-annealed PEDOT:PSS can be
+facilely converted into stable pure PEDOT:PSS hydrogels by
+rehydrating in water or in PBS (Fig. 2c–f). The resultant pure
+PEDOT:PSS hydrogels show high water contents (80 –87 wt.%
+water) and substantially enhanced long-term stability in wet
+physiological environments (e.g., no observable damage over
+3 months in PBS) (Supplementary Fig. 3).
+Swelling properties of pure PEDOT:PSS hydrogels . The swel-
+ling behavior of the pure PEDOT:PSS hydrogels is strongly
+ab
+Dry-annealing
+PEDOT:PSS solution
+suspended in air
+Glass pipette
+Dry annealed
+PEDOT:PSS
+Free standing
+isotropically dried
+pure PEDOT:PSS
+Solvent evaporation
+PEDOT:PSS solution
+on substrate
+Dry annealed
+PEDOT:PSS on substrate
+Peeling off free standing
+anisotropically dried
+pure PEDOT:PSS
+Substrate
+PEDOT:PSS solution
+PEDOT:PSS solution
+Dry-
+annealing Collection
+Collection
+Free standing
+pure PEDOT:PSS
+Solvent evaporation
+Free standing
+pure PEDOT:PSS
+Peeling
+g
+Drying ratio
+0
+0
+Time (min)
+30 60 90 120 150 180 210 240
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+c
+x
+y
+z
+PEDOT:PSS solution
+Glass pipette t = 0 min
+t = 30 min
+t = 120 min
+xy
+z
+Isotropically dried
+PEDOT:PSS
+xy
+z
+Isotropic drying
+h
+Drying ratio
+Time (min)
+0
+0
+60 120 180 240 300 360
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+d
+x
+y
+z
+x
+y
+z
+t = 0 min
+t = 60 min
+t = 120 min
+t = 180 min
+t = 240 min
+Side view Top view
+x
+z
+x
+y
+Anisotropically dried
+PEDOT:PSS
+PEDOT:PSS solution
+Anisotropic drying
+i
+Swelling ratio
+Time (s)
+30
+1
+0 10 20 40 50 60
+1.5
+2
+2.5
+e
+x
+y
+z
+xy
+z
+Isotropic swelling
+t = 0 s
+t = 16 s
+t = 60 s
+Isotropically dried
+pure PEDOT:PSS
+Isotropically swollen
+pure PEDOT:PSS hydrogel
+xy
+z
+j
+Swelling ratio
+Time (s)
+0
+1
+51 0 1 5 2 0 2 5 3 0
+2
+3
+4
+5
+6
+7
+8
+9
+10
+f
+x
+y
+z
+x
+y
+z
+Anisotropic swelling
+t = 0 s
+t = 4 s
+t = 8 s
+t = 16 s
+t = 30 s
+Side view Top view
+x
+z
+x
+y
+Anisotropically dried
+pure PEDOT:PSS
+Anisotropically swollen
+pure PEDOT:PSS hydrogel
+Fig. 2 Dry-annealing and swelling behaviors of pure PEDOT:PSS hydrogels. a Schematic illustration of isotropic dry-annealing of aqueous PEDOT:PSS
+solution into a microball. b Schematic illustration of anisotropic dry-annealing of aqueous PEDOT:PSS solution into a free-standing ﬁlm. c Experimental
+images for isotropic dry-annealing of aqueous PEDOT:PSS solution into a microball. d Experimental images for anisotropic dry-annealing of aqueous
+PEDOT:PSS solution into a free-standing ﬁlm. e Isotropic swelling of a pure dry-annealed PEDOT:PSS microball into a stable hydrogel. f Anisotropic swelling
+of a free-standing pure dry-annealed PEDOT:PSS ﬁlm into a stable hydrogel. g, h Dimensional changes vs. time during the g isotropic and h anisotropic dry-
+annealing of aqueous PEDOT:PSS solution. i, j Dimensional changes vs. time during the i isotropic and j anisotropic swelling of pure PEDOT:PSS hydrogels.
+Values in g– j represent mean and the error bars represent the SD of the measured values ( n = 3). Scale bars, 1 mm
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5
+4 NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications
+
+affected by the dry-annealing condition (Fig. 1c). The isotropic
+dry-annealing of mechanically unconstrained PEDOT:PSS dro-
+plet leads to the isotropic swelling behavior (Fig. 2c, e, g, i and
+Supplementary Movies 2, 4), while the anisotropic drying of
+mechanically constrained PEDOT:PSS solution (i.e., drying on a
+substrate) gives the anisotropic swelling behavior over the
+thickness direction (Fig. 2d, f, h, j and Supplementary Movies 3,
+5). The swelling ratio of pure PEDOT:PSS hydrogels in wet
+environment is also affected by the concentration of DMSO in the
+aqueous PEDOT:PSS solution. The swelling ratio of pure PEDOT:
+PSS hydrogels increases with the DMSO concentration used
+during the preparation up to 20 vol.%, and then the swelling ratio
+decreases with the DMSO concentration, both in PBS and in
+deionized water (Supplementary Fig. 4). Furthermore, the pure
+PEDOT:PSS hydrogels fabricated with the same DMSO con-
+centration exhibit lower swelling ratio in PBS than in deionized
+water, potentially due to the ionic strength and subsequent
+change of equilibrium swelling in PBS (Supplementary Fig. 4).
+Notably, crosslinkers such as 3-glycidoxypropyltrimethosilane
+(GOPS) have previously been adopted to achieve stable PEDOT:
+PSS hydrogels in wet environment as well
+32, but these crosslinked
+PEDOT:PSS hydrogels exhibit relatively low water contents
+(<50%) and high Young ’s modulus (>100 MPa) with unclear
+electrical conductivity in the swollen state, signi ﬁcantly limiting
+their utility in bioelectronic applications.
+Morphologies of dry-annealed PEDOT:PSS . We further inves-
+tigate the effect of varying DMSO concentrations in aqueous
+PEDOT:PSS solution on the morphologies of the resultant dry-
+annealed PEDOT:PSS via AFM phase imaging (Fig. 3). In com-
+parison with the pristine PEDOT:PSS ﬁlm without adding DMSO
+(Fig. 3a), the introduction of DMSO (5 –50 vol.%) results in the
+increased phase separation between PEDOT-rich domains (bright
+color) and PSS-rich domains (dark color), which originates from
+the enhanced crystallinity of π-stacking of PEDOT chains during
+the dry-annealing process
+41–45 (Fig. 3b–f). Notably, higher
+DMSO concentration further facilitates the growth and inter-
+connection of PEDOT-rich domains, and a well-percolated net-
+works of PEDOT:PSS nano ﬁbrils start to appear at DMSO
+concentration over 13 vol.% (Fig. 3c–e). Such interconnected
+nanoﬁbrillar morphology can potentially provide improved
+electrical conductivity and mechanical properties by forming
+more effective pathways for both electron transfer and sustaining
+mechanical forces
+46. However, too high DMSO concentration
+(over 50 vol.%) begins to lead to the aggregation of the ﬁbrous
+networks of PEDOT-rich domains (Fig. 3f), similar to the instant
+aggregation or gelation phenomena previously reported in the
+addition of sulfuric acid and ionic liquids 33,46.
+We also perform wide-angle X-ray scattering (WAXS) tests in
+order to further study the effect of varying DMSO concentrations
+on the morphologies of the resultant dry-annealed pure PEDOT:
+PSS. The WAXS pro ﬁles of the dry-annealed pure PEDOT:PSS
+ﬁlms based on varying concentrations of DMSO exhibit the
+increasing intensity of the scattering vector ( q) peak at ~19 nm −1
+(characteristic peak for PEDOT crystalline domain) (Supplemen-
+tary Fig. 5), further revealing the effective enhancement in the
+crystallization of PEDOT by the proposed method 47,48.
+Mechanical properties of pure PEDOT:PSS hydrogels . Taking
+advantage of the superior stability and free-standing nature of
+pure PEDOT:PSS hydrogels in wet physiological environments,
+we systematically characterize the mechanical and electrical
+properties of free-standing pure PEDOT:PSS hydrogel ﬁlms both
+in PBS and in deionized water. Nominal strain vs. stress curves in
+tensile tests show that the Young ’s moduli of pure PEDOT:PSS
+hydrogels in PBS are in the range of 2 –10 MPa (Fig. 4a, b), which
+are comparable to that of soft elastomers such as poly-
+dimethylsiloxane (PDMS) (e.g., Young ’s moduli in the range
+a 0 vol. % DMSO b 5 vol. % DMSO c
+d
+13 vol. % DMSO
+20 vol. % DMSO
+ef
+33 vol. % DMSO 50 vol. % DMSO
+Fig. 3 AFM phase images of dry-annealed PEDOT:PSS free-standing ﬁlms. a Pristine PEDOT:PSS ﬁlm. b– f Dry-annealed pure PEDOT:PSS ﬁlms prepared
+by adding different amount of DMSO by b 5 vol.%, c 13 vol.%, d 20 vol.%, e 33 vol.%, and f 50 vol.%. Note that vol.% indicates the volume fraction
+of the added DMSO to the ﬁnal solution volume. The measured surface roughness is a 1.6 nm, b 1.4 nm, c 2.5 nm, d 2.0 nm, e 2.1 nm, and f 3.1 nm.
+Scale bars, 100 nm
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications 5
+
+a
+0
+Strain (%)
+10 20 30
+Nominal stress (MPa)
+0
+0.5
+1
+1.5
+2
+2.5
+In PBS
+40
+5 vol.%
+9 vol.%
+13 vol. %
+20 vol.%
+33 vol.%
+50 vol.%
+b
+DMSO concentration (vol.%)
+0 1 02 03 04 05 0
+Young’s modulus (MPa)
+0
+Ultimate tensile strain (%)
+0
+2
+4
+6
+8
+12
+10
+20
+30
+40
+10
+Young’s moduli
+Ultimate tensile strain
+In PBS
+c
+DMSO concentration (vol.%)
+01 0 2 0 3 0 4 0 5 0
+Conductivity (S cm–1)
+Conductivity (S cm–1)
+0
+10
+20
+30
+40
+Water
+PBS
+0 % strain
+50 d
+Strain (%)
+0
+0
+5 10 15
+10
+20
+30
+40
+Water
+PBS
+13 vol.% DMSO
+20
+50
+e
+1 cycle
+1000 cycles
+5000 cycles
+10,000 cycles
+20,000 cycles
+Current density (mA cm–2)
+–6
+Potential vs. Ag/AgCl (V)
+–0.6
+–4
+–2
+0
+2
+4
+6
+–0.4 –0.2 0 0.2 0.4 0.6
+13 vol.% DMSO in PBS
+Bare Pt electrode
+f
+Time (ms)
+0 100 200
+Charge (mC)
+–0.6
+–0.3
+0
+0.3
+0.6
+Charge density (mC cm–2)
+–4
+–2
+0
+2
+4
+50 150 300
+1 cycle
+1000 cycles
+5000 cycles
+10,000 cycles
+20,000 cycles
+13 vol.% DMSO in PBS
+250
+Fig. 4 Mechanical and electrical characterizations of pure PEDOT:PSS hydrogels. a Nominal stress vs. strain curves of free-standing pure PEDOT:PSS
+hydrogels in PBS with varying DMSO concentrations. b Young’s moduli and ultimate tensile strains vs. DMSO concentration for pure PEDOT:PSS
+hydrogels in PBS. c Electrical conductivity of pure PEDOT:PSS hydrogels both in deionized water and in PBS with varying DMSO concentrations. d Electrical
+conductivity of pure PEDOT:PSS hydrogels at different strain both in deionized water and in PBS. e CV curves for the pure PEDOT:PSS hydrogel on
+Pt electrode in PBS. Red curve represents the CV curve of bare Pt electrode as a control. f Cyclic electrochemical current pulse injection curves of the
+pure PEDOT:PSS hydrogel on Pt electrode under between −1.5 V and 1.5 V vs. Ag/AgCl. Values in b– d represent mean and the error bars represent
+the SD of the measured values ( n = 4)
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5
+6 NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications
+
+of 1 –10 MPa) and several orders of magnitude lower than con-
+ventional rigid materials in bioelectronic devices 2,3,15. The
+mechanical compliance of pure PEDOT:PSS hydrogels can
+offer improved long-term biomechanical interactions with
+biological tissues as demonstrated by PDMS-based bioelectronic
+implants
+7,49,50. Notably, the pure PEDOT:PSS hydrogels
+exhibit smaller Young ’s moduli in deionized water (in the range
+of 1 –5 MPa) than in PBS (Supplementary Fig. 6), which poten-
+tially stems from higher swelling ratio and consequent higher
+equilibrium water contents of pure PEDOT:PSS hydrogels
+in deionized water than in PBS (~87 wt.% in deionized water vs.
+~80 wt.% in PBS) (Supplementary Fig. 4).
+The pure PEDOT:PSS hydrogels show a gradual reduction in
+Young’s moduli with the increase of DMSO concentration up
+to 13 vol.% and then keep nearly constant for higher DMSO
+concentrations, both in PBS and in deionized water (Fig. 4b and
+Supplementary Fig. 6). The stretchability of the pure PEDOT:PSS
+hydrogels increases with DMSO concentration up to 20 vol.% and
+then decreases for higher DMSO concentrations (Fig. 4b and
+Supplementary Fig. 6). The ultimate tensile strain of the pure
+PEDOT:PSS hydrogels (20 vol. % DMSO) can reach over 35% in
+PBS and over 40% in deionized water (Supplementary Figs. 7, 8
+and Supplementary Movie 6), which are signi ﬁcantly higher than
+the dry-annealed pure PEDOT:PSS ﬁlm before swelling (<10%
+strain) and closely match the stretchability of biological tissues
+such as neural tissues (~20% strain) 3 and skin (~50% strain) 51.
+This enhanced stretchability of the pure PEDOT:PSS hydrogels
+can be attributed to the phase separation of PEDOT and PSS
+during the dry-annealing process and the resultant intercon-
+nected networks of PEDOT:PSS nano ﬁbrils in hydrogel, which
+is in good agreement with the morphological evolution observed
+in the AFM phase images (Fig. 3).
+Electrical conductivity of pure PEDOT:PSS hydrogels .W e
+vary the DMSO concentration in the aqueous PEDOT:PSS
+solution in the range of 5 –50 vol.% and keep the same dry-
+annealing condition of 24 h at 60 °C drying followed by three
+cycles of 30 min annealing at 130 °C to make a batch of pure
+PEDOT:PSS hydrogels. During rehydration, the dry-annealed
+pure PEDOT:PSS absorbs water and ions, signi ﬁcantly decreasing
+its electrical conductivity from ~500 S cm −1 in the dry state to
+less than 50 S cm −1 in the swollen state (both in PBS and in
+deionized water) (Fig. 4c).
+The concentration of DMSO plays an important role in
+the electrical conductivity of the pure PEDOT:PSS hydrogels.
+The electrical conductivity and DMSO concentration display
+a non-monotonic relationship with the highest conductivity of
+~20 S cm−1 in PBS and ~40 S cm −1 in deionized water achieved
+at 13 vol.% DMSO concentration. The addition of an optimal
+amount of DMSO (i.e., 13 vol.%) in the aqueous PEDOT:PSS
+solution allows more preferred formation of better interconnected
+networks of PEDOT:PSS nano ﬁbrils, which can offer enhanced
+conducting pathways against the fast swelling of hydrophilic PSS-
+rich matrix. The reduction in the electrical conductivity with
+DMSO concentration over 13 vol.% can possibly be attributed
+to an unfavorable aggregation of the nano ﬁbrillar PEDOT:PSS
+networks by the presence of excessive amount of DMSO 46
+(Figs. 3c and 4).
+The same pure PEDOT:PSS hydrogel also exhibits a reduced
+electrical conductivity in physiological condition (i.e., in PBS)
+compared to in deionized water (Fig. 4c). Typical aqueous
+PEDOT:PSS solutions and pure PEDOT:PSS hydrogels in
+deionized water are acidic (pH 1 –2) due to the presence of PSS.
+Physiologically-relevant environment such as PBS can neutralize
+pure PEDOT:PSS hydrogels and such neuralization of acidic
+PEDOT:PSS has been reported to substantially decrease electrical
+conductivity by the disruption of the π-π stacking of PEDOT
+crystalline domain and the consequent reduction in bipolaron
+concentration (i.e., charge carrier density) 39,52.W e ﬁnd that the
+electrical conductivity of pure PEDOT:PSS hydrogels in PBS
+adjusted to pH 1 recovers high electrical conductivity measured
+in deionized water (~40 S cm −1) (Supplementary Fig. 9), which is
+consistent with the previous reports 39,52. It should be noted that,
+despite the reduced electrical conductivity in PBS, the optimized
+electrical conductivity of ~20 S cm −1 in PBS (~40 S cm −1 in
+deionized water) for the pure PEDOT:PSS hydrogels are among
+the highest values for conducting polymer hydrogels in PBS and
+water (Supplementary Table 1) 15,53. Furthermore, the electrical
+conductivity of pure PEDOT:PSS hydrogels exhibit superior
+stability in wet environments with negligible decrease over
+3 months both in PBS and in deionized water (Supplementary
+Fig. 10a). Such high and stable electrical conductivity in wet
+physiological environments can ensure more ef ﬁcient and reliable
+bioelectronic stimulation and recoding, and therefore, will be
+highly advantageous for bioelectronic devices and applications 15.
+Upon tensile deformation, the pure PEDOT:PSS hydrogels in
+deionized water display a slight reduction in conductivity similar
+to the previously reported stretchable PEDOT:PSS ﬁlms46 (Fig. 4d
+and Supplementary Fig. 11). Interestingly, tensile deformation
+of the pure PEDOT:PSS hydrogels in PBS can slightly increase
+its electrical conductivity (Supplementary Fig. 12), whose
+mechanism will be studied in the future work.
+Charge storage and injection properties of pure PEDOT:PSS
+hydrogels. We further characterize other electrical properties
+such as charge storage capability (CSC) and charge injection
+capacity (CIC) of pure PEDOT:PSS hydrogels to evaluate their
+performance in bioelectronic applications. Cyclic voltammetry
+(CV) of the pure PEDOT:PSS hydrogels measured on Pt electrode
+demonstrate that pure PEDOT:PSS hydrogels (13 vol.% DMSO
+concentration) show a high CSC value of 60 mC cm −2 and
+superior electrochemical stability against charging and dischar-
+ging cycles in wet physiological environment (i.e., PBS) with less
+than 9% reduction in CSC after 20,000 CV cycles (Fig. 4e
+and Supplementary Fig. 10b). The pure PEDOT:PSS hydrogels
+(13 vol.% DMSO concentration) also exhibit high CIC value of
+8.3 mC cm−2 and stability (less than 10% change after 20,000
+cycles) in PBS (Fig. 4f and Supplementary Fig. 10c). These high
+CSC and CIC values of pure PEDOT:PSS hydrogels together with
+their soft and wet properties are particularly desirable for bioe-
+lectronic stimulation applications 15,54, while their performance
+as current collectors and electrical interconnects can potentially
+be further improved by combinatorial use together with highly
+conductive metallic nanocomposites such as silver nanowires
+(AgNW)55,56.
+Patterning of pure PEDOT:PSS hydrogels . Patterning of elec-
+trodes into complex geometries is a crucial step for fabricating
+bioelectronic devices6,46,57. Complicated preparation steps and/or
+poor stability in aqueous conditions have signi ﬁcantly limited
+the realization of facile patterning of conductive hydrogels with
+complex designs 21,33 (Supplementary Table 1). Our simple but
+highly effective method enables us to fabricate highly conductive,
+stable, and stretchable hydrogel patterns. Moreover, tunable
+swelling behaviors of the pure PEDOT:PSS hydrogels further
+provide superior compatibility with various fabrication processes
+by minimizing geometric distortion and interfacial delamination
+from the substrate in wet environment.
+To demonstrate the capability to pattern complex geometry, a
+wavy mesh is fabricated by printing the aqueous PEDOT:PSS
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications 7
+
+solution with added DMSO onto a substrate with the resolution
+of 400 µm (Fig. 5a). After printing, the printed patterns are dry-
+annealed anisotropically under the mechanical constraint of
+the substrate (Fig. 5a and Supplementary Movie 7). The dry-
+annealed patterns can be readily converted into pure PEDOT:PSS
+hydrogels by rehydrating in wet environments (Fig. 5b,c). The
+pure PEDOT:PSS hydrogel patterns can be prepared either
+into free-standing structures by peeling off from low-adhesion
+substrates (e.g., polypropylene and polydimethylsiloxane)
+(Fig. 5b), or robust laminates by patterning on high-adhesion
+substrates (e.g., polyethylene terephthalate) (Fig. 5c). The
+anisotropic swelling of the hydrogel (resulted from mechanically
+constrained dry-annealing process) greatly bene ﬁts the
+fabrication of conductive hydrogel patterns by avoiding undesir-
+able dimensional changes in free-standing structures (Fig. 5b)
+and interfacial failures in laminates (Fig. 5c), which can be
+advantageous for various fabrication techniques, such as direct
+ink writing, inkjet printing, and spin coating
+46,58.
+Discussion
+In this study, we show that designing interconnected networks of
+PEDOT:PSS nano ﬁbrils via a simple yet highly effective strategy
+can realize high-performance pure PEDOT:PSS hydrogels with
+electrical conductivity as high as 20 S cm −1 in PBS (40 S cm −1
+in deionized water), high stretchability (>35% strain) with low
+a
+bc
+Patterned PEDOT:PSS
+solution with DMSO
+PET film
+t = 0 min t = 10 min
+t = 30 min t = 120 min
+Anisotropically dried
+PEDOT:PSS with DMSO
+Free-standing
+dry-annealed pattern
+Free-standing pure
+PEDOT:PSS hydrogel
+pattern
+Pure
+PEDOT:PSS
+hydrogel
+PBS
+Anisotropic
+swelling
+Pure PEDOT:PSS hydrogel
+pattern on PET film
+No failure
+during swelling
+No failure
+in bending
+Fig. 5 Patterning of pure PEDOT:PSS hydrogels. a Patterned PEDOT:PSS solution on PET substrate. Experimental images show anisotropic drying process of
+the patterned ink over time. b Free-standing pure PEDOT:PSS hydrogel pattern can be fabricated by peeling the dry-annealed pattern and swelling in PBS.
+c Robust laminate of pure PEDOT:PSS hydrogel pattern can be fabricated by suppressing delamination via anisotropic swelling behavior. Scale bars, 10 mm
+(a, left panel); 5 mm ( a, right panel); 8 mm ( b, c)
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5
+8 NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications
+
+Young’s modulus (~2 MPa), and superior mechanical, electrical,
+and electrochemical stability in wet physiological environments.
+The swelling behavior of the pure PEDOT:PSS hydrogels can be
+tuned by mechanical constraints during the dry-annealing pro-
+cess and the consequent anisotropy in interconnected networks of
+PEDOT:PSS nano ﬁbrils, providing additional ﬂexibility in their
+processing and bioelectronic device fabrication. We further
+demonstrate that the proposed method can realize a facile pat-
+terning of stable conductive hydrogels into complex geometries
+and various form factors. The current study not only addresses a
+long-lasting challenge in the development of high-performance
+conducting polymer hydrogels, but also offers a promising new
+avenue toward next-generation hydrogel bioelectronic devices
+and applications.
+Methods
+Preparation of pure PEDOT:PSS hydrogel . PEDOT:PSS aqueous solution
+(1.1–1.3% solid content, Clevios ™ PH1000, Heraeus Electronic Materials) was
+stirred vigorously for 6 h, and then dimethyl sulfoxide (DMSO, Sigma –Aldrich) was
+added in the range of 0 –50 vol.% of the ﬁnal solution. Upon further stirring for 24 h
+at room temperature, the mixed solution was solvent-casted directly onto poly-
+propylene (PP) or polyethylene terephthalate (PET) substrate and dried at 60 °C
+for 24 h followed by multiple cycles of annealing at 130 °C (three cycles with 30 min
+per each cycle) to yield pure PEDOT:PSS ﬁlms. Free-standing pure PEDOT:PSS
+ﬁlms were obtained by peeling off the dry-annealed samples from PP substrate.
+To prepare pure PEDOT:PSS microballs, a droplet of the mixed solution was
+suspended at the tip of a micropipette, and dry-annealed similar to the ﬁlm
+samples. To investigate the swelling behavior, dry-annealed pure PEDOT:PSS free-
+standing ﬁlms or microballs were immersed into deionized water or PBS
+(Sigma–Aldrich).
+FT-IR characterization. Free-standing dry-annealed and swollen pure PEDOT:PSS
+hydrogel ﬁlms were prepared and used to characterize the infrared spectra by a
+Fourier-transform infrared (FT-IR) spectrometer (Vertex 70, Bruker). For aqueous
+PEDOT:PSS solutions, a KBr pellet was employed as a substrate.
+AFM phase imaging . AFM phase images and surface roughness data were
+acquired by atomic force microscope (MFP-3D, Asylum Research). Dry-annealed
+free-standing PEDOT:PSS ﬁlms were directly attached onto sample stage by
+double-sided carbon tape.
+Wide-angle X-ray scattering (WAXS) characterization . Transmission WAXS
+measurements were carried out by using a SAXSLAB instrument at the MIT Center
+for Materials Science and Engineering (CMSE).
+Electrical conductivity measurement . Electrical conductivity for all the
+samples was measured by using a standard four-point probe (Keithley 2700
+digital multimeter, Keithley). Dry-annealed pure PEDOT:PSS ﬁlms or hydrogels
+were cut into rectangle shape (30 mm in length and 5 mm in width). Copper
+wire electrodes (diameter, 0.5 mm) were attached onto the surface of dry-annealed
+ﬁlms by applying silver paste, while platinum wire electrodes (diameter, 0.5 mm)
+were employed for hydrogels to avoid the corrosion in wet environments. For
+pure PEDOT:PSS hydrogels, a humidi ﬁer was employed to keep the samples
+hydrated throughout all experiments. For the conductivity stability tests, the
+pure PEDOT:PSS hydrogels were immersed in deionized water or in PBS and
+tested at different time points (1 day, 1 week, 1 month, 2 months, and
+3 months).
+Mechanical characterization . All samples for mechanical characterizations were
+performed by using fully swollen pure PEDOT:PSS free-standingﬁlms with dog-bone
+shape either in deionized water or in PBS. Tensile property of the samples was
+measured by a mechanical testing machine (U-Stretch with 4.4 N load cell, CellScale).
+All mechanical characterizations were performed within the submersion stage ﬁlled
+with either deionized water or PBS to avoid dehydration of the hydrogels.
+Cyclic voltammetry . Cyclic voltammetry of pure PEDOT:PSS hydrogels was
+performed by using a potentiostat/galvanostat (VersaSTAT 3, Princeton Applied
+Research). Pt wires (diameter, 1 mm) were employed as both working and counter
+electrodes, and Ag/AgCl electrode was used as the reference electrode. Prior to all
+measurements, the electrodes were cleaned successively with abrasive paper,
+deionized water, and ethyl alcohol. PBS was used as the supporting electrolyte. CSC
+was calculated from the measured CV curves as
+CSC ¼
+E1
+E2
+iEðÞ
+2vA dE ð1Þ
+where v is the scan rate, E2 − E1 is the potential window, i is the current at each
+potential, and A is the area of the pure PEDOT:PSS hydrogel ﬁlm.
+In order to characterize charge injection performance of pure PEDOT:PSS
+hydrogels, electrochemical current pulse injection (in recurrent potential pulses
+mode, −1.5 ~1.5 V vs. Ag/AgCl) tests were performed in PBS by using a
+electrochemical workstation (VersaSTAT 3, Ametek Scienti ﬁc Instruments).
+Ag/AgCl electrode was employed as a reference electrode, platinum wires
+(diameter, 1 mm) as counter and working electrodes. CIC was calculated from
+the measured charge injection curves as
+CIC ¼
+QinjðcÞ þ QinjðaÞ
+A
+ð2Þ
+where CIC represents the charge density of pure PEDOT:PSS hydrogel between the
+reduction potential (cathodal limit) and the oxidation potential (anodal limit), Qinj
+(c) is the total delivered (or injected) charge in cathodal phase, Qinj(a) is the total
+delivered (or injected) charge in anodal phase, and A is the area of the pure
+PEDOT:PSS hydrogel, respectively.
+Data availability
+The data that support the ﬁndings of this study are available from the corresponding
+author upon request.
+Received: 30 July 2018 Accepted: 11 February 2019
+References
+1. Rivnay, J., Wang, H., Fenno, L., Deisseroth, K. & Malliaras, G. G. Next-
+generation probes, particles, and proteins for neural interfacing. Sci. Adv. 3,
+e1601649 (2017).
+2. Jeong, J.-W. et al. Soft materials in neuroengineering for hard problems in
+neuroscience. Neuron 86, 175 –186 (2015).
+3. Lacour, S. P., Courtine, G. & Guck, J. Materials and technologies for soft
+implantable neuroprostheses. Nat. Rev. Mater. 1, 16063 (2016).
+4. Chen, R., Canales, A. & Anikeeva, P. Neural recording and modulation
+technologies. Nat. Rev. Mater. 2, 16093 (2017).
+5. Someya, T., Bao, Z. & Malliaras, G. G. The rise of plastic bioelectronics. Nature
+540, 379 (2016).
+6. Kim, D.-H. et al. Epidermal electronics. Science 333, 838 –843 (2011).
+7. Minev, I. R. et al. Electronic dura mater for long-term multimodal neural
+interfaces. Science 347, 159 –163 (2015).
+8. Tybrandt, K. et al. High ‐density stretchable electrode grids for chronic neural
+recording. Adv. Mater. 30, 1706520 (2018).
+9. Qi, D. et al. Highly stretchable, compliant, polymeric microelectrode arrays
+for in vivo electrophysiological interfacing. Adv. Mater. 29, 1702800
+(2017).
+10. Xie, C. et al. Three-dimensional macroporous nanoelectronic networks as
+minimally invasive brain probes. Nat. Mater. 14, 1286 (2015).
+11. Lee, K. Y. & Mooney, D. J. Hydrogels for tissue engineering. Chem. Rev. 101,
+1869–1880 (2001).
+12. Zhang, Y. S. & Khademhosseini, A. Advances in engineering hydrogels.
+Science 356, eaaf3627 (2017).
+13. Yuk, H., Zhang, T., Lin, S., Parada, G. A. & Zhao, X. Tough bonding of
+hydrogels to diverse non-porous surfaces. Nat. Mater. 15, 190 (2016).
+14. Keplinger, C. et al. Stretchable, transparent, ionic conductors. Science 341,
+984–987 (2013).
+15. Yuk, H., Lu, B. & Zhao, X. Hydrogel bioelectronics. Chem. Soc. Rev. https://
+doi.org/10.1039/C8CS00595H (2018).
+16. Mawad, D. et al. A conducting polymer with enhanced electronic stability
+applied in cardiac models. Sci. Adv. 2, e1601007 (2016).
+17. Groenendaal, L., Jonas, F., Freitag, D., Pielartzik, H. & Reynolds, J. R. Poly
+(3, 4 ‐ethylenedioxythiophene) and its derivatives: past, present, and future.
+Adv. Mater. 12, 481 –494 (2000).
+18. Feig, V. R., Tran, H., Lee, M. & Bao, Z. Mechanically tunable conductive
+interpenetrating network hydrogels that mimic the elastic moduli of biological
+tissue. Nat. Commun. 9, 2740 (2018).
+19. Venkatraman, S. et al. In vitro and in vivo evaluation of PEDOT
+microelectrodes for neural stimulation and recording. IEEE Trans. Neural
+Syst. Rehabil. Eng. 19, 307 –316 (2011).
+20. Berggren, M. & Richter ‐Dahlfors, A. Organic bioelectronics. Adv. Mater. 19,
+3201–3213 (2007).
+21. Lee, Y. Y. et al. A strain ‐insensitive stretchable electronic conductor: PEDOT:
+PSS/acrylamide organogels. Adv. Mater. 28, 1636 –1643 (2016).
+22. Warren, H. & Panhuis, M. i. h. Electrically conducting PEDOT:PSS —gellan
+gum hydrogels. MRS Proc. 1569, 219 –223 (2013).
+NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5 ARTICLE
+NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications 9
+
+23. Goding, J., Gilmour, A., Martens, P., Poole ‐Warren, L. & Green, R.
+Interpenetrating conducting hydrogel materials for neural interfacing
+electrodes. Adv. Healthc. Mater. 6, 1601177 (2017).
+24. Gaharwar, A. K., Peppas, N. A. & Khademhosseini, A. Nanocomposite
+hydrogels for biomedical applications. Biotechnol. Bioeng. 111, 441 –453
+(2014).
+25. Choi, S., Han, S. I., Kim, D., Hyeon, T. & Kim, D.-H. High-performance
+stretchable conductive nanocomposites: materials, processes, and device
+applications. Chem. Soc. Rev. https://doi.org/10.1039/C8CS00706C
+(2018).
+26. Smart, S., Cassady, A., Lu, G. & Martin, D. The biocompatibility of carbon
+nanotubes. Carbon 44, 1034 –1047 (2006).
+27. Hussain, M., Kabir, M. & Sood, A. On the cytotoxicity of carbon nanotubes.
+Curr. Sci . 96, 664 –673 (2009).
+28. Mano, N., Yoo, J. E., Tarver, J., Loo, Y.-L. & Heller, A. An electron-conducting
+cross-linked polyaniline-based redox hydrogel, formed in one step at pH 7.2,
+wires glucose oxidase. J. Am. Chem. Soc. 129, 7006 –7007 (2007).
+29. Dai, T., Shi, Z., Shen, C., Wang, J. & Lu, Y. Self-strengthened conducting
+polymer hydrogels. Synth. Met. 160, 1101 –1106 (2010).
+30. Pan, L. et al. Hierarchical nanostructured conducting polymer hydrogel with
+high electrochemical activity. Proc. Natl Acad. Sci. USA 109, 9287 –9292
+(2012).
+31. Mawad, D. et al. A single component conducting polymer hydrogel as a
+scaffold for tissue engineering. Adv. Funct. Mater. 22, 2692 –2699 (2012).
+32. ElMahmoudy, M. et al. Tailoring the electrochemical and mechanical
+properties of PEDOT: PSS ﬁlms for bioelectronics. Macromol. Mater. Eng.
+302, 1600497 (2017).
+33. Yao, B. et al. Ultrahigh ‐conductivity polymer hydrogels with arbitrary
+structures. Adv. Mater. 29, 1700974 (2017).
+34. Palumbiny, C. M. et al. The crystallization of PEDOT: PSS polymeric
+electrodes probed in situ during printing. Adv. Mater. 27, 3391 –3397 (2015).
+35. Duc, C., Vlandas, A., Malliaras, G. & Senez, V. Wettability of PEDOT: PSS
+ﬁlms. Soft Matter 12, 5146 –5153 (2016).
+36. Duc, C., Vlandas, A., Malliaras, G. G. & Senez, V. Electrowetting on immersed
+conducting hydrogel. J. Phys. Chem. B 121, 9947 –9956 (2017).
+37. Lang, U., Müller, E., Naujoks, N. & Dual, J. Microscopical investigations of
+PEDOT: PSS thin
+ﬁlms. Adv. Funct. Mater. 19, 1215 –1220 (2009).
+38. Rivnay, J. et al. Structural control of mixed ionic and electronic transport in
+conducting polymers. Nat. Commun. 7, 11287 (2016).
+39. Shi, H., Liu, C., Jiang, Q. & Xu, J. Effective approaches to improve the
+electrical conductivity of PEDOT: PSS: a review. Adv. Electron. Mater. 1,
+1500017 (2015).
+40. Ouyang, L. et al. Enhanced PEDOT adhesion on solid substrates with
+electrografted P (EDOT-NH2). Sci. Adv. 3, e1600448 (2017).
+41. Nevrela, J. et al. Secondary doping in poly (3, 4 ‐ethylenedioxythiophene): Poly
+(4‐styrenesulfonate) thin ﬁlms. . J. Polym. Sci. Part B Polym. Phys. 53,
+1139–1146 (2015).
+42. Lipomi, D. J. et al. Electronic properties of transparent conductive ﬁlms of
+PEDOT: PSS on stretchable substrates. Chem. Mater. 24, 373 –382 (2012).
+43. Kim, N. et al. Highly conductive PEDOT: PSS nano ﬁbrils induced by solution ‐
+processed crystallization. Adv. Mater. 26, 2268 –2272 (2014).
+44. Savagatrup, S. et al. Plasticization of PEDOT: PSS by common additives for
+mechanically robust organic solar cells and wearable sensors. Adv. Funct.
+Mater. 25, 427 –436 (2015).
+45. Worfolk, B. J. et al. Ultrahigh electrical conductivity in solution-sheared
+polymeric transparent ﬁlms. Proc. Natl Acad. Sci. USA 112, 14138 –14143
+(2015).
+46. Wang, Y. et al. A highly stretchable, transparent, and conductive polymer. Sci.
+Adv. 3, e1602076 (2017).
+47. Kim, E.-G. & Brédas, J.-L. Electronic evolution of poly (3, 4-
+ethylenedioxythiophene)(PEDOT): from the isolated chain to the pristine and
+heavily doped crystals. J. Am. Chem. Soc. 130,1 6 8 8 0–16889 (2008).
+48. Takano, T., Masunaga, H., Fujiwara, A., Okuzaki, H. & Sasaki, T. PEDOT
+nanocrystal in highly conductive PEDOT: PSS polymer ﬁlms. Macromolecules
+45, 3859 –3865 (2012).
+49. Park, S. I. et al. Soft, stretchable, fully implantable miniaturized optoelectronic
+systems for wireless optogenetics. Nat. Biotechnol. 33, 1280 (2015).
+50. Jeong, J.-W. et al. Wireless opto ﬂuidic systems for programmable in vivo
+pharmacology and optogenetics. Cell 162, 662 –674 (2015).
+51. Jang, K.-I. et al. Soft network composite materials with deterministic and bio-
+inspired designs. Nat. Commun. 6, 6566 (2015).
+52. Mochizuki, Y., Horii, T. & Okuzaki, H. Effect of pH on structure and
+conductivity of PEDOT/PSS. Trans. Mater. Res. Soc. Jpn. 37, 307 –310 (2012).
+53. Liu, Y. et al. Soft and elastic hydrogel-based microelectronics for localized low-
+voltage neuromodulation. Nat. Biomed. Eng. 3,5 8 –68 (2019).
+54. Cogan, S. F. Neural stimulation and recording electrodes. Annu. Rev. Biomed.
+Eng. 10, 275 –309 (2008).
+55. Park, J. et al. Electromechanical cardioplasty using a wrapped elasto-
+conductive epicardial mesh. Sci. Transl. Med. 8, 344ra386 (2016).
+56. Choi, S. et al. Highly conductive, stretchable and biocompatible Ag –Au
+core–sheath nanowire composite for wearable and implantable bioelectronics.
+Nat. Nanotechnol. 13, 1048 –1056 (2018).
+57. Kleber, C., Bruns, M., Lienkamp, K., Rühe, J. & Asplund, M. An
+interpenetrating, microstructurable and covalently attached conducting
+polymer hydrogel for neural interfaces. Acta Biomater. 58, 365 –375 (2017).
+58. Sirringhaus, H. et al. High-resolution inkjet printing of all-polymer transistor
+circuits. Science 290, 2123 –2126 (2000).
+Acknowledgements
+The authors thank to Dr. Alan F. Schwartzman in MIT DMSE NanoMechanical Tech-
+nology Laboratory for help in AFM phase imaging. This work is supported by National
+Science Foundation (CMMI-1661627). B.L. acknowledges the ﬁnancial support from
+National Natural Science Foundation of China (51763010), Science Foundation for
+Excellent Youth Talents in Jiangxi Province (20162BCB23053), Key Research and
+Development Program of Jiangxi Province (20171BBH80007), and China Scholarship
+Council (201608360062). H.Y. acknowledges the ﬁnancial support from Samsung
+Scholarship.
+Author contributions
+B.L., H.Y., and X.Z. conceived the idea and designed the study. B.L. and H.Y. carried out
+the experiments. K.Q. and J.X. performed the electrical conductivity and spectral mea-
+surements, and N.J. performed the electrochemical tests and analysis. B.L., H.Y., and S.L.
+performed the mechanical characterizations. B.L., H.Y., and X.Z. analyzed and inter-
+preted the results. H.Y., B.L., and X.Z. wrote the manuscript.
+Additional information
+Supplementary Information accompanies this paper at https://doi.org/10.1038/s41467-
+019-09003-5.
+Competing interests: The authors declare no competing interests.
+Reprints and permission information is available online at http://npg.nature.com/
+reprintsandpermissions/
+Journal peer review information: Nature Communications thanks Klas Tybrandt and
+the other anonymous reviewer(s) for their contribution to the peer review of this work.
+Publisher’s note: Springer Nature remains neutral with regard to jurisdictional claims in
+published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article ’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from
+the copyright holder. To view a copy of this license, visit http://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2019
+ARTICLE NATURE COMMUNICATIONS | https://doi.org/10.1038/s41467-019-09003-5
+10 NATURE COMMUNICATIONS |         (2019) 10:1043 | https://doi.org/10.1038/s41467-019-09003-5 | www.nature.com/naturecommunications

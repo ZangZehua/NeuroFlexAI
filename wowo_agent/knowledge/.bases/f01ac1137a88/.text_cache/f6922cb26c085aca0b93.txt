@@ -1,0 +1,997 @@
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+1 of 12
+APPLIED SCIENCES AND ENGINEERING
+Highly-integrated, miniaturized, stretchable electronic 
+systems based on stacked multilayer network materials
+Honglie Song1,2†, Guoquan Luo1,2,3†, Ziyao Ji1,2, Renheng Bo1,2, Zhaoguo Xue1,2, Dongjia Yan1,2, 
+Fan Zhang1,2, Ke Bai1,2, Jianxing Liu1,2, Xu Cheng1,2, Wenbo Pang1,2, Zhangming Shen1,2, Yihui Zhang1,2*
+Elastic stretchability and function density represent two key figures of merits for stretchable inorganic electronics. 
+Various design strategies have been reported to provide both high levels of stretchability and function density, 
+but the function densities are mostly below 80%. While the stacked device layout can overcome this limitation, 
+the soft elastomers used in previous studies could highly restrict the deformation of stretchable interconnects. 
+Here, we introduce stacked multilayer network materials as a general platform to incorporate individual compo-
+nents and stretchable interconnects, without posing any essential constraint to their deformations. Quantitative 
+analyses show a substantial enhancement (e.g., by ~7.5 times) of elastic stretchability of serpentine interconnects 
+as compared to that based on stacked soft elastomers. The proposed strategy allows demonstration of a miniaturized 
+electronic system (11 mm by 10 mm), with a moderate elastic stretchability (~20%) and an unprecedented areal 
+coverage (~110%), which can serve as compass display, somatosensory mouse, and physiological-signal monitor.
+INTRODUCTION
+Stretchable electronics represent an area of focusing interest in the 
+past decade, in part owing to the broad spectrum of applications, 
+spreading from health monitoring (1–8) and disease treatment (9–16), 
+to internet of things (17–20) and soft robots (21–28), and to virtual 
+reality and augmented reality (29–34). Stretchable inorganic electronics 
+mainly rely on integration of high-performance inorganic compo-
+nents with elastomer substrates, where ingenious structural designs 
+are key to a high degree of stretchability of the device system, since 
+inorganic electronic components are usually rigid and brittle (35–42). 
+For this class of stretchable electronics, the device stretchability and 
+function density [i.e., the areal coverage ratio of individual compo-
+nents (ICs)] represent two crucial performance metrics of the de-
+vice system, particularly for miniaturized multifunctional systems, 
+noticing the rapidly growing demand of increased complexity of 
+device functionality (43–48). A higher function density can yield a 
+more miniaturized device system (with a smaller lateral size) than 
+that with a lower function density. While various strategies of stretch-
+able interconnects [e.g., bridge-shaped designs, serpentine inter-
+connects, fractal designs, and helical interconnects (49–55)] have 
+been developed, the function densities of device systems based on 
+these technologies (mostly in the form of an island-bridge construc-
+tion) are typically below 80% because of the fundamental limit 
+(100%) of function density for the single-layer layout. These tech-
+nologies based on the single-layer layout can hardly achieve, simul-
+taneously, a large function density (e.g., >60%) and a sufficient high 
+stretchability (e.g., >20%) for miniaturized multifunctional systems 
+(e.g., consisting of >15 ICs to realize two or more functions) 
+(51, 56–61). To bypass the fundamental limit of the single-layer lay-
+out, folding-based bilayer layout and stacked multilayer layout were 
+proposed and demonstrated (51,  58, 62, 63), which have been used 
+to achieve stretchable systems with a function density of ~76%. 
+These bilayer and multilayer devices exploited soft elastomers (with 
+a modulus from several tens of kilopascals to a few hundreds of 
+kilopascals) to encapsulate serpentine interconnects, but such a solid 
+encapsulation strategy could highly restrict the deformation of ser-
+pentine interconnects because of their ultrahigh flexibility, thereby 
+posing a limit to the stretchability of the device system.
+Here, we introduce stacked multilayer network materials (SMNMs) 
+as a general framework for integrating and encapsulating inorganic 
+stretchable electronic devices. While the stacked configuration 
+evidently increases the function density of the system, the cellular 
+encapsulation does not pose any essential constraint to the buckled 
+deformation of stretchable interconnects, thereby enabling a sub-
+stantial enhancement (e.g., by ~7.5 times) of the elastic stretchability 
+as compared to that with solid encapsulation [e.g., using polydimethyl-
+siloxane (PDMS) with a modulus of 0.81 MPa]. Owing to the high 
+air permeability and biomimetic mechanical properties that match 
+nonlinear stress-strain curves of human skin, these multilayer net-
+work materials could enhance the comfortableness when laminated 
+on skin (64–69). Quantitative studies based on finite element anal-
+yses (FEA) shed light on the underlying mechanism of constrained 
+deformations of serpentine interconnects encapsulated with network 
+materials and provide rational guidelines for the design optimiza-
+tion. The SMNM-based integration/encapsulation strategy allows 
+the design and demonstration of a millimeter-scale, multifunctional 
+stretchable electronic system (11 mm by 10 mm), with a moderate 
+level (~20%) of elastic stretchability, and, simultaneously, an un-
+precedented areal coverage (~110%) of ICs. In comparison to previously 
+reported inorganic electronic systems with similar levels of biaxial 
+elastic stretchability and functional complexity (51,  53,  70), the 
+present system offers a much smaller lateral size (by more than twice) 
+and a much higher areal coverage ratio (110% versus 76%). The device 
+system allows high-precision sensing and wireless radio frequency 
+(RF) transmission of temperature, humidity, and 9–degree-of-freedom 
+motion. Demonstrations in compass display, somatosensory mouse, 
+and real-time monitoring of physiological signals suggest a broad 
+range of application opportunities.
+1AML, Department of Engineering Mechanics, Tsinghua University, Beijing 100084, 
+P. R. China. 2Center for Flexible Electronics Technology, Tsinghua University, Beijing 
+100084, P. R. China. 3National Key Laboratory of Science and Technology on 
+Advanced Composite in Special Environments, Harbin Institute of Technology, 
+Harbin 150080, P. R. China.
+*Corresponding author. Email: yihuizhang@tsinghua.edu.cn
+†These authors contributed equally to this work.
+Copyright © 2022 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim to 
+original U.S. Government 
+Works. Distributed 
+under a Creative 
+Commons Attribution 
+NonCommercial 
+License 4.0 (CC BY-NC).
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+2 of 12
+RESULTS
+Conceptual illustration
+Figure 1A presents a schematic illustration of the strategy to inte-
+grate and encapsulate stretchable interconnects with soft network 
+materials consisting of periodic triangular lattices of horseshoe 
+microstructures [polyimide (PI); 50 m in thickness; HD-4110, HD 
+Microsystems]. Here, three serpentine interconnects (3.3-m PI/0.8-m 
+Cu/3.3-m PI) are bonded onto the network material by soldering 
+the three hollow pads (see Materials and Methods and fig. S1 for 
+details of the fabrication process). Apart from the sites of soldering 
+bonding, the other interconnect/network and network/network in-
+terfaces are governed by weak van der Waals interactions, such that 
+serpentine interconnects can deform relatively freely under external 
+stretching. Mechanics modeling based on three-dimensional (3D) 
+FEA (see Materials and Methods for details) can well capture the 
+interactions between serpentine interconnects and network materials 
+and predict the constrained deformations of interconnects. Under 
+uniaxial stretching (Fig. 1A, right), the serpentine interconnect, due 
+to the ultrathin feature, tends to undergo lateral buckling that releases 
+the total strain energy through out-of-plane bending and twisting 
+deformations. Although the network layers pose certain constraints 
+at the contact regions with interconnects, the cellular construction 
+allows large out-of-plane deformations, similar to the case (inset of 
+Fig. 1A) of freestanding interconnects without any encapsulation. 
+This mechanism results in a large uniaxial elastic stretchability (~37% 
+in this case), very close to that (46%; fig. S2) of freestanding inter-
+connects. Here, the elastic stretchability denotes the limit of applied 
+strain (appl) below which no plastic deformations are induced, such 
+that the structural deformations can recover completely upon unloading.
+Figure 1 (B to D) and figs. S3 to S7 provide quantitative results of 
+experiments and FEA that illustrates the advantage of the cellular 
+encapsulation strategy based on bilayer network materials over the 
+conventional solid encapsulation strategy. Here, we choose a widely 
+used encapsulation material (PDMS; with weight ratio of 1:10; elastic 
+modulus, ~0.81 MPa; SYLGARD 184, Dow Corning Corporation) 
+for comparison (1,  10, 15). In particular, the proposed cellular en-
+capsulation strategy offers a substantially increased elastic stretch-
+ability (~45 and 46% according to FEA and experiment, respectively) 
+compared to the case (~6 and 5.3% according to FEA and experi-
+ment, respectively) of conventional encapsulation strategy. Such a 
+substantial improvement (by ~7.5 times according to FEA) of elas-
+tic stretchability follows from distinct deformation mechanisms 
+induced by the two encapsulation strategies. For the conventional 
+encapsulation strategy, the interconnect is governed mainly by in-
+plane bending deformations (Fig. 1C) since the out-plane bending 
+and twisting deformations are substantially restricted because of the 
+high flexibility of the PI/Cu/PI interconnect. Here, the dimensions 
+of the PDMS encapsulation are 8.2 mm in length, 2.7 mm in width, 
+and 140 m in height. Hence, the maximum von Mises stress in the 
+copper layer increases rapidly as the stretching proceeds and reaches 
+the threshold of plastic yielding at ~6%. By contrast, distinct de-
+formation mechanisms can be observed in the case of cellular en-
+capsulation, in which most regions of the serpentine interconnect 
+are suspended, such that the lateral buckling can be easily triggered 
+to form buckled 3D configurations, during the stretching (Fig. 1B). 
+Although the out-of-plane translational motions at regions of the 
+interconnect in contact with network materials are suppressed, their spa-
+tial rotations are not limited because of relatively weak van der Waals 
+interactions. Such a weakly constrained deformation mechanism 
+allows a substantial reduction of the von Mises stress in the copper 
+layer, yielding an elastic stretchability of ~45%. This is comparable 
+to the elastic stretchability (~76%) of the same serpentine interconnect 
+in the freestanding condition, i.e., without any mechanical constraints 
+(fig. S3). In the condition of conventional solid encapsulation, the 
+elastic stretchability of the serpentine interconnect increases with 
+decreasing the elastic modulus or the thickness of the encapsulation 
+layer (fig. S8). When the thickness of the PDMS encapsulation re-
+duces from 140 to 60  m, the resulting elastic stretchability is 
+~3.8 times lower than that in the case of cellular encapsulation. In 
+comparison to an ultrathin encapsulation (e.g., 100 or 20 m) with 
+a very soft elastomer (e.g., Ecoflex; 60 kPa) studied previously (71), 
+the elastic stretchability with the cellular encapsulation is still ~2.5 times 
+(or ~1.6 times) higher than that of solid encapsulation, in the con-
+ditions of 100-m (or 20-m) thickness. Note that in the condition 
+of cellular encapsulation, the interface between the interconnect 
+and the network (expect for the bonding region) can be separated 
+easily, for example, at a small applied strain of 15.2%, as shown in 
+fig. S4.
+Fatigue tests under cyclic uniaxial stretching (with a fixed strain 
+rate of 6% per second, up to 10,000 cycles) provide quantitative evi-
+dence to demonstrate the substantial improvement of elastic 
+stretchability by cellular encapsulation strategy. In particular, the 
+resistance variance of the serpentine interconnect (R/R0) was mea-
+sured and averaged after every 500 cycles, as an indicator to identify 
+the fracture of the metal layer. Figure 1D shows that the serpentine 
+interconnect with cellular encapsulation strategy survives 10,000 cycles 
+at a strain amplitude of 45% but fractures after 5500 cycles as the 
+strain amplitude increases to 47% (and after 2000 cycles at the strain 
+amplitude increases to 50%). According to the criterion whether 
+the interconnect can survive 10,000 cycles at a prescribed strain am-
+plitude, the elastic stretchability can be experimentally determined 
+as 46% by averaging these two amplitudes (45 and 47%). In compar-
+ison, the serpentine interconnect with conventional encapsulation 
+strategy offers a much lower elastic stretchability (5.3%), according 
+to the experimental measurement (Fig. 1D). Specifically, the inter-
+connect merely endures 5% strain amplitude for 10,000 cycles, and 
+fractures at 5.5% strain amplitude after 9000 cycles. The relative 
+change of the resistance is negligible (<4%) before the interconnect 
+failure. Note that the locations of fatigue fracture observed in exper-
+iments are the same as the sites with the maximum von Mises stress 
+in the metal layer of the interconnect, as predicted by FEA for both 
+encapsulation conditions (figs. S5 and S7). In addition to the large 
+elastic stretchability, the serpentine interconnect encapsulated with 
+bilayer network materials also exhibits a J-shaped stress-strain curve 
+under uniaxial stretching (Fig.  1E), which is analogous to that of 
+human skin (fig. S9). The biomimetic mechanical response could 
+enhance the comfortableness when mounted on the skin (figs. S10 
+and S11). While the cellular encapsulation has a relatively lower re-
+storing force than PDMS encapsulation, the network can deform 
+conformably with the skin and can return to its original shape after 
+unloading because of the highly elastic deformations. In all of the 
+results in Fig. 1 (B to E) and fig. S4, FEA calculations under different 
+encapsulation conditions always agree well with experimental mea-
+surements, indicating FEA as a reliable basis of the structural design.
+The cellular encapsulation strategy can be extended in a straight-
+forward manner to stacked multilayers of electronic devices, with-
+out sacrificing the elastic stretchability. Figure 1 (F and G) presents 
+a five-layer stretchable circuit encapsulated with SMNM, which was 
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+3 of 12
+fabricated by transfer printing and stacking of interconnects and 
+network materials through a layer-by-layer process. Each layer of 
+the network material (50 m in thickness) incorporates a serpentine 
+interconnect (Fig. 1F) and is electrically connected to the neighbor-
+ing layer through the vertical vias (see fig. S12 for details). The top 
+layer includes a commercial red light-emitting diode (LED) to indi-
+cate the on/off state of the entire circuit. Figure 1G shows that the 
+multilayer electronic device maintains a good stability, when biaxially 
+stretched to 50% (corresponding to the elastic stretchability of the 
+device). The deformations of serpentine interconnects at different 
+Fig. 1. Conceptual illustration of the combined integration and encapsulation strategy of stretchable interconnects based on SMNMs. (A) Process for the integra-
+tion and encapsulation of serpentine interconnects by a bilayer network material. Right: FEA results for the deformed configuration under 50% uniaxial stretching, in 
+comparison to the case of freestanding serpentine interconnects. The color of serpentine interconnects represents the magnitude of von Mises stress in the metal layer. 
+(B) FEA results and optical images of serpentine interconnects encapsulated by a bilayer network material, under 45% uniaxial stretching (corresponding to the elastic 
+stretchability). (C ) Similar results of serpentine interconnects encapsulated by PDMS solid, under 6% uniaxial stretching. (D ) Relative variation of the resistance for 
+interconnects encapsulated by PI network and PDMS, under tensile cycling tests with different levels of strain amplitudes. (E) Stress-strain curves and associated resist-
+ance variations during tensile loading for interconnects encapsulated by PI network and PDMS. (F) Design of a stretchable LED device based on the five-layer network 
+material. (G) Images and FEA results of the device stretched biaxially to 50%. Scale bars, 1  mm (B, C, and G). Photo credit: H.S., Tsinghua University.
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+4 of 12
+layers predicted by FEA are in reasonable agreement with the opti-
+cal images. Such scalability to multiple stacked layers has important 
+implications in highly integrated, miniaturized stretchable electronics, 
+as to be demonstrated with an example in the section ‘Demonstration 
+of miniaturized stretchable electronic system based on SMNM’.
+Mechanics of serpentine interconnects with the cellular 
+encapsulation strategy
+Quantitative mechanics analyses provide insights into the key de-
+sign parameters that affect deformation mechanisms of serpentine 
+interconnects with the cellular encapsulation strategy. Figure  2A 
+shows geometric parameters of the serpentine interconnect (with 
+thicknesses of tPI = 3.3 m and tm = 0.8 m) encapsulated with bi-
+layer network materials (with thickness of tb = 50 m). The height/
+spacing ratio Ls/Ts is a key parameter to govern the elastic stretch-
+ability of the serpentine interconnect in the freestanding condition 
+(72); the length ratio Ts/Tb determines the relative size of the inter-
+connect as compared to the network material, and W s/Ts is the 
+normalized width of the serpentine interconnect. Since this set of 
+analyses focuses on the constrained deformation of serpentine 
+interconnect, we fix the normalized geometric parameters (normal-
+ized width Wb/Tb = 0.0388 and arc angle  b = 210°) of the network 
+material for simplicity. Figure 2 (B to E) and figs. S14 and S15 high-
+light the influences of serpentine designs (L s/Ts and Ws/Ts) on the 
+deformation mode and elastic stretchability of the interconnect un-
+der uniaxial stretching, where the dimension of the network is fixed 
+as Tb  =  1.546  mm. For relatively small height/spacing ratios and 
+large normalized widths (e.g., L s/Ts  <  0.4 and Ws/Ts  >  0.15), the 
+stiffness of the serpentine interconnect could be sufficiently high to 
+overcome the constraint of network layers. For example, the buckled 
+deformations of the serpentine interconnect with cellular encapsu-
+lation strategy are almost the same as that of freestanding inter-
+connects in the case of L s/Ts = 0.375 and W s/Ts = 0.171, according 
+to experimental measurements and FEA calculations (Fig. 2B). As a 
+result, the elastic stretchability (41%) of the encapsulated inter-
+connect is very close to that (47%) of the freestanding interconnect. 
+In comparison, for relatively large height/spacing ratios and small 
+normalized widths (e.g., L s/Ts = 0.625 and W s/Ts = 0.171), the ser-
+pentine interconnect becomes more flexible, and the deformation 
+of the central region is highly constrained during the external 
+stretching (Fig. 2D, top). Consequently, the serpentine interconnect 
+undergoes a nonuniform unraveling, and the deformations are con-
+centrated at the arc corners close to the two ends. In this case, the 
+elastic stretchability (67%) of the encapsulated interconnect is much 
+smaller than that (92%) of the freestanding interconnect. Figure 2C 
+provides FEA results that depict the dependence of the elastic 
+stretchability on the two design parameters (L s/Ts and W s/Ts). 
+Fatigue tests under cyclic uniaxial stretching were performed to de-
+termine the elastic stretchabilities for four representative design points 
+(marked as P 1 to P 4 in Fig. 2C). The experimental results (31.3 ± 
+1.5%, 39.0 ± 1.6%, 31.7 ± 1.5%, and 26.1 ± 2.4% for P1 to P4; see figs. 
+S13 and S14 for details) agree reasonably well with the FEA (28, 41, 
+33, and 27%).
+To quantify the constraint effect of the cellular encapsulation on the 
+interconnect, a constraint factor r, defined as r = elastic-stretchability(free)/ 
+elastic-stretchability , is introduced, where  elastic-stretchability(free)  is the 
+elastic stretchability in the freestanding condition and elastic-stretchability 
+is the elastic stretchability with cellular encapsulation. According to 
+this definition, the constraint factor is always larger than 1, and a 
+larger constraint factor suggests a stronger mechanical constraint 
+exerted by the network materials. The contour plot in Fig. 2E shows 
+how the constraint factor is affected by design parameters Ls/Ts and 
+Ws/Ts. As the height/spacing ratio increases or the normalized width 
+decreases, the stiffness of the serpentine interconnect reduces, re-
+sulting in an increased constraint factor. As an example, the constraint 
+factor is 1.7 when L s/Ts = 0.625 and W s/Ts = 0.114, indicating that 
+the elastic stretchability of encapsulated interconnect is 10/17 of the 
+ideal limit (in the freestanding condition). For parameters that fall 
+in the right, bottom corner, the constraint of the cellular encapsula-
+tion is quite weak, such that the elastic stretchability of encapsulated 
+interconnect is very close (e.g., >80% in relative) to the ideal limit. 
+The evident constraint effect of the cellular encapsulation at small 
+normalized widths of W s/Ts also leads to a nonmonotonic depen-
+dence of the elastic stretchability on W s/Ts (fig. S13), noticing that 
+the elastic stretchability of freestanding serpentine interconnects 
+decreases monotonically with increasing Ws/Ts. Therefore, an opti-
+mal normalized width exists (~0.171 in this case), which can maximize 
+the elastic stretchability of serpentine interconnects encapsulated 
+with network materials. In Fig. 2 (A to E), the geometric parameters 
+of the network material are fixed as Ts = 525.2 m, Tb = 1.546 mm, 
+Wb = 50 m, tb = 50 m, and b = 210°.
+Figure 2 (F and G) illustrates the influences of the length ratio 
+Ts/Tb on the elastic stretchability of serpentine interconnects with 
+different height/spacing ratios (L s/Ts). In this set of analyses, the 
+width (Ws) and spacing (Ts) of the serpentine interconnect are fixed 
+as Ws  =  60 m and T s  =  525.2 m, with the height/spacing ratio 
+(Ls/Ts) varying from 0.25 to 1, while the network width (W b) and 
+thickness (tb) of the network material scale with the node-to-node 
+distance (Tb). The arc angle is fixed as b = 210°. As the relative size 
+(Ts/Tb) of the interconnect becomes smaller, the constraint factor 
+increases because of the enhanced stiffness of the network, thereby 
+inducing a reduction of the elastic stretchability. This is also evi-
+denced by the deformed configurations of the serpentine interconnects 
+(fig. S15). The effect of metal and PI thicknesses on the elastic stretch-
+ability and the constraint factor is shown in fig. S16.
+Design of SMNM-based stretchable electronic system 
+with unprecedented function density
+Harnessing the air-permeable, highly stretchable, and stacked-  
+multilayer configuration, a highly integrated, multifunctional 
+electronic system based on stacked network materials has been 
+demonstrated for personalized health care and complex gesture 
+recognitions. Figure 3A provides a layer-by-layer illustration of the 
+device system, where the circuits and chips are arranged on the first 
+three network layers and the fourth network layer serves for encap-
+sulation. The device system includes 42 ICs and >80 serpentine 
+interconnects (3.3-m PI/0.8-m Cu/3.3-m PI; 60 m in width) 
+(see figs. S17 to S19 for details). To facilitate the alignment and 
+transfer printing, a customized setup with four-axis manual transla-
+tion stage (x, y, z, and r) was used (see note S1 for details). Place-
+ment of silver pillars into the vertical vias, followed by soldering, 
+connects the neighboring network layers electrically and mechani-
+cally. To minimize the vertical dimension of the whole system, cer-
+tain areas of the network are removed in the first circuit layer, and 
+relatively thick ICs (e.g., motion processing unit and the temperature/
+humidity sensor) are positioned upside down to penetrate the 
+network layer (Fig. 3A and fig. S17) to further reduce the redundant 
+thickness caused by direct stacking. Note that the thickness (~3.4 mm) 
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+5 of 12
+of the entire system can be further reduced by grinding the excessive 
+packaging epoxy of the chips away (51,  63). The resulting device 
+system has a lateral dimension (11 mm by 10 mm) comparable to 
+that of the fingertip (Fig. 3B, top). Despite a relatively large thickness 
+(~3.4 mm) of the system as compared to the epidermal electronics 
+reported previously (51,  53,  73–76), the stacked layout does not 
+cause an accumulation of the bending stress in the serpentine inter-
+connect. Therefore, the entire system can be conformally attached 
+onto a rigid glass rod with 3 mm in radius (Fig. 3B, bottom), showing 
+an excellent bendability of the device system. In addition, the device 
+system can survive other levels of deformations, such as pressing 
+(~15%), out-of-plane shearing (~30°), and twisting (attached on an 
+Ecoflex film and twisted by ~540°), suggesting an excellent robustness 
+of the multilayered device system (fig. S20). Moreover, sealing the 
+connection vias of all circuit layers with dielectric elastomers {e.g., 
+silicone rubber [706, room temperature vulcanized silicone rubber 
+(RTV), NanDa]} can enhance the water resistance of the device sys-
+tem (fig. S21). To further enhance the robustness of multilayer de-
+vice systems, denser network could be exploited to serve as the top 
+encapsulation layer, and the edge of the device can be encapsulated 
+with soft elastomers (fig. S22).
+Stretchability and function density (i.e., areal coverage) are key 
+figures of merits of flexible electronic systems. To allow a clear un-
+derstanding of the system-level deformations, both mechanics 
+Fig. 2. Experimental and computational studies on the buckling mechanics of stretchable serpentine interconnects encapsulated by two network layers.  
+(A) Illustration of key geometric parameters for a serpentine interconnect encapsulated by two network layers. (B) Optical images and corresponding FEA results on de-
+formation sequences of a serpentine interconnect [W s/Ts = 0.171 and Ls/Ts = 0.375; marked as P2 in (C)] encapsulated by network materials, in comparison to that in the 
+freestanding condition. (C) Contour plot of the interconnect elastic stretchability (elastic-stretchability) in terms of the design parameters Ws/Ts and Ls/Ts. The design parame-
+ters (Ws/Ts, Ls/Ts) of the five design points (P 1 to P5) are (0.114, 0.375), (0.171, 0.375), (0.228, 0.375), (0.171, 0.250), and (0.171, 0.625), respectively. (D) Optical images and 
+corresponding FEA results on deformation sequences of a serpentine interconnect [Ws/Ts = 0.171 and Ls/Ts = 0.625; marked as P5 in (C)] encapsulated by network materials. 
+(E) Contour plot of the constraint factor (r) in terms of design parameters W s/Ts and Ls/Ts. (F) Interconnect elastic stretchability versus the design parameter T s/Tb for a 
+range of different height/spacing ratios (L s/Ts). (G) Constraint factor versus the design parameter T s/Tb for a range of different height/spacing ratios (L s/Ts). Photo credit: 
+H.S., Tsinghua University.
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+6 of 12
+simulations and biaxial tensile tests have been carried out for each 
+circuit layer. Figure 3C illustrates the structural evolutions of two 
+representative layers (second and third layers) under 30% biaxial 
+stretching. The trivial bending/twisting deformations and translational/
+rotational motions of various interconnects in the circuit are well 
+captured by FEA. Quantitative calculations show that both of these 
+two circuits can withstand a biaxial stretching of 30%, in a reversible 
+manner (figs. S23 and S24). The serpentine interconnects and ICs 
+Fig. 3. Design and fabrication of densely packed, stretchable electronic system based on SMNM. (A) Schematic illustration of the device system in an exploded view. 
+The system contains 42 ICs, with lateral dimensions of ~11.2 mm by 10.1 mm and an areal coverage ratio of ~110%. Subcircuits are aligned and electrically connected 
+through vertical vias, highlighted by dashed lines. (B) Photographs of the SMNM-based stretchable electronic system mounted on an index finger (top) and wrapped 
+around a glass rod (bottom). (C) System-level deformations determined by FEA and experimental photographs for the top and middle circuit layers, during different 
+levels of biaxial stretching (0, 20, and 30%). (D) Areal coverage ratio versus elastic stretchability for various stretchable skin-integrated electronic devices, including the 
+current work and those reported previously. (E) Block diagrams of the functional components for physiological tracking, including monitoring of human motion, tem-
+perature, and humidity. The system mainly consists of a nine-axis MEMS motion-processing unit (MPU-9250; including three-axis gyroscope, three-axis accelerometer, 
+and three-axis magnetometer), a digital high-accuracy temperature and humidity sensor (HTU21D), a microcontroller unit (Atmega328P), 2.4-GHz RF wireless transceivers 
+(nRF24L), and five LEDs. Scale bars, 5 mm (B and C). Photo credit: H.S., Tsinghua University.
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+7 of 12
+do not contact each other throughout the deformation process (fig. 
+S24). The entire device system offers a moderate level of elastic 
+stretchability (~20%). After fifty cycles of uniaxial stretching (10%) 
+and releasing when mounted on skin, the out-of-plane deformations 
+of serpentine interconnects are restored, and no interconnects are 
+stuck on the skin (fig. S25). In addition, the rational design of the 
+planar arrangement of ICs in each layer enables 110% areal coverage 
+of the multilayer system, inaccessible through the single- layer lay-
+out. Compared with the device system encapsulated with multilayer 
+solid elastomers, the design of interconnect layout in the case of 
+Fig. 4. Demonstration of functional characteristics of the SMNM-based electronic system. (A) Left: Recorded data of three-axis magnetic induction. Right: Device 
+mounted on the hand to serve as a compass display. Scale bar, 10 mm. (B) Left: Results of the temperature and relative humidity. Right: The device mounted on the arm 
+and images of temperature and relative humidity results from a commercial meter. (C) Left: Representative recordings of three-axis acceleration and three-axis angular velocity 
+from the palm. Right: Reconfigured 3D motion curves. (D) Left: Results of heart rates extracted from the frequency analysis of accelerometer data, obtained from the de-
+vice placed on the chest. Right: Device mounted on the chest and heart rates measured with a commercial sphygmomanometer. (E) Proof-of-concept demonstration of 
+a wireless mouse application. Left: Raw signals of quaternions (q 0, q1, q2, and q3) obtained from the device are processed to yield representative vital signs for gesture 
+recognition. Right: Photographs showing the control of the Sokoban pushing box game through hand gesture (i.e., move up, down, left, and right) recognition. 
+(F) Physiological monitoring of the acceleration, temperature, and relative humidity of the body epidermis while going through a cycle (80 min) of rest-walking-jogging-
+rest. Photo credit: H.S., Tsinghua University.
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+8 of 12
+SMNM encapsulation is more flexible because of the lower me -
+chanical constraints of SMNM encapsulation to the interconnect 
+deformation, which is beneficial to the enhancement of both the 
+areal coverage ratio and the elastic stretchability. Figure 3D shows 
+that this value (110%) is much larger than that (up to 76%) of repre-
+sentative stretchable inorganic electronic systems with similar levels 
+of functional complexity previously reported (51,  53, 62, 63). The 
+high degree of functional integration also allows highly miniaturized 
+device system (fig. S26), as evidenced by the lateral size (11 mm by 
+10 mm) that is much smaller (by more than twice) than those 
+reported previously (51,  53, 62, 63). Note that the function density 
+of our device system can be further increased by increasing the num-
+ber of layers, although the total thickness could be a limiting factor. 
+Thermal measurements showed that the temperature of the device 
+system increases very slightly after working for several minutes, 
+which can be partially attributed to the enhanced thermal convection 
+due to the cellular microstructures (fig. S27).
+Figure 3E presents the modular design of the multilayer electronic 
+system affording wireless monitoring of complex motions, geo-
+magnetic inductions, temperature, and relative humidity (see Materials 
+and Methods and figs. S28 to S30 for details). The obtained raw data 
+of motions and geomagnetic inductions were converted into digital 
+signals via 16-bit analog-to-digital converters (ADCs). These converted 
+signals and the acquired temperature/humidity data were sent through 
+the I2C bus to the microcontrol unit for processing. The outputs were 
+then used to control the on/off states of the five LEDs. Meanwhile, 
+the filtered signals were transmitted wirelessly to the host computer 
+via RF protocol. A customized program based on the software MATLAB 
+was used for data logging and advanced human interface applications.
+Demonstration of miniaturized stretchable electronic 
+system based on SMNM
+Figure 4 demonstrates a range of applications of the highly integrated, 
+miniaturized, multifunctional electronic system. The measured 
+components (mx, my, and mz) of the geomagnetic induction can be 
+used to determine its orientation angle [Fig. 4A (left) and fig. S31]. 
+The device can thereby serve as a compass to display the orientation 
+angle by exploiting different lighting modes of the LED array (on 
+the third circuit layer) to denote different ranges of the angle [Fig. 4A 
+(right) and fig. S32]. For example, all of the five LEDs are off when 
+the orientation angle is in the range of 0° and 45°, and only the top 
+and bottom LEDs are on when the orientation angle is in the range 
+of 90° and 135°. Figure 4B shows the time-varying temperature and 
+relative humidity at the skin surface when mounted on the arm. The 
+device was put into a fridge from 60 to 120 s and blew with hot air 
+from 180 to 240 s. The results (34.9°C and 80.8% at 30 s; 46.3°C and 
+14.1% at 200 s) measured through the stretchable device are consistent 
+with the data (34.7°C and 80.7% at 30 s; 47.7°C and 14.5% at 200 s) 
+acquired from the commercial sensor (UT331+, Uni-Trend Tech-
+nology) (Fig. 4B, right). Monitoring of motion signals (Fig. 4C, left), 
+including components of the acceleration (a x, ay, az) and angular 
+velocity (gx, gy, gz), allows reconfiguration of the 3D motion trajec-
+tory [Fig. 4C (right) and movie S3] and tracking of the heart rate 
+(Fig. 4D). The measured heart rates are close to those measured by 
+a commercial sphygmomanometer (U12, Omron) before and after 
+exercise (fig. S33). Figure 4E (left) presents the utility of the motion 
+signals (collected through the three-axis gyroscope) as a means to 
+identify the hand gesture (i.e., move left, right, top, and bottom). 
+This enables a demonstrative application of somatosensory mouse 
+(mounted on the back of the hand) to complete a “Sokoban pushing 
+box” game [Fig.  4E (right) and movie S4]. Owing to the high air 
+permeability and biomimetic mechanical properties that match those 
+of human skin, the SMNM-based, miniaturized, stretchable device 
+system could enhance the comfortableness of skin integration and 
+is thereby particularly suitable for long-term monitoring of physio-
+logical signals. Figure 4F provides an 80-min monitoring of the 
+acceleration, temperature, and relative humidity, with the device 
+mounted on the chest, during a cycle of rest, walking, jogging, and rest.
+DISCUSSION
+Collectively, this work presents strategic designs and mechanics 
+analyses that establish SMNMs as a synergistic platform to integrate 
+and encapsulate inorganic stretchable electronic devices. The SMNM- 
+based platform not only offers a significantly enhanced (e.g., by 7.5 times) 
+elastic stretchability of serpentine interconnect by relieving the me-
+chanical constraint but also provides a scalable route to increased 
+function density by exploiting more stacking layers. A highly inte-
+grated, miniaturized, stretchable device system with ultrahigh areal 
+coverage (~110%) and small size (11 mm by 10 mm) is demonstrated, 
+with capabilities in compass display, somatosensory mouse control, 
+and physiological signal monitor. The proposed design strategies 
+based on the SMNM have general utilities in various types of elec-
+tronic devices, especially those (e.g., virtual reality devices and 
+human-machine interfaces) that demand high levels of function 
+density. Development of SMNM-based electronic devices with complex 
+3D shapes (e.g., tubes and hemispheres) to allow conformal integra-
+tion with biological organs (e.g., vessels and nerve guide conduits) 
+represents a promising direction for future work.
+MATERIALS AND METHODS
+Finite element analysis
+The commercial software ABAQUS was used to predict the con-
+strained deformations and calculate the elastic stretchability of the 
+serpentine interconnect encapsulated by SMNM. We adopted four-
+node 2D shell elements (S4R) with three-layer laminates of PI/Cu/
+PI to model the serpentine interconnect and eight-node 3D solid 
+elements (C3D8R) to model the multilayer network. An explicit 
+solver was adopted to ensure the convergence of the simulations 
+that involve complex contact interactions between serpentine inter-
+connect and multilayer network. An ideal elastic-plastic constitu-
+tive model was used for copper, with an elastic modulus of 119 GPa, 
+a Poisson’s ratio of 0.34, and a yield strength of 356 MPa (corre-
+sponding to ~0.3% yield strain). The elastic stretchability corresponds 
+to the applied strain at which the von Mises stress of the metal 
+layer at the top or bottom surface reach the yield strength across the 
+width of any section of the serpentine interconnect. This criterion 
+has been verified by experimental measurements and adopted in 
+many previous studies (52,  53). A typical hyperelastic constitutive 
+relation (i.e., the Mooney-Rivlin law) captured mechanical proper-
+ties of the elastomer (PDMS) used for solid encapsulation (elastic 
+modulus EPDMS = 0.81 MPa and Poisson’s ratio  PDMS = 0.49) (fig. 
+S34). The elastic modulus E  and Poisson’s ratio   of PI are E PI = 
+1.9 GPa and PI = 0.27 (fig. S35). A hard and frictionless contact was 
+adopted for the contact regions between the network and the ser-
+pentine interconnects, except for the bonding regions, where a “tie” 
+constraint (in ABAQUS) was exploited. Fixed displacement boundary 
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+9 of 12
+conditions were applied to the four sides of the network specimen. 
+For uniaxial loading, the displacement components were set as 
+(ux = 0, uz = 0) for the left side and (ux = applLx, uz = 0) for the right 
+side, where Lx is the length of the network specimen along the x di-
+rection. For biaxial loading, the displacement components were set as 
+(ux = 0, uz = 0), (ux = applLx, uz = 0), (uy = 0, uz = 0), and (uy = applLy, 
+uz = 0) for the left, right, down, and up sides, respectively, where Ly 
+is the length of the network specimen along the y direction.
+Fabrication of the stretchable serpentine interconnects 
+for mechanical testing
+Spin-casting the poly(methyl methacrylate) (PMMA; ~150  nm in 
+thickness; MicroChem, USA), and baking (15 mins at 180°C) formed 
+a sacrificial thin layer on a silicon wafer. Spin-casting PI (~3.3 m in 
+thickness; HD Microsystems, USA), thermal curing (2 hours at 250°C), 
+followed by depositing metal layers (Cu, thickness of 0.8 m) by 
+electron beam evaporation, photolithography processing, wet-etching, 
+spin-casting another PI (~3.3 m in thickness), and thermal curing 
+formed the PI/Cu/PI film. Oxygen reactive ion etching by deposit-
+ing another metal layer (Ti, thickness ~ 40 nm) to serve as the mask 
+defined the PI/Cu/PI serpentine interconnects. Immersing the sili-
+con into acetone to dissolve the PMMA and retrieval of the PI/Cu/
+PI interconnects onto a PDMS (SYLGARD 184, Dow Corning 
+Corporation, USA) stamp allowed delivery to another substrate via 
+transfer printing, as illustrated in fig. S36. The thickness of PI layers 
+was measured by a stylus profiler (Bruker, Dektak XT).
+Fabrication of a bilayer PI network for encapsulation 
+of serpentine interconnects
+Spin-casting the PMMA (~150 nm) and baking (15 min at 180°C) 
+on a silicon wafer, then spin-casting photo-definable PI (50 m), 
+followed by photolithographic patterning and curing yielded a PI 
+network with horseshoe microstructures. Selective deposition of Cu 
+layer (0.8 m) by electron beam evaporation through a shadow 
+mask, defined sites for soldering to form vias. Immersing the silicon 
+wafer in acetone allowed the retrieval of the PI network. Transfer 
+printing the PI network layer onto a PDMS substrate, delivering 
+serpentine interconnects onto PDMS@glass slide, and then placing 
+the two glass slides on a customized mechanical stage (i.e., a four-axis 
+manual translation stage, x, y, z, and r, with travel accuracy of 1 m 
+for x, y, and z stages and minimal readable resolution of ~0.015° for 
+r stage) allowed precisely controlled alignment and soldering (figs. 
+S36 to S39). A conductive alloy (In97Ag3) served as the material for 
+soldering and established electrical connections between ICs and 
+serpentine interconnects. Transfer printing another layer of PI net-
+work and repeating the aforementioned alignment and soldering 
+procedures completed the fabrication of a bilayer PI network with 
+an encapsulated serpentine interconnect.
+Cyclic stretching test of serpentine interconnects 
+encapsulated by bilayer network materials or  
+soft elastomers
+A customized uniaxial mechanical stretcher allowed precisely con-
+trolled levels of strains to the interconnects encapsulated by stacked 
+bilayer network materials or solidified PDMS, at a strain rate (6% 
+per second, for 10,000 cycles). Three to five sets of repeated cycling 
+tests were conducted to ensure consistency. A charge-coupled de-
+vice camera with 10× lens (Navitar Zoom 6000 Lens System, USA) 
+and a digital multimeter (Keysight 34465A, USA) allowed recording 
+of the deformation and resistance of the encapsulated serpentine 
+interconnects at different numbers of cycles.
+Circuit design and fabrication of the multifunctional 
+stretchable electronic system
+A nine-axis micro-electro-mechanical system (MEMS) motion-  
+processing unit (MPU-9250, TDK Corporation) enabled measure-
+ments from the three-axis gyroscope, three-axis accelerometer, and 
+three-axis magnetometer. The configuration step involved nine 
+16-bit ADCs for digitizing outputs, over a range of ±2000°/s for the 
+gyroscope, ±16 g for the accelerometer, and ±4800  T for the 
+magnetometer. A digital high-accuracy relative humidity and tem-
+perature sensor (HTU21D, Humirel) offered 14-bit digital outputs 
+for humidity ranging from 0 to 100% ± 5% and temperature ranging 
+from −40° to 125° ± 0.5°C through I2C bus. An 8-bit microcontroller 
+(Atmega328P, Atmel) served as the onboard signal processing unit. 
+It collected signals with a Kalman filter and then controlled the 
+lighting mode of the LED array. The processed digital signal was 
+sent to a 2.4-GHz transceiver (nRF24L01, Nordic Semiconductor) 
+through a serial peripheral interface bus and then wirelessly trans-
+mitted to the user interface. Five LEDs used to display the state of 
+the compass were divided into three groups, where LED1-LED2, 
+LED3, and LED4-LED5 were connected to pin 20, pin 21, and pin 
+19 of the microcontroller, respectively. The voltage stabilizing module 
+mainly consisted of a high-speed low-dropout regulator (ME6211, 
+Nanjing Micro One Electronics Inc.).
+In the electronic system, short silver pillars (~0.1 mm in diameter) 
+cross the vias of each PI network to connect the subcircuits at different 
+layers. Soldering the silver pillars at the vias of each network layer 
+ensures mechanical and electrical robustness of vertical connections. 
+In the first circuit layer, the MPU-9250 was placed on the opposite 
+side of serpentine interconnects to attain a reduced total thickness 
+(~3.4 mm) of the entire device system.
+Programming the wireless embedded system
+The commercial packages including Keil Vision and a 2.4-GHz 
+transceiver (nRF24L01, Nordic Semiconductor) served as tools for 
+building software for the device system. Wireless transmission 
+of outputs from the stretchable electronics occurred in data packets 
+with sizes of 12 bytes. A custom Arduino-based circuit board re-
+ceives the signals and then sends the packages to the laptop via 
+COM ports. The software MATLAB is used to define the graphical 
+user interface with the function of data logging for further signal 
+processing.
+Measurement of motion and physiological signals
+The integrated system of the multilayer electronic device and a Li 
+battery that serves as the power supply was adhered to the arm and 
+chest to collect motion and physiological signals. Waving the arm to 
+form a number “8” shape in space, the reconfigured 3D motion curves 
+(Fig. 4) were obtained by the host computer with a custom MATLAB 
+interface based on the signals of acceleration and angular velocity. 
+For the sensing of temperature and relative humidity, a commercial 
+temperature humidity meter (UT331+, Uni-Trend Technology, China) 
+served as a reference for comparison. For the monitoring of heart 
+rates, a commercial household sphygmomanometer (U12, Omron) 
+was used for comparison. With the integrated system mounted on 
+the chest, the heart rate was determined by sampling the three-axis 
+acceleration and processing the data by Fourier transform. The 
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+10 of 12
+physiological signals, including the relative humidity, temperature, 
+and heart rate over a long period (80 min) of motion, were mea-
+sured (Fig. 4F).
+Demonstration of the compass display
+The three-axis magnetometer in MPU-9250 unit allowed calculation 
+of the orientation angle, which was used to control the display mode 
+of the LED array, according to the coding rules detailed in fig. S26.
+Demonstration of the somatosensory mouse
+The RF wireless module in the integrated system sent signals of 
+three-axis angular velocity (g x, gy, gz) to the receiving module con-
+nected to the laptop via COM ports. The resolutions of the acceler-
+ometer and the gyroscope were about 244 g (over a range of ±16 g) 
+and ±0.031°/s, which can ensure an accurate motion capture. The 
+captured motion allowed the direction control of the mouse to per-
+form the Sokoban pushing box game, where the pushing direction 
+(up, down, left, and right) was controlled by the rotation of the palm.
+Protocols for human subject studies
+The studies about the human subjects were approved by the Institu-
+tional Review Board of Tsinghua University (no. 20220008). Volunteers 
+without skin lesions were recruited and joined the studies after un-
+derstanding the contents of the study and signing consent forms. For 
+the demonstrations of the compass, temperature/humidity mea-
+surements of the skin surface, 3D motion trajectory, and the 
+somatosensory mouse, the device was attached to the back of the 
+hand or arms. For the demonstrations of the heart-rate monitoring, 
+the device was mounted on the chest with a silicone-based surgical 
+tape (Kind Removal Silicone Tape, 3M Inc., USA). All subjects con-
+sented to their images being taken as detailed in the protocols of the 
+Institutional Review Board of Tsinghua University.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at https://science.org/doi/10.1126/
+sciadv.abm3785
+REFERENCES AND NOTES
+ 1. Y. Wang, S. Lee, T. Yokota, H. Wang, Z. Jiang, J. Wang, M. Koizumi, T. Someya, A durable 
+nanomesh on-skin strain gauge for natural skin motion monitoring with minimum 
+mechanical constraints. Sci. Adv. 6, eabb7043 (2020).
+ 2. S.-H. Sunwoo, K.-H. Ha, S. Lee, N. Lu, D.-H. Kim, Wearable and implantable soft bioelectronics: 
+Device designs and material strategies. Annu. Rev. Chem. Biomol. Eng. 12, 359–391 (2021).
+ 3. C. Lim, Y. J. Hong, J. Jung, Y. Shin, S.-H. Sunwoo, S. Baik, O. K. Park, S. H. Choi, T. Hyeon, J. H. Kim, 
+S. Lee, D.-H. Kim, Tissue-like skin-device interface for wearable bioelectronics by using 
+ultrasoft, mass-permeable, and low-impedance hydrogels. Sci. Adv. 7, eabd3716 (2021).
+ 4. C. Peng, M. Chen, H. K. Sim, Y. Zhu, X. Jiang, Noninvasive and nonocclusive blood 
+pressure monitoring via a flexible piezo-composite ultrasonic sensor. IEEE Sens. J. 21, 
+2642–2650 (2021).
+ 5. W. Zhou, S. Yao, H. Wang, Q. Du, Y. Ma, Y. Zhu, Gas-permeable, ultrathin, stretchable 
+epidermal electronics with porous electrodes. ACS Nano 14, 5798–5805 (2020).
+ 6. Z. Zou, C. Zhu, Y. Li, X. Lei, W. Zhang, J. Xiao, Rehealable, fully recyclable, and malleable 
+electronic skin enabled by dynamic covalent thermoset nanocomposite. Sci. Adv. 4, 
+eaaq0508 (2018).
+ 7. H. Guo, Y. J. Tan, G. Chen, Z. Wang, G. J. Susanto, H. H. See, Z. Yang, Z. W. Lim, L. Yang, 
+B. C. K. Tee, Artificially innervated self-healing foams as synthetic piezo-impedance 
+sensor skins. Nat. Commun. 11, 5747 (2020).
+ 8. Y. Yang, K. Xu, T. Vervust, J. Vanfleteren, Multifunctional and miniaturized flexible sensor 
+patch: Design and application for in situ monitoring of epoxy polymerization. Sens. 
+Actuators B 261, 144–152 (2018).
+ 9. H. Sheng, J. Zhou, B. Li, Y. He, X. Zhang, J. Liang, J. Zhou, Q. Su, E. Xie, W. Lan, K. Wang, 
+C. Yu, A thin, deformable, high-performance supercapacitor implant that can 
+be biodegraded and bioabsorbed within an animal body. Sci. Adv. 7, eabe3097 (2021).
+ 10. H. Joo, Y. Lee, J. Kim, J.-S. Yoo, S. Yoo, S. Kim, A. K. Arya, S. Kim, S. H. Choi, N. Lu, H. S. Lee, 
+S. Kim, S.-T. Lee, D.-H. Kim, Soft implantable drug delivery device integrated wirelessly 
+with wearable devices to treat fatal seizures. Sci. Adv. 7, eabd4639 (2021).
+ 11. Y. Gao, L. Yu, J. C. Yeo, C. T. Lim, Flexible hybrid sensors for health monitoring: Materials 
+and mechanisms to render wearability. Adv. Mater. 32, 1902133 (2020).
+ 12. B. Kim, A. H. Soepriatna, W. Park, H. Moon, A. Cox, J. Zhao, N. S. Gupta, C. H. Park, K. Kim, 
+Y. Jeon, H. Jang, D. R. Kim, H. Lee, K.-S. Lee, C. J. Goergen, C. H. Lee, Rapid custom 
+prototyping of soft poroelastic biosensor for simultaneous epicardial recording 
+and imaging. Nat. Commun. 12, 3710 (2021).
+ 13. K. Kim, H. J. Kim, H. Zhang, W. Park, D. Meyer, M. K. Kim, B. Kim, H. Park, B. Xu, P. Kollbaum, 
+B. W. Boudouris, C. H. Lee, All-printed stretchable corneal sensor on soft contact lenses 
+for noninvasive and painless ocular electrodiagnosis. Nat. Commun. 12, 1544 (2021).
+ 14. E. K. Lee, R. K. Baruah, J. W. Leem, W. Park, B. H. Kim, A. Urbas, Z. Ku, Y. L. Kim, M. A. Alam, 
+C. H. Lee, Fractal web design of a hemispherical photodetector array with organic-dye-
+sensitized graphene hybrid composites. Adv. Mater. 32, 2004456 (2020).
+ 15. J. Koo, S. B. Kim, Y. S. Choi, Z. Xie, A. J. Bandodkar, J. Khalifeh, Y. Yan, H. Kim, 
+M. K. Pezhouh, K. Doty, G. Lee, Y.-Y. Chen, S. M. Lee, D. D’Andrea, K. Jung, K. Lee, K. Li, S. Jo, 
+H. Wang, J.-H. Kim, J. Kim, S.-G. Choi, W. J. Jang, Y. S. Oh, I. Park, S. S. Kwak, J.-H. Park, 
+D. Hong, X. Feng, C.-H. Lee, A. Banks, C. Leal, H. M. Lee, Y. Huang, C. K. Franz, W. Z. Ray, 
+M. MacEwan, S.-K. Kang, J. A. Rogers, Wirelessly controlled, bioresorbable drug delivery 
+device with active valves that exploit electrochemically triggered crevice corrosion. 
+Sci. Adv.  6, eabb1093 (2020).
+ 16. H. Kim, Y.-T. Kwon, C. Zhu, F. Wu, S. Kwon, W.-H. Yeo, H. J. Choo, Real-time functional 
+assay of volumetric muscle loss injured mouse masseter muscles via nanomembrane 
+electronics. Adv. Sci. 8, 2101037 (2021).
+ 17. K. Bai, X. Cheng, Z. Xue, H. Song, L. Sang, F. Zhang, F. Liu, X. Luo, W. Huang, Y. Huang, 
+Y. Zhang, Geometrically reconfigurable 3D mesostructures and electromagnetic devices 
+through a rational bottom-up design strategy. Sci. Adv. 6, eabb7417 (2020).
+ 18. M. Wang, Z. Yan, T. Wang, P. Cai, S. Gao, Y. Zeng, C. Wan, H. Wang, L. Pan, J. Yu, S. Pan, 
+K. He, J. Lu, X. Chen, Gesture recognition using a bioinspired learning architecture that 
+integrates visual data with somatosensory data from stretchable sensors. Nat. Electron. 3, 
+563–570 (2020).
+ 19. Z. Cui, W. Wang, L. Guo, Z. Liu, P. Cai, Y. Cui, T. Wang, C. Wang, M. Zhu, Y. Zhou, W. Liu, 
+Y. Zheng, G. Deng, C. Xu, X. Chen, Haptically quantifying Young's modulus of soft 
+materials using a self-locked stretchable strain sensor. Adv. Mater. 8, 2104078 (2021).
+ 20. Y. Wang, L. Yin, Y. Bai, S. Liu, L. Wang, Y. Zhou, C. Hou, Z. Yang, H. Wu, J. Ma, Y. Shen, 
+P. Deng, S. Zhang, T. Duan, Z. Li, J. Ren, L. Xiao, Z. Yin, N. Lu, Y. Huang, Electrically 
+compensated, tattoo-like electrodes for epidermal electrophysiology at scale. Sci. Adv. 6, 
+eabd0996 (2020).
+ 21. W. Li, N. Matsuhisa, Z. Liu, M. Wang, Y. Luo, P. Cai, G. Chen, F. Zhang, C. Li, Z. Liu, Z. Lv, 
+W. Zhang, X. Chen, An on-demand plant-based actuator created using conformable 
+electrodes. Nat. Electron. 4, 134–142 (2021).
+ 22. L. Beker, N. Matsuhisa, I. You, S. R. A. Ruth, S. Niu, A. Foudeh, J. B. H. Tok, X. Chen, Z. Bao, 
+A bioinspired stretchable membrane-based compliance sensor. Proc. Natl. Acad. Sci. 117, 
+11314–11320 (2020).
+ 23. D. Jung, C. Lim, J. Shim Hyung, Y. Kim, C. Park, J. Jung, I. Han Sang, S.-H. Sunwoo, 
+W. Cho Kyoung, D. Cha Gi, C. Kim Dong, H. Koo Ja, H. Kim Ji, T. Hyeon, D.-H. Kim, Highly 
+conductive and elastic nanomembrane for skin electronics. Science 373, 1022–1026 (2021).
+ 24. P. Ren, Y. Liu, R. Song, B. O’Connor, J. Dong, Y. Zhu, Achieving high-resolution 
+electrohydrodynamic printing of nanowires on elastomeric substrates through surface 
+modification. ACS Appl. Electron. Mater. 3, 192–202 (2021).
+ 25. R. Song, S. Yao, Y. Liu, H. Wang, J. Dong, Y. Zhu, B. T. O’Connor, Facile approach 
+to fabricating stretchable organic transistors with laser-patterned Ag nanowire 
+electrodes. ACS Appl. Mater. Interfaces 12, 50675–50683 (2020).
+ 26. K. Sim, Z. Rao, Z. Zou, F. Ershad, J. Lei, A. Thukral, J. Chen, Q.-A. Huang, J. Xiao, C. Yu, Metal 
+oxide semiconductor nanomembrane based soft unnoticeable multifunctional 
+electronics for wearable human-machine interfaces. Sci. Adv. 5, eaav9653 (2019).
+ 27. R. H. Soon, L. Yu, C. T. Lim, A soft sensorized microfluidic tubular actuating gripper. 
+Adv. Mater. Technol. 5, 2000150 (2020).
+ 28. C. Linghu, S. Zhang, C. Wang, K. Yu, C. Li, Y. Zeng, H. Zhu, X. Jin, Z. You, J. Song, Universal 
+SMP gripper with massive and selective capabilities for multiscaled, arbitrarily shaped 
+objects. Sci. Adv. 6, eaay5120 (2020).
+ 29. M. Nasreldin, S. de Mulatier, R. Delattre, M. Ramuz, T. Djenizian, Flexible and stretchable 
+microbatteries for wearable technologies. Adv. Mater. Technol. 5, 2000412 (2020).
+ 30. P. Cai, C. Wan, L. Pan, N. Matsuhisa, K. He, Z. Cui, W. Zhang, C. Li, J. Wang, J. Yu, M. Wang, 
+Y. Jiang, G. Chen, X. Chen, Locally coupled electromechanical interfaces based 
+on cytoadhesion-inspired hybrids to identify muscular excitation-contraction signatures. 
+Nat. Commun. 11, 2183 (2020).
+ 31. S. Lee, S. Franklin, A. Hassani Faezeh, T. Yokota, M. G. Nayeem, Y. Wang, R. Leib, G. Cheng, 
+D. W. Franklin, T. Someya, Nanomesh pressure sensor for monitoring finger manipulation 
+without sensory interference. Science 370, 966–970 (2020).
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+11 of 12
+ 32. Z. Rao, Y. Lu, Z. Li, K. Sim, Z. Ma, J. Xiao, C. Yu, Curvy, shape-adaptive imagers based 
+on printed optoelectronic pixels with a kirigami design. Nat. Electron. 4, 513–521 (2021).
+ 33. M. Mahmood, S. Kwon, H. Kim, Y.-S. Kim, P. Siriaraya, J. Choi, B. Otkhmezuri, K. Kang, 
+K. J. Yu, Y. C. Jang, C. S. Ang, W.-H. Yeo, Wireless soft scalp electronics and virtual reality 
+system for motor imagery-based brain–machine interfaces. Adv. Sci. 2021, 2101129 
+(2021).
+ 34. X. Yu, Z. Xie, Y. Yu, J. Lee, A. Vazquez-Guardado, H. Luan, J. Ruban, X. Ning, A. Akhtar, D. Li, 
+B. Ji, Y. Liu, R. Sun, J. Cao, Q. Huo, Y. Zhong, C. Lee, S. Kim, P. Gutruf, C. Zhang, Y. Xue, 
+Q. Guo, A. Chempakasseril, P. Tian, W. Lu, J. Jeong, Y. Yu, J. Cornman, C. Tan, B. Kim, 
+K. Lee, X. Feng, Y. Huang, J. A. Rogers, Skin-integrated wireless haptic interfaces for virtual 
+and augmented reality. Nature 575, 473–479 (2019).
+ 35. Z. Xue, H. Song, J. A. Rogers, Y. Zhang, Y. Huang, Mechanically-guided structural designs 
+in stretchable inorganic electronics. Adv. Mater. 32, 1902254 (2020).
+ 36. Y. Zhang, F. Zhang, Z. Yan, Q. Ma, X. Li, Y. Huang, J. A. Rogers, Printing, folding and 
+assembly methods for forming 3D mesostructures in advanced materials. Nat. Rev. Mater. 
+2, 17019 (2017).
+ 37. K. Dae-Hyeong, X. Jianliang, S. Jizhou, H. Yonggang, J. A. Rogers, Stretchable, curvilinear 
+electronics based on inorganic materials. Adv. Materi. 22, 2108–2124 (2010).
+ 38. H. Chen, L. Dejace, S. P. Lacour, Electronic skins for healthcare monitoring and smart 
+prostheses. Annu. Rev. Control Robot. Autonom. Syst. 4, 629–650 (2021).
+ 39. S. P. Lacour, G. Courtine, J. Guck, Materials and technologies for soft implantable 
+neuroprostheses. Nat. Rev. Mater. 1, 16063 (2016).
+ 40. F. Fallegger, G. Schiavone, E. Pirondini, F. B. Wagner, N. Vachicouras, L. Serex, G. Zegarek, 
+A. May, P. Constanthin, M. Palma, M. Khoshnevis, D. Van Roost, B. Yvert, G. Courtine, 
+K. Schaller, J. Bloch, S. P. Lacour, MRI-compatible and conformal electrocorticography 
+grids for translational research. Sci. Adv. 8, 2003761 (2021).
+ 41. Y. Khan, A. E. Ostfeld, C. M. Lochner, A. Pierre, A. C. Arias, Monitoring of vital signs 
+with flexible and wearable medical devices. Adv. Mater. 28, 4373–4395 (2016).
+ 42. C. Wang, C. Linghu, S. Nie, C. Li, Q. Lei, X. Tao, Y. Zeng, Y. Du, S. Zhang, K. Yu, H. Jin, 
+W. Chen, J. Song, Programmable and scalable transfer printing with high reliability 
+and efficiency for flexible inorganic electronics. Sci. Adv. 6, eabb2393 (2020).
+ 43. F. Fallegger, G. Schiavone, S. P. Lacour, Conformable hybrid systems for implantable 
+bioelectronic interfaces. Adv. Mater. 32, 1903904 (2020).
+ 44. Y.-S. Guan, A. Thukral, S. Zhang, K. Sim, X. Wang, Y. Zhang, F. Ershad, Z. Rao, F. Pan, 
+P. Wang, J. Xiao, C. Yu, Air/water interfacial assembled rubbery semiconducting nanofilm 
+for fully rubbery integrated electronics. Sci. Adv. 6, eabb3656 (2020).
+ 45. R. Qazi, A. M. Gomez, D. C. Castro, Z. Zou, J. Y. Sim, Y. Xiong, J. Abdo, C. Y. Kim, 
+A. Anderson, F. Lohner, S.-H. Byun, B. Chul Lee, K.-I. Jang, J. Xiao, M. R. Bruchas, 
+J.-W. Jeong, Wireless optofluidic brain probes for chronic neuropharmacology 
+and photostimulation. Nat. Biomed. Eng. 3, 655–669 (2019).
+ 46. Y. J. Tan, G. J. Susanto, H. P. Anwar Ali, B. C. K. Tee, Progress and roadmap for intelligent 
+self-healing materials in autonomous robotics. Adv. Mater. 33, 2002800 (2021).
+ 47. M. H. Kang, G. J. Lee, J. H. Lee, M. S. Kim, Z. Yan, J.-W. Jeong, K.-I. Jang, Y. M. Song, 
+Outdoor-useable, wireless/battery-free patch-type tissue oximeter with radiative cooling. 
+Adv. Sci. 8, 2004885 (2021).
+ 48. A. Petritz, E. Karner-Petritz, T. Uemura, P. Schäffner, T. Araki, B. Stadlober, T. Sekitani, 
+Imperceptible energy harvesting device and biomedical sensor based on ultraflexible 
+ferroelectric transducers and organic diodes. Nat. Commun. 12, 2399 (2021).
+ 49. D.-H. Kim, J. Song, W. M. Choi, H.-S. Kim, R.-H. Kim, Z. Liu, Y. Y. Huang, K.-C. Hwang, 
+Y.-w. Zhang, J. A. Rogers, Materials and noncoplanar mesh designs for integrated circuits 
+with linear elastic responses to extreme mechanical deformations. Proc. Natl. Acad. Sci. 
+105, 18675–18680 (2008).
+ 50. S. Xu, Y. Zhang, J. Cho, J. Lee, X. Huang, L. Jia, J. A. Fan, Y. Su, J. Su, H. Zhang, H. Cheng, 
+B. Lu, C. Yu, C. Chuang, T.-i. Kim, T. Song, K. Shigeta, S. Kang, C. Dagdeviren, I. Petrov, 
+P. V. Braun, Y. Huang, U. Paik, J. A. Rogers, Stretchable batteries with self-similar 
+serpentine interconnects and integrated wireless recharging systems. Nat. Commun. 4, 
+1543 (2013).
+ 51. S. Xu, Y. Zhang, L. Jia, K. E. Mathewson, K.-I. Jang, J. Kim, H. Fu, X. Huang, P. Chava, 
+R. Wang, S. Bhole, L. Wang, Y. J. Na, Y. Guan, M. Flavin, Z. Han, Y. Huang, J. A. Rogers, Soft 
+microfluidic assemblies of sensors, circuits, and radios for the skin. Science 344, 70–74 
+(2014).
+ 52. Y. Zhang, S. Wang, X. Li, J. A. Fan, S. Xu, Y. M. Song, K.-J. Choi, W.-H. Yeo, W. Lee, 
+S. N. Nazaar, B. Lu, L. Yin, K.-C. Hwang, J. A. Rogers, Y. Huang, Experimental 
+and theoretical studies of serpentine microstructures bonded to prestrained elastomers 
+for stretchable electronics. Adv. Funct. Mater. 24, 2028–2037 (2014).
+ 53. K.-I. Jang, K. Li, H. U. Chung, S. Xu, H. N. Jung, Y. Yang, J. W. Kwak, H. H. Jung, J. Song, 
+C. Yang, A. Wang, Z. Liu, J. Y. Lee, B. H. Kim, J.-H. Kim, J. Lee, Y. Yu, B. J. Kim, H. Jang, 
+K. J. Yu, J. Kim, J. W. Lee, J.-W. Jeong, Y. M. Song, Y. Huang, Y. Zhang, J. A. Rogers, 
+Self-assembled three dimensional network designs for soft electronics. Nat. Commun. 8, 
+15894 (2017).
+ 54. Z. Yang, Z. Zhai, Z. Song, Y. Wu, J. Liang, Y. Shan, J. Zheng, H. Liang, H. Jiang, Conductive 
+and elastic 3D helical fibers for use in washable and wearable electronics. Adv. Mater. 32, 
+1907495 (2020).
+ 55. A. Mamidanna, Z. Song, C. Lv, C. S. Lefky, H. Jiang, O. J. Hildreth, Printing stretchable spiral 
+interconnects using reactive ink chemistries. ACS Appl. Mater. Inter. 8, 12594–12598 
+(2016).
+ 56. S. Heo, J. Ha, S. J. Son, I. S. Choi, H. Lee, S. Oh, J. Jekal, M. H. Kang, G. J. Lee, H. H. Jung, 
+J. Yea, T. Lee, Y. Lee, J.-W. Choi, S. Xu, J. H. Choi, J.-W. Jeong, Y. M. Song, J.-C. Rah, H. Keum, 
+K.-I. Jang, Instant, multiscale dry transfer printing by atomic diffusion control at 
+heterogeneous interfaces. Sci. Adv. 7, eabh0040 (2021).
+ 57. C. Y. Kim, M. J. Ku, R. Qazi, H. J. Nam, J. W. Park, K. S. Nam, S. Oh, I. Kang, J.-H. Jang, 
+W. Y. Kim, J.-H. Kim, J.-W. Jeong, Soft subdermal implant capable of wireless battery 
+charging and programmable controls for applications in optogenetics. Nat. Commun. 12, 
+535 (2021).
+ 58. N. Rodeheaver, R. Herbert, Y.-S. Kim, M. Mahmood, H. Kim, J.-W. Jeong, W.-H. Yeo, 
+Strain-isolating materials and interfacial physics for soft wearable bioelectronics 
+and wireless, motion artifact-controlled health monitoring. Adv. Funct. Mater. 2021, 
+2104070 (2021).
+ 59. Y. Yang, Y. Song, X. Bo, J. Min, O. S. Pak, L. Zhu, M. Wang, J. Tu, A. Kogan, H. Zhang, 
+T. K. Hsiai, Z. Li, W. Gao, A laser-engraved wearable sensor for sensitive detection of uric 
+acid and tyrosine in sweat. Nat. Biotechnol. 38, 217–224 (2020).
+ 60. Y. Song, J. Min, Y. Yu, H. Wang, Y. Yang, H. Zhang, W. Gao, Wireless battery-free wearable 
+sweat sensor powered by human motion. Sci. Adv. 6, eaay9842 (2020).
+ 61. T. Araki, L. M. Bongartz, T. Kaiju, A. Takemoto, S. Tsuruta, T. Uemura, T. Sekitani, Flexible 
+neural interfaces for brain implants-the pursuit of thinness and high density. Flex. Print. 
+Electron. 5, 043002 (2020).
+ 62. J. W. Lee, R. Xu, S. Lee, K.-I. Jang, Y. Yang, A. Banks, K. J. Yu, J. Kim, S. Xu, S. Ma, S. W. Jang, 
+P. Won, Y. Li, B. H. Kim, J. Y. Choe, S. Huh, Y. H. Kwon, Y. Huang, U. Paik, J. A. Rogers, Soft, 
+thin skin-mounted power management systems and their use in wireless thermography. 
+Proc. Natl. Acad. Sci. 113, 6131–6136 (2016).
+ 63. Z. Huang, Y. Hao, Y. Li, H. Hu, C. Wang, A. Nomoto, T. Pan, Y. Gu, Y. Chen, T. Zhang, W. Li, 
+Y. Lei, N. Kim, C. Wang, L. Zhang, J. W. Ward, A. Maralani, X. Li, M. F. Durstock, A. Pisano, 
+Y. Lin, S. Xu, Three-dimensional integrated stretchable electronics. Nat. Electron. 1, 
+473–480 (2018).
+ 64. K.-I. Jang, H. U. Chung, S. Xu, C. H. Lee, H. Luan, J. Jeong, H. Cheng, G.-T. Kim, S. Y. Han, 
+J. W. Lee, J. Kim, M. Cho, F. Miao, Y. Yang, H. N. Jung, M. Flavin, H. Liu, G. W. Kong, K. J. Yu, 
+S. I. Rhee, J. Chung, B. Kim, J. W. Kwak, M. H. Yun, J. Y. Kim, Y. M. Song, U. Paik, Y. Zhang, 
+Y. Huang, J. A. Rogers, Soft network composite materials with deterministic and bio-
+inspired designs. Nat. Commun. 6, 6566 (2015).
+ 65. Q. Ma, H. Cheng, K.-I. Jang, H. Luan, K.-C. Hwang, J. A. Rogers, Y. Huang, Y. Zhang,  
+A nonlinear mechanics model of bio-inspired hierarchical lattice materials consisting 
+of horseshoe microstructures. J. Mech. Phys. Solids 90, 179–202 (2016).
+ 66. H. Zhang, X. Guo, J. Wu, D. Fang, Y. Zhang, Soft mechanical metamaterials with unusual 
+swelling behavior and tunable stress-strain curves. Sci. Adv. 4, eaar8535 (2018).
+ 67. D. Yan, J. Chang, H. Zhang, J. Liu, H. Song, Z. Xue, F. Zhang, Y. Zhang, Soft three-
+dimensional network materials with rational bio-mimetic designs. Nat. Commun. 11, 
+1180 (2020).
+ 68. J. Liu, D. Yan, W. Pang, Y. Zhang, Design, fabrication and applications of soft network 
+materials. Mater. Today 49, 324–350 (2021).
+ 69. J. Liu, D. Yan, Y. Zhang, Mechanics of unusual soft network materials with rotatable 
+structural nodes. J. Mech. Phys. Solids 146, 104210 (2021).
+ 70. R. Lin, H.-J. Kim, S. Achavananthadith, S. A. Kurt, S. C. C. Tan, H. Yao, B. C. K. Tee, 
+J. K. W. Lee, J. S. Ho, Wireless battery-free body sensor networks using near-field-enabled 
+clothing. Nat. Commun. 11, 444 (2020).
+ 71. T. Pan, M. Pharr, Y. Ma, R. Ning, Z. Yan, R. Xu, X. Feng, Y. Huang, J. A. Rogers, Experimental 
+and theoretical studies of serpentine interconnects on ultrathin elastomers 
+for stretchable electronics. Adv. Funct. Mater. 27, 1702589 (2017).
+ 72. Y. Zhang, S. Xu, H. Fu, J. Lee, J. Su, K.-C. Hwang, J. A. Rogers, Y. Huang, Buckling 
+in serpentine microstructures and applications in elastomer-supported ultra-stretchable 
+electronics with high areal coverage. Soft Matter 9, 8062–8070 (2013).
+ 73. H. U. Chung, B. H. Kim, J. Y. Lee, J. Lee, Z. Xie, E. M. Ibler, K. Lee, A. Banks, J. Y. Jeong, J. Kim, 
+C. Ogle, D. Grande, Y. Yu, H. Jang, P. Assem, D. Ryu, J. W. Kwak, M. Namkoong, J. B. Park, 
+Y. Lee, D. H. Kim, A. Ryu, J. Jeong, K. You, B. Ji, Z. Liu, Q. Huo, X. Feng, Y. Deng, Y. Xu, 
+K.-I. Jang, J. Kim, Y. Zhang, R. Ghaffari, C. M. Rand, M. Schau, A. Hamvas, D. E. Weese-Mayer, 
+Y. Huang, S. M. Lee, C. H. Lee, N. R. Shanbhag, A. S. Paller, S. Xu, J. A. Rogers, Binodal, 
+wireless epidermal electronic systems with in-sensor analytics for neonatal intensive 
+care. Science 363, eaau0780 (2019).
+ 74. D.-H. Kim, N. Lu, R. Ma, Y.-S. Kim, R.-H. Kim, S. Wang, J. Wu, S. M. Won, H. Tao, A. Islam, 
+K. J. Yu, T.-i. Kim, R. Chowdhury, M. Ying, L. Xu, M. Li, H.-J. Chung, H. Keum, M. McCormick, 
+P. Liu, Y.-W. Zhang, F. G. Omenetto, Y. Huang, T. Coleman, J. A. Rogers, Epidermal 
+electronics. Science 333, 838–843 (2011).
+
+Song et al., Sci. Adv. 8, eabm3785 (2022)     16 March 2022
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+12 of 12
+ 75. H. Kim, Y.-S. Kim, M. Mahmood, S. Kwon, N. Zavanelli, H. S. Kim, Y. S. Rim, F. Epps, 
+W.-H. Yeo, Fully integrated, stretchable, wireless skin-conformal bioelectronics 
+for continuous stress monitoring in daily life. Adv. Sci. 7, 2000810 (2020).
+ 76. S. Han, J. Kim, S. M. Won, Y. Ma, D. Kang, Z. Xie, K.-T. Lee, H. U. Chung, A. Banks, S. Min, 
+S. Y. Heo, C. R. Davies, J. W. Lee, C.-H. Lee, B. H. Kim, K. Li, Y. Zhou, C. Wei, X. Feng, 
+Y. Huang, J. A. Rogers, Battery-free, wireless sensors for full-body pressure 
+and temperature mapping. Sci. Trans. Med. 10, eaan4950 (2018).
+Acknowledgments: We thank X. Feng from the Tsinghua University for offering access to 
+microfabrication facilities in the laboratory and Q. Li from the Tsinghua University for 
+assistance in peeling test. Funding: Y.Z. acknowledges support from the National Natural 
+Science Foundation of China (grant nos. 12050004 and 11921002), the Tsinghua National 
+Laboratory for Information Science and Technology, and a grant from the Institute for 
+Guo Qiang, Tsinghua University (grant no. 2019GQG1012). H.S. acknowledges support 
+from National Natural Science Foundation of China (grant no. 11902178), Natural Science 
+Foundation of Beijing Municipality (grant no. 3204043), China Postdoctoral Science 
+Foundation (grant no. 2019M650648), and Opening Project of the Key Laboratory of 
+Bionic Engineering (Ministry of Education), Jilin University (no. K201901). Z.X. 
+acknowledges support from National Natural Science Foundation of China (grant no. 
+61904095). Author contributions: Y.Z. designed and supervised the research. Y.Z., H.S., 
+and G.L. led the structural designs, mechanics modeling, and experimental work, with 
+assistance from Z.J., R.B., Z.X., and D.Y. H.S. led the fabrication and experimental 
+characterization of the encapsulated serpentine interconnects and the stretchable 
+electronic system, with the assistance from F.Z., K.B., J.L., X.C., W.P., and Z.S. Y.Z., H.S., and 
+G.L. wrote the manuscript and designed the figures. All authors commented on the 
+paper. Competing interests: The authors declare that they have no competing interests. 
+Data and materials availability: All data needed to evaluate the conclusions in the 
+paper are present in the paper and/or the Supplementary Materials.
+Submitted 14 September 2021
+Accepted 24 January 2022
+Published 16 March 2022
+10.1126/sciadv.abm3785

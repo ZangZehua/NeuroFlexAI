@@ -1,0 +1,983 @@
+materials
+Article
+Transparent Electrodes Based on Silver Nanowire
+Networks: From Physical Considerations towards
+Device Integration
+Daniel Bellet 1,*, Mélanie Lagrange 1,† , Thomas Sannicolo 1,2 , Sara Aghazadehchors 1,3 ,
+Viet Huong Nguyen 1,4 , Daniel P . Langley5, David Muñoz-Rojas 1, Carmen Jiménez 1,
+Yves Bréchet 6 and Ngoc Duy Nguyen 3
+1 Univ. Grenoble Alpes, CNRS, Grenoble INP (Institute of Engineering Uni. Grenoble Alpes), LMGP , F-38000
+Grenoble, France; melanie.ml.lagrange@gmail.com (M.L.); Thomas.SANNICOLO@cea.fr (T.S.);
+sara.aghazade@gmail.com (S.A.); viet-huong.nguyen@lmgp.grenoble-inp.fr (V .H.N.);
+david.munoz-rojas@grenoble-inp.fr (D.M.-R.); carmen.jimenez@grenoble-inp.fr (C.J.)
+2 Univ. Grenoble Alpes, CEA, LITEN, F-38054 Grenoble, France
+3 Département de Physique, Université de Liège, CESAM/Q-MAT, SPIN, B-4000 Liège, Belgium;
+ngocduy.nguyen@ulg.ac.be
+4 CEA-INES, LITEN, 50 Avenue du Lac Léman, F-73375 Le Bourget-du-Lac, France
+5 ARC Centre of Excellence for Advanced Molecular Imaging, Department of Chemistry and Physics,
+La Trobe Institute for Molecular Science, La Trobe University, Melbourne, Victoria 3086, Australia;
+d.langley@latrobe.edu.au
+6 Univ. Grenoble Alpes, CNRS, Grenoble INP , SIMAP , F-38000 Grenoble, France; ves.BRECHET@cea.fr
+* Correspondence: Daniel.bellet@grenoble-inp.fr; Tel.: +33-456-529-337
+† Present Address: Universit é Grenoble Alpes, CEA, LETI, MINATEC Campus, F-38054 Grenoble, France.
+Academic Editor: Andrea Li Bassi
+Received: 2 February 2017; Accepted: 16 May 2017; Published: 24 May 2017
+Abstract: The past few years have seen a considerable amount of research devoted to nanostructured
+transparent conducting materials (TCM), which play a pivotal role in many modern devices such
+as solar cells, ﬂexible light-emitting devices, touch screens, electromagnetic devices, and ﬂexible
+transparent thin ﬁlm heaters. Currently, the most commonly used TCM for such applications
+(ITO: Indium Tin oxide) suffers from two major drawbacks: brittleness and indium scarcity. Among
+emerging transparent electrodes, silver nanowire (AgNW) networks appear to be a promising
+substitute to ITO since such electrically percolating networks exhibit excellent properties with
+sheet resistance lower than 10 Ω/sq and optical transparency of 90%, fulﬁlling the requirements
+of most applications. In addition, AgNW networks also exhibit very good mechanical ﬂexibility.
+The fabrication of these electrodes involves low-temperature processing steps and scalable methods,
+thus making them appropriate for future use as low-cost transparent electrodes in ﬂexible electronic
+devices. This contribution aims to brieﬂy present the main properties of AgNW based transparent
+electrodes as well as some considerations relating to their efﬁcient integration in devices. The inﬂuence
+of network density, nanowire sizes, and post treatments on the properties of AgNW networks will
+also be evaluated. In addition to a general overview of AgNW networks, we focus on two important
+aspects: (i) network instabilities as well as an efﬁcient Atomic Layer Deposition (ALD) coating
+which clearly enhances AgNW network stability and (ii) modelling to better understand the physical
+properties of these networks.
+Keywords: metallic nanowire; transparent electrode; network; silver nanowire; percolation; stability;
+ﬂexible; (Spatial) ALD
+Materials 2017, 10, 570; doi:10.3390/ma10060570 www.mdpi.com/journal/materials
+
+Materials 2017, 10, 570 2 of 16
+1. Introduction
+A considerable amount of research has been devoted lately to nanostructured transparent
+conducting materials, which play a pivotal role in many modern devices [1–4] such as solar cells [5,6],
+ﬂexible light-emitting devices [ 7], touch screens, electromagnetic devices, and ﬂexible transparent thin
+ﬁlm heaters [8–11]. Currently, the most commonly used material for such applications, ITO (indium
+tin oxide), suffers from two major drawbacks: indium scarcity and brittleness. As a consequence,
+several emerging transparent electrodes (TE) have been studied lately including grapheme [3], carbon
+nanotubes [3], metallic grids [12], and metallic nanowire (MNW) networks [13–15]. Silver nanowire
+(AgNW) networks appear to be promising substitutes for ITO since these percolating networks exhibit
+excellent properties with sheet resistances of a few Ω/sq associated to optical transmittances of
+90% [6,16], fulﬁlling the requirements for many applications [ 14]. Bending tests clearly show that
+MNW networks also exhibit very good electro-mechanical properties [ 13] which are key assets for
+addressing emerging ﬂexible electronics applications. In addition, the fabrication of these electrodes
+involves low-temperature process steps and upscaling methods, such as spray deposition, thus making
+them very appropriate for future use as TE in ﬂexible device fabrication compatible with, for instance,
+roll-to-roll processing [17].
+In spite of all of these positive characteristics, thorough investigations devoted to MNW networks
+should still be performed to make them really competitive with more standard Transparent Conductive
+Oxides (TCO), which have been studied for several decades [1,2,18–20] and are still widely used in
+industry. For instance, the prevalent potential weakness of MNW networks so far appears to be their
+possible lack of stability, which is associated with thermal instability [ 16,21], electrical failure [ 22],
+or ageing [23]. Besides Ag nanowires, it could be strategically interesting to consider cheaper metals
+such as Cu (or CuNi) nanowires [24–27]. However, growth and stability appear more problematic for
+such MNWs at present.
+The inﬂuence of network density, nanowire size, and post-deposition treatments on the physical
+properties of MNW networks are discussed in the present contribution. Network density (as well as
+the useful notion of areal mass density) is a crucial parameter [28,29] which predominantly determines
+both the electrical conductivity and the optical transmission of the network. A sparse network
+is very transparent, but correspondingly has a high electrical resistance, while a dense network
+is very conductive, but appears opaque or hazy; therefore a trade-off has to be considered [ 16].
+The optimal combination of density and transparency (including haziness) needs to be determined by
+the requirements of the ﬁnal application. The stability of MNW networks, both electrical and thermal,
+is also brieﬂy discussed. This is indeed a crucial aspect for the efﬁcient integration of MNW networks
+in devices. Lately, nanocomposites fabricated with MNWs and an embedding matrix or coating (either
+polymer or oxide) appear promising since they can potentially offer new properties and enhanced
+stability. Nanocomposites appear to be more stable than bare MNW networks [30,31]. Finally, let us
+also mention the use of MNW networks for medical applications, such as thermotherapy [30] and the
+integration of MNW networks in textiles [11,32].
+Numerical approaches are useful for better understanding or even predicting the properties of
+MNW networks [9,33,34]. Monte Carlo simulations have been used to investigate the percolation onset
+within MNW networks (more generally called stick percolation [35–37]), while multiscale simulation
+appears very useful for better understanding the properties of MNW networks [38,39].
+This work aims to present the main properties of MNW networks (part 2), then network stability
+is considered and a method to enhance it is presented in part 3, while simulations and semi-empirical
+modelling of MNW networks are discussed in part 4, to better understand their physical properties.
+2. Properties of Metallic Nanowire Networks
+The prevailing physical properties of a TCM are optical transparency and electrical resistance,
+although other properties are to be considered as well (such as haziness, roughness, stability,
+mechanical properties, energy band alignments, etc.).
+
+Materials 2017, 10, 570 3 of 16
+The macroscopic physical properties of a specimen composed of a MNW network depends on the
+network density and the physical properties of the nanowires themselves. Figure 1 shows the main
+length scales which need to be considered in order to understand the properties of MNW networks.
+Materials 2017, 10, 570  3 of 16 
+ 
+The macroscopic physical properties of a spec imen composed of a MNW network depends on 
+the network density and the physical properties of the nanowires themselves. Figure 1 shows the 
+main length scales which need to be considered  in order to understand the properties of MNW 
+networks.  
+ 
+Figure 1. The main length scales at play in metallic nanowire (MNW) networks. From left to right: 
+Transmission Electron Microscopy observations of the extremity of a single MNW and of a junction 
+between two adjacent MNWs; Scanning Electron Microscopy observation of a dense MNW network; 
+picture of a macroscale flexible transparent electrode composed of MNWs.  
+Several methods can be used to  deposit MNW networks. Table 1 below briefly compares the 
+characteristics related to homogeneity, scalability, and cost associated to some of these methods that 
+can be found in the literature. 
+Table 1. A few characteristics associated to five common methods used to fabricate MNW networks. 
+This corresponds to general indications since the main tendencies depend on experimental 
+conditions and application requirements. Plus signs indicate better values. 
+Method Homogeneity Scalable Cost Examples in the Literature
+Spin coating + + +++ Langley [21], Lagrange [16] 
+Spray coating +++ +++ ++ Coskun [7] 
+Vacuum filtration +++ + + De [28] 
+Drop casting + + + Gobelt [40] 
+Meyer rod ++ +++ ++ Deng [17] 
+The five techniques reported in Table 1 are al l compatible with low temperature deposition 
+processes and do not require vacuum processing ch ambers (pressure <1 mbar), both of which are 
+clear advantages compared to deposition methods associated with state of the art TCO specimens. 
+Table 1 describes general trends since many parameters have to be considered such as application 
+requirements (searched prevailing properties, cost , etc.), MNW morphology, ink formulation, or 
+experimental conditions. However, some general comments can be stated. Spin coating appears to 
+be an easy and fast method, but is not scal able and exhibits non-homogenous orientation 
+distribution of AgNWs. Spray coating appears to have several advantages: very easy surface 
+scalability, reproducibility, and can be used with masks. In principle, spray coating can be used on 
+different substrates and is appropriate for large volume deposition. Vacuum filtration appears to be 
+very homogeneous and does not re quire large quantities of soluti on, but appears to be poorly 
+surface scalable. Drop casting is not scalable and may show spatial non- homogeneities (such as 
+coffee rings) compared to other methods, but can be an easy method for quick tests. Finally the 
+Meyer rod method is very simple and compatible with roll-to-roll fabrication [15], however 
+appropriate ink formulation should be considered with constraints related to ink viscosity.  
+The macroscopic properties of MNW networks drastically depend on the local properties at the 
+nanowire scale. For instance, the electr ical resistivity of an individual MNW
+, Ag
+NWρ , is a function of 
+the wire diameter and of the resistivity of bulk silver, Ag
+bulkρ , as shown by Bid et al.[41]: 
+Figure 1. The main length scales at play in metallic nanowire (MNW) networks. From left to right:
+Transmission Electron Microscopy observations of the extremity of a single MNW and of a junction
+between two adjacent MNWs; Scanning Electron Microscopy observation of a dense MNW network;
+picture of a macroscale ﬂexible transparent electrode composed of MNWs.
+Several methods can be used to deposit MNW networks. Table 1 below brieﬂy compares the
+characteristics related to homogeneity, scalability, and cost associated to some of these methods that
+can be found in the literature.
+Table 1. A few characteristics associated to ﬁve common methods used to fabricate MNW networks.
+This corresponds to general indications since the main tendencies depend on experimental conditions
+and application requirements. Plus signs indicate better values.
+Method Homogeneity Scalable Cost Examples in the Literature
+Spin coating + + +++ Langley [21], Lagrange [16]
+Spray coating +++ +++ ++ Coskun [7]
+Vacuum ﬁltration +++ + + De [28]
+Drop casting + + + Gobelt [40]
+Meyer rod ++ +++ ++ Deng [17]
+The ﬁve techniques reported in Table 1 are all compatible with low temperature deposition
+processes and do not require vacuum processing chambers (pressure < 1 mbar), both of which are clear
+advantages compared to deposition methods associated with state of the art TCO specimens. Table 1
+describes general trends since many parameters have to be considered such as application requirements
+(searched prevailing properties, cost, etc.), MNW morphology, ink formulation, or experimental
+conditions. However, some general comments can be stated. Spin coating appears to be an easy and
+fast method, but is not scalable and exhibits non-homogenous orientation distribution of AgNWs.
+Spray coating appears to have several advantages: very easy surface scalability, reproducibility, and can
+be used with masks. In principle, spray coating can be used on different substrates and is appropriate
+for large volume deposition. Vacuum ﬁltration appears to be very homogeneous and does not require
+large quantities of solution, but appears to be poorly surface scalable. Drop casting is not scalable and
+may show spatial non-homogeneities (such as coffee rings) compared to other methods, but can be
+an easy method for quick tests. Finally the Meyer rod method is very simple and compatible with
+roll-to-roll fabrication [15], however appropriate ink formulation should be considered with constraints
+related to ink viscosity.
+The macroscopic properties of MNW networks drastically depend on the local properties at the
+nanowire scale. For instance, the electrical resistivity of an individual MNW, ρAg
+NW, is a function of the
+wire diameter and of the resistivity of bulk silver, ρAg
+bulk , as shown by Bid et al. [41]:
+
+Materials 2017, 10, 570 4 of 16
+ρAg
+NW = ρAg
+bulk · (1 + Λ
+2 · DNW
+) (1)
+where Λ is the mean free path of the electrons in bulk silver and DNW is the average diameter of the
+MNWs. When DNW approaches Λ (in pure bulk silver, Λ is roughly equal to 40 nm) then electron
+scattering occurring at the lateral surfaces of the MNWs plays a dominant role in the conduction
+mechanisms and leads to an increase in the electrical resistivity of the wire. Therefore, the thinner
+the MNWs, the larger their electrical resistivity. As a consequence, when a current ﬂows through a
+MNW, the amplitude of local heating due to the Joule effect will be larger since the local heating power
+per unit volume can be written as ρAg
+NW ·j2 where j is the current density. This should be considered
+in parallel with the dependency of ampacity (i.e., the maximum current density that a MNW can be
+subjected to before failure) [42] with MNW diameter, as well as the lower thermal stability observed in
+smaller MNWs, as seen below.
+Lagrange et al. demonstrated that when subjected to a thermal ramp, the temperature at which a
+MNW network loses stability, causing the onset of an increase of the resistance, depends upon DNW in
+the following form: [16]
+Ts(DNW ) = Ts(∞) · (1 − C
+DNW
+) (2)
+where Ts(∞) denotes the characteristic temperature of bulk [ 16], and C depends on the considered
+metal through the values of its bulk molar volume (VS
+m), free surface energy (γS), and the molar latent
+heat of melting (L) through the following equation: C = VS
+m · γS/L.
+In order to signiﬁcantly improve metallic nanowire-based transparent electrodes, thermal
+annealing of the as-deposited MNW networks is generally used since it has been shown to induce
+a signiﬁcant decrease of the contact resistance between nanowires [7,16,21,43–45]. This is illustrated
+in Figure 2, where the in-situ electrical resistance of AgNW networks is plotted versus temperature
+during an annealing with a ramp of 2 ◦C/min for three different types of AgNW associated to average
+diameters of 26, 55, and 117 nm. Figure 2 shows the signiﬁcant impact of thermal annealing on electrical
+resistance, which can decrease by several orders of magnitude [16,21,45]. The different regions of the
+curves can be interpreted as follows. First, in the low temperature area (below 200 ◦C), the decrease
+in resistance is associated with the thermal desorption of organic residues which are present around
+the AgNW and at their junctions. More precisely, these organic compounds are residuals left from the
+solvents used to disperse the nanowires for deposition, as the deposition is often performed by spin
+coating at room temperature. Isopropanol acts as an insulating layer when it is trapped between two
+nanowires by capillarity, therefore its removal leads to a more intimate connection and better electrical
+contact between nanowires. A second stage of resistance reduction at higher temperature is visible in
+Figure 2, after which a minimum is reached. This is ascribed to the optimization (on average) of the
+local sintering at the nanowire junctions thanks to a thermally induced surface atomic diffusion [21].
+This phenomenon is driven by the reduction of surface energy of the nanowires. The minimum
+resistance is achieved when the welded junctions lead to the creation of enough efﬁcient percolating
+pathways across the network. Eventually, at higher temperature, the network resistance grows without
+bounds within an increase of a few degrees from a typical point called the spheroidization temperature.
+This is associated to the nanowires’ morphological instability, driven again by surface energy reduction.
+Such a phenomenon corresponds to the Plateau-Rayleigh instability, a well-known phenomenon
+observed for nanowires [ 46]. It is also worth noticing that alternative post-deposition methods to
+thermal annealing can be used efﬁciently to optimize MNW network properties: laser sintering [47],
+light induced plasmonic nanowelding [48], and mechanical pressing [43].
+Figure 2 also illustrates the effects of the AgNW diameter on the behaviour of the AgNW networks.
+Both the spheroidization temperature (Tsph) and the temperature at which the minimum resistance is
+observed for each sample (TRmin) increases with the nanowire diameter. Tsph was considered to occur
+
+Materials 2017, 10, 570 5 of 16
+when the network resistance was above 106 Ω, after the minimum resistance was achieved. The data
+shown in Figure 2 is thus fully consistent with Equation (2) [16].
+One way to optimize MNW networks is to perform a thermal ramp, such as those reported in
+Figure 2, on a sacriﬁcial specimen and then to perform the same thermal ramp on a fresh equivalent
+specimen up to the temperature where the electrical resistance was observed to be minimal. Such a
+thermal ramp up to TRmin can be supposed to be a rather optimized thermal treatment.
+It is worth noticing that the two combined physical features described above by
+Equations (1) and (2) indeed show that the smaller the average diameter of the nanowires, the lower
+their electrical stability.
+Materials 2017, 10, 570  5 of 16 
+ 
+considered to occur when the network resistance was above 106 Ω, after the minimum resistance was 
+achieved. The data shown in Figure 2 is thus fully consistent with Equation (2) [16]. 
+One way to optimize MNW networks is to perfor m a thermal ramp, such as those reported in 
+Figure 2, on a sacrificial specimen and then to perform the same thermal ramp on a fresh equivalent 
+specimen up to the temperature where the electrical  resistance was observed to be minimal. Such a 
+thermal ramp up to TRmin can be supposed to be a rather optimized thermal treatment. 
+It is worth noticing that the two combined physical features described above by Equations (1) 
+and (2) indeed show that the smaller the average diameter of the nanowires, the lower their electrical 
+stability. 
+ 
+Figure 2.  Evolution of the electrical resistance ( R) of networks deposited by spin-coating and 
+composed of AgNW with different average diameters (DNW) during a 2 °C.min-1 thermal ramp in air. 
+One can clearly observe that the smaller the diamet er, the lower the characteristic temperature, in 
+agreement with Equation (2). 
+In order to place AgNW networks in the broa der context of TCM to gain perspective, a 
+comparison with more standard TCM based on oxides is necessary. Figure 3a shows the total 
+transmission in the UV-VIS-NIR spectra of seve ral types of TCMs, namely, Fluorine-doped Tin 
+Oxide (FTO) and Indium-doped Tin Oxide (ITO),  two well-known TCOs [1,2] that have been 
+investigated for several decades, and AgNW networks for comparison. These three types of TCMs 
+exhibit rather similar averaged optical transmission in the domain (400–1000 nm) and have 
+comparable sheet resistance values: their associated sheet resistances are 15, 16, and 11 Ω/sq for ITO 
+[49], AgNW network [16], and FTO [50], respectively . However, several differences can be noticed: 
+(i) thickness fringes are clearly obse rved in the visible range associated to the continuous nature of 
+the thin TCO layer, (ii) the AgNW network exhi bits a much higher transmittance in the near 
+Infra-Red (NIR) range since the gaps between AgNWs are fully transparent. 
+As shown by Figure 3a, AgNW networks are al ready capable of matchi ng more conventional 
+TCO in terms of optical and electrical properties [14,28]. However, the final choice of the optimal 
+TCM for a given application will also depend on many other parameters, for instance: temperature 
+fabrication, cost, stability, scalability, and bendability. The latter characteristic has been compared in 
+Figure 3b for the same types of TCMs during repeated bending tests with a radius of curvature of 5 
+mm. ITO and FTO have a thickness equal to, respectively, 300 and 250 nm (see more details in part 5: 
+Materials and Methods). ITO appears to be less compatible with the bending tests since the 
+associated electrical resistance is multiplied by a factor of 12 after only two bending cycles. The 
+associated resistance of the FTO layer is slowly increased with the number of bending cycles while 
+the one associated to the AgNW network is only increased by a few percent even after 60 repeated 
+bending cycles, showing good response under the bending tests. Such flexible properties have been 
+used in flexible light-emitting electrochemical cells in which an AgNW network was embedded in a 
+polyurethane optical adhesive to serve as a transparent electrode [51]. 
+Figure 2. Evolution of the electrical resistance (R) of networks deposited by spin-coating and composed
+of AgNW with different average diameters (DNW) during a 2 ◦C·min−1 thermal ramp in air. One can
+clearly observe that the smaller the diameter, the lower the characteristic temperature, in agreement
+with Equation (2).
+In order to place AgNW networks in the broader context of TCM to gain perspective, a comparison
+with more standard TCM based on oxides is necessary. Figure 3a shows the total transmission in
+the UV-VIS-NIR spectra of several types of TCMs, namely, Fluorine-doped Tin Oxide (FTO) and
+Indium-doped Tin Oxide (ITO), two well-known TCOs [1,2] that have been investigated for several
+decades, and AgNW networks for comparison. These three types of TCMs exhibit rather similar
+averaged optical transmission in the domain (400–1000 nm) and have comparable sheet resistance
+values: their associated sheet resistances are 15, 16, and 11 Ω/sq for ITO [49], AgNW network [16],
+and FTO [ 50], respectively. However, several differences can be noticed: (i) thickness fringes are
+clearly observed in the visible range associated to the continuous nature of the thin TCO layer, (ii) the
+AgNW network exhibits a much higher transmittance in the near Infra-Red (NIR) range since the gaps
+between AgNWs are fully transparent.
+As shown by Figure 3a, AgNW networks are already capable of matching more conventional TCO
+in terms of optical and electrical properties [14,28]. However, the ﬁnal choice of the optimal TCM for a
+given application will also depend on many other parameters, for instance: temperature fabrication,
+cost, stability, scalability, and bendability. The latter characteristic has been compared in Figure 3b for
+the same types of TCMs during repeated bending tests with a radius of curvature of 5 mm. ITO and
+FTO have a thickness equal to, respectively, 300 and 250 nm (see more details in part 5: Materials and
+Methods). ITO appears to be less compatible with the bending tests since the associated electrical
+resistance is multiplied by a factor of 12 after only two bending cycles. The associated resistance of the
+FTO layer is slowly increased with the number of bending cycles while the one associated to the AgNW
+network is only increased by a few percent even after 60 repeated bending cycles, showing good
+response under the bending tests. Such ﬂexible properties have been used in ﬂexible light-emitting
+electrochemical cells in which an AgNW network was embedded in a polyurethane optical adhesive
+to serve as a transparent electrode [51].
+
+Materials 2017, 10, 570 6 of 16
+Materials 2017, 10, 570  6 of 16 
+ 
+ 
+Figure 3. (a) Optical total transmittance (substrate contri bution non-subtracted) of a bare substrate 
+(in blue) and three types of transparent cond uctive materials in the UV-VIS-NIR region: 
+Indium-doped Tin Oxide (ITO, green), Fluor-do ped Tin Oxide (FTO, red), and AgNW network 
+deposited by spray coating (black) are depicted. The associated sheet resistance is reported and is 15, 
+16, and 11 ohms per square for ITO [49], AgNW  network [16], and FTO [50], respectively. ( b) 
+Comparison showing the relative increase of the electrical resistance between opposite sides of 
+different transparent conductive materials TCMs  when subjected to mechanical bending. The 
+associated bending radius of curvature is equal to 5 mm while the TCM is on the opposite side to the 
+bending radius and therefore placed under tension (data extracted from Sannicolo et al. [14]). 
+It is also worth noting that other types of mech anical tests have been performed to assess the 
+mechanical response of MNW based transparent electrodes. For instance, stretching tests reveal that 
+the AgNW networks can retain very good optical an d electrical properties. This has been used to 
+maintain the electroluminescent performances of  AgNW-based elastomeric polymer light-emitting 
+diodes, which are unaffected when exposed to de forming strains [52] and thus pave the way for 
+stretchable Organic Light-Emitting Diodes (OLED) displays. 
+3. Towards the Integration of MNW Networks into Real Devices: Study of Stability of MNW 
+Networks 
+While the optical properties (transparency and ha ze factor) and electrical resistance are the 
+prevailing characteristics for TEs, several other characteristics, such as adherence, mechanical 
+properties, spatial homogeneity, and stability, play a key role in some applications [14]. We now 
+focus the discussion on the stability of MNW networks, which can be a serious issue when the 
+integration of MNW networks in industrial devices is considered. 
+Several kinds of stabilization issues, such as electrical [22] and thermal stability [21], chemical 
+stability, or ageing in standard conditions of op eration [23,53], have been the subject of several 
+studies. It has already been mentioned above that  at high temperatures, due to surface energy 
+reduction, MNWs tend to spheroidize [21]. This morphological instability is accompanied by the loss 
+of the network connectivity, leading to a resistance increase, as shown in Figure 2. The dependence 
+of the temperature associated to the spheroidiz ation with the AgNW diameter should then be 
+considered for the integration of MNWs into any device.  
+Generally speaking, the origin of any MNW instability (electrical or thermal) that results in 
+early failure, is linked either to silver atomic su rface diffusion, electromig ration processes, or a 
+modification of the surface chemis try. One direct way to prevent such instability is to embed the 
+MNW in a thin shell forming a nanocomposite. For instance, the use of reduced graphene oxide to 
+coat either AgNW [54] or CuNW [55] has resulted in a much better stability. Transparent oxides can 
+also be efficiently used for such a coating. For instance, Morgenstern et al. used ZnO nanoparticles as 
+a shell for a AgNW network used as TE for organic solar cells [5], while Göbelt et al. encapsulated 
+AgNWs with an Al-doped ZnO layer thanks to the atomic layer deposition (ALD) method [40].  
+The unique properties of ALD make it a very su itable method to nano-engineer the surface of 
+nanowires. A recently developed approach to ALD,  Spatial Atomic Layer Deposition (SALD) [56], 
+Figure 3. (a) Optical total transmittance (substrate contribution non-subtracted) of a bare substrate
+(in blue) and three types of transparent conductive materials in the UV-VIS-NIR region: Indium-doped
+Tin Oxide (ITO, green), Fluor-doped Tin Oxide (FTO, red), and AgNW network deposited by spray
+coating (black) are depicted. The associated sheet resistance is reported and is 15, 16, and 11 ohms
+per square for ITO [49], AgNW network [16], and FTO [50], respectively. (b) Comparison showing the
+relative increase of the electrical resistance between opposite sides of different transparent conductive
+materials TCMs when subjected to mechanical bending. The associated bending radius of curvature is
+equal to 5 mm while the TCM is on the opposite side to the bending radius and therefore placed under
+tension (data extracted from Sannicolo et al. [14]).
+It is also worth noting that other types of mechanical tests have been performed to assess the
+mechanical response of MNW based transparent electrodes. For instance, stretching tests reveal that
+the AgNW networks can retain very good optical and electrical properties. This has been used to
+maintain the electroluminescent performances of AgNW-based elastomeric polymer light-emitting
+diodes, which are unaffected when exposed to deforming strains [ 52] and thus pave the way for
+stretchable Organic Light-Emitting Diodes (OLED) displays.
+3. Towards the Integration of MNW Networks into Real Devices: Study of Stability of
+MNW Networks
+While the optical properties (transparency and haze factor) and electrical resistance are the
+prevailing characteristics for TEs, several other characteristics, such as adherence, mechanical
+properties, spatial homogeneity, and stability, play a key role in some applications [ 14]. We now
+focus the discussion on the stability of MNW networks, which can be a serious issue when the
+integration of MNW networks in industrial devices is considered.
+Several kinds of stabilization issues, such as electrical [22] and thermal stability [21], chemical
+stability, or ageing in standard conditions of operation [23,53], have been the subject of several studies.
+It has already been mentioned above that at high temperatures, due to surface energy reduction,
+MNWs tend to spheroidize [ 21]. This morphological instability is accompanied by the loss of the
+network connectivity, leading to a resistance increase, as shown in Figure 2. The dependence of the
+temperature associated to the spheroidization with the AgNW diameter should then be considered for
+the integration of MNWs into any device.
+Generally speaking, the origin of any MNW instability (electrical or thermal) that results in early
+failure, is linked either to silver atomic surface diffusion, electromigration processes, or a modiﬁcation
+of the surface chemistry. One direct way to prevent such instability is to embed the MNW in a thin shell
+forming a nanocomposite. For instance, the use of reduced graphene oxide to coat either AgNW [54]
+or CuNW [55] has resulted in a much better stability. Transparent oxides can also be efﬁciently used for
+such a coating. For instance, Morgenstern et al. used ZnO nanoparticles as a shell for a AgNW network
+used as TE for organic solar cells [5], while Göbelt et al. encapsulated AgNWs with an Al-doped ZnO
+layer thanks to the atomic layer deposition (ALD) method [40].
+The unique properties of ALD make it a very suitable method to nano-engineer the surface of
+nanowires. A recently developed approach to ALD, Spatial Atomic Layer Deposition (SALD) [ 56],
+
+Materials 2017, 10, 570 7 of 16
+combines the advantages of ALD with several assets such as rapid and conformal growth of thin
+layers, and it is possible to implement it in atmospheric conditions and even in the open air [ 56].
+SALD is thus particularly suited to be combined with TE based on AgNWs since it offers scalability
+and high throughput. An example of its use to enhance MNW network stability is reported in
+Figure 4a, where AgNWs were coated with a thin layer of Al2O3. The network was ﬁrst annealed for
+1 h at 230 ◦C and then a 12 nm thick coating of Al 2O3 was deposited by SALD at a temperature of
+200 ◦C using a home-made system described elsewhere [57] and trimethyl aluminium and water as
+precursors. The electrical resistances of the coated sample and of a similar uncoated AgNW network
+were measured during a thermal ramp of 2 ◦C/min up to 370 ◦C. The red curve is associated with
+the bare AgNW network, and is equivalent to the ones presented in Figure 2; the observed resistance
+decrease is associated ﬁrst with desorption and then with local sintering at the junction, while the
+divergence at larger temperature corresponds to the morphological instability of AgNWs discussed
+above. For the coated AgNWs, the initial decrease in resistance is not observed since the thermal
+annealing at 230 ◦C and the SALD deposition at 200 ◦C leads to an already efﬁcient local sintering.
+The preparation of the ZnO coated nanowire network via ALD enables the formation of a well sintered
+(optimal inter wire connections) AgNW network prior to its encapsulation with Al2O3. The electrical
+resistance of such a treated network is thus expected to be similar to a metallic sample, where the linear
+increase of resistance with temperature is due to the increased scattering from the electron-phonon
+interaction [42]. As shown in Figure 4a, a clear thermal stability enhancement was observed with the
+Al2O3 layer, since the coated AgNW network does not show any evidence of instability during the
+whole thermal ramp (see the black curve). SEM observations after the thermal ramp are reported
+in Figure 4b,c for the bare and coated AgNW, respectively. The bare NW network clearly exhibits
+deteriorated AgNW, while the coated ones appear unchanged. A SEM image at higher magniﬁcation is
+reported in Figure 4d; it concerns a similar network for which 24 nm of Al2O3 were deposited. One can
+clearly observe the typical highly conformal Al2O3 coating around the AgNWs expected for an ALD or
+SALD coating. While the oxide coating effectively protects the NW, a careful choice of the oxide needs
+to be considered in order to limit losses in transparency. For instance, the very thin Al2O3 coating used
+in the experiment reported in Figure 4 induces a very low decrease of the optical transparency, since
+the optical transparency of bare and Al2O3 coated MNW networks are 92.4% and 91.4%, respectively,
+at a wavelength of 550 nm.
+Materials 2017, 10, 570  7 of 16 
+ 
+combines the advantages of ALD with several assets such as rapid and conformal growth of thin 
+layers, and it is possible to implement it in atmo spheric conditions and even in the open air [56]. 
+SALD is thus particularly suited to be combined with TE based on AgNWs since it offers scalability 
+and high throughput. An example of its use to enhance MNW network stability is reported in Figure 
+4a, where AgNWs were coated with a thin layer of Al2O3. The network was first annealed for 1 hour 
+at 230 °C and then a 12 nm thick coating of Al2O3 was deposited by SALD at a temperature of 200 °C 
+using a home-made system described elsewhere [57] and trimethyl aluminium and water as 
+precursors. The electrical resistances of the coated sample and of a similar uncoated AgNW network 
+were measured during a thermal ramp of 2 °C/min up to 370 °C. The red curve is associated with the 
+bare AgNW network, and is equivalent to the ones  presented in Figure 2; the observed resistance 
+decrease is associated first with desorption and th en with local sintering at the junction, while the 
+divergence at larger temperature corresponds to the morphological instability of AgNWs discussed 
+above. For the coated AgNWs, the initial decrease in resistance is not observed since the thermal 
+annealing at 230 °C and the SALD deposition at 200 °C leads to an already efficient local sintering. 
+The preparation of the ZnO coated nanowire network via ALD enables the formation of a well 
+sintered (optimal inter wire connections) AgNW network prior to its encapsulation with Al
+2O3. The 
+electrical resistance of such a treated network is thus expected to be similar to a metallic sample, 
+where the linear increase of resistance with temperature is due to the increased scattering from the 
+electron-phonon interaction [42]. As shown in Figu re 4a, a clear thermal stability enhancement was 
+observed with the Al 2O3 layer, since the coated AgNW network does not show any evidence of 
+instability during the whole thermal ramp (see the black curve). SEM observations after the thermal 
+ramp are reported in Figure 4b,c for the bare and coated AgNW, respectively. The bare NW network 
+clearly exhibits deteriorated AgNW, while the coated ones appear unchanged. A SEM image at 
+higher magnification is reported in Figure 4d; it concerns a similar network for which 24 nm of Al
+2O3 
+were deposited. One can clearly obse rve the typical highly conformal Al 2O3 coating around the 
+AgNWs expected for an ALD or SALD coating. While the oxide coating effectively protects the NW, 
+a careful choice of the oxide needs to be considered in order to limit losses in transparency. For 
+instance, the very thin Al
+2O3 coating used in the experiment reported in Figure 4 induces a very low 
+decrease of the optical transparency, sinc e the optical transparency of bare and Al 2O3 coated MNW 
+networks are 92.4% and 91.4%, respectively, at a wavelength of 550 nm.  
+a)
+d)
+c)
+b)
+AgNW coated by 12 nm Al2O3
+Bare AgNW
+ 
+Figure 4.  ( a) In-situ measured resistance versus temp erature of a AgNW network (deposited by 
+spray-coating) during a thermal ramp showing that when a 12 nm thick layer of  Al2O3 is deposited 
+by SALD on AgNWs, a clear stability enhancemen t is observed since the network can undergo a 
+thermal ramp up to 315 °C for bare AgNW and at least up to 370 °C for coated AgNW. For the coated 
+network, the metallic behaviour can be observed through the linear increase of the electrical 
+resistance with temperature associated to elec tron-phonon interactions. The SEM pictures are 
+associated to bare AgNW ( b) and coated AgNW ( c)  w i t h  1 2  n m  o f  A l2O3. The SEM picture ( d) 
+corresponds to a higher resolution of a AgNW network coated with  4 3  n m  o f  A l2O3, where the 
+coating can be clearly seen. Scale bars are 10 µm for (b) and (c) and 500 nm for (d). AgNWs have an 
+average diameter of 90 nm and lengths between 10 to 20 µm, and the associated amd value of the 
+network is about 85 mg/m2. 
+Figure 4. (a) In-situ measured resistance versus temperature of a AgNW network (deposited by
+spray-coating) during a thermal ramp showing that when a 12 nm thick layer of Al2O3 is deposited by
+SALD on AgNWs, a clear stability enhancement is observed since the network can undergo a thermal
+ramp up to 315 ◦C for bare AgNW and at least up to 370 ◦C for coated AgNW. For the coated network,
+the metallic behaviour can be observed through the linear increase of the electrical resistance with
+temperature associated to electron-phonon interactions. The SEM pictures are associated to bare AgNW
+(b) and coated AgNW (c) with 12 nm of Al2O3. The SEM picture (d) corresponds to a higher resolution
+of a AgNW network coated with 43 nm of Al 2O3, where the coating can be clearly seen. Scale bars
+are 10 µm for (b) and (c) and 500 nm for (d). AgNWs have an average diameter of 90 nm and lengths
+between 10 to 20 µm, and the associated amd value of the network is about 85 mg/m2.
+
+Materials 2017, 10, 570 8 of 16
+In conclusion, nanocomposites made of MNW and a thin oxide layer clearly exhibit higher stability,
+although such an approach leads to much broader consequences than only stability improvement: it can
+also come with improved interface issues such as adhesion, roughness, balance of work functions, etc.
+Therefore, fabricating such nanocomposites can also provide a wider range of opportunities in terms
+of device integration. For instance, MNW deposited on textiles can be used safely for human portable
+applications [11,32]. MNW based-ﬂexible heaters have also proven to be compatible with medical
+thermotherapy [30]. Fabricating nanocomposites based on MNWs and other materials (polymers,
+carbon based materials, or oxide) paves the way to innovative solutions for many devices. This is
+deﬁnitely a critical direction for the future of MNW integration.
+4. Modelling of MNW Networks: A Brief Survey
+One of the most important parameters in percolation theory is the network density, n, deﬁned as
+the number of nanowires per unit area. The critical density, nC, is deﬁned as the network density of an
+inﬁnite network where the probability of ﬁnding a conduction path from one side to the other (i.e., the
+probability of percolation) is 1/2. Monte Carlo simulations are an efﬁcient numerical tool to link nC
+and the average MNW length, L. It has been found that nC and L are related through the following
+expression [36]:
+nC ∼= 5.64/L2 (3)
+For practical reasons, it can be very convenient to consider the areal mass density, amd, instead of
+the network density (amd is simply n times the average mass of a MNW) and is often expressed in
+mg/m2. Below the critical density, nC, there is, on average, no percolating pathways and therefore the
+associated electrical resistance can be considered as inﬁnite. Sparse networks have not been intensively
+studied so far, and while they are interesting from the fundamental viewpoint [45], their associated
+electrical resistance is too large for most applications. For networks with a density of a few nC (i.e., not
+too dense networks) the percolative regime comes into play and the electrical conductivity σ is then
+given by the following dependence on n or amd:
+σ ∝ (n − nC)γ or σ ∝ (amd − amdC)γ (4)
+where γ is equal to 4/3 for a two dimensional network [28,29,33]. Therefore if one considers that the
+contact resistance is negligible compared to the resistance associated to the MNW network (which is
+clearly valid for sparse networks), then the sheet resistance dependence upon amd can be written as:
+Rsh = K · (amd/amdC − 1)−4/3 (5)
+where K depends upon the geometrical specimen features but is not a function ofamd. This dependence
+of the electrical resistance of a MNW network on amd is valid as shown by Figure 5a where the ﬁt
+using Equation (5) is in good agreement with the experimental data obtained from the study of a series
+of AgNW networks of different densities.
+In parallel, the dependence of the optical transmittance versus amd appears to be a linear
+decrease [16,58,59]. This can be explained by shadowing effects [16]. Therefore the optical transparency
+versus amd can be written in the following way:
+T0
+opt = T0
+opt · (1 − α · amd/amdC) (6)
+where α is a coefﬁcient that can be deduced from the experimental data as shown in Figure 5a and
+which is, for the studied AgNW type, equal to 9.3 × 10−3. T0
+opt refers to the optical transmittance of
+
+Materials 2017, 10, 570 9 of 16
+the bare substrate. Both Equations (5) and (6) can be combined to eliminate amd and this allows one to
+directly link Rsh and Trel
+opt through the following equation:
+Topt = 1 − α · (1 + K
+Rsh3/4 ) (7)
+where K is a constant. A ﬁt of the experimental data with Equation (7) is reported in Figure 5b, where
+the total optical transmittance was measured at a wavelength of 550 nm. Although the considered
+model is simple, a good agreement is observed.
+It is also worth noting that the performances of an optimized transparent electrode composed
+of AgNWs are very good when compared to the other types of TEs [ 1,15,16]. Performances as
+good as Topt > 90% and Rsh ≤ 10 Ω/sq have been reported several times. Such performances are
+compatible even with the most demanding applications in terms of optical and electrical properties,
+i.e., photovoltaic applications [14,60].
+One way to determine the best trade-off between optical transparency and the electrical resistance
+is to maximize a ﬁgure of merit, FoM. The most widely used FoM, especially for solar cell applications,
+is the one proposed by Haacke [15,61]:
+FoM =
+(
+Topt
+)10
+Rsh
+(8)
+By using the dependences of Rsh and Topt with amd (Equations (5) and (6), respectively) one can
+readily determine the amd value that will maximize the FoM given by Equation (8):
+amdmax = 1
+17 ( 2
+α + 15) · amdC (9)
+Therefore for the given AgNW morphology (here LNW = 42.9 µm, DNW = 117 nm), the network
+areal mass density that will maximise the electro-optical properties is about 13 times amdC, the latter
+corresponding to the onset of percolation. This could be experimentally assessed by studying the
+transmittance, sheet resistance, and FoM values of the networks made with AgNW networks of
+various densities. Figure 5a displays the experimental values of FoM. The rather scattered values
+originate, on the one hand, from the large incertitude related to the calculation ofamd values (especially
+for the dense networks), and, on the other hand, from the fact that slight ﬂuctuations from the
+optical transparency values lead to very large variations of the FoM values (due the power tenth of
+Equation (8)). As shown in Figure 5a, the sample leading to the best FoM has a ratio amd/amdc of 13.7,
+in good agreement with the calculation.
+Although silver is considered as an expensive material, such optimized AgNW based TE can be
+considered as cheap since it requires a rather low amount of silver. For instance, an amd value equal to
+13 times amdc corresponds to a silver amount equivalent to a 20 nm thick homogeneous layer for the
+nanowires used above.
+Choosing a small average AgNW diameter induces shadowing to a lower extent, and therefore
+leads to larger optical transmission values. However, we also know from Equation (1) that a AgNW
+diameter smaller than the mean free path of electrons (i.e., Λ in bulk Ag is close to 40 nm) will increase
+the electrical resistivity and will also increase the electrical instability issues. Therefore, the optimized
+AgNW diameter would be typically in the range from 60–100 nm and the optimized amd would be in
+the range of 5–10 times the amdc value, a smaller value compared to the one observed experimentally
+above, which was associated to a diameter of 117 nm.
+As well, the haze factor HF, deﬁned as the proportion of the diffuse component of the total
+transmitted light, plays a key role for many applications. Several studies have been indeed devoted to
+the evaluation of HF in MNW networks. The HF has been shown to increase linearly with amd [16].
+
+Materials 2017, 10, 570 10 of 16
+By writing HF = δ·amd/amdc, where δ is constant, the relation between Rsh and HF can be deduced
+from Equations (6) and (7), as follows:
+HF = δ · (1 + K
+Rsh3/4 ) (10)
+Equation (10) has been used to ﬁt the experimental dependence between HF and Rsh, and a good
+agreement can be reported in Figure 5b.
+While low haziness is pursued in the case of displays, such as touch panels or transparent heaters,
+large haze factors are desirable in solar cells since a largeHF leads to an increase in the photon’s optical
+path, which results in a higher absorption within the active layer of a solar cell [ 62,63]. Therefore
+several studies have been devoted to the investigation of the haze values of MNW networks [16,64–67].
+Generally speaking, it is reported that the haziness of a MNW network increases linearly with the
+network amd for a given MNW size. Haziness thus appears to drastically depend upon MNW size;
+for instance, Preston et al. [66] observed that AgNW with larger diameters are associated with larger
+haze factor values. Araki et al. demonstrated that increasing the average AgNW length allows the
+decrease of the haziness [65]. Therefore, the level of haziness appears as a tuneable parameter that can
+drastically impact the efﬁciency of the integration of the AgNW based transparent electrode within
+the ﬁnal device. For instance, the AgNW used for the experiments reported in Figure 5a,b has an
+average diameter of 117 nm. This diameter appears to be too large for transparent heater applications.
+Indeed, defogging or defrosting applications (windscreens) require rather low electrical resistances
+and therefore a rather dense network, inducing a too large HF (≈ 10%), as shown in Figure 5b. As a
+result, the vision would be excessively blurred.
+Materials 2017, 10, 570  10 of 16 
+ 
+While low haziness is pursued in the case of displays, such as touch panels or transparent 
+heaters, large haze fact ors are desirable in solar cells since a large HF leads to an increase in the 
+photon’s optical path, which results in a higher absorption within the active layer of a solar cell 
+[62,63]. Therefore several studies have been devoted to the investigation of the haze values of MNW 
+networks [16,64–67]. Generally speaking, it is reported that the haziness of a MNW network 
+increases linearly with the network amd for a given MNW size. Haziness thus appears to drastically 
+depend upon MNW size; for instance, Preston et al. [66] observed that AgNW with larger diameters 
+are associated with larger haze factor values. Araki et al. demonstrated that increasing the average 
+AgNW length allows the decrease of the haziness [6 5]. Therefore, the level of haziness appears as a 
+tuneable parameter that can drastically impact the efficiency of the integration of the AgNW based 
+transparent electrode within the final device. Fo r instance, the AgNW used for the experiments 
+reported in Figure 5a,b has an average diameter of 117 nm. This diameter appears to be too large for 
+transparent heater applications. Indeed, defogging or defrosting applications (windscreens) require 
+rather low electrical resistances and therefore a rather dense network, in ducing a too large HF ( ≈ 
+10%), as shown in Figure 5b. As a result, the vision would be excessively blurred. 
+ 
+Figure 5. Properties of networks with AgNW of averag e diameter 117 nm and average length 42.5 
+µm deposited by spin-coating. ( a) Dependence of physical proper ties versus redu ced areal mass 
+density ( amd/amdc) of AgNW networks: minimum electrical resistance measured during thermal 
+ramp (as that shown in Figure 2) ( Rmin), optical transparency ( Topt), and haze factor ( HF), the later 
+two measured at a wavelength of 550 nm. The circles are experimental data while the fits correspond 
+to the use of Equations (5) and (6) for the resistance and transparency, respectively; ( b) Optical 
+transmittance and haze factor ( HF) versus sheet resistance of the networks made of AgNW117 
+networks with various network densities. The fits correspond to the use of Equations (7) and (10), for 
+the transparency and haze factor dependence on sheet resistance, respectively.  
+The previously described approach , as simple as it may seem, is in good agreement with the 
+experimental data. However, one should also keep in mind that this is only valid approach within 
+the percolation regime (i.e., for not too dense netw orks). It is also worth noting that another 
+approach developed by Coleman uses another figure of merit (derived in the domain of thin films): 
+the ratio between electrical and optical conductivity; this also allows for a good description of the 
+experimental data in a broader range of network densities. In Coleman’s approach, both percolative 
+and bulk regimes were explored [9,29,33], while here only the percolative regime has been explored. 
+However the rather straightforward analysis pr esented here appears well suited to swiftly 
+determine the network densities or post-treatments that can optimize the FoM of networks, as well 
+as for assessing MNW quality and stability. 
+In addition to the numerous experimental approaches reported so far in the literature, a number 
+of modelling approaches have also  been explored to better understand or predict the properties of 
+MNW networks. The seminal papers by Coleman’s group showed that for MNW networks sparse 
+enough to display transparency over 90%, the co nduction mechanisms can be understood through 
+Figure 5. Properties of networks with AgNW of average diameter 117 nm and average length 42.5 µm
+deposited by spin-coating. (a) Dependence of physical properties versus reduced areal mass density
+(amd/amdc) of AgNW networks: minimum electrical resistance measured during thermal ramp (as that
+shown in Figure 2) (Rmin), optical transparency (T opt), and haze factor (HF), the later two measured
+at a wavelength of 550 nm. The circles are experimental data while the ﬁts correspond to the use of
+Equations (5) and (6) for the resistance and transparency, respectively; (b) Optical transmittance and
+haze factor (HF) versus sheet resistance of the networks made of AgNW117 networks with various
+network densities. The ﬁts correspond to the use of Equations (7) and (10), for the transparency and
+haze factor dependence on sheet resistance, respectively.
+The previously described approach, as simple as it may seem, is in good agreement with the
+experimental data. However, one should also keep in mind that this is only valid approach within
+the percolation regime (i.e., for not too dense networks). It is also worth noting that another approach
+developed by Coleman uses another ﬁgure of merit (derived in the domain of thin ﬁlms): the ratio
+
+Materials 2017, 10, 570 11 of 16
+between electrical and optical conductivity; this also allows for a good description of the experimental
+data in a broader range of network densities. In Coleman’s approach, both percolative and bulk
+regimes were explored [9,29,33], while here only the percolative regime has been explored. However
+the rather straightforward analysis presented here appears well suited to swiftly determine the network
+densities or post-treatments that can optimize the FoM of networks, as well as for assessing MNW
+quality and stability.
+In addition to the numerous experimental approaches reported so far in the literature, a number
+of modelling approaches have also been explored to better understand or predict the properties of
+MNW networks. The seminal papers by Coleman’s group showed that for MNW networks sparse
+enough to display transparency over 90%, the conduction mechanisms can be understood through
+percolation theory [33]. Coleman et al. also analysed the data related to transmittance as a function of
+sheet resistance for different networks: graphene, carbon nanotubes, and metallic nanowires for which
+they reported a transition from bulk-like behaviour to percolation behaviour as the network density
+decreased [9,29]. In parallel to such modelling approaches, several recent works have been dedicated to
+the computation of simulated networks. For instance, O’Callaghan et al. generated simulated networks
+with perfectly accurate mimicking of real networks observed by scanning electron microscopy [68].
+They were able to ﬁnd the effective medium network that can describe the dependence of the
+resistance of a MNW network versus network density, electrode size, and electrode separation [68].
+One of the main advantages of such methods is the possibility to disentangle the contributions from
+MNW junctions and the MNW themselves to the network electrical resistance. The same group also
+introduced a protocol which allows the calculation of the electrical performance of MNW networks [69],
+thanks to a combined experimental and computational approach where the geometric aspects of the
+network, as well as the electrical contribution of the junctions and single NWs can be taken into
+account all together. This can be very beneﬁcial for a more realistic prediction of the performances
+of any network, with the ﬁnal goal of optimizing them. In parallel, Large et al. used ﬁnite-size
+scaling theory to investigate AgNW networks for both experimental and simulation purposes [ 70].
+This approach appears to be very pertinent since instead of considering the properties of MNW
+networks as homogeneous large area ﬁlms, some applications (such as capacitive touch sensors)
+require device patterning. Large et al. used the ﬁnite-size scaling theory to investigate the inﬂuence of
+the variation of the MNW length distribution on the properties of the network [ 70]. This approach
+could have direct implications towards choosing the appropriate MNW nature and dimensions for a
+more efﬁcient integration within industrial applications that require device patterning.
+In parallel, while several ﬁgures of merit (FoM) have been proposed in the literature, for some
+applications they fail to provide a pertinent guide for fabricating an optimized network. A clear and
+simple example in this regard concerns solar cells: if one imagines fabricating a network composed of
+ultra-long MNW, we would reach both high values of transparency and electrical conductivity even
+for very sparse networks and this would be associated with very high values of the FoM. However,
+when integrated into a solar cell, the collection efﬁciency of the photo-generated carriers of such a
+sparse network would be very low in spite of its high FoM value, and thus the associated solar cell
+efﬁciency would be low. This clearly shows that an appropriate method to assess a MNW network for
+such an important application is still missing. Additionally, Kumar et al. [71] reported an interesting
+study to assess MNW based TEs for optimizing solar cell performance by considering, for instance,
+the inﬂuence of the active layer diffusion length of the solar cell.
+5. Materials and Methods
+TEs discussed here were fabricated using AgNWs dispersed in isopropanol, purchased from
+Seashell Technology (San Diego, CA, USA) or ACS Materials (with various dimensions) and were all
+grown by the polyol process. In Figures 2 and 5 , AgNW based electrodes were fabricated by spin
+coating on glass substrates while in Figures 3 and 4 they were fabricated by spray coating. AgNW from
+Seashell Technology were used for the experiments reported in Figures 2, 3 and 5, while AgNW based
+
+Materials 2017, 10, 570 12 of 16
+electrodes associated to Figure 4 were fabricated with AgNWs from ACS Materials. The density of the
+AgNW networks, and their associated amd, were calculated from the SEM images. All SEM images
+were obtained on an environmental FEI Quanta 250 FEG SEM (FEI, Hillsboro, OR, USA). The samples
+were characterized optically by a Perkin Elmer Lambda 950 UV-Visible-Near IR spectrophotometer
+(Perkin Elmer, Waltham, MA, USA) equipped with an integrating sphere over a wavelength range from
+250 to 2500 nm. Measurements were performed on two different locations for each sample, and were
+then averaged.
+The ITO ﬁlm used in Figure 3b was commercially purchased ITO on PET from Sigma Aldrich
+(St. Louis, MO, USA), with an initial sheet resistance of 60 ohms per square and a ﬁlm thickness of
+300 nm. FTO ﬁlms were deposited by spray pyrolysis in experimental conditions similar to those
+reported in the articles of Giusti et al. [63] and Consonni et al. [72]. The FTO ﬁlm had a thickness of
+250 nm and sheet resistance of 10 ohms per square.
+In situ measurements of the sample’s resistance were performed with the help of a source meter
+Keithley 2500. The area of the AgNW networks deposited on the glass was constantly maintained with
+a 7 mm gap between the contact electrodes, made with silver paint. The samples were heated on a hot
+plate in air at a constant ramp rate of 2 ◦C/min from room temperature to 500 ◦C, while the resistance
+was measured in situ by using a two probe measurement setup. Sheet resistances were measured
+using a linear four-point probe setup (Lucas Signatone QuadPro, Pro4-440N conﬁguration).
+The Al 2O3 layer was deposited using a home-made SALD system [ 57] with the following
+parameters: precursors: trimethylaluminium (TMA) and water; inert gas: nitrogen; temperature:
+200 ◦C; distance between substrate-SALD deposition head: 150 µm; scanning speed: 10 cm/s.
+6. Concluding Remarks and Perspectives
+In addition to their extreme ease of fabrication, randomly-oriented metallic nanowire (MNW)
+networks are ﬂexible efﬁcient transparent electrodes that show great interest for several applications.
+They simultaneously exhibit mechanical ﬂexibility, high optical transparency, and low electrical
+resistance and have been shown to be prime candidates for replacing the standard material (ITO)
+for a range of applications. Regarding the conduction models and the stability (thermal, electrical,
+chemical), MNW networks behave in a very different way compared to a thin homogeneous TCO.
+This is due to the speciﬁc architecture of such networks, namely with a percolating nature, and to the
+dimensions of the interconnected nano-objects.
+In this paper, we have brieﬂy presented some of the important aspects of such networks for a
+better understanding and optimization of their physical properties. This work relates the facts that:
+(i) appropriate thermal annealing, as well as other post-treatments, can optimize a MNW network’s
+electrical resistance, (ii) a very thin coating of a transparent oxide deposited by SALD in atmospheric
+conditions can enhance their stability (iii) simple models can help to understand the physical properties
+and their interdependency and allow optimisation of the device properties. We also brieﬂy describe
+how nanocomposites do not only enhance stability but also create new opportunities for the integration
+of MNW based transparent and/or ﬂexible electrodes.
+Finally, let us brieﬂy discuss a few future potential directions related to MNW networks. They will
+very probably involve the synthesis of MNW, and the associated stability issues, using less expensive
+metals than silver, such as copper or metal alloys. The stability of the MNW itself still has to be
+addressed in spite of several demonstrations of possible improvements in the literature. The problem
+appears even more drastic for metals other than silver. Up-scaling MNW growth and efﬁcient methods
+for fabricating MNW networks with reproducible properties at industrial scales and rates are being
+investigated by several companies. The results obtained will be of great importance for the future of
+MNW integration.
+More modelling works will probably be very useful to better understand the inﬂuence of
+parameters inherent to MNW networks, such as length or diameter distributions and MNW curvature
+(one of the rare studies of the curved MNW in network properties has been recently reported by
+
+Materials 2017, 10, 570 13 of 16
+Kumar et al. [73]). Generally speaking, it seems that each targeted application requires transparent
+electrodes with speciﬁc criteria of optimization. Hence, only collective thorough investigations with
+all concerned disciplines (chemistry, physics, material engineering, experimental and modelling
+approaches, etc.), from both academic and industrial partners, can subsequently lead to an efﬁcient
+and large scale integration of MNW networks in commercial devices.
+Acknowledgments: This work was supported by the FICHTRE ANR-13-RMNP-0015-01 project, the European
+Joint Doctorate FunMAT program (H2020-MSCA-ITN-2014, Project ID 641640), and the J.0119.14 project
+(F.R.S-FNRS, Belgium). David Muñoz-Rojas acknowledges funding through the Marie Curie Actions
+(FP7/2007-2013, Grant Agreement No. 631111). The Region Auvergne Rhône-Alpes is acknowledged for the
+phD grant of VHN through the ARC Energies program. The authors would like to warmly thank C. Celle,
+A. Khan, and J.-P . Simonatofor fruitful discussions, and M. Anikin and L. Rapenne for their help during in situ
+electrical and TEM measurements, respectively.
+Author Contributions: D.B. wrote the ﬁrst version of the article while T.S., D.P .L., and N.D.N. have largely
+contributed to the ﬁnal version. M.L. performed AgNW network density studies with nanowires of various
+dimensions. D.B., D.P .L., and Y.B. derived the physical models. D.M.-R. designed the SALD equipment. V .H.N.
+and D.M.-R. deposited the thin layers of Al 2O3 on AgNW by SALD while S.A. investigated the effects of the
+Al2O3 coating on the stability of the MNW networks. C.J. designed and built the in situ thermal ramp setups.
+T.S. and S.A. performed the scanning electron microscopy experiments.
+Conﬂicts of Interest: The authors declare no conﬂict of interest. The funding providers had no role in the design
+of the study; in the collection, analysis, or interpretation of data; in the writing of the manuscript or in the decision
+to publish the results.
+References
+1. Ellmer, K. Past achievements and future challenges in the development of optically transparent electrodes.
+Nat. Photonics 2012, 6, 809–817. [CrossRef]
+2. Minami, T. Transparent conducting oxide semiconductors for transparent electrodes. Semicond. Sci. T echnol.
+2005, 20. [CrossRef]
+3. Hecht, D.S.; Hu, L.; Irvin, G. Emerging transparent electrodes based on thin ﬁlms of carbon nanotubes,
+graphene, and metallic nanostructures. Adv. Mater. 2011, 23, 1482–1513. [CrossRef] [PubMed]
+4. Guo, W.; Xu, Z.; Zhang, F.; Xie, S.; Xu, H.; Liu, X.Y. Recent Development of Transparent Conducting
+Oxide-Free Flexible Thin-Film Solar Cells. Adv. Funct. Mater. 2016, 26, 8855–8884. [CrossRef]
+5. Morgenstern, F.S.F.; Kabra, D.; Massip, S.; Brenner, T.J.K.; Lyons, P .E.; Coleman, J.N.; Friend, R.H.
+Ag-nanowire ﬁlms coated with ZnO nanoparticles as a transparent electrode for solar cells. Appl. Phys. Lett.
+2011, 4, 183307. [CrossRef]
+6. Langley, D.P .; Giusti, G.; Lagrange, M.; Collins, R.; Jim énez, C.; Br échet, Y.; Bellet, D. Silver nanowire
+networks: Physical properties and potential integration in solar cells. Sol. Energy Mater. Sol. Cells 2014, 125,
+318–324. [CrossRef]
+7. Coskun, S.; Selen Ates, E.; Emrah Unalan, H. Optimization of silver nanowire networks for polymer light
+emitting diode electrodes. Nanotechnology 2013, 24, 125202. [CrossRef] [PubMed]
+8. Celle, C.; Mayousse, C.; Moreau, E.; Basti, H.; Carella, A.; Simonato, J.P . Highly ﬂexible transparent ﬁlm
+heaters based on random networks of silver nanowires. Nano Res. 2012, 5, 427–433. [CrossRef]
+9. Sorel, S.; Bellet, D.; Coleman, J.N. Relationship between Material Properties and Transparent Heater
+Performance for Both Bulk-like and Percolative Nanostructured Networks. ACS Nano 2014, 8, 4805–4814.
+[CrossRef] [PubMed]
+10. Ergun, O.; Coskun, S.; Yusufoglu, Y.; Unalan, H.E. High-performance, bare silver nanowire network
+transparent heaters. Nanotechnology 2016, 27, 445708. [CrossRef] [PubMed]
+11. Doganay, D.; Coskun, S.; Genlik, S.P .; Unalan, H.E. Silver nanowire decorated heatable textiles.
+Nanotechnology 2016, 27, 435201. [CrossRef] [PubMed]
+12. Van de Groep, J.; Spinelli, P .; Polman, A. Transparent Conducting Silver Nanowire Networks.Nano Lett.
+2012, 12, 3138–3144. [CrossRef] [PubMed]
+13. Langley, D.; Giusti, G.; Mayousse, C.; Celle, C.; Bellet, D.; Simonato, J.P . Flexible transparent conductive
+materials based on silver nanowire networks: a review.Nanotechnology 2013, 24, 452001. [CrossRef] [PubMed]
+
+Materials 2017, 10, 570 14 of 16
+14. Sannicolo, T.; Lagrange, M.; Cabos, A.; Celle, C.; Simonato, J.P .; Bellet, D. Metallic Nanowire-Based
+Transparent Electrodes for Next Generation Flexible Devices: A Review.Small 2016, 12, 6052–6075. [CrossRef]
+[PubMed]
+15. Gao, J.; Kempa, K.; Giersig, M.; Akinoglu, E.M.; Han, B.; Li, R. Physics of transparent conductors. Adv. Phys.
+2016, 65, 553–617. [CrossRef]
+16. Lagrange, M.; Langley, D.P .; Giusti, G.; Jim énez, C.; Br échet, Y.; Bellet, D. Optimization of silver
+nanowire-based transparent electrodes: effects of density, size and thermal annealing. Nanoscale 2015,
+7, 17410–17423. [CrossRef] [PubMed]
+17. Deng, B.; Hsu, P .C.; Chen, G.; Chandrashekar, B.N.; Liao, L.; Ayitimuda, Z.; Wu, J.; Guo, Y.; Lin, L.;
+Zhou, Y.; et al. Roll-to-Roll Encapsulation of Metal Nanowires between Graphene and Plastic Substrate for
+High-Performance Flexible Transparent Electrodes. Nano Lett. 2015, 15, 4206–4213. [CrossRef] [PubMed]
+18. Gordon, R.G. Criteria for choosing transparent conductors. MRS Bull. 2000, 25, 52–57. [CrossRef]
+19. Fortunato, E.; Ginley, D.; Hosono, H.; Paine, D.C. Transparent conducting oxides for photovoltaics.MRS Bull.
+2007, 32, 242–247. [CrossRef]
+20. Klein, A. Transparent Conducting Oxides: Electronic Structure–Property Relationship from Photoelectron
+Spectroscopy with in situ Sample Preparation. J. Am. Ceram. Soc. 2013, 96, 331–345. [CrossRef]
+21. Langley, D.P .; Lagrange, M.; Giusti, G.; Jim énez, C.; Bréchet, Y.; Nguyen, N.D.; Bellet, D. Metallic nanowire
+networks: effects of thermal annealing on electrical resistance. Nanoscale 2014, 6, 13535–13543. [CrossRef]
+[PubMed]
+22. Khaligh, H.H.; Goldthorpe, I.A. Failure of silver nanowire transparent electrodes under current ﬂow.
+Nanoscale Res. Let. 2013, 8, 1–6. [CrossRef] [PubMed]
+23. Mayousse, C.; Celle, C.; Fraczkiewicz, A.; Simonato, J.P . Stability of silver nanowire based electrodes under
+environmental and electrical stresses. Nanoscale 2015, 7, 2107–2115. [CrossRef] [PubMed]
+24. Chen, J.; Zhou, W.; Chen, J.; Fan, Y.; Zhang, Z.; Huang, Z.; Feng, X.; Mi, B.; Ma, Y.; Huang, W.
+Solution-processed copper nanowire ﬂexible transparent electrodes with PEDOT:PSS as binder, protector
+and oxide-layer scavenger for polymer solar cells. Nano Res. 2014, 8, 1017–1025. [CrossRef]
+25. Mayousse, C.; Celle, C.; Carella, A.; Simonato, J.P . Synthesis and puriﬁcation of long copper nanowires.
+Application to high performance ﬂexible transparent electrodes with and without PEDOT:PSS. Nano Res.
+2014, 7, 315–324. [CrossRef]
+26. Rathmell, A.R.; Nguyen, M.; Chi, M.; Wiley, B.J. Synthesis of Oxidation-Resistant Cupronickel Nanowires for
+Transparent Conducting Nanowire Networks. Nano Lett. 2012, 12, 3193–3199. [CrossRef] [PubMed]
+27. Rathmell, A.R.; Wiley, B.J. The Synthesis and Coating of Long, Thin Copper Nanowires to Make Flexible,
+Transparent Conducting Films on Plastic Substrates. Adv. Mater. 2011, 23, 4798–4803. [CrossRef] [PubMed]
+28. De, S.; Higgins, T.M.; Lyons, P .E.; Doherty, E.M.; Nirmalraj, P .N.; Blau, W.J.; Boland, J.J.; Coleman, J.N. Silver
+Nanowire Networks as Flexible, Transparent, Conducting Films: Extremely High DC to Optical Conductivity
+Ratios. ACS Nano 2009, 3, 1767–1774. [CrossRef] [PubMed]
+29. De, S.; Coleman, J.N. The effects of percolation in nanostructured transparent conductors. MRS Bull. 2011,
+36, 774–781. [CrossRef]
+30. Choi, S.; Park, J.; Hyun, W.; Kim, J.; Kim, J.; Lee, Y.B.; Song, C.; Hwang, H.J.; Kim, J.H.; Hyeon, T.; et al.
+Stretchable Heater Using Ligand-Exchanged Silver Nanowire Nanocomposite for Wearable Articular
+Thermotherapy. ACS Nano 2015, 9, 6626–6633. [CrossRef] [PubMed]
+31. Lee, P .; Ham, J.; Lee, J.; Hong, S.; Han, S.; Suh, Y.D.; Lee, S.E.; Yeo, J.; Lee, S.S.; Lee, D.; et al. Highly
+Stretchable or Transparent Conductor Fabrication by a Hierarchical Multiscale Hybrid Nanocomposite.
+Adv. Funct. Mater. 2014, 24, 5671–5678. [CrossRef]
+32. Atwa, Y.; Maheshwari, N.; Goldthorpe, I.A. Silver nanowire coated threads for electrically conductive textiles.
+J. Mater. Chem. C 2015, 3, 3908–3912. [CrossRef]
+33. De, S.; King, P .J.; Lyons, P .E.; Khan, U.; Coleman, J.N. Size Effects and the Problem with Percolation in
+Nanostructured Transparent Conductors. ACS Nano 2010, 4, 7064–7072. [CrossRef] [PubMed]
+34. Bellew, A.T.; Manning, H.G.; Gomes da Rocha, C.; Ferreira, M.S.; Boland, J.J. Resistance of Single Ag
+Nanowire Junctions and Their Role in the Conductivity of Nanowire Networks. ACS Nano 2015, 9,
+11422–11429. [CrossRef] [PubMed]
+35. Li, J.; Zhang, S.L. Conductivity exponents in stick percolation. Phys. Rev. E 2010, 81, 21120. [CrossRef]
+[PubMed]
+
+Materials 2017, 10, 570 15 of 16
+36. Li, J.; Zhang, S.L. Finite-size scaling in stick percolation. Phys. Rev. E 2009, 80, 40104. [CrossRef] [PubMed]
+37. Vigolo, B.; Coulon, C.; Maugey, M.; Zakri, C.; Poulin, P . An Experimental Approach to the Percolation of
+Sticky Nanotubes. Science 2005, 309, 920–923. [CrossRef] [PubMed]
+38. Nirmalraj, P .N.; Bellew, A.T.; Bell, A.P .; Fairﬁeld, J.A.; McCarthy, E.K.; O’Kelly, C.; Pereira, L.F.C.; Sorel, S.;
+Morosan, D.; Coleman, J.N.; et al. Manipulating Connectivity and Electrical Conductivity in Metallic
+Nanowire Networks. Nano Lett. 2012, 5966–5971. [CrossRef] [PubMed]
+39. Fairﬁeld, J.A.; Ritter, C.; Bellew, A.T.; McCarthy, E.K.; Ferreira, M.S.; Boland, J.J. Effective Electrode Length
+Enhances Electrical Activation of Nanowire Networks: Experiment and Simulation. ACS Nano 2014, 8,
+9542–9549. [CrossRef] [PubMed]
+40. Göbelt, M.; Keding, R.; Schmitt, S.W.; Hoffmann, B.; Jäckle, S.; Latzel, M.; Radmilovi´ c, V .V .; Radmilovi´ c, V .R.;
+Spiecker, E.; Christiansen, S. Encapsulation of silver nanowire networks by atomic layer deposition for
+indium-free transparent electrodes. Nano Energy 2015, 16, 196–206. [CrossRef]
+41. Bid, A.; Bora, A.; Raychaudhuri, A.K. Temperature dependence of the resistance of metallic nanowires of
+diameter ≥15 nm: Applicability of Bloch-Grüneisen theorem. Phys. Rev. B 2006, 74, 035426. [CrossRef]
+42. Lagrange, M.; Sannicolo, T.; Muñoz-Rojas, D.; Lohan, B.G.; Khan, A.; Anikin, M.; Jiménez, C.; Bruckert, F.;
+Bréchet, Y.; Bellet, D. Understanding the mechanisms leading to failure in metallic nanowire-based
+transparent heaters, and solution for stability enhancement. Nanotechnology 2017, 28, 55709. [CrossRef]
+[PubMed]
+43. Tokuno, T.; Nogi, M.; Karakawa, M.; Jiu, J.; Nge, T.T.; Aso, Y.; Suganuma, K. Fabrication of silver nanowire
+transparent electrodes at room temperature. Nano Res. 2011, 4, 1215–1222. [CrossRef]
+44. Lee, J.Y.; Connor, S.T.; Cui, Y.; Peumans, P . Solution-Processed Metal Nanowire Mesh Transparent Electrodes.
+Nano Lett. 2008, 8, 689–692. [CrossRef] [PubMed]
+45. Sannicolo, T.; Muñoz-Rojas, D.; Nguyen, N.D.; Moreau, S.; Celle, C.; Simonato, J.P .; Br échet, Y.;
+Bellet, D. Direct Imaging of the Onset of Electrical Conduction in Silver Nanowire Networks by Infrared
+Thermography: Evidence of Geometrical Quantized Percolation. Nano Lett. 2016, 16, 7046–7053. [CrossRef]
+[PubMed]
+46. Karim, S.; Toimil-Molares, M.E.; Balogh, A.G.; Ensinger, W.; Cornelius, T.W.; Khan, E.U.; Neumann, R.
+Morphological evolution of Au nanowires controlled by Rayleigh instability. Nanotechnology 2006, 17.
+[CrossRef]
+47. Lee, J.; Lee, P .; Lee, H.; Lee, D.; Lee, S.S.; Ko, S.H. Very long Ag nanowire synthesis and its application in
+a highly transparent, conductive and ﬂexible metal electrode touch panel. Nanoscale 2012, 4, 6408–6414.
+[CrossRef] [PubMed]
+48. Garnett, E.C.; Cai, W.; Cha, J.J.; Mahmood, F.; Connor, S.T.; Greyson Christoforo, M.; Cui, Y.; McGehee, M.D.;
+Brongersma, M.L. Self-limited plasmonic welding of silver nanowire junctions. Nat. Mater. 2012, 11, 241–249.
+[CrossRef] [PubMed]
+49. Szkutnik, P .D.; Roussel, H.; Lahootun, V .; Mescot, X.; Weiss, F.; Jim énez, C. Study of the functional
+properties of ITO grown by metalorganic chemical vapor deposition from different indium and tin precursors.
+J. Alloy. Compd. 2014, 603, 268–273. [CrossRef]
+50. Rey, G.; Ternon, C.; Modreanu, M.; Mescot, X.; Consonni, V .; Bellet, D. Electron scattering mechanisms in
+ﬂuorine-doped SnO 2 thin ﬁlms. J. Appl. Phys. 2013, 114, 183713. [CrossRef]
+51. Miller, M.S.; O’Kane, J.C.; Niec, A.; Carmichael, R.S.; Carmichael, T.B. Silver nanowire/optical adhesive
+coatings as transparent electrodes for ﬂexible electronics. ACS Appl. Mater. Interfaces 2013, 5, 10165–10172.
+[CrossRef] [PubMed]
+52. Liang, J.; Li, L.; Niu, X.; Yu, Z.; Pei, Q. Elastomeric polymer light-emitting devices and displays.Nat. Photonics
+2013, 7, 817–824. [CrossRef]
+53. Jiu, J.; Wang, J.; Sugahara, T.; Nagao, S.; Nogi, M.; Koga, H.; Suganuma, K.; Hara, M.; Nakazawa, E.;
+Uchida, H. The effect of light and humidity on the stability of silver nanowire transparent electrodes.
+RSC Adv. 2015, 5, 27657–27664. [CrossRef]
+54. Kwan, Y.C.G.; Le, Q.L.; Huan, C.H.A. Time to failure modeling of silver nanowire transparent conducting
+electrodes and effects of a reduced graphene oxide over layer. Sol. Energy Mater. Sol. Cells 2016, 144, 102–108.
+[CrossRef]
+
+Materials 2017, 10, 570 16 of 16
+55. Kholmanov, I.N.; Domingues, S.H.; Chou, H.; Wang, X.; Tan, C.; Kim, J.Y.; Li, H.; Piner, R.; Zarbin, A.J.G.;
+Ruoff, R.S. Reduced Graphene Oxide/Copper Nanowire Hybrid Films as High-Performance Transparent
+Electrodes. ACS Nano 2013, 7, 1811–1816. [CrossRef] [PubMed]
+56. Muñoz-Rojas, D.; MacManus-Driscoll, J. Spatial atmospheric atomic layer deposition: A new laboratory and
+industrial tool for low-cost photovoltaics. Mater. Horiz. 2014, 1, 314. [CrossRef]
+57. Nguyen, V .H.; Resende, J.; Jiménez, C.; Deschanvres, J.L.; Carroy, P .; Muñoz, D.; Bellet, D.; Muñoz-Rojas, D.
+Deposition of ZnO based thin ﬁlms by atmospheric pressure spatial atomic layer deposition for application
+in solar cells. J. Renew. Sustain. Energy 2017, 9, 21203. [CrossRef]
+58. Zhu, S.; Gao, Y.; Hu, B.; Li, J.; Su, J.; Fan, Z.; Zhou, J. Transferable self-welding silver nanowire network as
+high performance transparent ﬂexible electrode. Nanotechnology 2013, 24, 335202. [CrossRef] [PubMed]
+59. Bergin, S.M.; Chen, Y.H.; Rathmell, A.R.; Charbonneau, P .; Li, Z.Y.; Wiley, B.J. The effect of nanowire length
+and diameter on the properties of transparent, conducting nanowire ﬁlms. Nanoscale 2012, 4, 1996–2004.
+[CrossRef] [PubMed]
+60. Bae, S.; Kim, S.J.; Shin, D.; Ahn, J.H.; Hong, B.H. Towards industrial applications of graphene electrodes.
+Phys. Scr. 2012, 2012, 14024. [CrossRef]
+61. Haacke, G. New ﬁgure of merit for transparent conductors. J. Appl. Phys. 1976, 47, 4086–4089. [CrossRef]
+62. Tsai, C.H.; Hsu, S.Y.; Huang, T.W.; Tsai, Y.T.; Chen, Y.F.; Jhang, Y.H.; Lun, H.; Wu, C.C.; Chen, Y.S.; Chen, C.W.;
+et al. Inﬂuences of textures in ﬂuorine-doped tin oxide on characteristics of dye-sensitized solar cells.
+Org. Electron. 2011, 12, 2003–2011.
+63. Giusti, G.; Consonni, V .; Puyoo, E.; Bellet, D. High Performance ZnO-SnO2:F Nanocomposite Transparent
+Electrodes for Energy Applications. ACS Appl. Mater. Interfaces 2014, 6, 14096–14107. [CrossRef] [PubMed]
+64. Chang, M.H.; Cho, H.A.; Kim, Y.S.; Lee, E.J.; Kim, J.Y. Thin and long silver nanowires self-assembled in ionic
+liquids as a soft template: Electrical and optical properties. Nanoscale Res. Lett. 2014, 9. [CrossRef] [PubMed]
+65. Araki, T.; Jiu, J.; Nogi, M.; Koga, H.; Nagao, S.; Sugahara, T.; Suganuma, K. Low haze transparent electrodes
+and highly conducting air dried ﬁlms with ultra-long silver nanowires synthesized by one-step polyol
+method. Nano Res. 2014, 7, 236–245. [CrossRef]
+66. Preston, C.; Xu, Y.; Han, X.; Munday, J.N.; Hu, L. Optical haze of transparent and conductive silver nanowire
+ﬁlms. Nano Res. 2013, 6, 461–468. [CrossRef]
+67. Khanarian, G.; Joo, J.; Liu, X.Q.; Eastman, P .; Werner, D.; O’Connell, K.; Trefonas, P . The optical and electrical
+properties of silver nanowire mesh ﬁlms. J. Appl. Phys. 2013, 114, 24302. [CrossRef]
+68. O’Callaghan, C.; da Rocha, C.G.; Manning, H.G.; Boland, J.J.; Ferreira, M.S. Effective medium theory for
+the conductivity of disordered metallic nanowire networks. Phys. Chem. Chem. Phys. 2016, 18, 27564–27571.
+[CrossRef] [PubMed]
+69. Da Rocha, C.G.; Manning, H.G.; O’Callaghan, C.; Ritter, C.; Bellew, A.T.; Boland, J.J.; Ferreira, M.S. Ultimate
+conductivity performance in metallic nanowire networks. Nanoscale 2015, 7, 13011–13016. [CrossRef]
+[PubMed]
+70. Large, M.J.; Cann, M.; Ogilvie, S.P .; King, A.A.K.; Jurewicz, I.; Dalton, A.B. Finite-size scaling in silver
+nanowire ﬁlms: design considerations for practical devices. Nanoscale 2016, 8, 13701–13707. [CrossRef]
+[PubMed]
+71. Kumar, A. Predicting efﬁciency of solar cells based on transparent conducting electrodes. J. Appl. Phys. 2017,
+121, 014502. [CrossRef]
+72. Consonni, V .; Rey, G.; Roussel, H.; Doisneau, B.; Blanquet, E.; Bellet, D. Preferential orientation of
+ﬂuorine-doped SnO 2 thin ﬁlms: The effects of growth temperature. Acta Mater. 2013, 61, 22–31. [CrossRef]
+73. Kumar, A.; Kulkarni, G.U. Evaluating conducting network based transparent electrodes from geometrical
+considerations. J. Appl. Phys. 2016, 119, 015102. [CrossRef]
+© 2017 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).

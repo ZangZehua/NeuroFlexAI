@@ -1,0 +1,779 @@
+Process and property assessment 
+of liquid metal spray deposition 
+towards scalable and reliable 
+stretchable electronics
+Maximilian Krack1,2, Rathul Nengminza Sangma3, Lennert Purnal1,2,  
+Parth Vinayakrao Sewlikar4, Dieter Reenars1,2, Fatemeh Sahraeeazartamar4, 
+Joost Brancart4, Guy Van Assche4, Iris De Graeve4, Tom Hauffman4, Michaël Daenen1,2, 
+Seppe Terryn3,4, Bram Vanderborght3, Monika Rai1,2 & Wim Deferme1,2
+Liquid metal stretchable electronics combine exceptional softness, stretchability, and self-healing 
+capabilities, making them ideal for smart wearables and soft robotics. A key fabrication approach 
+involves pneumatic spray deposition into patterned structures. However, the impact of process 
+parameters on LM deposition remains poorly understood, largely due to reliance on manual 
+airbrushing-limiting both scalability and reliability. This work addresses these challenges with a 
+custom-built automated spray coater, offering precise control over key parameters such as flow 
+rate, pressure, and spray distance. Through systematic process–property analysis, we reveal that 
+rougher coatings improve device yield (approaching 100%) but compromise long-term reliability. 
+Finer linewidths (0.25 mm) fail earlier in cyclic testing and exhibit reduced self-healing compared to 
+wider lines (≥ 0.5 mm). Scalability is demonstrated through the fabrication of a large-area wearable 
+strain sensor (70 × 150 mm) for human motion capture. These findings offer critical insights into 
+process–structure–property relationships, paving the way for reliable, scalable LM-based stretchable 
+electronics.
+Keywords Liquid metal, Stretchable electronics, Spray deposition, Strain sensor, Reliability
+Conventional electronics, while reliable and high-performing, are often brittle and inelastic, making them 
+unsuitable for a wide range of emerging applications. As the demand for soft and wearable devices grows, 
+especially in the health, consumer and soft robotics sector, there is a need for electronics that can conform to the 
+human body and mimic the flexibility of living organisms 1–3. Recent advancements in flexible electronics have 
+expanded to include soft, stretchable electronics capable of withstanding strains of several hundred percent 4–6. 
+Stretchable electronics offer several key advantages. Their intrinsic softness not only protects them from damage 
+but also safeguards the environment they interact with. As a result, they are ideal for delicate tasks, such as soft  
+sensors in grippers designed to handle fragile fruits or vegetables 7–9, or smart soft devices that interact safely 
+with humans10.
+To achieve this level of softness, traditional rigid interconnections are replaced with stretchable conductors 
+that maintain conductivity under strain such as polymer composites, spring-like metallic structures and gallium-
+based liquid metals (LM)11–17. Galinstan (Ga–In–Sn alloy), stands out for its high electrical conductivity (3.46 × 
+106 S/m), low melting point (11◦), low vapour pressure (< 10−6 Pa at 500◦C), and minimal hysteresis, making 
+it well-suited for soft electronics11. T o enable stretchability in liquid metal-based stretchable electronics (LMSE), 
+Galinstan is typically deposited onto stretchable elastomeric substrates and encapsulated within the same 
+material, allowing seamless conformability 18. Gallium’ s thin native oxide layer (3–5 nm) allows the Galinstan 
+to form non-spherical shapes and enabling versatile patterning19,20. Elastomers like Smooth-On silicones, such 
+as Ecoflex, are widely used due to their excellent mechanical properties, biocompatibility, and affordability21–23.
+1Institute for Materials Research, Hasselt University, Hasselt 3500, Belgium. 2IMEC vzw, Division IMOMEC, 
+Diepenbeek 3590, Belgium. 3Brubotics, Vrije Universiteit Brussel and IMEC, Elsene 1050, Belgium. 4Materials 
+and Chemistry and Sustainable Materials Engineering, Vrije Universiteit Brussel, Elsene 1050, Belgium. email:  
+wim.deferme@uhasselt.be
+OPEN
+Scientific Reports |        (2025) 15:35984 1| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports
+
+
+Various methods for depositing LM onto stretchable substrates have been explored, such as direct writing, 
+filling, inkjet and spray deposition24–32. A quantitative comparison between techniques is provided in Table S1 
+(Supplementary Information). Spray coating, based on pneumatic atomization (a technique that uses pressurized 
+gas to break a liquid stream into fine droplets) is a promising method for patterning LMs onto stretchable 
+substrates. Combined with stencil-based patterning, it enables scalable, high-throughput deposition on diverse 
+surfaces with minimal setup and roll-to-roll compatibility 31,32. Zhang et al. first demonstrated the atomized 
+spraying of LM and its capability to deposit on nearly any substrate type33. Since then, few studies have advanced 
+LM spray deposition to improve LMSE printability and performance. However, most current approaches rely 
+on manual airbrushing, which lacks precision and automation, limiting control over spray parameters and 
+reproducibility34–37. This presents key challenges in achieving uniform LM coatings, understanding LM-stencil 
+interactions, and ensuring consistent device performance. Non-uniform deposition can lead to circuit failures, 
+localized heating, and signal instability under strain 38,39. Addressing these limitations is essential for achieving 
+reliable, scalable fabrication24,40.
+To overcome limitations in LMSE fabrication, this work presents a detailed assessment of spray parameters 
+affecting LM coating quality and device performance. An affordable, automated spray coater (ASC) has been 
+developed using a modified 3D printer with precise control over nozzle speed, flow rate, height, and pressure. 
+Spray behavior is characterized via laser fan imaging 41. A full factorial analysis is employed to systematically 
+optimize spray parameters based on key performance metrics i.e. electrical resistance, surface topography, and 
+line resolution. Reliability is validated through cyclic strain testing of LM interconnects, demonstrating stable 
+operation under strains up to 75%. To highlight the scalability and real-world applicability of the process, a 
+wearable strain sensor is fabricated and thoroughly characterized. Finally, a summary table outlines optimal 
+parameter combinations, serving as a practical reference for researchers and industry affiliates aiming to adopt 
+or adapt this fabrication approach.
+Results
+Automated spray deposition of LM
+In this section, the properties and capabilities of the ASC are introduced. The schematic of the ASC system 
+(actual image and video as in Fig. S1/Video S1 Supplementary Information) in Fig. 1a consists of the following 
+four key components:
+• A commercially available 3D printer is responsible for all motion control. Homogeneous printing area 30 by 
+30 cm2.
+• A regulatory pressure valve that can be connected to any gas source. Nitrogen and air are used in this work 
+for pneumatic atomization.
+• A custom-made syringe pump powered by an Arduino, necessary to ensure a constant supply of LM.
+• A custom-designed 3D printed spray nozzle with both air and LM inlets (Fig. S2, Supplementary Informa-
+tion).
+These low-cost, readily available, and reproducible components are key to scalable, cost-effective implementation.
+The optimized LMSE fabrication process is shown in Fig. 1b. The humidity is in a range between 36% and 
+44% as it was reported that humidity influences the adhesion of LM onto silicone substrates42. The temperature 
+is room-temperature. The process begins with adhering electronic components, with electrodes facing down, in 
+predefined spots on an acrylic baseplate (1). An adhesion-enhancing primer is then sprayed onto the components 
+to improve adhesion to the silicone substrate. Ecoflex 00-30 is chosen as the stretchable encapsulation for all 
+LMSEs in this work due to its excellent mechanical properties and processability. Its low viscosity and long 
+pot-life of 40 min provide ample time for vacuum degassing, which is essential for eliminating air pockets that 
+could lead to premature device failure 43. Ecoflex is injected into the molds (2), with the silicone pushed into a 
+syringe by a lever device to prevent air trapping. Injection molding is crucial for batch fabrication, as it ensures 
+multiple devices can be produced in a single batch while maintaining flatness across the batch. This is important 
+for stencil printing, as the stencil must make an even contact with each device to prevent underspraying (Fig. 
+S3, Supplementary Information). Before applying the stencil, the device is flipped to expose the electrodes of 
+the PCB (3). After the stencil is applied, LM is sprayed over the stencil (4) with the ASC, and the stencil is 
+carefully removed. The devices are then encapsulated with Ecoflex (5). Blade coating is chosen as the method of 
+encapsulation. It is a faster process and ensures minimum LM displacement. Finally, the LMSE is released from 
+the mold (6). All devices in this paper are fabricated using an iteration of this process.
+The controllability and quality of the LM spray with the custom nozzle are highlighted in Fig. 1c. For the 
+spray imaging, a green laser, nozzle, and dark background (Fig. S4, Supplementary Information). The nitrogen 
+pressure is slowly changed from 0 to 5 bar, then back to 0 bar, at a constant flow rate of 1.6 ml/min. Initially, 
+droplets are generated at the orifice, but no atomization occurs (liquid breakdown into smaller droplets), which 
+leads to a dripping behavior. This behavior persists until a critical pressure of 0.9 bar is reached, at which point 
+the droplets burst explosively. This leads to a fully developed spray sufficient for deposition. Galinstan exhibits 
+exceptionally high surface tension (535–718 mN/m), making controlled atomization particularly challenging44. 
+The initial droplets, therefore, require significant pressure for atomization. As the pressure increases slowly to 5 
+bar, the spray becomes denser and more jet-like, with a clearer Gaussian distribution of droplets. This is reflected 
+in the spray intensity distribution (Fig. S5, Supplementary Information). A similar trend is followed when the 
+pressure is slowly decreased from 5 bar to 0 bar. Below 1 bar, the spray enters a weak regime with larger, less 
+uniform droplets41. At 0 bar, the LM exits as a continuous stream approximately that of the nozzle diameter, 
+retaining its shape due to inertia before breaking into individual droplets from the Plateau–Rayleigh instability45.
+Scientific Reports |        (2025) 15:35984 2| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+The spray path (trajectory and pattern of the liquid) of the system demonstrates excellent controllability in its 
+direction. With the controllable spray, uniform and consistent patterns can be deposited through reproducible 
+spray paths as shown in Fig. 1d. Adjusting the height affects the spread of the LM, where close heights result 
+in patterns with dense centers and printing at far heights results in more spreading. The system is also capable 
+of printing precise uniform patterns with set line spacing, demonstrated with serpentine and interdigitated 
+patterns as shown in Fig. 1e. This precise control over the spray path lays the foundation of depositing uniform 
+coatings, which is discussed in the following section.
+Investigation of liquid metal coatings
+After establishing the uniform and reproducible spray method, sprayed LM coatings are analyzed to uncover 
+key insights into their formation and behavior. This knowledge informs the following sections, which explore 
+the mechanics of LMSE scalability, patterning, and reliability. The spray system is first characterized and 
+optimized, identifying ideal operating ranges: low flow rates of 0.7 ml/min (LFR) and high flow rates of 1.6 ml/
+min (HFR), and low pressures of 2 bar (LP) and 5 bar (HP). The initial optimization of the ASC process is a 
+series of one-factor-at-a-time (OFAT) experiments and an L3 P3 Taguchi orthogonal array (Figs. S6–S9, Table 
+S2, Supplementary Information)46.
+Fig. 1. ( a) Schematic of the automated spray coater (ASC) with a 3D printed nozzle, automated syringe pump 
+and pressure valve, (b) LMSE fabrication steps: (1) PCB placement, (2) Injection molding Ecoflex substrate, 
+(3) Substrate release and flip, stencil application, (4) LM spray via ASC and stencil lift-off, (5) Silicone 
+encapsulation by blade coating, (6) Device release, (c) Spray nozzle undergoing a pressure sweep from 0→5→0 
+bar at a constant flow rate of 1.6 ml/min, (d) Spray patterns with varying nozzle-to-substrate height: top—100 
+mm with dense center and bottom—250 mm with large spread, (e) A serpentine and an interdigitated pattern 
+deposited at 100 mm spraying height demonstrate the controllability of the ASC.
+ 
+Scientific Reports |        (2025) 15:35984 3| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+Oxide layer formation
+Scanning electron microscopy (SEM) images attached along with their respective energy dispersive X-ray 
+spectroscopy (EDX) distributions of LM coatings are shown in Fig. 2a. The coatings are sprayed from a height 
+of 100 mm onto a glass substrate at LP and HP . It is unclear if spray deposition increases oxide content 33,34,36. 
+It has been known that finer droplets possess a higher surface-to-volume ratio, hypothetically leading to more 
+oxide build-up in the coating. Higher pressure may cause droplet intermixing that repeatedly reforms the oxide 
+layer. EDX showed no compositional differences between LP and HP coatings, despite topological changes. To 
+confirm that nitrogen is not suppressing oxide formation, LM coatings are also sprayed using air (Fig. S10). 
+Similar results show no oxide build-up, likely because the native oxide layer is only a few nanometers thick and 
+droplets lack sufficient flight time to form a full oxide skin. Additionally, with the nozzle moving at a speed of 25 
+mm/s, there may not have been enough time for LM turbulence and intermixing.
+Surface topography
+Typical surface mapping of LM coatings deposited onto both soft Ecoflex polymer and hard glass substrates at 
+LP and HP as well as LFR and HFR are shown in 2b. The images are captured using laser confocal microscopy 
+Fig. 2. ( a) SEM and EDX of LM coatings on glass show topological changes with pressure, but consistent 
+composition, indicating minimal material impact, (b) LSM images reveal substrate and parameter dependent 
+coating differences on polymer and glass, (c,d) Surface roughness and peak density variation: polymer shows 
+high roughness at LP-LFR due to delamination and at HFR due to coalescence; glass shows reduced roughness 
+at HP from LM spreading. Peak density increases on glass at HP due to finer atomization, (e) Spray angles 
+decrease with HP (stronger aerodynamic forces) and increase with HFR (greater LM volume), (f,g) Coating 
+formation on glass is modeled from spray angles at 100 mm and 250 mm heights; uniform coverage is achieved 
+at 250 mm with 62–68% path overlap.
+ 
+Scientific Reports |        (2025) 15:35984 4| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+(LSM), and their respective quantitative surface properties are measured and shown in Fig. 2c and d. The surface 
+properties of LM differ significantly between soft and hard substrates, driven by how high kinetic energy droplets 
+interact upon impact. On soft, viscoelastic polymers, some of the droplets’ kinetic energy is absorbed. This means 
+that the LM droplets do not spread into a film but instead accumulate into larger droplets, which is evident when 
+comparing the HP images of polymer and glass. In contrast, on glass, which does not absorb kinetic energy on 
+impact, the droplets dissipate energy by spreading into a film. This energy consideration provides an additional 
+challenge in creating high-quality LMSE.
+• Roughness Surface area roughness ( Sa) is quantified in Fig. 2c. On glass, Sa decreases at HP due to the 
+droplets spreading from high impact forces but increases at HFR as droplets become larger 47. On polymer 
+substrates, an unusual interaction occurs at LP-LFR, resulting in the LM delaminating into large, connected 
+islands, leading to high Sa values. The delamination is further apparent from surface skewness measurements 
+(Fig. S11, Supplementary Information). It is most likely a combination of insufficient spreading (and adhe -
+sion) of the droplets and the high surface tension of LM. At HP-LFR, this behavior disappears, as smaller 
+droplets atomized by higher pressure are less likely to merge into large islands because of their lower volume 
+and oxide skin. They also possess higher kinetic energy at HP , resulting in more spreading even on the soft  
+surface.
+• Peak density Fig. 2d shows the number of individual peaks in a given area. On the glass substrate, the peak 
+density follows a reverse trend compared to the previous graph. Although the peaks decrease in height, as 
+depicted in the Sa values, the overall density of peaks sharply increases at high pressure. This is due to the 
+generation of a larger number of smaller droplets during atomization at high pressure, which remain as sep-
+arated peaks on the substrate. On the polymer substrate, the peak density is initially lower at LP-LFR because 
+the droplets coalesce into islands as previously described. At HFR, droplets coalesce, reducing peak density. 
+This results in larger individual droplets. The peak density, therefore, stays the same while roughness sharply 
+increases, as previously explained.
+From a coverage aspect, LP-LFR on polymer should not be used to avoid delamination, which can lead to non-
+uniform LMSE. However, the impact of topological properties on LMSE performance is further investigated in 
+the following sections.
+Large area coating
+To enable the deposition of uniform, large area coatings that exceed the width of a single spray path, the 
+(simplified) coverage radius of the spray for any given height must be known. With a known radius, the line 
+spacing between multiple spray paths and, therefore, the overlapping percentage can be calculated precisely. The 
+spray angle, which is the angle between nozzle orifice and spray, is measured for different flow rates and pressure 
+values using 20 images per parameter combination with the setup described previously (Fig. 1b) and analyzed 
+with ImageJ software. The spray takes 2–5 s to fully develop, with shorter times observed at higher flow rates 
+(Fig. S12, Supplementary Information). Figure 2e presents the spray angles for various conditions, revealing that 
+the spray angle increases with flow rate and decreases with pressure. At higher pressures, aerodynamic forces 
+become more significant, streamlining the flow and narrowing the spray angle. The higher momentum of the 
+liquid jet at increased pressures helps to maintain a focused stream, reducing the spray angle. Conversely, a 
+higher flow rate increases the volume of ejected LM, broadening the spray angle48. By assuming the spray shape 
+to be an ideal cone, the coverage radius r(mm) can be derived using Eq. (1).:
+ r = d × tan θ
+2 , (1)
+where d is the nozzle to substrate height and θ (rad) is the spray angle. Other important merits, such as coverage 
+area and LM consumption, can also be derived from the spray angle (Eqs. S1 and S2, Supplementary Information).
+The overlapping of several spray paths of a single nozzle at different nozzle heights to deposit large-area 
+coatings, which can be scaled infinitely, is illustrated in Fig. 2f and g. The overlapping percentage of the spray 
+paths is calculated from the previous section. The results show that due to the unique properties of LM, achieving 
+a uniform large coating can be challenging. The velocity and droplet size distribution across the spray path are 
+not uniform, as previously mentioned. Overlapping the sprays at a close height of 100 mm with a 50% overlap 
+causes larger, slower droplets to accumulate into a thick and rough layer due to unwanted coalescence between 
+spray paths, as seen in Fig. 2f. This effect is further exacerbated by LM’s high surface tension and poor wetting 
+on non-metallic surfaces. In contrast, directly below the nozzle, the LM forms a smoother layer due to the 
+higher pressure. To achieve uniform coatings, the strategy involves evening out the distribution of droplet size 
+and velocity by significantly increasing the height to the substrate. The mechanism is shown in the right-hand 
+schematic. In Fig. 2g, the height is increased to 250 mm. Overlapping spray paths between 62% and 68%, based 
+on prior spray angle calculations, results in a uniform coating with thickness deviations of only 5% (Fig. S13, 
+Supplementary Information). However, the roughness seems higher compared to low-height coatings, which 
+exhibit a flat, more reflective appearance. In conclusion, to deposit large-area uniform coatings, the nozzle height 
+to substrate should be increased to allow the spray to develop and avoid unwanted coalescence.
+Analyzing LMSE processing with ASC
+Stencil printing with spray deposition remains the most common method for patterning LM in the literature24. 
+However, due to the lack of controllability in conventionally used airbrushes, studying LM stencil printing has 
+been challenging 34,36. In this section, the effects of spray parameters and the coating properties, which were 
+Scientific Reports |        (2025) 15:35984 5| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+previously discussed, are investigated to understand their influence on the properties of stencil-printed LMSE. 
+These include the overall yield of LMSE, as well as topographical, electrical, and geometrical properties. This is 
+enabled with a full factorial analysis between flow rates of 0.7 ml/min and 1.6 ml/min (LFR-HFR) and pressures 
+between 2 bar and 5 bar (LP-HP), including intermediate values.
+Design of the LMSE
+A standardized LMSE is designed and employed throughout the full factorial analysis. For accurate electrical 
+characterization, a one-wire LMSE compatible with 4-wire measurements, as seen in Fig. 3a, is designed. Reliable 
+electrical interconnection and measurements are enabled with a patented flex PCB from our research group 49. 
+The flex PCBs differ from traditional interconnection methods, such as rigid wires, which can move around 
+and displace the LM or tear the encapsulation 50. The encapsulation is designed as a dogbone which ensures 
+proper tensile testing51. For application purposes, four different linewidths, which all lie on the same stencil, are 
+investigated: 1 mm, 0.5 mm, 0.25 mm, and 0.1 mm. Thanks to the scalability and controllability of the ASC, it is 
+possible to fabricate 8 samples within a single batch at a nozzle height of 100 mm.
+Influence on LMSE yield
+The yield of the functioning LMSE during the full factorial analysis is investigated and further characterized. 
+A fully functioning LMSE is defined as one in which the LM connection is uninterrupted, enabling electrical 
+measurements between the two flex PCBs. The main failure mode observed during the full factorial analysis is 
+LM lift-off by the stencil (Fig. S14, Supplementary Information). Ideally, stencil lifting should not affect LM, 
+Fig. 3. ( a) Dogbone test device with 4-wire measurement focuses on the central LMSE region, excluding wire/
+contact resistance, (b) Contour images of LM wires at varying flow rates show best uniformity at HP-HFR, due 
+to enhanced coverage, atomization, and reduced LM lift-off, (c–e) LM properties printed with 1, 0.5, and 0.25 
+mm stencils across flow rate and pressure in a full factorial setup (details in Fig. S19). Each data point reflects 
+combinations of spray parameters; mean values and error bars are based on 16 samples.
+ 
+Scientific Reports |        (2025) 15:35984 6| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+but cohesive pathways extend onto the stencil. Lifting the stencil can not only degrade the line-edge roughness 
+but also cause complete lift-off if the cohesion of the LM exceeds its adhesion to the substrate. The best results, 
+therefore, are achieved with rough coatings. These possess more pronounced hills and valleys, providing high-
+stress points for the surface oxide, which can break more easily when shearing the stencil off the substrate52. The 
+coatings deposited at LP are more likely to delaminate as the droplets form smoother cohesive pathways with 
+fewer breakage points. This issue is amplified by the width of the stencil opening: the smaller the opening, the 
+weaker the adhesion to the substrate, and the more likely the LM is to lift off. Patterns down to 0.1 mm can be 
+fabricated (Fig. S15, Supplementary Information), but yields are inconsistent (50%), so they were excluded. This 
+is generally due to the stencil lifting off the LM from the substrate. Different stencils are needed to achieve these 
+finer resolutions, which would, in turn, trade-off scalability due to extensive stencil preparations31. Additionally, 
+adhesion of the LM to the substrate could be improved by altering the surface chemistry of the polymer 53. For 
+all widths equal and greater than 0.25 mm, a yield of 100% is achieved at HP-HFR. The worst yield is observed at 
+LP , where the yield is < 50% for 0.25 mm wide LMSE and 90% for 0.5 mm and 1 mm LMSE.
+Influence on LMSE topography
+The topographical properties of 1 mm wires are shown in Fig. 3b and mostly reflect the properties of the 
+deposited coatings shown in Fig. 2. The LMSE is measured by digital microscopy across the full length of the 
+20 mm sensitive area. Linewidth was largely independent of spray parameters. The uniformity in thickness of 
+the samples is investigated through their relative standard deviation (RSD), calculated from three different areas 
+of the LM wires. Low RSD values are significant for preventing thin thermal bottlenecks (parts of unusually 
+low cross-sectional area), which can impair the device’s reliability under load 38. The RSD is heavily influenced 
+by the spray parameters, with the worst values observed at LP-LFR and the best values at HP-HFR for 1 mm 
+wires, which can be attributed to improved coverage and atomization (Fig. S16, Supplementary Information). 
+In HP scenarios, less lifting and pushing occur due to higher peak densities and roughness levels as explained 
+previously. However, the RSD can also be affected by stencil lift-off, where LM can be pushed toward the shearing 
+direction of the stencil or lifted off, as previously elaborated. This is a major reason that affects uniformity in 
+lower-width samples (Fig. S17, Supplementary Information).
+Influence on LMSE geometry
+The actual printed linewidths, which overall remain constant because they are bound and defined by the 
+dimensions of the stencil, are shown in Fig. 3c. The RSD increases substantially at lower stencil dimensions due 
+to the stencil’s resolution (Fig. S18, Supplementary Information). Spray parameters influence RSD. The lowest 
+RSD values for 1 mm wires are observed in LMSE with HP-LFR with < 5%, while the highest RSD occurs at 
+LP-HFRs, around 7%. At HFR, coatings are thicker, which can lead to LM lifting due to cohesion (at LP), as 
+well as outward flow when the hydrostatic pressure inside the printed wire is too high. This adds width to the 
+printed structure. At HP , the additional roughness stabilizes against both outward flow and lift-off as mentioned 
+in section b. For narrower patterns, increasing the flow rate results in a lower RSD until a critical flow rate of 
+HFR, as the hydrostatic pressure is comparatively lower due to the smaller cross-sectional area. The overall 
+cross-sectional area is heavily influenced by spray parameters, as seen Fig. 3d. The cross-sectional area increases 
+with flow rate due to the availability of more LM. This is also true when pressure is increased due to the reduced 
+spray angle as explained in the previous section. As explained previously, narrower patterns are more likely to be 
+affected by LM lift-off especially at higher flow rates, which makes the stencil printing more unpredictable. This 
+explains the reverse trend and larger error bars with 0.5 mm wires deposited at HFR. An interesting interaction 
+is revealed by the full factorial analysis where 0.25 mm patterns deposited at LFR result in a cross-sectional area 
+at a similar level as for 1.3 ml/min. LFR results in overall thinner coatings which is beneficial for narrow 0.25 
+mm patterns as LM displacement is less likely. This can lead to overall thicker patterns after lifting the stencil.
+In conclusion, LM geometry can be negatively impacted by its fluidity, especially during stencil lift-off. 
+While lifting and displacement cannot be fully eliminated, they can be minimized by using higher pressure and 
+avoiding excessive flow rates, highlighting the importance of precise spray parameter control in LM deposition.
+Influence on LMSE electrical properties
+Resistance per length ( Ω/mm) over the deposition parameters is shown in Fig. 3e. As expected and in 
+accordance with the cross-sectional area trend, resistance decreases at higher flow rate and pressure. However, 
+a significant difference between the 0.25 mm wires and the others is evident. Due to excessive LM lifting at 0.25 
+mm and the lower cross-sectional areas, these devices are more prone to bottlenecks, which negatively impact 
+reproducibility, and sharply increase the bulk resistance39. Resistance decreases at HP/HFR as rougher coatings 
+improve reliability. In this regime, LMSE become much more reproducible, with standard deviations being 
+lower than 5% for 0.5 mm and 1 mm patterns. With electrical resistance and cross-sectional area, the electrical 
+conductivity of the LMSE is estimated. Because the LM is spray-coated, the wires are not perfectly cylindrical 
+or rectangular, as seen in Fig. 3b. Therefore, to estimate the electrical conductivity, the average measured cross-
+sectional area A is used. Combined with the electrical resistance R, the conductivity σ of the wires, with a length 
+l of 20 mm, can be calculated using Eq. (2):
+ σ(S/m)= ρ × l × R
+A . (2)
+The average conductivity calculated across all parameters ranged between 2.57 and 2.78 × 106 S/m, which is 
+consistent with the literature, though reported values vary 54. A clear relationship between spray parameters 
+and conductivity is yet again not observed (Fig. S20, Supplementary Information). This further validates that 
+Scientific Reports |        (2025) 15:35984 7| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+the LM’s composition remains unchanged at different spray parameters as previously described in Fig. 2a. To 
+confirm these results, the conductivity of pristine Galinstan is measured (Fig. S21, Supplementary Information). 
+The average value found is 3 × 106 S/m with differences from the sprayed LM falling within the error margin.
+These results demonstrate that the deposited LM properties can be tightly controlled and tuned with the 
+ASC. This makes the ASC suitable for various applications, though the influence of LM properties on other 
+factors, such as reliability, should still be addressed. Further, the stencil remains the biggest uncontrollable 
+variable within the otherwise very controllable process. An effort should be made in future work to automate 
+and optimize the stencil (design and lifting).
+Reliability of LMSE
+The core functionality of stretchable electronics lies in retaining full functionality during stretching. For real-life 
+application potential, LMSE must maintain their functionality over thousands of stretch cycles. LM has been 
+established as a self-healing conductor that rarely fails on its own 55. However, the reliability of the full LMSE 
+system depends heavily on the entire assembly: LM, stretchable encapsulation, electrical interconnection, and 
+other rigid components. Devices with 1 mm and 0.25 mm linewidth fabricated at a combination of HP , LP , LFR, 
+and HFR are cycled up to 100,000 times with our in-house cycle testers (Video S2, Supplementary Information). 
+The strain is alternated between 0 and 75%, which is considerably higher than what has been reported in recent 
+literature39,56,57. This induces fatigue for accelerated life testing. Temperature and humidity are monitored at 
+all times, with average values of 22.2 ±0.42◦C and 49.6 ±6 %, respectively. The three common failure modes 
+discovered in this work are displayed in Fig. 4a as follows:
+• Adhesion Loss and Short-Circuiting: During cyclic testing, flex PCBs may detach from silicone, allowing LM 
+to flow and cause short circuits. A thin silicone barrier and adhesion primer improve separation and bonding.
+• Oxidation and Performance Degradation: Silicone’ s poor barrier properties allow gradual LM oxidation, re-
+ducing conductivity and flexibility. Polymer blends with better oxygen and moisture resistance can slow this 
+process58.
+• Connector Failure: LM may disconnect from flex PCBs due to the rigid-soft interface. Literature suggests 
+using a stiff mesh around connectors to enhance strain relief and maintain contact59.
+Oxidation strongly influences LMSE electrical response.
+The change in electrical resistance of LMSEs printed with different spray parameters and linewidths (1 mm 
+and 0.25 mm, respectively) after 100,000 cycles is shown in Fig. 4b and c. All samples exhibit an increasing trend 
+in ∆R/R0, which is related to increased LM oxidation caused by the straining. For rigid electronics, the point 
+of failure typically occurs when rigid wires exhibit a ∆R/R0 of 20%60, which is reached around 30,000 cycles 
+for most samples. This kind of failure definition has yet to be established for LMSE. Both graphs show that the 
+change in resistance is higher in the relaxed state than in the stretched state. This suggests that material-induced 
+hysteresis occurs when the sample relaxes, caused by changes in the cross-sectional area of the channels through 
+the Poisson effect5.
+In Fig. 4b, the drop in ∆R/R0 for the LP-HFR LMSE after 10000 cycles suggests that this parameter 
+combination leads to noisy samples. As discussed previously, LP-HFR more often leads to non-uniform LMSE 
+in terms of their geometry and overall bulkier patterns with moderate roughness (for 1 mm patterns). This can 
+result in conditions where the LM flows more freely upon stretching, which can influence the geometry in a way 
+that positively affects ∆R/R0 (by offsetting bottlenecks for example). The highest ∆R/R0 is observed with the 
+HP-HFR and LP-HFR LMSE, and the lowest with the LP-LFR LMSE. The HP-LFR LMSE failed at around 30,000 
+cycles, but the rate of ∆R/R0 is just slightly higher than that of LP-LFR. This suggests that ∆R/R0 is dependent 
+on the roughness of the LM. As previously discussed, the roughness increases from low to high (taking peak 
+density into account) from LP-LFR→HP-LFR→LP-HFR→HP-HFR. LP-LFR LMSE consist of smooth and large 
+peaks, and HP-HFR possess a very rough topography. This enables the following key explanations:
+• Rough LM has more stress points, accelerating oxidation during cycling. This rate seems to grow exponen -
+tially over cycles when more oxide is introduced as the rate of ∆R/R0 increases drastically for the rougher 
+HFR LMSE after 20,000 cycles.
+• Oxidation has a larger effect on rough patterns and therefore ∆R/R0, as they possess more pronounced 
+valleys where the LM is very thin. Oxidation of thin areas may lead to bottlenecking or even a full breakage of 
+the LM circuit, which likely caused failure in the HP-LFR sample. Though HP-LFR retained its conductivity 
+back at 0% due to the self-healing capabilities of LM, it ultimately failed after 32,000 cycles, as indicated by 
+the purple arrows.
+• Early ∆R/R0 seems to be driven by the cross-sectional area rather than the roughness as the thinner LMSE 
+are more affected by oxidation (Fig. S22, Supplementary Information). However, once bottlenecking occurs 
+∆R/R0 of the rough LMSE increases exponentially, where ∆R/R0 of the smooth LMSE remains quite 
+linear.
+These explanations are validated by what can be extracted from Fig. 4c for cycled 0.25 mm LMSE. A very similar 
+trend of ∆R/R0 can be seen, only that the absolute values are much higher since the LMSE possess a much lower 
+cross-sectional area by their width. Further, all samples failed before reaching 100,000 cycles, and the same trend 
+can be seen again. The thin and rough HP-LFR LMSE fails first, followed by the roughest HP-HFR sample, which 
+has the highest ∆R/R0, then the LP-HFR LMSE, and finally the smooth LP-LFR LMSE. Additionally, the self-
+healing capabilities of the LM are strongly impaired, as most samples failed at 0% and 75% strain simultaneously. 
+This means long-term reliability is both dependent on geometry and topography, where best results are expected 
+Scientific Reports |        (2025) 15:35984 8| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+with smooth LM patterns with large cross-sectional area. This can partly be achieved with LP-LFR parameters, 
+but as the flow rate is increased for thicker patterns so is the roughness on soft substrates. Atomization and small 
+particle aerosols are the key principles of spray deposition, so one should look into solutions of enhancing the 
+barrier properties of the encapsulation, as explained before58.
+Next to long-term reliability, device dynamics are also an important factor in many applications, and LMSE 
+should work precise and consistent over time. Therefore, the hysteresis of the dogbone LMSE in relationship 
+to channel width and various spray parameters is investigated by loading and unloading them up to 100% (to 
+capture a wider array of data points) strain, as shown in Fig. 4d. The gauge factor is plotted over strain, a crucial 
+parameter for determining the suitability of a material as a strain sensor 39. Due to the viscoelastic behavior of 
+the polymer and the flow behavior of the LM, considerable hysteresis can occur. The 1 mm wires show very 
+little hysteresis (Fig. S23, Supplementary Information). Hysteresis becomes more severe as the cross-sectional 
+area decreases for 0.25 wide samples. This trend is also true for 0.5 mm and 0.1 mm wide samples (Fig. S24, 
+Supplementary Information). The hysteresis likely arises from LM flow, not encapsulation design (Fig. S25, 
+Supplementary Information). More likely, the hysteresis is due to the LM itself. Upon straining the sample, the 
+LM flows into different areas of the LMSE. Upon releasing the strain, the LM should flow back to its original 
+position as the channel regains its original cross-sectional area. In smaller channels, LM flow is hindered, creating 
+bottlenecks that raise the gauge factor 39. Capillary forces are more prevalent, and LM naturally resists these 
+forces due to its high surface tension. Channels narrow most at the strain center, increasing bottlenecks. The 
+oxide layer sticking to channel walls further restricts LM flow. This is also a major issue when LM is deposited 
+via injection61. Hysteresis is critical, especially in strain-sensing applications, one of the major applications of 
+Fig. 4. ( a) LMSE failure modes after 100,000 cycles include PCB delamination, LM oxidation, and 
+disconnection at rigid-soft interfaces. (b,c) Resistance increases over cycles due to oxidation, especially in 
+rough, low-flow rate coatings and narrow (0.25 mm) wires, which fail before 100,000 cycles. (d) Gauge factor 
+hysteresis is lower in wider wires with larger cross-sectional areas, influenced by silicone’s viscoelasticity and 
+LM flow behavior.
+ 
+Scientific Reports |        (2025) 15:35984 9| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+LMSEs. Low hysteresis is generally preferred, as it reduces the computational load during signal processing. 
+Channels with larger cross-sectional areas should therefore be preferred for strain-sensing applications. This is 
+considered in the following section, where a large strain sensor is presented.
+Large-area strain sensor
+To demonstrate the large-scale application potential of the process, a 70 by 150 mm large strain sensor with 
+9 wire loops for human motion sensing is designed and fabricated following the process described in Fig. 1d. 
+The sensor design features straight paths, which are deposited at 65% overlapping paths with a nozzle height 
+of 250 mm (100 mm height would result in non-uniform coatings, which would negatively affect the sensor’s 
+printability and reproducibility). The width of the wires is 1 mm, as a large cross-sectional area is most important 
+to ensure a low hysteresis as discussed in the previous section. Pressure must be at a higher value to ensure a 
+reliable yield since printing a large loop-count sensor is prone to misprints. Therefore, the pressure is kept at a 
+value of 4 bar to increase roughness and therefore printability. The flow rate is kept at a lower value of 1 ml/min.
+Figure 5a shows the large sensor strained laterally inside a dynamic mechanical analysis (DMA) machine, 
+which is used to extensively study the sensor’s electrical and mechanical behavior. Due to the size of the sensor, 
+it is possible to strain it up to 74% in regard to the DMA ’s limitations, which is sufficient for the targeted human 
+motion sensing applications. At maximum strain at a strain rate of 0.14%/s, the sensor exhibited a resistance 
+Fig. 5. ( a) Large (70 by 150 mm) LM strain sensor characterized via dynamic mechanical analysis shows high 
+sensitivity at 0.2% strain and clear signal response. (b,c) Mullins cycle analysis reveals < 10% hysteresis for 
+∆R/R0 at 50% strain and negligible hysteresis for tensile stress, (d,e) Strain rate tests show consistent loading 
+behavior; unloading gauge factor slightly increases at higher rates due to LM flow, (f–h) Real-time motion 
+sensing demonstrates reliable detection of wrist, elbow, and knee movements with distinct resistance peaks.
+ 
+Scientific Reports |        (2025) 15:35984 10| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+change of 120%, showing nearly linear behavior. However, at larger strains, the resistance is expected to change 
+quadratically due to the alterations in cross-sectional area and length. As seen in Fig. 5a (insert), the sensors can 
+easily detect strain down to 0.2% (Limit of detection, LOD), which is the bottom noise level of the measurement 
+setup. So far, comparable performance with LMSE has only been achieved with sensors fabricated on a wafer-
+scale level62,63. This makes the sensor suitable for applications where high sensitivity at a low noise level is needed, 
+such as monitoring physiological parameters64.
+The sensor is further characterized to evaluate its performance. It underwent a cyclic loading-unloading test, 
+during which it is strained to 10%, 20%, 30%, 40%, and 50% at a constant strain rate of 0.2%/s. The response 
+curves for ∆R/R0 and stress are presented in Fig. 5b and c, respectively. While there is noticeable hysteresis in 
+the resistance change, this is not as apparent in the stress curve. T o quantify the degree of hysteresis, DH (%), 
+the difference between the area under the curves can be calculated using Eq. (3)62:
+ 
+DH (%) =
+⏐⏐⏐⏐
+Aloading − Aunloading
+Aunloading
+⏐⏐⏐⏐ × 100, (3)
+where A is the area under the loading and unloading curves, respectively. The sensor exhibits a clear trend where 
+the hysteresis increases with maximum strain. A maximum value of < 10% at 50% strain is shown in Fig. 5b, a 
+value that is sufficient for accurate data acquisition, as shown further below. This trend and value is expected due 
+to the sensor’ s multiple lateral loop design and can partly be attributed to the viscoelastic behavior of Ecoflex. 
+During unloading, the channel width may slightly expand compared to the loading phase to maintain a constant 
+volume of liquid metal. This compensates for resilience reduction due to stress relaxation65. However, this may 
+not be the sole reason for the hysteresis, as the mechanical hysteresis of the polymer is low, with a maximum 
+value of 1.98% due to its softness, as shown in Fig. 5c. Additionally, the discrepancy in the ∆R/R0 response 
+between the loading and unloading curves is negative, indicating that ∆R/R0 is higher during the unloading 
+phase. This suggests that thickness discrepancies and potential bottlenecks may arise due to the flow behavior of 
+the LM. No obvious stress softening is observed in Fig. 5c during the Mullins cycle, suggesting that the Mullins 
+effect is negligible66.
+The strain rate dependency of the sensor is investigated with strain rates ranging from 0.25%/s to 4%/s for 
+both loading and unloading. The results for ∆R/R0 and tensile stress are shown in Fig. 5d and e, respectively. 
+Based on the curves alone, the dependencies are not obvious. The slopes in the graphs, for Gauge factor (GF) 
+and Y oung’ s modulus (E), calculated using linear regression. The loading curve for GF, as well as both E curves, 
+remains strain-independent, which is generally preferred to minimize processing requirements67. However, the 
+GF slightly increases at higher strain rates during unloading, suggesting that the LM does not flow back to its 
+original position as rapidly when unloading occurs at high strain rates.
+The sensor is validated in various human motion sensing applications, as shown in Fig. 5f–h. The sensor is 
+woven into the fabric of a bodysuit to prevent displacement during motion. The subject is instructed to perform 
+specific motions, and the ∆R/R0 sensor response is recorded over time. The values 0, 0.5, and 1 correspond 
+to specific motion states. Figure 5f and g show the sensor being used to monitor wrist and elbow movements, 
+respectively. The curve exhibits distinct and reproducible peaks when the motion concludes. Figure 5h shows the 
+sensor used as a knee sensor to capture leg movement during walking (upper) and running (lower). W alking is 
+characterized by a repetitive sequence known as the gait cycle, which includes noticeable peaks at various stages. 
+In a typical gait pattern, two key peaks are observed: one at ‘state 0.5’ and another at ‘state 1’ . The initial phase, 
+‘state 0, ’ often referred to as ‘heel strike, ’ occurs when the knee angle is nearly straight, close to 0◦. The next stage, 
+‘state 1, ’ or the ‘loading response, ’ shows a brief rise in amplitude followed by a decline in knee angle during the 
+‘mid-stance’ phase. At ‘state 2, ’ known as ‘toe-off, ’ the knee angle reaches its maximum point in the cycle. The 
+sensor exhibits consistent peaks corresponding to each stage of the gait cycle. It can also reliably differentiate 
+between distinctive walking and running patterns due to its sensitivity.
+The results demonstrate that the sensor, as fabricated by our large-scale process with optimized spray 
+conditions, has great potential to successfully and reliably capture human motion, narrowing the gap between 
+lab-scale and commercially produced LMSE.
+Conclusion
+This work provides a detailed assessment of how spray parameters affect LMSE properties. This assessment 
+of LMSE fabrication is only feasible with an optimized production process utilizing an in-house automated 
+spray coater that provides full control over pressure, flow rate, height, and pattern. The ASC facilitates a 
+thorough scientific investigation into the scalable LM spraying process due to the system’s reproducibility and its 
+compatibility with readily available SMD stencils.
+In this study, it is found that both spray parameters and substrate type significantly influence the coating 
+properties. Deposition on hard substrates such as glass results in coatings with lower area roughness at higher 
+pressure. Deposition on soft polymers, which absorb energy, leads to increased roughness at higher pressure or 
+delamination at lower flow rates. Using the ASC, thickness deviations of < 5% are achieved with high pressure 
+and flow rate, reducing the risk of bottlenecks. The results also show that spray parameters must be carefully 
+optimized based on the application. For patterns equal to or greater than 0.25 mm, yield is 100% because of 
+the rough patterns ( Sa > 5 µm, Spd> 2500) deposited at high pressure and flow rate (HP-HFR). However, 
+reliability is compromised for rough patterns due to an increase in the rate of ∆R/R0 over 100,000 stretch 
+cycles. Further, 1 mm wide wires easily withstand 100,000 cycles, while narrow 0.25 mm wide wires fail between 
+30,000 and 70,000 cycles for strain up to 75%. T o demonstrate the advanced scalability of the process, a large, 
+highly sensitive strain sensor is fabricated using the insights gathered from this study and fully characterized. 
+Scientific Reports |        (2025) 15:35984 11| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+The large-area sensor (LOD 0.2%, hysteresis < 10%) reliably captured wrist, elbow, and walking movements. 
+The investigation is comprehensively summarized in Table 1 and identifies which deposition parameters yield 
+the best results for each respective category. This serves as a practical reference for researchers aiming to replicate 
+or tailor LMSE fabrication for specific applications. An outlook for future work to further advance scalability of 
+the process is to automate the stenciling technique.
+By thoroughly assessing the spray deposition of LM enabled with the ASC, this work paves the way for 
+scalable production of LMSE, advancing towards reliable devices for soft robotics, consumer electronics, and 
+personal health monitoring.
+Methods
+Materials
+Gallium–Indium–Tin (GaInSn) alloy, commonly referred to as “Galinstan, ” was used as the liquid conductor, 
+with a composition of Ga = 65–95 wt%, In = 5–22 wt%, and Sn = 0–11 wt% (Strategic Elements). Galinstan has 
+a reported melting point between 11◦C and −19◦C. The silicone elastomer Ecoflex 00-30 (Smooth-On) was 
+employed as the stretchable encapsulation material. It is a soft polymer ideal for LMSE applications, with a 100% 
+modulus of approximately 70 kPa. The custom-designed and patented flex PCBs for reliable interconnections 
+were fabricated from polyamide with ENIG-plated copper pads and were ordered from PCBW ay. The 100 µm 
+thick stainless steel SMD stencils with an aluminum frame were also sourced from PCBW ay. The frame stabilizes 
+the stencil during the lifting process.
+LMSE fabrication
+Fabrication is done in a laboratory with humidity between 36 and 44%, and at constant room temperature. The 
+fabrication process begins with four laser-cut acrylic plates for a single-layer device: a baseplate, an injection 
+plate, and 1st and 2nd cutout plates. First, the flex PCB (and any rigid components) are glued onto the engraved 
+baseplate using a light, water-soluble glue, with the bond pads facing down. The components are then sprayed 
+with silicone adhesion primer (Wacker G790, toluene-free) and left to cure under ambient conditions for 1.5 h. 
+The two-component silicone is mixed in a 50:50 ratio using a speedmixer (Hauschild) and degassed for 20 min. 
+The silicone is then injected into the baseplate–1st cutout–injection plate stack and cured in a 50◦C oven for 30 
+min. Afterward, the substrate is released, flipped, and printed with liquid metal (LM) in the ASC with the stencil, 
+which has a controlled thickness of 100 µm, using varying spray parameters. The optimal range for reproducible 
+devices, as identified in this study, involves a nozzle height of 100–250 mm, a speed of 25 mm/s, a flow rate of 
+0.7–1.6 ml/min, and a pressure of 2–5 bar. The device is immediately sprayed with primer again, followed by 1.5 
+h of curing. A slightly wider 2nd cutout is then applied, and processed silicone is blade-coated across the device.
+Automated spray coater
+The ASC system is based on a customized Tronxy X5SA-Pro 3D printer. The converging spray nozzle was 
+3D-printed using an SLA printer (Prusa) and attached to the printer’s moving bar. The outlet of the nozzle 
+consists of two concentric holes with diameters of 0.75 mm for the LM and 3 mm for the air. The custom 
+motorized syringe, controlled by a stepper motor and Arduino, along with the pressure valve, is operated via the 
+fan control of the 3D printer. Initially, the system was tested with a commercial syringe pump, but irregular flow 
+was observed. The syringe pump and pressure valve are directly connected to the fan control and can be activated 
+using the command “M106 P1 S255” , which sets the fan speed to its maximum value and opens the valve.
+Spray nozzle characterization
+The spray nozzle was characterized separately from the printer, in front of a black background. A green laser in 
+sheet configuration was directed at an angle toward the spray. Images and videos were captured using a Canon 
+EOS 70D camera with an 18–135 mm lens and processed with ImageJ software.
+Category Suggested combination of pressure and flow rate Summary of causal relationships
+Yield High flow rate (1.6 mL/min) and high pressure (5 bar) for all stencil 
+widths. Avoid low pressure values (2 bar)
+Rough coatings (Sa  > 5 µm) with high peak density (Spd > 2500) are easier to pattern 
+than smooth coatings due to lower cohesion within the bulk
+Resolution
+High pressure (5 bar) for all pattern widths. Low flow rate (0.7 mL/
+min) for wide patterns (1 mm), medium flow rate (1.3 mL/min) for 
+narrow patterns (0.5 mm, 0.25 mm)
+Rough coatings (Sa  > 5 µm) with high peak density (Spd > 2500) protect against outwards 
+flow. Thicker patterns with large cross-sectional area are more susceptible to outwards flow
+Uniformity
+High flow rate (1.6 mL/min) for wider patterns (1 mm, 0.5 mm) and 
+low flow rate (0.7 mL/min) for narrow patterns (0.25 mm). High 
+pressure (5 bar) for all patterns.
+Rough coatings (Sa  > 5 µm) with high peak density (Spd > 2500) protect against pushing 
+and lifting liquid metal. High pressure improves atomization. Lower cross-sectional areas 
+are beneficial for narrow patterns
+Electrical High flow rate (1.6 mL/min) and high pressure (5 bar) for all stencil 
+widths.
+Spray parameters do not negatively impact electrical properties. Parameters that reliably 
+yield coatings with the largest cross-sectional areas achieve best electrical properties (lowest 
+resistance, < 0.01 Ω/mm)
+Reliability Low flow rate (0.7 mL/min) and low pressure (2 bar) for all stencil 
+widths.
+Smooth coatings (Sa  > 6 µm, Spd<1700 ) yield up to 4 times lower change resistance 
+over 100,000 cycles than rough coatings due to less oxide buildup
+Hysteresis
+Low flow rate (0.7 mL/min) for wider patterns (1 mm, 0.5 mm) and 
+high flow rate for narrow patterns (0.25 mm). Low pressure (2 bar) 
+for all stencil widths.
+Large cross-sectional area (>0.04 mm2 ). Low areas restrict liquid metal flow during 
+stretching due to capillary forces or oxide adhesion. Smoother patterns are better for wide 
+channels
+Table 1. Combination of spraying deposition parameters that result in best properties.
+ 
+Scientific Reports |        (2025) 15:35984 12| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+Coating properties
+The bulk elemental composition of the coatings was characterized using SEM-EDX (JEOL JSM-IT300). An 
+accelerating voltage of 10 keV was used with a working height of 10 mm. The chemical composition was obtained 
+with EDX. Surface properties were analyzed using a Keyence VK-X250 laser microscope with a 20x objective. 
+Each 3D image was compiled from 80 individual images, with a pitch of 1 µm. Surface properties were analyzed 
+according to ISO 25178 using Keyence analysis software.
+LMSE characterization
+The surface properties and dimensions of the LMSE 4-wire devices were characterized using a Keyence VHX-
+5000 digital microscope, with a pitch of 8 µm across the entire 20 mm length, and analyzed with Keyence software. 
+The bulk resistance of the devices was measured using a Keithley 2400 source meter with 4-wire measurements. 
+Cycle testing was performed using in-house cycle testers capable of testing four devices simultaneously. These 
+testers consist of stepper motors and are controlled by a Python-driven Raspberry Pi. The testers are connected 
+to the source meter and multiplexer, recording temperature and humidity, which are 22.2 ±0.42◦C and 49.6 ± 6 
+%, respectively. Cycle testing was done in a different room than production, which explains the slight differences 
+in humidity. The large strain sensor was mechanically and electrically characterized using a dynamic mechanical 
+analysis (DMA, RSA-G2 TA Instruments) machine, equipped with a Keysight E4980AL LCR meter and custom 
+clamps. For motion sensing applications, the sensor was integrated into a bodysuit and electrically characterized 
+using an Arduino.
+Received: 29 June 2025; Accepted: 10 September 2025
+References
+ 1. Palleau, E., Reece, S., Desai, S. C., Smith, M. E. & Dickey, M. D. Self-healing stretchable wires for reconfigurable circuit wiring and 
+3d microfluidics. Adv. Mater. 25, 1589–1592 (2013).
+ 2. Park, Y .-G. et al. Liquid metal-based soft electronics for wearable healthcare. Adv. Healthcare Mater. 10, 2002280 (2021).
+ 3. Shintake, J., Cacucciolo, V ., Floreano, D. & Shea, H. Soft robotic grippers. Adv. Mater. 30, 1707035 (2018).
+ 4. Zhu, S. et al. Ultrastretchable fibers with metallic conductivity using a liquid metal alloy core. Adv. Funct. Mater. 23, 2308–2314 
+(2013).
+ 5. Qi, D., Zhang, K., Tian, G., Jiang, B. & Huang, Y . Stretchable electronics based on pdms substrates. Adv. Mater. 33, 2003155 (2021).
+ 6. Wu, W . Stretchable electronics: functional materials, fabrication strategies and applications. Sci. Technol. Adv. Mater. 20, 187–224 
+(2019).
+ 7. Elfferich, J. F ., Dodou, D. & Della Santina, C. Soft robotic grippers for crop handling or harvesting: A review. IEEE Access 10, 
+75428–75443 (2022).
+ 8. Lin, M., Hu, H., Zhou, S. & Xu, S. Soft wearable devices for deep-tissue sensing. Nat. Rev. Mater. 7, 850–869 (2022).
+ 9. Lyu, Q., Gong, S., Yin, J., Dyson, J. M. & Cheng, W . Soft wearable healthcare materials and devices. Adv. Healthcare Mater. 10, 
+2100577 (2021).
+ 10. Guo, R., Wang, X., Yu, W ., Tang, J. & Liu, J. A highly conductive and stretchable wearable liquid metal electronic skin for long-term 
+conformable health monitoring. Sci. China Technol. Sci. 61, 1031–1037 (2018).
+ 11. Liu, T., Sen, P . & Kim, C.-J. Characterization of nontoxic liquid-metal alloy galinstan for applications in microdevices. J. 
+Microelectromech. Syst. 21, 443–450 (2011).
+ 12. Foremny, K., Nagels, S., Kreienmeyer, M., Doll, T. & Deferme, W . Biocompatibility testing of liquid metal as an interconnection 
+material for flexible implant technology. Nanomaterials 11, 3251 (2021).
+ 13. Qin, J. et al. Emerging advances of liquid metal toward flexible sensors. Adv. Mater. Technol. 9, 2300431 (2024).
+ 14. Xue, Z. et al. Engineering in-plane silicon nanowire springs for highly stretchable electronics. J. Semicond. 39, 011001 (2018).
+ 15. Roels, E. et al. Self-healing sensorized soft robots. Mater. Today Electron. 1, 100003 (2022).
+ 16. Kayser, L. V . & Lipomi, D. J. Stretchable conductive polymers and composites based on pedot and pedot: Pss. Adv. Mater. 31, 
+1806133 (2019).
+ 17. Nagels, S. & Deferme, W . Fabrication approaches to interconnect based devices for stretchable electronics: A review. Materials 11, 
+375 (2018).
+ 18. Zhu, L., Wang, B., Handschuh-Wang, S. & Zhou, X. Liquid metal-based soft microfluidics. Small 16, 1903841 (2020).
+ 19. Tang, S.-Y ., Tabor, C., Kalantar-Zadeh, K. & Dickey, M. D. Gallium liquid metal: the devil’s elixir. Annu. Rev. Mater. Res. 51, 
+381–408 (2021).
+ 20. Dickey, M. D. Emerging applications of liquid metals featuring surface oxides. ACS Appl. Mater. Interfaces 6, 18369–18379 (2014).
+ 21. Wang, B. & Facchetti, A. Mechanically flexible conductors for stretchable and wearable e-skin and e-textile devices. Adv. Mater. 31, 
+1901408 (2019).
+ 22. Liu, Y ., Pharr, M. & Salvatore, G. A. Lab-on-skin: a review of flexible and stretchable electronics for wearable health monitoring. 
+ACS Nano 11, 9614–9635 (2017).
+ 23. Li, G. et al. High-efficiency large-area printed multilayer liquid metal wires for stretchable biomedical sensors with recyclability. 
+ACS Appl. Mater. Interfaces 13, 56961–56971 (2021).
+ 24. Ma, J. et al. Shaping a soft future: patterning liquid metals. Adv. Mater. 35, 2205196 (2023).
+ 25. Neumann, T. V . & Dickey, M. D. Liquid metal direct write and 3d printing: a review. Adv. Mater. Technol. 5, 2000070 (2020).
+ 26. Y oon, Y ., Kim, S., Kim, D., Kauh, S. K. & Lee, J. Four degrees-of-freedom direct writing of liquid metal patterns on uneven surfaces. 
+Adv. Mater. Technol. 4, 1800379 (2019).
+ 27. Chen, H.-Y . & Conn, A. T. A stretchable inductor with integrated strain sensing and wireless signal transfer. IEEE Sens. J.  20, 
+7384–7391 (2020).
+ 28. Lin, Y . et al. Vacuum filling of complex microchannels with liquid metal. Lab Chip 17, 3043–3050 (2017).
+ 29. Kim, J.-H. et al. Imbibition-induced selective wetting of liquid metal. Nat. Commun. 13, 4763 (2022).
+ 30. Jiang, Y . et al. Selective wetting/dewetting for controllable patterning of liquid metal electrodes for all-printed device application. 
+J. Mater. Chem. C 5, 12378–12383 (2017).
+ 31. Lazarus, N., Bedair, S. S. & Kierzewski, I. M. Ultrafine pitch stencil printing of liquid metal alloys. ACS Appl. Mater. Interfaces 9, 
+1178–1182 (2017).
+ 32. Wang, L. & Liu, J. Pressured liquid metal screen printing for rapid manufacture of high resolution electronic patterns. RSC Adv. 5, 
+57686–57691 (2015).
+ 33. Zhang, Q., Gao, Y . & Liu, J. Atomized spraying of liquid metal droplets on desired substrate surfaces as a generalized way for 
+ubiquitous printed electronics. Appl. Phys. A 116, 1091–1097 (2014).
+Scientific Reports |        (2025) 15:35984 13| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+ 34. Neumann, T. V . et al. Aerosol spray deposition of liquid metal and elastomer coatings for rapid processing of stretchable electronics. 
+Micromachines 12, 146 (2021).
+ 35. Jeong, S. H., Hjort, K. & Wu, Z. Tape transfer atomization patterning of liquid alloys for microfluidic stretchable wireless power 
+transfer. Sci. Rep. 5, 8419 (2015).
+ 36. Elassy, K. S., Akau, T. K., Shiroma, W . A., Seo, S. & Ohta, A. T. Low-cost rapid fabrication of conformal liquid-metal patterns. Appl. 
+Sci. 9, 1565 (2019).
+ 37. Melcher, J. L. et al. Spray-on liquid-metal electrodes for graphene field-effect transistors. Micromachines 10, 54 (2019).
+ 38. Fangohr, H., Chernyshenko, D. S., Franchin, M., Fischbacher, T. & Meier, G. Joule heating in nanowires. Phys. Rev. B Condensed 
+Matter Mater. Phys. 84, 054437 (2011).
+ 39. Y ao, B. et al. Ultrasensitive, highly stable, and stretchable strain sensor using gated liquid metal channel. Adv. Funct. Mater. 1, 
+2314298 (2024).
+ 40. Frey, E. J., Im, S., Bachmann, A. L., Genzer, J. & Dickey, M. D. Patterning of a high surface area liquid metal-carbon composite film 
+using laser processing. Adv. Funct. Mater. 34, 2308574 (2024).
+ 41. Khan, M. A., Gadgil, H. & Kumar, S. Influence of liquid properties on atomization characteristics of flow-blurring injector at ultra-
+low flow rates. Energy 171, 1–13 (2019).
+ 42. Cook, A. et al. Shear-driven direct-write printing of room-temperature gallium-based liquid metal alloys. Adv. Eng. Mater. 21, 
+1900400 (2019).
+ 43. Jung, W . et al. Solvent-assisted filling of liquid metal and its selective dewetting for the multilayered 3d interconnect in stretchable 
+electronics. ACS Nano 16, 21471–21481 (2022).
+ 44. Dickey, M. D. et al. Eutectic gallium-indium (egain): a liquid metal alloy for the formation of stable structures in microchannels at 
+room temperature. Adv. Funct. Mater. 18, 1097–1104 (2008).
+ 45. Song, M. et al. Overcoming Rayleigh-plateau instabilities: Stabilizing and destabilizing liquid-metal streams via electrochemical 
+oxidation. Proc. Natl. Acad. Sci. 117, 19026–19032 (2020).
+ 46. Freddi, A., Salmon, M., Freddi, A. & Salmon, M. Introduction to the taguchi method. Design Principles and Methodologies: From 
+Conceptualization to First Prototyping with Examples and Case Studies 159–180 (2019).
+ 47. Balsari, P ., Grella, M., Marucco, P ., Matta, F . & Miranda-Fuentes, A. Assessing the influence of air speed and liquid flow rate on the 
+droplet size and homogeneity in pneumatic spraying. Pest Manag. Sci. 75, 366–379 (2019).
+ 48. Nasr, G. G. et al. Studies of high pressure water sprays from full cone atomizers. ILASS-Europe, Toulouse, France 1–6 (1999).
+ 49. Steven Nagels, W . D. & Vandenryt, T. Interconnect, an Electronic Assembly and a Method for Manufacturing an Electronic Assembly 
+(2019).
+ 50. Wu, Q. et al. Suspension printing of liquid metal in yield-stress fluid for resilient 3d constructs with electromagnetic functions. NPJ 
+Flexible Electron. 6, 50 (2022).
+ 51. ISO-Organization. Plastics—Determination of Tensile Properties, Part 1 (2019).
+ 52. Arola, D. & Williams, C. Estimating the fatigue stress concentration factor of machined surfaces. Int. J. Fatigue 24, 923–930 (2002).
+ 53. Wang, X. et al. Liquid metal bionic instant self-healing flexible electronics with full recyclability and high reliability. Chem. Eng. J. 
+431, 133965 (2022).
+ 54. Handschuh-Wang, S. et al. The subtle difference between galinstan (r) and eutectic gainsn. Materialia 26, 101642 (2022).
+ 55. Xu, C., Ma, B., Yuan, S., Zhao, C. & Liu, H. High-resolution patterning of liquid metal on hydrogel for flexible, stretchable, and 
+self-healing electronics. Adv. Electron. Mater. 6, 1900721 (2020).
+ 56. Feng, B. et al. Nacre-inspired, liquid metal-based ultrasensitive electronic skin by spatially regulated cracking strategy. Adv. Funct. 
+Mater. 31, 2102359 (2021).
+ 57. Oh, J. et al. A liquid metal based multimodal sensor and haptic feedback device for thermal and tactile sensation generation in 
+virtual reality. Adv. Funct. Mater. 31, 2007772 (2021).
+ 58. Sahraeeazartamar, F . et al. Diels-alder network blends as self-healing encapsulants for liquid metal-based stretchable electronics. 
+ACS Appl. Mater. Interfaces 16, 34192–34212 (2024).
+ 59. Sanchez-Botero, L., Shah, D. S. & Kramer-Bottiglio, R. Are liquid metals bulk conductors? Adv. Mater. 34, 2109427 (2022).
+ 60. IPC-International. IPC-9701—Revision A—Performance Test Methods and Qualification Requirements for Surface Mount Solder 
+Attachments (2006).
+ 61. Kramer, R. K., Boley, J. W ., Stone, H. A., Weaver, J. C. & Wood, R. J. Effect of microtextured surface topography on the wetting 
+behavior of eutectic gallium–indium alloys. Langmuir 30, 533–539 (2014).
+ 62. Luo, Y . et al. Flexible liquid metal-based microfluidic strain sensors with fractal-designed microchannels for monitoring human 
+motion and physiological signals. Biosens. Bioelectron. 246, 115905 (2024).
+ 63. Wu, Y . et al. Liquid metal-based strain sensor with ultralow detection limit for human–machine interface applications. Adv. Intell. 
+Syst. 3, 2000235 (2021).
+ 64. Dinh, T. et al. Stretchable respiration sensors: Advanced designs and multifunctional platforms for wearable physiological 
+monitoring. Biosens. Bioelectron. 166, 112460 (2020).
+ 65. Chen, J. et al. Superelastic, sensitive, and low hysteresis flexible strain sensor based on wave-patterned liquid metal for human 
+activity monitoring. ACS Appl. Mater. Interfaces 12, 22200–22211 (2020).
+ 66. Zhang, S., Ge, C. & Liu, R. Mechanical characterization of the stress-strain behavior of the polydimethylsiloxane (pdms) substate 
+of wearable strain sensors under uniaxial loading conditions. Sens. Actuators A 341, 113580 (2022).
+ 67. Nankali, M. et al. Highly stretchable and sensitive strain sensors based on carbon nanotube-elastomer nanocomposites: the effect 
+of environmental factors on strain sensing performance. J. Mater. Chem. C 8, 6185–6195 (2020).
+Author contributions
+M.K.: Conceptualization, investigation, data curation, methodology, formal analysis and draft writing; R.N.S.: 
+Investigation (Fig. 5 sensor design and characterisation); L.P .: Investigation (Fig. 4 cycle testing); P .V .S.: Inves-
+tigation (Fig. 2 SEM/EDX); D.R.: Investigation (Fig. 1 spray visualisation); F .S.: Investigation (Fig. 4 Dogbone 
+tensile test); J.B.: Supervision; G.V .A.: Supervision; I.D.G.: Supervision; T.H.: Supervision; M.D.: Supervision; 
+S.T.: Supervision; B.V .: Supervision; M.R.: Supervision, formal analysis and review and editing of the original 
+draft; W .D.: Supervision, review and editing, funding acquisition, project administration.
+Funding
+Funding is provided for Maximilian Krack by the Fonds Wetenschappelijk Onderzoek (FWO, 1SH1C24N) and 
+the Bijzonder Onderzoeksfonds (BOF , BOF23INCENT17). FWO is additionally providing funding within the 
+broader SBO project of SUBLIME (S007423N).
+Scientific Reports |        (2025) 15:35984 14| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/
+
+Declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary Information The online version contains supplementary material available at  h t t p s : / / d o i . o r g / 1 
+0 . 1 0 3 8 / s 4 1 5 9 8 - 0 2 5 - 1 9 7 7 5 - 0     .  
+Correspondence and requests for materials should be addressed to W .D.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access  This article is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 
+4.0 International License, which permits any non-commercial use, sharing, distribution and reproduction in 
+any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide 
+a link to the Creative Commons licence, and indicate if you modified the licensed material. Y ou do not have 
+permission under this licence to share adapted material derived from this article or parts of it. The images or 
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated 
+otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence 
+and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to 
+obtain permission directly from the copyright holder. To view a copy of this licence, visit  h t t p : / / c r e a t i v e c o m m o 
+n s . o r g / l i c e n s e s / b y - n c - n d / 4 . 0 /     .  
+© The Author(s) 2025 
+Scientific Reports |        (2025) 15:35984 15| https://doi.org/10.1038/s41598-025-19775-0
+www.nature.com/scientificreports/

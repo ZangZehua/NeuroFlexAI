@@ -1,0 +1,745 @@
+ARTICLE
+Received 16 Oct 2012 | Accepted 25 Jan 2013 | Published 26 Feb 2013
+Stretchable batteries with self-similar serpentine
+interconnects and integrated wireless recharging
+systems
+Sheng Xu 1,*, Yihui Zhang 2,3,*, Jiung Cho 1, Juhwan Lee 1, Xian Huang 1, Lin Jia 1, Jonathan A. Fan 1,
+Y ewang Su2,3, Jessica Su 1, Huigang Zhang 1, Huanyu Cheng 3, Bingwei Lu 1,2, Cunjiang Yu 1,
+Chi Chuang 1, T ae-il Kim1, T aeseup Song4, Kazuyo Shigeta 1, Sen Kang 1, Canan Dagdeviren 1, Ivan Petrov 1,
+Paul V. Braun 1, Y onggang Huang3, Ungyu Paik 4 & John A. Rogers 1
+An important trend in electronics involves the development of materials, mechanical designs
+and manufacturing strategies that enable the use of unconventional substrates, such as
+polymer ﬁlms, metal foils, paper sheets or rubber slabs. The last possibility is particularly
+challenging because the systems must accommodate not only bending but also stretching.
+Although several approaches are available for the electronics, a persistent difﬁculty is in
+power supplies that have similar mechanical properties, to allow their co-integration with the
+electronics. Here we introduce a set of materials and design concepts for a rechargeable
+lithium ion battery technology that exploits thin, low modulus silicone elastomers as sub-
+strates, with a segmented design in the active materials, and unusual ‘self-similar’ inter-
+connect structures between them. The result enables reversible levels of stretchability up to
+300%, while maintaining capacity densities of B1.1 mAh cm
+/C0 2. Stretchable wireless power
+transmission systems provide the means to charge these types of batteries, without direct
+physical contact.
+DOI: 10.1038/ncomms2553
+1 Department of Materials Science and Engineering, Frederick Seitz Materials Research Laboratory, University of Illinois at Urbana-Champaign, Urb ana, Illinois
+61801, USA. 2 Center for Mechanics and Materials, T singhua University, Beijing 100084, China. 3 Department of Civil and Environmental Engineering, and
+Department of Mechanical Engineering, Northwestern University, Evanston, Illinois 60208, USA. 4 Department of Energy Engineering, Hanyang University,
+Seoul 133-791, Korea. * These authors contributed equally to this work. Correspondence and requests for materials should be addressed to J.A.R. (ema il:
+jrogers@illinois.edu) or to Y .G.H. (email: y-huang@northwestern.edu).
+NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications 1
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+D
+evelopment of classes of electronic and optoelectronic
+technologies that offer elastic responses to large strain
+(c1%) deformations has accelerated in recent years 1–6.
+Combinations of materials, device layouts, mechanics designs and
+manufacturing approaches are now beginning to emerge for
+realistic applications in areas ranging from wearable photo-
+voltaics
+7 to ‘epidermal’ health/wellness monitors 8, to sensitive
+robotic skins 9–11 to soft surgical tools 12 and electronic ‘eyeball’
+imaging devices 13. In all cases, stretchability represents a key,
+enabling characteristic. For many of these and other uses, a
+critical need lies in energy-storage devices with similar physical
+properties, to allow for direct and natural integration with the
+electronics14. Many important storage devices have been
+developed with ﬂexible characteristics, including supercapaci-
+tors15–17 and batteries 17,18, where sufﬁciently thin geometrical
+forms lead to ﬂexibility, by virtue of bending-induced strains
+(typically to values of B1% or less) that decrease linearly with
+thickness, for a given bend radius. Stretchability, on the other
+hand, represents a more challenging type of mechanics, in which
+the systems must accommodate large strain deformation ( c1%),
+typically of arbitrary form, including not only bending, but also
+twisting, stretching, compressing and others, and thickness is
+typically not a critical factor. Stretchable supercapacitors using
+buckled thin ﬁlms of carbon nanotubes (CNTs) 19 or CNT-soaked
+ﬁbrous textiles 20, and stretchable non-rechargeable zinc carbon
+batteries based on conductive fabrics 21,22 represent two examples.
+Although these technologies each have attractive features, none
+offers multiple capabilities in recharging with high-storage
+capacity, stretching to large levels of deformation ( 4100%), or
+establishing wireless electrical interfaces to external power
+supplies. The materials and integration schemes reported here
+achieve these characteristics in a type of lithium ion battery that
+exploits segmented layouts and deformable electrical inter-
+connects in specialised, ‘self-similar’ geometries. The resulting
+devices offer biaxial stretchability up to strains of 300%, with
+capacity densities of B1.1 mAh cm/C0 2, and little loss in capacity
+for up to 20 cycles of recharging. The designs also allow
+integration of stretchable, inductive coils to enable charging
+through external supplies without the need for physical
+connexions. This set of attributes satisﬁes requirements for
+many applications that are being contemplated for stretchable
+electronics.
+Results
+Battery design. The devices exploit pouch cells in which arrays of
+small-scale storage components are connected by conducting
+frameworks with extraordinary stretchable characteristics.
+A schematic illustration of the system, an exploded view of the
+multilayer construction of a unit cell, and a representation of the
+‘self-similar’ interconnect geometries appear in Fig. 1a–c, and
+Supplementary Fig. S1. The current collectors consist of photo-
+lithographically patterned circular disks of aluminium (600 nm)
+and copper (600 nm). Layers of polyimide (PI; 1.2 mm) encapsu-
+late interconnecting traces between these disks in a way that
+places the metals close to the neutral mechanical plane (Fig. 1d,e,
+left panel). Thin (0.25 mm), low modulus (60 kPa) sheets of sili-
+cone elastomer form top and bottom substrates that support these
+structures (Fig. 1d,e, middle panel) and other components of the
+batteries. The overall construct consists of a square array of 100
+electrode disks, electrically connected in parallel. Moulded pads of
+slurries based on LiCoO
+2 and Li 4Ti5O12 serve as active materials
+at the cathode and anode 23,24, respectively (Fig. 1d,e, right panel,
+and Supplementary Fig. S2). The two sheets laminate together in
+a way that involves spatial offsets between the active materials to
+avoid electrical shorts between them and to eliminate the need for
+a separator. A spacer, made of the same silicone elastomer and
+applied around the periphery of the system, prevents direct
+contact of the top and bottom sheets. A gel electrolyte injected
+into the gap provides media for ionic transport. Thin encapsu-
+lating layers of an acryloxy perﬂuoropolyether elastomer bonded
+to the outer surfaces help to prevent moisture from diffusing into
+the battery and solvents in the gel from leaking out
+25. Long-term
+operation requires more sophisticated packages consisting of for
+example, buckled bilayer sheets of aluminium/PI that bond to the
+outer surfaces of the battery (Supplementary Fig. S3). The
+materials and fabrication details appear in the Methods section.
+The devices must accommodate two competing design goals:
+(1) high areal capacity, which requires large coverage of the active
+regions, and (2) high mechanical stretchability, which requires
+large distances between these regions. Strategic features of relief
+on the elastomer substrates provide a partial solution to this
+challenge, as demonstrated recently in photovoltaic modules 26,27.
+A disadvantage is that levels of stretchability beyond B30% can
+be difﬁcult to achieve without sacriﬁcing coverage. Here, we take
+a different, but complementary, approach in which the focus is on
+deformable interconnects with advanced designs. In particular,
+we introduce layouts that use ‘self-similar’ structures of wires in
+serpentine conﬁgurations to offer, simultaneously, high system-
+level stretchability, and low interconnect resistances. A
+conventional serpentine consists of circular arcs connected by
+straight lines. ‘Self-similar’ designs follow from iteratively
+applying this basic geometry, beginning with a unit cell as
+illustrated schematically in the red box of Fig. 1c. Here, reducing
+the scale of the cell, and then connecting multiple copies of it in a
+fashion that reproduces the layout of the original cell geometry,
+corresponds to one iteration. The yellow line in Fig. 1c represents
+a 2nd order serpentine geometry, created in this manner.
+Although higher orders can be designed and implemented
+easily, the 2nd order construct satisﬁes requirements for the
+applications considered here, as described in detailed
+experimental and theoretical study below.
+Mechanical characteristics of the ‘self-similar’ interconnects .
+Three-dimensional ﬁnite element analysis (see Supplementary
+Methods) and experimental measurements illustrate the essential
+mechanics. Test samples fabricated for this purpose consist of
+free-standing, multilayer traces, with materials and multilayer
+stack designs (PI (1.2 mm)/Cu (0.6 mm)/PI (1.2 mm)) that match
+those used in the batteries, between circular pads that bond to
+posts moulded onto underlying elastomer substrates. The self-
+similar geometry leads to hierarchical buckling physics that
+ensures ultra-low strains in the materials, even under extreme
+stretching3,28. For the entire range of tensile strains examined,
+from 0 to 300%, the conﬁgurations predicted by FEA agree
+remarkably well with optical images collected during the
+experiments, as shown in Fig. 2 and Supplementary Movies 1
+and 2. Both symmetric and anti-symmetric buckling modes exist
+(see Supplementary Fig. S4 for detailed illustrations of the two
+modes). The trace consists of three columns of serpentine wires
+connected by two horizontal straight lines. We refer to the
+construct that corresponds to the ‘short’ wavelength serpentine
+within each column as the 1st level; the 2nd level corresponds to
+the large-scale serpentine shape, with ‘long’ wavelength. For the
+symmetric buckling mode (Supplementary Fig. S4a), the left and
+right columns undergo mainly an overall bending deformation
+along the vertical direction, resulting in the collective upward
+motion of the entire middle column of serpentine wires. In this
+sense, the out-of-plane displacement is symmetric with respect
+to the centre line ( x ¼ 0) in the ‘Front view’ of Supplementary
+Fig. S4a. For the anti-symmetric buckling mode (Supplementary
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553
+2 NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+Fig. S4b), the serpentines in the left and right columns mainly
+undergo an overall twisting deformation along the vertical
+direction. Here, the two ends of middle serpentine move in
+opposite directions (that is, one moves up, and the other moves
+down). In this case, the out-of-plane displacement is anti-
+symmetric with respect to the centre line ( x ¼ 0) in the ‘Front
+view’ of Supplementary Fig. S4b. The critical buckling strains
+obtained by FEA for the symmetric (0.078%) and anti-symmetric
+(0.087%) modes are much lower than those ( 40.172%) for all
+other buckling modes. This result is consistent with experimental
+observation of only these two modes. In both cases, the physics
+associated with stretching involves a mechanism of ‘ordered
+unravelling’, which begins at the 2nd level, at a well-deﬁned,
+critical buckling strain, B0.08% for the example investigated
+here. Next, the 2nd level gradually ‘unravels’ via bending and
+twisting as the applied strain increases from 0.08% to B150%,
+during which there is essentially no further deformation in the 1st
+level. The motions in the 1st level start when the 2nd level is
+almost fully extended, corresponding to an applied strain of
+B150% in this case. As the ‘unravelling’ of the 1st level
+serpentine approaches its end, the strain in the materials begin
+to increase rapidly, thereby deﬁning the practical limit in
+stretchability.
+For applied strains below this limit, the deformation mechanisms
+of ordered unravelling processes ensure low levels of strain in the
+materials (Supplementary Fig. S5). For a representative failure
+strain of 1% for copper, FEA predicts a stretchability of 321%,
+which is in good agreement with the experimental observations
+(300%oestretchabilityo350%) (simulations suggest that the copper
+reaches its failure point before the PI). For reversible behaviour
+(that is, the interconnects return to their initial conﬁguration
+after release), the maximum material strain must be less than the
+Silicone
+Bottom polyimide
+Cu electrode
+Top polyimide
+Anode slurry
+Gel electrolyte
+Top polyimide
+Al electrode
+Bottom polyimide
+Cathode slurry
+Silicone
+Silicone
+spacer
+Figure 1 | Aspects in battery layout and design. (a) Schematic illustration of a completed device, in a state of stretching and bending. ( b) Exploded view
+layout of the various layers in the battery structure. ( c) Illustration of ‘self-similar’ serpentine geometries used for the interconnects (black: 1st level
+serpentine; yellow: 2nd level serpentine). ( d) Optical images of the Al electrode pads and self-similar interconnects on a Si wafer (left panel; top down view;
+B4 unit cells), after transfer printing on a sheet of silicone (middle panel; top down view, in a bent geometry), and with moulded slurries of LiCoO 2
+(right panel; top down view, in a bent geometry). ( e) Optical images of the Cu electrode pads and self-similar interconnects on a Si wafer (left panel; top
+down view; B4 unit cells), after transfer printing on a sheet of silicone (middle panel; top down view, in a bent geometry), and with moulded slurries of
+Li4Ti5O12 (right panel; top down view, in a bent geometry). Scale bars in d and e are 2 mm.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553 ARTICLE
+NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications 3
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+yield strain. For a representative yield strain of 0.3% for copper,
+FEA suggests reversibility for applied strains up to B168%. This
+value is lower than experimental observations, where reversibility
+occurs even for strains of between 200% and 250% (Fig. 2). The
+likely explanation for this discrepancy is that yield occurs ﬁrst in
+only small portions of the interconnect (for example, one element in
+the FEA). In this case, the effects on reversibility might not be easily
+observed in experiments.
+These levels of stretchability (4300%) and reversibility (4200%)
+signiﬁcantly exceed those of previous reports in stretchable batteries
+and/or battery electrodes; they are also greater than those of any
+other reports of stretchable interconnects that use lithographically
+deﬁned patterns of conventional metals. The importance of the self-
+similar designs can be assessed through comparisons of stretch-
+ability to otherwise similar, but conventional serpentine structures:
+the former exhibits a stretching range of 321%, while the latter is
+134%, determined by FEA (Supplementary Fig. S6). Furthermore,
+even for the same total length ( ltotal), span ( L), amplitude ( h), and
+cross-section (widthw and thickness t), the self-similar design again
+outperforms the conventional serpentine, both in stretchability
+(809% versus 682%) and reversibility (528% versus 284%)
+(Supplementary Fig. S7). We note that in all cases of uniaxial
+stretching, the Poisson effect leads to compression in the orthogonal
+direction. The buckling proﬁles in these regions have behaviours
+that are consistent with FEA (Supplementary Fig. S8).
+Electrochemical and mechanical behaviour of the battery .A f t e r
+choosing a set of dimensions that offers excellent system-level
+stretchability, with good areal capacity density, and modest
+interconnect resistance, we observed the best electrical perfor-
+mance for layouts in which the diameters of the disks for the
+cathode and anode are 2.20 mm and 1.58 mm, respectively, and the
+offset distances are 0.51 mm. This conﬁguration corresponds to an
+areal coverage of 33% for the cathode, 17% for the anode, and 50%
+for the entire battery (in the undeformed conﬁguration) (Supple-
+mentary Fig. S9). The interconnects have thicknesses of 600 nm
+and widths of 50 mm. For these parameters, the resistance between
+adjacent disks is 24 O, and that between the connexion lead and the
+most distant disk is 45 O. The leads for external connexion are thin
+and narrow to avoid strain at the interface, and facilitate connexion
+to ﬂexible (but not stretchable) cables that connect to external
+characterisation equipment. The gel electrolyte combines the ﬂow
+properties of viscous liquids with the cohesive properties of a solid,
+thereby allowing it to accommodate large strains while maintaining
+ionic conduction pathways.
+Electrochemical properties of the battery electrodes without and
+with 300% uniaxial strain appear in Fig. 3a. The results show two
+well-deﬁned plateaus at around 2.35 V corresponding to potentials
+of Co 3 þ /4 þ and Ti 4 þ /3 þ redox couples 29. The mass of the
+LiCoO2 (speciﬁc capacity 145 mAh g /C0 1)a te a c hu n i ti sB95 mg,
+and thus areal capacity density of 1.1 mAh cm /C0 2 at a charge/
+discharge rate of C/2. The mass of Li 4Ti5O12 (speciﬁc capacity
+160 mAh g/C0 1)i s B90 mg, which corresponds to 5–10% more
+anode capacity than cathode30. Slurry disks with thicknesses larger
+than those described here yield improved areal capacity density,
+but with reduced rate capability due to the concentration
+polarisation in the disks 31,32. The output resistance of the battery
+is B70 O (Supplementary Fig. S10), and the leakage current is
+1–10 mA, which arises from two main sources: the internal ohmic
+150%
+100%
+50%
+200%
+250%
+300%
+/afii9830 = 0%
+0.0
+1.0 %
+FEA
+Experiment
+Figure 2 | Experimental and computational studies of buckling physics in interconnects with self-similar serpentine layouts. Optical images and
+corresponding ﬁnite element analysis (FEA) of symmetric (left column) and anti-symmetric (middle column) deformation modes, for various levels of
+applied tensile strain ( e). The colour in the FEA results represents the maximum principal strains of the metal layer. The scale bar is 2 mm. The right column
+shows the interconnect structures after releasing the applied strain.
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553
+4 NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+self-discharge between the slurry disks at the anode and cathode
+and Faradaic effects, including shuttle reactions associated with
+impurities in the slurry materials, residual oxygen and/or mois-
+ture. Experimental measurements described in the Supplementary
+Methods and Supplementary Fig. S11 show that use of separators
+and enhanced packaging schemes can reduce the capacity loss
+from 161 mA h to 23 mA h in 44 h. Figure 3b shows the coulombic
+efﬁciency (red) and cycling performance (black) of the
+encapsulated battery. The coulombic efﬁciency rises from B60%
+for the ﬁrst cycle to over 90% after three cycles. The initial loss can
+be attributed to the formation of a solid-electrolyte-interphase, and
+lithium is consumed in side reactions with impurities in the
+electrolyte. The gradually degrading capacity retention results not
+from the cycle fade (Supplementary Fig. S12) but more likely from
+the calendar fade due to some combination of reaction with
+residual water in the packaging materials, moisture penetration and
+electrical discontinuity of slurry particles that detach from the
+disks, which are not hot pressed and can be sometimes observed in
+the electrolyte gel. Further increasing the baking temperature and
+optimising the composition of the slurries, such as increasing the
+binder ratio, could reduce the latter behaviours. Improved
+conditions for device assembly could reduce effects of the
+former. Varying the depth of discharge from 100% to 75% did
+not have a signiﬁcant effect on the degradation characteristics
+(Supplementary Fig. S13). Figure 3c shows the output power of the
+battery, when connected to a resistor 2.02 k O), during biaxial
+stretching and releasing. The slight decrease in output power with
+strain likely results from increased internal resistances that arise
+0 5 10 15 20
+0.0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2Area capacity (mAh cm–2)
+0.0
+Cycle number
+0.2
+0.4
+0.6
+0.8
+1.0
+Coulomb efficiency
+0 50 100 150 200 250 300
+0
+1
+2
+3
+4
+5
+Output power (mW)
+Strain (%)
+0.0 0.2 0.4 0.6 0.8 1.0 1.2
+1.6
+1.8
+2.0
+2.2
+2.4
+2.6
+Voltage (V)
+Discharging
+Area capacity (mAh cm–2)
+Charging
+Figure 3 | Electrochemical and mechanical properties of the battery. (a) Galvanostatic charging and discharging of the battery electrodes without
+(black) and with 300% uniaxial strain (red). ( b) Capacity retention (black) and coulombic efﬁciency (red) over 20 cycles with a cutoff voltage of 2.5–1.6 V.
+(c) Output power as a function of applied biaxial strain. ( d) Operation of a battery connected to a red light-emitting diodes (LED) while ( e) biaxially
+stretched to 300%, ( f) folded, ( g) twisted and ( h) mounted on the human elbow.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553 ARTICLE
+NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications 5
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+from the signiﬁcantly increased separations between slurry disks
+with strains at these large levels. The battery provides sufﬁcient
+power to operate commercial light-emitting diodes, with turn on
+voltages of 1.7 V (Supplementary Fig. S14), as shown in Fig. 3d.
+The battery could be stretched by up to 300% (Fig. 3e,
+Supplementary Movie 3), folded (Fig. 3f) and twisted (Fig. 3g)
+without noticeable dimming of the light-emitting diode.
+Furthermore, FEA demonstrates that the effective modulus
+(66.8 kPa) of the full composite structure of the battery is only
+slightly higher than the modulus (60.0 kPa) of the silicone substrate
+materials. As a result, the battery is not only stretchable but also
+exceptionally soft and compliant. The battery modulus is, in fact,
+lower than that of the human epidermis (140–600 kPa) 8, thereby
+offering the potential for integration onto the skin and biological
+tissues, without signiﬁcant mechanical loading. Figure 3h shows
+that the battery is compliant when mounted on human skin.
+Stretchable wireless charging system for the battery . In many
+practical cases such as implanted devices the ability to charge the
+battery without establishing physical connexions to external
+supplies can be valuable. Even in systems where the charging
+terminals are accessible, such as in skin-mounted systems there is
+value in wireless charging, simply because the process of estab-
+lishing physical contacts can be mechanically destructive to thin,
+stretchable components (or to the underlying soft tissue).
+Approaches that involve physical contact also have the danger of
+electrical shock to surrounding materials (for example, the skin
+itself). The versatility of the materials and designs enable inte-
+gration of wireless power transmission systems, monolithically
+with the battery itself. The design and an actual device appear in
+Fig. 4a and b, respectively. A secondary coil couples the
+electromagnetic ﬂux from a primary coil, and a Schottky diode
+provides rectiﬁcation. The Schottky diode (packaged in epoxy,
+with a modulus of B4.0 GPa) has a modulus of more than 4
+orders of magnitude larger than that of the silicone substrate, but
+its size (length 0.62 mm, width 0.32 mm and height 0.31 mm) is
+only a few per cent ( B2%) of the overall size ( B30 mm /C2
+B20 mm) of the wireless system. As a result, the inﬂuence on the
+overall stretchability is still negligible, as demonstrated by ﬁnite
+element simulations shown in Supplementary Figs S15 and S16.
+The parallel capacitor smooths oscillations in the output voltages;
+its small size and thickness enable natural integration into the
+overall system. Larger capacitors can smooth the oscillations to an
+even greater extent (Supplementary Fig. S17). The coil and
+rectiﬁer add a series resistance of 2.3 k O (Supplementary Fig.
+S18), which functions as a parallel resistance with the secondary
+coil, shunting away current from the battery. The resistance of the
+serpentine secondary coil is 1.92 k O m /C0 1; a coil with similar
+overall geometry but without the serpentine shape is calculated to
+be 1.22 k O m /C0 1. The efﬁciency of the charging system can be
+improved by increasing the width and thickness of the wires, but
+at the expense of reduced stretchability and increased modulus.
+Speciﬁc application requirements will deﬁne the right tradeoffs.
+In this case, the output power from the primary coil was 187 mW.
+With a working distance of 1 mm between the primary and
+secondary coil, the power received on the secondary coil is
+9.2 mW, corresponding to an efﬁciency of 4.9%. Increasing the
+secondary coil thickness to 7 mm improves the efﬁciency from 4.9
+to 17.2%. At this thickness, the coil retains stretchability to strains
+of 25% (Supplementary Fig. S19). The capacitor has a capacitance
+of 1.7 nF, in a structure that uses a 1.2- mm thick layer of PI as the
+dielectric, with a layer of thiol molecules on the bottom Au
+electrodes to enhance adhesion. Figure 4c shows the input and
+0 50 100 150 200 250 300 350
+1.5
+2.0
+2.5
+Voltage (V)
+Time (s)
+0.2
+0.3
+0.4
+0.5
+Current (mA)
+0 2 04 06 08 0 1 0 0
+–5
+–4
+–3
+–2
+–1
+0
+1
+2
+3
+4
+5
+Voltage (V)
+Time (ns)
++
+–
+~
+~
+Vinput
+Wireless coil
+CapacitorSchottky
+diode
+Voutput 
+Figure 4 | Stretchable system for wireless charging. (a) Circuit diagram. ( b) Image of the integrated system with different components labelled.
+(c) Characterisation of the wireless coil with an alternating voltage input at a frequency of 44.5 MHz (black) and the resulting direct voltage output (r ed),
+as indicated in a.( d) Charging voltage (orange) and current (blue) curves as a stretchable battery is charged with 3 V output from the wireless
+circuit. The scale bar in b is 1 cm.
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553
+6 NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+output of this wireless power transmission device. An input
+voltage at a frequency of 44.5 MHz matches the self-resonant
+frequency of the secondary coil, which depends on the coil area,
+number of turns, distance between each turn and wire resistance.
+For a peak-to-peak input voltage of 9.1 V (Fig. 4c, black curve),
+the DC output voltage is 3.0 V (Fig. 4c, red curve). The charging
+curves of a small-scale battery using the wireless coil appear in
+Fig. 4d. The battery voltage (Fig. 4d, orange curve) rises to 2.5 V
+in about 6 min. The charging current in the circuit (Fig. 4d, blue
+curve) decreases from 0.5 mA to below 0.2 mA. We used a partial
+differential equation to model the charging circuit, and a
+numerical program to calculate the charging current curve.
+Simulation of this process agrees well with the experimental data
+(see Supplementary Methods and Supplementary Fig. S20).
+Discussion
+The materials and schemes reported here provide routes to
+energy-storage devices and wireless charging systems with forms
+and properties that are attractive for powering stretchable
+electronic and optoelectronic devices. The slurry materials
+themselves are deployed in ways (a soft lithographic type casting
+process) that allow natural integration with unusual materials (low
+modulus silicone rubber sheets, possibly embossed with surface
+relief). The stretchable interconnects exploit a ‘self-similar’ design
+that offers unique, ‘spring within a spring’ mechanics. The
+consequence is a level of stretchability that is more than /C2 4 larger
+than previous reports, even while, at the same time, enabling
+coverages of active materials as high as 50%. The combination of
+these two aspects, together with comprehensive and experimen-
+tally validated models of the underlying mechanics, leads to a
+technology, that is, a stretchable, rechargeable battery, which offers
+much different characteristics than anything that has been
+previously possible. As an additional advance, we introduce
+integrated stretchable, wireless charging systems that offer physical
+properties similar to those of the batteries.
+Improvements will follow from further development of slurry
+chemistries, separator materials, and stretchable, air-impermeable
+packaging materials. Wireless power transfer efﬁciency can be
+increased by reducing the input resistance, maximising the
+mutual inductance and increasing the self-resonant frequency of
+the coils. Incorporating regulation circuits to avoid over-charging
+and over-discharging to the battery also represents an important
+potential direction for future work.
+Methods
+Fabrication of electrodes and mechanical testing of self-similar interconnects .
+Sequential spin-casting deﬁned a bilayer of poly(methyl methacrylate) (PMMA 495
+A2, 3,000 r.p.m. for 30 s, baked on a hotplate at 180 /C176C for 2 min) and then a
+layer of PI (from poly(pyromellitic dianhydride- co-4,40-oxydianiline) amic acid
+solution; 4,000 r.p.m. for 30 s, baked on a hotplate at 150 /C176C for 4 min and then in a
+vacuum oven at 10 mT and 250 /C176C for 1 h) on a silicon wafer. The cathode and
+anodes consisted of 600 nm thick layers of Al or Cu, respectively, deposited by
+electron beam evaporation onto the PI. Photolithography (AZ5214E) and etching
+(Type A aluminium etchant on hotplate at 50 /C176C for 2 min; Type CE-100 copper
+etchant at room temperature for 10 s; Transene Company) deﬁned patterns in
+these metals. After removing the residual photoresist, spin coating formed an
+additional layer of PI over the entire structure. Next, photolithography (AZ 4620,
+2,000 r.p.m. for 30 s, baked at 110 /C176C for 4 min) and oxygen plasma etching
+(300 mT, 20 sccm O 2, 200 W for 10 min) patterned the layers of PI in a geometry
+matched to the metal traces.
+Immersion in hot acetone partially removed the underlying PMMA layer,
+thereby allowing the entire structure to be retrieved from the silicon wafer onto the
+surface of a piece of water-soluble tape (3 M). Electron beam evaporation of Ti
+(5 nm)/SiO
+2 (50 nm) through a shadow mask formed backside coatings aligned to
+the metal disks 33. Thin (250 mm) silicone substrates (Ecoﬂex, Smooth-On) were
+prepared by mixing the two components in a 1:1 weight ratio, spin-casting
+(300 r.p.m. for 30 s) the resulting material into a Petri dish and then partially curing
+it (30 min at room temperature). Next, spin-casting (3,000 r.p.m. for 30 s) an allyl
+amide functional perﬂuorinated ether (DuPont), and then curing it under
+ultraviolet (UV) light for 30 min formed a top encapsulation layer. The other side
+of the Ecoﬂex substrate was surface activated under UV light for 5 min. Laminating
+the electrode structures onto this surface led to strong bonding, upon contact
+34.
+The water-soluble tape was removed by immersing the substrate in tap water for
+overnight. As a ﬁnal step, the electrodes were dipped in 1 mM HCl to remove
+oxides from the surfaces of the metals.
+Mechanical testing of the self-similar interconnects was performed with a
+customised uniaxial stretcher. To ensure that the interconnects were decoupled
+from the substrate, each disk was mounted on top of a post (250 mm in height)
+moulded into the silicone substrate. Images and video of the deformed
+interconnects were collected with a digital single-lens reﬂex camera.
+Patterned moulding of slurries and their integration with current collecting
+electrodes. Photolithography (AZ 4620, 7–8 mm thick) and inductively
+coupled plasma reactive ion etching (ICP RIE) deﬁned arrays of cylindrical wells
+on the surface of a silicon wafer. The conditions were chosen to yield sloped
+sidewalls, which are important for effective transfer of the slurries, as described
+subsequently. Washing with acetone removed the photoresist. A layer of poly-
+tetraﬂuoethylene ( B200 nm) conformally deposited using the ICP RIE tool served
+as a coating to prevent adhesion. The slurry materials consisted of lithium
+cobalt oxide or lithium titanium oxide, acetylene black and polyvinylidene ﬂuoride,
+mixed in a weight ratio of 8:1:1 in a solvent of N-methyl-2-pyrrolidone for the
+cathode and anode, respectively. The mixture was stirred for overnight, and then
+mechanically scraped across the etched surface of the silicon wafer. The cylindrical
+wells, ﬁlled with slurry in this manner, were baked on a hotplate at 90 /C176C for
+overnight, and then retrieved onto the surface of a piece of water-soluble tape.
+The baking conditions were selected carefully to enable retrieval of the slurry with
+high yield. Registering the tape to the metal electrodes ensured that the moulded
+slurry aligned to the metal disks. Immersion in tap water for overnight dissolved
+the tape. Baking the substrates at 170 /C176C for overnight in a vacuum oven removed
+the moisture and improved the strength of bonding between the slurry and the
+metal.
+Assembly and electrochemical testing of the battery . Anisotropic conductive
+ﬁlms, hot pressed onto the metal electrodes, served as points for external electrical
+connexion. Application of Sylgard Prime Coat (Dow Corning, Inc.) to the per-
+iphery of the substrates prepared them for bonding. A thin silicone spacer layer
+(500 mm thick) at the periphery prevented direct contact as the two sheets were
+laminated together. A lateral spatial offset prevented electrical shorting between the
+active regions. The edges were sealed with an additional application of Ecoﬂex
+followed by baking on a hotplate (90 /C176C for 2 h). The gel electrolyte consisted of a
+mixture of 100 g lithium perchlorate, 500 ml ethylene carbonate, 500 ml dime-
+thylcarbonate and 10 g polyethylene oxide (4 /C2 10
+6 gm o l/C0 1), prepared in an
+argon-ﬁlled glovebox as a homogenous gel. This material was injected into the
+battery using a syringe through an edge.
+A BioLogic VMP3 electrochemical station with a cutoff voltage of 2.5–1.6 V
+at room temperature was used to charge and discharge the as-fabricated and
+stretched battery electrodes, and to evaluate cycling behaviour of the full, integrated
+battery. Areal capacity density was calculated based on the active region. The
+output power was monitored with the battery connected to a 2020 O resistor, using
+an ammeter. Values of current were recorded as a function of strain applied to
+the battery.
+Fabrication and testing of the wireless coil . A silicon wafer, coated with layers of
+PMMA and PI using steps described previously, served as a substrate for deposition
+of Cr (5 nm)/Au (500 nm) by electron beam evaporation. Photolithography (AZ
+5214E) and etching (Transene Company) deﬁned patterns in the geometry of the
+bottom electrode of the capacitor and associated contact lines. Removing the
+photoresist with acetone, and then immersing the substrate in a 1 mM poly
+(ethylene glycol) methyl ether thiol solution in isopropanol for 15 min served to
+enhance the adhesion and coverage of a second layer of PI spin-cast (4,000 r.p.m.
+30 s) and cured (on hotplate at 150 /C176C for 4 min and then in vacuum oven at 250 /C176C
+for 1 h) on the electrodes. This layer of PI served as the dielectric for the capacitor.
+Photolithography (AZ 4620, 2,000 r.p.m. for 30 s, baked at 110 /C176C for 4 min)
+deﬁned a mask for etching vias through the PI layer, as points of connexion
+between the coil and the bottom electrode of the capacitor. After immersion in
+acetone to remove the photoresist, sputter deposition formed a conformal layer of
+Cu (600 nm) over the entire surface, including the sidewalls of the vias. Photo-
+lithography (AZ 5214E) and etching deﬁned the coil and the other top electrode of
+the capacitor. After removing the resist, a third spin-cast layer of PI formed a
+coating on the Cu electrodes. An oxygen plasma etching through the three PI layers
+in a patterned geometry deﬁned the ﬁnal device layout. Undercut by immersion in
+hot acetone partially removed the underlying PMMA, to enable the release of the
+entire structure onto water-soluble tape. Deposition of Ti (5 nm)/SiO
+2 (50 nm) and
+lamination onto the UV-activated surface of an Ecoﬂex substrate led to strong
+bonding. After the water-soluble tape was removed, a Schottky diode chip (Digikey
+BAT 62-02LS E6327) was bonded between the coil and the capacitor using silver
+epoxy. The forward input resistance is B500 O, and the rectiﬁcation ratio is
+B1 /C2 10
+4 at a bias voltage of ±1 V (datasheet for BAT 62-02LS E6327 may be
+found on www.digikey.com).
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553 ARTICLE
+NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications 7
+& 2013 Macmillan Publishers Limited. All rights reserved.
+
+High-frequency alternating current signals were generated by Keithley 3390
+50 MHz arbitrary waveform generator. The input and output characterisation of
+the wireless coil were performed using an Agilent Inﬁniium DSO8104A oscillo-
+scope (1 GHz, 4 channels). The wireless charging voltage and current to the battery
+were monitored using a BioLogic VMP3 electrochemical station.
+References
+1. Pelrine, R., Kornbluh, R., Pei, Q. B. & Joseph, J. High-speed electrically actuated
+elastomers with strain greater than 100%. Science 287, 836–839 (2000).
+2. Wagner, S. et al. Electronic skin: architecture and components. Physica E 25,
+326–334 (2004).
+3. Khang, D. Y., Jiang, H. Q., Huang, Y. & Rogers, J. A. A stretchable form of
+single-crystal silicon for high-performance electronics on rubber substrates.
+Science 311, 208–212 (2006).
+4. Sekitani, T. et al. A rubberlike stretchable active matrix using elastic
+conductors. Science 321, 1468–1472 (2008).
+5. Sekitani, T. & Someya, T. Stretchable organic integrated circuits for large-area
+electronic skin surfaces. MRS Bull. 37, 236–245 (2012).
+6. Suo, Z. G. Mechanics of stretchable electronics and soft machines. MRS Bull.
+37, 218–225 (2012).
+7. Yoon, J. et al. Ultrathin silicon solar microcells for semitransparent,
+mechanically ﬂexible and microconcentrator module designs. Nat. Mater. 7,
+907–915 (2008).
+8. Kim, D. H. et al. Epidermal electronics. Science 333, 838–843 (2011).
+9. Mannsfeld, S. C. B. et al. Highly sensitive ﬂexible pressure sensors with
+microstructured rubber dielectric layers. Nat. Mater. 9, 859–864 (2010).
+10. Takei, K. et al. Nanowire active-matrix circuitry for low-voltage macroscale
+artiﬁcial skin. Nat Mater. 9, 821–826 (2010).
+11. Someya, T. et al. A large-area, ﬂexible pressure sensor matrix with organic ﬁeld-
+effect transistors for artiﬁcial skin applications. Proc. Natl Acad. Sci. USA 101,
+9966–9970 (2004).
+12. Kim, D. H. et al. Materials for multifunctional balloon catheters with
+capabilities in cardiac electrophysiological mapping and ablation therapy. Nat.
+Mater. 10, 316–323 (2011).
+13. Ko, H. C. et al. A hemispherical electronic eye camera based on compressible
+silicon optoelectronics. Nature 454, 748–753 (2008).
+14. Nishide, H. & Oyaizu, K. Toward ﬂexible batteries. Science 319, 737–738
+(2008).
+15. Pushparaj, V. L. et al. Flexible energy storage devices based on nanocomposite
+paper. Proc. Natl Acad. Sci. USA 104, 13574–13577 (2007).
+16. Scrosati, B. Nanomaterials - paper powers battery breakthrough. Nat. Nanotech.
+2, 598–599 (2007).
+17. Hu, L. B. et al. Highly conductive paper for energy-storage devices. Proc. Natl
+Acad. Sci. USA
+106, 21490–21494 (2009).
+18. Hu, L., Wu, H., La Mantia, F., Yang, Y. & Cui, Y. Thin, ﬂexible secondary Li-ion
+paper batteries. ACS Nano. 4, 5843–5848 (2010).
+19. Yu, C. J., Masarapu, C., Rong, J. P., Wei, B. Q. & Jiang, H. Q. Stretchable
+supercapacitors based on buckled single-walled carbon nanotube macroﬁlms.
+Adv. Mater. 21, 4793–4797 (2009).
+20. Hu, L. B. et al. Stretchable, porous, and conductive energy textiles. Nano Lett.
+10, 708–714 (2010).
+21. Kaltenbrunner, M., Kettlgruber, G., Siket, C., Schwodiauer, R. & Bauer, S.
+Arrays of ultracompliant electrochemical dry gel cells for stretchable
+electronics. Adv. Mater. 22, 2065–2067 (2010).
+22. Gaikwad, A. M. et al. Highly stretchable alkaline batteries based on an
+embedded conductive fabric. Adv. Mater. 24, 5071–5076 (2012).
+23. Tarascon, J. M. & Armand, M. Issues and challenges facing rechargeable
+lithium batteries. Nature 414, 359–367 (2001).
+24. Scrosati, B. & Garche, J. Lithium batteries: status, prospects and future. J. Power
+Sources 195, 2419–2430 (2010).
+25. Thanawala, S. K. & Chaudhury, M. K. Surface modiﬁcation of silicone
+elastomer using perﬂuorinated ether. Langmuir 16, 1256–1260 (2000).
+26. Lee, J. et al. Stretchable gaas photovoltaics with designs that enable high areal
+coverage. Adv. Mater. 23, 986–991 (2011).
+27. Lee, J. et al. Stretchable semiconductor technologies with high areal coverages
+and strain-limiting behavior: demonstration in high-efﬁciency dual-junction
+GaInP/GaAs photovoltaics. Small 8, 1851–1856 (2012).
+28. Krieger, K. Extreme mechanics: buckling down. Nature 488, 146–147 (2012).
+29. Yoshima, K., Munakata, H. & Kanamura, K. Fabrication of micro lithium-ion
+battery with 3D anode and 3D cathode by using polymer wall. J. Power Sources
+208, 404–408 (2012).
+30. Ferg, E., Gummow, R. J., Dekock, A. & Thackeray, M. M. Spinel anodes for
+lithium-ion batteries. J. Electrochem. Soc. 141, L147–L150 (1994).
+31. Owen, J. R. Rechargeable lithium batteries. Chem. Soc. Rev. 26, 259–267 (1997).
+32. Gowda, S. R. et al. Conformal Coating of thin polymer electrolyte layer on
+nanostructured electrode materials for three-dimensional battery applications.
+Nano. Lett. 11, 101–106 (2011).
+33. Sun, Y. G., Choi, W. M., Jiang, H. Q., Huang, Y. G. Y. & Rogers, J. A.
+Controlled buckling of semiconductor nanoribbons for stretchable electronics.
+Nat. Nanotech. 1, 201–207 (2006).
+34. Ouyang, M., Yuan, C., Muisener, R. J., Boulares, A. & Koberstein, J. T.
+Conversion of some siloxane polymers to silicon oxide by UV/ozone
+photochemical processes. Chem. Mater. 12, 1591–1596 (2000).
+Acknowledgements
+This material is based upon work supported by a National Security Science and Engi-
+neering Faculty Fellowship and a grant from the US Department of Energy, Division of
+Materials Sciences under Award No. DEFG02-91ER45439. The experiments used facil-
+ities at the Materials Research Laboratory and Center for Microanalysis of Materials at
+the University of Illinois at Urbana-Champaign, supported by the US Department of
+Energy, Division of Materials Sciences under Award No. DE-FG02-07ER46471 and DE-
+FG02-07ER46453. Y.H. acknowledges NSF grant ECCS-0824129, and ISEN from
+Northwestern University for the support of the mechanics modelling effort. J.A.R. and
+U.P. acknowledge the National Research Foundation of Korea (NRF) through a grant
+(K2070400000307A050000310, Global Research Laboratory (GRL) Programme) pro-
+vided by the Korean Ministry of Education, Science & Technology (MEST), for efforts on
+slurry development. We thank Dr Jon Howell of DuPont for donating the allyl amide
+functional Krytox used in this study, and also thank Shu Xiang for many stimulating
+discussions.
+Author contributions
+S.X., Y.H.Z., Y.G.H. and J.A.R. designed the experiments. S.X., Y.H.Z., J.C., J.H.L., X.H.,
+L.J., J.A.F., Y.W.S., J.S., H.G.Z., H.Y.C., B.W.L., C.J.Y., C.C., T.-I.K., T.S., K.S., S.K., C.D.,
+I.P., P.V.B., Y.G.H., U.P. and J.A.R. carried out experiments and analysis. S.X., Y.H.Z.,
+Y.G.H. and J.A.R. wrote the paper. All authors commented on the paper.
+Additional information
+Supplementary Information accompanies this paper at http://www.nature.com/
+naturecommunications.
+Competing ﬁnancial interests: The authors declare no competing ﬁnancial interests.
+Reprints and permissions information is available online at http://npg.nature.com/
+reprintsandpermissions/
+How to cite this article: Xu, S. et al. Stretchable batteries with self-similar serpentine
+interconnects and integrated wireless recharging systems. Nat. Commun. 4:1543 doi:
+10.1038/ncomms2553 (2013).
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms2553
+8 NATURE COMMUNICATIONS | 4:1543 | DOI: 10.1038/ncomms2553 | www.nature.com/naturecommunications
+& 2013 Macmillan Publishers Limited. All rights reserved.

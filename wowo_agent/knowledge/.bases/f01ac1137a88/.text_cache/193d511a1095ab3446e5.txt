@@ -1,0 +1,719 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-025-00449-w
+A universal method for constructing
+stretchable and conductive connections
+in ﬂexible electronics
+Check for updates
+Yahui Zhao, Qiyang Ruan, Tongtong Li, Hongyun Qiu, Ruipeng Zhang, Shuai Wen, Lifeng Chi &
+Shaobo Ji
+Integrating stretchable and rigid electric units presents a signi ﬁcant challenge in manufacturing
+stretchable electronics. Their surface property differences prevented reliable stretching-tolerant
+connections. Here, we report a universal method to construct stretchable connections based on
+interfacial covalent reactions. It enables robust and conductive bonding among various soft/rigid
+electronics through simple surface modi ﬁcation and interfacial reaction. The bonding between SEBS
+rubber and metals reached stretchability over 250% with interfacial toughness over 200 N/m. The
+ultrathin connection layer provided conductive pathways, achieving an electrical stretchability of 60%
+between Au-deposited SEBS and Cu sheets. Connections between liquid metal-based stretchable
+conductors could withstand more than 10,000 stretching cycles to 60% strain while maintaining their
+high conductivity. The versatility and stability of this method were further proved by fabricating
+electronic devices that integrated soft and rigid units, including circuits on papers and a gesture-
+visualizing glove with LEDs, highlighting the robustness of the stretchable connections.
+Flexible electronic devices have emerged in recent years, offering higher design
+ﬂexibility, better adaptability 1–5, and a broader range of machinery
+applications6–10. Unlike traditional rigid electronics, ﬂexible devices can
+withstand certain deformation without compromising their performance11–13.
+Among them, fully stretchable electronics are of particular interest for wear-
+able sensors in healthcare management
+14–17, as they can conformally adhere to
+irregular surfaces, especially the human body18–21.Y e t ,t oa c h i e v ec o m p r e -
+hensive functions, conventional silicon-based rigid chips and printed circuit
+boards (PCBs) remain irreplaceable due to their performance and mature
+manufacturing22,23. Currently, commercial PCBs are produced on ﬂexible
+plastics24,25, but not on stretchable materials. Consequently, ﬂexible hybrid
+electronic devices that combine soft stretchable units and rigid electronic units
+become unavoidable in the development and application ofﬂexible electro-
+nics. However, the connectionsbetween stretchable units andﬂexible/rigid
+electronics are crucial weaknesses in integratedﬂexible hybrid devices due to
+t h e i rp o o ri n t e r f a c i a lb o n d i n g26–29, which would easily fracture when stretched.
+The mechanical property differences would induce strain/stress concentration
+at the soft-rigid interfaces, leading to early failure during deformation, and the
+chemical property differences would result in low binding strength at the
+interfaces, causing easy detachment. The former issue could be solved by
+introducing mechanical gradients or rigid islands
+30–32, while there were only
+limited solutions for the latter issue with certain shortcomings.
+The connections between soft and rigid units are desired to be like
+the welding (irreversible) or soldering (reversible) of metals, which
+achieve both robust mechanical strength and stable electrical pathways.
+Existing connections typically use rigid or thick adhesive layers, such as
+conductive pastes that
+33 lack stretchability after curing, induce additional
+mechanical differences, and apply to limited materials. Liquid metals34,35,
+with outstanding mechanoelectrical properties, are also used for ﬂexible
+connections. However, their high surface tension and low mechanical
+adhesion result in indiscriminate sticking to target materials and sur-
+rounding objects
+36. Anisotropic conductive ﬁlms37,38 are another choice,
+but their additional thickness makes them unsuitable for ultra-thin
+electronics
+39, their construction is also complicated with high cost.
+Moreover, the applicable materials are still limited 40,41.
+Therefore, developing a connection method that ensures high
+mechanical strength and electrical conductivity, which is also convenient
+and universal to the materials used inﬂexible electronics, is still a signiﬁcant
+challenge. Here, we report a unive rsal and straightforward method for
+achieving “stretchable welding” between various soft and rigid units (Fig.
+1a). By using thiol click interfacial connection (TCIC) to covalently bond the
+surfaces of various materials (includingrubbers, plastics, metals, etc.), their
+chemical differences were overcom e, and rapid connections could be
+established. The “welded” SEBS rubber and metals r eached stretchability
+State Key Laboratory of Bioinspired Interfacial Materials Science, Institute of Functional Nano & Soft Materials (FUNSOM), Soochow University, Su zhou, China.
+e-mail: chilf@suda.edu.cn; sbji@suda.edu.cn
+npj Flexible Electronics |            (2025) 9:63 1
+1234567890():,;
+1234567890():,;
+
+over 250% with interfacial toughness over 200 N/m. The nanometer-thick
+connection layer would not only keep the original mechanical properties of
+the connected materials but also provide anisotropic conductivity without
+conductive ﬁllers (Fig. 1b). Electrical stretchability over 50% between Au-
+deposited SEBS and metals in electronics was realized, and the electrical
+connections stayed stable for more than 3000 stretching cycles. When liquid
+metal-coated PDMS was used as stret chable conductors, the stretchable
+connection kept stable and high conductivity during and after
+10,000 stretching cycles at 60% strain. These characteristics of TCIC open
+new pathways for the integration of multi-material devices.
+Results
+Design of the universal interfacial connections
+For reactions on surfaces or at interfaces, salinization after plasma treatment
+is one of the most convenient methods. However, plasma treatment is not
+suitable for Au, a frequently used material in ﬂexible electronics. Never-
+theless, Au is well known to react with thiols or disul ﬁdes to form Au-S
+bonds, which provide covalent connections with Au surfaces. Based on this
+idea, the universal interfacial connection strategy was proposed and opti-
+mized (Fig. 1c). The units/components for ﬂexible hybrid electronicsﬁrst
+underwent a two-step surface modiﬁcation: plasma treatment and salini-
+zation. After the modiﬁcation, the inert Au surface remained unaffected,
+while other surfaces were covalently grafted with acrylate groups. Then,
+multi-thiol polymers (MTPs, Fig. S1a) were used as interfacial connectors,
+which could form thiol-Au bonds and undergo thiol-ene click reactions,
+thus realizing the covalent interfacial connections that were named“thiol
+click interfacial connection”. TCIC was applicable to most materials used in
+ﬂexible and conventional electronics, i ncluding rubbers, plastics, metals,
+oxides, and even papers.
+The conditions for TCIC were quite mild and simple; theﬁrst surface
+modiﬁcation was realized by air plasma treatment for 30 s, followed by
+vapor-phase modiﬁcation with 3-(trimethoxysilyl)propyl acrylate at rt for
+24 h (Fig. S2a). Then the interfacial connection was achieved by applying
+MTP solution with sodium ethoxide as the catalyst, contacting the surfaces,
+and reacting at mild temperatures (rt to 60 °C). As the amount of interfacial
+MTPs was low, it would not fully block the metal surfaces, thus keeping the
+electrical conductivity between the conductor surfaces.
+Interfacial bond formation
+To validate the formation of covalentbonds between surfaces during TCIC,
+MTP was used to connect various materials used inﬂexible electronics. First,
+PDMS was selected to conﬁrm the surface modiﬁcation and interfacial thiol-
+ene click reactions. The modiﬁcation of acrylate groups was evidenced by
+contact angle measurements (Fig. S2b). Further experiments conﬁrmed that
+this step would not affect the electri cal and mechanical properties of the
+treated materials (Fig. S3). When MTP was applied, only surface-modiﬁed
+PDMS ﬁlms were connected (Fig. 2a), which conﬁrmed that the thiol-ene
+click reaction occurred and the MTP itself did not function as an adhesive.
+The conditions of TCIC were uniﬁed as 100 mg/ml MTP solution in acet-
+o n e ,1 . 5hp l a c e m e n ta t6 0° Cw i t h0 . 5k P ap r e s s u r e ,f o rr e l i a b l ec o m p a r i s o n
+among different material combinations( F i g .S 4 ) .U n d e rt h es a m ec o n d i t i o n ,
+commercial anisotropic conductiveﬁlm adhesive (3 M ACF 7303) provided
+interfacial toughness of ~3 N/m for PDMS, much lower than the TCIC
+(over 20 N/m). Besides, after 24 h placement at rt without heating, the
+interfacial toughness could reach similar values as 1.5 h placement at 60 °C
+(Fig. S4b), indicating that in practical applications, TCIC could be very mild
+and convenient.
+Cu sheets were further used to conﬁrm TCIC on Au surfaces. Cu and
+Au-coated Cu (Au@Cu) were surface-treated as in the TCIC process; bare
+Cu sheets that were only plasma-treated were also tested. As shown in
+Fig. 2b, the Au-coated Cu sheets had increased connection strength than
+acrylate-modiﬁed Cu. The characteristic peaks at the 240–270 cm
+−1 band in
+Fig. 1 | Stretchable thiol click interfacial connection (TCIC). a Stretchable connections of various materials and units for the integration of ﬂexible hybrid electronics.
+b Anisotropic conductivity of the stretchable connection. c Schematic illustration of surface modi ﬁcations and interfacial reactions during TCIC.
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 2
+
+the Raman spectrum conﬁrmed the existence of thiol-Au bonds (Fig. 2c).
+The surface of bare Cu was oxidized during plasma treatment and could
+better react with thiol groups to form thiol-Cu bonds (bond energy of Cu-S
+is 274.5 ± 14.6 kJ/mol, Au-S is 253.6 ± 14.6 kJ/mol)
+42, leading to the highest
+connection strength. The acrylate-modiﬁed Cu had a lower reaction site
+density than bare metals and thus had the lowest strength. Nevertheless, all
+three groups were well connected by TCIC.
+The surface acrylate groups were a monolayer, so the thiol-ene
+reaction would quickly be“saturated”. The excess thiol groups in the MTP
+would then be slowly oxidized into disulﬁde bonds. The Raman spectra of
+MTP samples conﬁrmed the oxidation (Fig.2d). The characteristic peak of
+thiol groups appeared at 210 cm
+−1, and the disulﬁde bond peak appeared
+at 510 cm−1. After storing it for 3 months, the ratio of disul ﬁdes to thiols
+signiﬁcantly increased, indicating continuous interfacial bond formation
+after the initial connection by TCIC (Fig. 2e). It was also validated by the
+self-strengthening interfaces in TCIC-connected PDMS. With longer
+placement times, the interfacial toughness continuously increased and
+reached about 233 N/m after 3 months (Fig.2f). Moreover, even after self-
+strengthening, the physical properties of the connected materials would
+not be affected (Fig. S5), which was bene ﬁcial for applications in ﬂexible
+electronics.
+Mechanical strength and stretchability
+The interfacial toughness of differentmaterial combinations was measured
+to validate the universality of TCIC.PDMS and SEBS were selected as typical
+materials for soft-soft connections (Fig.2g). For combinations with PDMS,
+the interfacial toughness was signiﬁcantly improved compared to almost 0
+without TCIC. Due to the excellent self-adhesion of SEBS, when SEBS or
+Au-coated SEBS (Au@SEBS) was connected to itself, TCIC exhibited lower
+interfacial toughness. However, afterrt placement, their interfacial tough-
+ness increased rapidly and reached a comparable value to the SEBS control
+group (Fig. S6) and neutralized this issue. When SEBS was connected to
+other materials, TCIC still greatly enhanced the connection strength (Fig.
+S7a). For soft-rigid connections, PDMS and SEBS, as stretchable soft parts,
+were successfully connected with various rigid parts, including ﬂexible
+materials PI, PET, and paper; electronic materials Cu, Ag, Ti, Sn, Si, and ITO
+(Fig. 2h and Fig. S7a). Contact angle tests con ﬁrmed the modiﬁcation of
+acrylate groups on the material surfaces, suggesting that the interfacial thiol-
+ene reactions promoted the connections (Fig. S7b). The tough bonding of
+PDMS and SEBS with other materials proved that TCIC was a universal
+method for various materials.
+The improved interfacial strength provided the possibility for robust
+connections between stretchable and ﬂexible/rigid units. The connected
+Fig. 2 | Covalent bond formation at the interfaces during TCIC. a Interfacial
+toughness of surface-modiﬁed and unmodiﬁed PDMS ﬁlms connected by MTP after
+1.5 h reaction at 60 °C.b Lap shear tests of Cu sheets with different surfaces.c, Raman
+spectrum of MTP-coated Au@SEBS surface, con ﬁrming the formation of thiol-Au
+bonds. d Changes in the Raman spectra of MTP before and after 3 months of storage
+at 4 °C. 210 cm−1 stood for the thiol group, and 510 cm −1 stood for disulﬁde bonds.
+e Illustration of the covalent bonds formed at interfaces connected by TCIC. The
+conversion from thiols to disul ﬁdes at rt could continuously strengthen the
+interfaces. f The interfacial toughness of TCIC-connected PDMS ﬁlms gradually
+enhanced with prolonged rt placement. g 180° peel tests of soft-soft combinations.
+The PDMS + PDMS combination had almost 0 interfacial toughness. Au@PDMS
+was not shown as the Au layer would easily detach from PDMS and result in almost 0
+interfacial toughness. h 90° peel tests of soft-ﬂexible/rigid combinations with PDMS
+or SEBS as the soft stretchable materials. The PDMS + Cu combination had high
+interfacial toughness, and the PDMS ﬁlm fractured early during the peeling tests;
+thus, their toughness values were not obtained.
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 3
+
+hybrid units kept the stretchability of the soft parts; their lap shear strength
+and mechanical stretchability (maximum strain) were summarized in Fig.
+3a. All the combinations exhibited decent strength and acceptable stretch-
+ability, especially the SEBS combinations due to the excellent stretchability
+of SEBS. Typical tensile curves for the shear stretching tests were selected
+(Fig. 3b, c), representing the connection of PDMS or SEBS with rubbers,
+plastics, metals, and papers. The curves for all material combinations are in
+Fig. S8.
+The connections of stretchable mat erials with materials for manu-
+facturing conventional electronic components (metals, silica, and oxides)
+have already been realized by TCIC. To further conﬁrm that TCIC could
+construct stable connections between stretchable circuits and electronic
+components, rigid LEDs and chips were connected to stretchable materials
+(Fig. 3d). They could be well connected and achieve high stretchability (Fig.
+S9). The stretchability between PDMS/SEBS and various ﬂexible/rigid
+materials validated that TCIC was a universal method for constructing
+reliable mechanical connections.
+Electrical conductivity and stretchability
+Unanticipated, the added MTP layer did not block the electron pathway
+between the surfaces, and TCIC-connected Au@Cu kept their high con-
+ductivity (Fig. S10). More accurate measurements conﬁrmed the low con-
+tact resistance of TCIC which was only ~1.5 mΩ with 50 mg/mL MTP and
+~3.5 mΩ with 50 mg/mL MTP for 1 cm
+2 contact area between Cu@PI (Fig.
+S11a). And the oxidation of MTP layer would not result in increased contact
+resistance (Fig. S11b). To understand the mechanism, the MTP interlayer
+was exposed by a sacri ﬁcial layer method (Fig. S12a), followed by char-
+acterization by a conductive atomic force microscope (C-AFM). As the
+amount of MTP was quite small (the solution applied was 0.7-0.8μL/cm
+2),
+the MTP interlayer was thinner than 10 nm with imperfections (Fig. 4a),
+leaving exposed metal surfaces. When connected, these exposed points from
+two surfaces contact each other and build conductive pathways (Fig. 4b),
+especially when one of them is a defo rmable soft unit. The conductivity
+mapping by C-AFM con ﬁrmed the leaky conductive sites in the MTP
+interlayer (Fig.4c), and with less MTP the exposed conductive sites could be
+increased (Fig. S12b). The absence of conductiveﬁllers guaranteed an ani-
+sotropic conductivity of TCIC, making its applications more convenient.
+The electrical stretchability of TCIC was measured with Au@SEBS and
+liquid metal-coated PDMS (EGaIn@PDMS) (Fig. S13a). Au@PDMS is also
+popular, but the poor Au-PDMS interfacelimited their stretchability after
+connection (Fig. S13b). The electrical stretchability wasﬁrst conﬁrmed by
+connecting two Au@SEBSﬁlms (Fig.4d). As Au@SEBS could be reﬁned to
+an excellent self-connectiv e stretchable conductor 41, the control group
+exhibited higher electrical stretchability. The reason was the stronger MTP-
+Au interface than the Au-SEBS interface. Although the Au was more tightly
+bonded to SEBS than to PDMS, the Au would still be peeled off from SEBS
+by TCIC during stretching before mechanical failure (Fig. S14a). Never-
+theless, TCIC-connected Au@SEBSﬁlms showed good stability and could
+be further improved by using striped Au@SEBSﬁlms (Fig. S14b). Moreover,
+the TCIC-connected Au@SEBS exhibited better electrical stretchability in
+the strain range of 0-40%. As shown in Fig. S14c, even though strain/stress
+concentration appeared at the edges of the connection, the MTP layer also
+dissipated the stress of the covered Au, leading to slower and less crack
+formation during stretching. Further, Au@SEBS ﬁlms were connected to
+patterned commercial Cu@PI ﬁlms, which simulated the connections of
+stretchable units with ﬂexible PCBs. After 3,000 stretching cycles at 40%
+strain, the resistance increased by only 17% at 40% strain (Fig.4e), indicating
+the good stability of TCIC-connected electronics.
+EGaIn@PDMS, beneﬁting from liquid metal, had excellent mechan-
+oelectrical performance, but the poora d h e s i o no fP D M Sa n dl i q u i dm e t a l
+hindered their connection. TCIC could overcome this problem and realized
+robust connections for EGaIn@PDMS (Fig.4f). The EGaIn@PDMS had to
+be stripped as liquid metal would easily peel off from PDMS, and bare
+PDMS surfaces were required to provide mechanical connections. TCIC-
+connected EGaIn@PDMS also exhibited excellent stability; it remained
+highly conductive during and after 10,000 stretching cycles at 60% strain,
+Fig. 3 | The mechanical stretchability of TCIC. a Summary of mechanical
+stretchability (strain at break) of TCIC-connected soft- ﬂexible/rigid combinations.
+Typical tensile curves of TCIC connected.b PDMS, and c, SEBS with other materials.
+d The common materials used in electronic components, and TCIC connected
+electronics components with Au@SEBS stretchable conductors. Left: an LED unit
+bridging two Au@SEBS ﬁlms. Right: a chip with 8 pins bridging two Au@SEBSﬁlms.
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 4
+
+regardless of the ﬂuctuation caused by the deformation of liquid metal
+(Fig. 4g). The mechanical properties of the connections also tolerated cyclic
+stretching (Fig. S15), indicating the robustness of TCIC.
+The electrical stretchability of combinations between stretchable and
+ﬂexible/rigid conductors was measured (Fig. 4h and i). They all exhibited
+certain electrical stretchability, and the combination of stretchable con-
+ductors and commercial Cu@PI could endure cyclic bending and twisting
+(Fig. S16), con ﬁrming the universality of TCIC. For several most
+encountered conductive materials in electronics, Sn, Cu, and Au, the
+electrical stretchability all reached more than 40% strain. For Au@SEBS
+samples, the stretchability was limited by the Au-SEBS interface in the
+stretchable conductor (Fig. S17). Unlike Au@SEBS, EGaIn@PDMS
+samples had better conductivity, but their mechanical failure occurred
+earlier than electrical failure (Fig. S18). The selection between these two
+stretchable conductors should be done considering the practical
+requirements of the connections. The above results con ﬁrmed the uni-
+versality of TCIC and the good electrical stretchability and stability of
+TCIC-connected electronics.
+Fig. 4 | The electrical connectivity and stretchability of TCIC. a 3D AFM height
+map of exposed Au surface after TCIC treatment with 100 mg/mL MTP. b The
+mechanism for the electron pathways at the MTP interlayer after TCIC. c Exposed
+conductive sites revealed by conductive AFM. d Comparison of electrical stretch-
+ability of connected Au@SEBS ﬁlms by self-adhesion or TCIC. e The electrical
+stability of TCIC connected Au@SEBS and commercial Cu@PI, which simulates PI
+PCBs. f The electrical stretchability of TCIC-connected striped EGaIn@PDMSﬁlms.
+The ﬁlms could not be connected without MTPs. g The electrical stability of TCIC
+connected striped EGaIn@PDMS. The resistance ﬂuctuation was caused by the
+deformation of the liquid metal during stretching. The electrical stretchability of
+various electronic materials connected to h, Au@SEBS, i EGaIn@PDMS by TCIC.
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 5
+
+Comparison between TCIC and other recently reported stretchable
+connections41,43–46 was summarized in Table S1. TCIC had good mechanical
+durability and electrical stability; its fabrication and application were also
+one of the simplest. Most importantly, TCIC was applicable to most
+materials encountered in ﬂexible electronics, endowing it with excellent
+universality. TCIC was also compared to commercial ACF, silver paste, and
+other reported ACFs
+47–50 (Fig. S19 and Table S2), showing its advantages in
+convenience and performance.
+Applications of TCIC in ﬂexible hybrid electronics
+TCIC was mild, fast, and universal for most materials used in electronics,
+which made it possible to integrate rigid electronic components with
+stretchable units quickly and stably for the fabrication of ﬂexible hybrid
+devices. To illustrate the convenience and performance of TCIC, stretchable
+circuits on various ﬂexible substrates were fabricated. Due to the excellent
+electrical stretchability of EGaIn@PDMS, circuits on PDMS exhibited
+satisfactory performance. TCIC-integrated LED on EGaIn@PDMS could be
+stretched to more than 80% strain while still lighting brightly (Movie S1).
+The TCIC-mounted LED was stabl e and could withstand more than
+4000 stretching cycles without decay in light luminance (Fig. 5a). On the
+contrary, the attached LED on EGaIn@PDMS under the same conditions
+without MTP would easily detach from the circuits (Fig.5ba n dM o v i eS 2 ) .
+Based on the EGaIn@PDMS, stretchable circuits with multiple LED sites
+were fabricated (Fig.5c). The circuits exhibited excellent stretchability along
+different directions (Fig. 5d ) .E v e nw h e nt h eL E D sw e r ep u l l e du pb ya
+tweezer and shaken violently, the TCIC-mounted LED circuits would not
+fail and kept their light-emitting functions (Movie S2). The integration of
+LED with EGaIn@PDMS circuits conﬁrmed the stability and high perfor-
+mance of TCIC in manufacturingﬂexible hybrid devices.
+Au@SEBS circuits were also fabricated by TCIC. As shown in Fig.5e,
+the light of LED on Au@SEBS decayed signiﬁcantly when being stretched
+d u et ot h ei n c r e a s e dr e s i s t a n c eo fA u @ S E B Sa tt h ee d g e so ft h es o f t - r i g i d
+interfaces. The overall stretchability could be improved by constructing
+stable rigid islands via TCIC (Fig. S20), exhibiting the versatile application
+strategies of TCIC.
+To further prove the versatilityof TCIC, paper, a common and cheap
+substrate, was used for fabricating ﬂexible circuits. The circuits could be
+directly drawn on paper by conductive inks, such as copper and silver paints.
+Fig. 5 | Flexible hybrid electronics constructed through TCIC. aRelative change in
+light intensity of an LED mounted on EGaIn@PDMS circuit by TCIC during cyclic
+stretching for 4000 cycles at 80% strain. The LED became brighter when being
+stretched as the contact area between LED pins and liquid metal increased after
+deformation. b LEDs were unable to stay on EGaIn@PDMS without TCIC treat-
+ment. c Schematic of the stretchable LED circuits on EGaIn@PDMS. d The TCIC-
+mounted LEDs could endure large strain during both the X- and Y-axis stretching.
+Scale bar: 3 cm. e Relative change in light intensity of an LED mounted on Au@SEBS
+circuit by TCIC. f A paper-based photoresistor-controlled ﬂexible device. Scale bar:
+1 cm. g Illustration of the gesture visualizing glove integrated from various soft/rigid
+units by TCIC. h Coding of the four colored lights on the gloves and four repre-
+sentative gestures with their corresponding codes.
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 6
+
+Without any soldering process, LEDs were mounted on paper circuits by
+TCIC and could withstand twisting or bending (Fig. S21a and Movie S3).
+For more complicated and precise circuits, the conductive lines were pro-
+duced by thermal vapor deposition of Au on papers with masks. A circuit
+was fabricated on paper and linked to an LED on Au@SEBS (Fig. S21b) with
+all interfaces connected by TCIC. The circuit had a photoresistor as control
+(Movie S4). This TCIC-integrated ﬂexible hybrid device could function
+under deformation (Fig.5f), validating the versatility of TCIC.
+Finally, a multi-materials integrated gesture-visualizing glove was
+designed and fabricated with the entire system connected by TCIC. The
+glove was composed of multiple components and units, including the
+substrate nitrile glove, EGaIn, PI, Au@SEBS, PET, conductive silver paste,
+LED components, and a rigid battery holder unit (Fig. 5g). LEDs were
+mounted on EGaIn@PI by TCIC as LED rigid stripes, which were attached
+to the glove by TCIC. Theﬁnger direction of EGaIn@PI was connected to a
+hollow PET frame and Au@SEBS by TCIC (Fig. S22a). When the ﬁnger
+bends, the adhered Au@SEBS would be stretched with increased resistance,
+leading to open circuit and function as a switch that sensesﬁnger bending
+(Fig. S22b). The rest circuits on the glove were drawn by a conductive silver
+paste and connected to the battery holder through stretchable Au@SEBS by
+TCIC. The whole hybrid device was integrated by TCIC from the above-
+mentioned materials and units. Four LEDs with distinct colors were con-
+nected to four ﬁngers and were ON when the ﬁngers were straight. The
+colors of the lights indicated the position of the LED and were used for
+coding the gestures; thus, they couldbe recognized even in the dark (Fig.5h
+and Fig. S23a). The distinct colors made it possible to distinguish the codes
+better, for instance, codes from single-colored LEDs would be indis-
+tinguishable for 0011, 0110, and 1100. The gesture visualization by the glove
+w a sa l s oa c h i e v e do nah u m a nh a n d( M o v i eS 5 ) ,a n dt h eg e s t u r e sc o u l db e
+speculated by the lights in the dark (Fig. S23b). The applications of TCIC in
+the fabrication of multiple material /unit devices have further proved its
+stability, universality, convenience, and practicability in ﬂexible hybrid
+electronics.
+Discussion
+Universal stretchable connections forﬂexible hybrid electronics were rea-
+lized by thiol click interfacial connection (TCIC), which was simple but
+could stably and conveniently connectmost materials and components used
+in ﬂexible electronics. TCIC included a surface modiﬁcation step and an
+interfacial covalent reaction step with multi-thiol polymers. The thiol-Au
+bonds and thiol-ene click reactions at interfaces provided robust mechanical
+connections between stretchable andﬂexible/rigid materials. The“welded”
+SEBS rubber and metals could withstand tensile strains over 250% with
+interfacial toughness over 200 N/m. The ultrathin MTP layer guaranteed
+anisotropic conductivity of the connections, achieving electrical stretch-
+ability over 50% between Au@SEBS and metals used in electronics. TCIC
+also exhibited high stability, the connected EGaIn@PDMS stretchable
+conductors kept excellent conductivity during and after 10,000 continuous
+stretching cycles to 60% strain. Moreover, the operations of TCIC were
+simple and the conditions were mild (below 60 °C) with self-strengthening
+properties at rt. Beneﬁting from the universality of TCIC, it was used to
+fabricate hybrid devices that integrate both soft and rigid units. Stretchable
+circuits were fabricated on PDMS and SEBS with mounted electronic
+components, andﬂexible devices were manufactured on papers and gloves,
+highlighting the versatility and robustness of TCIC. These characteristics of
+TCIC endowed stretchable connections with enormous potential in the
+fabrication and integration of multi-material ﬂexible hybrid electronic
+devices.
+Methods
+Materials
+Pentaerythritol tetrakis(3-mercapto-propionate) (PETMP, purity 95%) and
+EGaIn (Ga 75.5%/In 24.5%, purity 99.99%) were purchased from Sigma-
+Aldrich. Poly(ethylene glycol) diacrylate (PEGDA, Mw = 700 g/mol) was
+purchased from Aladdin Scientiﬁc. Sodium ethoxide (EtONa, purity 98%)
+and CDCl
+3 (purity 99.8%) were purchased from J&K Scienti ﬁcL t d .3 -
+(trimethoxysilyl)propyl acrylate (purity 99%) was purchased from Macklin
+Reagent. Organic solvents were purchased from Chinasun. Poly-
+dimethylsiloxane (PDMS, SYLGARD 184) was the product of Dow Inc.
+Styrene ethylene butylene styrene (SEBS, H1221) was the product of Tuftec.
+Polyethylene glycol terephthalate (PET) was PP2910 produced by 3 M. Gold
+f o rt h e r m a lv a p o rd e p o s i t i o nw a sp urchased from ZhongNuo Advanced
+Material (Beijing) Technology Co., Ltd., with a purity of 99.999%. Polyimide
+(PI), paper (with smooth surfaces), electronics components, and other metal
+sheets were common commercial products. All the materials were used
+without further puriﬁcation.
+Fabrication of stretchable substrates and conductors
+PDMS ﬁlms (thickness ~100 μm) were prepared by spin-coating the
+PDMS precursor (curing ratio 10:1) onto a ﬂuorinated silica plate at
+1000 rpm for 15 seconds and then cured in an oven at 80 °C for 2 hours.
+SEBS ﬁlms (thickness ~150 μm) were prepared by casting 20 mL of SEBS
+solution (13%wt in toluene) into a glass mold (round, diameter ~12 cm)
+and slowly removing the solvent by evaporation at rt. Metal deposition
+was done by electron beam evaporation with a Kurt J Lesker PVD75, at a
+rate of 0.5 Å/s for all samples. For Au@SEBS, a 45 nm thick Au layer was
+evaporated on the SEBS ﬁlm. For Au@PDMS, 5 nm Cr was ﬁrst evapo-
+rated on the PDMS ﬁlm, followed by a 70 nm Au layer. The thickness of
+the Au layer on the paper substrate was 100 nm, and on the PET sub-
+strates was 70 nm. The circuit patterns were realized by using masks with
+the desired patterns. For EGaIn@PDMS, a patterned PET mask was
+placed on the top of the PDMS ﬁlm, and EGaIn was coated by rubbing as
+reported in a previous article
+51.
+Synthesis of multi-thiol polymer (MTP)
+2 g of PETMP and 830 μL of EtONa solution in ethanol (5 mg/mL) was
+added to aﬂask with 10 mL of chloroform, 2.57 g of PEGDA (molar ratio of
+PETMP: PEGDA = 1: 0.9) was added to a dropping funnel with 10 mL of
+chloroform. The PETMP solution was heated at 60 °C and stirred at
+800 rpm, then the PEGDA solution was controlled to be added dropwise at a
+rate of 3 s a drop. The reaction continued for 2 h and was quenched by
+adding water. The reaction mixturewas washed with water to remove the
+NaOH and ethanol, dried, and rotary evaporated to remove the chloroform
+solvent. The product MTP was not further puriﬁed. Air was not purposely
+avoided during the synthesis of MTP. The molecular weight of MTP was
+characterized by GPC(PL-GPC220).
+1HNMR were measured in CDCl 3
+solutions by a Bruker AVANCEIII HD-400 NMR spectrometer at 298 K.
+Thiol click interfacial connection (TCIC) process
+T h es u r f a c eo ft h et a r g e tm a t e r i a lo ru n i tw a sﬁrst treated with plasma (SAT-
+5D) at 90 W for 30 seconds. Then it was placed in a vacuum dryer con-
+taining 20μL of 3-(trimethoxysilyl)propyl acrylate (dropped on a glass slide
+or petri dish). The vacuum dryer was evacuated to around 0.05 bar and left
+at rt for overnight. Then the surfaces of the target material or unit were ready
+for interfacial reactions. The water contact angle was tested on DataPhysics
+OCA to observe changes in surface properties. A typical MTP solution was
+prepared as follows: 100 mg MTP was completely dissolved in 1 mL of
+acetone, and then 32μL of EtONa solution in ethanol (5 mg/mL) was added.
+The solution was shaken well and ready for use. A syringe withﬂat ﬂat-head
+needle was used to spread the MTP solution on the target surfaces. The
+surfaces were then contacted and pl aced at the desired temperature for
+TCIC. For comparison, the controlled conditions (60 °C reaction for 1.5 h
+with 0.5 kPa pressure applied) were realized by placing an adequate weight
+(water in a container with a ﬂat bottom) on the connection area.
+Characterization
+For AFM images, height and current mapping were measured using Bruker
+Dimension ICON. Raman spectra were recorded by a Horiba HR800. MTP
+was coated on Au@SEBS to characterize the formation of S-Au bonds. MTP
+was encapsulated in a quartz tube witha c e t o n et oo b s e r v et h ec h a n g eo f- S H
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 7
+
+and -S-S-. The microscopic images were observed using an optical micro-
+scope (Nikon Y-TV55). The transmittance was measured using a UV-VIS-
+NIR Spectrophotometer (PE750).
+Mechanical characterization
+The mechanical strength was measured by a mechanical tester (YH-9002) in
+tensile stretching mode. The stretching speeds were allﬁxed at 60 mm/min.
+Sandwiched tensile experiments o f the carbon tape group used carbon
+double-sided tape (Nisshin 731) and were pressed with 0.5 kPa pressure at
+60 °C for 1.5 h. The samples were then cut into strips with a width of 5 mm
+for tensile testing. The interfacial to ughness of soft-soft interfaces was
+measured by 180° peeling tests with 10mm width of samples. The interfacial
+toughness of soft-ﬂexible/rigid interfaces was measured by 90° peeling tests
+with 10 mm width of samples. The connection strength between rigid
+materials (Cu and Au@Cu) was measured by lap shear tests with a 10 mm ×
+10 mm overlapping area. The mechanical stretchability and electrical
+stretchability were measured in lap shear mode with a 10 mm × 10 mm
+overlapping area.
+Electrical characterization
+The electrical resistance was measured by a DMM6500 6.5-digit multimeter.
+L i q u i dm e t a ll i n e sw e r ed r a w no ns a m p l e sf o rb e t t e rc o n t a c tw i t ht h ew i r e s
+from the multimeter. The stretching rate for electrical stretchability tests was
+10 mm/min. The cycle stability of TCIC-connected Au@SEBS and com-
+mercial PI PCB was recorded after reaching a stable state (after about 200
+cycles) due to the continuously decreasing resistance of Au@SEBS in the
+initial stretching and releasing cycles. The luminance of the LED with
+EGaIn@PDMS and Au@SEBS was recorded by a UNI-T ut382 in a dark box
+to avoid the inﬂuence of environmental light.
+Data availability
+The authors declare that the data supporting theﬁndings of this study are
+available within the paper and its Supplementary Informationﬁles. Should
+any raw data ﬁles be needed in another format, they are available from the
+corresponding author upon reasonable request.
+Received: 14 April 2025; Accepted: 30 June 2025;
+References
+1. Byun, S. H. et al. Mechanically transformative electronics, sensors,
+and implantable devices. Sci. Adv. 5, eaay0418 (2019).
+2. Li, H., Tang, Z., Liu, Z. & Zhi, C. Evaluating ﬂexibility and wearability of
+ﬂexible energy storage devices. Joule 3, 613–619 (2019).
+3. Zhang, Z. et al. Eco-friendly, self-healing hydrogels for adhesive and
+elastic strain sensors, circuit repairing, andﬂexible electronic devices.
+Macromolecules 52, 2531–2541 (2019).
+4. Cao, C. et al. Mitigating the overheat of stretchable electronic devices
+via high-enthalpy thermal dissipation of hydrogel encapsulation. Adv.
+Mater. 36, e2401875 (2024).
+5. Rogers, J. A., Someya, T. & Huang, Y. Materials and mechanics for
+stretchable electronics. Science 327, 1603–1607 (2010).
+6. Zhuang, Q. et al. Permeable, three-dimensional integrated electronic
+skins with stretchable hybrid liquid metal solders. Nat. Electron. 7,
+598–609 (2024).
+7. Zhang, Z. et al. High-brightness all-polymer stretchable LED with
+charge-trapping dilution. Nature 603, 624–630 (2022).
+8. Zhang, S., Ke, X., Jiang, Q., Ding, H. & Wu, Z. Programmable and
+reprocessable multifunctional elastomeric sheets for soft origami
+robots. Sci. Robot. 6, eabd6107 (2021).
+9. Park, S. et al. Self-powered ultra- ﬂexible electronics via nano-grating-
+patterned organic photovoltaics. Nature 561, 516–521 (2018).
+10. Brasier, N. et al. Applied body- ﬂuid analysis by wearable devices.
+Nature 636,5 7–68 (2024).
+11. Chen, S. et al. Ultrahigh strain-insensitive integrated hybrid
+electronics using highly stretchable bilayer liquid metal based
+conductor. Adv. Mater. 35, e2208569 (2023).
+12. Duan, J., Liang, X., Guo, J., Zhu, K. & Zhang, L. Ultra-stretchable and
+force-sensitive hydrogels reinforced with chitosan microspheres
+embedded in polymer networks. Adv. Mater. 28, 8037–8044 (2016).
+13. Lei, Z. & Wu, P. A highly transparent and ultra-stretchable conductor
+with stable conductivity during large deformation. Nat. Commun. 10,
+3429 (2019).
+14. Ershad, F. et al. Ultra-conformal drawn-on-skin electronics for
+multifunctional motion artifact-free sensing and point-of-care
+treatment. Nat. Commun. 11, 3823 (2020).
+15. Gao, W., Ota, H., Kiriya, D., Takei, K. & Javey, A. Flexible electronics
+toward wearable sensing. Acc. Chem. Res.
+52, 523–533 (2019).
+16. Guo, R. et al. Semiliquid metal enabled highly conductive wearable
+electronics for smart fabrics. ACS Appl. Mater. Interfaces 11,
+30019–30027 (2019).
+17. Yamamoto, Y. et al. Ef ﬁcient skin temperature sensor and stable gel-
+less Sticky ECG sensor for a wearable ﬂexible healthcare patch. Adv.
+Healthc. Mater. 6, 1700495 (2017).
+18. Yuk, H. et al. Dry double-sided tape for adhesion of wet tissues and
+devices. Nature 575, 169–174 (2019).
+19. Kim, J. et al. Stretchable silicon nanoribbon electronics for skin
+prosthesis. Nat. Commun. 5, 5747 (2014).
+20. Yang, Y. & Gao, W. Wearable and ﬂexible electronics for continuous
+molecular monitoring. Chem. Soc. Rev. 48, 1465–1491 (2019).
+21. Liu, Y., Pharr, M. & Salvatore, G. A. Lab-on-skin: a review of ﬂexible
+and stretchable electronics for wearable health monitoring.ACS Nano
+11, 9614–9635 (2017).
+22. Maheshwari, V. & Saraf, R. Tactile devices to sense touch on a par with
+a human ﬁnger. Angew. Chem. Int. Ed. 47, 7808–7826 (2008).
+23. Tang, L., Wang, H., Ren, J. & Jiang, X. Highly robust soft-rigid
+connections via mechanical interlocking for assembling ultra-
+stretchable displays. npj Flex. Electron 8, 50 (2024).
+24. Minev, I. R. et al. Biomaterials. Electronic dura mater for long-term
+multimodal neural interfaces. Science 347, 159–163 (2015).
+25. Viventi, J. et al. A conformal, bio-interfaced class of silicon electronics for
+mapping cardiac electrophysiology.Sci. Transl. Med.2, 24ra22 (2010).
+26. Cui, G. P. et al. 3D-printed Bi(2)Te(3)-based Thermoelectric
+Generators for Energy Harvesting and Temperature Response. ACS
+Appl. Mater. Interfaces 16, 35353–35360 (2024).
+27. Ji, S. & Chen, X. Enhancing the interfacial binding strength between
+modular stretchable electronic components. Natl Sci. Rev. 10,
+nwac172 (2023).
+28. Wu, B., Wu, T., Huang, Z. & Ji, S. Advancing ﬂexible sensors through
+on-demand regulation of supramolecular nanostructures. ACS Nano
+18, 22664–22674 (2024).
+29. Chen, Z., Zhang, G., Luo, Y. & Suo, Z. Rubber-glass nanocomposites
+fabricated using mixed emulsions. Proc. Natl Acad. Sci. Usa. 121,
+e2322684121 (2024).
+30. Naserifar, N., LeDuc, P. R. & Fedder, G. K. Material gradients in
+stretchable substrates toward integrated electronic functionality.
+Adv. Mater. 28, 3584–3591 (2016).
+31. Sun, B. et al. Gradient modulus strategy for alleviating stretchable
+electronic strain concentration.Adv. Funct. Mater.34, 2410676 (2024).
+32. Yang, J. C. et al. Geometrically engineered rigid island array for
+stretchable electronics capable of withstanding various deformation
+modes. Sci. Adv. 8, eabn3863 (2022).
+33. Liu, Y., He, K., Chen, G., Leow, W. R. & Chen, X. Nature-inspired
+structural materials for ﬂexible electronic devices. Chem. Rev. 117,
+12893–12941 (2017).
+34. Lim, H. S., Kim, S.-N., Lim, J. A. & Park, S.-D. Low temperature-cured
+electrically conductive pastes for interconnection on electronic
+devices. J. Mater. Chem. 22, 20529 (2012).
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 8
+
+35. Ozutemiz, K. B., Wissman, J., Ozdoganlar, O. B. & Majidi, C.
+EGaIn–metal interfacing for liquid metal circuitry and microelectronics
+integration. Adv. Mater. Interfaces 5, 1701596 (2018).
+36. Hirsch, A., Dejace, L., Michaud, H. O. & Lacour, S. P. Harnessing the
+rheological properties of liquid metals to shape soft electronic conductors
+for wearable applications.Acc. Chem. Res.52, 534–544 (2019).
+37. Soh, E. J. H. et al. AFM manipulation of EGaIn microdroplets to
+generate controlled, on-demand contacts on molecular self-
+assembled monolayers. ACS Nano 16, 14370–14378 (2022).
+38. Hwang, H. et al. Stretchable anisotropic conductive ﬁlm (S-ACF) for
+electrical interfacing in high-resolution stretchable circuits. Sci. Adv.
+7, eabh0171 (2021).
+39. Park, Y. G. et al. Self-healable, recyclable anisotropic conductive ﬁlms
+of liquid metal-gelatin hybrids for soft electronics. Adv. Electron.
+Mater. 8, 2101034 (2022).
+40. Jiang, Z. et al. A 1.3-micrometre-thick elastic conductor for seamless
+on-skin and implantable sensors. Nat. Electron. 5, 784–793 (2022).
+41. Jiang, Y. et al. A universal interface for plug-and-play assembly of
+stretchable devices. Nature 614, 456–462 (2023).
+42. Luo Y.-R. Comprehensive Handbook of Chemical Bond Energies .
+CRC Press (2007).
+43. Dou, J., Tang, L., Mou, L., Zhang, R. & Jiang, X. Stretchable
+conductive adhesives for connection of electronics in wearable
+devices based on metal-polymer conductors and carbon nanotubes.
+Compos. Sci. Tech. 197, 108237 (2020).
+44. Zhang, A., Maly, J. & Ameri, S. K. Hetero phase nanocomposite based
+posture sensor with stretchable connector-sensor interface. Sens.
+Actuat. A: Phys. 378, 115811 (2024).
+45. Park, D. et al. Stretchable anisotropic conductive ﬁlm with position‐
+registered conductive microparticles used for strain ‐insensitive ionic
+interfacing in stretchable ionic sensors. Adv. Funct. Mater. 34,
+2408902 (2024).
+46. Yoon, H., Jeong, S., Lee, B. & Hong, Y. A site-selective integration
+strategy for microdevices on conformable substrates. Nat. Electron.
+7, 383–395 (2024).
+47. Haque, A. B. M. T. et al. Electrically conductive liquid metal composite
+adhesives for reversible bonding of soft electronics. Adv. Funct.
+Mater. 34, 2304101 (2024).
+48. Pozarycki, T. A., Zu, W., Wilcox, B. T. & Bartlett, M. D. A ﬂexible and
+electrically conductive liquid metal adhesive for hybrid electronic
+integration. Adv. Funct. Mater. 34, 2313567 (2024).
+49. Jeong, K. et al. A Sub-Micron-Thick stretchable adhesive layer for the
+lamination of arbitrary elastomeric substrates with enhanced
+adhesion stability. Chem. Eng. J.
+429, 132250 (2022).
+50. Huynh, V. L., Aasmundtveit, K. E. & Nguyen, H. V. Enabling low
+pressure, low temperature, and particle control for anisotropic
+conductive adhesives. Adv. Mater. Technol. 9, 2400262 (2024).
+51. Yuan, B., Sun, X., Wang, Q. & Wang, H. Direct fabrication of liquid-
+metal multifunctional paper based on force-responsive adhesion.Cell
+Rep. Phys. Sci. 4, 101419 (2023).
+Acknowledgements
+This work is supported by Collaborative Innovation Center of Suzhou Nano
+Science & Technology; the 111 Project; Innovative Center for Molecular
+Science of Surface and Interface, Soochow University; Suzhou Key
+Laboratory of Surface and Interface of Intelligent Matter (Grant no.
+SZS2022011); the Gusu Innovation and Entrepreneurship Talent Program -
+Major Innovation Team (ZXD2023002); Basic Research Program of Jiangsu
+Province (BK20240826); National Natural Science Foundation of China
+(52473218, U24A20496).
+Author contributions
+S.J. and L.C. conceived and designed the experiments. Y.Z., Q.R., T.L., H.Q.,
+R.Z. and S.W. performed the experiments. Y.Z., Q.R. and S.J. analyzed the
+data. Y.Z., S.J. and L.C. wrote the manuscript with contributions from all
+authors. All authors reviewed the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41528-025-00449-w
+.
+Correspondenceand requests for materials should be addressed to
+Lifeng Chi or Shaobo Ji.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modi ﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article ’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+is not included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/
+.
+© The Author(s) 2025
+https://doi.org/10.1038/s41528-025-00449-w Article
+npj Flexible Electronics |            (2025) 9:63 9

@@ -1,0 +1,853 @@
+RESEARCH ARTICLE
+www.advancedscience.com
+PhotopatternablePEDOT:PSSHydrogelsfor
+High-ResolutionPhotolithography
+Wen Wang, Jingcheng Liu, Hai Li, Yi Zhao, Rongtai Wan, Qiaobo Wang, Jingkun Xu,
+and Baoyang Lu*
+Conductingpolymerhydrogelshavebeenextensivelyexploredtowarddiverse
+applicationslikebioelectronicsandsoftrobotics.However,thefabrication
+resolutionofconductingpolymerhydrogelsbytypicaltechniques,including
+ink-jetprinting,3D-printing,etc.,hasbeengenerallylimitedto >10 μm,
+signiﬁcantlyrestrictingrapidinnovationsandbroadapplicationsof
+conductingpolymerhydrogels.Toaddressthisissue,aphotosensitive
+biphasicconductingpolymerhydrogel(PB-CH)isrationallydesignedand
+synthesized,comprisingpoly(3,4-ethylenedioxythiophene):poly(styrene
+sulfonate)(PEDOT:PSS)astheconductivephaseandalight-sensitivematrix
+asthemechanicalphase.Theformationofphase-separatedstructureswithin
+PB-CHpreservestheintegrityoftheconductivechannelsduringthe
+photoinitiatedcross-linking.Thisminimizestheconductivityloss,acommon
+limitationinsimilarmaterials.Remarkably,theresultantPB-CHexhibitsa
+combinationofexcellentelectricalconductivity( ≈30Scm −1),robust
+mechanicalperformance(tensilestrainupto50%),andhigh
+photopatternability.Adetailedinvestigationofthephotolithographyprocess
+identiﬁeskeytechnologicalparametersthatenablehigh-resolutionpatterning
+of5 μm.Bysimultaneouslymaintainingprocessability,conductivity,and
+mechanicalﬂexibility,thisPB-CHrepresentsanidealcandidateforadvanced
+ﬂexibleelectronicapplications,oﬀeringanewtechniquetofabricating
+high-performanceconductingpolymerhydrogels.
+W.Wang,H.Li,R.Wan,Q.Wang,B.Lu
+JiangxiProvincialKeyLaboratoryofFlexibleElectronics
+FlexibleElectronicsInnovationInstitute
+JiangxiScience&TechnologyNormalUniversity
+Nanchang330013,P.R.China
+E-mail:luby@jxstnu.edu.cn
+J.Liu
+SchoolofChemicalandMaterialEngineering
+JiangnanUniversity
+Wuxi214122,P.R.China
+The ORCID identiﬁcation number(s) for the author(s) of this article
+canbefoundunder https://doi.org/10.1002/advs.202414834
+©2025TheAuthor(s).AdvancedSciencepublishedbyWiley-VCH
+GmbH.Thisisanopenaccessarticleunderthetermsofthe Creative
+CommonsAttribution License,whichpermitsuse,distributionand
+reproductioninanymedium,providedtheoriginalworkisproperlycited.
+DOI:10.1002/advs.202414834
+1.Introduction
+Conducting polymer hydrogels, which are
+polymer networks with tissue-mimicking
+mechanical properties and excellent elec-
+trical properties, have emerged as a ver-
+satile class of materials in biomedical
+devices, ﬂexible electronic devices, soft
+robotics, and other ﬁelds. [1–5] Among
+them, hydrogels based on poly(3,4-
+ethylenedioxythiophene):poly(styrene
+sulfonate) (PEDOT:PSS) are particu-
+larly notable due to their unique com-
+bination of electrical conductivity and
+electrochemical stability in physiologi-
+cal environments.[6–11] To optimize the
+performance of PEDOT:PSS hydrogels,
+researchers have employed various strate-
+gies, including synthetic approaches,[12,13]
+additive engineering, [14–16] and post-
+treatment designs.[6,17–19] These methods
+have signiﬁcantly enhanced the tunability
+of PEDOT:PSS hydrogels in terms of com-
+position, structure, and functionality.[20,21]
+Such advancements have enabled these
+hydrogelstofunctioneﬀectively asbioelec-
+tronic components, especially in demand-
+ing applications such as neural record-
+ing, electrical stimulation, and real-time
+physiological monitoring.[17,22–24] Despite
+Y. Zhao
+RoboticsInstituteandStateKeyLaboratoryofMechanicalSystemand
+Vibration
+SchoolofMechanicalEngineering
+ShanghaiJiaoTongUniversity
+Shanghai200240,P.R.China
+J.Xu
+SchoolofWaterResources&EnvironmentalEngineering
+EastChinaUniversityofTechnology
+Nanchang330013,P.R.China
+Adv. Sci.2025,12,2414834 2414834(1of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+signiﬁcant progress has been achieved in materials synthesis
+and performance development, there still remains a critical
+needforreliable,high-resolutionpatterningmethodstofabricate
+PEDOT:PSS-basedhydrogelsonﬂexiblesubstrates. Tomeetthe
+growingdemandsformechanicalﬂexibility,miniaturization,and
+precise device conﬁgurations in next-generation bioelectronics,
+patterningatresolutionsdownto10 μmorevensub-micronlev-
+elsisessential.Thedevelopmentoftechniquesthatcanachieve
+suchﬁneresolutionsiscrucialforenhancingtheadaptabilityand
+functionalityofthesehydrogelsinapplicationsthatrequirecon-
+formal contact with soft tissues, thereby driving innovations in
+bioelectronicsandsoftrobotics.
+An ideal patterning method for PEDOT:PSS-based hydro-
+gels should meet three key criteria: i) it should be applicable to
+PEDOT:PSS to achieve both excellent conductivity and tissue-
+likemechanicalproperties,ii)itshouldbefullycompatiblewith
+direct patterning on ﬂexible substrates without requiring ad-
+ditional transfers, and iii) it should be capable of producing
+high-resolution patterns as well as complex structural patterns.
+However, current methods fail to meet all of the above require-
+mentssimultaneously.Forinstance,laserdirectwritinginduces
+phase separation of PEDOT:PSS due to the high energy density
+involved. This results in a signiﬁcant reduction in water con-
+tent within the hydrogel, thereby increasing Young’s modulus
+and diminishing tensile properties. Ultimately, this leads to re-
+ducedcompatibilitywithbiological tissues, limitingitspractical
+application in biomedical devices.[16] Furthermore, techniques
+like 3D-printing[7,8,10,25] and screen printing[26,24] can pattern
+PEDOT:PSS-based conducting polymer hydrogels under mild
+conditions, but achieving high resolution (e.g., patterns smaller
+than10 μm)remainschallenging.Thechallengesarisefromthe
+complexity of ink formulation,[7] viscosity optimization,[8] and
+subsequentpost-processingsteps [10,27] requiredtotransformthe
+printed ink into a functional hydrogel. For instance, Feng et al.
+employed a two-step cross-linking approach involving extensive
+solvent washing, drying at 130°C, and subsequent swelling to
+achieveafunctionalPEDOT:PSShydrogel. [10]
+In contrast, photolithography oﬀers the ability to produce
+high-resolution patterns in a parallel and scalable manner.[28–30]
+However,currentphotolithographyapproachesthatdirectlymix
+PEDOT:PSSwithphotosensitivepolymersoftenoverlooktheis-
+sue of phase separation, which is crucial for maintaining high
+conductivity. Although the photo-crosslinking process can en-
+hance the mechanical properties of the material, it typically re-
+sults in low electrical conductivity (<1Sc m−1).[31,32] For exam-
+ple, David et al. reported that blending PEDOT:PSS with photo-
+sensitive polymer poly(ethylene glycol) diacrylate (PEGDA) sig-
+niﬁcantly reduced its conductivity to 0.1 S cm−1.[31] This re-
+duction was attributed to the insulating nature of the matrix,
+which disrupted the conductive pathways. Similarly, Luciano
+etal.demonstratedthattheadditionofPEGDA-basedphotosen-
+sitive monomers reduced the uniformity of the conductive PE-
+DOT:PSS network, resulting in a poor electrical performance of
+0.05 S cm−1.[32] Thus, while photolithography excels in precise
+pattern formation, maintaining the desired electrical and me-
+chanicalpropertiesofPEDOT:PSShydrogelssimultaneouslyre-
+mainsasigniﬁcantchallenge.
+Herein,wehaverationallydesignedandsynthesizedaphoto-
+sensitive biphasic conducting polymer hydrogel (PB-CH), com-
+prisingPEDOT:PSSastheconductivephaseandalight-sensitive
+matrixasthemechanicalphase,optimizedfordirectphotolithog-
+raphy. Unlike previous works that focus on blending materials
+without addressing the trade-oﬀs between conductivity and me-
+chanical properties, our approach speciﬁcally targets the preser-
+vation of conductive pathways during the photopolymerization
+process. This is achieved through the phase-separated structure
+of PB-CH,which minimizes disruption to thePEDOT:PSS con-
+ductive network while improving mechanical ﬂexibility. Conse-
+quently,thePB-CHsimultaneouslyachievesexcellentconductiv-
+ity( ≈30Scm −1),exceptionalelectrochemicalstability,andaten-
+silestrainof50%whilealsobeinghighlycompatiblewithhigh-
+resolution photolithography, achieving feature sizes as small as
+5 μm.Thisuniquecombinationofconductivity,mechanicalprop-
+erty,andprocessabilitypositionsPB-CHasanidealcandidatefor
+advancedﬂexibleelectronics.
+2.ResultsandDiscussion
+2.1.ThedesignofPhotosensitiveBiphasicConductingPolymer
+Hydrogel(PB-CH)
+The photosensitive biphasic conducting polymer hydrogel (PB-
+CH) is engineered to integrate electrical conductivity and me-
+chanical ﬂexibility for advanced applications. This design em-
+ploysaphotosensitiveapproachbasedonthephotochemistryof
+alight-curingpolymer(LcP),whereaphotoinitiatorreleasesfree
+radicals under UV irradiation (365 nm), initiating the polymer-
+ization of long-chain LcP (Figure1a). PEDOT:PSS is selected as
+theconductivephaseduetoitsstableelectricalproperties,while
+a hydrophilic polyurethane-based LcP serves as the mechani-
+cal phase, enhancing the hydrogel’s mechanical resilience. The
+phase separation of hydrophilic polyurethane within the mixed
+solvent, due to its diﬀerential solubility in ethanol and water,
+enables eﬀective structural formation, as demonstrated in pre-
+vious work.[27] Upon UV exposure, photochemical reactions are
+localizedintheirradiatedregions,formingarobust3Dnetwork
+through hydrogen bonding and electrostatic interactions with
+PEDOT:PSS. This network solidiﬁes into a hydrogel structure
+during development. The biphasic structure design minimizes
+disruption to the conductive channels within PEDOT:PSS, thus
+preserving its electrical properties, a crucial factor for bioelec-
+tronicapplications.Thefabricationprocessiscarriedoutinthree
+keysteps:i)coatingaphotolithographablehydrogelprecursorso-
+lution(consistingofPEDOT:PSS,LcP,andphotoinitiators)onto
+aﬂexiblesubstrateanddrying,ii)UVirradiationofselectedareas
+by a predesigned photomask, and iii) development using water
+asadevelopertoremovetheunexposedareapattern(Figure 1b;
+Figure S5, Supporting Information). Notably, this strategy en-
+sures that the conductive network within the PB-CH structure
+remainslargelyintact,avoidingthelossofconductivitytypically
+observedinconventionalcross-linkingmethods.
+TheLcP,designedasalong-chainpolymerwithreactivedou-
+ble bonds, exhibits negative photoresist properties in combi-
+nation with PEDOT:PSS, enabling selective patterning. To fur-
+ther elucidate the UV polymerization of LcP in the PB-CH sys-
+tem, Fourier transform infrared (FT-IR) analysis is performed
+concurrently, with the double-bond conversion determined by
+tracking the evolution of the C═C peak (FigureS3, Supporting
+Adv. Sci.2025,12,2414834 2414834(2of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure1. Schematicillustrationofdirectphotolithographyprocessingofconductingpolymerhydrogel.a)SynthesisofPB-CH.b)Schematicillustration
+ofthedirectphotolithographyprocessforPB-CHinvolvesselectiveexposureviaUVirradiationandaphotomask,followedbydevelopmentinDIwater .
+c)UV-inducedphotopolymerizationofPB-CHmonitoredbyreal-timeFTIRanalysis,whichshowsthedoublebondconversionasafunctionofirradiatio n
+time.TheinsetisaphotographofpatternedPB-CHona2-inchwafer.d,e)PatternedPB-CHelectrodearrayswithdiﬀerentshapesandsizesonaﬂexible
+substrate.
+Adv. Sci.2025,12,2414834 2414834(3of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure2. DirectphotolithographiccuringmechanismofPB-CH.a)ThemaximumabsorptionpeakoftheUVspectrumofLcP(violet),PEDOT:PSS(blue),
+and Irgacure 2959 (pink). LcP shows strong absorption at≈294 nm, diﬀering from the excitation light source used. b) Polymerization mechanism in
+PB-CH.Theelectrostaticinteractionsandhydrogenbondsareformedbetweenthechemicalcomponents(PEDOT,PSSandLcP).c)Gradientisosurfaces
+for the bond of PB-CH of reduced density gradient (RDG). The color bar indicates that blue, green, and red correspond to robust interactions, such as
+hydrogen bonding and electrostatic interaction, van der Waals interaction, and signiﬁcant repulsion, such as𝜋–𝜋 stacking and cation-𝜋 interaction,
+respectively.d)ScatterplotsoftheRDGversustheelectrondensitymultipliedbysignofthesecondHessianeigenvaluefori)PEDOT:PSSandii)PB-C H.
+Information).[33,34] ThedoublebondconversionofLcPincreased
+rapidly initially, plateauing as the irradiation time progressed,
+withtheﬁnalconversionratereaching71.3%(Figure 1c).Build-
+ing upon the eﬃcient mechanism of double-bond polymeriza-
+tion,weemployaphotomaskforprecisepatterning.Throughthe
+designofthephotomask,variousstructuresofPB-CHelectrode
+arrayscanbefabricated(Figure 1d,e).Thisentireprocessobviates
+the necessity for conventional photoresists, organic solvents, or
+theirchemicalconstituents,whichmightcompromisetheprop-
+ertiesofPEDOT:PSS.
+2.2.CharacterizationandInteractionAnalysisofPB-CH
+PEDOT:PSScommonlyexistsasanaqueoussuspensioncontain-
+ingoligomericPEDOTinthecationicoxidationstate,electrostat-
+icallyboundtoPSS. [6,35,36] Nonetheless,thehighacidityofPSSin
+PEDOT:PSSformulationsmaycausedestabilizationwhencom-
+bined with other components. To evaluate this, we ﬁrst investi-
+gated the eﬀects of incorporating commonly used monomers,
+such as acrylic acid (AA), acrylamide (AM), and 2-hydroxyethyl
+methacrylate (HEA), without thermal initiators or cross-linkers.
+Upon drying at 50°C, the ﬁlm maintained structural integrity
+in an aqueous environment without breaking down into micro-
+gels, as shown in FigureS6 (Supporting Information). Figure2
+illustrates the chemicals used to formulate this UV-curable PB-
+CH precursor solution, along with the bonding mechanism be-
+tween PEDOT:PSS and LcP. The designed and synthesized LcP
+exhibitsstrongUVabsorptionnear294nm(Figure S7,Support-
+ingInformation),withminimaloverlapwiththeabsorptionpeak
+of the commonly used commercial water-soluble photoinitiator
+Irgacure 2959 (I2959) (Figure 2a).[37] In the PB-CH precursor,
+I2959initiatespolymerizationviaatwo-stepphotoinitiationpro-
+cess(Figure 2b):multiphotonabsorptionfollowedbythegenera-
+tionoffreeradicals(hydroxyethyletherbenzoylperoxideradical
+and 𝛼-hydroxyisopropylfreeradical).
+To elucidate the interactions between PEDOT, PSS, and LcP,
+we employed density functional theory (DFT) calculations to
+modeltheinteractionsandspatialdistributionsbetweenthecom-
+ponents (Figure2c). 3D visualization of the isosurfaces, using
+coloredscalebars(blue–green–red),distinguishesdiﬀerentweak
+interactions.Additionally,areduceddensitygradient(RDG)scat-
+terplot(Figure 2d)enablesqualitativeanalysisoftheinteraction
+diﬀerencesbetweenPEDOT:PSSandPB-CH.Thepeakelectron
+density in the blue region (symbol (𝜆2)𝜌 from −0.05 to−0.02)
+increases signiﬁcantly, suggesting that the introduction of LcP
+enhances the internal interactions within PEDOT:PSS (Figure
+S8,SupportingInformation).Subsequently,thecalculationofthe
+interaction energy of PB-CH yields a value of−120.7 kJ mol−1.
+Although this value is notably lower than that of PEDOT:PSS
+Adv. Sci.2025,12,2414834 2414834(4of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+/PAM (polyacrylamide),[38] PB-CH does not undergo polymer-
+ization during the soft-bake process, enabling subsequent pho-
+topolymerization for selective cross-linking. It is important to
+notethatthebondingbetweenPEDOT:PSSandLcPprimarilyoc-
+curs through electrostatic attractions between the𝜋-conjugated
+PEDOT chains and the negatively charged PSS chains and LcP
+chains, as well as hydrogen bonding between the sulfonic acid
+groups of the PSS chains and the amine groups of LcP. These
+ﬁndings support the formation of phase-separated structures
+within PB-CH, a feature that underscores its potential for high-
+precision hydrogel processing via photolithography. This bipha-
+sicstructurehighlightstheadvantagesofPB-CHinachievingsu-
+periorperformanceinhydrogelpatterningapplications.
+2.3.StructuralandAdhesionAnalysisofPB-CH
+In an aqueous environment, the structure of PEDOT:PSS is en-
+visionedascomprisingcolloidalparticleswithahydrophilicPSS
+shellsurroundingahydrophobicPEDOTcore. [39,40] Whendried
+at elevated temperatures, PEDOT:PSS undergoes phase separa-
+tion,formingauniformlydistributednetworkstructure.Thead-
+dition of LcP to the PEDOT:PSS aqueous solution further pro-
+motes phase separation and lowers the temperature at which
+phase separation occurs, making it challenging to selectively
+crosslinkthegelstructureviaphotolithography.Toclarifythesol-
+ubilitycharacteristicsofPB-CH,wevariedthesoft-baketemper-
+ature. Notably, when dried at or below 60°C, the PEDOT:PSS
+contentfallsbelow50%,andthematerialdoesnotfullydissolve
+but instead swells, retaining its solubility in water (Figure 3a).
+AthigherPEDOT:PSScontent( >30%),ﬁlmsobtainedfromdry-
+ing the PEDOT:PSS/LcP solution at 60°C begin to exhibit in-
+solubility in water due to phase separation. Within the range of
+PEDOT:PSS content values from 10% to 30%, the ﬁlms dried
+at temperatures exceeding 80°C also begin to exhibit insolubil-
+ity in water. When the PEDOT:PSS content is reduced (<10%),
+ﬁlms dried at temperatures below 100°C exhibit good solubil-
+ity in water. To further quantify the data, we investigate the im-
+pact ofI2959onthepatterningand water contentof direct pho-
+tolithography PEDOT:PSS/LcP hydrogels during soft-baking at
+50 °C( F i g u r e3b). When the PEDOT:PSS content exceeds 40%,
+regardless of the I2959 concentration, the material dissolves in
+deionized (DI) water. In the range of 0% to 40% PEDOT:PSS
+solidcontentand1%–7%I2959content,patternedhydrogelsare
+formed in DI water. However, when the PEDOT:PSS content is
+insuﬃciently low (<10%), the resulting hydrogel patterns grad-
+ually transition to white. The interactions between PEDOT:PSS
+andLcPfurthermodifythegelparticlesofPEDOT:PSS,andthe
+sizeoftheseparticlesmayinﬂuencetheresolutionofdirectpho-
+tolithography. To explore the eﬀect of PEDOT:PSS content on
+the particle size of PEDOT:PSS/LcP gel and subsequently opti-
+mizePEDOT:PSS/LcPforenhancedresolution,weexaminedthe
+particle size at diﬀerent PEDOT:PSS concentrations. It is worth
+noting that when the solid content of PEDOT:PSS is 30%, the
+measurements show that it has the smallest gel particle size[41]
+(Figure S9, Supporting Information). At a PEDOT:PSS content
+of30%,thepreparedsolutionuniformlyformsaﬁlmafterspin-
+coating,exhibitingconsistentUVtransmittanceacrossdiﬀerent
+locationsontheﬁlm.Additionally,thevaryingconcentrationsof
+I2959exertminimalimpactonthewatercontentofthePB-CH,
+whichremains ≈71%(Figure 3c).
+We selected PET and 3 m 300LSE as ﬂexible substrates and
+used PDMS as a control due to its typically low bonding prop-
+erties with PEDOT:PSS. A signiﬁcant modulus diﬀerence is ob-
+served on the interfacial ﬁt between cured PB-CH and PDMS,
+while the Young’s modulus gradient between PB-CH and both
+PET and 3 m 300LSE varies more gently, indicating better in-
+terfacial compatibility (Figure3d).[42] The scratch test involves
+drawing a rigid stylus across the surface of the coating while
+continuously or gradually increasing the applied force in the di-
+rection of the coating thickness.[43] The applied force and post-
+scratch morphology are recorded to determine the critical force
+at which coating failure occurs (Figure3e). This critical scratch
+forceprovidesquantitativedataforevaluatingtheadhesionofthe
+PB-CH ﬁlm to the substrate. By comparing the failure forces,
+the adhesion strength of PB-CH and PEDOT:PSS ﬁlms can be
+assessed. Microscopic examination of the scratch test’s surface
+morphology reveals that the PB-CH ﬁlm displays sharp, con-
+tinuous scratches indicative of strong adhesion, while the PE-
+DOT:PSS ﬁlm detaches in larger pieces without clear scratch
+marks (Figure 3f). This observation suggests that PB-CH ex-
+hibitssigniﬁcantlybetteradhesiontothesubstratecomparedto
+PEDOT:PSS.
+2.4.PhotopatternabilityofPB-CH
+TheswellingbehaviorofPB-CHissigniﬁcantlyinﬂuencedbythe
+interactionforcesbetweenthesubstrateandthematerial.Toen-
+hancetheintegrationandpatterningreliabilityofPB-CHonﬂexi-
+blesubstrates,polyethyleneterephthalate(PET)ﬁlmwasselected
+as the substrate due to its oxygen-rich groups. These groups
+form hydrogen bonds with the hydrophilic components of PB-
+CH,suchastheamino( ─NH2)groupsfromLcP, [44] therebyen-
+hancinginterfacialinteractionsandincreasingadhesion( Figure
+4a). Additionally, the PET substrate was plasma-treated to im-
+proveitshydrophilicity(Figure S12,SupportingInformation). [45]
+A photolithographic hydrogel precursor solution was then ap-
+plied to coat the PET surface, followed by drying at 50°Ct or e -
+movewater.UVlightatawavelengthof365nmwasusedtoini-
+tiate polymerization, eﬀectively patterning the PB-CH thin ﬁlm
+layer. While UV treatment induces a structural transformation
+in PEDOT, converting its benzene structure to a quinone struc-
+ture (FigureS13, Supporting Information), which enhances its
+conductivity,[46] the low concentration of PEDOT:PSS in PB-CH
+results in suboptimal electrical properties. In the lithographic
+process, we used acetic acid (HOAc), which has been reported
+asapoorsolventforPEDOT:PSSandcaninducetheaggregation
+ofPEDOTchain. [18] Speciﬁcally,HOAcfacilitatestheverticalre-
+arrangementofpolymerchains,likelyduetotheinteractionsbe-
+tween the solvent and the PSS component of the PEDOT:PSS,
+further promoting aggregation of the PEDOT chain and phase
+separation. This behavior results in a slight increase in the ra-
+tio between PEDOT and PSS relative to the light-curing poly-
+mer(LcP)followingHOActreatment.Thiseﬀectisattributedto
+the interaction forces between the PSS and LcP networks, with
+only a small portion of the PSS washed away during the im-
+mersionprocess(Figures S14andS15,SupportingInformation).
+Adv. Sci.2025,12,2414834 2414834(5of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure3. DirectphotolithographyprintabilityofPB-CHinksonﬂexiblesubstrates.a)Phasediagramshowingtheprecursorcompositionsthatundergo
+phaseseparationduringsoft-bake,withtheweightratioofPEDOT:PSStoPB-CHrangingfrom10to50wt.%.Orange(background):theprecursordid
+notphaseseparateduringsoft-bakeandremainedsolubleinDIwater;Blue(background):theprecursorphaseseparatedduringsoft-bakeandbecame
+insoluble in DI water. b) Phase diagram illustrating the photopolymerizable regions of the precursor compositions undergoing photopolymerization
+with I2959 concentrations ranging from 1 to 5 wt.%. The precursor was soft-baked at 50°C and then selectively exposed through a photomask before
+beingimmersedinDIwater.Orange(background):theexposedandunexposedareasoftheprecursorbothdissolveinDIwater;Blue(background):the
+exposedregionsoftheprecursorcanreplicatethepatternsofthephotomask,whiletheunexposedregionsdissolveinDIwater.c)Dependenceofwater
+content of sample with diﬀerent content of I2959. d) AFM characterization of the modulus gradient across the interfaces between PB-CH and ﬂexible
+substrates.i)modulusmapping,wherethelower-modulusregioncorrespondstothePB-CHﬁlm(top)andthehigher-modulusregioncorrespondsto
+the ﬂexible substrate (bottom); ii) ﬁtted interfacial proﬁles derived from the AFM images. e) The schematic diagram of the scratch test. f) The images
+ofscratchtestofPB-CHcoatingandthePEDOT:PSScoatingforcomparativeanalysis.Scalebars,1mm(a,b).
+The ﬁlm undergoes a considerable increase in thickness, from
+27 ± 3.5 μm in the dry state to 126± 4.6 μm in the hydrogel
+state,representingachangeof366%.AftertreatmentwithHOAc
+and soaking in DI water to replace the HOAc, forming PB-CH,
+the thickness increased to 135± 5.3 μm, showing only a slight
+change(Figure 4b).
+Under optimal UV irradiation conditions, the aqueous sta-
+bility of PB-CH increases with higher UV doses (FigureS16,
+Supporting Information). A key advantage of PB-CH fabricated
+via direct photolithography is its ability to swell into hydrogels
+in DI water, facilitated by a water-based development process
+(Figure 4c;M o v i eS1, Supporting Information). To validate the
+resolution of PB-CH, a variety of patterns were generated us-
+ing direct photolithography (Figure4d(i,ii);F i g u r e sS17–S19,
+Supporting Information). Additionally, high-resolution patterns
+with a feature size of 5μm were achieved using a correspond-
+ing high-resolution photomask (Figure4d(iii)). Notably, the pat-
+terned PB-CH demonstrates long-term stability in an aqueous
+environment,showingnoapparentdissolutionovertime(Figure
+S20,SupportingInformation).
+Adv. Sci.2025,12,2414834 2414834(6of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure4. Anti-swellingbehaviorsanddemonstrationofdirectphotolithographyandhigh-resolutionPB-CHonﬂexiblesubstrate.a)Schematicillustration
+ofanti-swellingofUV-curedPB-CHﬁlmintohydrogelonﬂexiblesubstrate.b)ThethicknessesofdriedPEDOT:PSS/LcP,swollenPEDOT:PSS/LcP,and
+PB-CH: the average values are 27, 126, and 135μm, respectively. Inset: side view of the sample showing the thickness. c) Experimental images for the
+developmentofdirectphotolithographicpatternedPB-CH.d)Opticalimagesofdiversemultiscaleshapesandhigh-resolutionpatternarraysofPB- CH.
+2.5.Electrical,Mechanical,andElectrochemicalPropertiesof
+PB-CH
+The electrical, mechanical, and electrochemical stability of con-
+ducting hydrogels are critical factors in assessing functionality
+and reliability. In this study, LcP was blended with PEDOT:PSS
+solutionat60–80mass%oftheﬁnalhydrogelprecursorsolution
+and dried on a substrate. Following UV and HOAc treatments
+toenhanceaqueousstability,thePB-CHwithbiphasicstructure
+achieved a conductivity of≈30 S cm−1 with a PEDOT:PSS to
+LcP ratio of 30:70 (Figure 5a). As the PEDOT:PSS content in-
+creases, the conductivity of PB-CH improves. However, when
+the PEDOT:PSS content exceeds 30%, the conductivity reaches
+a plateau, and the mechanical properties of the PB-CH signif-
+icantly decrease (TableS1, Supporting Information). Dried PE-
+DOT:PSS on low-adhesion substrates (e.g., PDMS) may detach
+whenswollenintoahydrogel.Sinceplasmatreatmentisnotde-
+pendent on the speciﬁc characteristics of the substrate, we se-
+lected3m300LSEasthesoftsubstrate.Afterdirectphotolithog-
+raphy,afullyphotopatternedrectangularstructureofPB-CHwas
+formed on the 3 m 300LSE substrate. This pattern remained in-
+tactandfreeofcrackswhenstretchedto50%strainwithoutvis-
+ible cracks, indicating robust mechanical integrity (Figure5b;
+FigureS21,SupportingInformation).Notably,inordertoquan-
+tify the softness of the PB-CH, we performed nanoindentation
+testing (Figure5c). The hydrogel exhibited a Young’s modulus
+of 10.6 kPa, a value closer to that of human tissue compared to
+softelastomerssuchasPDMS,whichtypicallypossessaYoung’s
+Adv. Sci.2025,12,2414834 2414834(7of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Figure 5. Mechanical and electrochemical properties of PB-CH. a) Dependence of conductivity on the proportion of PEDOT:PSS. b) Optical image
+demonstrating the shape change of the PB-CH pattern during stretching. c) Nanoindentation of PB-CH with the contact point-based model ﬁt. d) CV
+characterizationforadirectphotolithographicPB-CHonPtelectrodeafter10000cycles.e)Top:ThechangeinCSCofPB-CHafter10000cycles.Botto m:
+The change in CSC of the bare Pt electrode after 10 000 cycles. f) Impedance spectra of a bare Pt electrode and the PB-CH. The scatter plot illustrates
+theimpedancemagnitude,whilethebrokenlinesdenotethephaseangle.g)CurrentdensityversustimecurvesforaPtelectrodeandthePB-CHafter
+100000000cycles.h)Top:ThechangeinCSCofPB-CHafter100000000cycles.Bottom:ThechangeinCICofthebarePtelectrode.
+modulusrangingfrom1to10MPa. [47] Moreimportantly,PB-CH
+demonstrated superior performance compared to state-of-the-
+art patterned PEDOT:PSS hydrogels (TableS2, Supporting In-
+formation),highlightingitseﬀectivenessandpotentialforhigh-
+performanceﬂexibleelectronics.
+The key to ensuring long-term operation lies in maintaining
+electrochemicalstabilityinphysiologicalorbuﬀeredaqueousen-
+vironments. The long-term electrochemical stability of PB-CH
+was evaluated in phosphate-buﬀered saline (PBS). The charge
+storagecapacity(CSC),acriticalperformancemetricforbioelec-
+tronicelectrodes,wascomparedwiththatofplatinum(Pt),acon-
+ventionalmetalelectrodematerialknownforitselectrochemical
+stability. PB-CH demonstrated outstanding stability over 10 000
+charge–discharge cycles, with only minimal changes observed
+in the cyclic voltammetry (CV) curves (Figure5d). Notably, the
+CSCofPB-CHisover20timeshigherthanthatofPtelectrodes,
+showingitssuperiorenergystoragecapability.WhiletheCSCof
+PB-CH exhibited only a 2% decrease after 10 000 scanning cy-
+cles, Pt electrodes demonstrated signiﬁcantly lower charge stor-
+agecapacity,highlightingtheexceptionalstabilityanddurability
+ofPB-CHunderlong-termcyclingconditions(Figure 5e).Owing
+to the porous network structure, PEDOT-based hydrogels allow
+Adv. Sci.2025,12,2414834 2414834(8of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+electrolyte ions to penetrate deeply into their interior, un-
+like metallic electrodes, where ion interactions are predomi-
+nantly limited to the surface. This structural advantage sub-
+stantially reduces overall impedance.[6,29] The electrochemical
+impedancespectroscopy(EIS)wasmeasuredtoevaluatetheareal
+impedance of PB-CH in comparison to the bare Pt electrode.
+Arealimpedanceisdeﬁnedastheimpedancenormalizedbythe
+electrodesurfacearea,allowingforadirectcomparisonbetween
+diﬀerent electrode materials. As shown in Figure5f,P B - C He x -
+hibited signiﬁcantly lower impedance compared to the Pt elec-
+trode across all frequency ranges (10−1–105 Hz), with a partic-
+ularly pronounced reduction at low frequencies. Moreover, the
+PB-CHdisplayedaphaseanglecloserto0 °acrossthe1–100Hz
+frequencyrange,indicatingthatimpedancewasprimarilydom-
+inated by resistance.[3,48] This behavior is critical for bioelec-
+tronicapplicationsasitminimizesphaselaginsignaltransmis-
+sion and ensures eﬃcient charge transfer, preserving the tem-
+poral accuracy of bioelectronic signals. To evaluate its poten-
+tial for bioelectronic applications, the charge injection capacity
+(CIC) of PB-CH was assessed in the context of electrical stim-
+ulation. PB-CH achieved a CIC of≈2.7 mC cm−2, over three
+timeshigherthanthatofPtelectrodes(0.84mCcm −2),demon-
+stratingthatPB-CH’selectricalperformanceremainsuncompro-
+mised(Figure 5g).Furthermore,after100millioncyclesofbipha-
+sicchargeinjections,theCICofPB-CHdecreasedbyonly ≈3%,
+indicatingremarkablelong-termstability(Figure 5h).
+3.Conclusion
+Insummary,wesuccessfullysynthesizedaphotosensitivebipha-
+sic conducting polymer hydrogel (PB-CH) by combining PE-
+DOT:PSS as the conductive phase and a light-curable polymer
+matrix as the mechanical phase. This innovative composition
+enabled the creation of a hydrogel with excellent electrical con-
+ductivity of 30 S cm−1, a tensile strain of 50%, and robust elec-
+trochemical stability. We developed a direct photolithography
+processoptimizedforPB-CH,enablinghigh-resolutionpattern-
+ing at the 5μm scale directly on ﬂexible substrates. This ap-
+proach eliminates the need for complex transfer processes and
+reducesfabricationsteps,oﬀeringastreamlinedandscalableso-
+lutionforﬂexibleelectronics.Throughasystematicexamination
+of the photolithography parameters and curing mechanism, we
+demonstratedthatPB-CHcanbereliablypatternedintovarious
+electrode structures, expanding the range of fabrication meth-
+ods for ﬂexible and bioelectronic devices. Our work presents a
+promising strategy for the high-resolution patterning of high-
+performance conducting polymer hydrogels, paving the way for
+innovative applications in advanced ﬂexible electronics and bio-
+electronics.
+4.ExperimentalSection
+Materials: ThePEDOT:PSSaqueoussolution(1.3wt.%solidcontent,
+CLEVIOS PH1000) was purchased from Heraeus and used as received.
+Polytetrahydrofuran (PTMG1000), dicyclohexylmethane diisocyanate
+(HMDI), hydroxyethyl acrylate (HEA), 2,2-bis(hydroxymethyl)propionic
+acid (DMPA), dibutyltin dilaurate (DBTDL), acrylic acid (AA), acrylamide
+(AM), 2-hydroxy-4′-(2-hydroxyethoxy)-2-methylpropiophenone (Irgacure
+2959), and pure acetic acid (HOAc) were purchased from Aladdin and
+used without further puriﬁcation. BY3303 was purchased from Beijing
+Baiyuan Chemical Co., Ltd., and Capstone FS-30 was purchased from
+DuPontandusedasreceived.Thedeionized(DI)water( >18.25MΩcm)
+used in all experiments was puriﬁed by a Puriﬁer FST-I-B10 (Shanghai Fu
+Shi Instrument Equipment Co., Itd). The substrates used in photolithog-
+raphywereSiwafer(0.5mmthickness,50.8mmindiameter),3m300LSE
+with a thickness of 0.17 mm, PDMS with a thickness of 0.05 mm, and
+PET with a thickness of 0.3 mm were purchased from Shenzhen Weina
+Electronie Technology Co. Ltd, 3M China Ltd., and Zhongshan Hongyi
+FilmTechnologyCo.Ltd,respectively.
+Synthesis of LcP: The synthetic route of light-curing polymer (LcP) is
+illustrated in FigureS1 (Supporting Information). In a 250 mL round-
+bottom ﬂask, 27.31 g HMDI, 52.11 g PTMG1000, 20.08 g DMPA, and
+2.33gBY-3303wereaddedsequentiallyandstirredtoformauniformdis-
+persion. The resulting dispersion was then switched to the ﬂask, along
+with a magnetic stirrer. The mixture was degassed under a ﬂow of nitro-
+gen for 30 min, then 1 g of DBTDL was added, and the ﬂask was sealed.
+The ﬂask was placed in an 80°C oil bath and stirred at 600 rpm for 2 h.
+Next, 10.14 g of HEA was added to the reaction system, and the reaction
+continued at 80°C until the characteristic absorption peak of the−NCO
+≈2270cm−1 disappeared,asconﬁrmedbyinfraredtestingofthesamples.
+Afterthereaction,themixturewascooledtoroomtemperatureandpuri-
+ﬁedrepeatedlyusingamixtureofwaterandmethanol.
+Preparation of the Photosensitive Biphasic PB-CH Solution: A 1.3 wt.%
+aqueoussolutionofPEDOT:PSS(PH1000)wasmixedwithLcPtoachieve
+PEDOT:PSS weight ratios ranging from 0:1 to 0.5:1. After stirring for 8 h
+at room temperature, 1–5 wt.% of Irgacure 2959 (relative to LcP) and 1
+wt.% FS-30 (relative to PH1000) were added to the ﬁnal ink, which was
+then stored under light-shielded conditions. Subsequently, the precursor
+was coated onto substrates such as silicon (Si) wafer, PDMS, PET, and
+3m300LSEusingsolutionprocesseslikespincoating.Finally,thecoated
+substratesweredriedat50 °Cfor8hinthedark.
+Direct Photolithography of PB-CH: Thedirect lithographysystemcon-
+sisted of a 365 nm UV wavelength source and a water- and oxygen-free
+glove box, which was used to pattern the precursor of PB-CH with pho-
+tomasks. The optimal parameters in this study were identiﬁed as 75 mW
+cm−2 forthePEDOT:PSSconcentrationof30%intheprecursorsolution.
+After UV curing, the sample was immersed in DI water to capitalize on
+the diﬀerences in solubility between the cured and uncured regions. The
+PB-CH pattern was examined using the 5MPAM73915 Series (Dino-Lite)
+and DV500 (Chongqing Optec Instrument Co. Ltd.) and compared with
+thepatternonthephotomaskontheUV-transmittingphotomask.
+Density Functional Theory (DFT) Simulation: PEDOT and PSS were
+initially generated using the genmer module within the Molclus soft-
+ware, resulting in 100 randomized structures (traj.xyz). Subsequently,
+optimization calculations were conducted using the XTB software un-
+der the GFN2-xtb method. The optimized energies and coordinates (iso-
+mers.xyz) were recorded, and the structures were then categorized into
+groups based on their energy similarity. These structures were further
+sorted in ascending order of energy and saved in cluster.xyz. From
+cluster.xyz structures with the lowest energies were selected as the
+foundation for constructing PEDOT:PSS/LcP, named PB-CH. Subse-
+quently,theoperationsofPEDOTandPSSwereused,andbothoperations
+neededtotakeintoaccountthesolvationeﬀectwiththeGBSAimplicitsol-
+ventmodel.
+The SMD implicit solvation model was used to account for the solva-
+tioneﬀect.ThebindingenergiesofbothPEDOT:PSSandPEDOT:PSS/LcP
+compoundswerecalculatedaccordingtothefollowingequations:
+Ebind = Ecomplex − (EpartA +EpartB
+) (1)
+AllcalculationswerecarriedoutbythelatestversionofORCAquantum
+chemistrysoftware(Version5.0.4).
+For geometry optimization calculations, the corrected version of the
+r2SCAN exchange-correlation function proposed by Grimme (so-called
+r2SCAN-3c)wasadopted.
+Adv. Sci.2025,12,2414834 2414834(9of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+Nanoindentation Characterizations : Nanoindentation characteriza-
+tionsofPB-CHwereperformedusinganatomicforcemicroscopy(AFM)
+facility(DimensionXR,Bruker)inawetenvironment.Asphericaltipwith
+a6 μm radius (MLCT-O10, F triangle, Bruker) was used for the nanoin-
+dentation measurements. All nanoindentation images were recorded
+at mean indentation tip velocity of 2752 nm s−1 and mean indentation
+loadingrateof66.8nNs −1.Young’smoduliofthehydrogelwereobtained
+byﬁttingforceversusindentationcurvewithacontactpoint-basedmodel
+ﬁt.Fornanomechanicalimaging,AFMmeasurementsofnanomechanical
+imaging were taken using a Bruker Dimension Icon instrument and an
+RTESPA-300 atomic force microscope probe (from Bruker, a tip radius of
+8 nm). All nanomechanical images were taken at a scanning frequency
+of 0.5 kHz. The ﬁlms were prepared by dropping a PB-CH precursor
+solutionontoaplasma-treatedﬂexiblesubstrate,vacuum-dryingat50 °C
+in the dark, and then cutting the cross-section with a razor blade (after
+exposure).
+Scratching Test: The PEDOT:PSS solution and the precursor (with a
+weight ratio of 0.3:1 PEDOT:PSS to PEDOT:PSS/LcP) were coated on
+PET substrates, followed by a soft-bake at 50°C. The scratch test was
+conducted on the samples after the soft-bake using Anton Paar UNHT
+equipped with a standard tip (curvature radius of 100μm). The test pro-
+tocolincludedmaintaininganinitialloadof0.03N,withaloadingrateof
+5Nm i n−1 until reaching a peak load of 5 N, followed by unloading. The
+scratching speed was set at 3 mm min−1. Furthermore, scratch images
+werecapturedusinganinsituscanningprobemicroscope.
+Electrical Characterization: The electrical conductivity of the PB-CH
+wasmeasuredusingafour-pointprobe(Keithley2700digitalmultimeter)
+system.Thesampleswerecutintorectangularshapes(2mm ×10mm).
+Platinum(Pt)wireelectrodes(0.5mmindiameter)wereattachedtoboth
+ends of the samples using conductive silver paste, which served to mini-
+mizeinterfacialresistancebetweentheelectrodesandthePB-CHsurface.
+This approach ensured accurate conductivity measurements by reducing
+contact resistance eﬀects. Furthermore, a humidiﬁer was used through-
+outtheexperimenttomaintainsuﬃcientmoisturecontentinthesamples,
+preventingdehydration.Atleastthreediﬀerentsampleswereusedforeach
+test.Theelectricalconductivity( 𝜎)iscalculatedaccordingtoEquation( 2):
+𝜎 = l
+Rwt = I×L
+V ×w×t (2)
+wherewisthewidthofthesample, Listhedistancebetweenthetwoelec-
+trodes for voltage measurement,I is the current ﬂowing,V is the voltage
+across the electrodes,tis the thickness of the sample, andRis the resis-
+tanceofthesamplesmeasuredusingthedirectcurrent.
+Cyclic voltammetry (CV), potentiostatic electrochemical impedance
+spectroscopy (EIS), and charge injection capacity (CIC) of the PB-CH
+modiﬁed Pt substrates were performed by using an electrochemical po-
+tentiostat/galvanostat (Interface 1010–29074; Gamry Instruments) with
+a standard three-electrode electrolytic cell where the sample served as
+theworkingelectrode,theplatinumsheetactedasthecounterelectrode,
+the Ag/AgCl line functioned as the reference electrode, and phosphate-
+buﬀeredsaline(PBS)solutionwasemployedastheelectrolyte.Thescan-
+ningratewassetas150mVs −1,andthescanningpotentialrangewasset
+as −0.5V ≈0.5V.AllthesampleswereimmersedinPBSsolutionfor6h
+beforemeasurement.
+TheCSCvaluesoftheCVcurvesarecalculatedusingEquation( 3):
+CSC = ∫
+Et
+Ei
+i(E)
+2vA dE (3)
+where Ei and Et are the upper and lower limits of the potential,v is the
+potentialscanningrate,iisthecurrentateachpotential,andAisthearea
+ofthePB-CHmodiﬁedonthePtelectrodes,respectively.
+ThevariationinCSCiscomputedfromEquation( 4):
+ΔCSC = CSCf −CSCi
+CSCi
+⋅ 100% (4)
+whereCSCf isthechargestoragecapabilityaftertreatment,suchas10000
+cycles CV scanning, while CSCi is the charge storage capability of the as-
+preparedPB-CH.
+EISmeasurementsofthePB-CHonthePtelectrodewereobtainedwith
+a sine wave (10−1–105 Hz) and a signal amplitude of 10 mV to evaluate
+theelectricalimpedanceandtheirstability.Boththephaseangledataand
+impedancewererecordedacrosstheentirefrequencyrange.
+For CIC of the PB-CH-modiﬁed electrode, the electrochemical current
+pulsesrangingfrom −0.5to0.5VversusAg/AgClwereappliedtodemon-
+strate the excellent stability of the hydrogel electrode after 10 000 cycles.
+CICiscalculatedusingthefollowingEquation( 5):
+CIC =
+Qinj(c)
+A +
+Qinj(a)
+A (5)
+whereCICrepresentschargeinjectioncapacityofPB-CH.Qinj(c)denotes
+thetotalinjectedchargeduringthecathodalphasefollowingthereduction
+potential,whileQinj(a)denotesthetotalinjectedchargeduringtheanodal
+phase following the oxidation potential, and A represents the area of the
+hydrogel,respectively.
+ThevariationinCICiscomputedfromEquation( 6):
+ΔCIC = CICf −CICi
+CICi
+⋅ 100% (6)
+where CICf is the charge injection capacity after treatment, such as
+10 00 00 000 cycles, while CICi is the charge injection capacity of the as-
+preparedPB-CH.
+WaterContentTest: ThesamplewasimmersedinDIfor24htoachieve
+hydration. Subsequently, the surface water was wiped oﬀ before testing.
+Theweightofthehydratedsamplewasmeasuredusinganelectronicbal-
+ance and denoted as Wh. After weighing, the sample was dried at 60°C
+for24h.Thedriedsamplewasthenobtained,anditsweightwasrecorded
+as Wf. At least three diﬀerent samples were used for each test. The water
+contentofthehydrogelsiscalculatedaccordingtoEquation( 7):
+Water content= Wh −Wf
+Wh
+⋅ 100% (7)
+MechanicalCharacterization: Allsamplesformechanicalcharacteriza-
+tionswerepreparedonaﬂexible3mVHBsubstrate.Thestretchabilityof
+the hydrogels was measured by a mechanical testing machine (Instron
+68TM-5) equipped with a 100 N load-cell. Additionally, a humidiﬁer was
+employed to maintain adequate moisture levels in the samples through-
+outtheexperiment,preventingdehydration.
+Photograph and Video Recording: Unless stated otherwise, all pho-
+tographs were captured using 5MPAM73915 Series (Dino-Lite) and
+DV500(ChongqingOptecInstrumentCo.Ltd.),andthevideosweretaken
+withGalaxyS24.
+SupportingInformation
+SupportingInformationisavailablefromtheWileyOnlineLibraryorfrom
+theauthor.
+Acknowledgements
+ThisworkwasﬁnanciallysupportedbytheNationalNaturalScienceFoun-
+dationofChina(52473179),theKeyResearchandDevelopmentProgram
+of Jiangxi Province (20223BBE51023), the Natural Science Foundation of
+Jiangxi Province (20232ACB204002), and the Jiangxi Provincial Key Labo-
+ratoryofFlexibleElectronics(20212BCD42004and20242BCC32010),the
+Doctoral Start-up Funding of Jiangxi Science & Technology Normal Uni-
+versity(2024BSQD14),andtheOpenFundofJiangxiProvincialKeyLabo-
+ratoryofFlexibleElectronics(2024KFJJ04).
+Adv. Sci.2025,12,2414834 2414834(10of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH
+
+www.advancedsciencenews.com www.advancedscience.com
+ConﬂictofInterest
+Theauthorsdeclarethattheyhavenoconﬂictsofinterest.
+AuthorContributions
+W.W., J.L., and H.L. contributed equally to this work as co-ﬁrst authors.
+B.L. conceived the idea and directed the project. W.W. and B.L. designed
+the study. W.W. and J.L. conducted the experiments. W.W., J.L., H.L., and
+B.L. analyzed and interpreted the results. All the authors contributed to
+thewritingandeditingofthepaper.
+DataAvailabilityStatement
+Thedatathatsupporttheﬁndingsofthisstudyareavailablefromthecor-
+respondingauthoruponreasonablerequest.
+Keywords
+bi-continuous phase, conducting polymer hydrogels, high resolution, PE-
+DOT:PSS,photolithography
+Received:November12,2024
+Revised:January21,2025
+Publishedonline:March24,2025
+[1] Y.Xue,X.Chen,F.Wang,J.Lin,J.Liu, Adv.Mater. 2023,35,2304095.
+[2] H. Su, L. Mao, X. Chen, P. Liu, J. Pu, Z. Mao, T. Fujiwara, Y. Ma, X.
+Mao,T.Li, Adv. Sci.2024,11,2405273.
+[3] Y. Li, D. Li, J. Wang, T. Ye, Q. Li, L. Li, R. Gao, Y. Wang, J. Ren, F. Li,
+J. Lu, E. He, Y. Jiao, L. Wang, Y. Zhang,Adv. Funct. Mater.2024, 34,
+2310260.
+[4] T. Ye, J. Wang, Y. Jiao, L. Li, E. He, L. Wang, Y. Li, Y. Yun, D. Li, J. Lu,
+H.Chen,Q.Li,F.Li,R.Gao,H.Peng,Y.Zhang, Adv.Mater. 2022,34,
+2105120.
+[5] Q.Ge,Z.Chen,J.Cheng,B.Zhang,Y.-F.Zhang,H.Li,X.He,C.Yuan,
+J.Liu,S.Magdassi,S.Qu, Sci. Adv.2021,7,eaba4261.
+[6] B. Lu, H. Yuk, S. Lin, N. Jian, K. Qu, J. Xu, X. Zhao,Nat. Commun.
+2019,10,1043.
+[7] J. Li, J. Cao, R. Bian, R. Wan, X. Zhu, B. Lu, G. Gu,Nat. Commun.
+2025,16,185.
+[8] J. Yu, R. Wan, F. Tian, J. Cao, W. Wang, Q. Liu, H. Yang, J. Liu, X. Liu,
+T.Lin,J.Xu,B.Lu, Small2024,20,2308778.
+[9] J.Zhang,L.Wang,Y.Xue,I.M.Lei,X.Chen,P.Zhang,C.Cai,X.Liang,
+Y. Lu, J. Liu,Adv. Mater.2023,35,2209324.
+[10] X.Xie,Z.Xu,X.Yu,H.Jiang,H.Li,W.Feng, Nat.Commun. 2023,14,
+4289.
+[11] J. Chong, C. Sung, K. S. Nam, T. Kang, H. Kim, H. Lee, H. Park, S.
+Park,J.Kang, Nat. Commun.2023,14,2206.
+[12] T.Li,H.Qi,X.Dong,G.Li,W.Zhai, Adv. Mater.2024,36,2304145.
+[13] J. Yu, F. Tian, W. Wang, R. Wan, J. Cao, C. Chen, D. Zhao, J. Liu, J.
+Zhong,F.Wang,Q.Liu,J.Xu,B.Lu, Chem. Mater.2023,35,5936.
+[14] Y.Wang,C.Zhu,R.Pfattner,H.Yan,L.Jin,S.Chen,F.Molina-Lopez,
+F. Lissel, J. Liu, N. I. Rabiah, Z. Chen, J. W. Chung, C. Linder, M. F.
+Toney,B.Murmann,Z.Bao, Sci. Adv.2017,3,e1602076.
+[15] S. Zhang, Y. Chen, H. Liu, Z. Wang, H. Ling, C. Wang, J. Ni, B.
+Çelebi-Saltik,X. Wang, X. Meng, H. J. Kim, A. Baidya, S. Ahadian, N.
+Ashammakhi, M. R. Dokmeci, J. Travas-Sejdic, A. Khademhosseini,
+Adv. Mater.2020,32,1904752.
+[16] D.Won,J.Kim,J.Choi,H.Kim,S.Han,I.Ha,J.Bang,K.K.Kim,Y.Lee,
+T.S.Kim,J.Park,C.Y.Kim,S.H.Hwan, Sci. Adv.2022,8,eabo3209.
+[17] H. Li, J. Cao, R. Wan, V. R. Feig, C. M. Tringides, J. Xu, H. Yuk, B. Lu,
+Adv. Mater.2025,37,2415151.
+[18] G. Li, K. Huang, J. Deng, M. Guo, M. Cai, Y. Zhang, C. F. Guo,Adv.
+Mater.2022,34,2200261.
+[19] K.Li,J.Zhao,A.Zhussupbekova,C.E.Shuck,L.Hughes,Y.Dong,S.
+Barwich, S. Vaesen, I. V. Shvets, M. Möbius, W. Schmitt, Y. Gogotsi,
+V.Nicolosi, Nat. Commun.2022,13,6884.
+[20] A.Corletto,J.G.Shapter, J. Mater. Chem. C2021,9,14161.
+[21] K.Hong,S.H.Kim,A.Mahajan,C.D.Frisbie, ACSAppl.Mater.Inter-
+faces2014,6,18704.
+[22] K.Zhang,X.Chen,Y.Xue,J.Lin,X.Liang,J.Zhang,J.Zhang,G.Chen,
+C.Cai,J.Liu, Adv. Funct. Mater.2022,32,2111465.
+[23] B. Yan, S. Liu, Y. Yuan, X. Hou, M. Zhou, Y. Yu, Q. Wang, C. He, P.
+Wang,Adv. Funct. Mater.2024,34,2401097.
+[24] L. W. Lo, J. Zhao, K. Aono, W. Li, Z. Wen, S. Pizzella, Y. Wang, S.
+Chakrabartty,C.Wang, ACS Nano2022,16,11792.
+[25] U.Kraft,F.Molina-Lopez,D.Son,Z.Bao,B.Murmann, Adv.Electron.
+Mater.2020,6,1900681.
+[26] B. Yan, S. Liu, Y. Yuan, X. Hou, M. Zhou, Y. Yu, Q. Wang, C. He, P.
+Wang,Adv. Funct. Mater.2024,34,2401097.
+[27] T. Zhou, H. Yuk, F. Hu, J. Wu, F. Tian, H. Roh, Z. Shen, G. Gu, J. Xu,
+B.Lu,X.Zhao, Nat. Mater.2023,22,895.
+[28] Y. Q. Zheng, Y. Liu, D. Zhong, S. Nikzad, S. Liu, Z. Yu, D. Liu, H. C.
+W u,C.Zhu,J.Li,H.T ran,J.B.H.T ok,Z.Bao, Science2021,88,373.
+[29] Y.Liu,J.Liu,S.Chen,T.Lei,Y.Kim,S.Niu,H.Wang,X.Wang,A.M.
+F oudeh,J.B.H.T ok,Z.Bao, Nat. Biomed. Eng.2019,3,58.
+[30] Y. Jiang, Z. Zhang, Y. X. Wang, D. Li, C. T. Coen, E. Hwaun, G. Chen,
+H. C. Wu, D. Zhong, S. Niu, W. Wang, A. Saberi, J. C. Lai, Y. Wu, Y.
+Wang,A.A.Trotsyuk,K.Y.Loh,C.C.Shih,W.Xu,K.Liang,K.Zhang,
+Y.Bai,G.Gurusankar,W.Hu,W.Jia,Z.Cheng,R.H.Dauskardt,G.C.
+Gurtner, J. B. H. Tok, K. Deisseroth, I. Soltesz, Z. Bao,Science 2022,
+375,1411.
+[31] N. Lopez-Larrea, M. Criado-Gonzalez, A. Dominguez-Alfaro, N.
+Alegret, I. D. Agua, B. Marchiori, D. Mecerreyes,ACS Appl. Polym.
+Mater.2022,4,6749.
+[32] G. Scordo, V. Bertana, A. Ballesio, R. Carcione, S. L. Marasso, M.
+Cocuzza, C. F. Pirri, M. Manachino, M. G. Gomez, A. Vitale, A.
+Chiodoni,E.Tamburri,L.Scaltrito, Nanomaterials2021,11,94.
+[33] J.Zhu,Q.Zhang,T.Yang,Y.Liu,R.Liu, Nat.Commun. 2020,11,3462.
+[34] W.Ouyang,X.Xu,W.Lu,N.Zhao,F.Han,S.C.Chen, Nat.Commun.
+2023,14,1716.
+[35] B.D.Paulsen,K.Tybrandt,E.Stavrinidou,J.Rivnay, Nat.Mater. 2020,
+19,13.
+[36] S.M.Kim,C.H.Kim,Y.Kim,N.Kim,W.J.Lee,E.H.Lee,D.Kim,S.
+Park,K.Lee,J.Rivnay,M.H.Yoon, Nat. Commun.2018,9,3858.
+[37] J.Li,J.Cao,B.Lu,G.Gu, Nat. Rev. Mater.2023,8,604.
+[38] R. Wan, J. Yu, Z. Quan, H. Ma, J. Li, F. Tian, W. Wang, Y. Sun, J. Liu,
+D.Gao,J.Xu,B.Lu, Chem. Eng. J.2024,490,151454.
+[39] G.Zhang,Z.Chen,C.H.Ahn,Z.Suo, Adv.Mater. 2024,36,2306960.
+[40] V.R.Feig,H.Tran,M.Lee,K.Liu,Z.Huang,L.Beker,D.G.Mackanic,
+Z.Bao, Adv. Mater.2019,31,1902869.
+[41] Y.Xia,J.Ouyang, ACS Appl. Mater. Interfaces2012,4,4131.
+[42] C.B.Cooper,S.E.Root,L.Michalek,S.Wu,J.C.Lai,M.Khatib,S.T.
+Oyakhire,R.Zhao,J.Qin,Z.Bao, Science2023,380,935.
+[43] J.Liu,S.Qu,Z.Suo,W.Yang, Natl. Sci. Rev.2021,8,nwaa254.
+[44] H.Li,M.Duan,Q.Chen,G.Zhang,Z.Zhang,B.Gao,X.Shen,Y.Wei,
+W. Li,Adv. Devices Instrum.2024,5,0058.
+[45] J. Wang, X. Y. Li, H. L. Qian, X. W. Wang, Y. X. Wang, K. F. Ren, J. Ji,
+Adv. Mater.2024,36,2310216.
+[46] X.Wang,Y.Feng,K.Sun,N.Chai,B.Mai,S.Li,X.Chen,W.Zhao,Q.
+Zhang,Energy Environ. Mater.2024,7,e12650.
+[47] P .Xu,S.W ang,A.Lin,H.K.Min,Z.Zhou,W .Dou,Y .Sun,X.Huang,
+H.Tran,X.Liu, Nat. Commun.2023,14,623.
+[48] M. Yang, P. Chen, X. Qu, F. Zhang, S. Ning, L. Ma, K. Yang, Y. Su, J.
+Zang,W.Jiang,T.Yu,X.Dong,Z.Luo, ACS Nano2023,17,885.
+Adv. Sci.2025,12,2414834 2414834(11of11) ©2025TheAuthor(s). AdvancedSciencepublishedbyWiley-VCHGmbH

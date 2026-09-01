@@ -1,0 +1,833 @@
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+1 of 10
+APPLIED SCIENCES AND ENGINEERING
+Conductance-stable liquid metal sheath-core 
+microfibers for stretchy smart fabrics and  
+self-powered sensing
+Lijing Zheng1, Miaomiao Zhu2, Baohu Wu3, Zhaoling Li4, Shengtong Sun1*, Peiyi Wu1*
+Highly conductive and stretchy fibers are crucial components for smart fabrics and wearable electronics. However, 
+most of the existing fiber conductors are strain sensitive with deteriorated conductance upon stretching, and 
+thus, a compromised strategy via introducing merely geometric distortion of conductive path is often used for 
+stable conductance. Here, we report a coaxial wet-spinning process for continuously fabricating intrinsically 
+stretchable, highly conductive yet conductance-stable, liquid metal sheath-core microfibers. The microfiber can 
+be stretched up to 1170%, and upon fully activating the conductive path, a very high conductivity of 4.35 × 104 S/m 
+and resistance change of only 4% at 200% strain are realized, arising from both stretch-induced channel opening 
+and stretching out of tortuous serpentine conductive path of the percolating liquid metal network. Moreover, the 
+microfibers can be easily woven into an everyday glove or fabric, acting as excellent joule heaters, electrothermochromic 
+displays, and self-powered wearable sensors to monitor human activities.
+INTRODUCTION
+Flexible, stretchable, and lightweight conductors are the indispensable 
+components of emerging wearable electronics (1), soft robotics (2), 
+deformable supercapacitors/batteries (3 ), flexible displays (4 ), etc. 
+Among them, stretchable fiber conductors that could be easily 
+knitted into fabrics with high air permeability and unnoticeable size 
+in wearing have attracted increasing interest (5 , 6). Researchers 
+mainly focus on two categories of stretchable conductive fibers 
+with extreme strain-dependent conducting properties for distinct 
+purposes: fiber sensors with highly sensitive conductance changes 
+and fiber electrodes/interconnects with stable conductance. Specif-
+ically, the recent developments in high-performance electronics 
+have proposed very high demand for stretchable fiber electrodes/
+interconnects that could steadily transport electrical signals be-
+tween active electronic components even under various and harsh 
+mechanical deformations without notable conductance loss (7–9). 
+However, in comparison with fiber strain sensors that have been 
+extensively constructed by altering the conductive path via cracks 
+(10, 11), percolation (12), twisting (13), or even the intrinsic resistance 
+response following Pouillet’s law (in the case of constant conductivity, 
+R/R0 =  2; R and R 0 are the resistances before and after stretch, 
+respectively, and   is the deformation ratio) (14,  15), it remains 
+challenging to fabricate stretchable fiber conductors with stable yet 
+consistently high conductance.
+Most of stretchable fiber conductors are based on either a mixing 
+or coating method to integrate an elastic fiber matrix with conductive 
+fillers. Regardless of material selection, the electrical contact be-
+tween conductive fillers determines the conductivity; during stretch, 
+conductive fillers may separate from each other, leading to the 
+deterioration of conductivity (16). As most conductive media are 
+rigid with unchangeable conductivity, a generally adopted strategy to 
+design strain-insensitive fiber conductors is to induce solely the geo-
+metric distortion of conductive path via a prestrain buckling process 
+or simply shaping the fiber in wavy or helical structures ( 7, 17–24). 
+For example, Liu et al. (7) reported superelastic conducting sheath-
+core fibers with a hierarchically buckled sheath prepared by wrap-
+ping carbon nanotube sheets on prestretched rubber fiber cores, 
+which enables a resistance change of less than 5% for a 1000% 
+stretch. Recently, inspired by the peristaltic behavior of arthropods, 
+coating worm-shaped buckled graphene microlayer on a poly-
+urethane filament also leads to strain-insensitive resistance change 
+of less than 0.1 up to 220% strain (20). Notwithstanding the success 
+of these pioneered studies, the drawbacks of these strategies are also 
+apparent: First, the nonstretchable conductive materials easily frag-
+ment and delaminate from the elastomeric polymers, leading to low 
+conductivity and durability (25). Second, the complicated two- or 
+more-step processes do not allow for the continuous fabrication of 
+long strain-insensitive fiber conductors. Third, as most of the con-
+ductive layers are exposed outside, leakage of conductive materials 
+and environmental influence on the fiber conductivity will become 
+another tricky issue.
+To overcome these limitations, we consider that embedding de-
+formable conductive fillers with strain-enhanced conductivity into 
+an elastic matrix may produce ultralong, intrinsically stretchable fiber 
+conductors with both stable and high conductance. Liquid metal 
+(LM) is a kind of low–melting point metal or alloy material with 
+unique advantages of high electrical conductivity [eutectic gallium- 
+indium (EGaIn): 3.4 × 10 6 S/m], room temperature fluidity, envi-
+ronmental stability, and biocompatibility (26, 27). Although plenty 
+of studies have attempted to encapsulate pure LM into elastomer 
+hollow tubes or coat LM onto stretchable fibers to maintain high 
+conductivity even at very high elongations (28–35), these conduc-
+tive fibers still have ever-changing conductance (basically obeying 
+Pouillet’s law), and LM leakage often occurs. On the other hand, 
+note that several recent studies have implied the unconventional 
+positive piezoconductivity effect of LM-embedded elastomers 
+arising from the stretch-induced elongation of LM particles 
+1State Key Laboratory for Modification of Chemical Fibers and Polymer Materials, 
+College of Chemistry, Chemical Engineering and Biotechnology & Center for 
+Advanced Low-dimension Materials, Donghua University, Shanghai 201620, China. 
+2College of Materials Science and Engineering, Donghua University, Shanghai 
+201620, China. 3Jülich Centre for Neutron Science (JCNS) at Heinz Maier-Leibnitz 
+Zentrum (MLZ) Forschungszentrum Jülich, Lichtenbergstr. 1, 85748 Garching, 
+Germany. 4College of Textiles, Donghua University, Shanghai, 201620, China.
+*Corresponding author. Email: shengtongsun@dhu.edu.cn (S.S.); wupeiyi@dhu.
+edu.cn (P.W.)
+Copyright © 2021 
+The Authors, some 
+rights reserved; 
+exclusive licensee 
+American Association 
+for the Advancement 
+of Science. No claim to 
+original U.S. Government 
+Works. Distributed 
+under a Creative 
+Commons Attribution 
+NonCommercial 
+License 4.0 (CC BY-NC).
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+2 of 10
+(piezoconductivity: the composite shows an increased conductivity 
+under tensile strain while most conductive composites show an in-
+creased resistivity) (16, 36–38). It is therefore believed that LM may 
+represent one of the best candidate conductive fillers for fabricating 
+conductance-stable, intrinsically stretchable fiber conductors.
+With these concerns in mind, this work put forward a coaxial 
+wet-spinning method to continuously prepare superelastic LM 
+sheath-core microfibers with both high and ultrastable conductance. 
+The sheath of the microfiber is composed of double-network fluoro-
+elastomer with good elasticity, and the core is the composite of the 
+same fluoroelastomer and percolated LM (EGaIn alloy) nanoparticles. 
+The sheath-core structure and the dipole-dipole interactions be-
+tween fluoroelastomer and LM make the embedded LM particles in 
+the core conformally deform upon stretching, leading to both high 
+stretchability and as-expected conductance stability without the 
+concern of LM leakage. Compared with the previously reported 
+strain-insensitive fiber conductors, the present LM sheath-core 
+microfibers exhibit great advantages in large-scale fabrication and 
+impressive mechanical and electrical performance (maximum strain, 
+~1170%; only 4% resistance change at 200% strain; high initial con-
+ductivity, ~4.35  ×  104 S/m; relatively low modulus, ~2.16 MPa). 
+Here, we further explored the promising applications of the re-
+sulting LM sheath-core microfibers in smart fabrics and self-  
+powered sensing based on joule heating, electrothermochromism, 
+and triboelectric properties.
+RESULTS
+Preparation of LM sheath-core microfibers
+Figure 1A and fig. S1 show the illustrations of the coaxial wet-spinning 
+process for preparing LM sheath-core microfibers. To improve the 
+fiber quality by smoothly solidifying the spinning solution, we used 
+a triaxial wet-spinning needle with the inner, middle, and outer di-
+ameters of 400, 1950, and 3000 m, respectively, which was further 
+immersed into deionized (DI) water as the coagulating bath. Corre-
+spondingly, the three spinning solutions are PVDF-HFP-TFE [poly 
+(vinylidene fluoride-hexafluoropropylene-tetrafluoroethylene)]/
+EGaIn particle/MEK (methyl ethyl ketone) in the inner channel, 
+PVDF-HFP-TFE/PEGDA [poly(ethylene glycol) diacrylate]/Irgacure 
+184/MEK in the middle channel, and DI water in the outer channel, 
+respectively. Among them, the fluoroelastomer, PVDF-HFP-  
+TFE, with a molar ratio of VDF [48 mole percent (mol %)], HFP 
+Fig. 1. Preparation of LM sheath-core microfibers. (A) Schematic setup and the main components for the coaxial wet-spinning process for producing LM sheath-core 
+microfibers. (B) A single as-spun fiber with the length of 380 m was collected on a continuously winding collector. (C) Microscopic images of LM sheath-core microfiber 
+and human hair. (D) Photo of the microfiber threaded into a needle. (E) SEM image of the external surface of the microfiber. (F) SEM image of a knotted microfiber. (G) An 
+LED can be lit up through a 55-cm-long activated LM sheath-core microfiber at a voltage of 3 V. (H) The cross-sectional SEM and corresponding elemental mapping im-
+ages of the microfiber. Photo credit: Lijing Zheng, Donghua University.
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+3 of 10
+(19 mol %), and TFE (33 mol %) [see nuclear magnetic resonance 
+characterizations and calculation details in figs. S2 and S3 and the 
+Supplementary Materials], was chosen owing to its good stretchability 
+and electrical insulativity when solidified (39). The concentrations 
+of PVDF-HFP-TFE in the middle and inner spinning solutions 
+were optimized to be 360 and 300 mg/ml, respectively, and its con-
+tent in the final solidified core was adjusted from 3 to 11 weight % 
+(wt %) as a controlling variable. As illustrated in Fig. 1A, when the 
+three solutions contact each other at the spinning head, MEK is 
+quickly exchanged with water in the outer flow, leading to the cur-
+ing of both sheath and core components. We highlight here the 
+importance of sheath-core design for fabricating LM microfibers; 
+without the protection of the fluoroelastomer sheath, LM leakage 
+may easily occur (fig. S4), which has increasingly become an issue 
+that has to be faced in the practical uses of LM composite materials 
+(40). Furthermore, to improve the toughness and elastic recovery of 
+the LM sheath-core fiber (41), we introduced a second covalent net-
+work in the sheath by post–ultraviolet-polymerizing the added 
+difunctional monomers, PEGDA (M n: 250 g/mol), in the middle 
+spinning solution.
+With this method, the LM sheath-core microfibers can be con-
+tinuously wet-spun into ideally unlimited length (see an example of 
+380-m-long fiber in Fig.  1B). After fully drying, the microfiber is 
+rather smooth with a diameter of ~270  m, a little larger than 
+human hair (Fig. 1C), and can be easily threaded into a needle 
+(Fig. 1D). The scanning electron microscopy (SEM) image further 
+shows the uniform and regular surface of the fiber (Fig. 1E) and its 
+flexibility (Fig. 1F). Good electrical conductivity of the fibers was 
+demonstrated by lighting a light-emitting diode (LED) with a 
+55-cm-long fiber at a small voltage of 3 V (Fig. 1G). As shown in 
+Fig. 1H, the cross-sectional SEM image of the fiber shows clearly the 
+sheath-core structure with a smooth fluoroelastomer sheath and rough 
+LM-fluoroelastomer composite core. Corresponding elemental map-
+ping images identify the distributions of Ga and In elements only in 
+the core and those of F and C elements concentrated in the sheath 
+yet sparse in the core, in good accordance with the spinning recipe. 
+An enlarged view (fig. S5) of the composite core indicates the ho-
+mogeneous distribution of LM particles in the fluoroelastomer ma-
+trix, and the embedded LM particles have sizes ranging from 0.8 to 
+7 m (mean size, ~3.6 m; see the statistical analysis in fig. S6). 
+Moreover, the cross-sectional Raman imaging of the microfiber again 
+implies the obvious sheath-core boundary scanned at two charac-
+teristic vibrational bands for fluoroelastomer and LM, respectively 
+(fig. S7).
+Mechanical properties and strain-insensitive conductance
+The LM sheath-core microfibers are highly elastic with good 
+stretchability and cyclability. Taking the microfiber with 7 wt % fluo-
+roelastomer in the core for example (unless otherwise stated, all the 
+mentioned microfibers in this paper are based on this concentra-
+tion), the fiber can be stretched up to 11.7 times longer than the 
+original length with the Young’s modulus of 2.16 MPa; the loading- 
+unloading curves at increasing strains (100 to 1000%) also coincide 
+well with the single tensile curve to break (Fig. 2A). It is noted that 
+because of the fluidity of LM, the modulus of the whole sheath-core 
+microfiber is much lower than pure fluoroelastomer fiber (Young’s 
+modulus, ~3.2 MPa; fig. S8), suggesting its good compliance with 
+fabrics and human skin. The good elastic recovery of the microfiber 
+is supported by the cycling tensile tests at a fixed strain of 100% for 
+100 cycles (Fig. 2B), which shows almost overlapped cycling curves 
+after the first cycle (irreversible structures were disrupted in the first 
+cycle). Replotting the tensile curve in the Mooney-Rivlin representation 
+(42) shows clearly three sequential stages, and a long plastic deform-
+ation range from 32 to 670% strain is attributed from both the fluo-
+roelastomer and the plastically deformable LM particles (fig. S9).
+To make the as-spun LM sheath-core microfiber electrically 
+conductive, activation is usually necessary to rupture the initially 
+resistive oxidation layer on LM particles and make them coalesce 
+into a percolating network. In this work, we used a sequential 
+“freezing-plus-stretching” strategy to fully sinter the LM particles 
+for conductivity activation. Since LM has abnormal volume expan-
+sion behavior, which expands rather than shrinks at low tempera-
+tures (43, 44), liquid nitrogen freezing-induced phase and stiffness 
+change can help LM particles pierce through the oxide and elastomer 
+coating layers to contact each other, leading to the partial activation 
+of the conductive path (fig. S10). As shown in Fig. 2C, subsequent 
+mechanical stretching to 200% drastically reduced the resistance 
+to a much lower level corresponding to a considerably high conduc-
+tivity of ~4.35 × 104 S/m, and then repeated stretching and recovering 
+show merely a small amplitude of resistance changes, indicating the 
+successful construction of stable and continuous conductive networks 
+(see fig. S11 for the activation curves of other samples with different 
+concentrations of fluoroelastomer). Note also that the two-step ac-
+tivation process will not be a big obstacle for the scale-up produc-
+tion of conductive LM sheath-core microfibers since the seemingly 
+cumbersome stretching process may be replaced by continuous cold 
+drawing via adjusting the rotating velocities of fast and slow rollers 
+(45). Moreover, even as the LM composite core has been fully acti-
+vated with a percolated LM phase, no LM leakage was observed after 
+sonicating a cut fiber in water for 2 hours (fig. S12), suggesting the 
+high affinity of LM to the microporous fluoroelastomer matrix.
+The relative change in resistance, R/R0 [=(R − R0)/R0], is gener-
+ally used to evaluate the conductance changes at specific strains. As 
+presented in Fig. 2D, the R/R0 changing curves of the prepared LM 
+sheath-core microfibers are all below that of pure LM, which obeys 
+the Pouillet’s law, and remain in a very small variation range even as 
+stretched to more than 300% strain (see real-time demonstration in 
+movie S1). The quantified R/R 0 values at different strains of LM 
+sheath-core microfibers with different concentrations of fluo-
+roelastomer (denoted as C PVDF-HFP-TFE) in the core were plotted in 
+Fig. 2E for comparison. Apparently, the microfiber with CPVDF-HFP-
+TFE = 7 wt % presents the best performance of strain-insensitive 
+conductance, with the resistance changes of 2.1, 4.1, 10.5, and 34.9% 
+at the strains of 100, 200, 300, and 400%, respectively. This result 
+was well reproduced by comparing the values of three batches of 
+wet-spun microfibers using the same recipe (fig. S13), indicating the 
+high reliability of our method. It is presumed that too much fluoro-
+elastomer in the core may lead to the incomplete percolation of LM 
+particles, and too less fluoroelastomer cannot sufficiently reshape 
+the LM phase for enhanced conductivity with stretch (will be dis-
+cussed in the latter part). We compared the electrical performance 
+of the present LM sheath-core microfibers with the currently re-
+ported strain-insensitive and LM-based stretchable fiber conduc-
+tors (7,  8,  20–22,  28,  29,  46–48) on the basis of maximum strain, 
+initial conductivity, and R/R0 at 200% strain. As shown in Fig. 2F 
+and table S1, while some references did not optimize for stable con-
+ductance, the LM sheath-core microfibers show comparatively ex-
+cellent performance in terms of all the three evaluation parameters 
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+4 of 10
+toward highly conductive, superelastic, and conductance-stable fiber 
+conductors. To demonstrate the advantage of strain-insensitive 
+conductance, the same LED was lit up through LM sheath-core micro-
+fiber and LM-filled silicone tube, respectively; stretching LM sheath- 
+core microfiber to 400% strain led to almost unchanged brightness 
+of LED, while stretching the LM-filled silicone tube to the same 
+strain induced apparently diminished emitted light (fig. S14).
+The excellent strain-insensitive conductance of the microfiber 
+lead us to further study the stability and durability of electrical 
+properties in the real application scenarios. As indicated in Fig. 2G, 
+600 cycles’ stretching and recovering cause fully repeatable resis-
+tance changes in a very small amplitude, and the slight resistance 
+baseline shift may be caused by the gradually optimized conductive 
+path in the cycling process. In addition, the conductance of the 
+sheath-core microfiber is also very stable during other forms of 
+deformations such as pressing, twisting, and bending (Fig. 2, H to J, 
+and movies S2 to S4). Upon pressing, when the mass of the load on 
+the fiber reaches about 150 g, the instantaneous change in resistance 
+does not exceed 10% (Fig. 2H). Even higher mass of load up to 3 kg 
+may largely flatten the fiber but did not quickly destroy the conduc-
+tive path (movie S2). Twisting is another common type of deform-
+ation for fibers, and the resistance of LM sheath-core microfiber only 
+remarkably increases when the torsion density is above 15 turns/cm 
+(Fig. 2I and movie S3). Bending is a kind of deformation compris-
+ing both stretching and pressing, and a high h/l0 ratio of 2.0 (as de-
+noted in Fig. 2J and movie S4) leads to only approximately 50% 
+resistance change. All these results reveal that the high yet strain-  
+insensitive conductance of LM sheath-core microfiber is not largely 
+affected by the deformation type, conducive to its practical applica-
+tions in smart fabrics and wearable electronics.
+Fig. 2. Mechanical properties and strain-insensitive conductance of LM sheath-core microfibers. (A) Tensile stress-strain curves of LM sheath-core microfibers and 
+the hysteresis loops measured at increasing strains (stretching rate: 20 mm/min). (B) Cyclic loading-unloading curves at a fixed strain of 100% for 100 cycles (stretching 
+rate: 20 mm/min; waiting time: 10 min). (C) Resistance changes of the stretch-induced conductivity activation of microfiber after freezing treatment. (D) Strain-dependent 
+resistance changing rate of LM sheath-core microfibers with six different fluoroelastomer loadings [C PVDF-HFP-TFE = 0 (pure LM), 3, 5, 7, 9, and 11 wt %]. (E) Histogram of 
+resistance change rates at fixed strains of different microfibers. (F) Comparison of the maximum strain, initial conductivity, and resistance change rate at 200% strain of 
+LM sheath-core microfiber with other reported strain-insensitive and LM-based stretchable fiber conductors. (G) Resistance changes of the LM sheath-core microfiber 
+over 600 cycles between 0 and 100% strain. (H to J) Resistance changes of the microfiber upon pressing, twisting, and bending.
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+5 of 10
+Mechanism discussion for strain-insensitive conductance
+To elucidate the exact reason for the excellent strain-insensitive 
+conductance behavior of LM sheath-core microfiber, we first inves-
+tigated the interactions between fluoroelastomer and LM. LM has 
+very high surface tension and is normally difficult to spread on solid 
+surfaces. Nevertheless, as shown in Fig. 3A, we dropped an EGaIn 
+LM droplet on the PVDF-HFP-TFE film, and then, stretching the 
+film to 600% strain lead to the spontaneous deformation of the LM 
+droplet with the increased contact area. The releasing process re-
+veals a fully recoverable LM shape deformation, suggesting that LM 
+should be able to reconciliate its surface to form a firm interface 
+with fluoroelastomer (49). We attribute the self-regulated deforma-
+tion of LM on fluoroelastomer to the strong dipole-dipole interac-
+tions between the Ga2O3 oxidation layer of LM and abundant polar 
+C-F groups in PVDF-HFP-TFE, as illustrated in Fig. 3B (50). The 
+presence of the surface oxidation layer on the used LM particles is 
+clearly supported from the Ga 3d x-ray photoelectron spectroscopy 
+(XPS) spectrum (Fig. 3C) (51, 52). Further evidence for the dipolar 
+interactions is provided by the infrared spectral comparison be-
+tween pure PVDF-HFP-TFE and PVDF-HFP-TFE/LM composite 
+(Fig. 3D), which shows an apparent peak shift of C-F stretching 
+bands from 1149/1132 to 1214 cm−1, suggesting remarkable chang-
+es of the chemical environment of C-F groups upon contact with 
+LM particles. Although surface hydroxyl groups may also exist in 
+the oxidation skin as indicated by O 1s XPS spectrum (fig. S15), the 
+possibility of hydrogen bonding had been excluded, as the organic 
+fluorine in fluoroelastomer is a poor hydrogen bond acceptor (53). 
+As shown in fig. S16, if the oxide layer of EGaIn droplet was de-
+stroyed with hydrochloric acid, the droplet became more spherical, 
+and stretching the film did not induce its deformation; further ex-
+posing the droplet in air for 24 hours to recover its oxide layer 
+would recover the interfacial deformability again. All these results 
+support the important role of the dipolar attraction between LM 
+oxidation layer and fluoroelastomer in regulating LM deformation. 
+In the case of the LM composite core of the studied microfiber, the 
+high adhesion of LM particles with fluoroelastomer matrix would 
+not only retain the hierarchical granular shape of percolated LM 
+phase to avoid its free flow, as observed in fig. S12, but also promote 
+the homogenous and reconciliatory deformation of LM for high 
+conductance tolerance upon large deformations (49).
+Nonetheless, merely strain-induced self-regulated deformation 
+of LM particles is not sufficient to account for the observed 
+Fig. 3. Mechanism of the strain-insensitive conductance of LM sheath-core microfibers. (A) Photographs of EGaIn droplet surface reconciliation on PVDF-HFP-TFE 
+film during stretching and releasing. (B) Schematic illustration of the surface creation and readjustment of EGaIn on the PVDF-HFP-TFE film through the dipole-dipole 
+interactions between Ga 2O3 layer and polar C-F groups. (C ) Ga 3d XPS spectrum of LM particles. a.u., arbitrary units. (D ) Attenuated total reflection–Fourier transform 
+infrared (ATR-FTIR) spectra of PVDF-HFP-TFE and PVDF-HFP-TFE/LM composite (C PVDF-HFP-TFE = 7 wt %) in the C-F stretching region. (E) Polarizing micrographs of the LM 
+sheath-core microfiber during stretching observed in the reflection mode. (F) 2D SAXS patterns and scattering intensity plots against q (the integration area is the selected 
+rectangular area) of the microfiber at strains of 0 and 300%, respectively. (G) SAXS azimuth integration and corresponding Lorentz fitting curve. The inset picture is the 
+2D image of the fiber at 300% strain. Photo credit: Lijing Zheng, Donghua University.
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+6 of 10
+counterintuitive low electromechanical coupling of LM sheath-core 
+microfibers. We further used polarized optical microscope to track 
+the elongation process of the fiber (Fig. 3E) and found that, at the 
+initial undeformed state, the units of activated percolating LM net-
+work keep a spherical shape with sizes close to the as-prepared state. 
+This means that adjacent LM particles or droplets connect to each 
+other through very narrow channels presenting a typical “horse-
+shoe-like” serpentine pattern, which may be maintained by the strong 
+constraint of LM oxidation layer having good affinity with fluoro-
+elastomer matrix. With stretch, larger LM microstructures started 
+to appear, indicating the enhanced connection of LM particles, likely 
+induced by the hydrostatic pressure of LM that flows into the neck 
+to expand the channel. More clear evidence for the structural evolu-
+tion of tortuously arranged LM particles in 0 to 50% strain has been 
+presented in fig. S17. Meanwhile, as stretched, the original weakly 
+oriented spherical LM particles gradually elongate into needle-like 
+microstructures along the stretch direction, suggesting that more 
+aligned conductive paths are formed.
+Such microstructural changes of the fiber were further investigated 
+by small-angle x-ray scattering (SAXS) method. The two-dimensional 
+(2D) SAXS patterns, scattering intensity plots, and the azimuth in-
+tegration with different strains are shown in Fig. 3 (F and G). The 
+2D SAXS results show elongated nucleus-like scattering patterns 
+perpendicular to the fiber axis, and the corresponding azimuth plot 
+exhibits a sharp distrib  ution (full width at half maximum, ≈26o) at 
+300% strain, which means a very good preferential orientation. The 
+presence of a turning point at the q value around 1 nm −1 suggests 
+that there are at least two levels of structures in the fiber, corre-
+sponding to the microstructures less than 5 nm from fluoroelastomer 
+chains and macroscopic structures larger than 100 nm from the 
+percolated network, respectively. Moreover, the low q  scattering 
+curve of the microfiber at 0% strain shows a q −3.5 scattering, which 
+shifts to q−3.0 at 300% strain, indicating the loss of fiber density after 
+stretching as LM particles start to flow. All the above observations 
+coincide with the recent computation results from Zolfaghari et al. (54) 
+who explained the reduced electromechanical coupling of LM-  
+embedded elastomers to mainly two principal contributions: One is 
+the hydrostatic pressure–controlled opening of the narrow, neck-like 
+connections among LM droplets, and the other one, probably the pri-
+mary contribution, is the stretching out of the original highly tortuous 
+serpentine conductive path, which does not prominently alter their 
+length and average cross-sectional area to preserve the end-to-end 
+conductance (G = A/l; where  is the intrinsic conductivity of LM, 
+A is the cross-sectional area, and l is the conductive length). A sche-
+matic mechanism for the strain-insensitive conductance of LM 
+sheath-core microfiber is presented in fig. S18, which is reminiscent 
+of the findings in other LM-embedded composites, LM-filled elas-
+tomer foams, and LM network on elastomer films (36, 38, 40, 49).
+Joule heating behaviors
+We further explored the potential applications of LM sheath-core 
+microfibers in smart fabrics. As the fiber is very fine with a rather 
+small Young’s modulus, knitting the fiber into fabrics does not 
+lead to any big influence on the mechanical properties of the fab-
+ric (fig. S19). In terms of the high yet strain-insensitive conduc-
+tance, the LM sheath-core microfibers may be used as an electrical 
+heater via joule heating effect. To test the heating performance, we 
+connected a DC voltage supplier to the two ends of the microfiber, 
+and an infrared thermal camera was used to monitor temperature 
+changes. As shown in Fig. 4A and movie S5, the temperature of the 
+fiber increases uniformly and simultaneously with the applied DC 
+voltage and reaches 71.9°C at the applied voltage of 1.2 V. The cy-
+clic heating test (Fig. 4B) was performed by repeatedly applying a 
+DC voltage of 0.8 V, showing repeatable temperature changes be-
+tween 48.1°C and room temperature (24.2°C). The temperature 
+switching is rather fast, with the heating time of 6.5 s and cooling 
+time of 9 s (Fig. 4C). We also embedded the LM sheath-core micro-
+fiber in an elastic spandex fabric glove (Fig. 4D); as the fingers bend 
+to stretch the fiber, owing to the strain-insensitive conductance, the 
+joule heating effect is not largely influenced. In addition, micro-
+encapsulated thermochromic dyes (color degradation temperature, 
+≈30°C; see photos of the ink and SEM images in fig. S20) can also 
+be blended into the sheath during wet-spinning to endow the fiber 
+with electrothermochromic properties (55). As shown in Fig. 4E 
+and movie S6, with the applied voltage of 0.45 V, the colored micro-
+fibers (green, red, and blue) rapidly turned to their intrinsic color of 
+gray because of the thermally induced color changes of embedded 
+dyes (temperature rose from 20° to 48.1°C). This process is fully 
+reversible by switching the voltage on and off. Knitting the colored 
+microfibers into a fabric with the letters “LMF” reproduced all the 
+observed color changes (Fig. 4E). Moreover, at the constant applied 
+voltage, pressing the microfiber would lastly increase the fiber’s re-
+sistance and thus reduce joule heating power (P  =  U2/R; U is the 
+applied voltage), and the reversible color response was also observed 
+(fig. S21). All these findings prove the microfiber’s great potential in 
+the intelligent display and adaptive camouflage of smart fabrics.
+Self-powered sensing
+LM sheath-core microfibers with consistently high conductance at 
+large strains and very electronegative surface could act as ideal highly 
+stretchable self-powered sensors based on the single-electrode-mode 
+triboelectric mechanism (31, 56, 57). Figure 5A shows the working 
+principle of self-powered sensing via LM sheath-core microfibers 
+based on contact triboelectrification and electrostatic induction (58). 
+For single-electrode-mode triboelectrics, the microfiber is connected 
+to the ground through an external load. Once a moving object 
+(most commonly used materials in our everyday life including hu-
+man skin are triboelectrically positive) contacts with the fiber, elec-
+trification occurs at the interface and generates opposite charges at 
+the surface of the two materials (Fig. 5A, i). When the two surfaces 
+separate, the static charges on the surface of the sheath will induce 
+the movement of electrons in the LM composite core to balance 
+them (Fig. 5A, ii). When the moving object is approaching back to 
+the microfiber, the whole process will be reversed with an electron 
+flux with the opposite direction (Fig. 5A, iii and iv). Therefore, the 
+movement of the target materials can be detected from either 
+open-circuit voltage or the generated alternating current. Note that, 
+among the common triboelectric materials, the chemical-resistant 
+fluoroelastomer is reported to show the most negative triboelectric 
+polarity, even higher than polytetrafluoroethylene (Fig.  5B) (59); 
+meanwhile, the ultrasmall Young’s modulus and ultrahigh stretch-
+ability of LM sheath-core microfibers make them quite suitable for 
+imperceptible wearable sensing.
+We thus monitored the induced voltage and current with LM 
+sheath-core microfiber by repeatedly contacting with five different 
+materials, viscose fabric, cotton fabric, ethylene-vinyl acetate copo-
+lymer, aluminum foil (Al), and silk fabric. As shown in Fig. 5C and 
+fig. S22, highly reproducible electrical signals can be detected 
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+7 of 10
+depending on the materials with different triboelectric polarities, 
+indicating that the LM sheath-core microfiber-based self-powered 
+sensor is promising in identifying material types as per their elec-
+tron affinity differences. Moreover, the voltage increased from 2.13 
+to 5.11 V and the current increased from 26.2 to 93 nA when the 
+contact-separation frequency increased from 1 to 4 Hz (Fig. 5D and 
+fig. S23), which may be ascribed to the enhanced flow rate of charges 
+caused by the higher deformation rates of microfiber at higher fre-
+quencies (60). As the microfiber was stretched to higher strains, the 
+fiber-based sensor still worked and an increased voltage and current 
+were observed with increasing strain yet fully recovered when the 
+fiber was released (Fig.  5E and fig. S24). This increment can be 
+attributed to the increase of contacting area and the thickness de-
+crease of the sheath during stretching benefitting for electrification 
+(58, 61). We further tested the self-powered sensing ability of LM 
+sheath-core microfibers for monitoring real human activities. As 
+shown in Fig. 5F and fig. S25, the fiber-embedded fabric glove was 
+worn on a prosthetic hand, and bending the finger would induce 
+the friction between the LM microfiber and polyurethane fibers in 
+the glove, thus causing similar voltage and current generation. 
+Bending the finger to increasing angles induced repeatable yet in-
+creasing amplitudes of voltage and current changes (movie S7). 
+Moreover, adhering the fiber on human wrist lead to similar results 
+based on the friction between human skin and the fiber (Fig. 5G and 
+Fig. 4. Joule heating properties of LM sheath-core microfibers. (A) The stepwise temperature changing curve and corresponding infrared thermal images of the LM 
+sheath-core microfiber with the applied voltage from 0 to 1.2 V. (B) Cyclic stability test of the joule heating performance of the microfiber by switching voltage between 
+0 and 0.8 V. (C) The enlarged image of the dashed area in (B) shows the temperature changes in one on-off cycle. (D) Infrared thermal images of the fiber embedded in an 
+elastic fabric glove (applied voltage, 0.4 V) as the fingers bend. (E) Microscopic images of the electrothermochromic microfibers and photographs of the fibers embedded 
+in a fabric by switching the voltage on and off. Photo credit: Lijing Zheng, Donghua University.
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+8 of 10
+fig. S26), demonstrating the powerful sensing ability of LM sheath-
+core microfibers as self-powered wearable sensors.
+DISCUSSION
+Together, we herein reported a coaxial wet-spinning strategy based 
+on LM particles and PVDF-HFP-TFE to fabricate highly conduc-
+tive, intrinsically stretchable LM sheath-core microfibers with 
+both high stretchability and strain-insensitive conductance. Superi-
+or to the strain-insensitive fiber conductors prepared by commonly 
+used prestrain buckling and helical structure method, the wet-spun 
+microfibers can be continuously fabricated and have ultrahigh con-
+ductivity and conductance stability after a freezing-plus-stretching 
+activation process to sinter LM particles, and repeatable deform-
+ations including stretching, pressing, twisting, and bending do not 
+cause the remarkable deterioration of their electrical performance. 
+We attribute the strain-insensitive conductance of LM sheath-core 
+microfibers to both the hydrostatic pressure–induced opening of 
+LM particle connections and the straightening of the highly tortuous 
+serpentine conductive paths of percolated LM network as confined 
+by fluoroelastomer chains via dipolar interactions. Benefitting from 
+the high conductivity, low Young’s modulus, and very electronegative 
+fluoroelastomer sheath, we further demonstrate the applications of 
+the microfibers in both joule heating, electrothermochromism, and 
+self-powered sensing, which may gain potential uses in both smart 
+textiles and wearable sensors.
+MATERIALS AND METHODS
+Materials
+EGaIn (Ga, 75.5%, and In, 24.5% by weight; melting point, ~15.7°C) 
+was purchased from Wochang Co. Ltd. PVDF-HFP-TFE was pur-
+chased from Qingheng. The photoinitiator, Irgacure 184, was pur-
+chased from IGM Resins. PEGDA (average M n = 250 g/mol) was 
+purchased from Sigma-Aldrich. MEK was acquired from Sinopharm 
+Chemical Reagent Co. Ltd., China. Benzotrifluoride was purchased 
+from Aladdin Reagent (Shanghai). Microencapsulated thermochromic 
+inks (green, red, and blue; color degradation temperature, ≈30°C; 
+Fig. 5. Application of the LM sheath-core microfibers/fabrics in self-powered sensors. (A) Working mechanism of LM sheath-core microfiber-based self-powered 
+sensor. (B) Comparison of the Young’s moduli and relative triboelectric polarities of common triboelectric materials. (C) Voltage signals generated by contacting LM mi-
+crofiber with five different triboelectric materials at the motion frequency of 2 Hz. The length of the fiber is 4 cm. (D) Voltage signals under different frequencies generat-
+ed by contacting the fiber with silk. (E) Voltage signals under different strain levels of the fiber at the motion frequency of 2 Hz. The length of the fiber is 1 cm. (F) Photos 
+and corresponding voltage signals by bending the fiber sensor–embedded spandex glove worn on a prosthetic hand. (G) Photos and corresponding voltage signals of 
+the fiber sensor adhered to a human wrist. Photo credit: Lijing Zheng, Donghua University.
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+9 of 10
+solvent, cyclohexanone; concentration, 25 wt %; capsule size, 1 to 10 m) 
+were purchased from Magic Color Change Technology (Shenzhen). 
+All the above reagents were used without further purification. DI 
+water (18.2 megohms/cm) was used unless stated otherwise.
+Preparation of spinning solutions
+PVDF-HFP-TFE solution was prepared by dissolving PVDF-HFP-
+TFE in MEK at a concentration of 360 mg/ml. To prepare LM dis-
+persions, LM was placed in a centrifuge tube containing MEK and 
+probe-sonicated (power, ~300 W; Scientz, JY92-IIN) in an ice water 
+bath for 30 min. For the inner spinning solution, PVDF-HFP-TFE 
+solution was mixed with the LM dispersion to reach a final polymer 
+concentration of 300 mg/ml. For the middle spinning solution, the 
+mass ratio of PVDF-HFP-TFE:Irgacure 184:PEGDA is 100:2:4. DI 
+water was used as both the outer spinning solution and coagu-
+lating bath.
+Wet-spinning of LM sheath-core microfibers
+All the spinning solutions were defoamed with a degassing machine 
+before use and then injected via a custom-designed triaxial needle 
+with the size of 22 gauge–13 gauge–10 gauge (corresponding to the 
+inner, middle, and outer diameters of 400, 1950, and 3000 m, re-
+spectively). As shown in fig. S1, the flow rates of the inner (2.0 ml/hour), 
+middle (4.0 ml/hour), and outer (4.0 ml/hour) spinning solutions 
+were controlled by syringe pumps. The cured LM sheath-core mi-
+crofibers were collected via a winding collector at a rotation speed 
+of 12 rpm (the diameter of the drum is 9 cm).
+Cross-linking of PEGDA in the sheath of microfibers
+To improve the elastic recovery of LM sheath-core microfibers, we 
+introduced a second network into the sheath. To initiate the polym-
+erization of the embedded PEGDA chains in the sheath, the dried 
+as-spun microfibers were put under (365 nm, 40 W) for 10 min.
+Fabrication of electrothermochromic LM sheath-core 
+microfibers
+To prepare electrothermochromic microfibers, thermochromic ink 
+with specified color was added to the outer spinning solution with a 
+final concentration of about 30 mg/ml, while other conditions re-
+main unchanged.
+SAXS measurements
+SAXS experiments were performed at the Shanghai Synchrotron 
+Radiation Facility beamline BL16B at an x-ray energy of 10.0 keV, 
+which corresponds to a wavelength of  = 1.24 Å. The sheath-core 
+microfibers were measured perpendicular to the beam with a sample- 
+detector distance of 1.9 m to cover the scattering vector q  range 
+from 0.03 to 1.5 nm−1 (q is the scattering vector; q = (4/)sin(); 2 
+is the scattering angle). The scattering patterns were obtained with 
+a short exposure time (10 s), and the air background was subtracted. 
+The SAXS pattern was azimuthally and radially averaged to obtain 
+the intensity profile.
+Self-powered sensing
+For self-powered sensing, the fiber was put horizontally, and the 
+dielectric material was adhered to a linear motor (LinMot, E1100) 
+equipped in a Mark-10 dynamometer to provide periodic and pro-
+grammed mechanical movements. The external load resistance was 
+100 megohms. The electrical signals of the LM sheath-core microfibers 
+were recorded with an electrometer (Keithley 6514). The acquired 
+data were recorded and analyzed in real time using a customized 
+LabVIEW software program. The length of a single LM sheath-core 
+microfiber for testing different friction materials and frequencies is 
+4 cm, and the length of the fiber for testing different strains is 1 cm 
+(unless otherwise specified, the test tap strength of the fiber is 5 N). 
+For testing different frequencies, the contact frequency between silk 
+and the fiber was controlled by the linear motor. For testing differ-
+ent strains, we stretch the microfiber to a certain strain and then let 
+silk touch the fiber at the motion frequency of 2 Hz.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/7/22/eabg4041/DC1
+REFERENCES AND NOTES
+ 1. D. C. Kim, H. J. Shim, W. Lee, J. H. Koo, D.-H. Kim, Material-based approaches for the 
+fabrication of stretchable electronics. Adv. Mater. 32, 1902743 (2020).
+ 2. F. Hartmann, M. Baumgartner, M. Kaltenbrunner, Becoming sustainable, the new frontier 
+in soft robotics. Adv. Mater. 32, 2004413 (2020).
+ 3. D. G. Mackanic, M. Kao, Z. Bao, Enabling deformable and stretchable batteries. Adv. 
+Energy Mater. 10, 2001424 (2020).
+ 4. Y. J. Tan, H. Godaba, G. Chen, S. T. M. Tan, G. Wan, G. Li, P. M. Lee, Y. Cai, S. Li, 
+R. F. Shepherd, J. S. Ho, B. C. K. Tee, A transparent, self-healing and high- dielectric 
+for low-field-emission stretchable optoelectronics. Nat. Mater. 19, 182–188 (2020).
+ 5. B. Wang, A. Facchetti, Mechanically flexible conductors for stretchable and wearable 
+e-skin and e-textile devices. Adv. Mater. 31, 1901408 (2019).
+ 6. J. Xiong, J. Chen, P. S. Lee, Functional fibers and fabrics for soft robotics, wearables, 
+and human-robot interface. Adv. Mater. 32, 2002640 (2020).
+ 7. Z. F. Liu, S. Fang, F. A. Moura, J. N. Ding, N. Jiang, J. Di, M. Zhang, X. Lepró, D. S. Galvão, 
+C. S. Haines, N. Y. Yuan, S. G. Yin, D. W. Lee, R. Wang, H. Y. Wang, W. Lv, C. Dong, 
+R. C. Zhang, M. J. Chen, Q. Yin, Y. T. Chong, R. Zhang, X. Wang, M. D. Lima, R. Ovalle-Robles, 
+D. Qian, H. Lu, R. H. Baughman, Hierarchically buckled sheath-core fibers for superelastic 
+electronics, sensors, and muscles. Science 349, 400–404 (2015).
+ 8. Z. Zhang, J. Deng, X. Li, Z. Yang, S. He, X. Chen, G. Guan, J. Ren, H. Peng, Superelastic 
+supercapacitors with high performances during stretching. Adv. Mater. 27, 356–362 
+(2015).
+ 9. Y.-Y. Lee, H.-Y. Kang, S. H. Gwon, G. M. Choi, S.-M. Lim, J.-Y. Sun, Y.-C. Joo, A strain-
+insensitive stretchable electronic conductor: PEDOT:PSS/acrylamide organogels.  
+Adv. Mater. 28, 1636–1643 (2016).
+ 10. Z. Liu, D. Qi, G. Hu, H. Wang, Y. Jiang, G. Chen, Y. Luo, X. J. Loh, B. Liedberg, X. Chen, 
+Surface strain redistribution on structured microfibers to enhance sensitivity 
+of fiber-shaped stretchable strain sensors. Adv. Mater. 30, 1704229 (2018).
+ 11. J. Lee, S. Shin, S. Lee, J. Song, S. Kang, H. Han, S. Kim, S. Kim, J. Seo, D. Kim, T. Lee, Highly 
+sensitive multifilament fiber strain sensors with ultrabroad sensing range for textile 
+electronics. ACS Nano 12, 4259–4268 (2018).
+ 12. S. Seyedin, S. Uzun, A. Levitt, B. Anasori, G. Dion, Y. Gogotsi, J. M. Razal, MXene composite 
+and coaxial fibers with high stretchability and conductivity for wearable strain sensing 
+textiles. Adv. Funct. Mater. 30, 1910504 (2020).
+ 13. Y. Gao, F. Guo, P. Cao, J. Liu, D. Li, J. Wu, N. Wang, Y. Su, Y. Zhao, Winding-locked carbon 
+nanotubes/polymer nanofibers helical yarn for ultrastretchable conductor and strain 
+sensor. ACS Nano 14, 3442–3450 (2020).
+ 14. M. Ju, B. Wu, S. Sun, P. Wu, Redox-active iron-citrate complex regulated robust 
+coating-free hydrogel microfiber net with high environmental tolerance and sensitivity. 
+Adv. Funct. Mater. 30, 1910387 (2020).
+ 15. L. Shuai, Z. H. Guo, P. Zhang, J. Wan, X. Pu, Z. L. Wang, Stretchable, self-healing, 
+conductive hydrogel fibers for strain sensing and triboelectric energy-harvesting smart 
+textiles. Nano Energy 78, 105389 (2020).
+ 16. G. Yun, S.-Y. Tang, S. Sun, D. Yuan, Q. Zhao, L. Deng, S. Yan, H. Du, M. D. Dickey, W. Li, 
+Liquid metal-filled magnetorheological elastomer with positive piezoconductivity.  
+Nat. Commun. 10, 1300 (2019).
+ 17. C. Choi, J. M. Lee, S. H. Kim, S. J. Kim, J. Di, R. H. Baughman, Twistable and stretchable 
+sandwich structured fiber for wearable sensors and supercapacitors. Nano Lett. 16, 
+7677–7684 (2016).
+ 18. H. Wang, Z. Liu, J. Ding, X. Lepró, S. Fang, N. Jiang, N. Yuan, R. Wang, Q. Yin, W. Lv, Z. Liu, 
+M. Zhang, R. Ovalle-Robles, K. Inoue, S. Yin, R. H. Baughman, Downsized sheath-core 
+conducting fibers for weavable superelastic wires, biosensors, supercapacitors, and strain 
+sensors. Adv. Mater. 28, 4998–5007 (2016).
+
+Zheng et al., Sci. Adv. 2021; 7 : eabg4041     28 May 2021
+SCIENCE ADVANCES |  RESEARCH ARTICLE
+10 of 10
+ 19. B. Zhang, J. Lei, D. Qi, Z. Liu, Y. Wang, G. Xiao, J. Wu, W. Zhang, F. Huo, X. Chen, 
+Stretchable conductive fibers based on a cracking control strategy for wearable 
+electronics. Adv. Funct. Mater. 28, 1801683 (2018).
+ 20. F. Sun, M. Tian, X. Sun, T. Xu, X. Liu, S. Zhu, X. Zhang, L. Qu, Stretchable conductive fibers 
+of ultrahigh tensile strain and stable conductance enabled by a worm-shaped graphene 
+microlayer. Nano Lett. 19, 6592–6599 (2019).
+ 21. J. Zhou, G. Tian, G. Jin, Y. Xin, R. Tao, G. Lubineau, Buckled conductive polymer ribbons 
+in elastomer channels as stretchable fiber conductor. Adv. Funct. Mater. 30, 1907316 (2020).
+ 22. Y. Zhao, D. Dong, S. Gong, L. Brassart, Y. Wang, T. An, W. Cheng, A moss-inspired 
+electroless gold-coating strategy toward stretchable fiber conductors by dry spinning. 
+Adv. Electron. Mater. 5, 1800462 (2019).
+ 23. J. Lee, D. W. Kim, S. Chun, J. H. Song, E. S. Yoo, J. K. Kim, C. Pang, Intrinsically strain-
+insensitive, hyperelastic temperature-sensing fiber with compressed micro-wrinkles 
+for integrated textronics. Adv. Mater. Technol. 5, 2000073 (2020).
+ 24. J. Woo, H. Lee, C. Yi, J. Lee, C. Won, S. Oh, J. Jekal, C. Kwon, S. Lee, J. Song, B. Choi, K.-I. Jang, 
+T. Lee, Ultrastretchable helical conductive fibers using percolated Ag nanoparticle 
+networks encapsulated by elastic polymers with high durability in omnidirectional 
+deformations for wearable electronics. Adv. Funct. Mater. 30, 1910026 (2020).
+ 25. S. Gong, W. Cheng, One-dimensional nanomaterials for soft electronics. Adv. Electron. Mater. 
+3, 1600314 (2017).
+ 26. J. Yan, Y. Lu, G. Chen, M. Yang, Z. Gu, Advances in liquid metals for biomedical 
+applications. Chem. Soc. Rev. 47, 2518–2533 (2018).
+ 27. L. Gu, S. Poddar, Y. Lin, Z. Long, D. Zhang, Q. Zhang, L. Shu, X. Qiu, M. Kam, A. Javey, 
+Z. Fan, A biomimetic eye with a hemispherical perovskite nanowire array retina. Nature 
+581, 278–282 (2020).
+ 28. S. Zhu, J.-H. So, R. Mays, S. Desai, W. R. Barnes, B. Pourdeyhimi, M. D. Dickey, 
+Ultrastretchable fibers with metallic conductivity using a liquid metal alloy core.  
+Adv. Funct. Mater. 23, 2308–2314 (2013).
+ 29. Y. Qu, T. Nguyen-Dang, A. G. Page, W. Yan, T. Das Gupta, G. M. Rotaru, R. M. Rossi, 
+V. D. Favrod, N. Bartolomei, F. Sorin, Superelastic multimaterial electronic and photonic 
+fibers and devices via thermal drawing. Adv. Mater. 30, 1707251 (2018).
+ 30. S. Park, N. Baugh, H. K. Shah, D. P. Parekh, I. D. Joshipura, M. D. Dickey, Ultrastretchable 
+elastic shape memory fibers with electrical conductivity. Adv. Sci. 6, 1901579 (2019).
+ 31. C. Dong, A. Leber, T. Das Gupta, R. Chandran, M. Volpi, Y. Qu, T. Nguyen-Dang, 
+N. Bartolomei, W. Yan, F. Sorin, High-efficiency super-elastic liquid metal based 
+triboelectric fibers and textiles. Nat. Commun. 11, 3537 (2020).
+ 32. H. Guo, Y. Han, W. Zhao, J. Yang, L. Zhang, Universally autonomous self-healing 
+elastomer with high stretchability. Nat. Commun. 11, 2037 (2020).
+ 33. G. Chen, H. Wang, R. Guo, M. Duan, Y. Zhang, J. Liu, Superelastic EGaIn composite fibers 
+sustaining 500% tensile strain with superior electrical conductivity for wearable 
+electronics. ACS Appl. Mater. Interfaces 12, 6112–6118 (2020).
+ 34. R. Guo, H. Wang, G. Chen, B. Yuan, Y. Zhang, J. Liu, Smart semiliquid metal fibers with 
+designed mechanical properties for room temperature stimulus response and liquid 
+welding. Appl. Mater. Today 20, 100738 (2020).
+ 35. Y.-h. Wu, R.-m. Zhen, H.-z. Liu, S.-q. Liu, Z.-f. Deng, P.-p. Wang, S. Chen, L. Liu, Liquid metal 
+fiber composed of a tubular channel as a high-performance strain sensor. J. Mater. Chem. C 
+5, 12483–12491 (2017).
+ 36. C. J. Thrasher, Z. J. Farrell, N. J. Morris, C. L. Willey, C. E. Tabor, Mechanoresponsive 
+polymerized liquid metal networks. Adv. Mater. 31, 1903864 (2019).
+ 37. G. Yun, S.-Y. Tang, Q. Zhao, Y. Zhang, H. Lu, D. Yuan, S. Sun, L. Deng, M. D. Dickey, W. Li, 
+Liquid metal composites with anisotropic and unconventional piezoconductivity. Matter 
+3, 824–841 (2020).
+ 38. B. Yao, W. Hong, T. Chen, Z. Han, X. Xu, R. Hu, J. Hao, C. Li, H. Li, S. E. Perini, M. T. Lanagan, 
+S. Zhang, Q. Wang, H. Wang, Highly stretchable polymer composite with strain-enhanced 
+electromagnetic interference shielding effectiveness. Adv. Mater. 32, 1907499 (2020).
+ 39. S. Ebnesajjad, Introduction to Fluoropolymers (William Andrew, ed. 1, 2013).
+ 40. F. Krisnadi, L. L. Nguyen, Ankit, J. Ma, M. R. Kulkarni, N. Mathews, M. D. Dickey, Directed 
+assembly of liquid metal-elastomer conductors for stretchable and self-healing 
+electronics. Adv. Mater. 32, 2001642 (2020).
+ 41. H. Wu, Y. Cao, H. Su, C. Wang, Tough gel electrolyte using double polymer network 
+design for the safe, stable cycling of lithium metal anode. Angew. Chem. Int. Ed. 57, 
+1361–1365 (2018).
+ 42. X. Zhang, B. Wu, S. Sun, P. Wu, Hybrid materials from ultrahigh-inorganic-content mineral 
+plastic hydrogels: arbitrarily shapeable, strong, and tough. Adv. Funct. Mater. 30, 1910425 
+(2020).
+ 43. H. Wang, Y. Yao, Z. He, W. Rao, L. Hu, S. Chen, J. Lin, J. Gao, P. Zhang, X. Sun, X. Wang, 
+Y. Cui, Q. Wang, S. Dong, G. Chen, J. Liu, A highly stretchable liquid metal polymer 
+as reversible transitional insulator and conductor. Adv. Mater. 31, 1901337 (2019).
+ 44. X. Sun, B. Cui, B. Yuan, X. Wang, L. Fan, D. Yu, Z. He, L. Sheng, J. Liu, J. Lu, Liquid metal 
+microparticles phase change medicated mechanical destruction for enhanced tumor 
+cryoablation and dual-mode imaging. Adv. Funct. Mater. 30, 2003359 (2020).
+ 45. X. Liao, M. Dulle, J. M. de Souza e Silva, R. B. Wehrspohn, S. Agarwal, S. Förster, H. Hou, 
+P. Smith, A. Greiner, High strength in combination with high toughness in robust 
+and sustainable polymeric materials. Science 366, 1376–1379 (2019).
+ 46. Y. Zhang, W. Zhang, G. Ye, Q. Tan, Y. Zhao, J. Qiu, S. Qi, X. Du, T. Chen, N. Liu, Core-sheath 
+stretchable conductive fibers for safe underwater wearable electronics. Adv. Mater. Technol. 
+5, 1900880 (2020).
+ 47. Y. Zhao, Q. Zhai, D. Dong, T. An, S. Gong, Q. Shi, W. Cheng, Highly stretchable and 
+strain-insensitive fiber-based wearable electrochemical biosensor to monitor glucose 
+in the sweat. Anal. Chem. 91, 6569–6576 (2019).
+ 48. Y. Yu, J. Guo, B. Ma, D. Zhang, Y. Zhao, Liquid metal–integrated ultra-elastic conductive 
+microfibers from microfluidics for wearable electronics. Sci. Bull. 65, 1752–1759 (2020).
+ 49. J.-E. Park, H. S. Kang, M. Koo, C. Park, Autonomous surface reconciliation of a liquid-metal 
+conductor micropatterned on a deformable hydrogel. Adv. Mater. 32, 2002178 (2020).
+ 50. S. Lee, J.-S. Park, T. R. Lee, The wettability of fluoropolymer surfaces: Influence of surface 
+dipoles. Langmuir 24, 4817–4826 (2008).
+ 51. S. Handschuh-Wang, L. Zhu, T. Gan, T. Wang, B. Wang, X. Zhou, Interfacing of surfaces 
+with gallium-based liquid metals—Approaches for mitigation and augmentation 
+of liquid metal adhesion on surfaces. Appl. Mater. Today 21, 100868 (2020).
+ 52. Y. Ding, M. Zeng, L. Fu, Surface chemistry of gallium-based liquid metals. Matter 3, 
+1477–1506 (2020).
+ 53. J. D. Dunitz, R. Taylor, Organic fluorine hardly ever accepts hydrogen bonds. Chem. A Eur. J. 
+3, 89–98 (1997).
+ 54. N. Zolfaghari, P. Khandagale, M. J. Ford, K. Dayal, C. Majidi, Network topologies dictate 
+electromechanical coupling in liquid metal-elastomer composites. Soft Matter 16, 
+8818–8825 (2020).
+ 55. Y. Jin, Y. Lin, A. Kiani, I. D. Joshipura, M. Ge, M. D. Dickey, Materials tactile logic via 
+innervated soft thermochromic elastomers. Nat. Commun. 10, 4187 (2019).
+ 56. Y. Yang, N. Sun, Z. Wen, P. Cheng, H. Zheng, H. Shao, Y. Xia, C. Chen, H. Lan, X. Xie, 
+C. Zhou, J. Zhong, X. Sun, S.-T. Lee, Liquid-metal–based super-stretchable and structure-
+designable triboelectric nanogenerator for wearable electronics. ACS Nano 12, 
+2027–2034 (2018).
+ 57. W. Wang, A. Yu, X. Liu, Y. Liu, Y. Zhang, Y. Zhu, Y. Lei, M. Jia, J. Zhai, Z. L. Wang, Large-scale 
+fabrication of robust textile triboelectric nanogenerators. Nano Energy 71, 104605 (2020).
+ 58. X. Pu, M. Liu, X. Chen, J. Sun, C. Du, Y. Zhang, J. Zhai, W. Hu, Z. L. Wang, Ultrastretchable, 
+transparent triboelectric nanogenerator as electronic skin for biomechanical energy 
+harvesting and tactile sensing. Sci. Adv. 3, e1700015 (2017).
+ 59. Z. L. Wang, A. C. Wang, On the origin of contact-electrification. Mater. Today 30, 34–51 
+(2019).
+ 60. J. Zhong, Q. Zhong, F. Fan, Y. Zhang, S. Wang, B. Hu, Z. L. Wang, J. Zhou, Finger typing 
+driven triboelectric nanogenerator and its use for instantaneously lighting up LEDs. Nano 
+Energy 2, 491–497 (2013).
+ 61. Y. Yang, J. Han, J. Huang, J. Sun, Z. L. Wang, S. Seo, Q. Sun, Stretchable energy-harvesting 
+tactile interactive interface with liquid-metal-nanoparticle-based electrodes. Adv. Funct. Mater. 
+30, 1909652 (2020).
+ 62. E. B. Twum, E. F. McCord, D. F. Lyons, P. L. Rinaldi, Multidimensional 19F NMR analyses 
+of terpolymers from vinylidene fluoride (VDF)-hexafluoropropylene (HFP)-
+tetrafluoroethylene (TFE). Macromolecules 48, 3563–3576 (2015).
+ 63. M. Shafiei, F. Hoshyargar, N. Motta, A. P. O’Mullane, Utilizing p-type native oxide on liquid 
+metal microdroplets for low temperature gas sensing. Mater. Des. 122, 288–295 (2017).
+Acknowledgments: We thank the staff from BL16B beamline at the Shanghai Synchrotron 
+Radiation Facility for assistance during data collection. Funding: We gratefully acknowledge 
+the financial support from the National Science Foundation of China (NSFC) (nos. 21991123, 
+51873035, 51733003, and 21604024) and the “Qimingxing Plan” (19QA1400200). Author 
+contributions: S.S. and P.W. conceived the project. L.Z. carried out all the experiments. M.Z. 
+and Z.L. contributed to the self-powered sensing measurements. B.W. analyzed the SAXS 
+results, and all authors provided meaningful feedback for the project and manuscript. 
+Competing interests: The authors declare that they have no competing interests. Data and 
+materials availability: All data needed to evaluate the conclusions in the paper are present in 
+the paper and/or the Supplementary Materials. Additional data related to this paper may be 
+requested from the authors.
+Submitted 4 January 2021
+Accepted 14 April 2021
+Published 28 May 2021
+10.1126/sciadv.abg4041
+Citation: L. Zheng, M. Zhu, B. Wu, Z. Li, S. Sun, P. Wu, Conductance-stable liquid metal sheath-
+core microfibers for stretchy smart fabrics and self-powered sensing. Sci. Adv. 7, eabg4041 
+(2021).

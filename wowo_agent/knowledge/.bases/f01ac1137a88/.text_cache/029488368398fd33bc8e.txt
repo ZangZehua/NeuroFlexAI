@@ -1,0 +1,301 @@
+1
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+www.nature.com/scientificreports
+Multilayer Patterning of High 
+Resolution Intrinsically Stretchable 
+Electronics
+Klas Tybrandt, Flurin Stauffer & Janos Vörös
+Stretchable electronics can bridge the gap between hard planar electronic circuits and the curved, soft 
+and elastic objects of nature. This has led to applications like conformal displays, electronic skin and 
+soft neuroprosthetics. A remaining challenge, however, is to match the dimensions of the interfaced 
+systems, as all require feature sizes well below 100 μm. Intrinsically stretchable nanocomposites are 
+attractive in this context as the mechanical deformations occur on the nanoscale, although methods 
+for patterning high performance materials have been lacking. Here we address these issues by 
+reporting on a multilayer additive patterning approach for high resolution fabrication of stretchable 
+electronic devices. The method yields highly conductive 30 μm tracks with similar performance to 
+their macroscopic counterparts. Further, we demonstrate a three layer micropatterned stretchable 
+electroluminescent display with pixel sizes down to 70 μm. These presented findings pave the way 
+towards future developments of high definition displays, electronic skins and dense multielectrode 
+arrays.
+Adaptation of devices to curvilinear surfaces and to soft and deformable systems requires stretchability
+1,2. 
+Recent progress has resulted in applications like conformal displays 3,4, electronic skin 5,6, soft neuroprosthet-
+ics7–9 and cardiostimulating implants10. Also, new stretchable components such as transistors11,12 and batteries13 
+are under development. A remaining challenge, however, is to match the dimensions of the interfaced systems, 
+as for example both high definition displays and neural recording electrodes require feature sizes well below 
+100 μ m. Intrinsically stretchable nanocomposites
+1,14–19 are attractive in this context, as the mechanical defor -
+mations occur on the nanoscale and thus potentially allows for far reaching miniaturization, which is not the 
+case for macroscopic geometrical constructs like serpentines. The composites typically comprise an elastomer 
+loaded with a conductive filler, e.g. carbon nanotubes
+18, graphene20, (nano)particles14,21,22 or metal nanowires16,17. 
+Miniaturization of stretchable conductors may seem like a trivial task, but strain induced defects and inhomoge-
+neities which may be tolerable for macroscopic samples
+16 are fatal for narrower features23. Only a few reports have 
+been published on the patterning and characterization of stretchable conductors with line widths <  =  500 μ m 
+(Fig. 1a)9,22–26, and none of these combines small dimensions with high performance. The challenge is thus to 
+develop a method which can produce arbitrary patterns of high resolution, low sheet resistance and high stretch-
+ability (lower left corner of Fig. 1a). Preferably the method should also be compatible with multilayer fabrication 
+of elastomer substrates, which are sensitive to organic solvents and many etching solutions
+27,28. In order to meet 
+these criteria, herein we report on a filtration based method for the fabrication of high resolution multilayer 
+stretchable devices. Filtration is a well-established method to create films of carbon nanotubes and silver nano-
+wires (AgNWs), although up till now only low resolution patterns have been reported
+16,24. Here we improve the 
+resolution of the method and achieve outstanding electromechanical performance for our micropatterned con-
+ductors (Fig. 1a). Interestingly, there are so few defects in the conductors that 20 mm long and 30 μ m wide tracks 
+electromechanically behave similarly to macroscopic tracks. Further, we utilize this versatile method to fabricate 
+a three layer stretchable matrix of electroluminescent pixels with outstanding fill factor and pixel size down to 
+70 μ m.
+Results and Discussion
+The process starts by patterning a ma-N 490 photoresist layer on top of a hydrophilic PVDF membrane filter 
+(Fig. 1b). The viscous resist is only partially absorbed into the membrane and the UV exposure mainly renders 
+Institute for Biomedical Engineering ETH Zurich, ETZ F76 Gloriastrasse 35 8092 Zurich Switzerland. Correspondence 
+and requests for materials should be addressed to K.T. (email: tybrandt@biomed.ee.ethz.ch or klas.tybrandt@liu.se)
+received: 12 February 2016
+accepted: 20 April 2016
+Published: 09 May 2016
+OPEN
+
+www.nature.com/scientificreports/
+2
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+the top part of the resist insoluble, which allows for the development of high resolution patterns without clogged 
+membrane pores. The resulting membrane has a shiny surface (Fig. 1c), which indicates that the resist forms 
+an even layer on top of the pores. The thickness of the resist layer varies slightly over the membrane surface 
+but is typically in the 3–5  μ m range (Supplementary Fig. 1). Two other photoresists, ma-P 1275 HV and SU-8 
+2100, were evaluated for the same purpose but without satisfying results. The positive ma-P 1275 HV resist left  
+residues in the membrane pores even after extended development, which also resulted in non-vertical sidewalls 
+(Supplementary Fig. 2). The SU-8 2100 resist was fully absorbed into the membrane, which made it impossible to 
+achieve small open features due to the thickness and light scattering.
+In the next step, the ma-N 490 patterned membrane is placed in the filtration setup and a dilute aqueous 
+AgNW dispersion (15 ml) is sucked through the openings of the photoresist pattern by vacuum. Since the NWs 
+follow the flow of the liquid they are deposited in the openings of the resist, with only few NWs deposited on top 
+of the resist. The membrane is dried and hard baked as this prevents residual NWs, which are stuck on top of the 
+resist, to be transferred. Finally, the membrane is pressed in contact with a semi-cured PDMS substrate, heated, 
+and peeled off to complete the transfer. Figure 1d shows a two inch PDMS sheet with a transferred AgNW pat-
+tern. Feature sizes down to 20 μ m are typically transferred without any problems; smaller features are less reliably 
+transferred but often work as well. The resolution limit of the method was evaluated by processing a set of test 
+structures. Resist features down to 10 μ m with well-defined edges could readily be achieved (Fig. 2a) and locally it 
+was even possible to achieve 5 μ m resolution (Supplementary Fig. 3). Next, we evaluated transferred AgNW pat-
+terns of 30 μ m, 20 μ m and 10 μ m line width (Fig. 2b–d). No defects were visible when a larger area was inspected 
+(Supplementary Fig. 4a). A closer look at the 30  μ m tracks shows that the tracks are nicely separated with little 
+nanowire residues in between (Fig. 2b). Interestingly, it seems like the nanowire tracks are partially penetrated 
+with PDMS, which might explain the low amount of defects in the transfer, as this ensures good adhesion between 
+the tracks and the substrate (Supplementary Fig. 4b,c). The 20  μ m tracks are intact but nanowire residues start 
+to become a problem. Reducing the track width further down to 10  μ m exacerbate the problem. To determine 
+whether the tracks were electrically isolated from each other, electrical measurements were performed on the 
+test structures comprising four parallel 10  mm long lines with contact pads (Supplementary Fig. 5). Typically, 
+the 30 μ m tracks were properly isolated (6 measured structures), the 20 μ m tracks had some shorts that could be 
+melted away by applying 30 V , and the 10 μ m tracks were severely shorted (Supplementary Fig. 5). An important 
+factor which limits the resolution is the conductor separation to AgNW length ratio. Here we need a ratio of three 
+to achieve electrical isolation of tracks, which can be understood from the fact that this requires three residual 
+AgNWs to line up to create a short, something which is quite unlikely as the density of transferred residual 
+AgNWs are low. Also, it is very important not to have AgNW aggregates in the dispersion, as a few aggregates can 
+ruin a finer pattern.
+Electromechanical characterization was performed on 20 mm long test structures with varying track widths 
+(Fig. 2e,f). The tracks were insulated with an additional PDMS layer, leaving only the nanowires at the contact 
+pads exposed at the surface. The initial sheet resistance of the 20 μ m and 30 μ m tracks were 0.71 ±  0.24 Ω /□  and 
+0.74 ±  0.20 Ω /□ , respectively. This corresponds to a conductivity of about 5000 S/cm for the ~3 μ m thick AgNW 
+layer (Supplementary Fig. 6). The resistance as a function of strain for the different samples is shown in Fig. 2e. 
+When stretched, the resistance increases smoothly up to a certain point, after which a rapid increase with a lot of 
+noise follows. This point occurs already at ~25% strain for the 10 μ m sample and at ~130% strain for the 20 μ m 
+and 30 μ m samples. The 2  mm wide reference sample does not reach this point before it mechanically breaks 
+at ~150% strain. This indicates that the transition is caused by local defects in the narrow tracks, while a few 
+local defects don’t affect the macroscopic conductor. Even at 100% strain, the resistance of the 20 μ m and 30 μ m 
+Figure 1. Stretchable conductor patterning. (a) Overview of published results on patterned stretchable 
+composites with line widths < =  500 μ m (•  Martinez et al.25, ▾  Larmagnac et al.9, ♦  Lacour et al.26, ▴  Moon 
+et al.23, ◂ Matsuhisa et al.22, ▸Tybrandt et al.24). The sheet resistance (when available) for 0%, 20%, 50% and 
+100% strain for the different studies is plotted as a function of conductor width. (b) The membrane is patterned 
+with a photoresist layer and the nanowires are deposited in the resist openings through vacuum filtration. The 
+membrane is sequentially dried and put in contact with a semi-cured PDMS film under pressure and heat. 
+Finally, the membrane is peeled off leaving the nanowire pattern on the PDMS surface. (c) The patterned 
+membrane has a shiny non-sticky surface. (d) PDMS substrate with transferred nanowires. Features down to 
+20 μ m are transferred over the whole area.
+
+www.nature.com/scientificreports/
+3
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+samples remains below 10 Ω /□ . The samples performance under repeated strain cycles was evaluated by applying 
+1000 cycles of 20% strain while measuring the resistance (Fig. 2f). The lower lines correspond to 0% strain while 
+the upper lines correspond to 20% strain. The 30 μ m and 2 mm samples behave similarly and show stable perfor-
+mance. The resistance of the 20 μ m track starts to spike occasionally after a while when stretched, probably due to 
+one or a few defects along the 20 mm long track. The spikes occur only locally during the strain cycle, after which 
+the resistance returns to the normal range (Fig. 2g). Impressively, all samples remain below 2  Ω /□  after 1000 
+cycles. As narrow tracks are much more sensitive to local defects than wide tracks, the comparable performance 
+indicates that the track quality is outstanding over the 20 mm long samples.
+The development of high resolution stretchable displays requires that several layers of stretchable conductors 
+can be patterned in a multilayer configuration. Furthermore, at least one of the electrode layers needs to be trans-
+parent and the tracks have to be dense in order to obtain high resolution and fill factor. Electroluminescent (EL) 
+phosphor is attractive for stretchable applications and recently the first stretchable panels were demonstrated29–31. 
+The EL particles are dispersed in a dielectric layer and emit light when a high AC field is applied (Fig. 3a). As no 
+direct contact is needed between the particles and the electrodes, no contact issues arise between the layers when 
+stretched. Also, no oxygen or water barriers are needed for long term operation of EL phosphor displays which 
+is very advantageous as the incorporation of barriers is an unresolved problem for stretchable electronics. First 
+we constructed an unpatterned EL panel for characterization purposes (Fig. 3a,b). EL particles with diameter 
+<7 μ m were dispersed in PDMS to a 1:1 weight ratio and spin coated on top of an AgNW layer. The top AgNW 
+electrode was transferred and sealed by an additional layer of PDMS. The luminance of the display was 21 cd/m2 
+when operated with a standard battery driven inverter (168 V , 770 Hz). The color was bluish with intensity max-
+ima around 500 nm (Fig. 3c). In the next step a matrix of EL pixels was fabricated by incorporating an EL-PDMS 
+layer in between a grid of partially transparent AgNW electrodes (Fig. 3d). The bright field image in Fig. 3e shows 
+that the EL particles were evenly spread out throughout the 20 μ m thick layer (Supplementary Fig. 7) and that the 
+electrode grids (30 μ m lines with 40 μ m spacing) were successfully transferred. When the matrix was turned on 
+the individual pixels could be clearly distinguished (Fig. 3f). Upon 30% strain the broadening/narrowing of the 
+AgNW tracks is clearly visible together with the light up pixels (Fig. 3g). When the matrix is viewed in the dark 
+and stretched one can see how the distance and shape of the pixels are evolving with strain (Fig. 3h). It should be 
+noted that the brightness of the pixels decrease with the strain, especially above 30% strain. However, most of the 
+brightness is regained upon relaxation as the resistance of the tracks goes down again.
+Conclusions
+In summary, we have presented a generic method for fabricating high resolution intrinsically stretchable elec -
+tronics from high aspect ratio nanomaterials. The resulting conductors are the best reported so far with respect 
+to dimensions and performance (Fig. 1a), and large scale micropatterns can be achieved without major defects. 
+Another strong point of the method is the low material consumption, which allows for the use of even more 
+expensive nanomaterials than AgNWs. Two inch substrates were used in this work, however, there are no 
+Figure 2. Characterization of AgNW patterns. (a) The 10 μ m photoresist lines have sharp edges and the 
+unexposed photoresist have successfully been removed, leaving the pores in the membrane open. (b–d) AgNW 
+tracks on PDMS of 30 μ m, 20 μ m and 10 μ m width, respectively. (e) Tracks of 20 mm length with different 
+widths were stretched while measuring their resistance. All tracks had initially sheet resistance below 1 Ω /□ . 
+The 20 μ m and 30 μ m tracks behaved similarly to the macroscopic 2 mm track when stretched. (f) Samples were 
+cycled to 20% strain 1000 times. The lower resistance curve corresponds to no strain while the higher limit 
+corresponds to 20% strain. After a few hundred cycles resistance spikes started to appear for the 20 μ m sample 
+when stretched. (g) The resistance spikes for the 20 μ m sample appears in the stretched state. When the strain is 
+released the resistance returns to the baseline value.
+
+www.nature.com/scientificreports/
+4
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+fundamental limitations for scaling up the approach to at least 4 inch substrates and it might also be possible to 
+reuse the patterned membranes. Further, the patterning is free of organic solvents which allowed us to construct 
+multilayer devices without material compatibility concerns, an advantage not to be underestimated when dealing 
+with elastomers. Based on the strengths of the method, a three layer high resolution EL matrix display was devel-
+oped. The 70 μ m pixel size of our display compares well with previously reported displays, where the best one has 
+180 μ m pixel size4, while the others are in the mm range30,32–34. Although the presented display is small, there are 
+no fundamental limitations preventing the upscaling and addressing of it with the proper driving circuitry. In 
+conclusion, we anticipate that the method can be used to construct a wide array of new miniaturized stretchable 
+electronic devices including displays, electronic skin and neuroprosthetics.
+Methods
+Membrane patterning.  Hydrophilic PVDF membranes (0.22  μ m pore size, Millipore) were baked on a 
+hotplate (100 °C, 10 min). Photoresist ma-N 490 (micro resist technology GmbH) was spin coated onto the mem-
+branes (6000 rpm, 60 s). The coated membranes were dried in vacuum (200  mbar, 1 h), followed by softbake in 
+an oven (80 °C, 1 h). The membranes were UV exposed (9 ×  20 s, 10 s rest) in a mask aligner (Suss MA 4, 10 mW 
+at 360 nm), developed (2.5–3.5 min, ma-D 332 S, micro resist technology GmbH) and gently rinsed in DI water 
+(1 min). The membranes were dried and hardbaked (80 °C, 10 min).
+Nanowire filtration.  The patterned membranes were exposed to O2-plasma (100  W , 4 min) and soaked 
+in DI water containing detergent (Triton X100, Sigma Aldrich). AgNWs (60  nm diameter, 10 μ m long, Sigma 
+Aldrich) were dispersed in ethanol, vortexed and briefly ultrasonicated. Immediately prior to filtration, the 
+AgNWs were diluted in 15 ml DI water and vortexed. The dispersion was filtered through the membrane and the 
+membrane with the deposited AgNWs was dried on a hotplate (50 °C, 10 min). The surface coverage of AgNWs 
+on the patterned membrane area was approximately 0.17 mg/cm2.
+Nanowire transfer. Silicon wafers were O2-plasma activated (300  W , 2 min) and vapor phase silanized in 
+vacuum (Trichloro(1H,1H,2H,2H-perfluorooctyl)silane, 1  h, Sigma Aldrich). The silanized wafers were spin 
+coated with a release agent (Ease Release 205, 3000 rpm, 20 s, Mann Release Technologies). PDMS (Sylgard 184, 
+Dow Corning) was spin coated (500  rpm, 30 s) and semi-cured on a hotplate (65  °C, 10 min). Membranes with 
+deposited AgNWs were baked (100 °C, 10 min) and put in contact with the PDMS layer under pressure and heat 
+(100 °C, 5 min). The membranes were peeled of leaving the AgNWs on the PDMS surface. SEM images were taken 
+with a Zeiss SUPRA 50 VP (acceleration voltage 5–10 kV).
+Electromechanical characterization. Samples of 20 mm length were clamped in a tensile testing machine 
+(DO-FB0.5TS, Zwick/Roell). Electrical contact was made with copper pads covered with eutectic gallium–indium 
+(Sigma Aldrich). The resistance was measures at 4  Hz with a digital multimeter (Agilent 34401A). Maximum 
+strain tests were performed at 0.5 mm/s while cycling tests were performed at 2 mm/s.
+Figure 3. Electroluminescent matrix display. (a) Schematics of EL phosphor particles that are dispersed in 
+PDMS between two AgNW electrodes. (b) The emission is uniform on the macroscopic scale with a measured 
+luminance of 21 cd/m2. (c) The emission peak is centered at ~500 nm which gives a bluish light. (d) A matrix 
+display configuration is achieved by sandwiching the EL particles between to grids of semi-transparent AgNW 
+tracks. The electric field is strongest in the crossings of the tracks which defines the pixels. (e) A bright field 
+image reveals that the EL particles are evenly dispersed over the surface. The two layers of AgNW tracks are  
+also visible. (f) When the EL matrix is turned on the individual pixels of ~70 μ m in size are clearly visible.  
+(g) When stretched the AgNW tracks widens in one direction and become narrower in the other direction.  
+The EL emission from the crossing is visible. (h) Images of an EL matrix in the dark when stretched. The 
+intensity goes down slightly with increasing strain.
+
+www.nature.com/scientificreports/
+5
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+EL matrix fabrication. PDMS was spin coated (1000 rpm, 30 s) onto a silanized substrate and semi-cured 
+on a hotplate (65 °C, 10 min). The first AgNW layer (40 μ g/cm2) was transferred as described above. The con-
+tacts were masked off with 25 μ m thick Teonex Q51 foil. Electroluminescent phosphor particles (< 7 μ m, D447S, 
+Shanghai Keyan Phosphor Technology Co., Ltd) was put through a 20 μ m sieve and mixed in a 1:1 weight ratio 
+with PDMS using a THINKY ARE-250 Mixer. The mixture was spin coated (5000 rpm, 60 s), removed from the 
+contacts and semi-cured on a hotplate (65 °C, 10 min). The second layer of AgNWs were transferred and the con-
+tacts were masked off again. Finally, a PDMS layer was spin coated (1000 rpm, 30 s), removed from the contacts 
+and cured (100 C, 1 h). Copper foil contacts were glued on with silver epoxy (8330S, MG Chemicals, 100 C, 1 h 
+cure).
+References
+1. Rogers, J. A., Someya, T. & Huang, Y . Materials and Mechanics for Stretchable Electronics. Science 327, 1603–1607 (2010).
+2. Y ao, S. & Zhu, Y . Nanomaterial-Enabled Stretchable Conductors: Strategies, Materials and Devices. Adv. Mater.  27, 1480–1511 
+(2015).
+3. Sekitani, T. et al. Stretchable active-matrix organic light-emitting diode display using printable elastic conductors. Nat. Mater.  8, 
+494–499 (2009).
+4. Liang, J., Li, L., Niu, X., Yu, Z. & Pei, Q. Elastomeric polymer light-emitting devices and displays. Nat Photon 7, 817–824 (2013).
+5. Hammock, M. L., Chortos, A., Tee, B. C. K., Tok, J. B. H. & Bao, Z. 25th Anniversary Article: The Evolution of Electronic Skin 
+(E-Skin): A Brief History, Design Considerations, and Recent Progress. Adv. Mater. 25, 5997–6038 (2013).
+6. Kim, D.-H. et al. Epidermal Electronics. Science 333, 838–843 (2011).
+7. Lacour, S. et al. Flexible and stretchable micro-electrodes for in vitro  and in vivo  neural interfaces. Med. Biol. Eng. Comput. 48, 
+945–954 (2010).
+8. Minev, I. R. et al. Electronic dura mater for long-term multimodal neural interfaces. Science 347, 159–163 (2015).
+9. Larmagnac, A., Eggenberger, S., Janossy, H. & Voros, J. Stretchable electronics based on Ag-PDMS composites. Sci. Rep. 4, doi: 
+10.1038/srep07254 (2014).
+10. Kim, D.-H. et al. Materials for multifunctional balloon catheters with capabilities in cardiac electrophysiological mapping and 
+ablation therapy. Nat. Mater. 10, 316–323 (2011).
+11. Kaltenbrunner, M. et al. An ultra-lightweight design for imperceptible plastic electronics. Nature 499, 458–463 (2013).
+12. Chortos, A. et al. Mechanically Durable and Highly Stretchable Transistors Employing Carbon Nanotube Semiconductor and 
+Electrodes. Adv. Mater. doi: 10.1002/adma.201501828 (2015).
+13. Xu, S. et al. Stretchable batteries with self-similar serpentine interconnects and integrated wireless recharging systems. Nat Commun 
+4, 1543 (2013).
+14. Kim, Y . et al. Stretchable nanoparticle conductors with self-organized conductive pathways. Nature 500, 59–63 (2013).
+15. Sekitani, T. et al. A Rubberlike Stretchable Active Matrix Using Elastic Conductors. Science 321, 1468–1472 (2008).
+16. Lee, P . et al. Highly Stretchable and Highly Conductive Metal Electrode by Very Long Metal Nanowire Percolation Network. Adv. 
+Mater. 24, 3326–3332 (2012).
+17. Xu, F . & Zhu, Y . Highly Conductive and Stretchable Silver Nanowire Conductors. Adv. Mater. 24, 5117–5122 (2012).
+18. Chun, K.-Y . et al. Highly conductive, printable and stretchable composite films of carbon nanotubes and silver. Nat Nano 5, 853–857 
+(2010).
+19. Park, M., Park, J. & Jeong, U. Design of conductive composite elastomers for stretchable electronics. Nano Today 9, 244–260 (2014).
+20. Chen, Z. et al. Three-dimensional flexible and conductive interconnected graphene networks grown by chemical vapour deposition. 
+Nat. Mater. 10, 424–428 (2011).
+21. Park, M. et al. Highly stretchable electric circuits from a composite material of silver nanoparticles and elastomeric fibres. Nat Nano 
+7, 803–809 (2012).
+22. Matsuhisa, N. et al. Printable elastic conductors with a high conductivity for electronic textile applications. Nat Commun  6, doi: 
+10.1038/ncomms8461 (2015).
+23. Moon, G. D. et al. Highly Stretchable Patterned Gold Electrodes Made of Au Nanosheets. Adv. Mater. 25, 2707–2712 (2013).
+24. Tybrandt, K. & Vörös, J. Fast and Efficient Fabrication of Intrinsically Stretchable Multilayer Circuit Boards by Wax Pattern Assisted 
+Filtration. Small 12, 180–184 (2016).
+25. Martinez, V . et al. Stretchable Silver Nanowire–Elastomer Composite Microelectrodes with Tailored Electrical Properties. ACS 
+Applied Materials & Interfaces 7, 13467–13475 (2015).
+26. Lacour, S. P ., Jones, J., Wagner, S., Li, T. & Suo, Z. Stretchable Interconnects for Elastic Electronic Surfaces. Proceedings of the IEEE 
+93, 1459–1467 (2005).
+27. Lee, J. N., Park, C. & Whitesides, G. M. Solvent Compatibility of Poly(dimethylsiloxane)-Based Microfluidic Devices. Anal. Chem. 
+75, 6544–6554 (2003).
+28. Graudejus, O., Morrison, B., Goletiani, C., Yu, Z. & Wagner, S. Encapsulating Elastically Stretchable Neural Interfaces: Yield, 
+Resolution, and Recording/Stimulation of Neural Activity. Adv. Funct. Mater. 22, 640–651 (2012).
+29. Bredol, M. & Schulze Dieckhoff, H. Materials for Powder-Based AC-Electroluminescence. Materials 3, 1353 (2010).
+30. Wang, J., Y an, C., Chee, K. J. & Lee, P . S. Highly Stretchable and Self-Deformable Alternating Current Electroluminescent Devices. 
+Adv. Mater. 27, 2876–2882 (2015).
+31. Y ang, C. H., Chen, B., Zhou, J., Chen, Y . M. & Suo, Z. Electroluminescence of Giant Stretchability. Adv. Mater.  doi:10.1002/
+adma.201504031 (2015).
+32. Liang, J. et al. Silver Nanowire Percolation Network Soldered with Graphene Oxide at Room Temperature and Its Application for 
+Fully Stretchable Polymer Light-Emitting Diodes. ACS Nano 8, 1590–1600 (2014).
+33. Filiatrault, H. L., Porteous, G. C., Carmichael, R. S., Davidson, G. J. E. & Carmichael, T. B. Stretchable Light-Emitting 
+Electrochemical Cells Using an Elastomeric Emissive Material. Adv. Mater. 24, 2673–2678 (2012).
+34. White, M. S. et al. Ultrathin, highly flexible and stretchable PLEDs. Nat Photon 7, 811–816 (2013).
+Acknowledgements
+The authors acknowledge S. Wheeler and M. Lanz for their valuable technical support and the assistance and 
+support of the Center for Microscopy and Image Analysis at University of Zurich for performing scanning 
+electron microscopy experiments. The research was financed by the Swedish Research Council (637-2013-7301), 
+the Swiss Nanotera Spine Repair project and ETH Zurich.
+Author Contributions
+K.T. conceived and designed the experiments and analyzed the data. K.T. and F .S. performed the experiments. 
+K.T. wrote a first draft of the manuscript and all authors contributed to the finalization of the paper.
+
+www.nature.com/scientificreports/
+6
+Scientific  RepoRts  | 6:25641 | DOI: 10.1038/srep25641
+Additional Information
+Supplementary information accompanies this paper at http://www.nature.com/srep
+Competing financial interests: The authors declare no competing financial interests.
+How to cite this article: Tybrandt, K. et al. Multilayer Patterning of High Resolution Intrinsically Stretchable 
+Electronics. Sci. Rep. 6, 25641; doi: 10.1038/srep25641 (2016).
+This work is licensed under a Creative Commons Attribution 4.0 International License. The images 
+or other third party material in this article are included in the article’s Creative Commons license, 
+unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, 
+users will need to obtain permission from the license holder to reproduce the material. To view a copy of this 
+license, visit http://creativecommons.org/licenses/by/4.0/

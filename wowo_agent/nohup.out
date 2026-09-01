@@ -1,0 +1,60 @@
+   Building wowo-agent @ file:///data/zzh/code/wowo_agent
+      Built wowo-agent @ file:///data/zzh/code/wowo_agent
+Uninstalled 1 package in 0.42ms
+Installed 1 package in 0.91ms
+INFO:     Started server process [305178]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:38116 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38118 - "GET /assets/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38124 - "GET /assets/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38134 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38150 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38066 - "POST /api/upload HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:38080 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59246 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59254 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45440 - "POST /api/upload HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:48110 - "POST /api/ingest HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:48126 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33876 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33882 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33890 - "GET /assets/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33898 - "GET /assets/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33906 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33920 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33924 - "POST /api/ingest HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55578 - "POST /api/ingest HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:55588 - "POST /api/upload HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:39502 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39510 - "GET /assets/app.js HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:39524 - "GET /assets/styles.css HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:39532 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39538 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48104 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:45770 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45774 - "GET /assets/app.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45780 - "GET /assets/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45782 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45784 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55196 - "GET /assets/styles.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55200 - "GET /assets/app.js HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     127.0.0.1:46444 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37012 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39870 - "GET /api/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38852 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38856 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52142 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52126 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33966 - "GET /api/documents HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54062 - "POST /api/ingest HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58796 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60354 - "POST /api/chat HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [305178]

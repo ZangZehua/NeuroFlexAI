@@ -1,0 +1,1187 @@
+REVIEW ARTICLE OPEN
+Transfer printing techniques for ﬂexible and stretchable
+inorganic electronics
+Changhong Linghu 1, Shun Zhang 1, Chengjun Wang 1 and Jizhou Song 1
+Transfer printing is an emerging deterministic assembly technique for micro-fabrication and nano-fabrication, which enables the
+heterogeneous integration of classes of materials into desired functional layouts. It creates engineering opportunities in the area of
+ﬂexible and stretchable inorganic electronics with equal performance to conventional wafer-based devices but the ability to be
+deformed like a rubber, where prefabricated inorganic semiconductor materials or devices on the donor wafer are required to be
+transfer-printed onto unconventional ﬂexible substrates. This paper provides a brief review of recent advances on transfer printing
+techniques for ﬂexible and stretchable inorganic electronics. The basic concept for each transfer printing technique is overviewed.
+The performances of these transfer printing techniques are summarized and compared followed by the discussions of perspectives
+and challenges for future developments and applications.
+npj Flexible Electronics  (2018) 2:26 ; doi:10.1038/s41528-018-0037-x
+INTRODUCTION
+The last decade has witnessed the fast progresses and great
+achievements of ﬂexible and stretchable inorganic electronics,
+which removes the planar, rigid, and brittle design constraints
+associated with conventional electronics via the integration of
+hard inorganic semiconductor materials in delicate structural
+layouts with ﬂexible substrates.
+1– 5 This technology has enabled
+many novel applications that are impossible for conventional
+electronics, such as curvilinear electronics,
+6– 8 bio-integrated
+electronics,9– 11 epidermal electronics, 12– 14 transient electro-
+nics,15– 18 deformable opto-electronics, 19– 24 and many others. 25–
+27 Figure 1 shows some examples of ﬂexible and stretchable
+inorganic devices with performance equal to those fabricated by
+established conventional technologies using well-developed
+inorganic semiconductor and metal materials, but in foldable,
+stretchable and curvilinear format. These examples include the
+stretchable and foldable Si-CMOS circuit (Fig. 1a),
+28 curvilinear
+electronics (a hemispherical electronic eye camera in Fig. 1b6), bio-
+integrated electronics (a multifunctional medical balloon catheter
+in Fig. 1c
+9 and an ultrathin conformal bio-integrated neural
+electrode array in Fig. 1d29), epidermal electronics (Fig. 1e),14
+transient electronics (Fig. 1f)16 and deformable opto-electronics (a
+bendable photovoltaics module in Fig. 1g,23 an highly stretchable
+AlInGaP μ-ILEDs array in Fig. 1h30 and a mechanically ﬂexed array
+of ultrathin, microscale, blue LEDs in Fig. 1i19).
+All examples in Fig. 1 require the integration of inorganic
+semiconductor or metal materials with ﬂexible polymeric sub-
+strates. However, the inorganic semiconductor or metal materials
+cannot be directly fabricated on ﬂexible polymeric substrates
+using conventional fabrication technologies because the ﬂexible
+polymeric substrates are not able to withstand the extreme
+processing conditions such as high temperature or chemical
+etching. A kind of manufacturing process of a ﬂexible electronics
+system begins with independent fabrication of devices on wafer/
+donor substrate followed by assembling them onto a ﬂexible/
+stretchable substrate together. Transfer printing technique,
+enabling the solid objects to be transferred from a donor
+substrate to a receiver substrate in a high yield manner, provides
+the most promising solution to this assembly process.
+31 This
+approach separates the fabrication substrates with the application
+substrates, bypassing the incompatibility problem of the poly-
+meric substrates with conventional fabrication technologies which
+have a mature, established commercial infrastructure, thereby
+accelerating the commercialization of ﬂexible and stretchable
+inorganic electronics.
+The examples in Fig. 1 have demonstrated the extraordinary
+capabilities of transfer printing technique to deterministically
+assemble a myriad of materials (also called inks) into spatially
+organized, functional arrangements onto various substrates for
+ﬂexible and stretchable inorganic electronics. The inks for ﬂexible
+and stretchable inorganic electronics in transfer printing include
+hard inorganic materials (e.g., inorganic semiconductors
+17,32 and
+metals33,34), integrated inorganic devices (e.g., inorganic thin ﬁlm
+transistors-TFTs,32 inorganic light emitting diodes-ILEDs 20, and
+solar cells 23,24) and fully integrated inorganic circuits. 2,28,35 It
+should be noted that the inks for transfer printing are not limited
+to inorganic materials, but can also be other materials such as
+carbon materials (e.g., graphene
+31,36), organic materials (e.g.,
+organic semiconductors 37,38) and cell-sheet-integrated devices
+for ﬂexible bioelectronics. 39,40 There exist several reviews of
+transfer printing techniques focusing on materials and applica-
+tions.
+31,41– 43 This paper reviews the advances of transfer printing
+techniques for ﬂexible and stretchable inorganic electronics (i.e.,
+transfer printing techniques for inorganic semiconductor and
+metal materials, devices and circuits) from a methodological view.
+Fundamentals of transfer printing techniques are ﬁrst introduced
+followed by the overview of various transfer printing techniques.
+These transfer printing techniques are classi ﬁed based on their
+Received: 15 April 2018 Revised: 21 July 2018 Accepted: 31 July 2018
+1Department of Engineering Mechanics, Soft Matter Research Center, and Key Laboratory of Soft Machines and Smart Devices of Zhejiang Province, Zheji ang University, 310027
+Hangzhou, China
+Correspondence: Jizhou Song (jzsong@zju.edu.cn)
+www.nature.com/npjﬂexelectron
+Published in partnership with Nanjing Tech University
+
+basic concepts and working principles, and then overviewed
+brieﬂy. Finally, the performances of transfer printing techniques
+are compared, and some perspectives and challenges are
+discussed for future developments and applications.
+Fundamentals of transfer printing
+The most general form of the transfer printing process utilizes a
+soft, elastomeric stamp to mediate physical mass transfer of
+microdevices (usually termed as inks) between a donor substrate
+and a secondary, receiver substrate, as shown in Fig. 2a.
+44 It
+typically includes two steps: retrieval/pick-up of inks from the
+donor substrate and printing/delivery of inks onto the receiver
+substrate. At the beginning of the retrieval process, the stamp is
+brought into contact with the donor substrate, on which the inks
+are prepared in ordered and releasable manners usually through
+wet chemical etching
+41,45 or dry etching (e.g., laser lift-off 46,47). For
+example, the wet chemical etching generates releasable inks via
+the etching of a sacri ﬁce layer between the inks and substrate but
+with appropriately de ﬁned anchor structures to retain the
+lithographically de ﬁned spatial layouts of elements. A proper
+preload is applied on the stamp to ensure the conformal contact
+between the stamp and inks, which provides enough adhesion to
+retrieve inks from the donor substrate. The retrieval process can
+be either non-selective in a massively parallel way
+48,49 for high
+throughput or selective for precise manipulation on an individual
+ink or several inks. 20,21,50 The inked stamp is then brought into
+contact with the receiver substrate followed by the modulation of
+the stamp/ink adhesion to print inks onto the receiver substrate.
+The removal of the stamp completes the transfer printing process.
+The printing mode can also be non-selective
+48 or selective. 51,52
+The underlying physics associated with the transfer printing
+process is within the scope of fracture mechanics, which involves a
+system of three layers (stamp/ink/substrate) with two interfaces
+(stamp/ink and ink/substrate interfaces) as shown in Fig. 2b.
+44 The
+competing fracture between the stamp/ink interface and the ink/
+substrate interface determines whether retrieval or printing
+occurs. During the retrieval process, the stamp/ink interface
+should be stronger than the ink/substrate interface such that the
+inks can be retrieved by the stamp. During the printing process,
+Fig. 1 Flexible and stretchable inorganic electronic devices enabled by transfer printing techniques. a Stretchable and foldable Si-CMOS
+circuit transferred onto a poly(dimethylsiloxane) (PDMS) substrate. Reprinted with permissions from ref. 28. b A hemispherical electronic eye
+camera based on compressible silicon optoelectronics. The silicon optoelectronics are transferred from a ﬂat donor substrate and printed onto
+a hemispherical glass lens substrate using a hemispherical PDMS transfer element. Reprinted with permissions from ref. 6. c Multifunctional
+balloon catheters with biocompatible interfaces integrated directly by transfer printing for cardiac electrophysiological mapping and ablation
+therapy in its in ﬂated state. Reprinted with permissions from ref. 9. d Ultrathin conformal bio-integrated neural electrode arrays transfer-
+printed onto a dissolvable silk substrate. Reprinted with permissions from ref. 29. e Multifunctional epidermal electronic systems partially
+peeled away from the skin. Reprinted with permissions from ref. 14. f A photograph of an array of GaInP/GaAs heterojunction bipolar
+transistors transfer-printed onto a biodegradable cellulose nano ﬁbril substrate and wrapped around a tree stick with a ~3 mm radius.
+Reprinted with permissions from ref. 16 g A bendable photovoltaics module that use large-scale arrays of silicon solar microcells created from
+bulk wafers and integrated in sparse spatial layouts on foreign substrates by transfer printing. Reprinted with permissions from ref. 23 h Optical
+images of an array of AlInGaP μ-ILEDs (6 × 6) transferred onto a PDMS substrate and tightly stretched on the sharp tip of a pencil. Reprinted
+with permissions from ref. 30 i Image of a mechanically ﬂexed array of ultrathin, microscale, blue LEDs printed from a source wafer onto a thin
+strip of plastic. Reprinted with permissions from ref. 19
+Transfer printing techniques y
+C Linghu et al.
+2
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+1234567890():,;
+
+the stamp/ink interface should be weaker than the ink/substrate
+interface such that the inks can be released from the stamp. The
+yield of transfer printing depends critically on the ability to switch
+the adhesion between strong states and weak states for retrieval
+and printing, respectively. Usually, the adhesion strength at the
+ink/substrate interface is independent of external stimuli and is
+considered as a constant. Thus, the key to successful transfer
+printing becomes the adhesion modulation of the stamp/ink
+interface. Figure 2c illustrates the basic principle for the transfer
+printing technique: retrieval under the strong stamp/ink adhesion
+state and printing under the weak stamp/ink adhesion state,
+where the adhesion strength at the ink/substrate interface (red
+solid line) remains a constant while the adhesion strength at the
+stamp/ink interface (black solid line) is modulated by the external
+stimuli such as peel velocity
+48,53,54 and lateral movement. 55 The
+adhesion switchability, which is de ﬁned as the ratio of the
+maximum adhesion strength to the minimum adhesion strength,
+can be used to evaluate the adhesion modulation performance.
+Based on the principles of the adhesion modulation of the
+stamp/ink interface, the transfer printing techniques are classi ﬁed
+into surface chemistry and glue assisted transfer printing
+technique, kinetically controlled transfer printing technique,
+laser-driven non-contact transfer printing technique, gecko-
+inspired transfer printing technique (representing a set of
+techniques with ﬁbrillar surface assisted with speci ﬁc manipula-
+tion such as retraction angle or lateral movement), and aphid-
+inspired transfer printing technique (representing a set of
+techniques based on the change of contact area).
+Surface chemistry and glue assisted transfer printing technique
+To enhance the reliability of the retrieval and printing processes,
+surface chemical modi ﬁcation or glue is used to modulate the
+interfacial adhesion strength. Figure 3a
+56 shows a typical surface
+chemistry and glue assisted transfer printing process with the
+retrieval assisted with surface chemistry and printing assisted with
+glue. The strong stamp/ink adhesion required for retrieval is
+realized through the Si – O– Si chemical bonding between the
+surface of the slightly oxidized PDMS stamp
+45,56 and the fresh SiO 2
+ﬁlm coated on the target inks via a condensation reaction. 57 The
+printing is realized through the increase of the ink/substrate
+interfacial adhesion by coating a thin layer of glue, which is usually
+in liquid/uncured 56,58,59 state, partially cured state, 58,60 or cured
+state with low modulus. 32,61 The uncured or partial cured glue is
+further cured by heating 59,62 or UV light exposing 45,56,62 to
+enhance the bonding between the inks and the receiver substrate.
+Although the surface chemistry and glue can enhance the
+reliability of retrieval 45,56 and printing,58,63 the density of chemical
+bonds must be carefully designed to allow the successful removal
+of the inks from the stamp. Moreover, the need of additional SiO 2
+layer to enhance stamp/ink adhesion complicates the process and
+may cause the frequent replacement of stamps due to the
+chemical reaction of SiO
+2 layer after transfer printing and the
+contamination of glues to the stamp.
+Surface treatment of the donor substrate is also a critical factor
+for transfer printing process. Some materials have strong adhesion
+with the donor substrate, so that appropriate surface treatment,
+such as self-assembled monolayers, is required to weaken the
+adhesion between the ink and the donor substrate. For example,
+in the case of transfer printing of colloidal quantum dots,
+21,64 the
+interaction between the nanoparticles and the substrates should
+be within the proper range for ef ﬁcient transfer printing and
+speciﬁc surface treatment (e.g., coating of octadecyltrimethosysi-
+lane self-assembled monolayers 21,64) is often required before
+coating solution of nanoparticles on the donor substrate.
+Another type of transfer printing technique involving surface
+chemistry with a much more simpli ﬁed process is the tape transfer
+printing, where solvent releasable tapes 13,65,66 or thermal relea-
+sable tapes 10,67 are used as stamps. Figures 3b-166 shows the
+typical transfer printing process based on a commercially available
+solvent releasable adhesive tape to retrieve and print devices with
+high yields. The high adhesion strength between the tape and
+inks ensures the retrieval of inks from the donor substrate with a
+Fig. 2 Operating process and principles of transfer printing. a Illustration of the transfer printing process. ( 1) Inks are prepared on the donor
+substrate in a releasable manner. ( 2) Retrieval process: an elastomer stamp is used to retrieve the inks. ( 3) Printing process: inks are printed
+onto the receiver substrate. Adapted with permission from ref. 44 b The two interfaces in the stamp/ink/substrate structure. Adapted with
+permission from ref. 44 c Adhesion strength modulated by external stimulus, showing the high (ON) and low (OFF) adhesion state and the
+switchability
+Transfer printing techniques y
+C Linghu et al.
+3
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+high reliability. During the printing process, the introducing of
+solvent signi ﬁcantly reduces the adhesion strength at the stamp/
+ink interface to almost zero by decomposing the interface or even
+the whole tape, which ensures the printing of inks onto the
+receiver substrate with a high reliability. Figures 3b-266 shows the
+adhesive strength of the 3M 3850 tape on glass before and after
+introducing acetone, which clearly indicates the modulation
+effectiveness of the adhesion strength via surface chemistry.
+Although the tape transfer printing provides a simple but highly
+reliable approach for the heterogeneous integration of materials,
+it typically leaves certain residuals on inks, which may degrade the
+device performance.
+Figure 3c shows some devices enabled by the surface chemistry
+and glue assisted transfer printing techniques: (1) a high
+performance thin ﬁlm transistor built on a photosensitive epoxy
+coated PET substrate,
+60 (2) an array of 3D silicon n-channel metal
+oxide semiconductor inverters on a polyamic acid coated PI
+substrate,
+68 and (3) an EMG sensor 66 mounted on the skin of
+forearm. Although the surface chemistry and glue assisted transfer
+printing techniques are simple and straightforward, they have
+their intrinsic limitations such as surface contamination which may
+cause the frequent replacement of stamps and may degrade the
+device performance. To overcome these limitations, advanced
+transfer printing techniques based on tunable and reversible dry
+adhesion have been developed and will be discussed in the
+following sections.
+Kinetically controlled transfer printing technique
+A powerful and versatile transfer printing technique, kinetically
+controlled transfer printing technique,
+48,53,54 takes advantage of
+the rate-dependent adhesion effect of viscoelastic stamps to
+retrieve the inks from the donor substrate at a high velocity
+(~10 mm/s or greater) and print the inks onto the receiver
+substrate at low velocity (<1 mm/s), as shown in Fig. 4a.48 Figure
+4b48 shows the rate dependency of the critical energy release rate
+for steel/PDMS interface. Due to the viscoelastic effect of PDMS,
+the critical energy release rate increases monotonically with the
+separation speed, which enables the adhesion modulation at the
+stamp/ink interface by controlling the peeling velocity.
+Feng et al.
+53 studied the kinetically controlled transfer printing
+process and modeled the peeling process of the stamp from the
+substrate as the steady propagation of interfacial cracks to
+establish the criterion for predicting whether retrieval or printing
+occurs as shown in Fig. 4c. The critical energy release rate
+G
+ink=substrate
+crit of the ink/substrate interface is rate-independent since
+both the ink and the substrate are elastic, while the critical energy
+release rate G
+ink=stamp
+crit vðÞ of the stamp/ink interface is rate
+dependent due to the viscosity of the stamp. The condition
+G
+ink=substrate
+crit ¼ Gink=stamp
+crit vðÞ , which corresponds to the intersection
+of the two curves in Fig. 4c, gives the critical peeling velocity vc
+separating the retrieval and printing regimes. The retrieval occurs
+when the peeling velocity is larger than vc, while the printing
+occurs when the peeling velocity is smaller than vc. Due to the
+limited range of modulation in adhesion strength, the kinetically
+controlled transfer printing may fail to retrieve the inks from the
+donor substrate for strong ink/substrate interface and fail to print
+the inks onto the receiver substrate for weak ink/substrate
+interface. In order to improve the yields of printing for weak
+ink/substrate interface, Kim et al.
+54 introduced narrow, shallow
+reliefs on the stamp surface to reduce the contact area between
+the stamp and ink, thus to reduce the critical energy release rate
+of the stamp/ink interface. Feng et al.
+69 improved the adhesion
+modulation method by directional peeling this type of stamp:
+peeling the stamp perpendicular and parallel to the surface reliefs
+Fig. 3 Surface chemistry and glue assisted transfer printing techniques. a Schematic illustration of the transfer printing process of GaAs wire
+arrays onto plastic substrates. ( 1) Retrieval process utilizing the Si –O–Si chemical bonding between the surface of the slightly oxidized PDMS
+stamp and the fresh SiO 2 ﬁlm coated on the GaAs wire arrays. ( 2) The steps involved in the transfer process of GaAs wire arrays from PDMS
+stamp to PET sheet coated with a thin layer of PU. Reprinted with permissions from ref. 56 b Illustration of the transfer printing process of the
+solvent releasable tape and plot of measured adhesive strength of the 3M 3850 tape before and after introducing acetone under 180 o peeling
+test. Adapted with permission from ref. 66 c Devices and structures enabled by surface chemistry and glue assisted transfer printing
+techniques. (1) A high performance thin ﬁlm transistor built on a photosensitive epoxy coated PET substrate. Reprinted with permissions from
+ref. 60 (2) Array of 3D silicon n-channel metal oxide semiconductor inverters on a polyamic acid coated PI substrate. Reprinted with
+permissions from ref. 68 (3) An EMG sensor mounted on the skin of forearm for measurement enabled by solvent releasable tape. Reprinted
+with permissions from ref. 66
+Transfer printing techniques y
+C Linghu et al.
+4
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+
+yields high and low critical energy release rate, respectively.
+Recently, the combination of the bending radius with the peeling
+velocity of a ﬂat PDMS stamp has been shown to enhance the
+printing ef ﬁciency signi ﬁcantly.
+49
+Kinetically controlled transfer printing technique has been
+widely used to fabricate ﬂexible and stretchable inorganic
+electronics in a massively parallel way (Fig. 4d-1)48 or selective
+mode (Fig. 4d-2).20 Some devices enabled by kinetically controlled
+transfer printing technique are shown in Fig. 4d-3 for ﬂexible GaAs
+solar cells arrays 70 and Fig. 4d-4 for ﬂexible GaAs LED arrays. 19
+Although the kinetically controlled transfer printing technique is
+simple and convenient, it has its limitations including (1) an
+additional instrument for velocity control is needed, (2) the
+adhesion strength at an extremely high peeling velocity is still
+relatively low, which is not desirable for a highly reliable retrieval,
+(3) the adhesion strength at an extremely low peeling velocity is
+still relatively high, which is not desirable for a highly reliable
+printing, and (4) the adhesion switchability is relative low (less
+than three
+71 for a ﬂat stamp). A transfer printing technique
+eliminating the additional instrument with more controllable
+switching between strong and weak adhesion state is desired in
+practical applications.
+Laser-driven non-contact transfer printing technique
+A distinguished transfer printing technique achieving in ﬁnite
+adhesion switchability is the laser-driven non-contact transfer
+printing technique,
+72,73 which utilizes the large thermal-
+mechanical mismatch at the stamp/ink interface upon heating
+up to over 275 °C by a laser pulse to drive the delamination and
+allows non-contact printing with performance independent of the
+receiver substrate ’s geometry and properties. Figure 5a
+72 illus-
+trates a typical cycle for the laser-driven non-contact transfer
+printing process. The elastomeric PDMS stamp is aligned to and
+brought into contact with the donor substrate to retrieve the ink.
+Then the inked stamp is brought close to the receiver substrate (a
+few micrometers above the receiver) and a laser pulse is used to
+heat the stamp/ink interface. As the temperature increases, the
+energy release rate also increases as shown in Fig. 5b.
+72 Once the
+energy release rate reaches the critical value, the ink starts to
+delaminate from the stamp and then drops onto the receiver
+substrate.
+Li et al.
+74,75 established a thermo-mechanical model to obtain
+the temperature increase in the system and the energy release rate
+at the crack tip. By equaling the energy release rate with the work
+of adhesion of the interface, a scaling law for the delamination
+time is obtained as t
+delamination=t0 ¼ fq total=q0; Lsilicon=L0ðÞ , where
+Fig. 4 Kinetically controlled transfer printing technique. a Schematic illustration of the transfer printing process: retrieval at high velocity and
+printing at low velocity. Reprinted with permissions from ref. 48 b Rate dependency of the critical energy release rate obtained by rolling down
+a steel cylinder on an inclined PDMS slab. Reprinted with permissions from ref. 48 c The criterion for kinetically controlled transfer printing.
+Adapted with permission from ref. 53 d Structures, electronics and optoelectronics enabled by kinetically controlled transfer printing
+technique. ( 1) Large scale (30 mm × 38 mm) array of I-shaped silicon microstructures printed in ambient conditions directly onto a 100 mm
+GaAs wafer in a parallel way. Reprinted with permissions from ref. 48 (2) Selective retrieval and non-selective printing in three sequences with
+area expansion of inorganic LEDs. Adapted with permission from ref. 20 (3) Bendable GaAs solar cells arrays. Reprinted with permissions from
+ref. 70 (4) GaN LED arrays printed on a plastic substrate. Reprinted with permissions from ref. 19
+Transfer printing techniques y
+C Linghu et al.
+5
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+tdelamination is the delamination time, qtotal is the total heat ﬂux to
+the stamp/ink interface from the pulsed laser beam, Lsilicon is the
+width of the silicon chip (i.e., the ink), t0, q0,a n d L0 represent the
+characteristic time, heat ﬂux and length in the system, respectively.
+It is noticed that the delamination time depends only on two non-
+dimensional parameters: the normalized total heat ﬂux and the
+normalized silicon chip width. The analytical model agrees well
+with FEM and experiments as shown in Fig. 5c.
+74 The above
+analytical model accounts for the width effect of Si chip on the
+temperature distribution but not on the energy release rate, and
+therefore it is only valid for relative wide Si chips. This motivates
+the development of an accurate interfacial fracture mechanics
+model accounting for the width effect of the Si chip.
+76
+During the printing process, the stamp does not contact directly
+with the receiver substrate, thus the success of the printing
+process is independent of the topography and properties of the
+receiving surface. Besides, a patterned stamp facilitates selective
+retrieval. The printing can be also selective due to the high spatial
+resolution of a laser. These superior capacities are demonstrated in
+Fig. 5d, where silicon squares are built into a three-dimensional
+pyramid (Fig. 5d-1),
+72 an ultra-thin silicon square (0.32 μm) is
+transferred onto a structured substrate (Fig. 5d-2),72 silicon
+squares are placed onto curvilinear surfaces such as a ceramic
+sphere and a liquid NOA droplet (Fig. 5d-3),73 and a functioning μ-
+LED is placed on a CVD-grown polycrystalline diamond on silicon
+substrate (Fig. 5d-4).72 The laser-driven non-contact transfer
+printing technique is the only transfer printing technique that
+can be manipulated in a non-contact printing mode reported so
+far. The requirement of a high temperature increase (over 275 °C)
+at the stamp/ink interface for printing is detrimental and may
+cause surface damage to the stamp.
+52 To handle this problem,
+Eisenhaure and Kim 51 designed a shape memory polymer (SMP)
+stamp with carbon black particles embedded within the stamp
+surface near to where it contacts the ink to absorb the incoming
+NIR laser. By imbedding laser-absorbing particles within the SMP
+matrix, the speed and localization of heat delivery are greatly
+enhanced. This method greatly reduces the required power input
+of laser and the risk of thermal damage.
+Gecko-inspired transfer printing technique
+Gecko’s toe pad (Fig. 6a)
+77 is characterized by superior adhesion
+strength, reusability, tolerance to substrates, and easy detach-
+ment,
+77,78 which originate from the hierarchical, ﬁbrillar struc-
+tures78,79 and the directional adhesion of the angled setae and
+spatulae78,80 controlled by mechanical deformations induced by
+vertical and lateral loading of its feet. Inspired by gecko ’s tunable
+and reversible adhesive pad, many gecko-inspired transfer
+printing techniques have been developed such as transfer
+printing technique using an angled micro ﬂap stamp,
+81 shear-
+Fig. 5 Laser-driven non-contact transfer printing technique. a Illustration of the laser-driven non-contact transfer printing process. Adapted
+with permission from ref. 72 b Energy release rate at the crack tip versus time. Inset: temperature distribution in the stamp and the attached
+chiplet at 1.8 ms. Adapted with permission from ref. 72 c The scaling law for the delamination of the stamp/silicon interface. Reprinted with
+permissions from ref. 74 d Structures fabricated using the laser-driven non-contact transfer printing technique. ( 1) Three-dimensional pyramid
+built with the same silicon squares. Reprinted with permissions from ref. 72 (2) 100 μm × 100 μm × 0.32 μm ultrathin Si square placed onto a
+structured substrate. Reprinted with permissions from ref. 72 (3) Examples of printing on curved surfaces, (left) printing on a single 1 mm
+ceramic sphere and (right) printing onto a liquid NOA droplet. Reprinted with permissions from ref. 73 (4) Functioning μ-LED placed on a CVD-
+grown polycrystalline diamond on silicon substrate. Reprinted with permissions from ref. 72
+Transfer printing techniques y
+C Linghu et al.
+6
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+
+enhanced transfer printing technique, 55 buckling-actuated trans-
+fer printing technique, 82 transfer printing technique using a
+pedestal stamp, 83 transfer printing technique using a gecko seta
+array stamp, 84 etc.
+Yoo et al. 81 developed an angled micro ﬂap stamp for transfer
+printing with the process illustrated in Figs. 6b– 1– 4. This stamp
+with compliant micro ﬂaps on its surface possesses strong
+retraction angle dependent adhesion as shown in Fig. 6b-5. The
+adhesion strength reaches the maximum at a retraction angle of
+~60° and the minimum at ~100°, respectively, which indicates that
+the retraction angle can be utilized to control the adhesion switch
+between strong and weak state. Thus, the retrieval of inks from
+the donor substrate and printing of them onto the receiver
+substrate can be obtained at the retraction angle of ~60° and
+~100°, respectively. Due to the high compliance, the angled
+microﬂap stamp is able to transfer and print inks with complex
+geometries and various scales (Figs. 6b-6, 7).
+The shear-enhanced transfer printing technique
+55 utilizes the
+stamp with vertical posts as illustrated in Fig. 6c. The retrieval
+occurs when the stamp is retracted rapidly and the printing is
+assisted with a lateral displacement. The applied lateral displace-
+ment generates a shear deformation in the stamp, which causes a
+Fig. 6 Gecko inspired transfer printing techniques. a Gecko adhesive system. Adapted with permission from ref. 77 b Gecko-inspired transfer
+printing using an angled micro ﬂap stamp: ( 1–4) Transfer printing process; ( 5) Retraction-angle-dependency of the normal adhesive force and
+(6–7) capacity demonstrations of transfer printing. Adapted with permission from ref. 81 c Shear-enhanced transfer printing technique with a
+lateral displacement to reduce the adhesion for printing. Reprinted with permissions from ref. 55 d Transfer printing technique using a
+pedestal stamp. Here the end plate on the post end enhances the adhesion, hence broadens the materials that can be transferred. Reprinted
+with permissions from ref.
+83 e (1) A μ-ILED transfer-printed by a pedestal stamp and illuminated at the probe station and (2) the recorded I –V
+characteristics. The retrieval and printing with a pedestal stamp does not affect the performance of the μ-ILED too much and the observed
+current densities are similar to those of the devices tested prior to printing. Reprinted with permissions from ref. 83 f (1) Colorized SEM image
+of a 2 J solar transfer-printed (2) on a leaf using the gecko seta array stamp. (3) The Current –voltage (I–V) characteristics of the solar microcells
+on the original substrate (GaAs wafer) and on the leaf. The electrical performances of the solar microcells on both surfaces are almost identical,
+showing that the transfer printing process using the gecko seta array stamp imposes little in ﬂuence on the device. Reprinted with permissions
+from ref.
+84
+Transfer printing techniques y
+C Linghu et al.
+7
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+Table 1. Summary and comparison of the performances of typical transfer printing techniques
+TP method Material Stamp geometry Adhesion control Max
+adhesion
+Switchability Retrieval
+mode
+Printing
+mode
+Reusability Temperature Ref.
+(kPa) (max/min) (°C)
+Chemistry/Glue PDMS Flat/Post Surface chemistry/Glue Very high a / S/NS NS-C NR AT-150 32,45,56–63
+Solvent releasable
+tape
+Tape Flat Solution Very high a Inf NS NS-C NR AT-100 13,65,66
+Thermal releasable
+tape
+Tape Flat Temperature Very high a Inf NS NS-C NR ~100 10,67
+Kinetically controlled PDMS Flat/Post Peeling velocity / / S/NS NS-C R AT 48
+Kinetically controlled PDMS Post Peeling velocity 150 <3:1 S NS-C R AT 71
+Kinetically controlled PDMS Pedestal Peeling velocity 1600 2:1 S NS-C R AT 83
+Laser-driven non-
+contact
+PDMS Post Laser heating / Inf S S-NC R ~275 72,73
+PDMS Pedestal Laser heating 1600 Inf S S-NC R ~275 83
+Angled micro ﬂap
+stamp
+PDMS Angled micro ﬂap Retraction angle 10 >13 NS NS-C R AT 81
+Shear-enhanced PDMS Post Shear motion 85 >10:1 S NS-C R AT 55
+Shear-enhanced PDMS Angled post Shear motion 100 100:1 S- R2R NS-C- R2R R AT 86
+Shear-enhanced ST-1087 Cylinder pillar Shear motion 1450 39:1 S NS-C R AT 82
+Buckling actuated ST-1087 Cylinder pillar Compression buckling 1081 35:1 S NS-C R AT 82
+Gecko seta stamp Gecko seta
+array
+Hierarchy Shear motion 202.5 Inf NS NS-C R AT 84
+Inﬂatable stamp PDMS Post In ﬂation (contact area change) 50 50:1 S NS&S-C R AT 91
+Surface-relief-
+assisted
+PDMS Post with pyramid
+relief
+Compression (contact area change) 80 >1000:1 S NS-C R AT 71
+Surface-relief-
+assisted
+SMP Pyramid relief Heating (contact area change) 2800 >1000:1 NS NS-C R 40 –60 93
+Surface-relief-
+assisted
+SMP Pyramid relief Laser heating (rigidity and contact
+area change)
+/ / NS NS&S-C R ~40 51
+Surface-relief-
+assisted
+SMP Pyramid relief Laser heating (rigidity and contact
+area change)
+/ / NS S-C R ~40 52
+S selective mode, NS non-selective mode, C contact mode, NC non-contact mode, AT atmosphere temperature, R2R roll-to-roll mode, R reusable, NR not reusable, Inf inﬁnity, / not available
+aThe maximum adhesion of the stamp/ink interface assisted with surface chemistry and glues is so strong that it can easily lead to stamp failure instead of interfacial failure. 56 The adhesion strength of the tape/
+ink interface is usually several orders stronger than that of the elastomer stamp/ink interface. 10
+Transfer printing techniques y
+C Linghu et al.
+8
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+
+mixed mode loading at the interface. 85 The resulting stress
+distribution at the stamp/ink interface becomes asymmetric and
+produces a larger normal stress at the edge, which leads to a
+larger strain energy release rate and enables easy delamination of
+the ink from the stamp. Yang et al.
+86 further designed a stamp
+with angled posts to improve the performance based on the
+stamp with vertical posts. The crack propagation is accelerated
+when the lateral movement is applied opposite to the inclination
+direction and frustrated along the other direction, leading to low
+and high adhesion strengths, respectively. This facilitates the
+transfer printing by simply choosing the retraction direction of the
+stamp. The retraction direction dependence of the angled post
+offers possibilities for high-throughput roll-to-roll (R2R) applica-
+tions. The typical maximum adhesion strength and adhesion
+switchability for shear-enhanced transfer printing technique using
+PDMS with vertical posts are 100 kPa and 100, respectively.
+86
+The buckling actuated transfer printing technique 82 utilizes a
+stamp with a surface angled cylinder pillar to modulate the
+adhesion strength. During the retrieval process, a gentle force is
+applied on the stamp to ensure the conformal contact between
+the stamp and the ink followed by retracting the stamp rapidly to
+retrieve the ink from the donor substrate. During the printing
+process, a vertical displacement is applied until the pillar is
+compressed to buckle, which causes the delamination of the pillar
+and leaves only the tip to contact with the ink, thus reducing the
+stamp/ink adhesion and facilitating the release of the ink. It is
+found that the adhesion switchability can reach up to 39 for the
+buckling actuated transfer printing technique.
+The above gecko-inspired transfer printing techniques focus on
+the reduction of the adhesion at the stamp/ink interface for
+printing process and give less attention on the increase of
+adhesion for the retrieval process. Although the intrinsic adhesion
+can usually satisfy the retrieval requirements for most materials,
+the improvement of adhesion is needed to further expand the
+scope of applications. Inspired by the gecko ’s toe pad with strong
+adhesion strength enabled by spatulate tips,
+87 Kim et al. 83 utilized
+a pedestal stamp with a rectangular post on an end pad to
+improve the adhesion and enhance the reliability of retrieval as
+shown in Fig. 6d. The adding of the end pad changes the
+delamination diagram,
+88 and initiates the crack at the center
+rather than on the edge of the pad. Compared with a ﬂat punch,
+the pedestal stamp design offers enhanced adhesion (15×,
+1600 kPa, see Table 1), which expands the breadth of retrievable
+materials.
+The microstructures of the stamp in the above mentioned
+gecko-inspired transfer printing techniques are quite simple
+compared to the hierarchical structures of the natural setal arrays
+of geckos and none of them can offer the same combination of
+the remarkable properties of the gecko adhesive. Jeong et al.
+84
+fabricated stamp covered by the seta array harvested from the
+Fig. 7 Aphid-inspired transfer printing techniques: in ﬂatable stamp. a Image of an aphid and structure of the aphid adhesion system. (1)
+Optical image of an aphid clinging to a ﬂat surface; (2) Aphid adhesion organ (pulvillus) is everted to drive the mechanical sagging of the
+pulvillus and enlarge the contacting area, resulting in strong adhesion. (3) Aphid adhesion organ (pulvillus) is withdrawn by contraction of
+tibial muscles, which drives the retraction of the pulvillus and diminishes the contacting area, leading to weak adhesion. b Transfer printing
+technique using an in ﬂatable stamp: ( 1) Transfer printing process; ( 2) Experimentally and theoretically predicted decrease in stamp/silicon
+interfacial adhesion (maximum pull-off force) with the in ﬂation pressure and ( 3–6) capacity demonstrations of transfer printing. Adapted with
+permission from ref.
+91
+Transfer printing techniques y
+C Linghu et al.
+9
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+natural gecko ’s toe. The retraction of the gecko seta array stamp
+along the proximal direction enables the retrieval of the inks. In
+contrast, the retraction along the distal direction requires nearly
+no adhesion force for delamination, thus facilitating the printing
+of inks onto various challenging substrates such as the leaves of
+japonicum, the back and the wing of an insect.
+Gecko-inspired transfer printing techniques are very effective in
+both the maximum adhesion strength and adhesion switchability.
+Besides, these transfer printing techniques can minimize the
+inﬂuence of the transfer printing process on the performance of
+the devices, as shown in Figs. 6e
+83,f , 84 where the I – V
+characteristics of the LED transfer-printed by a pedestal stamp 83
+and solar cell transfer-printed by a gecko seta stamp 84 show
+nearly no performance difference with those before transfer
+printing. However, the fabrication of these ﬁbrillar structures
+usually requires micro/nanofabrication equipment which is not
+commonly available and the fabrication process is quite compli-
+cated and costly.
+79 In addition, the shear force introduced by the
+lateral movement or buckling may cause the lateral sliding of the
+ink, leading to misalignments.
+Aphid-inspired transfer printing technique
+The other adhesion control strategy that has been widely used in
+animal kingdom is called the pneumatic mechanism, where the
+adhesion is modulated by changing the effective stiffness and
+topography of the smooth adhesive pads. The aphid is a typical
+animal utilizing this adhesion control strategy,
+89,90 as illustrated in
+Fig. 7a. When adhering to or releasing from a smooth surface (Fig.
+7a-1), the aphid pulvillus enlarges or diminishes the contacting
+areas in a reversible fashion that induces corresponding changes
+in adhesion strength.
+71 Inspired by the aphid ’s tunable and
+reversible adhesive pad, many aphid-inspired transfer printing
+techniques based on contacting area change have been devel-
+oped such as transfer printing technique using an in ﬂatable
+stamp,
+91 surface-relief assisted transfer printing technique, 71 etc.
+Carlson et al.91 developed a transfer printing technique using an
+inﬂatable stamp, which is featured by micro-channels in the
+stamp, open reservoirs on the bottom surface, and a thin adhesive
+membrane encapsulating the reservoirs. The thin adhesive
+membrane can be pressured in a controlled manner via in ﬂation
+to induce various levels of surface deformation. The deformed thin
+membrane reduces its contact area with the ink, and thus the
+adhesion at stamp/ink interface. Figure 7b-1 illustrates the transfer
+printing process using the in ﬂatable stamp. Large contact area
+and high adhesion between the ﬂat adhesive membrane and the
+ink enable the retrieval of the ink. During the printing process, the
+adhesive membrane is pressurized, leading to a small contact area
+and weak adhesion for printing. With special designs, the stamp
+reservoirs (or the adhesive membrane) can be individually
+addressed, which facilitates selective/programmable printing.
+The adhesion strength at the stamp/ink interface decreases with
+the increased pressure (Fig. 7b-2), which offers continuously
+tunable adhesion with high accuracy. The capability of this
+transfer printing technique has been demonstrated by printing
+silicon plates onto various challenging substrates, such as plastic
+sheets (Fig. 7b-3), paper-based material (Fig. 7b-4), textured
+surfaces (Fig. 7b-5), and organic matter (Fig. 7b-6). The in ﬂatable
+stamp has provided valuable proof for the selective/program-
+mable printing, but the complexity of the fabrication process and
+the small packing density due to the connection requirements
+between the air pipe and each actuation site via the micro-
+channels limit its practical applications in large scale two-
+dimensional arrays. A simple yet robust design
+90 is introduced
+by adding the magnetic particles into the reservoirs to drive the
+membrane deformations and modulate the adhesion via the
+external magnetic ﬁeld. The built-in magnetic driving system
+eliminates the need for the connection to air pipes and responses
+very quickly.
+Kim et al.
+71 developed a surface-relief assisted transfer printing
+technique that utilizes a stamp with a simpler design but a greater
+contact area change (80 vs. 0.007%) induced by the collapse and
+elastic recovery of micro-pyramid structures on the stamp surface.
+The transfer printing process is illustrated in Fig. 8a-1. Before the
+retrieval, a large preload is applied on the stamp to collapse the
+micro-pyramid structures (Fig. 8a-2) and yields a large contact area
+between the stamp and the ink. To ensure a successful retraction,
+the stamp must be retracted quickly followed by placing it on top
+of the donor substrate to avoid the delamination of the ink from
+the stamp before the printing starts. During the printing process,
+the elastic restoring force brings the collapsed micro-pyramid
+structures back to its original geometry, leaving only the tip
+contact with the interface (Fig. 8a-3). The slow removal of the
+stamp leaves the ink on the receiver substrate and completes the
+transfer printing process. This stamp with surface relief can
+provide extremely high adhesion switchability of more than three
+orders as shown in Fig. 8a-4. This capability facilitates robust
+transfer printing of active materials onto nearly any surfaces.
+Several parameters are crucial for successful implementation
+including the work of adhesion, the modulus of the stamp, and
+most importantly, the height of the micro-pyramid relief. A tall
+micro-pyramid structure may fail to retrieve while a short micro-
+pyramid structure may fail to print due to the large and small
+restoring forces, respectively. The maximum and minimum height
+of micro-pyramid structures have been obtained from three-
+dimensional mechanics analysis,
+71,92 which are useful to guide the
+design of surface-relief assisted transfer printing technique.
+The elastic recovery of the collapsed micro-pyramid structures is
+passive and time sensitive due to the viscoelastic properties of
+PDMS, which may yield unexpected tilt, rotation and even drop of
+inks during the transfer printing process. Instead of using PDMS
+stamp, shape memory polymer (SMP) stamp is introduced to
+improve the controllability and the reliability
+93,94 of transfer
+printing as shown in Fig. 8b. SMPs have the characteristics of
+signiﬁcant elastic modulus change across the polymer ’s glass
+transition temperature (Tg), temporary shape locking and
+permanent shape recovery upon heating. The SMP stamp is of
+the same design that features micro-pyramid structures on the
+surface, which de ﬁnes the permanent shape of the stamp. At the
+beginning, the SMP stamp is heated above its Tg and becomes
+compliant, a preload is applied to drive the micro-pyramid
+structures to collapse onto the ink. The collapsed SMP stamp is
+then cooled down to lock the temporary shape followed by the
+reliable retrieval of inks from the donor substrate. Upon printing,
+the SMP stamp is heated above its Tg to recover its permanent
+shape, which leaves only tip contact and ensures a highly reliable
+printing. The introducing of laser pulse to heat the local region
+enables selective/programmable printing as shown in Fig. 8c.
+51,52
+The only problem with the SMP stamp lies in the high adhesion
+upon heating, which is unfavorable for the printing. Figure 8d
+shows some devices and structures fabricated by the surface-
+relief-assisted transfer printing technique, such as carbon nano-
+tube ﬁeld effect transistor (CNFET) with 100 nm thick air gap
+dielectric fabricated using a heavily doped silicon platelet,
+71
+bendable and twistable imbricate architecture design, 95 series-
+connected array of pressure activated connections on ﬂexed
+PEN96 and “MECHSE” pattern of gold-coated Si inks on a curved
+PDMS substrate using multiple selective printing steps. 51
+Perspectives and challenges
+Transfer printing techniques facilitate the heterogeneous integra-
+tion of dissimilar micro-materials and nano-materials into spatially
+organized, functional arrangements in two-dimensional and three-
+dimensional layouts. It decouples the device fabrication and
+Transfer printing techniques y
+C Linghu et al.
+10
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+
+integration process and brings many novel application opportu-
+nities for ﬂexible and stretchable inorganic electronics, which are
+impossible by conventional techniques (e.g., etching and deposi-
+tion). In the past decade, transfer printing techniques have
+received and continuously attracted attention from academia and
+industry due to their wide applications in the area of ﬂexible and
+stretchable inorganic electronics and other areas beyond ﬂexible
+and stretchable inorganic electronics, such as recon ﬁgurable
+systems,
+97 assembly of heterogeneous materials, 25 etc.
+The performances of the main transfer printing techniques are
+summarized and compared in Table 1. Transfer printing techni-
+ques assisted with surface chemistry or glue and transfer printing
+techniques using solvent releasable tapes or thermal releasable
+tapes provide exceptional maximum adhesion and switchability,
+which makes them very reliable transfer printing protocols.
+However, the transfer printing process is usually destructive to
+the stamp interface with the adhesion not reversible and stamp
+not reusable. Moreover, the surface residues on the devices may
+degrade the device performance. Advanced transfer printing
+techniques based on reversible dry adhesion provide a good
+solution to the above limitations by offering repeatability without
+leaving any residues on devices. Among them, the kinetically
+controlled transfer printing technique provides the most versatile
+and convenient scheme but with limited adhesion modulation
+range. Laser-driven non-contact transfer printing is the only
+transfer printing method providing non-contact printing but the
+undesirable stamp surface damage due to the high temperature
+needs to be carefully addressed. Gecko-inspired transfer printing
+techniques outperform the formerly mentioned techniques but
+the fabrication of the stamp with surface micro-structures poses
+challenges on the cost. On the contrary, aphid-inspired transfer
+printing techniques are of simpler design and can provide great
+adhesion switchability. Selective/non-selective transfer printing
+processes with local, non-contact outer stimuli (e.g., laser beam)
+could enhance the versatility and applicability of transfer printing
+techniques.
+Surface chemistry and glue assisted transfer printing techniques
+and kinetically controlled transfer printing technique are widely
+Fig. 8 Aphid-inspired transfer printing techniques: surface-relief assisted transfer printing. a Surface-relief assisted transfer printing technique.
+(1) Implementation of the aphid-inspired, surface-relief assisted transfer printing for deterministic assembly; SEM images of the ( 2) collapsed
+stamp and ( 3) recovered stamp with silicon platelets (3 μm thick; 100 × 100 μm) on their surfaces; ( 4) Force required to remove a microtip
+surface from the silicon, as a function of retraction speed for three different preload cases, simulating the steps of retrieval (1.5, 3 mN) and
+printing (0.2 mN) process. Adapted with permission from ref.
+71 b Schematic illustration of the bonding/debonding between the SMP stamp
+surface and a substrate, where the recovery of the micro-pyramid structures is controlled by global heating. Reprinted with permissions from
+ref.
+93 c Schematic illustration of the programmable printing process via automated laser writing on a micropatterned shape memory polymer
+stamp. Reprinted with permissions from ref. 52 d Devices and structures fabricated by surface-relief assisted transfer printing. (1) Carbon
+nanotube ﬁeld effect transistor (CNFET) with 100 nm thick air gap dielectric fabricated using surface-relief assisted transfer printing a heavily
+doped silicon platelet. Reprinted with permissions from ref. 71 (2) Bendable and twistable imbricate architecture design sample realized by
+surface-relief assisted transfer printing. Reprinted with permissions from ref. 95 (3) Series-connected array of pressure activated connections on
+ﬂexed PEN fabricated using surface-assisted transfer printing. Reprinted with permissions from ref. 96 (4) “MECHSE” pattern of gold-coated Si
+inks on a curved PDMS substrate using multiple selective printing steps with laser-driven, surface-relief assisted SMP stamp. Reprinted with
+permissions from ref. 51
+Transfer printing techniques y
+C Linghu et al.
+11
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+exploited and applied in the fabrication of ﬂexible and stretchable
+electronics. However, as newly developed advanced transfer
+printing techniques, the applications of laser-driven non-contact
+transfer printing technique and gecko-inspired or aphid-inspired
+transfer printing techniques in the fabrication of electronics (i.e.,
+sensors, displays and circuits) are rarely reported. Existing reports
+mainly focus on the demonstration of the viability of these novel
+ideas, the investigation of related mechanism and optimization.
+Future work should provide more proofs on the feasibility of these
+transfer printing techniques in the fabrication of electronic
+devices.
+Although there are signi ﬁcant advances of transfer printing
+techniques in terms of the ink material compatibility, the receiver
+substrate’s material and geometry tolerance, the adhesion
+switchability and the reliability, several challenges still exist for
+future transfer printing techniques:
+(1) Scalability towards nano-scale. The dimension of inks that
+existing transfer printing techniques can enable is on the
+order of micro-scale. It is hard to achieve a high yield of
+transfer printing as the ink becomes thinner than 100 nm
+and smaller than 1 μm. Future transfer printing techniques
+should be able to extend the ink size to nano-scale in a
+controllable manner.
+(2) High parallelism and large scale. A high throughput for large
+scale manufacturing is desired for transfer printing techni-
+ques in industry. The increase of stamp area and the
+parallelism at each printing cycle may provide a solution,
+but the avoiding of missed retrievals and prints becomes
+even harder as the parallelism increases. Attempts have
+been made including the incorporation of angled post into
+the roll-to-roll process
+86 and the combination of advanced
+transfer printing techniques with an automated plat-
+form
+31,98,99 in selective/programmable mode.
+(3) Direct three-dimensional transfer printing capability. Current
+transfer printing techniques are incompatible with receiver
+substrates with complex geometries. Although the transfer
+printing of individual device onto any surface
+72,73 has been
+realized by the laser-driven non-contact transfer printing
+technique, it is hard to print the ink array on any surface
+with high throughput. For the applications in bio-integrated
+devices that require intimate contact with tissues of
+complex topologies,
+100 the directly three-dimensional trans-
+fer printing techniques with high throughput is desired.
+CONCLUSION
+This paper presents a brief review on the advances of transfer
+printing techniques for ﬂexible and stretchable inorganic electro-
+nics. The general trend of transfer printing technique is toward to
+the harmless, reusable, more versatile and controllable protocols.
+Transfer printing techniques ranging from surface chemistry and
+glue assisted transfer printing technique, where the interfacial
+adhesion is modulated non-reversibly by surface chemistry, to
+advanced transfer printing techniques (including kinetically
+controlled transfer printing technique, laser-driven non-contact
+transfer printing technique, gecko-inspired transfer printing
+technique, and aphid-inspired transfer printing technique), where
+the interfacial adhesion is tunable and reversible by external
+physical stimuli, are overviewed. The performances of these
+transfer printing techniques are summarized and compared. Some
+perspectives and challenges are presented for future develop-
+ments of transfer printing techniques.
+DATA AVAILABILITY
+All data are available within the article or available from the authors upon reasonable
+request.
+ACKNOWLEDGEMENTS
+The authors acknowledge the supports from the Zhejiang Provincial Natural Science
+Foundation of China (Grant No. LR15A020001), the National Basic Research Program
+(Grant No. 2015CB351901), the National Natural Science Foundation of China (Grant
+Nos. 11372272, 11622221, and 11621062), the Shenzhen Science and Technology
+Program (Grant No. JCY20170816172454095), and the Fundamental Research Funds
+for the Central Universities.
+AUTHOR CONTRIBUTIONS
+C. L., S. Z., and C. W. studied the literatures. C. L. and J. S. wrote the paper.
+ADDITIONAL INFORMATION
+Competing interests: The authors declare no competing interests.
+Publisher's note: Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional af ﬁliations.
+REFERENCES
+1. Sun, Y., Choi, W. M., Jiang, H., Huang, Y. Y. & Rogers, J. A. Controlled buckling of
+semiconductor nanoribbons for stretchable electronics. Nat. Nanotechnol. 1,
+201– 207 (2006).
+2. Kim, D. H. et al. Materials and noncoplanar mesh designs for integrated circuits
+with linear elastic responses to extreme mechanical deformations. Proc. Natl
+Acad. Sci. 105, 18675 – 18680 (2008).
+3. Song, Z. et al. Origami lithium-ion batteries. Nat. Commun. 5, 3140 (2014).
+4. Cho, Y. et al. Engineering the shape and structure of materials by fractal cut.
+Proc. Natl Acad. Sci. 111, 17390 – 17395 (2014).
+5. Yu, K. J., Yan, Z., Han, M. & Rogers, J. A. Inorganic semiconducting materials for
+ﬂexible and stretchable electronics. npj Flex. Electron. 1, 4 (2017).
+6. Ko, H. C. et al. A hemispherical electronic eye camera based on compressible
+silicon optoelectronics. Nature 454, 748 – 753 (2008).
+7. Song, Y. M. et al. Digital cameras with designs inspired by the arthropod eye.
+Nature 497,9 5 – 99 (2013).
+8. Ko, H. C. et al. Curvilinear electronics formed using silicon membrane circuits
+and elastomeric transfer elements. Small 5, 2703 – 2709 (2009).
+9. Kim, D. H. et al. Materials for multifunctional balloon catheters with capabilities
+in cardiac electrophysiological mapping and ablation therapy. Nat. Mater. 10,
+316– 323 (2011).
+10. Yan, Z. et al. Thermal release transfer printing for stretchable conformal bioe-
+lectronics. Adv. Sci. 4, 1700251 (2017).
+11. Hyun-Joong, C. et al. Stretchable, multiplexed pH sensors with demonstrations
+on rabbit and human hearts undergoing ischemia. Adv. Healthc. Mater. 3,5 9– 68
+(2014).
+12. Jae-Woong, J. et al. Materials and optimized designs for human-machine
+interfaces via epidermal electronics. Adv. Mater. 25, 6839 – 6846 (2013).
+13. Yeo, W. H. et al. Multifunctional epidermal electronics printed directly onto the
+skin. Adv. Mater. 25, 2773 – 2778 (2013).
+14. Kim, D.-H. et al. Epidermal electronics. Science 333, 838 – 843 (2011).
+15. Hwang, S. W. et al. 25th anniversary article: materials for high-performance
+biodegradable semiconductor devices. Adv. Mater. 26, 1992 – 2000 (2014).
+16. Jung, Y. H. et al. High-performance green ﬂexible electronics based on biode-
+gradable cellulose nano ﬁbril paper. Nat. Commun. 6, 7170 (2015).
+17. Hwang, S. W. et al. A physically transient form of silicon electronics. Science 337,
+1640– 1644 (2012).
+18. Kim, B. H. et al. Dry transient electronic systems by use of materials that sublime.
+Adv. Funct. Mater. 27, 1606008 (2017).
+19. Kim, H. S. et al. Unusual strategies for using indium gallium nitride grown on
+silicon (111) for solid-state lighting. Proc. Natl Acad. Sci. 108, 10072 – 11077
+(2011).
+20. Park, S. I. et al. Printed assemblies of inorganic light-emitting diodes for
+deformable and semitransparent displays. Science 325, 977 – 981 (2009).
+21. Kim, T. H. et al. Full-colour quantum dot displays fabricated by transfer printing.
+Nat. Photonics 5, 176 – 182 (2011).
+22. Kim, B. H. et al. Multilayer transfer printing for pixelated, multicolor Quantum
+dot light-emitting diodes. Acs Nano 10, 4920 – 4925 (2016).
+23. Yoon, J. et al. Ultrathin silicon solar microcells for semitransparent, mechanically
+ﬂexible and microconcentrator module designs. Nat. Mater. 7, 907 – 915 (2008).
+24. Baca, A. J. et al. Compact monocrystalline silicon solar modules with high vol-
+tage outputs and mechanically ﬂexible designs. Energy Environ. Sci. 3, 208 – 211
+(2010).
+Transfer printing techniques y
+C Linghu et al.
+12
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University
+
+25. Lee, S. et al. Heterogeneously assembled metamaterials and metadevices via 3D
+modular transfer printing. Sci. Rep. 6, 27621 (2016).
+26. Yu, C. et al. Electronically programmable, reversible shape change in two and
+three dimensional hydrogel structures. Adv. Mater. 25, 1541 – 1546 (2013).
+27. Tao, H. et al. Silk-based conformal, adhesive, edible food sensors. Adv. Mater. 24,
+1067– 1072 (2012).
+28. Kim, D.-H. et al. Strechable and foldable silicon integrated circuits. Science 320,
+507– 511 (2008).
+29. Kim, D.-H. et al. Dissolvable ﬁlms of silk ﬁbroin for ultrathin, conformal bio-
+integrated electronics. Nat. Mater. 9, 511 – 517 (2010).
+30. Kim, R.-H. et al. Waterproof AlInGaP optoelectronics on stretchable
+substrates with applications in biomedicine and robotics. Nat. Mater. 9,
+929– 937 (2010).
+31. Carlson, A., Bowen, A. M., Huang, Y., Nuzzo, R. G. & Rogers, J. A. Transfer printing
+techniques for materials assembly and micro/nanodevice fabrication. Adv.
+Mater. 24, 5284 – 5318 (2012).
+32. Menard, E., Lee, K. J., Khang, D.-Y., Nuzzo, R. G. & Rogers, J. A. A printable form of
+silicon for high performance thin ﬁlm transistors on plastic substrates. Appl.
+Phys. Lett. 84, 5398 – 5400 (2004).
+33. Loo, Y., Willett, R. L., Baldwin, K. W. & Rogers, J. A. Interfacial chemistries for
+nanoscale transfer printing. J. Am. Chem. Soc. 124, 7654 (2002).
+34. Smythe, E. J., Dickey, M. D., Whitesides, G. M. & Capasso, F. A technique to
+transfer metallic nanoscale patterns to small and non-planar surfaces. Acs Nano
+3,5 9 – 65 (2009).
+35. Dae-Hyeong, K. et al. Flexible electronics: ultrathin silicon circuits with strain-
+isolation layers and mesh layouts for high-performance electronics on fabric,
+vinyl, leather, and paper. Adv. Mater. 21, 703 – 3707 (2009).
+36. Choi, C. et al. Human eye-inspired soft optoelectronic device using high-density
+MoS
+2-graphene curved image sensor array. Nat. Commun. 8, 1664 (2017).
+37. Jun-ho, C., Kyung-Ho, K., Se-Jin, C. & Hong, H. L. Whole device printing for full
+colour displays with organic light emitting diodes. Nanotechnology 17, 2246
+(2006).
+38. Blanchet, G. B., Fincher, C. R. & Gao, F. Polyaniline nanotube composites: a high-
+resolution printable conductor. Appl. Phys. Lett. 82, 1290 – 1292 (2003).
+39. Kim, S. J. et al. Multifunctional cell-culture platform for aligned cell sheet
+monitoring, transfer printing, and therapy. ACS Nano 9, 2677 – 2688 (2015).
+40. Joo, K. S. et al. Stretchable and transparent biointerface using cell-sheet-
+graphene hybrid for electrophysiology and therapy of skeletal muscle. Adv.
+Funct. Mater. 26, 3207 – 3217 (2016).
+41. Ahn, J. H. et al. Transfer Printing Techniques and Inorganic Single-Crystalline
+Materials for Flexible and Stretchable Electronics . (Wiley, Hoboken, 2008).
+42. Yoon, J. et al. Heterogeneously integrated optoelectronic devices enabled by
+micro-transfer printing. Adv. Opt. Mater. 3, 1313 – 1335 (2015).
+43. Ravikumar, V., Yi, N., Vepachedu, V. & Cheng, H. in Industrial Internet of Things:
+Cybermanufacturing Systems (eds S. Jeschke, C. Brecher, H. Song, & D. B. Rawat)
+671– 690 (Springer, New York, 2017).
+44. Kimlee, H. J., Carlson, A., Grierson, D. S., Rogers, J. A. & Turner, K. T. Interface
+mechanics of adhesiveless microtransfer printing processes. J. Appl. Phys. 115,
+2332– 2271 (2014).
+45. Sun, Y. et al. Photolithographic route to the fabrication of micro/nanowires of
+III– V semiconductors. Adv. Funct. Mater. 15,3 0 – 40 (2005).
+46. Wong, W. S. et al. Fabrication of thin- ﬁlm InGaN light-emitting diode mem-
+branes by laser lift-off. Appl. Phys. Lett. 75, 1360 – 1362 (1999).
+47. Wong, W. S. et al. InxGa1 −xN light emitting diodes on Si substrates fabricated
+by Pd– In metal bonding and laser lift-off. Appl. Phys. Lett. 77, 2822– 2824 (2000).
+48. Meitl, M. A. et al. Transfer printing by kinetic control of adhesion to an elasto-
+meric stamp. Nat. Mater. 5,3 3 – 38 (2006).
+49. Cho, S., Kim, N., Song, K. & Lee, J. Adhesiveless transfer printing of ultrathin
+microscale semiconductor materials by controlling the bending radius of an
+elastomeric stamp. Langmuir 32, 7951 – 7957 (2016).
+50. Ahmed, N., Dagdeviren, C., Rogers, J. A. & Ferreira, P. M. Active polymeric
+composite membranes for localized actuation and sensing in microtransfer
+printing. J. Micro Syst. 24, 1016 – 1028 (2015).
+51. Eisenhaure, J. & Kim, S. Laser-driven shape memory effect for transfer printing
+combining parallelism with individual object control. Adv. Mater. Technol. 1,
+1600098 (2016).
+52. Huang, Y. et al. Direct laser writing-based programmable transfer printing via
+bioinspired shape memory reversible adhesive. Acs Appl. Mater. Interfaces 8,
+35628– 35633 (2016).
+53. Feng, X. et al. Competing fracture in kinetically controlled transfer printing.
+Langmuir 23, 12555 – 12560 (2007).
+54. Kim, T.-H. et al. Kinetically controlled, adhesiveless transfer printing using
+microstructured stamps. Appl. Phys. Lett. 94, 113502 (2009).
+55. Carlson, A. et al. Shear-enhanced adhesiveless transfer printing for use in
+deterministic materials assembly. Appl. Phys. Lett. 98, 264104 (2011).
+56. Sun, Y. & Rogers, J. A. Fabricating semiconductor nano/microwires and transfer
+printing ordered arrays of them onto plastic substrates. Nano Lett. 4, 1953– 1959
+(2004).
+57. Duffy, D. C., McDonald, J. C., Schueller, O. J. A. & Whitesides, G. M. Rapid pro-
+totyping of micro ﬂuidic systems in poly(dimethylsiloxane). Anal. Chem. 70,
+4974– 4984 (1998).
+58. Lee, K. J. et al. Large-area, selective transfer of microstructured silicon: a
+printing-based approach to high-performance thin- ﬁlm transistors supported
+on ﬂexible substrates. Adv. Mater. 17, 2332 – 2336 (2005).
+59. Park, J. S. et al. Microtransfer printing of metal ink patterns onto plastic sub-
+strates utilizing an adhesion-controlled polymeric donor layer. J. Micromech.
+Microeng. 26, 065008 (2016).
+60. Menard, E., Nuzzo, R. G. & Rogers, J. A. Bendable single crystal silicon thin ﬁlm
+transistors formed by printing on plastic substrates. Appl. Phys. Lett. 86, 093507,
+https://doi.org/10.1063/1.1866637 (2005).
+61. Baca, A. J. et al. Printable single-crystal silicon micro/nanoscale ribbons, platelets
+and bars generated from bulk wafers. Adv. Funct. Mater. 17, 3051 – 3062 (2007).
+62. Kim, T. et al. Thin ﬁlm receiver materials for deterministic assembly by transfer
+printing. Chem. Mater. 26, 3502 – 3507 (2014).
+63. Loo, Y.-L. et al. High-resolution transfer printing on GaAs surfaces using alkane
+dithiol monolayers. J. Vac. Sci. Technol. B 20, 2853 – 2856 (2002).
+64. Choi, M. K. et al. Wearable red – green– blue quantum dot light-emitting diode
+array using high-resolution intaglio transfer printing. Nat. Commun. 6, 7149
+(2015).
+65. Jeong, J. W. et al. High-resolution nanotransfer printing applicable to diverse
+surfaces via interface-targeted adhesion switching. Nat. Commun. 5, 5387
+(2014).
+66. Sim, K. et al. High ﬁdelity tape transfer printing based on chemically induced
+adhesive strength modulation. Sci. Rep. 5, 16133 (2015).
+67. Lee, C. H., Kim, D. R. & Zheng, X. Fabricating nanowire devices on diverse
+substrates by simple transfer-printing methods. Proc. Natl Acad. Sci. 107,
+9950– 9955 (2010).
+68. Ahn, J.-H. et al. Heterogeneous three-dimensional electronics by use of printed
+semiconductor nanomaterials. Science 314, 1754 – 1757 (2006).
+69. Chen, H., Feng, X. & Chen, Y. Directionally controlled transfer printing using
+micropatterned stamps. Appl. Phys. Lett. 103, 151607 (2013).
+70. Yoon, J. et al. GaAs photovoltaics and optoelectronics using releasable multi-
+layer epitaxial assemblies. Nature 465, 329 – 333 (2010).
+71. Kim, S. et al. Microstructured elastomeric surfaces with reversible adhesion and
+examples of their use in deterministic assembly by transfer printing. Proc. Natl
+Acad. Sci. 107, 17095 – 17100 (2010).
+72. Saeidpourazar, R. et al. Laser-driven micro transfer placement of prefabricated
+microstructures. J. Micro Syst. 21, 1049 – 1058 (2012).
+73. Saeidpourazar, R., Sangid, M. D., Rogers, J. A. & Ferreira, P. M. A prototype printer
+for laser driven micro-transfer printing. J. Manuf. Process. 14, 416 – 424 (2012).
+74. Li, R. et al. Thermo-mechanical modeling of laser-driven non-contact transfer
+printing: two-dimensional analysis. Soft Matter 8, 7122 – 7127 (2012).
+75. Li, R. et al. Axisymmetric thermo-mechanical analysis of laser-driven non-contact
+transfer printing. Int. J. Fract. 176, 189 – 194 (2012).
+76. Gao, Y., Li, Y., Li, R. & Song, J. An accurate thermomechanical model for laser-
+driven microtransfer printing. J. Appl. Mech. 84, 064501 (2017).
+77. Autumn, K., Dittmore, A., Santos, D., Spenko, M. & Cutkosky, M. Frictional
+adhesion: a new angle on gecko attachment. J. Exp. Biol. 209, 3569– 3579 (2006).
+78. Autumn, K. Properties, Principles, and Parameters of the Gecko Adhesive Sys-
+tem. (Springer, Cham, 2006).
+79. Brodoceanu, D., Bauer, C. T., Kroner, E., Arzt, E. & Kraus, T. Hierarchical bioin-
+spired adhesive surfaces-a review. Bioinspir. Biomim. 11, 051001 (2016).
+80. Rizzo, N. W. et al. Characterization of the structure and composition of gecko
+adhesive setae. J. R. Soc. Interface 3, 441 – 451 (2006).
+81. Yoo, B., Cho, S., Seo, S. & Lee, J. Elastomeric angled micro ﬂaps with reversible
+adhesion for transfer-printing semiconductor membranes onto dry surfaces.
+ACS Appl. Mater. Interfaces 6, 19247 – 19253 (2014).
+82. Mengüç, Y., Yang, S. Y., Kim, S., Rogers, J. A. & Sitti, M. Gecko-inspired con-
+trollable adhesive structures applied to micromanipulation. Adv. Funct. Mater.
+22, 1246 – 1254 (2012).
+83. Kim, S. et al. Enhanced adhesion with pedestal-shaped elastomeric stamps for
+transfer printing. Appl. Phys. Lett. 100, 171909 (2012).
+84. Jeong, J., Kim, J., Song, K., Autumn, K. & Lee, J. Geckoprinting: assembly of
+microelectronic devices on unconventional surfaces by transfer printing with
+isolated gecko setal arrays. J. R. Soc. Interface 11, 20140627 (2014).
+85. Hutchinson, J. W. & Suo, Z. in Advances in Applied Mechanics Vol. 29 (eds J. W.
+Hutchinson & T. Y. Wu) 63 – 191 (Elsevier, 1991).
+86. Yang, S. Y. et al. Elastomer surfaces with directionally dependent adhesion
+strength and their use in transfer printing with continuous roll-to-roll applica-
+tions. Adv. Mater. 24, 2117 – 2122 (2012).
+Transfer printing techniques y
+C Linghu et al.
+13
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2018)  26 
+
+87. Kim, S. & Sitti, M. Biologically inspired polymer micro ﬁbers with spatulate tips as
+repeatable ﬁbrillar adhesives. Appl. Phys. Lett. 89, 261911 (2006).
+88. Carbone, G., Pierro, E. & Gorb, S. N. Origin of the superior adhesive performance
+of mushroom-shaped microstructured surfaces. Soft Matter 7, 5545– 5552 (2011).
+89. Lees, A. D. & Hardie, J. The organs of adhesion in the Aphid Megoura Viciae. J.
+Exp. Biol. 136, 209 – 228 (1988).
+90. Linghu, C. et al. Rapidly tunable and highly reversible bio-inspired dry adhesion
+for transfer printing in air and vacuum. Submitted (2018).
+91. Carlson, A. et al. Active, programmable elastomeric surfaces with tunable adhe-
+sion for deterministic assembly by transfer printing. Adv. Funct. Mater. 22,
+4476– 4484 (2012).
+92. Wu, J. et al. Mechanics of reversible adhesion. Soft Matter 7, 8657 – 8662 (2011).
+93. Eisenhaure, J. D. et al. The use of shape memory polymers for microassembly by
+transfer printing. J. Micro Syst. 23, 1012 – 1014 (2014).
+94. Xue, Y. et al. A theoretical model of reversible adhesion in shape memory
+surface relief structures and its application in transfer printing. J. Mech. Phys.
+Solids 77,2 7 – 42 (2015).
+95. Seok, K. et al. Imbricate scales as a design construct for microsystem technol-
+ogies. Small 8, 901 – 906 (2012).
+96. Prevatte, C. et al. Pressure activated interconnection of micro transfer printed
+components. Appl. Phys. Lett. 108, 203503 (2016).
+97. Yan, Z. et al. Three-dimensional mesostructures as high-temperature growth
+templates, electronic cellular scaffolds, and self-propelled microrobots. Proc.
+Natl Acad. Sci. 114, E9455 – E9464 (2017).
+98. Ahmed, N., Rogers, J. A. & Ferreira, P. M. Microfabricated instrumented
+composite stamps for transfer printing. J. Micro Nano-Manuf. 3, 021007
+(2015).
+99. Ahmed, N., Carlson, A., Rogers, J. A. & Ferreira, P. M. Automated micro-transfer
+printing with cantilevered stamps. J. Manuf. Process. 14,9 0 – 97 (2012).
+100. Jang, K. I. et al. Soft network composite materials with deterministic and bio-
+inspired designs. Nat. Commun. 6, 6566 (2015).
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article ’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://creativecommons.
+org/licenses/by/4.0/.
+© The Author(s) 2018
+Transfer printing techniques y
+C Linghu et al.
+14
+npj Flexible Electronics (2018)  26 Published in partnership with Nanjing Tech University

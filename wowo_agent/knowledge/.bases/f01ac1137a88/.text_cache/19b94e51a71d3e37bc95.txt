@@ -1,0 +1,2249 @@
+npj | flexiblee lectronics Review
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-026-00545-5
+Materials, processing, and structural
+strategies for encapsulation in
+stretchable and ﬂexible optoelectronics
+Check for updates
+Hyeonji Yoo1,6, So-Hyeon Lee2,6, Ji-Youn Kwak1,S u - M i nK i m1,H o e - Y e o nJ e o n g1, Ji-Hyeon Jo1,
+Younghoon Kim3, Youngju Sim1,D o n g - H y e o nK i m3,J i h e o nJ e o n1, Sukwon Hong1, Soo-Jeong Kim3,
+Gyeong-Seok Hwang4, Ji-Woo Gu2,5, Han-Hee Cho1,2, Seung-Kyun Kang5 &J u - Y o u n gK i m1,2,3
+Deformable optoelectronic devices are emerging as critical technologies for wearable healthcare
+systems and next-generation display and energy harvesting platforms. Their practical deployment,
+however, remains limited by accelerated degradation under ambient conditions. Penetration of water
+vapor and oxygen accelerates the failure of moisture-sensitive layers, making encapsulation a key
+determinant of operational lifetime. A fundamental trade-off exists between barrier performance and
+mechanical stretchability: organic materials offer high compliance but poor moisture resistance,
+whereas inorganic barriers provide excellent impermeability but suffer from brittleness. Addressing
+these competing requirements demands an integrated approach that considers material selection and
+fabrication methodology. This review highlights recent advances in stretchable encapsulation
+technologies, encompassing organic, inorganic, and hybrid materials, and outlines the core
+requirements for practical operation: high impermeability, mechanical compliance, and optical
+transparency. By correlating emerging experimental results with these criteria, this review establishes
+a framework for designing encapsulation strategies that reconcile mechanical and barrier demands.
+Stretchable and ﬂexible optoelectronic devices are increasingly integrated
+into daily life, serving as light-emitting diodes (LEDs) displays in mobile
+electronics and home appliances, as well as energy harvesting modules such
+as solar cells and indoor photovoltaics (PVs) 1–8. As application domains
+expand, the mechanical requirementshave evolved beyond simple bending
+and folding to more complex deformation modes, including uniaxial/biaxial
+stretching, twisting, and conformal wrapping over curved surfaces9–12.I n
+general, mechanicalﬂexibility denotes the ability of a device or material to
+undergo reversible shape deformation under externally applied forces,
+representing the opposite of rigidity. In the context of ﬂexible electronics,
+ﬂexibility is typically associated with bending and folding deformation,
+where curvature accommodates the deformation and tensile strain on the
+most brittle layer can be minimized th rough neutral-plane engineering.
+Devices that deform predominantly through bending-dominated modes,
+with only small tensile strain at the outer surface on the order of 1%, are
+therefore classiﬁed as mechanically ﬂexible. By contrast, stretchability
+requires all constituent layers in the device to deform cooperatively under an
+iso-strain condition. Stretchable systems can sustain large tensile defor-
+mation (>5–50%) under uniaxial or biaxial loading and support more
+complex shape reconﬁgurations such as conformal wrapping. Achieving
+stretchability consequently demands intrinsic material strategies and
+extrinsic structural designs that suppress crack initiation and delamination
+under signi ﬁcant tensile strain, fundament ally distinguishing it from
+bending-dominatedﬂexibility
+9.F i g u r e1 shows representative applications
+of interactive optoelectronic devices: wearable solar cell, electronic skin (e-
+skin), head-up display (HUD), stretchable displays, and rollable space solar
+cell. Wearable devices with self-ener gy harvesting systems like wearable
+organic solar cells (OSCs) can sustain continuous operation of the device
+(Fig. 1a)
+13, and e-skin platforms are capable of sensing healthcare infor-
+mation and presenting the data via integrated display (Fig. 1b)14.H U D s ,
+integrated into curved windshields of automobiles or aircraft, enable aug-
+mented reality (AR) navigation and speed readouts without obstructing the
+1Department of Materials Science and Engineering, UNIST (Ulsan National Institute of Science and Technology), Ulsan, Republic of Korea. 2UNIST InnoCORE AI-
+Space Solar Initiative, UNIST (Ulsan National Institute of Science and Technology), Ulsan, Republic of Korea. 3Graduate School of Semiconductor Materials and
+Devices Engineering, UNIST (Ulsan National Institute of Science and Technology), Ulsan, Republic of Korea. 4John A. Paulson School of Engineering and Applied
+Sciences, Harvard University, Cambridge, MA, USA. 5Department of Materials Science and Engineering, Seoul National University, Seoul, Republic of Korea.
+6These authors contributed equally: Hyeonji Yoo, So-Hyeon Lee. e-mail: juyoung@unist.ac.kr
+npj Flexible Electronics |           (2026) 10:42 1
+1234567890():,;
+1234567890():,;
+
+driver’s ﬁeld of view (Fig.1c)15,16. Stretchable free-form displays, envisioned
+for televisions and smartphones, combine enhanced portability with
+seamless integration into diverse surfaces (Fig.1d)
+17. For space-deployable
+PVs, rollable panel formats facilitate compact packaging for launch and
+efﬁcient deployment for solar harvesting in orbit (Fig.1e, f)
+18,19. Collectively,
+these applications highlight the growing demand for optoelectronic devices
+with highly stretchable, unconstra ined form factors. To meet these
+requirements, both (i) intrinsic strategies, which rely on the inherent
+deformability of functional materials, and (ii) extrinsic strategies, which
+employ engineered structures such as buckles (e.g., wavy or wrinkled geo-
+metries), meta-structures, and island–bridge layouts to accommodate strain
+through structural design, have been explored
+20–25. These advances have
+enabled stretchable LED and PV systems with high optical and electrical
+performance, as illustrated in Fig.1g.
+Soft organic materials play a pivotal role in enabling advanced form
+factors and driving commercialization of stretchable andﬂexible optoelec-
+tronics. While conventional metallic electrode materials are too rigid for
+stretchable platforms, they have been replaced by conductive polymers (e.g.,
+poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) (PEDOT:PSS))
+or conductive nanomaterial-polymer composites (e.g., silver nanowires (Ag
+NWs), graphene-embedded polymers)
+26,27. Their intrinsic compliance fur-
+ther supports the development of stretc hable substrates, dielectric layers,
+and active photosensitive layers ca pable of withstanding repeated
+mechanical deformation. Neverthe less, these advantages come with
+Fig. 1 | Representative present and future stretchable and ﬂexible optoelec-
+tronics. a Schematic and images of wearable OSC during stretching mode. Adapted
+with permission from ref. 13. Copyright 2022, Wiley-VCH GmbH. b Operation
+image of wearable e-skin on hand. Reproduced with permission from ref. 14.
+Copyright 2016, The Authors. c Schematic and images of AR HUD for automobiles.
+Reproduced with permission from refs. 15,16. Copyright 2023, Human Factors and
+Ergonomics Society. Copyright 2022, Optica Publishing Group. d Crumpled
+stretchable display based on textile substrate. Reproduced with permission from
+ref. 17. Copyright 2021, The Authors.e Schematic and images of rollable solar panels
+for space electronics. Reproduced with permission from ref. 18. Copyright 2024,
+American Chemical Society. f Schematic of solar panel operation on the Moon.
+Reproduced with permission from ref. 19. Copyright 2023, American Chemical
+Society. g Schematic of the structure of stretchable optoelectronic devices: LEDs and
+PVs. h Water vapor penetration path in a hybrid encapsulation material.
+i Requirements for stretchable encapsulation.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 2
+
+intrinsic trade-offs. Organic materials generally exhibit low glass-transition
+temperatures and high chemical reactivity toward moisture and oxygen,
+even under ambient conditions. Such i nstabilities result in accelerated
+environmental degradation, thereby imposing strict limitations on the
+thermal budget and atmospheric contr ols required during fabrication.
+Moreover, they restrict the range of operational environments where devices
+can perform reliably.
+To ensure long-term stability unde r practical operating conditions,
+e n c a p s u l a t i o ni si n d i s p e n s a b l e .A st h eoutermost protective layer, it shields
+active components from moisture, oxygen, and other environmental stressors
+while preserving the mechanical compliance required for stretchable and
+ﬂexible devices
+28–30.A ss h o w ni nF i g .1h, an effective encapsulation layer
+i n c r e a s e st h ed i f f u s i o np a t h w a yf o rpenetrating water molecules, thereby
+slowing their transport toward moist ure-sensitive layers. Conventional
+encapsulation approaches in optoelectronic devices have relied heavily on
+dense, rigid materials such as ultrathin glass (UTG) sheets or metal lids to
+prevent water vapor and oxygen penetration into the photoactive compo-
+nents. While these conﬁgurations provide robust environmental protection
+in rigid or curved systems, their intrinsic brittleness and inability to accom-
+modate large deformations make them fundamentally incompatible with
+stretchable devices. For reliable operation in stretchable andﬂexible optoe-
+lectronics, encapsulation must func tion as a stand-alone, mechanically
+adaptive barrier capable of deforming in concert with the device while pre-
+serving high optical transmittance
+31,32. Achieving this combination of prop-
+erties is challenging, owing not only to the intrinsic trade-off relation between
+stretchability and barrier performance,where increased elongation generally
+degrades barrier performance, but a l s ot ot h en e e df o rl o w - t e m p e r a t u r e
+processing compatible with heat-sensitive components. Moreover, encap-
+sulation requirements vary across a pplications. PV devices require high
+optical transmittance to maximize light absorption, and LEDs must also
+maintain high transmittance for ef ﬁcient light out-coupling. Space-
+deployable solar cells operate in moisture-free environments but are sub-
+jected to intense ultraviolet (UV) ra diation and extreme thermal cycling,
+necessitating encapsulation materialswith exceptional radiation resistance
+and thermal stability
+33,34. Reliable encapsulation strategies that satisfy device-
+speciﬁc requirements, environmental conditions, and target lifetimes are
+therefore critical for achieving s ystems that maintain both mechanical
+reliability and robust barrier performance, as depicted in Fig.1i.
+We provide a comprehensive overview of recent progress in encap-
+sulation technologies engineered for stretchable and ﬂexible optoelec-
+tronics, categorized by material—organic, inorganic, and hybrid materials
+—as well as their associated fabrication methodologies. Organic barriers
+generally exhibit superior mechanic al deformability, allowing them to
+accommodate large strains, but their limited gas barrier capability due to low
+density constrains long-term device stability. In contrast, inorganic barriers
+possess intrinsically low gas permeability and great chemical resistance, yet
+their brittleness and poor strain tolerance often lead to fracture or delami-
+nation under deformation. Hybrid enc apsulation systems, integrating
+organic and inorganic materials, have been developed to balance these
+opposing characteristic s, offering both mechanical adaptability and
+enhanced environmental protection. This review highlights the importance
+of strategically integrating material selection, encapsulation methods, and
+application requirements to address the intrinsic trade-off between barrier
+performance and mechanical stretchability. Recent advances are analyzed to
+deﬁne the key performance parameters required for reliable operation and
+to propose design strategies that support the development of next-
+generation encapsulation systems. These strategies are expected to accel-
+erate the advancement of stretchable optoelectronic devices from laboratory
+prototypes to mechanically robust and environmentally stable devices sui-
+table for commercial applications.
+Barrier performance and stretchability of encapsula-
+tion materials
+To apply encapsulation to stretchable and ﬂexible electronic devices,
+encapsulation materials should simultaneously provide high barrier
+performance and high deformabilit y. Since the required barrier and
+mechanical performance levels vary depending on the device type, it is
+essential to identify these requirements for the intended application
+28,29,35,36.
+As the barrier and mechanical properties are intrinsic to the encapsulation
+material, understanding the fundame ntal characteristics of candidate
+materials is a prerequisite for rational selection. As illustrated in Fig.2a, the
+permeation of water vapor and oxygen is strongly governed by the micro-
+structure and density of free volume wi thin the material. Polymer-based
+materials have abundant free volume and large macro-defects, allowing
+comparatively fast penetration of a signiﬁcant amount of moisture within a
+given time frame. Polycrystalline inorganic materials possess ordered lat-
+tices, but grain boundaries and nano scale defects act as rapid diffusion
+pathways for moisture. In contrast, amorphous metals and oxides lack grain
+boundaries and exhibit disordered atomic arrangements, then defects do
+not form continuous pathways but instead create tortuous diffusion paths.
+Accordingly, the selection of encapsulation materials requires careful con-
+sideration of their barrier properti es in relation to their structural
+characteristics.
+Barrier performance is generally evaluated by the water vapor trans-
+mission rate (WVTR) and oxygen transmission rate (OTR). Although OTR
+quantiﬁes oxygen permeability, WVTR is more widely adopted because
+water molecules diffuse more rapidly than oxygen due to smaller molecule
+size and higher reactivity and induce more severe degradation of device
+performance. Therefore, WVTR has become the primary benchmark for
+encapsulation performance under environmental stress. In addition to
+barrier performance, stretchability represents another essential requirement
+f o re n c a p s u l a t i o nm a t e r i a l si ns t r e t c hable devices. Mechanical performance
+is generally evaluated through bending, twisting, folding, and stretching
+tests; among these, stretchability is regarded as the most representative
+measurement for highly deformable devices, while bending is often used for
+weakly deformable devices. Figure 2b compares the WVTR and stretch-
+ability ranges across organic, inorganic, and hybrid encapsulation materials,
+and Table 1 summarizes representative properties reported in recent
+literature
+21,22,28,29,31,37–50.I nF i g .2b, organic, inorganic, and hybrid materials
+occupy the yellow, blue, and green regions, respectively, while blue stars
+denote structure-assisted inorganic ﬁlms (e.g., wrinkled and wavy SiO ₂)
+whose enhanced stretchability aris es from geometry-enabled strain
+accommodation rather than intrinsi c material deformability. Hybrid
+materials, which combine the barrier integrity of inorganic layers with the
+mechanical compliance of organic components, represent a key strategy for
+achieving encapsulation systems that balance low WVTR with moderate
+stretchability. In parallel, structure-assisted designs offer a complementary
+pathway by enabling geometry-driven deformability without compromis-
+ing barrier performance. These material- and structure-centered approa-
+ches outline promising routes towa rd next-generation stretchable
+encapsulation technologies.
+To evaluate the practical relevance of encapsulation strategies, it is
+essential to consider not only the numerical WVTR values but also how they
+translate to real operating conditions. While WVTR serves as the primary
+descriptor of barrier performance, its implications must be contextualized in
+terms of device lifetime and environmental exposure. For most optoelec-
+tronic devices operated under ambie nt conditions, WVTR values in the
+range of 10
+-4–10-6 g/m²·day are generally accepted as the minimum
+threshold for long-term stability36,51,52. These values become more intuitive
+when expressed in terms of macroscopic leakage. If aﬁlm the size of a soccer
+ﬁeld was used as encapsulation and ex posed to water for one month, the
+amount of water penetrating with no barrier would be equivalent to a large
+tanker truck. A WVTR of 10-1 g/m²·day—typical of food-packaging-grade
+polymerﬁlms—would reduce this to roughly a bottle of water. A WVTR of
+10-4 g/m²·day, suitable for OPVs, corresponds to only a spoonful of water,
+while the OLED benchmark of 10-6 g/m²·day represents the leakage of just a
+single droplet. These requirements vary widely depending on device
+architecture, expected service lifetime, and operating environment. In high-
+humidity regions such as tropical rainforests, enhanced barrier performance
+is necessary due to increased moisture concentration and elevated water
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 3
+
+diffusivity in the ambient atmospher e. Lifetime requirements for such
+environments are commonly assessed using accelerated environmental tests
+(e.g., 85 °C/85% relative humidity (RH)), combined with Arrhenius extra-
+polation of lag time and WVTR values measured at multiple temperatures
+to estimate diffusion activation energy and permeance
+22,47.T h i sa l l o w s
+prediction of barrier performance under target ﬁeld conditions. Accord-
+ingly, encapsulation thickness and material selection must be tailored for the
+intended environment, and reliability veriﬁed under accelerated conditions.
+While WVTR provides a universal metri c for air-exposed optoelectronic
+devices, it does not directly translate to encapsulation requirements for
+implantable or underwater systems, where degradation is dominated by
+liquid-phase water ingress and surfacechemical reactions rather than water
+vapor diffusion. For such cases, alternative metrics—such as water trans-
+mission rate (WTR) or operational lifetime in liquid environments—and
+dedicated testing methods are required
+53,54. Therefore, selecting appropriate
+measurement methodologies that re ﬂect the dominant moisture-
+penetration mechanisms for each application is critical, and reliability
+should be evaluated through accelerated tests that can be extrapolated to
+practical use conditions. Detailed methodologies and measurement strate-
+gies are discussed in the following section.
+Representative organic materials include polyethylene naphthalate
+(PEN), polyimide (PI), polydimethylsiloxane (PDMS), parylene and
+hydrogels
+4,28,37,41,42,55–68. These materials generally show WVTR values on the
+order of 10 −1–102 g/m²·day, indicating poor barrier performance, insufﬁ-
+cient for stand-alone encapsulation, but providing superior stretchability
+and low elastic modulus. As shown in Fig.2b, such polymers are advanta-
+geous for highly stretchable devices because their mechanical compliance
+minimizes strain mismatch with activelayers. They also offer advantages in
+processability, as they can be fabricat ed through spin-coating, solution-
+based methods, chemical vapor deposition (CVD), and so on. For these
+reasons, organic materials are primarily applied in devices requiring high
+stretchability rather than extreme environmental resistance. Design strate-
+gies often involve encapsulating devices between polymer encapsulation
+layers or controlling layer thickness to align the active region with the
+mechanical neutral plane, thereby reducing strain-induced damage and
+enhancing durability.
+Fig. 2 | Water vapor transmission pathways and performance of encapsulation
+materials. a Schematic illustration of water vapor transmission pathways through
+microstructures in encapsulation materials on a polymer substrate. The encapsu-
+lation materials have macro-defects (left), nano-defects (center), and atomic lattice
+spacing (right). b Overview of WVTR –Stretchability performance for common
+encapsulation materials
+21,22,28,29,31,37–50,55,77,103,135,136. The design space for organic
+(yellow), inorganic (blue), and hybrid (green) encapsulation materials is shown. The
+blue star denotes SiO 2, an inorganic material whose stretchability is improved
+through a structure-assisted design. Structural assistance enables low permeability
+encapsulation materials to maintain low WVTR while achieving enhanced
+deformability, highlighting a potential pathway for next-generation stretchable and
+ﬂexible encapsulation strategies.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 4
+
+Table 1 | Summary of encapsulation materials including organic, inorganic, and hybrid materials in stretchable and ﬂexible optoelectronic devices
+Type Materials Fabrication method Structure Stretchability Thickness [ μm] WVTR (condition)
+[g/m²·day]
+Elastic
+modulus [GPa]
+Application Ref.
+Organic PET Spin-coating Single 12% >1.4 7.9 (75 μm)
+(38 °C/90%RH)
+2.3 OLED 28,29
+PDMS Spin-coating Single 93% >4 65 –70 (38 °C/90%RH) (0.4 –5) × 10−3 Skin electronics 28,29,37
+Emulsiﬁcation + curing Microsphere N/D 2 (diameter) - (7 days) N/D PQD, PNC 38
+PI Spin-coating Single 3% (w/ device) >0.5 2.2 2.5 PLED 28,29,39
+Spin-coating Serpentine (w/
+etching)
+30% by serpentine (w/
+device)
+3.5 (w/ device) N/D N/D Body temperature
+sensor
+40
+Parylene CVD Single Rb: 0.25–13 mm 1 Operation in water
+droplet
+N/D PeLEDs 41,42
+CVD Wrinkle 60% by wrinkle (w/
+device)
+2–10 29.8 (2 μm) (36 °C/
+75%RH)
+0.23–0.36 (w/ device) Strain sensor 43
+PEN Spin-coating Single 7% >1.2 7.3 (100 μm) 3.3 Transparent
+electronics
+28,29
+SBS Spinning Single (Nano ﬁber) N/D <26 800 0.1 × 10 −3 Skin electronics 134
+SEBS Solvent casting Single N/D 250 5 (1 mm) (38 °C/90% RH) 3.2 × 10 −3 Strain sensor 56
+Ecoﬂex Spin-coating Single ~90% 400 132.2 (400 μm)
+(36 °C/80% RH)
+68.9 kPa Strain sensor 43
+SIBS Solvent casting Single 800% 1000 0.24 (1 mm) (38 °C/
+90% RH)
+10−3 Skin-like electronics 114
+SVS Solvent casting Single 800% 1000 0.095 (1 mm) (38 °C/
+90% RH)
+1.1 × 10 −3 Skin-like electronics 114
+Hydrogel 3D printing Single 150% (w/ device) 200 (w/ device) N/D 10 −0.5 N/D 44
+Inorganic Al 2O3 PEALD Single 3.09% 50 × 10 −3 3.21 × 10−4 (60 °C/
+85%RH)
+179.6 OSC, OLED 45
+Al2O3 /TiO2 ALD Nanolaminate 0.53% 90 –110 × 10 −3 9.48 × 10−5 55.6–61.7 OLED 46
+SiO2 Thermal growth Wavy 20.1% by wavy 2 × 10 −1 2.25 × 10−4 (55 °C/
+85%RH)
+69.01 OLED, OPV 22
+Thermal growth Wrinkle 5 ~ 9% by wrinkle (biaxial) 2 × 10 −1 2.9 × 10−4 (60 °C/
+85%RH)
+73.8 OLED, OPV 21
+Sol–gel Single 3.3% 2 × 10 −1 2.9 × 10−4 (60 °C/
+85%RH)
+61 OSC 47
+Hybrid Al 2O3/PDMS ALI/spin-coating Nanolaminate 50 cycles at Rb: 5 mm 35 × 10 −3/22 9.24 × 10 −5 (3 dyads)
+(25 °C/50%RH)
+200/2.28 × 10−3 OLED 48
+pV3D3/Al2O3 iCVD/ALD Nanolaminate 40% (w/ device) 0.16/60 × 10 −3 N/D N/D OLED 49
+Montromorillonite/NOA Self-assembly
+processing
+Nanolaminate 1000 cycles at Rb: 2 mm NOA: 10 6.66 × 10 −3 (2 dyads)
+(25 °C/40%RH)
+0.628 PLED, PSC 31
+PCL/SiO2 ﬂakes Solvent casting Flakes in polymer >150% 100 35 (100 μm)
+(25 °C/50%RH)
+>0.5 LED 50
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 5
+
+Inorganic materials such as Al ₂O₃,S i O₂,T i O₂, and ZrO ₂ generally
+achieve WVTR values in the range of 10−3–10−6 g/m²·day, reﬂecting excel-
+lent barrier performance21,22,39,45,47,52,69. However, despite these advantages in
+barrier properties, inorganic ma terials have inherent mechanical
+limitations70. They exhibit limited strain tolerance caused by high elastic
+modulus, and low fracture strain, restricting their application in stretchable
+systems. Defects such as pinholes readily propagate within theseﬁlms, and
+even small applied strains can induce brittle fracture, causing a rapid
+deterioration of barrier performance.Film thickness can be another critical
+design parameter. Increasing thickness can reduce permeation by extending
+the diffusion path, but at the expense ofﬂexibility and with a higher risk of
+crack formation under bending or stretching
+71. Therefore, inorganic
+materials could be optimized to remainin the ultrathin regime, often only a
+few tens of nanometers, to balance b arrier performance with mechanical
+compliance. Another important factor is the elimination of atomic-scale
+defects and the fabrication of dense microstructures to ensure barrier
+integrity, which can act as crack-propagation origins and high-diffusion
+pathways. Conventional physical vapor deposition (PVD) and CVD have
+been widely employed to fabricate inorganicﬁlms.
+In contrast, atomic layer deposition (ALD) and atomic layer inﬁltra-
+tion (ALI) have been widely employed to produce uniform and defect-rare
+inorganic layers
+72–74. Although these processes can yield dense, low-defect
+inorganicﬁlms with excellent barrier integrity, their inherently slow growth
+rates limit large-area scalability andrequire additional process innovations
+for commercial implementation. One practical pathway adopted in industry
+involves forming a polymer or CVD-derived base layer ﬁrst, followed by
+deposition of an ultrathin ALD or ALI coating, which preserves ﬁlm
+compactness while reducing overall process time. Continued optimization
+of such hybrid deposition schemes is therefore essential to achieving both
+manufacturing efﬁciency and structural integrity. Within the broader ALD/
+ALI framework, plasma-enhanced ALD (PEALD) offers higher deposition
+rates at lower temperatures, which is advantageous for thermally fragile
+polymer substrates
+75,76. In addition, ALI enables direct inﬁltration of inor-
+ganic precursors into polymer substrates, creating interpenetrated hybrid
+interfaces that enhance both barrier performance and strain tolerance.
+These substrate-assisted approachesremain within the domain of inorganic
+encapsulation but also represent transitional pathways toward hybrid
+encapsulation strategies, as they ut ilize polymer compliance to mitigate
+defect formation and fracture. Conse quently, while inorganic materials
+remain indispensable for applicatio ns requiring extremely high barrier
+performance under harsh environments, their practical use in highly
+stretchable electronics is limited unless combined with hybrid or structural
+strain-accommodation approaches.
+As discussed above, organic materials are vulnerable to moisture and
+oxygen penetration, whereas inorganicmaterials exhibit limited strain tol-
+erance. To overcome these intrinsic limitations, hybrid encapsulation sys-
+tems integrating both materials have been investigated
+31,32,46,48–50,77–86.M o s t
+hybrid encapsulation materialstypically adopt multilayer conﬁgurations, in
+which inorganic layers provide high barrier performance, while organic
+layers suppress crack propagation an d accommodate mechanical strain.
+This conﬁguration effectively generates a tortuous diffusion pathway for
+moisture and oxygen, enabling WVTRvalues in the intermediate range of
+10−1–10−5 g/m²·day, superior to pure polymers yet more mechanically
+compliant than dense inorganicﬁlms46,87. The performance advantage arises
+from the complementary roles of each constituent. Inorganic layers act as
+the primary gas barriers, whereas organic layers serve as stress-relief and
+defect-sealing components, preventing catastrophic crack growth during
+deformation. Representative structural designs include alternating dyads
+such as Al
+2O3/polymer and SiO2/polymer laminates31,48–50, which maintain
+low WVTR while accommodating moderate strain, making them suitable
+for stretchable optoelectronic applications. In hybrid materials, beyond
+classical nanolaminate stacks, composite-type hybrid systems have been
+developed in which high-aspect-ratio inorganicﬁllers (e.g., graphene oxide,
+Al2O3 nanosheets) are dispersed within a polymer matrix. These ﬁllers
+substantially increase the tortuosity of diffusion paths, thereby reducing
+permeability, while preserving bulk stretchability because the ﬁllers are
+embedded in the compliant matrix rather than forming continuous
+brittle ﬁlms.
+However, for fabrication of hybrid materials, the implementation of
+hybrid materials requires careful thermal and chemical compatibility con-
+trol. Organic materials typically possess low glass transition temperatures
+(Tg) and are prone to thermal degradation, limiting the feasibility of high-
+temperature inorganic deposition87,88. Therefore, low-temperature techni-
+ques such as PEALD and ALI have been employed. In particular, ALI
+enables precursor inﬁltration into the subsurface of the polymer,ﬁlling free
+volume and increasing density without compromising the bulk
+compliance
+48. This approach reduces permea tion pathways, strengthens
+interfacial adhesion, and improves both barrier performance and long-term
+reliability. Overall, hybrid encaps ulation offers a balanced compromise
+between impermeability and mechanical compliance. By combining mul-
+tilayer nanolaminate structures, polymer–inorganic composite designs, and
+low-temperature deposition processes,hybrid strategies represent a leading
+pathway toward achieving low WVTR a nd high stretchability for next-
+generation deformable optoelectronics
+31,50,80.
+In parallel, structural engineering approaches, including serpentine,
+island–bridge, wrinkled, and metamaterial geometries, have been employed
+to further enhance the stretchability of encapsulation –device
+systems20–22,81,89. Pre-straining or depositing inorganic layers on patterned
+substrates can induce wrinkle or wavy morphologies that improve strain
+accommodation in brittle oxides such as SiO2
+21,22.A ss h o w ni nF i g .2b, wavy
+or wrinkled SiO2 layers exhibit signiﬁcantly greater stretchability thanﬂat
+ﬁlms while retaining low WVTR. These results highlight that coupling low-
+permeability inorganic or hybrid barriers with structural modiﬁc a t i o n si sa
+promising route for realizing stretc hable encapsulation layers. Detailed
+research progress on each class of encapsulation material will be discussed in
+the following sections.
+Evaluation of barrier performance in stretchable and
+ﬂexible optoelectronic devices
+The impermeability of encapsulationmaterials is commonly assessed using
+three representative techniques: the coulometric sensor-based method, the
+electrical calcium (Ca) test, and the optical Ca test. Among these, the cou-
+lometric sensor-based method quantiﬁes the WVTR by electrochemically
+detecting the moisture that permeates through the encapsulation layer90,91.
+As illustrated in Fig. 3a, the specimen is positioned between wet and dry
+chambers, thereby establishing a concentration gradient that drives water
+vapor transport. The transmitted vapor is absorbed by an electrochemical
+sensor and subsequently decomposed, generating a current proportional to
+the amount of permeated moisture. This technique, widely adopted in
+commercial systems such as the MOCON instrument (ASTM F1249),
+provides high reproducibility with a detection resolution down to 5 × 10
+−3 g/
+m²·day. However, its sensitivity remains insufﬁcient for probing the ultra-
+low WVTR levels on the order of 10-5–10-6 g/m²·day, which are critical for
+ensuring long-term reliability inhigh-performance stretchable andﬂexible
+optoelectronic devices.
+The electrical Ca test determines WVTR by exploiting the high reac-
+tivity of Ca toward oxidation by water vapor31. As illustrated in Fig. 3b, a thin
+Ca sensing layer is deposited beneath the encapsulation layer and exposed to
+a controlled humid environment. Water vapor permeating through the
+barrier oxidizes Ca, decreasing its thi ckness and increasing its electrical
+resistance. By continuously monitoringthe resistance change, the rate of Ca
+consumption can be quantiﬁed, and be used to calculate the WVTR
+48.T h e
+mass transport rate of water vapor,Rw, and the mass consumption rate of Ca
+by water vapor, RCa, are expressed as:
+Rw ¼ WVTR/C1 AB; ð1Þ
+RCa ¼ Rw
+MCa
+Mw
+/C18/C191
+n ; ð2Þ
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 6
+
+Fig. 3 | Measurement methodologies of barrier performance in encapsulation
+materials. Schematic of the method and corresponding results for a a coulometric
+sensor-based method, b electrical Ca test, and c optical Ca test. Images of d ﬂexible
+and e stretchable electrical Mg test cards. f Stretching test setup for in-situ WVTR
+measurement with ﬁxed strain. Reproduced with permission from ref.95. Copyright
+2024, The Authors. g Results of ex-situ WVTR measurement before and after
+bending test of hybrid encapsulation. Adapted with permission from ref. 96.
+Copyright 2016, Elsevier B.V. h Schematic and photographs of the cyclic bending
+test. i Results of optical Ca test at 60 °C/85% RH condition. Adapted with permission
+from ref. 47. Copyright 2022, Tsinghua University Press.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 7
+
+where AB is the barrier ﬁlm area, MCa and Mw are the molar masses of Ca
+and water, respectively, andn is the number of water molecules reacting per
+Ca atom. In the reaction, Ca + 2H2O → Ca(OH)2 + H2, two water mole-
+cules react with one Ca atom, givingn ¼ 2. For a thin Ca ﬁlm, RCa can be
+expressed as:
+RCa ¼ ACaδ dh
+dt
+/C18/C19
+; ð3Þ
+where ACa is the Ca sensor area, δ is the density of Ca, h is the Ca ﬁlm
+thickness, andt is time. Substituting Eqs. (1)–(3), WVTR is obtained as:
+WVTR ¼ nδ ACa
+AB
+/C18/C19Mw
+MCa
+dh
+dt : ð4Þ
+The resistance of Ca senor,R is calculated by:
+R ¼
+ρCaleff
+wh ; ð5Þ
+where ρCa is the resistivity of Ca,leff is the effective length of the Ca sensor,
+and w is the sensor width. Sinceh is proportional to1
+R, dh
+dt can be written as:
+dh
+dt ¼/C0
+ρCaleff
+w /C1 d 1
+R
+/C0/C1
+dt : ð6Þ
+Then, WVTR can be determined as follows:
+WVTR ¼ nδρCa
+leff
+w
+/C18/C19ACa
+AB
+/C18/C19Mw
+MCa
+d 1
+R
+/C0/C1
+dt : ð7Þ
+Since Ca exhibits high sensitivi ty to water vapor, it enables WVTR
+measurements with a resolution as low as 1 × 10−6 g/m²·day. In some cases,
+m a g n e s i u m( M g )i se m p l o y e da sa na l t ernative reactive sensing layer due to
+its relatively easy handling and compatibility for fabricating stretchable test
+cards, while maintaining comparable moisture reactivity.
+While the electrical Ca test enables quantitative determination of the
+WVTR, the optical Ca test provides a qualitative evaluation of barrier
+performance, particularly useful for detecting and tracking the evolution of
+pinhole-type defects. These defects serve as high-diffusion pathways for
+water vapor, leading to accelerated degradation of barrier functionality. In
+this method, a Ca layer or pattern is deposited beneath the encapsulation;
+when water vapor penetrates through pinholes, the underlying Ca under-
+goes oxidation, causing a distinct change in optical properties from opaque
+to transparent. This transformation increases the optical transmittance of
+the ﬁlm, thereby allowing direct visu alization and mapping of defect
+initiation and propagation over time. As illustrated in Fig.3c, the optical Ca
+test effectively reveals localized oxidation patterns, especially under bending
+strain that promotes pinhole formation
+45. Although inherently qualitative,
+this technique offers valuable insigh ts into the spatial distribution and
+mechanical origins of barrier failure,complementing the quantitative data
+obtained from the electrical Ca test.
+Conventional WVTR measuremen t techniques are typically con-
+ducted using rigid test ﬁxtures. However, stretchable and ﬂexible optoe-
+lectronic devices are inherently exposed to repetitive or static mechanical
+deformation during operation, which can critically inﬂuence encapsulation
+barrier reliability. Accordingly, measuring WVTR under relevant defor-
+mation modes is essential to more accurately represent practical device
+conditions. The deformation setup and testing parameters are generally
+tailored to the encapsulation material system—whether organic, inorganic,
+or hybrid—as well as to the environmental and mechanical demands of the
+targeted application. Stretchability and ﬂexibility are commonly char-
+acterized in terms of applied strain, bending radius, and the number of
+stretching or bending cycles. WVTR measurements under mechanical
+deformation can be performed using either in-situ or ex-situ approaches. In-
+situ protocols enable real-time monitoring of WVTR during the application
+of mechanical strain, thereby captur ing the strain-dependent onset of
+impermeability degradation. Despite this advantage, their applicability is
+constrained by complex experimental setups and limited test conditions. As
+a result, ex-situ methods are more widely employed, wherein WVTR is
+measured before and after mechanical deformations. This decoupling of
+encapsulation barrier evaluation fr om mechanical deformations greatly
+simpliﬁes the experimental process, but it cannot track the progressive
+nature of degradation in encapsulation barrier during deformation. In ex-
+situ protocols, cyclic bending or stretching is applied to simulate long-term
+operational stresses, after which th e specimen is returned to standard
+measurement conditions. The comparison of WVTR values obtained before
+and after deformations provides quantitative insight into the durability
+limits and mechanical tolerance of encapsulation systems.
+In cyclic stretching tests, the appliedstrain is typically calculated from
+the longitudinal extension of the specimen. However, because most mate-
+rials exhibit a positive Poisson’s ratio, stretching is accompanied by trans-
+verse shrinkage. This effect becomes particularly critical in organic materials
+with high Poisson’s ratios and in optoelectronic devices where the active area
+directly governs performance
+92–94. In addition, during stretching or bending
+tests, improper gripping can induc e tearing or localized damage, often
+arising from unsuitable sample geometries or excessive clamping forces. To
+mitigate these issues, strategies such as optimizing sample mounting geo-
+metries and employing compliant or rigid supporting plates have been
+introduced to reduce grip-induced artifacts
+47. Careful control of such
+experimental variables is essentia l not only for accurately assessing
+mechanical durability but also for enabling reliable cross-comparisons of
+barrier performance across different material systems.
+Recent studies have investigated organic, inorganic, and hybrid
+encapsulation materials to elucidat e how their distinct mechanical and
+barrier properties evolve under pract ical operating conditions. Organic
+encapsulation layers, in particular, offer high mechanical compliance and
+stretchability, rendering them attractive for highly deformable optoelec-
+tronic devices. Their durability is often assessed under demanding strain
+conditions. For example, stretchab le electrical Mg test cards have been
+developed for in-situ WVTR monitoring under controlled temperature and
+humidity (Fig. 3d–f), enabling real-time observation of degradation in
+encapsulation barrier during stretching or bending
+95. Nevertheless, most
+studies continue to rely on ex-situ approaches in which WVTR is measured
+using rigid testﬁxtures before and after mechanical loading. As illustrated in
+Fig. 3g, cyclic bending tests with a 30 mm radius over 1000 cycles followed
+by WVTR measurements at 30 °C/90% RH provide a direct comparison of
+barrier integrity before and after deformation
+96. These complementary
+approaches collectively highlight thetrade-off between experimental sim-
+plicity and the ability to capture the dynamic progression of degradation in
+encapsulation barrier. Inorganic encapsulation materials inherently provide
+low WVTR and chemical inertness, making them highly effective diffusion
+barriers. However, their intrinsic bri ttleness often leads to cracking or
+delamination under mechanical deform ation, thereby restricting their
+applicability in stretchable optoelectronic devices. To overcome these lim-
+itations, sol–gel processes have been explored to fabricateﬂexible SiO₂ ﬁlms,
+aiming to combine the excellent barrier performance of inorganics with
+enhanced mechanical compliance
+47. Cyclic bending tests were carried out
+using a setup in which the bending radius was controlled by adjusting the
+distance between two plates (Fig. 3h). The barrier performance was then
+evaluated using both electrical and optical Ca tests under 60 °C/85% RH
+conditions before and after 50,000 bending cycles (Fig.3i), demonstrating
+the feasibility of tailoring inorganic coatings for mechanically durable
+encapsulation.
+Hybrid encapsulation strategies combine an organic matrix with
+inorganic ﬁl l e r so rl a m i n a t e do r g a n i c / i n o r g a n i cﬁlms to simultaneously
+achieve high stretchability and low WVTR. For instance, Al₂O₃-inﬁltrated
+PDMS ﬁlms have been examined under 1% strain for 1000 cyclic stretching
+tests, with WVTR evaluated before and after deformation at 25 °C/85% RH
+using the electrical Ca test. To ove rcome the limitations of ex-situ
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 8
+
+measurements—which cannot capture the real-time progression of barrier
+degradation—WVTR was further monitored after 0, 10, 100, and
+1000 stretching cycles89. These studies reveal that small bending radii or
+prolonged static strain can induce localized cracking within the inorganic
+sublayers, leading to modest increases in WVTR. Nevertheless, the sur-
+rounding polymer matrix effectively suppresses catastrophic barrier failure.
+Taken together, hybrid encapsulation approaches offer a practical com-
+promise, delivering both mechanical robustness and effective moisture
+protection for stretchable optoelectronic devices.
+Stretchable organic encapsulation materials
+Organic encapsulation materials c onstitute the most widely adopted
+approach for achieving intrinsic stretchability because they inherently
+possess low elastic modulus, high elongation, and the ability to accom-
+modate large deformations without structural failure. These mechanical
+advantages enable organic encapsu lation layers to withstand diverse
+deformation modes, including stretching-dominant modes, while main-
+taining device integrity, making the m highly suitable for stretchable
+optoelectronic devices. During tensile loading, all constituent layers of a
+device typically experience an iso-st rain condition; thus, minimizing
+mechanical mismatch between layers is critical for preserving mechanical
+reliability. In contrast, when rigid materials are used as constituent mate-
+rials, disparities in mechanical pro perties such as elastic modulus and
+Poisson’s ratio give rise to interfacial stress concentrations. Under cyclic
+deformation, these localized stresses can initiate delamination and accel-
+erate crack propagation, ultimately compromising device stability and
+operational lifetime. Mechanically compliant organic encapsulation layers
+mitigate these issues by dissipating applied strain more uniformly, thereby
+reducing interfacial stress and suppre ssing crack propagation. Structural
+stability can be further enhanced by po sitioning brittle functional layers
+close to the neutral mechanical plan e, which minimizes strain during
+bending and stretching
+55,57. To this end, device designs often balance the
+thicknesses of the substrate and encapsulation to form symmetric archi-
+tectures that protect the active layers and extend operational lifetimes.
+Representative organic encapsu lation materials include PDMS,
+Ecoﬂex, and parylene, which are sel ected according to device-speci ﬁc
+requirements such as neutral plane en gineering, optical transmittance,
+and barrier performance
+41,58–60.A ss h o w ni nF i g .4a, a skin-attachable,
+high-ef ﬁciency pure-red perovskite LED (PeLED) was encapsulated
+with a 1.4 μm parylene overlayer and integrated on a parylene/epoxy
+substrate (1 μm/600 nm) 42. The device maintained stable operation
+even in the presence of surface water. By positioning the brittle indium
+tin oxide (ITO) electrode at the n eutral plane through optimized
+control of substrate and encapsulati on thicknesses, strain concentra-
+tion was effectively mitigated. Thi s design enabled stable optical and
+electrical performanc e under humid conditions and during bending
+with radii ranging from 0.25 mm to 13 mm. Collectively, these results
+highlight that parylene encapsula tion, combined with neutral plane
+engineering, not only ensures rel iable operation under bending
+deformation but also enables conformal integration with curved sur-
+faces such as human skin.
+Polyurethane acrylate (PUA), exhibiting a WVTR of 28.9 g/m²·day and
+an elastic modulus of 3.2 GPa, has been utilized as both the substrate and the
+encapsulation layer, thereby enabling neutral-plane design while providing
+mechanical robustness
+62. This PUA sandwich architecture effectively
+minimized interfacial stress mismatches and protected active layers from
+excessive strain. As a result, intrinsi cally stretchable quantum dot LEDs
+(QLEDs) maintained stable luminance without notable degradation under
+tensile strains up to 50%. Furthermore, a 5 × 5 passive-matrix QLED array
+demonstrated consistent operation when deformed from aﬂat conﬁgura-
+tion to a convex geometry (Fig.4b)
+4. Under 30% strain, the device exhibited
+its characteristic strain-dependent luminance response arising from strain-
+induced thickness reduction, and this intrinsic behavior was preserved
+without distortion or suppression. The PUA encapsulation maintained the
+electroluminescent characteristics of the device during mechanical
+deformation, underscoring its effectiv eness in sustaining optoelectronic
+performance during stretching (Fig.4c).
+Achieving high luminance from inherently elastic LEDs remains a
+signiﬁcant challenge. To address this, an all-polymer LED (APLED) was
+developed by introducing a nano-co nstrained light-emitting polymer
+structure, formed through spontaneous phase separation of an elastomer
+within the emissive layer, thereby cre ating distinct elastic and emissive
+domains that preserved optical performance while imparting stretchability
+(Fig. 4d)
+63. The device employed a drop-cast poly(styrene-ethylene/buty-
+lene-styrene) (SEBS) substrate laminated between poly(styrene-iso-
+butylene-styrene) (SIBS) encapsulation layers, which provided low oxygen
+and moisture permeability
+56. With a low elastic modulus of 1 MPa, this
+conﬁguration enabled bright and uniform emission under bending and
+stretching, supporting real-time sk in-mounted display operation. In
+another approach, PDMS, with a WVTR of 65 g/m²·day and an elastic
+modulus of 0.9 MPa, was utilized as both the substrate and encapsulation
+layer, offering high compliance and allowing the mechanically fragile layer
+to be positioned near the neutral plane
+28,64.T h i sc o nﬁguration reduced crack
+initiation under high strain and pres erved both structural integrity and
+barrier performance. When combinedwith hybrid electrodes composed of
+Ag NWs embedded in a PEDOT:PSS matrix and sandwiched between
+bilayer grapheneﬁlms, this encapsulation strategy enabled the fabrication of
+a large-area stretchable alternating-current electroluminescent (ACEL)
+d e v i c e .A ss h o w ni nF i g .4e, the encapsulated ACEL device maintained
+excellent electroluminescent performance under various mechanical
+deformations—including bending, twisting, and stretching—and retained
+stable operation at uniaxial strains up to 80% (Fig. 4f)
+37.T h e s er e s u l t s
+underscore that careful selection and design of organic encapsulation layers,
+in combination with hybrid electrode architectures, can provide reliable and
+bright performance in highly deformable LEDs.
+In both LED and PV devices, operational stability is inseparable from
+encapsulation performance. In PV devices, penetration of moisture and
+oxygen directly reducesthe power conversion efﬁciency (PCE) andﬁll factor
+(FF), making effective barrier design indispensable. Fiber-compatible solar
+cells, which provide continuous powerfor wearable systems, require robust
+encapsulation to prevent degradation from environmental exposure. As
+illustrated in Fig.4g, an ultra-ﬂexible organic PV (OPV) device with a total
+thickness of 3 μm was fabricated on a parylene/epoxy (1 μm/500 nm)
+substrate. An additional 1 μm parylene overlayer was deposited as encap-
+sulation, and the device was laminate d on both sides with pre-stretched
+acrylic elastomer (3 M VHB, 500 μm) to enhance elasticity and water
+resistance. This approach addressed t he relatively high elastic modulus
+(4 GPa) and poor WVTR (90 g/m²·day) of parylene
+65. Positioning the active
+layer at the neutral plane further m inimized mechanical strain during
+deformation. As shown in Fig.4h, the double-sided elastomer-coated OPV
+exhibited negligible changes in FF even under 52% compressive strain.
+Moreover, after 20 compressive cycles at 52% strain, the device retained 83%
+of its initial PCE, demonstrating high mechanical durability and reliable
+performance under cyclic deformation.
+As shown in Fig. 4i, an ultra-thin ﬂexible perovskite solar cell was
+developed with improved stability under ambient conditions and encap-
+sulated with a 1μm polyurethane (PU) layer deposited by spray coating for
+mechanical protection
+66. The freestanding perovskite array, with a total
+thickness of 3 μm, delivered a unit-weight power output of 23 W/g with
+encapsulation and 26 W/g without en capsulation, demonstrating out-
+standing power-to-weight efﬁciency. Stretchability was achieved by trans-
+ferring the device onto a pre-stretched acrylic elastomer (3 M VHB),
+enabling subsequent compression and re-extension. The pre-strain of the
+elastomer, together with the bending stiffness of the solar cell, induced
+sinusoidal wrinkles and high-aspect-ratio bridge structures, allowing stable
+operation under 50% uniaxial compression corresponding to 100% tensile
+strain (Fig.4j). When laminated onto a radially pre-stretched elastomer, the
+device formed a random two-dimensional wrinkle network with complex
+topography, maintaining structural stability and preserving photovoltaic
+performance under 44% area reduction.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 9
+
+Fig. 4 | Stretchable optoelectronic devices using organic encapsulation materials.
+a Ultrathin, skin-attachable PLEDs encapsulated with parylene in a ﬂat state (top)
+and in a wrinkled state (bottom). Adapted with permission from ref. 42. Copyright
+2024, Elsevier Ltd.b Intrinsically stretchable QLEDs array encapsulated with PUA in
+a ﬂat and convex mode (top) and stretched up to 50% strain (bottom).c Normalized
+luminance of QLED as a function of applied strain. Adapted with permission from
+ref. 4. Copyright 2024, The Authors. d Stretchable APLEDs encapsulated with SIBS
+stretched up to 100% (right) and a patterned, stretchable light-emitting polymerﬁlm
+under simultaneous stretching and twisting (bottom). Adapted with permission
+from ref. 63. Copyright 2022, The Authors. e Stretchable EL array encapsulated with
+PDMS under bending and twisting (top) and an EL pixel unit stretched up to 80%
+strain (bottom). f Normalized luminance of stretchable EL devices as a function of
+applied strain. Adapted with permission from ref. 37. Copyright 2019, American
+Chemical Society. g Uniaxial compression of stretchable and waterproof OPVs up to
+49% by release of elastomers. h Normalized FF of OPVs as a function of applied
+compression. Adapted with permission from ref. 65. Copyright 2017, The Authors.
+i Uniaxial compression of lightweight, high –power–density PSCs with release of
+elastomers up to 50%. j Normalized FF of PSC as a function of applied compression.
+Adapted with permission from ref. 66. Copyright 2015, Springer Nature.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 10
+
+Organic material –based substrates and encapsulation layers offer
+distinctive advantages in elasticity, conformability, and lightweight
+integration. However, their relatively high WVTR values (10 ⁻¹–10² g/
+m²·day), arising from low density and macro-scale defects, remain a
+critical limitation for long-term device stability
+67,97. Their barrier per-
+formance can further change under mechanical deformation through
+several mechanisms. Bending or stretching increases the free volume
+within the polymer network, which facilitates molecular diffusion and
+elevates the WVTR. Polymers with a Poisson ’s ratio near 0.5 undergo
+signiﬁcant thickness reduction under large tensile strain, shortening the
+effective diffusion path and accelerating moisture penetration into active
+layers. In semi-crystalline polymers, mechanical strain can also induce
+chain and lamellar alignment along the stretching direction, altering the
+tortuosity of diffusion pathways and leading to direction-dependent
+moisture transport
+98. These deformation-induced structural changes
+modify the intrinsic barrier performance of organic encapsulation lay-
+ers, underscoring the importance of evaluating their barrier properties
+under relevant mechanical deformation conditions when assessing
+suitability for stretchable devices. Increasing the encapsulation thickness
+can improve barrier properties almost linearly, but the associated stiff-
+ness increases cubically with thickness, resulting in a pronounced loss of
+ﬂexibility and stretchability
+68,99. This fundamental trade-off has moti-
+vated recent research into inorganic encapsulation strategies that can
+combine superior barrier performance with mechanical resilience.
+Flexible inorganic encapsulation materials
+Inorganic encapsulation material s have been primarily developed for
+bending-dominantﬂe x i b l ed e v i c e sr a t h e rt h a nf o rh i g h l ys t r e t c h a b l ep l a t -
+forms, owing to their high elastic modulus and intrinsically brittle nature.
+Inorganic thin ﬁlms are prone to crack initiation and propagation under
+tensile strain, fundamentally limitingtheir applicability under stretching-
+dominant deformation. Nevertheless, their key advantage lies in achieving
+ultralow permeability under small-strain conditions. Because barrier per-
+formance critically depends on suppressing direct permeation pathways and
+promoting tortuous diffusion routes, both strongly inﬂuenced by intrinsic
+defects and free volume, inorganic encapsulation strategies have focused on
+amorphous oxides, which achieve ultralow WVTR by eliminating con-
+tinuous diffusion channels
+46,100. For optoelectronic applications, optical
+transparency is additionally required, with representative amorphous oxi-
+des including SiOx,A l Ox,S i Nx,T i Ox, and ZnO. Dense and highly trans-
+parent amorphous thin ﬁlms have been fabricated using deposition
+techniques such as ALD, and sol –gel processing, while more recent
+approaches employ ALI to construct multilayer architectures. Through
+these methods, both single-layer and multilayer oxide thin ﬁlms have
+achieved WVTR values in the range of 10
+−3–10−6 g/m²·day under ambient
+conditions, demonstrating their effectiveness in ensuring the long-term
+reliability of organic optoelectronic d evices. Beyond these representative
+systems, ongoing research has expandedto diverse inorganic materials that
+offer complementary strategies to mitig a t ed e f e c t - d r i v e np e r m e a t i o nw h i l e
+simultaneously enhancing durability under mechanical strain and harsh
+environmental conditions. Such developments underscore the potential of
+inorganic encapsulation approaches toprovide robust barrier performance
+without compromising optical or mechanical functionality.
+Amorphous oxides are representative inorganic encapsulation mate-
+rials, offering ultralow WVTR due to their strong atomic bonding, low
+reactivity with water molecules, and theabsence of grain boundaries that act
+as high-diffusion pathways in polycrystalline ﬁlms. As shown in Fig. 5a,
+high-density SiO
+x layers prepared by sol–gel processing clearly demonstrate
+these advantages47. In this process, metal alkox ide precursors form a col-
+loidal sol that is subsequently dried and thermally treated to create a three-
+dimensional oxide network. A ﬁnal high-temperature annealing step at
+1000 °C eliminates residual porosity, yielding ﬁlms with density and
+moisture permeation activation energies comparable to fused silica. Under
+cyclic bending tests of up to 50,000 cycles at 85 °C/85% RH with an applied
+strain of 3.3%, the WVTR of the annealed SiO
+x layers remained unchanged.
+This exceptional stability indicates that densi ﬁcation suppresses the for-
+mation of defect nucleation sites such as pinholes, resulting in defect-scarce
+thin ﬁlms that retain barrier integrity even under prolonged cyclic
+deformation.
+While high-temperature annealing is commonly employed in sol–gel
+processes, encapsulationﬁlms for stretchable and ﬂexible devices are gen-
+erally deposited directly onto plastic or elastomer substrates, which strictly
+limits the allowable processing temp erature. To address this challenge,
+amorphous AlOx encapsulationﬁlms have been successfully fabricated by
+PEALD at process temperatures between 50 °C and 80 °C45.O p t i c a lc a l c i u m
+testing conﬁrmed that low-temperature-deposited amorphous Al₂O₃ layers
+maintained stable WVTR values after 100,000 bending cycles atRb =2 5m m
+(0.25% strain) under 85 °C/85% RH. However, strain-dependent degrada-
+tion was evident under more severe bending conditions. At Rb =1 0m m
+(0.6% strain), signiﬁcant pinhole formation was observed after only 1000
+cycles, while at Rb = 20 mm (0.3% strain), ﬁne pinholes appeared after
+100,000 cycles, leading to a sharp increase in WVTR (Fig. 5b). This
+degradation is attributed to atomic bond rearrangements in the amorphous
+network, where dangling Al–O bonds and residual hydroxyl groups reor-
+ganize under mechanical stress to generate pinhole defects that act as rapid
+permeation pathways.
+To mitigate pinhole-induced diffusion, multilayer architectures have
+been widely adopted. By sealing or decoupling localized defects, multilayer
+barriers compel water molecules to follow longer, more tortuous diffusion
+paths, thereby enhancing overall ba rrier performance. A representative
+example is the composite structure combining ALD Al₂O₃ with graphene
+69.
+In this approach, graphene was synthesized by CVD on Cu foil, transferred
+onto PEN substrates after Cu removal, and subsequently functionalized
+with NO₂ groups to facilitate conformal oxide deposition. Al₂O₃ layers with
+thicknesses of 25 and 50 nm were then deposited on the NO₂-functionalized
+graphene using ALD. Graphene functionalization resulted in denser oxide
+ﬁlms and a signi ﬁcant reduction in surface roughness —from 4.432 to
+0.539 nm—compared with Al₂O₃ layers deposited without functionaliza-
+tion. The encapsulation performance of the composite was evaluated by
+electrical calcium testing under 85 °C/85% RH. Compared with individual
+Al₂O₃ and graphene layers, as well as single Al₂O₃ ﬁlms of varying thickness,
+the Al₂O₃/graphene composite exhibited markedly superior barrier prop-
+erties, achieving a WVTR of 2.62 × 10
+−4 g/m²·day and showing signs of
+degradation only after 53 h. As shown in the inset of Fig.5c, organic LEDs
+(OLEDs) encapsulated with the Al ₂O₃/graphene composite remained
+operational after 24 h of continuous operation. Furthermore, after cyclic
+bending tests, the composite barrier demonstrated higher mechanical
+durability andﬂexibility compared with single Al₂O₃ layers. The improved
+encapsulation is attributed to the impermeable aromatic ring structure of
+graphene, which effectively suppresses water permeation at the Al ₂O₃
+interface. Although graphene may contain local defects, its conjugated
+carbon network remains intrinsicall y impermeable to water molecules,
+thereby complementing and reinforcingthe barrier effect of the oxide layer.
+Nanolaminate thin ﬁlms provide an additional strategy to improve
+barrier durability under combine d thermal and humidity stress
+96,101,102.
+Al₂O₃/MgO (AM) nanolaminate thin ﬁlms fabricated by ALD, together
+with silica nanoparticle –embedded sol –gel organic –inorganic nano-
+composites, were assembled into a 2. 5-dyad multi-barrier architecture.
+Flexible OLEDs (FOLEDs) encapsulated with AM nanolaminate barriers
+exhibited stable operation under 0.63% strain for 1000 cycles and main-
+tained luminance for over 50 days at 60 °C/90% RH (Fig.5d). Under these
+harsh conditions, the WVTR increased only slightly—from 1.7 × 10
+−5 to
+6.9 × 10−5 g/m²·day (Fig.5e)103. The enhanced durability is attributed to the
+hygroscopic nature of MgO, which mitigates hydrolysis of Al₂O₃, and to the
+formation of interfacial aluminate phases that suppress water and oxygen
+diffusion along grain boundaries. Thes e synergistic effects highlight the
+potential of nanolaminate designs to achieve reliable barrier performance in
+ﬂexible optoelectronic devices.
+In addition to nanolaminate thinﬁlms, doped oxide multilayers have
+been developed to provide multifunct ional encapsulation. A ZnO-based
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 11
+
+multilayer structure doped with Al and Mg (MgO/Al₂O₃/ZnO, MAZO) was
+fabricated by ALD, in which ZnO layers were periodically intercalated with
+MgO and Al₂O₃ doping layers
+104. The incorporation of dopants suppressed
+ZnO crystallization, reduced grain b oundary density, and increased the
+packing density of the amorphous matrix, thereby forming a gas-diffusion
+multibarrier that effectively blockedt h ep e r m e a t i o no fm o i s t u r ea n do x y g e n .
+Under accelerated testing at 30 °C/90% RH, electrical calcium measure-
+ments revealed WVTR values of 2.41 × 10 −1 g/m²·day for conventional
+indium tin oxide (ITO) electrodes and 8.31 × 10 −2 g/m²·day for ZnO/Ag/
+ZnO (ZAZ) multilayers. By contrast, the MAZO/Ag/MAZO (MAM)
+structure exhibited a markedly reduced WVTR of 9.2 × 10
+−5 g/m²·day (Fig.
+5f). This outstanding barrier perf ormance is attributed to both the
+suppression of ZnO crystal growth and the creation of multiple interfacial
+layers that hinder diffusion pathwa ys. As a result, MAM multilayers
+demonstrated excellent resistance todevice degradation and ensured long-
+term operational stability. These multifunctionalﬁlms underscore an inte-
+grated encapsulation strategy that simultaneously serves as a transparent
+electrode and a protective passivationlayer, thereby expanding the design
+space for high-performance OLEDs.
+Beyond multilayer inorganic approaches, further improvements have
+been realized by enhancing the interaction between inorganic ﬁlms and
+polymer substrates. ALI has emerged as a promising strategy to form
+inorganic layers within polymer substrates with improved defect tolerance
+and ﬂexibility. The ALI process is derived from conventional ALD but
+Fig. 5 | Flexible optoelectronic devices using inorganic encapsulation materials.
+a Normalized conductance for WVTR measurement of sol –gel silica ﬁlms before
+and after 50,000 bending cycles at 6 mm radius under 60 °C/85% RH, with encap-
+sulated OSC inset. Adapted with permission from ref. 47. Copyright 2022, Tsinghua
+University Press. b WVTR results and stereoscopic microscopy images after optical
+Ca tests following cyclic bending tests. Adapted with permission from ref. 45.
+Copyright 2021, American Chemical Society. c Normalized conductance from
+electrical Ca test of graphene, Al2O3 and Al2O3/graphene encapsulation, with OLED
+demonstration inset. Adapted with permission from ref.69. Copyright 2017, Elsevier
+Ltd. d Normalized luminance of FOLEDs without encapsulation, with a 2.5-dyad
+Al2O3 multi-barrier, and with a 2.5-dyad AM multi-barrier under shelf-lifetime
+bending testing under 60 °C, 90% RH, and e corresponding device images. Adapted
+with permission from ref. 103. Copyright 2020, Tsinghua University Press and
+Springer-Verlag GmbH Germany, part of Springer Nature. f Normalized con-
+ductance for WVTR measurement of ITO, ZAZ and MAM structures under 30 °C/
+90% RH, with red-emitting MAM-based OLED inset. Adapted with permission
+from ref. 104. Copyright 2018, American Chemical Society. g Schematic of ALI
+process. h Normalized WVTR as a function of folding radius for ALD-inorganic
+layer and PI-Al
+2O3 hybrid layers through ALI. Adapted from ref.39. Available under
+a CC-BY 4.0 license. Copyright 2022, The Authors. i Normalized efﬁciency of
+ﬂexible OSCs with CuZrTi MG encapsulation under various bending radius and
+cycles, and optical microscope (OM) images after environmental test under 85°C/
+85% RH. Adapted with permission from ref. 107. Copyright 2022, American Che-
+mical Society.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 12
+
+incorporates an additional exposure step between dosing and purging 72.
+During this step, precursor and reactant molecules are allowed suf ﬁcient
+time to diffuse into and penetrate the free volume of the polymer substrate.
+Through this in ﬁltration, voids that could o therwise act as permeation
+pathways for moisture and oxygen are effectivelyﬁlled with Al₂O₃ (Fig. 5g).
+ALI-grown Al₂O₃ ﬁlms on PI substrates exhibited signiﬁcantly enhanced
+barrier performance
+39. WVTR measurements using the tritium method
+showed that bare PI substrates had values of 2.2 g/m²·day, whereas PI–Al₂O₃
+ﬁlms achieved 1.4 × 10−5 g/m²·day. This dramatic reduction indicates that
+inﬁltrated Al₂O₃ effectively blocks permeat ion pathways and markedly
+strengthens the moisture barrier function. Mechanical durability was fur-
+ther assessed via folding tests (Fig.5h). Conventional SiNx ﬁlms fabricated
+by ALD showed a sharp increase in WVTR at a folding radius of 1 mm,
+attributed to crack formation in the brittle oxide layer that facilitated water
+penetration. In contrast, PI–Al₂O₃ ﬁlms maintained stable WVTR down to
+a folding radius of 1 mm, with increases observed only at 0.5 mm. These
+ﬁndings highlight the superior ﬂexibility and defect tolerance enabled by
+interfacial interactions between inorganic ﬁlms and polymer substrates.
+While such substrate-assisted strategies remain within the domain of
+inorganic encapsulation, they also represent a transitional approach brid-
+ging toward hybrid encapsulation architectures, where inorganic ﬁlms
+directly inﬁltrate or integrate with polymer matrices.
+While oxide thinﬁlms are widely employed forﬂexible encapsulation
+owing to their high barrier performa nce and tunable multilayer archi-
+tectures, metal foils have also been utilized on the non-transparent side of
+ﬂexible devices. Aluminum, copper, and stainless-steel foils exhibit mod-
+erately low WVTR values on the order of 10
+0–10−2 g/m²·day, thereby
+extending device lifetime105–107. When applied to non-illuminated regions,
+metal foils not only simplify device architectures but also block unwanted
+light leakage
+105. However, their limited ﬂexibility necessitates laminated or
+hybrid con ﬁgurations with polymer substrates for practical use in
+deformable systems. Despite these co nstraints, metal-foil encapsulation
+remains a viable strategy for applica tions requiring hermetic sealing and
+structural stability under speciﬁc design conditions. Metallic glasses (MGs)
+provide an alternative approach to metal-foil encapsulation. Unlike poly-
+crystalline metal foils, which contai n grain boundaries that act as high-
+diffusion pathways, MGs are amorphous and exhibit high corrosion resis-
+tance under ambient con ditions. CuZrTi MG thin ﬁlms, in particular,
+demonstrate superior moisture resi stance under high-temperature and
+high-humidity environments, attributed to their disordered atomic con-
+ﬁguration that suppresses continuous permeation channels
+107. Uniform and
+dense CuZrTi ﬁlms can be deposited by magnetron sputtering at low pro-
+cessing temperatures. Under accelerated testing at 85 °C/85% RH for
+1000 h, nanocrystalline Cu and binary CuZrﬁlms underwent rapid surface
+oxidation, whereas CuZrTiﬁlms retained their amorphous structure with
+negligible corrosion (Fig. 5i). When integrated as encapsulation layers in
+organic solar cells, CuZrTi MGﬁlms preserved more than 90% of the initial
+device ef ﬁciency after 11 days of cyclic bending at a radius of 4 mm,
+underscoring their combined advantages of high barrier performance and
+mechanical robustness.
+Organic/inorganic hybrid encapsulation materials
+toward stretchable encapsulation
+Hybrid encapsulation materials, which integrate organic and inorganic
+layers into multilayer or composite architectures, have emerged as an
+effective strategy for achieving highly impermeable yet stretchable encap-
+sulation. By combining the complementary properties of each constituent,
+these systems maintain reliable ba rrier performance while sustaining
+mechanical deformability required for stretchable devices. In these multi-
+layer conﬁgurations, dense inorganic layers serve as the primary barrier
+against moisture ingress, whereas the intervening organic layers enhance
+mechanical compliance by accommodating and dissipating applied strain
+while simultaneously sealing defects in the inorganic layers
+46,48,78,79,83,108.T h i s
+synergistic interaction increases overall tortuosity, thereby improving
+barrier performance whileretaining mechanicalﬂexibility. In addition to the
+physical stacking arrangement, the long-term reliability of hybrid encap-
+sulation is strongly in ﬂuenced by the chemical and mechanical compat-
+ibility at the organic-inorganic interfaces. Accordingly, effective interface
+engineering is required to maximize the synergistic effects of these archi-
+tectures and support the stable operation of stretchable devices.
+Representative structure and process are shown in Fig.6a, where alu-
+mina (A, 60 nm) was deposited by ALD and silamer (S, 550 nm), a silane-
+based polymer, was spin-coated as the organic layer
+78. Repeating this
+deposition-coating sequence formed uniform Al-Si-O interfacial bonds,
+improving both barrier performance and tensile properties in the free-
+standing state. The optimized 2.5-dyad SASAS structure achieved a max-
+imum elongation of 2.8% with high ductility through structural engineering
+and robust interface (Fig.6b). The silamer layer effectively dissipates strains
+and stabilizes crack propagation in the alumina layers, as further veriﬁed by
+WVTR measurements under bending. Under 1% bending strain, SASAS
+structure maintained a WVTR on the order of 10
+−3 g/m²·day, whereas
+ASASA exceeded 10−1 g/m²·day (Fig. 6c). In ﬁber-based wearable OLEDs
+with SASAS encapsulation preserved 99% of initial luminance after
+250 hours of operation and 88% after water immersion for 24 h and
+applying 1% of bending strain. These results imply the excellent moisture
+resistance and mechanical robustness of the SASAS multilayer, highlighting
+its potential for next-generation stretchable optoelectronic applications.
+Barrier performance can be further enhanced by increasing the
+number of interfaces and incorporating more than binary hybrids by
+suppressing defect connectivity. Nan olaminate structures, created by
+alternately depositing inorganic s ublayers, suppress the growth of
+pinhole-like defects and decouple defects. In ALD-deposited Al
+2O3/
+ZrO2 (2.6 nm/3.6 nm) nanolaminates, amorphous Al 2O3 terminates
+ZrO2 crystallite growth, while ZrO 2 prevents the accumulation of
+unreacted Al-OH species, limiting the extension of voids in the Al 2O3
+layer102. Furthermore, the dense ZrAl xOy-aluminate mixed phase
+formed at sublayer interfaces effectiv ely blocks gas diffusion, enabling a
+130 nm nanolaminate to achieve a predicted WVTR of 5 × 10 −7 g/
+m²·day under ambient condition.
+Although higher ALD process temperatures can improveﬁlm quality,
+direct encapsulation of organic devices requires processing below 70 °C due
+to their low glass transition temperature 109. Therefore, low-temperature
+ALD is particularly suitable for these thermally fragile systems. Extending
+this consideration to practical implementation, Al
+2O3/TiO2 nanolaminates
+were deposited at 40 °C for direct encapsulation of OLEDs85. This inorganic
+layer, composed of 3 nm sublayers (ATN3, N, 30 nm), exhibited a WVTR of
+9×1 0
+−4 g/m²·day under 30 °C/90% RH condition, outperforming single-
+layer Al2O3 and TiO2 as shown in Fig.6d. To induce hybrid effects, a silamer
+layer (S, 1 μm) was spin-coated, serving as both a planarization layer and a
+mechanical buffer layer, while a parylene C overlayer (P, 3 μm) was applied
+as the hydrophobic outermost barrier to enhance environmental stability.
+The resulting NSNSP hybrid encapsulation achieved an ultralow WVTR of
+9×1 0
+−6 g/m²·day, reﬂecting the combined effects of nanolaminate engi-
+neering, organic buffering, and hydrophobic surface modiﬁcation. In these
+hybrid multilayer systems, positioning organic layers at the top and bottom
+places brittle inorganic layers closerto the neutral plane, thereby enhancing
+mechanical stability and promoting u niform strain energy dissipation.
+U n d e rt h i sc o nﬁguration, the 2.5-dyad of SNSNS structure achieved a
+m a x i m u me l o n g a t i o no f2 . 7 4 %a ss h o w ni nF i g .6e. Furthermore, an OLED
+device encapsulated bilaterally at the top and bottom exhibited an elonga-
+tion of 2.03% and maintained its initial luminance for approximately
+32 days, whereas a device without to p encapsulation showed continuous
+luminance degradation under ambient conditions.
+The performance of hybrid multilayers is also strongly governed by the
+organic-inorganic interfacial properties. To reinforce interfacial binding, a
+strategy has been developed in which the inorganic layer is partially inﬁl-
+trated into the organic matrix via the ALI process. This resulted graded
+inﬁltration zone of mixed composition rather than a sharp interface is a
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 13
+
+Fig. 6 | Stretchable and ﬂexible optoelectronic devices using hybrid organic
+inorganic multilayer and composite encapsulation materials. a Schematic of
+Al2O3/silamer multilayer fabrication process. b Results of tensile test on various
+multibarrier structures (S: silamer, A: Al 2O3). c Results of electrical Ca test on
+multibarrier structures. Adapted with permission from ref. 78. Copyright 2024,
+Wiley-VCH GmbH. d Results of electrical Ca test on Al 2O3, TiO2, ATN3 nanola-
+minate, and NSNSP. e Results of tensile test on SNSN, NSN, SNS, SNSNS multi-
+barrier structures. Adapted with permission from ref. 85. Copyright 2025, The
+Authors. f Results and image of luminance measurement of OLED according to the
+number of dyads. Adapted with permission from ref. 48. Copyright 2023, American
+Chemical Society. g Schematic of water vapor permeation path in hybrid composite
+encapsulation according to impermeable ﬁller shape. h Relative permeability as a
+function of ﬁller volume fraction, based on the Nielsen model. Adapted from ref. 80.
+Available under a CC-BY 4.0 license. Copyright 2022, The Authors. i Schematics of
+fabrication of parallel-aligned montmorillonite ﬂakes by Marangoni forces. j Results
+of mechanical reliability test on PLEDs with 3-dyad montmorillonite/NOA hybrid
+encapsulation during cyclic bending test. Adapted with permission from ref. 31.
+Copyright 2024, Wiley-VCH GmbH. k Photographs of SVS-encapsulated CsPbBr
+3
+quantum dots stretched to 300% after 180 days in water. l WVTR of the 180- μm-
+thick scavenging-blocking SVS under 50% strain. Adapted with permission from
+ref. 114. Copyright 2025, The Authors.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 14
+
+dense mixed interlayer not only increases the overall ﬂexibility, but also
+further impedes moisture penetration. PDMS is a representative polymer
+substrate with a high free volume (18%), high thermal stability, and abun-
+dant surface hydroxyl groups, making it a suitable substrate for ALI-based
+inorganic deposition
+89. 3-dyad of ALI-deposited Al2O3 layers (50 nm) on
+PDMS (22 μm) achieved a low WVTR of 9.24 × 10 −5 g/m²·day under
+ambient conditions48. Optical Ca test further revealed that, even after 50
+bending cycles at a bending radius of 5 mm, the hybrid encapsulation
+preserved 50% of unoxidized Ca for up to 8 h. These results demonstrated its
+robust barrier integrity and mechanical durability under repeated defor-
+mation and prolonged lifetime in ambient conditions. When applied as a
+top barrier ﬁlm for OLEDs, it maintained 50%of the initial luminance for
+33 h, con ﬁrming its suitability for practi cal stretchable optoelectronic
+applications (Fig.6f).
+Multilayer structures can markedly enhance barrier performance by
+effectively prolonging the water vapor diffusion path. However, even when
+at thicknesses of only a few nanometers, inorganic layers with elastic
+modulus in 10 –10
+2 GPa can substantially diminish overall ﬂexibility. To
+address this mechanical constraint, composite encapsulations have been
+developed in which discrete inorganic ﬁllers, rather than continuous in-
+plane layers, are dispersed within an organic matrix 31,50,86.T h e s eﬁllers,
+introduced as spherical, platelet, or other morphologies, are assumed to be
+completely impermeable to water vapor 80. Consequently, gas molecules
+cannot penetrate across theﬁl l e r sa n ds h o u l dm o v ea r o u n dt h e m ,t h e r e b y
+increasing the effective permeation path length as shown in Fig. 6g. The
+permeability,P of the gas through the compositeﬁlm is deﬁned in Eq. (8)a s
+the product of its diffusivity,D and solubility,S within the organic matrix:
+P ¼ D /C1 S: ð8Þ
+Depending on the volume fraction ofﬁller, ϕf and morphology of the
+impermeableﬁllers, the diffusivity and solubility terms can be redeﬁned as
+Eqs. (9)a n d(10):
+D ¼ D0
+τ : ð9Þ
+S ¼ S0 /C1 1 /C0 ϕf
+/C16/C17
+; ð10Þ
+where D0 and S0 are the gas diffusivity and solubility in a pure organic
+matrix, respectively, and τ is the tortuosity factor, de ﬁned as the travel
+distance of a gas molecule relative to the totalﬁlm thickness. Therefore, the
+total permeability and relative permeability are expressed in Eqs. (11)a n d
+(12):
+P ¼ D /C1 S ¼ D0
+τ /C1 S0 /C1 1 /C0 ϕf
+/C16/C17
+; ð11Þ
+P
+P0
+¼ D /C1 S
+D0 /C1 S0
+¼
+1 /C0 ϕf
+/C16/C17
+τ : ð12Þ
+These relationships represent the general form used in ﬁller-based
+encapsulation models, where impermeable ﬁllers both limit the available
+diffusion area and increase the tortuosity of the permeation path. The travel
+distance of a gas molecule is strongly in ﬂuenced by the ﬁller geometry,
+which can be categorized into spherical particles (e.g., SiO2, ZnO) and high-
+aspect-ratio platelets (e.g., SiO2 ﬂakes, graphene oxide nanosheets). For the
+case of dilute dispersions of sphericalﬁllers in a polymer matrix (ϕf <0 . 2 ) ,
+the Maxwell model describes the relative permeability according
+to Eq. (13)110:
+P
+P0
+¼
+1 /C0 ϕf
+/C16/C17
+1 þ
+ϕf
+2
+/C16/C17; ð13Þ
+since the numerator corresponds to the τ in Eq. ( 12), τ from the
+Maxwell model can be expressed as:
+τ ¼ 1 þ
+ϕf
+2
+ð14Þ
+Nielsen model describes the rectangular ﬁller geometries, when the
+ﬁllers are evenly, regularly, and dilute dispersed ( ϕf ≤ 0.1), the relative
+permeability and tortuosity factors are expressed by Eqs. (15)a n d(16)111:
+P
+P0
+¼
+1 /C0 ϕf
+/C16/C17
+1 þ L
+2W /C1 ϕf
+/C16/C17 ; ð15Þ
+τ ¼ 1 þ L
+2W /C1 ϕf ; ð16Þ
+whereL andW denote the length and width of theﬁller, respectively, and the
+aspect ratio, α,i sd e ﬁned as L/W. Analysis of Eq. ( 15) indicates that the
+reduction in relative permeability becomes markedly steeper with increasing
+α,a ss h o w ni nF i g .6h80.A th i g h e rα values, even a small increase inϕf leads
+to a pronounced extension of the gas diffusion path. In other words, as α
+increases, the detour length of gas molecules becomes longer, thereby
+delaying the arrival of water molecules capable of oxidizing the organic
+components beneath the encapsulation. In practice, whenﬁllers with α ≥
+1000 are employed, adding as little as 2% ofϕ
+f can reduce permeability by
+more than 90%. This highlights the advantage of achieving high imper-
+meability with only a small ﬁller loading, thereby largely preserving the
+intrinsic stretchability of the organic matrix. The orientation of the ﬁllers
+relative to the direction of water vapor penetration also exerts a substantial
+inﬂuence on permeability. The Bharadwaj model introduces an orientation
+factor, S
+0,a n dm o d iﬁes the tortuosity factor τ derived from the Nielsen
+model, as expressed in Eqs. (17)a n d(18)112:
+S0 ¼ 1
+2 /C1 <3 c o s2θ /C0 1> ; ð/C0 0:5< S0 <1 Þ ð17Þ
+τ ¼ 1 þ L
+2W /C1 ϕd /C1 2
+3 /C1 S0 þ 1
+2
+/C18/C19
+; ð18Þ
+whereθ denotes the angle between theﬁller and the longitudinal direction of
+the ﬁlm. When water vapor penetrates t hrough the thickness direction,
+θ= 0° corresponds toﬁllers oriented horizontally, effectively blocking vapor
+penetration, leadingS0=1. Conversely,θ=90° corresponds toﬁllers aligned
+vertically, providing minimal obstr uction to gas transport, resulting in
+S0=–0.5. The tortuosity factor deﬁned as Eq. (11), the relative permeability
+can be expressed as Eq. (19):
+P
+P0
+¼
+1 /C0 ϕf
+/C16/C17
+1 þ L
+2W /C1 ϕd /C1 2
+3 /C1ð S0 þ 1
+2Þ
+/C0/C1 : ð19Þ
+Beyond the shape, aspect ratio, and orientation of ﬁllers, several
+additional factors also in ﬂuence the barrier performance of ﬁller-based
+composites. These include variations in ﬁller geometry (e.g., tubular or
+cylindrical forms), the slit d imensions between adjacent ﬁllers, and the
+degree of ﬁller packing80. According to various mathematical models, it is
+possible to achieve simultaneous op timization of impermeability and
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 15
+
+stretchability while preserving the intrinsic mechanical compliance of the
+organic matrix.
+According to Eq. ( 12), aligning two-dimensional (2D) ﬂakes to the
+longitudinal direction of the encapsulation layer (S0 /C25 1) minimizes the gas
+permeability. However, achieving such ideal alignment in hybrid compo-
+sites remains a critical processing challenge. To address this, a co-solvent-
+assisted method has been demonstrated,inducing highly parallel alignment
+of 2D montmorilloniteﬂakes by maximizing the Marangoni force, as illu-
+strated in Fig. 6i31. Montmorillonite is a clay mineral consisting of one
+octahedral alumina crystal sheet sandwiched between two tetrahedral silica
+sheets and has been widely applied as an impermeable ﬁl l e ri nh y b r i d
+encapsulation due to their high transparency and ﬂexibility. Using this
+method, a 3-dyad of PUA/montmorillonite hybrid encapsulation exhibited
+a predicted WVTR of 2.42 × 10
+−3 g/m²·day at ambient condition due to the
+uniformly alignedﬂakes. Long-term stability and mechanical reliability tests
+on polymer solar cell (PSC) and polymer LED (PLED) devices demon-
+strated 90% retention of the initial PCE after 1000 h and 96% luminance
+retention even after 1000 bending cycles at a 2 mm of bending radius,
+respectively (Fig. 6j). Improving barrier performance through ﬁller align-
+ment at the cell scale is critical, but ensuring stability at the module scale
+presents additional challenges. In sol ar cell technologies, evaluating the
+operational reliability of modules—beyond the single-cell level—is essential
+for commercialization. Perovskite solar modules (PSMs), with active areas
+an order of magnitude larger than individual cells, are particularly vulner-
+able to degradation from moisture penetration, mechanical stress, and
+thermal effects induced by electrical operation. To mitigate these issues, a
+hybrid encapsulation strategy was developed by incorporating hexagonal
+boron nitride (h-BN) nanosheets in to a polyisobutylene (PIB) matrix
+113.
+Owing to their high thermal conductivity (>700 W/mK) in monolayer form,
+h-BN ﬂakes served both as impermeable barriers and as heat-dissipating
+elements, thereby enhancing thermal stability. The resulting PIB:h-BN
+encapsulation achieved a WVTR of 2 × 10
+−5 g/m²·day and enabled PSMs to
+retain over 80% of their initial PCE after 1000 h of damp-heat testing at
+85 °C (ISOS-D-2). These ﬁndings demonstrate that integrating thermally
+conductive ﬁllers can simultaneously improve barrier performance and
+thermal management, offering a viable pathway toward achieving reliable
+module-scale stability.
+Recent advances have demonstrated a hybrid sealing platform that
+simultaneously achieves rubber-like stretchability and aluminum-foil-level
+impermeability
+114. The key design principle involves engineering a visco-
+plastic surface on a SIBS elastomer, in which maleic anhydride-grafted
+polypropylene (MAPP) microdomains are selectively localized near the
+surface through controlled phase separation. This near-surface viscoplastic
+layer forms intimate, nearly defect-free contact with the device, suppressing
+side-leakage pathways while the bulk matrix remains elastic. As shown in
+Fig. 6k, SVS-sealed CsPbBr₃ quantum dot samples retained bright green
+emission even when stretched to 300% after 180 days of immersion in water.
+To further mitigate bulk water penetration, a scavenging layer consisting of
+3 Å molecular sieves and a high-visc osity glycerol/ectoine liquid was
+inserted between two SVS layers. This architecture exhibits a WVTR below
+the MOCON detection limit of 9 × 10
+-5 g/m²·day at 25 °C/90% RH, and this
+value remains unchanged even after 50,000 stretching cycles at 100% strain
+—demonstrating exceptional mechanical durability and moisture-blocking
+capability. The SVS platform can alsointegrate a metal-like gas barrier by
+incorporating a conformal eutectic gallium–indium (EGaIn) liquid metal
+l a y e ra sab l o c k i n gl a y e r .T h i sc o nﬁguration enables multilayer architectures
+that combine scavenging and blocking functionalities while providing high
+poke resistance and mechanical robustness without introducing interfacial
+defects. As shown in Fig. 6l, a ﬁve-layer scavenging–blocking SVS ﬁlm
+maintains a WVTR on the order of 10
+-3 g/m²·day even at 50% strain.
+Liquid metals (LMs) such as EGaIn have been widely explored as
+stretchable electrodes, and recent studies have extended their use to
+stretchable encapsulation. Beneﬁting from their nearly zero effective elastic
+modulus and ﬂuidic deformability, LMs can sustain virtually unlimited
+strain while retaining metal-like gas barrier performance
+115,116. Because LMs
+remain in the liquid phase, a soft elas tomeric reservoir (e.g., PDMS) is
+typically used to conﬁne the LM, often with glass-bead spacers to prevent
+reservoir-surface contact and mechanical failure during large deformations
+such as stretching or twisting, thereby preserving device function117.H o w -
+ever, the intrinsic optical opacity of metals limits their applicability as top
+encapsulation layers for optoelectronic devices, where high optical trans-
+mittance is required. Consequently, LM-based encapsulation has primarily
+been demonstrated in non-optical systems including wearable strain sensors
+and organic-electrolyte lithium-ion batteries (LIBs)
+118.R e c e n tw o r kh a s
+attempted to mitigate this limitation by leveraging the defect-free sealing
+behavior of liquids—for example, by inﬁltrating transparent lubricant oils
+into silicone elastomers to realize opt ically transparent and stretchable
+encapsulation layers
+119,120.
+Beyond material- and structure-speciﬁc advances, the heterogeneous
+nature of hybrid systems inevitably introduces distinct failure mechanisms
+under mechanical deformation. The ﬁrst failure mode arises from the
+brittleness of inorganic layers. Owing to their high elastic modulus and low
+fracture strain, tensile deformation above a critical threshold induces
+channel cracking through the fullﬁlm thickness. When the stress intensity
+factor (SIF) at the crack tip remains high, cracks propagate unstably and
+form periodic channel-crack arrays
+78. These continuous cracks create direct
+permeation pathways from the surface to the substrate, accelerating
+moisture and oxygen ingress. Under cyclic loading, crack opening and crack
+length further increase, which may ev entually initiate delamination. In
+contrast, multilayer architectures in which organic layers are inserted
+between inorganic sublayers can mitigate this failure. The organic layers
+absorb deformation energy and reduce interfacial stress concentration,
+thereby lowering the energy release rate at the crack tip. Cracks in the
+inorganic layers are therefore impeded or deﬂected at the interfaces rather
+than propagating through the entire encapsulation stack. Continuous
+channel cracking is effectively suppressed, and the applied strain is dis-
+sipated through microcrack format ion within individual inorganic
+layers
+78,121. As microcrack density increases, the SIF at each crack decreases,
+leading to saturation of crack opening and length, which stabilizes propa-
+gation and improves overall elongation.
+A second failure mode arises from m echanical and interfacial mis-
+match between organic and inorganic components. In hybrid composites
+incorporating highly impermeableﬁllers such as silica nanoparticles within
+an organic matrix, large tensile or cyclic deformation can induce stress
+concentration at the organic –inorganic interface, leading to interfacial
+separation and degradation of barri er performance. When interfacial
+adhesion is suf ﬁciently strong, repeated tensile or bending deformation
+imposes excessive stress on brittleﬁllers, causing fracture within the inor-
+ganic phase and thereby accelerating moisture ingress. In multilayer
+architectures, in-plane iso-strain loading can induce cracks perpendicular to
+the stretching direction within inorganic sublayers; these cracks may serve as
+rapid permeation pathways or initiate interfacial delamination. Additional
+mismatches, such as differences in Poisson’s ratio leading to unequal lateral
+contraction, or differences in coef ﬁcient of thermal expansion (CTE)
+causing thermally induced interfacialstresses, also contribute to mechanical
+failure. Furthermore, moisture-in duced swelling of organic layers can
+promote layer-by-layer delamination,accelerating encapsulation degrada-
+tion well before the intended device lifetime. These failure mechanisms
+underscore the necessity of minimizing property mismatches through
+careful selection of organic and inorganic layers, engineering interfacial
+adhesion via interlayers, and optimizing deposition or transfer-based fab-
+rication methods to achieve mechanically robust hybrid encapsulation
+structures.
+Structural approaches to stretchable encapsulation
+The pre-stretch method has been proposed as an effective encapsulation
+strategy for stretchable devices, enabling simultaneous improvements in
+mechanical stretchability and operational stability. As illustrated in Fig.7a,
+t h ed e v i c ei sﬁrst subjected to a de ﬁned pre-strain, after which an encap-
+sulation layer is deposited. Upon r elease of the applied strain, the
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 16
+
+Fig. 7 | Structure-assisted encapsulation materials for enhanced stretchability.
+a Schematic of the pre-stretch method for generating a buckling-structured ﬁlm.
+b SEM image of the wrinkled surface of the parylene C encapsulation layer.c WVTR
+as a function of thickness for wrinkled parylene C encapsulation layers. Adapted
+with permission from ref. 43. Copyright 2025, American Chemical Society.
+d Schematic of multiaxial deformation in ﬁlm devices. e OM images of random
+wrinkle structures in thermally grown SiO
+2. f Normalized conductance–time graph
+measured before and after 1000 cycles in wrinkle-structured thermally grown SiO 2.
+Adapted with permission from ref. 21. Copyright 2021, Acta Materialia Inc.
+Published by Elsevier Ltd. g OM and SEM images of uniform wavy-structures in
+thermally grown SiO2. h Stretchability-A0/H curve, and i WVTR of wavy-structured
+thermally grown SiO2. Adapted with permission from ref. 22. Copyright 2023, The
+Authors. Advanced Electronic Materials published by Wiley-VCH GmbH.
+j Schematic illustration of the assembly strategy using PA-ABL with an OLED device
+on an elastomeric substrate.k Schematic of transition from the 2D planar state to the
+3D pop-up state. l Photographs of a stretchable OLED device under equal biaxial
+strain of 0% and 40%. m Luminance–time curves of stretchable OLEDs. Adapted
+with permission from ref. 49. Copyright 2024, The Authors.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 17
+
+encapsulation forms periodic buckled structures. This structural modula-
+tion allows the encapsulation to deform more readily under subsequent
+mechanical loading, thereby enhanci ng the overall stretchability of the
+device. Depending on the mechanical properties of the thin ﬁlm and its
+underlying substrate, buckling can m anifest in various morphologies,
+including wrinkles, creases, and delaminated buckles
+25,122. Among these,
+wrinkle patterns are particularly advantageous, as they can uniformly relieve
+compressive stresses induced during pre-straining. Consequently, several
+studies have investigated the controlled formation of wrinkled structures in
+encapsulation layers to improve mechanical durability under cyclic
+deformation
+43,123.
+For effective wrinkle formation, the substrate–encapsulation system
+must support stable application of pre-strain without compromising
+adhesion or mechanical integrity. Silicone elastomers with high elasticity are
+commonly employed as substrates to meet these requirements. In one
+example, a carbon nanotube (CNT)-embedded Ecoﬂex strain sensor was
+pre-stretched to 120% and subsequently coated with parylene C encapsu-
+lation layers of 2, 6, and 10μmt h i c k n e s s
+43. Uniform wrinkles formed in the
+parylene Cﬁlms (Fig.7b), preserving their intrinsic barrier properties while
+enhancing stretchability through gradual wrinkle unfolding. The maximum
+stretchability decreased with increasing parylene C thickness, from 65% to
+20% and 4% for 2, 6, and 10 μm ﬁlms, respectively. Post-deposition
+annealing produced ﬁner and denser wrinkle morphologies, which sub-
+stantially improved the stretchability of the 10μm ﬁlm from 4% to 33%. As
+shown in Fig. 7c, WVTR measurements under 36 –38 °C/75–80% RH
+revealed that reducing parylene C thickness and incorporating the encap-
+sulation layer decreased WVTR by more than fourfold compared with bare
+Ecoﬂex. Collectively, these results de monstrate that pre-strain-induced
+wrinkle structures can simultaneously enhance stretchability and maintain
+low WVTR, providing a viable pathway for encapsulation in deformable
+electronic systems.
+For stretchable optoelectronics intended for integration with human
+skin, it is essential to accommodate not only uniaxial but also multiaxial
+deformations (Fig.7d). This requirement has motivated the development of
+random buckled structures through mu ltiaxial pre-stretching. Reported
+approaches include transferring thermally oxidized SiO₂ layers or thermally
+evaporated NOA63 ﬁlms onto elastomer substrates under multiaxial pre-
+strain, followed by release of the applied strain to induce random wrinkle
+formation
+21,124. In contrast to uniaxial wrinkles, multiaxial wrinkle structures
+exhibit more complex morphologies that cannot be classiﬁed by mechanical
+properties alone, re ﬂecting the inherent complexity of multiaxial
+deformation modes.
+Under biaxial pre-stretch conditions, the characteristics of wrinkle
+structures were shown to depend on the area size21. Random wrinkle pat-
+terns were predominantly generated in larger regions (1 mm × 1 mm), while
+unidirectional wrinkle structures were mainly observed in smaller regions
+(100 μm × 100 μm), as shown in Fig. 7e. Stretchability was evaluated using
+the amplitude-to-wavelength ratio (A/λ), where amplitude (A) corresponds
+to half the wrinkle height and wavelength (λ) refers to the length of a single
+wave. These results indicate that a larger A/λ ratio is associated with an
+increased deformable wrinkle size, which in turn contributes to enhanced
+stretchability. Uniform wrinkle distribution in smaller areas provided
+higher stretchability, while the occurrence of triple junctions in randomly
+wrinkled large areas induced local stress concentration, thereby reducing the
+overall stretchability. Nevertheless, WVTR values, as derived from the
+conductance-time analysis in Fig.7f, were 3.3 × 10
+−4 and 2.8 × 10−4 g/m²·day
+before and after 1000 cyclic stretching cycles under accelerated conditions
+(60 °C/85% RH), indicating negligible degradation in performance. This
+conﬁrms that random buckled structures can simultaneously ensure high
+stretchability and stable barrier pe rformance by maintaining low water
+vapor permeability under cyclic deformation. However, pre-stretch-based
+wrinkle structures, which are generated by compressive stress applied
+during fabrication, are advantageous under tensile deformation but exhibit
+limitations under compressive defo rmation. Furthermore, the non-
+uniformity of the wrinkle structures may lead to localized stress
+concentration, which could potentially degrade the mechanical reliability of
+the encapsulation layer. To mitigate this issue, uniform wavy structures have
+been proposed, which can effectively respond to both tensile and com-
+pressive deformation under free-strain conditions, thereby enhancing the
+mechanical stretchability of the encapsulation layer.
+A wavy-structured thermally grown SiO
+2 ﬁlm was fabricated by
+forming uniaxially wave-textured patterns on a single-crystalline Si sub-
+strate through etching, followed by a high temperature oxidation process, as
+observed in Fig.7g22. Tensile tests conducted on SiO2 ﬁlms with thicknesses
+of 200, 500, and 1000 nm yielded an elastic modulus of 69.01 GPa, a fracture
+strength of 4.42 GPa, and an elastic deformation limit of 6.58%, independent
+of thickness. These results indicate that the SiO2 ﬁlms were well-formed and
+essentially free of crystal defects. As shown in Fig. 7h, the stretchability,
+evaluated by varying amplitude (A0)a n dﬁlm thickness (h), exhibited a clear
+dependence on the A₀/h ratio, with a maximum value of 20.1%. Further-
+more, optical microscopy revealed no evidence of surface crack formation
+after 1000 stretching cycles under 10% tensile strain. As shown in Fig.7i, to
+evaluate the presence of invisible defects, WVTR was measured, yielding
+2.66 × 10
+−5 and 2.25 × 10 −4 g/m²·day at 40 °C and 55 °C at 85% RH,
+respectively. Following cyclic deformation under 55 °C and 85% RH, the
+WVTR increased nearly twofold to 4.41 × 10−4 g/m²·day, thereby indicating
+the inﬂuence of such defects. Accordingly, the WVTR was estimated at
+1.11 × 10 −6 g/m²·day at 25 °C/55% RH. Even with partial performance
+degradation under high-temperature, high-humidity, and cyclic deforma-
+tion conditions, the wavy-structured SiO
+2 ﬁlm exhibited high mechanical
+reliability and low moisture permeability, demonstrating its potential as an
+inorganic encapsulation material.
+A3 - d y a dw a v yA l2O3/acrylic hybrid encapsulation was fabricated via a
+pressing process, in which wavy PDMS was pressed against the acrylic layer
+to form the wavy pattern, followed by Al2O3 deposition123.W a v yP D M Si s
+generated by pre-stretching followed by Ar-plasma surface stiffening; sub-
+sequent strain release induces buckling driven by the mismatch between the
+rigid surface and the soft PDMS matrix. The period and amplitude of the
+wavy pattern can be controlled by varying the condition of plasma treat-
+ment. On this basis, bending tests revealed that shorter periods and greater
+amplitudes reduced maximum bending st ress, thereby alleviating stress
+concentration during bending. WVTR measurements at 25 °C/40% RH
+following 200 bending cycles revealed that the planar Al
+2O3 encapsulation
+layer exhibited 3 × 10 −4 g/m²·day, whereas the wrinkle structure reduced
+WVTR to 10 −4 g/m²·day, representing a threefold improvement. These
+ﬁndings indicate that wavy structures ensure long-term barrier performance
+(low WVTR) under prolonged bending , establishing an effective design
+strategy to minimize deformation-induced damage in hybrid encapsulation
+layers susceptible to mechanical deformation.
+Given that the maximum strain achievable through inorganic encap-
+sulation structure design is inherently limited, interconnector design has
+been introduced as a complementary strategy to enhance the overall
+stretchability of devices
+49,125–127. This strategy provides mechanical stability
+by mitigating direct deformation of the encapsulation layer, while the
+buckling of the interconnector disperses strain, ultimately enhancing the
+overall stretchability of the device. Serpentine interconnectors and 2D rigid
+island array structures are effective in minimizing deformation in rigid
+OLED regions
+125–127; however, they are constrained by a trade-off, in which
+enhancing the strain capacity of the interconnectors leads to a reduction in
+the planar density of active components.
+To overcome this limitation, a three-dimensional (3D) pop-up struc-
+ture was developed by incorporating a selectively adhesive blocking layer
+(pA-ABL) and dual serpentine int erconnectors, which enabled high
+stretchability while preserving high EL performance49.F i g u r e7js c h e m a t i -
+cally shows the fabrication of stretchable OLEDs. The structure was realized
+through biaxial pre-stretching of the elastomer, onto which the grid-
+patterned pA-ABL and OLED layers weretransferred, followed by relaxa-
+tion of the pre-strain. As a result, out-of-plane buckling of the dual ser-
+pentine interconnectors and 3D pop-up deformation of the rigid islands
+occurred, which is schematically illustrated in Fig.7k. Since OLEDs require
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 18
+
+only minimal stretchability, a pV3D3/Al2O3/pV3D3 hybrid encapsulation,
+composed of alternately laminated inorganic Al2O3 and organic poly(1,3,5-
+trimethyl-1,3,5-trivinyl cyclotrisiloxane) (pV3D3), has been utilized to
+achieve low WVTR and high mechanical durability. As observed in Fig.7l,
+implementation of the proposed structure and encapsulation in a 5 × 5 array
+stretchable OLED enabled system strain of up to 40%. As indicated in Fig.
+7m, stretchable OLEDs exhibited long-term luminance stability provided by
+the encapsulation layer, comparable tothat of glass-reference OLEDs, even
+after more than 2000 cycles of 40% biaxial strain. Accordingly, con-
+centrating deformation in the interconnectors via buckling, while main-
+taining the minimally required stretchability and excellent barrier properties
+of the encapsulation, has been shown to enable the simultaneous realization
+of high stretchability and long-term stability for the device.
+Structural strategies—including pre-stretch-induced wrinkle archi-
+tectures, thermally oxidized wavy structures, and interconnector designs—
+have enabled simultaneous improvements in mechanical stretchability and
+long-term stability of both inorgani c and organic encapsulation layers.
+Wrinkle and wavy structures facilitatestress relaxation during deformation,
+thereby preserving moisture barrier properties, while interconnector
+designs effectively redistribute loca l strain to enhance device reliability.
+These ﬁndings highlight that, in the development of next-generation
+stretchable optoelectronics, structural design can be synergistically com-
+bined with the intrinsic properties of encapsulation materials to maintain
+impermeability while enhancing stretchability, ultimately advancing reliable
+and durable device operation.
+Summary and future perspectives
+This review has summarized recent advances in encapsulation strategies for
+deformable optoelectronic devices, spanning materials, processing meth-
+ods, structural designs, and their interactions with application environ-
+ments. To ensure reliability, encapsulation materials should be evaluated
+under application-relevant conditions, including WVTR measurements at
+operating temperature and relative humidity in combination with
+mechanical strain parameters such as deformation mode, uniaxial or biaxial
+strain, and cycle count. Since mois ture remains the dominant permeant
+causing degradation in most OLED and PV devices, WVTR continues to
+serve as the primary metric of barrier performance. However, next-
+generation qualiﬁcation should also address strain-coupled permeation and
+leakage at edges and interfaces. Meeting these challenges will require
+environment-aware encapsulation engineering within an integrated fra-
+mework that aligns application requirements, material selection, structural
+design, and processing methods (Fig. 8), particularly for stretchable
+applications.
+From a materials perspective, effective permeability is minimized in
+dense amorphous structures with low free volume and suppressed perco-
+lation, underlying the long-term stability of ultrathin inorganicﬁlms such as
+ALD AlO
+x,S i Nₓ,a n dS i Oₓ. Their high elastic modulus and low fracture
+strain, however, constrain deformability, leading to pinhole-defect forma-
+tion and micro-crack propagation under mechanical stress. Organic
+m a t e r i a l ss u c ha sp a r y l e n e ,P I ,a n dP DMS offer orders-of-magnitude higher
+stretchability and lower bending stiffness, but their high diffusivity to water
+vapor results in elevated WVTR and rapid deterioration. Hybrid encapsu-
+lation strategies attempt to balance these opposing features: inorganic layers
+provide diffusion barriers, while organic layers smooth roughness and
+decouple defects, increasing tortuos ity. Barrier performance generally
+improves with increasing dyad number. Sequential in ﬁltration processes
+such as ALI and ﬁller-reinforced polymer composites with aligned high-
+aspect-ratio ﬂakes offer complementary path ways to elongate diffusion
+routes while preserving compliance. Interfacial reliability—through adhe-
+sion promoters and optimized interfacial fracture energy—remains another
+decisive factor for device lifetime.
+Processing strategies must be carefully matched to intrinsic material
+properties. Polymer-based systems require low thermal budgets to avoid
+softening nearT
+g. Hybrid structures rely on low-temperature processes such
+Fig. 8 | Integrated design framework for stretch-
+able and ﬂexible encapsulation materials. Appli-
+cation requirements guide the selection of organic,
+inorganic, and hybrid materials. Processing routes
+are chosen to match material constraints, while
+structural strategies enhance deformability and
+defect tolerance. These coupled choices de ﬁne the
+pathway toward reliable encapsulation with low
+WVTR and high stretchability for next-generation
+deformable devices. Adapted with permission from
+refs. 21,22,47,48,55,58.
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 19
+
+as ALD, PEALD, and plasma-enhanced CVD (PECVD), which enable
+precise thickness control and high conformality over structured topo-
+graphies. Plasma conditions must be optimized to balance radical reactivity
+against potential damage from ion bombardment or hydrogen incorpora-
+tion, which can embrittle oxides or generate sub-gap states in organic
+layers
+128,129. Initiated CVD (iCVD) and other solvent-free polymerizations
+can minimize swelling and crazing of underlying ﬁlms. Consequently,
+processing should integrate statistical control of outgassing, defect forma-
+tion, and cracking, aligned with the material’s intrinsic stability.
+Structural design further enhances encapsulation stretchability. Posi-
+tioning fragile layers near the neutral plane reduces surface strain during
+bending. Wrinkled and wavy architectures or serpentine meshes redis-
+tribute strain and delay crack initiation, while island–bridge layouts con-
+centrate deformation in elastomeric interconnects, protecting barriers on
+rigid islands
+21,22,40. Selective encapsulation has also proven effective: in
+micro-LED displays, encapsulating only stretchable interconnects enhances
+both lifetime and ﬂexibility; in skin-integrated systems, spatially graded
+permeability or micro-vented overmolds reconcile the dense barriers nee-
+ded for active regions with the breathability required to prevent skin
+maceration.
+Future application environments will further diversify encapsulation
+requirements. In bio-integrated electronics, encapsulation must block bio-
+ﬂuid and mobile ions (Na ⁺,K ⁺,C l⁻) over long lifetimes that include ster-
+ilization and chronic mechanical deformation
+2,130,131. Crack-tolerant
+laminates with low ion permeability, hydrolytic stability, bio-compatible
+processing, and anti-fouling surfaces will be critical. In contrast, space
+applications demand resistance to UV and γ-radiation, atomic oxygen,
+vacuum outgassing, and extreme thermal cycling
+132,133. Encapsulation for
+PVs and optical systems in space mus t combine radiation shielding and
+atomic oxygen resistance with optical transparency, while minimizing
+microcracking from CTE mismatch. For such future applications, encap-
+sulation will be evaluated not only by WVTR and stretchability but also
+under coupled conditions of strain, humidity, temperature cycling, UV/blue
+exposure, sweat, and bioﬂuid immersion.
+Ultimately, the strategic development of encapsulation materials will
+depend on quantitatively deﬁned environmental and mechanical require-
+ments. Material properties must be optimized to meet WVTR and optical
+targets; processing routes must respect thermal and solvent tolerances; and
+structural architectures must enhance compliance while preserving
+impermeability. For bio-interfaces, ion-blocking hybrids fabricated at gentle
+thermal budgets are expected to domi nate, whereas in sp ace, radiation-
+tolerant, optically clear laminates willbe pivotal. The future of encapsulation
+will be shaped by coherent integration of materials, processes, and struc-
+tures, where performance, comfort, and reliability are co-designed rather
+than traded off. Continued innovationis anticipated to improve quality of
+life, enable new device form factors,and expand the operating envelope of
+stretchable electronic systems.
+Received: 18 September 2025; Accepted: 31 January 2026;
+References
+1. Lee, J.-W. et al. Dual-layered percolative networks of photoactive
+materials and elastomers for highly-stretchable, ef ﬁcient organic
+photovoltaics with strain-induced power enhancement up to 60%
+strain. Energy Environ. Sci. 18, 7089–7102 (2025).
+2. Kim, D. C., Choi, M. K., Kim, D.-H. & Yang, J. Rise of intrinsically
+stretchable electroluminescent materials: toward free-form
+displays. NPJ Flex. Electron. 9, 50 (2025).
+3. Kim, K. et al. Intrinsically-stretchable and patternable quantum dot
+color conversion layers for stretchable displays in robotic skin and
+wearable electronics. Adv. Mater. 37, e2420633 (2025).
+4. Kim, D. C. et al. Intrinsically stretchable quantum dot light-emitting
+diodes. Nat. Electron. 7, 365–374 (2024).
+5. Lee, J.-W. et al. Simultaneous integration of poly(dimethylsiloxane)
+elastomer in polymer donor and dimer acceptor enables strain-
+induced power enhancement in intrinsically-stretchable organic
+photovoltaics. Energy Environ. Sci. 18, 3325–3340 (2025).
+6. Kim, H. et al. Integrated stretchable displays with integrated pixel
+density via overlapped pixels. NPJ Flex. Electron. 9, 91 (2025).
+7. Chun, F. et al. Multicolour stretchable perovskite electroluminescent
+devices for user-interactive displays. Nat. Photon. 18, 856–863
+(2024).
+8. Lee, S. et al. Advancing high-ef ﬁciency, stretchable organic solar
+cells: novel liquid metal electrode architecture. Energy Environ. Sci.
+17, 8915–8925 (2024).
+9. Jeon, H. et al. Nanomechanical insights into enhancing ﬂexibility and
+reliability in deformable optoelectronic devices. ACS Appl. Mater.
+Interfaces 17, 42568–42585 (2025).
+10. Park, T. et al. Advances in ﬂexible, foldable, and stretchable quantum
+dot light-emitting diodes: materials and fabrication strategies.
+Korean J. Chem. Eng. 41, 3517–3543 (2024).
+11. Xu, H. et al. A fully integrated, standalone stretchable device platform
+with in-sensor adaptive machine learning for rehabilitation. Nat.
+Commun. 14, 7769 (2023).
+12. Hwang, G. S. et al. Highly elastic and conductive metallic
+interconnect with crystalline-amorphous nanolaminate. ACS Appl.
+Mater. Interfaces 15, 15863–15871 (2023).
+13. Lee, J. W. et al. Intrinsically-stretchable, ef ﬁcient organic solar cells
+achieved by high-molecular-weight, electro-active polymer
+acceptor additives. Adv. Energy Mater. 12, 2200887 (2022).
+14. Yokota, T. et al. Ultra ﬂexible organic photonic skin. Sci. Adv.
+2,
+e1501856 (2016).
+15. Lee, J. et al. Visual complexity of head-up display in automobiles
+modulates attentional tunneling. Hum. Factors 66, 1879–1892
+(2024).
+16. Lv, Z., Xu, Y., Yang, Y. & Liu, J. Multiplane holographic augmented
+reality head-up display with a real-virtual dual mode and large
+eyebox. Appl. Opt. 61, 9962–9971 (2022).
+17. Shi, X. et al. Large-area display textiles integrated with functional
+systems. Nature 591, 240–245 (2021).
+18. Angmo, D. et al. Toward rollable printed perovskite solar cells for
+deployment in low-Earth orbit space applications.ACS Appl. Energy
+Mater. 7, 1777–1791 (2024).
+19. VanSant, K. T. et al. Combined stress testing of perovskite solar cells
+for stable operation in space. ACS Appl. Energy Mater. 6,
+10319–10326 (2023).
+20. Nam, M. et al. Highly reliable and stretchable OLEDs based on facile
+patterning method: toward stretchable organic optoelectronic
+devices. npj Flex. Electron. 8, 17 (2024).
+21. Kim, N.-H. et al. Enhanced biaxial stretchability of wrinkled SiO
+2 thin
+ﬁlms for stretchable encapsulation. Scr. Mater. 207, 114280 (2022).
+22. Kim, H., Hwang, G. S., Lee, S. & Kim, J. Y. Enhanced stretchability of
+wavy-structured thermally grown silicon dioxideﬁlms for stretchable
+encapsulation. Adv. Electron. Mater. 9, 2300078 (2023).
+23. Deng, Y. et al. Rotating square tessellations enabled stretchable and
+adaptive curved display. NPJ Flex. Electron. 8, 4 (2024).
+24. Jo, M. et al. 3D printer-based encapsulated origami electronics for
+extreme system stretchability and high areal coverage. ACS Nano
+13, 12500–12510 (2019).
+25. Wang, Q. & Zhao, X. A three-dimensional phase diagram of growth-
+induced surface instabilities. Sci. Rep. 5, 8887 (2015).
+26. Fan, X. et al. PEDOT:PSS for ﬂexible and stretchable electronics:
+modiﬁcations, strategies, and applications. Adv. Sci. 6, 1900813
+(2019).
+27. Liang, J., Tong, K. & Pei, Q. A water-based silver-nanowire screen-
+print ink for the fabrication of stretchable conductors and wearable
+thin-ﬁlm transistors. Adv. Mater. 28, 5986–5996 (2016).
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 20
+
+28. Sang, M., Kim, K., Shin, J. & Yu, K. J. Ultra-thin ﬂexible encapsulating
+materials for soft bio-integrated electronics. Adv. Sci. 9, e2202980
+(2022).
+29. Han, W. B., Hwang, S.-W. & Yeo, W.-H. Recent advances in
+encapsulation strategies forﬂexible transient electronics.Flex. Print.
+Electron. 9, 033001 (2024).
+30. Mariello, M., Kim, K., Wu, K., Lacour, S. P. & Leterrier, Y. Recent
+advances in encapsulation of ﬂexible bioelectronic implants:
+materials, technologies, and characterization methods. Adv. Mater.
+34, e2201129 (2022).
+31. Nam, Y. S. et al. Flexible and transparent encapsulation ﬁlms with
+self-assembled montmorillonite induced by Marangoni forces. Adv.
+Mater. Technol. 9, 2400452 (2024).
+32. Bak, Y. et al. Highly reliable textile-based stretchable photo-heating
+platform: wearable OLEDs with Kirigami-patterned transferable
+transparent stretchable electronics. Chem. Eng. J. 522, 167217
+(2025).
+33. Yan, B., Qin, L., Tao, S. & Fang, G. Development and challenges of
+large space ﬂexible solar arrays. SSPWT 2,3 3–42 (2025).
+34. Li, J. et al. A brief review of high ef ﬁciency III-V solar cells for space
+application. Front. Phys. 8, 631925 (2021).
+35. Jeong, E. G., Kwon, J. H., Kang, K. S., Jeong, S. Y. & Choi, K. C. A
+review of highly reliable ﬂexible encapsulation technologies towards
+rollable and foldable OLEDs. J. Inf. Disp. 21,1 9–32 (2019).
+36. Lewis, J. Material challenge for ﬂexible organic devices. Mater.
+Today 9,3 8–45 (2006).
+37. Shin, H. et al. Stretchable electroluminescent display enabled by
+graphene-based hybrid electrode. ACS Appl. Mater. Interfaces 11,
+14222–14228 (2019).
+38. Liu, G. et al. Flexible, stretchable, and luminescent hydrogels based
+on a polydimethylsiloxane-coated CsPbBr3 nanostructure for
+elastomers. ACS Appl. Nano Mater. 6, 9588–9597 (2023).
+39. Kim, S. H. et al. A compact polymer –inorganic hybrid gas barrier
+nanolayer for ﬂexible organic light-emitting diode displays. npj Flex.
+Electron. 6, 21 (2022).
+40. Sang, M. et al. Ultrahigh sensitive Au-doped silicon nanomembrane
+based wearable sensor arrays for continuous skin temperature
+monitoring with high precision. Adv. Mater. 34, e2105865
+(2022).
+41. Kwon, J. I. et al. Ultrahigh-resolution full-color perovskite
+nanocrystal patterning for ultrathin skin-attachable displays. Sci.
+Adv. 8, eadd0697 (2022).
+42. Lee, K. et al. Highly ef ﬁcient pure red light-emitting diodes through
+surface bromination of CsPbI 3 perovskite nanocrystals for skin-
+attachable displays. Mater. Today 75,2 –10 (2024).
+43. Huang, X. et al. Stretchable encapsulation for implantable strain
+sensors. ACS Appl. Mater. Interfaces 17, 41015–41027
+(2025).
+44. Zhou, T. et al. 3D printable high-performance conducting polymer
+hydrogel for all-hydrogel bioelectronic interfaces. Nat. Mater. 22,
+895–902 (2023).
+45. Woo, J. H. et al. Amorphous alumina ﬁlm robust under cyclic
+deformation: a highly impermeable and a highly ﬂexible
+encapsulation material. ACS Appl. Mater. Interfaces 13,
+46894–46901 (2021).
+46. Oh, S. J. et al. Nanolaminate-induced mechanically and
+environmentally robust Al2O3/TiO2 thin ﬁlm encapsulation by low-
+temperature atomic layer deposition: toward ﬂexible and wearable
+OLEDs. Adv. Mater. Technol. 9, 2400381 (2024).
+47. Kim, S.-H. et al. Highly impermeable and ﬂexible silica encapsulation
+ﬁlms synthesized by sol –gel process. Nano Res. 15, 7476–7483
+(2022).
+48. Weng, Y. et al. Design and fabrication of PDMS/Al 2O3 hybrid ﬂexible
+thin ﬁlms for OLED encapsulation applications. ACS Appl. Polym.
+Mater. 5, 10148–10157 (2023).
+49. Kim, S. B. et al. 3D height-alternant island arrays for stretchable
+OLEDs with high active area ratio and maximum strain. Nat.
+Commun. 15, 7802 (2024).
+50. Ko, G. J. et al. Materials and designs for extremely ef ﬁcient
+encapsulation of soft, biodegradable electronics.Adv. Funct. Mater.
+34, 2403427 (2024).
+51. Yoo, H., Lee, S.-H., Kim, S.-M., Jo, J.-H. & Kim, J.-Y. Research
+progress in ﬂexible and stretchable encapsulation materials for
+electronics. J. Flex. Print. Electron. 4,1 5–30 (2025).
+52. Song, E., Li, J. & Rogers, J. A. Barrier materials for ﬂexible
+bioelectronic implants with chronic stability — current approaches
+and future directions. APL Mater. 7, 050902 (2019).
+53. Cho, M. et al. Ultra-thin thermally grown silicon dioxide
+nanomembrane for waterproof perovskite solar cells. J. Power
+Sources 563, 232810 (2023).
+54. Hu, Z. et al. Bioresorbable multilayer organic-inorganic ﬁlms for
+bioelectronic systems. Adv. Mater. 36, e2309421 (2024).
+55. Li, H., Ma, Y. & Huang, Y. Material innovation and mechanics design
+for substrates and encapsulation of ﬂexible electronics: a review.
+Mater. Horiz. 8, 383–400 (2021).
+56. Shao, Y. et al. A universal packaging substrate for mechanically
+stable assembly of stretchable electronics. Nat. Commun. 15, 6106
+(2024).
+57. Wang, S. et al. Skin electronics from scalable fabrication of an
+intrinsically stretchable transistor array. Nature 555,8 3–88 (2018).
+58. Kim, D.-H. et al. Stretchable and foldable silicon integrated circuits.
+Science 320, 507–511 (2008).
+59. Huang, Z. et al. Three-dimensional integrated stretchable
+electronics. Nat. Electron. 1, 473–480 (2018).
+60. Jiao, R. et al. Vertical serpentine interconnect-enabled stretchable
+and curved electronics. Microsyst. Nanoeng. 9, 149 (2023).
+61. Shangguan, L. et al. Modulating residual stress based on atomic
+layer deposition to enhance the adhesion of parylene C for
+encapsulation of ﬂ
+exible organic light-emitting diodes. Appl. Phys.
+Express 16, 041004 (2023).
+62. Nam, K.-H., Seo, K., Seo, J., Khan, S. B. & Han, H. Ultraviolet-curable
+polyurethane acrylate nanocomposite coatings based on surface-
+modiﬁed calcium carbonate. Prog. Org. Coat. 85,2 2–30 (2015).
+63. Zhang, Z. et al. High-brightness all-polymer stretchable LED with
+charge-trapping dilution. Nature 603, 624–630 (2022).
+64. Song, K.-Y., Zhang, H., Zhang, W.-J. & Teixeira, A. Enhancement of
+the surface free energy of PDMS for reversible and leakage-free
+bonding of PDMS–PS microﬂuidic cell-culture systems. Microﬂuid.
+Nanoﬂuid. 22, 135 (2018).
+65. Jinno, H. et al. Stretchable and waterproof elastomer-coated
+organic photovoltaics for washable electronic textile applications.
+Nat. Energy 2, 780–785 (2017).
+66. Kaltenbrunner, M. et al. Flexible high power-per-weight perovskite
+solar cells with chromium oxide-metal contacts for improved
+stability in air. Nat. Mater. 14, 1032–1039 (2015).
+67. Bertrand, J. A. & George, S. M. Evaluating Al
+2O3 gas diffusion
+barriers grown directly on Ca ﬁlms using atomic layer deposition
+techniques. J. Vac. Sci. Technol., A. 31, 01A122 (2013).
+68. Kim, D. H. et al. Dissolvable ﬁlms of silk ﬁbroin for ultrathin conformal
+bio-integrated electronics. Nat. Mater. 9, 511–517 (2010).
+69. Nam, T. et al. A composite layer of atomic-layer-deposited Al 2O3 and
+graphene for ﬂexible moisture barrier. Carbon 116, 553–561 (2017).
+70. Dameron, A. A. et al. Gas diffusion barriers on polymers using
+multilayers fabricated by Al 2O3 and rapid SiO2 atomic layer
+deposition. J. Phys. Chem. C. 112, 4573–4580 (2008).
+71. Jang, D., Meza, L. R., Greer, F. & Greer, J. R. Fabrication and
+deformation of three-dimensional hollow ceramic nanostructures.
+Nat. Mater. 12, 893–898 (2013).
+72. Lee, L. et al. Ultra gas-proof polymer hybrid thin layer. Nano Lett. 18,
+5461–5466 (2018).
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 21
+
+73. Park, S.-H. K. et al. Ultrathin ﬁlm encapsulation of an OLED by ALD.
+Electrochem. Solid State Lett. 8,2 1–23 (2005).
+74. Duan, Y. et al. Thin- ﬁlm barrier performance of zirconium oxide using
+the low-temperature atomic layer deposition method. ACS Appl.
+Mater. Interfaces 6, 3799–3804 (2014).
+75. George, S. M. Atomic layer deposition: an overview. Chem. Rev.110,
+111–131 (2009).
+76. Kim, S. K. et al. Low Temperature (<100° C) deposition of aluminum
+oxide thin ﬁlms by ALD with O3 as oxidant.J. Electrochem. Soc.153,
+69–76 (2006).
+77. Kwon, B. H. et al. Organic/inorganic hybrid thin- ﬁlm encapsulation
+using inkjet printing and PEALD for industrial large-area process
+suitability and ﬂexible OLED application. ACS Appl. Mater.
+Interfaces 13, 55391–55402 (2021).
+78. Lee, S. W. et al. Highly reliable and ultra- ﬂexible wearable OLEDs
+enabled by environmentally and mechanically robust hybrid
+multibarrier encapsulation layers. Adv. Funct. Mater. 35, 2411802
+(2024).
+79. Park, Y. C. et al. A highly bendable thin ﬁlm encapsulation by the
+modulation of thermally induced interfacial residual stress. Appl.
+Surf. Sci. 598, 153874 (2022).
+80. Idris, A., Muntean, A. & Mesic, B. A review on predictive tortuosity
+models for composite ﬁlms in gas barrier applications. J. Coat.
+Technol. Res. 19, 699–716 (2022).
+81. Wang, H. et al. Hermetic seal for perovskite solar cells: An improved
+plasma enhanced atomic layer deposition encapsulation. Nano
+Energy 69, 104375 (2020).
+82. Keum, C. et al. A substrateless, ﬂexible, and water-resistant organic
+light-emitting diode. Nat. Commun. 11, 6250 (2020).
+83. Kang, K. S., Jeong, S. Y., Jeon, Y., Kwon, J. H. & Choi, K. C.
+Enhancing ﬂexibility and reliability in wearable OLEDs through
+silbione-blended hybrimer-based encapsulation. NPJ Flex.
+Electron. 9, 49 (2025).
+84. Son, Y. H. et al. Highly reliable organic light-emitting diodes with
+optimized ﬁll factor based on rotational membrane design for
+stretchable displays.
+Mater. Horiz. 12, 7580–7593 (2025).
+85. Kwon, J. H. et al. Highly ef ﬁcient, reliable, and ultra ﬂexible bio-
+organic light-emitting diode patch. NPJ Flex. Electron. 9, 55 (2025).
+86. Huang, H.-D. et al. High barrier graphene oxide nanosheet/poly(vinyl
+alcohol) nanocomposite ﬁlms. J. Membr. Sci. 409– 410, 156–163
+(2012).
+87. Castro-Hermosa, S., Top, M., Dagar, J., Fahlteich, J. & Brown, T. M.
+Quantifying performance of permeation barrier — encapsulation
+systems for ﬂexible and glass-based electronics and their
+application to perovskite solar cells. Adv. Electron. Mater. 5,
+1800978 (2019).
+88. Chen, N. et al. Low substrate temperature encapsulation for ﬂexible
+electrodes and organic photovoltaics. Adv. Energy Mater. 5,
+1401442 (2014).
+89. Zhang, Y. et al. Stretchable PDMS encapsulation via SiO 2 Doping
+and atomic layer in ﬁltration for ﬂexible displays. Adv. Mater.
+Interfaces 9, 2101857 (2022).
+90. Nakano, Y., Yanase, T., Nagahama, T., Yoshida, H. & Shimada, T.
+Accurate and stable equal-pressure measurements of water vapor
+transmission rate reaching the 10(-6) g m(-2) day(-1) range.Sci. Rep.
+6, 35408 (2016).
+91. Svens, P., Kjell, M., Tengstedt, C., Flodberg, G. & Lindbergh, G. Li-
+ion pouch cells for vehicle applications — studies of water
+transmission and packing materials. Energies 6, 400–410 (2013).
+92. Chen, Z. Y. et al. Stretchable organic light-emitting devices with
+invisible orderly wrinkles by using a transfer-free technique. Adv.
+Mater. Technol. 7, 2101263 (2022).
+93. Xu, S. et al. Stretchable batteries with self-similar serpentine
+interconnects and integrated wireless recharging systems. Nat.
+Commun. 4, 1543 (2013).
+94. Kwak, J. Y. et al. Manufacturing of stretchable substrate with biaxial
+strain control for highly-efﬁcient stretchable solar cells and displays.
+Sci. Rep. 13, 20460 (2023).
+95. Mariello, M. et al. Magnesium test: universal and ultra-sensitive
+method for measuring reliability of thin- ﬁlm-encapsulated
+bioelectronic implants in physiological environment. Adv. Funct.
+Mater. 34, 2315420 (2024).
+96. Jeong, E. G., Han, Y. C., Im, H.-G., Bae, B.-S. & Choi, K. C. Highly
+reliable hybrid nano-stratiﬁed moisture barrier for encapsulating
+ﬂexible OLEDs. Org. Electron. 33, 150–155 (2016).
+97. Li, C. et al. Ultra-long-term reliable encapsulation using an atomic
+layer deposited HfO
+2/Al2O3/HfO2 triple-interlayer for biomedical
+implants. Coatings 9, 579 (2019).
+98. Wu, H. C. et al. Highly stretchable polymer semiconductor thin ﬁlms
+with multi-modal energy dissipation and high relative stretchability.
+Nat. Commun. 14, 8382 (2023).
+99. Choi, Y. S. et al. Biodegradable polyanhydrides as encapsulation
+layers for transient electronics. Adv. Funct. Mater. 30, 2000941
+(2020).
+100. Roberts, A. P. et al. Gas permeation in silicon-oxide/polymer (SiOx/
+PET) barrier ﬁlms: role of the oxide lattice, nano-defects and macro-
+defects. J. Membr. Sci. 208,7 5–88 (2002).
+101. Kim, L. H. et al. Optimization of Al2O3/TiO2 nanolaminate thin ﬁlms
+prepared with different oxide ratios, for use in organic light-emitting
+diode encapsulation, via plasma-enhanced atomic layer deposition.
+Phys. Chem. Chem. Phys. 18, 1042–1049 (2016).
+102. Meyer, J. et al. Al
+2O3/ZrO2 nanolaminates as ultrahigh gas-diffusion
+barriers— a strategy for reliable encapsulation of organic electronics.
+Adv. Mater. 21, 1845–1849 (2009).
+103. Kang, K. S., Jeong, S. Y., Jeong, E. G. & Choi, K. C. Reliable high
+temperature, high humidity ﬂexible thin ﬁlm encapsulation using
+Al2O3/MgO nanolaminates for ﬂexible OLEDs. Nano Res. 13,
+2716–2725 (2020).
+104. Kwon, J. H., Jeon, Y. & Choi, K. C. Robust transparent and
+conductive gas diffusion multibarrier based on Mg- and Al-doped
+ZnO as indium tin oxide-free electrodes for organic electronics.ACS
+Appl. Mater. Interfaces 10, 32387–32396 (2018).
+105. Kim, H., Kim, J. M., Lee, J. H. & Jang, J. G. Flexible encapsulation of
+organic light-emitting diode using the LiF/polymer/LiF buffer and
+metal foil. Mol. Cryst. Liq. Cryst. 601, 190–196 (2014).
+106. Dollinger, F., Nehm, F., Müller-Meskamp, L. & Leo, K. Laminated
+aluminum thin-ﬁlms as low-cost opaque moisture ultra-barriers for
+ﬂexible organic electronic devices. Org. Electron. 46, 242–246
+(2017).
+107. Woo, J. H. et al. Highly elastic and corrosion-resistive metallic glass
+thin ﬁlms for ﬂexible encapsulation. ACS Appl. Mater. Interfaces 14,
+5578–5585 (2022).
+108. Lee, S. et al. Study of mechanical degradation of freestanding ALD
+Al
+2O3 by a hygrothermal environment and a facile protective method
+for environmentally stable Al 2O3: toward highly reliable wearable
+OLEDs. Mater. Horiz. 10, 4488–4500 (2023).
+109. Forte, M. A., Silva, R. M., Tavares, C. J. & Silva, R. F. E. Is poly(methyl
+methacrylate) (PMMA) a suitable substrate for ALD?: a review.
+Polymers 13, 1346 (2021).
+110. Maxwell, J. Treatise on Electricity and Magnetism (Clarendon Press,
+1881).
+111. Nielsen, L. E. Models for the permeability of ﬁlled polymer systems.
+J. Macromol. Sci. Chem.,A. 1, 929–942 (1967).
+112. Bharadwaj, R. K. Modeling the barrier properties of polymer-layered
+silicate nanocomposites. Macromolecules 34, 9189–9192 (2001).
+113. Mariani, P. et al. Low-temperature strain-free encapsulation for
+perovskite solar cells and modules passing multifaceted accelerated
+ageing tests. Nat. Commun. 15, 4552 (2024).
+114. Xia, R. et al. Hermetic stretchable seals enabled by a viscoplastic
+surface effect. Nat. Mater. 24, 2011–2018 (2025).
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 22
+
+115. Dickey, M. D. Stretchable and soft electronics using liquid metals.
+Adv. Mater. 29, 1606425 (2017).
+116. Ma, Z. et al. Permeable superelastic liquid-metal ﬁbre mat enables
+biocompatible and monolithic stretchable electronics. Nat. Mater.
+20, 859–868 (2021).
+117. Shen, Q. et al. Liquid metal-based soft, hermetic, and wireless-
+communicable seals for stretchable systems.Science 379, 488–493
+(2023).
+118. Kan, R. et al. Liquid metal-elastomer seals for stretchable organic
+electrolyte-based lithium-ion batteries. Adv. Funct. Mater. 34,
+2309861 (2024).
+119. Sun, H. et al. Liquid-based encapsulation for implantable
+bioelectronics across broad pH environments. Nat. Commun. 16,
+1019 (2025).
+120. Sun, H. et al. Bioinspired oil-infused slippery surfaces with water and
+ion barrier properties. ACS Appl. Mater. Interfaces 13, 33464–33476
+(2021).
+121. Choi, D.-w, Kim, S.-J., Lee, J. H., Chung, K.-B. & Park, J.-S. A study
+of thin ﬁlm encapsulation on polymer substrate using low
+temperature hybrid ZnO/Al2O3 layers atomic layer deposition. Curr.
+Appl. Phys. 12, S19–S23 (2012).
+122. Wang, B., Bao, S., Vinnikova, S., Ghanta, P. & Wang, S. Buckling
+analysis in stretchable electronics. NPJ Flex. Electron. 1, 5 (2017).
+123. Peng, Y. et al. Improved mechanical properties of Al 2O3/acrylic
+laminates for ﬂexible thin ﬁlm encapsulation by introducing wavy
+interfaces. Org. Electron. 117, 106791 (2023).
+124. Choi, D. K. et al. Highly ef ﬁcient, heat dissipating, stretchable
+organic light-emitting diodes based on a MoO(3)/Au/MoO(3)
+electrode with encapsulation. Nat. Commun. 12, 2864 (2021).
+125. Jin, P. et al. Fluid microchannel encapsulation to improve the
+stretchability of ﬂexible electronics. Adv. Mater. Technol.7, 2101126
+(2021).
+126. Shin, Y. J. et al. Stretchable fabric organic light-emitting diodes
+based on transferable laser pattern for wearable photodiagnostic
+applications. Adv. Fiber Mater. 7, 908–925 (2025).
+127. Kim, N., Kim, J., Seo, J., Hong, C. & Lee, J. Stretchable inorganic LED
+displays with double-layer modular design for high ﬁll factor. ACS
+Appl. Mater. Interfaces 14, 4344–4351 (2022).
+128. Moon, M.-W. & Vaziri, A. Surface modi ﬁcation of polymers using a
+multi-step plasma treatment. Scr. Mater. 60,4 4–47 (2009).
+129. Chen, S. H., Chan, K. C., Yue, T. M. & Wu, F. F. Highly stretchable
+kirigami metallic glass structures with ultra-small strain energy loss.
+Scr. Mater. 142,8 3–87 (2018).
+130. Wang, K.-N. et al. The applications of ﬂexible electronics in dental,
+oral, and craniofacial medicine. NPJ Flex. Electron. 8, 33 (2024).
+131. Chen, B. et al. Flexible piezoelectrics: integration of sensing,
+actuating and energy harvesting. NPJ Flex. Electron. 9, 58 (2025).
+132. Verduci, R. et al. Solar energy in space applications: review and
+technology perspectives. Adv. Energy Mater. 12, 2200125 (2022).
+133. Tu, Y. et al. Perovskite solar cells for space applications: progress
+and challenges. Adv. Mater. 33, e2006545 (2021).
+134. Li, T. et al. A skin-conformal and breathable humidity sensor for
+emotional mode recognition and non-contact human-machine
+interface. NPJ Flex. Electron. 8, 3 (2024).
+135. Sutherland, L. J., Weerasinghe, H. C. & Simon, G. P. A review on
+emerging barrier materials and encapsulation strategies for ﬂexible
+perovskite and organic photovoltaics. Adv. Energy Mater. 11,
+2101383 (2021).
+136. Lu, Q. et al. A review on encapsulation technology from organic light
+emitting diodes to organic and perovskite solar cells. Adv. Funct.
+Mater. 31, 2100151 (2021).
+Acknowledgements
+This work was supported by the National Research Foundation of Korea
+(NRF) grant by the Korea government (MSIT) (RS-2025-25441247 and RS-
+2025-02305569) and by the InnoCORE program of the Ministry of Science
+and ICT (1.250021.01). This study contains the results obtained by using the
+equipment of UNIST Ofﬁce of Research Facilities and Training (ResFacT).
+Author contributions
+Author contributions are as follows: Investigation and writing— original draft:
+H.Y., S.-H.L., J.-Y.K., S.-M.K., H.-Y.J., J.-H.J., Y.K., Y.S., D.-H.K., J.J., S.H.,
+S.-J.K., and J.-Y.K. Figures: H.Y., S.-H.L., J.-Y.K., S.-M.K., H.-Y.J., J.-H.J.,
+G.-S.H., and J.-W.G. Table: S.-H.L. Writing— review & editing: H.Y., S.-H.L.,
+H.-H.C., S.-K.K. and J.-Y.K. Conceptualization and supervision: J.-Y.K. All
+authors discussed and commented on the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Correspondenceand requests for materials should be addressed to
+Ju-Young Kim.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s noteSpringer Nature remains neutral with regard to jurisdictional
+claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modi ﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article ’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+is not included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/
+.
+© The Author(s) 2026
+https://doi.org/10.1038/s41528-026-00545-5 Review
+npj Flexible Electronics |           (2026) 10:42 23

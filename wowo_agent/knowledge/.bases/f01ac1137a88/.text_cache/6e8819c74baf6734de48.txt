@@ -1,0 +1,512 @@
+Citation: Yen, Y.-H.; Hsu, C.-S.; Lei,
+Z.-Y.; Wang, H.-J.; Su, C.-Y.; Dai, C.-L.;
+Tsai, Y.-C. Laser-Induced Graphene
+Stretchable Strain Sensor with
+Vertical and Parallel Patterns.
+Micromachines 2022, 13, 1220.
+https://doi.org/10.3390/mi13081220
+Academic Editor: Aiqun Liu
+Received: 29 June 2022
+Accepted: 27 July 2022
+Published: 29 July 2022
+Publisher’s Note:MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+micromachines 
+Article
+Laser-Induced Graphene Stretchable Strain Sensor with Vertical
+and Parallel Patterns
+Yu-Hsin Yen 1, Chao-Shin Hsu 1, Zheng-Yan Lei 1,2 , Hsin-Jou Wang 1, Ching-Yuan Su 3, Ching-Liang Dai 2,4
+and Yao-Chuan Tsai1,2, *
+1 Department of Bio-Industrial Mechatronics Engineering, National Chung Hsing University,
+Taichung City 402, Taiwan; cefb2221@gmail.com (Y.-H.Y.); robin051311@gmail.com (C.-S.H.);
+jm21611294@gmail.com (Z.-Y.L.); a29555623@gmail.com (H.-J.W.)
+2 Smart Sustainable New Agriculture Research Center (SMARTer), Taichung City 402, Taiwan;
+cldai@dragon.nchu.edu.tw
+3 Graduate Institute of Energy Engineering, National Central University, Taoyuan City 320, Taiwan;
+cysu@ncu.edu.tw
+4 Department of Mechanical Engineering, National Chung Hsing University, Taichung City 402, Taiwan
+* Correspondence: yctsaii@dragon.nchu.edu.tw; Tel.: +886-4-2284-0377
+Abstract: In intelligent manufacturing and robotic technology, various sensors must be integrated
+with equipment. In addition to traditional sensors, stretchable sensors are particularly attractive for
+applications in robotics and wearable devices. In this study, a piezoresistive stretchable strain sensor
+based on laser-induced graphene (LIG) was proposed and developed. A three-dimensional, porous
+LIG structure fabricated from polyimide (PI) ﬁlm using laser scanning was used as the sensing layer
+of the strain sensor. Two LIG pattern structures (parallel and vertical) were fabricated and integrated
+within the LIG strain sensors. Scanning electron microscopy, an X-ray energy dispersive spectrometer,
+and Raman scattering spectroscopy were used to examine the microstructure of the LIG sensing
+layer. The performance and strain sensing properties of the parallel and vertical stretchable LIG
+strain sensors were investigated in tensile tests. The relative resistance changes and the gauge factors
+of the parallel and vertical LIG strain sensors were quantiﬁed. The parallel strain sensor achieved
+a high gauge factor of 15.79 in the applied strain range of 10% to 20%. It also had high sensitivity,
+excellent repeatability, good durability, and fast response times during the tensile experiments. The
+developed LIG strain sensor can be used for the real-time monitoring of human motions such like
+ﬁnger bending, wrist bending, and throat swallowing.
+Keywords: laser-induced graphene; stretchable strain sensor; gauge factor; polymer carbonization
+1. Introduction
+In recent years, the demand for portable and wearable devices with sensing functions
+has rapidly increased. The growing demand for these devices is expected to lead to the
+development of promising technologies for fabricating stable sensors. Various sensors for
+converting external stimuli into readable electrical signals have been proposed and used
+widely in robots and wearable medical devices. Strain sensors are a key type of sensor
+used to monitor complex human actions, such as ﬁnger or wrist bending, in many medical
+applications [1–4]. Strain sensors can provide real-time health information on heartbeat,
+respiration, pulse, or other biological functions to monitor physical exertion or for medical
+diagnosis. Strain sensors have excellent potential for use in healthcare devices that pick up
+minute physiological signals [5–10].
+Conventional strain sensors usually comprise silicon substrate or rigid materials.
+However, sensors produced with these materials have a small strain measurement range;
+this limited deformation reduces the applicability of strain sensors in various ﬁelds. To
+increase the strain measurement range, sensors with stretchable substrates have been
+Micromachines 2022, 13, 1220. https://doi.org/10.3390/mi13081220 https://www.mdpi.com/journal/micromachines
+
+Micromachines 2022, 13, 1220 2 of 14
+proposed. Many such sensors comprise an elastic substrate, a sensing layer, and a pair of
+electrodes [11]. Polydimethylsiloxane (PDMS) is widely employed as an elastic substrate
+due to its excellent mechanical properties, such as its low elastic modulus, high ﬂexibility,
+and high transparency [12]. Moreover, curing liquid PDMS for sensor fabrication improves
+its adhesion to the sensing layer, increasing sensor stability. Therefore, PDMS stretchable
+substrates have been studied extensively, and PDMS is a key material in stretchable strain
+sensor development [13–16].
+Strain sensors are typically piezoresistive [17], capacitive [18], or piezoelectric [19]. In a
+piezoresistive strain sensor, the external strain is measured based on changes in the electric
+resistance of the sensing material. Therefore, both the substrate and the sensing material
+are key factors affecting the performance of a stretchable strain sensor. Many studies have
+demonstrated that nanomaterials, such as carbon nanotubes, carbon black, nanocarbon
+ﬁbers, or graphene, can be used as sensing materials in strain sensors [9,20–22]. In particular,
+graphene has exceptional properties, such as high mechanical strength and high electrical
+conductivity, and thus has been identiﬁed as a promising material for strain sensors [23–26].
+Different graphene preparation methods produce different graphene structures [27]. Some
+common graphene preparation methods are mechanical exfoliation, graphene oxide reduc-
+tion, and chemical vapor deposition (CVD). However, these methods are typically both
+expensive and complicated. For example, in mechanical exfoliation, the ﬁrst preparation
+method to be reported in the literature, graphene is produced by directly separating it from
+the surface of a graphite structure with an experimental instrument [28,29]. However, this
+process is difﬁcult, time-consuming, and costly, and the quality of the produced graphene is
+inconsistent; thus, the method is unsuitable for large-scale graphene production. Reduced
+graphene oxide is prepared by using chemical or thermal reduction solution; the method
+can be used to continually produce homogenous graphene structures [30–32]. However,
+the large-scale preparation of reduced graphene oxide is limited by the fact that waste
+liquid from the preparation process is an environmental pollutant. The CVD process has
+recently been proposed for preparing high-quality graphene on an industrial scale [33–35].
+However, the cost of the CVD equipment required for preparing large-area graphene ﬁlms
+is high; thus, meeting the demand for products is challenging.
+Laser-induced graphene (LIG) prepared with a laser scanning process has recently
+been proposed as a sensing material for strain sensors [ 36–41]. LIG, which has a three-
+dimensional (3D) porous network structure, is generated directly from polyimide (PI)
+ﬁlm using a laser. The laser scanning process can be used to fabricate LIG patterns in a
+noncontact process via the laser-direct-write technique. Compared with other graphene
+preparation methods, laser induction can be used to fabricate and pattern graphene sensing
+materials in a simpler, lower-cost manner and is compatible with large-area graphene
+fabrication. Therefore, the working principles and electromechanical performance of LIG
+strain sensors have been widely studied in the literature. However, the effect of different
+laser-scanned LIG patterns on strain sensor performance has rarely been investigated.
+In this work, a stretchable strain sensor based on a 3D porous LIG structure and
+PDMS was proposed and developed. A schematic of the proposed LIG stretchable strain
+sensor is displayed in Figure 1a. The LIG was used as the sensing material, and the elastic
+PDMS polymer was used as the substrate and covering layer. The sensing LIG structure
+was produced using CO2 infrared laser scanning and patterning on a PI ﬁlm. Two laser
+irradiation paths were used to fabricate LIG structures with different stretching directions,
+namely parallel and vertical LIG structures, as presented in Figures 1b and 1c, respectively.
+These different structures were characterized, and their performance was investigated.
+If the LIG strain sensor underwent an external displacement, the changes in electrical
+resistance were measured, and the applied stain was estimated.
+
+Micromachines 2022, 13, 1220 3 of 14
+Figure 1. Schematic of the proposed (a) stretchable LIG strain sensor, (b) parallel LIG structure, and
+(c) vertical LIG structure.
+2. Materials and Methods
+2.1. Fabrication of the LIG Structure
+A CO2 infrared laser was used to irradiate and scan a PI ﬁlm to fabricate the LIG
+sensing structures, as shown in Figure 2a. To generate high-quality LIG structures, the
+laser irradiation was focused on the surface of the PI ﬁlm to ensure that the irradiation
+was constant during the laser scanning process. When the laser irradiated the PI ﬁlm,
+the photothermal effect was present on the ﬁlm, as shown in Figure 2b [ 42–45]. Lattice
+vibration and lattice friction both increased the temperature at the irradiated region, and the
+resulting high temperature caused the chemical reactions that induced the formation of the
+LIG structure [36,46,47]. Chemical bonds in the PI ﬁlm, such as C–O, C=O and C–N, broke
+at these temperatures [48], and the detached atoms recombined with O and N atoms in the
+ambient environment through oxidation reactions; the resulting gas products were released
+into the air. The LIG structure was formed directly by the carbonization of the residual
+carbon bonds. During the laser irradiation process, the highest temperature reached by the
+PI ﬁlm was in the laser spot region. The temperature gradually decreased with distance
+from the laser spot. Triangular LIG structures were generated on both sides of the laser
+spot according to the variance in temperature distribution during the laser irradiation
+process. After the laser scanning process, the produced LIG structure was divided into a
+top and bottom layer. The top LIG layer was produced from the PI surface region. During
+its formation, the top LIG layer had sufﬁcient space to expand and thus had a relatively
+loose structure. By contrast, the bottom LIG layer was formed deeper within the PI ﬁlm
+and thus had a lower porosity [49].
+Figure 2. Schematic of ( a) LIG fabrication by laser irradiation and ( b) reaction principle of laser
+irradiation process.
+
+Micromachines 2022, 13, 1220 4 of 14
+2.2. Fabrication of the LIG Strain Sensor
+The fabrication process for the stretchable strain sensor is presented in Figure 3. First,
+a 125 µm-thick polyimide (PI) ﬁlm (UPI03-33, UNI FILM Co., Ltd., Taipei, Taiwan) was
+attached to a glass substrate (Figure 3a). A CO2 laser (LaserPro Venus II, GCC Innovation,
+New Taipei, Taiwan) was used to scan the PI ﬁlm to produce the LIG structures (Figure 3b).
+The laser wavelength was 10.6 µm, and the laser spot diameter was 100 µm. The laser
+scanning parameters were as follows: scanning speed, 3 cm/s; laser power, 3.6 W; and
+scanning resolution, 500 dpi. The dimensions of the LIG strain sensor region were 20 mm
+in length and 1 mm in width (Figure 4). To produce two different LIG structures, laser
+scans with a parallel or vertical pattern were performed (Figures 4a and 4b, respectively).
+The spacing between each line was set to 0.1 mm. After the laser scanning process, LIG
+had been generated on the PI ﬁlm surface. PDMS was then spin-coated on the PI ﬁlm with
+an LIG substrate surface at 300 rpm for 30 s to penetrate the LIG structure and form a thin
+ﬁlm (Figure 3c). To prevent the formation of air bubbles in the LIG structure, a vacuum
+process was used to remove air bubbles from the PDMS. In addition, the vacuum process
+increased the ability of the PDMS to penetrate the LIG porous structure, stabilizing the LIG
+structure. The PDMS was then cured on a hot plate at 80 ◦C for 3 h (Figure 3d). After the
+curing process, the PDMS ﬁlm with an LIG layer was peeled from the PI ﬁlm (Figure 3e). If
+the PDMS did not penetrate the LIG structure, the LIG structure was destroyed during the
+peel-off process. Then, copper foil tape was stuck to the stretchable strain sensor to serve
+as the connecting electrodes. To decrease the contact resistance between the LIG and the
+copper foil tape, sliver paste was used as an interface material. Finally, a protective PDMS
+coating was applied to the strain sensor (Figure 3f).
+Figure 3. Fabrication process for the stretchable LIG strain sensor. ( a) PI ﬁlm was attached to the
+glass substrate, (b) a CO2 laser was used to scan on PI ﬁlm, (c) PDMS was penetrate to LIG by spin
+coating, (d) PDMS was cured on hot plate, (e) PDMS ﬁlm with an LIG layer was peeled from the PI
+ﬁlm, (f) LIG strain sensor was prepared by connecting electrodes and PDMS covering process.
+Figure 4. Laser scanning patterns. (a) Parallel and (b) vertical scanning.
+
+Micromachines 2022, 13, 1220 5 of 14
+2.3. Principles of the Strain Sensor
+The piezoresistive strain sensor functions based on the change in the electric resistance
+of the sensing material in response to an external applied strain. For a sensing material, the
+resistance (R) can be expressed as follows:
+R = ρl
+A (1)
+Here, ρ is the resistivity, l is the length, and A is the cross-sectional area of the sensing
+material. If a piezoresistive material is deformed, such as due to an applied external strain,
+its resistance changes. For the LIG sensing material, the resistivity changes due to changes
+in the conductive path of the graphene resulting from deformation. The performance of the
+strain sensor can be evaluated in terms of the relationship between the relative resistance
+change and the applied strain; this relationship is indicated by the gauge factor (GF):
+GF = ∆R/R0
+ε , (2)
+Here, ∆R is the resistance change, R0 is the initial resistance, and ε is the applied strain.
+The gauge factor is a key index for the strain sensor. A larger gauge factor indicates that
+the strain sensor has higher sensitivity.
+2.4. LIG Characterization and Strain Sensor Measurement Setup
+Field emission scanning electron microscopy (FE-SEM, JSM-7800F, JEOL Ltd., Tokyo,
+Japan) was used to observe the surface morphology of the fabricated LIG structure and
+strain sensor. An X-ray energy dispersive spectrometer (EDS) was used to analyze the
+elemental content of the LIG structure to verify that the graphene was produced successfully
+from the PI. A Raman scattering spectroscopy system was used to analyze the material
+molecular composition. Because different carbon structures can be identiﬁed using the
+Raman peaks, Raman scattering spectroscopy was used to determine the structure of the
+fabricated LIG.
+To estimate the performance of the fabricated LIG strain sensor, a tensile testing
+measurement setup was developed (Figure 5). The fabricated LIG strain sensor was ﬁxed to
+a ﬁxed point and to a moving stage. A computer-controllable moving stage (EASM2NEX005,
+Oriental motor, Taichung, Taiwan) was used to displace the LIG strain sensor. A digital
+multimeter (GDM-8261A, Good Will Instrument, New Taipei, Taiwan) was connected to
+the strain sensor electrodes to record the resistance changes of the LIG strain sensor. A
+digital microscope (UM12, Microlinks, Kaohsiung, Taiwan) was used to observe the LIG
+structure during stretching.
+Figure 5. Measurement setup for the response of the stretchable LIG strain sensor.
+3. Results and Discussion
+3.1. Characteristics of LIG and LIG Sensor
+SEM results on the morphology of the LIG structure revealed that the PI ﬁlm was
+carbonized into a double-mountain LIG structure by the single-laser irradiation path
+(Figure 6a). Before laser irradiation, the PI ﬁlm surface was smooth, without any visible
+
+Micromachines 2022, 13, 1220 6 of 14
+impurities. The laser spot size was ≈100 µm, and the width of the formed LIG structure
+was ≈170 µm. Under laser irradiation, the PI material ablated and expanded from the
+laser spot to the surrounding region, causing gasiﬁcation that resulted in the observed
+double-mountain, 3D, and porous LIG structure. The SEM images clearly reveal LIG
+structures with triangular mountain-like shapes (Figure 6b). The SEM image with higher
+magniﬁcation in Figure 6c reveals a rippled shape in the laser irradiation path, which
+indicates the overlap of each laser pulse. The thickness of the porous carbonized LIG
+structure was approximately 190 µm (Figure 6d). The formed LIG was divided into a
+top layer and a bottom layer (Figure 6e). The top-layer LIG structure had a triangular,
+mountain-like shape and higher porosity because the top layer had more space to expand
+during the formation process than the bottom layer did. The bottom LIG structure was
+a thin ﬁlm with lower porosity due to the restricted space for expansion during laser
+scanning.
+Figure 6. SEM images of (a–e) LIG structures formed by laser irradiation and (f) transfer of the LIG
+structure and packaging with PDMS.
+After the LIG structure was transferred and packaged with PDMS, the original shape
+of the LIG structure was maintained (Figure 6f). The porous LIG structure was fully
+embedded in the PDMS layer; the other side was also coated with a PDMS layer to form
+a sandwich structure. The PDMS layers were used as a stretchable substrate to enhance
+the stability of the LIG sensing material. The total thickness of the produced LIG strain
+sensor was 500 µm. The fabricated LIG strain sensor had both good ﬂexibility and good
+stretchability (Figure 7).
+The atomic content of the bare LIG structure and that embedded in PDMS were
+measured using EDS; the results are displayed in Figures 8a and 8b, respectively. The
+carbon content ratio was 93.91% for the LIG structure, demonstrating that the LIG had
+both high carbonization and excellent quality [47]. High-magniﬁcation SEM images clearly
+revealed the 3D porous LIG structure. After the embedding in PDMS, the weight percentage
+of Si increased to 11.95% due to the composition of PDMS. The PDMS was fully embedded
+into the LIG structure due to the LIG structure’s porosity.
+
+Micromachines 2022, 13, 1220 7 of 14
+Figure 7. Fabricated LIG stain sensor.
+Figure 8. SEM images and EDS results for (a) the LIG structure and (b) the LIG structure embedded
+in PDMS.
+3.2. Raman Spectroscopy Results
+Raman scattering spectroscopy was employed to evaluate the structural characteristics
+of the LIG. Three notable peaks for the LIG structures, namely D, G, and 2D, were observed
+at 1330, 1560, and 2680 cm−1, respectively [50]. The D peak indicates structural defects in
+the graphene structure, the G peak is the main characteristic peak reﬂecting the number
+of graphene layers, and the 2D peak can be used to verify the carbon material, indicating
+that graphene was formed and successfully embedded within the PI ﬁlm. The intensity
+ratio of D/G indicates an inverse correlation with the degree of graphene crystallinity in
+the LIG; speciﬁcally, a higher D/G implies more numerous defects, lower crystallinity, and
+thus lower graphitization. Moreover, an intensity ratio of 2D/G > 2 indicates high-quality,
+single-layer graphene [51]; if 2D/G < 0.6, the produced graphene contains more than four
+layers. That is, a lower 2D/G ratio indicates a greater number of graphene layers. These
+
+Micromachines 2022, 13, 1220 8 of 14
+Raman intensity ratios were used to compare the carbonization of the top and bottom
+layers of the LIG structure and to determine the quality of the LIG structure.
+The Raman spectroscopy measurement results in Figure 9 reveal that both the top-
+and bottom-layer LIG structures are typical graphene structures. The D/G intensity ratios
+for the bottom and top layers were 0.98 and 0.27, respectively. The 2D/G intensity ratio
+for the top layer was higher, indicating that it had fewer defects and more layers than the
+bottom layer. Therefore, the top-layer LIG structure was more resistant to breakage due to
+the applied strain during the stretching process.
+Figure 9. Raman scattering spectroscopy measurement results for the top- and bottom-layer LIG structures.
+3.3. Performance of the LIG Strain Sensor
+A tensile test was performed to evaluate the performance of the parallel and vertical
+LIG strain sensors. The initial resistances of the two strain sensors before the application of
+strain were 0.92 and 6.04 kΩ for the parallel and vertical LIG strain sensors, respectively.
+The lower resistance of the parallel LIG strain sensor was attributed to the greater number
+of conductive paths in both the top- and bottom-layer LIG structures. For the vertical LIG
+strain sensor, the resistance was dependent on the minimum cross-sectional area. The
+minimum cross-sectional area of the vertical LIG strain sensor was the area between the
+mountain-like features. Therefore, the vertical LIG strain sensor had a higher resistance
+than the parallel sensor due to the lower number of conductive paths in the bottom-layer
+LIG structure of the vertical sensor. For the vertical LIG strain sensor, the conductive paths
+in the top layer had a smaller contribution to the electric resistance than those in the bottom
+layer. Various strain values were applied to each strain sensor, and the relative resistance
+changes were recorded. The measurement results are presented in Figure 10. The initial
+length of each strain sensor was 20 mm, and the maximum applied deformation was 4 mm,
+corresponding to an applied strain of 20%. When the LIG strain sensor underwent an
+applied tensile strain over 20%, the changes in the resistance of the LIG sensing layer were
+unstable. Sometimes the resistance was large and could not be measured. This was due
+to the excessive cracks that formed and the dramatically reduced conductive paths. The
+measurement results reveal that the gauge factor of the parallel LIG strain sensor varied
+with strain. The gauge factor of the parallel LIG strain sensor increased linearly between
+0% and 10% applied strain (GFP1), reaching 2.48 at 10% applied strain. The gauge factor
+between 10% and 20% strain (GF P2) increased rapidly due to the rapid increase in the
+relative resistance, reaching a maximum of 15.79. The higher gauge factor observed for
+larger applied strain values was attributed to the decrease in the number of conductive
+paths, increasing the resistance (Figure 11a–c). By contrast, the resistance of the vertical LIG
+strain sensor increased slowly and linearly for all strain values during the tensile test. The
+
+Micromachines 2022, 13, 1220 9 of 14
+gauge factor (GFV) was 0.74 throughout the applied strain range of 0% to 20%. This result
+reveals that the number of conductive paths in the bottom LIG structure of the vertical
+LIG strain sensor did not change substantially when strain was applied. The conductive
+paths of the vertical LIG strain sensor primarily relied on the bottom-layer LIG structures.
+Thus, the difference in the gauge factors of the parallel and vertical LIG strain sensors was
+attributed to the different LIG structure patterns.
+Figure 10. Relative resistance changes with different applied strain values for the parallel and vertical
+LIG strain sensors.
+Figure 11. Digital microscope images of (a–c) parallel and (d–f) vertical LIG structures for applied
+strain values of 0%, 10%, and 20%, respectively.
+A digital microscope was used to record images of the parallel and vertical LIG strain
+sensors during stretching (Figures 11a–c and 11d–f, respectively). At higher strain values,
+cracks formed on the LIG sensing layer. The cracks were perpendicular to the applied
+strain loading, forming a striped pattern. The width of the formed cracks increased with
+the applied strain for strain values between 10% and 20%.
+The performance of the parallel LIG strain sensor was investigated. The resistance
+of the parallel LIG strain sensor was measured at strain values of 5%, 10%, 15%, and 20%
+(Figure 12a). The stretching and releasing speeds were set to 1 mm/s, and the sensor
+was held at each strain for 5 s between each movement. The resistance changes for each
+applied strain were observed. The resistance returned to its initial value when the applied
+
+Micromachines 2022, 13, 1220 10 of 14
+strain was released, indicating that the conductive paths in the parallel LIG structure were
+reformed after the release of the applied strain. The dynamic response measurements for
+four applied strain values are presented in Figure 12b. For applied strain values of 5%, 10%,
+and 15%, the changes in resistance were stable. However, a slight drift in resistance was
+observed every time a 20% strain was applied. This was attributed to the time required
+for the conductive paths to be rebuilt after being subjected to a 20% applied strain. This
+short-term unstable state was observable in the abrupt peak of the initial resistance after
+20% strain was applied (Figure 12a). The durability testing result of the parallel LIG strain
+sensor for a 5% applied strain for 2000 stretch–release cycles is presented in Figure 12c.
+The resistance was stable after 2000 cycles. The parallel LIG strain sensor could sense a
+minimum applied strain of 0.05% (Figure 12d).
+Figure 12. Performance of the parallel LIG strain sensor for (a) step response, (b) dynamic response,
+(c) durability testing, and (d) minimum sensing strain testing.
+A strain sensor used in real-time monitoring must have a short response time. The
+response and recovery times of the parallel LIG strain sensor were related to the stretch
+and release times (Figures 13a and 13b, respectively). In the tests, the deformation was
+set to 1 mm, corresponding to a 5% strain. The speed of the moving stage was 1 mm/s.
+Therefore, the 5% strain was applied and released with a 1000 ms duration. The resistance
+measurement results reveal that the response times for stretching and releasing were 1160
+and 1163 ms, respectively. Therefore, compared with the durations of stretching and
+releasing, the recovery times were delayed by 160 and 163 ms, respectively. Thus, changes
+in resistance could be rapidly detected by the LIG strain sensor.
+3.4. Demonstration of the LIG Strain Sensor
+The developed LIG strain sensor was used to monitor human motion. The LIG strain
+sensor was ﬁxed to a ﬁnger or wrist by tape to monitor bending by recording the relative
+resistance changes of the sensor. The measurement results for ﬁnger and wrist bending are
+presented in Figures 14a and 14b, respectively. The relative changes in resistance clearly
+reﬂected the movements of the ﬁnger and wrist; the resistance increased as the ﬁnger or
+wrist bent and returned to its initial value when the ﬁnger or wrist returned to its initial
+state. In addition, the developed LIG strain sensor was ﬁxed on the neck for monitoring
+the throat-swallowing motion, as shown in Figure 14c. Even though the throat-swallowing
+motion was very small in neck surface area, the LIG strain sensor was used to monitor it.
+Thus, the developed strain sensor could be used to monitor human motion.
+
+Micromachines 2022, 13, 1220 11 of 14
+Figure 13. Response and delay times of the LIG strain sensor under an applied strain for (a) stretching
+and (b) releasing.
+Figure 14. Detection of human motion using the developed LIG strain sensor for (a) ﬁnger-bending
+motion, (b) wrist-bending motion, and (c) throat-swallowing motion.
+4. Conclusions
+In this study, a stretchable LIG strain sensor was proposed and developed. The LIG
+strain sensor comprised a LIG sensing material and a PDMS stretchable substrate. The LIG
+was prepared on a PI ﬁlm using direct laser irradiation. The laser irradiation process could
+pattern the LIG structures in a large area, achieving simple and low-cost fabrication. Two
+different LIG pattern structures, parallel and vertical, were fabricated and used to produce
+LIG strain sensors. The laser-irradiated LIG structures could be divided into a top-layer
+LIG structure and a bottom-layer LIG structure. After they were embedded in PDMS, the
+conductive paths for these two layers differed. The parallel LIG strain sensor had a lower
+initial resistance and larger gauge factor than the vertical LIG structure, and the relative
+resistance changes of the parallel strain sensor were thus more easily observed than those
+of the vertical strain sensor for all strain ranges. The parallel LIG strain sensor had a high
+sensitivity, fast response time, excellent repeatability, and good durability. The maximum
+gauge factor of the parallel LIG strain sensor was 2.48 in the strain range of 0% to 10% and
+15.79 in the strain range of 10% to 20%. The developed LIG strain sensor can thus be used
+to monitor human motions, such as ﬁnger bending, wrist bending, and throat swallowing,
+in real time.
+Author Contributions: Conceptualization, Y.-H.Y. and Y.-C.T.; Data curation, Y.-H.Y. and C.-S.H.;
+Formal analysis, Y.-H.Y., C.-Y.S., C.-L.D. and Y.-C.T.; Funding acquisition, Y.-C.T.; Investigation,
+
+Micromachines 2022, 13, 1220 12 of 14
+Y.-H.Y., C.-S.H., Z.-Y.L., H.-J.W. and Y.-C.T.; Methodology, Y.-H.Y., C.-S.H., Z.-Y.L. and Y.-C.T.; Project
+administration, Y.-H.Y. and Y.-C.T.; Resources, C.-Y.S., C.-L.D. and Y.-C.T.; Software, Y.-H.Y., C.-S.H.,
+Z.-Y.L. and H.-J.W.; Supervision, Y.-H.Y. and Y.-C.T.; Validation, Y.-H.Y., C.-Y.S., C.-L.D. and Y.-C.T.;
+Visualization, Y.-H.Y., C.-S.H. and Y.-C.T.; Writing—original draft, Y.-H.Y. and Y.-C.T.; Writing—
+review and editing, Y.-H.Y. and Y.-C.T. All authors have read and agreed to the published version of
+the manuscript.
+Funding: This research was supported in part by the Ministry of Science and Technology, R.O.C.,
+under Grant No. MOST 110-2313-B-005-028-MY3 and No. MOST 110-2634-F-005-006—project Smart
+Sustainable New Agriculture Research Center (SMARTer).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Kerpa, O.; Weiss, K.; Worn, H. Development of a ﬂexible tactile sensor system for a humanoid robot. In Proceedings of the
+2003 IEEE/RSJ International Conference on Intelligent Robots and Systems, Las Vegas, NV , USA, 27–31 October 2003; Volume 1,
+pp. 1–6.
+2. Payeur, P .; Pasca, C.; Cretu, A.M.; Petriu, E.M. Intelligent haptic sensor system for robotic manipulation.IEEE T rans. Instrum.
+Meas. 2005, 54, 1583–1592. [CrossRef]
+3. Schmitz, A.; Maiolino, P .; Maggiali, M.; Natale, L.; Cannata, G.; Metta, G. Methods and technologies for the implementation of
+large-scale robot tactile sensors. IEEE T rans. Robot. 2011, 27, 389–400. [CrossRef]
+4. Zhan, Z.; Lin, R.; Tran, V .T.; An, J.; Wei, Y.; Du, H.; Tran, T.; Lu, W. Paper/carbon nanotube-based wearable pressure sensor for
+physiological signal acquisition and soft robotic skin. ACS Appl. Mater. Interfaces 2017, 9, 37921–37928. [CrossRef] [PubMed]
+5. Kim, S.; Amjadi, M.; Lee, T.I.; Jeong, Y.; Kwon, D.; Kim, M.S.; Kim, K.; Kim, T.S.; Oh, Y.S.; Park, I. Wearable, ultrawide-range, and
+bending-insensitive pressure sensor based on carbon nanotube network-coated porous elastomer sponges for human interface
+and healthcare devices. ACS Appl. Mater. Interfaces 2019, 11, 23639–23648. [CrossRef]
+6. Schwartz, G.; Tee, B.C.K.; Mei, J.; Appleton, A.L.; Kim, D.H.; Wang, H.; Bao, Z. Flexible polymer transistors with high pressure
+sensitivity for application in electronic skin and health monitoring. Nat. Commun. 2013, 4, 1859. [CrossRef]
+7. Li, Y.Q.; Zhu, W.B.; Yu, X.G.; Huang, P .; Fu, S.Y.; Hu, N.; Liao, K. Multifunctional wearable device based on ﬂexible and conductive
+carbon sponge/polydimethylsiloxane composite. ACS Appl. Mater. Interfaces 2016, 8, 33189–33196. [CrossRef]
+8. Trung, T.Q.; Lee, N.E. Flexible and stretchable physical sensor integrated platforms for wearable human-activity monitoring and
+personal healthcare. Adv. Mater. 2016, 28, 4338–4372. [CrossRef]
+9. Wang, X.; Gu, Y.; Xiong, Z.; Cui, Z.; Zhang, T. Silk-molded ﬂexible, ultrasensitive, and highly stable electronic skin for monitoring
+human physiological signals. Adv. Mater. 2014, 26, 1336–1342. [CrossRef]
+10. Yamada, T.; Hayamizu, Y.; Yamamoto, Y.; Yomogida, Y.; Izadi-Najafabadi, A.; Futaba, D.N.; Hata, K. A stretchable carbon
+nanotube strain sensor for human-motion detection. Nat. Nanotechnol. 2011, 6, 296–301. [CrossRef]
+11. Souri, H.; Banerjee, H.; Jusuﬁ, A.; Radacsi, N.; Stokes, A.A.; Park, I.; Sitti, M.; Amjadi, M. Wearable and stretchable strain sensors:
+Materials, sensing mechanisms, and applications. Adv. Intell. Syst. 2020, 2, 2000039. [CrossRef]
+12. Ozbolat, V .; Dey, M.; Ayan, B.; Povilianskas, A.; Demirel, M.C.; Ozbolat, I.T. 3D printing of PDMS improves its mechanical and
+cell adhesion properties. ACS Biomater. Sci. Eng. 2018, 4, 682–693. [CrossRef]
+13. Zhang, H.; Han, W.; Xu, K.; Zhang, Y.; Lu, Y.; Nie, Z.; Du, Y.; Zhu, J.; Huang, W. Metallic sandwiched-aerogel hybrids enabling
+ﬂexible and stretchable intelligent sensor. Nano Lett. 2020, 20, 3449–3458. [CrossRef]
+14. Sengupta, D.; Muthuram, V .; Kottapalli, A.G.P . Flexible Graphene-on-PDMS sensor for human motion monitoring applications.
+In Proceedings of the 2020 IEEE SENSORS, Virtual Format, 23–26 March 2020; pp. 1–4.
+15. Li, J.T.; Stanford, M.G.; Chen, W.; Presutti, S.E.; Tour, J.M. Laminated laser-induced graphene composites.ACS Nano 2020, 14,
+7911–7919. [CrossRef]
+16. Gamil, M.; Nageh, H.; Bkrey, I.; Sayed, S.; El-Bab, A.M.F.; Nakamura, K.; Tabata, O.; El-Moneim, A.A. Graphene-based strain
+gauge on a ﬂexible substrate. Sens. Mater. 2014, 26, 699–709.
+17. Bae, S.H.; Lee, Y.; Sharma, B.K.; Lee, H.J.; Kim, J.H.; Ahn, J.H. Graphene-based transparent strain sensor. Carbon 2013, 51, 236–242.
+[CrossRef]
+18. Cai, L.; Song, L.; Luan, P .; Zhang, Q.; Zhang, N.; Gao, Q.; Zhao, D.; Zhang, X.; Tu, M.; Yang, F.; et al. Super-stretchable, transparent
+carbon nanotube-based capacitive strain sensors for human motion detection. Sci. Rep. 2013, 3, 3048. [CrossRef]
+19. Chen, Z.; Wang, Z.; Li, X.; Lin, Y.; Luo, N.; Long, M.; Zhao, N.; Xu, J.B. Flexible piezoelectric-induced pressure sensors for static
+measurements based on nanowires/graphene heterostructures. ACS Nano 2017, 11, 4507–4513. [CrossRef]
+
+Micromachines 2022, 13, 1220 13 of 14
+20. Park, J.; Lee, Y.; Hong, J.; Lee, Y.; Ha, M.; Jung, Y.; Lim, H.; Kim, S.Y.; Ko, H. Tactile-direction-sensitive and stretchable electronic
+skins based on human-skin-inspired interlocked microstructures. ACS Nano 2014, 8, 12020–12029. [CrossRef]
+21. Lu, N.; Lu, C.; Yang, S.; Rogers, J. Highly sensitive skin-mountable strain gauges based entirely on elastomers. Adv. Funct. Mater.
+2012, 22, 4044–4050. [CrossRef]
+22. Jeong, Y.R.; Park, H.; Jin, S.W.; Hong, S.Y.; Lee, S.S.; Ha, J.S. Highly stretchable and sensitive strain sensors using fragmentized
+graphene foam. Adv. Funct. Mater. 2015, 25, 4228–4236. [CrossRef]
+23. Hansora, D.P .; Shimpi, N.G.; Mishra, S. Graphite to graphene via graphene oxide: An overview on synthesis, properties, and
+applications. JOM 2015, 67, 2855–2868. [CrossRef]
+24. Allen, M.J.; Tung, V .C.; Kaner, R.B. Honeycomb carbon: A review of graphene. Chem. Rev. 2010, 110, 132–145. [CrossRef]
+25. Castro Neto, A.H.; Guinea, F.; Peres, N.M.R.; Novoselov, K.S.; Geim, A.K. The electronic properties of graphene.Rev. Mod. Phys.
+2009, 81, 109. [CrossRef]
+26. Zhao, X.; Zhang, Q.; Chen, D.; Lu, P . Enhanced mechanical properties of graphene-based poly (vinyl alcohol) composites.
+Macromolecules 2010, 43, 2357–2363. [CrossRef]
+27. Wang, Z. Progress on preparation of graphene and its application. In Proceedings of the 2017 3rd International Conference on
+Applied Materials and Manufacturing Technology (ICAMMT 2017), Changsha, China, 23–25 June 2017; Volume 242, p. 12032.
+28. Novoselov, K.S.; Geim, A.K.; Morozov, S.V .; Jiang, D.E.; Zhang, Y.; Dubonos, S.V .; Grigorieva, I.V .; Firsov, A.A. Electric ﬁeld effect
+in atomically thin carbon ﬁlms. Science 2004, 306, 666–669. [CrossRef]
+29. Raju, A.P .A.; Lewis, A.; Derby, B.; Young, R.J.; Kinloch, I.A.; Zan, R.; Novoselov, K.S. Wide-area strain sensors based upon
+graphene-polymer composite coatings probed by Raman spectroscopy. Adv. Funct. Mater. 2014, 24, 2865–2874. [CrossRef]
+30. Hummers, W.S., Jr.; Offeman, R.E. Preparation of graphitic oxide. J. Am. Chem. Soc. 1958, 80, 1339. [CrossRef]
+31. Stankovich, S.; Dikin, D.A.; Dommett, G.H.; Kohlhaas, K.M.; Zimney, E.J.; Stach, E.A.; Piner, R.D.; Nguyen, S.T.; Ruoff, R.S.
+Graphene-based composite materials. Nature 2006, 442, 282–286. [CrossRef]
+32. Dikin, D.A.; Stankovich, S.; Zimney, E.J.; Piner, R.D.; Dommett, G.H.; Evmenenko, G.; Nguyen, S.T.; Ruoff, R.S. Preparation and
+characterization of graphene oxide paper. Nature 2007, 448, 457–460. [CrossRef]
+33. Kim, K.S.; Zhao, Y.; Jang, H.; Lee, S.Y.; Kim, J.M.; Kim, K.S.; Ahn, J.H.; Kim, P .; Choi, J.Y.; Hong, B.H. Large-scale pattern growth
+of graphene ﬁlms for stretchable transparent electrodes. Nature 2009, 457, 706–710. [CrossRef]
+34. Yu, Q.; Jauregui, L.A.; Wu, W.; Colby, R.; Tian, J.; Su, Z.; Cao, H.; Liu, Z.; Pandey, D.; Wei, D.; et al. Control and characterization
+of individual grains and grain boundaries in graphene grown by chemical vapour deposition. Nat. Mater. 2011, 10, 443–449.
+[CrossRef] [PubMed]
+35. Reina, A.; Thiele, S.; Jia, X.; Bhaviripudi, S.; Dresselhaus, M.S.; Schaefer, J.A.; Kong, J. Growth of large-area single-and bi-layer
+graphene by controlled carbon precipitation on polycrystalline Ni surfaces. Nano Res. 2009, 2, 509–516. [CrossRef]
+36. Lin, J.; Peng, Z.; Liu, Y.; Ruiz-Zepeda, F.; Ye, R.; Samuel, E.L.G.; Yacaman, M.J.; Yakobson, B.I.; Tour, J.M. Laser-induced porous
+graphene ﬁlms from commercial polymers. Nat. Commun. 2014, 5, 5714. [CrossRef] [PubMed]
+37. Lamberti, A.; Clerici, F.; Fontana, M.; Scaltrito, L. A highly stretchable supercapacitor using laser-induced graphene electrodes
+onto elastomeric substrate. Adv. Energy Mater. 2016, 6, 1600050. [CrossRef]
+38. Wang, Y.; Wang, Y.; Zhang, P .; Liu, F.; Luo, S. Laser-Induced Freestanding Graphene Papers: A new route of scalable fabrication
+with tunable morphologies and properties for multifunctional devices and structures. Small 2018, 14, 1802350. [CrossRef]
+39. Wu, Y.; Karakurt, I.; Beker, L.; Kubota, Y.; Xu, R.; Ho, K.Y.; Zhao, S.; Zhong, J.; Zhang, M.; Wang, X.; et al. Piezoresistive stretchable
+strain sensors with human machine interface demonstrations. Sens. Actuators A Phys. 2018, 279, 46–52. [CrossRef]
+40. Luong, D.X.; Yang, K.; Yoon, J.; Singh, S.P .; Wang, T.; Arnusch, C.J.; Tour, J.M. Laser-induced graphene composites as multifunc-
+tional surfaces. ACS Nano 2019, 13, 2579–2586. [CrossRef]
+41. Huang, L.; Wang, H.; Wu, P .; Huang, W.; Gao, W.; Fang, F.; Cai, N.; Chen, R.; Zhu, Z. Wearable ﬂexible strain sensor based on
+three-dimensional wavy laser-induced graphene and silicone rubber. Sensors 2020, 20, 4266. [CrossRef]
+42. Gamaly, E.G.; Rode, A.V .; Luther-Davies, B.; Tikhonchuk, V .T. Ablation of solids by femtosecond lasers: Ablation mechanism and
+ablation thresholds for metals and dielectrics. Phys. Plasmas 2002, 9, 949–957.
+43. Burrows, S.E.; Rashed, A.; Almond, D.P .; Dixon, S. Combined laser spot imaging thermography and ultrasonic measurements for
+crack detection. Nondestruct. T est. Eval. 2007, 22, 217–227.
+44. Li, T.; Almond, D.P .; Rees, D.A.S. Crack imaging by scanning laser-line thermography and laser-spot thermography.Meas. Sci.
+T echnol.2011, 22, 35701. [CrossRef]
+45. Roemer, J.; Uhl, T.; Pieczonka, L. Laser spot thermography for crack detection in aluminum structures. In Proceedings of the 7th
+International Symposium on NDT in Aerospace, Bremen, Germany, 16–18 November 2015; pp. 1–7.
+46. Zheng, H.Y.; Tan, T.T.; Zhou, W. Studies of KrF laser-induced long periodic structures on polyimide.Opt. Lasers Eng. 2009, 47,
+180–185. [CrossRef]
+47. Wang, L.; Wang, Z.; Bakhtiyari, A.N.; Zheng, H. A comparative study of laser-induced graphene by CO2 infrared laser and 355
+nm ultraviolet (UV) laser. Micromachines 2020, 11, 1094. [CrossRef]
+48. Ye, R.; James, D.K.; Tour, J.M. Laser-induced graphene: From discovery to translation. Adv. Mater. 2019, 31, 1803621. [CrossRef]
+49. Chyan, Y.; Ye, R.; Li, Y.; Singh, S.P .; Arnusch, C.J.; Tour, J.M. Laser-induced graphene by multiple lasing: Toward electronics on
+cloth, paper, and food. ACS Nano 2018, 12, 2176–2183. [CrossRef]
+
+Micromachines 2022, 13, 1220 14 of 14
+50. Ferrari, A.C. Raman spectroscopy of graphene and graphite: Disorder, electron–phonon coupling, doping and nonadiabatic
+effects. Solid State Commun. 2007, 143, 47–57. [CrossRef]
+51. Wang, Z.; Tan, K.K.; Lam, Y.C. Electrical resistance reduction induced with CO2 laser single line scan of polyimide. Micromachines
+2021, 12, 227. [CrossRef]

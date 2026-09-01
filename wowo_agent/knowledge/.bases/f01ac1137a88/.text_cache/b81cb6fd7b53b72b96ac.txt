@@ -1,0 +1,670 @@
+Citation: Leong, W.X.R.; Al-Dhahebi,
+A.M.; Ahmad, M.R.; Saheed, M.S.M.
+Ti3C2Tx MXene-Polymeric Strain
+Sensor with Huge Gauge Factor for
+Body Movement Detection.
+Micromachines 2022, 13, 1302. https://
+doi.org/10.3390/mi13081302
+Academic Editors: Hong Ding,
+Jin Xie and Zebing Mao
+Received: 12 July 2022
+Accepted: 6 August 2022
+Published: 12 August 2022
+Publisher’s Note:MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional afﬁl-
+iations.
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+micromachines 
+Article
+Ti3C2Tx MXene-Polymeric Strain Sensor with Huge Gauge
+Factor for Body Movement Detection
+Wei Xian Rebecca Leong 1,2
+ , Adel Mohammed Al-Dhahebi 2,3 , Mohamad Radzi Ahmad 2,4
+and Mohamed Shuaib Mohamed Saheed 2,3, *
+1 Department of Fundamental and Applied Sciences, Universiti Teknologi PETRONAS,
+Seri Iskandar 32610, Perak, Malaysia
+2 Centre of Innovative Nanostructure & Nanodevices (COINN), Universiti Teknologi PETRONAS,
+Seri Iskandar 32610, Perak, Malaysia
+3 Department of Mechanical Engineering, Universiti Teknologi PETRONAS,
+Seri Iskandar 32610, Perak, Malaysia
+4 Department of Electrical & Electronics Engineering, Universiti Teknologi PETRONAS,
+Seri Iskandar 32610, Perak, Malaysia
+* Correspondence: shuaib.saheed@utp.edu.my; Tel.: +60-53687653
+Abstract: In this work, a composite strain sensor is fabricated by synthesizing MXene and deposition
+of polypyrrole on top of the ﬂexible electrospun PVDF nanoﬁbers. The fabricated sensor exhibits
+a conductive network constructed with MXene and polypyrrole of microcracks network structure,
+demonstrating its strain sensing properties. The presence of these microcracks serves as mechanical
+weak points, which leads to sensitivity enhancement, while the electrospun ﬁber substrate act as a
+cushion for strain loading under large deformations. The as-prepared MXene@Polypyrrole PVDF
+sensor has a gauge factor range of 78–355 with a sensing range between 0–100%. Besides strain
+deformations, the sensor can operate in torsional deformation and human motion, indicating the
+sensor’s potential as a wearable health monitoring device.
+Keywords: Ti3C2Tx-MXene; polypyrrole; strain sensing; torsion
+1. Introduction
+MXene, a new class of 2D material, has been researched broadly recently. This material
+class comprises layers of transition metal/carbides, nitrides, or carbonitrides [1]. MXene is
+stripped from the ternary ceramic structure carbide and nitrides with the formula Mn+1AXn,
+n = 1,2, or 3, where M is the transition metal (Ti, V , Cr, Mo, Nb, etc.), A is mainly group 13
+and 14 elements (Si, Al, Ge or Sn) and X is carbon, nitrogen or both [2–4]. The combination
+of ceramic and metallic behaviors makes the MAX phase distinctive. MAX phase exhibits
+high hardness, low density, and resistance to corrosion. Besides, its high thermal and
+electrical conductivity properties are near to metallic materials [5]. Among the different
+classes of MXene, Ti 3 C2 Tx is highly investigated. A high selectivity etching agent is
+crucial to etch the Al atom layer from the Ti3AlC2 accurately. MXene is synthesized from
+its parental MAX precursor phase using the topochemical selective etching process. The
+principle of this method involves the use of chemical etchant (hydroﬂuoric acid (HF) or
+hydrochloric acid/lithium ﬂuoride (HCL/LiF)) to etch or substitute (delaminate) the strong
+M-A bonds (in the MAX phase) with weaker hydroxyl (OH), oxygen (O), ﬂuorine bonds.
+The resultant materials typically possess stoichiometry structure of Mn+1XnTx layers (called
+MXene) in which the Tx describes the surface functional groups (OH, O, and F) [1]. These
+surface terminations render MXene hydrophilic functionality and processability compared
+to other 2D nanomaterials such as graphene and transition-metal dichalcogenides (TMDs).
+As a result, MXene based materials have recently captivated the interests of scientists
+and engineers across various disciplines not only in biomedical applications but also in
+wearable, soft electronics and energy storage devices [5].
+Micromachines 2022, 13, 1302. https://doi.org/10.3390/mi13081302 https://www.mdpi.com/journal/micromachines
+
+Micromachines 2022, 13, 1302 2 of 11
+Strain sensors or conventionally known as strain gauge have been in the market for
+decades. The basic concept of a strain sensor is it transduces mechanical deformations into
+electrical signals. Flexible and stretchable strain sensor still focus on piezoresistive and
+capacitive type due to their simple read-out system and high ﬂexibility and stretchability.
+Common intrinsic stretchability of strain sensor is incorporated with conductive materials
+such as carbon black, graphene, carbon nanotubes (CNTs) and metal nanostructures (e.g.,
+AgNWs) into stretchable elastomeric matrix. Stretchable conductors with huge difference
+in electrical properties during deformation are commonly utilized in stretchable devices.
+However, there are several drawbacks associated with these nanostructured conductive
+materials such as low electrical conductivity (carbon black), irreversible cracks after de-
+formation (graphene), poor purity causing large resistance (CNT) and relatively high cost
+fabrication process (AgNWs) [5].
+Recently, MXene-based strain sensors performance outperformed previously reported
+hydrogel [6] and MoS2 [7]. They exhibit characteristics of high sensitivity, fast response,
+good stability, and excellent conformability. Due to MXene hydrophilic behavior has good
+interaction with polymeric matrixes, it is favorable in synthesis of hybrid composite materi-
+als. This composite can be processed through simple and low-cost methods into ﬁlms, ﬁbers
+and 3D structures attributed to easy fabrication methods such as electrospraying. Several
+polymer matrixes were reported, including polyvinyl alcohol (PVA) [8–10], poly(vinylidene
+ﬂuoride), polyacrylamide (PAM) [11], polyethylene [12], polyurethane (PU) [13], polyﬂuo-
+renes [14] and polydiallyldimethylammonium chloride (PDDA) [8] which were utilized as
+a base substrate for ﬂexibility of the strain sensor. However, MXene incorporation affects
+the structure and crystallization rate of the polymer matrix which inﬂuences the overall
+performance of the device [12]. Among various conducting polymers, polypyrrole (PPy)
+is one of the most successful electrode materials due to its easy synthesis, low cost, and
+high conductivity [15]. In previous studies, conductive PPy/PU composites fabricated
+strain sensors with high stretchability but had relatively low sensitivity for a strain sensing
+application [16]. Recently, another group of researchers produced MXene/PVDF composite
+to demonstrate the excellent contribution of MXene to electrical performance [17]. To the
+best of our knowledge, there are no reports on incorporating MXene nanosheets with PPy
+on PVDF nanoﬁber in the application of strain sensing and human motion monitoring.
+Despite the excellent properties of polymer and MXene composite, there is still limited
+detailed study that discussed the changes in conductivity and structures of polymeric
+composites with MXene, crucial in utilizing for real-time applications such as in healthcare.
+Herein, we report a process using Ti 3C2Tx MXene and polypyrrole as conductive
+material and electrospun polyvinylidene ﬂuoride (PVDF) as the ﬂexible substrate. The
+synthesized MXene powder was mixed in stoichiometric ratio with pyrrole monomer, then
+deposited on the electrospun PVDF substrate. The fabricated conductive ﬂexible substrate
+is processed into sensor packaging for electromechanical characterization.
+2. Materials and Methods
+2.1. Preparation
+2.1.1. Synthesis of MXene
+The MXene powder Ti3C2Tx was prepared using the chemical liquid etching method
+adopted from Alhabeb et al. [ 18]. The precursor material Ti 3AlC2 (99 wt%, Luoyang
+Tongrun Info Technology Co., Ltd., Luoyang, China) was etched by the Al layer via 9 M
+HCl (37 wt%, Sigma–Aldrich, St. Louis, MO, USA) and 12M LiF (99 wt%, Sigma–Aldrich,
+St. Louis, USA). During the acid etching process, Ti3AlC2 powder was introduced into the
+acid mixture at a ratio of 1 g:10 mL under continuous stirring for 24 h at room temperature.
+The resulting mixture was washed with distilled water and centrifuged at 7500 rpm for
+5 min until the pH was above 6. The precipitates were then collected by vacuum ﬁltration
+through PVDF membrane and dried in a vacuum oven at 80 ◦C for 6 h. The dried residues
+are collected from the PVDF membrane for further characterization.
+
+Micromachines 2022, 13, 1302 3 of 11
+2.1.2. Electrospun PVDF Fabrication
+Electrospinning is a versatile and viable technology capable of manufacturing vari-
+ous nanoﬁbrous assemblies from a variety of raw materials (polymers, metals, ceramics,
+etc.) with specialized features such as large surface area, interconnected and porous struc-
+tures, easy functionalization and surface modiﬁcation, and mechanical robustness [ 19].
+The unique features of electrospun nanoﬁbers make them appealing for the design of
+high-performance wearable and strain sensors, biomedical devices, energy storage and
+ﬁlters [20,21]. Electrospinning was used to fabricate electrospun PVDF nanoﬁbers and
+discussed in great detail in our previous publications [22,23]. Brieﬂy, electrospun PVDF
+solution was prepared by dissolving 20 wt.% in acetone/dimethylformamide (DMF) (2:3
+v/v) and magnetically stirred at 60 ◦C for 5 h to dissolve the PVDF followed by stirring
+overnight at room temperature to obtain homogenous solution. The solution was loaded
+into a 10 mL plastic syringe with stainless steel needle (21 G) and used for electrospin-
+ning (ES: Model TL-Pro-BM) under spinning conditions of 2 mL/h ﬂow rate, 15 cm as
+ﬁber receiving distance, and 18 kV electrical applied voltage. The electrospinning pro-
+cess was conducted at room temperature and with less than 30% relative humidity. The
+ejected nanoﬁbers were collected using a grounded metallic collector that was covered
+with aluminum foil and revolving at 400 rpm. The electrospun nanoﬁbers were dried in
+a drying oven at 60 ◦C for 12 h to remove the residual solvents. The electrospun PVDF
+nanoﬁbers were then used for the preparation of the strain sensor as illustrated in the
+subsequent section.
+2.1.3. Sensor Fabrication
+First, FeCl3 solution with different concentrations was prepared ranged from 0.1 M to
+0.5 M. Electrospun PVDF strips are cut into the desired length (5 × 1 cm2) [24] and soak in
+FeCl3 solution of different concentrations for 2 h. Pyrrole monomer and anhydrous ethanol
+were mixed in 1:1 ratio as pyrrole solution. 5 wt% of MXene in pyrrole solution was pre-
+pared and ultrasonicated for 30 min. The electrospun PVDF strip was then laid ﬂat on Teﬂon
+plates with 5 wt% MXene-PPy solution drop coated on top of the PVDF strip. The process
+of reaction was allowed for 2 h and the PVDF strip was rinsed with DI water and ethanol.
+The conductive PVDF strip was then sandwiched between ﬂexible VHB tape (4910F, 3M)
+and attached with copper tape at both ends of the conductive PVDF strip as indicated in
+Figure 1. Different sensing ﬁlms denoted as Ti3C2Tx/PPy0.1/PVDF, Ti3C2Tx/PPy0.2/PVDF,
+Ti3C2Tx/PPy0.3/PVDF, Ti3C2Tx/PPy0.4/PVDF and Ti3C2Tx/PPy0.5/PVDF are designed
+and fabricated, respectively. The subscript numbers represent the concentration of the
+FeCl3 used.
+Micromachines 2022, 13, x FOR PEER REVIEW 4 of 11 
+ 
+ 
+ 
+Figure 1. Schematic diagram of fabrication process of Mxene@Polypyrrole electrospun PVDF sen-
+sor. 
+2.2. Characterization 
+Characterization tools used were Field Emission Scanning Electron Microscope 
+(FESEM, Supra 55VP, ZEISS, Jena, Germany), Transmission Electron Microscopy (TEM, 
+HT7830, Hitachi, Tokyo, Japan), and X-ray Ph otoelectron Spectroscopy (XPS, K-Alpha, 
+Thermo, Waltham, MA, USA). The X-ray diffr action spectrum of the samples was ob-
+tained on a powder X-ray diffractometer (Xpert3 Powder, Panalytical, Malvern, UK) using 
+Cu Kα (λ = 1.5418) radiation as the light source. The 2 θ angle was investigated for 5–80°. 
+The FTIR spectra were recorded on Fourier-transform infrared spectroscopy (FTIR, Fron-
+tier, Perkin Elmer, Waltham, MA, USA). The electromechanical characterization of the 
+strain sensors was measured with a static in-house build sensor holder and a digital mul-
+timeter (31944A, Keysight, Santa Rosa, CA, USA). All characterizations are performed in 
+room temperature. 
+3. Material Characterization 
+A schematic illustration of the PVDF/Ti
+3C2Tx MXene@Polypyrrole strain sensor fab-
+rication procedure is illustrated in Figure 1. First, a mixed solution of synthesized MXene 
+(Ti3C2Tx) nanosheets pyrrole monomer was prepared through an ultrasonic concussion to 
+produce the conductive filler solution. The flexible substrate, electrospun PVDF nanofiber 
+was prepared by soaking in initiator solution and conductive filler solution was coated on 
+top of the flexible substrate producing a conductive flexible electrode. The conductive 
+substrate was then packaged into a functional strain sensor.  
+Figure 2a shows the FESEM image of MXene nanosheets, confirming the etching of 
+Al and delamination of MXene layers. Additionally, in Figure 2b the TEM image of MXene 
+nanosheets indicates MXene sheets are well exfoliated. The most intense XRD peak (002) 
+at 9° confirmed the proper synthesis of MXen e as shown in Figure 2e. The surface func-
+tionalization of MXene was analyzed with XPS, shown in Figure 2d. The XPS spectrum 
+exhibit the presence of F, O, Ti, and C elemen ts with the notable absence of the metallic 
+Al. The binding energies of the core peak posi tion of F, O, Ti, and C elements are 684.7, 
+532.4, 455.8, and 284.9 eV, respectively. The presence of O and F indicates the surface of 
+MXene film is functionalized by –O, –OH, and –F groups which is consistent with previ-
+ous reports [17]. Besides that, no significan t peak observed between 70–80 eV represents 
+the Al 2p peak of MAX phase, further confirming the successful synthesis of MXene. 
+Figure 1. Schematic diagram of fabrication process of Mxene@Polypyrrole electrospun PVDF sensor.
+
+Micromachines 2022, 13, 1302 4 of 11
+2.2. Characterization
+Characterization tools used were Field Emission Scanning Electron Microscope (FE-
+SEM, Supra 55VP , ZEISS, Jena, Germany), Transmission Electron Microscopy (TEM, HT7830,
+Hitachi, Tokyo, Japan), and X-ray Photoelectron Spectroscopy (XPS, K-Alpha, Thermo,
+Waltham, MA, USA). The X-ray diffraction spectrum of the samples was obtained on a
+powder X-ray diffractometer (Xpert3 Powder, Panalytical, Malvern, UK) using Cu K α
+(λ = 1.5418) radiation as the light source. The 2θ angle was investigated for 5–80◦. The FTIR
+spectra were recorded on Fourier-transform infrared spectroscopy (FTIR, Frontier, Perkin
+Elmer, Waltham, MA, USA). The electromechanical characterization of the strain sensors
+was measured with a static in-house build sensor holder and a digital multimeter (31944A,
+Keysight, Santa Rosa, CA, USA). All characterizations are performed in room temperature.
+3. Material Characterization
+A schematic illustration of the PVDF/Ti 3C2Tx MXene@Polypyrrole strain sensor
+fabrication procedure is illustrated in Figure 1. First, a mixed solution of synthesized MXene
+(Ti3C2Tx) nanosheets pyrrole monomer was prepared through an ultrasonic concussion to
+produce the conductive ﬁller solution. The ﬂexible substrate, electrospun PVDF nanoﬁber
+was prepared by soaking in initiator solution and conductive ﬁller solution was coated
+on top of the ﬂexible substrate producing a conductive ﬂexible electrode. The conductive
+substrate was then packaged into a functional strain sensor.
+Figure 2a shows the FESEM image of MXene nanosheets, conﬁrming the etching
+of Al and delamination of MXene layers. Additionally, in Figure 2b the TEM image of
+MXene nanosheets indicates MXene sheets are well exfoliated. The most intense XRD peak
+(002) at 9◦ conﬁrmed the proper synthesis of MXene as shown in Figure 2e. The surface
+functionalization of MXene was analyzed with XPS, shown in Figure 2d. The XPS spectrum
+exhibit the presence of F, O, Ti, and C elements with the notable absence of the metallic
+Al. The binding energies of the core peak position of F, O, Ti, and C elements are 684.7,
+532.4, 455.8, and 284.9 eV , respectively. The presence of O and F indicates the surface of
+MXene ﬁlm is functionalized by –O, –OH, and –F groups which is consistent with previous
+reports [17]. Besides that, no signiﬁcant peak observed between 70–80 eV represents the Al
+2p peak of MAX phase, further conﬁrming the successful synthesis of MXene.
+Micromachines 2022, 13, x FOR PEER REVIEW 5 of 11 
+ 
+ 
+  
+Figure 2. (a) FESEM images of Ti 3C2Tx nanosheets ( b)TEM images of Ti 3C2Tx nanosheets ( c) FTIR 
+spectrum of various FeCl 3 concentration ( d) XPS spectrum of MAX phase and Ti 3C2Tx nanosheets 
+(e) XRD spectrum of electrospun PVDF and various FeCl3 concentration. 
+The PVDF sheets employed in this study is an electrospun PVDF consisting of chem-
+ical structures of β-phase of the PVDF [22,23]. The spinning process consists of viscous 
+PVDF precursor solution melt in applied electric field, causing uniaxial stretching due to 
+the repulsion of the electrostatic force between surface charges. This develops the transi-
+tion of α-phase crystallization into the β-phase crystallization of electrospun PVDF nano-
+fiber [25]. The flexible electrospun PVDF nanofiber substrate wi ll be decorated with 
+MXene and polypyrrole, making the overall structure conductive. Polar functional groups 
+such as –O, –OH, and –F groups are formed on the surface of MXene after chemical etch-
+ing, leading to oxidation and decreasing the conductivity of MXene. Therefore, to improve 
+the long-term stability of MXene is through modification by integrating PPy. The 
+polymerization of PPy includes an initiator, FeCl 3. The polymerization of pyrrole mono-
+mers can be controlled to form PPy on the surface of MXene and PVDF substrate. The 
+deposition of PPy not only facilitates the assembly of MXene onto PVDF substrate but also 
+improves the non-conductive electrospun PVDF nanofiber by varying the amount of ini-
+tiator. The PVDF substrate act as a support network for the formation of polypyrrole along 
+with Ti3C2Tx MXene nanosheets. The synergy of the composition harmoniously modifies 
+the fibre with electrical properties.  
+The surface morphology of the fabricated flexible PVDF substrate after the deposition 
+of conductive filler was analyzed by FESEM, XRD, and FTIR analysis. Figure 2e shows the 
+XRD analysis of PVDF substrate with different  concentrations of the precursor solution. 
+The strong prominent peak (002) and (104) planes at 9.6° and 38.7°, respectively, for all 
+the fabricated samples obtained from the MX ene nanosheets. As filler concentration in-
+crease, the β-characteristic (110/200 planes) become wider. The FTIR spectra are illustrated 
+in Figure 2c. The intensity corresponding to the absorption bands at 840 and 1190 cm
+−1 of 
+the β-crystal plane is reduced after increasing the concentrations of precursor solution in 
+the PVDF, which also follows the observation in the XRD pattern. Figure 3a shows the 
+cross-sectional FESEM image of Ti3C2Tx/PPy coated electrospun PVDF, which clearly rep-
+resents the deposited conductive layer is firmly attached without peeling or revealing the 
+surface of the PVDF layer. Moreover, the un iform element C, O, Ti, and F distribution 
+from EDX mapping in Figure 3b further substantiate the uniform integration of PPy chains 
+and MXene nanosheets. 
+Figure 2. (a) FESEM images of Ti3C2Tx nanosheets (b)TEM images of Ti3C2Tx nanosheets (c) FTIR
+spectrum of various FeCl3 concentration (d) XPS spectrum of MAX phase and Ti3C2Tx nanosheets
+(e) XRD spectrum of electrospun PVDF and various FeCl3 concentration.
+
+Micromachines 2022, 13, 1302 5 of 11
+The PVDF sheets employed in this study is an electrospun PVDF consisting of chemical
+structures ofβ-phase of the PVDF [22,23]. The spinning process consists of viscous PVDF
+precursor solution melt in applied electric ﬁeld, causing uniaxial stretching due to the
+repulsion of the electrostatic force between surface charges. This develops the transition of
+α-phase crystallization into theβ-phase crystallization of electrospun PVDF nanoﬁber [25].
+The ﬂexible electrospun PVDF nanoﬁber substrate will be decorated with MXene and
+polypyrrole, making the overall structure conductive. Polar functional groups such as –O,
+–OH, and –F groups are formed on the surface of MXene after chemical etching, leading to
+oxidation and decreasing the conductivity of MXene. Therefore, to improve the long-term
+stability of MXene is through modiﬁcation by integrating PPy. The polymerization of PPy
+includes an initiator, FeCl3. The polymerization of pyrrole monomers can be controlled
+to form PPy on the surface of MXene and PVDF substrate. The deposition of PPy not
+only facilitates the assembly of MXene onto PVDF substrate but also improves the non-
+conductive electrospun PVDF nanoﬁber by varying the amount of initiator. The PVDF
+substrate act as a support network for the formation of polypyrrole along with Ti 3C2Tx
+MXene nanosheets. The synergy of the composition harmoniously modiﬁes the ﬁbre with
+electrical properties.
+The surface morphology of the fabricated ﬂexible PVDF substrate after the deposition
+of conductive ﬁller was analyzed by FESEM, XRD, and FTIR analysis. Figure 2e shows the
+XRD analysis of PVDF substrate with different concentrations of the precursor solution.
+The strong prominent peak (002) and (104) planes at 9.6◦ and 38.7◦, respectively, for all the
+fabricated samples obtained from the MXene nanosheets. As ﬁller concentration increase,
+theβ-characteristic (110/200 planes) become wider. The FTIR spectra are illustrated in
+Figure 2c. The intensity corresponding to the absorption bands at 840 and 1190 cm −1 of
+theβ-crystal plane is reduced after increasing the concentrations of precursor solution
+in the PVDF, which also follows the observation in the XRD pattern. Figure 3a shows
+the cross-sectional FESEM image of Ti3C2Tx/PPy coated electrospun PVDF, which clearly
+represents the deposited conductive layer is ﬁrmly attached without peeling or revealing
+the surface of the PVDF layer. Moreover, the uniform element C, O, Ti, and F distribution
+from EDX mapping in Figure 3b further substantiate the uniform integration of PPy chains
+and MXene nanosheets.
+Micromachines 2022, 13, x FOR PEER REVIEW 6 of 11 
+ 
+ 
+ 
+Figure 3. (a) Cross-sectional FESEM images of Ti 3C2Tx/PPy coated electrospun PVDF ( b) EDS ele-
+mental mapping images of C, O, Ti, and F for the Ti3C2Tx/PPy coated electrospun PVDF. 
+4. Working Mechanisms 
+The working mechanisms of the sensor were investigated by the morphological evo-
+lution of Ti 3C2Tx/PPy/PVDF under different applied te nsile strains. Figure 4a demon-
+strates the schematic diagram of the initial stage till maximum strain is applied on the 
+fabricated sensor. Figure 4b is the chemical structure and the scheme illustrating the chem-
+ical bond interactions between MXene, PPy and electrospun PVDF. With the introduction 
+of PPy, strong bonds such as hydrogen bonding exist between the PPy chains, MXene 
+nanosheets and PVDF nanofiber. Besides hydrogen bonding, H or F atoms (present in 
+PVDF polymer and MXene surface functionaliz ed group) has electrostatic attractions 
+which provides stability to the layer stru cture [17]. As shown in Figure 4c, the 
+Ti
+3C2Tx/PPy/PVDF under a relaxed state exhibits randomly distributed MXene nanosheets 
+on PVDF fibers, interconnected as a network structure.  
+ 
+Figure 4. (a) Proposed sensing mechanism of Mxene/PPy electrospun PVDF sensor. (b) Illustration 
+of chemical structure and interaction of MXene/PPy  blending into the PVDF  matrix to form an H-
+bonding. Morphology of the Ti 3C2Tx/PPy0.4/PVDF under tensile strain of ( c) 0% (d) 30% (e) 50% (f) 
+70%. 
+Figure 3. (a) Cross-sectional FESEM images of Ti 3C2Tx/PPy coated electrospun PVDF ( b) EDS
+elemental mapping images of C, O, Ti, and F for the Ti3C2Tx/PPy coated electrospun PVDF.
+4. Working Mechanisms
+The working mechanisms of the sensor were investigated by the morphological evolu-
+tion of Ti3C2Tx/PPy/PVDF under different applied tensile strains. Figure 4a demonstrates
+the schematic diagram of the initial stage till maximum strain is applied on the fabricated
+sensor. Figure 4b is the chemical structure and the scheme illustrating the chemical bond in-
+teractions between MXene, PPy and electrospun PVDF. With the introduction of PPy, strong
+bonds such as hydrogen bonding exist between the PPy chains, MXene nanosheets and
+
+Micromachines 2022, 13, 1302 6 of 11
+PVDF nanoﬁber. Besides hydrogen bonding, H or F atoms (present in PVDF polymer and
+MXene surface functionalized group) has electrostatic attractions which provides stability
+to the layer structure [17]. As shown in Figure 4c, the Ti3C2Tx/PPy/PVDF under a relaxed
+state exhibits randomly distributed MXene nanosheets on PVDF ﬁbers, interconnected as a
+network structure.
+Micromachines 2022, 13, x FOR PEER REVIEW 6 of 11 
+ 
+ 
+ 
+Figure 3. (a) Cross-sectional FESEM images of Ti 3C2Tx/PPy coated electrospun PVDF ( b) EDS ele-
+mental mapping images of C, O, Ti, and F for the Ti3C2Tx/PPy coated electrospun PVDF. 
+4. Working Mechanisms 
+The working mechanisms of the sensor were investigated by the morphological evo-
+lution of Ti 3C2Tx/PPy/PVDF under different applied te nsile strains. Figure 4a demon-
+strates the schematic diagram of the initial stage till maximum strain is applied on the 
+fabricated sensor. Figure 4b is the chemical structure and the scheme illustrating the chem-
+ical bond interactions between MXene, PPy and electrospun PVDF. With the introduction 
+of PPy, strong bonds such as hydrogen bonding exist between the PPy chains, MXene 
+nanosheets and PVDF nanofiber. Besides hydrogen bonding, H or F atoms (present in 
+PVDF polymer and MXene surface functionaliz ed group) has electrostatic attractions 
+which provides stability to the layer stru cture [17]. As shown in Figure 4c, the 
+Ti
+3C2Tx/PPy/PVDF under a relaxed state exhibits randomly distributed MXene nanosheets 
+on PVDF fibers, interconnected as a network structure.  
+ 
+Figure 4. (a) Proposed sensing mechanism of Mxene/PPy electrospun PVDF sensor. (b) Illustration 
+of chemical structure and interaction of MXene/PPy  blending into the PVDF  matrix to form an H-
+bonding. Morphology of the Ti 3C2Tx/PPy0.4/PVDF under tensile strain of ( c) 0% (d) 30% (e) 50% (f) 
+70%. 
+Figure 4. (a) Proposed sensing mechanism of Mxene/PPy electrospun PVDF sensor. (b) Illustration
+of chemical structure and interaction of MXene/PPy blending into the PVDF matrix to form an
+H-bonding. Morphology of the Ti3C2Tx/PPy0.4/PVDF under tensile strain of (c) 0% (d) 30% (e) 50%
+(f) 70%.
+Before stretching, the conductive layer surface is smooth with an integrated con-
+ductive network. Tensile strain was calculated as (L − L0)/L0, where L and L 0 are de-
+formed and original lengths, respectively. Figure 4d–f shows the morphology of the
+Ti3C2Tx/PPy0.4/PVDF under different elongation of strain. During tensile strain loading,
+the ﬁlm is stretched along with the conductive network. At small and medium strains,
+the MXene and polypyrrole layer begins to break and slide from the PVDF ﬁber. Several
+microcracks appear on the surface of the MXene nanosheets layer indicating damage to the
+conductive network. There is still part of the polypyrrole network distributed randomly
+within the layer acting as bridges to connect the MXene nanosheets. With increasing tensile
+strain, the gaps between microcracks on the surface of MXene coating become wider. The
+microcracks are the mechanically weak point of the conductive network. The increase
+in microcracks and the propagation of cracks formation contributed to the variation of
+resistance across the conductive network. Eventually, the microcracks further widen during
+tensile strain, and the conductive network is destroyed. As a result, the electrical resistance
+of the conductive ﬁlm increased sharply, similar to previously reported results [ 26–28]
+as shown in Table 1. The sensitivity of the sensor is developed from both polypyrrole
+network and MXene nanosheets in the conductive network layer. The network structure of
+PVDF ﬁber thus provides a buffer for strain loading for large deformation, thus preserving
+the conductive network layer from peeling or disruption. After a repeated stretch-release
+cycle, the conductive MXene layer is still intact with the PVDF ﬁber substrate which can
+be attributed to good interfacial stability between electrospun PVDF ﬁber and the MXene
+
+Micromachines 2022, 13, 1302 7 of 11
+sheets [29]. The stable interface may be due to the strong H-bonding interaction of the
+MXene surface functional group with PVDF ﬁber [30].
+Table 1. Comparison of different material fabricated strain sensors.
+Materials & Structure Gauge Factor Sensing Range (%) Ref.
+Conventional metal foil 2 0–5 [31]
+MXene/polyimide ﬁlm 46–180.1 0–2.13 [32]
+MXene/air-laid paper 1–2.58 10–90
+Composite yarn doped PPy 51.2 0–40 [33]
+AgNW–Ecoﬂex 0.7 0–50 [34]
+Polypyrrole (PPy)/PU 1.3 0–40 [16]
+Graphene/PDMS 151 0–5 [35]
+Carbon Black/PDMS 12 0–30 [36]
+MXene/PPy/Electrospun PVDF 44.31–355.32 0–100 This work
+5. Electromechanical Characterization and Sensing Demonstrations
+The performance of the strain sensor based on Ti3C2Tx/Polypyrrole electrospun PVDF
+was investigated. The fabricated Ti 3C2Tx/PPy/PVDF substrate for strain sensing can
+be tuned by adjusting the concentration of FeCl 3, which is the initiator used to deposit
+polypyrrole and MXene nanosheets. Figure 5a shows the I–V curves are straight and smooth
+lines. As the concentration of FeCl 3 increase, the resistance of the Ti 3C2Tx/PPy/PVDF
+substrate reduce. When the concentration of FeCl3 reaches 0.5M, the resistance increases.
+This may be due to the breakage of Ti 3C2Tx nanosheets and polypyrrole strain. Thick
+deposition layers of conductive ﬁller may result in peeling the conductive ﬁller layer from
+the nanoﬁber structures.
+Micromachines 2022, 13, x FOR PEER REVIEW 8 of 11 
+ 
+ 
+ 
+Figure 5. Electromechanical properties of the Ti 3C2Tx/PPy coated electrospun PVDF strain sensor. 
+(a) Comparison of the variation of resistance ch ange under quasi-static test for various FeCl 3 con-
+centrations used to fabricate the sensor. (b) The relative resistance changes of various concentration 
+of FeCl3 fabricated sensor. ( c) The relative resistance changes of 0.4M FeCl 3 fabricated sensor ( d) 
+Relative resistance change of the sensor under stretch–release cycles at maximum strain of 25%, 
+50%, and 75%, respectively. ( e) Torsion performance of the sensor with relative resistance changes 
+under different torsion degrees. (f) Stability test under the strain of 50% for 1000 s. 
+Figure 5b shows the relative resi stance variation-strain curve ( ΔR/R0-ε) of the 
+Ti3C2Tx/PPy/PVDF. Generally, the relative resistance (ΔR/R0) where ΔR represents (R-R0), 
+R and R 0 indicate resistance under different strain and initial resistance, respectively. ε 
+represents the strain. This gauge factor (GF)  was used to evaluate the sensitivity of the 
+strain sensor represented by the slope of the curve ΔR/R0-ε. From Figure 5c insets, the 
+strain sensor based on Ti3C2Tx/PPy0.1/PVDF was divided into two stages. During the strain 
+range of 0–34%, the GF was quantified as 44.31 while the GF increased in the range of 34–
+44% to 352.86. The sensitivity of the sensor increases with low and smaller strain range. 
+This could be due to the disconnection of microcrack junctions during tensile strain. When 
+strain range increases, more microcracks a ppear, increasing crack-gap and crack density 
+which can be identified with the distinct incr ease of GF and rapid decrease in electrical 
+conductance. Therefore, the Ti
+3C2Tx/PPy/PVDF composite-based strain sensor exceeds the 
+performance of a conventional metal foil-based sensor with GF ≈ 2, strain range of 5% [31]. 
+Table 1 shows the GF of reported sensors for comparison. As the concentration of FeCl 3 
+increases, more deposition and compact network of the conductive fiber network. Thus, 
+Ti3C2Tx/PPy0.4/PVDF shows a higher GF of 78.04 with a range of 0–32%, shown in Figure 
+5c. At a higher strain range of 84–96%, the sensor exhibited a GF of 355.32. Figure 5d shows 
+the frequency response at strain ranges of 25%, 50%, and 75%. The corresponding re-
+sponse and recovery of each measured signal share a similar shape and height, indicating 
+the sensor has a stable response to the applie d cyclic tensile test. The final resistance for 
+strain range 25%, 50%, and 75% is 165 Ω, 332 Ω, and 1.1 k Ω, respectively. Furthermore, 
+upon release of the strain sensor, the sensor reverts back to its initial resistance without 
+noticeable hysteresis. In addition to the tensile strain sensing, the Ti3C2Tx/PPy/PVDF sen-
+sor also demonstrate torsional motion. Figure 5e shows the relative resistance change dur-
+ing torsion deformation of the sensor. As the twist angle increase from 0, π/2, π, 3π/2, and 
+2π radians, the corresponding resistance changes from 0 to 2 kΩ with a subsequent incre-
+ment of 2 k Ω until the sensor is fully twisted at 360°. As the deformation is released, the 
+resistance change recovers and returns to the initial state with a difference of 745 Ω. Figure 
+5f demonstrates that during 1000 s cyclic stability test, the sensor undergoes a stretching-
+Figure 5. Electromechanical properties of the Ti3C2Tx/PPy coated electrospun PVDF strain sensor.
+(a) Comparison of the variation of resistance change under quasi-static test for various FeCl3 concen-
+trations used to fabricate the sensor. (b) The relative resistance changes of various concentration of
+FeCl3 fabricated sensor. (c) The relative resistance changes of 0.4M FeCl3 fabricated sensor (d) Relative
+resistance change of the sensor under stretch–release cycles at maximum strain of 25%, 50%, and 75%,
+respectively. (e) Torsion performance of the sensor with relative resistance changes under different
+torsion degrees. (f) Stability test under the strain of 50% for 1000 s.
+
+Micromachines 2022, 13, 1302 8 of 11
+Figure 5b shows the relative resistance variation-strain curve (∆R/R0-ε) of the Ti3C2Tx/
+PPy/PVDF. Generally, the relative resistance (∆R/R0) where ∆R represents (R-R0), R and
+R0 indicate resistance under different strain and initial resistance, respectively.ε represents
+the strain. This gauge factor (GF) was used to evaluate the sensitivity of the strain sensor
+represented by the slope of the curve ∆R/R0-ε. From Figure 5c insets, the strain sensor
+based on Ti3C2Tx/PPy0.1/PVDF was divided into two stages. During the strain range of
+0–34%, the GF was quantiﬁed as 44.31 while the GF increased in the range of 34–44% to
+352.86. The sensitivity of the sensor increases with low and smaller strain range. This
+could be due to the disconnection of microcrack junctions during tensile strain. When
+strain range increases, more microcracks appear, increasing crack-gap and crack density
+which can be identiﬁed with the distinct increase of GF and rapid decrease in electrical
+conductance. Therefore, the Ti3C2Tx/PPy/PVDF composite-based strain sensor exceeds
+the performance of a conventional metal foil-based sensor with GF ≈ 2, strain range of
+5% [31]. Table 1 shows the GF of reported sensors for comparison. As the concentration of
+FeCl3 increases, more deposition and compact network of the conductive ﬁber network.
+Thus, Ti3C2Tx/PPy0.4/PVDF shows a higher GF of 78.04 with a range of 0–32%, shown in
+Figure 5c. At a higher strain range of 84–96%, the sensor exhibited a GF of 355.32. Figure 5d
+shows the frequency response at strain ranges of 25%, 50%, and 75%. The corresponding
+response and recovery of each measured signal share a similar shape and height, indicating
+the sensor has a stable response to the applied cyclic tensile test. The ﬁnal resistance for
+strain range 25%, 50%, and 75% is 165 Ω, 332 Ω, and 1.1 kΩ, respectively. Furthermore,
+upon release of the strain sensor, the sensor reverts back to its initial resistance without
+noticeable hysteresis. In addition to the tensile strain sensing, the Ti 3C2Tx/PPy/PVDF
+sensor also demonstrate torsional motion. Figure 5e shows the relative resistance change
+during torsion deformation of the sensor. As the twist angle increase from 0,π/2,π, 3π/2,
+and 2π radians, the corresponding resistance changes from 0 to 2 kΩ with a subsequent
+increment of 2 kΩ until the sensor is fully twisted at 360◦. As the deformation is released,
+the resistance change recovers and returns to the initial state with a difference of 745 Ω.
+Figure 5f demonstrates that during 1000 s cyclic stability test, the sensor undergoes a
+stretching-releasing cycle and shows a stable resistance response with good reversibility
+due to the strong interfacial interaction of the conductive layer.
+The developed Ti3C2Tx/PPy/PVDF ﬁlm is demonstrated as a wearable strain sen-
+sor, whereby the real-time electrical signal response in monitoring different human body
+motions is shown in Figure 6. The output signal shows a clear resistance change when
+the wrist is bend as shown in Figure 6a. Stable signal response is observed as the bending
+cycle with a resistance change of 22% is repeated. Figure 6b shows knee bending, repre-
+sented by the squat and rising. The ER of the sensor increased rapidly by 17%, and in
+subsequent repeated action, the sensor was able to detect and maintain resistance change
+to the initial level. Besides large stretch and bending motions, small stretch human body
+parts are investigated. Finger motion monitoring includes actions of ﬁnger bending and
+straightening. The stable waveform is observed in Figure 6c,d, where bending cycles are
+repeated with 50% and 100% resistance changes, respectively. The difference is due to the
+frequency of ﬁnger bending. Essentially, the output signals correspond with the movements
+in which the resistance change is repeated in a similar amplitude. As shown in Figure 6e,f,
+human joint motions are monitored and investigated. Both biceps and ankle stretching
+demonstrate reproducible stretching cycles. During the initial stretch, ER value increases
+rapidly and changes until the sensor recovers to its original state. The bending and recovery
+test results indicate the sensor has reliability and durability in the application for human
+motion monitoring. The proof-of-concept in this demonstration of the Ti3C2Tx/PPy/PVDF
+sensor suggests the potential of the fabricated sensor to be employed in the area of health
+care diagnostic and physical management.
+
+Micromachines 2022, 13, 1302 9 of 11
+Micromachines 2022, 13, x FOR PEER REVIEW 9 of 11 
+ 
+ 
+releasing cycle and shows a stable resistance response with good reversibility due to the 
+strong interfacial interaction of the conductive layer. 
+The developed Ti3C2Tx/PPy/PVDF film is demonstrated as a wearable strain sensor, 
+whereby the real-time electrical signal response in monitoring different human body mo-
+tions is shown in Figure 6. The output sign al shows a clear resistance change when the 
+wrist is bend as shown in Figure 6a. Stable signal response is observed as the bending 
+cycle with a resistance change of 22% is repeated. Figure 6b shows knee bending, repre-
+sented by the squat and rising. The ER of th e sensor increased rapidly by 17%, and in 
+subsequent repeated action, the sensor was able to detect and maintain resistance change 
+to the initial level. Besides large stretch and bending motions, small stretch human body 
+parts are investigated. Finger motion monitori ng includes actions of finger bending and 
+straightening. The stable waveform is observed in Figure 6c,d, where bending cycles are 
+repeated with 50% and 100% resistance changes, respectively. The difference is due to the 
+frequency of finger bending. Essentially, the output signals correspond with the move-
+ments in which the resistance change is repeated in a similar amplitude. As shown in 
+Figure 6e,f, human joint motions are monitored and investigated. Both biceps and ankle 
+stretching demonstrate reproducible stretching cycles. During the initial stretch, ER value 
+increases rapidly and changes until the sensor recovers to its original state. The bending 
+and recovery test results indicate the sensor has reliability and durability in the applica-
+tion for human motion monitoring. The proof-of-concept in this demonstration of the 
+Ti3C2Tx/PPy/PVDF sensor suggests the potential of  the fabricated sensor to be employed 
+in the area of health care diagnostic and physical management.  
+ 
+Figure 6. Application of the sensor in mo nitoring human body movement. ( a) wrist bending ( b) 
+knee bending (c) finger bending at a slow pace (d) finger bending at a fast pace (e) bicep stretching 
+(f) ankle stretching. 
+6. Conclusions 
+In summary, the Ti3C2Tx based strain sensor is successfully fabricated with a strategic 
+configuration of Ti3C2Tx doped with Polypyrrole on flexible electrospun PVDF fiber. The 
+fabricated composite of the substrate with mi crocracks exhibits a balance of sensitivity 
+and sensing range that could be suitable for multiscale sensing. The hybrid structure of 
+electrospun fiber as a foundation provides a percolation network for conductive filler net-
+work formation, which endows the sensor with excellent sensitivity. The fabricated sensor 
+shows sensing performance characterized by sensitivity with a gauge factor of 78–355.32 
+with a sensing range of 0–100%. Besides its sensing properties, the sensor can be adopted 
+Figure 6. Application of the sensor in monitoring human body movement. (a) wrist bending (b) knee
+bending (c) ﬁnger bending at a slow pace ( d) ﬁnger bending at a fast pace ( e) bicep stretching
+(f) ankle stretching.
+6. Conclusions
+In summary, the Ti3C2Tx based strain sensor is successfully fabricated with a strategic
+conﬁguration of Ti3C2Tx doped with Polypyrrole on ﬂexible electrospun PVDF ﬁber. The
+fabricated composite of the substrate with microcracks exhibits a balance of sensitivity
+and sensing range that could be suitable for multiscale sensing. The hybrid structure
+of electrospun ﬁber as a foundation provides a percolation network for conductive ﬁller
+network formation, which endows the sensor with excellent sensitivity. The fabricated
+sensor shows sensing performance characterized by sensitivity with a gauge factor of
+78–355.32 with a sensing range of 0–100%. Besides its sensing properties, the sensor can
+be adopted for real-time human motion detection, thus providing a feasible approach for
+wearable strain sensors for healthcare monitoring.
+Author Contributions: Conceptualization and project outline, M.R.A. and M.S.M.S.; perform experi-
+ments and measurements, W.X.R.L. and A.M.A.-D.; writing—original draft preparation, W.X.R.L.;
+writing—review and editing, M.S.M.S. All authors have read and agreed to the published version of
+the manuscript.
+Funding: This research was funded by LRF-ICON, grant number 015ME0-048 and URIF, grant
+number 015LLB0-020.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Naguib, M.; Kurtoglu, M.; Presser, V .; Lu, J.; Niu, J.; Heon, M.; Hultman, L.; Gogotsi, Y.; Barsoum, M.W. Two-Dimensional
+Nanocrystals Produced by Exfoliation of Ti3AlC2. Adv. Mater. 2011, 23, 4248–4253. [CrossRef] [PubMed]
+2. Naguib, M.; Mochalin, V .N.; Barsoum, M.W.; Gogotsi, Y. 25th Anniversary Article: MXenes: A New Family of Two-Dimensional
+Materials. Adv. Mater. 2014, 26, 992–1005. [CrossRef] [PubMed]
+3. Hantanasirisakul, K.; Gogotsi, Y. Electronic and Optical Properties of 2D Transition Metal Carbides and Nitrides (MXenes). Adv.
+Mater. 2018, 30, 1804779. [CrossRef] [PubMed]
+4. Li, X.; Wang, C.; Cao, Y.; Wang, G. Functional MXene Materials: Progress of Their Applications.Chem. Asian J. 2018, 13, 2742–2757.
+[CrossRef] [PubMed]
+5. Ronchi, R.M.; Arantes, J.T.; Santos, S.F. Synthesis, Structure, Properties and Applications of MXenes: Current Status and
+Perspectives. Ceram. Int. 2019, 45, 18167–18188. [CrossRef]
+6. Zhang, Y.-Z.; Lee, K.H.; Anjum, D.H.; Sougrat, R.; Jiang, Q.; Kim, H.; Alshareef, H.N. MXenes Stretch Hydrogel Sensor
+Performance to New Limits. Sci. Adv. 2018, 4, eaat0098. [CrossRef] [PubMed]
+7. Ma, Y.; Liu, N.; Li, L.; Hu, X.; Zou, Z.; Wang, J.; Luo, S.; Gao, Y. A Highly Flexible and Sensitive Piezoresistive Sensor Based on
+MXene with Greatly Changed Interlayer Distances. Nat. Commun. 2017, 8, 1207. [CrossRef]
+
+Micromachines 2022, 13, 1302 10 of 11
+8. Ling, Z.; Ren, C.E.; Zhao, M.-Q.; Yang, J.; Giammarco, J.M.; Qiu, J.; Barsoum, M.W.; Gogotsi, Y. Flexible and Conductive MXene
+Films and Nanocomposites with High Capacitance. Proc. Natl. Acad. Sci. USA 2014, 111, 16676–16681. [CrossRef] [PubMed]
+9. Liu, R.; Li, W. High-Thermal-Stability and High-Thermal-Conductivity Ti3C2Tx MXene/Poly(Vinyl Alcohol) (PVA) Composites.
+ACS Omega 2018, 3, 2609–2617. [CrossRef]
+10. Sobolˇ ciak, P .; Ali, A.; Hassan, M.K.; Helal, M.I.; Tanvir, A.; Popelka, A.; Al-Maadeed, M.A.; Krupa, I.; Mahmoud, K.A. 2D Ti3C2Tx
+(MXene)-Reinforced Polyvinyl Alcohol (PVA) Nanoﬁbers with Enhanced Mechanical and Electrical Properties. PLoS ONE 2017,
+12, e0183705. [CrossRef]
+11. Naguib, M.; Saito, T.; Lai, S.; Rager, M.S.; Aytug, T.; Parans Paranthaman, M.; Zhao, M.-Q.; Gogotsi, Y. Ti3C2Tx (MXene)–
+Polyacrylamide Nanocomposite Films. RSC Adv. 2016, 6, 72069–72073. [CrossRef]
+12. Zhang, H.; Wang, L.; Chen, Q.; Li, P .; Zhou, A.; Cao, X.; Hu, Q. Preparation, Mechanical and Anti-Friction Performance of
+MXene/Polymer Composites. Mater. Des. 2016, 92, 682–689. [CrossRef]
+13. Zhi, W.; Xiang, S.; Bian, R.; Lin, R.; Wu, K.; Wang, T.; Cai, D. Study of MXene-Filled Polyurethane Nanocomposites Prepared via
+an Emulsion Method. Compos. Sci. T echnol. 2018, 168, 404–411. [CrossRef]
+14. Boota, M.; Pasini, M.; Galeotti, F.; Porzio, W.; Zhao, M.-Q.; Halim, J.; Gogotsi, Y. Interaction of Polar and Nonpolar Polyﬂuorenes
+with Layers of Two-Dimensional Titanium Carbide (MXene): Intercalation and Pseudocapacitance. Chem. Mater. 2017, 29,
+2731–2738. [CrossRef]
+15. Nezakati, T.; Seifalian, A.; Tan, A.; Seifalian, A.M. Conductive Polymers: Opportunities and Challenges in Biomedical Applications.
+Chem. Rev. 2018, 118, 6766–6843. [CrossRef]
+16. Li, M.; Li, H.; Zhong, W.; Zhao, Q.; Wang, D. Stretchable Conductive Polypyrrole/Polyurethane (PPy/PU) Strain Sensor with
+Netlike Microcracks for Human Breath Detection. ACS Appl. Mater. Interfaces 2014, 6, 1313–1319. [CrossRef]
+17. Bhatta, T.; Maharjan, P .; Cho, H.; Park, C.; Yoon, S.H.; Sharma, S.; Salauddin, M.; Rahman, M.T.; Rana, S.M.S.; Park, J.Y. High-
+Performance Triboelectric Nanogenerator Based on MXene Functionalized Polyvinylidene Fluoride Composite Nanoﬁbers. Nano
+Energy 2021, 81, 105670. [CrossRef]
+18. Alhabeb, M.; Maleski, K.; Anasori, B.; Lelyukh, P .; Clark, L.; Sin, S.; Gogotsi, Y. Guidelines for Synthesis and Processing of 2D
+Titanium Carbide (Ti3C2Tx MXene). Chem. Mater. 2017, 29, 7633–7644. [CrossRef]
+19. Al-Dhahebi, A.M.; Ling, J.; Krishnan, S.G.; Yousefzadeh, M.; Elumalai, N.K.; Saheed, M.S.M.; Ramakrishna, S.; Jose, R. Electro-
+spinning Research and Products: The Road and the Way Forward. Appl. Phys. Rev. 2022, 9, 011319. [CrossRef]
+20. Xue, J.; Wu, T.; Dai, Y.; Xia, Y. Electrospinning and Electrospun Nanoﬁbers: Methods, Materials, and Applications.Chem. Rev.
+2019, 119, 5298–5415. [CrossRef]
+21. Al-Dhahebi, A.M.; Gopinath, S.C.B.; Saheed, M.S.M. Graphene Impregnated Electrospun Nanoﬁber Sensing Materials: A Com-
+prehensive Overview on Bridging Laboratory Set-up to Industry. Nano Converg. 2020, 7, 1–23. [CrossRef] [PubMed]
+22. Al-Dhahebi, A.M.; Jose, R.; Mustapha, M.; Saheed, M.S.M. Ultrasensitive Aptasensor Using Electrospun MXene/Polyvinylidene
+Fluoride Nanoﬁber Composite for Ochratoxin A Detection. Food Chem. 2022, 390, 133105. [CrossRef] [PubMed]
+23. Al-Dhahebi, A.M.; Saheed, M.S.M.; Mustapha, M. Effects of Solution Concentration on the Synthesis of Polyvinylidene Fluoride
+(PVDF) Electrospun Nanoﬁbers. Mater. T oday Proc.2021. [CrossRef]
+24. Lin, C.; Luo, S.; Meng, F.; Xu, B.; Long, T.; Zhao, Y.; Hu, H.; Zheng, L.; Liao, K.; Liu, J. MXene/Air-Laid Paper Composite Sensors
+for Both Tensile and Torsional Deformations Detection. Compos. Commun. 2021, 25, 100768. [CrossRef]
+25. Zheng, J.; He, A.; Li, J.; Han, C.C. Polymorphism Control of Poly(Vinylidene Fluoride) through Electrospinning. Macromol. Rapid
+Commun. 2007, 28, 2159–2162. [CrossRef]
+26. Zheng, Y.; Jin, Q.; Chen, W.; Sun, Y.; Wang, Z. High Sensitivity and Wide Sensing Range of Stretchable Sensors with Conductive
+Microsphere Array Structures. J. Mater. Chem. C 2019, 7, 8423–8431. [CrossRef]
+27. Xu, M.; Li, X.; Jin, C.; He, Z.; Zhang, Q. High-Performance Epidermal Strain Sensor Based on Macro-Defect Graphene Foams.
+Sens. Actuators A Phys. 2020, 303, 111721. [CrossRef]
+28. Yue, X.; Jia, Y.; Wang, X.; Zhou, K.; Zhai, W.; Zheng, G.; Dai, K.; Mi, L.; Liu, C.; Shen, C. Highly Stretchable and Durable
+Fiber-Shaped Strain Sensor with Porous Core-Sheath Structure for Human Motion Monitoring. Compos. Sci. T echnol. 2020,
+189, 108038. [CrossRef]
+29. Zhou, S.; Gu, C.; Li, Z.; Yang, L.; He, L.; Wang, M.; Huang, X.; Zhou, N.; Zhang, Z. Ti3C2Tx MXene and Polyoxometalate
+Nanohybrid Embedded with Polypyrrole: Ultra-Sensitive Platform for the Detection of Osteopontin. Appl. Surf. Sci. 2019,
+498, 143889. [CrossRef]
+30. Rajavel, K.; Luo, S.; Wan, Y.; Yu, X.; Hu, Y.; Zhu, P .; Sun, R.; Wong, C. 2D Ti 3C2Tx MXene/Polyvinylidene Fluoride (PVDF)
+Nanocomposites for Attenuation of Electromagnetic Radiation with Excellent Heat Dissipation. Compos. Part A Appl. Sci. Manuf.
+2020, 129, 105693. [CrossRef]
+31. Barlian, A.A.; Park, W.-T.; Mallon, J.R.; Rastegar, A.J.; Pruitt, B.L. Review: Semiconductor Piezoresistance for Microsystems. Proc.
+IEEE 2009, 97, 513–552. [CrossRef] [PubMed]
+32. Zhao, L.; Wang, K.; Wei, W.; Wang, L.; Han, W. High-Performance Flexible Sensing Devices Based on Polyaniline/MXene
+Nanocomposites. InfoMat 2019, 1, 407–416. [CrossRef]
+33. Pan, J.; Yang, M.; Luo, L.; Xu, A.; Tang, B.; Cheng, D.; Cai, G.; Wang, X. Stretchable and Highly Sensitive Braided Composite
+Yarn@Polydopamine@Polypyrrole for Wearable Applications. ACS Appl. Mater. Interfaces 2019, 11, 7338–7348. [CrossRef]
+[PubMed]
+
+Micromachines 2022, 13, 1302 11 of 11
+34. Yao, S.; Zhu, Y. Wearable Multifunctional Sensors Using Printed Stretchable Conductors Made of Silver Nanowires.Nanoscale
+2014, 6, 2345–2352. [CrossRef] [PubMed]
+35. Fu, X.-W.; Liao, Z.-M.; Zhou, J.-X.; Zhou, Y.-B.; Wu, H.-C.; Zhang, R.; Jing, G.; Xu, J.; Wu, X.; Guo, W.; et al. Strain Dependent
+Resistance in Chemical Vapor Deposition Grown Graphene. Appl. Phys. Lett. 2011, 99, 213107. [CrossRef]
+36. Chang, X.; Sun, S.; Sun, S.; Liu, T.; Xiong, X.; Lei, Y.; Dong, L.; Yin, Y. ZnO Nanorods/Carbon Black-Based Flexible Strain Sensor
+for Detecting Human Motions. J. Alloys Compd. 2018, 738, 111–117. [CrossRef]

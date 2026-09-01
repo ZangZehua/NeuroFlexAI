@@ -1,0 +1,735 @@
+FULL PAPER
+1700625 (1 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+Nanofabricated Ultraflexible Electrode Arrays for 
+High-Density Intracortical Recording
+Xiaoling Wei, Lan Luan, Zhengtuo Zhao, Xue Li, Hanlin Zhu, Ojas Potnis, 
+and Chong Xie*
+Dr. X. Wei, Dr. L. Luan, Z. Zhao, X. Li, H. Zhu, O. Potnis, Prof. C. Xie
+Department of Biomedical Engineering
+The University of Texas at Austin
+Austin, TX 78712, USA
+E-mail: chongxie@utexas.edu
+Dr. L. Luan
+Department of Physics
+The University of Texas at Austin
+Austin, TX 78712, USA
+DOI: 10.1002/advs.201700625
+epilepsy,[15] and obsessive compulsive dis-
+order.[12] Moreover, they allow for direct 
+communication between brain and man-
+made devices, which can enable appli-
+cations such as human brain–machine 
+interface and neuroprosthetics. [16,17] How-
+ever, these conventional neural electrical 
+probes typically have dimensions substan-
+tially larger than neurons and capillaries, 
+which fundamentally precludes the possi-
+bility of interrogating the whole neuronal 
+population in a functional brain region. 
+In particular, microwire electrodes,
+[3] tet-
+rodes,[4] and Utah array [18] host only one 
+recording site at the tip of each wire, and 
+therefore cannot simultaneously record 
+neural activity at multiple depths. Micro-
+electromechanical system-based silicon 
+probes
+[19,20] have significantly increased 
+the number of recording sites on one 
+probe. However, these silicon probes typi-
+cally have cross-sectional areas around 
+or greater than 10
+3 µm2, which gives the 
+volume per electrode similar to that of the microwire and tet-
+rodes, all at two orders of magnitude larger than the average 
+size of a neuronal soma (Table S1, Supporting Information). 
+In addition, because these probes are strongly invasive to 
+living brain tissue,
+[21,22] to maintain tissue vitality their highest 
+implantation density is limited by only allowing at most 1–2% 
+of the enclosed volume to be occupied by the electrode array.
+[23] 
+Therefore, the smallest interprobe spacing is limited to be at 
+least several hundred micrometers for both microwire array 
+and silicon probes.
+[24] Although flexible neural electrodes are 
+generally believed to induce less tissue reaction than their 
+rigid counterparts, their highest implantation densities demon-
+strated to date are still at similar values. [25,26]
+Previous efforts have demonstrated that smaller electrodes 
+composed of both novel [27,28] and conventional materials [29] 
+resulted in suppressed inflammatory responses that can poten-
+tially support higher density implantation than larger elec-
+trodes. In the effort of increasing packing density on one neural 
+probe, advanced lithography techniques such as electron-beam 
+lithography (EBL) have been used to fabricate silicon-based 
+microelectrodes that enable closely packed recording sites 
+along the length of the shank.
+[30–33] However, despite great 
+capacity and potential, these nanofabricated probes based 
+on conventional rigid architectures are known to elicit sig-
+nificant reactions by the host tissue, leading to challenges in 
+high-density implantation over chronic time scale.
+[31] Recently  
+Understanding brain functions at the circuit level requires time-resolved 
+simultaneous measurement of a large number of densely distributed neu-
+rons, which remains a great challenge for current neural technologies. In 
+particular, penetrating neural electrodes allow for recording from individual 
+neurons at high temporal resolution, but often have larger dimensions than 
+the biological matrix, which induces significant damage to brain tissues and 
+therefore precludes the high implant density that is necessary for mapping 
+large neuronal populations with full coverage. Here, it is demonstrated 
+that nanofabricated ultraflexible electrode arrays with cross-sectional areas 
+as small as sub-10 µm
+2 can overcome this physical limitation. In a mouse 
+model, it is shown that these electrodes record action potentials with high 
+signal-to-noise ratio; their dense arrays allow spatial oversampling; and their 
+multiprobe implantation allows for interprobe spacing at 60 µm without elic-
+iting chronic neuronal degeneration. These results present the possibility of 
+minimizing tissue displacement by implanted ultraflexible electrodes for scal-
+able, high-density electrophysiological recording that is capable of complete 
+neuronal circuitry mapping over chronic time scales.
+Electrodes
+1. Introduction
+Implanted neural probes [1,2] such as microwires, [3] tetrodes, [4] 
+and silicon-based microelectrodes [5–7] are among the most 
+important techniques in both fundamental and clinical neu-
+roscience. Scientifically, they remain our only option to tem-
+porally resolve the fastest electrophysiological activities of 
+individual neurons, which provides critical information to 
+dissect the neural circuitry.
+[8–11] Clinically, neural electrodes 
+have been successfully used in the treatment for a number 
+of neurological disorders
+[12,13] such as Parkinson ’s disease, [14] 
+© 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, 
+Weinheim. This is an open access article under the terms of the Creative 
+Commons Attribution License, which permits use, distribution and re-
+production in any medium, provided the original work is properly cited.
+Adv. Sci. 2018, 5, 1700625
+
+www.advancedsciencenews.com
+1700625 (2 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+developed ultraflexible nanoelectronic neural probes,[34–37] using  
+a substrate-less, multilayer layout, markedly reduced the cross-
+sectional area to the subcellular range, [36] but demonstrated 
+limited electrode density along the probe due to the fabrica-
+tion resolution of the planar photolithography techniques. 
+In this paper, we combined the unconventional ultraflexible 
+device architecture with state-of-the-art EBL to fabricate the 
+nanoelectronic thread (NET-e) probe with densely packed elec-
+trode arrays and versatile design patterns. We fabricated neural 
+probes each hosting eight or more electrodes with substantially 
+reduced cross-sectional areas at below 10 µm
+2. Taking advan-
+tage of sub-10 µm shuttle devices, we further demonstrated 
+implantation of NET-e probes with interprobe spacing as small 
+as 60 µm, which overcame the dimensional limits of electrodes 
+for high-density neural mapping.
+2. Results and Discussion
+We adopted a hybrid method involving both electron beam 
+and optical lithography
+[38] to fabricate NET-e devices with high 
+throughput (detailed fabrication procedures in Section S1 and 
+Figure S1 in the Supporting Information). We used EBL to 
+define the implanted section (the “thread”) where dimension 
+constraints were stringent and used photolithography with 
+relaxed resolution requirement for larger structures that were 
+not implanted into brain tissue (an example of EBL and photo-
+lithography sections are shown in Figure S2 in the Supporting 
+Information). Figure 1a–f shows the overview and zoom-in 
+images of the as-fabricated EBL section on NET-e probes with 
+different patterns of electrode arrays. NET-e-l (Figure 1a) hosted 
+a linear array of electrodes with a cross-sectional profile of  
+0.8 µm × 8 µm, the smallest among all reported electrodes to our 
+knowledge (Figure S3 and Table S1, Supporting Information). 
+NET-e-t (Figure 1b) was designed to function similarly as mul-
+tiple tetrodes spanning across the cortical depth, hosting groups 
+of four closely spaced electrodes every 100 µm along the thread. 
+NET-e-o (Figure 1c) had a continuum of individually addressed 
+electrodes along the thread. For improved single-unit detec-
+tion and sorting yield, both NET-e-t and NET-e-o were designed  
+to have electrode spacing smaller than their detection range to 
+enable spatial oversampling in action potential recording. To  
+minimize NET-e probe’s cross-sectional area, we designed a 
+multilayer architecture with no substrate similar to previous  
+Adv. Sci. 2018, 5, 1700625
+Figure 1. As-fabricated NET-e devices. a–c) Photographs of the EBL section of a variety of NET-e devices, including a) linear array NET-e-l, b) over-
+sampling array NET-e-o, and c) tetrode-like array NET-e-t. d–f) Zoom-in images of panels (a)–(c) as marked by the dashed boxes, showing the fine 
+structure and precise interlayer alignment. g) Sketch of the two multilayer architecture of the NET-e devices. h) Scanning electron microscopy (SEM) 
+image (top) and height profile by atomic force microscopy (AFM, bottom) of an NET-e-t electrode showing the sub-micrometer thickness and fine 
+layered structures at the cross section. Dashed line marks the position of the AFM height measurement. Scale bars: 50 µm, panels (a)–(c); 10 µm, 
+panels (d–f); and 5 µm, panel (h).
+
+www.advancedsciencenews.com
+1700625 (3 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+work,[36] where interconnect traces and electrodes were  
+fabricated on different layers separated by insulating layers 
+(Figure 1g,h). To facilitate the transition from EBL to optical 
+lithography and to avoid disconnected interconnects and insu-
+lating layers, we intentionally overlapped the sections of EBL 
+and photolithography by at least 4 µm in all directions in all 
+layers as shown in Figure S2 (Supporting Information).
+We successfully overcame several technical challenges in 
+the fabrication of NET-e probes, including precise interlayer 
+alignment across the entire wafer, and the application of SU-8 
+as a sensitive negative e-beam resist to construct the insula-
+tion layers (discussed in details in the following sections). We 
+achieved a minimum linewidth of 200 nm (pitch of 400 nm) for 
+the interconnect traces and sub-100 nm interlayer alignment. 
+The total thickness of the NET-e probes was determined mostly 
+by the thickness of the two SU-8 layers, and was precisely con-
+trolled to be 0.8–1 µm (Figure 1h) by fine tuning the e-beam 
+exposure dose of SU-8 with 0.5 µC cm
+−2 accuracy (Figure S4, 
+Supporting Information).
+The sub-1 µm thickness led to ultraflexibility that precludes 
+free standing in air after being released from the substrates. 
+Figure 2a–e shows the entire device (Figure 2a), the flexible 
+section (Figure 2b), and the EBL sections of the NET-e probes 
+(Figure 2c–e) floating in water after released. Because the 
+ultraflexible NET-e devices could not self-support for insertion 
+into brain tissue, we used a microshuttle device and a “needle-
+and-thread” strategy to deliver the NET-e probes to the desired 
+location and depth in the mouse brain. Similar to the delivery 
+of larger NETs we recently reported,
+[36] the temporary engage-
+ment during delivery was enabled by a micropost machined 
+at the end of the shuttle device fitting into a microhole fab-
+ricated at the end of the NET-e probe (Figure S5, Supporting 
+Information). Significantly different from their larger counter -
+parts,
+[36] the much reduced dimension of the NET-e imposed a 
+more stringent requirement on the shuttle device dimension. 
+The ultrasmall NET-e probes were only successfully deliv-
+ered using shuttle devices with diameters smaller than 10 µm 
+(Figure 2f,g), whereas for shuttle devices with larger diameters, 
+the capillary force when retracting the shuttle device was suf -
+ficiently large to drag out the NET-e probe. We attribute it to 
+the much-larger-than-probe acute tissue displacement during 
+implantation, which led to insufficient friction force by the 
+surrounding tissue to retain the probe in place during shuttle 
+device retraction, a failure mode that was previously reported 
+for larger shuttle devices and flexible neural probes.
+[39] The use 
+of microshuttle devices and NET-e smaller than 10 µm brought 
+Adv. Sci. 2018, 5, 1700625
+Figure 2. Implantation of the NET-e devices. a–e) Photograph of NET-e devices immersed in water: a) overview of an NET-e device including the car-
+rier chip and a connector to external I/O mounted atop; b) the e-beam section of four threads on panel (a) showing the ultraflexibility; c–e) electrodes 
+on c) NET-e-l, d) NET-e-t, and e) NET-e-o. f) Pseudocolor SEM image of an NET-e-l device (in purple and gold) attached on a shuttle device made of 
+carbon fiber (purple) with a diameter of 7 µm, showing the small dimension of both. g) Zoom-in view in panel (f). h) Photograph showing an NET-
+e-o probe successfully delivered into living mouse brain. Arrows denote the delivery entry sites. Dashed lines mark the probe implanted beneath the 
+brain surface. Image was taken 20 d post implantation through a cranial optical window. i) Photograph of a mouse immediately after NET-e probe 
+implantation. Gently pulling the carrier chip straightened the relaxed section of the probe without pulling out the implanted section. j) Photograph of 
+a head-constrained mouse on a custom-built treadmill for awake recording. Scale bars: 2 mm, panel (a); 200 µm, panels (b,h); 20 µm, panels (c–f); 
+and 10 µm, panel (g).
+
+www.advancedsciencenews.com
+1700625 (4 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+down the surgical footprints to subcellular dimensions, which 
+formed tight tissue integration immediately after implantation 
+in which the NET-e remained embedded in brain tissue even 
+when gently pulled (Figure 2h,i). We implanted NET-e devices  
+into somatosensory cortex in the mouse brain at targeted depths 
+of 500–700 µm at the tip so that the electrodes along the probe 
+span over the cortical depth. The implantation yield was 60%  
+(n = 15). In vivo recording was typically performed at  
+1–2 months after implantation. Taking advantage of the ultraflex-
+ibility and the ultrasmall dimensions, we accommodated chronic 
+optical access concurrently with NET-e implants (Figure 2j)  
+similarly as we recently demonstrated.
+[36]
+The electrodes on NET-e probes were finished by gold thin 
+film and had dimensions ranging from 5 ×  8 to 12 ×  15 µ m2 
+depending on the design. The impedance at 1 kHz ranged 
+between 1 and 1.8 MΩ, larger than their photolithography-defined 
+counterparts,[36] which is consistent with previous results [40] 
+(Figure 3a). While reducing the dimensions of the neural elec-
+trodes is beneficial for recording density and specificity, as 
+well as tissue compatibility, it leads to the increase of imped-
+ance and therefore the decrease of signal-to-noise ratio (SNR).  
+Conducting polymers such as poly(3,4-ethylenedioxythiophene)  
+(PEDOT),[41–47] poly(pyrrole), [48] nanomaterials such as carbon 
+nanotubes,[49] silicon nano wires,[50] and polymer nanotubes, [51] 
+and other functional materials such as IrO x[1,52] have been used 
+to decrease electrode impedance and increase charge injec-
+tion capacity. We electrochemically deposited PEDOT on the 
+NET-e electrodes with an area of 12 × 15 µm
+2 and observed the 
+impedance decreased from 0.87 ± 0.33 to 0.046 ± 0.026 MΩ 
+(Figure 3a, dashed box). The decrease of impedance is expected 
+to improve the SNR and suppress low-frequency artifact. [51] In 
+the rest of this work, we only used electrodes without coating 
+for consistency, whose relatively large impedance combined 
+with animal motion during awake measurements led to slightly 
+elevated noise levels, 11.4 ± 1.7 µV (Figure 3b), but all these 
+electrodes were capable of detecting and isolating single-unit 
+action potentials. Figure 3c shows the SNR of n = 10 electrode 
+sites that yielded detectable spikes in three probes implanted 
+in three mice for 8 weeks. Figure 3d–f shows the representa-
+tive recordings, the SNR, and the spike waveforms that were 
+isolated from the 10 min recording session from three different 
+electrodes at 2 weeks (Figure 3d) and 5 weeks (Figure 3e,f). The 
+recording in Figure 3d had well-isolated single units and was 
+among the best in signal quality with SNR of 19.0 and a noise 
+Adv. Sci. 2018, 5, 1700625
+Figure 3. In vivo recording performance of NET-e devices. a) In vivo impedance at 1 kHz measured at 1week after implantation, n = 20 for each dimen-
+sion. Dashed box: impedance of electrodes with PEDOT coating (n = 6) measured in 1 × PBS. b) In vivo noise level of the smallest electrode (5 µm × 
+8 µm) at anesthetized (right, 6.46 µV median) and awake (left, 11.4 µV median) measurements (bandwidth: 0.5 Hz to 7.5 kHz), n = 20. Measurement 
+time: 5 weeks after implantation. c–f) SNR of action potential recordings by NET-e probes (n = 10 electrode sites of three NET-e-l probes in three anes-
+thetized mice) over c) 8 weeks and representative recordings from three implanted NET-e-l electrodes in an anesthetized mouse d) 2 weeks and e,f) 
+5 weeks after implantation. Left: 1s real-time recording trace; 250 Hz high-pass filter applied. Right: Superimposed spikes isolated from the recording 
+traces. All unit events were plotted in light gray and averaged waveforms plotted in red and blue. SNR was calculated using the larger waveform when 
+there were two recorded on one electrode. Vertical scale bars: 50 µV, panels (c–e); horizontal scale bars: 0.1 s, panels (c–e, left) and 0.25 ms (c–e, right). 
+The symbols * and ** in panels (a,b) denote significant difference of p < 0.01 and p < 0.001 between the groups, respectively.
+
+www.advancedsciencenews.com
+1700625 (5 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+level of 7.63 µV. The recording in Figure 3f had discriminable 
+spike clusters, but was among the worst in signal quality with 
+an SNR of 8.6 and an average noise level of 6.36 µV. The SNR 
+is slightly lower but on par with that from its microfabricated 
+counterparts
+[36] and other conventional bare electrodes without 
+polymer coating, [51,53] which is consistent with their reduced 
+electrode dimension.
+Figure 4 shows the representative recording from NET-e-l  
+electrodes and NET-e-t electrodes, performed 5 and 9 weeks 
+after implantation, respectively. We used the adjacent electrodes 
+in the two designs to estimate their spike detection range, 
+which depends on its impedance, dimension, and geometry. 
+The detection range is a crucial parameter to determine the 
+necessary electrode density for achieving complete detection 
+of all enclosed neurons within a brain region.
+[8,23] As shown in 
+Figure 4b,c, on NET-e-l electrodes that were separated by 80 µm 
+along the thread, the same spikes were typically picked up by 
+adjacent recording sites with strongly attenuated amplitudes, 
+suggesting that the detection range is comparable to the elec-
+trode separation. Consistent with this detection range, the NET-
+e-t electrodes recorded temporally correlated spikes from the 
+four “tetrode-like” electrodes in one group which were densely 
+packed within an area of 18 µm × 12 µm (Figure 4d,e). The 
+spatial–temporal correlation of the four electrodes improved 
+the detection and sorting fidelity of single-unit action potentials 
+(Figure 4e) analogous to tetrodes.
+[4] In addition, this scalable 
+architecture enabled simultaneous detection at multiple brain 
+depths.
+Our previous publication
+[36] demonstrated that microfabri-
+cated NETs afford stable recording and nondegrading tissue–
+probe interface in mice through a collection of comprehensive 
+characterizations. In this work, we did not include systematic 
+studies on the chronic performance of NET-e probes because 
+they share similar materials, structures, and the ultraflexibility. 
+We therefore expect NET-e probes have comparable tissue–
+probe interface and recording stability as previously demon-
+strated NETs. In the recording period of this study (2 months), 
+we did not observe chronic deterioration in recording perfor -
+mance (Figure 4f). Similar to the observation of larger NETs,
+[36] 
+in vivo two-photon (2P) imaging 2 months after implantation 
+showed normal neuronal density (Figure 5a) and morphology 
+of vasculature (Figure 5b) near the NET-e electrodes. Impor -
+tantly and advantageous to the previous larger NET devices, the 
+much reduced lateral dimensions of NET-e probes allowed for 
+multiprobe implantation at a previously unattainable high den-
+sity. Figure 5c shows the photograph of living brain immedi-
+ately after implantation of seven NET-e probes, where the inter -
+probe distance was as small as 60 µm, a distance significantly 
+smaller than the pitch of current state-of-the-art microelec-
+trode arrays
+[31] and would allow electrodes on the two adjacent 
+probes to have overlapping detection range. We examined post-
+mortem tissue–probe interface at 4 months after implantation 
+(Figure 5d–f). The bright-field images (Figure 5d,e) and the flu-
+orescent images from immunohistological staining (Figure 5f) 
+revealed healthy tissue morphology and normal neuronal den-
+sity, suggesting that the long-term presence of NET-e device 
+Adv. Sci. 2018, 5, 1700625
+Figure 4. Representative unit recording from NET-e electrodes. a) Schematic showing the relative position of electrodes on NET-e-l (left) and NET-e-t 
+(right) devices in the brain. b) Recording time trace from an NET-e-l probe hosting a linear electrode array. Inset sketches the NET-e-l probe. c) 10 ms  
+recording trace from panel (b) on the top four electrodes highlighting a single spike that was picked up by adjacent electrodes with attenuated ampli-
+tudes. Same color code as panel (b). b,c) The recording was performed 5 weeks after implantation. d) Recording time trace from a group of four 
+NET-e-t electrodes showing correlated spikes. Inset sketches the NET-e-t probe. e) Sorted single-unit waveforms from panel (d). d,e)The recording 
+was performed 9 weeks after implantation. f) Superimposed spikes isolated from the same NET-e-l electrode over 8 weeks post implantation. Aver-
+aged waveforms shown in red. Vertical scale bars: 50 µV, panels (b–f); horizontal scale bars: 0.1 s, panels (b) and (d); 2 ms, panel (c); and 0.5 ms, 
+panels (e,f).
+
+www.advancedsciencenews.com
+1700625 (6 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.com
+arrays at high packing density did not result in “dead” zone 
+near the electrodes. This is also consistent with our previous 
+study where an unintentionally folded NET probe at a curvature 
+of about 50 µm in living brain did not elicit astrocytes accumu-
+lation at 3.5 months postimplantation.
+[36]
+Different components of the NET-e probes require different 
+EBL techniques to construct, which were individually optimized 
+for high yield, throughput, and fabrication resolution. Standard 
+EBL using poly(methyl methacrylate) (PMMA) as the positive 
+resist followed by metallization and lift-off was performed to 
+define the interconnects and the electrodes. The highest resolu-
+tion was required for interconnect traces, which is determined 
+by the EBL sample stage stitching error, because the length of 
+the thread (about 1 mm) was much larger than the size of the 
+writing field in the EBL tool used in this work (80 µm). Non-
+standard EBL was performed to construct the insulation layers, 
+for which we tested both PMMA
+[54] and SU-8 [55] as negative 
+EBL resists. These two resists were chosen for their good insu-
+lation, excellent tensile strength after hard baking, and tun-
+able thickness depending on the exposure doses.
+[54,55] Because 
+PMMA requires a high dose of about 40 000 µC cm −2 to cross-
+link[54] that leads to prohibitively long EBL exposure times even 
+at high currents, we chose to use SU-8 for higher fabrication 
+throughput.
+Our fabrication yield was about 70% with little variation 
+among different design patterns that required fabrication reso-
+lution ranging between 200 and 400 nm. We have thoroughly 
+examined our fabrication process and identified that the yield 
+loss is mainly due to fabrication defects. All fabrication proce-
+dures, including four EBL steps, seven photolithography steps, 
+and five metal deposition steps, were performed manually, 
+which make it difficult to completely avoid microparticles and 
+scratches especially on the long, narrow interconnect traces. The 
+EBL exposure time was relatively short. For example, an entire 4″ 
+wafer that contains 8 NET-e devices and a total of 256 electrodes 
+typically requires exposure times of ≈ 5 min for the insulating 
+layers composed of SU-8, 2 h for the interconnects, and 15 min 
+for the electrode layers. However, the fabrication throughput 
+was mostly limited by the two-step iterative alignment pro-
+cess during EBL that was necessary for sub-100 nm registra-
+tion accuracy across the entire wafer. Despite the relatively low 
+throughput compared with photolithography, the application of 
+EBL greatly improved the fabrication resolution and reduced the 
+probe’s overall dimensions, and further offers great flexibility in 
+patterning nanoscale structures by design. We are confident that 
+the fabrication yield, throughput, and resolution can be further 
+improved using more advanced EBL equipment.
+Ultraflexibility requires additional efforts in careful han-
+dling and implantation. However, ultraflexibility is necessary 
+to achieve stable chronical recording and nondegrading tissue–
+probe interface.
+[36] Significantly different from our previous 
+work that focused on the chronically stable recording and non-
+degrading tissue–probe interface, this work focused on pushing 
+the dimensional limit of ultraflexible neural electrodes on a 
+similar device architecture. Using nanofabrication and refined 
+implantation techniques, we further reduced both the device 
+cross-sectional area and the surgical footprints per recording 
+site by an order of magnitude. Importantly and advantageous to 
+the previous larger NET devices, the much reduced dimensions 
+of NET-e probes allowed for multiprobe implantation at a pre-
+viously unattainable high density (e.g., 60 µm interprobe dis-
+tance) without eliciting observable neuronal death over chronic 
+implantation. The capability of fabricating scalable, subcellular-
+sized electrodes with an ultraflexible architecture represents, in 
+our opinion, a crucial first step toward long-term, full-coverage 
+mapping of the neural activity in a sizable brain region.
+3. Conclusion
+In this study, we demonstrated the possibility of integrating 
+neural electrode arrays within a subcellular form factor and 
+their implantation in a high-density, scalable manner. By 
+Adv. Sci. 2018, 5, 1700625
+Figure 5. In vivo and postmortem tissue–probe interface. a) Reconstruc-
+tion of in vivo 2P images of neurons (yellow, Thy1-YFP) surrounding 
+an NET-e-l probe (red) 2 months post implantation. Image stack: 
+100–320 µm below the brain surface. b) 3D reconstruction of vasculature 
+by in vivo 2P microscopy around NET-e-l probe (red) 2 months post-
+implantation, showing normal capillary networks (green). Image stack: 
+100–320 µm below the brain surface. c) Photograph showing in vivo 
+implantation of multiple NET-e-l probes. Arrows denote the implantation 
+locations. d) Bright field image of a postmortem tissue slice at the probe–
+tissue interface as shown in panel (c) 4 months postimplantation. Arrows 
+denote the probes. e) Zoom-in bright field image of the boxed region 
+shown in panel (d). Arrows denote the probes. f) Fluorescence image of 
+the same area as in panel (e). Color code: yellow, NeuN, labelling neuron 
+nuclei; Rhodamine 6G, labelling NET-e probe. Normal neuronal density 
+was observed near the two probes at inter-probe distance was 60 µm. 
+Scale bars: 50 µm, panels (a–d); 10 µm, panels (e,f).
+
+www.advancedsciencenews.com
+1700625 (7 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.comAdv. Sci. 2018, 5, 1700625
+applying nanofabrication techniques on unconventional sub-
+strate-less design of neural probes, we drastically reduced the 
+physical dimensions of neural probes. Combining these nano-
+fabricated ultraflexible probes with minimally invasive implan-
+tation methods at subcellular surgical footprints, we developed 
+a practical approach to overcome current physical limits 
+in the design and implantation of intracortical neural elec-
+trodes, which paves the road for chronic, full-coverage, neural 
+recording and complete circuit-level mapping of neural activity.
+4. Experimental Section
+Shuttle Device Fabrication and Assembly: A straight segment of carbon 
+fiber was attached to a stainless steel microneedle (prod# 13561-10, 
+Ted Pella, Inc.) for convenient handling. It was then cut to the designed 
+length (2–3 mm) using focused ion beam (FIB). An anchor post was 
+micromilled at the tip of the shuttle device using FIB to shape a well-
+defined micropost (≈3 µm in diameter, 4 µm in height).
+Electrochemical Deposition of PEDOT: PEDOT deposition was 
+carried out in 3,4-ethylenedioxythiophene monomer (EDOT) (0.07 
+m) 
+and KNO 3 (0.13 m) aqueous solution. The electrochemical deposition 
+was performed by a WaveNano USB Potentiostat (Pine Research 
+Instrumentation) via its interface software, the AfterMath, at room 
+temperature. PEDOT was deposited in potentiostatic mode at 0.8 V, with 
+a two-electrode configuration. The working electrodes were connected 
+to the electrode site. The reference electrode (Ag/AgCl electrode) and 
+counter electrode were connected to a platinum wire in contact with the 
+EDOT/ KNO
+3. The polymerization time was typically set to 20 s and can 
+be varied to control the coating thickness.
+Animals and Surgery: Wild-type male mice (C57BJ/6, 8 weeks old, Taconic) 
+were used in the experiments. Mice were housed at the Animal Research 
+Center, UT Austin (12 h light/dark cycle, 22 °C, food and water ad libitum).
+Mice were anesthetized using isoflurane (3% for induction and 
+maintained at 1–2%) in medical-grade oxygen. The skull was exposed 
+and prepared by scalping the crown and removing the fascia, and then 
+was scored with the tip of a scalpel blade. A 3 mm × 3 mm square 
+craniotomy was performed with a surgical drill over the somatosensory 
+cortex. Dura mater was carefully removed to facilitate the delivery. 
+After NET-e probe implantation (described in the following section), 
+the remaining flexible segment of the NET probe, which connected the 
+bonding pad on the substrate with the electrodes inside the brain, was 
+routed to the edge of the cranial opening. The exposed brain was then 
+protected by artificial cerebrospinal fluid (ACSF) and a coverslip #1 
+(Fisher Scientific) fit into the cranial opening. The space between the 
+coverslip and the remaining skull was filled with Kwik-sil adhesive (World 
+Precision Instruments). After the skull was cleaned and dried, a layer of 
+low-viscosity cyanoacrylate was applied over the skull. An initial layer of 
+C&B-Metabond (Parkell Inc.) was applied over the cyanoacrylate and the 
+Kwik-sil. A second layer of Metabond was used to cement the coverslip 
+and the NET carrier chip to the skull. All procedures complied with the 
+National Institute of Health guidelines for the care and use of laboratory 
+animals and were approved by the University of Texas Institutional 
+Animal Care and Use Committee.
+Neural Probe Implantation—Insertion: In typical procedures, a flexible 
+section of NET-e probe was placed on the brain surface where dura mater 
+was removed. The shuttle device was mounted on a micromanipulator 
+(MP-285, Shutter instrument) vertically, and positioned atop the 
+engaging hole at the end of the probe. As the shuttle device traveled 
+downward, the anchor post entered into the hole and pulled the neural 
+probe into the brain tissue. Once the neural probe reached the desired 
+depth, the shuttle device was retracted, and the neural probe was 
+released and left embedded in the brain tissue.
+Two-Photon Imaging: 2P imaging was performed in a laser scanning 
+microscope (Praire Technology) equipped with a 20× water immersion 
+objective (NA 1.0; Zeiss) and a Ti:sapphire excitation laser (MaiTai DS, 
+Spectra-Physics) at a few weeks to months postimplantation. The laser 
+was tuned to 810–910 nm for 2P excitation (power: 3.0–50 mW, dwell 
+time: 4.0–6.0 µs). Fluorescence emissions were detected simultaneously 
+by two standard photomultiplier tubes with a 595/50 nm filter (Semrock, 
+US) for “red” fluorescence emission and a 525/70 nm filter (Semrock, 
+US) for “green” fluorescence emission. Mice were anesthetized using 
+isoflurane (3% for induction and 1.5% during experiment) in medical-
+grade oxygen to maintain full immobility during imaging and placed in 
+a frame that stabilized the head on the microscope stage. Anesthetized 
+animals were given fluorescein isothiocyanate (FITC)-dextran (0.1 mL, 
+5% w/v, Sigma) retro-orbitally to label blood vessels prior to imaging. To 
+facilitate imaging the probe–tissue interface beyond superficial cortical 
+layers, the NET-e probes were doped with sulforhodamine 6G (Sigma) in 
+the insulating layers and delivered at about 45° with respect to the skull.
+Awake Electrophysiological Recording: Mice were allowed a 1–2 week 
+recovery period after surgery. For recording, mice were head constrained 
+on a custom-made air-supported spherical treadmill to allow 
+walking and running, similar to the setup previously used for optical 
+imaging.
+[44] The treadmill was made of an 8″ diameter Styrofoam ball 
+(Floracraft) levitated by a thin cushion of air between the ball and a 
+casting containing air jets. Voltage signals from the NEC devices were 
+amplified and digitized using a 32-channel RHD 2132 evaluation system 
+(Intan Technologies) with a bare Ag wire inserted into the contralateral 
+hemisphere of the brain as the grounding reference. The sampling 
+rate was 20 kHz, and a 300 Hz high-pass and a 60 Hz notch filter were 
+applied for single-unit recording. Mice and the amplifier were placed 
+in a noise-attenuated, electrically shielded chamber. Impedance of the 
+recording electrodes was measured using the same setup at 1 kHz prior 
+to recording.
+Histological Sample Preparation: Mice were given lethal intraperitoneal 
+injections of 0.15 mL ketamine mixed with xylazine (10 mg mL
+−1 
+xylazine in 90 mg mL −1 ketamine) and then perfused intracardially 
+with oxygenated, cold (≈4 °C) modified ACSF (2.5 × 10 −3 m KCl, 
+1.25 × 10 −3 m NaH 2PO4, 25 × 10 −3 m NaHCO 3, 0.5 × 10 −3 m CaCl 2, 
+7 × 10 −3 m MgCl 2, 7 × 10 −3 m dextrose, 205.5 × 10 −3 m sucrose, 
+1.3 × 10 −3 m ascorbic acid, and 3.7 × 10 −3 m pyruvate) followed by 4% 
+paraformaldehyde in 0.02 m phosphate-buffered saline (PBS). Brains 
+were cryoprotected in a 30% sucrose/4% paraformaldehyde solution 
+overnight. Tissue was sectioned into 20–50 µm slices perpendicular to 
+the probe using a Leica CM1950 cryostat (Leica Microsystems). The 
+slices were washed (3 × 5 min) and incubated in hot sodium citrate 
+solution (850–950 °C, 0.01 
+m in H 2O) for 30 min for antigen retrieval. 
+Then, the slices were washed (3 × 5 min), incubated in blocking solution 
+and permeabilized (0.5% Triton X and 10% normal goat serum (Sigma) 
+in PBS) for 3 h at room temperature, washed (4 × 5 min), and incubated 
+in fluorophore conjugated antibodies for 24 h at 4 °C. Reagents used 
+for Neurons were (Millipore): Alexa Fluor 488 conjugated anti-NeuN 
+antibody, clone A60.
+Statistical Analysis: Standard statistical analysis was performed 
+using Matlab to calculate the average and standard deviation for the 
+impedance, SNR, noise amplitude for the recording data. Analysis 
+of variance (ANOVA) was done on the impedance with different 
+electrode sizes after implantation. Independent t -test was performed 
+on the results of noise amplitude for awake and anesthetized in vovo 
+recording (Matlab).
+Supporting Information
+Supporting Information is available from the Wiley Online Library or 
+from the author.
+Acknowledgements
+X.W., L.L., and Z.Z. contributed equally to this work. The authors thank the 
+Microelectronics Research Center at UT Austin for the microfabrication 
+facility and support, and the Animal Resources Center at UT Austin for 
+
+www.advancedsciencenews.com
+1700625 (8 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.comAdv. Sci. 2018, 5, 1700625
+animal housing and care. This work was funded by National Institute 
+of Neurological Disorders and Stroke through R01NS102917 (C.X.) and 
+R21NS102964 (L.L.), by the UT BRAIN Seed grant award #365459 (L.L.), 
+by the Welch Foundation Research grant #F-1941-20170325 (C.X.), and 
+by DOD CDMRP under award no. W81XWH-16-1-0580 (C.X.).
+Conflict of Interest
+The authors declare no conflict of interest.
+Keywords
+electron-beam lithography, flexible neural electrodes, high-density 
+intracortical recording, in vivo extracellular recording, nanofabrication
+Received: September 22, 2017
+Revised: December 4, 2017
+Published online: March 10, 2018
+[1] N. A. Kotov, J. O. Winter, I. P. Clements, E. Jan, B. P. Timko, 
+S. Campidelli, S. Pathak, A. Mazzatenta, C. M. Lieber, M. Prato, 
+R. V. Bellamkonda, G. A. Silva, N. W. S. Kam, F. Patolsky, L. Ballerini, 
+Adv. Mater. 2009, 21, 3970.
+[2] P. Fattahi, G. Yang, G. Kim, M. R. Abidian, Adv. Mater. 2014, 26, 
+1846.
+[3] M. A. Nicolelis, A. A. Ghazanfar, B. M. Faggin, S. Votaw, 
+L. M. Oliveira, Neuron 1997, 18, 529.
+[4] C. M. Gray, P. E. Maldonado, M. Wilson, B. McNaughton, J. Neu-
+rosci. Methods 1995, 63, 43.
+[5] K. D. Wise, J. B. Angell, A. Starr, IEEE Trans. Biomed. Eng. 1970, 17, 
+238.
+[6] P. K. Campbell, K. E. Jones, R. J. Huber, K. W. Horch, R. A. Normann, 
+IEEE Trans. Biomed. Eng. 1991, 38, 758.
+[7] Q. Bai, K. D. Wise, IEEE Trans. Biomed. Eng. 2001, 48, 911.
+[8] A. P. Alivisatos, M. Chun, G. M. Church, K. Deisseroth, 
+J. P. Donoghue, R. J. Greenspan, P. L. McEuen, M. L. Roukes, 
+T. J. Sejnowski, P. S. Weiss, R. Yuste, Science 2013, 339, 1284.
+[9] G. Buzsaki, Nat. Neurosci. 2004, 7, 446.
+[10] M. Carandini, Nat. Neurosci. 2012, 15, 507.
+[11] M. E. Spira, A. Hai, Nat. Nanotechnol. 2013, 8, 83.
+[12] M. K. Lyons, Mayo Clin. Proc. 2011, 86, 662.
+[13] M. S. Sharifi, Basic Clin. Neurosci. 2013, 4, 266.
+[14] P. Krack, A. Batir, N. Van Blercom, S. Chabardes, V. Fraix, 
+C. Ardouin, A. Koudsie, P. D. Limousin, A. Benazzouz, J. F. LeBas, 
+A. L. Benabid, P. Pollak, N. Engl. J. Med. 2003, 349, 1925.
+[15] P. Boon, R. Raedt, V. de Herdt, T. Wyckhuys, K. Vonck, Neurothera-
+peutics 2009, 6, 218.
+[16] L. R. Hochberg, M. D. Serruya, G. M. Friehs, J. A. Mukand, M. Saleh, 
+A. H. Caplan, A. Branner, D. Chen, R. D. Penn, J. P. Donoghue, 
+Nature 2006, 442, 164.
+[17] L. R. Hochberg, D. Bacher, B. Jarosiewicz, N. Y . Masse, J. D. Simeral, 
+J. Vogel, S. Haddadin, J. Liu, S. S. Cash, P. van der Smagt, 
+J. P. Donoghue, Nature 2012, 485, 372.
+[18] P. J. Rousche, R. A. Normann, J. Neurosci. Methods 1998, 82, 1.
+[19] S. L. BeMent, K. D. Wise, D. J. Anderson, K. Najafi, K. L. Drake, 
+IEEE Trans. Biomed. Eng. 1986, 33, 230.
+[20] D. R. Kipke, R. J. Vetter, J. C. Williams, J. F. Hetke, IEEE Trans. 
+Neural Syst. Rehabil. Eng. 2003, 11, 151.
+[21] V. S. Polikov, P. A. Tresco, W. M. Reichert, J. Neurosci. Methods 2005, 
+148, 1.
+[22] J. P. Seymour, D. R. Kipke, Biomaterials 2007, 28, 3594.
+[23] A. H. Marblestone, B. M. Zamft, Y . G. Maguire, M. G. Shapiro, 
+T. R. Cybulski, J. I. Glaser, D. Amodei, P. B. Stranges, R. Kalhor, 
+D. A. Dalrymple, D. Seo, E. Alon, M. M. Maharbiz, J. M. Carmena, 
+J. M. Rabaey, E. S. Boyden, G. M. Church, K. P. Kording, Front 
+Comput. Neurosci. 2013, 7, 137.
+[24] A. C. Patil, N. V. Thakor, Med. Biol. Eng. Comput. 2016, 54, 23.
+[25] J. Viventi, D. H. Kim, L. Vigeland, E. S. Frechette, J. A. Blanco, 
+Y . S. Kim, A. E. Avrin, V. R. Tiruvadi, S. W. Hwang, A. C. Vanleer, 
+D. F. Wulsin, K. Davis, C. E. Gelber, L. Palmer, J. Van der Spiegel, 
+J. Wu, J. L. Xiao, Y . G. Huang, D. Contreras, J. A. Rogers, B. Litt, 
+Nat. Neurosci. 2011, 14, 1599.
+[26] D. C. Rodger, A. J. Fong, L. Wen, H. Ameri, A. K. Ahuja, C. Gutierrez, 
+I. Lavrov, Z. Hui, P. R. Menon, E. Meng, J. W. Burdick, R. R. Roy, 
+V. R. Edgerton, J. D. Weiland, M. S. Humayun, Y . C. Tai, Sens. Actua-
+tors, B 2008, 132, 449.
+[27] T. D. Y . Kozai, N. B. Langhals, P. R. Patel, X. P. Deng, H. N. Zhang, 
+K. L. Smith, J. Lahann, N. A. Kotov, D. R. Kipke, Nat. Mater. 2012, 
+11, 1065.
+[28] L. W. Tien, F. Wu, M. D. Tang-Schomer, E. Yoon, F. G. Omenetto, 
+D. L. Kaplan, Adv. Funct. Mater. 2013, 23, 3185.
+[29] N. F. Nolta, M. B. Christensen, P. D. Crane, J. L. Skousen, 
+P. A. Tresco, Biomaterials 2015, 53, 753.
+[30] J. Scholvin, J. P. Kinney, J. G. Bernstein, C. Moore-Kochlacs, 
+N. Kopell, C. G. Fonstad, E. S. Boyden, IEEE Trans. Biomed. Eng. 
+2016, 63, 120.
+[31] G. Rios, E. V. Lubenov, D. Chi, M. L. Roukes, A. G. Siapas, Nano 
+Lett. 2016, 16, 6857.
+[32] J. Du, T. J. Blanche, R. R. Harrison, H. A. Lester, S. C. Masmanidis, 
+PLoS One 2011, 6, e26204.
+[33] C. M. Lopez, S. Mitra, J. Putzeys, B. Raducanu, M. Ballini, 
+A. Andrei, S. Severi, M. Welkenhuysen, C. Van Hoof, S. Musa, 
+R. F. Yazicioglu, in 2016 IEEE Int. Solid-State Circuits Conf. (ISSCC), 
+(Ed.: L. C. Fujino), Vol. 59, IEEE, San Francisco, CA, USA 2016,  
+p. 392.
+[34] C. Xie, J. Liu, T. M. Fu, X. Dai, W. Zhou, C. M. Lieber, Nat. Mater. 
+2015, 14, 1286.
+[35] T. M. Fu, G. Hong, T. Zhou, T. G. Schuhmann, R. D. Viveros, 
+C. M. Lieber, Nat. Methods 2016, 13, 875.
+[36] L. Luan, X. Wei, Z. Zhao, J. J. Siegel, O. Potnis, C. A. Tuppen, S. Lin, 
+S. Kazmi, R. A. Fowler, S. Holloway, A. K. Dunn, R. A. Chitwood, 
+C. Xie, Sci. Adv. 2017, 3, e1601966.
+[37] Z. Zhao, L. Luan, X. Wei, H. Zhu, X. Li, S. Lin, J. J. Siegel, 
+R. A. Chitwood, C. Xie, Nano Lett. 2017, 17, 4588.
+[38] J. C. Potosky, A. J. Higgins, S. T. Hoelke, R. G. Imerson, 
+F. F. Kinoshita, R. L. Maddox, J. P. Reekstin, J. Vac. Sci. Technol. 
+1981, 19, 924.
+[39] S. H. Felix, K. G. Shah, V. M. Tolosa, H. J. Sheth, A. C. Tooker, 
+T. L. Delima, S. P. Jadhav, L. M. Frank, S. S. Pannu, J. Visualized Exp. 
+2013, 79, e50609.
+[40] A. K. Ahuja, M. R. Behrend, J. J. Whalen, M. S. Humayun, 
+J. D. Weiland, IEEE Trans. Biomed. Eng. 2008, 55, 1457.
+[41] D. Khodagholy, J. N. Gelinas, T. Thesen, W. Doyle, O. Devinsky, 
+G. G. Malliaras, G. Buzsaki, Nat. Neurosci. 2015, 18, 310.
+[42] K. A. Ludwig, N. B. Langhals, M. D. Joseph, S. M. Richardson-
+Burns, J. L. Hendricks, D. R. Kipke, J. Neural. Eng. 2011, 8, 014001.
+[43] 
+M. Sessolo, D. Khodagholy, J. Rivnay, F. Maddalena, M. Gleyzes, 
+E. Steidl, B. Buisson, G. G. Malliaras, Adv. Mater. 2013, 25, 2135.
+[44] M. R. Abidian, J. M. Corey, D. R. Kipke, D. C. Martin, Small 2010, 
+6, 421.
+[45] R. Green, M. R. Abidian, Adv. Mater. 2015, 27, 7620.
+[46] G. Malliaras, M. R. Abidian, Adv. Mater. 2015, 27, 7492.
+[47] S. Park, G. Yang, N. Madduri, M. R. Abidian, S. Majd, Adv. Mater. 
+2014, 26, 2782.
+[48] M. Antensteiner, M. Khorrami, F. Fallahianbijan, A. Borhan, 
+M. R. Abidian, Adv. Mater. 2017, 29, 1702576.
+
+www.advancedsciencenews.com
+1700625 (9 of 9) © 2018 The Authors. Published by WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim
+www.advancedscience.comAdv. Sci. 2018, 5, 1700625
+[49] V. Lovat, D. Pantarotto, L. Lagostena, B. Cacciari, M. Grandolfo, 
+M. Righi, G. Spalluto, M. Prato, L. Ballerini, Nano Lett. 2005, 5, 
+1107.
+[50] F. Patolsky, B. P. Timko, G. H. Yu, Y . Fang, A. B. Greytak, 
+G. F. Zheng, C. M. Lieber, Science 2006, 313, 1100.
+[51] M. R. Abidian, K. A. Ludwig, T. C. Marzullo, D. C. Martin, 
+D. R. Kipke, Adv. Mater. 2009, 21, 3764.
+[52] Z. C. Lin, C. Xie, Y . Osakada, Y . Cui, B. Cui, Nat. Commun. 2014, 5, 
+3206.
+[53] R. J. Vetter, J. C. Williams, J. F. Hetke, E. A. Nunamaker, D. R. Kipke, 
+IEEE Trans. Biomed. Eng. 2004, 51, 896.
+[54] A. C. F. Hoole, M. E. Welland, A. N. Broers, Semicond. Sci. Technol. 
+1997, 12, 1166.
+[55] A. K. Nallani, S. W. Park, J. B. Lee, Proc. SPIE 2003, 5116, 414.

@@ -1,0 +1,1137 @@
+MA TERIALS SCIENCE
+W a fer-pa tterned, permeable, and s tr etchable liquid
+metal micr oelectr odes for implantable bioelectr onics
+with chr onic biocompa tibility
+Qiuna Zhuang
+1
+, Kuanming Y ao
+2
+, Mengge Wu
+2
+, Zhuogui Lei
+3
+, F an Chen
+1
+, Jiyu Li
+2,4
+, Q uanjing Mei
+5
+,
+Yingying Zhou
+5
+, Qiy ao Huang
+1
+, Xin Zhao
+5
+, Ying Li
+3
+, Xinge Yu
+2,4
+*, Zijian Zheng
+1,6,7,8
+*
+Implantable bioelectr onics pr o vide unpr ecedented opportunities for r eal-time and continuous monitoring of
+phy siological signals of living bodies. Mos t bioelectr onics adopt thin-film subs tr a tes such as polyimide and pol-
+ydimethylsiloxane tha t e xhibit high lev els of fle xibility and s tr etchability . Ho w ev er, the lo w permeability and
+r ela tiv ely high modulus of these thin films hamper the long-term biocompa tibility . In contr as t, devices fabrica t-
+ed on por ous subs tr a tes sho w the advantages of high permeability but suffer fr om lo w pa tterning density . Her e,
+w e r eport a w a fer-scale pa tternable s tr a tegy for the high-r esolution fabrica tion of supersoft, s tr etchable, and
+permeable liquid metal micr oelectr odes (μLMEs). W e demons tr a te 2-μm pa tterning capability , or an ultr ahigh
+density of ~75,500 electr odes/cm
+2
+, of μLME arr a y s on a w a fer-size (diameter, 100 mm) elas tic fiber ma t by pho-
+tolithogr aphy . W e implant the μLME arr a y as a neur al interfa ce for high spa tiotempor al mapping and interv en-
+tion of electr ocorticogr aphy signals of living r a ts. The implanted μLMEs ha v e chr onic biocompa tibility o v er a
+period of eight months.
+C opyright © 2023 The
+Authors, some
+rights r eserv ed;
+ex clusiv e licensee
+American Associa tion
+for the Advancement
+of Science. No claim to
+original U.S. Go v ernment
+W orks. Dis tributed
+under a Cr ea tiv e
+C ommons Attribution
+NonC ommer cial
+License 4.0 (CC BY-NC).
+INTR ODUCTION
+Implantable and skin-a tta chable bioelectr onics ar e essential in pr o-
+viding r eal-time and continuous monitoring of phy siological
+signals for futur e point-of-car e diagnos tics (1–4), ther apeutics (5,
+6), r ehabilita tion (7), and augmented r eality (8). Ov er the pas t
+decades, scientis ts ha v e made r emarkable a chiev ements in dev elop-
+ing highly s tr etchable electr onics by pa tterning devices and cir cuits
+on polymeric thin-film subs tr a tes such as poly ethylene naphthala te,
+polyimide (PI), and elas tomers [e.g., polydimethylsiloxane
+(PDMS), poly s tyr ene-ethylene-butylene-s tyr ene, and Ecofle x] (9–
+12). W ith pr oper s tructur al and ma terials design, these s tr etchable
+devices can ha v e not only electr onic functions similar to or ev en su-
+perior to those fabrica ted on rigid subs tr a tes but also mark ed com-
+pliance tha t enables conformable conta ct with soft tissues a v oiding
+interfa cial delamina tion during mo v ements (13–15).
+In addition to a high s tr etchability , chr onic (long-term) biocom-
+pa tibility is of par amount importance to bioelectr onics (16). It has
+been r eported tha t chr onic a tta chment of thin-film (e.g., PDMS)
+devices on skin and tissue surfa ces ma y r esult in thermophy siolog-
+ical discomforts such as clamminess, dampness, skin inflamma tion
+(17, 18), and ev en malignancies during chr onic implanta tion (19)
+due to inadequa te permeability and the smooth surfa ce. When
+the polymeric subs tr a te is too s tiff (e.g., PI) in comparison to the
+soft tissues, chr onic implanta tion ma y also lead to tissue scarring
+(20). Ther efor e, it is adv oca ted v ery r ecently to dev elop supersoft
+and permeable types of s tr etchable electr onics, wher e electr onic
+devices ar e fabrica ted on por ous elas tomeric subs tr a tes tha t offer
+high s tr etchability and permeability to air, mois tur e, and ev en
+liquid (21, 22). These por ous elas tomeric subs tr a tes ar e mainly fab-
+rica ted either by engineering micr opor es on those polymeric thin
+films (23–25) or by dir ect electr ospinning pr ocess (26–29).
+Notably , electr ospinning displa y s advantages in the tunability of
+the por osity , elas ticity , and thickness, and it has been widely
+applied for fabrica ting various biomedical devices (30, 31).
+On the planar subs tr a tes, ther e ha v e been a large number of
+works to pa ttern s tr etchable electr odes (32–41), such as gold and
+liquid metal (42), with high r esolutions. Ho w ev er, because of the
+large surfa ce r oughness and por osity , it has been e xtr emely chal-
+lenging to pa ttern micr oelectr odes in high r esolution on those su-
+persoft and permeable subs tr a tes. The pa tternable fea tur e sizes
+demons tr a ted to da te typically r ange fr om 100 μm to millime-
+ters(21), which r esults in a lo w electr ode density of 1 to 10 elec-
+tr odes/cm
+2
+. This is far fr om meeting the demand for advanced
+bioelectr onics aiming for mapping and interv ention with a high
+spa tial and tempor al r esolution, which typically r equir es a pa ttern-
+ing r esolution do wn to a fe w micr ometers (13), or an electr ode
+density of o v er 100 electr odes/cm
+2
+(43–47).
+In this work, w e r eport w a fer-scale pa tterning of permeable and
+s tr etchable liquid metal (LM) micr oelectr odes (μLMEs) on fibr ous
+subs tr a tes with high r esolutions do wn to 2 μm and an ultr ahigh pa t-
+terning density o v er 75,000 electr odes/cm
+2
+by photolithogr aphy .
+These μLMEs sho w tissue-lik e mechanical softness, outs tanding
+electrical conductance when s tr etched up to 1000% s tr ain, and
+chr onic biocompa tibility o v er chr onic on-skin a tta chment and im-
+planta tion tes tings. W e demons tr a te a supersoft and permeable
+1
+Labor a tory for Advanced Interfa cial Ma terials and Devices, School of F ashion and
+T e xtiles, The Hong Kong P olytechnic Univ ersity , Hong Kong SAR, China.
+2
+Department of Biomedical Engineering, City Univ ersity of Hong Kong, Hong
+Kong SAR, China.
+3
+Department of Neur oscience, City Univ ersity of Hong Kong,
+Hong Kong SAR, China.
+4
+Hong Kong C entr e for C er ebr o-Cardio vascular Health En-
+gineering (C OCHE), Hong Kong Science P ark, Hong Kong SAR, China.
+5
+Department
+of Biomedical Engineering, The Hong Kong P olytechnic Univ ersity , Hong Kong
+SAR, China.
+6
+Department of Applied Biology and Chemical T echnology , The
+Hong Kong P olytechnic Univ ersity , Hong Kong SAR, China.
+7
+R esear ch Ins titute
+for Intelligent W ear able Sy s tems (RI-IWEAR), The Hong Kong P olytechnic Univ ersi-
+ty , Hong Kong SAR, China.
+8
+R esear ch Ins titute for Smart Energy (RISE), The Hong
+Kong P olytechnic Univ ersity , Hong Kong SAR, China.
+*C orr esponding author. Email: tczzheng@polyu.edu.hk (Z.Z.); xinge yu@cityu.edu.
+hk (X.Y .)
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 1 of 13
+
+neur al interfa ce for high–spa tiotempor al-r esolution mapping and
+interv ention of electr ocorticogr aphy (EC oG) signals.
+RESUL TS
+F abrica tion of permeable and μLMEs
+Figur e 1A sho ws a schema tic illus tr a tion of the fabrica tion pr ocess
+of w a fer-scale μLMEs, which consis ts of four main s teps: (i)
+photolithogr aphy of Ag on a SiO
+2
+w a fer pr emodified with a thin
+la y er of w a ter-soluble de xtr an; (ii) electr ospinning of a fibr ous
+poly(s tyr ene-block-butadiene-block-s tyr ene) (SBS) ma t onto the
+Ag micr opa tterns; (iii) dissolving of the de xtr an la y er and tr ansfer
+of the Ag micr opa tterns fr om the SiO
+2
+w a fer onto the SBS fiber ma t;
+and (iv) selectiv e w etting of LM on the Ag-co v er ar eas to gener-
+a te μLMEs.
+Fig. 1. F abrica tion pr ocess of s tr etchable and permeable liquid metal micr oelectro des (μLMEs). (A) Schema tic illus tr a tion of the fabrica tion pr ocess of μLMEs, which
+consis ts of four main s teps: (i) photolithogr aphy of Ag on a SiO
+2
+w a fer pr emodified with a thin la y er of w a ter-soluble de xtr an, (ii) electr ospinning of a fibr ous SBS ma t onto
+the Ag micr opa tterns, (iii) dissolving of the de xtr an la y er and tr ansfer of the Ag micr opa tterns fr om the SiO
+2
+w a fer onto the SBS fiber ma t, and (iv) selectiv e w etting of LM
+on the Ag-co v er ed ar eas to gener a te μLMEs. (B) Schema tic comparison of the differ ent dissolution pr ocesses of the sa crificial la y er by using permeable fiber ma ts or
+impermeable thin films. The use of permeable subs tr a te significantly impr o v es the conta ct ar ea betw een the sa crificial lay er and the solv ent because the solv ent can easily
+penetr a te the por ous fiber network. Ther efor e, the sa crificial la y er can be fully dissolv ed in a short time in an isotr opic manner, and the Ag micr opa tterns can be fully
+tr ansferre d. In contr as t, the solv ent can only conta ct the sa crificial la y er fr om the edge of the subs tr a te when using impermeable thin film subs tr a tes, e.g., PDMS, r esulting
+in the slo w and insufficient dissolution of the sa crificial la y er and thus the partial tr ansfer of the Ag micr opa tterns.
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 2 of 13
+
+The dir ect electr ospinning of the SBS fiber ma t onto Ag micr o-
+pa tterns is the k e y s tep, and it addr esses two critical challenges in the
+fabrica tion of micr osized LM on por ous and s tr etchable subs tr a tes
+(Fig. 1B). Firs t of all, the dir ect electr ospinning of SBS fibers ensur es
+a conformal conta ct of the fibr ous subs tr a tes with the Ag micr opa t-
+terns. Ther efor e, when the de xtr an la y er is dissolv ed by w a ter, Ag
+micr opa tterns will adher e firmly to the SBS fiber ma t and a chiev e
+a complete pa ttern tr ansfer. Second, the fibr ous s tructur e of the r e-
+ceiving SBS subs tr a te offers a r apid penetr a tion of w a ter and a large
+w a ter/de xtr an conta ct interfa ce, so as to a chiev e a fas t and isotr opic
+dissolution of de xtr an. Such an isotr opic dissolution of the sa crifi-
+cial la y er is also critical to a chieving a complete pa ttern tr ansfer o v er
+a large ar ea (fig. S1).
+W e chose eutectic gallium indium (EGaIn) alloy as the LM.
+EGaIn sho ws a lo w melting temper a tur e of 15.4°C (48) and s table
+conductiv e pr operties ev en under large tensile s tr ains (49–55)
+because of its intrinsic fluidity (56, 57) in comparison to those
+solid electr odes. In addition, the lo w modulus and high biocompa t-
+ibility of EGaIn also benefit the applica tions in soft and s tr etchable
+bioelectr onics (58–60).
+As a pr oof of concept, w e pa tterned 300-nm-thick Ag with
+fea tur e sizes r anging fr om 2 to 1000 μm on a w a fer subs tr a te (diam-
+eter, 100 mm) (Fig. 2A, inset). The SiO
+2
+w a fer surfa ce w as pr evious-
+ly spin-coa ted with a 10-nm-thick de xtr an la y er with a smooth
+surfa ce (fig. S2). W e then electr ospun a 100-μm-thick SBS fiber
+ma t on the w a fer surfa ce (fig. S3). After a plasma tr ea tment on
+the SBS side, the whole sample w as immersed into a w a ter ba th.
+W a ter immedia tely w et the sample thr ough the micr opor es and dis-
+solv ed the de xtr an la y er (mo vie S1), and a fr ee-s tanding Ag-coa ted
+SBS fiber ma t w as obtained in jus t a fe w minutes (Fig. 2A and mo vie
+S2). After drying, EGaIn w as applied onto the SBS subs tr a te.
+Because of the poor a ffinity to SBS and the high r ea ctivity with
+Ag, EGaIn selectiv ely de w ets fr om the SBS surfa ce and w ets on
+the Ag-co v er ed ar eas to form the μLMEs on the supersoft SBS
+fiber ma t (Fig. 2B).
+The success r a te of pa ttern tr ansfer is largely dependent on the
+penetr a tion speed of w a ter thr ough the SBS fiber ma t. W e firs t char-
+a cterized the intrinsic dissolving speed of the de xtr an (~1 nm/s)
+without the co v er age of the s tamp/r eceiv er subs tr a te (fig. S4).
+After co v ering an electr ospun SBS fiber ma t, the surfa ce w as initially
+hydr ophobic with a large w a ter conta ct angle of 130° (fig. S5). At
+this point, it took 2 min to w et the bottom subs tr a te, and the
+de xtr an la y er w as difficult to be dissolv ed. After the plasma tr ea t-
+ment (Fig. 2C), the SBS surfa ce became superhydr ophilic (mo vie
+S3). The penetr a tion time decr eased to 3 s when the plasma time
+w as 20 min (fig. S6). Accordingly , the pa ttern tr ansfer r a te, which
+is defined by the ar ea of tr ansferr ed Ag fea tur es to the total pa t-
+terned ar ea, incr eased fr om almos t zer o (befor e plasma tr ea tment)
+to abo v e 95% (Fig. 2D and fig. S7). In contr as t, samples co v er ed with
+impermeable spin-coa ted SBS film did not sho w any tr a ce of pa ttern
+tr ansfer ev en a fter immersing in w a ter for 1 w eek (fig. S8).
+Note tha t the selectivity w etting of EGaIn lies in the r ea ctiv e al-
+loying betw een Ag and In to form AgIn alloy s, which sho ws high
+a ffinity to additional EGaIn applied on top of the Ag ar ea (fig.
+S9). Additional EGaIn applied on the surfa ce will w et the as-
+formed AgIn alloy la y er to form the trila y er of EGaIn/AgIn/Ag.
+The EGaIn conta ct angle r educed fr om 140° to 30° when the Ag
+la y er incr eased fr om 0 to 300 nm (Fig. 2E). μLMEs with dimensions
+r anging fr om 2 to 1000 μm and a wide variety of shapes, including
+arbitr ary pa tterns for various electrical components (lines, dots,
+sour ce-dr ain electr ode, inter connect, mesh electr ode, antenna, gen-
+er a tor, inductor, capa citor, and r esis tor), w er e obtained (figs. S10
+and 11). W e observ ed a slight widening of the EGaIn fea tur e in
+comparison to the original Ag pa tterns. F or ins tance, as sho wn in
+Fig. 2F , the line width of the Ag electr ode on the SBS fiber ma t w as
+3.2 μm. After w etting, the final line width of the EGaIn electr ode w as
+3.3 μm. It should be noted tha t the pitch of the pa tterns r emained
+unchanged. The line width of μLMEs sho w ed a linear r ela tionship
+with the line widths of Ag with a slope of ~0.99 (Fig. 2G).
+Figur e 2H sho ws a μLME-based electr onic pa tch consis ting of arbi-
+tr ary polygons, and Fig. 2I sho ws high-density electr onic compo-
+nents with a density of 75,500 electr odes/cm
+2
+. When a tta ching
+the electr onic pa tch to the skin, nearly no LM r esidues w er e ob-
+serv ed with the loading pr essur e lo w er than 3.2 kP a, and a tr a ce
+amount of LM r esidues w as found until the loading pr essur e
+r ea ched 12.8 kP a (fig. S12).
+P ermeability , biocompa tibility , conductivity , and
+s tr etchability of μLMEs
+Owing to the high por osity of the fiber ma t, μLMEs ha v e e xcellent
+permeability to air, mois tur e, and liquid (mo vie S4). Figur e 3A
+sho w ed the gr adua te penetr a tion of a color ed liquid fr om the
+upper side of the μLME to the bottom side, sho wing the outs tanding
+liquid permeability . The air permeability and mois tur e permeability
+of μLMEs on a 330-μm-thick SBS fiber ma t w er e 78 mm/s and 835
+g/m
+2
+per da y , r espectiv ely (Fig. 3, B, and C). The values ar e similar
+to pr evious liter a tur e r eports using similar thicknesses of tes ting
+ma terials and tes ting methods (18). In contr as t, the air permeabil-
+ities of Ecofle x and PDMS thin films w er e almos t zer o. Their mois-
+tur e permeabilities w er e belo w 50 g/m
+2
+per da y . Mor eo v er, the
+permeability of μLMEs could be further enhanced by decr easing
+the SBS thickness. At a thickness of 25 μm, the air permeability
+and the mois tur e permeability r ea ched 235 mm/s and 990 g/m
+2
+per da y , r espectiv ely . In addition, μLMEs had lo w cytotoxicity in
+the in vitr o s tudy by using L-929 cells as the model cell (fig. S13).
+F urther, in viv o animal e xperiments on the r abbit skin denoted no
+obvious irrita tion (i.e., no erythema and oedema on the skin)
+during the observa tion period (24, 48, and 72 hours; fig. S14).
+W e char a cterized the conductivity of the μLMEs a t differ ent line-
+widths. When incr easing the line width fr om 2 to 200 μm, the μLME
+pertained a high lev el of conductivity in the r ange of 1.3 to 3.9 × 10
+5
+S/cm (Fig. 3D and fig. S15). W e noticed tha t the conductivity of
+μLMEs is higher than pris tine EGaIn (lo w er than pris tine Ag).
+W e believ e tha t this enhancement can be a ttributed to the contribu-
+tion fr om the mor e conductiv e Ag la y er undernea th the LM (fig.
+S16). It should be also noted tha t, without LM, tr ansferr ed Ag on
+the SBS fiber ma t cannot sus tain tensile s tr ain o v er 50% with the
+pr esence of cr a cks r anging fr om sev er al micr ometers to sev er al
+dozens of micr ometers (fig. S17).
+In contr as t, μLMEs w er e highly s tr etchable and conductiv e.
+Because of the trila y er s tructur e of LM/AgIn/Ag, the fluidic LM
+could w ell connect the br ok en solid metal on the fiber surfa ce,
+forming a continuous conductiv e pa thw a y . The r esis tance of the
+5-μm μLME incr eased only by 0.6% a t a tensile s tr ain of 300%
+(Fig. 3E). When incr easing the line width to 10 and 50 μm,
+μLMEs could sho w electrical s tability a t higher tensile s tr ains,
+with r esis tance incr easing by only 1.3 and 1.1 folds a t 1000%
+s tr ain, r espectiv ely . When incr easing the line width to 200 μm, the
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 3 of 13
+
+r esis tance only changed by 5.25 folds a t a s tr ain of 1500%. Mor e-
+o v er, μLMEs with various line widths (10, 50, and 200 μm)
+sho w ed electrical s tability and r obus tness during s tr etch-r elease
+cyclic tes ts under large s tr ains (>1000% s tr ain) (Fig. 3F and fig.
+S18), r esulting fr om the forma tion of the r ev ersible buckling s truc-
+tur e (fig. S19). These buckles ar e formed because of the forma tion of
+a thin solid la y er of Ga
+2
+O
+3
+on the LM surfa ce. Since the oxide la y er is
+much harder than the LM, buckles formed as a consequence of the
+mechanical competition betw een the harder upper oxide la y er and
+the softer underlying subs tr a te. Such a buckled s tructur e benefits
+the outs tanding s tr etchability and electrical s tability of μLMEs.
+The r esis tances of μLMEs changed only by 1.03 (line width, 10
+μm) a fter 100 cycles and 0.393 folds (line width, 50 μm) a fter 500
+cycles of s tr etch-r elease tes ts a t a s tr ain of 1000%.
+μLME-based implantable bioelectr onics for neur al interfa ce
+with chr onic biocompa tibility
+Owing to the a ttributes of super-softness, biocompa tibility , s tr etch-
+ability , and high spa tiotempor al r esolution, μLMEs ar e suitable for
+implantable bioelectr onics wher e high device density and chr onic
+comfortability ar e critically important (16, 61). As a pr oof of
+concept, w e fabrica ted an implantable μLME arr a y for the r ecording
+Fig. 2. Structures of μLMEs. (A) Digital images sho wing the tr ansfer of Ag micr opa tterns fr om the w a fer to the SBS fiber ma t. The inset image sho ws the w a fer-sized Ag
+micr opa tterns pa tterned on the w a fer befor e tr ansfer. The main image sho ws the tr ansferr ed Ag onto the SBS fiber ma t a fter dissolving the sa crificial la y er. The supersoft
+and fr ees tanding sample is floa ting on the w a ter. (B) Digital image of μLMEs a tta ched on a human arm (mass loading of LM, 10 mg/cm
+2
+). (C) C onta ct angle and pen-
+etr a tion speed of the solv ent to the sa crificial lay er and (D) the pa ttern tr ansfer success r a te as a function of the plasma dur a tion. (E) C onta ct angle of LM on the tr ansferre d
+Ag la y er as a function of the Ag thicknesses. (F) Scanning electr on micr oscopy images sho wing an electr ode on the SBS fiber ma t befor e and a fter the selectiv e w etting
+with LM. (G) Summary of the line widths of μLMEs in corr espondence to the original line widths of Ag electr odes. (H and I) Digital images of high-density μLMEs with a
+density as high as 75,500 electr odes/cm
+2
+.
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 4 of 13
+
+of EC oG signals fr om the soft, curv ed, and sophis tica ted neur al in-
+terfa ce. Major cortical subdomains of the r a t consis ting of motor,
+soma tosensory , visual, and r etr osplenial cortices w er e co v er ed
+with the μLME arr a y (Fig. 4A). The μLME arr a y fea tur ed with a
+small diameter of the cir cular electr ode unit (500 μm), fine inter-
+connects (40 μm), and a high channel density of 100 electr odes/
+cm
+2
+(fig. S20). Because of the similarity in mechanical compliance
+with the br ain tissue (fig. S21), μLME (thickness, 25 μm) w as con-
+formally a tta ched to the cortical surfa ce (Fig. 4, B and C), which
+sho w ed a much lo w er lo w Y oung’s modulus (Fig. 4D) and superior
+conformability (fig. S22) compar ed with r eported electr ode ma teri-
+als for EC oG devices (e.g., Au/PI, Au/parylene, and silicon).
+T o v erify the possibility of μLME arr a y for neur al electr ophy si-
+ological r ecording and s timula tion, in vitr o electr ochemical imped-
+ance char a cteriza tion w as firs t carried out. The electr ochemical
+impedance of the μLME interfa ce in phospha te-buffer ed saline
+(PBS) w as similar to tha t of the commonly used Au/PI electr ode
+with the same dimension in the fr equency r anges fr om 1 to
+10,000 Hz. The μLME arr a y could be r eadily s tr etched up to 500%
+and maintained good s tability of the impedance and phase signals,
+while the Au/PI electr ode sho w ed mark ed changes when s tr etched
+up to 30% (Fig. 4E and fig. S23). In addition, the 36-channel μLME
+arr a y sho w ed a lo w varia tion of the electr ochemical impedance
+among individual electr odes (fig. S24).
+F or in viv o r ecording of the cortical a ctivity , w e r ecorded the
+neur al signal of the r a t during sleeping (fig. S25). Fr om the po w er
+spectrum of the signal, the nonr apid e y e mo v ement sleep of the r a t
+w as observ ed, which is associa ted with the e xis tence of lo w-fr equen-
+cy delta w a v es lo w er than 4 Hz and theta w a v es r anging fr om 4 to 8
+Hz (Fig. 4F). T o v erify the capability of the μLME for r ecording
+r egion-specific cortical a ctivity , w e s timula ted the for elimbs with
+short electric curr ent pulses and e xamined the induced soma tosen-
+sory ev ok ed potentials (SEPs) in the corte x. The SEPs w er e r ecorded
+under electrical s timula tions with fr equencies r anging fr om 1 to 9
+Hz (Fig. 4G) and pulse v oltages r anging fr om 1 to 6 V (Fig. 4H),
+r espectiv ely . The amplitude of the neur al signal displa y ed an
+Fig. 3. P ermeability , conductivity , and s tr etchability of μLMEs. (A) Digital images sho wing the penetr a tion of one color ed w a ter dr oplet fr om one side of μLMEs to the
+other side. (B and C) Air and mois tur e permeability of μLMEs on SBS ma ts with various thicknesses, as w ell as other common subs tr a tes for bioelectr onics including PDMS,
+Ecofle x, and medical pa tch. (D) Electrical conductivity of μLMEs of various line widths. (E) R esis tance (R) of μLMEs of various line widths a t differ ent tensile s tr ains. (F) Cyclic
+electrical s tability of μLMEs (line width, 50 μm) under a large tensile s tr ain of 1000%.
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 5 of 13
+
+Fig. 4. High-density μLMEs-based bioelectr onics for the neur al electr ophy siological interfa ce. (A) Schema tic illus tr at ion sho wing the applica tion of μLMEs-based
+EC oG arr a y and the r ecorded cortical subdomains. (B and C) Digital images of μLME EC oG electr ode arr a y (thickness, 25 μm) with conformal a tta chment onto the soft,
+curv ed, and sophis tica ted cer ebr al corte x. The dashed line sho w ed the boundary of the μLME arr a y . (D) C omparison of Y oung’s modulus of μLMEs with r eported ma terials
+for EC oG bioelectr odes. (E) In vitr o electr ochemical impedance spectr oscopy (EIS) char a cteriza tions of μLMEs and Au/PI electr odes under differ ent s tr ains. (F) P o w er
+spectrum analy sis of in viv o neur al signals a t the sleep s ta te of a living r a t. (G) Soma tosensory ev ok ed potentials (SEPs) r ecorded with μLMEs under electrical s timula tions
+with pulse v oltage of various fr equencies. (H) C omparison of SEPs in the contr ala ter al and ipsila ter al soma tosensory cortices under electrical s timulat ions with pulse
+v oltage of various intensities. (I) Spectr ogr am of the signals of the contr ala ter al soma tosensory corte x under 10 continuous electrical s timula tions with the intensity of 6 V
+and the fr equency of 1 Hz. (J) Spa tiotempor al pr operties for the μLME arr a y in r esponse to the electrical s timula tions of left and right for elimbs.
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 6 of 13
+
+intensity-dependent manner, fr om 15 to 107 mV in the positiv e
+SEPs and 44 to 630 mV in the nega tiv e SEPs with incr easing
+pulse v oltage. Notably , the neur al signals in the contr ala ter al (left)
+hemispher es w er e much s tr onger than those in the ipsila ter al (right)
+hemispher e since these electrical s timula tions w er e applied on the
+right for elimb (Fig. 4H). Mor eo v er, rhythms (7 to 14 Hz) of the
+EC oG signals w er e observ ed r epr oducibly thr oughout 10 continu-
+ous electrical s timula tions (Fig. 4I).
+Figur e 4J sho ws the analy sis of the spa tiotempor al pr operties for
+the μLME arr a y . In r esponse to for elimb s timula tions, peak values of
+positiv e SEPs (color ed r ed r egions) w er e detected a t ∼20 ms on the
+s timula ted hemispher es a fter s timula tion onsets of both for elimbs,
+wher eas the counterpart hemispher es la ck ed these r esponses. In
+contr as t, nega tiv e SEP (color ed dark-blue r egions) peaks emerged
+in both hemispher es, r epr esenting a cognitiv e r esponse to the s tim-
+ulus. Other cortical ar eas such as motor (primary and secondary)
+corte xes and visual corte x also sho w ed w eak er SEP signals com-
+par ed with the soma tosensory corte x.
+The μLME arr a y sho w ed outs tanding chr onic biocompa tibility
+tha t is important for chr onic implanta tion. Right a fter the implan-
+ta tion, no damage or inflamma tory r esponses w er e found in the
+tissues and cells fr om the immunohis tological analy sis of the
+br ain slice (Fig. 5A). After implanta tion for 2 and 32 w eeks, the mi-
+cr oglial a ctiva tion lev el in the μLME gr oups s till sho w ed no signifi-
+cant differ ence fr om the contr ol gr oup in both soma size and
+Ionized calcium binding adaptor molecule 1 (Iba1) number
+(Fig. 5B). In contr as t, implanta tion using Au/PI and Au/PDMS
+for 2 w eeks sho w ed a significantly incr eased soma size of the micr o-
+glia and the amount of the Iba1 in comparison to the contr ol (P <
+0.001, t tes t), indica ting a significant micr oglial a ctiva tion and in-
+flamma tion r esponse (Fig. 5, C and D). Las t but not leas t, the im-
+planted μLMEs ha v e chr onic biocompa tibility in living r a ts o v er a
+period of 8 months compar ed with curr ent EC oG devices (table S1).
+μLME also sho w ed superior biocompa tibility to Au/PI and Au/
+PDMS when these samples w er e implanted in the sk eletal muscle
+of r a ts for 1 w eek (fig. S26). The superiority is mos t lik ely r esulted
+fr om the impr o v ed softness, s tr etchability , and permeability of the
+μLMEs. W e also e xplor ed long-term electrical s tability of μLMEs in
+the air and in PBS solutions (fig. S27). W e fabrica ted two types of
+μLME electr odes as sho wn in fig. S27A, including (i) μLMEs
+without encapsula tion and (ii) partially encapsula ted μLMEs in
+which the leads and conta ct pads ar e encapsula ted with another
+la y er of SBS fiber ma t. The μLMEs sho w ed outs tanding electrical
+s tability in the air ev en without encapsula tion, and the electrical r e-
+sis tance only changed by 0.45% a fter 100 hours (fig. S27B). When
+tes ted in PBS solutions, μLMEs without encapsula tion sho w ed good
+s tability for up to 7.5 hours, but then the electrical r esis tance w ent
+up suddenly , indica ting a disconnection betw een the measuring
+wir e and the μLMEs due to corr osion of the LM (fig. S27C). In con-
+tr as t, the electrical r esis tance of the partially encapsula ted sample
+r emained s table in the 100-hour tes t (fig. S27D). F or the impedance
+tes t in PBS solutions, the μLMEs without encapsula tion also sho w ed
+poor s tability (fig. S27E), and the impedance w ent up by one order
+of magnitude a fter tes ting for 8 hours. The impedance of the par-
+tially encapsula ted μLMEs r emained good s tability (fig. S27F). The
+r esults sho w tha t ther e is indeed a slo w corr osion of the impedance
+without encapsula tion.
+DISCUSSION
+P or ous and s tr etchable subs tr a tes such as electr ospun fiber ma ts
+ha v e outs tanding permeability , softness, and biocompa tibility ,
+which ar e critical a ttributes for bioelectr onic applica tions.
+Ho w ev er, differ ent fr om planar subs tr a tes such as thin-film plas tics
+or elas tomers tha t ar e the main choices no w ada y s (table S2) (32–41),
+pa tterning high-r esolution electr odes on r ough, por ous subs tr a tes
+has been a challenging task. The pa tterning pr ocess is majorly
+carried out by printing methods such as scr een printing and
+inkjet printing or shado w mask methods. Hence, the pa tterning r es-
+olution has been limited to 50 to 10,000 μm (18, 26, 27, 62), so the
+device density w as v ery lo w (table S3).
+The successful pr epar a tion of μLMEs o v er a large-size, perme-
+able, and s tr etchable fiber ma t pa v es the w a y to w ard high-density ,
+integr a ted, implantable, and chr onically biocompa tible LM elec-
+tr onics. At this moment, μLMEs displa y a typical pa tterning r esolu-
+tion of 2 μm by labor a tory-equipped photolithogr aphy , mois tur e
+permeability of 990 g/m
+2
+per da y , device density o v er 75,000 elec-
+tr odes/cm
+2
+, electrical conductivity in the order of 10
+5
+S/cm, and
+s tr etchability up to 1500% s tr ain. In principle, the pa tterning r eso-
+lution of μLMEs can be further enhanced to submicr ometer (0.25 to
+1 μm) r egions, e.g., by using a high-r esolution lithogr aphic tool and
+fiber ma t of smaller fiber diameters (fig. S28).
+MA TERIALS AND METHODS
+Ma terials
+Solv ents including a cetone, tetr ahydr ofur an, dimethylformamide,
+ethanol, and 2-pr opanol w er e pur chased fr om Anaqua Global Inter-
+na tional Inc. Limited. The nega tiv e photor esis t (NR9-1500P) and
+the dev eloper for NR9-1500P (DR6) w er e obtained fr om F uturr e x
+Inc., USA. LM and de xtr an w er e pur chased fr om Sigma-Aldrich
+and used as r eceiv ed. All ma terials w er e used as r eceiv ed.
+F abrica tion of the permeable and μLMEs
+A Si or SiO
+2
+w a fer w as firs t sonica ted in a cetone, 2-pr opanol, and
+deionized (DI) w a ter, r espectiv ely , and then w as blo wn dried with
+nitr ogen gas. After tha t, a de xtr an solution (10 wt % in w a ter) w as
+spin-coa ted on the w a fer a t 4000 rpm for 40 s to form a sa crificial
+la y er, follo w ed by a baking tr ea tment on a hotpla te a t 80°C for 1 min
+and 180°C for 30 min. The bak ed de xtr an-coa ted w a fer w as subse-
+quently spin-coa ted with a la y er of nega tiv e photor esis t NR9-1500P
+a t 4000 rpm for 40 s, follo w ed by a pr ebaking tr ea tment on a hot-
+pla te a t 155°C for 1 min. The photor esis t w as then e xposed to ultr a-
+violet (UV) light with a dose of 170 mJ/cm
+2
+with the assis tance of a
+mask aligner (Suss MA6). After the UV e xposur e, the photor esis t
+w as pos tbak ed a t 105°C for 3 min and then dev eloped in DR6 de-
+v eloper for 10 to 15 s. After rinsing the sample in DI w a ter and
+drying with compr essed nitr ogen gas, a 300-nm-thick Ag la y er
+w as deposited onto the w a fer by the thermal evapor a tion method.
+Subsequently , the lift-off pr ocess w as carried out in the a cetone
+solv ent to form the Ag micr opa tterns on the w a fer. T o tr ansfer
+the Ag micr opa tterns to the s tr etchable and permeable fibr ous sub-
+s tr a tes, SBS fiber ma t with a thickness r anging fr om 25 to 330 μm
+w as dir ectly electr ospun on the surfa ce of the w a fer deposited with
+Ag micr opa tterns, follo w ed by plasma tr ea tment for 20 min. The
+plasma tr ea tment (Harrick, r adio fr equency po w er 18W) inv olv ed
+the use of air with a flo w r a te of ar ound 0.5 s tandard cubic feet
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 7 of 13
+
+per hour and a pr essur e of 200 mT orr. Then, the sa crificial la y er
+betw een the w a fer and the Ag micr opa tterns w as dissolv ed by im-
+mersing the sample in the DI w a ter within minutes a t r oom temper-
+a tur e. The SBS fiber ma t w as peeled off fr om the w a fer, and the Ag
+micr opa tterns w er e tr ansferr ed to the fiber ma t. T o obtain μLMEs,
+LM w as applied to the Ag micr opa tterns by selectiv e w etting in a
+glo v ebox filled with Ar gas.
+Measur ement of the w a ter penetr a tion speed thr ough the
+SBS fiber ma ts
+The penetr a tion speed of the w a ter thr ough the SBS fiber ma t w as
+r eflected by the w a ter conta ct angle, w etting time, w etting r adius,
+and absorption speed. The conta ct w a ter angle on the SBS fiber
+ma t plasma tr ea ted with differ ent dur a tions w as measur ed by a
+conta ct angle measur ement ins trument (SDC-350). The dr op
+amount of the w a ter w as fixed as 5 μl. The w etting time, w etting
+r adius, and absorption r a te of w a ter w er e measur ed by the Mois tur e
+Fig. 5. Chr onic (long-term) biocompa tibility of μLMEs for chr onic neur al implants. (A) Immunohis tological analy sis of a s tained br ain slice a fter implanta tion of the
+electr ode arr a y for 2 hours. (B) Immunohist ochemis try s taining of the micr oglia (Iba1, gr een) and nuclei [4′,6-diamidino-2-phenylindole (DAPI), blue] a t 2 w eeks pos t-
+implanta tion of the contr ol, Au/PI electr odes, Au/PDMS electr odes, μLME electr odes, and μLME electr odes with the implanta tion dur a tion of 32 w eeks (32 w). The left
+sho ws the lo w-magnifica tion pictur es (scale bars = 1000 μm), and the right sho ws the high-magnifica tion ones (scale bars = 200 μm). (C) Sta tis tical analy sis of the micr o-
+glia soma size (n = 6). A significant incr ease in soma size w as found in the Au/PI gr oup (P = 0.0002) and Au/PDMS gr oup (P = 0.0375) compar ed to the contr ol (two-w a y ,
+unpair ed Student’s t tes t). No significant differ ence w as found betw een the μLME gr oups and the contr ol gr oup (P = 0.4482 a t 2 w eeks pos timplanta tion, P = 0.6143 a t 32
+w eeks pos timplanta tion). (D) Sta tis tical analy sis of the total micr oglia cells intensity (n = 6). A significant incr ease in iba1 cells w as found in the Au/PI gr oup (P < 0.0001)
+and Au/PDMS gr oup (P = 0.0274) compar ed to the contr ol (two-w a y , unpair ed Student’s t tes t). No significant differ ence w as found betw een the μLME gr oups and the
+contr ol gr oup (P = 0.3912 a t 2 w eeks pos timplanta tion, P = 0.2566 a t 32 w eeks pos timplanta tion).
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 8 of 13
+
+Management Sy s tem (SDL Atlas) a ccording to the s tandard of the
+American Associa tion of T e xtile Chemis ts and C oloris ts 79.
+Char a cteriza tions of the morphology and permeability
+of μLMEs
+The morphology and surfa ce r oughness of the sa crificial la y er w er e
+char a cterized by the a tomic for ce micr oscope (XE 70). The line-
+widths and thicknesses of μLMEs w er e determined by the thr ee-di-
+mensional optical surfa ce pr ofiler (Ne w Zygo Ne xVie w). The
+surfa ce morphology and elemental mapping of the samples w er e
+collected by scanning electr on micr oscopy (TESC AN VEGA3).
+The air permeability tes ts w er e conducted a ccording to ASTM
+D737-08 s tandard using a MO21S air permeability tes ter (SDL
+Americ Inc.). The pr essur e of the airflo w w as set a t 100 kP a. Mois-
+tur e permeability tes ts w er e performed a ccording to the s tandard
+E96/E96M-13 by the cup method. The tes ting dur a tion w as 72
+hours. Both air permeability and mois tur e permeability tes ts w er e
+performed a t cons tant temper a tur e (22°C) and humidity (63%).
+Electrical and mechanical char a cteriza tions of μLMEs
+The electrical conductivity (σ) of μLMEs w as calcula ted a ccording
+to the formula σ = L/(A × R), wher e L, A, and R ar e the length, cr oss-
+sectional ar ea, and electrical r esis tance of the μLME, r espectiv ely . A
+of μLMEs w as determined by the surfa ce pr ofiler (Ne w Zygo
+Ne xVie w) (fig. S9), and the integr a ted polygon ar ea w as calcula ted
+using the softw ar e OriginPr o 8.5. R values of the μLMEs with dif-
+fer ent line widths (L = 10 mm) w er e measur ed via DC I-V char a c-
+teris tics with a par ameter analyzer (Keithle y 4200A-SCS P ar ameter
+Analyzer) connected with a pr obe s ta tion (Micr omanipula tor) (fig.
+S13). The electrical r esis tance of μLMEs under differ ent s tr ains w as
+measur ed by a four-terminal method with a sour ce meter (Keithle y
+2400) coupled with a cus tomized s tr etching ma chine (Pr ecise). The
+loading pr essur e for observing the LM r esidues on the skin w as
+applied using a compr ession dynamometer (Handpi ins truments).
+Electr ochemical char a cteriza tions
+Electr ochemical impedance spectr oscopy (EIS) w as conducted
+using an electr ochemical works ta tion (CHI 660E) with a thr ee-elec-
+tr ode tes ting s y s tem. Ag/AgCl (2 M KCl), pla tinum foil, and the
+μLME w er e performed as the r efer ence electr ode, counter electr ode,
+and working electr ode, r espectiv ely . PBS solution (1×; Gibco) w as
+used as the electr olyte. Impedance and phase angle as a function of
+fr equency r anging fr om 1 to 10,000 Hz w er e r ecorded by an A C si-
+nusoid signal amplitude of 10 mV . The EIS spectr a of μLMEs
+s tr etched with various s tr ains w er e a cquir ed with the same electr o-
+chemical works ta tion coupled with a homemade s tr etching setup.
+Ra t surgery
+All pr ocedur es follo wing the animal s tudies and the e xperimental
+pr otocols w er e r evie w ed and appr o v ed by the Animal R esear ch
+Ethics Sub-C ommittee, R esear ch C ommittee a t the City Univ ersity
+of Hong Kong (appr o val number A-0664). Male Spr ague Da wle y
+r a ts w er e order ed fr om the Labor a tory Animal Services C entr e,
+Chinese Univ ersity of Hong Kong (aged 7 to 8 w eeks, 200 to 300
+g). All r a ts w er e housed in the Labor a tory Animal R esear ch Unit,
+City Univ ersity of Hong Kong, under 12-hour/12-hour light/dark
+cycles until e xperiments. Befor e the surgery , the r a ts w er e firs t anes-
+thetized with gaseous isoflur ane (2 liters/min air mixed with 3% iso-
+flur ane) and then deeply anes thetized with pentobarbital sodium
+(30 mg/kg). After anes thesia, the r a t head w as sha v ed under 37°C.
+The midline skin incision w as firs t made o v er the cr anio v ertebr al
+junction. The o v erlying muscles w er e then cut and r etr a cted to
+e xpose the skull. A cr aniotomy w as performed using a dental
+drill, and then the dur a w as peeled off using a fine tw eezer to
+ensur e full e xposur e of the cer ebr al corte x.
+EC oG neur al signal r ecording and electrical s timula tions
+The μLME arr a y bonded on a fle xible printed cir cuit (FPC) connec-
+tor w as connected to a printed cir cuit board with a cus tomized FPC
+adaptor, and then EC oG neur al signals w er e r ecorded with a mul-
+tichannel high-pr ecision da ta a cquisition s y s tem (P o w erLab 16-35,
+AD Ins truments). Signals w er e a cquir ed and digitally band-pass fil-
+ter ed (1 to 30 Hz) by ma tched softw ar e LabChart. Sequential elec-
+trical s timula tions w er e performed on both the left and right
+for elimbs of the r a t using squar e w a v e v oltage pulses with various
+applying fr equencies (1, 3, and 9 Hz) and intensities (1, 3, and 6
+V) gener a ted by the s timula tion output port of the P o w erLab
+thr ough a Ba y onet Neill–C oncelman cable. A total of 50 pulses
+w er e deliv er ed a t a fr equency of 1 Hz for ea ch s timulus condition,
+and 50 r esponses per s timulus condition w er e a v er aged. A cus tom
+MA TLAB code w as adopted for analyzing the spectr ogr am of the
+EC oG neur al signals.
+Cry osection, his tological s taining, and observa tions of the
+br ain slice
+After the implanta tion of the μLME arr a y , the his tological s ta tus of
+the br ain slice w as firs t s tudied. T o pr otect the tissular s tructur e, the
+specimen w as fixed in a PBS solution with 4 wt % formaldehyde for
+24 hours and tr ansferr ed into 30% sucr ose solution o v ernight, a fter
+which it w as tr ansferr ed to sucr ose-cry o–optimal cutting temper a-
+tur e media compound befor e fr ozen sectioning. Then, the br ain
+specimen w as fr ozen a t −80°C and sliced with the fr eezing micr o-
+tome (Cry oStar NX70) with a block thickness of 15 μm. The hema-
+toxylin and eosin (H&E) s taining method w as adopted by using the
+basic dy e hema toxylin (BL 735A-1) for the s taining of a cidic cell
+components (i.e., nucleic a cids, glycosaminoglycans, and a cid gly-
+copr oteins) and the a cidic dy e eosin (BL 735B) for the s taining of
+the cell cytoplasm. Specifically , the slices w er e firs t s tained with he-
+ma toxylin solution for 5 min a fter cleaning with DI w a ter. Then, the
+slices w er e thor oughly rinsed in DI w a ter, follo w ed by differ entia-
+tion in the 0.1% a cetic a cid and 85% ethanol in w a ter for 10 s and
+rinsed again with DI w a ter for 1 min. Ne xt, the slices w er e blued in
+the PBS/PBS with 0.05% T w een solution for 30 s and then rinsed
+with DI w a ter. After w ashing the blued slice in ethanol for 10 s,
+eosin w as also applied to s tain the tissue for 30 s. Las t, the slices
+w er e dehydr a ted in ethanol (95%) and permeabilized in xylene
+two times (5 min ea ch), r espectiv ely . F or immunohis tochemical
+analy sis, slices w er e observ ed with the inv ert micr oscope (Nik on
+Eclipse Ti).
+C ell cytotoxicity tes t of μLMEs
+Specimens for the cell cytotoxicity tes ts included the contr ol sample
+(fr esh full medium), absorbent gauze, SBS ma t, μLME, and 20% di-
+methylsulfoxide (DMSO). L-929 cells (American T ype Cultur e C ol-
+lection, USA) w er e used to inv es tiga te the in vitr o cytotoxicity of all
+the specimens follo wing the ISO 10993-5:2009(E) s tandard. All the
+L-929 cells w er e seeded in the full Dulbecco ’s modified Eagle’s
+medium (Hyclone, Hong Kong) supplemented with 10% fetal
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 9 of 13
+
+bo vine serum (Hyclone, Hong Kong) and 1% penicillin/s tr eptomy-
+cin (Hyclone, Hong Kong) in a 24-w ell pla te with the seeding
+density of cells 6 × 10
+4
+/ml. After incuba tion for 24 hours and the
+v erifica tion of the cell confluency and morphology , the medium
+w as discarded, and 1 ml of the fr esh full medium w as added to
+the cultur e pla te. Ne xt, 0.2-cm
+2
+s terile specimens w er e added to
+the 24-w ell pla te to evalua te the cytotoxicity of the ma terials. All
+specimens w er e cultur ed a t 37°C in an incuba tor with 5% C O
+2
+.
+After discarding the cultur e medium, the s taining solution contain-
+ing 200 μl of PBS, 2 μM calcein AM, and 8 μM pr opidium iodide w as
+added, follo w ed by incuba tion for 45 min. Then, a fluor escent mi-
+cr oscope (Zeiss, Germany) w as used to observ e the cells a fter
+rinsing them with PBS. T o inv es tiga te the cell pr olifer a tion, 500 μl
+of 3-(4,5-Dimethylthiazol-2-yl)-2,5-Diphenyltetr azolium Br omide
+solution w as added to ea ch w ell follo w ed by incuba tion for 2
+hours. Ne xt, 500 μl of DMSO w as added to dissolv e the formazan.
+The absorption a t 450 nm denoting the cell metabolic a ctivity w as
+measur ed with a pla te r eader (BioT ek, USA). The cell viability w as
+calcula ted using the absorbance r a tio betw een the tes ted w ell and
+the blank contr ol w ell.
+In viv o evalua tion of irrita tion and skin sensitiza tion
+of μLMEs
+Animal e xperiments of the specimens w er e performed follo wing the
+ISO 10993-10:2010(E) s tandard. All pr ocedur es follo w ed the ethical
+guidelines for e xperimental animals, which w er e appr o v ed by The
+Hong Kong P olytechnic Univ ersity . F our gr oups of samples w er e
+evalua ted including nega tiv e contr ol (thin cotton cloth) as gr oup
+1, positiv e contr ol (thin cotton cloth rinsed with sa tur a ted sodium
+dodecyl sulfona te) as gr oup 2, SBS ma t as gr oup 3, μLME with the
+serpentine s tructur e as gr oup 4. All samples w er e cut into 2.5 cm by
+2.5 cm and then w er e a tta ched to the Ne w Zealand White Rabbits
+(w eighing 2.0 to 3.0 kg). The ba cks of the r abbits w er e sha v ed in
+advance 24 hours befor e the a tta chment of the specimens. Ea ch
+gr oup had thr ee sample pa tches, which w er e applied onto the
+skin undernea th the gauze pads (2.5 cm by 2.5 cm) secur ed with
+the semi-occlusiv e medical s terile wound dr essings (Hynaut, Tsing-
+tao, China). The pa tches w er e r emo v ed a fter e xposur e to the sha v ed
+skin for 24 hours. Then, the tes t sites w er e observ ed a t 0 (initial), 24,
+48, and 72 hours a fter sample a tta chment for visible changes lik e
+erythema. The mean erythema scor es w er e measur ed on a scale
+fr om 0 to 4, in which gr ade 0 indica ted no erythema, gr ade 1 indi-
+ca ted slight erythema, gr ade 2 indica ted moder a te erythema, gr ade 3
+indica ted moder a te to sev er e erythema, and gr ade 4 indica ted sev er e
+erythema.
+Chr onic (long-term) biocompa tibility tes t of
+implanted μLMEs
+F or the biocompa tibility tes t on the br ain, w e implanted the elec-
+tr odes (μLME, Au/PI, and Au/PDMS with the same electr ode
+design) into the cer ebr al corte x to evalua te their chr onic biocompa t-
+ibility . In this s tudy , male Ins titute of Cancer R esear ch mice (6 to 8
+w eeks, n = 2) w er e anes thetized with intr aperitoneal injected k eta-
+mine (100 mg/kg) and xylazine (10 mg/kg) and fixed on a s ter eo-
+taxic fr ame. As sho wn in fig. S29, the cr aniotomy w as performed
+betw een the br egma and lambda of the skull anterior–pos terior,
+−1.5 to −4.5; medial–la ter al, 0.5 to 3.5. Thr ee s tainless bone
+scr e ws w er e pla ced into the skull surr ounding the surgical openings,
+and the dur a ma ter w as subsequently r emo v ed. Electr odes w er e put
+o v er the left and right cortical surfa ces, r espectiv ely . The cr anioto-
+my w as filled with Kwik-Sil silicone elas tomer (W orld Pr ecision In-
+s truments Inc.) and then coa ted with dental cement (Megadental,
+Germany) a fter the Kwik-Sil w as cur ed. The mice w er e euthanized
+a t 2 w eeks and tak en for immunohis tological analy sis to evalua te
+their biocompa tibility . F or mice with the implanta tion of μLMEs,
+the maximum implanta tion dur a tion in this biocompa tibility
+s tudy is 32 w eeks. W e anes thetized the mice by intr aperitoneal in-
+jection of k etamine (100 mg/kg) and xylazine (10 mg/kg) and then
+perfused the mice tr anscardially with PBS follo w ed by 4% par a for-
+madehyde (PF A). The br ain samples w er e incuba ted in PF A o v er-
+night and then with 30% sucr ose solution for 3 da y s. Br ains w er e
+cry osectioned a t a thickness of 30 μm. The slices w er e s tained
+with Iba1 antibody (Abcam, ab178846) and 4′,6-diamidino-2-phe-
+nylindole (nuclei mark er) and observ ed with laser confocal micr os-
+copy (Nik on A1HD25, Japan). The r egions of inter es t for the
+assessment of intensity and soma size of Iba1-positiv e cells w er e
+chosen fr om the electr ode-br ain interfa ce to the tissues 600 μm
+benea th the interfa ce (thr ee slices for ea ch mouse). W e analyzed
+the intensity and soma size of Iba1-positiv e cells using ImageJ soft-
+w ar e. F or inv es tiga ting the chr onic biocompa tibility of various elec-
+tr odes in the biceps femoris muscle, healthy male Spr ague Da wle y
+r a ts (aged 4 to 5 w eeks, 200 g) w er e used for biceps femoris muscle
+implanta tion. The Da wle y r a ts w er e firs t tr ea ted with gaseous light
+anes thesia (isoflur ane), follo w ed by the injection of k etamine (1 wt
+%) for deep anes thesia. Then, a r equir ed wound (6 mm in width and
+2 mm in depth) w as cr ea ted, with the a tta chment of the electr ode
+arr a y (μLME, Au/PI, and Au/PDMS) on the surfa ce of the biceps
+femoris muscle. After suturing and implanting for 1 w eek, the
+samples w er e collected and fr ozen sectioned (25 μm thick) using
+Cry oStar NX70 Cry os ta t (Thermo Fisher Scientific). Stained by
+the H&E (Abcam) method, the slices w er e la ter observ ed with an
+inv erted micr oscope (Nik onTi2-A).
+Supplementary Ma terials
+This PDF file includes:
+Supplementary T e xt
+Figs. S1 to S29
+T ables S1 to S3
+Legends for movies S1 to S4
+R efer ences
+Other Supplementary Ma terial for this
+manuscript includes the follo wing:
+Mo vies S1 to S4
+REFERENCES AND NO TES
+1. Y . W ang, H. Haick, S. Guo, C. W ang, S. Lee, T . Y ok ota, T . Some y a, Skin bioelectr onics
+tow ards long-term, continuous health monitoring. Chem. Soc. Rev . 51, 3759–3793 (2022).
+2. C. W ang, X. Chen, L. W ang, M. Makiha ta, H.-C. Liu, T . Zhou, X. Zhao, Bioadhesiv e ultra-
+sound for long-term continuous imaging of div erse organs. Science 377, 517–523 (2022).
+3. H. Yuk, B. Lu, X. Zhao, Hydroge l bioelectron ics. Chem. Soc. R ev. 48, 1642–1667 (2019).
+4. Y . Y ang, W . Gao, W ear able and fle xible electron ics for continuous molecular monitoring.
+Chem. Soc. Re v. 48, 1465–1491 (2019).
+5. Y . S. Choi, H. Jeong, R. T . Yin, R. A vila, A. Pfenniger, J. Y oo, J. Y . Lee, A. Tza v elis, Y . J. Lee,
+S. W . Chen, H. S. Knight, S. Kim, H. Y . Ahn, G. W icke rson, A. Vázquez-Guardado, E. Higbee-
+Dempse y , B. A. Russo, M. A. Napolitano, T . J. Hollera n, L. A. Razzak, A. N. Minio vich, G. Lee,
+B. Geist , B. Kim, S. Han, J. A. Br ennan, K. Aras , S. S. Kw ak, J. Kim, E. A. W a ters, X. Y ang,
+A. Burr ell, K. S. Chun, C. Liu, C. Wu, A. Y . Rw ei, A. N. Spann, A. Banks, D. Johnson, Z. J. Zhang,
+C. R. Hane y , S. H. Jin, A. V . Sahakian, Y . Huang, G. D. Tr a chiotis, B. P . Knight, R. K. Aror a,
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 10 of 13
+
+I. R. Efimov , J. A. R ogers, A tr ansient, closed-loop network of wire less, body-integr a ted
+devices for autonomous electr other apy . Science 376, 1006–1012 (2022).
+6. H. Lee, T . K. Choi, Y . B. Lee, H. R. Cho, R. Gha ffari, L. W ang, H. J. Choi, T . D. Chung, N. Lu,
+T . Hye on, S. H. Choi, D. H. Kim, A gr aphene-based electr ochemical device with ther-
+mor esponsiv e micr oneedles for diabetes monitoring and therap y . Na t. Nanotechnol. 11,
+566–572 (2016).
+7. K. W . Cho, S. H. Sunwoo, Y . J. Hong, J. H. Koo, J. H. Kim, S. Baik, T . Hy eon, D. H. Kim, Soft
+bioelectr onics based on nanoma terials. Chem. Rev . 122, 5068–5143 (2022).
+8. X. Yu, Z. Xie, Y . Yu, J. Lee, A. Va zquez-Guardado, H. Luan, J. Ruban, X. Ning, A. Akhtar, D. Li,
+B. Ji, Y . Liu, R. Sun, J. Cao, Q. Huo, Y . Zhong, C. M. Lee, S. Y . Kim, P . Gutruf, C. Zhang, Y . Xue,
+Q. Guo, A. Chempakasseril, P . Tian, W . Lu, J. Y . Jeong, Y . J. Yu, J. C ornman, C. S. Ta n,
+B. H. Kim, K. H. Lee, X. Fe ng, Y . Huang, J. A. R ogers, Skin-integr a ted wire less haptic in-
+terfa ces for virtual and augmented r eality . Na tur e 575, 473–479 (2019).
+9. J. A. R ogers, T . Some y a, Y . Huang, Ma terials and mechanics for s tr etchable electron ics.
+Science 327, 1603–1607 (2010).
+10. T . Some y a, Z. Bao, G. G. Malliar as, The rise of plastic bioelectro nics. Na ture 540,
+379–385 (2016).
+11. N. Ma tsuhisa, X. Chen, Z. Bao, T . Some y a, Ma terials and s tructur al designs of s tretc hable
+conductors. Chem. Soc. R ev. 48, 2946–2966 (2019).
+12. K. Sim, Z. Rao, F . Ershad, C. Yu, Rubbery electron ics fully made of s tr etchable elas tomeric
+electr onic mate rials. Adv. Ma ter. 32, 1902417 (2020).
+13. Y . Jiang, Z. Zhang, Y . X. W ang, D. Li, C. T . C oen, E. Hw aun, G. Chen, H. C. Wu, D. Zhong,
+S. Niu, W . W ang, A. Saberi, J. C. Lai, Y . Wu, Y . W ang, A. A. Tr ots yuk, K. Y . Loh, C. C. Shih, W . Xu,
+K. Liang, K. Zhang, Y . Bai, G. Gurusankar, W . Hu, W . Jia, Z. Cheng, R. H. Dauskardt,
+G. C. Gurtner, J. B. H. Tok, K. Deisser oth, I. Soltesz, Z. Bao, T opological supr amolecular
+network enabled high-conductivity , s tr etchable organic bioelectron ics. Science 375,
+1411–1417 (2022).
+14. M. Lin, H. Hu, S. Zhou, S. Xu, Soft w ear able devices for deep-tissue sensing. Na t. Rev .
+Ma ter. 7, 850–869 (2022).
+15. S. Liu, Y . Rao, H. Jang, P . T an, N. Lu, Stra tegies for body-conformable electr onics. Ma tter. 5,
+1104–1136 (2022).
+16. E. Song, J. Li, S. M. W on, W . Bai, J. A. R ogers, Ma terials for fle xible bioelectr onic s y s tems as
+chr onic neur al interfa ces. Na t. Ma ter. 19, 590–603 (2020).
+17. A. Miy amoto, S. Lee, N. F . C oor a y , S. Lee, M. Mori, N. Ma tsuhisa, H. Jin, L. Y oda, T . Y ok ota,
+A. Itoh, M. Sekino, H. Ka w asaki, T . Ebihara , M. Amagai, T . Some y a, Inflammatio n-fre e, gas-
+permeable, lightwe ight, st retc hable on-skin electr onics with nanomeshes. Na t. Nano-
+technol. 12, 907–913 (2017).
+18. Z. Ma, Q. Huang, Q. Xu, Q. Zhuang, X. Zhao, Y . Y ang, H. Qiu, Z. Y ang, C. W ang, Y . Chai,
+Z. Zheng, Permea ble supere las tic liquid-metal fibre mat enables biocompa tible and
+monolithic s tr etchable electr onics. Na t. Ma ter. 20, 859–868 (2021).
+19. J. C. Doloff, O. Vei seh, R. de Mezerville, M. Sforza, T . A. P erry, J. Haupt, M. Jamiel,
+C. Chambers, A. Nash, S. Aghlar a-F oto va t, J. L. Stelzel, S. J. Bauer, S. Y . Nesha t, J. Hancock,
+N. A. R omer o, Y . E. Hidalgo, I. M. Leiva, A. M. Munhoz, A. Ba y a t, B. M. Kinne y , H. C. Hodges,
+R. N. Mir anda, M. W . Clemens, R. Langer, The surfac e topograp hy of silicone br eas t im-
+plants media tes the fore ign body r esponse in mice, r abbits and humans. Na t. Biomed. Eng.
+5, 1115–1130 (2021).
+20. J. W . Sala tino, K. A. Ludwig, T . D. Y . Kozai, E. K. Purc ell, Glial r esponses to implanted
+electr odes in the br ain. Na t. Biomed. Eng. 1, 862–877 (2017).
+21. Q. Huang, Z. Zheng, Pa thw a y to dev eloping permeable electr onics. A CS Nano 16,
+15537–15544 (2022).
+22. F . Chen, Q. Huang, Z. Zheng, Pe rmeable conductors for w ear able and on-skin electr onics.
+Small Struct. 3, 2100135 (2022).
+23. L. Tian, B. Zimmerman, A. Akhtar, K. J. Yu, M. Moor e, J. Wu, R. J. Larsen, J. W . Lee, J. Li, Y . Liu,
+B. Metzger, S. Qu , X. Guo, K. E. Mat he wson, J. A. F an, J. C ornman, M. F a tina, Z. Xie, Y . Ma,
+J. Zhang, Y . Zhang, F . Dolcos, M. F abiani, G. Gr a tton, T . Br etl, L. J. Hargr ov e, P . V . Br aun,
+Y . Huang, J. A. R ogers, Large-ar ea MRI-compatible epidermal electr onic interfa ces for
+pr os thetic contr ol and cognitive monitoring. Na t. Biomed. Eng. 3, 194–205 (2019).
+24. B. Sun, R. N. McCa y , S. Gosw ami, Y . Xu, C. Zhang, Y . Ling, J. Lin, Z. Y an, Gas-permeable,
+multifunctional on-skin electr onics based on laser-induced por ous gr aphene and sugar-
+templa ted elas tomer sponges. Adv. Ma ter. 30, 1804327 (2018).
+25. W . Zhou, S. Y ao, H. W ang, Q. Du, Y . Ma, Y . Zhu, Gas-permeable, ultr a thin, s tr etchable
+epidermal electron ics with por ous electr odes. A CS Nano 14, 5798–5805 (2020).
+26. S. Lee, S. Fr anklin, F . A. Hassani, T . Y oko ta, M. O. G. Nay eem, Y . W ang, R. Leib, G. Cheng,
+D. W . Fr anklin, T . Some y a, Nanomesh pre ssur e sensor for monitoring finger manipula tion
+without sensory interfere nce. Science 370, 966–970 (2020).
+27. Q. Zhuang, Z. Ma, Y . Gao, Y . Zhang, S. W ang, X. Lu, H. Hu, C. Cheung, Q. Huang, Z. Zheng,
+Liquid–metal-superlyo philic and conductivity–s tr ain-enhancing sca ffold for permeable
+super elas tic conductors. Adv. F unct. Ma ter. 31, 2105587 (2021).
+28. Q. Li, G. Chen, Y . Cui, S. Ji, Z. Liu, C. W an, Y . Liu, Y . Lu, C. W ang, N. Zhang, Y . Cheng,
+K. Q. Zhang, X. Chen, Highly thermal-w et comfortable and conformal silk-based elec-
+tr odes for on-skin sensors with swe a t toler ance. A CS Nano 15, 9955–9966 (2021).
+29. X. Ma, M. Zhang, J. Zhang, S. W ang, S. Cao, Y . Li, G. Hu, D. Kong, Highly permeable and
+ultr as tr etchable liquid metal micr omesh for skin-a tta chable electr onics. A CS Ma ter. Lett. 4,
+634–641 (2022).
+30. J. Xue, T . Wu, Y . Dai, Y . Xia, Electros pinning and electr ospun nanofibers: Methods, ma-
+terials, and applica tions. Chem. R ev. 119, 5298–5415 (2019).
+31. Y . W ang, T . Y ok ota, T . Some y a, Electro spun nanofiber-based soft electr onics. NPG Asia
+Ma ter. 13, 22 (2021).
+32. T . Lu, E. J. Markvicka, Y . Jin, C. Majidi, Soft-ma tter printed circ uit board with UV laser
+micr opa tterning. A CS Appl. Ma ter. Interfa ces 9, 22055–22062 (2017).
+33. M. G. Kim, H. Alr ow ais, S. Pa vlidis, O. Brand , Size-scalable and high-density liquid-metal-
+based soft electron ic passiv e components and circ uits using soft lithogr aphy . Adv. F unct.
+Ma ter. 27, 1604466 (2017).
+34. T . Lu, L. Fink enauer, J. Wis sman, C. Majidi, Rapid prototypin g for soft-matte r electron ics.
+Adv. F unct. Ma ter. 24, 3351–3356 (2014).
+35. R. Guo, X. Sun, B. Yuan, H. W ang, J. Liu, Magnetic liquid metal (F e-EGaIn) based multi-
+functional electr onics for r emote self-healing ma terials, degr adable electr onics, and
+thermal tr ansfer printing. Adv. Sci. (W einh) 6, 1901478 (2019).
+36. Y . Lin, O. Gordon, M. R. Khan, N. V asquez, J. Genzer, M. D. Dick e y , Va cuum filling of
+comple x micr ochannels with liquid metal. Lab Chip 17, 3043–3050 (2017).
+37. A. Ta ba tabai, A. F assler, C. Usiak, C. Majidi, Liquid-phase gallium-indium alloy electr onics
+with micr oconta ct printing. Langmuir 29, 6194–6200 (2013).
+38. K. Pa rida, G. Thanga v el, G. Cai, X. Zhou, S. Pa rk, J. Xiong, P . S. Lee, Extr emely s tr etchable
+and self-healing conductor based on thermoplas tic elas tomer for all-thre e-dimensional
+printed triboelectric nanogener a tor. Na t. C ommun. 10, 2158 (2019).
+39. M.-G. Kim, D. K. Br ow n, O. Br and, Nanofabrica tion for all-soft and high-density electron ic
+devices based on liquid metal. Na t. Co mmun. 11, 1002 (2020).
+40. Y . G. P ark, H. S. An, J. Y . Kim, J. U. Pa rk, High-r esolution, r econfigur able printing of liquid
+metals with thr ee-dimensional s tructur es. Sci. Adv. 5, eaaw 2844 (2019).
+41. L. T ang, J. Shang, X. Jiang, Multila y er ed electron ic tran sfer ta ttoo that can enable the
+cr ease amplifica tion effect. Sci. Adv. 7, eabe3778 (2021).
+42. L. Johns ton, J. Y ang, J. Han, K. Kalantar-Zadeh, J. Ta ng, Intermetallic w etting enabled high
+r esolution liquid metal pa tterning for 3D and fle xible electr onics. J. Ma ter. Chem. C. 10,
+921–931 (2022).
+43. C. Laborde, F . Pittino, H. A. Ve rhoeve n, S. G. Lema y , L. Selmi, M. A. Jongsma,
+F . P . Wid dershov en, Re al-time imaging of micr oparticles and living cells with CMOS
+nanocapa citor arr a y s. Na t. Nanotechnol. 10, 791–795 (2015).
+44. C.-H. Chiang, S. M. W on, A. L. Orsborn, K. J. Yu, M. T rumpis, B. Bent, C. W ang, Y . Xue, S. Min,
+V . W oods, C. Yu, B. H. Kim, S. B. Kim, R. Huq, J. Li, K. J. Seo, F . Vitale, A. Richardson, H. Fa ng,
+Y . Huang, K. Shepard, B. Pe sar an, J. A. Ro gers, J. Vive nti, Deve lopment of a neura l interfa ce
+for high-definition, long-term r ecording in r odents and nonhuman prima tes. Sci. T r ansl.
+Med. 12, eaa y4682 (2020).
+45. D. Khodagholy , J. N. Gelinas, T . Thesen, W . Doyle, O. Devinsky , G. G. Malliar as, G. Buzsáki,
+Neur oGrid: R ecording a ction potentials from the surfac e of the brain . Na t. Neur osci. 18,
+310–315 (2015).
+46. J. Viv enti, D. H. Kim, L. Vigeland, E. S. Fr echette, J. A. Blanco, Y . S. Kim, A. E. A vrin,
+V . R. Tiruvadi, S. W . Hw ang, A. C. Va nleer, D. F . Wulsin, K. Da vis, C. E. Gelber, L. Pa lmer, J. Va n
+der Spiegel, J. Wu, J. Xiao, Y . Huang, D. C ontr er as, J. A. Roge rs, B. Litt, Fle xible, foldable,
+a ctiv ely multiple xed, high-density electr ode arr a y for mapping br ain a ctivity in viv o. Na t.
+Neur osci. 14, 1599–1605 (2011).
+47. J. J. Jun, N. A. Steinmetz, J. H. Siegle, D. J. Denman, M. Bauza, B. Barbarits, A. K. Lee,
+C. A. Anas tassiou, A. Andre i, Ç. Aydin, M. Barbic, T . J. Blanche, V . Bonin, J. C outo, B. Dutta,
+S. L. Gr a tiy , D. A. Gutnisky , M. Häusser, B. Karsh, P . Ledocho witsch, C. M. Lopez, C. Mitelut,
+S. Musa, M. Okun, M. Pa chitariu, J. Putzey s, P . D. Rich, C. Ros sant, W . L. Sun, K. Sv oboda,
+M. Car andini, K. D. Harris, C. Koch, J. O’Keefe, T . D. Harris, F ully integr a ted silicon pr obes
+for high-density r ecording of neura l a ctivity . Na ture 551, 232–236 (2017).
+48. T . Daenek e, K. Khoshmanesh, N. Mahmood, I. A. De Cas tr o, D. Esr a filzadeh, S. J. Barr o w ,
+M. D. Dick e y , K. Kalantar-Zadeh, Liquid metals: F undamentals and applica tions in
+chemis try . Chem. Soc. Rev . 47, 4073–4111 (2018).
+49. A. Fa ssler, C. Majidi, Liquid-phase metal inclusions for a conductiv e polymer composite.
+Adv. Ma ter. 27, 1928–1932 (2015).
+50. S. Zhu, J. H. So, R. Ma y s, S. Desai, W . R. Barnes, B. P ourdeyh imi, M. D. Dick e y , Ultr a-
+s tr etchable fibers with metallic conductivity using a liquid metal alloy core . Adv. F unct.
+Ma ter. 23, 2308–2314 (2013).
+51. E. J. Markvicka, M. D. Bartlett, X. Huang, C. Majidi, An autonomously electrically self-
+healing liquid metal-elas tomer composite for ro bust soft-ma tter r obotics and electron ics.
+Na t. Ma ter. 17, 618–624 (2018).
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 11 of 13
+
+52. A. Leber, C. Dong, R. Chandr an, T . Das Gupta, N. Bartolomei, F . Sorin, Soft and s tr etchable
+liquid metal tr ansmission lines as distr ibuted probe s of multimodal deforma tions. Na t.
+Electro n. 3, 316–326 (2020).
+53. J. Pa rk, S. W ang, M. Li, C. Ahn, J. K. Hyun, D. S. Kim, D. K. Kim, J. A. R ogers, Y . Huang, S. Jeon,
+Thr ee-dimensional nanonetworks for giant s tr etchability in dielectrics and conductors.
+Na t. C ommun. 3, 916 (2012).
+54. S. Liu, D. S. Shah, R. Kram er-Bottiglio, Highly s tr etchable multilay er electr onic cir cuits
+using biphasic gallium-indium. Na t. Ma ter. 20, 851–858 (2021).
+55. S. Ve era pandian, W . Jang, J. B. Seol, H. W ang, M. Kong, K. Thiy agar ajan, J. Kw ak, G. Pa rk,
+G. Lee, W . Suh, I. Y ou, M. E. Kılıç, A. Giri, L. Beccai, A. Soon, U. Jeong, Hydr ogen-doped
+viscoplas tic liquid metal micr oparticles for s tr etchable printed metal lines. Na t. Ma ter. 20,
+533–540 (2021).
+56. M. D. Dick e y , R. C. Chiechi, R. J. Larsen, E. A. W eiss, D. A. W eitz, G. M. Whitesides, Eutectic
+gallium-indium (EGaIn): A liquid metal alloy for the format ion of s table s tructur es in mi-
+cro channels a t r oom temper a ture . Adv. F unct. Ma ter. 18, 1097–1104 (2008).
+57. Y . L. P ark, C. Majidi, R. Kr amer, P . Brar d, R. J. W ood, Hypere las tic pr essure sensing with a
+liquid-embedded elas tomer. J. Micr omech. Microe ng. 20, 125029 (2010).
+58. K. Nan, S. Babaee, W . W . Chan, J. L. P . Kuosmanen, V . R. Fe ig, Y . Luo, S. S. Srinivasan,
+C. M. Pa tterson, A. M. Jebr an, G. Tr a v erso, Lo w-cos t gas tr ointes tinal manometry via sili-
+cone–liquid-metal pr essur e tr ansducers r esembling a quipu. Na t. Biomed. Eng. 6,
+1092–1104 (2022).
+59. J. Y an, Y . Lu, G. Chen, M. Y ang, Z. Gu, Advances in liquid metals for biomedical applica-
+tions. Chem. Soc. Rev . 47, 2518–2533 (2018).
+60. M. D. Dick e y , Str etchable and soft electron ics using liquid metals. Adv. Ma ter. 29,
+1606425 (2017).
+61. K. J. Yu, D. Kuzum, S. W . Hw ang, B. H. Kim, H. Juul, N. H. Kim, S. M. W on, K. Chiang,
+M. Tr umpis, A. G. Richardson, H. Cheng, H. F ang, M. Thompson, H. Bink, D. Ta los, K. J. Seo,
+H. N. Lee, S. K. Kang, J. H. Kim, J. Y . Lee, Y . Huang, F . E. Jensen, M. A. Dichter, T . H. Lucas,
+J. Vive nti, B. Litt, J. A. R ogers, Bior esorbable silicon electr onics for tr ansient spa tiotem-
+por al mapping of electrical a ctivity fr om the cer ebr al corte x. Na t. Ma ter. 15,
+782–791 (2016).
+62. M. Pa rk, J. Im, M. Shin, Y . Min, J. J. J. Pa rk, H. Cho, S. Pa rk, M. B. Shim, S. Jeon, D. Y . Chung,
+J. Bae, J. J. J. P ark, U. Jeong, K. Kim, Highly s tr etchable electric cir cuits from a composite
+mate rial of silv er nanoparticles and elas tomeric fibr es. Na t. Nanotechnol. 7,
+803–809 (2012).
+63. K. Molina-Luna, M. M. Buitr ago, B. Hertler, M. Schubring, F . Haiss, W . Nisch, J. B. Schulz,
+A. R. Luft, C ortical s timulatio n mapping using epidura lly implanted thin-film micr oelec-
+tr ode arr a y s. J. Neur osci. Methods 161, 118–125 (2007).
+64. B. A. Hollenberg, C. D. Richards, R. Richards, D. F . Bahr, D. M. R ector, A MEMS fabricate d
+fle xible electr ode arr a y for r ecording surfa ce field potentials. J. Neur osci. Methods 153,
+147–153 (2006).
+65. J. Kim, J. A. Wi lson, J. C. Wi lliams, A cortical r ecording pla tform utilizing micr oECoG
+electr ode arr a y s. Annu. Int. Conf . IEEE Eng. Med. Biol. Soc. 2007, 5353–5357 (2007).
+66. B. Rubehn, C. Bosman, R. Oos tenv eld, P . Fries, T . Stieglitz, A MEMS-based fle xible multi-
+channel ECoG- electr ode arr a y . J. Neur al Eng. 6, 036003 (2009).
+67. P . Ledocho witsch, R. J. Félus, R. R. Gibboni, A. Miy aka w a, S. Bao, M. M. Maharbiz, Fa bri-
+ca tion and testi ng of a large ar ea, high density, parylene MEMS μEC oG arr a y . Pr oc. IEEE Int.
+C onf. Micr o Electro Mech. Sys t., 1031–1034 (2011).
+68. J. Besle, C. A. Schev on, A. D. Mehta, P . Laka tos, R. R. Goodman, G. M. McKhann,
+R. G. Emerson, C. E. Schr oeder, T uning of the human neocorte x to the tempor al dynamics
+of a ttended eve nts. J. Neur osci. 31, 3176–3185 (2011).
+69. M. A. Escabí, H. L. R ead, J. Viv enti, D. H. Kim, N. C. Higgins, D. A. Stor a ce, A. S. K. Liu,
+A. M. Gifford, J. F . Burk e, M. Campisi, Y . S. Kim, A. E. A vrin, J. Va n der Spiegel, Y . Huang, M. Li,
+J. Wu, J. A. R ogers, B. Litt, Y . E. C ohen, A high-density , high-channel count, multiple xed
+μEC OG arr a y for auditory-corte x rec ordings. J. Neur ophy siol. 112, 1566–1583 (2014).
+70. G. Hotson, D. P . McMullen, M. S. Fifer, M. S. Johannes, K. D. Ka tya l, M. P . Pa r a, R. Armiger,
+W . S. Anderson, N. V . Thak or, B. A. W este r, N. E. Cron e, Individual finger contr ol of a
+modular pros thetic limb using high-density electr ocorticogr aphy in a human subject.
+J. Neur al Eng. 13, 026017 (2016).
+71. S. Kellis, L. Sore nsen, F . Darvas, C. Sa yr es, K. O’Neill, R. B. Br o wn, P . House, J. Ojemann,
+B. Gr eger, Multi-scale analy sis of neur al a ctivity in humans: Implica tions for micr o-scale
+electr ocorticogr aphy . Clin. Neur ophysiol. 127, 591–601 (2016).
+72. D. Khodagholy , J. N. Gelinas, Z. Zhao, M. Y eh, M. Long, J. D. Gr eenlee, W . Doyle,
+O. Devinsky , G. Buzsáki, Organic electron ics for high-r esolution electr ocorticogr aphy of
+the human br ain. Sci. Adv. 2, e1601027 (2016).
+73. T . Kaiju, K. Doi, M. Y ok ota, K. W a tanabe, M. Inoue, H. Ando, K. Ta kahashi, F . Y oshida,
+M. Hir a ta, T . Suzuki, High spatiote mpor al res olution ECo G r ecording of soma tosensory
+ev oke d potentials with fle xible micr o-electrod e arr a y s. Front. Neur al Cir cuits. 11,
+20 (2017).
+74. B. A. Gozen, A. T abatab ai, O. B. Ozdoganlar, C. Majidi, High-density soft-matte r electr onics
+with micr on-scale line width. Adv. Ma ter. 26, 5211–5216 (2014).
+75. M. G. Kim, C. Kim, H. Alro w ais, O. Brand , Multiscale and uniform liquid metal thin-film
+pa tterning based on soft lithogr aphy for 3D heteroge neous integr a ted soft micr os y s tems:
+Additiv e s tamping and subtr a ctiv e r ev erse s tamping. Adv. Ma ter. T echnol. 3,
+1800061 (2018).
+76. S. H. Jeong, A. Hagman, K. Hjort, M. Jobs, J. Sundqvist, Z. Wu, Liquid alloy printing of
+micr ofluidic s tretc hable electr onics. Lab Chip 12, 4657–4664 (2012).
+77. N. Lazarus, S. S. Bedair, I. M. Kierze wski, Ultr a fine pitch s tencil printing of liquid metal
+alloy s. A CS Appl. Ma ter. Interfa ces 9, 1178–1182 (2017).
+78. C. W . Pa rk, Y . G. Moon, H. Seong, S. W . Jung, J. Y . Oh, B. S. Na, N. M. Pa rk, S. S. Lee, S. G. Im,
+J. B. Koo, Photolithogr aphy-based pat terning of liquid metal inter connects for mono-
+lithically integr a ted s tr etchable circ uits. A CS Appl. Ma ter. Interfa ces 8,
+15459–15465 (2016).
+79. Y . Gao, H. Ota, E. W . Schaler, K. Chen, A. Zhao, W . Gao, H. M. F ahad, Y . Leng, A. Zheng,
+F . Xiong, C. Zhang, L. C. T ai, P . Zhao, R. S. F earing, A. Ja v e y , W ear able micr ofluidic dia-
+phr agm pr essure sensor for health and ta ctile touch monitoring. Adv. Ma ter. 29,
+1701985 (2017).
+80. J. W . Bole y , E. L. White, G. T . C. Chiu, R. K. Kr amer, Dir ect writing of gallium-indium alloy for
+s tr etchable electron ics. Adv. F unct. Ma ter. 24, 3501–3507 (2014).
+81. C. Ladd, J. H. So, J. Muth, M. D. Dick e y , 3D printing of fre e s tanding liquid metal micr o-
+s tructur es. Adv. Ma ter. 25, 5081–5085 (2013).
+82. D. Kim, Y . Y oon, S. K. Kauh, J. Lee, To w ards sub-micr oscale liquid metal pa tterns: Cascade
+phase change media ted pick-n-pla ce tr ansfer of liquid metals printed and s tr etched ov er
+a fle xible subs tr a te. Adv. F unct. Ma ter. 28, 1800380 (2018).
+83. C. Pa n, K. Kumar, J. Li, E. J. Markvicka, P . R. Herman, C. Majidi, Visually imper ceptible liquid-
+metal circ uits for tr anspar ent, st retc hable electron ics with dir ect laser writing. Adv. Ma ter.
+30, 1706937 (2018).
+84. M. R. Khan, J. Bell, M. D. Dick e y , Localized insta bilities of liquid metal films via in-plane
+r ecapillarity . Adv. Ma ter. Interfa ces 3, 1600546 (2016).
+85. E. Bihar, T . R oberts, M. Saadaoui, T . Hervé, J. B. De Graa f, G. G. Malliar as, Inkjet-printed
+PEDO T:PSS electr odes on paper for electr ocardiogr aphy . Adv. Healthc. Ma ter. 6,
+1601167 (2017).
+86. A. Albr echt, A. Rivadene yr a, A. Abdellah, P . Lugli, J. F . Salmerón, Inkjet printing and
+photonic sintering of silv er and copper oxide nanoparticles for ultr a-lo w-cos t conductiv e
+pa tterns. J. Ma ter. Chem. C. 4, 3546–3554 (2016).
+87. M. T a vak oli, M. H. Malak ooti, H. Pa isana, Y . Ohm, D. Gr een Marques, P . Alhais Lopes,
+A. P . Piedade, A. T . de Almeida, C. Majidi, EGaIn-assis ted r oom-temper a tur e sintering of
+silv er nanoparticles for s tr etchable, inkjet-printed, thin-film electron ics. Adv. Ma ter. 30,
+1801852 (2018).
+88. S. H. Ke, Q. W . Xue, C. Y . P ang, P . W . Guo, W . J. Y ao, H. P . Zhu, W . Wu, Printing the ultr a-long
+ag nano wire s inks onto the fle xible te xtile subs tr a te for s tr etchable electr onics. Nano-
+ma terials (Basel) 9, 686 (2019).
+89. Y . Liang, F . Zhao, Z. Cheng, Y . Deng, Y . Xiao, H. Cheng, P . Zhang, Y . Huang, H. Shao, L. Qu ,
+Electric po w er gener a tion via as ymmetric mois turizing of gr aphene oxide for fle xible,
+printable and portable electron ics. Energ. Envir on. Sci. 11, 1730–1735 (2018).
+90. T . Lim, H. J. Kim, H. Zhang, S. Lee, Scr een-printed conductiv e pa ttern on spande x for
+s tr etchable electron ic te xtiles. Smart Ma ter. Struct. 30, 075006 (2021).
+91. A. Dallinger, K. Keller, H. Fitzek, F . Gr eco, Stre tchable and skin-conformable conductors
+based on polyure thane/laser-induced grap hene. A CS Appl. Ma ter. Interfa ces 12,
+19855–19865 (2020).
+92. M. Zhang, J. J. Sun, M. Kha tib, Z. Y . Lin, Z. H. Chen, W . Saliba, A. Gharra , Y . D. Hor ev,
+V . Kloper, Y . Milyutin, T . P . Huynh, S. Br andon, G. Shi, H. Haick, Time-spa ce-r esolve d
+origami hier ar chical electr onics for ultras ensitiv e detection of phy sical and chemical
+s timuli. Na t. C ommun. 10, 1120 (2019).
+93. E. Qu ain, T . S. Mat his, N. Kurr a, K. Maleski, K. L. Va n Ak en, M. Alhabeb, H. N. Alshar eef,
+Y . Gogotsi, Dire ct writing of additiv e-fr ee MXene-in-w a ter ink for electr onics and energy
+s tor age. Adv. Ma ter. T echnol. 4, 1800256 (2019).
+94. K. Shrivas, A. Ghosale, T . Kant, P . K. Bajpai, R. Shankar, The dire ct-writing of lo w cos t paper
+based fle xible electr odes and touch pad devices using silv er nano-ink and ZnO nano-
+particles. RSC Adv. 9, 17868–17876 (2019).
+95. Y . Zhang, L. Zhang, K. Cui, S. Ge, X. Cheng, M. Y an, J. Yu, H. Liu, Fle xible electr onics based
+on micr o/nanos tructur ed paper. Adv. Ma ter. 30, e1801588 (2018).
+96. Y . W ang, J. W ang, S. Cao, D. Kong, A s tr etchable and br ea thable form of epidermal device
+based on elas tomeric nanofibr e te xtiles and silv er nano wir es. J. Ma ter. Chem. C. 7,
+9748–9755 (2019).
+97. Q. Zhang, Y . Gao, J. Liu, Atomized spr a ying of liquid metal dr oplets on desire d subs tr a te
+surfa ces as a gener alized w a y for ubiquitous printed electron ics. Appl. Phy s. A. 116,
+1091–1097 (2014).
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 12 of 13
+
+98. C. W ang, M. Zhang, K. Xia, X. Gong, H. W ang, Z. Yin, B. Guan, Y . Zhang, Intrinsically
+s tr etchable and conductiv e te xtile by a scalable proc ess for elas tic w ear able electr onics.
+A CS Appl. Ma ter. Interfa ces 9, 13331–13338 (2017).
+99. I. Wic aksono, C. I. T uck er, T . Sun, C. A. Guerr ero, C. Liu, W . M. W oo, E. J. Pe nce,
+C. Dagdevir en, A tailor ed, electr onic te xtile conformable suit for large-scale spa tiotem-
+por al phy siological sensing in viv o. npj Fle x. Electron . 4, 5 (2020).
+100. M. J. Yun, Y . H. Sim, D. Y . Lee, S. I. Cha, Highly s tr etchable large are a wo v en, knitted and
+r obus t br aided te xtile based inter connection for s tr etchable electron ics. Sci. Rep . 11,
+4038 (2021).
+Ackno wledgments: W e appr eciate the submicr on masks pro vided by W . Li and J. Zhong a t The
+Univ ersity of Hong Kong and valuable sugges tions about the pr epar a tion of the sa crificial la y er
+from S. W ang and Y . Li a t The Univ ersity of Chicago. F unding: W e a cknow ledge the financial
+support fr om the RGC Senior Re sear ch Fe llo w Scheme (SRFS2122-5S04), The Hong Kong
+Pol ytechnic Univ ersity (1-ZVQM), City Unive rsity of Hong Kong (gr ant nos. 9667221 and
+9680322), the F ounda tion of Na tional Natur al Science Foun dation of China (NSFC) (gr ant nos.
+61421002, 62122002), and in part by InnoHK Pr oject on Pr oject 2.2—AI-based 3D ultr asound
+imaging algorithm a t Hong Kong Center for C er ebr o-Cardio vascular Health Engineering
+(C OCHE). Author contributions: C onceptualiza tion: Q.Z. and Z.Z. Methodology: Q.Z., Z.Z., and
+X.Y . Inv estiga tion: Q.Z., K.Y ., M.W ., Z.L., Y .L., Q.M., X.Z., J.L., and Y .Z. Visualizati on: F .C. and Q.H.
+Supervision: Z.Z. and X.Y . Wr iting—original dr a ft: Q.Z. and Z.Z. Wri ting—re vie w and editing:
+Z.Z., X.Y ., Q.Z., and K.Y . C ompeting inter es ts: The authors declar e that the r esult r eported in this
+work is under pa tent applica tion. The applica tion number is US 63/480,603, with the title
+named “W a fer-scale-pa tterned, permeable, and s tr etchable liquid metal micr oelectrod es for
+implantable bioelectr onics with chr onic biocompa tibility. ” The inv entors include Q.Z. and Z.Z.
+This pa tent has been filed on 19 January 2023. The authors declar e tha t the y ha v e no other
+competing inter es ts. Da ta and ma terials a vailability: All da ta needed to evalua te the
+conclusions in the paper ar e pre sent in the paper and/or the Supplementary Ma terials.
+Submitted 26 January 2023
+Accepted 25 April 2023
+Published 31 Ma y 2023
+10.1126/sciadv.adg8602
+SCIENCE ADV ANCES
+|
+RESEARCH ARTICLE
+Zhuang et al., Sci. Adv. 9, eadg8602 (2023) 31 Ma y 2023 13 of 13

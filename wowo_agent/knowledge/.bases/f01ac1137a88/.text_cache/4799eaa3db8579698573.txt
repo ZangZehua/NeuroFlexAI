@@ -1,0 +1,725 @@
+ARTICLE OPEN
+An intrinsically stretchable multi-biochemical sensor for sweat
+analysis using photo-patternable eco ﬂex
+Seungwan Kim 1,2, Joohyuk Kang 3, Injun Lee 1,2, Jinhyeong Jang 2, Chan Beum Park 2, Wonryung Lee 3 ✉ and
+Byeong-Soo Bae 1,2 ✉
+Ecoﬂex is widely used in bioelectronics due to its outstanding properties of low modulus and large stretchability. For its use as an
+encapsulation layer in multi-channel wearable devices, a patterning procedure is essential. However, conventional patterning
+strategies for Eco ﬂex, such as soft lithography, punching, and laser ablation, lack suf ﬁcient quality and process compatibility. To
+address this, we propose a process-compatible method of patterning Eco ﬂex by developing Photo-patternable Eco ﬂex (PPE). The
+PPE layer, used as an encapsulation layer, effectively dissipates strain energy at homogeneous interfaces, resulting in a 50% increase
+in electrical conductance under 250% strain. Using PPE, we fabricated intrinsically stretchable multi-sensors that monitor bio-signals
+like glucose, lactate, pH, and humidity in sweat. These sensors maintain durable sensitivity under strain up to 50% and for 1000
+cycles at 20% strain. Finally, we mounted these stretchable multi-chemical sensors on an arm to monitor glucose and lactate levels
+in sweat.
+npj Flexible Electronics            (2023) 7:33 ; https://doi.org/10.1038/s41528-023-00268-x
+INTRODUCTION
+An encapsulation layer is one of the most important layers in
+ﬂexible bioelectronics for preventing the degradation and
+oxidization of circuit components from ﬂuids and ions
+1– 4. It also
+functions as an adhesive layer between human tissue and ﬂexible
+electronics5. To use such a layer at a bio-interface for monitoring
+biological signals, the encapsulation layer should be patterned to
+create an open window to directly detect analytes 6– 9. Organic
+polymers, including polyimide, parylene, and SU8, which are
+widely used in ﬂexible electronics as encapsulation materials, can
+be patterned through photolithography and reactive ion etching
+with systematic alignment
+10,11.
+Currently, stretchable materials such as poly(dimethylsiloxane)
+(PDMS)12– 14, styrene ethylene/butylene styrene (SEBS) 15– 17, and
+Ecoﬂex18– 20 have been utilized to enhance the wearing comfort
+and reliability in ﬂexible electronics. These materials, notable for
+their stretchability, facilitate the collection of biochemical data
+from speci ﬁc target areas without causing discomfort or interrup-
+tions21– 26. In previous studies, wearable sensor that combines
+silicone-derived elastomers with carbon nanotube (CNTs) and Au
+nanosheet has been developed, demonstrating a stretchability up
+to 30%
+27. Additionally, a stretchable multimodal sensing patch
+utilizing a copolymer (e.g., styrene-butadiene-styrene block
+copolymer) was shown to monitor blood pressure and biomarkers
+in sweat and interstitial ﬂuid (ISF) at a 20% strain 28.
+Stretchable materials are commonly patterned by soft litho-
+graphy, laser ablation or punching, but an additional lamination
+process on the circuit is required 29– 32. Furthermore, theses
+conventional patterning methods have been shown to be time-
+consuming with low yield. Thus, it is still necessary to establish a
+systematic aligning method in stretchable electronics for making
+large area, sophisticated, and multi-functional sensors. An alter-
+native patterning approach is to endow photo-patternability to
+stretchable materials
+33. For example, photo-patternable PDMS,
+applied to an encapsulation layer of a stretchable organic
+electrochemical transistor (OECT), provided a window for electro-
+cardiographic (ECG) monitoring 34. Also, it was used to fabricate a
+mechanically heterogeneous substrate for a strain sensor with
+tunable mechanical properties 35.
+While photo-patternable PDMS has been previously demon-
+strated, Eco ﬂex offers distinct advantages and features that make
+it a valuable material for wearable biosensors. With an elastic
+stretchability of over 1000% and a modulus in the kilo-Pascal
+range, Eco ﬂex closely matches the mechanical properties of
+human skin 36. This exceptional stretchability and deformability
+enable a more comfortable integration of biosensors into
+wearable devices, minimizing the impact of body movement on
+device performance. Eco ﬂex’s high elasticity and deformability
+also help maintain the structural integrity of the biosensor during
+repeated stretching and bending. It can undergo reversible
+deformation without permanent damage, ensuring the longevity
+and durability of the device 18– 20. However, a highly process-
+compatible patterning method for Eco ﬂex has not yet been
+developed owing to its short pot life compared to that of PDMS.
+As Eco ﬂex is rapidly cured even at room temperature, it is
+challenging to control the photo-patterning process.
+To address this challenge, we have developed Photo-
+patternable Eco ﬂex (PPE), which include curing retarder and a
+photo-inhibitor. This incorporation extends the pot life of the
+material and ensures compatibility with the manufacturing
+process. PPE allows for the direct creation of multi-windows in a
+process-compatible manner, enabling the fabrication of large-
+area, sophisticated, and multi-functional sensors. We integrated
+PPE with a stretchable silver (Ag) composite, forming an
+encapsulation layer through a direct patterning process. The
+homogeneous interface between the encapsulation and conduc-
+tor contributes to ef ﬁcient strain energy dissipation, at 250%
+strain, stretchable electrodes with PPE encapsulation showed 50%
+1Wearable Platform Materials Technology Center (WMC), 291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea. 2Department of Materials Science and Engineering,
+Korea Advanced Institute of Science and Technology (KAIST), 291 Daehak-ro, Yuseong-gu, Daejeon 34141, Republic of Korea. 3Center for Theragnosis, Biomedical Research
+Institute, KIST, Seoul 02792, Republic of Korea. ✉email: wrlee@kist.re.kr; bsbae@kaist.ac.kr
+www.nature.com/npjﬂexelectron
+Published in partnership with Nanjing Tech University
+1234567890():,;
+
+higher electrical conductance than stretchable electrodes without
+PPE encapsulation. Moreover, to increase electrical stability under
+sweating conditions where human skin is directly exposed to the
+stretchable electrode, we used a galvanic replacement process to
+form gold nanoparticles (AuNPs) on Ag ﬂakes
+37,38. By integration
+of the developed PPE, we fabricated an intrinsically-stretchable
+device for multiple chemical targets such as humidity, pH, glucose
+and lactate. Finally, this sensor was used to continuously monitor
+the glucose and lactate levels in human sweat. The glucose level
+was quanti ﬁed as 70 mg/dL during fasting, and 100 mg/dL after
+food intake. The lactate level was estimated as 5 mM – 16 mM
+during exercise. These results were comparable with those of
+commercial essay kits for glucose and lactate.
+RESULTS AND DISCUSSION
+Photo-patternable Eco ﬂex as an encapsulation of the silver
+stretchable conductor
+We modi ﬁed Eco ﬂex to respond to ultraviolet (UV) light for direct
+photo-patterning by adding benzophenone. Eco ﬂex is a silicone
+elastomers that is normally cured by thermal energy, but the
+addition of benzophenone as a photo-initiator allows it to respond
+to UV exposure (Fig. 1a– i)
+33,39. UV light induces the formation of
+benzophenone free radicals, which prevent the polymerization of
+Ecoﬂex by reacting with uncured Eco ﬂex. After UV exposure, the
+exposed Ecoﬂex remains uncured due to the radical reaction with
+the benzophenone radicals, while the unexposed Eco ﬂex poly-
+merizes during the pre-bake. Therefore, the exposed region can
+be removed by the developer, whereas the cured unexposed
+areas remain (Fig. 1a-ii, iii). The absorption spectrum of
+benzophenone peaks at wavelength λ = 260 nm with a tail at
+λ = 365 nm, so PPE is only responsive to light that has
+λ < 365 nm
+40. Benzophenone radicals are not hindered by
+atmospheric oxygen, so PPE could be patterned in ambient air.
+The desired star shape of the hole was formed by direct photo-
+patterning of PPE on the Eco ﬂex substrate (Fig. 1b). The multi-
+layered Ecoﬂex was stretched 200% without tearing or delaminat-
+ing. PPE layer could be patterned into holes in circles and squares
+in sizes from 1000 to 250 µm (Supplementary Fig. 1). The
+minimum achievable resolution of the patterned PPE is estimated
+to be approximately 200 µm. We also veri ﬁed the non-cytotoxicity
+of PPE through in vitro biocompatibility test using mouse skin
+cells. Detail of the experiment is shown in Supplementary Fig. 2.
+The Ecoﬂex surrounded the stretchable conductor (Supplemen-
+tary Fig. 3). To identify how the stretchable nanocomposite
+combined with Ag ﬂakes behaves under strain, its surface
+morphology was visualized using by 3D laser microscopy before
+and after stretching to 100% (Fig. 1c). 3D laser microscopy can
+observe the behavior of the Ag nanocomposite located between
+the modi ﬁed Eco ﬂex substrate and the encapsulation layer.
+According to percolation theory, the conductivity of a stretchable
+nanocomposite is related to a percolation pathway
+41– 43. When the
+non-encapsulated nanocomposite was stretched to 100%, its
+surface roughness increased to induce long percolation pathways
+and local micro-cracks that degrade the conductivity of the
+nanocomposite (Fig. 1c). In contrast, the nanocomposite covered
+by PPE withstood the applied strain without change in surface
+roughness; this resiliency is a result of the dense linking that the
+direct patterning process induces between the substrate and
+encapsulation layer. By integration of PPE as the encapsulation for
+the stretchable conductor, the roughness of the conductor is
+maintained so that PPE could increase the conductor ’s tolerance
+of mechanical deformation.
+We evaluated how the PPE encapsulation layer affected the
+electrical properties of the stretchable conductor. When
+stretched up to 250% strain, its normalized resistance varied.
+The encapsulated stretchable conductor exhibited stable
+electrical characteristics under 250% strain, whereas those of
+the non-encapsulated conductor degraded (Fig. 1d). Further-
+more, electrical characteristics of the encapsulated stretchable
+conductor were retained after 1,000 cycles of repetitive
+deformation at 100% strain (Fig. 1e). Also we compared
+mechanical and electrical characteristics of electrodes between
+PDMS-based electrode and an Eco ﬂex-based electrode encapsu-
+lated with PPE (Supplementary Fig. 4). PPE also displayed high
+elongation (i.e., >800%) and a slightly increased tensile strength
+compared to Eco ﬂex. The adhesive strength of PDMS, Eco ﬂex,
+and PPE was evaluated. Adhesive strength refers to the property
+associated with tackiness, which describes a material ’s ability to
+adhere to surfaces. In comparison, PDMS exhibited lower
+tackiness compared to PPE. The normalized resistance of the
+electrode made with Eco ﬂex and PPE demonstrates a linear
+increase that is proportional to strain. In contrast, the electrode
+made with PDMS shows a rapid increase in resistance beyond
+the elastic region. Furthermore, at 50% strain, the conductivity of
+the Ecoﬂex-based electrode is 60% higher than that of the PDMS-
+based electrode.
+Modiﬁcation of Ag electrode by galvanic coating process
+Biochemical sensors rely on the contact interfaces to function
+effectively on soft biological surfaces. However, exposing the Ag-
+based nanocomposite conductor to skin may lead to skin irritation
+and device instability due to its tendency to oxidize during
+sweating. To enhance biocompatibility and electrochemical
+characteristics of Ag electrode, we deposited gold nanoparticles
+(AuNPs) on Ag ﬂakes through a galvanic replacement process. This
+process is a spontaneous reaction between the Ag ﬂake and
+AuCl
+4−(aq)30. The AuNPs are non-toxic and have high resistance to
+oxidation, which improves the biocompatibility and electroche-
+mical characteristics of the electrodes 44,45. The Ag nanocomposite
+was coated with AuNPs through the galvanic replacement process
+after direct photo-patterning of the PPE
+37,46. Energy-dispersive
+X-ray spectroscopy (EDS) images show uniformly-dispersed AuNPs
+on the Ag ﬂakes (Fig. 2b– d). Gold nanoparticles (AuNPs) possess a
+spherical structure, as shown in Supplementary Fig. 5. The growth
+of these nanoparticles onto the silver ﬂakes was observed to be
+random. The size of the gold nanoparticles ranges between
+approximately 100 and 200 nanometers. The electrochemical
+properties of the Au-modi ﬁed Ag electrode were characterized
+and compared with a bare Ag electrode. Cyclic voltammetry (CV)
+plots show larger electrical current amplitudes and sharper peaks
+on the Au-modi ﬁed Ag electrode than on the bare Ag electrode
+during electrodeposition of Prussian Blue (PB) (Fig. 2e). A thinner
+Prussian blue layer is deposited to achieve better sensitivity for
+accurate low-glucose-level measurements in sweat. On the other
+hand, for lactate sensors, the thicker Prussian blue layer was
+deposited onto the electrodes
+21,47 (Supplementary Fig. 6). A redox
+peak is noticed between 0.1 – 0.2 V, signifying that the redox
+reactions happening at the electrode are reversible. Furthermore,
+when an electrode with AuNPs is used, the redox reaction is more
+distinct compared to the bare silver electrode. (Fig. 2f). Coating of
+the Ag electrode with AuNPs increased its electrochemical
+properties, including a decrease in the interfacial impedance of
+PEDOT (Supplementary Figs. 7, 2g). Likewise, platinum nanopar-
+ticles (PtNPs) were deposited onto the Ag nanocomposite for
+counter electrode by galvanic replacement process (Supplemen-
+tary Fig. 8) since platinum is highly stable, inert, and resistant to
+oxidation, making it ideal for long-term stability and consistent
+performance as a counter electrode
+48.
+Device design strategies for an intrinsically stretchable multi
+chemical sensor
+The wearable biochemical sensing patch (Fig. 3a) was made
+stretchable by incorporating intrinsically stretchable materials
+S. Kim et al.
+2
+npj Flexible Electronics (2023)    33 Published in partnership with Nanjing Tech University
+1234567890():,;
+
+Fig. 1 Intrinsically stretchable electrode using Ag ﬂake encapsulated by Photo-patternable Eco ﬂex. a Schematic illustration of photo-
+patterning process using Photo-patternable Eco ﬂex (PPE) b Photograph of photo-patterned Eco ﬂex as a star shape on Eco ﬂex substrate when
+stretched up to 200%. c 3D laser microscope image of cross-section of electrode layers. d Normalized resistance comparison of the electrode
+with and without Eco ﬂex encapsulation layer. Data are presented as mean ± SD. ( n = 3) e Normalized resistance of the encapsulated electrode
+after 1000 cycles at 100% strain.
+S. Kim et al.
+3
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2023)    33 
+
+(Fig. 3b). Eco ﬂex was used as the components for stretchable
+circuit including substrate, nanocomposite conductor and encap-
+sulation layer. The stretchable electrode combined with Eco ﬂex
+could provide the high conformity and stretchability that are
+desired for wearable devices
+49. In multi-biochemical sensors, it is
+essential to prevent electrical interference between different
+sensor elements or components. The PPE encapsulation layer acts
+as an insulating barrier, effectively isolating the various compo-
+nents from each other. In detail (Fig. 3c, d, Supplementary Fig. 9),
+Photo-patternable Eco ﬂex (PPE) was directly patterned on the
+stretchable conductor to serve as the encapsulation layer that
+enables selective sensing of diverse biomarkers without crosstalk
+(Supplementary Fig. 10). Then AuNps was coated onto opened
+silver nanocomposite conductor to enhance the electrochemical
+properties of electrode. The working electrodes were functiona-
+lized by electrodeposition to fabricate each independent bio-
+chemical sensors
+50. The multi-biochemical sensor consisted of
+components to sense glucose, lactate, pH and humidity indepen-
+dently (Fig. 3c). Each sensing part functions as a distinct working
+electrode to non-invasively monitor a speci ﬁc component of
+sweat. The reference electrode is composed of Ag/AgCl to ensure
+stable electrochemical sensing. The sweat sensor is fabricated in
+as a wrist patch to enable conformal contact with skin (Fig. 3e– f).
+Detailed fabrication process of stretchable sensor is shown in
+Supplementary Fig. 11.
+Assessment of stretchable sensors for multiple biomarkers
+The stretchable biochemical sensors achieved multi-sensing
+(Fig. 4a– p), both in their normal state and under mechanical
+deformation to 50% tensile strain. The stretchable sensor ’s
+characteristics were assessed by subjecting it to tensile strength
+while securing both ends. To ensure precise strain application, the
+sensor’s characteristics were evaluated by manually applying a
+tensile strength after securing it with PI tape on the 1-axis stage
+(Supplementary Fig. 12). The humidity sensor (Fig. 4a) was
+fabricated using a PEDOT electrode. In the presence of PBS, the
+impedance of the electrode decreased by two orders of
+magnitude (Fig. 4b). The humidity sensor showed a stable
+impedance regardless of applied strain up to 50% (Fig. 4c). The
+normalized sensitivity of the humidity sensor was constant for
+1000 cycles to 20% strain (Fig. 4d).
+The pH sensor (Fig. 4e) was composed of polyaniline (PANi) due
+to its changes of surface protonation at different pH levels. A
+standard pH buffer solution was used to calibrate the pH sensor. The
+open circuit voltage (OCP) of the pH sensor decreased stepwise as
+pH increased (Fig. 4f). During 30 s at each pH level, and signal of the
+pH sensor varied by <0.1 V. The pH sensor operated stably under
+deformations (Fig. 4g), and the response was stable performance
+after during cyclic stretching at 20% tensile strain (Fig. 4h).
+The electrochemical sensor for lactate (Fig. 4i) used an enzyme.
+This sensor was evaluated in vitro. The current through the sensor
+reached equilibrium within seconds. The magnitude of the
+Fig. 2 Au modiﬁed Ag electrode via galvanic replacement process to enhance electrochemical properties. a Schematic drawing of galvanic
+replacement process on the Ag electrode. b SEM image of Ag electrode comprised with Ag ﬂakes and Eco ﬂex. c EDS image of Ag ﬂakes in
+Ecoﬂex matrix. d EDS image of AuNPs formed by galvanic replacement process. e CV plots of the electrodes during PB electrodeposition (scan
+rate: 0.1 V s −1 with a commercial Ag/AgCl electrode). f CV plots of the electrodes in PBS with Fe(CN) 6
+3−/4− after electrodeposition of PB (scan
+rate: 0.1 V s −1 from −0.1 V to 0.4 V with a commercial Ag/AgCl electrode). g Site impedance of the electrode in PBS with Fe(CN) 6
+3−/4− after
+electrodeposition of PEDOT.
+S. Kim et al.
+4
+npj Flexible Electronics (2023)    33 Published in partnership with Nanjing Tech University
+
+(negative) equilibrium current increased as lactate concentration
+increased in the range of 1 – 15 mM (Fig. 4j). The normalized
+sensitivity decreased by only ~10% when the sensor was
+estimated while stretched to 50% (Fig. 4k). The sensor also
+showed good durability in the cyclic stretching test (Fig. 4l).
+The electrochemical sensor for glucose (Fig. 4m) also used an
+enzyme. This sensor was also evaluated in vitro. The magnitude of
+the (negative) equilibrium current increased as glucose concen-
+tration increased in the range of 0.1 to 0.5 mM (Fig. 4n), and
+showed constant sensitivity under deformation (Fig. 4o), and
+during repetitive stretching test (Fig. 4p).
+The lactate and glucose sensors did not suffer from cross-talk
+(Supplementary Fig. 10), i.e., they showed good selectivity for
+certain target biomarkers in the presence of other biomolecules
+and drugs. Compared with the current of the target analytes, that of
+other biomarkers represents an undetectable value. These results
+show that these four electrochemical sensors have stable sensitivity
+and selectivity under harsh deformation circumstances, and there-
+fore have potential for ef ﬁcient detection of biomarkers in sweat.
+Stretchable sweat patch for real-time sweat analysis
+We evaluated the stretchable sweat sensing patch in real time. A
+hydrophilic sweat-uptake layer was placed on the arm to
+efﬁciently absorb a suf ﬁcient amount of sweat (Supplementary
+Fig. 13). The patch was laminated on the arm of a volunteer
+(Fig. 5a), and connected to an electrochemical analyzer that
+collected and transmitted the data. Given the minor sensitivity
+changes observed when strain is applied to the stretchable sweat
+patch, we fabricated a strain sensor to counteract this effect
+(Supplementary Fig. 14). To ensure reliable measurements, we
+created three different strain sensors and then evaluated their
+linearity. The resistance of the strain sensor, constructed using a
+wavy-patterned electrode, was found to increase linearly, showing
+a proportional relationship with strain. This strain sensor calibrates
+any strain that could transpire when a volunteer is wearing the
+stretchable sweat patch, providing more accurate results. The
+volunteer was asked to perform stationary cycling at a ﬁxed rate
+for 30 min to produce suf ﬁcient sweat for analysis. To identify the
+inﬂuence of food intake, the glucose level was recorded in a
+fasting state and after food intake. The patch enabled real-time
+monitoring of the glucose level in the sweat of the volunteer
+(Fig. 5b). The glucose level was quanti ﬁed as 70 mg/dl in the
+fasting state and 100 mg/dl after food intake. The results of our
+stretchable sweat patch are consistent with those from a
+commercial glucose-assay kit assay (Fig. 5c). To continuously
+evaluate the sweat lactate level, the analysis was conducted
+before, during and after exercise (Fig. 5d). The volunteer was
+asked to cycle for 30 min to collect the sweat. The lactate level was
+estimate from 5 to 16 mM during exercise. The sweat lactate level
+obtained using the wearable sweat patch was consistent with
+measurements obtained using a blood lactate meter (Fig. 5e).
+Fig. 3 Intrinsically stretchable multi-biochemical sensor monitoring analytes in sweat. a , b Illustration of the stretchable sensor for sweat
+analysis. c Photograph of the stretchable multi-electrochemical sensor array. d Schematic illustration of all components for stretchable
+wearable patch including photo-patterned Eco ﬂex and functional materials. e, f Schematic image of intrinsically stretchable multi-biochemical
+sensor placed on a wrist.
+S. Kim et al.
+5
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2023)    33 
+
+METHODS
+Preparation of materials
+Ecoﬂex 00-30 and SLO-JO was purchased from Smooth-on. Silver
+ﬂakes (DSF-500MWZ-S) were purchased from Daejoo Electronics.
+Benzophenone, 3,4-Ethylenedioxythiophene (EDOT), Lithium per-
+chlorate (LiClO4), acetonitrile, aniline, chitosan, acetic acid, bovine
+serum albumin, ectoine, L-latic acid, D + glucose, Na ﬁon,
+glutaraldehyde, hydrochloric acid (HCl), sodium chloride (NaCl),
+Fig. 4 Electrochemical and electrical characterization of individual sensor and their combined operation in vitro. a – d Characterization of
+humidity sensor. b Measurement of impedance change of PEDOT with PBS. c Measurement of impedance change of PEDOT when stretched
+up to 50%. d Cycling test of humidity sensor after every 20% strain up to 1000 cycles. e– h Characterization of pH sensor. f Measurement of
+open circuit voltage change depending on pH value of PBS. g Measurement of open circuit voltage of pH sensor when stretched up to 50%.
+h Cycling test of pH sensor after every 20% strain up to 1,000 cycles. i-l Characterization of lactate sensor. j Amperometric measurements
+using PB modi ﬁed working electrode with redox enzyme, lactate oxidase. k Normalized sensitivity of the lactate sensor when stretched up to
+50%. Data are presented as mean ± SD. ( n = 3) l Cycling test of lactate sensor after every 20% strain up to 1000 cycles. m– p Characterization of
+glucose sensor. n Amperometric measurement of glucose sensor. o Normalized sensitivity of the glucose sensor when stretched up to 50%.
+Data are presented as mean ± SD. ( n = 3) p Cycling test of glucose sensor after every 20% strain up to 1000 cycles.
+S. Kim et al.
+6
+npj Flexible Electronics (2023)    33 Published in partnership with Nanjing Tech University
+
+potassium chloride (KCl), potassium ferricyanide (III), Iron(III)
+chloride hexahydrate, ammonium hydroxide solution, glucose
+assay kit, phosphate buffered saline tablet, Acetaminophen,
+Acetylsalicylic acid, L-Ascorbic acid, Uric acid, aniline, Gold(III)
+chloride trihydrate, chloroplatinic acid hexahydrate, 4-Methyl-2-
+pentanone were obtained from Sigma-Aldrich. GOx (GLO-201) and
+LOx (LCO-301) were purchased from TOYOBO chemical. Dulbec-
+co’s Modi ﬁed Eagle ’s Medium (DMEM), fetal bovine serum (FBS),
+antibiotic-antimycotic (AA), and LIVE/DEAD assay kit were
+obtained from Invitrogen (USA). CCK-8 assay kit bought from
+Dojindo (Japan).
+Fabrication of the Ag electrode
+A stretchable elastic conductor was fabricated from Ag ink
+composed of Eco ﬂex, silver ﬂakes and methyl isobutyl ketone
+(MIBK). The prepolymer (Eco ﬂex-A) and cross-linker (Eco ﬂex-B) of
+Ecoﬂex were mixed in a 1:1 (w/w) ratio for 5 min by a paste mixer,
+then MIBK was slowly added over a period of 5 min. The mixing
+weight ratio of Ag ﬂakes: Eco ﬂex: MIBK was 7.2: 1.6: 1.5. All
+components were mixed using a magnetic stirrer for 3 h at room
+temperature. The screen-printing was performed using Ag ink on
+the Eco ﬂex substrate. The printed Ag ink was cured at 60 °C for
+1 h, then at 120 °C for 2 h.
+Patterning of the photo-patternable eco ﬂex
+To prepare PPE, benzophenone was dissolved at 1:1 (w/w) ratio in
+xylene, then 4 wt% of the prepared solution was mixed with
+Ecoﬂex prepolymer. SLO-JO was added 1 wt% of solution. PPE was
+spin-coated on the Eco ﬂex substrate at 700 rpm for 60 s. Then the
+PPE was exposed to UV light at 365 nm by using a xenon-mercury
+UV lamp (Thermo Oriel, 69910, 1.2 mW/cm
+2) for 10 min, then PPE-
+annealed on a hot plate at 85 °C for 1 min. The unexposed region
+was developed using MIBK solution for 1 min, then the surface
+was rinsed and cleaned using isopropanol (IPA). Finally, the
+sample was cured at 100 °C for 1 h.
+Biocompatibility evaluation
+L929 mouse skin ﬁbroblast cells and its complete growth medium
+(DMEM, 10% FBS, 1% AA) were employed for verifying the
+biocompatilbity of developed Photo-patternable Eco ﬂex (PPE)
+ﬁlm. LIVE/DEAD and CCK-8 assay evaluations were performed with
+reference to the literature
+51. To acquire CCK-8 and LIVE/DEAD
+assay results, sterilized PPE ﬁlms were placed in a 96-wall
+polystyrene cell culture plates with 2000 cells and a polystyrene
+cell culture dish with 40,000 cells, respectively. After 1 and 3 days
+of culture, CCK-8 assay results were collected by a microplate
+reader (Victor 3, PerkinElmer, USA) by measuring optical
+absorbance at 450 nm. Also, LIVE/DEAD assay and bright- ﬁeld
+images were captured by an optical microscope (Eclipse 80i,
+Nikon, Japan) equipped with a digital single-lens re ﬂex camera
+(DS-Ri2, Nikon, Japan).
+Resistance measurement of stretchable Ag conductor
+The resistance of stretchable Ag conductor was measured using a
+multi-meter (Hioki 3803) while strain was applied using translation
+stage. Thin copper wire was connected to contact pads with
+PI tape.
+Electrode modi ﬁcation
+The galvanic replacement process was used to modify the Ag
+electrode. A solution of 0.3 mM Gold (III) chloride trihydrate
+(HAuCl
+4·3H2O) in DI water was prepared. The Ag electrode was
+dipped into the solution for 10 min, then rinsed with a 28%
+aqueous solution of ammonia (NH 4OH) to remove the byproduct
+of the galvanic replacement. A solution of 3 mM chloroplatinic
+acid hexahydrate (H 2PtCl6·6H2O) in DI water was prepared. The
+Fig. 5 On-body evaluation of stretchable sweat sensor for real-time monitoring. a Photograph of the sweat-analysis sensor attached on the
+arm of a volunteer for continuous on-body monitoring the biomarkers. b Real-time recording of sweat glucose before and after intake of meal.
+c Comparison of the sweat glucose concentrations measured by the sweat sensor and commercial glucose-assay kit. d Real-time recording of
+sweat lactate before, during and after exercise. e Comparison of the sweat lactate concentrations measured by the sweat sensor and
+commercial blood-lactate meter. Note that the commercial blood-lactate meter was used to identify a variation in lactate level during exercise,
+not to measure sweat lactate level 28.
+S. Kim et al.
+7
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2023)    33 
+
+counter electrode was immersed in this solution for 10 min. The
+modiﬁed electrode was washed with an aqueous solution of
+NH4OH.
+Functionalization of the electrochemical multi sensor
+Electrodeposition was used to functionalize selective materials on the
+desired site without cross-contamination. Prussian blue electrodepo-
+sition. An aqueous solution of 10 mM KCl, 2.5 mM K 3[Fe(CN)6]a n d
+2.5 mM FeCl3·6H2O in 0.1 M HCl was prepared. The Au-modi ﬁed Ag
+electrode was dipped in the solution, and the potential was swept
+from 0 to 0.5 V versus a commercial Ag/AgCl for two segments for
+the glucose sensor. The deposition process involved applying a
+voltage range from −0 . 5Vt o0 . 6V( v e r s u sA g / A g C l )f o r1 0s e g m e n t s
+a tas c a nr a t eo f5 0m Vs
+−1 for the lactate sensor.
+For PANi electrodeposition, an aqueous solution of 0.1 M aniline
+in 1 M HCl was prepared. The Au-modi ﬁed Ag electrode was
+immersed in the solution, then the potential was swept from −0.2
+to 1 V versus a commercial Ag/AgCl electrode for 50 segments at a
+scan rate of 0.1 V s −1.
+For the PEDOT deposition, a solution of 0.01 M 3,4-ethylene-
+dioxythiophene and 0.1 M LiClO 4 in acetonitrile was prepared. The
+Au-modiﬁed Ag electrode was immersed in the solution, then
+galvanostatic electrodeposition was performed for 60 s at 1.2 V
+(potential versus commercial Ag/AgCl electrode).
+Biosensor modi ﬁcation
+A chitosan solution was prepared by dissolving 0.5 wt% of chitosan
+in 0.1 M acetic acid. For preparing the glucose sensor, the chitosan
+solution was mixed with GOx (50 mg/mL), bovine serum albumin
+(15 mg/mL) and ectoine (15 mg/mL), then 1.5 μL of the mixed
+solution was drop-cast onto the working electrode. To prepare the
+lactate sensor, the chitosan solution was mixed with LOx (50 mg/mL)
+and bovine serum albumin (15 mg/mL), then 1.5 μL of the mixed
+solution was drop-cast onto the working electrode.
+The working electrodes were dried under ambient conditions,
+then 1 μL of 0.5 wt% Na ﬁon was drop-cast on the enzyme-
+modiﬁed surfaces, then allowed to dry at room temperature for
+1 h. Then 1 μL of 1 wt% of glutaraldehyde was dropcast onto the
+working electrode.
+In vitro characterization of the multi sensors
+An electrochemical analyzer (CHI660E, CHI instruments) was used
+to characterize and calibrate all sensors. The humidity sensor was
+calibrated using AC impedance measurement, using the two-
+electrode method. A PEDOT-modi ﬁed working electrode and
+Ag/AgCl modi ﬁed counter electrode were used for the humidity
+sensor. The calibration curve was obtained by measuring the
+impedance change in an arti ﬁcial sweat solution.
+The pH sensor was calibrated using open-circuit potential
+measurement. PANi and Ag/AgCl modi ﬁed electrodes were used
+for the pH measurement. The calibration curve was obtained by
+using standard buffered pH solution (pH 4 – 6, Alfa Aesar). The
+electrochemical sensor was calibrated in 0.1 M phosphate-
+buffered saline (PBS) (pH 7.0) with a change in the concentration
+of the analyte. Chronoamperometry was used for the electro-
+chemical detection of hydrogen peroxide to determine the
+glucose and lactate concentration. The calibration curve was
+obtained for 60 s with an initial potential of −0.1 V (versus
+Ag/AgCl).
+On-body evaluation for the sweat analysis
+On-body evaluation of the device was performed on a healthy
+subject who had no history of diabetes or chronic pain. The
+measurements were collected in strict compliance with a protocol
+approved by the institutional review board at Korea Advanced
+Institute Science and Technology (IRB No.kh2021-184). A sweat-
+uptake layer (wood pulp and Rayon, SWISSPURE half sponge
+sheet, Able C&C) was integrated with wearable device for ef ﬁcient
+sweat collection. The sweat analysis patch was attached to the
+arm of the volunteer for on-body evaluations. The glucose and
+lactate signals were validated with a commercial glucose assay kit
+(GAGO20, Sigma-aldrich) and blood-lactate meter (LT-1730,
+Arkray) respectively, before measurements using the sweat
+analysis patch. The volunteer was asked to ride a stationary
+bicycle for sweat collection. For the electrochemical measurement,
+the sweat monitoring patch is connected to an electrochemical
+analyzer (CHI660E, CHI instruments) via ﬂexible electric wires.
+Strain sensor
+The strain sensor was made with an Ag electrode via screen
+printing. It was patterned as a thin and wavy shape in a horizontal
+direction. It was patterned thickly to minimize the effect of
+longitudinal deformation. Calibration was carried out by using PBS
+solution of glucose and lactate.
+Tensile and peel test
+The tensile properties were evaluated using a universal testing
+machine (AGS-X, Japan). Dogbone-shaped specimen was pre-
+pared with a gauge section with 2 mm width and length of
+10-mm. The test speed of the crosshead was 10 mm/min in
+engineering strain rate. Samples were pneumatically held during
+the experiment to prevent slipping. The elastic modulus was
+determined from the slope of the stress-strain curve from the
+elastic region during the initial loading. The peel test was
+conducted using a universal testing machine (AGS-X, Japan).
+Rectangular shaped specimen was prepared with 10 mm width
+and length of 60 mm. This test involves sandwiching a sample of
+the material between two surfaces (180 degree) and then peeling
+them apart at a controlled rate (100 mm/min).
+DATA AVAILABILITY
+The data that support the ﬁndings of this study are available from the corresponding
+author upon reasonable request.
+Received: 27 February 2023; Accepted: 16 July 2023;
+REFERENCES
+1. Song, E. et al. Ultrathin trilayer assemblies as long-lived barriers against water and ion
+penetration in ﬂexible bioelectronic systems.ACS Nano 12, 10317– 10326 (2018).
+2. Bandodkar, A. J., Jeang, W. J., Ghaffari, R. & Rogers, J. A. Wearable sensors for
+biochemical sweat analysis. Ann. Rev. Anal. Chem. 12,1 – 22 (2019).
+3. Sang, M., Kim, K., Shin, J. & Yu, K. J. Ultra-thin ﬂexible encapsulating materials for
+soft bio-integrated electronics. Adv. sci. 9, 2202098 (2022).
+4. Song, J., Feng, X. & Huang, Y. Mechanics and thermal management of stretchable
+inorganic electronics. Natl Sci. Rev. 3, 128 – 143 (2015).
+5. Yuk, H. et al. Dry double-sided tape for adhesion of wet tissues and devices.
+Nature 575, 169 – 174 (2019).
+6. le Floch, P. et al. Fundamental limits to the electrochemical impedance stability of
+dielectric elastomers in bioelectronics. Nano Lett. 20, 224 – 233 (2020).
+7. Bariya, M., Nyein, H. Y. Y. & Javey, A. Wearable sweat sensors. Nat. Electron. 1,
+160– 171 (2018).
+8. Sempionatto, J. R. et al. Epidermal enzymatic biosensors for sweat Vitamin C:
+Toward personalized nutrition. ACS Sens 5, 1804 – 1813 (2020).
+9. Li, H., Ma, Y. & Huang, Y. Material innovation and mechanics design for substrates
+and encapsulation of ﬂexible electronics: a review. Mater. Horiz. 8,3 8 3– 400 (2021).
+10. Kim, D. H. et al. Epidermal electronics. Science 333, 838 – 843 (2011).
+11. Wang, C., Wang, C., Huang, Z. & Xu, S. Materials and structures toward soft
+electronics. Adv. Mater. 30, 1801368 (2018).
+12. Oh, Y. S. et al. Battery-free, wireless soft sensors for continuous multi-site mea-
+surements of pressure and temperature from patients at risk for pressure injuries.
+Nat. Commun. 12, 5008 (2021).
+S. Kim et al.
+8
+npj Flexible Electronics (2023)    33 Published in partnership with Nanjing Tech University
+
+13. Kathe, C. et al. Wireless closed-loop optogenetics across the entire dorsoventral
+spinal cord in mice. Nat. Biotechnol. 40, 198 – 208 (2022).
+14. Zhai, Q. et al. Vertically aligned gold nanowires as stretchable and wearable
+epidermal ion-selective electrode for noninvasive multiplexed sweat analysis.
+Anal. Chem. 92, 4647 – 4655 (2020).
+15. Xu, Y. et al. Multiscale porous elastomer sub strates for multifunctional on-skin elec-
+tronics with passive-cooling capabilities.Proc. Natl. Acad. Sci. USA117, 205– 213 (2020).
+16. Li, H. et al. Breathable and skin-conformal electronics with hybrid integration of
+microfabricated multifunctional sensors and kirigami-structured nano ﬁbrous
+substrates. Adv. Funct. Mater. 32, 2202792 (2022).
+17. Wang, S. et al. Skin electronics from scalable fabrication of an intrinsically
+stretchable transistor array. Nature 555,8 3 – 88 (2018).
+18. Bandodkar, A. J., Nuñez-Flores, R., Jia, W. & Wang, J. All-printed stretchable
+electrochemical devices. Adv. Mater. 27, 3060 – 3065 (2015).
+19. Kim, Y. S. et al. Soft wireless bioelectronics designed for real-time, continuous
+health monitoring of farmworkers. Adv. Healthc. Mater. 11, 2200170 (2022).
+20. Kim, T., Yi, Q., Hoang, E. & Esfandyarpour, R. A 3D printed wearable bioelectronic
+patch for multi-sensing and in situ sweat electrolyte monitoring. Adv. Mater.
+Technol. 6, 2001021 (2021).
+21. Kim, J., Campbell, A. S., de Ávila, B. E. F. & Wang, J. Wearable biosensors for
+healthcare monitoring. Nat. Biotechnol. 37, 389 – 406 (2019).
+22. Gao, W. et al. Wearable microsensor array for multiplexed heavy metal mon-
+itoring of body ﬂuids. ACS Sens 1, 866 – 874 (2016).
+23. Choi, J. et al. Soft, skin-integrated multifunctional micro ﬂuidic systems for accu-
+rate colorimetric analysis of sweat biomarkers and temperature. ACS Sens 4,
+379– 388 (2019).
+24. Zhang, S. et al. Hydrogel-enabled transfer-printing of conducting polymer ﬁlms
+for soft organic bioelectronics. Adv. Funct. Mater. 30, 1906016 (2020).
+25. Wang, L., Xu, T., He, X. & Zhang, X. Flexible, self-healable, adhesive and wearable
+hydrogel patch for colorimetric sweat detection. J. Mater. Chem. C. 9,
+14938– 14945 (2021).
+26. Lee, C. et al. Bioinspired, calcium-free alginate hydrogels with tunable physical
+and mechanical properties and improved biocompatibility. Biomacromolecules
+14, 2004 – 2013 (2013).
+27. Toi, P. T., Trung, T. Q., Dang, T. M. L., Bae, C. W. & Lee, N. E. Highly electrocatalytic,
+durable, and stretchable nanohybrid ﬁber for on-body sweat glucose detection.
+Acs. Appl. Mater. Interfaces 11, 10707 – 10717 (2019).
+28. Sempionatto, J. R. et al. An epidermal patch for the simultaneous monitoring of
+haemodynamic and metabolic biomarkers. Nat. Biomed. Eng. 5, 737 – 748 (2021).
+29. Natarajan, S., Chang-Yen, D. & Gale, B. Large-area, high-aspect-ratio SU-8 molds
+for the fabrication of PDMS micro ﬂuidic devices. J. Micromech. Microeng. 18,
+045021 (2008).
+30. Tringides, C. M. et al. Viscoelastic surface electrode arrays to interface with vis-
+coelastic tissues. Nat. Nanotechnol. 5, 1019 – 1029 (2021).
+31. Wolfe, D. B. et al. Customization of poly(dimethylsiloxane) stamps by micro-
+machining using a femtosecond-pulsed laser. Adv. Mater. 15,6 2 – 65 (2003).
+32. Kim, T., Kim, D. M., Lee, B. J. & Lee, J. Soft and deformable sensors based on liquid
+metals. Sensors 19, 4250 (2019).
+33. Bhagat, A. A. S., Jothimuthu, P. & Papautsky, I. Photode ﬁnable poly-
+dimethylsiloxane (PDMS) for rapid lab-on-a-chip prototyping. Lab Chip 7,
+1192– 1197 (2007).
+34. Kang, J. et al. Photopatternable poly(dimethylsiloxane) (PDMS) for an intrinsically
+stretchable organic electrochemical transistor. Acs. Appl. Mater. Interfaces 14,
+24840– 24849 (2022).
+35. Pan, S. et al. Mechanocombinatorially screening sensitivity of stretchable strain
+sensors. Adv. Mater. 31, 1903130 (2019).
+36. Kim, S. H. et al. Ultrastretchable conductor fabricated on skin-like hydrogel– elastomer
+hybrid substrates for skin electronics. Adv. Mater. 30, 1800109 (2018).
+37. Shyu, T. C. et al. A kirigami approach to engineering elasticity in nanocomposites
+through patterned defects. Nat. Mater. 14, 785 – 789 (2015).
+38. Wan, D., Xia, X., Wang, Y. & Xia, Y. Robust synthesis of gold cubic nanoframes
+through a combination of galvanic replacement, gold deposition, and silver
+dealloying. Small 9, 3111 – 3117 (2013).
+39. Patel, D. K. et al. Highly stretchable and UV curable elastomers for digital light
+processing based 3D printing. Adv. Mater. 29, 1606000 (2017).
+40. Basu, M. et al. Hydroxylation of benzophenone with ammonium phosphomolybdate
+in the solid state via UV photoactivation. Chem. Commun. 46,7 1 9 1– 7193 (2009).
+41. Li, J. et al. Correlations between percolation threshold, dispersion state, and
+aspect ratio of carbon nanotubes. Adv. Funct. Mater. 17, 3207 – 3215 (2007).
+42. Kim, S. H. et al. An ultrastretchable and self-healable nanocomposite conductor
+enabled by autonomously percolative electrical pathways. ACS Nano 13,
+6531– 6539 (2019).
+43. Matsuhisa, N. et al. High-transconductance stretchable transistors achieved by
+controlled gold microcrack morphology. Adv. Electron. Mater. 5, 1900347 (2019).
+44. Nasraoui, S. et al. Electrochemical sensor for nitrite detection in water samples
+using ﬂexible laser-induced graphene electrodes functionalized by CNT deco-
+rated by Au nanoparticles. J. Electroanal. Chem. 880, 114893 (2021).
+45. Dakshayini, B. S. et al. Role of conducting polymer and metal oxide-based hybrids
+for applications in ampereometric sensors and biosensors. Microchem. J. 147,7
+(2019).
+46. Kim, H. J., Sim, K., Thukral, A. & Yu, C. Rubbery electronics and sensors from
+intrinsically stretchable elastomeric composites of semiconductors and con-
+ductors. Sci. Adv. 3, el701114 (2017).
+47. Gao, W. et al. Fully integrated wearable sensor arrays for multiplexed in situ
+perspiration analysis. Nature 529, 509 – 514 (2016).
+48. Chen, R. et al. Use of platinum as the counter electrode to study the activity of
+nonprecious metal catalysts for the hydrogen evolution reaction. ACS Energy Lett.
+2, 1070 – 1075 (2017).
+49. Matsuhisa, N. et al. Printable elastic conductors with a high conductivity for
+electronic textile applications. Nat. Commun. 6, 7461 (2015).
+50. Lee, H. et al. A graphene-based electrochemical device with thermoresponsive
+microneedles for diabetes monitoring and therapy. Nat. Nanotechnol. 11,
+566– 572 (2016).
+51. Jang, J. & Park, C. B. Magnetoelectric dissociation of Alzheimer ’s Beta-amyloid
+aggregates. Sci. Adv. 8, eabn1675 (2022).
+ACKNOWLEDGEMENTS
+This work was supported by the Wearable Platform Materials Technology Center
+(WMC) funded by the National Research Foundation of Korea (NRF) grant by the
+Korea Government (MSIT) (NRF-2022R1A5A6000846, NRF-2021M3D1A2049869, NRF-
+2020M3H4A3106405). This research was also supported by Nano Material Technology
+Development Program (2021M3H4A1A04092879) through the National Research
+Foundation of Korea funded by the Ministry of Science and ICT.
+AUTHOR CONTRIBUTIONS
+W.L. and B.-S.B. proposed the concept and designed the experiment. S.K. carried out
+most of the experiment with the help from other co-authors. J.K. and I.L. participated
+in the fabrication and electrochemical characterization of the sensors. J.J. and C.B.P.
+contributed to biocompatibility evaluation. All authors discussed the result and
+contributed to proofreading the manuscript.
+COMPETING INTERESTS
+The authors declare no con ﬂict of interest.
+ADDITIONAL INFORMATION
+Supplementary information The online version contains supplementary material
+available at https://doi.org/10.1038/s41528-023-00268-x.
+Correspondence and requests for materials should be addressed to Wonryung Lee
+or Byeong-Soo Bae.
+Reprints and permission information is available at http://www.nature.com/
+reprints
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims
+in published maps and institutional af ﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long as you give
+appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons license, and indicate if changes were made. The images or other third party
+material in this article are included in the article ’s Creative Commons license, unless
+indicated otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons license and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly
+from the copyright holder. To view a copy of this license, visit http://
+creativecommons.org/licenses/by/4.0/.
+© The Author(s) 2023
+S. Kim et al.
+9
+Published in partnership with Nanjing Tech University npj Flexible Electronics (2023)    33 

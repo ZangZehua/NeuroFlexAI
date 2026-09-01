@@ -1,0 +1,935 @@
+Article https://doi.org/10.1038/s41467-024-49787-9
+Ag–thiolate interactions to enable an
+ultrasensitive and stretchable MXene strain
+sensor with high temporospatial resolution
+Yang Liu1,5 ,Z i j u nX u1,5,X i n y iJ i 2,5,X i nX u1, Fei Chen1,X i a o s e nP a n1,
+Zhiqiang Fu1,Y u n z h iC h e n1, Zhengjian Zhang1, Hongbin Liu1, Bowen Cheng1 &
+Jiajie Liang 2,3,4
+High-sensitivity strain sensing elements with a wide strain range, fast response,
+high stability, and small sensing areas are desirable for constructing strain
+sensor arrays with high temporospatialresolution. However, current strain
+sensors rely on crack-based conductivematerials having an inherent tradeoff
+between their sensing area and performance. Here, we present a molecular-
+level crack modulation strategy in which we use layer-by-layer assembly to
+introduce strong, dynamic, and reversible coordination bonds in an MXene
+and silver nanowire-matrixed conductiveﬁlm. We use this approach to fabri-
+cate a crack-based stretchable strainsensor with a very small sensing area
+(0.25 mm
+2). It also exhibits an ultrawide working strain range (0.001–37%),
+high sensitivity (gauge factor ~500 at 0.001% and >150,000 at 35%), fast
+response time, low hysteresis, and excellent long-term stability. Based on this
+high-performance sensing element and facile assembly process, a stretchable
+strain sensor array with a device density of 100 sensors per cm
+2 is realized. We
+demonstrate the practical use of the high-density strain sensor array as a
+multichannel pulse sensing system for monitoring pulses in terms of their
+spatiotemporal resolution.
+Strain sensors based on crack generation and propagation mechan-
+isms hold great promise for ﬂexible mechanosensing designs and
+provide ultrahigh sensitivity and capabilities in a variety of
+performance-demanding and intelligent applications
+1–6.S o m es o p h i s -
+ticated applications, such as the ﬁngertips of humanoid robots and
+implantable or skin-mounted health monitoring electronics, require
+stretchable mechanosensing arrays that can sense and identify com-
+plex signals with both high sensing accuracy and temporospatial
+resolution
+7–10. However, the development of such stretchable strain
+sensor arrays with the required sensitivity, strain range, stability, and
+spatiotemporal resolution remains a formidable challenge. In recent
+years, enormous research efforts have been made to overcome the
+tradeoff between sensitivity and strain range in a single strain
+sensor
+6,11–13. However, little progress has been made to achieve inte-
+grated sensor arrays or systems with a high spatiotemporal resolution.
+Most strain sensor arrays demonstrated in the literature are based
+on the integration of bulky sensing elements with
+footprints > 10 mm
+2 14–16. These large dimensions and low sensor den-
+sities are incompatible with highly compact integration and prevent
+the realization of sensor arrays with high spatiotemporal resolution.
+To achieve high-density sensor arrays, it is necessary to shrink the
+footprint of single sensor elements down to the millimeter-scale or
+Received: 18 November 2023
+Accepted: 13 June 2024
+Check for updates
+1State Key Laboratory of Biobased Fiber Manufacturing Technology, Tianjin Key Laboratory of Pulp and Paper, Tianjin University of Science and Technology,
+Tianjin, China. 2School of Materials Science and Engineering, National Institute for Advanced Materials, Nankai University, Tianjin, China.3Key Laboratory of
+Functional Polymer Materials of Ministry of Education, College of Chemistry, Nankai University, Tianjin, China.4School of Materials Science and Engineering &
+Smart Sensing Interdisciplinary Science Center, Nankai University, Tianjin, China.5These authors contributed equally: Yang Liu, Zijun Xu, Xinyi Ji.
+e-mail: liuyangtust@tust.edu.cn; bowen15@tiangong.edu.cn; liang0909@nankai.edu.cn
+Nature Communications|         (2024) 15:5354 1
+1234567890():,;
+1234567890():,;
+
+even microscale. However, the miniaturization of the active size in
+crack-based strain sensors is dif ﬁcult to achieve due to the inherent
+tradeoff between sensing area and performance. When a brittle con-
+ductive sensing ﬁlm is stimulated by a small strain, cracks could be
+generated, which will propagate perpendicularly to the strain direc-
+tion. This may signiﬁcantly disrupt conductive pathways, resulting in a
+high sensitivity at small strains
+1,17,18. However, cracks are dif ﬁcult to
+control and easily expand, leading to cut-through patterns and sub-
+sequent mechanical fracture in sensing ﬁlms
+19,20. As such, the crack-
+based strain sensors usually suffer from a narrow strain range and poor
+reliability
+19–21. According to the crack-based thin- ﬁlm principle6,22, lar-
+ger ﬁlms can generate more cracks and prolong the crack propagation
+to accommodate a greater applied strain6. Thus, the footprints of most
+reported crack-based strain sensors have been on the order of milli-
+meters or even centimeters, which inevitably leads to both a low sen-
+sor density and sensing resolution in integrated sensor arrays
+23.
+Another commonly used strategy to optimize the strain-sensing per-
+formance of crack-based sensors involves regulating the cracking
+process in the sensingﬁlm. Several crack engineering methods, such as
+bridging cracks, stepwise cracks, interlayer insertion, bio-mimetic
+architecting,ﬁlm wrinkling, and substrate structuring
+3,5,22,24, have been
+proposed to improve the strain range and sensing stability of crack-
+based strain sensors. However, these advancements usually come at
+the cost of sensitivity and detectability over a small strain range
+6,25.
+This is because these crack modulation strategies usually generate
+small or short cracks and may even cause buckling instead of long
+cracks in conductive sensing ﬁlms under tiny strain, which may save
+conductive pathways
+22. Thus, current crack-based strain sensors still
+face formidable difﬁculties in simultaneously achieving a high sensi-
+tivity, wide strain range, high stability, fast response time, small size,
+and high spatiotemporal resolution
+26.
+According to crack-based sensing mechanisms 3,5,22,t oa c h i e v e
+these strain-sensing properties simultaneously, the structure and
+cracking mode in the sensing ﬁlm should include several features. (1)
+To guarantee a high sensitivity, the sensingﬁlm should generate long
+(or cut-through) cracks to signi ﬁcantly disrupt the conductive path-
+ways. (2) To minimize the sensing area, the sensing ﬁlm should pro-
+duce dense mesh-like cracks that reduce the size of fragmented
+conductive islands. (3) To improve the strain range, the sensing ﬁlm
+should exhibit an effective behavior to energy dissipation to accom-
+modate large applied strain. (4) To obtain high reliability, the defor-
+mation of the sensing structure should be reversible during repeated
+stretch-release cycles.
+Here, we propose a cracking control strategy by introducing
+strong, dynamic, and reversible coordination bonds in an inorganic-
+matrixed conductiveﬁlm. Using this approach, we prepare a cracked-
+based stretchable strain sensor with minimal sensing size and good all-
+round sensing performance. A sensing ﬁlm was fabricated from
+thiolate-terminated MXene (S-MXene) nanosheets and silver nanowire
+(AgNW) via a layer-by-layer technique to form robust and dynamic
+thiol–silver (S–Ag) coordination bonds that were distributed in the
+multilayered sensing thin-ﬁlm. When the multilayered sensingﬁlm was
+stretched, long cracks were ﬁrst produced and propagated through
+weak interfaces or boundaries in the inorganic-matrixed ﬁlm. The
+strong S–Ag bonds regulated local strain ﬁelds in the brittle matrix,
+which forced cracks to deﬂect and twist, resulting in dense mesh-like
+cracking in the sensing ﬁlm. The dynamic S –Ag bonds enabled the
+multilayer matrix to exhibit energy dissipation that prohibited crack
+gaps from opening. This maintained nanoscale crack gaps within the
+ﬁlm, even under a large strain. The reversible S–Ag bonds allowed the
+crack patterns to heal after unloading, which improved the structural
+stability of the sensing ﬁlm. Using this cracking control design, the S-
+MXene/AgNW strain sensor (S-M/A) with a minimal sensing area of
+0.25 mm
+2 simultaneously provided an ultrawide strain sensing range
+(0.001–37%), ultrahigh sensitivity (gauge factor (GF) > 500 at 0.001%
+and > 150,000 at 35%), rapid response (~5 ms), low hysteresis, and high
+stability. The sensing area was more than one order of magnitude
+smaller than that of all previously reported crack-based strain sensors.
+This small but effective sensing area enabled us to fabricate a
+stretchable strain sensor array with a device density of 100 sensors per
+square centimeter, thus achieving a high spatiotemporal sensing
+resolution. This work realizes all of the desirable sensing properties
+(i.e., a high resolution, range, sensitivity, speed, and stability) in a
+single strain sensor system, which are particularly attractive for wear-
+able and intelligent applications that require monitoring highly precise
+and feature-rich signals.
+Results
+We obtained the S-MXene nanosheets via a hydrothermal reaction
+between 3-mercaptopropyltriethoxysilane (MPTES) and MXene
+(described in detail in the experimental section). Then, we fabricated
+the S-M/A strain sensing ﬁlm through the sequential adsorption of
+S-MXene nanosheets and AgNW on a glass substrate using an
+assembly process in solution, followed by transferring into a
+stretchable polyurethane substrate (Fig. 1a). The thiol groups on the
+S-MXene reacted with AgNW to form S –Ag bonds distributed at the
+interfaces between layers of the S-M/A ﬁlm
+27. Because the S –Ag
+coordination bond energy (about 17.7 kcal/mol) 28 is much higher
+than that of the hydrogen bonds (F···H) between MXene nanosheets
+(2–3.2 kcal/mol)
+25, they can serve as strong crosslinking points in the
+Fig. 1 | Introduction of S–Ag coordination bonds into S-M/A sensing ﬁlms.
+a Schematic illustration of the fabrication process of an S-M/A sensingﬁlm and
+sensor array. Inset of the mechanism for dynamic and reversible S–Ag coordination
+bonds formed between S-MXene and AgNW.b Photograph of a strain sensor array
+with 10 × 10 S-M/A0.5 sensing elements on a ﬁngertip (25-year-old male volunteer).
+The inset shows the sensor array under 30% strain.c Top-view SEM image of the S-
+M/A0.5 sensing elements.
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 2
+
+S-M/A ﬁlm. The coordination mode of S –Ag bonds can be reversibly
+switched on/off to permit energy dissipation and self-healing in the S-
+M/A ﬁlm
+29,30. A sensor element with a small active area and a corre-
+sponding sensor array with a high sensor density were obtained
+through a one-step laser etching process applied on the as-prepared
+S-M/A ﬁlm. S-M/A sensors with different sensing dimensions,
+0.5 × 0.5 mm2,1 × 1 m m 2,2 × 2 m m 2, a n d 5×5m m 2 were fabricated
+and named S-M/A0.5, S-M/A1, S-M/A2, and S-M/A5, respectively (Fig. 1b
+and Supplementary Fig. 1). As can be observed from the scanning
+electron microscopy (SEM) image (Fig. 1c), the laser-etched sensing
+units had clear and smooth edges, indicating the complete etching
+and high ef ﬁciency of the laser etching method. Using this process,
+we fabricated a strain sensing array composed of 100 S-M/A
+0.5 units,
+showing a device density of 100 sensors per cm 2 (Fig. 1b, c). For
+comparison, crack-based strain sensors based on pure MXene
+nanosheets and AgNW were fabricated (named M/A) with dimensions
+of 0.5 × 0.5 mm2,1× 1 m m 2,2 × 2 m m2, a n d5×5m m 2 (named M/A0.5,
+M/A1, M/A2, and M/A 5, respectively).
+The prepared S-MXene nanosheets were ﬁrst characterized by
+energy-dispersive X-ray spectroscopy (EDS), X-ray diffraction (XRD),
+Fourier-transform infrared (FT-IR) spectroscopy, X-ray photoelectron
+spectroscopy (XPS), and water contact angle measurements. EDS
+conﬁrmed the existence and uniform distribution of S atoms over the
+S-MXene surface (Fig. 2a). As shown in Fig. 2b, two new peaks at
+2580 cm
+−1 and 944 cm −1,a s c r i b e dt o–SH stretching vibrations and
+Ti–O–Si asymmetric stretching, appeared in the FT-IR spectrum of
+S-MXene31,32.N op e a ki nT i–O–Si asymmetric stretching could be seen
+in MPTES and pure MXene. The XPS of S-MXene revealed a typical
+Ti–O–Si bond at 531.7 eV in O 1 s spectra (Supplementary Fig. 2a) and
+Si–O–Ca t1 0 2 . 2e Vi nS i2p spectra (Supplementary Fig. 2b)
+33,p r o v i n g
+the successful grafted of MPTES onto MXene. The XRD patterns of the
+S-MXene and MXene ﬁlms exhibited peaks at 6.6° and 7.0°, respec-
+tively, conﬁrming the modi ﬁcation of thiol groups onto the MXene
+nanosheets (Fig. 2c). Moreover, the water contact angle increased
+from 60.2° for MXene to 88.5° for S-MXene (Fig. 2d), indicating the
+lower water-wettability of the S-MXene ﬁlm. Combined, these results
+indicate the successful synthesis of S-MXene nanosheets. The thiolate
+surface group in the S-MXene could block the contact between MXene
+and water or dissolved oxygen and prohibit the oxidation reaction
+34–39,
+thus signi ﬁcantly improving the stability of S-MXene in water and
+oxygen environment (Supplementary Fig. 3).
+As shown in the cross-sectional SEM image (Fig.2e), the obtained
+S-M/A sensing ﬁlm exhibited a multilayered structure with alternating
+layers of S-MXene nanosheets and AgNW networks. The thickness of
+the S-M/A sensing ﬁlm was controlled by the number of coatings
+(Supplementary Fig. 4). The optimalﬁlm thickness was optimized and
+ﬁxed at about 1.4 μm (Supplementary Fig. 5 and Supplementary
+Note 1). The top-view SEM and EDS characterizations con ﬁrmed the
+uniform distribution of AgNW on the S-MXene surface (Supplementary
+Fig. 7). XPS characterization validated the formation of Ag-S coordi-
+nation bonds between AgNW and S-MXene. Ag 2d
+5/2 (368.4 eV) and Ag
+2d3/2 (374.4 eV) peaks in AgNWﬁlms shifted to 367.1 eV and 373.1 eV in
+the XPS spectrum of the S-M/Aﬁlm (Fig. 2f), respectively, due to Ag–S
+coordination bonds between AgNW and S-MXene40,41.A ss h o w ni nt h e
+UV-vis spectrum (Fig.2g), the Ag characteristic peaks red-shifted from
+350 nm and 380 nm to 352 nm and 384 nm, which was attributed to
+Ag–S coordination bonds, in line with previously reported results41,42.
+In addition, a broad Ag–S stretching mode appeared near 220 cm−1 in
+the Raman spectrum of the S-M/A ﬁlm (Fig. 2h)40. All of these results
+suggest the formation of Ag–S coordination bonds in the S-M/A sen-
+sing ﬁlms.
+To investigate the sensing performance at small strain (<0.1%), the
+crack-based sensors were periodically strained using bending and then
+allowed to recover, as shown in Fig. 3a. The strain applied to the sen-
+sing devices was precisely calculated from the bending degree of the
+substrate (Fig. S3). Figure 3b shows cyclic variations in the relative
+resistance for different tiny strains applied to the S-M/A
+0.5 sensor. The
+detectable minimum strain of S-M/A0.5, S-M/A2, and S-M/A5 sensors all
+reached 0.001%, which exceeds the value of most previously reported
+crack-based strain sensors (Supplementary Table 1)
+5,43–50.T h es e n s i -
+tivity (GF) in the small-strain range of 0 –0.05% for S-M/A0.5 reached
+about 500 with linearity of 0.99 (Fig.3c), which is similar to that of S-M/
+A1, S-M/A2,a n dS - M / A5 sensors with larger sensing areas (Supplemen-
+tary Fig. 9). Figure3d reveals that the response and recovery times of S-
+M/A0.5 to an applied strain of 0.005% were 5 ms, which is superior to
+that of most reported crack-based strain sensors (Supplementary
+Table 1)
+43,46–48,51.T oc o nﬁrm repeatability,ﬁve samples for each device
+were tested and exhibited similar performance (Supplementary
+Fig. 10 and 11).
+To explore the sensing performance under large strain (>0.1%),
+the strain sensors were mounted on a motorized linear stage and
+periodically strained in the stretch-and-release mode (Fig. 3a).
+Fig. 2 | Characterization of S-MXene and S-M/A ﬁlms. a SEM image and EDS
+element maps of Ti, O, and S of S-MXene. Scale bar = 10 μm. b FT-IR spectra of
+MPTES, MXene, and S-MXene. c XRD patterns of MXene and S-MXene. d Water
+contact angles of MXene and S-MXene. e Cross-sectional SEM image showing the
+layer-by-layer structure of the S-M/Aﬁlm. f XPS spectra of AgNW and S-M/Aﬁlms in
+the Ag 2d region. g UV-vis spectra of AgNW, S-MXene, and S-M/A ﬁlms. h Raman
+spectra of M/A and S-M/A ﬁlms.
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 3
+
+Figure 3e illustrates the relative resistance variation of the S-M/A 0.5
+sensor under various cyclic strains up to 5%, 15%, 25%, and 30% at a
+strain rate of 2 mm/s, which delivered repeatable and stable relative
+resistance changes of about 5000; 36,000; 125,000; and 360,000,
+respectively. As shown in Fig.3f and Supplementary Fig. 12, the sensing
+curves of the S-M/A sensors were all subdivided into four linear
+regions. The S-M/A
+0.5 sensor, with the smallest sensing area of 0.25
+mm2, exhibited a large strain range of up to 37% with an ultrahigh GF
+over the entire working strain range: 1130; 5900; 24,800; and 152,500
+in the strain ranges of 0 –10%, 10–22%, 22–29%, and 29 –37%, respec-
+tively (Fig. 3f). The GF of 152,500 is one of the highest values ever
+reported for crack-based strain sensors with a working strain range
+>30% (Supplementary Table 1)
+3,5,25,43–45,49,52,53.A se x p e c t e d ,t h ew o r k i n g
+strain range increased and the sensitivity decreased as the sensing area
+increased for the S-M/A sensors (Supplementary Fig. 12). The S-M/A 5
+sensor, with a sensing area of 5 × 5 mm2, responded to strains as large
+as 116%, and the GF of the sensor reached 116, 770, 2800, and 8890 in
+the strain ranges of 0 –47%, 47 –75%, 75 –94%, and 94 –116%,
+Fig. 3 | Strain-sensing performance of S-M/A sensors. aSchematic illustration of
+the device being bent and stretched to tiny and large strains during sensing per-
+formance measurements.b Relative resistance changes during the detection of
+ultralow strains measured using the S-M/A0.5 sensor. c Relative resistance variation
+as a function of tiny strain (0–0.05%) for the S-M/A0.5 sensor. d The transient
+sensing response and recovery time to an applied strain of 0.05%. e Relative
+resistance changes under various cyclical large strains (5%, 15%, 25%, and 30%) for S-
+M/A0.5 the sensor. f Relative resistance variation as a function of large strain for S-
+M/A0.5,S - M / A2, and S-M/A5 sensors. g Relative resistance variation of S-M/A0.5
+sensor under incremental strain rate cycling between 0% and 30% strain.h Relative
+resistance changes of S-M/A0.5 sensor to 15% strain over 1000 stretch-release
+cycles. RH = 50%.
+Fig. 4 | Strain-sensing performance comparison. aSensing ﬁlm dimensions and
+detectable maximum strain of S-M/A0.5,S - M / A2, and S-M/A5 sensors compared with
+previously-reported crack-based strain sensors1,3,5,18,25,43–49,51–53,55,56. b Sensing ﬁlm
+dimensions and maximum GF of S-M/A0.5,S - M / A2, and S-M/A5 sensors compared
+with previously-reported crack-based strain sensors1,3,5,18,25,43–49,51–53,55,56. c Sensing
+ﬁlm dimensions and working strain range of S-M/A0.5,S - M / A2, and S-M/A5 sensors
+compared with previously-reported crack-based strain sensors5,43–49,51.
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 4
+
+respectively. In contrast, the M/A0.5 and M/A1 sensors failed to reliably
+respond to any strain, while the M/A2 and M/A5 sensors showed much
+smaller strain ranges than those of the S-M/A sensors (Supplemen-
+tary Fig. 13).
+The sensing stability and reliability of the S-M/A sensors were
+further examined. All S-M/A
+0.5,S - M / A1,S - M / A2, and S-M/A 5 sensors
+exhibited a relatively small hysteresis during cyclic stretch-release with
+a high strain (Supplementary Fig. 14), which allowed for durable and
+reliable dynamic operations54. Figure 3g illustrates the output signals
+of the S-M/A 0.5 sensor under various strain rates. Under a maximum
+strain of 30%, the electrical responses of the strain sensors were steady
+and remained stable, even while increasing the strain rates from 2 mm/
+st o1 6 m m / s .T h eS - M / A
+0.5 sensor was subjected to cyclic bending
+experiments between 0% and 0.05% strain (Supplementary Fig. 15) and
+cyclic stretching measurements between 0% and 15% strain (Fig. 3h),
+respectively. During the long-term tests over thousands of strain
+cycles, both the peak and baseline resistance changes of the S-M/A
+0.5
+sensor remained stable. Moreover, the S-M/A 5 sensor endured more
+than 7000 stretch-release cycles with a large peak strain of 70% under
+different relative humidity (RH) con ditions (Supplementary Fig. 16).
+The S-M/A sensors remained high sensing stability even under a high
+RH of 85% (Supplementary Fig. 16b). All of these results con ﬁrm the
+good long-term stability, durability, and reliability of our S-M/A strain
+sensors.
+Fig. 5 | Crack modulation behavior of S-M/A sensingﬁlms. a Illustration of crack
+formation and propagation in the M/A and S-M/A sensing ﬁlms. SEM images of
+crack propagation inb–e S-M/A ﬁlm and f–i M/A ﬁlm under strain states of 0%, 10%,
+30%, and 60%. Inset in d the local magniﬁcation of nanocracks; inset inh the local
+magniﬁcation of microcracks; inset ine local magniﬁcation of bridged edges; inset
+in i the local magniﬁcation of separated edges.j ABAQUS ﬁnite element simulation
+of the cracking behavior in M/A and S-M/A ﬁlms. Histograms of the conductive
+island area in k S-M/A and l M/A ﬁlms under 30% strain. Data were collected from
+ﬁve images under each condition. Histograms of the crack length in m S-M/A and
+n M/A ﬁlms under 30% strain. Data were collected from ﬁve images under each
+condition.
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 5
+
+Compared with other state-of-the-art crack-based strain sensors
+with high GFs (>300) and large working strain ranges
+(>30%)
+3,5,25,43–45,49,52,53, our S-M/A sensors demonstrated several advan-
+tages. First, the S-M/A0.5 sensor exhibited reliable responses to strains
+up to 37% with an ultra-small sensing area of 0.25 mm2 (Fig. 4a), which
+is more than one order of magnitude smaller than all previously
+reported crack-based strain sensors (Supplementary
+Table 1)
+1,3,5,18,25,43–49,51–53,55,56. Secondly, our S-M/A 0.5 sensor achieved
+ultrahigh GF values (≥500) across the entire working strain range, with
+a maximum GF of over 152,500 in the 29 –37% strain range, which
+outperforms all reported crack-based sensors (Fig. 4b and Supple-
+mentary Table 1). Third, different from the conventional approach of
+fabricating crack-based strain sensors with sensing dimensions
+>50 mm
+2, the working strain range of the S-M/A sensor could be con-
+trolled from 0.001% to >110% by changing the sensing area of its sensor
+elements from 0.25 mm 2 to 25 mm 2 (Fig. 4c and Supplementary
+Table 1)5,43–51.
+The sensing properties of the S-M/A sensing ﬁlms were largely
+attributed to the presence of strong, dynamic, and reversible S –Ag
+bonds within their multilayered structures. A model of the cracking
+behavior is proposed in Fig.5a to illustrate the strain-regulating effect
+of the MXene and AgNW-matrixed brittleﬁlms. To understand the high
+sensitivity and wide strain range of the S-M/A
+0.5 sensor with such a
+small sensing area, morphological changes within the M/A and S-M/A
+ﬁlms under various strains were compared using SEM (Fig. 5b–ia n d
+Supplementary Figs. 17 and 18). The cracks propagated in a straight
+line, transverse to the applied strain through weak interfaces inside the
+M/A ﬁlm (Fig. 5f). This is consistent with the typical cracking behavior
+in brittle sensingﬁlms
+3,22,56. This inevitably led to the generation of long
+cut-through cracks and large conductive islands (deﬁned as the area
+surrounding the cracks), which prevented the dimensions of the
+sensingﬁlm from decreasing and its strain range from increasing12,24.I n
+contrast, the strong S–Ag coordination bonds can induce stress con-
+centration in the S-M/A sensing ﬁlm under strain23. When cracks pro-
+pagated in the S-M/A sensing ﬁlm, the uniformly distributed strong
+S–Ag bonds forced the cracks to de ﬂect and twist 19,57,58. The high
+density of S–Ag coordination bonds causes large numbers of cracks to
+deﬂect and twist, which is quite different from the straight cracks
+observed in the M/Aﬁlm. Some deﬂected cracks in the S-M/Aﬁlm may
+intersect with each other during the propagation under strain, thus
+inducing the formation of a mesh-like crack pattern in the sensing
+ﬁlm
+23. Under a 10% applied strain, there were substantially shorter
+crack lengths (25–35 μm) and much smaller islands (2 –3×1 0 3 μm2)i n
+the S-M/A ﬁlm than those in the M/A sensing ﬁlm (240 –300 μmi n
+length, dimensions of 2.5 –3.5 × 104 μm2)( F i g .5c, g, and k –n). Such
+short cracks and small islands allowed the S-M/A ﬁlm to signiﬁcantly
+reduce its dimensions while maintaining good detectability to large
+strain. ABAQUS ﬁnite element simulation results also conﬁrmed that
+the M/A sensingﬁlm had a uniform strain distribution, resulting in cut-
+through cracks, while the S-M/A ﬁlm exhibited a strain-modulating
+effect that contributed to the formation of short and mesh-like cracks
+(Fig. 5j)
+5.
+Upon increasing the applied strain to 30% (Fig. 5d, h), large gaps
+(2–6 μm in width) appeared between matching crack edges in the M/A
+ﬁlm, while the crack gaps in the S-M/Aﬁlm remained at the nanometer-
+scale (<10 nm), which prevented premature failure of the sensing
+ﬁlm
+5,20. This successful retention of nanocracks in the S-M/Aﬁlm, even
+under large strain, was attributed to the presence of dynamic and
+reversible S–Ag bonds in the sensing ﬁlm. The deformation/reforma-
+tion of S –Ag coordination bonds between the S-MXene and AgNW
+dissipated energy and buffered crack energy in the S-M/A ﬁlm upon
+stretching29,30. When the S-M/A ﬁlm was subjected to longitudinal
+Fig. 6 | Application of S-M/A sensor array for pulse signal measurements. aA3 6 -
+channel S-M/A1 strain sensor array was placed at the wrist above the radial artery to
+detect the pulse signals at the position of Cun. Right image: Schematic of the strain
+sensor array and the position of the 36 channels. Sensing unit positions from 1 to 6
+along the pulse length and sensing unit positions from (a) to (f) along the pulse
+width. b Pulse waves are measured continuously by the 3c channel from the sensor
+array. c Ampliﬁcation of the single pulse signal in (b). d Column diagrams for pulse
+strength distribution measured by the 36-channel sensor array.e As e r i e so f3 D
+surface diagrams at every 0.1 s in one complete pulse cycle measured by the 36-
+channel sensor array. The characteristic peaks ofP, T,a n dD appeared at 0.3 s, 0.6 s,
+and 0.8 s, respectively. The 3D surface was constructed from 36-channel pulse
+signals by polynomial ﬁtting.
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 6
+
+strain, adjacent crack edges from neighboring islands converged due
+to transverse compression, which provided a pathway for electron
+tunneling
+51 (Supplementary Fig. 19). Thus, the high strain sensitivity of
+S-M/A over a large strain range may have originated from a combina-
+tion of ohmic conduction and tunneling transport variations51.
+Due to S–Ag bond breakage, upon further stretching the sensing
+ﬁlm to 60% strain, the layered MXene nanosheets and AgNW began to
+slide over each other25. The synergistic effect of S–Ag bond breakage
+and layer slippage allowed the S-M/A ﬁlm to further uniformly
+accommodate the applied stress over the entire sensing ﬁlm, which
+greatly mitigated the crack gap opening size. As shown in Fig. 4ea n d
+Fig. S17, the crack gap opening in the S-M/A sensing ﬁlm under 60%
+strain remained quite small (mostly smaller than 1 μm in width), and
+some edges from neighboring conductive islands remained in contact
+with each other. In contrast, parallel cut-through cracks with a gap
+width of about 10 μm were visible on the M/A ﬁlm (Fig. 5ia n dS u p -
+plementary Fig. 18b). The magni ﬁed SEM images in Fig. 4e, i further
+highlight the different crack morphologies generated in the S-M/A and
+M/A ﬁlms under 60% strain (Supplementary Figs. 17 and 18). The crack
+in the S-M/A ﬁlm clearly exhibited a high degree of MXene and AgNW
+sliding, which bridged the gaps of microcracks, whereas the crack
+edges in the M/A ﬁlm completely separated from each other.
+The synergistic effect of the strong and dynamic S –Ag bonds is
+further illustrated in the SEM images at 100% strain (Supplementary
+Fig. 20a) and after 5000 stretch-release cycles to 60% strain (Supple-
+mentary Fig. 20b). Most cracks in the S-M/A ﬁlm were compressed,
+with a small island area, a small gap opening, and some edges con-
+nected even under a large strain and after long-term strain cycles.
+Thus, our proposed crack modulation strategy by introducing strong,
+dynamic, and reversible S–Ag coordination bonds plays a critical role
+in achieving a high sensitivity, wide strain range, high stability, and
+minimal size in the S-M/A sensing ﬁlm.
+The high sensing performance and small sensing area of the S-M/A
+sensor allowed us to develop a strain sensor array with high tempor-
+ospatial resolution. By incorporating scanning electrodes (~40 μmi n
+line width) and interconnector lines through direct ink writing, we
+constructed two strain sensing arrays with device densities of 100
+(10 × 10) S-M/A
+0.5 (Supplementary Fig. 21) and 36 (6 × 6) S-M/A1 sensing
+units per cm 2, respectively (Fig. 6a). To demonstrate the practical
+applications of these dense and stretchable strain sensor arrays, we
+ﬁrst applied the 36-channel sensor array as a wearable multichannel
+pulse monitoring system to provide complete information about the
+temporospatial dimensions of a pulse waveform for intelligent health
+care applications (Fig. 6a and Supplementary Fig. 22). In the past
+decade, various sensing techniques, particularly resistive-type strain
+sensors, have been developed as wearable sensor systems for con-
+tinuously monitoring pulse signals
+12,25,59. However, reported sensors
+were usually assembled from strain sensor units with large footprints
+(>10 mm2)14,15,60. Such large dimensions inevitably introduce sub-
+stantial practical problems in terms of pulse monitoring, such as
+positioning difﬁculty, pulsing information loss, and poor reliability and
+accuracy
+14. In clinical practice, it is desirable to develop wearable strain
+sensor arrays with a high temporospatial resolution, high sensitivity,
+wide working strain range, and high reliability.
+According to Shang Han Lun, a book on traditional Chinese
+medical science, the radial artery pulse range is about 1 cm in width
+and 3 cm in length with three locations of Cun, Guan, and Chi
+(Fig. 6a)
+15. Thus, we attached a 36-channel strain sensor array with
+d i m e n s i o n so f1×1c m2 at the Cun position to acquire the temporal and
+spatial dimensions of a pulse wave (Supplementary Fig. 22). Figure6b
+shows the pulse response of channel 3c over 80 s from a 25-year-old
+male volunteer. Figure 6c displays an enlarged section of the pulse
+waves in Fig.6b, in which the early systolic peak (P), point of inﬂection
+(T), and dicrotic notch and dicrotic peak (D) are distinguishable14,15,21,61.
+To measure the spatial dimensions of the pulse waveforms, a column
+diagram composed of 36 points is displayed in Fig. 6d, where each
+point represents the pulse intensity measured by the corresponding
+sensing unit in the sensor array. The x-axis corresponds to the pulse
+width and sensing unit positions from 1 to 6, the y-axis represents the
+pulse length and sensing unit positions from a to f, and thez-axis shows
+the pulse intensity at each point (Fig. 6a). The surface ﬁtting method
+was utilized for surface smoothing and to connect the signals from
+each sensing channel to provide a pulse strength mapping surface. To
+examine the temporal dimensions of the pulse wave, the real-time,
+dynamic display of the 3D pulse strength distribution measured from
+36 channels for every pulse cycle was realized using a customized
+LabVIEW program. The results are presented in Supplementary
+M o v i e1 ,a n dt h e3 Ds h a p e so ft h eﬁtted surface reﬂecting the pulse
+intensity every 0.1 s over one complete pulse cycle are presented in
+Fig. 6e. The pulse intensity distribution, pulse length, pulse width, and
+pulse shape were characterized. The intensity distribution map at
+characteristic peaks P, T,a n d D were distinguished at 0.3 s, 0.6 s,
+and 0.8 s.
+Moreover, a small object with a complex shape was placed on the
+36-channel strain sensor array to carry out the strain mapping test
+(Supplementary Fig. 23a). The output signals of the S-M/A
+1 sensing
+units in the array could accurately distinguish minute morphology
+differences and mapped the strain distribution of the object (Supple-
+mentary Fig. 23b, 23c). A pipette with a tiny tip was also poked on the
+sensing array (Supplementary Fig. 23d). The 3D map of intensity dis-
+tribution corresponding to the tiny tip shape was clearly distinguished
+(Supplementary Fig. 23e). All these results demonstrate the great
+potential for applying our high-density sensing arrays in sophisticated
+applications that require both high sensing accuracy and tempor-
+ospatial resolution.
+Discussion
+In summary, we developed a stretchable, ultrasensitive, and minimal
+crack-based strain sensor by leveraging a molecular-level crack mod-
+ulation strategy to introduce strong, dynamic, and reversible S –Ag
+coordination bonds in an inorganic-matrixed conductive ﬁlm with
+alternating layers of S-MXene nanosheets and AgNW networks. The
+strong S–Ag bonds regulated the local strain ﬁeld and formed high-
+density mesh-like cracks that made it possible to minimize the sensing
+area while also maintaining a high sensitivity. The dynamic S–Ag bonds
+dissipated energy and prohibited crack gaps from widening, thus
+guaranteeing a large stretchability and wide strain range for the sen-
+sing ﬁlm. The reversible S–Ag bonds imparted a healing effect to the
+sensing structure during repeated strain-release cycles, thus improv-
+ing the sensing stability and reliability. As a result, we overcame the
+inherent tradeoff between sensing area and sensing performance
+commonly observed in crack-based strain sensors and achieved a
+minimal strain sensing element with ultrahigh sensitivity, ultrawide
+strain range, small hysteresis, fast response speed, and long-term
+stability. These features, together with the simple and scalable fabri-
+cation process, enabled the construction of a high-density stretchable
+strain sensor array with high temporospatial resolution.
+Methods
+Materials
+Ti3AlC2 powder was purchased from Laizhou Kai Kai Ceramic Materials
+Co., Ltd. AgNW was synthesized according to our previous report, with
+an average diameter and length of about 20 nm and 20 μm,
+respectively
+62. Polyurethane was purchased from Yantai Wanhua
+Polyurethane Co., Ltd. MPTES and the curing agent (1173) was pur-
+chased from Alfa Aesar.
+Characterization
+The strain sensor was elongated using a motorized linear stage
+equipped with a built-in controller (Red Star Yang Technology), while
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 7
+
+the resistance was measured using a Keithley 2000 digital multimeter.
+To test the sensing ﬁlms in the stretched state, samples were initially
+extended to a speciﬁc strain before being adhered to the sample stage
+using a thermally curable adhesive to ensure the constant deformation
+of the samples throughout testing. SEM characterization was per-
+formed using a JSM-7800ﬁeld-emission scanning electron microscope
+with an accelerating voltage of 5.0 kV. The electric conductivity of
+samples was measured by a digital and intelligent four-probe meter
+(ST2258C). XRD patterns were measured by Smartlab-3KW + UltimaIV
+(3KW). XPS was performed on a Thermo Scienti ﬁc ESCALAB 250Xi
+spectrometer. FT-IR spectra were measured using an IR spectrometer
+(BRUKER VECTOR22) over the wavenumber range of 4000–400 cm
+−1.
+UV-vis spectra were obtained using a Shimadzu UV-2700 spectro-
+photometer. All measurements were performed at room temperature
+(∼25 °C). The sensing array pattern was produced via an LPKF Proto-
+Laser R4 (LPKF Laser & Electronics AG, power = 8 W) with a pulsed laser
+(λ = 515 nm) at a repetition rate of 100 Hz. By modulating the laser spot
+size and pulse intensity, the etching width and depth were varied.
+Thermogravimetric analyses were performed using a Labsys EVO
+Setaram instrument (Setaram Instrumentation, Caluire, France).
+Approximately 5 mg of each sample were weighed in an open alumina
+crucible (Setaram Instrumentation, Caluire, France) and heated from
+50 °C to 700 °C in a He atmosphere (20 mL/min) with a heating rate
+equal to 10 °C/min.
+Simulation
+This study utilized ABAQUS ﬁnite element software to construct a
+three-dimensional ﬁnite element model of S-M/A and M/A sensing
+ﬁlms. The model included upper and lower layers of S-MXene
+nanosheets and a middle layer of AgNW. The mass density, elastic
+modulus, and tensile strength of AgNW were 10.5 g cm
+−3,8 6 G P a ,a n d
+2 GPa, respectively. The mass density, elastic modulus, and tensile
+strength of MXene (or S-MXene) were 4.4 g cm
+−3,8 0G P a ,a n d0 . 6 7G P a ,
+respectively. The Ag –S coordination bond energy was
+17.74 kcal mol−1 28. Constraints were applied on both sides, and a strain
+of 10% was applied in the x-direction. A tetrahedral free mesh was
+adopted for grid partitioning, and the model had a total of 76,916 units.
+Preparation of MXene (Ti3C2TX) nanosheets
+Ti3C2Tx samples were synthesized by selectively etching aluminum
+from titanium aluminum carbide (Ti3AlC2, 400 mesh size). Initially, 1 g
+of LiF was dissolved in 20 mL of 9 M HCl and stirred for 5 min. Sub-
+sequently, 1 g of Ti
+3AlC2 was gradually added to the solution, and the
+reaction was allowed to proceed under constant stirring at 35 °C for
+24 h. After etching, the resulting suspension was subjected to cen-
+trifugation at 1370×g for 5 min and then rinsed with deionized water,
+which was repeated until the supernatant pH exceeded 6. The mixture
+was then mechanically shaken for 30 min and centrifuged for an
+additional 30 min to separate the supernatant. MXene powder was
+obtained after freeze-drying the collected supernatant.
+Preparation of S-MXene
+To prepare the S-MXene, MPTES was initially introduced into a water-
+ethanol (the volume ratio of water to ethanol is 5:1) mixture and
+hydrolyzed under magnetic stirring for 30 min. Upon complete dis-
+solution, the resulting solution was combined with the MXene dis-
+persion and heated for 2 h at 60 °C. The MXene:MPTES mass ratio was
+maintained at 100:20. Following the reaction, the suspension was
+centrifuged at 11180×g for 10 min. The supernatant was removed and
+N,N-dimethylformamide (DMF) was added to re-disperse the remain-
+ing precipitate. These centrifuging and washing steps were repeated
+three times to wash off the unreacted MPTES and oligomer. After that,
+the remaining precipitate was dispersed in DMF again and centrifuged
+at 112×g for 3 min. Finally, the supernatant that contained S-MXene was
+collected, and the remaining precipitate that contained a by-product
+of poly(MPTES) was discarded (Fig. S24). The content of MPTES graf-
+ted onto the S-MXene was about 3.6 wt% (Fig. S25).
+Fabrication of S-M/A sensor elements
+To fabricate the S-M/A strain sensor, a glass slide was thoroughly
+cleaned using detergent and deionized water. Then, S-MXene and
+AgNW dispersions were prepared with concentrations of 2.5 mg/mL
+and 1 mg/mL, respectively, which were then alternately deposited via
+spin coating to achieve layer-by-layer assembly. Speci ﬁcally, the
+S-MXene dispersion was dropped onto the glass slide, spin-coated at
+112×g for 15 s, and dried. Subsequently, 100 μL AgNW dispersion was
+dropped onto the S-MXene ﬁlm, spin-coated at 112× g for 15 s, and
+dried. After repeating these steps three times, theﬁlms were thermally
+treated on a hot plate at 70 °C for 10 min. The existence of strong S–Ag
+coordination bonds between AgNW and S-MXene is vital to forming
+uniform and multilayered S-M/A ﬁlms through LBL technology
+63.
+Finally, a mixture of PU with 1% curing agent (1173) was applied and
+cured, and then the S-M/A strain sensor was peeled off from the glass
+slide and cut into test samples. Thus, the S-M/A strain sensor was
+partially embedded into the PU substrate. With rich carbamate func-
+tional groups, PU substrate could form hydrogen bonds with S-M/A
+sensing material. The partially embedded structure together with the
+abundant hydrogen bonds ensured good adhesion between PU sub-
+strate and S-M/A sensing ﬁlm. Control groups were also prepared
+following the same procedure as above. The initial resistance for S-M/A
+sensors was ~15 Ohm.
+Fabrication of S-M/A sensor array
+To construct a sensor array, conductive carbon nanotubes were prin-
+ted on the edges of the S-M/A
+0.5 and S-M/A1 sensing elements and the
+center of the interspaces to serve as electrodes. This was accomplished
+via direct ink writing with a line width of 40 µm. To prevent short-
+circuiting, a thin layer of polyurethane was printed and cured as an
+insulating layer at the junction of the two electrodes before the second
+electrode layer was printed. The device fabrication was completed by
+pouring polyurethane over the device and curing it.
+Ethical statement
+The participants in the study are fully informed about the purpose,
+risks, and bene ﬁts of the research. This study was approved by the
+Administration Committee of Tianjin University of Science and Tech-
+nology, Tianjin Province, China.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The data that are necessary to interpret, verify, and extend the
+research in the article are provided in the main text and/or SI. The
+experiment data that support the ﬁndings of this study are available
+from the corresponding authors upon request. Source data are pro-
+vided with this paper.
+References
+1. Park, B. et al. Dramatically enhanced mechanosensitivity and signal‐
+to‐noise ratio of nanoscale crack‐based sensors: effect of crack
+depth. Adv. Mater. 28,8 1 3 0–8137 (2016).
+2. Kim, D. et al. Highly durable crac k sensor integrated with silicone
+rubber cantilever for measuring cardiac contractility.Nat. Com-
+mun. 11, 535 (2020).
+3. Kim, K. et al. Enhancement of linearity range of stretchable ultra-
+sensitive metal crack strain sensor via superaligned carbon
+nanotube-based strain engineering.Mater. Horiz. 7,2 6 6 2–2672
+(2020).
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 8
+
+4. Kim, T. et al. Ultra-stable and tough bioinspired crack-based tactile
+sensor for small legged robots. npj Flex. Electron. 7, 22 (2023).
+5. Wang, L. et al. Crack sensing of cardiomyocyte contractility with
+high sensitivity and stability.ACS Nano 16,1 2 6 4 5–12655 (2022).
+6. Wang, W. et al. From network to channel: crack-based strain sen-
+sors with high sensitivity, stretchability, and linearity via strain
+engineering.Nano Energy 116, 108832 (2023).
+7 . O h ,H . ,Y i ,G . ,Y i p ,M .&D a y e h ,S .A .S c a l a b l et a c t i l es e n s o r
+arrays on ﬂexible substrates with high spatiotemporal resolu-
+tion enabling slip and grip for closed-loop robotics. Sci. Adv.
+6,e a b d 7 7 9 5( 2 0 2 0 ) .
+8. Liu, T. et al. Multichannel ﬂexible pulse perception array for intel-
+ligent disease diagnosis system.ACS Nano 17,5 6 7 3–5685 (2023).
+9 . A n ,B .W . ,H e o ,S . ,J i ,S . ,B i e n ,F .&P a r k ,J .T r a n s p a r e n ta n dﬂexible
+ﬁngerprint sensor array with multiplexed detection of tactile pres-
+sure and skin temperature.Nat. Commun. 9,2 4 5 8( 2 0 1 8 ) .
+10. Li, Y., Long, J., Chen, Y., Huang, Y. & Zhao, N. Crosstalk ‐free, high‐
+resolution pressure sensor arrays enabled by high‐throughput laser
+manufacturing.Adv. Mater. 34, 2200517 (2022).
+11. Pu, J. et al. Multilayer structured AgNW/WPU-MXene ﬁber strain
+sensors with ultrahigh sensitivity and a wide operating range for
+wearable monitoring and healthcare.J. Mater. Chem. A 7,
+15913–15923 (2019).
+12. Zhou, R. et al. Hierarchical s ynergistic structure for high
+resolution strain sensor with wide working range. Small 19
+2301544 (2023).
+13. Xue, F. H. et al. Ultra-sensitive, highly linear, and hysteresis-free
+strain sensors enabled by gradient stiffness sliding strategy.npj
+Flex. Electron. 8,8( 2 0 2 4 ) .
+14. Li, S. et al. Monitoring blood pressure and cardiac function without
+positioning via a deep learning-assisted strain sensor array.Sci.
+Adv. 9,e a d h 0 6 1 5( 2 0 2 3 ) .
+15. Wang, J. et al. Wearable multich annel pulse condition monitoring
+system based on ﬂexible pressure sensor arrays.Microsyst.
+Nanoeng. 8, 16 (2022).
+16. Xue, F. H. et al. An ultra-broad-range pressure sensor based on a
+gradient stiffness design.Mater. Horiz. 8, 2260–2272 (2021).
+17. Pu, J. et al. A strain localization directed crack control strategy for
+designing MXene-based customizable sensitivity and sensing
+range strain sensors for full-range human motion monitoring.Nano
+Energy 74, 104814 (2020).
+18. Yang, T. et al. Structural engineering of gold thin ﬁlms with channel
+cracks for ultrasensitive strain sensing.Mater. Horiz. 3,
+248–255 (2016).
+19. Gao, Z. et al. Advances in weara ble strain sensors based on elec-
+trospun ﬁbers. Adv. Funct. Mater. 33, 2214265 (2023).
+20. Wang, T. et al. High sensitivity, wide linear ‐range strain sensor
+based on MXene/AgNW compositeﬁlm with hierarchical micro-
+crack. Small 19, 2304033 (2023).
+21. Shi, X. et al. Interfacial click chemistry enabled strong adhesion
+toward ultra‐durable crack‐based ﬂexible strain sensors.Adv.
+Funct. Mater. 33, 2301036 (2023).
+22. Zhang, B. et al. Stretchable conductive ﬁbers based on a cracking
+control strategy for wearable electronics.Adv. Funct. Mater. 28,
+1801683 (2018).
+23. Feng, B. et al. Venation ‐mimicking, ultrastretchable, room‐tem-
+perature‐attachable metal tapes for integrated electronic skins.
+Adv. Mater. 35, 2208568 (2023).
+24. Feng, B. et al. Nacre ‐inspired, liquid metal‐based ultrasensitive
+electronic skin by spatially regulated cracking strategy.Adv. Funct.
+Mater. 31, 2102359 (2021).
+25. Shi, X. et al. Bioinspired ultrasensitive and stretchable MXene-
+based strain sensor via nacre-mimetic microscale“brick-and-mor-
+tar” architecture.ACS Nano 13, 649–659 (2018).
+26. Huang, X. et al. High-stretchability and low-hysteresis strain sensors
+using origami-inspired 3D mesostructures.Sci. Adv. 9,
+eadh9799 (2023).
+27. Huang, X. et al. Highly conducting neutral coordination polymer
+with inﬁnite two-dimensional silver–sulfur networks.J. Am. Chem.
+Soc. 140,1 5 1 5 3–15156 (2018).
+28. Bell, R. A. & Kramer, J. R. Structural chemistry and geochemistry of
+silver–sulfur compounds: critical review.Environ. Toxicol. Chem.
+18,9 –22 (1999).
+29. Jiang, P., Qin, H., Dai, J., Yu, S. & Cong, H. Ultrastretchable and self-
+healing conductors with double dynamic network for omni-
+healable capacitive strain sensors.Nano Lett. 22,1 4 3 3–1442 (2021).
+3 0 . Q i n ,H .e ta l .D y n a m i cA u–thiolate interaction induced rapid self-
+healing nanocomposite hydrogels with remarkable mechanical
+behaviors.Chem 3, 691–705 (2017).
+31. Luo, G. et al. Robust and durable ﬂuorinated 8-MAPOSS-based
+superamphiphobic fabrics with buoyancy boost and drag reduc-
+tion. Chem. Eng. J. 383, 123125 (2020).
+32. Xie, G. et al. Modi ﬁcation of SiO
+2 nanoparticle-decorated TiO2
+nanocomposites with silane coupling agents for enhanced opacity
+in blue light-curable ink. ACS Appl. Nano Mater. 5,
+9678–9687 (2022).
+33. Liu, Y. et al. Nanocellulose based ultra-elastic and durable foams for
+smart packaging applications.Carbohydr. Polym.327, 10 (2024).
+34. Chen, W. Y. et al. Surface functionalization of Ti 3C2TX MXene with
+highly reliable superhydrophobic protection for volatile organic
+compounds sensing.ACS Nano 14, 11490–11501 (2020).
+35. Cao, F. C. et al. Recent advances in oxidation stable chemistry of 2D
+MXenes. Adv. Mater. 34, 29 (2022).
+36. Ji, J. J., Zhao, L. F., Shen, Y. F., Liu, S. Q. & Zhang, Y. J. Covalent
+stabilization and functionalization of MXene via silylation reactions
+with improved surface properties.FlatChem 17,6( 2 0 1 9 ) .
+37. Wang, X. et al. Surface hydrophobic modi ﬁcation of MXene to
+promote the electrochemical conversion of N
+2 to NH3. J. Energy
+Chem. 87,4 3 9–449 (2023).
+38. Chen, L. J. et al. Superhy drophobic functionalized Ti3C2Tx MXene-
+based skin-attachable and wearable electrochemical pH sensor for
+real-time sweat detection.Anal. Chem. 94,7 3 1 9–7328 (2022).
+3 9 . J u n g ,S . ,Z a f a r ,U . ,A c h a r y ,L .S .K .&K o o ,C .M .L i g a n dc h e m i s t r yf o r
+surface functionalizati o ni nM X e n e s :ar e v i e w .EcoMat 5,
+e12395 (2023).
+40. Qin, H., Zhang, T., Li, N., Cong, H. & Yu, S. Anisotropic and self-
+healing hydrogels with multi-responsive actuating capability.Nat.
+Commun. 10, 2202 (2019).
+41. Liu, Y. et al. Tailoring silver na nowire nanocomposite interfaces to
+achieve superior stretchability, durability, and stability in transpar-
+ent conductors. Nano Lett. 22,3 7 8 4–3792 (2022).
+42. Luu, Q. N. et al. Preparation and optical properties of silver nano-
+wires and silver-nanowire thinﬁlms. J. Colloid Interface Sci. 356,
+151–158 (2011).
+43. Lin, J. et al. Anti ‐liquid‐interfering and bacterially antiadhesive
+strategy for highly stretchable and ultrasensitive strain sensors
+based on Cassie–Baxter wetting state.Adv. Funct. Mater. 30,
+2000398 (2020).
+4 4 . C a i ,Y .e ta l .S t r e t c h a b l eT i
+3C2Tx MXene/carbon nanotube compo-
+site based strain sensor with ultrahigh sensitivity and tunable sen-
+sing range. ACS Nano 12,5 6–62 (2018).
+45. Yang, Y. et al. Ti
+3C2Tx MXene-graphene compositeﬁlms for wear-
+able strain sensors featured with high sensitivity and large range of
+linear response.Nano Energy 66, 104134 (2019).
+46. Cai, Y. et al. Graphdiyne-based nano ﬁlms for compliant on-skin
+sensing. ACS Nano 16,1 6 6 7 7–16689 (2022).
+47. Liu, L. et al. Bioinspired, omnidirectional, and hypersensitiveﬂexible
+strain sensors. Adv. Mater. 34, 2200823 (2022).
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 9
+
+48. Wang, D. et al. A selective-response bioinspired strain sensor using
+viscoelastic material as middle layer.ACS Nano 15,
+19629–19639 (2021).
+49. Yang, H. et al. Wireless Ti 3C2Tx M X e n es t r a i ns e n s o rw i t hu l t r a h i g h
+sensitivity and designated working windows for soft exoskeletons.
+ACS Nano 14,1 1 8 6 0–11875 (2020).
+50. Wang, Y. et al. Two-dimensional m echano-thermoelectric hetero-
+junctions for self-powered strain sensors.Nano Lett. 21,
+6990–6997 (2021).
+51. Dinh Le, T. et al. Ultrasensitive anti-interference voice recognition
+by bio-inspired skin-attachable self-cleaning acoustic sensors.ACS
+Nano 13,1 3 2 9 3–13303 (2019).
+52. Lee, J. et al. Ultrasensitive strain sensor based on separation of
+overlapped carbon nanotubes.Small 15,1 8 0 5 1 2 0( 2 0 1 9 ) .
+53. Wang, H. et al. High-performance foam-shaped strain sensor based
+on carbon nanotubes and Ti3C2Tx M X e n ef o rt h em o n i t o r i n go f
+human activities.ACS Nano 15, 9690–9700 (2021).
+5 4 . P a n ,L .e ta l .M e c h a n o - r e g u l a t e dm e t a l–organic framework nano-
+ﬁlm for ultrasensitive and anti-jamming strain sensing.Nat. Com-
+mun. 9, 3813 (2018).
+55. Araromi, O. A. et al. Ultra-sensitive and resilient compliant strain
+gauges for soft machines. Nature 587,2 1 9–224 (2020).
+56. Kang, D. et al. Ultrasensitive mechanical crack-based sensor
+inspired by the spider sensory system.Nature 516, 222–226 (2014).
+57. Huang, W. et al. Multiscale toughening mechanisms in biological
+materials and bioinspired designs.Adv. Mater. 31, 1901561 (2019).
+58. Shin, M. K. et al. Synergistic toughening of compositeﬁbres by self-
+alignment of reduced graphene oxide and carbon nanotubes.Nat.
+Commun. 3,6 5 0( 2 0 1 2 ) .
+59. Baek, S. et al. Spatiotemporal measurement of arterial pulse waves
+enabled by wearable active-matrix pressure sensor arrays.ACS
+Nano 16,3 6 8–377 (2021).
+60. Feng, Y. et al. Muscle ‐inspired MXene conductive hydrogels with
+anisotropy and low‐temperature tolerance for wearableﬂexible
+sensors and arrays. Adv. Funct. Mater. 31, 2105264 (2021).
+61. Chu, Y. et al. Human pulse diagnosis for medical assessments using
+a wearable piezoelectret sensing system.Adv. Funct. Mater. 28,
+1803413 (2018).
+6 2 . W a n g ,H . ,T a n g ,H . ,L i a n g ,J .&C h e n ,Y .D y n a m i ca g i t a t i o n‐induced
+centrifugal puriﬁcation of nanowires enabling transparent electro-
+des with 99.2% transmittance.Adv. Funct. Mater. 28,
+1804479 (2018).
+63. Borges, J. & Mano, J. Molecular Interactions driving the layer-by-
+layer assembly of multilayers.Chem. Rev. 114,8 8 8 3( 2 0 1 4 ) .
+Acknowledgements
+This work was supported by National Natural Science Foundation of
+China (52173238), the Municipal Natural Science Fund of Tianjin
+(20JCJQJC00010 and 21JCQNJC00170), the Ministry of Science and
+Technology of China (2022YFA1203304), and the Fundamental
+Research Funds for the Central Universities of Nankai University
+(63191520), and the Tianjin Graduate Research and Innovation Project
+(2022SKYZ069, 2022SKYZ141).
+Author contributions
+Y.L., Z.X. and X.J. contributed equally to this work. J.L. and B.C. super-
+vised the project. J.L. and Y.L. conceived and designed the research.
+Y.L., Z.X., X.J., X.X., F.C., X.P., Z.F, Y.C., Z.Z. and H.L. participated in
+materials preparation, device fabrication, device test, or interpretation of
+results. J.L. and Y.L. analyzed the data and co-wrote the manuscript. All
+authors analyzed and discussed the results.
+Competing interests
+The authors declare no conﬂict of interest.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-49787-9.
+Correspondenceand requests for materials should be addressed to
+Yang Liu, Bowen Cheng or Jiajie Liang.
+Peer review informationNature Communicationsthanks Xuejun Lai and
+the other, anonymous, reviewer(s) for their contribution to the peer
+review of this work. A peer review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article https://doi.org/10.1038/s41467-024-49787-9
+Nature Communications|         (2024) 15:5354 10

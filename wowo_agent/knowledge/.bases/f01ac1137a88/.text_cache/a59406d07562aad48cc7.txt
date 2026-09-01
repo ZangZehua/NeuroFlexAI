@@ -1,0 +1,816 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-024-00337-9
+Highly robust soft-rigid connections via
+mechanical interlocking for assembling
+ultra-stretchable displays
+Check for updates
+Lixue Tang1,2 , Huayi Wang1,J i f e n gR e n1 &X i n g y uJ i a n g2
+Stretchable electronic circuits can seamlessly conform to irregular and dynamic surfaces with high
+integration. However, current stretchable conﬁgurations typically have limited stretchability due to the
+lack of robust connections between soft interconnects and rigid electronics. Here, we printed highly
+stretchable metal–polymer conductors on thermoplastic elastomers as interconnects. We developed
+electronic vests with porous surfaces for rigid electronics and introduced polyester hot-melt
+adhesives to strengthen connections between soft interconnects and rigid electronics. After thermal
+bonding, the adhesive penetrates the porous surface of electronic vests, creating a mechanical
+interlock and providing an adhesion force of 8.34 N/cm for the connection (3× higher than conductive
+adhesives). Thus, rigid electronics of different sizes and different pin counts can form strong
+connections to soft interconnects, achieving a maximum strain tolerance of ~700% (10× higher than
+conductive adhesives). We achieved highly integrated ultra-stretchable displays that can withstand
+stretching up to 220% without dead pixels.
+Stretchable electronics can seamlessly integrate with highly dynamic and
+irregular surfaces. They have great potential in a broad range of emerging
+ﬁelds, including implantable electronics
+1– 3, soft robotics 4,5,a n d
+human– machine interfaces6– 8. Recently, we have witnessed the encouraging
+development of stretchable conductors realized by novel materials9– 14 and
+structures15– 18. Some of these reported conductors have excellent electrical
+conductivity close to that of silver and amazing stretchability of up to
+1000%
+19,20. However, stretchable circuits based on these conductors have not
+performed satisfactorily and usually suffer from poor stretchability limited
+by connections between stretchable c onductors and rigid electronics
+(soft– rigid connections). To achieve fully stretchable circuits based on
+stretchable conductors, it is inevitable that stretchable conductors must be
+connected with commercially available rigid electronic devices
+21– 25,s u c ha s
+microcontrollers, batteries, and ampliﬁers, because soft substitutes for most
+of these electronics have not yet been developed. Although solder pastes can
+be used to solder rigid electronics directly to wavy-structured Cu/Au
+interconnects and achieve a stretchability of about 50%
+26,27,s o l d e rp a s t ei s
+not suitable for soldering composite stretchable conductors due to the
+inﬂuence of wettability. To obtain robust soft – rigid connections of com-
+posite stretchable conductors, conduct i v ea d h e s i v e ss u c ha ss i l v e rp a s t e s
+28,29,
+carbon nanomaterials30,31, and liquid metal composites 23,32 are used to
+reinforce the connections. However, these conductive adhesives have lim-
+ited adhesion, when the stretchable circuit deforms, mechanical/electrical
+failures usually occur at the soft – rigid connections due to stress con-
+centration. Liquid metals are suitable for connecting rigid electronics with
+large pins, such as resistors, capacitors, and LEDs. However, they can cause
+short circuits when used to solder microcontrollers with dozens of small
+pins due to their ﬂuidity
+33. Some vapors can also be used to strengthen the
+soft– rigid connections25,34, but damage from toxic vapors needs to be
+avoided during preparation.
+Here, we report a thermal bonding strategy for assembling ultra-
+stretchable circuits with robust soft – rigid connections. We solder rigid
+electronics onto the electronic vests (E-vests) with porous surfaces that can
+provide electrical and mechanical connections to soft circuits. We use
+polyester hot-melt adhesiveﬁlm (PES HMA) as the reinforcementﬁlm that
+could penetrate into the pores and cavities of the surface of e-vests to form a
+mechanical interlock after thermal bonding (pressure and heat were
+applied), thus greatly enhancing the adhesion between soft– rigid connec-
+tions, enabling a maximum strain tolerance of ~700% for rigid electronics in
+elastic substrates. The substrate of the circuit is composed of a thermoplastic
+elastomer, thus the assembly of highly stretchable circuits can also be
+achieved through thermal bonding. The thermal bonding strategy does not
+1Beijing Key Laboratory of Fundamental Research on Biomechanics in Clinical Application, School of Biomedical Engineering, Capital Medical Univer sity, No.10
+Xitoutiao, You An Men Wai, 100069 Beijing, China. 2Shenzhen Key Laboratory of Smart Healthcare Engineering, Guangdong Provincial Key Laboratory of
+Advanced Biomaterials, Department of Biomedical Engineering, Southern University of Science and Technology, No. 1088, Xueyuan Rd., Nanshan District, 518055
+Shenzhen, Guangdong, P. R. China. e-mail: tanglx@ccmu.edu.cn; jiang@sustech.edu.cn
+npj Flexible Electronics |            (2024) 8:50 1
+1234567890():,;
+1234567890():,;
+
+involve expensive nanofabrication processes and toxic chemicals, which is
+suitable for large-scale roll-to-rol l production. Based on the thermal
+bonding strategy, we achieved a highly integrated ultra-stretchable display
+(containing 148 rigid electronics) that can withstand a maximum stretch of
+220% without dead pixels. After 2000 stretching cycles at 100% strain, the
+display had a defective pixel rate of <5%.
+Results and discussion
+Design of the soft– rigid connection for stretchable display
+Figure 1a shows the structure and the assembly of the stretchable
+display. We use thermoplastic elastomer polyurethane (TPU) as the
+substrate and encapsulation for st retchable displays. We use screen-
+printing technology to print metal – polymer conductors (MPCs) on
+TPU substrates as interconnects for stretchable displays. MPCs are
+highly stretchable conductors c omposed of liquid metal and poly-
+vinylpyrrolidone. In our previo us work, MPCs have demonstrated
+excellent conductivity, stretchab ility (380,000 S/m at 1000% strain),
+and repeatability ( ΔR/R < 3% after 10,000 cycles), which means that
+MPC wires can operate for long periods of time without failure even
+under extreme deformation
+35,36. Although the average strain in most
+stretchable circuits does not exceed 100%, it is necessary for MPC to
+withstand strains up to 1000%. This is because there is a strain
+concentration at the interface of the soft – rigid connection, where the
+strain will be much larger than the a verage strain. Thus, the excellent
+stretchability of the MPC can ensure that the MPC wires will not fail
+in the stress concentration area.
+Fig. 1 | Schematic illustrations and optical images of the stretchable display.
+a Exploded view of a stretchable display and assembly diagram of the display.
+b Structure of the soft – rigid connection. c Schematic illustrations of thermal
+bonding. d E-vest composed of porous PI. e Mechanism of the soft – rigid
+connections. f Fabrication process of the stretchable display.g The Optical image of a
+stretchable display with scrolling messages.h The stretchable display is conformal to
+the skin. i The 12 × 12 LED display under stretching. The LED display is powered by
+two thin enameled wires connected to a 5 V power supply.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 2
+
+The vertical interconnect accesses (VIA) patches are circular TPU
+sheets printed with a circular MPC pattern, which are responsible for the
+electrical connection of different layers. The VIA patches are aligned with
+the holes on the top MPC layer and the wires on the bottom MPC layer.
+After thermal bonding (Fig.1c), the TPU on the VIA patch will fuse with the
+TPU on the top MPC layer and form a mechanical connection. MPC on the
+VIA patch will be in direct contact with the MPC wires on the top and
+bottom layers (Supplementary Fig. 1).
+We create e-vests for rigid electronic components that can connect
+stretchable substrates to the rigid chip. The e-vests can provide electrical and
+mechanical connections for rigid electronics on the stretchable substrate
+(Fig. 1b). The e-vests are customizable commercially available ﬂexible
+printed circuits (FPC) composed of porous polyimide (PI) and Cu ﬁlms
+with identical patterns on both sides. The Cuﬁlms on the top and bottom
+layer of the PI are interconnected via plated-through holes (Supplementary
+Fig. 2a). The copper trace on the top layer of the PI can directly solder to the
+pins of a chip, while the copper trace on the bottom layer of the PI can
+directly contact the MPC wires and form electrical connections. The elec-
+trical connections are located inside the e-vest and are almost not subjected
+to stress during stretching. The mechanical connections of the e-vest are
+located at the edges of the electronic vest and can be greatly reinforced by the
+mechanical interlocking (Fig.1e). As long as the edge of the electronic vest
+does not detach from the substrate, the electrical connection inside the
+electronic vest can remain stable.
+Mechanical interlocking is achieved by the penetration of thermo-
+plastic polymers into the porous surface of the e-vest when pressure and heat
+are applied (Fig. 1e). We adopted the reinforcement ﬁlm PES HMA to
+further strengthen the mechanical connection between the e-vest and the
+substrate. Through thermal bonding (Fig. 1c), the different layers and
+components in the stretchable display can be ﬁrmly assembled due to the
+fusion of thermoplastic polymers (TPU and PES) with different surfaces. To
+assemble the stretchable display, weﬁrst independently fabricate each layer
+and components of the stretchable display, including two MPC inter-
+connects printed TPU layers, VIA patches, reinforcementﬁlms, and e-vest
+(Fig. 1a). We then use a laminator to thermally bond those components
+layer by layer to obtain the sof t printed circuit board (Fig. 1f). Finally,
+microcontrollers, resistors, and LEDs can be soldered directly to e-vest
+through solder paste to be a stretchab le display. LEDs in the stretchable
+display could be controlled indivi dually to create a scrolling message.
+Although the stretchable display (Fig.1g) contains a large number of rigid
+electronics of different sizes and var ying pin counts, it exhibits excellent
+conformability (Fig.1h) and stretchability (Fig.1i).
+Characterization of the soft– rigid connection
+The excellent stretchability of our display originates from the robust
+soft– rigid connection enabled by the e-vests and reinforcementﬁlm. Rigid
+electronics typically have poor ad hesion and small contact areas to
+stretchable substrates. Here, we developed e-vests for rigid electronics to
+increase adhesion and contact areas b etween rigid electronics and soft
+substrates (Fig. 1b). The e-vests are customizable commercially available
+FPC, and Supplementary Fig. 2b presents the structure of a soft – rigid
+connection enabled by e-vest. The e-vests are composed of polyimide (PI)
+and copper ﬁlm, which can be connected to a soft substrate by thermal
+bonding. Finally, the rigid electronics can be soldered to the e-vests. We
+tested Young’s modulus of TPU, PES HMA, and PI. Young ’s modulus of
+TPU is 3.3 MPa, Young’s modulus of PES HMA is 270 MPa, and Young’s
+modulus of PI is about 2280 MPa. The pins of the chip are usually made of
+tinned steel, whose Young’s modulus is about 200 GPa.
+Two types of interfaces are created after the thermal bonding in
+stretchable circuits (Fig.1e): the interface between thermoplastic polymers
+(such as TPU– TPU and TPU– PES interfaces) and the interface between the
+thermoplastic polymer and PI on the E-vest (such as PES – PI or TPU– PI
+interfaces). The interfaces between thermoplastic polymers often have high
+bonding strength after thermal bonding due to the inter-diffusion of the
+polymer chains at the bonding interface
+37. Tensile tests of thermally bonded
+two TPU strips show that the junction of the two TPU strips did not separate
+even when the TPU broke at about 1200%strain (Supplementary Fig. 3a),
+which suggests that the interface between thermoplastic polymers is not the
+limiting factor for stretchability in circuits.
+The limiting factor for stretchability originates from the interface
+between the thermoplastic polymer and PI, where the bond strength is
+relatively low due to mechanical interlocking.
+We adopt two strategies to enhance the mechanical interlocking effect.
+Firstly, we can increase the number of pores and cavities on the PI substrate
+of the e-vests. The thermoplastic polymer will melt in the thermal bonding,
+wet the PI substrate, and penetrate pores, cavities, and irregularities on the
+surface. After solidiﬁcation, the thermoplastic polymer acts like multiple
+hooks anchored on the PI surface (Fig. 1e). We tested the adhesion force
+between the TPU and different e-vests composed of smooth PI (sPI) and
+porous PI (pPI), respectively (Supplementary Fig. 2c). The e-vests can
+directly connect to the TPU surface through thermal bonding. The adhesion
+force between the sPI and the TPU is about 1.13 N/cm, while the adhesion
+f o r c eb e t w e e nt h ep P Ia n dt h eT P Ui sa b out 3.04 N/cm, which indicates that
+the e-vest composed of pPI provides mo re cavities for the penetration of
+molten TPU. Tensile tests of thermally bonded TPU and different PI strips
+show that the junction will gradually detach during stretching and ﬁnally
+separate at a strain of 117% ± 37% (sPI) and 341% ± 62% (pPI) due to
+insufﬁcient adhesion (Supplementary Fig. 3b). When stretched, detachment
+of the e-vests from the circuit is the leading cause of failure in stretchable
+circuits.
+Secondly, we can increase the wettability of the penetrated polymer in
+the molten state. In order to further increase the effect of mechanical
+interlocking, we can select a hot-melt adhesive with better wettability with
+the PI substrate as a reinforcement ﬁlm, thus increasing the bonding
+strength between e-vest and TPU. We screened the commercial hot-melt
+adhesive ﬁlms such as PES, TPU, polyole ﬁn (PO), ethylene-vinyl acetate
+copolymer (EVA), and polyamide (PA) to reinforce the soft – rigid con-
+nection (Fig.2b). PES can signiﬁcantly improve the adhesion force (8.34 N/
+cm) between e-vest composed of pPI and TPU. The PES has the smallest
+contact angle with PI after melting (Fig.2c and Supplementary Fig. 4), so the
+molten PES can easily wet the cavities on the PI surface, resulting in stronger
+mechanical interlocking.
+We also compared the PES with commonly used conductive adhesives
+for connecting electronics, such as Ag paste and 3M 9705. (3M 9705 is a
+pressure-sensitive adhesive with anisotropic electrical conductivity, which
+allows electrical conduction in the z-direction.) We have found that the
+connection strength achieved by thermal bonding is 3– 4 times stronger than
+conductive adhesives (Fig.2b).
+To ﬁnd out how the thickness of the sub strate affects stretchability,
+elastic TPU with different thicknesses is thermally bonded with PI through
+PES to simulate the soft– rigid connection during stretching (Fig.2d). We
+found the failure of all samples is due to the detachment of PI from PES due
+to insufﬁcient adhesion. As the thickness of the substrate increases, the
+soft– rigid connections detach under smaller tensile strain (Fig.2d). Finite
+element analysis was performed on an e-vest on substrates of different
+thicknesses (100, 150, 200μm) subjected to an average strain of 50%. When
+stretched, the shear stress on the edges of the electronic vest is the main
+reason for the failure of the e-vest. It can be seen from Supplementary Fig. 5a
+that the shear stress is concentrated on the periphery of the e-vest, and the
+maximum shear stress applied to the edge of the e-vest increases with the
+increase of the substrate thickness (Supplementary Fig. 5b). Thus, we need
+to adopt elastic substrates with smaller thicknesses and Young’sm o d u l u st o
+obtain a circuit with excellent stretchability.
+In order to understand how Young’s modulus of the substrate affects
+the stretchability of the soft– rigid connection, we selected two TPUs with
+different Young
+’s moduli (3.3 and 11.7 MPa) as the substrates in Fig. 2d
+(left). Also, the failure of all samples is due to the detachment of PI from PES
+due to insufﬁcient adhesion. As Young’s modulus of the substrate increases,
+the stress concentration at the periphery of the e-vest becomes greater, so
+that the adhesion provided by the mechanical interlocking is exceeded at a
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 3
+
+smaller strain, and the soft– rigid connection detaches at a smaller tensile
+strain (Supplementary Fig. 6).
+The temperature for the thermal b onding also affects the adhesion
+force between the PES and the PI. Bonding between PI and PES requires a
+temperature of about 140 °C (Supplementary Fig. 7a). When the tempera-
+ture exceeds 160 °C, defects such as pores and cavities will appear on the
+surface of TPU (Supplementary Fig. 7b), thereby reducing the adhe-
+sion force.
+The e-vests can adhere to the TPU substrate through PES and serve as
+soft– rigid connections. When the circuit gets stretched, the e-vest can form
+reliable mechanical and electrical connections with interconnects on the
+substrates. We carried out tensile tests on 2-pin electronics to demonstrate
+the high stretchability of the soft– rigid connection (Fig.3a). To spotlight the
+superior strain-resistant electrical and mechanical properties of the e-vest,
+we used different strategies, including e-vest, silver pastes, and 3M 9705 to
+connect a 100-ohm resistor to the MPC wires. We stretched these circuits,
+each enabled by different connections tothe electrical failure. As a control,
+we also stretched the MPC wires without e-vest. In Fig.3c, the MPC wires
+with an e-vest connection lost their electrical conductivity at about 720%
+strain due to e-vest disconnection, while the MPC wires without e-vest
+remained conductive at up to 900% strain. In contrast, when using 3M 9705
+as a connection, the rigid resistor wi ll detach from the substrate and lose
+electrical connection at about 40% strain. When using the Ag paste as the
+connection, the silver solder will break and detach from the substrate at a
+strain of about 150% strain. Figure 3c shows the circuit with LED under
+different strains.
+As shown in the FEA simulation (Fig.3b), the electrical connections of
+the e-vest remain in a low deformationstate during stretching because the
+electrical connections are inside the PI substrate with high Young’sm o d -
+ulus. The electrical connections of the e-vest are almost unstressed during
+extreme deformation, which is why the stretchable circuits based on the
+electronic vest can remain stable. The mechanical connection of the elec-
+tronic vest is located at the edge of the electronic vest. Although there is
+strain concentration around the connection, the mechanical connection
+strength is greatly enhanced throug h mechanical interlocking, and the
+connection can still be maintained under large deformation.
+We analyzed the failure process of e-vests. The detachment of e-vest
+f r o mt h es u b s t r a t ed o e sn o th a p p e ni m m e d i a t e l yb u ti sap r o c e s si nw h i c h
+the degree of detachment gradually ac c u m u l a t e sa st h es t r a i ng r o w s( S u p -
+plementary Fig. 8). When the strain reaches about 530%, the corners of the
+e-vest start to detach (Fig. 3e). When the strain is >530%, the detachment
+gradually propagates inward. When the strain reaches about 720%, the
+copper electrical contacts on one side of the E-vest are completely separated
+from the MPC on the substrate, eve ntually leading to the e-vest’sf a i l u r e .
+Figure 3d shows that the LED connected to the MPC still lights up under
+different strains (maximum 700%).
+We carried out the cycle tests for the soft– rigid connections enabled by
+the e-vests. We stretched the MPC wire with the connection of e-vest (100-
+ohm resistor) from its original length to a strain of 100%, 200%, and 300%,
+respectively, and then released it to the original length. After 2000 stretch
+and release cycles, the MPC wires with the e-vest connection maintain their
+conductivity. When the strain in the stretch cycle is <200%, the e-vest
+connection shows excellent repeatability (Fig.3f), and the resistance ﬂuc-
+tuation at the maximum strain is <2%. However, when the cyclic strain
+reaches 300%, the resistance of the MPC wire with the e-vest connection
+increases with the cycles. We believe the resistance increase is caused by the
+excessive deformation of MPC, which will cause rapid MPC oxidation.
+Because the surface area of the liquid metal changes greatly in each
+stretching cycle, the oxideﬁlm on the surface of the liquid metal is constantly
+broken, and the fresh liquid metal is exposed to the air and oxidizes violently,
+so the electrical properties of the liquid metal conductors are greatly
+degraded. E-vests have excellent performance when used to connect mul-
+tiple electronics. Figure 4a shows that multiple LEDs connected on a soft
+substrate enabled by e-vests can em it light normally, even under 300%
+deformation.
+The soft – rigid connections enabled by e-vest are also suitable for
+microcontroller chips with dense pins (Fig. 4b). The chip ’sp i ns i z ea n d
+spacing can be enlarged to any size by e-vest to connect with soft conductors
+(Supplementary Fig. 9). The e-vest can provide both mechanical and elec-
+trical connections with the substrate. When there is no mechanical con-
+nection between the chip and the circuit, the chip moves when the substrate
+deforms, causing the chip to lose the electrical connection to the circuit (Fig.
+4c). We compared different strategies for soft – rigid connections, such as
+adopting conductive silver paste, 3M9705, and bulky liquid metal solders
+(Fig.4c). Liquid metal solders are the bulky liquid metals that we apply to the
+pins with a brush (Supplementary Fig. 10a). For conductive silver paste and
+3M 9705, the acceptable tensile strain is generally not more than 200%. By
+contrast, with the e-vest, whether a 2-pin resistor or a multi-pin chip, the
+soft– rigid connections can withstand stretchability exceeding 700%. Thus,
+compared with silver paste and 3M 9705, e-vest can form a larger contact
+area and greater adhesion with the substrate. Compared with bulk liquid
+metal solder, the e-vest can effectively avoid short circuits caused by theﬂow
+Fig. 2 | Mechanical characterization of the
+soft–rigid connection. a Schematic illustrations of
+180° peel test for measuring the adhesion force.
+b The adhesion force between PI and TPU is rein-
+forced by different materials. The sample size was
+n = 7 for each group. The data are presented as the
+means ± SD. c Contact angles of different materials
+on PI after melting. d The force– strain curve for the
+PI– TPU connection is reinforced by PES. Curves of
+different colors represent different thicknesses
+of TPU.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 4
+
+of bulk liquid metal under stretchi ng. Though a 2-pin resistor circuit
+implemented with liquid metal solder can achieve up to 900% stretchability
+(Fig. 4e), liquid metal solders are unsuitable for connecting multi-pin chips
+because liquid metal cannot form a stable mechanical connection with the
+chip. When the stretchable circuit deforms, the chip moves, and bulky liquid
+metal solders on adjacent chip pins will contact and create a short circuit
+(Supplementary Fig. 10b).
+We further characterize how disconnection occurs in multi-pin con-
+ﬁgurations under strain. The multi-pin e-vest is disconnected in a similar
+manner to the 2-pin e-vest. When the strain reaches about 490%, the edge of
+the e-vest in the stretching starts to detach. When the strain is >490%, the
+detachment gradually propagates inward. When the strain reaches about
+700%, the pins of the e-vest in the stretching direction are completely
+detached from the MPC on the substrate, eventually leading to the e-vest’s
+failure (Fig. 4d).
+To demonstrate that the e-vest can be universally utilized for various
+stretchable devices, we use different elastomers, including TPU, EVA (poly
+(ethylene-vinyl acetate)), PDMS, and Ecoﬂex 0030 as the substrate of the
+stretchable circuits. We printed MPC on TPU, EVA, PDMS, and Ecoﬂex,
+respectively, and we used the e-vest to connect a 100-ohm resistor to the
+MPC wires. We found the failure strain (the strain at which complete
+electrical failure occurs) of the TPUand EVA both exceed 500%, while the
+failure strain of PDMS and Ecoﬂex smaller than 10% (Fig. 4f). We believe
+that both TPU and EVA are thermal plastic elastomers. During the thermal
+bonding process, the thermoplastic polymer will melt and fuse with the PES
+layer through inter-diffusion at the bonding interface. However, PDMS and
+Ecoﬂex are silicones with inert surfaces. After high-temperature hot
+pressing, the PES and silicone surfaces cannot form an effective bond. Thus,
+in the case of slight deformation, the interface between silicone and PES will
+detach, resulting in electrical failure.
+Different electronic components vary greatly in size. We explored the
+effect of e-vests with different widthson stretchability. In the tensile test of
+e-vest with different widths (5, 10, 15, 20 mm), we found that all e-vest can
+reach a strain of 700% and maintain electrical connection, which suggests
+that the width of the e-vest has little inﬂuence on stretchability (Fig.4g).
+The size of electronic components, especially chips, is usually deter-
+mined by their packaging. For the convenience of human use, the size of the
+package of commercial electronic components is usually much larger than
+the size of the bare die (chip without packaging, Supplementary Fig. 11). The
+e-vests in this work are designed for c ommercial electronic components
+already have a relative large packaging. So it is indeed hard to further reduce
+the size when designing e-vests for co mmercially available electronic
+components. In the future, in order to achieve the miniaturization of elec-
+tronic components in stretchable circuits, we are going to directly integrate
+t h eb a r ed i eo nt h ee - v e s ta n dd e v e l o pal i g h t w e i g h ta n dr e l i a b l ep a c k a g e .
+Thus, we can further improve the stretchability and reduce the size of our
+stretchable circuits based on the e-vests.
+The thickness of the circuits will also inﬂuence the stretchability of our
+circuits. A stretchable circuit contains at least two layers of TPU, including
+the MPC layer and the encapsulation layer. However, as the number of TPU
+layers increases, the stretchability of the circuit will be compromised
+(Fig. 4h).
+We also found that the inclination angle of the e-vests has little effect on
+the stretchability (Fig.4i), and we believe that the strain distribution near the
+Fig. 3 | Electro-mechanical characterization of the soft –rigid connection.
+a Optical images of the front and back sides of an LED circuit under strain. b FEA
+result of the strain distribution on the circuit based on e-vest. c Resistance of the
+soft– rigid connections enabled by different strategies versus the strain. The green
+curve represents the resistance of the MPC wire versus the strain. d LED circuit
+under different strain conditions. e Schematic showing the detachment process of
+the E-vest from the substrate under different strains. f Real-time monitoring of the
+resistance of the soft – rigid connection by stretching it from a strain of 0 – 100%,
+200%, and 300% for 2000 cycles.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 5
+
+e-vest is similar despite the different inclination angles of the e-vest (Sup-
+plementary Fig. 12). Throughﬁnite element simulations, we found that an
+increase in the number of e-vests in the direction of deformation will greatly
+increase the deformation of the reg ions between the electronic devices
+(Supplementary Fig. 13).
+Assembly and characterization of stretchable display
+In brief, to assemble the stretchable display, weﬁrst fabricate each layer in
+the stretchable display and then a ssemble it layer by layer via thermal
+bonding (Fig.1f).
+We can independently fabricate each layer and component of the
+stretchable display, including two MPC interconnects printed TPU layers,
+VIA patches, reinforcementﬁlms, and e-vest (Fig.5a). We use a laminator to
+thermally bond those components to obtain the soft-printed circuit board.
+Finally, microcontrollers, resistors, and LEDs can be soldered directly to
+e-vest through solder paste tobe a stretchable display (Fig.5b). LEDs in the
+stretchable display could be contro lled individually to create a scrolling
+message. The schematic diagram of the circuit design of the two displays is
+shown in Supplementary Fig. 14. The surface density of electronic com-
+ponents on stretchable circuits reaches 9 devices per square centimeter.
+T h eL E Dd i s p l a y sa r es o f ta n de x h i b i texcellent stretchability. Displays
+can withstand deformations such as bending, twisting, and stretching (Fig.
+5c, d, Supplementary Video 1). The LED displays can conform to irregular
+surfaces of our skin. In the future, it can be integrated with the skin and
+interact with people directly on the skin, replacing the functions of smart-
+phones. In the stretching of <100% strain, LEDs in the display are tightly
+adhered to the substrate and have no tendency to detach.
+In order to test the stretch limit of the display, we used a tensile testing
+machine to evenly stretch the display from its original length until half of the
+LED failed (Fig.5e, Supplementary Video 2). We found that our stretchable
+display could withstand up to 220% strain before losing any LEDs. When we
+continue to stretch the display, the display will not be damaged immediately,
+but dead pixels will gradually appear, and the number of failed LEDs will
+gradually increase as the strain increases. When the tensile strain reaches
+about 350%, half of the LEDs in the display will fail (Fig.5f, Supplementary
+Video 2). We analyzed the causes of LED failure. We found that the TPU
+Fig. 4 | Robustness characterization of the soft –rigid connection. a Stretchable
+circuit with 5 LEDs. b A microcontroller chip under tensile strain. c Comparison of
+different strategies to reinforce the soft– rigid connection; Liquid metal solder (black
+arrow), silver paste (green arrow), 3M 9705 (orange arrow), and e-vests (red arrow).
+d Schematic illustration of a microcontroller chip failing under tensile strain.
+e Comparison of the soft – rigid connection failure strain between 2-pin and multi-
+pin electronic components. f Failure strain of the soft– rigid connection on different
+substrates. g Failure strain of the soft – rigid connection versus width of the E-vest.
+h Failure strain of the soft – rigid connection versus layers of the stretchable circuit.
+i Failure strain of the soft– rigid connection versus the inclination angle of the e-vest.
+Inset, Schematic showing different inclination angles of the e-vest.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 6
+
+substrate at the edge of the e-vests will break due to the stress concentration,
+causing the LED to be disconnected from the MPC interconnects (Sup-
+plementary Fig. 15). The deformation our display can withstand far exceeds
+the deformation that human skin can reach.
+To test the robustness of the display, we stretched the stretchable dis-
+play for 2000 cycles at 100% strain. No LEDs failed in theﬁrst 500 stretching
+cycles. After 2000 cycles, the defective pixel rate of the display is <5% (Fig.
+5g). Therefore, our stretchable display is fully capable of displaying various
+information on the skin.
+In summary, we achieved ultra-stretchable displays by greatly
+strengthening soft– rigid connections through electronic vests and reinfor-
+cement layers. By adoptingthe previously developed MPC as interconnects,
+a circuit containing one rigid electronic component can withstand more
+than 700% strain, while a display containing hundreds of rigid electronics
+can withstand 220% strain without dead pixels. Also, the stretchable display
+exhibits a stable behavior for 500 cycles of 100% strain. Each layer and
+component in the stretchable display can be fabricated independently, and
+ﬁnally, they can be assembled through thermal bonding. Compared with
+stretchable displays based on intrinsically stretchable LEDs
+38,39, our strategy
+is more straightforward and less costly. Our display can be assembled by
+thermal bonding, which does not involve toxic chemicals.
+The use of e-vest in this study can greatly enhance the soft – rigid
+connection, however, the regional extreme deformation on the soft– rigid
+connection caused by stress concentration still exists, greatly increasing the
+failure risk of stretchable circuits. Thus, in order to ultimately eliminate the
+regional extreme deformation in stretchable circuits, intrinsically stretch-
+able LEDs will eventually replace rigid LEDs in our stretchable circuits.
+In the future development direction of stretchable display, we believe
+that there are three optimization directions. Theﬁrst is to use intrinsically
+stretchable LEDs with low Young ’s modulus, and high stretchability,
+thereby eliminating the soft– rigid interface between the stretchable wire and
+the LED. The second is to further reduce the size of the stretchable wires and
+LEDs to increase the resolution of the stretchable display. The third is to
+increase the current efﬁciency of LEDs and reduce current loss in wires,
+ultimately enabling a high-resoluti on soft display for smartphones that
+blends in with the skin.
+Based on the thermal bonding strategy, the fabrication of multilayer
+s t r e t c h a b l ec i r c u i t si se v e nf a s t e ra n dmore environmentally friendly than
+the fabrication of conventional printed circuit board (PCB), which involves
+polluting and time-consuming processes such as electroplating and che-
+mical etching. With highly stretch able conductors and robust soft – rigid
+connections, most commercial elect ronic components can be directly
+integrated into stretchable circuits, decreasing the urgent need to develop
+soft alternatives for electronics. Our approach is suitable for converting
+PCB-based circuits with a large number of electronics and a high level of
+device integration into stretchable and conformal circuits in a cost-effective
+manner. Thus, sophisticated functions originally implemented on the PCB
+have the opportunity to be realized on highly dynamic and irregular surfaces
+such as human organs and soft robots. Bluetooth chips or Bluetooth
+modules can also be integrated into our stretchable circuits. In future work,
+we will integrate Bluetooth chips into our stretchable displays to remotely
+control the displayed information through mobile phones. At the same time,
+we also need to study the factors that affect the quality of wireless com-
+munications in stretchable circuits
+40,41, including communication protocols,
+Fig. 5 | Assembly and characterization of stretchable display. a Schematic illus-
+tration of different layers and components of the stretchable display.b Optical image
+of the soft 12×12 LED display. c The stretchable display under twisting and
+d stretching. e The stretchable display was tested under different strains. The display
+alternately exhibits a heart shape and a square shape.f Ratio of surviving LEDs under
+different tensile strains. g Ratio of surviving LEDs after different stretching cycles at
+100% strain.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 7
+
+electrical interconnects, power consu mption, substrates, and choice of
+electronic components for stretchable systems.
+Methods
+Fabrication of the MPC interconnects
+The fabrication of the MPC interconnects begins with fabricating the
+MPC ink based on liquid metals. Brie ﬂy, to obtain the MPC ink
+35,w e
+added 1 g of PVP [polyvinylpyrrolidone; Mn (number-average
+molecular weight) = 360,000, Aladdin, China] into 19 g of hexyl
+alcohol (98%, Macklin, China) and stirred for 48 h to obtain the PVP
+solution, we sonicate 3 g Gallium Indium eutectic alloy (EGaIn,
+75.5% gallium and 24.5% indium by weight, Changsha Kun Yong
+Materials Co. Ltd., China) in 1 mL PVP solution at 20% amplitude
+for 60 s using a probe sonicator (S450D, Branson, USA). We used
+screen-printing (300 mesh stencil) to print the MPC ink on the TPU
+ﬁlm (with release ﬁlm, 3412, 1mil, Bemis, USA) to obtain the MPC
+wires on the MPC card. After the MPC printing, we dry the MPC
+w i r e si na no v e n( D H G - 9 4 2 0 A ,Y i h e n gS c i e n t iﬁcI n s t r u m e n tC o .
+Ltd., China) at 80 °C for 5 min. We use a laser cutter (355 nm
+Nd:YAG laser, 5 W, Shenzhen JPT Opto-electronics Co., Ltd., China)
+to drill holes on the MPC interco nnects (diameter: 0.2 mm) at the
+mark speed of 60 mm s
+−1.
+MPC wires are non-conductive after printing because the liquid metal
+particles within the MPC are covered with an insulating oxide layer.
+However, the MPC can be mechanically sintered by stretching. We stret-
+ched the TPU substrate to a strain of 50% to activate the MPC wires on the
+substrate. Because the strain applied on the MPC wires can break the
+insulating oxide layer and form conductive paths between liquid metal
+particles (Supplementary Fig. 16), the MPC wires will become conductive
+and stretchable
+35,36.
+Fabrication of the VIA patches
+We use the MPC ink to print circular MPC patterns (diameter: 1 mm) on
+the TPUﬁlm (with releaseﬁl m )a n dd r yt h e mi na no v e na t8 0° Cf o r5m i n .
+W eu s eal a s e rt oc u ta l o n gt h eo u t e re d g el i n eo fM P Ca tt h em a r ks p e e do f
+30 mm s
+−1 to get a rounded rectangular shape. We use a laser cutter to cut
+along the contour of the MPC with a cutting diameter of 2 mm. The mark
+speed of the laser is 60 mm s−1, and at this speed, the laser only cuts through
+the TPUﬁlm but not the releaseﬁlm under the TPU. Finally, we peel off the
+excess TPU ﬁlm from the release ﬁlm and leave the VIA patches on the
+release ﬁlm (Supplementary Fig. 17).
+Fabrication of the reinforcement ﬁlm
+The reinforcement ﬁlm we used in the stretchable display is the PES
+ﬁlm to increase the adhesion between the E-vest and the TPU. We
+obtain the reinforcement card from commercial PES ﬁlm (with
+release ﬁlm, XJS130, 0.05 mm) by laser ablation at a mark speed of
+60 mm s−1 (Supplementary Fig. 18). The materials used to screen the
+reinforcement layer, including the PES, PO (XJO115, 0.05 mm), EVA
+(HJV90, 0.05 mm), and PA (XJA110, 0.05 mm) are from Shanghai
+Xingxia Polymer Products Co., Ltd.
+Fabrication of the e-vests
+The e-vests are customizable commercially available FPC with identical
+patterns on both sides. The e-vests co mposed of pPI for different rigid
+electronics are processed from commercial FPC (Shenzhen Ruixing Express
+PCB Co. Ltd.). Brieﬂy, during the FPC manufacturing process, a laser is used
+to drill holes in a polyimide ﬁlm covered with copper ﬁlm on both sides.
+After drilling, copper is electroplatedinside the hole wall to obtain the plated
+through-holes that can achieve interconnection between the copperﬁlms on
+both sides. After steps such as exposure, development, and etching, the
+unnecessary copper ﬁlm is removed to obtain an FPC with the desired
+copper pattern.
+The e-vests of all electronic components in the stretchable display are
+d e s i g n e di nt h es a m eF P C ,a n dt h ep o s i t i o no ft h ee - v e s ti nt h eF P Ci st h e
+same as its position in the circuit (Supplementary Fig. 19a). The FPC is then
+attached to a release paper (0.09 mm, Xianyouyue, PET, low tack), the
+outlines of different e-vests are cut with a laser, and the excess PI is removed
+(Supplementary Fig. 19b). Finally all the e-vests can be transferred to the
+circuit at the same time.
+Assembly of the display
+T h eV I Ap a t c h e so nt h er e l e a s eﬁlm are aligned with the holes on the
+top MPC layer. After thermal bonding using a laminator (HD 330T,
+Huanda, China) at a temperature of 140 °C, the TPU on the VIA
+patch will fuse with the TPU on the top MPC layer and form a
+mechanical connection. We use another layer of TPU as the encap-
+sulation layer, and use a laser to punch holes in the TPU to expose
+the contacts connected to the e-vest. The TPU encapsulation layer is
+then bonded to the top MPC layer via thermal bonding (140 °C).
+After the encapsulation of the top MPC layer, the bottom MPC layer
+is aligned with the top MPC layer and also bonded by thermal
+bonding (140 °C). The PES layer i s connected to the top MPC layer
+through thermal bonding (160 °C), and the e-vests are aligned with
+the PES and connected to the MPC layer via thermal bond-
+ing (140 °C).
+We use screen-printing to print solder paste (Sn42Bi58, Ausbond,
+China) on copper contacts on e-vests (Supplementary Fig. 20). We align the
+pins of the electronic components with the copper contacts and treat the
+solder paste in an oven at 150 °C for 5 min. Finally, we ﬁnished the fabri-
+cation of the stretchable displays.
+Characterization
+The tensile test and the adhesion force between the PI and different mate-
+rials (PES, EVA, PA, TPU, PO, Ag paste, and 3M 9705) are measured by the
+180° peel test using the universal testing machines (3365, Instron, USA). In
+the tensile tests, all samples were la ser ablated in half-dumbbell shapes
+(Supplementary Fig. 3) with a width of10 mm. The two different specimens
+are connected by thermal bonding. The length of the junction is 10 mm. The
+initial length of stretching is 50 mm, and the speed of stretching is 50 mm/
+min. The 180° peel test is shown in Fig.2a. The length and the width of the
+junctions are 10 mm, and the speed of stretching is also 50 mm/min. We
+used the programmable linear guide slide (FSL_40, FUYU, China) to stretch
+samples for the stretch test at the speed of 100 mm/min and the cyclic test at
+the speed of 1000 mm/min. We used an electrochemical station (1040C,
+CHI, China) to record the electrical resistance in real-time during tensile
+tests and cycle tests. The surface morphology of the MPC is characterized by
+the scanning electron microscope (SEM, ZEISS Merlin). Optical micro-
+graphs were obtained from a Stereo microscope (SZM-45B2, Gaopin,
+China). The contact angle of different polymers (PES, EVA, PA, TPU, and
+PO) to polyimide is achieved by melting those polymers at 160 °C in a hot
+plate and observing the contact angle through the dissecting microscope.
+The stretchable LED displays are tested in the hands of authors (obtained
+informed consent from all participants) and approved by the institutional
+ethics committee (Medical Ethics Committee of Capital Medical University,
+2021SY021).
+Data availability
+The data that support the ﬁndings of this study are available from the
+corresponding author upon reasonable request.
+Received: 26 April 2024; Accepted: 28 July 2024;
+References
+1. Reeder, J. T. et al. Soft, bioresorbable coolers for reversible
+conduction block of peripheral nerves. Science 377,
+109–115 (2022).
+2. Hang, C. et al. A soft and absorbable temporary epicardial pacing
+wire. Adv. Mater. 33, 2101447 (2021).
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 8
+
+3. Zhuang, Q. et al. Wafer-patterned, permeable, and stretchable liquid
+metal microelectrodes for implantable bioelectronics with chronic
+biocompatibility. Sci. Adv. 9, eadg8602 (2023).
+4. Yun, G. et al. Electro-mechano responsive elastomers with self-
+tunable conductivity and stiffness. Sci. Adv. 9, eadf1141 (2023).
+5. George Thuruthel, T., Shih, B., Laschi, C. & Thomas Tolley, M. Soft
+robot perception using embedded soft sensors and recurrent neural
+networks. Sci. Robot. 4, eaav1488 (2019).
+6. Yin, R., Wang, D., Zhao, S., Lou, Z. & Shen, G. Wearable sensors-
+enabled human–machine interaction systems: from design to
+application. Adv. Funct. Mater. 31, 2008936 (2021).
+7. Wang, C. et al. Ultra-stretchable and fast self-healing ionic hydrogel in
+cryogenic environments for arti ﬁcial nerve ﬁber. Adv. Mater. 34,
+2105416 (2022).
+8. Ling, Y. et al. Disruptive, soft, wearable sensors. Adv. Mater. 32,
+1904664 (2019).
+9. Cheng, J. et al. Wet-adhesive elastomer for liquid metal-based
+conformal epidermal electronics. Adv. Funct. Mater. 32,
+2200444 (2022).
+10. Zhao, Y. et al. A self-healing electrically conductive organogel
+composite. Nat. Electron. 6, 206–215 (2023).
+11. Choi, S. et al. Highly conductive, stretchable and biocompatible
+Ag–Au core–sheath nanowire composite for wearable and
+implantable bioelectronics. Nat. Nanotechnol. 13, 1048–1056 (2018).
+12. Wang, X. et al. Biocompatible liquid metal coated stretchable
+electrospinning ﬁlm for strain sensors monitoring system. Sci. China
+Mater. 65, 2235–2243 (2022).
+13. Li, Y. et al. Ultrasensitive and ultrastretchable electrically self-
+healing conductors. Proc. Natl Acad. Sci. USA 120,
+e2300953120 (2023).
+14. Chiu, S.-H. et al. Exploring electrical conductivity of thiolated micro ‐
+and nanoparticles of gallium. Adv. Intell. Syst. 5, 2200364 (2023).
+15. Lou, Z. et al. Ultrasensitive and ultra ﬂexible e-skins with dual
+functionalities for wearable electronics. Nano Energy 38,
+28–35 (2017).
+16. Shin, J. et al. Wireless, soft sensors of skin hydration with designs
+optimized for rapid, accurate diagnostics of dermatological health.
+Adv. Healthc. Mater. 12
+, 2202021 (2023).
+17. Xu, S. et al. Soft micro ﬂuidic assemblies of sensors, circuits, and
+radios for the skin. Science 344,7 0–74 (2014).
+18. Cai, S. et al. Soft liquid metal infused conductive sponges. Adv. Mater.
+Technol. 7, 2101500 (2022).
+19. Wang, J. et al. Printable superelastic conductors with extreme
+stretchability and robust cycling endurance enabled by liquid-metal
+particles. Adv. Mater. 30, 1706157 (2018).
+20. Chen, S. et al. Ultrahigh strain-insensitive integrated hybrid
+electronics using highly stretchable bilayer liquid metal based
+conductor. Adv. Mater. 35, 2208569 (2023).
+21. Lee, W. et al. Universal assembly of liquid metal particles in polymers
+enables elastic printed circuit board. Science 378, 637–641 (2022).
+22. Green Marques, D., Alhais Lopes, P., De Almeida, A. T., Majidi, C. &
+Tavakoli, M. Reliable interfaces for EGaIn multi-layer stretchable
+circuits and microelectronics. Lab Chip 19, 897–906 (2019).
+23. Liu, S., Shah, D. S. & Kramer-Bottiglio, R. Highly stretchable multilayer
+electronic circuits using biphasic gallium –indium. Nat. Mater. 20,
+851–858 (2021).
+24. Lee, B. et al. Omnidirectional printing of elastic conductors for
+three-dimensional stretchable electronics. Nat. Electron. 6,
+307–318 (2023).
+25. Lopes, P. A., Santos, B. C., de Almeida, A. T. & Tavakoli, M. Reversible
+polymer-gel transition for ultra-stretchable chip-integrated circuits
+through self-soldering and self-coating and self-healing. Nat.
+Commun. 12, 4666 (2021).
+26. Huang, Z. et al. Three-dimensional integrated stretchable electronics.
+Nat. Electron. 1, 473–480 (2018).
+27. Biswas, S. et al. Integrated multilayer stretchable printed circuit
+boards paving the way for deformable active matrix. Nat. Commun.
+10, 4909 (2019).
+28. Matsuhisa, N. et al. Printable elastic conductors by in situ
+formation of silver nanoparticles from silver ﬂakes. Nat. Mater. 16,
+834–840 (2017).
+29. Chun, K. Y. et al. Highly conductive, printable and stretchable
+composite ﬁlms of carbon nanotubes and silver. Nat. Nanotechnol. 5,
+853–857 (2010).
+30. Dou, J., Tang, L., Mou, L., Zhang, R. & Jiang, X. Stretchable
+conductive adhesives for connection of electronics in wearable
+devices based on metal-polymer conductors and carbon nanotubes.
+Compos. Sci. Technol. 197, 108237 (2020).
+31. Huang, Q. & Zhu, Y. Printing conductive nanomaterials for ﬂ
+exible and
+stretchable electronics: a review of materials, processes, and
+applications. Adv. Mater. Technol. 4, 1800546 (2019).
+32. Kim, M., Park, J. J., Cho, C. & Ko, S. H. Liquid metal based stretchable
+room temperature soldering sticker patch for stretchable electronics
+integration. Adv. Funct. Mater. 33, 2303286 (2023).
+33. Kim, S., Oh, J., Jeong, D. & Bae, J. Direct wiring of eutectic
+gallium–indium to a metal electrode for soft sensor systems. ACS
+Appl. Mater. Interfaces 11, 20557–20565 (2019).
+34. Tang, L. et al. Metal-hygroscopic polymer conductors that can
+secrete solders for connections in stretchable devices. Mater. Horiz.
+7, 1186–1194 (2020).
+35. Tang, L., Mou, L., Zhang, W. & Jiang, X. Large-scale fabrication of
+highly elastic conductors on a broad range of surfaces. ACS Appl.
+Mater. Interfaces 11, 7138–7147 (2019).
+36. Tang, L., Shang, J. & Jiang, X. Multilayered electronic transfer tattoo
+that can enable the crease ampli ﬁcation effect. Sci. Adv. 7,
+eabe3778 (2021).
+37. Giri, K. & Tsao, C. W. Recent advances in thermoplastic micro ﬂuidic
+bonding. Micromachines 13, 486 (2022).
+38. Zhang, Z. et al. High-brightness all-polymer stretchable LED with
+charge-trapping dilution. Nature 603, 624–630 (2022).
+39. Kim, D. et al. Intrinsically stretchable quantum dot light-emitting
+diodes. Nat. Electron. 7, 365–374 (2024).
+40. Christoe, M., Han, J. & Kalantar-Zadeh, K. Telecommunications and
+data processing inﬂexible electronic systems.Adv. Mater. Technol. 5,
+1900733 (2019).
+41. Christoe, M., Yuan, J., Michael, A. & Kalantar-Zadeh, K. Bluetooth
+signal attenuation analysis in human body tissue analogues. IEEE
+Access 9, 85144 (2021).
+Acknowledgements
+We thank the National Key R&D Program of China (2022YFB3804700),
+National Natural Science Foundation of China (82102212), R&D Program of
+Beijing Municipal Education Commission (KM202210025022), and Young
+Elite Scientists Sponsorship Program by BAST, the National Natural Science
+Foundation of China (22234004), Guangdong Provincial Key Laboratory of
+Advanced Biomaterials (2022B1212010003), Guangdong Innovative and
+Entrepreneurial Research Team Program (2019ZT08Y191), the Shenzhen
+Science and Technology Program (KQTD20190929172743294,
+ZDSYS20200811144003009, GDX20230116091642001,
+GJHZ20220913142610019), Guangdong Major Talent Introduction Project
+(2019CX01Y196), Tencent Foundation through the XPLORER PRIZE for
+ﬁnancial support. The authors acknowledge the assistance of SUSTech
+Core Research Facilities and the Cryo-EM facility of Southern University of
+Science and Technology for providing the facility support.
+Author contributions
+L.T. and X.J. conceived and supervised this project. L.T. designed,
+fabricated, and characterized the E-cards. J.R. performedﬁnite element
+simulations. L.T., H.W., and X.J. wrote the manuscript. All authors discussed
+the results and commented on the manuscript.
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 9
+
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41528-024-00337-9
+.
+Correspondenceand requests for materials should be addressed to
+Lixue Tang or Xingyu Jiang.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License,
+which permits any non-commercial use, sharing, distribution and
+reproduction in any medium or format, as long as you give appropriate
+credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if you modi ﬁed the licensed material. You
+do not have permission under this licence to share adapted material
+derived from this article or parts of it. The images or other third party
+material in this article are included in the article ’s Creative Commons
+licence, unless indicated otherwise in a credit line to the material. If material
+is not included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted use,
+you will need to obtain permission directly from the copyright holder. To
+view a copy of this licence, visit http://creativecommons.org/licenses/by-
+nc-nd/4.0/
+.
+© The Author(s) 2024
+https://doi.org/10.1038/s41528-024-00337-9 Article
+npj Flexible Electronics |            (2024) 8:50 10

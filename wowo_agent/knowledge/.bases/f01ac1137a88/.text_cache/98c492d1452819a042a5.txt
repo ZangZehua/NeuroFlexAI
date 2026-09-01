@@ -1,0 +1,717 @@
+ARTICLE
+Received 11 Sep 2013 | Accepted 16 Dec 2013 | Published 28 Jan 2014
+Highly stretchable and transparent nanomesh
+electrodes made by grain boundary lithography
+Chuan Fei Guo 1, Tianyi Sun 1, Qihan Liu 2, Zhigang Suo 2 & Zhifeng Ren 1
+Foldable photoelectronics and muscle-like transducers require highly stretchable and trans-
+parent electrical conductors. Some conducting oxides are transparent, but not stretchable.
+Carbon nanotube ﬁlms, graphene sheets and metal-nanowire meshes can be both stretchable
+and transparent, but their electrical resistances increase steeply with strain o100%. Here we
+present highly stretchable and transparent Au nanomesh electrodes on elastomers made by
+grain boundary lithography. The change in sheet resistance of Au nanomeshes is modest with
+a one-time strain of B160% (from B21 O per square to B67 O per square), or after 1,000
+cycles at a strain of 50%. The good stretchability lies in two aspects: the stretched nanomesh
+undergoes instability and deﬂects out-of-plane, while the substrate stabilizes the rupture of
+Au wires, forming distributed slits. Larger ratio of mesh-size to wire-width also leads to better
+stretchability. The highly stretchable and transparent Au nanomesh electrodes are promising
+for applications in foldable photoelectronics and muscle-like transducers.
+DOI: 10.1038/ncomms4121
+1 Department of Physics and T cSUH, University of Houston, Houston, T exas 77204, USA. 2 School of Engineering and Applied Sciences, Kavli Institute for
+Bionano Science and T echnology, Harvard University, Cambridge, Massachusetts 02138, USA. Correspondence and requests for materials should be
+addressed to Z.R. (email: zren@uh.edu).
+NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications 1
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+T
+he development of foldable photoelectronics 1 and muscle-
+like transducers2–4 has highlighted a fundamental fact: few
+electronic conductors are both stretchable and transparent.
+The existing stretchable and transparent electrodes, such as
+graphene sheets, carbon nanotube ﬁlms and metal nanowire
+networks, suffer from either high sheet resistance or low
+stretchability
+5–13. The latest understanding is that fully
+interconnected metal nanowire networks can have good
+electrical conductance since they do not have the problem of
+high wire-to-wire junction resistance 13–16. While the networks
+demonstrate good transparency and electrical conductance, their
+ﬂexibility becomes a more interesting topic. Although metal
+interconnects are more conductive than the random metal
+nanowire-networks, it is still a challenge for a metal
+interconnect to work under ultralarge strains (for example,
+100%). Moreover, few reports have offered physical insight for the
+ﬂexibility of transparent metal interconnects. Therefore, clarifying
+the underlying physics of the ultrahigh stretchability is of great
+both scientiﬁc and practical importance.
+Here we present a method called grain boundary lithography,
+for making metal nanomesh electrodes. The nanomesh is a
+network of fully interconnected metal wires of gold (Au); it
+avoids the problem of high junction resistance and has good
+electrical conductivity as well as transparency. The Au
+nanomesh exhibits ultrahigh stretchability: it has a modest
+increase in electrical resistance even if it is stretched to a strain
+as large as B160% or after 1,000 cycles at a strain of 50%. The
+good stretchability results from two facts: the stretched
+nanomesh adherent on an elastomeric structure undergoes
+distributed rupture of nanowires and the serpentine nanowires
+deﬂect out of the plane. Besides, the Au nanomeshes do not have
+oxidation problem like Ag and Cu, causing a remarkable
+decrease of electrical conductivity for Ag and Cu nanowire-
+networks under a mild temperature of 200 /C176C or even at room
+temperature 8,16,17.
+Results
+Grain boundary lithography for metal nanomeshes . The grain
+boundary lithography involves a bilayer lift-off metallization
+process, which offers advantages in resolution, removal, process
+simplicity, undercut control and yield over conventional single-
+layer lift-off process 18,19. In this work, the bilayer consists of an
+In2O3 mask layer and a SiO x sacriﬁcial layer for undercut
+formation. The In 2O3 mask layer is transformed from an In ﬁlm
+by HNO3 etching and thermal oxidation. The as-deposited In ﬁlm
+is made of monolayered In grains, and after HNO 3 etching a gap
+is formed with a controllable width between neighboring grains.
+Figure 1a–f shows the six steps of the grain boundary lithography:
+(1) deposition of a 65 nm thick SiO x sacriﬁcial layer on Si wafer
+(resistivity: 5–7 O /C1 cm, thickness: 0.5 mm), followed by depositing
+a 100 nm thick In ﬁlm; (2) etching in 20 wt.% HNO 3 for gap
+formation; (3) thermal oxidation at 400 /C176C for 2 h to form In 2O3
+islands; (4) rinsing in 5 wt.% HF for 12 s, leading to the formation
+of undercuts; (5) deposition of metal ﬁlm of Au on top of the
+In2O3 ﬁlm, so that a metal nanomesh is formed in the gaps; and
+(6) lift-off process to dissolve the SiO x and removal of In 2O3
+islands in 5% HF solution to form a metal nanomesh on the
+substrate.
+The line width (W), average mesh size (M) and thickness of the
+metal nanomeshes are all well controlled (Supplementary Fig. 1).
+The width of the metal wires is deﬁned by the gap in step (2). Our
+experimental data reveal that the gap width increases linearly with
+the increase of HNO
+3 etching time (Supplementary Fig. 1d).
+The good uniformity and controllability of gap width is related
+to the isotropic etching process, including surface oxidation
+(or passivation) and acidic etching (Supplementary Fig. 1a–c),
+expressed as
+2In þ 2HNO3 ! In2O3 þ 2NO "þ H2O ð1Þ
+In2O3 þ 6H þ ! 3H2O þ 2In3 þ ð2Þ
+If the etching process does not involve oxidation, then metallic In
+will be directly etched by H þ . Owing to the fact that etching rates
+differ for different facets, the gap width will therefore not be
+homogeneous. Moreover, this process will be very fast. For example,
+4m o ll/C0 1 HCl solution (a non-oxidizing acid with H þ concentra-
+tion close to that of the HNO 3 solution we used) could dissolve the
+In ﬁlm in just 1 s. Alternatively, an oxide skin could lead to isotropic
+etching that is similar to the isotropic etching of single crystalline Si
+wafer in HNA solution (blended solution of HF, HNO 3,a n d
+CH3COOH, in which HNO 3 is the oxidant) 20. The surface oxide
+decreases the etching rate to a controllable level. Moreover, the
+etching process of a wafer scale sample can be ﬁnished in seconds,
+indicating that this process is quite suitable for mass production.
+Note that the oxide skin is dynamically formed so that there is
+always an oxide layer on the In islands. The isotropic etching from
+grain boundaries offers a much more precise controllability over the
+width of metal nanowires, and the mechanism is much different
+from main-stream nanofabrication techniques, for which the
+feature size is often determined by the spot size of energy beam
+or by template feature size.
+The mesh size, which equals to the size of In islands, is found
+to have a linear relationship with the thickness of the In ﬁlms,
+with an empirical relationship of M ¼ 7h, where h is the ﬁlm
+thickness is in the range of 50–500 nm. The thickness of the metal
+nanomeshes can be precisely controlled by varying the metal ﬁlm
+thickness. The line width, mesh size and thickness of the metal
+nanomeshes determine transmittance and sheet resistance. It
+should be noted that besides indium, other materials with
+different morphology may also be used as the precursor of the
+mask layer. This may allow for the fabrication of metal
+nanomeshes with different topologies, which will affect the
+electrical conductivity and ﬂexibility of the nanomeshes.
+Metal nanomesh transfer by wedging transfer . To completely
+remove the In 2O3 grains and protect the metal mesh, we use
+catalytic etching21 in which the metal nanomesh is buried into Si
+wafer with a depth of several hundred nanometres. Metal
+nanomeshes on or embedded inside silicon wafer, however, are
+difﬁcult to be directly transferred to other substrates because it is
+difﬁcult to get the nanomesh free. To solve this problem, we ﬁrst
+introduce a dissolvable layer (K 2SiO3) between the metal mesh
+and Si substrate by chemical reaction of the sample with hot
+diluted KOH solution (wt. 2%) and then slowly wedge the sample
+into diluted HF solution (wt. 1%) with an entrance angle of B30/C176
+(Fig. 2a) 22. As the K 2SiO3 layer dissolves in HF, the metal
+nanomesh detaches from the hydrophobic Si surface and ﬂoats on
+the solution (Fig. 2b). The metal nanomeshes do not sink in
+water, and they ﬂoat on water without folding or wrinkling. This
+is because water could not penetrate Au nanomeshes, although
+Au is hydrophilic, as surface tension of water can support the
+meshes. Moreover, a component of surface tension of water pulls
+normally and horizontally to each nanowire; and, at a macro
+level, this force is outwards and perpendicular to the edges of a
+nanomesh and therefore keeps the nanomesh unfolded. The
+ﬂoating metal nanomesh can then be transferred onto a
+poly(dimethylsiloxane) (PDMS) layer (Fig. 2c,d).
+Directly lifting the ﬂoating metal mesh with a target substrate
+from the water side will introduce a water membrane between
+metal nanomesh and the substrate, and this might further lead to
+the formation of wrinkles or folds during drying (graphene ﬂakes
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121
+2 NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+transferred by this method often have wrinkles) 22,23, or even
+rupture. To avoid damage or deformation, the substrate should
+not contact water. We use the substrate to contact the metal
+nanomesh from the air side (Fig. 2c,d). Our experimental results
+show that this simple method is effective and capable of
+transferring metal nanomeshes onto hydrophobic (PDMS) or
+hydrophilic (metal) substrate without damage or deformation.
+We can also directly cast uncured PDMS on the Au nanomesh/
+K2SiO3/Si wafer. After curing of PDMS, the K 2SiO3 layer can then
+be dissolved and Au/PDMS can be detached. However, in this
+case, the PDMS surface is not very ﬂat and thus the transmittance
+is not good.
+Super-ﬂexibility of Au nanomeshes . The nanomeshes of Au
+have excellent electrical conductivity. For a 50-nm thick Au
+nanomesh with a mesh size of B700 nm and a line-width of
+B90 nm, the lowest sheet resistance ever obtained is B7 O per
+square (sq). This is lower than that of carbon nanotube- and
+graphene-based transparent electrodes ( 4100 O per sq) 24,
+commercial ITO ﬁlms (15–50 O per sq) and solution-processed
+Au nanomeshes ( 4400 O per sq) 25, and comparable to Ag
+nanonetworks with similar features made by electron beam
+lithography, which do not have contact junction problem 26. The
+low resistance should be related to the absence of high junction
+resistance between the wires. The electrical conductivity of the
+Schematic Top view Side view
+In
+SiOx
+Si
+In
+SiOx
+Si
+In2O3
+Gap
+Undercut
+Gap
+Metal
+Metal nanomesh
+Metal nanomesh
+Metal nanomesh
+Metal on In2O3
+Gap
+In
+Gap
+Undercut
+Metal
+Metal nanomesh
+Figure 1 | Fabrication of metal nanomeshes. The left column represents schematics, while the middle and right columns are corresponding top view and
+cross-sectional scanning electron microscopy (SEM) images. ( a) Deposition of In/SiO x bilayer on a Si wafer. ( b) Gap formation by etching in diluted HNO 3.
+(c) Conversion of In islands into In 2O3 islands by thermal oxidation. ( d) Undercut formation by rinsing in diluted HF. ( e) Deposition of metal ﬁlm leading to
+the formation of metal nanomesh in the grooves. ( f) Lift-off process to remove In 2O3 and SiO x. Scale bar, 500 nm.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121 ARTICLE
+NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications 3
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+nanomeshes can be further tuned to a higher level by making the
+nanomesh line width larger and/or ﬁlm thicker.
+Au has excellent ductility and hence was used for ultra-thin
+foils in ancient times, and a recent work has conﬁrmed the
+superplasticity of Au nanowires 27. Figure 3a plots the dependence
+of resistance ( R) on tensile strain ( e) for Au nanomeshes of
+B7 mm long and B2 mm wide on B1 mm thick PDMS
+substrate ( R0 is the initial resistance of B70 O for sample with
+W/M ¼ 18 and B40 O for W/M ¼ 8, here M/W is the ratio of
+mesh-size to line-width). The ratio of R/R0 of the Au nanomesh
+with M/W of 18 is only B3.8 at a strain of 100%, and it increases
+to 13.3 at an ultra-large strain of 160%, as shown in the inset of
+Fig. 3a. This is better than the Ag nanomesh made of ‘very long
+Ag nanowires’, for which resistance sharply increases ( R/
+R04100) as stretched by 90% (ref. 28). There are only a few
+existing transparent conductors that can work at a strain of 100%,
+such as a graphene-metal nanowire hybrid structure 29. It is worth
+pointing out that the increased resistance almost disappears when
+the strain is fully released, shown by the ‘ þ ’ centred symbols,
+probably because of the re-contact and cold welding of fractured
+nanowire where necking happened. This is evidenced by the fact
+that it takes time for R (after releasing the stress) to get stabilized.
+Au could not be oxidized in air so that no oxide skin will be
+formed, and this makes cold welding possible. Supplementary
+Fig. 2 shows that released Au nanomesh has morphology quite
+similar to non-stretched sample, without large cracks, indicating
+re-contact and cold welding. The details of the microstructure of
+nanowire necking and fracturing under large strain, and cold
+welding upon strain release will be published separately. The low
+ratio of R/R0 (after strain release) is very important because it
+means that Au nanomesh can recover from damage.
+The sheet resistance ( Rs) of the stretched Au nanomesh is even
+smaller than the original sheet resistance ( Rs0 ¼ 21 O per sq for
+W/M ¼ 18) until it is stretched to 80% (Fig. 3b). This means that
+the Au nanomesh is even ‘more conductive’ when stretched to
+relatively low strains. From Fig. 3a, it is easy to understand the
+decrease in Rs/Rs0 because the resistance R does not change too
+much, but the dimensions change a lot when the strain reaches
+40% at which the Au nanowires are only straightened or
+reoriented to comply with the stretching without signiﬁcant
+plastic elongation or fracture. Beyond 40%, the Au nanowires
+undergo damage so that the resistance increases much faster
+(Fig. 3a), and the increase in sheet resistance over-rides the effect
+of dimensional deformation at B80%. We can see that the ratio
+of Rs/Rs0 is only 3.2 as strain goes to 160%, much smaller than
+13.3 of R/R0. We also ﬁnd that M/W could signiﬁcantly affect the
+ﬂexibility of the Au nanomeshes. Figure 3a,b shows data of two
+Au nanomeshes with M/W of 18 and 8. At large strains, the
+sample with larger M/W presents much smaller R/R0 and Rs/Rs0
+values. This observation can be understood by a simple
+demonstration: the sheet of paper cut with more closely spaced
+slits (larger M/W, Fig. 3d) is more stretchable than the sparsely
+cut one (Fig. 3c).
+Au nanomeshes also perform well under cyclic strain (Fig. 3e).
+The sample does not experience obvious fatigue at 50% tensile
+strain. In comparison, R/R0 signiﬁcantly changes at 100% strain
+after 1,000 cycles. However, change of the resistance after
+releasing load is modest, even for the sample stretched at 100%
+strain for 1,000 cycles ( R/R0 slightly changes from 1.15 to 1.21).
+We also performed cyclic bending experiments. A Au nanomesh
+bent to ‘V’ shape with a bending radius far smaller than 1 mm
+only has a R/R0 of 1.9 after 500 cycles of bending (Fig. 3f).
+Keeping good electrical conductivity with bending radius on
+submillimeter scale is highly desired in foldable electronics.
+Transmittance of Au nanomeshes . The Au nanomesh also
+presents a high specular transmittance of 82.5% (at a sheet
+resistance of B20 O per sq) in the wavelength range of
+400–1,000 nm (Fig. 4), which does not include scattered
+transmission portion. For Ag nanomeshes made of solution
+processed nanowires, scattered transmission is often more than
+10% (ref. 12). Even when the total transmittance achieves 90%,
+the specular transmission is B80%. In comparison, scattered
+transmission for our Au nanomesh is only B3% for the
+portion scattered out of the solid angle B0.2 steradian (when
+transmittance exceeds 80%, see Supplementary Fig. 3), this may
+allow its applications in displays or other ﬁelds where scattered
+light is undesired. In addition, we have found that the stretched
+Au nanomesh has a higher transmittance (from 82.5 to 85.0%)
+when stretched to B80% strain. Note that within a strain of 80%,
+both sheet resistance and transmittance are improved. The higher
+transmittance of Au nanomesh is related to its low reﬂectance,
+which is 5.5% in the range of 400–1,000 nm, measured by an
+integrating sphere.
+Mechanism of the super-ﬂexibility of Au nanomeshes . The
+large stretchability of the Au mesh on the PDMS substrate results
+from two aspects of the structure. First, the Au mesh is a two-
+dimensional network of curved wires of a metal. When stretch is
+small, the mesh deforms within the plane. When stretch is large,
+however, the planar deformation is unstable, and the wires bend
+and twist out of the plane 30. It is this out-of-plane deformation
+that enables the mesh to stretch greatly, as illustrated by a sheet of
+paper cut with an array of slits (Fig. 3c or d). The larger the mesh
+size-to-width ratio (W/M), the more stretchable is the sheet.
+Second, the Au mesh is adherent to the PDMS substrate.
+Because the elastic modulus of Au is about ﬁve orders of
+magnitude larger than that of PDMS, the substrate readily
+accommodates the out-of-plane deﬂection of the mesh 30. The
+PDMS substrate, however, serves a signiﬁcant function: it creates
+distributed rupture of Au ligaments. To illustrate this function,
+we cut a sheet of paper with a laser mimicking a magniﬁed image
+of the Au mesh (Fig. 5a). The size of the paper ligaments is
+about ten thousand times the Au wires. The paper mesh can only
+be stretched to about 20% and then breaks into two halves. Once
+we use scissors to cut some ligaments, the mesh behaves in a
+similar way as the sheet containing long, closely-spaced slits and
+becomes much more stretchable. This demonstration illustrates a
+Substrate
+Diluted HF solution
+Floating metal nanomesh
+K2SiO3
+Metal nanomesh
+Si
+Figure 2 | Transfer of the metal nanomesh. (a) Wedging transfer of metal
+nanomesh. (b) Floating metal nanomesh. ( c) Pressing a target substrate on
+the metal nanomesh. ( d) Lifting the nanomesh.
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121
+4 NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+principle: if the mesh could break ligaments here and there
+gradually, it would be stretched greatly. In a freestanding mesh,
+however, once a long slit forms, the stress concentrates in the
+ligament at a tip of the slit, so that this ligament will break, and the
+localized damage will break the mesh into two halves. By contrast,
+for a mesh on a soft substrate, the substrate stabilizes any large slit
+and allows ligaments elsewhere to rupture. This phenomenon is
+reminiscent of the rupture in a metal ﬁlm on a polymer
+substrate31,32, or that in highly stretchable hydrogels 33,34.T h i s
+mechanism ensures that the Au nanomesh on PDMS will still be
+conductive even stretched to strains beyond 160%.
+Our experimental results with nanomeshes support the
+distributed rupture and out-of-plane mechanism, which is
+supported by the observation of the evolution of distributed
+pockets using SEM (Fig. 5b), and that of the out-of-plane
+deformation using atomic force microscope (AFM) (Fig. 5c). The
+magnitude of out-of-plane deformation is on the order of the
+ligament width as is predicted in theoretical calculations 30. The
+resistance goes up steadily at large strain (Fig. 3a,b). At small
+strain, the stretch of each ligament and the deformation of each
+mesh pore can also contribute to the stretchability, so that only at
+large strain does our distributed rupture mechanism shows
+dominating effect. Elongation of the mesh pores still contribute to
+the stretchability at large strain (Fig. 5d).
+Such a mechanism can also explain the cyclic behaviour we
+observed. After breaking a few ligaments and forming the slits,
+the deformation of the thin ﬁlm is elastic, as is demonstrated by
+our paper samples. In addition, based on our paper model
+(Fig. 3c,d), we can roughly estimate that the radius of curvature of
+the thin ﬁlm should scale with the mesh size. Since our ﬁlm
+thickness is much smaller than the mesh size, the strain in the
+gold ﬁlm should be generally small. As a result, there is almost no
+fatigue effect even for cyclic strain as large as 50% (Fig. 3e).
+However, due to the random nature of our meshed structures and
+touch of some nanowires, we do expect stress concentration on
+some sites. Over cycles, these high strain sites could fail due to
+–20 0 20 40 60 80 100 120 140 160
+0
+1k
+2k
+M/W=18
+R (Ohms)
+Strain (%)
+M/W=8
+0 40 80 120 160
+1
+10
+Released to 0
+M/W=8
+R/R0
+Strain (%)
+M/W=18
+Released to 0
+–20 0 20 40 60 80 100 120 140 160
+0
+20
+40
+60
+80
+100
+120
+140
+160
+M/W
+=8
+Strain (%)
+M/W=18
+0 40 80 120 160
+1
+10
+M/W
+=8
+Rs/Rs0
+Strain (%)
+M/W=18
+1 10 100 1,000
+1
+2
+3
+4
+5
+6
+Cycles
+Released to 0%
+Strain = 100%
+Strain = 50%
+0.5
+1.0
+1.5
+2.0
+1 10 100 1,000
+1.2
+1.3
+1.4
+1.5
+1.6
+1.7
+1.8
+1.9
+2.0
+Bending cycles
+Bending radius << 1 mm
+Rs (Ohms per sq.)
+R/R0
+R/R0
+Normalized R/R0
+Figure 3 | Flexibility and resistance of nanomeshes. (a) R and R/R0 (inset) as a function of tensile strain. The Au nanomesh with a mesh-size to line-width
+ratio (M/W) of 18 (red triangles) has a R/R0 of only 13.3 as the sample is stretched to a strain of 160%. Another Au nanomesh sample with a lower
+M/W of 8 (black squares) presents worse stretchability. ( b) Rs and Rs/Rs0 (inset) as a function of tensile strain for Au nanomeshes. The sample with an
+M/W ratio of 18 shows a Rs/Rs0 of only 3.2 when it is stretched to 160%; and Rs is even lower than Rs0 below 80% strain. The sample with M/W of
+8 reveals a higher sheet resistance change, which reaches 12.3 at a strain of 140%. ( c) and ( d) Stretching two sheets of letter-sized papers containing
+an array of slits with coarse and ﬁne ligaments, respectively. The closely spaced slits appear to be much more stretchable. Scale bar, 10 cm. ( e) Change
+in resistance versus cycles (up to 1,000 cycles) of two Au nanomesh samples with M/W of 18, normalized R/R0 is also shown. Magenta symbols
+represent 100% strain while black symbols represent 50% strain. ( f) R/R0 as a function of bending cycles. The sample is bent to a ‘V’ shape (inset) so
+that the bending radius is far smaller than 1 mm (the Au nanomesh is on the top side). After 500 cycles of bending, R/R0 has an acceptable increase to 1.9.
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121 ARTICLE
+NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications 5
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+fatigue. As discussed above, these failure sites are delocalized due
+to the presence of the substrate. Evidently, the higher the overall
+strain, the more sites are likely to be under high strain. This
+explains why for 100% strain the fatigue effect is much signiﬁcant.
+The two aspects of the structure—out-of-plane deformation
+and delocalized rupture—are insensitive to geometric details of
+the mesh. The geometric details of the mesh, however, may affect
+the stretch-resistance behaviour quantitatively. In particular, it
+will be instructive to study the effect of bimodal or multimodal
+distribution of sizes and of multiscale irregularities.
+It is interesting that under large strains of 100 and 150% a
+larger mesh is formed (because the substrate delocalizes the
+rupture of Au nanomesh), for which the cracks act as the holes
+while the non-cracked Au networks act as larger ligaments
+(Fig. 5b). The larger mesh is quite similar to the original
+nanomesh and this allows the electrode behaving like the case at
+small strains, and therefore it can be further stretched to larger
+strains while being electrically conductive before failure of the
+substrate. It is worth noting that adhesion between Au nanomesh
+and the PDMS substrate plays an important role. The right
+adhesion creates distributed rupture of the nanomesh and thereby
+leads to high stretchability; either too weak or too strong adhesion
+decreases the ﬂexibility signiﬁcantly. Surface modiﬁcation of
+PDMS could change the adhesion and hence tune the stretch-
+ability, and the quantitative effect of adhesion on ﬂexibility is
+being studied and will be reported in details in the future. In
+addition, surface pattern may help to get a better stretchability.
+However, compared with the distributed rupture mechanism, the
+enhancement is limited. While adding the surface roughness will
+cause some adhesion problems, which may compromise the
+beneﬁts of rough surfaces.
+High thermal stability . The Au nanomesh also presents good
+thermal stability. Metals of Ag and Cu nanomeshes are prone to
+400 500 600 700 800 900 1,000
+0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+1.0Transmittance
+Wavelength (nm)
+Au nanomesh T=82.5%
+Au nanomesh T=85.2% @ strain = 80%
+Simulation T=75.0%
+Figure 4 | Transmittance spectra. In the wavelength range of
+400–1,000 nm, the Au nanomesh presents a transmittance of 82.5%
+(green triangles), close to the simulated result ( B75.0%) (grey line).
+The transmittance of the Au nanomesh becomes larger after stretching
+(it changes from 82.5 to 85.0% (dark line) with strain changes from
+0 to 80%).
+Strain = 50%
+500 nm
+0
+5 µm
+4
+3
+2
+1
+Strain = 100% Strain = 150%
+0 1 2 3 4 5 µm 5 µm
+Strain=0
+500 nm
+0
+5 µm
+4
+3
+2
+1
+0 12
+3 4
+Strain=50%
+Figure 5 | Distributed rupture and formation of nested self-similar mesh. (a) A sheet of paper is laser-cut using the magniﬁed image of Au
+nanomesh. The left image shows without any cutting. The middle image shows the stretching of the structure after cutting a few ligaments. The right ima ge
+shows the stretching of the structure after cutting more ligaments. ( b) Au nanomesh/PDMS stretched at strains of 50, 100 and 150%, showing that cracks
+(ﬁlled with purple) are formed and the crack size increases with increasing strain. The double headed arrow indicates tensile direction. Under large strains
+of 100 and 150%, a larger mesh is formed, for which the cracks act as the holes (purple) while the non-cracked Au networks and wires act as larger
+ligaments (dark grey). Scale bar, 3 mm. (c) Atomic force microscopy images of unstretched and stretched Au nanomesh supported on PDMS, showing that
+the latter has a relief height up to 200 nm. ( d) Straight nanowires and elongated meshes (exempliﬁed by the mesh in green in the inset) are seen in
+strained Au nanomesh (at a strain of 150%). Scale bar, 1 mm, and scale bar in the inset is 500 nm.
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121
+6 NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+oxidation leading to deterioration of electrical and optical prop-
+erties. For example, solution processed Ag nanomeshes
+have a marked decrease in conductivity when annealed at 200 /C176C
+or higher for more than 20 min (ref. 16). Cu nanowires are
+severely oxidized even at room temperature within days
+without protection
+8,17. In comparison, Au nanomeshes do
+not have this oxidation problem and can work at temperatures
+up to 500 /C176C (Supplementary Fig. 4), and their electrical
+conductivity can even be improved with thermal annealing.
+Although Au is more expensive, the price is affordable when the
+nanomesh is thin, and the material actually contributes only a
+small portion of the total cost in thin ﬁlm technology. In addition,
+compared with metal nanomeshes made of solution processed
+metal nanowires, which are quite rough, our metal nanomeshes
+are more compatible to lithographic process and are possibly used
+to make microcircuit with a feature size of several microns, which
+is unavailable by using solution processed Ag nanowire networks.
+Conclusion
+In conclusion, we have introduced grain boundary lithography to
+fabricate Au nanomesh electrodes with excellent mechanical
+stretchability, electrical conductivity and optical transparency.
+Through macroscopic observations of laser-cut paper and
+microscopic observations of nanomeshes, we ﬁnd that the large
+stretchability of Au nanomeshes results from a subtle balance of
+two roles played by the PDMS substrate. The vast difference in
+the elastic moduli of Au and PDMS allows the stretched Au mesh
+to deﬂect out of the plane, while the substrate stabilizes
+distributed rupture of Au ligaments. A nested self-similar mesh
+is formed at quite large strains and this allows the electrode
+behaving like the case at small strains, and therefore it can be
+further stretched to larger strains. This work shows that the Au
+nanomesh electrodes are promising for applications in foldable
+photoelectronics and muscle-like transducers.
+Methods
+Fabrication and transfer of ﬂoating Au nanomeshes . The SiO x ﬁlm (65 nm)
+and In ﬁlm ( B100 nm) were deposited by using a magnetron sputter (AJA
+International, ORION-8 magnetron sputtering system), and the Au ﬁlms were
+deposited by using an electron beam evaporation system (Edwards BOC-500). The
+ﬂoating metal nanomeshes were made by following three steps: (1) rinsing the
+samples in blended solution of HF (10%) and H
+2O2 (0.6%) for 2 min, (2) rinsing in
+60 /C176C KOH (2%) solution until the sample turned from black to grey and
+drying with N 2 gas ﬂow, (3) wedging into diluted HF (1%) slowly. The metal
+nanomesh was then transferred to hydrophobic or hydrophilic substrate by slowly
+pressing the substrate on the ﬂoated nanomesh and lifted after it was attached to
+the substrate.
+Characterization. Morphology of the samples was recorded by using a JEOL
+6340F and a Hitachi S-4800 scanning electron microscope. Topographic images
+were taken with a Veeco D-3100 atomic force microscope. Sheet resistance was
+measured by using the van der Pauw method, with four electrodes at four corners
+of a square of the sample and recorded with a Keithley 2400 meter and an Agilent
+34401A meter. Optical spectra were recorded with an integrating sphere spectro-
+meter (Ocean Optics, USB4000 VIS-NIR-ES, ISP-REF) in the wavelength range
+from 400 to 1,000 nm. After wedging transfer, the Au/PDMS was cut into strips,
+typically with a length of 5–10 mm, width of 1–3 mm and thickness of 0.5–1 mm
+for property tests under deformation. Stretching and bending experiments were
+conducted with a home-made setup, and meanwhile the resistance was measured
+by a two-probe method.
+Optical simulation
+. The simulation for the optical transmittance of the gold
+nanomeshes was performed on Computer Simulation Technology (CST) Micro-
+wave Studio, a ﬁnite difference time domain and ﬁnite difference frequency domain
+software. To perform the simulation, we traced the edges of a Au nanomesh (about
+8.5 mm /C2 2.7 mm), and sections of the polygon are used as unit cells to be simulated.
+Figure 4 was obtained from average of multiple simulations.
+References
+1. Lipomi, D. J. & Bao, Z. Stretchable, elastic materials and devices for
+solar energy conversion. Energy Environ. Sci. 4, 3314–3328 (2011).
+2. Lipomi, D. J. et al. Skin-like pressure and strain sensors based on
+transparent elastic ﬁlms of carbon nanotubes. Nat. Nanotech. 6, 788–792
+(2011).
+3. Hu, W., Niu, X., Zhao, R. & Pei, Q. Elastomeric transparent capacitive sensors
+based on an interpenetrating composite of silver nanowires and polyurethane.
+Appl. Phys. Lett. 102, 083303 (2013).
+4. Shian, S., Diebold, R. M. & Clarke, D. R. Tunable lenses using transparent
+dielectric elastomer actuators. Opt. Express 21, 8669–8676 (2013).
+5. Kumar, A. & Zhou, C. The race to replace tin-doped indium oxide: which
+material will win? ACS Nano 4, 11–14 (2010).
+6. Rowell, M. W. et al. Organic solar cells with carbon nanotube network
+electrodes. Appl. Phys. Lett. 88, 233506 (2006).
+7. Kim, K. S. et al. Large-scale pattern growth of graphene ﬁlms for stretchable
+transparent electrodes. Nature 457, 706–710 (2009).
+8. Rathmell, A. R., Bergin, S. M., Hua, Y. L., Li, Z. Y. & Wiley, B. J. The growth
+mechanism of copper nanowires and their properties in ﬂexible, transparent
+conducting ﬁlms. Adv. Mater. 22, 3558–3563 (2010).
+9. Gomez De Arco, L. et al. Continuous, highly ﬂexible, and transparent graphene
+ﬁlms by chemical vapor deposition for organic photovoltaics. ACS Nano 4,
+2865–2873 (2010).
+10. Hecht, D. S., Hu, L. & Irvin, G. Emerging transparent electrodes based on thin
+ﬁlms of carbon nanotubes, graphene, and metallic nanostructures. Adv. Mater.
+23, 1482–1513 (2011).
+11. Lee, J.-Y., Connor, S. T., Cui, Y. & Peumans, P. Solution-processed metal
+nanowire mesh transparent electrodes. Nano Lett. 8, 689–692 (2008).
+12. Hu, L., Kim, H. S., Lee, J.-Y., Peumans, P. & Cui, Y. Scalable coating and
+properties of transparent, ﬂexible, silver nanowire electrodes. ACS Nano 4,
+2955–2963 (2010).
+13. Garnett, E. C. et al. Self-limited plasmonic welding of silver nanowire junctions.
+Nat. Mater. 11, 241–249 (2012).
+14. Jang, H. Y., Lee, S. K., Cho, S. H., Ahn, J. H. & Park, S. Fabrication of metallic
+nanomesh: Pt nano-mesh as a proof of concept for stretchable and transparent
+electrodes. Chem. Mater. 25, 3535–3538 (2013).
+15. Wu, H. et al. A transparent electrode based on a metal nanotrough network.
+Nat. Nanotech. 8, 421–425 (2013).
+16. Hu, L., Wu, H. & Cui, Y. Metal nanogrids, nanowires, and nanoﬁbers for
+transparent electrodes. MRS Bullet. 36, 760–765 (2011).
+17. Rathmell, A. R., Nguyen, M., Chi, M. & Wiley, B. J. Synthesis of oxidation-
+resistant cupronickel nanowires for transparent contucting nanowire networks.
+Nano Lett. 12, 3193–3199 (2012).
+18. Golden, J., Miller, H., Nawrocki, D. & Ross, J. Optimization of bi-layer lift-off
+resist process, http://www.microchem.com/.
+19. Guo, C. F. et al.
+Conductive black silicon surface made by silver nanonetwork
+assisted etching. Small 9, 2415–2419 (2013).
+20. Greil, S. M., Scho¨pke, A. & Rappich, J. Strongly reduced Si surface
+recombination by charge injection during etching in diluted HF/HNO 3. Chem.
+phys. chem. 13, 2982–2988 (2012).
+21. Peng, K.-Q. & Lee, S.-T. Silicon nanowires for photovoltaic solar energy
+conversion. Adv. Mater. 23, 198–215 (2011).
+22. Schneider, G. F., Calado, V. E., Zandbergen, H., Vandersypen, L. M. K. &
+Dekker, C. Wedging transfer of nanostructures. Nano Lett. 10, 1912–1916
+(2010).
+23. Calado, V. E., Schneider, G. F., Theulings, A. M. M. G., Dekker, C. &
+Vandersypen, L. M. K. Formation and control of wrinkles in graphene
+by the wedging transfer method. Appl. Phys. Lett. 101, 103116 (2012).
+24. Hu, L., Hecht, D. S. & Gru ¨ner, G. Percolation in transparent and conducting
+carbon nanotube networks. Nano Lett. 4, 2513–2517 (2004).
+25. Correa-Duarte, M. A. et al. Highly transparent and conductive ﬁlms of
+densely aligned ultrathin Au nanowires monolayers. Nano. Lett. 12, 6066–6670
+(2012).
+26. van de Groep, J., Spinelli, P. & Polman, A. Transparent conducting silver
+nanowire networks. Nano Lett. 12, 3138–3144 (2012).
+27. Seo, J.-H. et al. Superplastic deformation of defect-free Au nanowires via
+coherent twin propagation. Nano. Lett. 11, 3499–3502 (2011).
+28. Lee, P. et al. Highly stretchable and highly conductive metal electrode by very
+long metal nanowire percolation network. Adv. Mater. 24, 3326–3332 (2012).
+29. Lee, M. S. et al. High-performance, transparent and stretchable electrodes using
+graphene-metal nanowire hybrid structures. Nano Lett. 13, 2814–2821 (2013).
+30. Li, T., Suo, Z., Lacour, S. P. & Wagner, S. Compliant thin ﬁlm patterns of stiff
+materials as platforms for stretchable electronics. J. Mater. Res. 20, 3274–3277
+(2005).
+31. Li, T. et al. Delocalizing strain in a thin metal ﬁlm on a polymer substrate.
+Mech. Mater. 37, 261–273 (2005).
+32. Lu, N., Wang, X., Suo, Z. & Vlassak, J. J. Metal ﬁlms on polymer substrates
+stretched beyond 50%. Appl. Phys. Lett. 91, 221909 (2007).
+NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121 ARTICLE
+NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications 7
+& 2014 Macmillan Publishers Limited. All rights reserved.
+
+33. Gong, J. P., Katsuyama, Y., Kurokawa, T. & Osada, Y. Double-network
+hydrogels with extremely high mechanical strength. Adv. Mater. 15, 1155–1158
+(2003).
+34. Sun, J.-Y. et al. Highly stretchable and tough hydrogels. Nature 489, 133–136
+(2012).
+Acknowledgements
+The work performed at the University of Houston is funded by the US Department of
+Energy under Contract No. DOE DE-FG02-13ER46917, and that at Harvard University
+is funded by NSF MRSEC under grant DMR-0820484. C.F.G. thanks Professor Q. Liu at
+National Center for Nanoscience and Technology of China for his help in materials
+fabrication.
+Author contributions
+C.F.G. and Z.R. conceived the idea. C.F.G. did material fabrication and tests, performed
+data analyses and wrote the manuscript. Z.R. directed experiments and contributed to the
+manuscript writing. T.S. assisted in material fabrication, performed optical simulation
+and contributed to property tests and the manuscript. Q.L. and Z.S. did mechanical
+theory and experiments on the mechanism of good ﬂexibility and also writing of the
+manuscript.
+Additional information
+Supplementary Information accompanies this paper at http://www.nature.com/nature
+communications.
+Competing ﬁnancial interests: The authors declare no competing ﬁnancial interests.
+Reprints and permission information is available online at http://npg.nature.com/
+reprintsandpermissions.
+How to cite this article: Guo, C. F. et al. Highly stretchable and transparent
+nanomesh electrodes made by grain boundary lithography. Nat. Commun. 5:3121
+doi: 10.1038/ncomms4121 (2014).
+ARTICLE NATURE COMMUNICATIONS | DOI: 10.1038/ncomms4121
+8 NATURE COMMUNICATIONS | 5:3121 | DOI: 10.1038/ncomms4121 | www.nature.com/naturecommunications
+& 2014 Macmillan Publishers Limited. All rights reserved.

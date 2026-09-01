@@ -1,0 +1,1786 @@
+1 
+ 
+Epidermal Electronics 
+ 
+ 
+Dae-Hyeong Kim 1, Nanshu Lu 1, Rui Ma 2, Yun-Soung Kim 1, Rak-Hwan Kim 1, Shuodao 
+Wang3, Jian Wu 3, Sang Min Won 1, Hu Tao 4, Ahmad Islam 1, Ki Jun Yu 1, Tae-il Kim 1, Raeed 
+Chowdhury2, Ming Ying 1, Lizhi Xu 1, Ming Li 3,6, Hyun-Joong Chung 1, Hohyun Keum 1, Martin 
+McCormick2, Ping Liu 5, Yong-Wei Zhang 5, Fiorenzo G. Omenetto 4, Yonggang Huang 3, Todd 
+Coleman2, John A. Rogers1* 
+ 
+ 
+1Department of Materials Science and Engineering, Beckman Institute for Advanced Science and 
+Technology, and Frederick Seitz Materials Research Laboratory, University of Illinois at 
+Urbana-Champaign, Urbana, IL 61801 USA 
+2Department of Electrical and Computer Engineering, Coordinated Science Laboratory, 
+University of Illinois at Urbana-Champaign, Urbana, IL 61801, USA 
+3Department of Mechanical Engineering and Department of Civil and Environmental 
+Engineering, Northwestern University, Evanston, IL 60208, USA 
+4Department of Biomedical Engineering, Tufts University, Medford, MA 02155, USA 
+5Institute of High Performanc e Computing, 1 Fusionopolis Wa y, #16-16 Connexis, 138632, 
+Singapore. 
+6State Key Laboratory of Structural Analysis fo r Industrial Equipment, Dalian University of 
+Technology, Dalian 116024, China. 
+ 
+ 
+ 
+D.-H. Kim, N. Lu and R. Ma contributed equally. 
+ 
+ 
+*To whom correspondence should be addressed. E-mail: jrogers@uiuc.edu
+
+2 
+ 
+One sentence summary: Advanced materials and device designs enable electronic systems with 
+physical properties matched to the epidermis, su itable as a versatile class of skin-integrated 
+technology for applications in physiological status monitoring, wound measurement/treatment, 
+human/machine interfaces, covert communications and others. 
+ 
+Abstract 
+We report materials, mechanics principles and designs layouts for electronic systems that 
+achieve thicknesses (~30 m), effective elastic moduli (<150 kPa), bending stiffnesses (<1 nN·m) 
+and areal mass densities (< 3.8 mg/cm 2) matched to the epidermis.  Laminating such devices 
+onto the skin leads to conformal contact, intimate integration and adequate adhesion based on 
+van der Waals interactions alone, in a manner that is mechanically invisible to the user.  We 
+describe a diverse collection of devices in this format, ranging from elecrophysiological (EP), 
+temperature and strain sensors, to transistors, light emitting diodes, photodetectors and a variety 
+of components capable of radio frequency operation,  including inductors, capacitors, oscillators 
+and rectifying diodes.  Silicon solar cells and wireless inductive coils provide options for power 
+supply.  As systems-level demonstrators of this technology, we report skin-mounted, amplified 
+monitors of EP activity produced by the heart, brain and skeletal muscles.  Data collected with 
+such devices contain sufficient information for meaningful human/machine interfaces, as we 
+illustrate with an unusual type of computer game controller.   
+
+3 
+ 
+Physiological measurement and stimulation tech niques that exploit interfaces to the skin 
+have been of interest for more than 40 years, the former beginning in 1966 with 
+electromyography of laryngeal muscles (1-3).  Despite much progress ove r this time, nearly all 
+associated device technologies c ontinue to rely on conceptually old designs.  Typically, small 
+numbers of bulk electrodes mount on the skin via adhesive tapes, mechanical clamps/straps 
+and/or penetrating needles, often mediated by conductive gels, with terminal connections to 
+separate boxes that house collections of rigid circuit boards, power supplies and communication 
+components (4-9).  These systems have many important capabilities, but they are poorly suited 
+for practical application outside of research labs or clinical settings, due to difficulties in 
+establishing long-lived, robust electrical contacts that do not irritate the skin, and in achieving 
+integrated systems with overall sizes, weights and shapes that do not cause discomfort during 
+prolonged use (8,9).  Here we introduce a different approach, in which the electrodes, electronics, 
+sensors, power supply and communication components are configured together into ultrathin, 
+low modulus, lightweight, stretchable ‘skin-like’ membranes that conformally laminate onto the 
+surface of the skin by soft contact, in a manner that is mechanically invisible to the user, much 
+like a temporary transfer tattoo.  
+Figure 1 shows a demonstration platform for the individual components of such a 
+technology, including a collection of multifunc tional sensors (e.g. temperature, strain, 
+electrophysiological), microscale light emitting diodes (LEDs), active/passive circuit elements 
+(e.g. transistors, diodes, resistors), wireless power coils and devices for radio frequency (RF) 
+communications (e.g. high frequency inductors , capacitors, oscillators and antennae), all 
+integrated on the surface of a thin (~30 m), gas-permeable elastomeric sheet based on a 
+
+4 
+ 
+modified polyester (PE; BASF, Germany) with low Young’s modulus (~60 kPa, Fig. S1A).  The 
+devices and interconnects exploit ultrathin layouts (<7 m), neutral mechanical plane (NMP) 
+configurations and optimized geometrical designs.  The active elements use established 
+electronic materials such as silicon and gallium arsenide, in the form of filamentary serpentine 
+nanoribbons and micro/nanomembranes.  The result is a high performance system that offers 
+reversible, elastic responses to large strain deformations with effective moduli, bending 
+stiffnesses and areal mass densities that are orders of magnitude smaller than those possible with 
+conventional electronics, or even with recently explored flexible/stretchable device technologies 
+(10-19).  These and other key physical properties are, in fact, comparable to those of the skin 
+itself.  Water-soluble polymer sheets (polyvinyl alcohol; PVA, Aicello, Japan; Young’s modulus 
+~1.9 GPa, thickness ~ 50 m (Fig. S1B)), serve as temporary supports for manual mounting of 
+these systems on the skin, in an overall construct th at is directly analogous to that of a temporary 
+transfer tattoo.  The top frame of Fig. 1B provides an image of a device like the one in Fig. 1A, 
+after integrating it onto the skin  by washing away the PVA and then partially peeling it back 
+using a pair of tweezers.  When  completely removed, the system  collapses on itself due to its 
+extreme deformability and ‘skin-like’ physical properties, as shown in the bottom frame of Fig. 
+1B.  (See SOM Movie S1.)  The schematic illustration in the inset shows an approximate cross 
+sectional layout.   
+These mechanical characteristics lead to robust adhesion to the skin via van der Waals 
+forces alone, without any mechanical fixturing hardware or adhesive tapes.  The devices impose 
+negligible mechanical or mass loading, as is evident from the images of Fig. 1C, which show the 
+skin deforming freely and reversibly, without any apparent constraints in motion due to the 
+
+5 
+ 
+devices.  Electronics in this form can even be integrated directly with commercial temporary 
+transfer tattoos, as a substrate alternative to PE/PVA.  The result, shown in Fig. 1D, is of possible 
+interest as a way to conceal the active components and/or to exploit low cost materials (i.e. 
+substrate, adhesives, backing layers) already developed for temporary transfer tattoos.  (See 
+SOM Movie S2 for details.)  Potential uses in clude physiological status monitoring, wound 
+measurement/treatment, biological/chemical sensing, human-machine interfaces, covert 
+communications and others. 
+Understanding the mechanics of this kind of device, the mechanophysiology of the skin, 
+and the behavior of the coupled abiotic-biotic sy stem, are all critically important.  For present 
+purposes, the skin can be approximated as a b ilayer, consisting of the epidermis (modulus: 140-
+600 kPa; thickness 0.05-1.5 mm) and the dermis (modulus: 2-80 kPa; thickness 0.3-3 mm) (20-
+23).  This bilayer exhibits linear elastic response  to tensile strains <~15%, which transitions to 
+non-linear behavior at higher strains, with adverse, irreversible effects beyond 30% (24).  The 
+surface of the skin typically has natural wrinkles, creases and pits with amplitudes and feature 
+sizes of 15-100 m (25) and 40-1000 m (26), respectively.  The devices described here (i.e. Fig. 
+1) have moduli, thicknesses and other physical properties that are well matched to the epidermis 
+itself, with the ability to conform to the relief on its surface.  We therefore refer to this class of 
+technology as an ‘epidermal electronic system’ (EES). 
+Macroscopically, EES on skin can be treated as a thin film on an epidermis/dermis 
+bilayer substrate.  Microscopically, the sizes of the individual electronic components and 
+interconnects are comparable to those of relief features on the skin, and therefore must be 
+considered explicitly.  Multi-scale analysis and experimental measurements can capture the 
+
+6 
+ 
+detailed behaviors.  We begin by considering aspects of adhesion, in the macroscopic limit.  
+Globally, detachment can occur in either tension or compression, due to interfacial cracks that 
+initiate at the edges or the centr al regions of the EES, respectiv ely.  Low effective moduli and 
+small thicknesses minimize the deformation-induced stored elastic energy that drives both of 
+these failure modes.  Analytical calculation (SOM) shows that compared to silicon chips 
+(thickness ~1 mm) and sheets of polyimide (thickness ~75 m), the driving forces for 
+delamination of the EES/skin interface are reduced by more than five orders of magnitude.  The 
+values are so small, in fact, that adequate adhesion is possible, immediately upon lamination, due 
+simply to van der Waals interactions.  Figure 2A shows measurements and theoretical 
+calculations (SOM) that explore the relevant scaling behaviors, in structures that provide 
+simplified, macroscopic models of EES/skin.  The experiments use sheets of PE (~2 mm thick) 
+for the skin and films of poly(dimethylsiloxane) (PDMS, Dow Corning, USA) for the EES.  
+Figure 2A plots the critical delamination strain as a function of PDMS thickness, for two 
+different formulations: one with a modulus of 19 kPa (50:1) and the other 145 kPa (30:1, Fig. 
+S1C).  The results confirm that reducing the modulus and thickness lowers the forces that drive 
+interface delamination, for a given applied strain (bending or stretching), without lower bound.  
+To explore the limits, consider that the mechanical properties of the EES depend on the 
+effective modulus and thickness of both the circuits /sensors and the substrate.  In samples like 
+those in Fig. 1, the properties of the active components and interconnects can dominate the 
+mechanics of the overall system.  The in-plane layouts and materials of this layer are, therefore, 
+key design parameters.  Recent work in stretcha ble electronics establishes that the overall range 
+of deformability can be optimized in systems composed of active devices joined together in open 
+
+7 
+ 
+mesh structures by non-coplanar interconnects in NMP configurations, where elastomers with 
+relatively large modulus (2-10 MPa) and thic kness (mm’s to cm’s) serve as substrates (13, 14).  
+For EES, the effective modulus ( EEES) and bending stiffness ( EESEI ), rather than the range of 
+stretchability, are paramount.  These requirements demand alternative designs and choices of 
+materials.  If we assume that the moduli of the individual devices (e.g. ~160 GPa for Si and ~90 
+GPa for GaAs) are much higher than the compliance of the interconnects, then we can write the 
+approximate expression EEES = Eint (1+ Ld / Ls), which has been verified by the finite element 
+method (FEM), where Eint is the effective modulus of the interconnects, Ld is the characteristic 
+device size, and Ls is the distance between devices, as illustrated in Fig. S1D.  The value of EEES 
+can be minimized by reducing Eint and Ld / Ls.  For the former, thin, na rrow interconnect lines, 
+formed into large-amplitude, ‘filamentary serpenti ne’ (FS) shapes represen t effective designs.  
+For the latter, ultrathin active devices that adop t similar FS layouts and continuously integrate 
+with FS interconnects reduce the effective value of Ld to zero.  The value of EESEI  decreases 
+rapidly with the thicknesses of the devices, interconnects and substrate.  Figure 2B (left frame) 
+shows an ultrathin FS construct, with a cross sectional schematic illustration as an inset.  Results 
+of tensile testing (right frame of Fig. 2B) indicate that such FS-EES samples (left frame of Fig. 
+2B) achieve EEES (~140 kPa) and EESEI  (~0.3 nN·m, calculation shown in SOM) that are 
+comparable to the epidermis, and more than one and five orders of magnitude smaller than 
+previously reported stretchable electronic devices, respectively (27).  Furthermore, highly 
+repeatable loading and unloading stress-strain curves up to strains of 30% demonstrate the pure 
+elastic response of the FS-EES, with  a range of stretchability that is  much larger than that of the 
+epidermis.  Such highly elastic FS layouts can maintain nearly 20% areal contact of active 
+
+8 
+ 
+elements with the skin, for effective electrical interfaces.  FEM captures quantitatively the strains 
+and stresses in FS-EES, as a function of induced deformation, as shown in Fig. 2C for stretching 
+to ~30% strain along the x (left) and y (right) directions.  In both cases, the maximum principal 
+strains in the metal are less than  ~0.2%.  The same calculations yield effective tensile moduli 
+(Fig. 2B, right frame), with excellent correspondence to experiment.  In certain applications, 
+layouts that involve some combination of FS geometries and device islands (i.e. Ld not equal to 
+zero) connected by FS interconnects (e.g. Fig. 1 and Fig. S1E) can be used, with expected 
+consequences on the local mechanics (Fig. S1F).  In both options, suitable designs lead to 
+mechanical and adhesive properties that allow conformal adhesion to the skin and minimal 
+loading effects (Fig. 2D).  Wit hout optimized layouts, we observe delamination under similar 
+conditions of deformation (See SOM Movie S3), consistent with the fracture modes illustrated in 
+Fig. 2A.  
+For many uses of EES, physical coupling of electrodes to the surface of the skin is 
+important.  Microscopic characterization and modeling of the skin-EES interface provides some 
+insights.  Confocal micrographs of EES mounted on pig skin appear in Fig. 2E, F as well as Fig. 
+S2C.  With FS structures, the results show rema rkably conformal contact, not only at the PE 
+regions of the EES, but also at the FS elements (Fig. 2E, F).  Similar behavior obtains, but in a 
+less ideal fashion (Fig. S2C), with layouts th at incorporate large device islands.  These 
+observations are consistent with analytical mechanics treatments that use macroscopic models of 
+the EES and account for microscopic structures on the skin.  Here, it can be shown (SOM) that 
+contact will occur spontaneously, without an applied pressure, when  
+
+9 
+ 
+ 
+23
+skin skinrough rough
+3
+EESrough
+16Eh E
+EI
+
+  , (1) 
+where , skinE , hrough and rough are the effective work of adhesion, and the plane-strain modulus, 
+roughness amplitude and wavelength of the skin, respectively.  The scaling law in Eq. (1), which 
+involves two dimensionless combinations of EES and skin properties, shows that EES with low 
+bending stiffness, on smooth and soft skin with strong adhesion all promote conformal contact.  
+Using experimental data and a measured value of  ~ 0.16 N/m (SOM), this criterion implies that 
+the FS-EES can conform to the skin , without applied pressure, when hrough is <~50 m (Fig. 2G) 
+for rough = 140 m, consistent with observation in Fig. 2F where the roughness amplitude is 
+5~20 m.  Related calculations indicate that the co ntact pressure created by surface interactions 
+is ~10 kPa (Fig. S10B), which is below the sensitivity of human skin (~20 kPa, (28)) but still 
+sufficient to offer reasonable adhesion.  (Improved bonding can be achieved by using adhesives 
+that are built into platforms for te mporary transfer tattoos, as in Fig. 1D).  From a microscopic 
+point of view, the soft, conformal nature of the EES helps to drive adhesion to the skin, with 
+strongest effects in regions away from the devices and interconnects, where the local effective 
+modulus is lowest.  These interfacial forces assist in bringing neighboring FS structures into 
+contact with the skin as well.  Narrow, thin FS geometries facilitate this process.  For materials 
+and layouts explored here, the result is a total compressive force (per unit length) of ~-0.1 N/m 
+for each FS strip.  Calculations show that these interactions reduce the widths of the gaps 
+between the PE and skin that exist proximal to the edges of the FS elements to < 0.2 m, even 
+for the thickest device structure (~3 m) in experiments (Fig. S1E).   
+
+10 
+ 
+A key capability of EES is in monitoring electrophysiological (EP) processes related to 
+activity of the brain (electroencephalograms; EEG), the heart (electrocardiograms; ECG) and 
+muscle tissue (electromyograms; EMG).  Amplified sensor electrodes that incorporate silicon 
+metal oxide semiconductor field effect transistors (MOSFETs) in circuits where all components 
+adopt FS designs provide devices for this purpose .  Here, the gate of a FS-MOSFET connects to 
+an extended FS electrode for efficient coupling to the body potential (Fig. 3A; the inset shows an 
+analogous design based on a rectangular device island and FS interconnects), via contact with the 
+skin, in a common-source amplifier configuration (Fig. 3B, left frame).  Figure 3B (right frame) 
+indicates the measured frequency res ponse at different input capacitances (C
+IN), in quantitative 
+agreement with circuit simulations (Fig. S3A and B).  The value of C IN is determined by the sum 
+of capacitances of gate electrode, the encapsulating PI and junction between the gate electrode 
+and the body surface.  The bandwidth matches requirements for high performance EP recording.  
+A typical layout for this purpose includes four amplified channels, each comprised of a FS-
+MOSFET, a silicon-based FS resistor and an FS electrode.  One channel provides a reference, 
+while the others serve as sites for measurement.  Results of demonstration experiments appear 
+subsequently. 
+Many other classes of semiconductor devices and sensors are also possible in EES, 
+including resistance-based temperature sensors built with meande r electrodes of Pt (Fig. 3C left 
+and Fig. S3C), in-plane strain gauges based on carbon-doped silicones (Fig. 3C right frame and 
+Fig. S3D), LEDs and photodetectors based on AlIn GaP (Fig. 3D left frame and Fig. S3E-G; for 
+possible use in optical characterization of the skin/biofluids), and silicon FS photovoltaic cells 
+(Fig. 3D right frame).  Such cells  can generate of a few tens of W (Fig. S3H); increasing the 
+
+11 
+ 
+areas or areal coverages can improve the output, but not without compromises in size and 
+mechanics.  Wireless powering via inductive effects represents an appealing alternative.  Figure 
+3E shows an example of an FS inductive coil connected to a microscale InGaN LED, and 
+electromagnetic modeling of its RF response.  The resonance frequency (~35 MHz) matches that 
+of a separately located transmission coil powered by an external supply.  Voltage and current 
+outputs in the receiver are sufficient to operate the microscale LEDs remotely, as shown in Fig. 
+3E.  Such coils provide power directly in this example; they can also, conceivably, be configured 
+to charge future classes of EES-integrated storage capacitors or batteries. 
+Figure 3F and G present examples of various RF components, of the type needed for 
+wireless communications or for scavenging RF energy.  Fig. 3F shows an optical image of 
+silicon PIN diode (left frame) and its small-signal scattering parameters (right frame), indicating 
+insertion loss (S21 in forward condition) of <6 dB and isolation (S21 in reverse condition) 
+of >15 dB for frequencies up to 2 GHz.  Examples of FS inductors and capacitors and their RF 
+responses appear in Fig. 3F.  C onnecting pairs of such devices yields oscillators with expected 
+resonant frequencies (Fig. 3F, lower right frame).  A notable behavior is that the response varies 
+with state of deformation, due the dependence of the RF inductance on geometry.  For example, 
+at tensile strains of ~12%, the resonance frequency shifts by ~30%.  (Fig. S3I and J).  Such 
+effects, which also appear in the wireless power coils but not in the other devices of Fig. 3, will 
+influence the behavior of antenna structures and certain related RF components.  These issues 
+must be considered explicitly in EES design and modes of operation. 
+EES configured for measuring ECG, EMG and EEG, in conformal, skin-mounted modes 
+without conductive gels or penetrating needles provide important, system-level demonstrations 
+
+12 
+ 
+of the ideas.  ECG recordings from the chest reveal high quality signals with information on all 
+phases of the heartbeat, including rapid depolarization of the cardiac wave, and the associated 
+QRS complex (Fig. 4A, right frame) (29).  EMG measured on the leg, with muscle contractions 
+to simulate walking and resting are presented in Fig. 4B, left frame.  The measurements agree 
+remarkably well with signals simultaneously collected using commercial, bulk tin electrodes that 
+require conductive gels, mounted with tapes at the same location (Fig. 4B, right frame; Fig. S4).  
+Figure 4C shows an alternative way to view the data (spectrogram), where the spectral content 
+appears in a color contour plot with frequency and time along the y and x axes, respectively.  
+Each muscle contraction corresponds to a red, vertical stripe that spans from 10 Hz to 300 Hz 
+(29). 
+To demonstrate EMG recording in a mode where conventional devices are particularly 
+ill-suited, an EES mounted on the throat can monitor muscle activity, non-invasively, during 
+speech (Fig. S5A).  Here, recordings collected during vocalization of four words (“up”, “down”, 
+“left” and “right”), repeated 10 times each (Fig. S6) exhibit distinctive patterns, as in Fig. 4D.  
+Measurements from another set of words (“go”, “stop” and “great”; Fig. S5B and S7) suggest 
+sufficient structure in the signals for recognizing a vocabulary of words.  These capabilities 
+create opportunities for EES-based human/machine in terfaces.  As an example, dynamic time 
+warping pattern recognition algori thms applied to throat-based  EMG data (Fig. 4D) enable 
+control of a computer strategy game (Sokoban), as illustrated in Fig. 4E.  The classifications 
+occur in less than 3 s on a dual-core PC running codes in MATLAB, with an accuracy >90% 
+(Fig. S8).  Significant increases in speed are possible via optimized software and hardware 
+implementations. 
+
+13 
+ 
+As a human/machine interface, EEG data offer additional promise, for use separately or 
+together with EMG signals.  EES mounted on a region of the forehead that is first prepared by 
+exfoliating the stratum corneum using Scotch tape, yields reproducible, high quality results, as 
+demonstrated in alpha rhythms recorded from awake subjects with their eyes closed (Fig. S9A).  
+The expected feature at ~10 Hz appears clearly in the Fourier transformed data of Fig. 4F (left 
+frame).  The spectrogram of Fig. 4F (center) shows similar signatures during an experiment in 
+which the subject’s eyes are closed for first 10 seconds and then open for the next 10 seconds.  
+The responses at ~10 and ~14 seconds correspond to eye opening and blinking, respectively.  
+This activity disappears when the eyes are held op en.  The signal-to-noise ratios are comparable 
+to those obtained in otherwise identical experiments using conventional, rigid bulk electrodes 
+applied to the skin with conducting, coupling ge ls. In further demonstrations, EEG measured by 
+EES reveal well-known cognitive phenomena such as the Stroop effect (30, 31) .  In these 
+experiments, subjects randomly presented with congruent or incongruent (Fig. S9B) colored 
+words, whisper the color (not the word) as quickly as possible.  The data show that the motor 
+responses pertaining to the whispering are manifested by two peaks at ~650 ms (congruent case) 
+and ~1000 ms (incongruent case) in the right frame of Fig. 4F.  The time delay implies that the 
+congruent stimuli require fewer cognitive reso urces and are quicker to process than the 
+incongruent ones, consistent with the literature (30, 31).   
+The materials and mechanics ideas presented in this report enable intimate, mechanically 
+‘invisible’, integration of high performance electronic functionality with the surface of the skin, 
+in ways that bypass limitations of previous approaches.  Further work to integrate the individual 
+components reported here with one another and with additional ones such as power storage 
+
+14 
+ 
+devices, could yield systems with expanded capabilities in sensing, computation, communication 
+and others, for both healthcare and non-healthcare related applications.  An important 
+perspective is that many of the EES concepts ar e fully compatible with small-scale integrated 
+circuits that can be released from ultrathin body silicon-on-wafer substrates.  For long-term use, 
+materials and device strategies to accommodate the continuous efflux of dead cells from the 
+surface of the skin, and the processes of transpiration will also be needed.  These and other 
+challenges represent interesting opportunities for future research. 
+ 
+Figure Captions 
+ 
+Fig. 1 (A) Image of a multifunctional, ‘skin-like’ electronic system that serves as a 
+demonstration platform for electrophysiological and temperature sensors, strain gauges, LEDs, 
+wireless power coils, RF inductors, capacitors, diodes and oscillators, and a wireless 
+transmit/receive antenna.  Mounting this device on a sacrificial, water-soluble film of PVA, 
+placing the entire structure against the skin, with electronics facing down, dissolving the PVA 
+and then drying to remove the remaining water leaves the device conformally attached to the 
+skin, in an overall procedure similar to that us ed for a temporary transfer tattoo.  The elastic 
+moduli, thickness and other physical properties of the device match the epidermis; we refer to the 
+technology as an epidermal electronic system (EES).  Adequate adhesion is possible through van 
+der Waals forces alone, in a format that imposes negligible mass or mechanical loading effects 
+on the skin.  ( B) EES partially (top frame) and fully (bottom frame) peeled away from the skin.  
+
+15 
+ 
+The inset shows a representative cross-sectional illustration of the structure, with the neutral 
+mechanical plane (NMP) defined by a red dashed line.  ( C) Multifunctional EES on skin: 
+undeformed (first frame), compressed (middle frame) and stretched (right frame). ( D) A 
+commercial temporary transfer tattoo provides an alternative to PE/PVA for the substrate; in this 
+case, the system includes an adhesive to improve bonding to the skin.  Images of the backside of 
+a tattoo (first frame), electronics integrated onto this surface (second frame) and attached to skin 
+with electronics facing down in undeformed (third frame) and compressed (fourth frame) states. 
+ 
+Fig. 2 . ( A) Plots of critical tensile (left frame) and compressive (right frame) strains for 
+delamination of a test structure consisting of films of PDMS on substrates of PE, designed to 
+model the EES/skin system.  Data for formulations of PDMS with two different moduli are 
+shown (red: 19 kPa; blue: 145 kPa).  The results indicate that the critical strains increase as the 
+PDMS thickness and modulus decrease, consistent with modeling results (lines).  ( B) Optical 
+micrograph of an EES with filamentary serpentine (FS) design (left frame).  The plot in the right 
+frame shows the stress-strain data from uniaxial tensile measurements on an FS-EES, for two 
+orthogonal directions.  Data collected from a sample of pig skin are also presented.  The FS-EES 
+has modulus comparable to or less than the skin, over the range of strains shown here.  The 
+dashed lines correspond to calculations by finite element modeling.  ( C) Contour plots of strain 
+distributions computed by FEM, for 30% tensile strains along x (left) and y (right).  The results 
+indicate maximum principle strains of less than 0.2% in the FS structures.  ( D) Skin of the 
+forehead before (top left frame) and after integration of a representative FS-EES, at various 
+magnifications and states of deformation.  The dashed blue boxes in the right frames highlight 
+
+16 
+ 
+the outer boundary of the device.  The red arrows indicate the direction of compressive strains, 
+generated by contraction of facial muscles.  The red dashed box in the upper right frame 
+corresponds to the field of view of the image in the lower left.  ( E) Confocal microscope image 
+(top view) of the contacting interface between an FS-EES and a sample of pig skin.  The FS 
+structure and the skin are dyed with red and blue fluorophores, respectively.  ( F) Cross-sectional 
+confocal images, at locations corresponding to the numbered, white dashed lines shown in the 
+top view frame above.  The results indicate intima te, conformal contact, to  within the resolution 
+of the microscope.  ( G) Mechanics analysis of the condition for conformal contact as a function 
+of FS-EES/skin adhesion and skin roughness. 
+ 
+Fig. 3.  ( A) Optical micrographs of an active electrophysiological (EP) sensor with local 
+amplification, as part of an FS-EES.  The left frame shows the source, drain and gate of a silicon 
+MOSFET and a silicon feedback resistor before connection to sensor electrodes, all in FS layouts.  
+The right image shows the final device, after metallization for the interconnects and sensor 
+electrodes, with magnified view (inset).  ( B) Circuit diagram for the amplified EP sensor shown 
+above (left frame).  The right frame shows measured and simulated frequency response for 
+different input capacitance (C
+IN = ∞, 1 μF, 220pF).  ( C) Optical micrograph of a temperature 
+sensor that uses a platinum resistor with FS interconnects (left frame) and a strain guage that uses 
+electrically conductive silicone (CPDMS; right frame). ( D) Image of an array of microscale 
+AlInGaP LEDs and photodetector s, in an interconnected arra y integrated on skin, under 
+compressive deformation, (left frame) and of a FS silicon solar cell (right frame). ( E) Image of a 
+FS wireless coil, connected to a microscale AlGaN LED, powered by inductive coupling to a 
+
+17 
+ 
+separate transmission coil (not in the field of  view).  The right frame shows electromagnetic 
+simulations of the behavior of the FS coil. ( F) Optical micrograph of an interconnected pair of 
+FS inductors and capacitors designed for RF operation (left top frame).  The plot in the upper 
+right shows the value of S21 measured on a set of FS capacitors as a function of frequency.  The 
+plot in the lower left frame shows the frequency dependence of S21 and S11 for an FS inductor.  
+The graph on the bottom right shows resonant frequencies for LC oscillators built with different 
+FS capacitors. (G) Image of a silicon RF diode (left frame) and the frequency dependence of S11 
+and S21 (right frame). 
+ 
+Fig. 4. (A) ECG signals measured with an EES integrated on the chest using an active EP sensor 
+(left frame), and magnified view of data corresponding to a single heartbeat (right frame).  ( B) 
+The left frame shows the results of EMG measur ement using a similar device, mounted on the 
+right leg during simulated walking (from 0 sec to 10 s) and standing (from 10 s to 20 s).  The 
+right frame shows similar data recorded using a conventional EMG sensor based on a tin 
+electrode coupled to the skin with a conductive gel and affixed using adhesive tape.  ( C) 
+Frequency spectral (i.e. spectrogram) representation of the data in (B), for each electrode type. 
+(D) EMG spectrograms measured using an EES mounted on the neck during vocalization of four 
+different words: "up", "down", "left" and "right".  ( E) Simulated video game control using 
+pattern recognition algorithms applied to EMG data recorded with an EES on the neck.  The 
+yellow arrows indicate the direction of motion of the player icon from an initial position (red) to 
+a final one (green).  ( F) The left frame shows discrete Fourier transform (DFT) coefficient 
+associated with EES recordings of EEG from the forehead, showing expected alpha rhythms at 
+
+18 
+ 
+~10 Hz when the eyes are closed.  (See SOM for DFT definition.)  Th e center frame shows a 
+spectrogram representation of the alpha rhythm measurement.  The first and next 10 seconds 
+correspond to periods when the eyes were closed  and open, respectively.  The right frame shows 
+results that demonstrate expected Stroop effects in data measured with the same type of EES 
+used for the alpha rhythms.
+ 
+ 
+References and Notes 
+1. H. Berger, Arch Psychiatr Nervenkr 87, 527 (1929). 
+2. C. Hardyck, L. Petrinovich, D. Elsworth, Science 154, 1467 (1966). 
+3. E. J. Fox, R. Melzack, Pain 2, 141 (1976). 
+4. J. G. Webster, in Medical Instrumentation: Application and Design (John Wiley & Sons, Inc., 
+New York, 2009) p. 189-240. 
+5. A. Searle, L. Kirkup, Physiol. Meas. 21, 271 (2001). 
+6. P. Griss, H. K. Tolvanen-Laakso, P. Meriläinen, G. Stemme, IEEE Trans. Biomed. Eng. 49, 
+597 (2002). 
+7. L. M. Yu, F. E. H. Tay, D. G. Guo, L. Xu, K. L. Yap, Sens. Actuators A 151, 17 (2009). 
+8. B. Gerdle, S. Karlsson, S. Day, M. Djupsjöbacka, in Acquisition, Processing and Analysis of 
+the Surface Electromyogram. Modern Techniques in Neuroscience, U. Windhorst, H. Johansson 
+Eds. (Springer Verlag, Berlin, 1999) p. 705-755. 
+
+19 
+ 
+9. J. R. Ives, S. M. Mirsattari, D. Jones, Clinical Neurophysiol. 118, 1633 (2007). 
+10. T. Sekitani et al., Science 321, 1468 (2008). 
+11. S.C.B. Mannsfeld et al., Nat. Mater. 9, 859 (2010). 
+12. K. Takei et al., Nat. Mater. 9, 821 (2010). 
+13. D.-H. Kim et al., Science 320, 507 (2008). 
+14. R.-H. Kim et al., Nat. Mater. 9, 929 (2010). 
+15. M. Kubo et al., Adv. Mater. 22, 2749, (2010). 
+16. M. Gonzalez et al., Microelectronics Reliability 48, 825 (2008). 
+17. S. P. Lacour, J. Jones, S. Wagner, T. Li, Z. Suo, Proc. IEEE. 93, 1459 (2005). 
+18. C. Keplinger, M. Kaltenbrunner, N. Arnold, S. Bauer, Proc. Natl. Acad. Sci. USA. 107, 4505 
+(2010). 
+19. L. Hu et al., Nano Letters 10, 708 (2010). 
+20. Kuwazuru et al., Med. Eng. Physics 30, 516 (2008). 
+21. M. Geerligs, J. Biomech., In press (2011). 
+22. C. Pailler-Mattei et al., Med. Eng. Phy. 30, 599 (2008). 
+23. http://dermatology.about.com/cs/skinanatomy/a/anatomy.htm. 
+24. V. Arumugam, J. Biosci. 19, 307 (1994). 
+
+20 
+ 
+25. L. Tchvialeva et al. , in Skin Roughness Assessment. New Developments in Biomedical 
+Engineering, D. Campolo Eds. (InTech, http://www.intechopen.com/download/pdf/pdfs_id/9090, 
+2010) p. 346. 
+26. K.-P. Wilhelm, P. Elsner, E. Berardesca, in Bioengineering of the Skin: Skin Surface Imaging 
+and Analysis, (CRC Press, Boca Raton, 1997) p. 154. 
+27. D.-H. Kim et al., Proc. Natl. Acad. Sci. USA. 105, 18675 (2008). 
+28. A. Kaneko, N. Asai, T. Kanda, J. Hand Ther. 18, 421 (2005). 
+29. L. Sörnmo, P. Laguna, in Bioelectrical Signal Processing in Cardiac and Neurological 
+Applications, (Elsevier, Amsterdam, 2005) p. 337-452. 
+30. J. R. Stroop, J. Experimental Psychology 18, 643 (1935). 
+31. O. Spreen, E. A. Strauss, in Compendium of Neuropsychological Tests: Administration, 
+Norms and Commentary, (Oxford University Press, New York, 2006) p. 477-499. 
+32. J. W. Hutchinson, Z. Suo, Advances in Applied Mechanics 29, 63 (1992). 
+33. M. A. Biot., Appl. Sci. Res. A 12, 168 (1963). 
+34. H. Jiang, Y. Sun, J. A. Rogers, Y. Huang, Int. J. Solids Struct. 45, 2014 (2008). 
+35. Huang et al., Langmuir 21, 8058 (2005). 
+36. H. Tada, P. C. Paris, G. R. Irwin, in The Stress Analysis of Cracks Handbook , (ASME Press, 
+New York, 2000) p. 161-162. 
+
+21 
+ 
+37. M. A. Meitl et al., Nat. Mater. 5, 33 (2006). 
+38. This material is based upon work supported by a National Security Science and Engineering 
+Faculty Fellowship and a grant from the Air Force Research Laboratory, the National Science 
+Foundation (NSF) under grant DM I-0328162 and it used facilities at the Materials Research 
+Laboratory and Center for Microanalysis of Materi als at the University of Illinois at Urbana-
+Champaign, suppored by the U.S. Department of Energy, Division of Materials Sciences under 
+Award No. DE-FG02-07ER46471 and DE-FG02-07ER46453. N.L. acknowledges support from 
+a Beckman Institute postdoctoral fellowship.  Y.H. acknowledges NSF grants ECCS-0824129 
+and OISE-1043143. 
+
+22 
+ 
+Supporting Online Material 
+ 
+S1. Estimation of driving forces for interfacial delamination between devices and skin 
+Fracture mechanics of a linear elastic bilayer system (32) gives the steady-state driving 
+force 
+2
+2
+1 EhG 
+ 
+for interface delamination between a thin film of Young’s modulus E and 
+thickness h and a thick substrate under uniform tensile strain .  For tensile/compressive strain of 
+1%, the driving forces for interface de lamination of 1 mm-thick silicon ( E = 180 GPa) and 75 
+m-thick polyimide ( E = 4 GPa) are 9×10 3 J/m2 and 15 J/m 2, respectively.  For EES ( E = 150 
+kPa, h = 30 m), the driving force is only 2.25×10 -4 J/m2 , which is more than five orders of 
+magnitude lower than silicon or polyimide based devices. 
+ 
+S2. Sample preparation for confocal microscopy 
+ To prepare samples for confocal microscopy, we stained the polymers and the pig skin 
+with fluorescent dyes having distinct excitation and emission bands, as shown in Fig. S2A.  
+Alexa 488 (Invitrogen) was used to stain the PE substrate.  Ten grams of Alexa 488 powder was 
+first dissolved in 300 l DMSO (Dimethyl sulfoxide).  Next, 1 l of the 488-DMSO solution was 
+diluted by 1 ml toluene and 100 l of the resulting 488-DMSO-toluene solution was added to 2 
+ml Part A pre-polymer of 0030 Ecoflex.  A magnetic stir bar was used to facilitate mixing, for 1 
+hour.  We next added 2 ml Part B pre-polymer of Ecoflex and further mixed for 5 minutes.  Spin 
+
+23 
+ 
+coating this pre-polymer mixture at 3000 rpm onto a water-soluble PVA substrate and curing at 
+room temperature for 4 hours and then at 70°C for 2 hours completed the preparation of PE.  
+Alexa 647 was used to stain a film of polyimide, patterned into the shape of  electronic circuitry.  
+For the polyimide we dissolved ten grams of Alexa 647 powder into 300 l DMSO.  We then 
+added 1 l 647-DMSO to 1 ml NMP (N-Methylpyrrolidone) and mixed 10 l of the resulting 
+647-DMSO-NMP solution into 1 ml of polyimide pre-polymer.  As before, we used a magnetic 
+stir bar to mix for 1 hour.  Spin coating at 4000 rpm onto a PMMA coated Si wafer and bake at 
+250°C in glove box for 1 hour completed the preparation.  Patterning the PI into desired 
+structures of island-plus-serpentine and filamentary serpentine was accomplished by 
+photolithography and dry etching.  The final step involved transfer-printing the polyimide 
+structure onto the PE(Ecoflex)-coated PVA substrate.  
+To stain the pig skin, we first mixed 10 gram FM 1-43FX into 300 l DMSO. We then 
+diluted 1l FM-DMSO solution with 1 ml 1xPBS (Phosphate Buffered Saline).  We rinsed a the 
+pig skin in 1x PBS thoroughly. Applying a drop of the 1ml FM-DMSO-PBS solution onto the 
+skin surface and waiting for 10 minutes produced the desired stain.  Rinsing with 1x PBS 
+removed excess dye.  Fluorescent EES was then applied to stained pig skin sample by placing 
+the device side against the surface of the skin  and the gently spraying 1xPBS to dissolve away 
+the PVA backing layer. 
+During imaging, a 488 nm laser was used to excite both Alexa 488 as well as FM 1-43.  
+Alexa 647 was excited by a 639 nm laser. Three tracks were created for the PE substrate (Alexa 
+488, blue), polyimide (Alexa 647, red), and pig skin (FM 1-43FX, blue and green) respectively.  
+
+24 
+ 
+In-plane as well as thicknes s direction resolution was ~1 m. Three dimensional confocal 
+scanning results from bare pig skin and island-plus-serpentine EES on pig skin appear in Figs. 
+S2B and S2C, respectively. 
+ 
+S3. Macroscopic mechanics models for interfacial delamination under tension/compression  
+The driving force
+ 
+for interfacial delamination between a PDMS film and a PE sheet 
+subject to tensile strain  in the PE can be obtained analytically as 
+ 
+23 3
+PDMS PDMS PE PE PDMS PDMS PE PE
+22 222
+PDMS PDMS PE PE PDMS PDMS PE PE PDMS PEPDMS PDMS PDMS
+PDMS PDMS PE PE PE
+421
+EhE h Eh E hG
+Eh E h EhE h h hEh L
+Eh E hL
+ 
+   
+  (S2)
+ 
+where E , h and L are the plane-strain modulus, thickness and length of the corresponding layers.  
+Equation (S2) is an extension of the steady-state driving force for interfacial delamination of a 
+linear elastic bilayer to account for the finite lengths of PDMS film and PE sheet.  FEM has been 
+used to calculate the interfacial crack tip energy release rate.  For relati vely long delamination 
+(much larger than PDMSh  and PEh ), FEM validates Eq. (S2) for a wide range of PDMS and PE 
+elastic moduli and layer thickness.  For short interfacial delamination (~ PEh ), the numerical 
+results show similar dependence on the layer thickness as Eq. (S2), but are 2~2.5 times larger 
+than Eq. (S2).  The critical delamination strain is  obtained once the driving force for interfacial 
+
+25 
+ 
+delamination reaches the adhesion energy PDMS/PE between PDMS and PE.  For 50:1 and 30:1 
+PDMS, the adhesion energy is 250 mJ/m2 and 50 mJ/m2, respectively. 
+For compression in the PE, initiation of inte rfacial delamination is more challenging to 
+determine the case of tension because of compression on the interface.  The large pre-stretch in 
+the PE, as performed in experiments, prevents Euler-type buckling (to an arch shape).  Therefore, 
+increasing the compression induced in this manner eventually leads to wrinkling of the PDMS on 
+PE.  This behavior is similar to surface wrinkling of a semi-infinite solid subject to compression 
+parallel to the surface 
+(33), but it is different in the following three aspects: 
+1) It involves two materials (PDMS and PE) such that the continuity of displacements and 
+stress tractions must be enforced; 
+2) Both layers have finite thickness, and cannot be modeled as semi-infinite solids; 
+3) PE has large prestretch, which is not completely released during compression. 
+These features give the critical strain for wrinkling determined from the eigenvalue of a 8*8 
+matrix.  The critical strain for wrinkling degenerates to (33) a semi-infinite solid.   
+ 
+S4. Microscopic mechanics models for contact between EES and skin 
+Microscopic mechanics models are developed to study contact between EES and skin, 
+particularly on the effects of skin roughness, and device thickness and size.  The skin 
+morphology can be represented by a sinusoidal form  rough rough1c o s 2 2yx h x      with 
+skin roughness amplitude hrough and wavelength rough.  For non-conformal contact between EES 
+
+26 
+ 
+and skin, EES does not follow the skin morphology and remains flat, which gives the total 
+energy non-conformal 0U  .   For conformal contact, both EES and skin deform such that the total 
+displacement is yx .  The displacements of EES and skin surface can be represented by 
+  rough1c o s 2 2wx h x    and     rough rough 1c o s 2 2zux h h x      , respectively, 
+where  the maximum deflection h of EES is to be determined. 
+The total energy (per unit length along the wavelength direction) for conformal contact is 
+conformal bending skin adhesionUU U U  , where the bending energy of EES is  
+  
+rough 2 42 4
+EES EESbending rough rough0
+12UE I w d x E I h
+
+    , the elastic energy of skin is 
+  
+2
+skinskin rough rough 16UE h h , and the interfacial adhesion energy is 
+ 
+rough 2 22 2
+adhesion rough0
+11 4Uw d x h
+
+        .  Minimization of the total energy then 
+gives analytically the maximum deflection of EES  
+33
+skin EES skinrough rough16hEh E I E  .   
+Conformal contact requires conformal non-conformalUU  , which gives 
+ 
+223
+EES EES rough
+22 2 33
+skin EESrough rough rough
+3
+skin rough
+441 6 1 1 16 1
+EI EI
+h EE I
+E
+
+  
+
+
+   
+. (S3) 
+Since rough rough~7 h  in experiments (Fig. 2F), the second term on the right hand side is 
+negligible and the above equation becomes 
+
+27 
+ 
+ 
+23
+skin skinrough rough
+3
+EESrough
+16Eh E
+EI
+
+  . (S4) 
+For the FS-EES (Fig. 2B), -9
+EES 0.27 10  N-mEI   (SOM Section S5), skin 130 kPaE  , 
+rough 140 μm  , 0.16 N/m   (SOM Section S5), the above criterion implies that EES can have 
+conformal contact with skin when the skin roughness is smaller than ~56 m (Fig. 2G).   This 
+result is consistent with conformal contact observed in Fig. 2F (roughness in the range of 5~20 
+m, as marked by the color bar in Fig. 2G). 
+For the island-plus-serpentine EES (Fig. S1D), the device is much thicker (Au 0.5 m  – 
+PI 1.2 m – Au 0.2 m – PI 1.2 m) and larger (500 m×m) than the FS strips (0.5 m 
+thick, 100 m wide).  For 400 m spacing between adjacent islands (Fig. S1D), the effective 
+bending stiffness is -9
+EES 1.6 10  N-mEI   from FEM, and the effective work of adhesion is 
+0.14N/m   (SOM Section S5).  The criterion above implies that EES loses conformal contact 
+once the skin roughness exceeds 27 m, which is consistent with partial contact observed in the 
+experiments for the range of skin roughness 20~50 m (Fig. S2C). 
+For the FS-EES design, the effect of device thickness is studied by changing thicknesses 
+of all layers proportionally.  Let deviceh  denote the total thickness of device.  Figure S10A shows 
+that, for FS made of Au-PI as in experiments (red curve), the skin roughness for conformal 
+contact decreases from ~56 m to ~30 m as the device thickness increases by 8 times.  If all 
+elastic moduli are proportionally reduced by 1000 times (blue curve), FS-EES would have 
+
+28 
+ 
+conformal contact with much rougher skin.  Therefore, thinner, softer devices promote 
+conformal contact between EES and skin. 
+The thickness and modulus of the device and the skin roughness also play important roles 
+on the comfort, or ‘wearability’, of EES.  The contact pressure at the EES-skin interface is 
+obtained analytically as (34)  
+ 
+4
+skin rough
+contact-global 4
+skin roughrough3
+rough
+EES
+8 2cos
+16
+Eh x
+E
+EI
+  
+
+
+. (S5) 
+Figure S10B (blue curve) shows the contact pressure between the FS-EES and skin of average 
+roughness ( rough 30μmh  ) for EES with device thickness of 0.5 m.  The maximum contact 
+pressure is only 12.5 kPa, which is bellow the human skin sensitivity (~20kPa (28)) and 
+therefore would not induce discomfort; devices thicker than 1.2 m give a contact pressure 
+higher than 20kPa, while devices thicker than 3.8 m lose conformal contact to the skin.  Larger 
+skin roughness of 40 m (red curve) results in higher interfacial pressure, and the device 
+thickness to lose conformal contact becomes much smaller (~1.5 m).  From Eq. (S5), it is 
+obvious that softer device materials will give smaller contact pressure. 
+Figure S11 illustrates the mechanics model to determine the gap width a along the edges 
+of EES.  Since FS thickness hdevice (~1 m) is much smaller than that of the skin (~1 mm) and the 
+PE (~30 m) and the FS strip width (~100 m), the FS between the skin and PE is analogous to  
+inserting a rigid wedge of uniform thickness hdevice at the skin/PE interface, leading to an 
+interfacial crack (35).  The interfacial crack tip energy release rate is (36) 
+
+29 
+ 
+  
+2
+skin PE device
+16
+EE h
+G a
+
+ . (S6) 
+The gap width a is obtained by G reaching the adhesion energy PE/skin  as 
+  
+2
+skin PE device
+PE/skin16
+EE h
+a 
+
+ , (S7) 
+which has been verified by FEM for the range of FS thickness in experiments. 
+The stress distribution contact-local
+ 
+over FS width is obtained analytically (35), and is 
+shown schematically in Fig. S11.  The total force on FS strip is the integration of this contact-local  
+and contact-global
+ 
+in Eq. (S4) over FS strip width,  total contact-global contact-local
+FS width
+F dx  , which has 
+an average of -0.1 N/m for skin with hrough = 15 m and rough = 140 m. 
+ 
+S5.  Effective work of adhesi on between EES and skin, and ef fective bending stiffness of 
+EES 
+The effective work of adhesion between EES and skin is given by 
+  device-skin PE-skin1     , (S8) 
+where  is the area fraction of devices, and device-skin  and PE-skin  are the work of adhesion for 
+device-skin and PE-skin interfaces, respectively.  Since adhesion between device (Au) and skin 
+is very weak, Eq. (S8) is simplified to   PE-skin1  .  For the experimental value of 
+PE-skin 0.2N/m   measured by rod-rolling set-up described in (37), the effective work of 
+
+30 
+ 
+adhesion is 0.16N/m   for the FS-EES ( 22.5%  ) and 0.14N/m   for the island-plus-
+serpentine EES ( 30.9%  ). 
+Similarly, for FS strips distributed over the entire surface of FS-EES electronics, the 
+effective bending stiffness of EES is given by  
+  EES device PE 1EIE I E I  , (S9) 
+where 3
+PE PE PE 12EI E h  is the bending stiffness of PE ( PE 65kPaE   and PE 30μmh  are the 
+plane-strain modulus and thickness of PE, respectively), and the bending stiffness for PE with 
+device is 
+23
+2
+device
+11 1
+1
+3
+ii
+i ij j i i
+ij j
+EIE h b h b h h h
+ 
+          
+   (where 
+33
+11 1
+1
+2
+i
+ii ij i i
+ij i
+bE h h h E h
+ 
+ 
+
+  ; 1P EE E ,  1P Ehh ;  2 2.8GPaE   , 2 0.3μmh   are the 
+plane-strain  modulus and thickness for PI, respectively; and  3 97GPaE  , 3 0.2μmh   for Au).  
+For 22.5%   from Fig. 2B, Eq. (S9) gives the effective bending stiffness -90.27 10  N-m , 
+which agrees reasonably well with -90.30 10  N-m  obtained by FEM.  
+ 
+S6. Sample fabrication of an FS-EES EP sensor 
+ The sample fabrication begins with high temperature diffusion doping to define low 
+resistance source and drain area for Ohmic contacts.  Phosphorous spin-on-dopant (P509, 
+Filmtronics, USA) was diffused at 950C with constant supply   of  gas mixture (nitrogen:oxygen, 
+
+31 
+ 
+8:2).  Transfer printing the resulting doped silicon  nanomembrane to a hand le wafer coated with 
+PMMA/PI, followed by dry etching for isolation active regions, defined silicon areas on thin PI, 
+as shown in Fig. 3A left frame.  Electron -beam evaporation of metal (Cr/Au, 50/1500A) 
+interconnects ground and output to the sensor and defines source, drain and gate electrodes (Fig. 
+3A right frame and its inset for a magnified view ).  Additional metallization for larger area 
+sensor electrode, connection different layers th rough vias and second transfer printing to 
+PE/PVA results in final sensor, as shown in Fig. S12. 
+ 
+S7. ECG measurement 
+The body ground electrode was a tin electrode filled with conductive gel, attached to the 
+bony area on the right side of the subject’s righ t ankle. The EES was attached to the lower-left 
+edge of the rib cage, near the left side of the midline of the chest. Usually one of the electrodes 
+on the EES was used as reference electrode, while another was recording electrode. The negative 
+end of the AA battery that powered the EES was also tied to the body ground. The gain of the 
+main amplifier was 10000, with a high-pass frequency (HPF) of 0.1 Hz, and a low-pass-
+frequency (LPF) of 100 Hz. The sampling frequency was 1000Hz. A notch filter was applied in 
+software to eliminate 60 Hz power line interference. 
+ 
+S8. EMG measurement from Leg 
+
+32 
+ 
+The EES was attached at about 1/3 the distance from the knee to the ankle, on the interior 
+side of the left leg.  Other parameters were the same as those for ECG, but with HPF= 0.01 Hz 
+and LPF= 300 Hz. Passive measurements were done separately after recording with the EES, 
+with otherwise exactly the same configurations. Two tin electrodes were attached in close 
+vicinity of the EES, one on each side of it, vertically along the axis of extension of the muscle. 
+The voltage differences between them were reported as the passive EMG.  
+ 
+S9. EMG measurement from Neck  
+The body ground electrode was attached to the right side of the subject’s neck. The EES 
+was attached at the skin overlying the cricothyroid muscle. The measurement parameters were 
+the same as those for EMG on the leg. 
+ 
+S10. EEG measurement from forehead (alpha rhythms and Stroop effects) 
+Passive EES of both single channel design and multi-channel design have been tested in 
+EEG measurements. For single channel design, th e body ground and reference electrodes were 
+commercial gold electrodes without using conductive  gel, attached to the subject’s left and right 
+earlobes respectively. The EES was attached to the center of the subject’s forehead without 
+applying conductive gel, after exfoliating the skin slightly with scotch tapes. To test the multi-
+channel EES, one of the electrodes on it would be used as reference electrode, while another 
+would be recording electrode. All other conditions were set up the same way as that of the single 
+
+33 
+ 
+channel EES. The gain of the main amplifier was 10000, HPF= 0.01 Hz, LPF= 300 Hz. 
+Sampling frequency was 1000 Hz. A notch filter was applied in software to eliminate 60 Hz 
+power line interference.  
+ 
+S11. Simulated computer game control via neck EMG measured by EES  
+All computations were done in Matlab ®.  After eliminating 60 Hz interference from the 
+raw data using an offline notch filter, the feature vector associated with each utterance was 
+generated from the spectrogram of the data, using sliding window length of 256, overlap size of 
+250, and the fast-fourier transform (FFT) length of 512. Spectrograms were generated for an 
+entire trial first, and then sliced into 750 ms inte rvals that correspond to the utterances of words, 
+according to EMG onset times. These onset times were determined by an energy detecting 
+procedure, where raw data were first sent through a high pass filter (Chebyshev type I, cutoff 70 
+Hz, high-pass 80 Hz), concatenated by a matched filter, and the signals were then squared. 
+Whenever the power crossed a threshold value, a pair of onset and offset times of EMG activity 
+was recorded. 
+In the original labeled dataset, there were 63 feature vectors for each of the 4 words. The 
+metric of distance between any two feature vectors was the L1-norm, and dynamic time warping 
+(DTW) was used to calculate the similarity score between them. In the computer game control 
+demonstration, the user manipulated an avatar that can move in 4 directions in the game called 
+Sokoban.  In a simulated demonstration, when the user presses a key to signify the intended 
+direction for the avatar, a candidate feature vector is randomly drawn from the EMG feature pool 
+
+34 
+ 
+for that direction, and compared with all the rest of the feature vectors in all four pools as 
+references, in terms of DTW scores.  As a result, a nearest neighbor can be found for the 
+candidate from one of the four pools, and it will  be classified as a member from this nearest 
+neighbor’s group.  
+The classification accuracy depends on the number of reference feature vectors available 
+for each direction (Fig S8). We have simulated (by resampling the data pool without replacement 
+in 100 trials) the situation where various numbers of references were randomly available from 
+each of the four pools, and found that the classification accuracy estimated across 100 trials 
+increased with the number of references. When 62 references in each pool were used, the 
+averaged accuracy could be higher than 95% for “up” and “down”, and higher than 85% for “left” 
+and “right”. Thereby, the intended directions can be accurately classified and conveyed to the 
+avatar, and gaming can thus be accomplished.  
+ 
+S12. DFT (discrete Fourier transform) coefficient 
+Given a vector of length N, [1], , [ ]x xN , the definition of the DFT coefficients, ()Xk , 
+is as follows. 
+1
+2() [] e x p ( 1 ) ( 1 )
+N
+j
+iXk xj j k N
+
+
+      
+Where 1, ,kN   
+ 
+S13. Fatigue test 
+
+35 
+ 
+ Repetitive stretching up to 1000 times with 30% tensile strain at 20 rpm shows no 
+performance (resistance) degradation of FS electrodes, as shown in Fig. S13. 
+ 
+SOM Figure and Movie Captions 
+ 
+Fig. S1. (A) Stress-strain curve for a 30 m thick free-standing PE film.  The Young’s modulus 
+is 60 kPa.  (B) Stress-strain curve for PVA.  Th e Young’s modulus is 1.9 GPa.  (C) Stress-strain 
+curve for 30:1 and 50:1 PDMS, with Young’s moduli of 145 kPa and 19 kPa respectively. (D) 
+Schematic illustration for a device island with size Ld and a serpentine span Ls.  ( E) Top view 
+and cross-sectional schematic illustrations of an island-plus-serpentine sample. ( F) Contour plot 
+of strain in an island-plus-serpentine sample after stretching by 30%, computed using FEM. 
+ 
+Fig. S2. (A) Excitation and emission spectrum of fluorescent dyes used for confocal microscopy.  
+Alexa Fluor 488 is used to stain PE substrate an d Alexa Fluor 647 is used to stain polyimide, 
+which is patterned into the layout of electrodes. Pig skin is stained by FM 1-43, which labels cell 
+membrane. (B) Top and cross-sectional view of bare pig skin.  ( C) Top and cross-sectional view 
+of EES with island mounted on pig skin. 
+ 
+Fig. S3. (A) Transfer curve and (B) IV curve of an Si MOSFET in FS geometry. ( C) Calibration 
+curve of a temperature sensor. ( D) Percentage change in resistance of the strain gauge as a 
+
+36 
+ 
+function of uniaxial tensile strain.  Gauge factors for the longitudinal and transverse strain 
+gauges are 1.3 and 0.5 respectively. ( E) Proximity sensor and optic al measurement system on 
+skin using a combined LED-photodetector array with forward and reverse biases before (top 
+frame) and after (bottom frame) deforming the skin  with (left frame) and without (right frame) 
+external illumination. ( F) Current-voltage characteristics of a single LED. ( G) Measured 
+photocurrent from reverse biased diodes at different distances between the sensor and the 
+external object. ( H) Current and power of a FS Si photovoltaic cell at different voltages. (B) 
+Images of an LC (inductor-capacitor) oscillator at 0% (left frame) and ~12% (right frame) tensile 
+strain. (J) S21 of an LC oscillator as a function of frequency.  The resonant frequency changes 
+from 1.08 GHz (0% strain) to 1.38 GHz (~12% strain) due to tensile deformation. 
+ 
+Fig. S4. Magnified view of the EMG singal of Fig. 4B.  Red and blue plots correspond to raw 
+and high pass filtered data, respectively. 
+ 
+Fig. S5. (A) Images of an active EES-based EMG sensor on the neck without (left frame) and 
+with (right frame) skin deformation. ( B) Raw recordings from neck using a similar sensor for 
+different words.  “Go” (top frame), “Stop” (middle frame) and “Great” (bottom frame). 
+ 
+Fig. S6. EES EMG measurement from the neck for four different words, "up", "down", "left" and 
+"right".  Red and blue plots correspond to raw and high pass filtered data, respectively. 
+
+37 
+ 
+ 
+Fig. S7. Spectrograms of EES EMG measurements from the neck for four different words, “Go” 
+(top frame), “Stop” (middle frame) and “Great” (bottom frame). 
+ 
+Fig. S8.  Averaged classification accuracy versus the number of reference feature vectors 
+available for classifying each direction.  Shaded areas indicate one standard deviation of the data. 
+ 
+Fig. S9.  (A) Recorded EEG data using passive EES sensor while eyes closed (top frame) and 
+eyes open (bottom frame). ( B) Experiment setup for Stroop test . When the target letter matches 
+with its color (congruent case) the response speed is faster than the unmatched (incongruent) 
+case. 
+ 
+Fig. S10. (A) Conformal contact requirement for FS-EES with devices of different thickness and 
+modulus.  (B) The contact pressure between the FS-EES and skin of different roughnesses. 
+ 
+Fig. S11.  A schematic cross-sectional view of EES at the interface between skin and PE (top) 
+and local stress distribution along the FS-EES/skin interface (bottom). 
+ 
+
+38 
+ 
+Fig. S12. Image of an FS-EES EP sensor on PE/PVA substrate. 
+ 
+Fig. S13. Fatigue test result for an FS-EES device under repetitive 20% tensile stretching. 
+ 
+Movie S1. A movie clip illustrating EES mounting procedure, deformations and extreme 
+flexibility after detachment. 
+ 
+Movie S2. A movie clip showing an EES mounted on a commercial temporary transfer tattoo.  
+ 
+Movie S3. A movie clip illustrating delamination mechanics for soft, elastomeric films 
+laminted onto human skin.  PDMS (thickness 0.6 mm; modulus 14 kPa) or PE (thickness 0.3 
+mm; modulus of 60 kPa) films laminated on the wrist detach when the skin is stretched or 
+wrinkled.  By contrast, for EES devices (simulated here with a sheet of PE with 30 m thickness) 
+conformal contact is maintained under extreme deformations, due simply to the action of van der 
+Waals forces. 
+
+A Bantenna LED temp. sensorstrain gauge 0.5mm
+detached
+from skin
+5mm
+after partially detach from the skin
+attached
+to skin
+from skin
+crumpled 
+circuit
+3mm
+PI
+PI
+device
+NMP
+7µm
+C
+wireless power coil RF coil RF diode ECG/EMG sensor
+ after fully detach from the skin
+PE
+circuit
+PE
+(~50 kPa)
+PI
+30µm
+0.5cm
+ boundary 0.5cm
+D
+0.5cm tattoo electronics electronics
+undeformed state
+ stretched
+compressed
+backside of tattoo after transfer after integration onto skin after deformation
+front 
+side 
+tattoo
+Figure 1
+
+E
+ile Strain (%)20
+40
+60
+50:1
+30:1
+PE
+PDMS
+theory
+A 1
+2
+3
+s. Strain (%)40
+60
+80 50:1
+30:1
+PE
+PDMS
+B
+Stress (kPa)
+0
+30
+60
+90
+skin: 160 kPa
+x: 130 kPa
+y: 150 kPa
+FEM x
+FEM y 
+0.5mm
+y
+PDMS thickness (mm)
+0.0 0.3 0.6 0.9 1.2 1.5
+Tensi
+0
+0
+device
+Au
+PE 
+(~50 kPa)
+PI
+30µm
+0.5µm
+theory
+pig skin
+4
+5
+PDMS thickness (mm)
+0.0 0.5 1.0 1.5 2.0
+Compres
+20
+40 theory
+D
+F
+C
+Strain (%)
+0 5 10 15 20 25 30
+PE sensorx
+0.15%
+0.05%
+0% x
+y
+PE
+100 µm
+1cm
+0.1%
+pig skindevice 1
+2
+3
+ (N/m)
+0.1
+0.2
+0.3G
+bare skin
+0.5 cm
+skin 
+patch deform
+relax
+conformal 
+contact
+non-
+conformal 
+contact
+skin
+PE device
+XX
+4
+5100 µm
+hrough (m)
+02 0 4 0 6 0 8 0
+0.0
+56 m
+contact
+Figure 2
+
+A
+ 0.5mm
+ 2mmE
+ 7
+A
+B
+0.5mm
+S
+D
+G
+Si res.
+S D G
+Si R
+0.5mm
+S
+D
+G
+S D
+G
+RD VOUT
+VDD
+S21 (dB)-20
+0
+0 7085nF
+2mmE
+F
+1
+3
+5
+10-6
+J/m3
+n
+1.2
+1.6
+C =1F
+CIN=
+1mm
+0.3mm
+Pt CPDMS
+cap.
+ind.
+C 0.3mm
+RB
+CIN
+COUT
+RIN
+ROUT
+NMOS
+VIN
+GND Frequency (GHz)
+0.0 0.5 1.0 1.5 2.0
+Capacitor S
+-60
+-40
+0.7085nF
+1.5nF
+2.204nF
+2.969nF
+ductor S21 (dB)
+-20
+-10
+0
+ductor S11 (dB)
+-10
+-5
+0
+scil. Freq. (GHz)0.5
+0.6
+0.7
+0.8
+0.9
+Frequency (Hz)
+10-3 10-1 101 103 105
+Gai
+0.0
+0.4
+0.8 CIN=1F
+CIN=220pF
+Frequency (GHz)
+0.0 0.5 1.0 1.5 2.0
+Ind
+-30
+Ind
+-15
+Capacitance (nF)
+0.5 1.0 1.5 2.0 2.5 3.0
+Os
+0.4
+0.5mm
+Frequency (GHz)
+0.0 0.5 1.0 1.5 2.0
+S11 (dB)
+-40
+-30
+-20
+-10
+0
+10
+S21 (dB)
+-120
+-90
+-60
+-30
+0
+30
+S11 fwd
+S11 rvs
+S21 fwd 
+S21 rvs 
+GD
+ 0.3mm
+P N
+I
+high voltage connection
+Si
+1 mm
+LED
+photo-
+detector
+ gg
+Figure 3
+
+A D
+V)200
+V)200 R
+ up down left right250
+Time (sec)
+05 1 0 1 5
+Amplitude (
+-100
+0
+100
+B
+0 5 10 15 20
+Amp. (V)
+-100
+0
+100
+0 5 10 15 20
+-100
+0
+100EES dry conv. 
+w/ gel
+Time (sec)
+0.0 0.2 0.4
+Amplitude (
+-100
+0
+100
+Q S
+base
+Time (sec) Time (sec) Time (sec) Time (sec)
+0 1 23 0 1 23 0 1 23 0 1 23
+10
+100
+200Frequency (Hz)
+150
+50
+EC
+ up right
+leftdown
+Time (sec) Time (sec) Time (sec) Time (sec) Time (sec) Time (sec)
+20
+Frequency (Hz)10
+200
+200
+active
+passive
+0 1051 5
+walk stand
+walk stand
+100
+100ncy (Hz)
+00 05 10 15 20
+Amplitude (V)
+-20
+-10
+0
+10
+20
+congruent 
+incongruent 
+cognition 
+delay
+F
+5 10 15 20 25 30
+DFT Coefficient0
+10
+20
+30
+eyes closed 
+eyes open 
+20100 1051 5
+100Frequen
+Time (sec)103
+Frequency (Hz)
+0 4 8 12 16 20
+5 10 2015
+eyes closed eyes open
+opening blinkingalpha rhythm
+Time (sec)
+0.0 0.5 1.0 1.5 2.0
+Frequency (Hz)
+5 10 15 20 25 30
+Time (s)
+0 4 8 12 16 20
+Figure 4
+
+(MPa)
+15
+20
+EPVA= 1.9 GPa
+(kPa)
+30
+40
+A B
+EPE = 60 kPa
+Strain (%)
+0.0 0.2 0.4 0.6 0.8 1.0
+Stress (
+0
+5
+10
+40
+E = 145 kPa
+Strain (%)
+0 1 02 03 04 05 0
+Stress 
+0
+10
+20
+C D
+Strain (%)
+0 5 10 15 20 25 30
+Stress (kPa)
+0
+10
+20
+30
+E50:1 = 19 kPa
+E30:1 = 145 kPa
+Ls Ld rigid
+rigid
+rigid
+A0 5
+E
+1%
+0.6%
+0.8%
+0.4%
+0.2%
+F
+PI 1.2 µmAu 0.2 µm
+Au 0.5 µm
+PE 30 µm
+PI 1.2 µm
+ 0%
+Figures S1
+
+488 647FM 1‐43A
+ 88 647A
+B
+ 100 µm
+1
+2
+1
+2
+3
+4
+5
+3
+4
+5
+device islandskin
+100 µm
+C
+ PE
+5
+1
+2
+3
+1
+2
+3
+100
+4
+5
+6
+3
+4
+5
+6
+Figures S2
+100 µm 100 µm
+
+3 measure.
+simulation1e-3 measure.
+simulation 80
+A B
+Vd (V)
+012345
+Id (mA)
+0
+1
+2
+simulation
+Vg (V)
+-4 -2 0 2 4 6
+Id (A)1e-5
+1e-7
+1e-9
+simulation
+0
+40
+Id (µA)
+)420 l1
+14 li t d i lC D
+Temperature ('C)
+-30 0 30 60 90 120
+Resistance (
+300
+330
+360
+390
+cal 1
+cal 2
+cal 3 
+Strain (%)
+02468 1 0
+(R-R0)/R0 (%)
+0
+2
+4
+6
+8
+10
+12 longitudinal
+transverse
+E F
+02468 1 0
+Current (mA)0.0
+0.1
+0.2
+0.3
+0.4
+0.5
+5 mm
+0 5 10 15 20
+Photocurrent (nA)0.04
+0.08
+0.12
+0.16
+0.20
+0.24
+0V 
+-2.5V 
+-5V 
+Voltage (V)
+G
+00 01 02 03 04
+Current (A)
+-5e-6
+-4e-6
+-3e-6
+-2e-6
+-1e-6
+0
+Power (W)
+0
+2e-7
+4e-7
+6e-7
+8e-7
+1e-6
+H
+Distance (mm)
+0 5 10 15 20
+Voltage (V)
+0.0 0.1 0.2 0.3 0.4
+I J
+LC S21 (dB)
+-80
+-60
+-40
+-20
+0%
+12%
+~12% 
+stretch
+5m m
+Figures S3
+Frequency (GHz)
+0.0 0.5 1.0 1.5 2.0
+-80
+1.08 GHz 1.38 GHz
+~27% increase
+5 mm
+
+V)100 18 100
+V)18
+active passive
+Time (sec)
+0123
+Amplitude (V
+-300
+-200
+-100
+0
+100
+-6
+0
+6
+12
+18
+Time (sec)
+0123
+-300
+-200
+-100
+0
+100
+Amplitude (V
+-6
+0
+6
+12
+18
+Figures S4
+
+A
+3 mm
+Neck
+EM G from  Neck by saying "Go"
+Time (sec)
+0123456789 1 0
+Amplitude (V)
+-300
+-200
+-100
+0
+100
+200
+300
+400
+B
+EMG from Neck by saying "Stop"
+Time (sec)
+10 11 12 13 14 15 16 17 18 19 20
+Amplitude (V)
+-300
+-200
+-100
+0
+100
+200
+300
+400
+EMG from Neck by saying "Great"
+Time (sec)
+20 21 22 23 24 25 26 27 28 29 30
+Amplitude (V)
+-300
+-200
+-100
+0
+100
+200
+300
+400
+Figures S5
+
+tude (V)
+-400
+0
+400
+30
+60
+( )
+-400
+0
+400
+tude (V)
+30
+60up down
+0123
+Amplit
+-800
+-400
+-30
+0
+0123
+-800
+-400
+Amplit
+-30
+0
+mplitude (V)
+800
+-400
+0
+400
+0
+20
+40
+60
+left
+( )
+800
+-400
+0
+400
+mplitude (V)
+0
+30
+60
+right
+Time (sec)
+0123
+Am-800 -20
+Time (sec)
+0123
+-800
+Am-30
+Figures S6
+
+quency (Hz)
+200
+300
+400
+500
+Go
+Time (sec)
+Fre q
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9
+100
+200
+500
+Stop
+Frequency (Hz)
+100
+200
+300
+400
+Time (sec)
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+Hz)
+400
+500
+Great
+Time (sec)
+Frequency (
+0 0.2 0.4 0.6 0.8 1
+100
+200
+300
+Figures S7
+
+Figures S8
+
+Time (s)
+02468 1 0
+Amplitude (V)
+-40
+0
+40
+close
+e (V)
+0
+40
+A
+red black green
+orange blue yellow
+Time (s)
+02468 1 0
+Amplitude
+-40
+0
+open
+B
+red black green
+orange blue yellow
+congruent
+incongruent
+Figures S9
+
+10
+12
+14
+97MPa, 2.8MPa
+A
+2
+4
+6
+8
+Conformal
+contact
+97GPa, 2.8GPa
+hdevice (m)
+30 35 40 45 50 55 60 65
+0
+ rough μmh
+40
+45
+x
+B
+20
+25
+30
+35
+ntact pressure (kPa)
+x
+30μmh 
+40μm
+lose conformal contact
+0.0 0.5 1.0 1.5 2.0 2.5 3.0 3.5 4.0
+10
+15
+device (μm)h
+Con rough 30μmh 
+Figures S10
+
+aPE
+skin
+device
+devicehx
+10
+20
+ contact-local kPa Not to scale
+tension
+-20
+-10
+0
+compression
+Figures S11
+
+0.5mm
+Figures S12
+
+6Ohm ()
+0
+2
+4
+test 1
+test 2
+Cycle
+0 200 400 600 800 1000
+0
+Figures S13

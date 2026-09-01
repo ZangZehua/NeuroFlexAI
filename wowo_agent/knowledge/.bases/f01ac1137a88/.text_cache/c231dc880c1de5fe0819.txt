@@ -1,0 +1,1030 @@
+Article https://doi.org/10.1038/s41467-024-50597-2
+Origami-inspired softﬂuidic actuation for
+minimally invasive large-area
+electrocorticography
+Lawrence Coles 1,2, Domenico Ventrella 3, Alejandro Carnicer-Lombarte 1,
+Alberto Elmi3, Joe G. Troughton 1,2, Massimo Mariello 2,S a l i mE lH a d w e1,4,
+Ben J. Woodington1, Maria L. Bacci 3,G e o r g eG .M a l l i a r a s1,
+Damiano G. Barone 1,4 & Christopher M. Proctor 1,2
+Electrocorticography is an established neural interfacing technique wherein an
+array of electrodes enables large-arearecording from the cortical surface.
+Electrocorticography is commonly used for seizure mapping however the
+implantation of large-area electrocorticography arrays is a highly invasive
+procedure, requiring a craniotomy larger than the implant area to place the
+device. In this work, ﬂexible thin-ﬁlm electrode arrays are combined with
+concepts from soft robotics, to realize a large-area electrocorticography
+device that can change shape via integrated ﬂuidic actuators. We show
+that the 32-electrode device can be packaged using origami-inspired folding
+into a compressed state and implanted through a small burr-hole cra-
+niotomy, then expanded on the surface of the brain for large-area cortical
+coverage. The implantation, expansion, and recording functionality of the
+device is conﬁrmed in-vitro and in porcine in-vivo models. The integration of
+shape actuation into neural implants provides a clinically viable pathway to
+realize large-area neural interfaces via minimally invasive surgical
+techniques.
+Electrocorticography (ECoG) implants are neural interfaces that con-
+sist of an array of electrodes to record brain activity from the surface of
+the brain. This type of implant placed either epi- or subdurally on the
+cortical surface, facilitates high spatiotemporal resolution electro-
+physiology over a large area of the brain
+1. The integrated electrodes in
+the ECoG array measure averaged local ﬁeld potentials produced by
+neurons in the cerebral cortex through direct contact with its surface2.
+ECoG arrays are currently in clinical use as diagnostic tools for epilepsy
+treatment
+3. Once implanted, the ECoG array is used to map the cortex
+and identify the foci of the epileptic seizure, guiding surgical
+intervention
+4. ECoG devices have also been used in brain-computer
+interfaces5,6 including applications for speech decoding7,8,c o n t r o lo f
+prosthesis9–11 and closed-loop seizure control12,13.
+The capacity to monitor brain activity over centimetre length
+scales is critical for most ECoG applications. However, achieving such
+large area coverage typically requires cutting a window in the skull that
+is larger than the implanted ECoG array. This craniotomy procedure is
+highly invasive, increasing the risk of infection, surgical complications,
+and potential cosmesis issues for the patient
+14. A hospital stay is also
+required during cortical recording using large-area ECoG arrays, fur-
+ther increasing clinical costs and preventing the translation of these
+devices for chronic monitoring or prosthesis control
+15. Recent research
+h a ss h o w nE C o G sc a nb em a d ef r o ms o f t e r16,17 and thinner18–22 materials
+to increase biocompatibility for a chronically implanted system, how-
+ever, the invasiveness of implantation remains a key limitation to the
+wider adoption of these technologies.
+Received: 20 November 2023
+Accepted: 16 July 2024
+Check for updates
+1Department of Engineering, University of Cambridge, Cambridge, UK.2Institute of Biomedical Engineering, Engineering Science Department, University of
+Oxford, Oxford, UK. 3Department of Veterinary Medical Sciences, Alma Mater Studiorum, University of Bologna, Ozzano dell’Emilia, Bologna, Italy.
+4Department of Clinical Neurosciences, University of Cambridge, Cambridge, UK. e-mail: christopher.proctor@eng.ox.ac.uk
+Nature Communications|         (2024) 15:6290 1
+1234567890():,;
+1234567890():,;
+
+While large-area ECoG arrays are still used for the identiﬁcation of
+epileptic foci, there is a clinical trend towards less invasive implants to
+reduce surgical risk and cost. Narrow cortical electrode strips can be
+implanted using burr-hole craniotomy by sliding the device in place
+subdurally, removing the requirement for a full craniotomy
+23,w i t h
+novel thin-ﬁlm ECoG designs being able to slide onto the cortex with
+small, slit incisions in the skull24. Similarly, thinﬂexible mesh electrode
+arrays can be packaged within a microcatheter to allow introduction
+into the body via an injection
+25–28. However, the utility of such implants
+is limited as cortical coverage is restricted by the width of the incision
+in the skull, therefore large craniotomies could still be required for
+large-area cortical coverage. Compared to large ECoGs, brain pene-
+trating Stereoelectroencephalography (SEEG) electrodes implanted
+through small burr-hole craniotomies reduce the surgical footprint
+and provide information at depth
+29,30 at the expense of reduced cor-
+tical coverage and increased foreign body reaction due to penetration
+into brain tissue31,32. To overcome the coverage issues, multiple-depth
+electrodes are often implanted at different locations through several
+s m a l lb u r rh o l e sw h i c hi nt u r ni n c r e a s e st h ei n v a s i v e n e s s .A na p p r o a c h
+that combines the reduced surgical footprint of SEEG and strip-ECoG
+devices, with the large spatial coverage of standard ECoG devices
+would ideally balance the competing clinical needs.
+Concepts from soft robotics have recently converged with bioe-
+lectronic implants to create implants that can change shape and adapt
+within the body to enable minimally-invasive interfacing
+33,34 or provide
+mechanical stimulation35. Through shape actuation, novel soft robotic
+implants have been demonstrated to mechanically match and conform
+to surrounding tissue to electrically map the internal chambers within
+the heart
+36,37, to reduce the foreign body reaction of drug delivery
+devices38,39 and enable implantation of neurostimulation spinal cord
+devices with minimally invasive surgical techniques40. Recently, there
+has also been a demonstration of using soft robotics to deploy an
+ECoG strip through a standard burr-hole craniotomy using eversion to
+deploy an initially inverted device
+41, showing there is a clear clinical
+and engineering push for minimally invasive devices.
+Here, we combine soft robotics with bioelectronics to demon-
+strate a minimally invasive subdural large-area ECoG implant (MI-
+ECoG). Thin- ﬁlm, biocompatible polymers, commonly used in the
+fabrication of bioelectronic implants, are engineered to enable shape
+actuation through the integration of aﬂuidic chamber in the centre of
+the implant. The device can be folded for subdural implantation onto
+the surface of the cortex through a burr-hole craniotomy. Shape
+actuation enables large-area ECoG coverage previously only achieved
+with a full craniotomy via a surgical implantation analogue to existing
+clinical ECoG strip electrodes and SEEG implants. In addition to
+enabling less invasive ECoG, the presented innovations in implant and
+ﬂuidic design may enable further development of novel shape-
+actuated implants that target mechanically challenging areas,
+expanding into complex brain regions such as within cortical sulci.
+Results
+Design and fabrication of the MI-ECoG
+The MI-ECoG is a large, soft neural interface that can be folded into a
+small form factor, allowing insertion subdurally onto the cortical sur-
+face through a burr-hole craniotomy. Through the integration of a
+ﬂuidic actuation chamber in the centre of the device, the device can be
+inﬂated to drive the unfolding of the device in situ thereby covering a
+large cortical region and enabling neural recordings (Fig.1A). Thin-ﬁlm
+fabrication techniques were used in creating the MI-ECoG device,
+including soft- and photolithography, to form a device made from
+silicone, parylene-C, gold, and poly(3,4-ethylenedioxythiophene)
+polystyrene sulfonate (PEDOT:PSS) (Fig.1B).
+For the ﬂuidic platform of the MI-ECoG, we developed a unique
+device stack-up and polymer laser welding technique to achieve a
+device capable of sustaining the pressures required for shape
+actuation underneath the skull. In the centre of the device, a ﬂuidic
+chamber is formed from two layers of parylene-C separated with a thin
+soap-based anti-adhesion layer. Using a CO
+2 laser cutter allows the
+outline of the device to be deﬁned, as well as columns in the centre of
+the chamber that act as tie-points to reduce vertical expansion during
+actuation. By tuning the parameters of the laser, bonding between the
+two layers of parylene-C is achieved, with this bonding enabling the
+ﬂuidic chamber to contain high ﬂuidic pressures capable of actuating
+the device. This chamber is integrated with monolithic silicone fabri-
+cation to further increase pressure tolerance, through the encapsula-
+tion of the parylene-C ﬂuidic chamber with two layers of
+Polydimethylsiloxane (PDMS). The bonding between the two silicone
+layers that encapsulate the parylene-C chamber allows the formation
+of a 60 –70 µm thick device, with the PDMS encapsulation strength-
+ening resistance to leakage during actuation (full fabrication steps
+shown in Supplementary Fig. S1).
+Visibility of successful device expansion is restricted given that
+the skull is still in place, therefore, intraoperative X-ray imaging is
+required to enable surgical tracking. Opaque X-ray markers made from
+a silicone-bismuth composite are integrated on each side of the device
+to track expansion. We have shown previously that these are ﬂexible
+and biocompatible, suitable for integration into thin- ﬁlm implants
+42.
+The MI-ECoG device presented includes a 32-electrode array consist-
+ing of 1.6 mm diameter PEDOT:PSS electrodes (Fig. 1B), with a com-
+bination PEDOT:PSS/Au tracks in order to minimise electrode
+impedance. The full cross-sectional structure of the MI-ECoG is shown
+in Fig. 1C, D. Alternative electrode designs that could be integrated
+with the ﬂuidic component of the MI-ECoG are shown in the Supple-
+mentary Materials (Fig. S2).
+In order to deploy the ECoG device in the subdural space without
+a full craniotomy, the device must be able to expand within the con-
+ﬁned subdural space. The necessity of opening within the limited
+space guided the packaging approach. Rolling the implant, which has
+been shown previously to allow expansion in the spinal cord
+40, pre-
+vents expansion due to the pressure from the brain trapping the
+device. Instead, by employing origami-inspired packaging, each side of
+the device was folded in a concertina pattern, with the width of each
+fold set to 1 mm using a spacer. By folding the sides of the device, the
+ﬂuidic actuation drives lateral expansion that can overcome both the
+friction between the device and the arachnoid and the pressures
+required to slightly depress the brain and expand within the virtual
+subdural space.
+For subdural deployment, the device is folded and placed with a
+custom introduction tool (Fig. 1E). Heat-shrink tubing was shaped
+around surgical forceps using a guide to create a rectangular tip with
+an inner dimension of 4 × 1.5 mm. This secures the folds of the device
+during implantation and helps maintain correct device orientation.
+In-vitro mechanical validation
+In-vitro mechanical validation of the devices was required, given the
+challenge of device expansion in the limited subdural space. The
+maximum pressure that these devices could withstand was investigated
+(Fig. 2A). The devices were inﬂated at 1 ml/min with either air or water
+using a syringe pump coupled with a pressure transducer. The pressure
+was measured until failure, where aﬂuidic leak causes a large pressure
+drop. When inﬂated using air, the devices were able to hold 34–37 kPa
+of pressure, whilst in ﬂa t i o nw i t hw a t e rs i g n iﬁcantly increased the
+maximum pressure of the devices to 77–89 kPa. This maximal pressure
+tolerance is signiﬁcantly higher than our pre viously reported shape-
+changing implants, with the laser welded parylene-C ﬂuidic chamber
+enabling higher pressures to be used during expansion
+40.
+The expansion of the MI-ECoG device was tested in-vitro using a
+hydrogel brain/dura model to identify a suitable packaging metho-
+dology, and the ﬂuidic pressures required for reliable expansion. To
+represent the mechanical characteristics of the brain, a composite
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 2
+
+hydrogel of 6%/0.85% polyvinyl alcohol/phytagel was used which has
+been reported to have similar mechanical properties to porcine brain
+tissue
+43 (Fig. 2B). A thin layer of 4% agarose was placed on top of the
+brain hydrogel to mimic the properties of the dura. The MI-ECoG was
+tested in the brain phantom by ins erting and expanding the device
+below the 'dura' on top of the composite hydrogel layer. The depres-
+sion on the 'brain' by the MI-ECoG was monitored in the model, with a
+maximum depression of 2.5 mm during insertion using the custom
+tooling.
+By packaging the device with an origami-inspired concertina fold,
+ﬂuidic actuation could drive the full expansion in the in-vitro model
+(Fig. 2C, D). To achieve full expansion in-vitro, a constant air pressure
+of 16–17 kPa was applied manually using a syringe (Fig. 2E), less than
+half of the maximum pressure these devices are capable of containing.
+Using the hydrogel phantom model, the expansion of wider 50 mm
+designs of the MI-ECoG could be tested, demonstrating the application
+of the platform for larger ECoG designs (Fig. 2F).
+Porcine in-vivo validation of the MI-ECoG
+After successfully testing the expansion of the MI-ECoG in the in-vitro
+brain phantom model, the device was translated to porcine models.
+Commercially bred pigs, around 50 kgs, were used to test the
+implantation and expansion of the MI-ECoG device on the surface of
+the cortex. For this, the skin on the surface of the skull was partially
+removed and two 12 mm burr-holes were drilled to allow implantation
+of two MI-ECoG devices — one for each brain hemisphere. After the
+craniotomy, a small, 6 mm incision was made in the dura, allowing the
+fully packaged MI-ECoG to be inserted onto the surface of the cortex
+using the custom insertion tool described above (Fig. 3A). The small
+incision in the dura helped to prevent unwanted swelling of the brain
+and reduced cerebrospinal ﬂuid (CSF) leakage through the implanta-
+tion site in comparison to a full durotomy
+44. The custom tooling
+allowed for repositioning the device whilst maintaining the tightly
+packaged concertina folding if an incorrect placement was observed
+under imaging or surgical feel of the tool with sliding on the cortex.
+Saline was brieﬂy applied to help ensure the tool glided on the cortical
+surface without damage. To accurately test the expansion of the MI-
+ECoG, we ensured the device was implanted wholly underneath the
+skull using the custom insertion tool. This also helps ensure good
+cortical contact between the expanded MI-ECoG and the brain is
+achieved due to the intracranial pressure between the brain and
+the skull.
+Fig. 1 | Overview and design of the origami-inspired minimally invasive elec-
+trocorticography system. AIllustration of the MI-ECoG concept: (i) A folded ECoG
+device is implanted onto the cortical surface using a burr-hole craniotomy (ii)
+Expanded to using ﬂuidic actuation provide large-area cortical sensing.B An
+overview of the fabricated thinﬁlm MI-ECoG device. The dashed line indicates the
+location of the 2D cross-section shown in Fig. 1D. C An exploded cross-sectional
+view of the structure of the MI-ECoG device.D A 2D cross-sectional diagram of the
+MI-ECoG device.E Illustration of the custom implantation tool used to package and
+insert the MI-ECoG. A cross-sectional illustration (not to scale) from the front of the
+tool shows the illustration of a folded MI-ECoG device packaged within the custom
+introduction tool.
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 3
+
+Once the folded MI-ECoG was inserted onto the cortical surface
+and the insertion tool removed, a syringe was connected and coupled
+to a pressure transducer. The devices were manually inﬂated with air to
+drive expansion in the subdural space, and the device was X-ray
+imaged before and after deployment. Using air pressure, the device
+was fully expanded onto the cortical surface from the initial 4 mm
+width conﬁned within the insertion tool to the full width of 20 mm
+(Fig. 3B), with the extent of expansion tracked through the X-ray
+ﬂuoroscopy screening taken during expansion. Lateral projections
+were also taken to help conﬁrm placement and ensure full expansion
+of the devices (Supplementary Fig. S3).
+To achieve expansion, air pressure was manually applied at
+14–17 kPa, similar to the pressure identiﬁed for expansion in-vitro, and
+signiﬁcantly beneath the maximum air pressure tolerance identi ﬁed
+previously (Fig. 3C). Air was chosen to actuate the device, both due
+to the compatibility with the pressure recording system and the
+ease of removal after expansion to ﬂatten the device to increase con-
+formability to the cortex. During the deployment procedure,
+the pressure was removed from the device mid-procedure to allow
+time to check the expansion distance using X-ray ﬂuoroscopy. When
+the total expansion distance was observed to not be the full width of
+the device, more pressure was applied to ensure full expansion before
+Fig. 2 | In vitro characterisation of the MI-ECoG system in a hydrogel brain
+phantom. ATime graph of the MI-ECoG devices being inﬂated using air or water at
+1 ml/min until device failure.B Illustration of the in-vitro brain phantom used to test
+the expansion of the devices. The MI-ECoG is placed on the surface of the brain
+phantom within the custom implantation tool, demonstrating the maximum dis-
+placement of the phantom. C Top-down view of the MI-ECoG expanding in-vitro
+within the brain phantom model, using air manually applied using a syringe to
+provideﬂuidic pressure.D Side view of the device before and after expansion in the
+brain phantom. After expansion, the pressure is removed from the device which
+conforms the device to the hydrogel model.E Air pressure applied to the MI-ECoG
+during expansion in-vitro. During expansion, the pressure was manually held at
+16–17 kPa, with the pressure removed after deployment to enable device con-
+formity to surrounding tissue.F Time-series images showing the expansion of a
+50 mm wide MI-ECoG in the brain phantom model using ~16 kPa pneumatic pres-
+sure applied using a syringe.
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 4
+
+conﬁrmation with X-ray imaging. After full expansion was conﬁrmed,
+the air pressure was removed from the device to reduce the thickness
+of the device and help increase cortical conformity prior to electro-
+physiology recordings.
+Following successful implantation, the fully deployed MI-ECoG
+was used to record cortical brain activity. The MI-ECoG was con-
+nected to an Intan RHS Stimulation/Recording system, and a
+reference gold electrode was placed subcutaneously above the skull.
+A 16-channel clinical grade PtIr ECoG was also surgically implanted
+onto the cortex of an anesthetised porcine using a traditional sur-
+gical craniotomy to provide a clinical comparison to the MI-ECoG
+(Supplementary Fig. S4). To quantify the impact of packaging and
+shape actuation on the MI-ECoG device, the impedance of the elec-
+trodes was measured at 1 kHz post-fabrication in saline and in-vivo
+Visual inspection
+C E
+D
+A
+5mm
+B
+10mm 10mm 10mm
+F
+T = 1s T = 3s
+T = 5s T = 7s
+5mm
+G H
+I J K L
+ii
+200µm
+i
+10mm 10mm
+Burr-hole
+MI-ECoG
+Dura mater
+X-ray 
+Markers
+Custom
+Introduction
+Tool
+100ms
+100µV
+Auditory Stimulation
+Applied
+Auditory Stimulation
+Baseline
+MI-ECoG
+Dura Mater
+MI-ECoG 
+devices Dura Mater
+T = 0s
+MI-ECoG
+PtIr ECoG
+MI-ECoG
+PtIr ECoG
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 5
+
+post-deployment onto the cortical surface (Fig. 3D). Post-deploy-
+ment, whilst the successfully fabricated electrodes are still con-
+ductive and in contact with the cortical surface, the mean impedance
+of the electrodes slightly increased from 7.87 ± 7.61 k Ω to
+9.17 ± 9.14 kΩ, within the accepted range for ECoG recordings
+45.T o
+verify functionality, we recorded auditory evoked potentials (AEPs)
+from the cortex using the Intan RHS system to demonstrate neural
+recordings from the anesthetised porcine. The AEPs were induced
+using a loud, instantaneous auditory stimulus from across the sur-
+gical theatre. AEPs were present on several channels compared to
+baseline recordings, indicating these electrodes were covering the
+region containing the auditory cortex, with other channels not
+recording any evoked potentials (Fig. 3E). A similar spatial response
+was observed from the PtIr ECoG (Supplementary Fig. S4). The AEPs
+recorded by the MI-ECoG have similar pro ﬁles to previously descri-
+bed signals in anesthetised pigs
+46, with a similar AEP response
+recorded by both the MI-ECoG post-expansion and the PtIr ECoG
+placed manually on the cortical surface (Fig.3F). The averaged power
+spectrum density of baseline and AEP recordings from both the MI-
+ECoG and PtIr shows minimal difference between the recordings
+from the traditionally implanted PtIr grid and the MI-ECoG post-
+expansion (Fig. 3G). The MI-ECoG also exhibited a similar signal-to-
+noise ratio (SNR) of 41 ± 1.8 dB compared to the SNR of 36.9 ± 2.5 dB
+for the PtIr when recording AEPS after expansion (Fig. 3H). The slight
+increase in SNR in the MI-ECoG can be attributed to a slightly lower
+noise ﬂoor in the electrophysiological recordings by the device. A
+second device could be also implanted on the other hemisphere to
+enable the potential for full cortical mapping (Supplementary
+Fig. S4). Critically, after full deployment of the device, it was
+demonstrated the MI-ECoG could be explanted by sliding the device
+back through the slit made in the dura used for insertion (Fig. 3I).
+This was possible as the thin-ﬁlm materials used in the design enable
+the device to self-compress to ﬁt back through the insertion hole
+after full deployment.
+MI-ECoG devices implanted in a separate pig were left in place
+ahead of a full craniotomy. This allowed us both to identify the ﬁnal
+positioning of two MI-ECoG devices implanted on both sides of the
+cortex post-deployment and to evaluate the impact of the MI-ECoGs on
+the brain surface. When the skull was fully removed, the MI-ECoG was
+shown to be fully expanded under the dura, with theﬁnal position down
+t h es i d eo ft h er i g h th e m i s p h e r e( F i g .3J). This corroborates the full
+expansion of the device after actuation inferred from the X-ray imaging.
+With the dura fully removed, the cortical surface was examined for any
+signs of damage caused by the implantation and expansion of the MI-
+ECoG (Fig. 3K). Visual inspection showed no visible damage was iden-
+tiﬁed underneath the deployment site of the MI-ECoG. Cross-sectional
+imaging of the cortex beneath the deployment site after extraction
+showed no visible morphological changes or damage, with the thickness
+of the cortex in regions being unchanged or non-signiﬁcantly reduced
+(Fig. 3L). Cortical bleeding as a result of rupturing tissue during
+deployment was also not observed in the neuronal imaging.
+Discussion
+In this work, we leverage soft-robotic technologies in clinically chal-
+lenging environments for minimally invasive neural interfaces. When
+applying our shape-changing paradigm to the brain, a key challenge is
+device actuation in a mechanically challenging environment. We have
+shown that through improvements in theﬂuidic design, we are able to
+introduce an origami-inspired folded ECoG subdurally through a burr-
+hole, before enabling large-area cortical coverage through shape-
+actuation. Once deployed, our MI-ECoG fully expands to cover a cor-
+tical area of 600 mm
+2. The dimensions of the MI-ECoG were limited
+only by the size and surgical access of the porcine models available,
+with larger MI-ECoG designs being able to be tested in hydrogel brain
+phantom models only. Our MI-ECoG was able to deploy a 32-electrode
+PEDOT:PSS/gold array onto the surface, where AEPs consistent with
+previous work
+46 were recorded from the cortex, with no visible chan-
+ges to the implantation site. The recordings of AEPs obtained by the
+MI-ECoG were comparable to recordings obtained using a traditionally
+implanted, 200 µm thick silicone PtIr foil ECoG, with similar power
+density spectrum proﬁles and SNR to the recordings of AEPs obtained
+with the PtIr device. This demonstrates that the MI-ECoG had good
+contact with the cortical surface post-expansion and is able to achieve
+similar electrophysiological performance to a traditionally implanted
+array. After deployment, the thin-ﬁlm design of the MI-ECoG allows the
+removal of the device through the same entry burr-hole. This could
+prevent further surgical craniotomies from being performed on a
+patient after clinical monitoring.
+Whilst we have demonstrated deployment of an MI-ECoG with
+gold-based thin-ﬁlm electrodes for cortical recording, the advantage
+of our system is that theﬂuidic deployment platform is independent of
+the electrical design. The thin-ﬁlm electrode materials and layout can
+be tailored to speci ﬁc clinical applications, for example, electrodes
+constructed entirely out of PEDOT:PSS could be better suited for sti-
+mulation applications
+47. Testing the device with more standard ECoG
+fabrication approaches, such as the use of patterned metal foils, could
+further enhance the translatability of the expanding MI-ECoG concept.
+Further developments in the MI-ECoG design would need to ensure
+compatibility with further surgical imaging and guidance techniques
+that would be used during or after device implantation, such as X-ray
+ﬂuoroscopy, CT, and MRI. Higher-density electrode layouts could also
+be explored, however, this would have to be complementary with
+innovations in high-density, thinﬁlm connections that would both not
+hinder device expansion and maintain the minimal dura opening.
+Compatibility with robotic and surgical neural navigation systems
+could also be explored.
+The success of device expansion relied on the robustness of the
+soft robotic design and the device packaging for deployment, found
+Fig. 3 | In vivo implantation and expansion of an MI-ECoG device in an acute
+porcine model. A Illustration of an MI-ECoG device being deployed subdurally
+onto the cortex in a porcine model. The device is being deployed through a burr-
+hole craniotomy, with a small slit cut in the dura to allow insertion.B X-ray images
+of the MI-ECoG device before, during and after expansion of the device, with the
+white boxes showing the outline of the device tracked using the X-ray opaque
+markers. At the beginning of the deployment, the custom introduction tool can be
+seen in the X-ray ﬂuoroscopy containing the folded MI-ECoG.C Air pressure is
+manually applied to the device using a syringe to deploy the MI-ECoG. During
+expansion, the pressure was manually maintained at 14–17 kPa and was temporarily
+removed to allow visual inspection.D Impedance of the working electrodes (n =2 6 )
+measured at 1 kHz pre-implantation in saline and post-deployment on the cortex.
+Plot indicates median (middle line), 25th, 75th percentile (box), and 5th and 95th
+percentile (whiskers).E Recordings of induced AEPs (shown in black) from the
+surface of the cortex post-expansion from the deployed MI-ECoG electrode array,
+in comparison to baseline recordings (shown in grey).F Mean AEPs recorded by a
+representative channel on both the MI-ECoG (shown in blue) and a traditionally
+implanted PtIr ECoG (shown in red). Data are presented as mean values +/- SD.
+G Mean Power Spectral Density response of the AEP recordings obtained by the MI-
+ECoG (shown in blue) and the PtIr (shown in red).H Signal-to-noise ratio of the AEPs
+recorded by both the MI-ECoG (shown in blue) and PtIr ECoG (shown in red). Data
+are presented as mean values +/- SD (n = 15). I Time series of a deployed MI-ECoG
+device being explanted through the burr-hole craniotomy. This procedure was
+repeated in four animal experiments, including on the cortex used for histology.
+K Device placement of two MI-ECoG devices on the surface of the cortex after
+deployment withﬂuidic shape actuation.J Image of the brain after deployment with
+the dura and MI-ECoG devices removed. L Histology showing stained slices of the
+cortex from the MI-ECoG implantation site from the (i) Left Hemisphere and the (ii)
+Right Hemisphere of the cortex. The cortical layers are labelled accordingly.
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 6
+
+through in-vitro testing in a hydrogel model. Our previous work on
+shape-actuation for the spinal cord relied on the bonding of two
+layers of PDMS to provide support for ﬂuidic actuation. By devel-
+oping an actuation chamber made through bonding two layers of
+parylene-C, the maximum air pressure tolerance of the soft devices
+was increased to 30 –35 kPa from the previously reported 8 –12 kPa
+for the PDMS-based device. The increased pressure tolerance of
+these devices allows for their reliable expansion in con ﬁned envir-
+onments that require pressures greater than was achievable with our
+previous devices. Due to parylene-C ’s increased resistance to defor-
+mation in comparison to PDMS, there was a signi ﬁcantly reduced
+ﬂuidic failure rate of the devices during both fabrication and in-vitro
+testing by reducing the number of pin-hole defects and tears during
+fabrication. This optimisation has led to a ﬂuidic fabrication yield of
+>95%. The overall thickness of the device, whilst thicker than some
+other thin-ﬁlm ECoG designs, is thinner than clinical ECoG devices
+and other silicone ECoG devices
+18,41. This helps improve the cortical
+contact of the MI-ECoG post-expansion to enable high-quality elec-
+trophysiological recordings.
+Packaging methodology was an important optimisation route
+investigated both in-vitro and in-vivo when developing these shape-
+changing devices. The requirement of expanding the devices in the
+virtual subdural space presented challenges in minimising the
+implantation footprint. By concertina folding the sides of the device,
+movement of the device was con ﬁned to a single plane, enabling
+expansion across the cortical surface. However, to enable clinical
+translation of the device, further reﬁnement in the deployment tool is
+required to be suitable for use in a surgical setting, with the aim to
+improve usability and minimise deployment failures as a result of poor
+implantation procedure. A reduction in tool size could enable com-
+patibility with new types of minimally invasive surgical techniques,
+such as a micro-slit craniotomy
+24. This will be the subject of future
+research alongside the integration of improved electrode connections
+that allow compatibility with surgical anchoring to the surrounding
+tissue when used for chronic recordings.
+We have shown that with soft robotic design and selective
+packaging techniques, large-area shape-changing neural interfaces can
+be deployed in mechanically challenging environments. In comparison
+to previous shape-actuating neural implants, our approach mimics the
+surgical implantation approach of ECoG strip devices
+48,49, with the aim
+to further reduce the implantation footprint required to become
+compatible with a micro-slit implantation approach. We have
+demonstrated our origami-inspired packaging approach enables the
+MI-ECoG to have a 5× increase in cortical area coverage after actuation
+in comparison with the coverage achieved during initial implantation.
+The demonstrated cortical coverage here is 6.7× larger than the
+eversion soft robotic ECoG strip described by ref.41 whilst only using a
+6 mm slit in the dura for insertion. During the testing of our device, the
+skull was left fully in place, with no pre-treatment to affect brain
+volume to ensure fully representative surgical conditions with our
+porcine model. Despite this, we were still able to demonstrate a 2×
+larger cortical coverage to another unfolding ECoG design that
+required a full craniotomy
+44. The unfolding approach to expansion, as
+it is independent of device width, enables the geometry of the device
+to be tailored to the clinical footprint required for either short-term
+large-area clinical mapping, or longer-term recording from coverage of
+speciﬁc cortical regions. In the future, we envision that the MI-ECoG
+implantation and deployment strategy will enable device designs that
+integrate electrode layouts already applied in clinical use as well as
+novel microelectrode designs. Our robust soft-robotic actuation
+chamber design could also be tested with alternative origami-inspired
+folded structures with the aim of further minimising the initial
+implantation footprint.
+Through this work, we show that micron-thin biocompatible
+materials combined with rapid prototyping and soft-lithography
+techniques can make existing neural interface architectures suitable
+for minimally invasive implantation. Through careful design of
+the implant geometry, novel bioelectronic devices can be engi-
+neered to reliably expand in complement to the surrounding tissue
+thereby reducing surgical side effects and complications. We
+anticipate this paradigm in minimally-invasive design will enable
+wider clinical use of ECoG as well as new routes of bioelectronic
+medicine and new applications of ECoG previously unexplored due
+to surgical risk.
+Methods
+Fabrication of MI-ECoG
+To form the ﬂuidic chamber in the centre of the device, a 4µm layer of
+parylene-C was initially deposited onto a glass slide coated in 3% soap
+solution (Micro 90, VWR). Another layer of 3% soap solution was spin-
+coated on the parylene-C at 1000 rpm for 30 s before a second 4 µm
+layer of parylene-C was deposited. The chamber was then laser cut
+from the two layers of parylene using a 30 W, 10.6µmC O
+2 laser cutter
+(VLS2.3, Universal Laser Systems). To form the body of the ﬂuidic,
+PDMS (Sylgard 184, Dow) was mixed at a 1:10 ratio of curing agent to
+silicone base, before being spin-coated onto a glass slide coated with
+4 µm parylene-C at 3000 rpm for 90 s. The silicone was partially cured
+at 60 °C for 3 min before the laser-cut ﬂuidic chamber was placed on
+top. This was capped with further PDMS by blade coating using a 50µm
+spacer. X-ray opaque markers were formed by mixing Bismuth powder
+(mesh 100, Sigma-Aldrich) with PDMS at a Bi:PDMS 1:4 w/w ratio and
+cured in a 3D printed mould. These were placed on the sides of the
+device before a full cure at 90 °C for 1 h. The device was treated with a
+silane solution (A-174, Sigma-Aldrich) before a 4µm layer of parylene-C
+was deposited.
+After releasing from the substrate, an incision was made in the
+neck of the ﬂuidic chamber, and a Polytetra ﬂuoroethylene (PTFE)
+ﬂuidic tube (Bohlender 0.4 mm outer diameter/0.2 mm inner dia-
+meter, VWR) was inserted into the centre of the device. This tube was
+capped and small holes pierced down the length before insertion. The
+device was then sealed by injecting UV curing adhesive (Loctite
+358, RS).
+The electronics were fabricated using standard photolithographic
+processes. Brieﬂy, AZnlof 2035 (Merck) photoresist was spin-coated
+onto a Silicon wafer coated in 2 µm parylene-C at 3000 rpm for 30 s
+before a soft bake for 60 s at 100 °C. The wafer was exposed to ultra-
+violet (UV) light (8 s, 80 mJ/cm
+2) using a MA/BA6 contact mask aligner
+(Karl Suss) through a plastic photomask (JD Photodata). A second
+baking step was applied for 60 s at 115 °C before development in AZ726
+(Merck) for 120 s. After development, the samples were rinsed using
+deionised (DI) water and dried using compressed nitrogen.
+The substrate with developed resist was activated with O
+2 plasma
+(Diener Pico) at 0.6 mbar for 60 s at 100 W. 10 µmT ia n d1 0 0µmA u
+were deposited sequentially on the activated substrate under vacuum
+(<6 × 10–7 mtorr) in a PVD75 E-Beam system (Kurt Lesker), with a 10 min
+rest period between each deposition. The substrates were soaked in
+acetone for 1 h to perform lift-off, before spraying with acetone and
+gentle wiping with a sponge to remove excess resist. The substrates
+were washed with isopropyl alcohol before inspection to ensure
+complete lift-off under a microscope.
+As e c o n d2µm layer of parylene-C was deposited on the substrate
+before AZ 10xt (Merck) photoresist was spin-coated at 3000 rpm for
+30 s. After a soft bake at 110 °C for 120 s, the substrate was exposed to
+UV light (20 s, 80 mJ/cm
+2) and then developed in 1:4 AZ400k:DI water
+solution for 4 min. The outline of the device was then etched using
+Reactive Ion Etching (Oxford Plasma Pro 80 RIE, 160 W, 50 sccm O2,
+5 sccm CF4) before the remaining resist was washed off with acetone. A
+3% soap solution (Micro 90, VWR) was spin-coated onto the wafers at
+1000 rpm for 30 s before a 2 µms a c r iﬁcial layer of parylene-C was
+deposited. AZ 10xt photoresist was developed using AZ 400k once
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 7
+
+again used to pattern the electrodes and contact pads, with the metal
+exposed with Reactive Ion Etching.
+A prepared PEDOT:PSS solution was spin-coated once at 1500 rpm
+for 30 s and twice at 3000 rpm for 30 s with a 60 s soft-bake at 110 °C
+between spin-coatings. To prepare the PEDOT:PSS solution, commer-
+cially available PEDOT:PSS solution (Heraeus Clevios PH1000) was
+mixed with 5% v/v ethylene glycol (Sigma-Aldrich), 0.05% wt. dodecyl
+benzene sulfonic acid (Sigma-Aldrich), and 1% 3-Glycidyloxypropyl
+trimethoxysilane (GOPS) (Sigma-Aldrich). The solution was ﬁltered
+using a PTFE 0.45µmm e m b r a n eﬁlter. After spin-coating, the sacriﬁcial
+layer of parylene-C was peeled off, leaving PEDOT:PSS on the electrode
+surface. The substrate was baked for 1 h at 120 °C to fully cross-link the
+PEDOT:PSS.
+The electronics were bonded to an FFC cable (RS) using a Finetech
+bonder (Pico Ma) and ACF tape (Hitachi). The electronics were ﬁnally
+bonded to the ﬂuidic device using 5 µm double-sided adhesive. The
+sides of the device were folded using 1 mm card spacers and packaged
+within the custom insertion tool. The tool was made from 120 mm
+tweezers with 1 mm thick PVC heat shrink (RS) moulded around a 3D
+printed guide, before being af ﬁxed to the tweezers using adhesive.
+During packaging, a 2 × 1 mm PDMS spacer was placed down the centre
+of the device to aid in deployment.
+Pressure testing
+To measure the ﬂuidic pressure whilst testing, the MI-ECoG devices
+were connected to a syringe via a 3D-printed t-connector that was
+connected to an MXP5100GP pressure sensor (NXP), with the pressure
+data recorded via an Arduino Mega (Fig. S5). To characterise the
+maximum pressure of the devices, a 10 ml syringe pump (KD Scientiﬁc)
+was connected to the system and the devices were inﬂated using either
+air or DI water at 1 ml/min. The experiments were stopped after a loss
+of pressure indicated by a pressure drop.
+In-vitro brain phantom testing
+The hydrogel brain phantom was made of a 1:1 w/w ratio of two
+hydrogels, polyvinyl alcohol (PVA) and Phytagel. 6% w/w of
+146,000–186,000 molecular weight PVA (Sigma-Aldrich) was mixed
+into DI water and stirred at 90 °C for 1 h until fully dissolved. 0.85% w/w
+Phytagel (Sigma-Aldrich) was mixed into DI water and stirred at 90 °C
+for 1 h until fully dissolved. The two hydrogels were then mixed at
+90 °C for 30 min. The solution was poured into a 100 mm petri dish
+and frozen for 24 h. After thawing, a thin layer of 4% w/w of Agarose
+(Sigma-Aldrich) dissolved in DI water was poured onto the surface until
+level with the top of the petri dish. The petri dish was cut to enable
+device implantation and secured to the base to create the brain
+phantom.
+After the device was implanted between the hydrogel layers
+in the brain phantom, the device was connected to a syringe
+through the pressure testing setup and manually in ﬂated until fully
+expanded.
+Porcine model testing
+Six implantations of the MI-ECoG were performed, two separate
+implantations in porcine cadavers directly post-euthanasia, and four
+devices in acute in-vivo porcine models.
+The in-vivo testing was carried out at the porcine experimental
+facility of the Department of Veterinary Medical Sciences of the Uni-
+versity of Bologna (52-2004-A, since 27/05/2004), and at the Bancroft
+Centre, University of Cambridge.
+All the procedures at the University of Bologna were performed in
+accordance with the current European Legislation and were approved
+by the Italian Ministry of Health, as dictated by the legislative decree
+26/2014 (approval number 434/2023-PR). At the University of Cam-
+bridge, the animal procedures were carried out in accordance with the
+UK Animals (Scientiﬁc Procedures) Act, 1986. Work was approved by
+the Animal Welfare and Ethical Review Body of the University of
+Cambridge, and was approved by the UK Home Ofﬁce (project licence
+no. PP6076787).
+Six commercial hybrid pigs (Large White × Landrance × Duroc),
+with a mean body weight of 50 kg, were enrolled in the study. Prior to
+the procedures, animals were considered healthy on the basis of clin-
+ical examination. Sex was not considered in this study.
+For the two implantations of the MI-ECoG in porcine cadavers, the
+animals were euthanized for tissue samplings as sham controls for
+other experimental protocols approved by the Italian Ministry of
+Health, as dictated by the legislative decree 26/2014. Brieﬂy, pigs (body
+weight 30–45 kgs) were deeply sedated intramuscularly with a mixture
+of tiletamine-zolazepam (3 mg/kg) and dexmedetomidine (0.015 mg/
+kg) and then euthanized upon intravenous barbiturates overdose
+(thiopental sodium, 60 mg/kg). For the experimental preparation,
+immediately after euthanasia, cadavers were placed in sternal recum-
+bency, and the skin covering the frontal bone was removed. Burr holes
+were drilled using a craniotome equipped with 3 mm carbon steel ball
+drill bits, 5 mm above a line connecting the dorsal margins of the orbits
+and 5 mm laterally to the sagittal midline. Once exposed, the dura
+mater was gently lifted using anatomical forceps and cut with a
+#11 scalpel blade. Device insertion was performed under ﬂuoroscopy
+guidance (Arcadis Avantic, SIEMENS). The device was then connected
+via the pressure testing setup to a syringe and the device was manually
+inﬂated.
+For the four implantations of MI-ECoG devices in acute porcine
+models, the pigs were deeply sedated intramuscularly with a mixture of
+tiletamine-zolazepam (3 mg/kg) and dexmedetomidine (0.015 mg/kg).
+Once lateral recumbency was achieved, an intravenous catheter (20
+Gauge) was placed in the auricular vein, and general anaesthesia was
+induced with propofol (3 –5 mg/kg). Pigs were then orotracheally
+intubated and connected to a mechanical ventilator to grant respira-
+tory support and inhalational anaesthesia maintenance (Sevo ﬂurane
+2–4% in a 1:1 air/oxygen mixture). The respiratory rate was set to
+maintain normocapnia throughout the entire procedure. Systemic
+analgesia was achieved upon constant rate infusion of fentanyl
+(0.01–0.03 mg/kg/h), while ﬂuid therapy (lactated ringer) was set at
+6–8 ml/kg/h. Standard anaesthetic monitoring was set up, including
+SpO2, heart (HR) and respiratory (RR) rates, capnometry (CO2) and
+capnography, non-invasive blood pressure, and rectal temperature (T).
+For the entire procedure, animals were placed in sternal recumbency.
+Upon skull exposure, burr holes were drilled using a neurosurgical
+power system (ELAN 4, Aesculap) equipped with a 12/15 mm Hudson
+craniotome burr, 5 mm above a line connecting the dorsal margins of
+the orbits and 5 mm laterally to the sagittal midline. Once exposed, the
+dura mater was gently lifted using anatomical forceps and cut with a
+#11 scalpel blade. Device insertion was performed under ﬂuoroscopy
+guidance (Arcadis Avantic, SIEMENS). The device was then connected
+via the pressure testing setup to a syringe and the device was manually
+inﬂated.
+To provide a clinical comparison a silicone, 16-channel PtIr ECoG
+(Cortec GMBH) was introduced manually onto the cortex. A cra-
+niotomy was performed above the Right Hand Hemisphere of the
+cortex, with the dura mater opened. The device was then manually
+placed onto the surface of the cortex, with good cortical contract
+ensured. The ECoG was connected to a 32-channel RHS stim/record
+head stage (Intan) for electrical characterisation and electrophysiology
+recording.
+To avoid pharmacological interference during electrophysiology
+recording, fentanyl infusion was stopped 10 min before, and anaes-
+thesia maintenance was switched from inhalational to TIVA (total
+intravenous anaesthesia) achieved by means of propofol (0.1–0.2 mg/
+kg/min). Respiratory support was maintained.
+At the end of the procedure, animals were euthanized by means of
+barbiturate overdose (thiopental sodium, 60 mg/kg). Upon death
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 8
+
+conﬁrmation, a full craniotomy was immediately performed to expose
+and collect the brain, which was ﬁxed in formalin.
+Electrical characterisation
+To electrically characterise the device, an Intan 128-channel RHS Sti-
+mulation/Recording system was used with IntanRHX v3.0.4. The MI-
+ECoG was connected to the system with a 32-channel RHS stim/record
+head stage (Intan) with a custom PCB. Impedance was measured at
+1 kHz, with the device pre-implantation measured in phosphate-
+buffered saline (PBS) solution (0.01 M, Sigma-Aldrich) with a Gold
+reference electrode. For the post-deployment impedance measure-
+ment, a subcutaneous pocket was created underneath the skin of the
+porcine model, with a Polyethylene terephthalate (PET) ﬁlm covered
+with Au inserted underneath as a reference electrode. Electro-
+physiology recordings were acquired in the same setup. Electro-
+physiology recordings were carried out at a sampling rate of 30 kHz,
+followed by ﬁltering using a notch ﬁlter at 50 Hz and a 0.1 –200 Hz
+bandpass ﬁlter. The AEPs were stimulated by a loud clap created from
+across the surgical theatre. The electrical setup used in the porcine
+testing is shown in Fig. S5. Electrochemical data was acquired using a
+Palmsens 4 with PSTrace 5.9. Data analysis and plotting were per-
+formed with Matlab2021a.
+Histology
+Smaller blocks, containing the involved cortex, were cut from the
+formalin-ﬁxed brains, washed in PBS (pH 7.4), cryoprotected in 20%
+glycerol in 0.02 M PBS (pH 7.4) at +4 °C for 48 h, frozen in dry ice, and
+stored at –70 °C. 15 µm thick frozen coronal sections throughout the
+entire rostrocaudal extent of the involved cortex were cut with a
+sliding microtome. The sections were stained with thionin as follows.
+Sections were taken out of the 10% formaldehyde solution, mounted
+on gelatin-coated slides, and dried overnight at 37 °C. Sections were
+defatted 1 h in a mixture of chloroform/ethanol 100% (1:1), and then
+rehydrated through a graded series of ethanol, 2 × 2 min in 100%
+ethanol, 2 min in 96% ethanol, 2 min in 70% ethanol, 2 min in50%
+ethanol, 2 min in dH2O, and stained 30 s in a 0.125% thionin (Fisher
+Scientiﬁc) solution, dehydrated and coverslipped with Entellan
+(Merck, Darmstadt, Germany). of sections to be stained with thionin
+was stored in 10% formalin. The thickness of the cortex and of each
+cortical layer was measured on thionin-stained coronal. Images were
+captured using a digital camera (AxioCam ERc5s®, Zeiss, Germany),
+and linear measurements were performed using the AxioVision
+Rel.4.8 software (Zeiss). For each layer and for the entire cortex, 3 –6
+measurements were taken in each cortical area.
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+All data supporting the ﬁndings of this study are available within the
+article and its supplementary ﬁles. Any additional requests for infor-
+mation can be directed to, and will be ful ﬁlled by, the corresponding
+authors. Source data are provided with this paper.
+References
+1. Chiang, C.-H. et al. Development of a neural interface for high-
+deﬁnition, long-term recording in rodents and nonhuman primates.
+Sci. Transl. Med. 12, eaay4682 (2020).
+2. Dubey, A. & Ray, S. Cortical electrocorticogram (ECoG) is a local
+signal. J. Neurosci. 39,4 2 9 9–4311 (2019).
+3. Yang, T., Hakimian, S. & Schwartz, T. H. Intraoperative electro-
+corticography (ECog): indications, techniques, and utility in epi-
+lepsy surgery. Epileptic Disord.16,2 7 1–279 (2014).
+4. Hill, N. J. et al. Recording human electrocorticographic (ECoG)
+signals for neuroscientiﬁc research and real-time functional cor-
+tical mapping. J. Vis. Exp. 3993 (2012) https://doi.org/10.
+3791/3993.
+5. Schalk, G. Can electrocorticography (ECoG) support robust
+and powerful brain-computer interfaces?Front. Neuroeng.3,
+9( 2 0 1 0 ) .
+6. Leuthardt, E. C., Schalk, G., Wolpaw, J. R., Ojemann, J. G. & Moran,
+D. W. A brain-computer interface using electrocorticographic sig-
+nals in humans. J. Neural Eng. 1,6 3–71 (2004).
+7. Ibayashi, K. et al. Decoding speech with integrated hybrid signals
+recorded from the human ventral motor cortex.Front. Neurosci.12,
+221 (2018).
+8. Proix, T. et al. Imagined speech can be decoded from low- and
+cross-frequency intracranial EEG features.Nat. Commun. 13,
+48 (2022).
+9 . V o l k o v a ,K . ,L e b e d e v ,M .A . ,K a p l a n ,A .&O s s a d t c h i ,A .D e c o d i n g
+movement from electrocorticographic activity: a review.Front.
+Neuroinformatics13,7 4( 2 0 1 9 ) .
+10. Fifer, M. S. et al. Towards electrocorticographic control of a dex-
+terous upper limb prosthesis.IEEE Pulse 3,3 8–42 (2012).
+11. Yanagisawa, T. et al. Electrocorticographic control of a prosthetic
+arm in paralyzed patients.Ann. Neurol. 71,3 5 3–361 (2012).
+12. Boddeti, U., McAfee, D., Khan, A ., Bachani, M. & Ksendzovsky, A.
+Responsive neurostimulation for seizure control: current status and
+future directions.Biomedicines10, 2677 (2022).
+13. Kokkinos, V., Sisterson, N. D., Wozny, T. A. & Richardson, R. M.
+Association of closed-loop brain stimulation neurophysiological
+features with seizure control among patients with focal epilepsy.
+JAMA Neurol. 76,8 0 0–808 (2019).
+14. Jiménez-Martínez, E. et al. Risk factors for surgical site infection
+after craniotomy: a prospective cohort study.Antimicrob. Resist.
+Infect. Control 8,6 9( 2 0 1 9 ) .
+1 5 . S a l e h i ,A . ,Y a n g ,P .H .&S m y t h ,M .D .S i n g l e - c e n t e rc o s tc o m p a r i s o n
+analysis of stereoelectroencephalography with subdural grid and
+strip implantation.J. Neurosurg. Pediatr.
+29,5 6 8–574 (2022).
+16. Kim, D.-H. et al. Dissolvable ﬁlms of silk ﬁbroin for ultrathin, con-
+formal bio-integrated electronics.Nat. Mater. 9,5 1 1–517 (2010).
+17. Renz, A. F. et al. Opto-E-dura: a soft, stretchable ECoG array for
+multimodal, multiscale neuroscience.Adv. Healthc. Mater. 9,
+2000814 (2020).
+18. Fallegger, F. et al. MRI-compatible and conformal electro-
+corticography grids for translational research.Adv. Sci. 8,
+2003761 (2021).
+19. Khodagholy, D. et al. In vivo recordings of brain activity using
+organic transistors.Nat. Commun. 4,1 5 7 5( 2 0 1 3 ) .
+20. Khodagholy, D. et al. NeuroGrid: recording action potentials from
+the surface of the brain. Nat. Neurosci. 18,3 1 0–315 (2015).
+21. Rubehn, B., Bosman, C., Oostenveld, R., Fries, P. & Stieglitz, T. A
+MEMS-basedﬂexible multichannel ECoG-electrode array.J. Neural
+Eng. 6,0 3 6 0 0 3( 2 0 0 9 ) .
+22. Lee, J. M. et al. The ultra-thin, minimally invasive surface electrode
+array NeuroWeb for probing neural activity.Nat. Commun. 14,
+7088 (2023).
+23. Skoch, J. et al. Subdural grid and depth electrode monitoring in
+pediatric patients.Epilepsia 58,5 6–65 (2017).
+24. Ho, E. et al. The layer 7 cortical interface: a scalable and minimally
+invasive brain–computer interface platform. 2022.01.02.474656
+Preprint at https://doi.org/10.1101/2022.01.02.474656(2022).
+2 5 . L i n ,D . ,L e e ,J .M . ,W a n g ,C . ,P a r k ,H . - G .&L i e b e r ,C .M .I n j e c t a b l e
+ventral spinal stimulator evokes programmable and biomimetic
+hindlimb motion.Nano Lett. 23,6 1 8 4–6192 (2023).
+2 6 . L e e ,J .M .e ta l .S t i t c h i n gﬂexible electronics into the brain.Adv. Sci.
+10, 2300220 (2023).
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 9
+
+2 7 . K i m ,J .e ta l .I n j e c t a b l e2 Dm a t e r i a l‐based Sensor Array for minimally
+invasive neural implants.Adv. Mater. e2400261 https://doi.org/10.
+1002/adma.202400261(2024).
+28. Liu, J. et al. Syringe-injectable electronics. Nat. Nanotechnol.10,
+629–636 (2015).
+29. George, D. D., Ojemann, S. G., Drees, C. & Thompson, J. A. Stimu-
+lation mapping using stereoelectroencephalography: current and
+future directions.Front. Neurol. 11,3 2 0( 2 0 2 0 ) .
+30. Youngerman, B. E., Khan, F. A. & McKhann, G. M. Stereoelec-
+troencephalography in epilepsy, cognitive neurophysiology, and
+psychiatric disease: safety, efﬁcacy, and place in therapy. Neu-
+ropsychiatr. Dis. Treat.15,1 7 0 1–1716 (2019).
+31. Khoo, H. M. et al. Technical aspects of SEEG and its interpretation in
+the delineation of the epileptogenic zone.Neurol. Med. Chir. 60,
+565–580 (2020).
+32. Joseph, K. et al. Transcriptiona l characterization of the glial
+response due to chronic neural implantation ofﬂexible microp-
+robes. Biomaterials279, 121230 (2021).
+33. Coles, L., Oluwasanya, P. W., Karam, N. & Proctor, C. M. Fluidic
+enabled bioelectronic implants: opportunities and challenges.J.
+Mater. Chem. B 10, 7122–7131 (2022).
+34. Zhang, Y. et al. Climbing-inspired twining electrodes using shape
+memory for peripheral nervestimulation and recording.Sci. Adv.5,
+eaaw1066 (2019).
+35. Rosalia, L. et al. A soft robotic sleeve mimicking the haemody-
+namics and biomechanics of left ventricular pressure overload and
+aortic stenosis.Nat. Biomed. Eng. 6, 1134–1147 (2022).
+36. Kashyap, V. et al. Multilayer fabrication of durable catheter-
+deployable soft robotic sensor arrays for efﬁcient left atrial map-
+ping. Sci. Adv. 6,e a b c 6 8 0 0( 2 0 2 0 ) .
+3 7 . H a n ,M .e ta l .C a t h e t e r - i n t e g r a t ed soft multilayer electronic arrays
+for multiplexed sensing and actuation during cardiac surgery.Nat.
+Biomed. Eng. 4, 997–1009 (2020).
+38. Dolan, E. B. et al. An actuatable soft reservoir modulates host for-
+eign body response. Sci. Robot. 4, 7043 (2019).
+39. Beatty, R. et al. Soft robot –mediated autonomous adaptation to
+ﬁbrotic capsule formation for improved drug delivery.Sci. Robot.8,
+eabq4821 (2023).
+40. Woodington, B. J. et al. Electronics with shape actuation for mini-
+mally invasive spinal cord stimulation.Sci. Adv. 7, eabg7833 (2021).
+4 1 . S o n g ,S . ,F a l l e g g e r ,F . ,T r o u i l l e t ,A . ,K i m ,K .&L a c o u r ,S .P .D e p l o y -
+ment of an electrocorticography system with a soft robotic actua-
+tor. Sci. Robot. 8,e a d d 1 0 0 2( 2 0 2 3 ) .
+42. Woodington, B. J. et al. X-ray markers for thin ﬁlm implants. Adv.
+Healthc. Mater. 11, 2200739 (2022).
+4 3 . F o r t e ,A .E . ,G a l v a n ,S . ,M a n i e r i ,F . ,R o d r i g u e zyB a e n a ,F .&D i n i ,D .A
+composite hydrogel for brain tissue phantoms.Mater. Des. 112,
+227–238 (2016).
+44. Wei, S. et al. Shape-changing electrode array for minimally invasive
+large-scale intracranial brain activity mapping.Nat. Commun. 15,
+715 (2024).
+45. Park, D.-W. et al. Graphene-based carbon-layered electrode array
+technology for neural imaging and optogenetic applications.Nat.
+Commun. 5, 5258 (2014).
+4 6 . A n d r e w s ,R .J . ,K n i g h t ,R .T .&K i r b y ,R .P .E v o k e dp o t e n t i a lm a p p i n g
+of auditory and somatosensory cortices in the miniature swine.
+Neurosci. Lett. 114,2 7–31 (1990).
+47. Oldroyd, P., Gurke, J. & G. Malliaras, G. Stability of thin ﬁlm neuro-
+modulation electrodes under accelerated aging conditions.Adv.
+Funct. Mater. 33, 2208881 (2022).
+48. Steven, D. A., Andrade-Souza, Y. M., Burneo, J. G., McLachlan, R. S.
+& Parrent, A. G. Insertion of subdural strip electrodes for the
+investigation of temporal lobe epilepsy: technical note.J. Neuro-
+surg. 106, 1102–1106 (2007).
+49. Fountas, K. N. et al. Implantation of a closed-loop stimulation in the
+management of medically refractory focal epilepsy.Stereotact.
+Funct. Neurosurg.83,1 5 3–158 (2005).
+Acknowledgements
+L.C. acknowledges funding from the U.K. Engineering and Physical
+Sciences Research Council Centre for Doctoral Training in Sensor
+Technologies for a Healthy and Sustainable Future (EP/S023046/1).
+M.L.B. and D.V. acknowledge funding from the University of Bologna
+(RFO programme 2021–2022). A.C.L. acknowledges funding from the
+University of Cambridge Borysiewicz Fellowship program. B.J.W.
+acknowledges funding from the Engineering and Physical Sciences
+Research Council Centre for Doctoral Training in Sensor Technologies
+and Applications (EP/L015889/1). J.G.T. is supported by the National
+Institute for Health Research Invention for Innovation award
+(NIHR203355). M.M. is supported bythe Biotechnology and Biological
+Sciences Research Council (BB/T009314/1). D.G.B. is supported by
+Health Education England and the National Institute for Health Research
+HEE/NIHR ICA Program Clinical Lectureship (CL-2019-14-004). S.E.H.
+acknowledge funding from the National Institute of Health Research
+(NIHR) (G112655) and is the Laureate of the Helaers Research Prize for
+Neurosurgery. C.M.P. acknowledges funding from the U.K. Engineering
+and Physical Sciences Research Council IAA award, and the Bio-
+technology and Biological SciencesResearch Council David Phillips
+Fellowship (BB/T009314/1). The devices were built in the laboratory for
+prototyping soft neuroprosthetic technologies, funded by the Sir Jules
+Thorn charitable trust (233838).
+Author contributions
+The project was initially conceived and initiated by L.C., C.M.P.,
+B.J.W., G.G.M., and D.G.B. Device fabrication, development, and test-
+ing were carried out by L.C. In-vitro experiments were designed and
+analysed by L.C. Porcine experiments were carried out by L.C., C.M.P.,
+A.C.L., M.L.B., D.V. and A.E. Porcine surgery was carried out by S.E.H.,
+D.V., and A.E. X-ray ﬂuoroscopy imaging was performed D.V and A.E.
+A.C.L. and L.C. performed and analysed the electrical stimulation
+experiments and data. J.G.T. and M.M. provided the drawing renders of
+the device. L.C. produced the ﬁrst draft of the manuscript, C.M.P.,
+J.G.T., and L.C. edited the manuscript, and C.M.P. produced the ﬁnal
+draft of the manuscript. C.M.P., D.G.B., and G.G.M. oversaw the
+project.
+Competing interests
+C.M.P., D.G.B., G.G.M., and B.J.W. are inventors on a patent related to this
+work ﬁled by Cambridge Enterprise Ltd (no. PCT/GB2020/051684,ﬁled
+13 July 2020). The remaining authors declare no conﬂict of interest.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-50597-2.
+Correspondenceand requests for materials should be addressed to
+Christopher M. Proctor.
+Peer review informationNature Communicationsthanks the anon-
+ymous, reviewer(s) for their contribution to the peer review of this work.
+Ap e e rr e v i e wﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 10
+
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article https://doi.org/10.1038/s41467-024-50597-2
+Nature Communications|         (2024) 15:6290 11

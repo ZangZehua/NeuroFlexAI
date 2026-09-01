@@ -1,0 +1,818 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-024-00332-0
+Intrinsically stretchable OLEDs with a
+designed morphology-sustainable layer
+and stretchable metal cathode
+Check for updates
+Je-Heon Oh1,2,K u n - H o oJ e o n1,2 & Jin-Woo Park 1
+The development of wearable devices has increased the need for organic light-emitting diodes
+(OLEDs) that are soft, stretchable, and can integrate seamlessly with the human body. Traditional
+intrinsically stretchable OLEDs ( is-OLED) often suffer from reduced performance due to orthogonal
+solvent problem and lamination fabrication process, which can cause defects and delamination. To
+overcome these challenges, we developed a sequentially coated is-OLED and con ﬁrmed the
+maintenance of the designed morphologies of each layer and a highly stretchable metallic is-cathode.
+Our is-OLEDs achieved a maximum total luminance of 3151 cd m
+– 2 and a total current ef ﬁciency of
+5.4 cd A–1. It also demonstrated superior durability, with the ability to stretch up to 70% and maintain
+80% luminance after 300 cycles at 40% strain. This advancement suggests a promising future for
+durable and ef ﬁcient soft electronic devices.
+Organic light-emitting diodes (OLEDs) are pivotal in current display tech-
+nology due to their high energy efﬁciency and vibrant color reproduction1–3.
+The recent shift from rigid devices towardsoft electronics has sparked interest
+in stretchable OLEDs that mimic skin-like properties4–11.V a r i o u ss t r a t e g i e s ,
+including the use of nanocomposites with rigid nanostructures embedded in
+elastic polymer matrices or strain engineering, have beenexplored to trans-
+form rigid displays into stretchable architectures, though with compromises
+in device performance, stretchability, or resolution12–14. Intrinsically stretch-
+able polymer materials offer a promising alternative, maintaining stretch-
+ability even at high device densities
+15–23.W h i l es i g n iﬁcant progress has been
+made in enhancing the luminance and stretchability of intrinsically stretch-
+able OLEDs (is-OLEDs), challenges persist in reﬁning manufacturing pro-
+cesses and designing intrinsically stretchable materials.
+Previousis-OLED studies have focused on improving the stretchability
+of inherently rigid organic emissive layer (EML) by blending various materials
+and molecular structure design15–23. Triton X-100 (TX), poly(ethylene glycol)-
+block-poly(propylene glycol)-block-poly(ethylene glycol) (PEO-PPG-PEO)
+additives, polyurethane (PU), and polystyrene-block-polybutadiene-block-
+polystyrene (SBS) elastomers change the microstructure from rigid to
+stretchable
+15–20. Furthermore, synthesizing emitting molecules incorporating
+soft substances such as alkyl chains, butadiene, and poly(isoprene) modiﬁed
+the chain dynamics to render them stretchable 21–23. However, research
+focusing on other layers and fabrication process remains insufﬁcient.
+To fabricateis-OLEDs, solution coating, such as spin-coating, is usually
+performed. However, in many cases, the lack of solvent orthogonality
+between layers destroys the designed microstructure of the underlying layer,
+which signiﬁcantly reduces the stretchability24,25. Hence, in previous works
+by others, lamination was used to build up the layers inis-OLEDs. In Zhang
+et al., emissive layer (EML) and electron transport layer (ETL) surfaces were
+joined, and in Liu et al., the ETL and cathode surfaces were laminated. In
+many cases, a lack of solvent orthogonality occurred between the EML, ETL,
+and cathode layer. The lamination process includes alignment, interfacing,
+and hot pressing
+15–17,21. During this process, misalignment and pressure-
+induced defects and voids induce insuf ﬁcient layer contact, leading to
+delamination, dark spots, reduced fabrication yield, and decreased perfor-
+mance, especially under repeated stretching
+11.
+For high-performanceis-OLEDs, electrode materials such as stretch-
+able Al or Ag ﬁlms are expected to be most effective because of their
+inherently high charge carrier density and mobility3. Such materials can be
+deposited by thermal evaporation, minimizing damage to the underlying
+organic layers, and are easily patterned. However, metal ﬁlms inherently
+lack stretchability26–28. Hence, silver nanowires (AgNWs), graphene, and
+poly(2,3-dihydrothieno-1,4-dioxin)-poly(styrenesulfonate) (PEDOT:PSS)
+were widely used as stretchable cathodes, which are very limited candidates.
+A g N W sw e r ee m b e d d e di na ne l a s t o m e rmatrix to impart stretchability.
+Hence, they had to be fabricated on a separate substrate, followed by a
+physical lamination process onto the precoated organic layers
+16,21.G r a p h e n e
+cannot be directly synthesized on ETL surfaces; hence, its integration also
+involves a complex transfer process onto cathode surfaces, necessitating a
+subsequent lamination process
+16. While the PEDOT:PSS cathode can be
+directly spin-coated on organic surfaces, this approach risks damaging the
+underlayer due to the effect of the polar solvent on the ETL and the post-
+1Department of Materials Science and Engineering, Yonsei University, Seoul, 03722, Korea. 2These authors contributed equally: Je-Heon Oh, Kun-Hoo Jeon.
+e-mail: jwpark09@yonsei.ac.kr
+npj Flexible Electronics |            (2024) 8:43 1
+1234567890():,;
+1234567890():,;
+
+patterning process. As a result, PEDOT:PSS cathodes were also fabricated by
+a lamination process after the separate fabrication of is-cathodes15.I n
+summary, in addition to their inferior conductivity compared to that of
+conventional metallic cathodes, these materials inevitably require a manual
+lamination process during the fabrication ofis-OLEDs.
+In our previous study, we fabricated an is-OLED using a sequential
+coating process to achieve high static and cyclic stretchability
+18. However,
+there were challenges such as the high roughness of the cathode part, dif-
+ﬁculties in cathode patterning, and a lack of analysis on the impact of
+solution coating on the underlayer. Hence, in this study, we developed a
+hybrid fabrication process employing sequential solution coating and
+thermal evaporation. We develop ed a newly designed morphology-
+sustainableis-ETL and a highly stretchable metallic is-cathode, previously
+unexplored in is-OLED research. The is-ETL not only ensures a uniform
+surface but also sustains the designed morphology of the is-EML, thereby
+enhancing the electrical and mechanical properties ofis-OLEDs. Further-
+more, by adjusting the deposition conditions of the conventional brittle Ag
+metal ﬁlm, we successfully fabricated a stretchable Ag electrode with high
+electrical conductivity. As a result, our device achieved a maximum total
+luminance of 3,151 cd m
+−2 and a current ef ﬁciency of 5.4 cd A −1,m a i n -
+taining approximately 50% performance at 70% strain and 80% perfor-
+mance after 300 cycles of stretching tests. This work explores new
+stretchable materials and fabricati on processes and discusses potential
+challenges and advancements in mechanical and electrical properties,
+paving the way for the promising future ofis-OLED technology.
+Methods
+Preparation of is-EML and is-HTL
+For preparation of the is-EML solution, TX (Sigma‒Aldrich) was ﬁrst dis-
+solved in toluene at a concentration of 2.5 mg ml –1. Then, SY (PDY-132,
+Sigma‒Aldrich) was blended in the TX-dissolved toluene at a concentration
+of 5 mg ml–1. The blended solution was stirred at 300 rpm for 12 h at 60 °C.
+After stirring, the is-EML was spin-coated on the is-HTL composed of a
+1:1 solution of PEDOT:PSS (Al 4083, Heraeus Clevios) and isopropyl alcohol
+(IPA) with 5 wt% TX.
+Preparation of is-ETLs and Upper ETL
+For the is-ETL and upper ETL, a PFN-Br:PEIE:TX solution and a d-PEIE
+solution were prepared. For th e d-PEIE solution, PEIE (Sigma ‒Aldrich,
+37 wt%) and Cs 2CO3 (Sigma‒Aldrich) were codissolved in
+2-methoxyethanol (for which the weight ratio of PEIE to Cs2CO3 was 10:1)
+at a 4 wt% concentration. After sonication of the d-PEIE solution via
+ultrasonication, the d-PEIE solution was stirred at 80 °C for 12 h. For the
+PFN-Br:PEIE:TX solution, PEIE and TX were dissolved in methanol at a
+concentration of 4 mg ml
+−1. Then, 2 mg of PFN-Br (Ossila) was dissolved in
+0.5 ml of PEIE and 0.25 ml of a TX-blended solution (weight ratio of PFN-
+Br:PEIE:TX of 2:2:1) or 0.5 ml of a TX -blended solution (weight ratio of
+PFN-Br:PEIE:TX of 2:2:2).
+Mechanical characterization ofis-EMLs, is-ETLs, andis-cathode
+For the stretchable substrate, a PDMS substrate was cured on a polyethylene
+terephthalate (PET) substrate. The PDMS (Sylgard 184, Dow Corning) was
+prepared by mixing the base and agent at a 10:1 weight ratio and spin-
+coating the mixture on the PET substrate at 500 rpm for 30 s. The spin-
+coated PDMS was cured at 120 °C for 12 h. Then, the cured PDMS was
+peeled off from the PET substrate and used as a stretchable substrate.
+For mechanical characterization of the is-EMLs, COS analysis was
+performed for various solvent treatments. On the cured PDMS substrate,
+oxygen plasma was applied at 140 W for 90 s, and theis-HTL was spin-coated
+a t 5 0 0r p m f o r 6 0s a n d 1 0 0 0r p m f o r 1 0s . P D M S w i t h t h eis-HTL was
+annealed on a hot plate at 120 °C for 15 min. Then, the sample was trans-
+ferred to a glove boxﬁlled with nitrogen gas. Theis-EML was spin-coated on
+the is-HTL at 1500 rpm for 30 s and annealed at 90 °C for 10 min. Then,
+MeOH, IPA, and 2-methoxyethanol were spin-coated on the is-EML at
+4000 rpm for 30 s and annealed at 100 °C for 10 min. In the case of theis-ETL,
+theis-ETL was spin-coated at 5000 rpm for30 s on the plasma-treated PDMS
+substrate and annealed on the hot plate at 90 °C for 10 min in the glove box.
+The is-EMLs and is-ETLs on the PDMS substrate were loaded on a home-
+made stretching jig. Strain was applied in increments of 10% from 0 to 100%.
+Fabrication of the ITO anode based rigid OLEDs
+The slide glass substrate (Paul Marienfeld GmbH & Co. KG, Germany) was
+cut to 2.5 cm × 2.5 cm and sequentially washed in the sonication baths of
+acetone, IPA, and deionized water for 5 min each. On precleaned glass, ITO
+(150 nm thick) was deposited using direct current (DC) magnetron sput-
+tering and annealed at 300 °C for 30 min inside a glove box ﬁlled with
+nitrogen gas. On the ITO-coated glass, oxygen plasma was applied at 140 W
+for 90 s. On the plasma-treated ITO glass, an is-HTL solution was spin-
+coated at 2000 rpm for 60 s after being ﬁltered through a 1 μmp o l y t e t r a -
+ﬂuoroethylene (PTFE) syringeﬁlter and annealed at 120 °C for 20 min. The
+sample was then transferred into a glove boxﬁlled with nitrogen gas. On the
+is-HTL, the is-EML was spin-coated at 1500 rpm for 30 s and annealed at
+100 °C for 10 min. Then, the PFN-Br, PEIE, and TX-blended solution was
+spin-coated on theis-EML at 5000 rpm for 30 s and annealed at 100 °C for
+10 min. Finally, the Al cathode was thermally evaporated on theis-ETL with
+a 150 nm thickness.
+Fabrication of electron only device
+For electron only device fabrication, 150 nm Ag anode was deposited on the
+pre-cleaned glass substrate using th ermal evaporator. On the Ag anode,
+0.5 wt% d-PEIE solution was spin coated at 5000 rpm for 30 s and annealed
+at 100 °C for 10 min. It was then transferred into a glove box ﬁlled with
+nitrogen gas. On the d-PEIE,is-EML was spin-coated at 1500 rpm for 30 s
+and annealed at 100 °C for 10 min. Then, PFN-Br, PFNBr:PEIE,
+PFNBr:PEIE:TX blend solution was spin-coated on theis-EML at 5000 rpm
+for 30 s and annealed at 100 °C for 10 min. Finally, Al cathode was thermally
+evaporated on theis-ETL with 150 nm thickness.
+Preparation of FOTS on glass substrate
+A precleaned glass substrate wasﬁrst treated by O2 plasma at 140 W for 90 s.
+Then, the glass substrate was vapor annealed in a desiccator with tri-
+chloro(1H,1H,2H,2H-perﬂuorooctyl)silane (FOTS, Sigma‒Aldrich) solu-
+tion for 30 min and annealed at 150 °C for 30 min.
+Fabrication of is-OLEDs
+For the is-anode, 0.5 ml of a AgNW (with a diameter of 30 nm and a
+length of 30 μm; Novarials) solution (1 mg ml –1 concentration) was
+spray-coated on the FOTS-treated g lass substrate using a patterned
+metal mask. On the AgNWs, an aerogel solution with 4 wt% ethanol
+was spin-coated at 1000 rpm for 30 s and annealed at 100°C for
+10 min. Then, a PDMS solution in te trahydrofuran (THF) solvent
+( b a s ea n da g e n tr a t i oo f1 0 : 1a t2 0 m g m l
+–1) was spin-coated on the
+aerogel surface at 1000 rpm for 30 s. Additionally, PDMS (base and
+agent ratio of 10:1) was spin-coated at 300 rpm for 30 s and cured at
+120°C for 12 h. After the curing process, the AgNW-embedded PDMS
+was released from the glass substrate.
+The released AgNW-embedded PDMS substrate was reattached to a
+glass substrate with the AgNW electrode facing up. Before coating with the
+is-HTL, oxygen plasma was applied at 140 W for 90 s. Then, an is-HTL
+solution was spin-coated at 500 rpm for 60 s and 1000 rpm for 10 s after
+being ﬁltered through a 1μm PTFE syringeﬁlter and annealed at 120 °C for
+15 min. Theis-HTL-coated sample was transferred to a N
+2-ﬁlled glove box.
+In the glove box, the is-EML was spin-coated at 1500 rpm for 30 s and
+annealed at 90 °C for 5 min. On theis-EML,is-ETLs was sequentially coated.
+An is-ETL solution (PFN-Br:PEIE:TX) was spin-coated at 5000 rpm for 30 s
+and annealed at 90 °C for 5 min. Then, a Ag cathode was evaporated on the
+is-ETL at 1 Å s–1 up to 60 nm thickness. After the evaporation process, 4 wt%
+d-PEIE solution was spin-coated on the Ag surface at 1000 rpm for 30 s and
+annealed at 90 °C for 5 min. Finally, theis-OLED was released from the glass
+substrate. The 3 × 2 array device fabrication process was almost the same as
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 2
+
+the is-OLED fabrication process. Only the anode and cathode patterns and
+g l a s ss i z ew e r ed i f f e r e n tf r o mt h o s ef o rt h eis-OLEDs.
+Other characterization methods
+The surface morphology of eachﬁlm was characterized using AFM (NX-10,
+Park Systems) and ﬁeld-emission scanning electron microscopy (FE-SEM,
+IT-500HR, JEOL). The PL spectra of the devices were measured using a
+spectroﬂuorometer (FP- 8550, JASCO Co.). The microstructures were
+characterized by TEM (JEM-ARM200F“NEO ARM,” JEOL) and energy-
+dispersive X-ray spectrometry (EDS, JED-2300T (Dual), JEOL). The
+luminance–voltage–current density (L–V–J) characteristics and EL spectra
+were measured using a 2400 Keithley Sourcemeter and a CS-200 (CS-2000)
+Konica-Minolta Chromameter. The optical transmittance of the devices was
+measured using an ultraviolet–visible (UV–VIS) spectrophotometer (V-650,
+JASCO Co.).
+Results
+Designs of intrinsically stretchable OLED
+Figure 1a shows a schematic image of theis-O L E D sf a b r i c a t e di nt h i sw o r k .
+Figure1b summarizes our sequential coating processes from theis-anode to
+the upper ETL. All the detailed process for fabricatingis-O L E D si si l l u s t r a t e d
+in Supplementary Fig. 1. As shown in Fig. 1c, for the is-OLEDs, an intrin-
+sically stretchable hole transport layer (is-HTL) is formulated from PED-
+OT:PSS and the nonionic surfactant TX, and an intrinsically stretchable
+EML (is-EML) is composed of a commercial EML, Super Yellow (SY) and
+TX
+18. TX affects the conformation and microstructure of PEDOT:PSS and
+SY, resulting in highly stretchableis-HTL and is-EML18.
+As illustrated in Fig.1c, an intrinsically stretchable ETL (is-ETL) is spin-
+coated on the is-EML. Firstly, PFN-Br, disti nguished by its high lowest
+unoccupied molecular orbital (LUMO) level of 2.7 eV and low highest
+occupied molecular orbital (HOMO) level of 5.6 eV, was selected as theis-
+ETL (Fig. 1c). It offers signiﬁcant advantages for electron injection and hole
+blocking in OLED structures
+15,29. Furthermore, the addition of PEIE con-
+tributes to a notable increase in the stretchability of the material, reaching
+approximately 70% strain (Supplementary Fig. 2). In addition, we aimed to
+enhance the stretchability of the is-OLED by incorporating TX in ETL
+solution. Since TX, a nonionic surfactant, is soluble in most organic solvents,
+we anticipated potential changes in the characteristics of the EML when TX
+present on the SY surface is washed away. To preserve the morphology of the
+is-EML, TX was also introduced into the ETL. This addition ensures the
+maintenance of the designed morphology from the HTL to the ETL during
+the continuous coating process. Incorporating TX into the PFN-Br and PEIE
+matrix has been demonstrated to improve both the mechanical and electrical
+properties of theis-OLED, resulting in enhancedoverall device performance.
+Following theis-ETL coating process, anis-metal cathode is developed
+using evaporation, as shown in Fig.1e. To render metal cathode stretchable,
+modifying the interaction with the underlayer and adjusting the deposition
+conditions are crucial. Since our cathodes are positioned on top of the devices
+rather than directly above the elastomer substrate, options for the deposition
+surface are more constrained than those in previously reported stretchable
+metal studies
+30–33. The deposition surface must have (1) a smooth surface, (2)
+high compatibility (adhesion) with Ag atoms, and (3) appropriate energy
+levels for electron injection. Considering these conditions, we successfully
+fabricated a stretchable Ag electrode with high electrical conductivity byﬁne-
+tuning the deposition conditions of the traditionally brittle silver metalﬁlm.
+The precisely adjusted evaporation conditions for the stretchable metal
+cathode resulted in only microcracks onthe surface under stretching condi-
+tions, enabling efﬁcient electron movement between the microcracks (Fig.1e).
+Designed morphology sustainable electron transport layer
+For the is-EML, TX mixed with SY-conjugated polymers (Fig.1c) alters the
+morphology of the polymers from coiled to extended, resulting in high
+stretchability and electrical properties
+18. This morphological change is evident
+through the redshifted absorbance (Abs), blueshifted photoluminescence
+(PL), and changes in the atomic force microscopy (AFM) surface phase
+(Fig. 2a, Supplementary Figs. 4, 5). Here, we coated various solvents onis-
+EMLs to investigate the effect of dissolution ofis-EMLs in the solvent on the
+changes in the conformation and morphology of the is-EMLs (Fig. 2a).
+Regardless of the TX concentration in the SY and ETL materials, applying a
+solvent coating on the is-EML to coat the is-ETL reverts the Abs, PL, and
+phase changes to those of pristine SY (Supplementary Figs. 3, 4, 5).
+To conﬁrm the effect of TX incorporation in ETL solution, we measured
+the Abs and PL after spin coating the TX blended solvent on the is-EML.
+Figure2b, c shows the redshifted Abs and blueshifted PL peaks after coating,
+akin to the behavior of the is-EML. Moreover, increasing the TX con-
+centration better sustain the is-E M LA b sa n dP Lp e a k su pt o4 m g m l
+–1.
+Figure2d shows the effect of TX on the COS of theis-EML (Supplementary
+Figs. 3, 10). Mixing SY with TX increases the COS. Applying the solvent
+coating alone decreases the COS to 40%, whereas the solvent containing TX
+yields a COS of 60% at 1 mg ml
+–1,8 0 %a t2m gm l–1, and 90% at 4 mg ml–1.
+These ﬁndings suggest that the TX-blended solvent maintains the is-EML
+morphology, ensuring high stretchability. Therefore, coating of an ETL
+solution with TX is crucial for preserving the extended morphology of the
+is-EML.
+Figure2e shows the mechanical characteristics of the ternary blends of
+PFN-Br, PEIE, and TX. TX increases the COS of theis-ETL by increasing the
+free volume within the material and d ecreasing the crystallinity of the
+conjugated polymer (Supplementary Fig. 2)
+18,29. Hence, the ternary blend of
+the is-ETL with a ratio of 2:2:2 inherently exhibits high stretchability and is
+capable of withstanding up to 100% COS. When thisis-ETL is applied over
+the is-EML, the COS increases as the ratio of TX increases, matching the
+C O So ft h eis-EML itself. The introduction of TX into the PFN-Br:PEIE ETL
+has dual effects: providinghigh stretchability of theis-ETL and sustaining
+the designed morphology of the is-EML. This stretchability alignment
+between the is-ETL and is-EML is a signiﬁcant achievement, ensuring that
+the overall device can maintain its structural integrity and functional per-
+formance even under considerable m echanical strain. Furthermore, the
+ternary blendedis-ETL shows a uniform surface morphology, as shown in
+Supplementary Fig. 11.
+Figure 2f shows the electrical properties of the is-ETLs. Ultraviolet
+photoelectron spectroscopy (UPS) measurements, based on the TX
+blending ratio, reveal that the work function of 4.8 eV for the pristine Ag
+ﬁlm decreases to 3.3 eV following coating with a PFN-Br:PEIE (2:2) solu-
+tion. Additional blending of the ETL with TX results in work functions of
+3.25 eV for a 2:2:1 ratio and 3.35 eV for a 2:2:2 ratio, indicating similar
+electron injection characteristics (Supplementary Fig. 13, Supplementary
+Table 1). Triton X is an electrical insulator, but we estimate that the dipole of
+the nonionic surfactant TX lowers the work functions of PEIE and PFN-Br.
+A ss h o w ni nF i g .2g, we fabricated electron-only devices using theis-
+ETLs, the detailed structure of which is presented in Supplementary Fig. 14.
+Compared to PFN-Br, the PFN-Br:PEIE ETL exhibits a higher current
+density. Furthermore, as the TX blending ratio increases, the electron cur-
+rent density correspondingly increases. Thisﬁnding implies that the TX-
+blended is-ETL improves the electron transport properties by maintaining
+the extended morphology of theis-EML. Then, we fabricated devices with a
+conventional OLED structure using the is-ETLs (Fig. 2h). Figure 2i
+demonstrates the improved performance obtained with the TX-blendedis-
+ETLs compared to that obtained with the 2:2 ratio, and the increase in the
+efﬁciency is shown in Fig. 2k. Hence, the TX-blended is-ETLs not only
+exhibit inherently high mechanical and electrical properties but also help
+sustain the designed morphology of the is-EML, thereby enhancing its
+mechanical and electrical characteristics. Although the 2:2:1 ratio results in a
+slightly better performance, we chose a 2:2:2 ratio of theis-ETL for the is-
+OLED fabrication to enhance theis-EML stretchability.
+Intrinsically stretchable Ag metal cathode
+To render the Ag cathode stretchable, weﬁrst selected the underlying layer.
+The structure and properties of the deposited metal ﬁlm are signiﬁcantly
+inﬂuenced by the underlying layer. Ouris-ETL (PFN-Br:PEIE:TX), serving
+as the underlayer for the Ag cathode, e xhibits low surface roughness and
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 3
+
+suitable energy levels for electron t ransport (Supplementary Fig. 11 and
+Fig.2f). Moreover, the amine groups present in PEIE are compatible with Ag
+atoms through coordination bonds, acting as seed layers for the formation of
+ultrathin Ag ﬁlms
+26. Therefore, the is-ETL surface is suitable for forming a
+stretchable metal cathode.
+The deposition conditions were o ptimized to achieve both good
+optoelectrical properties and stret chability. The evaporation rate and
+thickness were adjusted during the thermal evaporation process (Ag20 to
+Ag100, where AgXX refers to a device with an XX nm deposition based on
+the quartz crystal microbalance). As the deposition proceeded, Ag cathodes
+Fig. 1 | Design of is-OLEDs and characterization of the is-ETL and is-cathode.
+a Schematic of an is-OLED structure from the is-anode to the upper ETL. b is-OLED
+fabrication process with sequential coating.c Device structure and components of an
+is-OLED. d Schematics of the is-EML morphology change after ETL solvent coating.
+Based on the various analysis results, by adding Triton X into the ETL solvent, the SY
+chains maintain an extended morphology after the is-ETL coating process, resulting
+in high stretchability. e Schematics of the is-cathode morphology and electron
+conducting mechanism under stretching conditions.
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 4
+
+exhibited three distinct stages according to the Volmer –Weber growth
+mechanism: (1) Stage I : discrete isla nds (Ag20), (2) Stage II : partially
+connected ﬁlm (Ag40 to Ag80), (3) Stage III : continuous ﬁlm (Ag100)
+(Fig. 3a and Supplementary Fig. 15).
+Discrete island morphologies in Stage I exhibit poor conductivity.
+On the other hand, continuous ﬁlm morphologies in Stage III make the
+cathode brittle34. Therefore, we focused on characterizing Ag cathodes in
+Stage II. As shown in scanning electron microscopy (SEM) and trans-
+mission electron microscopy (TEM) cross-section images in
+Supplementary Fig. 16, Ag grains start to coalescence to enhance con-
+nectivity between islands rather than grow in the thickness direction. As
+the deposition progressed from Ag40 to Ag60, the grains became
+increasingly densely connected, and the thickness reached approxi-
+mately 35 nm. Greater connectivity ensures high bulk conductivity but
+can also make the ﬁlm brittle. Furthermore, a high evaporation rate leads
+to continuous ﬁlms by suppressing Volmer –Weber growth, while a
+lower rate enhances stretchability due to the interlocking interface
+between the metal and substrate and the optimal grain size
+32,35.
+Fig. 2 | Design and characterization ofis-ETLs for highly stretchableis-functional
+layers. a UV‒vis absorption spectra of is-EMLs with various TX blending ratios, and
+solvent coating effect on theis-EMLs. b UV-vis absorption spectra of is-EMLs before
+and after TX-blended solvent coating (TX1 = 1 mg ml –1, TX2 = 2 mg ml–2,
+TX4 = 4 mg ml–1). c Photoluminescence spectra of is-EMLs before and after TX-
+blended solvent coating. d COS of is-EMLs before and after TX-blended solvent
+coating. e COS of is-ETLs with various component ratios when coated on PDMS or
+is-EMLs. f UPS intensity of is-ETL and Ag ﬁlms with various TX ratios. g Current
+density of electron-only devices with various ETL component ratios. h Energy-level
+alignment diagram for the conventional OLED device with anis-ETL. i V-L curve, (j)
+J-V curve, and (k) εc-L curve of the conventional OLED device with an is-ETL on a
+glass substrate.
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 5
+
+To verify our strategy, we fabricated stretchable cathodes under
+various deposition conditions with the same structure as the is-OLED
+shown in Fig. 1a and characterized their optoelectrical properties,
+focusing on maximum luminance (Fig. 3b, c) and cathode conductivity
+under static and cyclic stretching conditions (Fig. 3d, e). The con-
+ductivity rapidly decreases below Ag40 due to the poor connectivity
+between Ag grains (Fig. 3b, d and Supplementary Fig. 15). Ag cathodes
+above Ag60 have high conductivity and show a superior luminance of
+over 3200 cd m
+–2 when used as cathodes in is-OLEDs but cannot endure
+strains above 60% due to the brittle nature of the dense, continuous Ag
+grains (Fig. 3b, d, Supplementary Fig. 15, and Supplementary Fig. 17).
+Ag cathodes with an evaporation rate above 1 Å s
+–1 also exhibited a
+signiﬁcant decrease in luminance under 40% and 60% stretching (Fig. 3c
+and Supplementary Fig. 18).
+Ag60 cathode with an evaporation rate of 1 Å s–1 exhibits a low sheet
+resistance of 6Ω sq–1 and a maximum luminance of more than 2300 cd m–2,
+maintaining a resistance change of R R0
+−1 < 10 under 70% strain, simulta-
+neously ensuring high electrical conductivity and mechanical stretchability
+(Fig. 3b, c, d, and Supplementary Fig. 18). Additionally, the material
+maintains its conductivity during 200 cycles of 40% strain stretching
+(Fig. 3e). Therefore, we selected Ag60 deposited at a rate of 1 Å s–1 as our
+optimal stretchable cathode.
+Fig. 3 | Fabrication and characterization of is-cathode. a Schematics of is-cathode
+surface morphology from thin Ag to thick Ag ﬁlm with various Ag deposition
+parameter. b Sheet resistance, stretchability of is-cathode, and Luminance of is-
+OLED at various is-cathode deposition parameters. c Optimal Ag deposition
+parameters for the is-cathode. Deposition rate and deposition condition are con-
+trolled by quartz crystal microbalance. d Resistance change of Ag cathode ﬁlm with
+various Ag deposition parameter from Ag30 to Ag70 during the static stretching
+tests. e Resistance change of the is-cathode deposited by Ag60 during cyclic
+stretching tests at 20% and 40% strain. f TEM cross-sectional image of the is-OLED.
+g Charge conducting mechanism of theis-cathode under stretched condition.h SEM
+surface image of the is-cathode under stretched condition up to 60% strain.
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 6
+
+We investigated the relationship between the microstructures and
+electrical properties of Ag cathodes using SEM, TEM, and time-of- ﬂight
+secondary ion mass spectrometry (TOF-SIMS). Partially connected
+morphologies of Ag grains are observed, as shown in Fig.3f, g. Due to the
+slow deposition process, an intermixed region of Ag and organic layers is
+observed in the TOF-SIMS and TEM cross-section images (Fig. 3fa n d
+Supplementary Figs. 19–21). No observable channel cracks appear on the
+ﬁlm in the optical microscopy (OM) images until 60% strain (Supple-
+mentary Fig. 22). Instead, microcracks develop throughout theﬁlm during
+the stretching process. Under stretching, strain is released by widening of
+preexisting cracks while conducting paths are preserved through connected
+grains (Fig.3d, g, h). The cracks reversibly close after strain release; thus, the
+Ag cathode also shows high electrical and mechanical stability under cyclic
+stretching (Fig.3e, h and Supplementary Fig. 25).
+Our stretchable Ag cathode ’s performance is based on two unique
+structural features ofis-OLEDs. First, the multilayers beneath the cathode
+(from theis-HTL to theis-ETL) provide a gradient in the Young’s modulus
+between the soft elastomer substrate and the stiff metal cathodes. This
+enhances the cathode’s stretchability compared to structures without mul-
+tilayer conﬁgurations (Supplementary Fig.26). Second, the partially inter-
+connected Ag morphologies allow additional layers to be overcoated on the
+cathodes. We overcoated cesium carbonate-doped PEIE (d-PEIE) (upper
+ETL) on an Ag cathode, which possesses superior electron injection
+properties
+36.
+The upper ETL increases the interfacial contact area between the
+cathode and the ETLs, effectively enh ancing electron injection (Supple-
+mentary Figs. 27a). Additionally, the upper ETL acts as a matrix for the Ag
+cathode, providing extra adhesion and thereby improving mechanical sta-
+bility (Supplementary Fig. 27b). If d-PEIE is placed betweenis-ETL and is-
+cathode, it could hinder electron transport due to its electrically insulating
+nature and disrupt the intended Ag nucleation and growth processes by
+altering the surface properties. However, when applied as an overcoating
+layer above the cathode, it primarily inﬂuences the lowering of the energy
+barrier for electron injection through porous channels within Ag ﬁlms.
+Therefore, the d-PEIE overcoating layer contributes to the high luminance
+and improved stretchability of theis-OLEDs (Supplementary Fig. 27b–e).
+Fully intrinsically stretchable OLED
+After detailed characterization of theis-ETL andis-cathode,is-OLEDs were
+fabricated. The fabrication involved sequential coating of the is-ETL, is-
+cathode, and an upper ETL over theis-EML and is-HTL based on AgNW-
+embedded polydimethylsiloxane (P DMS). The structural design and
+energy-level alignment of these devices are illustrated in Fig.4a, b. Figure4c
+shows the characteristic current density–voltage–luminance (J-V-L)c u r v e s
+for theis-OLEDs. These devices display a turn-on voltage of 6 V, achieving a
+maximum brightness of approximately 2340 cd m–2 at 9 V, for a measure-
+ment taken from the AgNW side. The maximum current efﬁciency recor-
+ded for this side is approximately 4.2 cd A–1.
+On the opposite side, where asemitransparent Ag cathodeﬁlm is used,
+the performance is approximately 40% of that observed on the AgNW side.
+This side shows a luminance of 811 cd m
+–2 and a current ef ﬁciency of
+1.2 cd A–1. The diminished performance ont h i sA gs i d ei sp r i m a r i l yd u et o
+its lower transmittance and reﬂectance compared to those on the AgNW
+side. When considering the total performance of the device, combining both
+the anode and cathode sides, the overall luminance reaches an impressive
+3151 cd m–2, with a corresponding current ef ﬁciency of 5.4 cd A –1.T h i s
+indicates the high overall performance of theis-OLEDs, demonstrating the
+effectiveness of the sequential coating process and the synergy between the
+is-ETL and is-cathode in enhancing the device efﬁciency and brightness.
+Furthermore, to analyze the overall impact of thermal treatment
+temperature on device performance, PL intensity of is-EML and L-V-J
+curves of the is-OLED were measured according to the thermal treatment
+temperature after coating theis-E T La n du p p e rE T L ,a ss h o w ni nS u p p l e -
+mentary Fig. 28. High-temperature thermal annealing degraded theis-EML
+and induce substrate expansion, negat ively affecting the device, while
+excessively low-temperature thermal treatment adversely affect multilayer
+ﬁlm formation during sequential coating process
+37. Hence, we set the
+annealing temperature to 90 °C for dev ice fabrication, resulting in the
+highest performanceis-OLED.
+The stretchability of the is-OLEDs was tested to evaluate their dur-
+ability and adaptability under mechanical stress. These tests involved both
+static and cyclic stretching tests, with the outcomes presented in Fig. 4d,
+focusing on the relative luminance change in response to various levels of
+strain at 8 V. At 0% strain, the average luminance acrossﬁve samples was
+recorded as 791 cd m
+–2. As the strain increases, the devices demonstrate
+remarkable resilience. Up to a 20% strain at 8 V, there is a negligible
+reduction in performance, indicating a high level of stretchability. However,
+as the strain is further increased, the luminance gradually decreases. At 40%
+strain, the devices maintain approximately 75% of their original luminance.
+This value decreases to approximately 55% at 60% strain and further
+decreases to approximately 45% at 70% strain. These results are comparable
+to those achieved by devices using stretchable electrodes such as AgNWs
+and PEDOT:PSS
+15–18. This performance underlines the signiﬁcant potential
+of metal-based stretchable cathodes in future applications.
+Supplementary Fig. 29 illustrates the performance distribution of the
+fabricatedis-OLEDs. As shown in Supplementary Fig. 29a, among the ten
+devices produced, eight out of the ten samples fall within the error range
+compared to the luminance values presented in Fig. 4c. Supplementary
+Fig. 29b shows all the samples used to calculate the average in Fig.4d. Most
+samples exhibit deviations within 10% of the mean value and follow a
+similar trend. It demonstrated the high repeatability of our is-OLED fab-
+rication process.
+Figure 4e illustrates the changes in the performance of the is-OLEDs
+under cyclic stretching conditions at 40% strain. A special jig for the cyclic
+test is shown in Supplementary Fig. 30. In the early stages of the cyclic
+stretching test, speciﬁcally up to 50 cycles, the performance of the devices
+decreases, and the luminance decreases to approximately 85% of its ori-
+ginal value. However, when the test is extended to 300 cycles, the lumi-
+nance of the devices remarkably stabilizes, maintaining approximately
+80% of the initial value. This indicates a signi ﬁcantly greater cyclic
+stretchability than that reported in previous studies using lamination
+processes, which exhibited a performance below 80% after 100 cycles at
+15% and 40% strain
+15,17. Notably, our devices maintain stable performance
+for up to 300 cycles, surpassing the 200 cycles achieved in similar studies
+using sequential coating
+18.
+After the cyclic test, the top surface of theis-OLEDs was observed via
+SEM (Supplementary Fig. 31). This a nalysis reveals the formation of
+microcracks on the surfaces of the is-OLEDs due to stretching. However,
+microcracks and crack closure are vital characteristics, as they allow for
+continued ﬂow and injection of charge across the affected areas, ensuring
+sustained device functionality. Furthermore, Supplementary Fig. 32 shows
+the cross-sectional image of the is-OLEDs before and after 200 cyclic
+stretching at 40% strain. SEM and TEM images conﬁrm that all layers in the
+is-OLEDs maintain uniform ﬁlm morphology and good adhesion during
+mechanical stretching. This resilience of the is-OLEDs under cyclic
+stretching, particularly their ability to maintain a high level of performance
+after 300 cycles at 40% strain, is an signiﬁcant improvement over previous
+devices
+15–18. These results demonstrate the superior mechanical and elec-
+trical properties of the is-ETL and is-metal cathode compared to those
+achieved with conventional stretchable electrodes15–18.
+Figure 4f presents a radar plot comparing the performance and fab-
+rication complexity of is-OLEDs made using traditional lamination pro-
+cesses and our sequentially coated is-OLEDs (Supplementary Table 2).
+While the luminance and efﬁciency are similar or slightly lower than those
+achieved with lamination methods, our is-OLEDs exhibit higher static
+stretchability and notably superior cyclic stretchability. In terms of fabri-
+cation complexity, our approach shows the most advantageous character-
+istics, indicative of the reduced need for lamination and transfer processes
+during the fabrication process. The sequentially coated is-OLEDs, made
+using the designed morphology-sustainableis-ETL and is-metal cathode,
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 7
+
+Fig. 4 | Device performance of is-OLEDs and deformable displays. a Schematics
+of the is-OLED structure and thickness. b Energy-level alignment diagram of the
+is-OLED. c J-V-L curve of the is-OLEDs. d Relative L change ( L ∙ L0
+−1)o ft h e is-
+OLEDs during static stretching tests when operated at 8 V. Error bars indicate
+mean ± standard deviation. e L ∙ L0
+−1 c h a n g e so ft h eis-OLEDs during 40% strain
+cyclic stretching tests. f Radar plot comparing the electroluminescence (EL)
+performance, stretchability, a nd fabrication complexity of is-OLEDs produced
+using the sequential coating or laminat ion method. The fabrication complexity
+corresponds to the number of transfer and lamination processes during the is-
+OLED fabrication process. g Optical images of the is-OLEDs with an original
+emission area of 3.0 × 3.0 mm 2 operated under various strains. h Optical pho-
+tographs of 3×2 is-OLED array devices operated under various strains and
+deformations.
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 8
+
+simplify the traditionally complex p rocesses associated with lamination
+methods, achieving high levels of cyclic stretchability.
+Figure 4g depicts the light emitted from an is-OLED when it is stret-
+ched. The image shows that the device e mits light consistently across its
+entire surface area both in a neutral state (0% strain) and under signiﬁcant
+stretching (up to 70% strain). Further expanding on the capabilities of these
+devices, Fig. 4h shows a 3 × 2 array device fabricated using the is-OLEDs
+subjected to stretching. The detailed structure of this array is illustrated in
+Supplementary Fig. 33. This array device shows stable light emission up to
+50% strain. Furthermore, the array device also demonstrates resilience to
+various other forms of deformation , including bending, folding, and
+crumpling. This ability to maintain stable light emission even under
+deformation conditions is a testament to the mechanical robustness and
+versatility of these devices.
+In Supplementary Fig. 34, we assessed the operational lifespan of theis-
+OLEDs, revealing a short duration of about 1 min. Additionally, their efﬁ-
+ciency still appears relatively low compared to conventional OLEDs.
+Although improvements to theis-ETL and is-c a t h o d ei nt h i ss t u d yl e dt oa
+modest increase in lifespan and ef ﬁciency, there were limitations in
+achieving dramatic enhancements in these aspects. We attribute these
+challenges to two primary factors. Fi rstly, the absence of encapsulation
+layers exposes the devices to oxygen an d moisture, contributing to their
+diminished operational stability
+18. Secondly, the use of AgNW embedding
+PDMS as the anode substrate introduces issues such as the one-dimensional
+morphology of AgNWs, a low work function, and protrusions. These factors
+contribute to a reduced contact area, compromised hole injection, and
+increased leakage current, consequently impacting both the lifespan and
+efﬁciency of the devices24. Therefore, ongoing advancements in elastomer
+substrates and the adoption of a uniform, high hole injectionﬁlm-forming
+anode could facilitate the devel opment of highly stable and ef ﬁcient
+is-OLEDs.
+Discussion
+In summary, this study has made signiﬁcant strides in theﬁeld of is-OLEDs
+by innovating and developing new stretchable component materials, such as
+designed morphology-sustainableis-ETLs and is-Ag metal cathodes. These
+advancements have been crucial in enhancing the overall performance ofis-
+OLEDs. The meticulously adjusted formulation of PFN-Br, PEIE, and TX
+blended into the is-ETL has been instrumental in enhancing both the
+mechanical and electrical properties ofis-OLEDs. The blending of PFN-Br
+and PEIE has demonstrated the ability to form a stretchable matrix
+simultaneously exhibiting high electr on injection characteristics. Addi-
+tionally, the incorporation of TX into this blend has been effective in sus-
+taining the morphology of the underlyingis-EML, leading to simultaneous
+improvements in both the mechanical and electrical properties of the is-
+EML and is-ETL. The is-cathode, engineered under controlled deposition
+conditions, has achieved signiﬁcant advancements in terms of morphology
+control and adhesion with theis-ETL. This has led to the creation of a metal
+cathode that not only is highly stretchable but also maintains excellent
+electrical conductivity, which is a critical attribute for effective is-OLED
+operation.
+Furthermore, this research represents a departure from more complex
+lamination techniques through rational material engineering and optimized
+device construction. This approach signiﬁcantly contributes to simplifying
+the fabrication process, making it more accessible for the development of
+next-generation stretchable optoelectronic devices. While acknowledging
+that the current performance of these is-OLEDs still lags behind that of
+conventional OLEDs, this study und erscores the immense potential for
+future enhancements. In particular, the prospects of improving the per-
+formance throughﬁne-tuning aspects such as the Ag stretchable cathode as
+well as the thickness and combination of the ETL are promising. Looking
+ahead, the continued development and utilization of stretchable metallic
+cathodes are expected to lead to signiﬁcant performance improvements in
+is-OLEDs, opening up new possibilities a n da p p l i c a t i o n si nt h er e a l mo f
+ﬂexible and wearable electronics.
+Data availability
+The data that support the ﬁndings of this study are available from the
+corresponding author upon reasonable request.
+Received: 4 April 2024;Accepted: 16 July 2024;
+References
+1. Koo, J. H. et al. Flexible and stretchable smart display: Materials,
+fabrication, device design, and system integration.Adv. Funct. Mater.
+28, 1801834 (2018).
+2. Chen, H. W. et al. Liquid crystal display and organic light-emitting
+diode display: present status and future perspectives.Light. Sci. Appl.
+7, 17168 (2018).
+3. Wang, S. M. et al. Towards high-power-ef ﬁciency solution-processed
+OLEDs: Material and device perspectives. Mater. Sci. Eng. R. Rep
+140, 100547 (2020).
+4. Someya, T., Bao, Z. N. & Malliaras, G. G. The rise of plastic
+bioelectronics. Nature 540, 379– 385 (2016).
+5. Sekitani, T. et al. Stretchable active-matrix organic light-emitting
+diode display using printable elastic conductors. Nat. Mater. 8,
+494–499 (2009).
+6. Singh, M., Haverinen, H. M., Dhagat, P. & Jabbour, G. E. Inkjet
+printing-process and its applications.Adv. Mater. 22, 673–685 (2010).
+7. Yook, K. S. & Lee, J. Y. Small molecule host materials for solution
+processed phosphorescent organic light-emitting diodes.Adv. Mater.
+26, 4218–4233 (2014).
+8. Chiba, T., Pu, Y. J. & Kido, J. Solution-processable electron injection
+materials for organic light-emitting devices. J. Mater. Chem. C. 3,
+11567–11576 (2015).
+9. Liang, J. J. et al. Elastomeric polymer light-emitting devices and
+displays. Nat. Photonics 7, 817– 824 (2013).
+10. Gao, H., Chen, S., Liang, J. & Pei, Q. Elastomeric light emitting
+polymer enhanced by interpenetrating networks. ACS Appl. Mater.
+Inter. 8, 32504–32511 (2016).
+11. Yin, H. et al. Structures and materials in stretchable
+electroluminescent devices. Adv. Mater. 34, 2106184 (2021).
+12. Choi, D. K. et al. Highly ef ﬁcient, heat dissipating, stretchable organic
+light-emitting diodes based on a MoO3/Au/MoO3 electrode with
+encapsulation. Nat. Commun. 12, 2864 (2021).
+13. Nam, M. et al. Highly reliable and stretchable OLEDs based on facile
+patterning method: toward stretchable organic optoelectronic
+devices. Npj Flex. Electron. 8, 17 (2024).
+14. Yao, L. Q. et al. High-ef ﬁciency stretchable organic light-emitting
+diodes based on ultra- ﬂexible printed embedded metal composite
+electrodes. Infomat 5, e12410 (2023).
+15. Zhang, Z. et al. High-brightness all-polymer stretchable LED with
+charge-trapping dilution. Nature 603, 624
+–630 (2022).
+16. Zhou, H. et al. Graphene-based intrinsically stretchable 2D-contact
+electrodes for highly ef ﬁcient organic light-emitting diodes. Adv.
+Mater. 34, e2203040 (2022).
+17. Liu, Y. et al. A self-assembled 3D penetrating nanonetwork for high-
+performance intrinsically stretchable polymer light-emitting diodes.
+Adv. Mater. 34, e2201844 (2022).
+18. Kim, J. H. & Park, J. W. Intrinsically stretchable organic light-emitting
+diodes. Sci. Adv. 7, eabd9715 (2021).
+19. Oh, J. H. & Park, J. W. Intrinsically stretchable phosphorescent light-
+emitting materials for stretchable displays.ACS Appl. Mater. Inter.15,
+33784–33796 (2023).
+20. Jeon, K. H. & Park, J. W. Light-emitting polymer blended with
+elastomers for stretchable polymer light-emitting diodes.
+Macromolecules 55, 8311 (2022).
+21. Liu, W. et al. High-ef ﬁciency stretchable light-emitting polymers from
+thermally activated delayed ﬂuorescence. Nat. Mater. 22, 737–745
+(2023).
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 9
+
+22. Jao, C. C. et al. Novel stretchable light-emitting diodes based on
+conjugated-rod block elastic-coil copolymers. Polym. Int. 70,
+426–431 (2021).
+23. Li, X. C. et al. Intrinsically stretchable electroluminescent
+elastomers with self-con ﬁnement effect for highly ef ﬁcient
+non-blended stretchable OLEDs. Angew. Chem.-Int. Ed. 62,
+e202213749 (2023).
+24. Zhou, H. et al. Intrinsically stretchable low-dimensional conductors for
+wearable organic light-emitting diodes. Device 1, 100060 (2023).
+25. Han, S. J. et al. Achieving low-voltage operation of intrinsically-
+stretchable organic light-emitting diodes. Adv. Funct. Mater. 33,
+2211150 (2023).
+26. Kang, H. et al. Polymer-metal hybrid transparent electrodes for
+ﬂexible electronics. Nat. Commun. 6, 6503 (2015).
+27. Bi, Y. G. et al. Ultrathin metal ﬁlms as the transparent electrode in ITO-
+free organic optoelectronic devices. Adv. Opt. Mater. 7,
+1800778 (2019).
+28. Park, S. I. et al. Theoretical and experimental studies of bending of
+inorganic electronic materials on plastic substrates. Adv. Funct.
+Mater. 18, 2673–2684 (2008).
+29. Ohisa, S. et al. Conjugated polyelectrolyte blend with
+polyethyleneimine ethoxylated for thickness-insensitive electron
+injection layers in organic light-emitting devices. ACS Appl. Mater.
+Inter. 10, 17318–17326 (2018).
+30. Jiang, Z. et al. A 1.3-micrometre-thick elastic conductor for seamless
+on-skin and implantable sensors. Nat. Electron. 5, 784– 793 (2022).
+31. Zhu, T. et al. Highly stable and strain-insensitive metal ﬁlm conductors
+via manipulating strain distribution. Mater. Horiz. 10,
+5920–5930 (2023).
+32. Han, S. et al. Enhanced stretchability of metal/interlayer/metal hybrid
+electrode. Nanoscale 13, 4543–4550 (2021).
+33. Kim, S. W. et al. Omnidirectionally stretchable metal ﬁlms with
+preformed radial nanocracks for soft electronics. ACS Appl. Nano.
+Mater. 3, 7192–7200 (2020).
+34. Won, D. et al. Transparent electronics for wearable electronics
+application. Chem. Rev. 123, 9982–10078 (2023).
+35. Kim, M. H. et al. Mechanically robust stretchable semiconductor
+metallization for skin-inspired organic transistors. Sci. Adv. 8,
+eade2988 (2022).
+36. Kim, J. H. & Park, J. W. Designing an electron-transport layer for highly
+efﬁcient, reliable, and solution-processed organic light-emitting
+diodes. J. Mater. Chem. C. 5, 3097–3106 (2017).
+37. Zhao, F. W., Wang, C. R. & Zhan, X. W. Morphology control in organic
+solar cells. Adv. Energy. Mater. 8, 1703147 (2018).
+Acknowledgements
+This work was supported by a National Research Foundation of Korea (NRF)
+Grant funded by the Korea Government (MSIT) (RS-2023-00302611) and the
+Technology Innovation Program Development Program (“20022479”,
+“Development of deuterium oxide localization and deuterium benzene
+synthesis technology to improve OLED lifetime by 25%“)f u n d e db yt h e
+Ministry of Trade, Industry & Energy (MOTIE, Korea).
+Author contributions
+J.-H. O., K.-H. J. and J.-W. P. designed the project. J.-H. O. and K.-H. J.
+carried out the experiments and analysis. J.-H. O., K.-H. J. and J.-W. P. wrote
+the paper.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41528-024-00332-0
+.
+Correspondenceand requests for materials should be addressed to
+Jin-Woo Park.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2024
+https://doi.org/10.1038/s41528-024-00332-0 Article
+npj Flexible Electronics |            (2024) 8:43 10

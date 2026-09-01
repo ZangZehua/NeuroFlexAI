@@ -1,0 +1,755 @@
+APPLIED SCIENCES AND ENGINEERING 2017 © The Authors,
+some rights reserved;
+exclusive licensee
+American Association
+for the Advancement
+of Science. Distributed
+under a Creative
+Commons Attribution
+NonCommercial
+License 4.0 (CC BY-NC).
+A highly stretchable, transparent,
+and conductive polymer
+Yue Wang, 1 Chenxin Zhu, 2 Raphael Pfattner, 1 Hongping Yan, 3 Lihua Jin, 1,4 Shucheng Chen, 1
+Francisco Molina-Lopez, 1 Franziska Lissel, 1 Jia Liu, 1 Noelle I. Rabiah, 1 Zheng Chen, 1
+Jong Won Chung, 1,5 Christian Linder, 4 Michael F. Toney, 3 Boris Murmann, 2 Zhenan Bao 1*
+Previous breakthroughs in stretchable electronics stem from strain engineering and nanocomposite approaches.
+Routes toward intrinsically stretchablemolecular materials remain scarce but, if successful, will enable simpler fabri-
+cation processes, such as direct printing and coating, mechanically robust devices, and more intimate contact with
+objects. We report a highly stretchable conducting polymer, realized with a range of enhancers that serve a dual
+function: (i) they change morphology and (ii) they act as conductivity-enhancing dopants in poly(3,4-ethylene-
+dioxythiophene):poly(styrenesulfonate) (PEDOT:PSS). The polymer films exhibit conductivities comparable to the
+best reported values for PEDOT:PSS, with over 3100 S/cm under 0% strain and over 4100 S/cm under 100% strain—
+among the highest for reported stretchable conductors. It is highly durable under cyclic loading, with the conduc-
+tivity maintained at 3600 S/cm even after 1000 cycles to 100% strain. The conductivity remained above 100 S/cm under
+600% strain, with a fracture strain of 800%, which is superior to even the best silver nanowire–or carbon nanotube–
+based stretchable conductor films. The combination of excellent electrical and mechanical properties allowed it to
+serve as interconnects for field-effect transistor arrays with a device density that is five times higher than typical
+lithographically patterned wavy interconnects.
+INTRODUCTION
+Recent advancements in stretchable electronics have blurred the inter-
+faces between human and machine (1, 2). Devices such as epidermal
+electronics, implantable sensors, and hemispherical eye cameras all rely
+on the intimate contact between devices and curvilinear surfaces of var-
+ious biological systems while operating with stability under up to 100%
+strain (3– 5). The most successful concept leading to such devices builds
+on linking rigid islands of active components [that is, transistors, light-
+emitting diodes (LEDs), or photovoltaics] with stretchable intercon-
+nects (1, 3, 6, 7). Hence, developing conductors that can retain good
+electrical performance under high mechanical strain is paramount.
+Stretchable conductors have been fabricated via two main routes:
+strain engineering and nanocomposites (1, 8, 9). In the first approach,
+nonstretchable inorganic materials, such as metals, are geometrically
+patterned into wavy lines that can be extended when the underneath
+elastomer substrate is stretched (10). Alternatively, depositing a thin
+layer of conducting materials such asmetals, carbon nanotubes, or gra-
+phene on a prestrained substrate leads to the formation of periodic
+buckles upon the release of the strain, which allows the material to ac-
+commodate further cycles of stretching up to the initial prestrained value
+(5). A kirigami design or microcracks have also been applied to sheets of
+flexible materials to enable macroscopic stretching motion (11–13). These
+methods demonstrate the possibilityof transforming virtually any rigid
+materials into stretchable materials while maintaining their electrical
+properties. However, the fabrication methods involved are usually com-
+plicated, and it is challenging to achieve high device density owing to the
+large geometric patterns required for high stretchability. In addition, the
+buckling and kirigami methods lead to out-of-plane patterns, which
+could be difficult to encapsulate and disadvantageous for devices that
+r e q u i r ep l a n a ri n t e r f a c e so rl o w e rp r o f i l e s .
+Embedding a conductive filler in an insulating elastomeric matrix to
+form a nanocomposite is the second major route toward stretchable con-
+ductors (8, 14). Typically, one-dimensional materials such as carbon nano-
+tubes (CNTs) and silver nanowires are chosen as the conductive fillers
+because of their high aspect ratios (15– 17). Metal nanoparticles or flakes
+have also been shown to be good filler materials under specific condi-
+tions because of their ability to self-organize upon stretching (7, 18). Despite
+the versatility and large number of material choices, the percolation-
+dependent conductivity is highly strain-sensitive and remains a hurdle
+for device miniaturization and cycling stability (8).
+To achieve a highly stretchable andhighly conductive material that
+is readily solution-processable and patternable, an intrinsically stretchable
+conductor is desirable. Conducting polymers are good candidates because
+of the flexibility in tuning the molecular structures and electrical and
+mechanical properties. Their solutionprocessability offers additional ad-
+vantages for large-scale production of flexible electronics. Unfortunately,
+high conductivity and high stretchability have not been achieved simul-
+taneously for conducting polymers (19
+–21).
+In general, to achieve high conductivity, high crystallinity and low in-
+sulating content are required. However, to render a polymer film stretch-
+able, a high degree of disorder with chain folding is advantageous to create
+a large free volume for polymer chain movement and unfolding when being
+stretched (22, 23). Poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate)
+(PEDOT:PSS) has the highest reported conductivity among solution-
+processed polymers but has a fracture strain of as low as ~5% (20). Pre-
+vious efforts enabled the stretching of PEDOT:PSS by incorporating
+plasticizers such as Zonyl or Triton ( 19– 21). However, the enhanced
+stretchability often results in much lower conductivities, and the value
+further decreases with the application of strain. As yet, the best reported
+value is 550 S/cm under 0% strain and a conductivity of 13 S/cm under a
+fracture strain of 188% (20). Hence, these materials have generally been
+used as pressure or strain sensors where a large change in electrical
+signal upon strain is desirable, but they fail to serve as interconnects.
+1Department of Chemical Engineering, Stanford University, Stanford, CA 94305, USA.
+2Department of Electrical Engineering, Stanford University, Stanford, CA 94305, USA.
+3Stanford Synchrotron Radiation Lightsource, SLAC National Accelerator Laboratory,
+Menlo Park, CA 94025, USA. 4Department of Civil and Environmental Engineering,
+Stanford University, Stanford, CA 94305, USA.5Samsung Advanced Institute of Tech-
+nology, Yeongtong-gu, Suwon-si, Gyeonggi-do 443-803, South Korea.
+*Corresponding author. Email: zbao@stanford.edu
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 1o f1 0
+
+Interconnects for various rigid electrical components in circuits re-
+quire an intrinsically stretchable conducting polymer with conductivity
+>1000 S/cm at >100% strain and minimal temperature dependence.
+Here, we demonstrate a method for creating highly stretchable and
+conductive PEDOT films with high cycling stability by incorporating ionic
+additives– assisted stretchability and electrical conductivity (STEC) en-
+hancers (Fig. 1, A and B). The resulting PEDOT:PSS films are both highly
+conductive and stretchable (higher than 4100 S/cm under 100% strain),
+giving rise to transistor arrays up to fivetimes higher in island-to-interconnect
+ratio as compared to those using wavy metal interconnects.
+RESULTS
+Selection of STEC enhancers
+We rationalized that high stretchability requires polymer films with
+both hard and soft domains, typically seen with hydrogenated styrene
+ethylene butylene styrene (SEBS) block copolymers or polyurethane
+elastomers (23). Unfortunately, both PEDOT and PSS are semicrys-
+talline polymers with no observable glass transition temperatures (24).
+Therefore, the STEC enhancers needto partially soften polymer chains
+to create soft domains in order to achieve high fracture strain. To pro-
+mote high conductivity, it is important to have good connectivity be-
+tween PEDOT-rich domains, which requires a weakened electrostatic
+interaction between PEDOT and PSSto allow PEDOT to partially ag-
+gregate to form a “hard” conductive network inside a soft PSS matrix
+(Fig. 1D). Previous studies reported various additives used to promote
+some of the effects (20, 21, 25). However, either solely improved con-
+ductivity or solely improved stretchability was reported. Here, we in-
+troduce a new approach, in which STEC enhancers soften the PSS
+domains and promote better connectivity and higher crystallinity in
+PEDOT regions while further enhancing electrical conductivity through
+doping.
+We identified a number of effective STEC enhancers, including ionic
+compounds such as dioctyl sulfosuccinate sodium salt, sodium dodecyl-
+benzenesulfonate, dodecylbenzenesulfonic acid, and ionic liquids (table
+S 1a n df i g .S 1 ) .A l lt h e s em o l e c u l e shave sulfonate or sulfonimide an-
+ions, which are effective dopants for conducting polymers, including
+PEDOT (26). We focus our study on the ionic liquids because of the
+large number of commercially available varieties. These compounds
+not only effectively reduce Young’s moduli of PEDOT:PSS bulk film
+by as much as 50 times and render it highly extensible, but also preserve
+or increase the conductivity (table S1 and fig. S1).
+We found that a synergistic effect on both conductivity and stretch-
+ability can be achieved when the STEC enhancers satisfy the following
+two characteristics: (i) good solubility in water and the PEDOT:PSS
+matrix and (ii) highly acidic anions that can act as effective dopants
+Fig. 1. Chemical structures and schematic representation.(A and B) Chemical structures of PEDOT:PSS (A) and representative STEC enhancers (B)(see complete list in the
+Supplementary Materials). (C and D) Schematic diagram representing the morphology of a typical PEDOT:PSS film (C) versus that of a stretchable PEDOT film with STEC enhancers
+(D). (E) Photograph showing a freestanding PEDOT/STEC film being stretched. (F and G) Stress/strain (F) and strain cycling behavior (G) of freestanding PEDOT/STEC films.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 2o f1 0
+
+for PEDOT. Through the evaluation of electrical and mechanical prop-
+erties of freestanding PEDOT/STEC films, we found that STEC enhanc-
+ers 1 to 3 (Fig. 1A) lead to both high conductivity and good stretchability
+( F i g .1 ,Ea n dF ,a n ds e c t i o n sS 1a n dS 2 ) .E v e nw i t ha sh i g ha s4 0t o5 0
+weight % (wt %) incorporation of STEC enhancers, the rheological
+characteristics of the bulk films are similar to those of viscoelastic solids
+(Fig. 1G and sections S1 and S2). Therefore, we chose these systems for
+further investigations.
+Highly conductive and stretchable PEDOT film supported on
+elastic substrates
+Stretchable PEDOT is characterized using thin films directly coated
+onto SEBS elastic substrates to evaluate their electrical behavior as trans-
+parent, thin-film electronic components. When stretched, an initial in-
+crease in conductivity by almost three times to up to 3390 S/cm under
+100% strain was observed along the stretching direction (s
+||), but it de-
+creased in the perpendicular direction (s⊥) (Fig. 2, A and B). A high degree
+of PEDOT chain alignment was confirmed by polarized ultraviolet-
+visible (UV-vis) measurement (Fig. 2G). The dichroic ratios ( A||/A⊥)
+calculated using the absorption ofthe 785-nm peak and the free-carrier
+tail at 1100 nm both showed a monotonic increase from 1 under 0%
+strain to ~3.2 under 125% strain, which is indicative of chain alignment
+along the parallel direction to stretching (Fig. 2G). This agrees with the
+increase in conductivity along this direction (Fig. 2A).
+Followed by the initial increase at lower strains, s|| then decreased
+consistently under >100% strain until the substrate ruptured. We ob-
+tained the best performance for films with STEC enhancer 1, where
+the conductivity remained above 1000 S/cm between 0 and 100% strain,
+with the highest value at 3390 S/cm under 100% strain, above 100 S/cm
+up to 600% strain, and a final conductivity of 56 S/cm even when
+stretched to a record 800% strain, beyond which point the substrate
+ruptured. Optical microscope images of the stretchable PEDOT films
+Fig. 2. Electrical and optical properties of stretchable PEDOT under strain.(A) Conductivity under various strains for PEDOT with different STEC enhancers. Film thicknesses
+are around 600 to 800 nm. ( B) Conductivities under various strain presented in this work compared to representative stretchable conductors reported in literature. PU, poly-
+urethane. (C and D) Cycling stability of PEDOT/STEC1 under 50% strain (C) and 100% strain (D).G, conductance;s, conductivity; a.u., arbitrary units. (E and F)A F Mi m a g e so fa
+PEDOT/STEC1 film under different magnifications under 0% strain after it was cycled for 1000 times to 100% strain. The vertical profile across the lineo nt h ei m a g ei ss h o w nb e l o w
+the corresponding image. The deep folds have an amplitude of ~100 nm and a periodicity of ~1.5mm, whereas those for the wrinkles are ~20 nm and ~0.25mm, respectively. (G)
+Dichroic ratio of the PEDOT/STEC1 films under different strains calculated at 785 and 1100 nm for the 1st and the 1000th cycle. There is no change in dichroic ratio from 0 to 100%
+strain after 1000 cycles, potentially because of the folds formed in the film and a steady concentration of STEC enhancers being reached.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 3o f1 0
+
+held under strain show that cracks do not form until ~150% (section
+S5). Even under strains as high as550% with a much higher crack den-
+sity, the films have morphologies of an interconnected network,
+which could account for the reasonably high conductivity under high
+strain. Compared to most reported stretchable conductors (Fig. 2B),
+our material not only has a higher initial conductivity and a slower
+drop in conductivity under tensile strain but also sustains the highest
+maximum tensile strain. Note that, although a maximum 100% strain is
+necessary for wearable or epidermal electronics, a higher stretchabil-
+ity is required when these materials are used as interconnects for rigid-
+island device arrays shown later. In addition, the ability for a material to
+be elongated to several times its original length greatly broadens its
+applications to robotics and biomechanical systems under extreme
+conditions.
+The stretchable PEDOT films show high cycling stability. The film
+conductanceG (reflects change in resistance) retained 92% of the orig-
+inal value under 50% strain after1000 cycles and 71% when the cycling
+strain was 100% (Fig. 2, C and D). The conductivity (s
+||)o ft h e s ef i l m s
+increased with strain as a result of the chain alignment phenomenon.
+After 1000 cycles, the films still exhibited a 2.1- and 2.8-fold increase in
+conductivity under 50 and 100% strains, respectively, as compared to
+the unstrained films (Fig. 2, C and D). Note that the conductivity ex-
+hibited an increase during approximately the first 100 cycles but then
+stabilized at a more constant value. At the end of 1000 cycles to 100%
+strain, no visible cracks formed on films when inspected under an
+optical microscope (section S4) and an atomic force microscope
+(AFM) (Fig. 2, E and F). The darker lines visible in optical microscope
+images were revealed to be deep folds by AFM analysis (Fig. 2, E and F),
+demonstrating the excellent durability of the PEDOT/STEC films
+under repeated strain.
+Stretchable PEDOT film morphological characterizations
+We found that the STEC enhancers (such as 1 to 3) play a number of
+roles in PEDOT:PSS in terms of charge transfer doping, crystallinity,
+and morphology. First, it has been documented that small ionic species
+can have a charge screening effect that weakens the Coulombic interac-
+tions between the polyelectrolytes PEDOT and PSS ( 25, 27– 29). The
+charge screening effect was previously found to result in higher crystal-
+linity of the PEDOT-rich domains (25, 28). We observed larger colloidal
+particle sizes in solution with the addition of STEC by dynamic light
+scattering analysis (fig. S3, B and C). In addition, more distinct nano-
+fibrous structures were seen in dried films by AFM (Fig. 3, H to K,
+and fig. S4). In thin films, we observed that C
+a═Cb vibration peaks
+(~1445 cm−1) in Raman spectroscopy red-shifted and were narrower
+Fig. 3. Chemical and crystallographic characterization of stretchable PEDOT.(A) Raman spectra illustrating the Ca═Cb peak position shift for the different films. The dashed
+line indicates the peak position for thePEDOT control film without any STEC. (B) UV-vis-NIR spectra showing the doping effect of STEC on PEDOT, as evidenced by increased
+absorption intensity from bipolaron delocalization at >1000 nm. (C) Near out-of-plane intensity plot of PEDOT:PSS films with various amounts of STEC2 additives extracted
+from GIWAXS patterns of PEDOT:PSS films with no STEC (D) and 45.5 wt % of STEC1 (E), STEC2 (F), and STEC8 (G) (see also section S3). For the standard PEDOT film without
+any STEC additives, three peaks were observed along qz: qz = 0.57 Å−1 (d = 11.2 Å), 1.33 Å−1 (d = 4.9 Å), and 1.87 Å −1 (d = 3.4 Å), which can be indexed as PEDOT (200), PSS
+amorphous scattering, and PEDOT (010), respectively ( 40, 45). ( H to K) AFM phase images of regular PEDOT:PSS (H) compared to PEDOT with high stretchability by
+incorporating STEC1 (I), STEC2 (J), and STEC3 (K).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 4o f1 0
+
+in width in the PEDOT/STEC films compared to the pure PEDOT:PSS
+control (Fig. 3A). This indicates that a higher proportion of the benzoid
+moieties in PEDOT are converted to the quinoid structure from oxida-
+tive charge transfer doping, which results in a more planar backbone
+(25, 30, 31). This planarity may contribute to more efficient charge de-
+localization and a higher packing order (28) .T h ec h a r g ed e l o c a l i z a t i o n
+effect is further confirmed by UV-vis– near-infrared (NIR) spectra (Fig.
+3B) (32) because the ~800-nm peak becameless well defined and a more
+intense free-carrier tail extending into the NIR was observed when
+STEC1, STEC2, and STEC3 wereincorporated into PEDOT:PSS.
+Grazing-incidence wide-angle x-ray scattering (GIWAXS) patterns
+indicate that the ordering in the semicrystalline PEDOT:PSS films was
+improved with the addition of STEC (Fig. 3, C to G, and fig. S5). Specifi-
+cally, the (200) d-spacing increaseswith increased STEC contents in the
+films, which is accompanied by a slight decrease in d-spacing for the (010)
+peak (from 3.4 to 3.3 Å) (33–35). Meanwhile, with the addition of STEC, a
+new peak emerges atq
+z = ~0.89 Å−1 (d =~ 6 . 8Å ) ,w h i c hw a sp r e v i o u s l y
+reported and assigned to PEDOT, but no definitive indexing was reported
+(33, 34). In addition, we observed this peak in the PEDOT:PF6 system with-
+o u tP S S( f i g .S 6 ) ,f u r t h e rc o n f i r m i n gthat it arises from PEDOT scattering.
+Combining the above evidences, we propose a schematic represen-
+tation of the composition and morphology of the PEDOT/STEC films
+(Fig. 1D): The charge screening effect of the ionic STEC additives results
+in a morphological change to form more crystalline and more intercon-
+nected PEDOT nanofibrillar structures. Because the PEDOT phase
+becomes more crystalline with the addition of STEC, we suspect that
+it is likely that the STEC molecules mostly reside in the more disordered
+regions, which further softens the material. This gives rise to a nanofiber
+network embedded in a soft matrix, which is a desirable morphology for
+high stretchability. Such morphology is also advantageous for high con-
+ductivity because of the higher crystallinity of the PEDOT domains and
+the improved connectivity.
+Films with the highest conductivity values were obtained with the
+above morphological improvement and an additional STEC washing
+of the films (Materials and Methodsand figs. S15 to 17). X-ray photo-
+electron spectroscopy (XPS) sputtering experiments indicate that the
+surface of the as-spun PEDOT/STEC film has a higher PSS + STEC –
+to– PEDOT ratio than the interior of the film (Fig. 4B and fig. S17).
+Rinsing with an STEC aqueous solution after annealing removes the
+excess PSS from the film surface, leading to a thinner film with a higher
+PEDOT content, thus further improving the conductivity (figs. S16 and
+S17). Treating the films with water led to a similar effect in terms of
+conductivity enhancement, but STEC solutions are used here to mini-
+mize the loss of STEC plasticizers that are necessary for stretchability.
+The conductivity for PEDOT/STEC systems increased rapidly as the STEC
+concentration increased until ~45 wt % (Fig. 4A and figs. S15 to 17). It then
+remained nearly constant upon further addition. The highest conduc-
+tivity values achieved were 2588, 3102, and 2544 S/cm at 71 wt % of
+STEC1, STEC2, and STEC3, respectively, versus 4 S/cm without these
+additives.
+Temperature dependence of conductivity
+The chemical composition and morphology of materials have direct
+impact on the temperature dependence of the electrical conductivity,
+which provides insights into transport properties. Aiming at applica-
+tions where highly stretchable materials are used as interconnects be-
+tween different electronic components, possible temperature drifts
+have to be minimized. The temperature dependence of PEDOT thin
+films between 340 and 75 K were measured in a cryostat using a four-probe
+dc current method (Fig. 4C). All samples exhibited reversible temperature
+dependence with low hysteresis, indicating high stability. An empirical
+relation has been used to extract the temperature resistance coefficients
+of first and second order (section S6). PEDOT with dimethyl sulfoxide as
+the additive exhibited a very high linear temperature resistance coefficient
+of abouta = 0.35%/K, whereas PEDOT/STEC enhancers 1 and 2 showed
+much lower values of 3.8 × 10
+−7 and 7.6 × 10−3%/K, respectively.
+A widely used model to describe th e temperature behavior of dis-
+ordered polymeric systems assumes that the charge transport is domi-
+nated by interchain hopping probability ( 36– 38). The temperature
+dependence of these materials follows a non-Arrhenius quadratic ex-
+pression originating from a Gaussian disorder and has been reported
+to describe systems with low charge carrier densities well. On the other
+hand, at high charge carrier densities, a universal Arrhenius-like tem-
+perature dependence has been observed for disordered conjugated poly-
+mers (39). Our stretchable PEDOT/STEC materials exhibited a clear
+temperature-activated behavior following the Arrhenius law (Fig. 4D).
+The activation energy extracted for PEDOT/STEC1 and PEDOT/STEC2
+was found to be only about 3 and 4.1 meV, respectively. These values are
+much lower compared to typical PEDOT films, which have an activation
+energy of 15.2 meV. These results agree with the stronger free-carrier tails
+observed in UV-vis-NIR spectra (Fig. 3B), which suggest that STEC en-
+hancers also act as“secondary” dopants for PEDOT. The doping effect
+increases the charge carrier density and shifts the Fermi levelE
+f above the
+equilibrium levelEq, which is represented by the maximum of the density
+of occupied states (39). The lowest activation energy of PEDOT/STEC1
+remains in agreement with the highest room temperature conductivity
+and the lowest linear temperature resistance coefficient of 3.8 × 10−7%/K.
+Applications and patterning of stretchable PEDOT
+Because the conductivity of the stretchable PEDOT remains well above
+1000 S/cm even under 100% strain, only a thin layer is needed to achieve
+low resistance, rendering it a good transparent stretchable conductor.
+Figure 4E depicts the relationship between film transmittance and sheet
+resistance. A sheet resistance of 59 ohms/sq was obtained for a film with
+96% transmittance (with substrate absorbance subtracted). This is
+among the highest values reported for PEDOT transparent electrodes,
+whereas none of the previously reported highly conductive ones were
+stretchable (25, 34, 40). The resistance decreased as the film thickness is
+increased, and it reached ~10 ohms/sq with a 75% film transmittance at
+550 nm. The film with 96% transmittance has a figure of merit (FoM) of
+142, which surpasses the previous highest value from spin-casted PEDOT
+films and transparent CNT electrodes (27, 34, 40, 41).
+Larger patterns (that is, >500mm) (Fig. 4F) can be readily obtained
+by screen printing or etching through a shadow mask and are stretchable
+w h e np r i n t e do na ne l a s t i cs u b s t r a t es u c ha sS E B S .C o m p l e xp a t t e r n s
+with resolution down to 40mm can be obtained through inkjet printing
+(Fig. 4, G to I).
+To demonstrate the application of stretchable PEDOT as intercon-
+nects, we used it to connect rigid LEDs (Fig. 5A). Negligible change in
+LED light intensity was observed even under high strain conditions,
+such as twisting while stretching or poking the interconnect with a
+sharp object (Fig. 5, B and C, and videos S1 and S2), due to the small
+change in resistance upon tensile strain.
+One distinct advantage of an intrinsically stretchable conductor as
+interconnects for rigid-island matrices is that it can lead to a much higher
+surface filling ratio (f)( 42) for active devices (islands) compared to the
+wavy interconnects, where a large amount of space between the rigid
+islands needs to be reserved for the wavy metal ribbons (4, 6). To dem-
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 5o f1 0
+
+onstrate the potential of PEDOT/STEC as interconnects in high-density
+circuits, we connected multiple rigid islands with field-effect transistor
+(FET) devices by lines of PEDOT (Fig. 5, F to H).
+A rigid island-to-interconnect width of 1:1 (f = 50%) is typically re-
+quired for wavy interconnects to reach stable performances under 100%
+strain (42). The actual length of the stretched interconnect is much lon-
+ger than the spacing between rigid islands (for example, up to >12 times
+if straightened) (6). In our case, for unidirectional stretching, a rigid
+island-to-interconnect ratio of as high as 5:1 ( f =7 8 % )c a ns t i l ll e a d
+to identical transistor current and threshold voltage characteristics
+from 0 to 150% strain for the linear array (fig. S29), which inflicts
+>530% strain on the PEDOT region based on finite element simula-
+tions (Fig. 5, D and E).
+To demonstrate the feasibility of multidimensional stretching, we
+fabricated 3 × 3 arrays with f of 78% and uniformly stretched them in
+all directions. Figure S30 and table S2 show the transfer curves for the
+Fig. 4. Electrical properties and patterning of the stretchable PEDOT/STEC (STEC content is 45.5 wt % for all).(A) Conductivity of the PEDOT films via spin coating followed
+by various STEC aqueous solution treatments. (B)X P SC60 ion gun sputtering depth profile of a stretchable PEDOT/STEC film. (C) Temperature dependence of the conductivity and
+(D) Arrhenius fitting for conventional PEDOT compared to those with STEC additives. (E) Sheet resistance of the PEDOT/STEC1 films in relation to their transparency. Transmittance
+values are extracted at 550 nm. (F) Patterned PEDOT/STEC film on SEBS (top) and the film being stretched (bottom). The line width is 1 mm. (G and H)P h o t o g r a p h( G )a n do p t i c a l
+microscope image (H) showing micrometer-scale patterns produced by inkjet-printing the PEDOT/STEC. (I) Illustration of the control of feature size, with a line width as small as 40mm
+printed on a SEBS substrate.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 6o f1 0
+
+nine transistors under 0 and 125% strains for overall device structure.
+The mobility variation for all the transistors is within ±10% (Fig. 5I).
+This strain is well beyond the 100% strain requirement for wearable
+and epidermal electronics, illustrating the excellent stretchability and
+the stable electrical performances of the PEDOT interconnects under
+strain. This array is especially suitable for stable performance on curved
+objects (Fig. 5H, fig. S31, and video S3).
+DISCUSSION
+We have demonstrated a highly stretchable and conductive PEDOT
+polymer by incorporating ionic additive– assisted STEC enhancers that
+result in a morphology that is beneficial for both high stretchability and
+conductivity. A further boost in conductivity is achieved through a
+proper selection of anions. The resulting materials show record-high
+stretchability and conductivity, the coexistence of which is rare for
+conducting polymers. High-density FET arrays connected using the
+stretchable PEDOT films show stable performance under >100% strain.
+This material synergistically combines high electrical conductivity, ex-
+ceptional mechanical ductility, and patternability by printing, thus
+opening many new avenues toward next-generation wearable and epi-
+dermal electronics and bioelectronics.
+MATERIALS AND METHODS
+Material preparation
+PEDOT:PSS (PH1000) was obtained from Clevios, andthe STEC ionic
+additives were obtained from Sigma-Aldrich and Santa Cruz Biotechnology,
+Fig. 5. Stretchable PEDOT/STEC as interconnects for LED and FET devices. (A) Schematic representation of an LED device bridged by PEDOT wires to the power
+source. (B and C) Photographs illustrating the minimal change in LED brightness as the device is stretched under twisting and poked with a sharp object, respectively .
+(D) Finite element simulation showing the cross-sectional strain distribution of the rigid-island arrays under 0% (top) and 100% (bottom) strains. ( E) Plot summarizing
+the relationship between array density and strain on PEDOT interconnects when stretching the array to 100% from the simulation results. ( F) Schematic diagram of the
+rigid-island FET array with stretchable PEDOT interconnects. ( G and H) Photographs showing the FET array being stretched in all directions on a flat surface and
+spherical object, respectively. ( I) Normalized mobility of individual transistors when the array is stretched to different strains.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 7o f1 0
+
+Inc. SEBS with 20% styrene content (Tuftec H1052) was supplied by
+AK Elastomer. HiPco single-walled CNT (SWCNT) was sorted via a
+previously reported method ( 43) using poly(3-dodecylthiophene-
+2,5-diyl) (P3DDT) to obtain semiconducting SWCNT for transistor
+fabrication.
+In a typical experiment, STEC of 10 to 71 wt % was added to the
+PEDOT:PSS aqueous dispersion (1.1 to 1.3 wt %) and stirred vigorously
+for 15 min. Thick films were acquired by drying the mixture overnight
+in a Teflon mold and then annealing at 130°C for 15 min. Thin films
+were processed onto glass, SiO2/Si, or SEBS substrates by spin coating at
+1000 rpm for 1 min under ambient conditions, followed by a 10-min
+annealing at 130°C. A postdeposition washing step was then carried out
+by dropping an aqueous solution containing 10 mg/ml of the corre-
+sponding STEC on the PEDOT films, waiting for 1 min, and removing
+the liquid by spinning the samples at 3000 rpm for 1 min. Glass or SiO
+2/Si
+was treated with oxygen plasma at150 W for 30 s, and SEBS was treated
+with UV ozone for 30 min or with oxygen plasma for 10 s (150 W) before
+PEDOT deposition via spin coating (1000 rpm for 1 min, followed by
+annealing at 70°C for 30 min). The SEBS substrates were prepared from
+a toluene solution (200 mg/ml) casted onto a glass slide.
+Electrical property
+Conductivity measurements were carried out using a four-point geom-
+etry. Electrodes were deposited by applying silver paste or EGaIn or by
+evaporating gold. A minimum of three to five measurements were ob-
+tained for an average value. Low temperature – dependent measure-
+ments were performed in a LakeShore cryostat under 10
+−5 mbar
+vacuum. A bottom gold contact geometry was used to ensure stable
+electrical contacts under thermal cycling. A slow cooling and heating
+rate of about 1.4 K/min assured the stabilization at each temperature.
+Mixed ion-electron conductivity
+Mixed ion-electron conductivity was studied using impedance mea-
+surements. The PEDOT films with STEC enhancers were cut into
+round tablets (diameter, 3.5 mm; thickness, ca. 100 mm). Two glassy
+carbon electrodes (diameter, 3 mm) were used to sandwich the tablet
+to form an electrical contact for the impedance measurement. The im-
+pedance data as functions of frequency were acquired by a Bio-Logic
+VSP-300 workstation with a sine wave signal amplitude of 10 mV. Re-
+sistances from the ionic versus electronic components were calculated
+using previously reported procedures (44).
+Mechanical property
+Mechanical properties of freestanding films around 200mmi nt h i c k n e s s
+were studied using Instron 5565 with a 100-N loading cell using dumbbell
+film geometry. The storage, loss moduli, and stress relaxation tests were
+carried out on a dynamic mechanicalanalysis (TA Instruments Q800).
+Morphological and chemical characterization
+Microscopy was performed on a FEI XL30 Sirion scanning electron mi-
+croscope. AFM images were recorded in tapping mode using a Veeco
+Multimode AFM. UV-vis-NIR spectra were collected on an Agilent
+Cary 6000i model. Dynamic light scattering experiments were carried
+out using 100-fold diluted PEDOT/STEC dispersions on a Brookhaven
+Instrument 90. XPS was performed on a PHI VersaProbe Scanning XPS
+Microprobe. Sputtering was carried out at 10 kV and 20 mA with a C
+60
+ion sputtering gun to preserve the chemical information in the polymer
+films. Film thickness values were measured using a contact probe Dektak
+150 profilometer and averaged from a minimum of three areas.
+Grazing-incidence x-ray scattering
+GIWAXS measurements were carried out at the Stanford Synchrotron Ra-
+diation Lightsource at beamline 11-3, with a photon energy of 12.735 KeV
+and a sample-to-detector distance of 320 mm. The incident angle
+was fixed at 0.14° to probe the entire film with reduced substrate
+scattering.
+Patterning
+Patterned films [feature size, >500 mm (such as for the LED or FET
+arrays)] were obtained by repeating the spin coating and washing
+steps three times for PEDOT on SEBS, followed by oxygen plasma
+etching (150 W for 5 to 10 min) through a shadow mask until the ex-
+posed PEDOT films were completely removed.
+Micrometer-sized patterns of the stretchable PEDOT/STEC were
+achieved through inkjet printing using a fourfold diluted dispersion.
+The dispersion was passed through a glass fiber syringe filter with a pore
+size of 0.7 mm and degassed for a few minutes to remove trapped air
+bubbles before it was loaded into a cartridge. A Dimatix Fujifilm
+DMP 2800 inkjet printer with 10-pl drop volume cartridges was used
+to print this ink on different substrates, such as SiO
+2/Si, SEBS, or photo
+paper. The optimal printing parameters for plasma-treated SEBS sub-
+strate (150 W for 10 s) were as follows: drop-to-drop spacing of 30mm; a
+jet speed and a frequency of 5 m/s and 1.5 kHz, respectively; a cartridge
+temperature of 28°C, and a substrate temperature of 30°C.
+Stretchable rigid-island transistor arrays
+Transistors on rigid Si islands in our arrays were fabricated by first
+patterning the Cr/Au (5/40 nm) source and drain electrodes through
+as h a d o wm a s ko naS i O
+2/n++-Si wafer (Si and SiO2 serve as the back
+gate and dielectric layer, respectively). Each FET device has a channel
+width of 1000mm and a channel length of 200mm. The sorted SWCNT
+dispersion (0.7 ml) (43) was spin-coated on the patterned substrates
+(2 in × 2 in) at 2000 rpm for 90 s. The sample was then soaked in toluene
+at 90°C for 30 min to remove the P3DDT, dried with nitrogen flow, and
+annealed at 120°C for 20 min under ambient conditions. Polydimethyl-
+siloxane shadow masks were aligned on the devices to protect the active
+device areas. The SWCNTs between devices were then etched away by
+oxygen plasma (150 W for 10 min). Single rigid-island devices were ob-
+tained by dividing the whole piece into 5-cm × 5-cm chips along the CNT-
+free spaces. The 3 × 3 stretchable organic transistor active matrices were
+fabricated by immobilizing the individual islands using silver epoxy onto a
+SEBS substrate and linked together using patterned PEDOT/STEC1,
+creating a common back gate (Fig. 5F). Under ambient conditions, the
+transistor performance was characterized using a Keithley 4200 SC semi-
+conductor analyzer under different strains for each rigid island while ap-
+plying common gate voltages through the PEDOT interconnects.
+Finite element simulation
+Finite element analysis for simulating the strain distributions in the FET
+arrays was carried out using the software Abaqus.
+SUPPLEMETARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/3/3/e1602076/DC1
+section S1. Selection of STEC enhancers
+section S2. Mechanical characterization of bulk freestanding films
+section S3. Effect of STEC on PEDOT:PSS
+section S4. Morphology of PEDOT/STEC film interior
+section S5. Microscopy study of the effect of tensile strain on PEDOT/STEC films
+section S6. Electrical properties of PEDOT/STEC films
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 8o f1 0
+
+section S7. Composition of PEDOT/STEC films
+section S8. Low-temperature measurements
+section S9. FoM for transparent conductors
+section S10. Testing geometry for PEDOT films under tensile strain
+section S11. Polarized UV-vis-NIR spectra for PEDOT films under tensile strain
+section S12. Cycling stability and morphological change of PEDOT with STEC additives
+section S13. Mixed ion-electron conductivity
+section S14. PEDOT/STEC as interconnects for FET arrays
+table S1. Summary of STEC structures and their effects on the electrical and mechanical properties
+of freestanding PEDOT:PSS films (thickness range, 150 to 200 mm) with 45.5 wt % of STEC.
+table S2. Summary of mobility and threshold voltage shift for the 3 × 3 transistor arrays under
+0 and 125% strain.
+fig. S1. Plot summarizing the conductivity, maximum tensile strain, and Young ’s modulus for
+freestanding PEDOT:PSS films (~150mm in thickness) with all additives investigated in this paper.
+fig. S2. Mechanical characterization of bulk freestanding films.
+fig. S3. Mechanism behind STEC-induced morphology change for PEDOT:PSS films.
+fig. S4. AFM phase images of PEDOT with various additives.
+fig. S5. GIWAXS analyses of PEDOT films.
+fig. S6. Diffraction data for PSS and insoluble PEDOT control samples.
+fig. S7. Plasticizing effect of STEC on PEDOT and NaPSS individually.
+fig. S8. SEM characterization of the cross section of a stretchable PEDOT film.
+fig. S9. Optical microscope images of a PEDOT/STEC1 film supported on a SEBS substrate
+under various strains.
+fig. S10. Optical microscope images of a PEDOT/STEC1 film supported on a SEBS substrate
+after being stretched to various strains and returned to its original length.
+fig. S11. Surface profile analyses of PEDOT films after stretching.
+fig. S12. Optical microscope images of a PEDOT/STEC1 film upon unloading from 100% strain.
+fig. S13. Optical microscope images of a PEDOT/STEC2 film held under various tensile strains.
+fig. S14. Optical microscope images of a PEDOT/STEC2 film upon stretching to various tensile strains.
+fig. S15. Conductivity values of PEDOT/STEC films processed under different conditions.
+fig. S16. Conductivity of PEDOT/STEC films with various STEC weight % before and after further
+STEC solution treatment.
+fig. S17. Effect of further doping using STEC solution on spin-coated films.
+fig. S18. Chemical composition of PEDOT/STEC films.
+fig. S19. Temperature-dependent conductivity and first- and second-order temperature
+coefficients for PEDOT films.
+fig. S20. Arrhenius plots for temperature dependent conductivity.
+fig. S21. Schematic diagrams of tensile testing and conductivity measurement geometries.
+fig. S22. Tension-induced chain-alignment behavior of PEDOT/STEC films.
+fig. S23. XPS analysis of film surfaces under 0% versus 100% strain, after returning from 100%
+to 0% strain, and after 1000 stretching cycles to 100% strain.
+fig. S24. Cycling stability of PEDOT/STEC1 films.
+fig. S25. Cycling stability of PEDOT/STEC2 films.
+fig. S26. Mixed ion-electron conductivity measurements.
+fig. S27. Schematic showing the cross-sectional view of a linear rigid-island array connected
+with stretchable PEDOT.
+fig. S28. Schematic diagrams illustrating strain calculation for rigid-island devices.
+fig. S29. Schematic and transfer characteristics for a 3 × 1 FET array.
+fig. S30. Schematic and transfer characteristics for a 3 × 3 FET array.
+fig. S31. A 3 × 3 FET array being stretched on a spherical object.
+video S1. A stretchable LED device poked with a sharp object.
+video S2. Twisting and stretching of a stretchable LED device.
+video S3. A 3 × 3 FET array stretched on a spherical object.
+REFERENCES AND NOTES
+1. S. Wagner, S. Bauer, Materials for stretchable electronics. MRS Bull. 37, 207 –213 (2012).
+2. M. L. Hammock, A. Chortos, B. C.-K. Tee, J. B.-H. Tok, Z. Bao, The evolution of electronic skin
+(E-skin): A brief history, design considerations, and recent progress. Adv. Mater. 25,
+5997–6038 (2013).
+3. I. Jung, J. Xiao, V. Malyarchuk, C. Lu, M. Li, Z. Liu, J. Yoon, Y. Huang, J. A. Rogers,
+Dynamically tunable hemispherical electronic eye camera system with adjustable zoom
+capability. Proc. Natl. Acad. Sci. U.S.A. 108, 1788 –1793 (2011).
+4. D.-H. Kim, J.-H. Ahn, W. Mook Choi, H.-S. Kim, T.-H. Kim, J. Song, Y. Y. Huang, Z. Liu, C. Lu,
+J. A. Rogers, Stretchable and foldable silicon integrated circuits.Science 320, 507–511 (2008).
+5. D. J. Lipomi, M. Vosgueritchian, B. C. Tee, S. L. Hellstrom, J. A. Lee, C. H. Fox, Z. Bao, Skin-
+like pressure and strain sensors based on transparent elastic films of carbon nanotubes.
+Nat. Nanotechnol. 6, 788 –792 (2011).
+6. X. Hu, P. Krull, B. de Graff, K. Dowling, J. A. Rogers, W. J. Arora, Stretchable inorganic-
+semiconductor electronic systems. Adv. Mater. 23, 2933 –2936 (2011).
+7. T. Sekitani, Y. Noguchi, K. Hata, T. Fukushima, T. Aida, T. Someya, A rubberlike stretchable
+active matrix using elastic conductors. Science 321, 1468 –1472 (2008).
+8. S. Yao, Y. Zhu, Nanomaterial-enabled stretchable conductors: Strategies, materials and
+devices. Adv. Mater. 27, 1480 –1511 (2015).
+9. D.-H. Kim, J. A. Rogers, Stretchable electronics: Materials strategies and devices.
+Adv. Mater. 20, 4887 –4892 (2008).
+10. C. Yan, P. S. Lee, Stretchable energy storage and conversion devices. Small 10,3 4 4 3–3460
+(2014).
+11. T. C. Shyu, P. F. Damasceno, P. M. Dodd, A. Lamoureux, L. Xu, M. Shlian, M. Shtein,
+S. C. Glotzer, N. A. Kotov, A kirigami approach to engineering elasticity in
+nanocomposites through patterned defects. Nat. Mater. 14, 785 –789 (2015).
+12. H. Vandeparre, Q. Liu, I. R. Minev, Z. Suo, S. P. Lacour, Localization of folds and cracks
+in thin metal films coated on flexible elastomer foams. Adv. Mater. 25, 3117–3121 (2013).
+13. A. Chortos, J. Lim, J. W. F. To, M. Vosgueritchian, T. J. Dusseault, T.-H. Kim, S. Hwang,
+Z. Bao, Highly stretchable transistors using a microcracked organic semiconductor.
+Adv. Mater. 26, 4253 –4259 (2014).
+14. T. S. Hansen, K. West, O. Hassager, N. B. Larsen, Highly stretchable and conductive
+polymer material made from poly(3,4-ethylenedioxythiophene) and polyurethane
+elastomers. Adv. Funct. Mater. 17, 3069 –3073 (2007).
+15. K.-Y. Chun, Y. Oh, J. Rho, J.-H. Ahn, Y.-J. Kim, H. Ryeol Choi, S. Baik, Highly conductive,
+printable and stretchable composite films of carbon nanotubes and silver.
+Nat. Nanotechnol. 5, 853 –
+857 (2010).
+16. N. Matsuhisa, M. Kaltenbrunner, T. Yokota, H. Jinno, K. Kuribara, T. Sekitani,
+T. Someya, Printable elastic conductors with a high conductivity for electronic
+textile applications. Nat. Commun. 6, 7461 (2015).
+17. K. Tybrandt, J. Vörös, Fast and efficient fabrication of intrinsically stretchable multilayer
+circuit boards by wax pattern assisted filtration. Small 12, 180 –184 (2016).
+18. Y. Kim, J. Zhu, B. Yeom, M. Di Prima, X. Su, J.-G. Kim, S. J. Yoo, C. Uher, N. A. Kotov,
+Stretchable nanoparticle conductors with self-organized conductive pathways. Nature
+500,5 9 –63 (2013).
+19. S. Savagatrup, E. Chan, S. M. Renteria-Garcia, A. D. Printz, A. V. Zaretski,
+T. F. O ’Connor, D. Rodriquez, E. Valle, D. J. Lipomi, Plasticization of PEDOT:PSS
+by common additives for mechanically robust organic solar cells and wearable
+sensors. Adv. Funct. Mater. 25, 427 –436 (2015).
+20. D. J. Lipomi, J. A. Lee, M. Vosgueritchian, B. C.-K. Tee, J. A. Bolander, Z. Bao,
+Electronic properties of transparent conductive films of PEDOT:PSS on stretchable
+substrates. Chem. Mater. 24, 373 –382 (2012).
+21. J. Y. Oh, S. Kim, H.-K. Baik, U. Jeong, Conducting polymer dough for deformable
+electronics. Adv. Mater. 28, 4455 –4461 (2016).
+22. S. Savagatrup, A. D. Printz, T. F. O ’Connor, A. V. Zaretski, D. J. Lipomi, Molecularly
+stretchable electronics. Chem. Mater. 26, 3028 –3041 (2014).
+23. R. J. Young, P. A. Lovell, Introduction to Polymers (CRC Press, ed. 3, 2011).
+24. D. Liu, R. Osuna Orozco, T. Wang, Deviations of the glass transition temperature in
+amorphous conjugated polymer thin films. Phys. Rev. E 88, 022601 (2013).
+25. J. Ouyang, “Secondary doping ” methods to significantly enhance the conductivity
+of PEDOT:PSS for its application as transparent electrode of optoelectronic devices.
+Displays 34, 423 –436 (2013).
+26. A. Elschner, S. Kirchmeyer, W. Lovenich, U. Merker, K. Reuter, PEDOT: Principles and
+Applications of an Intrinsically Conductive Polymer (CRC Press, ed. 1, 2010).
+27. Y. Hyun Kim, C. Sachse, M. L. Machala, C. May, L. Müller-Meskamp, K. Leo, Highly
+conductive PEDOT:PSS electrode with optimized solvent and thermal post-treatment for
+ITO-free organic solar cells. Adv. Funct. Mater. 21, 1076 –1081 (2011).
+28. J. Ouyang, C.-W. Chu, F.-C. Chen, Q. Xu, Y. Yang, High-conductivity poly(3,4-
+ethylenedioxythiophene):poly(styrene sulfonate) film and its application in polymer
+optoelectronic devices. Adv. Funct. Mater. 15, 203 –208 (2005).
+29. Y. Xia, J. Ouyang, Salt-induced charge screening and significant conductivity
+enhancement of conducting poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate).
+Macromolecules 42, 4141 –4147 (2009).
+30. S. Garreau, J. L. Duvail, G. Louarn, Spectroelectrochemical studies of poly(3,4-
+ethylenedioxythiophene) in aqueous medium. Synth. Met.
+125,3 2 5–329 (2001).
+31. S. Garreau, G. Louarn, J. P. Buisson, G. Froyer, S. Lefrant, In situ spectroelectrochemical
+Raman studies of poly(3,4-ethylenedioxythiophene) (PEDT). Macromolecules 32,
+6807–6812 (1999).
+32. M. Łapkowski, A. Proń, Electrochemical oxidation of poly(3,4-ethylenedioxythiophene)—
+“In situ” conductivity and spectroscopic investigations.Synth. Met. 110,7 9–83 (2000).
+33. N. Kim, B. Hoon Lee, D. Choi, G. Kim, H. Kim, J.-R. Kim, J. Lee, Y. H. Kahng, K. Lee,
+Role of interchain coupling in the metallic state of conducting polymers. Phys. Rev. Lett.
+109, 106405 (2012).
+34. N. Kim, S. Kee, S. Ho Lee, B. H. Lee, Y. H. Kahng, Y.-R. Jo, B.-J. Kim, K. Lee, Highly conductive
+PEDOT:PSS nanofibrils induced by solution-processed crystallization. Adv. Mater. 26,
+2268–2272 (2014).
+35. C. M. Palumbiny, F. Liu, T. P. Russell, A. Hexemer, C. Wang, P. Müller-Buschbaum,
+The crystallization of PEDOT:PSS polymeric electrodes probed in situ during printing.
+Adv. Mater. 27, 3391 –3397 (2015).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 9o f1 0
+
+36. H. Bässler, Charge transport in disordered organic photoconductors a Monte Carlo
+simulation study. Phys. Status Solidi B 175,1 5 –56 (1993).
+37. S. D. Baranovskii, H. Cordes, F. Hensel, G. Leising, Charge-carrier transport in disordered
+organic solids. Phys. Rev. B 62, 7934 –7938 (2000).
+38. R. Coehoorn, W. F. Pasveer, P. A. Bobbert, M. A. J. Michels, Charge-carrier concentration
+dependence of the hopping mobility in organic materials with Gaussian disorder.
+Phys. Rev. B 72, 155206 (2005).
+39. N. I. Craciun, J. Wildeman, P. W. M. Blom, Universal Arrhenius temperature activated
+charge transport in diodes from disordered organic semiconductors. Phys. Rev. Lett. 100,
+056601 (2008).
+40. B. J. Worfolk, S. C. Andrews, S. Park, J. Reinspach, N. Liu, M. F. Toney, S. C. B. Mannsfeld,
+Z. Bao, Ultrahigh electrical conductivity in solution-sheared polymeric transparent
+films. Proc. Natl. Acad. Sci. U.S.A. 112, 14138 –14143 (2015).
+41. B. Dan, G. C. Irvin, M. Pasquali, Continuous and scalable fabrication of transparent
+conducting carbon nanotube films. ACS Nano 3, 835 –843 (2009).
+42. H. R. Fu, S. Xu, R. X. Xu, J. Q. Jiang, Y. H. Zhang, J. A. Rogers, Y. G. Huang, Lateral buckling
+and mechanical stretchability of fractal interconnects partially bonded onto an
+elastomeric substrate. Appl. Phys. Lett. 106, 091902 (2015).
+43. H. Wang, B. Cobb, A. van Breemen, G. Gelinck, Z. Bao, Highly stable carbon nanotube
+top-gate transistors with tunable threshold voltage. Adv. Mater. 26, 4588 –4593
+(2014).
+44. C. Wang, J. Hong, Ionic/electronic conducting characteristics of LiFePO
+4 cathode
+materials: The determining factors for high rate performance. Electrochem. Solid State
+Lett. 10, A65 –A69 (2007).
+45. K. E. Aasmundtveit, E. J. Samuelsen, O. Inganäs, L. A. A. Pettersson, T. Johansson,
+S. Ferrer, Structural aspects of electrochemical doping and dedoping of
+poly(3,4-ethylenedioxythiophene). Synth. Met. 113,9 3 –97 (2000).
+Acknowledgments: We thank H.-H. Chou for helpful discussions and M. Nalamachu for
+assistance in preparation of LED devices.Funding:This work was supported by Samsung Electronics
+and Air Force Office of Scientific Research (grant no. FA9550-15-1-0106). R.P. acknowledges
+support from the Marie Curie Cofund, Beatriu de Pinós fellowship (Agència de Gestió d’Ajuts
+Universitaris i de Recerca, 2014 BP-A 00094). F.L. and F.M-L. thank the Swiss National Science
+Foundation for an Early Mobility Postdoc grant. N.I.R. thanks the Stanford Graduate Fellowship and
+the NSF Graduate Research Fellowship Program. C.L. gratefully acknowledges additional support
+of the NSF through grant CMMI-1553638. Use of the Stanford Synchrotron Radiation Lightsource,
+SLAC National Accelerator Laboratory, was supported by the U.S. Department of Energy, Office
+of Science, Office of Basic Energy Sciences under contract no. DE-AC02-76SF00515.Author
+contributions:Y.W. and Z.B. conceived the concept. Y.W. carried out material preparation,
+characterization, and measurements. C.Z. fabricated FET arrays. R.P. performed low-temperature
+measurements. H.Y. performed GIWAXS data collection and analysis. L.J. simulated the strain
+distribution inrigid-island arrays. S.C. carried out XPS measurements. F.M.-L. inkjet-printed
+micrometer-sized patterns. F.L. and Y.W. performed AFM analyses. J.L. carried out mixed
+ion-electron conductivity measurements. N.I.R. helped with material preparation. Z.C. aided with
+the experimental design. J.W.C., C.L., M.F.T., B.M., and Z.B. supervised the project. All authors
+participated in data analysis and manuscript preparation. Competing interests: Y.W. and
+Z.B. applied for a patent related to the work (US 62/279,561) through Stanford University. All
+other authors declare that they have no competing interests.Data and materials availability:
+All data needed to evaluate the conclusions in the paper are present in the paper and/or
+the Supplementary Materials. Additional data related to this paper may be requested
+from the authors.
+Submitted 30 August 2016
+Accepted 16 February 2017
+Published 10 March 2017
+10.1126/sciadv.1602076
+Citation: Y. Wang, C. Zhu, R. Pfattner, H. Yan, L. Jin, S. Chen, F. Molina-Lopez, F. Lissel, J. Liu,
+N .I .R a b i a h ,Z .C h e n ,J .W .C h u n g ,C .L i n d e r ,M .F .T o n e y ,B .M u r m a n n ,Z .B a o ,Ah i g h l y
+stretchable, transparent, and conductive polymer. Sci. Adv. 3, e1602076 (2017).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Wang et al ., Sci. Adv. 2017; 3 : e1602076 10 March 2017 10 of 10

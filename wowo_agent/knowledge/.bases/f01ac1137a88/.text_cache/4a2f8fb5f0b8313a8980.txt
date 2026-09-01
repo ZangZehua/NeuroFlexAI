@@ -1,0 +1,1320 @@
+Article https://doi.org/10.1038/s41467-024-50494-8
+A universal packaging substrate for
+mechanically stable assembly of stretchable
+electronics
+Yan Shao1,2,5,J i a n f e n gY a n1,5, Yinglin Zhi1,C h u nL i1, Qingxian Li3,K a i m i nW a n g1,
+Rui Xia1, Xinyue Xiang1, Liqian Liu1,G u o l iC h e n1, Hanxue Zhang1, Daohang Cai1,
+Haochuan Wang1, Xing Cheng 1, Canhui Yang 3, Fuzeng Ren 1 &
+Yanhao Yu 1,4
+Stretchable electronicscommonly assemble multiple material modules with
+varied bulk moduli and surface chemistry on one packaging substrate. Pre-
+venting the strain-induced delamination between the module and the sub-
+strate has been a critical challenge. Here we develop a packaging substrate that
+delivers mechanically stable module/substrate interfaces for a broad range of
+stiff and stretchable modules with varied surface chemistries. The key design
+of the substrate was to introduce module-speciﬁc stretchability and universal
+adhesiveness by regionally tuning the bulk molecular mobility and surface
+molecular polarity of a near-hermetic elastic polymer matrix. The packaging
+substrate can customize the deformation of different modules while avoiding
+delamination upon stretching up to 600%. Based on this substrate, we fabri-
+cated a fully stretchable bioelectronicdevice that can serve as a respiration
+sensor or an electric generator with an in vivo lifetime of 10 weeks. This sub-
+strate could be a versatile platform for device assembly.
+The operation of stretchable electronics relies on the integration of
+different material modules1–3. Directly fabricating these modules on
+one packaging substrate is a straightforward option, but is an intricate
+task for manufacturing4–6. A feasible path would be separately fabri-
+cating the modules and assembling them together through packaging,
+akin to conventional microelectronics
+7,8. This way brings a new chal-
+lenge: modules are prone to delaminate from the packaging substrate
+under stretching, especially for modules undergoing large deforma-
+tion during their operation (e.g., strain sensors and transistors)
+9,10.T o
+improve the mechanical stability of assembly, the stretchable packa-
+ging substrate should universally adhere to and mechanically comply
+with different modules that were made from metals, ceramics, plastics,
+and elastomers.
+The adhesions between the module and the substrate can be
+formed through chemical bonding or topological entanglement for
+chemically alike interfaces, broadly covering silicones/glass
+11,12,a n d
+carbon elastomers/carbon elastomers 13,14.H o w e v e r ,a d h e s i o n s
+become dif ﬁcult when the surface chemistry of the module varies
+signiﬁcantly from that of the substrate (e.g., silicones vs. carbon elas-
+tomers). One substrate that can universally adhere to different mod-
+ules and intimately deform with them remains unavailable. On the
+other end, spatially tailoring the stretchability of the substrate through
+composition and geometry designs has been introduced to enable
+mechanical compliance between the module and substrate. The strain-
+insensitive regions of the substrate hold the modules, while the strain-
+sensitive regions respond to the external stress. Successful examples
+Received: 13 February 2024
+Accepted: 10 July 2024
+Check for updates
+1Department of Materials Science and Engineering, Southern University of Science and Technology, Shenzhen 518055, China.2School of Materials Science
+and Engineering, Yancheng Institute of Technology, Yancheng 224051, China.3Shenzhen Key Laboratory of Soft Mechanics & Smart Manufacturing,
+Department of Mechanics and Aerospace Engineering, Southern University of Science and Technology, Shenzhen 518055, China.4Guangdong Provincial Key
+Laboratory of Sustainable Biomimetic Materials and Green Energy, Southern University of Science and Technology, Shenzhen 518055, China.5These authors
+contributed equally: Yan Shao, Jianfeng Yan. e-mail: renfz@sustech.edu.cn; yuyh@sustech.edu.cn
+Nature Communications|         (2024) 15:6106 1
+1234567890():,;
+1234567890():,;
+
+of such substrates include polydimethylsiloxane (PDMS) 15–17,
+Ecoﬂex18–20, styrene-ethylene/bu tylene-styrene (SEBS) 9,13,a n dp o l y -
+urethane (PU)21,22. The dominant strategy for making area-dependent
+stretchability is to create rigid island regions in mother elastomers by
+introducing crosslinking or hard units, while softening mother elas-
+tomers without substantially altering their barrier properties remains a
+challenge
+23–25. From adhesion to stretchability designs, contemporary
+developments of the packaging substrate lack a standard option that
+can universally assemble different units with module-speci ﬁc
+mechanical compliance.
+In this work, we report a packaging substrate with module-speciﬁc
+stretchability and adhesiveness by sectionally tuning molecular
+mobility in the bulk via the plasticizing effect and enhancing the
+molecular polarity on the surface via an interposer layer. The regional
+modulus of the substrate can beﬁnely controlled from 60 kPa to 3 MPa
+depending on the needs of assembly. The transition between different
+sections was seamless and sharp, preventing the substrate from
+structural failure. The interposer layer was made by introducing highly
+polar domains in an elastic polymer matrix, through which unifying the
+attributes of chemical bonding and topological entanglement. The
+substrate with the interposer layer formed robust yet stretchable
+adhesions with silicon (Si), aluminum (Al), poly(3,4-ethylenediox-
+ythiophene):poly(styrene sulfonate) (PEDOT:PSS), PET (polyethylene
+terephthalate); PDMS, Ecoﬂex, SEBS, and hydrogel. The adhesion and
+stretchability design jointly result in the reliable integration of multiple
+modules that can endure arbitrary deformations. Exploiting these
+unique features of this substrate, we fabricated an arbitrarily deform-
+able bioelectric generator/sensor and demonstrated its mechanical
+stability under stretching, compressing, bending, twisting, and crum-
+pling. The intrinsically low permeability and high biocompatibility of
+the substrate further allowed the device to operate stably under in vivo
+conditions for 10 weeks.
+Results
+Design principle
+Stretchable electronics often consist of mechanically mismatched
+components: stiff and brittle modules adhered onto soft and stretch-
+able substrates. Subject to a stretch, the prominent discrepancy in
+modulus gives rise to severe stress concentration at the soft/stiff
+interface, which is the primary cause of interfacial delamination. From
+the perspective of fracture mechanics, interface delamination is driven
+by the energy release rate (G), which relates to the strain and modulus
+of the module and substrate through the following equation:
+G = Zh
+mσ2=Em ð1Þ
+where σ is the tensile stress and σ = Es ε, ε is the strain, hm is the
+thickness of the module, Em and Es are the Young ’s modulus of the
+module and substrate, respectively,Z is a dimensionless driving force
+that determined by the cracking pattern and the modulus mismatch
+between the module and substrate
+26. This equation indicates that G
+increases monotonically with the strain and the modulus mismatch
+between the module and substrate. Delamination occurs when G
+exceeds the interfacial toughnessΓ (i.e., G > Γ)27. Therefore, improving
+the mechanical stability of the assembled modules on the substrate
+requires a low modulus mismatch for reducingG and a high interfacial
+toughness for increasingΓ.
+Directed by the above principle, we endowed the packaging
+substrate with module-speciﬁc stretchability to reduce the modulus
+mismatch and strong adhesion to increase the interfacial toughness.
+We chose poly(styrene-isobutylene-styrene) (SIBS) as the mother
+material for the substrate considering its high elasticity and chemical
+stability, and its lowest water permeability among elastomers
+28.T h e
+elastic modulus of SIBS can be broadly tuned by introducing poly-
+isobutylene (PIB) oligomers, creating area-selective stretchability for a
+wide range of stretchable and stiff modules (Fig. 1a). The interposer
+layer is composed of SIBS and maleic anhydride grafted polypropylene
+(PP-g-MAH). The SIBS chains and MAH groups in the interposer layer
+are responsible for topologically entangled with the SIBS substrate and
+chemically bonded with the module surface, respectively.
+We observed an order of magnitude improvement in the degree of
+strain that triggers the assembly failure for this new packaging substrate
+compared to conventional stretchable substrate. For a homogenous
+substrate without the interposer layer, both stiff and stretchable mod-
+ules delaminated under a small strain (20%, case 1 in Fig.1b, c). Module-
+speciﬁc design prevented the delamination of the stiff module, while
+the stretchable module delaminated under 100% tensile strain due to
+t h ew e a ka d h e s i o n( c a s e2i nF i g .1b, c). Strong interfacial adhesion
+improved the structural stability of the stretchable module, but the stiff
+module still delaminated under 200% tensile strain due to the con-
+centrated stress from the modulus mismatch between the module and
+s u b s t r a t e( c a s e3i nF i g .1b, c). For the module-speciﬁc substrate with the
+interposer layer (i.e., a combination of bulk modulus and surface
+adhesion designs), both stiff and stretchable modules maintained their
+structural stability under 600% strain (case 4 in Fig. 1b, c), the largest
+strain degree for a module/substrate interface to the best of our
+knowledge (Table S1, Supplementary Information). For the case 4 in
+Fig. 1b, the lowerE
+m of the soft module leads to a higherG value relative
+to the hard module under the same strain according to the above
+equation. For the case 3 and 4 in Fig. 1b, the interposer layer mainly
+increasedΓ. The interposer layer enables stronger interfacial adhesion
+(i.e., higher interfacial toughnessΓ), so that the interface can tolerate a
+larger strain and a higherG.T h eﬁnite element simulation conﬁrms that
+the module-speciﬁcs u b s t r a t eg r e a t l yr e d u ced the magnitude of the
+concentrated stress and thus mitigated the debonding issue. For
+example, when subject to a nominal strain of 200%, the maximum Mises
+stress of the integrated device based on a conventional homogenous
+substrate reached 12.46 MPa (case 3), which was 2.68 times that of the
+module-speciﬁc substrate in case 4 (4.65 MPa, Fig.1da n dF i g .S 1 ) .T h e s e
+results highlight the importance of combining the bulk and surface
+designs in the packaging substrate.
+The high mechanical integrity leads to the steady operation of an
+actual operating circuit under large strains (Fig. S2 and Movie S1). The
+circuit includes stretchable conducting lines made from a SIBS/PIB/
+liquid metal composite and stiff modules such as light emitting diode
+(LED), inductor, chip, diode, and resistor. The stiff modules and
+stretchable conducting lines were integrated onto the hard and soft
+regions of the packing substrate, respectively. When the circuit was
+externally powered and stretched, the LED remained lit up under a
+stretch of 400%. Further increasing the stretch made the LED go out
+due to the deformation-induced electrical breakdown of the stretch-
+able conducting lines.
+Module-speciﬁc stretchability. The customizable stretchability was
+originated from plasticizing SIBS chains with PIB oligomers.
+The SIBS/PIB blend exhibited different surface features compared
+to pristine SIBS under the phase scan of taping-mode atomic force
+microscopy (AFM). The distance between the PS blocks of SIBS was
+enlarged from 24 nm to 42 nm after adding PIB, implying the disen-
+tanglement of SIBS chains due to the plasticizing effect induced by the
+PIB oligomer (Figs.2a and S3). The glass transition temperature (T
+g)o f
+SIBS was reduced from −34 °C to −39 °C after introducing 20 wt% of
+PIB, further evidencing the enhanced molecular mobility with the
+plasticizing effect of PIB oligomer
+29,30. Due to the low content of PS, Tg
+of the PS segments was not observed on both samples in the tan δ
+spectra, but appeared in the SIBS with 30 wt% PS (Figs. 2ba n dS 4 ) ,
+consistent with previous observations on the PS-based block copoly-
+mers using dynamic mechanical analysis
+31,32. However, the Tg of PS for
+all samples was detectable on differential scanning calori-
+metry (Fig. S5).
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 2
+
+The elastic moduli of a pristine SIBS with 15 wt% of PS and the
+same SIBS modi ﬁed by 5, 20, 40, and 60 wt% of PIB (molecular
+weight: 1300) were 840, 680, 420, 200 and 60 kPa, respectively
+(Figs. 2c and S6). The monotonic decrease of modulus with the
+increase of PIB content was a direct result of the enhanced chain
+mobility observed by the AFM and T
+g characterizations. The elon-
+gations at break of the pristine SIBS and the SIBS with 5, 20, 40, and
+60 wt% of PIB were 680%, 850%, 800%, 640%, and 430%, respectively.
+The initial increase of elongation was caused by PIB-induced disen-
+tanglements of SIBS chains. When the PIB content exceeded 40%, the
+elongation at break decreased compared with the pristine SIBS due
+to the shorter chain length of the dominant PIB oligomers.
+The SIBS ﬁlms with varied modulus can be integrated into one
+substrate to yield regional stretchability by a solvent welding process.
+As a demonstration, we chose a SIBS ﬁlm containing 30 wt% of PS as
+the hard region and a SIBS containing 15 wt% of PS and 20 wt% of PIB
+oligomers as the soft region. For both the soft-hard-soft (SHS) and
+hard-soft-hard (HSH) ﬁlms, the deformation mainly occurred in the
+soft region when the stress was low (Fig. 2d). The stress-strain curves
+showed a similar mechanical behavior determined by the soft region
+for the soft ﬁlm, SHS ﬁlm, and HSH ﬁlm when the strain was <100%
+(inset in Fig.2e). With the increase of stress and strain, the hard regions
+experienced the load and differentiated the mechanical behaviors of
+these ﬁlms (Fig. 2e). The elongation at break gradually decreased with
+the increase of the portion of hard regions since the hard region had
+fewer stretchable segments. The surface of the transition area between
+soft and hard regions was clean (Fig. S7a). The physical size of the
+transition area (i.e., the resolution) depends on the solvent evaporat-
+ing time of the hard region, which controls the solidiﬁcation degree of
+the hard region (Fig. S7b–f). The smallest transition distance between
+the soft and hard regions was about 100 μm.
+The enhanced chain mobility increased the probability for water
+to penetrate, causing a side effect of the enlarged water vapor trans-
+mission rate (WVTR). The WVTR of the pristine SIBS was measured to
+be 0.35 g·mm·m
+−2 day−1 at 38 °C and 90% relative humidity (RH,
+Fig. S8). For the SIBS ﬁlm with <40 wt% of PIB, the increase of WVTR
+was marginal (<20%). The WVTR of the SIBS ﬁlm with 60 wt% of PIB
+abruptly increased to 0.52 g·mm·m−2 day−1, due to the new free volume
+created by the dominant PIB oligomer24,33. The WVTR of the SHS and
+HSH ﬁlms were both 0.35 g·mm·m−2 day−1 at 38 °C and 90% RH, similar
+to that of the soft and the hard SIBSﬁlms (Fig.2f). This result indicated
+that the interfaces between the soft and hard regions were non-
+defective, consistent with the cross-section SEM observation (inset
+in Fig. 2f).
+The WVTR of SIBS is orders-of-magnitude lower than that of
+commonly used elastomers, such as SEBS (~5 g·mm·m
+−2 day−1)a n d
+PDMS (~70 g·mm·m−2 day−1). The low WVTR of SIBS originated from its
+molecular composition and structure. SIBS is a triblock copolymer
+composed of a PIB elastic block and PS end-blocks. The fully saturated
+nonpolar C-C backbone provides strong chemical repellence to the
+polar water molecule. The dense methyl side groups in the PIB seg-
+ments create a large steric hindrance, further preventing the pene-
+tration of water. Compared to SIBS, the Si-O bond in silicones has
+higher tendency to attract water molecules due to its polarity
+34 and the
+steric hindrance effect of the ethylene–butadiene segment in SEBS is
+weaker than that of the PIB segment35. The low WVTR of SIBS suggests
+they can more effectively protect devices from moisture-induced
+damages relative to SEBS and PDMS.
+① Homogeneous substrate without interposer layer ② Module-specific substrate without interposer layer
+③ Homogeneous substrate with interposer layer      ④ Module-specific substrate with interposer layer
+Stiff 
+device
+Stretchable 
+device
+c strain = 0% ④ strain = 600%
+③ strain = 200%② strain = 100%① strain = 20%
+Hard region
+(SIBS)
+PP-g-MAH
+PIB
+a
+Soft region
+(PIB plasticized SIBS)
+Adhesive interposer layer
+(PP-g-MAH modified SIBS)
+SIBS
+b
+d
+0.00 1.04 2.08 3.12 4.15 5.19 6.23 7.27 8.31 9.35 10.38 11.42 12.46 (MPa)
+Case ④Case ③
+Energy release rate (G)
+Strain (ε)
+Г1
+Г2
+③ Hard module delaminated 
+O OO
+m n
+Fig. 1 | Device assembly on packaging substrates. a Schematic of the packaging
+substrate with module-speciﬁc stretchability and adhesiveness. The hard and soft
+regions were designed to hold stiff and stretchable devices, respectively. SIBS
+represents poly(styrene-isobutylene-styrene); PIB represents polyisobutylene;
+PP-g-MAH represents maleic anhydride grafted polypropylene.b Schematic plot
+for the crack driving force ‒ energy release rate (G) as a function of total strain. Γ
+1
+and Γ2 refer to the interfacial toughness between the module and substrate with
+and without the adhesive interposer layer, respectively. Case 1 to 4 refer to the
+modules integrated onto the homogeneous substrate without the interposer layer
+(1), onto the module-speciﬁc substrate without the interposer layer (2), the
+homogeneous substrate with the interposer layer (3), the module-speciﬁc substrate
+with the interposer layer (4). The hard and soft regions in case 4 were separately
+plotted.c Photographs for the experimental observation of the mechanical stability
+of the four situations depicted in (b). d Finite element simulation of the stress
+distribution for case 3 (left) and 4 (right), identifying concentrated stress at the
+module/substrate interface in case 3, but not in case 4. The scale range for these
+two cases was uniﬁed to 12.46 MPa for a clear comparison.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 3
+
+Adhesion induced by the interposer layer . We made the substrate
+adhesive to different materials by introducing an interposer layer
+composed of SIBS and PP-g-MAH. The interposer layer and the sub-
+s t r a t ec a ne a s i l ya d h e r ew i t he a c ho t h e rt h r o u g ht o p o l o g i c a le n t a n -
+glement of SIBS chains. On the other direction, the MAH group has a
+strong polarity and can form covalent bonds with amine groups,
+allowing the interposer to chemically bind with surfaces treated by
+aminosilane molecules like (3-aminopropyl) triethoxysilane (APTES,
+Fig. 3a). Through a fairly facile blade casting (Fig. S9) and warm
+pressing process (80 °C and 200 g of weight), conformable adhesions
+were formed between the substrate and several commonly used
+materials in stretchable electronics, including PDMS, Al foil, Si, PEDOT:
+PSS, PET, and chitosan hydrogel (Fig.3b). The interfacial toughness for
+PET, Al, PDMS, and Si reached 390, 220, 200, and 120 J·m
+−2,r e s p e c -
+tively, about one order of magnitude higher than those of the inter-
+faces without the interposer layer. The adhesion with an interfacial
+toughness of above 100 J·m
+−2 is sufﬁcient for most applications, such
+as bioelectronic devices, stretchable conductors, and stretchable
+circuits
+27,36–38. The interfacial toughness for PEDOT: PSS and chitosan
+hydrogel was unmeasurable since they exceeded the cohesive energy
+of the material, i.e., the material ruptured before the interface was
+separated (Fig. S10). Signi ﬁcantly higher interfacial toughness
+(>900 J·m
+−2) could be obtained by pressing these interfaces at 150 °C
+using laminating equipment (Fig. S11). This is the ﬁrst stretchable
+packaging substrate that can universally adhere metals, ceramics,
+plastics, and elastomers with distinct surface chemistries to the best of
+our knowledge (Table S2).
+To quantitatively evaluate the inﬂuence of the regionally designed
+stretchability to the adhesion stability, we measured the variation of
+interfacial toughness of the APTES-treated Alﬁlm adhered on the hard
+region of the HSH substrate as a function of the substrate deformation
+and compared it with the same adhesion on a homogeneous SIBS
+substrate (Figs. 3d and S11). The interfacial toughness of Al/HSH
+interface was nearly independent of the substrate deformation within
+600% of strain since the soft region dissipated most of the stress and
+the hard region remained intact. In contrast, the Al ﬁlm delaminated
+from the homogeneous SIBS substrate when the substrate was stret-
+ched to 100%, leading to a dramatic decrease of the interfacial
+toughness. The Al/HSH interface maintained its interfacial toughness
+after undergoing 20,000 cycles of 100% tensile strain, demonstrating
+its working stability during long-term operation (Figs.3ea n dS 1 2 ) .
+Arbitrarily deformable bioelectronic device assembled from the
+packaging substrate. The integration of modules was demonstrated
+through assembling a fully stretchable bioelectronic generator/sensor
+using the HSH and SHS packaging substrates. Multiple domains of
+PDMS and SIBS-protected hydrogel were attached to the hard region
+of the packaging substrates to serve as dielectrics and electrodes,
+respectively (Figs.4a and S13). The working principle of this device was
+based on triboelectric and electrostatic effects through the following
+process. (i) At the starting position, the top and bottom modules were
+fully overlapped and intimately in contact with each other. Positive and
+negative charges accumulated on the SIBS and PDMS surfaces after
+triboelectriﬁcation, respectively, due to their different abilities to hold
+electrons (Fig. S14). (ii) When the device was stretched, a relative dis-
+placement between the top and bottom charging layers was produced
+as a result of the region-speci ﬁc deformation of the SHS and HSH
+substrates. The reduced overlapping area changed the electrostatic
+PS
+PS
+PS
+Hard
+Soft
+HSH
+SHS
+800600400
+0
+6
+12
+18
+24
+2000
+0 100 80604020
+0.6
+1.2
+1.8
+0
+Stress (MPa)
+Strain (%)
+02 0 4 0 6 0
+Elastic modulus (kPa)
+Content of PIB (%)
+Hard Soft SHS HSH SEBS PDMS
+WVTR (g·mm·m-2·day-1)
+25 μm
+soft hard
+c
+fd
+Elongation at break (%)
+5
+PIB oligomer
+a
+SIBS
+0 
+300 
+600 
+900 
+0 
+300 
+600 
+900 
+H
+S
+SH
+H
+H
+S
+H
+S H
+S
+S
+200 g
+0
+2
+60
+70
+80
+200 g
+30
+Temperature (ºC)
+15010050-100
+0.0
+1.8
+1.2
+0.6
+bTan δ
+-50 0
+SIBS (15% PS)
+SIBS /PIB blend
+e
+200 nm
+200 nm
+PS
+PS
+PS
+PSPS
+PS
+PS PS
+Fig. 2 | Structure and property of the packaging substrate with module-speciﬁc
+stretchability. aAFM phase images and structural schematic of pristine SIBS (top)
+and the SIBS blended with 20% of PIB (bottom). Representative results are pre-
+sented from n = 5 independently repeated experiments.b Tan δ spectra of pristine
+SIBS and SIBS/PIB blendﬁlms. The glass transition temperature shifted from−34 °C
+to −39 °C after introducing PIB, suggesting the enhanced chain mobility of SIBS.
+c Elastic modulus and elongation at break as a function of the PIB content for SIBS/
+PIB blendﬁlms. d Photographs of hard-soft-hard (HSH, i) and soft-hard-soft (SHS, ii)
+SIBS ﬁlms before and after being pulled by a 200 g of weight, showing that
+deformations mainly occurred in the soft regions. H and S represent the hard and
+soft regions, respectively.e Stress-strain curves of hard, soft, HSH, and SHS ﬁlms.
+The inset is a magniﬁed illustration for the region within 100% of strain. Hard and
+soft refer to the hard SIBS and the soft SIBS, respectively; HSH and SHS refer to the
+hard-soft-hard SIBS and the soft-hard-soft SIBS, respectively.f Water vapor trans-
+mission rate of hard, soft, HSH, SHS, SEBS, and PDMS ﬁlms measured at 38 °C and
+90% relative humidity. The error bars represent standard deviations and data is
+from n = 3 biologically independent samples and expressed as mean ± s.d. SEBS
+refers to styrene-ethylene/butylene-styrene and PDMS refers to poly-
+dimethylsiloxane; The inset is a cross-section SEM image that shows the seamless
+transition between the soft region and hard region in HSH and SHS ﬁlms.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 4
+
+equilibrium, driving the electronﬂow from the reference electrode (a
+ground electrode) to the hydrogel electrode and generating an elec-
+trical current. (iii) The current maximized at the position when the top
+and bottom charging layers were fully separated. (iv) With the back
+movement, electrons on the hydrogel electrode ﬂew back to the
+ground to keep the electrostatic equilibrium, generating an opposite
+current. Alternative current pulses were continuously produced by
+repeating this stretch-release cycle (Fig.4ba n dM o v i eS 2 ) .
+When using this device as a generator that converts mechanical
+energy to electricity, its voltage output reached a peak-to-peak value
+(V
+pp)o f~ 7 V( F i g .4c). In comparison, the voltage outputs of the gen-
+erators assembled using a homogeneous soft substrate or hard sub-
+strate were orders of magnitude lower under the same stress due to
+the small relative displacement of the charging layer. The voltage and
+current outputs of this device increased monotonically with the
+increase of strain, ranging from 0.5 V and 4 nA for the strain of 10% to
+7 V and 16 nA for the strain of 150% (Figs. 4d, e, and S15). This is an
+intuitive result since the contact and separation area is proportional to
+the strain.
+This device can convert arbitrary mechanical stimuli to electrical
+signals due to its high mechanical and electrical sensitivities endowed
+by the SHS and HSH designs. The contact-separation processes of the
+SHS and HSH substrates differ dramatically under bending, twisting,
+crumpling, and compressing (Fig. S16), leading to distinctive peak
+shapes and magnitudes in the current signals (Figs. 4fa n dS 1 7 ) .
+The superior structural stability and low WVTR of the packaging
+substrates endow the device with high mechanical and chemical
+stabilities. Its outputs remained steady being immersed in acidic and
+alkaline phosphate buffer saline (PBS) solutions for 5 weeks
+(Figs. 4g and S15). After 15,000 cycles of continuous deformation to
+70%, the voltage output of the device remained at ~3 V (Fig. 4h). The
+sensitive response to arbitrary deformations, together with the high
+mechanical and chemical stabilities, makes this device a versatile sys-
+tem for sensing body motions or converting biomechanical energy to
+electricity.
+In vivo operation of the bioelectronic device. The main component
+of this packaging substrate— SIBS is an implantable material approved
+by the Food and Drug Administration (FDA) of the United States
+39.
+Whether the polar MAH groups are biosafe or not is a question under
+debating
+40,41, but the interposer layer that contains MAH groups was
+placed at the inner surface of our packaging substrate and was phy-
+sically separated with the body environment by pristine SIBS. There-
+fore, this packaging substrate and the device assembled from it will be
+fully biocompatible.
+The biocompatibility of the packaging substrate was evaluated by
+incubating and comparing mouse ﬁbroblast cells. The immuno-
+ﬂuorescence staining images showed that the cells incubated with the
+HSH packaging substrate exhibited a typical elongated morphology
+with reasonable distributions and densities, similar to the cells in the
+blank group (Fig.5a and Fig. S18). The live/dead staining assay revealed
+that cell viability on the HSHﬁlm was comparable to that on the blank
+surface (Fig. 5b). These ﬁndings provide evidence of the non-toxic
+nature of the packaging substrate.
++
+Amidation reaction
+a
+edc
+b
+Si Hydrogel PET
+PDMS Al PEDOT:PSS
+Interposer layer Interposer layer Interposer layer
+SIBS
+Interposer layer Interposer layer
+100 μm
+100 μm
+SIBS SIBS
+SIBS
+Interposer layer
+SIBS SIBS
+Topological 
+entanglement
+Chemical 
+linking
+PP-g-MAH APTES
+Interfacial toughness (J·m-2)
+PET Al PDMS Si
+With interposer layer
+Without interposer layer
+0
+80
+160
+240
+320
+400
+Strain (%)
+Interfacial toughness (J·m-2)
+HSH filmHomogeneous film
+100% 600%
+0
+50
+100
+150
+200
+250
+0 100 200 300 400 500 600
+Displacement (mm)
+2*Force/width (N·m-1) 0 cycle 20000 cycle
+1
+10
+100
+0 2 04 06 08 0
+HSH film Homogeneous film
+100%
+Interposer layerAl film
+Soft SIBSHard SIBS
+x y
+OH
+O
+HN
+O
+Si
+O
+O
+O
+Fig. 3 | Adhesion between the packaging substrate and different materials.
+a Adhesion mechanism between the packaging substrate and material module by
+introducing an interposer layer between them. The reaction shown at the bottom
+refers to chemical linking between the PP-g-MAH molecules in the interposer layer
+with the APTES-treated module surface. APTES represents (3-aminopropyl) trie-
+thoxysilane.b SEM images of the tightly adhered interfaces between the packaging
+substrate and Si (silicon), hydrogel, PET (polyethylene terephthalate), PDMS, Al
+(aluminum), and PEDOT:PSS (poly(3,4-ethylenedioxythiophene):poly(styrene sul-
+fonate)) formed through the interposer layer. Representative results are presented
+from n = 3 independently repeated experiments.c Interfacial toughness
+comparison of the packaging substrate with and without interposer layer on PET,
+Al, PDMS, and Si. d Interfacial toughness of an Al/HSH interface and an Al/homo-
+geneous SIBS interface after being stretched to 50%, 100%, 300%, and 600%. The
+left inset is a schematic diagram showing that Al delaminated from the homo-
+geneous SIBS ﬁlm after undergoing 100% tensile strain. The right schematic illus-
+trates that Al kept stable on the HSHﬁlm after undergoing 600% tensile strain. The
+error bars represent the standard deviation and data is from n = 3 biologically
+independent samples and expressed as mean ± s.d.e Force/width - displacement
+curves of Al/HSH before and after stretched to 100% for 20000 cycles.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 5
+
+Accordingly, the bioelectronic device assembled using these
+packaging substrates (Fig. 4a) exhibited high compatibility with the
+tissue. Figures 5c and S19 show the pathological analyses after 2 and
+10 weeks of implantation, respectively. No in ﬂammation of lympho-
+cytes, tissue injury, or morphological change in muscular cells was
+observed in the top and bottom tissues surrounding the device. Nei-
+ther tissue injury nor morphological change was observed in muscular
+cells. No deformation or abnormal lymphatic cell invasion was found in
+vital organs, including the heart, lung, liver, spleen, and kidney. Blood
+and serum analyses revealed comparable values in white blood cells
+(WBC), neutrophils, and lymphocytes for both the experimental and
+control groups, showing no signs of in ﬂammation. Hematopoietic
+function, as indicated by red blood cell (RBC), remained stable during
+the testing period, showing no signs of anemia (Fig. 5d).
+The device operated stably when implanted under the skin of
+adult rats in the dorsal, thigh, and chest (Fig. 5e and Fig. S20). The
+device placed on the chest generated a stable voltage of 0.5 V in
+response to the rat’s respiration (Fig.5fa n dM o v i eS 3 ) ,d e m o n s t r a t i n g
+its ability to sense subtle biomechanical signals. The devices placed in
+the thigh and dorsal regions produced a consistent voltage of 0.7 V
+and 1.5 V after gently stretching the dorsal region and the leg at a
+frequency of 1 Hz, respectively (Movie S4, S5). The voltage output of
+the implanted device remained unchanged at 1.5 V for 10 weeks,
+making the longest in vivo lifetime among the stretchable implantable
+biomechanical sensor to the best of our knowledge (Table S3, Sup-
+plementary Information). This result stemmed from the low WVTR and
+module-speciﬁc stretchability and adhesivity of the packaging sub-
+strate (Figs. 2f and S21, S22), concurrently preventing the device from
+Voltage (V)
+Time (s)
+0 15000100005000
+0
+2
+4
+6
+0
+1
+2
+3
+0 5 7555 7560
+0
+1
+2
+3
+14969 149750
+1
+2
+3
+Small strain 
+Large strain 
+Initial state
+Release
+ab
+cd
+g
+Soft SIBS Hard SIBS PDMS Hydrogel Interposer layer
+Initial state Small strain 
+Large strain Release
+e-
+h
+e-
+e
+Strain (%)
+10 30 70 100 150
+Current (nA)
+0
+4
+8
+12
+16
+Voltage (V)
+0 5 10 15 20
+0
+2
+4
+6
+8
+10
+Strain (%)
+10 30 70 100 150
+Voltage (V)
+0
+2
+4
+6
+fCurrent (nA)
+Time (s)
+0 5 10 15 20 25
+-40
+0
+40
+80
+PH=3.6 PH=7 PH=10
+Fresh 5 weeks
+Voltage (V)0
+2
+4
+Time (s)
+Fig. 4 | Working principle and electrical outputs of the arbitrarily deformable
+bioelectronic device. a Working principle of the device converting mechanical
+deformation to electrical signal.b Photographs of the moving process of the device
+shown in (a). The soft regions were dyed in red and the hard regions were kept
+transparent.c Voltage outputs of the devices assembled using a homogeneous
+hard substrate, a homogeneous soft substrate, and the module-speciﬁc substrate.
+Insets are the structural schematic of these three devices. d, e Voltage (d)a n d
+current (e) outputs of the device shown in (a) at different strains.f Current outputs
+of the device under different deformations, including bending, twisting, crumpling,
+and compressing. The insert photographs show the deformation modes when
+recording the signals. g Voltage outputs of the device before and after being
+immersed in PBS solution with different PH values for 5 weeks.h Output stability of
+the device under 15, 000 cycles of stretching to 70%. The insets show the voltage
+output of the device at the beginning, middle, and end of the test.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 6
+
+chemical failure induced by body ﬂuids and mechanical failure
+induced by deformation.
+Discussion
+In summary, we present a packaging substrate that offers module-
+speciﬁc stretchability and adhesiveness, low water permeability, high
+chemical stability, and high biocompatibility. The substrate was
+achieved by modifying SIBS with PIB plasticizers and an adhesive
+interposer layer. The modulus of the substrate can be ﬁnely adjusted
+from 60 kPa to 3 MPa in different regions based on the assembly
+requirements. Adhesion can be universally formed on the surfaces of
+metals, ceramics, plastics, and elastomers under mild conditions. The
+regional stretchability and tight adhesion together ensure stability at
+the module/substrate interface under 600% tensile strain. The WVTR
+of the substrate was 0.35 g mm m
+−2 day−1 at 38 °C and 90% RH, orders
+of magnitude lower than that of conventional SEBS and PDMS sub-
+strates. As proof of concept, we integrated conductive and dielectric
+material modules with the packaging substrate, creating a highly
+ns
+ns
+ns
+p = 0.38
+p > 0.99
+p = 0.34
+leg
+dorsal
+chest
+Time (weeks)
+02468 1 0
+Voltage (V)
+e
+Voltage (V)
+Time (s)
+chest
+leg
+0 5 10 15 20
+0.0
+1.0
+0.5
+1.5
+2.0 dorsal gf
+Absorbance at 450 nm
+Day 1 Day 3 Day 5
+Counts (103·μL-1)
+WBC Neu Lym RBC
+ns
+Control
+Device implanted
+ns
+ns
+ns
+Subcutaneous
+Device
+Heart
+Liver Spleen Lung Kindey
+Day 1
+ControlHSH film
+Day 3 Day 5Day 1-spreadinga b
+c d
+0.0
+0.2
+0.4
+0.6
+0
+2
+4
+6
+8
+0.0
+1.0
+0.5
+1.5
+p = 0.84
+p = 0.13
+p = 0.64
+p = 0.24
+0.8
+Control
+HSH film
+Fig. 5 | Biocompatibility and in vivo performance of the arbitrarily deformable
+bioelectronic device. a Cytotoxicity comparison between control and HSHﬁlm.
+Column 1: Fluorescence micrograph showing the normal morphology of L929 cells
+over a 1 day culturing period. Green indicates the cytoskeleton, and blue indicates
+the nucleus. Columns 2–4: Fluorescence micrographs of live/dead staining assay
+showing the growth of L929 cells during a 5 day culturing period.b Optical density
+at 450 nm of L929 cells growth during a 5 day culturing period. c Pathological
+analyses by H&E staining of regional tissues surrounding the implanted device and
+on most vital organs (heart, liver, spleen, lung, and kidney) after 2 weeks of
+implantation, revealing no signs of inﬂammation. d Blood tests comparison with
+and without device implantation during a 2 week implantation period, including
+white blood cells (WBC), neutrophils (Neu), lymphocytes (Lym), and red blood cells
+(RBC). All scale bars are 200 µm. e Schematic illustration showing the positions of
+device implantation, including the dorsal, thigh, and chest areas. The device
+function as a sensor when implanted on the chest and as a generator when
+implanted on the dorsal and thigh areas. f In vivo electrical signals of the device
+produced by natural respiration when implanted on the chest (left) and generated
+by gentle stretching when implanted on the thigh (middle) and dorsal region
+(right). Insets are the surgery photographs of the device implantation.g In vivo
+electrical signals produced by the device during continuous implantation on the
+dorsal region for 10 weeks, recorded at 2 week intervals. Note: Data in (b)a n d(d)
+are from n = 3 biologically independent samples and expressed as mean ± s.d.
+Statistical differences were analyzed with two-sidedt-test, *p <0 . 0 5 .N od a t aw e r e
+excluded from the analyses.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 7
+
+stretchable bioelectronic device capable of generating electricity from
+arbitrary deformations. Due to the unique combination of favorable
+mechanical, chemical, and biomedical properties, the device exhibited
+high operational stability under 15,000 cycles of 70% tensile strain,
+5 weeks of immersion in PBS solution, and 10 weeks of implantation in
+a living rat. This packaging substrate stands as a versatile choice for
+assembling stretchable electronics designed to operate in complex
+mechanical and physicochemical conditions.
+Methods
+Fabrication of the packaging substrate with regional
+stretchability
+The fabrication started with preparation of SIBS/PIB blendﬁlms. 5 g of
+SIBS (15 wt% of PS) and 1.25 g of PIB were dissolved in 20 mL of toluene
+and stirred for 4 h at room temperature to obtain a homogeneous
+precursor solution. 9 mL of the precursor was casted on a rectangular
+container with a size of 8 × 6.5 cm
+2. A transparent SIBS/PIB blend ﬁlm
+with a thickness of 250 μm was obtained after the solvent was evapo-
+rated at room temperature in the fume hood. SIBS (15 wt% of PS)/PIB
+(8:2, wt/wt) and pristine SIBS with 30 wt% of PS were selected as the
+soft and hard components for the hard-soft-hard (HSH) and soft-hard-
+soft (SHS) ﬁlms. For the HSH ﬁlm, 3.4 mL of 250 mg/mL SIBS (30 wt%
+PS)/toluene solution was respectively dropped in the left (3 × 6.5 cm
+2)
+and right part (3 × 6.5 cm 2) of a rectangular container with a size of
+8×6 . 5c m2.AP D M S ﬁlm (2 × 6.5 cm2) was inserted in the middle to
+l e a v et h es p a c ef o rt h es o f tc o m p o n e n t .T h eS I B Sﬁlms in the left and
+right parts of the container were controlled to be semi-solidi ﬁed by
+partially evaporating toluene at room temperature in the fume hood.
+A f t e rt h a t ,r e m o v i n gt h eP D M Ss p a c e ra n dﬁlling the blank space with
+2.2 mL of SIBS/PIB/toluene solution. Due to the diffusion of toluene
+during theﬁlm solidiﬁcation, the edges between the soft part and hard
+part were seamlessly merged. At last, a transparent HSH ﬁlm was
+obtained after the solvent was fully evaporated at room temperature in
+t h ef u m eh o o d .T h eS H Sﬁlm was fabricated via a similar process. The
+dimension of each part can be controlled by changing the size of the
+mold and the amount of the precursor solution.
+Adhesion of the packaging substrate with different materials
+Preparation of PP-g-MAH/SIBS solution: 2 g of PP-g-MAH was dissolved
+in 100 mL of toluene and stirred for 2 h at 120 °C in a 500 mL three-
+necked ﬂask equipped with a condenser, a thermometer, and a
+mechanical stirrer. After that, 40 g of SIBS (15 wt% of PS) was added to
+the toluene solution and stirred for 5 h at 80 °C to obtain the PP-g-
+MAH/SIBS precursor solution.
+Adhesion with plastics, semiconductor, and metals: PET, Si, Al
+foils wereﬁrst cleaned with deionized water and isopropanol, followed
+by oxygen plasma treatment for 5 min at 300 W. These surfaces were
+subsequently immersed in an ethanol/water (volume ratio 9:1) solution
+containing 5 wt% of APTES for 2 h, followed by drying at 80 °C for 1 h.
+The interposer layer with a ﬁlm thickness of about 100 μmw a sp r o -
+duced by blade-coating the PP-g-MAH/SIBS precursor solution on
+APTES-treated surfaces. The adhesions were formed by pressing the
+packaging substrate onto the treated surfaces with 200 g weight in an
+80 °C oven for 4 h.
+Adhesion with elastomer: The elastic PDMS ﬁlms were prepared
+with a silicone base to curing agent ratio of 10:1. The mixture were
+manually stirred with a glass rod for 10 min, followed by degassing in a
+vacuum chamber for 10 min. 3 mL of PDMS precursor solution was
+dropped in a rectangular container with a size of 5 × 5 cm
+2.AP D M Sﬁlm
+with a thickness of ~1 mm was obtained after curing the precursor in an
+80 °C oven for 4 h. The PDMSﬁlm was treated under oxygen plasma at
+300 W for 5 min and then immersed in an ethanol/water (volume ratio
+9:1) solution containing 5 wt% of APTES for 2 h, followed by drying at
+80 °C for 1 h. The interposer layer with aﬁlm thickness of 100 μmw a s
+produced by blade-coating the PP-g-MAH/SIBS precursor solution on
+APTES-treated surfaces. The adhesions were formed by pressing the
+packaging substrate onto the treated surfaces with 200 g weight in an
+80 °C oven for 4 h.
+Adhesion with PEDOT:PSS: The original PEDOT:PSS solution
+(PH1000) wasﬁltered with 0.22μms y r i n g eﬁlters and then mixed with
+5 vol% DMSO. The resultant solution was sonicated for 10 min to obtain
+a uniform mixture. Free-standing PEDOT:PSSﬁlms were fabricated via
+a simple solution casting process, followed by drying at 80 °C for 1 h.
+The ﬁlms were treated by oxygen plasma at 300 W for 5 min. Then, the
+ﬁlms were immersed in an ethanol/water (volume ratio 9:1) solution
+containing 5 wt% of APTES for 2 h, followed by drying at 80 °C for 1 h.
+After that, PP-g-MAH/SIBS solution was bladed coating on APTES
+treated surface to form adhesive interposer layer. The adhesions were
+formed by pressing the packaging substrate onto it with 200 g weight
+i nt h eo v e nw i t ht h et e m p e r a t u r eo f8 0° Cf o r4h .
+Adhesion with chitosan hydrogel: 1 g of chitosan power was dis-
+solved in a solution mixture containing 40 mL of DI water, 10 mL of
+glycerol, and 2 mL of acetic acid under stirring at room temperature
+for 4 h. After degassing, 20 mL of chitosan precursor solution was
+casted into a petri dish with a diameter of 8 cm, and evaporated in a
+40 °C oven for 12 h to obtain the chitosan gel. The adhesion between
+chitosan gel and SIBS ﬁlm was form by placing the PP-g-MAH/SIBS/
+toluene solution in between and evaporating the toluene naturally.
+Conductive chitosan hydrogel was achieved by immersing the pre-
+pared chitosan hydrogel in to 5% NaCl/ DI water for 5 h.
+Finite element simulation: The static ﬁnite element analysis was
+implemented in Abaqus/Standard. The model was in a 1:1 scale
+according to the actual sample (the simulation area in Fig. S1a). The
+soft region (pink) and stiff segment (green) of the substrate, and the
+soft modules (orange) were modeled as neo-Hookean materials with
+elastic moduli of 400 kPa, 3 MPa, and 400 kPa, respectively. The stiff
+modules (yellow) were modeled as elastic materials with elastic mod-
+ulus of 1 GPa. All components were merged together without interface
+failures. Hybrid hexahedral structured elements (C3D8H) were used
+and the global mesh size was set to be 0.15 mm, resulting in a total of
+304920 elements. The tensile load was applied to left and right sur-
+faces of the stretchable device such that the nominal strain of the
+middle segment is 200%.
+Assembly of the arbitrarily deformable bioelectronic device
+The SIBS, PDMS and conductive chitosan hydrogelﬁlms were used as
+the triboelectric layers and electrode to fabricate the arbitrarily
+deformable device. For the top part of the device, a PDMS ﬁlm
+(3 × 1.8 cm
+2,1 0 0 μm in thickness) with adhesive interposer layer was
+attached to the hard region of the SHS ﬁlm (1 × 2.8 cm2 for the soft
+region and 3 × 2.8 cm2 for the hard region, 250μmi nt h i c k n e s s )b yh o t -
+pressing at 150 °C. For the bottom part of the device, two pieces of
+chitosan hydrogel (1.2 × 1.8 cm
+2, 1 mm in thickness) with the adhesive
+interposer layer was adhered to the hard region of HSHﬁlm (1 × 2.8 cm2
+for the soft region and 2 × 2.8 cm 2 for the hard region, 250 μmi n
+thickness). Then, 100 μL of SIBS/toluene solution was coated on the
+surface of the hydrogel and a SIBS triboelectric layer (100 μmi n
+thickness) was formed after toluene was evaporated. The stretchable
+device was assembled by hot-pressing the HSH and SHS modules along
+the edges with the PDMS layer and SIBS coated hydrogel facing each
+other at 130 °C.
+Structural and property characterizations
+Scanning electron microscopy (SEM): SEM images were acquired on
+SE, TESCAN MIRA3 with a 5 kV accelerating voltage. Samples were
+coated with Pt or Au using sputtering prior to the characterization.
+Atomic force microscopy (AFM): AFM images were obtained using
+an Asylum Research MFP-3D Stand Alone scanning probe microscope
+operated in tapping mode. AC240TS cantilevers (Olympus, typical
+spring constant: 2 N·m
+−1) were used to record AFM images with sizes of
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 8
+
+1 μm2 at a resonance frequency of 70 kHz. The set point was set
+600 mV. The driving amplitude of AFM tip was set to 280 mV for
+the phase image in Fig. 2a. Under a lower driving amplitude (150 mV),
+the phase image of the pristine SIBS became vague, while the phase
+image of the SIBS/PIB blend remained clear.
+Dynamic mechanical analysis (DMA): DMA was performed on a
+dynamic mechanical analyzer (TA-Q-800). The ﬁlms were ﬁxed on a
+tension clamp and strained to 0.1% at a frequency of 1 Hz, where the
+temperature was swept from −90 °C to 150 °C with a heating rate of
+5° C / m i n .
+Measurement of stress-strain curves: The tensile properties were
+characterized by a mechanical testing machine using a rectangular
+geometry (CMT 6203, MTS SYSTEMS, China). Samples were made in a
+rectangular shape with a size of 50 × 7 mm
+2 and a thickness of 250μm.
+The tensile properties were characterized at room temperature with a
+strain rate of 30 mm/min. Three tests were conducted for each sample
+and the error bars represent the standard deviation ( n =3 ) . C y c l i c
+stretching measurement was carried out on the HSH ﬁlm with a
+stretching velocity of 30 mm/min and a strain of 100%.
+Measurement of water vapor transmission rate (WVTR): The
+WVTR of SIBS, SIBS/PIB blend ﬁlm, HSH ﬁlm, SHS ﬁlm and SEBS were
+acquired by AQUATRAN Model 3 (AMETEK MOCON) at 38 °C and 90%
+relative humidity. The chamber area was 5.64 cm
+2 and all theﬁlms has a
+thickness of 250 μm. The WVTR for PDMS exceeded the largest mea-
+surable value of the AQUATRAN Model 3 equipment, so the gravi-
+metric method was used to determine it WVTR. In speciﬁc, the PDMS
+ﬁlms were placed over the mouth of vials pre ﬁlled with anhydrous
+copper sulfate. The edges were sealed by a parafﬁn ﬁlm to the mouth
+of vials, and further tightened by a hollow lid. All the vials have a
+diameter of 1.8 cm. After applying the ﬁlm, the vial was placed in a
+beaker ﬁlled with DI water at 38 °C for 3 weeks. The vial was then
+removed from water and its weight increment was measured imme-
+diately. The WVTR was calculated using the equation:
+WVTR =Δm=A=t=d ð2Þ
+where Δm was the weight increment of the vial (g),A was the exposed
+ﬁlm surface area (m
+2), t was the total time being immersed in water
+(day), and d was the thickness of PDMS. Three tests were conducted
+for allﬁlms. The mean value was reported, and the error bars represent
+the standard deviation (n =3 ) .
+Measurement of interfacial toughness: The interfacial toughness
+was measured with an Electromechanical Universal Testing Machine
+(Model CMT6203) equipped with 100 N load cells at a tensile speed of
+30 mm·min
+−1. Samples were cut into a rectangle shape (1 × 10 cm2). The
+measurement was performed by a 180° peeling test and the interfacial
+toughness was calculated through dividing the peeling force by the
+sample width (multiply by 2 for the T-shape measurement). For each
+sample, the toughness was averaged from at least three replicates. The
+adhesion stability upon cyclic mechanical deformation was acquired
+by measuring the interfacial tough ness of Al/interposer layer/HSH
+sample (Alﬁlm adhered on the hard region of the HSHﬁlm) before and
+after being stretched with a linear motor to 100% strain for 20,000
+cycles. The adhesion stability was also characterized by measuring the
+interfacial toughness after the Al/interposer layer/SIBS and Al/inter-
+poser layer/HSH samples being stretched to the strain of 50%, 100%,
+300%, 600%.
+Electrical measurement of the arbitrarily deformable
+bioelectronic device
+Output measurement: The output of the arbitrarily deformable device
+and the control devices were measured under the same stretching
+force. All the devices had the same size (5 × 2.5 cm
+2). During the mea-
+surement, the front tip of the device wasﬁxed on a stationary stage and
+the back tip was attached to a moveable stage, which was connected to
+a computer-controlled linear motor (P01-37 × 120-C_C1, Linmot). The
+devices were stretched and released periodically at a frequency of 1 Hz.
+The generated voltage, current and charge was recorded by the elec-
+trometer (Keithley 6514).
+Stability evaluation: The output stability of the arbitrarily
+deformable device was characterized by measuring its outputs in PBS
+solution with the PH value of 3.6, 7 and 10. The entire device was
+completely immersed in PBS solution for 5 weeks and the output vol-
+tage was measured by an electrometer (Keithley 6514) once time a
+week. The device was stretched and released periodically with the
+strain of 70% at a frequency of 1 Hz and the output voltage was
+recorded at the same time.
+Biocompatibility and in vivo output of the arbitrarily deformable
+bioelectronic device
+Cell cytotoxicity: L929 mouse ﬁbroblast cells were purchased
+from BeNa Culture Collection Co., Ltd., and incubated according to the
+program given in the manual. CCK-8 solution, Calcein AM, Propidium
+Iodide and phosphate-buffered saline (PBS) solution were purchased
+from Shanghai Beyotime Biotechnology Co., Ltd. Eagle ’sm i n i m u m
+essential medium (EMEM), fetal bovine serum (FBS), penicillin-
+streptomycin solution (P/S) were purchased from Thermo Fisher Sci-
+entiﬁc Inc. The cell cultural medium was obtained by adding FBS and P/
+S to EMEM with a volume ratio of 1: 0.1: 9. The cell cytotoxicity of HSH
+ﬁlms were assessed with a CCK-8 assay using L929 mouse ﬁbroblast
+cells. Before cell seeding, UV sterilized samples of HSHﬁlms (diameter:
+10 mm, thickness: 250μm) were placed at the bottom of 48-well plates
+as the substrate for cell growth. No material was added to the control
+wells. There were three wells in each group. 2 × 10
+4 cells were seeded
+into each well containing 500μl cell culture medium. After incubation
+for 1 day, 3 days and 5 days at 37°C, 5% CO 2 and 95% air, cell culture
+medium was aspirated, 10 vol% CCK-8 solution was added to each well
+followed by incubation at room temperature for 1 h. Lastly, the cell
+culture medium in the wells was transferred one by one to a 96-well
+plate, and their optical density (OD) values at 450 nm were measured
+by a microplate reader (BioTek Instruments, Inc.).
+Cell Morphology Examination: UV sterilized samples of HSH
+ﬁlms were placed at the bottom of 48-well plates as the substrate for
+cell growth. No material was added to the control wells. There were
+three wells in each group. 2 × 10
+4 cells were seeded into each well
+containing 500 µl cell culture medium. After 24 h, the cytoskeleton
+and nucleus of the cells were stained with FICT Phalloidin (YESEN,
+40735ES75) and DAPI (Beyotime, C1002), respectively. The staining
+protocol includes following procedures: First, the cell culture med-
+ium was discarded, and cells were washed two times with PBS. They
+were later ﬁxed with 4% paraformaldehyde for 15 min and rinsed
+three times with PBS. The cell samples were then permeabilized with
+0.1% Triton X-100 for 15 min at room temperature and rinsed three
+times with PBS. The samples were incubated for 30 min at room
+temperature with 200 µL/well of Alexa Fluor 555 Phalloidin working
+solution and then washed three times with PBS. Finally, ﬂuorescent
+mounting medium with DAPI was added and incubated for 5 min at
+room temperature before applying cover slip. After staining, the cells
+were imaged using a Leica TCS SP8 X white light laser confocal
+microscope.
+Cell live/dead staining assay: The experimental procedure of cell
+live/dead staining assay was the same as that of the CCK-8 assay before
+the replacement of the old cell culture medium. In the staining assay,
+the cell culture medium ofeach well. They were laterﬁlled with cell live/
+dead staining solution (200μL staining solution each well), followed by
+re-incubation for 15 min to stain the cells. The staining solution was
+made by adding Calcein AM (staining live cells,ﬂuorescence excitation
+at 494 nm) and Propidium Iodide (staining dead cells, ﬂuorescence
+excitation at 535 nm) to PBS solution (ratio of 1:1:1000, v/v). Then, the
+ﬂuorescence images of the cells were taken by a Leica DMI6000 B
+inverted microscope.
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 9
+
+Animal experiments: All animal experiments were conducted
+under a protocol approved by the Institutional Animal Care and Use
+Committee of Southern University of Science and Technology, China.
+Sex was not considered in study design. The healthy male Sprague-
+Dawley rats (6 –8 weeks old, 200 –250 g) were used to implant the
+devices. Brieﬂy, anesthesia was induced and maintained with inhala-
+tional 2% isoﬂurane. Once anesthetized, rats wereﬁxed in a supine or
+prone position, and the surgical area was shaved and cleaned using
+70% ethanol. The regions of dorsal, leg and chest were sterilized with
+iodine and alcohol scrubs for three times and a skin incision of ~1.5 cm
+was made. The devices (2.5 × 2.5 cm
+2) were implanted between the
+epithelial and deep muscle layer. At last, the incision was sutured.
+Outputs of the stretchable device were recorded by connecting the
+probes to electrometer (Keithley 6514) via the exposed wires of
+implanted device. For long-term implantation, rats were prepped as
+above and a skin incision of ~1.5 cm was made in the dorsal region. The
+incision was closed, and animals were allowed to recover and return to
+normal housing for up to 10 weeks and the voltage output was recor-
+ded every 2 weeks. All animals were euthanized at the end of the
+studies.
+Biocompatibility and biosafety assessment: Histological analysis
+was used for safety assessment of devices in rats at the 2nd and 10th
+week of post implantation, respectively. For histological analysis, after
+animals were euthanized at the end of study, tissue around device and
+most vital organs (heart, liver, spleen, lung and kidney) were collected
+for histological analysis. The tissues were ﬁrst ﬁxed in 4 vol% paraf-
+ormaldehyde solution, dehydrated, and then embedded in paraf ﬁn
+wax using standard histopathological protocols. The tissues were
+sectioned into slides of 5 µm thickness using the Leica RM2016 Cryo-
+stat (Leica, Germany) and utilized Hematoxylin and Eosin (H&E)
+staining for analysis. The images of stained samples were captured by a
+slide scanner (NanoZoomer S60 C13210-01, Japan). Blood and serum
+tests were performed at the 2nd week of post implantation. Blood
+samples were taken after the animals were sedated and the analyses
+were performed by a 5-part Auto Hematology Analyzer (DF52Vet,
+Dymind, China).
+Reporting summary
+Further information on research design is available in the Nature
+Portfolio Reporting Summary linked to this article.
+Data availability
+The numerical data that support the ﬁndings of this study is available
+in ﬁgshare with the identi ﬁer “https://doi.org/10.6084/m9.ﬁgshare.
+26161780”.
+References
+1. Lee, W. et al. Universal assembly of liquid metal particles in poly-
+mers enables elastic printed circuit board.Science 378,6 3 7–641
+(2022).
+2. Shim, H. et al. Elastic integrated electronics based on a stretchable
+n-type elastomer–semiconductor–elastomer stack.Nat. Electron.6,
+349–359 (2023).
+3. Li, Y. et al. Achieving tissue-level softness on stretchable electro-
+nics through a generalizable soft interlayer design.Nat. Commun.
+14,4 4 8 8( 2 0 2 3 ) .
+4. Song, H. et al. Highly-integrated, miniaturized, stretchable elec-
+tronic systems based on stacked multilayer network materials.Sci.
+Adv. 8, eabm3785 (2022).
+5. Rogers, J. A., Someya, T. & Huang, Y. Materials and mechanics for
+stretchable electronics.Science 327,1 6 0 3–1607 (2010).
+6. Webb, R. C. et al. Ultrathin conformal devices for precise and
+continuous thermal characterization of human skin.Nat. Mater. 12,
+938–944 (2013).
+7. Huang, Z. et al. Three-dimensional integrated stretchable electro-
+nics. Nat. Electron. 1,4 7 3–480 (2018).
+8. Yu, Y. Biofuel-powered soft elec tronic skin with multiplexed and
+wireless sensing for human-machine interfaces.Sci. Robot. 5,
+eaaz7946 (2020).
+9. Wang, W. et al. Strain-insensitive in trinsically stretchable transistors
+and circuits. Nat. Electron. 4,1 4 3–150 (2021).
+10. Cho, H. et al. Recent progress in strain-engineered elastic platforms
+for stretchable thin-ﬁlm devices.Mater. Horiz.9,2 0 5 3–2075 (2022).
+11. iong, L., Chen, P. & Zhou, Q. Adhesion promotion between PDMS
+and glass by oxygen plasma pre-treatment.J. Adhes. Sci. Technol.
+28,1 0 4 6–1054 (2014).
+12. Borok, A., Laboda, K. & Bonyar, A. PDMS bonding technologies for
+microﬂuidic applications: a review.Biosensors11, 292 (2021).
+13. Jiang, Y. et al. A universal interface for plug-and-play assembly of
+stretchable devices.Nature 614,4 5 6–462 (2023).
+14. Lee, Y. et al. Standalone real-time health monitoring patch based on
+a stretchable organic optoelectronic system.Sci. Adv. 7,e a b g 9 1 8 0
+(2021).
+15. Miao, L. et al. Localized modulus-controlled PDMS substrate for 2D
+and 3D stretchable electronics.J. Micromech. Microeng.30,
+045001 (2020).
+16. Cai, M., Nie, S., Du, Y., Wang, C. & Song, J. Soft elastomers with
+programmable stiffness as strain-isolating substrates for stretch-
+able electronics.ACS Appl. Mater. Interfaces11, 14340–14346
+(2019).
+17. Naserifar, N. et al. Material gradients in stretchable substrates
+toward integrated electronic functionality.Adv. Mater. 28,
+3584–3591 (2016).
+18. Moser, R. et al. From playroom to lab: tough stretchable electronics
+analyzed with a tabletop tensile tester made from toy-bricks.Adv.
+Sci. 3, 1500386 (2016).
+19. Shintake, J., Piskarev, Y., Jeong, S. H. & Floreano, D. Ultrastretchable
+strain sensors using carbon black‐ﬁlled elastomer composites and
+comparison of capacitive versus resistive sensors.Adv. Mater.
+Technol. 3, 1700284 (2017).
+20. Yoon, J. et al. Design and fabrication of novel stretchable device
+arrays on a deformable polymer substrate with embedded liquid-
+metal interconnections.Adv. Mater. 26,6 5 8 0–6586 (2014).
+21. Erb, R. M. et al. Locally reinforced polymer-based composites for
+elastic electronics.ACS Appl. Mater. Interfaces4,2 8 6 0–2864 (2012).
+22. Libanori, R. et al. Stretchable heterogeneous composites with
+extreme mechanical gradients.Nat. Commun. 3,1 2 6 5( 2 0 1 2 ) .
+23. Mackanic, D. G., Kao, M. & Bao, Z. Enabling deformable and
+stretchable batteries.Adv. Energy Mater. 10, 2001424 (2020).
+24. Shao, Y. et al. Stretchable encapsulation materials with high
+dynamic water resistivity andtissue-matching elasticity.ACS Appl.
+Mater. Interfaces14,1 8 9 3 5–18943 (2022).
+25. Chen, B. et al. Gas-permeable and stretchable on-skin electronics
+based on a gradient porous elastomer and self-assembled silver
+nanowires.C h e m .E n g .J .463,1 4 2 3 5 0( 2 0 2 3 ) .
+26. Hutchinson, J. W. & Suo, Z. Mixed mode cracking in layered mate-
+rials. Adv. Appl. Mech. 29,6 3–191 (1991).
+2 7 . T a n g ,J . ,L i ,J . ,V l a s s a k ,J .J .&Suo, Z. Adhesion between highly
+stretchable materials.Soft Matter 12,1 0 9 3–1099 (2016).
+28. Fittipaldi, M. & Grace, L. R. Lipid-induced degradation in bio-
+compatible poly(Styrene-Isobutylene-Styrene) (SIBS) thermo-
+plastic elastomer.J. Mech. Behav. Biomed. Mater.68,8 0–87 (2017).
+29. Ni, Y. et al. Plasticizer-induced enhanced electromechanical per-
+formance of natural rubber dielectric elastomer composites.
+Compos. Sci. Technol.195, 108202 (2020).
+30. Bhadane, P. A., Tsou, A. H., Cheng, J., Ellul, M. D. & Favis, B. D.
+Enhancement in interfacial reactive compatibilization by chain
+mobility. Polymer 55,3 9 0 5–3914 (2014).
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 10
+
+3 1 . S i e r r a ,C .A . ,G a l a n ,C . ,F a t o u ,J .G . ,P a r e l l a d a ,M .D .&B a r r i o ,J .A .
+Thermal and mechanical properties of poly- (styrene-b-ethylene-
+co-butylene-b-styrene) triblock copolymers.Polymer 38,
+4325–4335 (1997).
+32. Mohammady, S. Z. & Aldhayan, D. M. Investigation of the
+dynamics of the various relaxation processes in SEBS block
+copolymer possessing low styrene fraction. J. Saudi Chem.
+Soc. 25,1 0 1 2 1 1( 2 0 2 1 ) .
+33. Mondal, S., Hu, J. L. & Yong, Z. Free volume and water vapor per-
+meability of dense segmented polyurethane membrane.J. Memb.
+Sci. 280,4 2 7–432 (2006).
+34. George, S. C. & Thomas, S. Transport phenomena through poly-
+meric system. Prog. Polym. Sci. 26,9 8 5–1017 (2001).
+35. Takalloo, S. E. et al. Impermeable and compliant: sibs as a pro-
+mising encapsulant for ionically electroactive devices.Robotics 8,
+60 (2019).
+36. Le Floch, P. et al. Wearable and washable conductors for active
+textiles. ACS Appl. Mater. Interfaces9,2 5 5 4 2–25552 (2017).
+37. Hwang, H. et al. Stretchable anisotropic conductiveﬁlm (S-ACF) for
+electrical interfacing in high-resolution stretchable circuits.Sci.
+Adv. 7, eabh0171 (2021).
+38. Li, N. et al. Bioadhesive polymer semiconductors and transistors for
+intimate biointerfaces.Science 381,6 8 6–693 (2023).
+3 9 . L i m ,G .T .e ta l .N e wb i o m a t e r i a las a promising alternative to sili-
+cone breast implants.J. Mech. Behav. Biomed. Mater. 21,4 7–56
+(2013).
+4 0 . K a r a k u s ,G . ,Z e n g i n ,H .B . ,P o l a t ,Z .A . ,Y e n i d u n y a ,A .F .&A y d i n ,S .
+Cytotoxicity of three maleic anhydride copolymers and common
+solvents used for polymer solvation.Polym. Bull. 70,1 5 9 1–1612
+(2012).
+41. Sousa, J. M. et al. Chitosan grafted with maleic anhydride and
+ethylenediamine: preparation, characterization, computational
+study, antibacterial and cytotoxic properties.Mater. Chem. Phys.
+287, 126301 (2022).
+Acknowledgements
+This work was supported by the National Natural Science Foundation of
+China (No. 52272299), Shenzhen Science and Technology Program (No.
+20220815141329003 and KQTD20180411143514543), Guangdong Pro-
+vincial Department of Education Innovation Team Program (No.
+2021KCXTD012), Guangdong-Hong Kong-Macau Joint Laboratory on
+Micro-Nano Manufacturing Technology (2021LSYS004). Y.S. was sup-
+ported by the National Natural Science Foundation of China (No.
+52303107) and Research Projects ofYancheng Institute of Technology
+(No. xjr2023029).
+Author contributions
+Y.S. and Y.Y. conceived the idea and designed the experiments. Y.S.
+performed ﬁlm fabrications, property measurements, and device
+assemblies and characterizations with help from Y.Z., C.L., R.X., X. X.,
+H.Z., D.C., and H.W.; J.Y. did animal experiments with help from Y.S., L.L.,
+G.C., and F.R.; Q.L., K.W., C.Y., and X.C. carried out ﬁnite element
+simulations. Y.S. and Y.Y. wrote the manuscript with contributions from
+all authors.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41467-024-50494-8.
+Correspondenceand requests for materials should be addressed to
+Fuzeng Ren or Yanhao Yu.
+Peer review informationNature Communicationsthanks Jiheong Kang,
+and Nara Kim for their contribution to the peer review of this work. A peer
+review ﬁle is available.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to jur-
+isdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as
+long as you give appropriate credit to the original author(s) and the
+source, provide a link to the Creative Commons licence, and indicate if
+changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless
+indicated otherwise in a credit line to the material. If material is not
+included in the article’s Creative Commons licence and your intended
+use is not permitted by statutory regulation or exceeds the permitted
+use, you will need to obtain permission directly from the copyright
+holder. To view a copy of this licence, visithttp://creativecommons.org/
+licenses/by/4.0/.
+© The Author(s) 2024
+Article https://doi.org/10.1038/s41467-024-50494-8
+Nature Communications|         (2024) 15:6106 11

@@ -1,0 +1,723 @@
+MATERIALS SCIENCE Copyright © 2019
+The Authors, some
+rights reserved;
+exclusive licensee
+American Association
+for the Advancement
+of Science. No claim to
+original U.S. Government
+Works. Distributed
+under a Creative
+Commons Attribution
+NonCommercial
+License 4.0 (CC BY-NC).
+High-resolution, reconfigurable printing of liquid
+metals with three-dimensional structures
+Young-Geun Park 1,2*, Hyeon Seok An 1,2*, Ju-Young Kim 3, Jang-Ung Park 1,2†
+We report an unconventional approach for high-resolution, reconfigurable 3D printing using liquid metals for
+stretchable, 3D integrations. A minimum line width of 1.9 mm can be reliably formed using direct printing, and
+printed patterns can be reconfigured into diverse 3D structures with maintaining pristine resolutions. This re-
+configuration can be performed multiple times, and it also generates a thin oxide interface that can be effective in
+preventing the spontaneous penetration of gallium atoms into different metal layers while preserving electrical
+properties under ambient conditions. Moreover, these free-standing features can be encapsulated with stretch-
+able, conformal passivations. We demonstrate applicationsin the form of a reconfigurable antenna, which is tunable
+by changing geometeries, and reversibly movable interconnections used as mechanical switches. The free-standing
+3D structure of electrodes is also advantageous for minimizing the number and space between interconnections,
+which is important for achieving higher integrations, as demonstrated in an array of microLEDs.
+INTRODUCTION
+The increasing device density in electronic chips has led to exponential
+growth in the density of conductive paths and the complexity of their
+design; therefore, the technologies to form three-dimensional (3D)
+conductive structures with high resolutions, high aspect ratios, and
+minimized displacement errors are of great importance for increasing
+device integrity (1– 3). Notably, the deformability of these devices is a
+key consideration for applications in freeform electronics including
+stretchable electronics (4, 5), wearable electronics (6– 9), soft actuators,
+and robotics (10, 11), where electronic devices need to be conformably
+interfaced with arbitrary shapes, movable parts such as the joints of
+arms, or the inherently soft surfaces of living organisms. However,
+the realization of these deformable devices with conventional materials
+such as silicon is a challenge due to their brittleness. In this regard,
+stretchable interconnects or elastic electrical wirings are interesting as
+they can provide traditional rigid electronic systems with an extra de-
+gree of freedom while retaining the performance of the original rigid
+device components. Here, one of the largest obstacles has been the for-
+mation of stretchable 3D interconnects with both high conductivity
+and high resolutions. Diverse types of conductive materials with excel-
+lent stretchability have been developed, such as wavy thin metals (12),
+metallic networks ( 13– 16), elastomeric composites with conductive
+fillers ( 17, 18), and their 2D electrode patterns that can be formed
+using the manufacturing process of vacuum evaporation, photo-
+lithographic patterning, or mechanical cutting. However, these processes
+are not directly scalable to 3D structures. Although commercially avail-
+able 3D printing techniques, including selective laser sintering of metal
+particles (19) or thermal/piezoelectric inkjet of conductive inks ( 20),
+can be used to form the conductive 3D patterns, their resolutions (as
+defined by the narrowest diameter of vertical pillars) are limited to a
+scale above ~30 mm, which is too large for use in electronics ( 21).
+While filament-based direct ink writing methods using inks of metal
+nanoparticles (e.g., Ag or Cu) have shown some feasibility for high-
+resolution 3D printing, they require additional thermal annealing or
+a drying process to form conductive pathways, which can cause dam-
+age to soft, tissue-like substrates ( 1, 22). In addition, these printed
+and thermally annealed patterns of metals are relatively rigid and stiff;
+hence, repetitive device deformations can lead to cracking or failure in
+t h e s em e t a l l i ce l e c t r o d e s .
+Liquid metals such as eutectic gallium – indium alloy (EGaIn) or
+gallium-indium-tin alloy (Galinstan) are intrinsically stretchable and
+also have low toxicity and negligiblevolatility. They also exhibit superb
+electrical conductivities comparable to solid metals with no additional
+annealing process ( 23). Upon exposure to air, gallium-based metals
+form a thin solid layer of gallium oxide (thickness, ~1 nm) on their
+surfaces under atmospheric oxygen levels. This oxide skin is thin
+enough to not substantially affect electric resistance; however, it is rel-
+atively solid enough to maintain its shape against gravity and surface
+tension (24, 25). Microfluidics, transfer printing, imprinting, or stencil
+lithography can be used for patterning liquid metals as stretchable elec-
+trodes on soft and elastomeric substrates ( 26– 34). Although some of
+these methods provide patterns with micron scales, their geometries
+are confined only to 2D structures ( 29, 32,
+33). Direct ink printing
+through a nozzle can build free-standing 3D structures at room tem-
+perature by stacking droplets of liquid metals on top of each other or
+forming filaments while retaining their shapes (24). However, the res-
+olution in this approach, as defined by the narrowest diameter of ver-
+tical pillars that can be created reliably, is at the scale of submillimeter
+and, thus, not suitable for electronic devices with high integrity. This
+relatively coarse resolution results from the combined effects of rela-
+tively large droplet diameters and low controllability, and thus, this di-
+rect printing method with liquid metals is not examined for its potential
+in providing 3D patterning with high resolutions (that is, <10mm) and
+for stretchable and reconfigurable interconnects in electronics. More-
+over, the rapid penetration of gallium into most metals leads to unstable
+or mechanically sensitive interfaces when combined with metal electrodes
+or interconnects, thus preventing reliable 3D integration of their func-
+tionality with conventional electronics (35).
+Here, we report a high-resolution printing method with liquid metal
+and its direct reconfiguration into stretchable 3D electrode patterns
+through a nozzle under ambient conditions. As motivated by the previous
+studies of liquid metal direct printing (24, 36), this direct printing method
+in our manuscript can generate continuous and uniform filaments of
+1Nano Science Technology Institute, Department of Materials Science and Engi-
+neering, Yonsei University, Seoul 03722, Republic of Korea. 2Center for Nanomed-
+icine, Institute for Basic Science (IBS), Yonsei-IBS Institute, Seoul 03722, Republic of
+Korea. 3School of Materials Science and Engineering, Ulsan National Institute of
+Science and Technology (UNIST), Ulsan 44919, Republic of Korea.
+*These authors contributed equally to this work.
+†Corresponding author. Email: jang-ung@yonsei.ac.kr
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 1o f9
+
+the liquid metal as stretchable electrodes with fine structures. Further,
+the use of fine nozzles facilitates ejection of narrow metallic filaments
+that can be advantageous for maintaining free-standing 3D structures
+of liquid metal by increasing the relative surface area of robust oxide
+skin to fluidic volume. A minimum line width of 1.9mm can be reliably
+printed, and printing resolution canbe controlled usingdifferent nozzle
+diameters. Furthermore, these fine features of liquid metals preprinted
+on substrates can be lifted up from the printed position using the nozzle
+tip and then precisely relocated to another desired area to reconfigure
+their preprinted patterns into diverse free-standing 3D structures. The
+high stretchability of liquid metals ena b l e st h i ss t r u c t u r a lr e c o n f i g u r a t i o n
+of their preprinted features while preserving the diameters of the printed
+filaments. In addition, since the thin oxide layer instantaneously forms
+during the lifting and relocating steps for the liquid metal filaments dur-
+ing reconfiguration, this oxide interface is effective in retarding the pen-
+etration of gallium from the liquid-metal filaments to different metal
+layers on the substrates. This oxide skin is thin enough that it does not
+increase the contact resistance between the two metal layers significantly.
+Moreover, the reconfigured 3D structures of liquid metals can flow high
+current density (~10
+10 A/m2) before their electrical breakdown and can
+be additionally encapsulated for stretchable, elastomeric passivations by
+spin coating a polydimethylsiloxane (PDMS) cover layer or by vacuum
+deposition of parylene. The formation of free-standing, fine bridges on
+soft substrates using liquid metals as stretchable and high-resolution
+3D interconnects for a miniaturized integrated circuit provides an
+application example in wearable or soft electronics with the capabil-
+ity of vertical integration of 3D packaging technologies. In addition,
+high-resolution printing of 3D coil antennas and their reconfiguration
+to adjust resonance frequencies, as well as the formation of 3D intercon-
+nects for flexible microLED arrays, represent substantial progress
+toward next-generation electronics.
+RESULTS
+High-resolution printing of liquid metals
+Figure 1A illustrates a schematic image of the direct printing sys-
+tem through a nozzle. This system consists of a nozzle connected to
+an ink reservoir, a pneumatic pressure controller, and a five-axis stage
+with automatic movements in thex, y,o r z axis and two tilting axes in
+the xy plane. We used EGaIn (75.5% gallium and 24.5% indium alloy
+by weight) as the ink (see Materials and Methods). First, we prepared
+the nozzles using a pipette puller to make glass capillaries with inner
+diameters of 5 to 40 mm. Then, a nozzle was mounted to a syringe-
+type reservoir, and a substrate was placed on the five-axis stage. The
+d i s t a n c eb e t w e e nt h en o z z l et i pa n dt h es u b s t r a t ei sc o n t r o l l e dt ob e2
+to 16mm according to the size of the nozzle, and the pneumatic pressure
+Fig. 1. High-resolution printing of liquid metals. (A) Schematic illustration of a printing system. (B) SEM image of 2D and 3D high-resolution EGaIn patterns. Scale bar,
+100 mm. Inset: Magnified SEM image of the 3D structures. Scale bar, 100 mm. (C) AFM image and cross-sectional profile of printed EGaIn line. Scale bar, 2 mm. (D) SEM image
+of 1.9-mm-wide EGaIn patterns. Scale bar, 10 mm. (E) SEM image of 3D patterns of EGaIn on a PET film and epoxy (SU-8). Scale bar, 10 mm. (F) Photograph of printed high-
+resolution EGaIn patterns in (B). Scale bar, 1 cm. (G) Photograph of interconnect patterns of EGaIn. Inset: Top-view photograph. Scale bars, 5 mm. (H) Optical micrographs of
+printed EGaIn lines according to printing velocities. Scale bar, 40mm. (I) The plot of line widths versus printing velocities. (J) The plot of line widths versus inner diameters of
+nozzles. Error bars in (I) and (J) indicate the SD. (Photo credit: Young-Geun Park, Yonsei University).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 2o f9
+
+(~30 psi) is applied to deliver the inkfrom a reservoir onto the substrate
+through the nozzle. The liquid metal is directly printed by coordinating
+the operation of this pneumatic pressure (on/off) and the movement of
+translation stages. As an example, Fig. 1B presents a scanning electron
+microscopy (SEM) image of an EGaIn pattern printed with complex 2D
+and 3D geometries. We used a polyethylene terephthalate (PET) film as
+as u b s t r a t e .F i g u r e1( C ,D ,a n dE )s hows the atomic force microscopy
+(AFM) and magnified SEM images of this pattern. The minimum width
+o fl i n e sh e r ei s1 . 9mm, which is narrower than the resolutions (tens to
+hundreds of microns) reported in previous work on the 3D printing of
+liquid metals (24). Whereas high-resolution patterning (with micron
+scales) of liquid metals has been previously studied for 2D structures
+(29, 32, 33), this work presents the controlled 3D printing of liquid
+metals with micron scales. Figure 1F is a photograph of this sample. Al-
+though this entire pattern was printed within a total area of 2 mm ×
+2 mm, these 1.9- mm-wide lines of EGaIn are negligibly visible.
+More diverse patterns such as interconnect patterns of electric circuits
+(Fig. 1G) can be printed with high resolutions. Also, the uniformity in
+line width is not significantly changed at the corner of the kinked or bent
+patterns (fig. S1). Here, the printing velocity or inner diameter of a noz-
+zle can further control this line width of the EGaIn. Figure 1H presents
+optical micrographs of EGaIn lines printed with different velocities in
+the range of 0.1 to 3 mm/s using an identical nozzle (inner diameter,
+30 mm), and a faster velocity results in a narrower width (Fig. 1I). Figure 1J
+also shows the relationship between the inner diameter of the nozzle
+and the line width for a constant printing velocity of 0.1 mm/s. Line
+width increases with the nozzle diameter linearly, and the minimum
+width of 1.9 mm can be achieved using a nozzle diameter of 5 mm.
+3D reconfiguration of liquid metals
+Figure 2A illustrates the reconfig uration process of the preprinted
+EGaIn patterns into different 3D features. After direct printing of
+EGaIn through a nozzle (step 1), this nozzle tip can lift off the local or
+entire region of this preprinted pattern from the substrate (step 2) and
+then relocate this onto the desired position of the substrate (step 3).
+These three steps proceed sequentially in series. Kinetic control of the
+adhesion between the preprinted EGaIn filament and substrate enables
+this reconfiguration process. The Van der Waals interactions between
+this elastomeric object (EGaIn) and the solid (substrate) are rate sen-
+sitive due to the viscoelastic behavior of the elastomer (37), and there-
+fore, this adhesive force can be dependent on the lift-up rate of a nozzle.
+Figure 2B explains two adhesion forces for the reconfiguration process.
+Here, the fracture energy of the oxide skin (on the surface of an EGaIn
+filament) connected to the nozzle tip can serve as a“rope” to hold this
+filament preprinted on the substrate, and the balance between this
+fracture energy (G
+1) and the adhesion energy of this EGaIn filament
+on the substrate (G2) can determine the lift-off or cutoff of the filament.
+When the preprinted EGaIn filament is lifted up from the substrate
+slowly with a rate range of 0.001 to 0.1 mm/s, the adhesion energy
+of the EGaIn-substrate interface (G
+2) becomes smaller than the frac-
+ture energy of the oxide skin (G1), which can hold this filament at the
+nozzle tip without fracturing [Fig. 2C (left) and D (blue data points)].
+In comparison, when the lift-up rate is faster than the threshold, adhe-
+sion energy becomes larger than fracture energy, and this results in the
+fracture of this EGaIn filament near the tip region [Fig. 2C (right)
+and D (red data points)]. In this fracture case, the preprinted EGaIn
+remains on the substrate, and the nozzle tip becomes detached from
+the EGaIn filament. Critical surface stress of EGaIn measured by a
+r h e o m e t e ri sa b o u t0 . 5N / m(23). The threshold lift-off velocity of
+0.1 mm/s can be correlated with this critical surface stress of EGaIn.
+The maximum lift-off velocities in different diameters of filaments
+were measured and were not changed by their diameters significantly
+(fig. S2). Figure 2E demonstrates an example of this reconfiguration.
+Here, two parallel vertical lines and one horizontal line were first printed
+using EGaIn [Fig. 2E (left)]. After detaching the horizontal line selec-
+tively from the substrate using the nozzle tip, it was relocated at the po-
+sition between two parallel vertical lines without changing its width
+significantly [Fig. 2E (right)]. Thisreconfiguration process was repeat-
+able and left negligible residue onthe area detached from various sub-
+strates, including Si, glass, PET, and PDMS. Both 2D and 3D features
+can be formed through this reconfiguration. Figure 2F (left) shows the
+preprinted pattern of a 2D square coil (step 1), and by lifting up the
+end of the inner line and relocating it using the nozzle tip, this inner
+line was pulled out of the coil (step 2) to form a free-standing 3D struc-
+ture, which passed over the initial 2D lines (step 3), as shown in Fig.
+2F (right). After completing this reconfiguration, the nozzle can re-
+start the direct printing of EGaIn in series (movie S1). Repeatability
+in the reconfiguration process enables the relocation of the filament
+into different positions in multiple times. As an example, movie S2
+shows four consecutive steps of the reconfiguration. The reconfigu-
+ration process of liquid metal can be used to electrically interconnect
+two heterogeneous devices with different steps in height. In addition,
+the reconfiguration of liquid metals can be applicable to rigid, non-
+viscoelastic substrates, due to the viscoelasticity of liquid metals. For
+example, Fig. 2G shows SEM images ofa free-standing 3D bridge array
+that connects two stacked Si wafers with a step height of ~650 mm.
+Movie S3 shows this reconfiguration process, and a preprinted fila-
+ment of 8 mm in diameter and 2 mm in length (aspect ratio, 250) can
+be lifted upright from the substrate without fracturing (fig. S3). During
+the reconfiguration process, when the detached, free-standing fila-
+ment becomes bent with its bending-induced strain bigger than the
+threshold value for the local fracture of oxide shell, the reconfigured
+filament can hold kink-shaped structures with the instantaneous for-
+mation of surface oxide (fig. S4 and movie S4). On the other hand,
+when this bending-induced strain is less than the threshold, the free-
+standing filaments can form arc-shaped structures without kink for-
+mation (movie S5).
+The stability of electrodes that can withstand electrical load becomes
+important as devices are increasingly integrated and miniaturized.
+To verify the suitability of these EGaIn electrodes as interconnects,
+we conducted the electrical breakdown tests. For this study, a pre-
+printed EGaIn line was reconfigured to connect two contact pads of
+metals (5-nm-thick Cr and 500-nm-thick Au) electrically, as shown
+i nf i g .S 5 A .T h e n ,w ea p p l i e dd co ra cb i a s( 1 2 0H z )t om e a s u r et h e
+resistance. Current density increases almost linearly with the applied
+electric field and then becomes saturated to 1.9 × 10
+10 A/m2 before
+breakdown under a dc bias condition (Fig. 2H). The ac bias condi-
+tion also shows a similar tendency in current density. This maximum
+current density of the EGaIn electrode is at the same order of magni-
+tude (~10
+10 A/m2), compared to the values of vacuum-deposited films
+of conventional metals (such as Au,Al, and Cu), which are fragile and
+unstretchable, and is about four orders of magnitude higher than the
+values of stretchable electrodes based on percolating networks of metal
+nanowires ( 38). The temperature increases with the applied dc or
+ac bias, and movies S6 and S7 present Joule heating monitored
+using an long wavelength infrared camera (T650sc, FLIR Systems).
+As the electric field (dc) approaches close to the breakdown condition
+(~12 V/mm), EGaIn flows to the negatively poled pad leading to its
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 3o f9
+
+breakdown due to the electrohydrodynamic force from the end of the
+positive pole to negative pole of the pads. On the other hand, under the
+ac condition near the breakdown electric field, EGaIn flows toward
+both positive and negative pole directions, and breakdown occurs
+at both sides (fig. S5B). Figure S5C shows SEM images and energy-
+dispersive spectroscopy analyses of the sample before and after this
+breakdown under the ac condition. Ga and In atoms widely spread
+out around the electrically broken region of this ac-biased sample,
+and this spreading of Ga and In is also similarly observed from the
+sample broken by dc bias.
+The mechanical stability of the EGaIn 3D features was also sub-
+jected to high temperatures. As shown in fig. S6 (A and B), the fine
+3D structure of EGaIn can maintain its initial free-standing form
+without any structural collapse after heating at 500°C for 30 min.
+After repeated heating (at 500°C) and cooling (to room tempera-
+ture), only the oxide skin of the 3D feature becomes slightly wrinkled
+due to the difference in thermal expansion between the oxide shell
+and EGaIn core (fig. S6C) ( 39). Furthermore, these 3D features can
+be additionally encapsulated as stretchable, elastomeric passivations
+while preserving their original free-standing structures by spin
+coating of a PDMS cover layer or by vacuum deposition of parylene.
+F o re x a m p l e ,f i g .S 7p r e s e n t sS E Mi m a g e sw h e r ea5 0 0 - n m - t h i c k
+parylene layer is deposited on the sidewall of the free-standing EGaIn
+structures.
+Fig. 2. Reconfiguration of liquid metals into 3D structures. (A) Schematic illustrations of each step of reconfiguration. ( B) Schematic illustration of two adhesion
+forces during reconfiguration. ( C) Photograph of lift-off (left) and cutoff (right) of EGaIn from the substrate. Scale bar, 100 mm. (D) The plot of the state of line versus the
+nozzle lift-off velocity. ( E) Optical micrographs of reconfiguration. The printed horizontal line (left) is lifted off and reconfigured (right). Scale bars, 200 mm. ( F) SEM
+images of reconfigured square coils. The end of the inner line in the square coil (left) is lifted and reconfigured (right). Scale bars, 200 mm. (G) SEM images of 3D bridges
+of EGaIn. Scale bar, 500 mm. Inset: Magnified SEM image of 3D bridge. Scale bar, 200 mm. ( H) Plots of the applied biases and responding current densities in EGaIn.
+(Photo credit: Young-Geun Park, Yonsei University).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 4o f9
+
+Formation of stable electrical contact with metals
+To evaluate the absence of oxide interface, we analyzed the contact an-
+gle between directly printed EGaIn and Au substrate (fig. S8), and this
+angle of about 30°C is similar to the contact angle of the oxide-removed
+liquid metal on Au ( 40). In contrast, the reconfiguration process in-
+volves an instantaneous formation of this oxide skin near the entire
+surface of the preprinted EGaIn filament during the lifting and relo-
+cating steps (Fig. 3A). To investigate the effect of this thin oxide layer
+on electrical properties, we measured the contact resistance ( R
+c) be-
+tween the EGaIn pattern and various metals using the transfer length
+method. In this experiment, a 12- mm-wide EGaIn line electrically
+connects two pads of three different metals (Au, Cu, and Ag), with vary-
+ing spacing (L) between these two pads from 5 to 150mm. For compar-
+ison, an EGaIn line with the same width and length was formed using
+the direct printing or reconfiguration process. As plotted in Fig. 3B, the
+resistance measured using two probes (R
+total) increases linearly withL,
+and 2Rc corresponds to the y-axis intercept of the extrapolated linear
+fitting for Rtotal versus L from the equation, Rtotal = REGaIn +2 Rc (41).
+The EGaIn line formed using the direct printing exhibits anRc of 68.2,
+69.5, and 89.8 ohm·mm for the metals Au, Cu, and Ag, respectively. The
+EGaIn sample formed using the reconfiguration process shows anRc of
+70.2, 70.9, and 90.5 ohm·mm for the same metals, respectively, which
+presents a negligible increase in Rc regardless of the thin oxide skin,
+compared to the case of direct printing.
+Furthermore, this oxide interface of the reconfigured EGaIn elec-
+trode can be effective in retarding the penetration of gallium atoms
+from EGaIn into different metal layers. Liquid metal embrittlement
+is a phenomenon experienced by intrinsically ductile metals such as
+Al, Ni, and Cu, which can lead to their marked loss of ductility in the
+presence of certain liquid metals including Ga ( 35). When EGaIn
+comes into direct contact with other metal layers without the oxide
+interface, Ga atoms penetrate the grain boundaries of these metals to
+modify the interfacial energy and accelerate intergranular failure. This
+failure can deteriorate the electrical contact property between EGaIn
+and the metals. Figure 3C plots the current (I)– (V) voltage characteristic
+of the EGaIn line formed using direct printing to connect Ag pads elec-
+trically. Resistance (R) of this EGaIn pattern significantly increases with
+time under ambient conditions. Compared toR of the as-printed sam-
+ple, for example, R increased by about three times after 7 hours. As a
+comparison, an identical pattern of EGaIn was formed for the same Ag
+pads using the reconfiguration process, instead of direct printing, and
+then R was similarly measured. As shown in Fig. 3D, R of this recon-
+figured sample changed negligibly over time (even after 7 days), which
+contrasts to the case of direct printing. Figure 3 (E and F) presents SEM
+images of this direct-printed sample after 7 hours. Ga atoms spon-
+taneously penetrated from EGaIn to the region of the Ag pads. In
+contrast, this penetration of Ga was negligible even after 7 hours
+in the reconfigured EGaIn sample as shown in Fig. 3 (G and H).
+Fig. 3. The electrical contact of direct-printed and reconfigured liquid metals. (A) Schematic illustrations of direct printing (left) and reconfiguration (right).
+(B) Dependence of total resistance on the length of the channel. Error bars represent the SD. ( C) Current-voltage characteristics between Ag pads and direct-printed
+EGaIn. (D) Current-voltage characteristics between Ag pads and reconfigured EGaIn. ( E and F) SEM images of EGaIn on an Ag pad after 7 hours of direct printing. ( G and
+H) SEM images of EGaIn after 7 hours of reconfiguration. Scale bars, 200 mm.
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 5o f9
+
+Therefore, the thin oxide layer of this reconfigured EGaIn can retard
+the penetration of Ga atoms into the Ag pad without degrading its R
+over time.
+Demonstration of reconfiguration in electronics
+This reconfiguration of 3D electrodes can be used to convert the
+electrical properties of device components in a controlled manner. As
+an example, Fig. 4A demonstrates the formation of a reconfigurable
+antenna that can modify its resonance frequency and radiation prop-
+erties through changes in its geometries. Here, the dual (inner and
+outer) coil antenna structure was initially formed on a glass slide using
+the direct printing of EGaIn. The inner and outer coils with 3.5-turn
+square spiral patterns (line width, 12 mm; spacing,50 mm) had outer
+diameters (d
+out) of 5.2 and 5.85 mm, respectively. Then, as illustrated
+in Fig. 4 (B and C), the reconfiguration process of EGaIn formed a 3D
+bridged interconnect to connect these dual coils as a single coil while
+increasing the total number of turns to seven. In this reconfiguration
+step, an end of the inner coil was detached from the substrate using a
+nozzle and then relocated to the end of the outer coil, and the bottom
+insets of Fig. 4 (B and C) show SEM images of this 3D bridged
+Fig. 4. 3D reconfiguration of liquid metals for electronics. (A) Schematic illustrations of the reconfigurable antenna. ( B) Schematic illustrations of two concentric
+antennas (top) and the SEM image of the disconnected region (bottom). Scale bar, 300 mm. (C) Schematic illustrations of two concentric antennas that are electrically
+connected (top) and the SEM image of connected lines by reconfiguration (bottom). Scale bar, 300 mm. (D) Measured scattering parameters of the printed antenna in
+disconnected and connected states. (E) Schematic illustrations of the reconfiguration process for dynamic switching of LEDs. ( F) Colorized SEM image of three LED pixels
+and EGaIn interconnects. The red, green, blue, and yellow colors correspond to red, green, and blue LEDs and EGaIn, respectively. Scale bar, 1 mm. (G) Photograph of three
+LED pixels and EGaIn interconnects. Scale bar, 1 mm. ( H) Schematic illustrations of reconfiguration and photographs of LED working. Scale bars, 5 mm. (Photo credit:
+Young-Geun Park, Yonsei University).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 6o f9
+
+interconnect. The resonance frequency (fr) of an antenna can be deter-
+mined by inductance and capacitance, as given by the following
+equation ( 42, 43)
+fr ¼ 1
+2p ﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃLeff Ceff
+p ð1Þ
+T h ee f f e c t i v ei n d u c t a n c e(Leff) can be calculated for ann-turn square
+spiral with the outer diameter (dout) and an inner diameter (din)w i t ha
+modified Wheeler’sf o r m u l a(42)
+Leff ¼ 2:34m0n2 1
+2 ðdout þ dinÞ2
+3:75d ð2Þ
+According to the analytical model,the initial dual coils exhibit two
+different resonance frequencies because of their different sizes (dout and
+din) despite having the same number of turns. Figure 4D presents the
+frequency response of the reflection coefficient (S11)w i t hd o u b l ep e a k s
+for the dual coil antenna. This phenomenon was identified earlier as the
+effect of inductive coupling (44), and therefore, a wideband impedance
+match can be achieved between the antenna and the port by the dis-
+connection of these inner and outer coils. This antenna with the
+disconnected, dual coils can be reconfigured to form a single coil, and
+Fig. 4D shows the resonance modification. The 3D bridged inter-
+connection increased the total number of turns as a single coil and tuned
+the initial wideband resonance into a narrow bandwidth with a higher
+reflection efficiency.
+Figure 4E illustrates the dynamic reconfiguration of 3D inter-
+connections for selective operations of three different light-emitting
+diodes (LEDs) with red, green, blue (RGB) light emission. For this
+demonstration, all anodes of these three LEDs were initially intercon-
+nected by direct printing of EGaIn, whereas a single free-standing inter-
+connect was reconfigurable using a nozzle to selectively connect a single
+c a t h o d ea m o n gt h r e eL E D s( m o v i eS 8 ) .F i g u r e4( Fa n dG )p r e s e n t sa n
+SEM image and a photograph of this sample, respectively. Connecting
+the anode causes light emission from the selected LED immediately, and
+this reconfigurable, free-standing interconnect was reversibly movable,
+as a mechanical switch, to selectively turn on one LED (Fig. 4H and
+movie S9). This reconfigurable, free-standing interconnect maintained
+its resistance during repeated detachment and connection, and hence,
+all LEDs reliably operated at 3 V against multiple reconfiguration steps.
+3D interconnection for integrated device arrays
+Although the cross-arrangement of interconnects has been conven-
+tionally used for operating active-matrix displays, multiple layers
+should be deposited to locate the 2D structures of transverse and lon-
+gitudinal interconnects on separate layers to avoid a short circuit.
+However, the free-standing 3D interconnects formed using this re-
+configuration process are advantageous for building these cross-
+geometries of both transverse and longitudinal interconnects in a single
+xy plane, instead of through multiplelayers, without unwanted electric
+contact (Fig. 5A). For this demonstration, both transverse and lon-
+gitudinal interconnects of EGaIn (line width, 8 mm) were formed for
+a 4 × 4 array of microLEDs on a flexible PET film (PET thickness,
+200 mm), and free-standing 3D bridges of EGaIn were locally built at
+these intersections of the anode and cathode lines to prevent short
+circuiting, as shown in SEM images of Fig. 5 (B and C). Each pixel of
+this microLED array can operate individually by supplying the bias
+to particular row and column interconnects (Fig. 5D and movie S10).
+The turn-on voltage and current of each microLED in this sample
+were reliably maintained against its bending to a radius of curvature
+as small as 6 mm (Fig. 5E). In addition, the reconfigured EGaIn was
+effective in retarding the penetration of Ga atoms into the Au pads of
+microLEDs. Figure S9 compares the number of interconnects (with
+pads) required for conventional 2D electrodes and free-standing 3D
+electrodes. In ann × n array, at leastn
+2 + 1 of interconnects are necessary
+Fig. 5. MicroLED array with 3D liquid metal interconnects. (A) Schematic illustration of the microLED array with reconfigured 3D interconnects. ( B) Colorized SEM
+image of the microLED array and EGaIn interconnects. Blue and yellow colors correspond to microLED and EGaIn, respectively. Scale bar, 300 mm. ( C) Colorized SEM
+image of 3D interconnects. The blue and yellow colors correspond to the microLED and EGaIn, respectively. Scale bar, 300 mm. (D) Photographs of light emission of the
+microLED array. Scale bars, 1 cm. (E) Current-voltage characteristics of microLED with reconfigured interconnects under flat or bent condition. (Photo credit: Young-Geun Park,
+Yonsei University).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 7o f9
+
+for a conventional 2D geometry (45). However, only 2n of interconnects
+are necessary for a free-standing 3D structure. As n increases further
+toward higher integrations for miniaturized devices, this 3D pat-
+tern can be highly efficient for minimizing the number and space
+of interconnections.
+DISCUSSION
+In conclusion, the work presented here demonstrates high-resolution,
+reconfigurable 3D printing using liquid metal and its application for
+stretchable 3D integrations that are difficult to achieve by means of
+conventional fabrication processes. Compared to conventional 3D
+printings, this method can form fine, free-standing 3D structures of
+electrodes with the reconfigurability of patterns (table S1). Table S2 com-
+pares the minimum line width of this work with a pattern scale from other
+patterning methods of liquid metals, and this work presents the micron-
+scale resolution in both 2D and 3D patterns. In addition, this reconfiguration
+process leads to the instantaneous formation of an ultrathin oxide layer
+near the entire surface of the preprinted EGaIn filament, which can re-
+tard the spontaneous penetration of Ga atoms into other metal layers
+without significantly degrading contact resistance. As an application ex-
+ample, we presented a reconfigurable antenna that is capable of modify-
+ing its resonance frequency and radiation properties through changes in
+geometry, and reversibly movable 3Dinterconnections were presented
+as mechanical switches. Free-standing 3D structures of electrodes are
+advantageous for minimizing the number and space of interconnec-
+tions with an aim toward higher integrations for miniaturized devices,
+as presented in an example with an array of microLEDs. We believe that
+this high-resolution 3D reconfiguration method offers a promising
+strategy as an additive process that can be combined with conventional
+fabrication techniques for highly integrated and stretchable devices, in-
+dicating substantial promise for usein next-generation electronics.
+MATERIALS AND METHODS
+Preparation of nozzles
+A glass pipette (World Precision Instruments) whose outer diameter is
+1.0 mm and the inner diameter is 0.5 mm was pulled with a pipette puller
+(Sutter P-1000) to prepare a nozzle whose inner diameter is 10 to 40mm.
+The tip of the nozzle was dipped into 1H,1H,2H,2H-perfluorodecane-1-
+thiol (Sigma-Aldrich) solution [0.1 wt % (weight %) in dimethylformamide]
+for 30 min to make a hydrophobic self-assembled layer on the surface
+of the nozzle tip.
+Preparation of an ink
+EGaIn (75.5% gallium, 24.5% indium alloy by weight; Changsha
+Santech Materials Co. Ltd.) was used as an ink.
+Printing condition of an ink
+In the case of a 30-mm nozzle, the distance between the nozzle tip and
+the substrate was controlled to about 8mm. The pressure of 30 psi was
+applied to EGaIn ink to be pulled from the syringe to the tip of the nozzle
+using a pneumatic regulator. After the ink was delivered onto a substrate,
+the translation stage was moved with printing velocity of 0.2 mm/s.
+When lifting off the preprinted filament, the stage moves to thez axis,
+with the velocity in the range between 0.001 and 0.01 mm/s and with the
+pneumatic pressure of 3 psi duringz-axis moving. To finish the printing
+a n dc u t o f f ,t h es t a g em o v e dt ot h ez direction with a velocity of 0.5 mm/s,
+and no pressure was applied to the ink duringz-axis moving.
+Line width measurement
+Line widths were measured in SEM images, with the average of 6 lines
+and 10 regions per each line (total, 60 regions), and error bars repre-
+sent the SD.
+Electrical characterization
+Electrical characterization was conducted with the measurement
+using a Keithley 4200A-SCS analyzer. In case of the resistance mea-
+surement, the average of 10 samples was used as a single data point.
+SUPPLEMENTARY MATERIALS
+Supplementary material for this article is available at http://advances.sciencemag.org/cgi/
+content/full/5/6/eaaw2844/DC1
+Fig. S1. SEM images of the kinked or bent regions of the printed EGaIn filaments.
+Fig. S2. The lift-off or cutoff state of line versus the nozzle lift-off velocity.
+Fig. S3. Photograph of lift-off of EGaIn during reconfiguration.
+Fig. S4. Formation of kink- or arc-shaped 3D structures by reconfiguration.
+Fig. S5. Electrical breakdown test of EGaIn.
+Fig. S6. Heat resistance of EGaIn 3D structures.
+Fig. S7. SEM images of soft encapsulation of EGaIn by parylene.
+Fig. S8. Contact angle between EGaIn and Au.
+Fig. S9. The efficiency of interconnection through 3D printing.
+Table S1. Comparison with conventional 3D printing techniques of conductive materials in the
+aspect of printable materials, resolution, reconfigurability, processing temperature, and
+conductivity.
+Table S2. Comparison with published results of liquid metal patterning in the aspect of line
+width, the free-standing 3D structure, reconfigurability, and the used substrate.
+Movie S1. Reconfiguration of the square coil antenna.
+Movie S2. Multiple reconfigurations of the EGaIn filament.
+Movie S3. Reconfiguration of EGaIn that connects about a 650- mm step.
+Movie S4. Formation of kink-shaped 3D structure by reconfiguration.
+Movie S5. Formation of arc-shaped 3D structure by reconfiguration.
+Movie S6. Breakdown procedure of EGaIn under increasing dc bias.
+Movie S7. Breakdown procedure of EGaIn under increasing ac bias (120 Hz).
+Movie S8. Lift-off and relocation of 3D interconnect for LED switching circuit.
+Movie S9. Light emission from the RGB LED array.
+Movie S10. Light emission from selected pixels in the 4 × 4 microLED array.
+REFERENCES AND NOTES
+1. B. Y. Ahn, E. B. Duoss, M. J. Motala, X. Guo, S.-I. Park, Y. Xiong, J. Yoon, R. G. Nuzzo,
+J. A. Rogers, J. A. Lewis, Omnidirectional printing of flexible, stretchable, and spanning
+silver microelectrodes. Science 323, 1590 –1593 (2009).
+2. J. Hu, M.-F. Yu, Meniscus-confined three-dimensional electrodeposition for direct writing
+of wire bonds. Science 329, 313 –316 (2010).
+3. B. W. An, K. Kim, H. Lee, S.-Y. Kim, Y. Shim, D.-Y. Lee, J. Y. Song, J.-U. Park, High-resolution
+printing of 3D structures using an electrohydrodynamic inkjet with multiple functional
+inks. Adv. Mater. 27, 4322 –4328 (2015).
+4. S. Wang, J. Xu, W. Wang, G.-J. N. Wang, R. Rastak, F. Molina-Lopez, J. W. Chung, S. Niu,
+V. R. Feig, J. Lopez, T. Lei, S.-K. Kwon, Y. Kim, A. M. Foudeh, A. Ehrlich, A. Gasperini, Y. Yun,
+B. Murmann, J. B.-H. Tok, Z. Bao, Skin electronics from scalable fabrication of an
+intrinsically stretchable transistor array. Nature 555,8 3 –88 (2018).
+5. S.-Z. Guo, K. Qiu, F. Meng, S. H. Park, M. C. McAlpine, 3D printed stretchable tactile
+sensors. Adv. Mater. 29, 1701218 (2017).
+6. M. Amjadi, K.-U. Kyung, I. Park, M. Sitti, Stretchable, skin-mountable, and wearable strain
+sensors and their potential applications: A review. Adv. Funct. Mater. 26, 1678 –1698
+(2016).
+7. J. Jang, B. G. Hyun, S. Ji, E. Cho, B. W. An, W. H. Cheong, J.-U. Park, Rapid production of
+large-area, transparent and stretchable electrodes using metal nanofibers as wirelessly
+operated wearable heaters. NPG Asia Mater. 9, e432 (2017).
+8. M. Bariya, H. Y. Y. Nyein, A. Javey, Wearable sweat sensors. Nat. Electron. 1, 160 –171
+(2018).
+9. J. Park, J. Kim, S.-Y. Kim, W. H. Cheong, J. Jang, Y.-G. Park, K. Na, Y.-T. Kim, J. H. Heo,
+C. Y. Lee, J. H. Lee, F. Bien, J.-U. Park, Soft, smart contact lenses with integrations of
+wireless circuits, glucose sensors, and displays. Sci. Adv. 4, eaap9841 (2018).
+10. T. N. Do, H. Phan, T.-Q. Nguyen, Y. Visell, Miniature soft electromagnetic actuators for
+robotic applications. Adv. Funct. Mater. 28, 1800244 (2018).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 8o f9
+
+11. N. W. Bartlett, M. T. Tolley, J. T. B. Overvelde, J. C. Weaver, B. Mosadegh, K. Bertoldi,
+G. M. Whitesides, R. J. Wood, A 3D-printed, functionally graded soft robot powered by
+combustion. Science 349, 161 –165 (2015).
+12. S. Xu, Y. Zhang, J. Cho, J. Lee, X. Huang, L. Jia, J. A. Fan, Y. Su, J. Su, H. Zhang, H. Cheng,
+B. Lu, C. Yu, C. Chuang, T. Kim, T. Song, K. Shigeta, S. Kang, C. Dagdeviren, I. Petrov,
+P. V. Braun, Y. Huang, U. Paik, J. A. Rogers, Stretchable batteries with self-similar
+serpentine interconnects and integrated wireless recharging systems. Nat. Commun. 4,
+1543 (2013).
+13. Z. Chen, S. Ye, I. E. Stewart, B. J. Wiley, Copper nanowire networks with transparent oxide
+shells that prevent oxidation without reducing transmittance. ACS Nano 8, 9673 –9679
+(2014).
+14. M. Kim, J. Park, S. Ji, S.-H. Shin, S.-Y. Kim, Y.-C. Kim, J.-Y. Kim, J.-U. Park, Fully-integrated,
+bezel-less transistor arrays using reversibly foldable interconnects and stretchable
+origami substrates. Nanoscale 8, 9504 –9510 (2016).
+15. S. Lee, S. Shin, S. Lee, J. Seo, J. Lee, S. Son, H. J. Cho, H. Algadi, S. Al-Sayari, D. E. Kim, T. Lee,
+Ag nanowire reinforced highly stretchable conductive fibers for wearable electronics.
+Adv. Funct. Mater. 25, 3114 –3121 (2015).
+16. J. Kim, M.-S. Lee, S. Jeon, M. Kim, S. Kim, K. Kim, F. Bien, S. Y. Hong, J.-U. Park, Highly
+transparent and stretchable field-effect transistor sensors using graphene –nanowire
+hybrid nanostructures. Adv. Mater. 27, 3292 –3297 (2015).
+17. Y. Zhang, C. J. Sheehan, J. Zhai, G. Zou, H. Luo, J. Xiong, Y. T. Zhu, Q. X. Jia, Polymer-
+embedded carbon nanotube ribbons for stretchable conductors. Adv. Mater. 22,
+3027–3031 (2010).
+18. H.-J. Kim, K. Sim, A. Thukral, C. Yu, Rubbery electronics and sensors from intrinsically
+stretchable elastomeric composites of semiconductors and conductors. Sci. Adv. 3,
+e1701114 (2017).
+19. X. Liu, R. Jervis, R. C. Maher, I. J. Villar-Garcia, M. Naylor-Marlow, P. R. Shearing, M. Ouyang,
+L. Cohen, N. P. Brandon, B. Wu, 3D-printed structural pseudocapacitors. Adv. Mater.
+Technol. 1, 1600167 (2016).
+20. S. H. Ko, J. Chung, N. Hotz, K. H. Nam, C. P. Grigoropoulos, Metal nanoparticle direct inkjet
+printing for low-temperature 3D micro metal structure fabrication. J. Micromech.
+Microeng. 20, 125010 (2010).
+21. B. Bhushan, M. Caspers, An overview of additive manufacturing (3D printing) for
+microfabrication. Microsyst. Technol. 23, 1117 –1124 (2017).
+22. Y. Jo, J. Y. Kim, S.-Y. Kim, Y.-H. Seo, K.-S. Jang, S. Y. Lee, S. Jung, B.-H. Ryu, H.-S. Kim,
+J.-U. Park, Y. Choi, S. Jeong, 3D-printable, highly conductive hybrid composites
+employing chemically-reinforced, complex dimensional fillers and thermoplastic triblock
+copolymers. Nanoscale 9, 5072 –5084 (2017).
+23. M. D. Dickey, R. C. Chiechi, R. J. Larsen, E. A. Weiss, D. A. Weitz, G. M. Whitesides,
+Eutectic Gallium-Indium (EGaIn): A liquid metal alloy for the formation of stable
+structures in microchannels at room temperature. Adv. Funct. Mater. 18, 1097 –1104
+(2008).
+24. C. Ladd, J.-H. So, J. Muth, M. D. Dickey, 3D printing of free standing liquid metal
+microstructures. Adv. Mater. 25, 5081 –5085 (2013).
+25. M. D. Dickey, Stretchable and soft electronics using liquid metals. Adv. Mater. 29, 1606425
+(2017).
+26. A. Wan, L. Jiang, C. S. S. Sangeeth, C. A. Nijhuis, Reversible soft top-contacts to
+yield molecular junctions with precise and reproducible electrical characteristics.
+Adv. Funct. Mater. 24, 4442 –4456 (2014).
+27. I. D. Joshipura, H. R. Ayers, C. Majidi, M. D. Dickey, Methods to pattern liquid metals.
+J. Mater. Chem. C. 3, 3834 –3841 (2015).
+28. M. Kim, H. Alrowais, O. Brand, 3D-integrated and multifunctional all-soft physical
+microsystems based on liquid metal for electronic skin applications. Adv. Electron. Mater.
+4, 1700434 (2018).
+29. N. Lazarus, S. S. Bedair, I. M. Kierzewski, Ultrafine pitch stencil printing of liquid metal
+alloys. ACS Appl. Mater. Interfaces 9, 1178 –1182 (2017).
+30. J. B. Andrews, K. Mondal, T. V. Neumann, J. A. Cardenas, J. Wang, D. P. Parekh, Y. Lin,
+P. Ballentine, M. D. Dickey, A. D. Franklin, Patterned liquid metal contacts for printed
+carbon nanotube transistors. ACS Nano 12, 5482 –5488 (2018).
+31. R. Guo, J. Tang, S. Dong, J. Lin, H. Wang, J. Liu, W. Rao, One-step liquid metal transfer
+printing: Toward fabrication of flexible electronics on wide range of substrates.
+Adv. Mater. Technol. 3, 1800265 (2018).
+32. M. Kim, H. Alrowais, S. Pavlidis, O. Brand, Size-scalable and high-density liquid-metal-
+based soft electronic passive components and circuits using soft lithography.
+Adv. Funct. Mater. 27, 1604466 (2017).
+33. B. A. Gozen, A. Tabatabai, O. B. Ozdoganlar, C. Majidi, High-density soft-matter electronics
+with micron-scale line width. Adv. Mater. 26, 5211 –5216 (2014).
+34. T. Lu, L. Finkenauer, J. Wissman, C. Majidi, Rapid prototyping for soft-matter electronics.
+Adv. Funct. Mater. 24, 3351 –3356 (2014).
+35. M. Rajagopalan, M. A. Bhatia, M. A. Tschopp, D. J. Srolovitz, K. N. Solanki, Atomic-scale
+analysis of liquid-gallium embrittlement of aluminum grain boundaries. Acta Mater. 73,
+312–325 (2014).
+36. J. W. Boley, E. L. White, G. T.-C. Chiu, R. K. Kramer, Direct writing of gallium-indium alloy
+for stretchable electronics. Adv. Funct. Mater. 24, 3501 –3507 (2014).
+37. M. A. Meitl, Z.-T. Zhu, V. Kumar, K. J. Lee, X. Feng, Y. Y. Huang, I. Adesida, R. G. Nuzzo,
+J. A. Rogers, Transfer printing by kinetic control of adhesion to an elastomeric stamp.
+Nat. Mater. 5,3 3 –38 (2006).
+38. F. N. Kholid, H. Huang, Y. Zhang, H. J. Fan, Multiple electrical breakdowns and electrical
+annealing using high current approximating breakdown current of silver nanowire
+network. Nanotechnology 27, 025703 (2016).
+39. N. W. Gong, M. Y. Lu, C. Y. Wang, Y. Chen, L. J. Chen, Au(Si)-filled b-Ga2O3 nanotubes as
+wide range high temperature nanothermometers. Appl. Phys. Lett. 92, 073101 (2008).
+40. Y. R. Jeong, J. Kim, Z. Xie, Y. Xue, S. M. Won, G. Lee, S. W. Jin, S. Y. Hong, X. Feng, Y. Huang,
+J. A. Rogers, J. S. Ha, A skin-attachable, stretchable integrated system based on liquid
+GaInSn for wireless human motion monitoring with multi-site sensing capabilities.
+NPG Asia Mater. 9, e443 (2017).
+41. D. K. Schroder, Semiconductor Material and Device Characterization
+(Wiley, 2006).
+42. L. Y. Chen, B. C.-K. Tee, A. L. Chortos, G. Schwartz, V. Tse, D. J. Lipomi, H.-S. P. Wong,
+M. V. McConnell, Z. Bao, Continuous wireless pressure monitoring and mapping with
+ultra-small passive sensors for health monitoring and critical care. Nat. Commun. 5, 5028
+(2014).
+43. J. Park, J. Kim, K. Kim, S.-Y. Kim, W. H. Cheong, K. Park, J. H. Song, G. Namgoong, J. J. Kim,
+J. Heo, F. Bien, J.-U. Park, Wearable, wireless gas sensors using highly stretchable and
+transparent structures of nanowires and graphene. Nanoscale 8, 10591 –10597 (2016).
+44. R.-H. Kim, H. Tao, T. Kim, Y. Zhang, S. Kim, B. Panilaitis, M. Yang, D.-H. Kim, Y. H. Jung,
+B. H. Kim, Y. Li, Y. Huang, F. G. Omenetto, Materials and designs for wirelessly powered
+implantable light-emitting systems. Small 8, 2812 –2818 (2012).
+45. K. Y. Kwon, B. Sirowatka, A. Weber, W. Li, Opto- mECoG array: A hybrid neural interface
+with transparent mECoG electrode array and integrated LEDs for optogenetics. IEEE Trans.
+Biomed. Circuits Syst. 7, 593 –600 (2013).
+Acknowledgments
+Funding: This work was supported by the Ministry of Science & ICT and the Ministry of Trade,
+Industry and Energy (MOTIE) of Korea through the National Research Foundation
+(2016R1A2B3013592 and 2016R1A5A1009926), the Bio & Medical Technology Development
+Program (2018M3A9F1021649), the Nano Material Technology Development Program
+(2015M3A7B4050308 and 2016M3A7B4910635), and the Industrial Technology Innovation
+Program (10080577). In addition, we thank financial support by the Institute for Basic Science
+(IBS-R026-D1) and the Research Program (2018-22-0194) funded by Yonsei University.
+Author contributions: Y.-G.P. and H.S.A. carried out the experiments, analyzed the data,
+and wrote the manuscript. J.-Y.K. analyzed the data. J.-U.P. oversaw all the research phases
+and revised the manuscript. All authors discussed and commented on the manuscript.
+Competing interests: The authors declare that they have no competing interests.
+Data and materials availability: All data needed to evaluate the conclusions in the paper
+are present in the paper and/or the Supplementary Materials. Additional data related to this
+paper may be requested from the authors.
+Submitted 5 December 2018
+Accepted 15 May 2019
+Published 21 June 2019
+10.1126/sciadv.aaw2844
+Citation: Y.-G. Park, H. S. An, J.-Y. Kim, J.-U. Park, High-resolution, reconfigurable printing of
+liquid metals with three-dimensional structures. Sci. Adv. 5, eaaw2844 (2019).
+SCIENCE ADVANCES | RESEARCH ARTICLE
+Park et al ., Sci. Adv. 2019; 5 : eaaw2844 21 June 2019 9o f9

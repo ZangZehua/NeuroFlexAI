@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wowo Studio · AI 方案工作台</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-icon">W</div>
+          <div>
+            <strong>Wowo Studio</strong>
+            <span>AI 方案制作系统</span>
+          </div>
+        </div>
+
+        <nav class="side-nav" aria-label="主导航">
+          <a class="nav-item active" href="#workspace">
+            <span class="nav-icon">◆</span>
+            方案工作台
+          </a>
+          <a class="nav-item" href="#documents">
+            <span class="nav-icon">▤</span>
+            资料资产
+          </a>
+          <a class="nav-item" href="#assistant">
+            <span class="nav-icon">✦</span>
+            AI 生成
+          </a>
+          <a class="nav-item" href="#cadStudio">
+            <span class="nav-icon">⌑</span>
+            CAD 制图
+          </a>
+        </nav>
+
+        <section class="sidebar-section">
+          <div class="section-label">
+            <span>方案库</span>
+            <button class="icon-btn" id="newKnowledgeBaseBtn" type="button" title="新建方案">＋</button>
+          </div>
+          <select id="knowledgeBaseSelect" class="sidebar-select" aria-label="选择方案"></select>
+          <label class="field-label" for="knowledgeBaseName">方案名称</label>
+          <input id="knowledgeBaseName" class="dark-input" type="text" maxlength="80" placeholder="方案名称" />
+          <div class="sidebar-actions">
+            <button class="text-btn" id="saveKnowledgeBaseBtn" type="button">保存名称</button>
+            <button class="text-btn danger-text" id="deleteKnowledgeBaseBtn" type="button">删除方案</button>
+          </div>
+        </section>
+
+        <div class="sidebar-footer">
+          <span class="status-dot"></span>
+          <div>
+            <strong>服务已连接</strong>
+            <span id="healthMeta">正在读取模型配置…</span>
+          </div>
+        </div>
+      </aside>
+
+      <main class="main-content" id="workspace">
+        <header class="workspace-header">
+          <div>
+            <div class="eyebrow">SOLUTION WORKSPACE</div>
+            <h1 id="schemeTitle">默认知识库</h1>
+            <p>组织资料、配置 AI 能力，并生成可复用的专业方案。</p>
+          </div>
+          <div class="header-actions">
+            <button class="btn secondary" id="reindexBtn" type="button">重新构建索引</button>
+            <button class="btn primary" type="button" onclick="document.querySelector('#fileInput').click()">
+              ＋ 添加资料
+            </button>
+          </div>
+        </header>
+
+        <section class="workflow-strip" id="workflowStrip" aria-label="方案制作流程">
+          <div class="workflow-step active" draggable="true" data-step="1">
+            <span class="step-grip" title="拖动排序">⠿</span>
+            <span>01</span>
+            <div class="step-body">
+              <div class="step-title"><strong>资料准备</strong><small>拖拽可调整环节顺序</small></div>
+              <label class="step-manual" for="manualSelect1">环节说明书（知识库）</label>
+              <select class="manual-select" id="manualSelect1" data-step="1"></select>
+            </div>
+          </div>
+          <div class="workflow-line"></div>
+          <div class="workflow-step active" draggable="true" data-step="2">
+            <span class="step-grip" title="拖动排序">⠿</span>
+            <span>02</span>
+            <div class="step-body">
+              <div class="step-title"><strong>能力配置</strong><small>拖拽可调整环节顺序</small></div>
+              <label class="step-manual" for="manualSelect2">环节说明书（知识库）</label>
+              <select class="manual-select" id="manualSelect2" data-step="2"></select>
+            </div>
+          </div>
+          <div class="workflow-line"></div>
+          <div class="workflow-step active" draggable="true" data-step="3">
+            <span class="step-grip" title="拖动排序">⠿</span>
+            <span>03</span>
+            <div class="step-body">
+              <div class="step-title"><strong>方案生成</strong><small>拖拽可调整环节顺序</small></div>
+              <label class="step-manual" for="manualSelect3">环节说明书（知识库）</label>
+              <select class="manual-select" id="manualSelect3" data-step="3"></select>
+            </div>
+          </div>
+          <div class="workflow-line"></div>
+          <div class="workflow-step active" draggable="true" data-step="4">
+            <span class="step-grip" title="拖动排序">⠿</span>
+            <span>04</span>
+            <div class="step-body">
+              <div class="step-title"><strong>CAD 出图</strong><small>拖拽可调整环节顺序</small></div>
+              <label class="step-manual" for="manualSelect4">环节说明书（知识库）</label>
+              <select class="manual-select" id="manualSelect4" data-step="4"></select>
+            </div>
+          </div>
+        </section>
+        <p class="workflow-note">
+          每个环节可分别选择对应的设备说明书（知识库）；若某环节缺少说明书，点击“＋ 上传/新建”上传文档并自动建立新方案。各环节顺序可自由调整。
+        </p>
+
+        <section class="metrics">
+          <article class="metric-card">
+            <span class="metric-label">资料总数</span>
+            <strong id="documentMetric">0</strong>
+            <small>当前方案</small>
+          </article>
+          <article class="metric-card">
+            <span class="metric-label">已索引资料</span>
+            <strong id="indexedMetric">0</strong>
+            <small>可用于语义检索</small>
+          </article>
+          <article class="metric-card accent">
+            <span class="metric-label">当前能力</span>
+            <strong id="skillBadge">默认 Skill</strong>
+            <small>已注入 AI 助手</small>
+          </article>
+        </section>
+
+        <div class="workspace-grid">
+          <section class="panel assets-panel" id="documents">
+            <div class="panel-header">
+              <div>
+                <span class="panel-kicker">KNOWLEDGE ASSETS</span>
+                <h2>方案资料</h2>
+              </div>
+              <span class="panel-note">PDF · DOCX · Markdown · TXT</span>
+            </div>
+
+            <form class="upload-zone" id="uploadForm">
+              <input
+                id="fileInput"
+                type="file"
+                multiple
+                accept=".pdf,.docx,.txt,.md,.py,.json,.yaml,.yml,.csv,.log"
+                hidden
+              />
+              <div id="dropzone" class="upload-content">
+                <div class="upload-icon">⇧</div>
+                <div>
+                  <strong>拖入资料文件</strong>
+                  <span>或点击此处选择文件，上传后自动建立检索索引</span>
+                </div>
+              </div>
+              <button class="btn primary upload-btn" id="uploadBtn" type="submit">上传并索引</button>
+            </form>
+            <div class="status" id="uploadStatus" role="status"></div>
+            <div class="doc-list" id="docList">
+              <div class="empty-state">
+                <strong>还没有方案资料</strong>
+                <span>上传文档后即可开始制作方案</span>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel creation-panel" id="assistant">
+            <div class="panel-header">
+              <div>
+                <span class="panel-kicker">AI COPILOT</span>
+                <h2>方案生成助手</h2>
+              </div>
+              <span class="online-badge">在线</span>
+            </div>
+
+            <details class="skill-config">
+              <summary>
+                <span>
+                  <small>当前 Skill</small>
+                  <strong id="skillSummaryName">默认 Skill</strong>
+                </span>
+                <span class="chevron">⌄</span>
+              </summary>
+              <div class="skill-form">
+                <label for="skillSelect">选择 Skill</label>
+                <select id="skillSelect" aria-label="选择 Skill"></select>
+                <label for="skillName">名称</label>
+                <input id="skillName" type="text" maxlength="80" placeholder="Skill 名称" />
+                <label for="skillContent">指令内容</label>
+                <textarea
+                  id="skillContent"
+                  rows="4"
+                  maxlength="20000"
+                  placeholder="输入要注入 Agent 的 Skill 指令"
+                ></textarea>
+                <div class="row-actions">
+                  <button class="btn primary small" id="newSkillBtn" type="button">新建 Skill</button>
+                  <button class="btn secondary small" id="saveSkillBtn" type="button">保存配置</button>
+                  <button class="btn ghost-danger small" id="deleteSkillBtn" type="button">删除</button>
+                </div>
+                <div class="status" id="skillStatus" role="status"></div>
+              </div>
+            </details>
+
+            <div class="messages" id="messages">
+              <div class="assistant-intro">
+                <div class="assistant-mark">✦</div>
+                <strong>开始制作你的方案</strong>
+                <span>我会结合当前资料库和 Skill 配置，生成多种可行方案并自我校核，同时给出置信度。</span>
+              </div>
+            </div>
+
+            <form class="composer" id="chatForm">
+              <textarea
+                id="chatInput"
+                rows="3"
+                placeholder="描述你希望生成的方案，例如：基于上传资料，整理一份项目研究方案（我会给出多个方案及其优缺点，并自我校核）…"
+                required
+              ></textarea>
+              <div class="composer-footer">
+                <span>Enter 发送 · Shift + Enter 换行</span>
+                <button class="btn primary" id="sendBtn" type="submit">生成方案 <span>→</span></button>
+              </div>
+            </form>
+          </section>
+        </div>
+
+        <section class="panel cad-panel" id="cadStudio">
+          <div class="panel-header">
+            <div>
+              <span class="panel-kicker">PARAMETRIC CAD</span>
+              <h2>制作方案与 CAD 制图</h2>
+            </div>
+            <span class="panel-note">二维板件 · DWG · DXF · SVG</span>
+          </div>
+          <div class="cad-grid">
+            <form id="cadForm" class="cad-form">
+              <label for="cadDescription">描述板件和全部关键尺寸</label>
+              <textarea
+                id="cadDescription"
+                rows="7"
+                minlength="10"
+                maxlength="12000"
+                placeholder="例如：制作一块 200×120×3 mm 的 6061 铝板，数量 2。四角各开一个直径 6 mm 的圆孔，孔中心距相邻边均为 12 mm；中心开一个 40×20 mm 的矩形槽。"
+                required
+              ></textarea>
+              <p class="cad-hint">坐标原点为左下角。缺少长、宽、厚度、孔径或位置时，系统会要求补充参数，不会猜测出图。</p>
+              <button class="btn primary" id="cadGenerateBtn" type="submit">生成方案并绘制 CAD <span>→</span></button>
+              <div class="status" id="cadStatus" role="status"></div>
+            </form>
+            <div id="cadResult" class="cad-result empty">
+              <div class="cad-empty">
+                <strong>等待生成 CAD</strong>
+                <span>方案通过几何校验后，将在这里显示工程预览和下载文件。</span>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="schemeDialog" class="modal">
+      <form method="dialog" id="schemeDialogForm">
+        <div class="modal-header">
+          <div><span class="panel-kicker">NEW SOLUTION</span><h2>新建方案</h2></div>
+          <button class="modal-close" id="closeSchemeDialogBtn" type="button" aria-label="关闭">×</button>
+        </div>
+        <label for="newSchemeName">方案名称</label>
+        <input id="newSchemeName" type="text" maxlength="80" placeholder="例如：智能医疗研究方案" required />
+        <div class="modal-actions">
+          <button class="btn secondary" id="cancelSchemeBtn" type="button">取消</button>
+          <button class="btn primary" id="confirmNewSchemeBtn" type="submit">创建方案</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="skillDialog" class="modal">
+      <form method="dialog" id="skillDialogForm">
+        <div class="modal-header">
+          <div><span class="panel-kicker">NEW SKILL</span><h2>新建 Skill</h2></div>
+          <button class="modal-close" id="closeSkillDialogBtn" type="button" aria-label="关闭">×</button>
+        </div>
+        <label for="newSkillName">Skill 名称</label>
+        <input id="newSkillName" type="text" maxlength="80" placeholder="例如：研究报告生成器" required />
+        <label for="newSkillContent">Skill 指令</label>
+        <textarea id="newSkillContent" rows="6" maxlength="20000" placeholder="描述 AI 应遵循的任务、规则和输出格式" required></textarea>
+        <div class="modal-actions">
+          <button class="btn secondary" id="cancelSkillBtn" type="button">取消</button>
+          <button class="btn primary" id="confirmNewSkillBtn" type="submit">创建 Skill</button>
+        </div>
+      </form>
+    </dialog>
+
+    <script src="/assets/app.js"></script>
+  </body>
+</html>

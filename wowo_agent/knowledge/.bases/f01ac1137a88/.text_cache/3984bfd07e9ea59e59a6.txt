@@ -1,0 +1,684 @@
+ 
+ 
+ 
+ 
+Appl. Sci. 2021, 11, 6562. https://doi.org/10.3390/app11146562  www.mdpi.com/journal/applsci 
+Article 
+Soft Bio‐Integrated Multifunctional Devices Using an  
+Intrinsically Stretchable Conducting Nanomembrane 
+Sangkyu Lee 1,†, Kyumin Kang 1,†, Heewon Choi 1, Jiyong Yoon 1, Yewon Kim 1, Soojung An 1, Hyunjin Jung 2, 
+Duhwan Seong 1, Kyuha Park 1, Hyoung Won Baac 1 and Donghee Son 1,3,* 
+1  Department of Electrical and Computer Engineering, Sungkyunkwan University (SKKU), Suwon 16419, 
+Korea; lee39@g.skku.edu (S.L.); zseqqq@gmail.com (K.K.); chwchw97@gmail.com (H.C.); 
+jiyong428@g.skku.edu (J.Y.); ywkim0726@gmail.com (Y.K.); soojung2134@gmail.com (S.A.); 
+dodoworld1993@gmail.com (D.S.); telos6063@gmail.com (K.P.); hwbaac@skku.edu (H.W.B.) 
+2  School of Mechanical Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea;  
+hyunjin.jung33@gmail.com 
+3  Department of Superintelligence Engineering, Sungkyunkwan University (SKKU), Suwon 16419, Korea 
+*  Correspondence: daniel3600@g.skku.edu; Tel./Fax: +082‐312907696 
+†  These authors contributed equally to this work. 
+Abstract: Soft bioelectronic systems with a unique mechanical property, namely modulus matching 
+between human skin (or tissue) and the device, have gained widespread attention. This is because 
+of their closed‐loop strain‐insensitive electrical performance ranging from application in the long‐
+term stable measurements of physiological signals and feedback modulation to human skin (or or‐
+gans). Various materials and integration/fabrication strategies such as buckled, rigid islands, and 
+wavy  designs  addressed  for  soft  bioelectronic  systems  require  complex  device  fabrication  with 
+time‐consuming packaging and integration processes. In this study, we developed a soft bio‐inte‐
+grated  multifunctional  device  (SBMD)  fabricated  through  the  simple  thermal  evaporation  and 
+transfer processes. The intrinsically stretchable Au–SEBS film composed of thermally evaporated 
+gold (Au) nanomembranes and an elastomeric substrate was applied to various functional modules 
+that are capable of sensing the strain (up to ~300%), temperature (with a thermal sensitivity of ~0.6 
+Ω/°C),  chemicals  (at  a  concentration  of  NaCl  of~0.5  wt%),  and  even  electrophysiological  car‐
+diac/muscle signals and showing thermal actuations (80 °C at 9 V). Specifically, such multifunctions 
+of the SBMD were stably performed even on skin. Thus, we believe the SBMD would be a promising 
+candidate for realizing soft bioelectronic systems. 
+Keywords: nanomembrane; crack‐based sensor; stretchable electrode; wearable device; biomedical 
+device 
+ 
+1. Introduction 
+Wearable devices used in smart healthcare applications can measure the electrophys‐
+iological  signals  from  human  skin  to  diagnose  internal  conditions  and  diseases  [1–6]. 
+Since the stable, long‐term monitoring of biological signals is necessary to realize an ac‐
+curate diagnosis, the electrical characteristics of sensors in wearable devices should not 
+be lost, even if significantly deformed. Stretchable electrodes, for example, are not only 
+used in wearable devices but are also epidermal and implantable sensors inserted into the 
+body and actuators in soft robots; hence, they have gained increasing attention [7,8]. How‐
+ever, if the electrodes are detached from the skin owing to their mechanical modulus mis‐
+match, the sensed signal cannot be read correctly because of an air gap caused by an in‐
+flow of air between the skin and electrodes. Therefore, many researchers have reported 
+stretchable electrodes that can be attached conformally to the skin and accurately measure 
+biological signals while having stable electrical characteristics for long‐term use [9–12]. 
+Citation: Lee, S.; Kang, K.; Choi, H.; 
+Yoon, J.; Kim, Y.; An, S.; Jung, H.; 
+Seong, D.; Park, K.; Baac, H.W.; et al. 
+Soft Bio‐Integrated Multifunctional 
+Devices Using an Intrinsically 
+Stretchable Conducting  
+Nanomembrane. Appl. Sci. 2021, 11, 
+6562. https://doi.org/10.3390/ 
+app11146562 
+Academic Editor: Giuseppe  
+Andreoni 
+Received: 16 June 2021 
+Accepted: 15 July 2021 
+Published: 16 July 2021 
+Publisher’s  Note:  MDPI  stays  neu‐
+tral  with  regard  to  jurisdictional 
+claims in published maps and institu‐
+tional affiliations. 
+ 
+Copyright: © 2021 by the authors. Li‐
+censee  MDPI,  Basel,  Switzerland. 
+This  article  is  an  open  access  article 
+distributed under the terms and con‐
+ditions of the Creative Commons At‐
+tribution (CC BY) license (http://crea‐
+tivecommons.org/licenses/by/4.0/). 
+
+
+Appl. Sci. 2021, 11, 6562  2  of  14 
+ 
+ 
+Conventional sensors manufactured on silicon substrates are rigid, brittle, and stiff, 
+so it is difficult to attach them to the human body. Moreover, it is also difficult to obtain a 
+stable signal during movements, because these sensors are not stretchable. Additionally, 
+to achieve stable bio‐signals despite these rigid properties, various methods such as buck‐
+led structure [13], noncoplanar [14], rigid islands [15], wavy interconnects, and complex 
+geometry engineering [16–18] have been proposed. However, there is a problem with in‐
+tegration, because complex wavy interconnects occupy a larger area than the main sensor 
+part.  In  addition,  the  fabrication  of  stretchable  devices  involves  complicated  multistep 
+processes. 
+Therefore, researchers have proposed intrinsically stretchable materials for stretcha‐
+ble  semiconductors  [19–23]  and  organic  electrodes  [9,10,24–29].  Organic  electrodes  are 
+soft, flexible, and soluble. Using these properties of polymers, they are made by mixing 
+conductive fillers, such as metal nanowires and carbon materials with a flexible insulating 
+polymer solution  [24–29], or  by  polymerizing  intrinsically  conductive  polymers  from a 
+monomer unit [30–32]. However, although these organic stretchable electrodes have ex‐
+cellent elasticity, they do not exhibit good electrical properties. In addition, they are vul‐
+nerable to various organic solvents used in semiconductor processes, which makes their 
+integration difficult. Therefore, it is necessary to develop an intrinsically stretchable elec‐
+trode that exhibits high electrical properties by using a relatively simple fabrication pro‐
+cess. 
+For  this  demand,  thermal  evaporation  has  steadily  studied  for  the  preparation  of 
+stretchable conductors consisting of a gold nanomembrane on an elastomer surface (espe‐
+cially  PDMS)  [33–35].  It  has  been  reported  that  thermally  evaporated  gold  nanomem‐
+branes  have  three  morphologies  by  the  evaporation  condition:  microcracked,  buckled, 
+and smooth. Among them, a microcracked gold nanomembrane‐based elastomer conduc‐
+tor  has  advantages  in  its  low  electrical  resistance,  compatibility  with  the  conventional 
+semiconductor fabrication process, uniformity, simple one‐step process and low fatigue 
+for an extreme cyclic test, and so on [34]. Therefore, it was recently studied as a soft bioe‐
+lectronics and neural interface [36–38]. However, there is no study using styrene‐ethylene‐
+butylene‐styrene (SEBS) with a gold nanomembrane. 
+Here, we described a soft bio‐integrated multifunctional device (SBMD) based on an 
+intrinsically  stretchable  conducting  nanomembrane  supported  on  an  elastomeric  sub‐
+strate. We fabricated a stretchable electrode by the direct deposition of a metal nanomem‐
+brane on the surface of a stretchable elastomer substrate using a thermal evaporator. The 
+proposed electrodes showed that they are possible for fabricating patterned electrodes on 
+one substrate with a simple one‐step process. Moreover, the electrodes exhibited excellent 
+stretchability (~300% elongation) and low resistance. Finally, it was shown that it can be 
+used sufficiently as a multifunctional wearable sensor that can detect deformation/elec‐
+trochemical/temperature/electrophysiological  signals  from  the  skin  and  as  a  heater  for 
+thermotherapy (Figure 1a–c). 
+
+Appl. Sci. 2021, 11, 6562  3  of  14 
+ 
+ 
+ 
+Figure  1.  (a)  Overall  schematic  of  the  soft  bio‐integrated  multifunctional  devices  in  intrinsically 
+stretchable  conducting  nanomembrane  electrodes.  (b)  Photograph  of  the  device  before  being 
+stretched. (c) Photograph of the device after being stretched. 
+2. Materials and Methods 
+2.1. Preparation of the Au–SEBS Electrodes and Sensors 
+All solvents were purchased from Sigma‐Aldrich (Burlington, USA). The Au–SEBS 
+electrodes were prepared according to a previous study [21]. First, 100 mm × 100 mm glass 
+plates (AMG glass, Uiwang, Korea) were prepared as substrates before gold deposition. 
+The glass surfaces were cleaned for 2 min with oxygen plasma (100 W, 200 mTorr) using 
+a reactive ion etcher machine (Oxford Plasmalab 80 Plus, Oxfordshire, United Kingdom) 
+and sonicated in acetone, 2‐propanol, and deionized (DI) water for 5 min each. After a 
+gentle nitrogen gas blowing, the SEBS (TuftecTM H1062, Asahi Kasei Co., Tokyo, Japan) 
+solution was drop‐cast on top of a glass plate (75 mg/mL in chloroform) and dried over‐
+night. Next, gold nanomembranes with designated thicknesses (10, 30, 50, 70, and 90 nm) 
+were directly deposited onto the surface of the SEBS films using the conventional thermal 
+evaporation process (~1.0 Å per second). After peeling off the  Au–SEBS films  from the 
+glass plate, they were cut to specific sizes for each purpose (strain sensor, heater, and elec‐
+trophysiology). The wavy and interdigitated sensor devices were prepared using the same 
+process, but a stainless‐steel shadow mask (iNEX JK Co., Ltd., Hwaseong, Korea) was ad‐
+ditionally  used  for  the  temperature  sensor  and  electrochemical  sensor.  The  patterned 
+shadow mask (approximately 80 mm × 80 mm) was attached to the SEBS film on glass 
+using commercial Kapton tape (KT‐10, Bedell Co., Seoul, Korea) to create a sensor pattern. 
+After the thermal evaporation of gold, the tape was peeled off, and the mask was removed 
+from the surface of the SEBS film. 
+2.2. Mechanical and Electrical Characterizations of Au–SEBS Electrodes 
+To measure the resistance of the Au–SEBS films under strain, cyclic stretching tests 
+were  conducted  using  a  motorized  X‐translation  stage  and  its  corresponding  software 
+(Jaeil Optical Corp., Daegu, Korea). During stretching, a source meter (Keithley 2450 Dig‐
+ital Multimeter, Oregon, USA) was used to monitor the real‐time changes in the resistance 
+of the Au–SEBS films. For morphological characterization, an optical microscope (BX51M, 
+
+
+Appl. Sci. 2021, 11, 6562  4  of  14 
+ 
+ 
+Olympus, Tokyo, Japan) was used to analyze the Au–SEBS films in each state (pristine, 
+100% stretched, and released). The nanometric morphologies (Supplementary Figure S1) 
+were characterized by a scanning electron microscope (JEOL, Seoul, Korea) 
+2.3. Various Sensors and Heater Demonstration of the Au–SEBS Electrodes 
+To prepare the strain sensor, the Au–SEBS film was cut to a determined width (from 
+1 to 5 mm) and length (2 cm). The two ends of the samples were fixed on a motor‐based 
+one‐axis stretcher using double‐sided tape. The annealed copper wire and Au–SEBS sen‐
+sor were placed in contact with liquid metal (EGaIn, Burlington, Sigma‐Aldrich). The Au–
+SEBS strain sensor was stretched at a rate of 0.05 mm/s but at 1 mm/s for the cyclic test. 
+For the electrochemical sensor, various concentrations of NaCl solutions with DI water 
+(0, 0.1, 0.2, 0.3, 0.4, and 0.5%) were prepared. The interdigitated Au–SEBS electrode films 
+were attached to a glass plate (Marienfeld, Lauda‐Königshofen, Germany), and commer‐
+cial wires were connected on each pad of the electrode using liquid metal. They were to‐
+tally  fixed  by  polyimide  tape.  Then,  they  were  immersed  in  NaCl  solution.  The  source 
+meter was used to measure the current change between the two electrodes. 
+For the temperature sensor, wavy Au–SEBS electrode films were attached to the glass 
+plates, and commercial wires were connected on each pad of the electrode using liquid 
+metal. Then, they were put on the top of the commercial hot plate machine. Temperature 
+conditions were controlled by the hot plate control panel from 30 °C to 100 °C. The re‐
+sistance change was measured by the source meter. We waited 5 min from the moment 
+each temperature condition was reached for stabilization of the resistance of the sensor. 
+For the heater, a 1 cm × 2.5 cm Au–SEBS film was prepared. The film was placed in 
+contact with commercial wires using liquid metal. The current was supplied from a power 
+supply  machine  (Agilent  E3647A,  California,  USA).  The  temperature  of  the  heater  was 
+measured using a thermal imaging camera (E75SC, FLIR Systems, Inc., Oregon, USA) for 
+real‐time monitoring. 
+2.4. Measurement of Electrocardiogram and Electromyogram Signal from Human Skin 
+For electrophysiological signal monitoring, the electromyogram (EMG) and electro‐
+cardiogram  (ECG)  signals  were  recorded  using  a  bio‐signal  amplifier  (Bio  Amp  FE231, 
+AD Instruments, Dunedin, New Zealand) and a data acquisition device (PowerLab 8/35, 
+AD  Instruments).  Action  potential  signals  were  filtered  as  the  International  Society  of 
+Electrophysiology and Kinesiology (ISEK) standard (1500‐Hz low‐pass filter). The sensing 
+(SE) and reference (RE) electrodes were prepared by cutting the Au–SEBS electrode, and 
+a commercial gel electrode (3M 2660 Ag/AgCl gel electrode) was used as the ground elec‐
+trode. 
+For measuring the EMG sensing, the SE and RE were attached to the flexor digitorum 
+superficialis [39,40] of the right forearm, whereas the reference gel electrode was attached 
+to the opposite side of the forearm. The volunteer was required to perform two simple 
+hand gestures—that  is, grasping and releasing of the fingers for 30 s each. 
+For  measuring  the  electrocardiogram  (ECG)  sensing,  the  cardiac  signal  was  meas‐
+ured by ECG equipment using the three proposed electrodes based on the standard 12‐
+lead measurement method. The positive and negative electrodes were attached to the left 
+and right forearms, respectively, and the reference electrode was attached to the left ankle. 
+The electrodes were positioned based on Einthoven’s triangle positioning for representa‐
+tive ECG electrode placement on humans [41,42]. 
+3. Results and Discussion 
+3.1. Stretching Test and Morphological Characterization of the Au–SEBS Electrodes 
+After preparing the Au–SEBS electrodes (Figure 2a), we prepared the SEBS films with 
+variable Au thicknesses to investigate the effect of the Au nanomembrane thickness on 
+the electrical conductivity (Figure 2b). Naturally, the sheet resistance of the Au–SEBS film 
+
+Appl. Sci. 2021, 11, 6562  5  of  14 
+ 
+ 
+decreased as the Au nanomembrane thickness increased. The electrode with an Au nano‐
+membrane thickness of 30 nm was conductive, indicating that the gold particles were suf‐
+ficiently deposited to form an electrical pathway on the surface of the SEBS film. 
+ 
+Figure 2. (a) Fabrication process of the Au–SEBS electrode. (b) Sheet resistance of the Au–SEBS elec‐
+trodes varied by different Au thicknesses. (c) Photograph of the stretchable Au–SEBS electrode. 
+However,  as  seen  from  the  optical  microscope  images  in  Figure  3,  morphological 
+changes were observed in the pristine, 100% stretched, and released states of the Au na‐
+nomembranes.  Multiple  micro‐nanoscale  cracks  were  seen  on  the  surfaces  of  the  elec‐
+trodes. On stretching, the cracks spread widely, and larger gaps were observed between 
+the Au particles. However, when they were released, the Au particles reconnected with 
+each other, which indicates that the cracks in the Au nanostructure were supported by the 
+elastic SEBS substrate (its elastic modulus was ~3.5 MPa); thus, stable electrical properties 
+were retained during stretching and releasing. 
+ 
+Figure 3. Optical images of the Au nanomembranes. (a) Pristine, (b) 100% stretched by a motorized 
+X‐translation stage, and (c) released after stretching (scale bar: 20 μm). 
+3.2. Strain Sensor 
+We demonstrated the proposed electrode as a strain sensor. Achieving a high stretch‐
+able sensing range and high gauge factor in a strain sensor is challenging [43]. Although 
+conventional strain sensors exhibit high gauge factor values for sensitivity, they have lim‐
+ited stretchable sensing ranges [44,45]. In contrast, while strain sensors exhibit relatively 
+high stretchability ranging up to 70%, they exhibit low sensitivity due to a low gauge fac‐
+tor  [46,47].  Figure  4a  shows  the  design  rule  for  determining  the  Au  thickness  of  the 
+
+
+Appl. Sci. 2021, 11, 6562  6  of  14 
+ 
+ 
+proposed  strain  sensor.  As  the  maximum  gauge  factor  increases,  the  Au  thickness  in‐
+creases, and the electrical fracture strain decreases. To obtain a highly stretchable sensing 
+range, we adopted a 30‐nm‐thick nanomembrane. For a higher gauge factor in a relatively 
+narrow stretchable sensing range, a thicker nanomembrane can be considered. Figure 4b 
+shows the design rule for determining the width of the nanomembrane. If the gold nano‐
+membrane becomes thicker, its initial resistance value would be lower than before. How‐
+ever,  the initial resistance value  was  saturated  for a width  of 3 mm,  and  no significant 
+differences were observed even as the width increased. The gauge factor, compared to the 
+same amount of strain, increased with a decrease in the initial resistance value. Therefore, 
+we can conclude that the gauge factor value was the highest for the width of 3 mm. Figure 
+4c shows the design rule for determining the stretchable sensing range of the strain sensor. 
+Although a 3‐mm‐wide nanomembrane can be stretched up to 400%, the linearity of the 
+relative resistance decreases with an increase in the stretchable range. Linearity is a meas‐
+ure of the sensor performance. A low linearity indicates the need for sensor calibration, 
+making the manufacturing process difficult [43]. Therefore, we adopted a 300% stretcha‐
+ble sensing range with a high gauge factor and moderate linearity (~0.67). Figure 4d shows 
+the relative resistance–strain curves of the strain sensor. When the strain extended 300%, 
+the gauge factor value was approximately 134, and an initial strain of 17% indicated re‐
+sidual strain. However, this value was negligible compared to the overall strain and re‐
+sistance values. Figure 4e shows relative resistance–strain curve depicting the hysteresis 
+of the selected strain sensor under a double sweep. There was not much difference in the 
+relative resistance value within the loading–unloading cycle. Figure 4f shows the relative 
+resistance–strain curve of the selected strain sensor from 100% to 300% during the load‐
+ing–unloading cycle. 
+ 
+Figure 4. (a) Fracture strain and maximum gauge factor of the Au–SEBS strain sensor with their 
+respective Au thicknesses. (b) Resistance trends and gauge factor as per the width of the strain sen‐
+sor. (c) Gauge factor and linearity change as per the strain for determining the range of use of the 
+sensor. (d) Relative resistance–strain curve depicting the sensitivity of the selected strain sensor. (e) 
+Relative resistance–strain curve depicting the hysteresis of the selected strain sensor under a double 
+sweep. (f) Reliable strain‐sensing performance of the selected strain sensor under repeated stretch‐
+ing cycles. 
+3.3. Electrochemical Sensor 
+Interdigitated electrodes have been used as electrochemical biosensors for the past 
+two  decades  and  are  often  fabricated  by  complex  steps.  However,  they  do  not  require 
+detection markers for specific analytes and a reference electrode, considering the interdig‐
+itated electrode sensor monitors changes in the current caused by the direct interaction 
+between the sensor surface and the analytes [48–50]. Therefore, we prepared the Au–SEBS 
+interdigitated electrode by attaching a patterned mask on the SEBS film before thermal 
+
+
+Appl. Sci. 2021, 11, 6562  7  of  14 
+ 
+ 
+evaporation. We selected sodium chloride (NaCl) as our target analyte from numerous 
+other  bio‐analytes  in  the  body,  considering  they  carry  0.5%  of  the  total  sweat  [51,52]. 
+Hence, we prepared mixtures of pure DI water with different concentrations of NaCl so‐
+lutions for NaCl sensing. An interdigitated sensor is primitively categorized as a capaci‐
+tive or impedimetric sensor [53–55], but using only simple setup at Figure 5a, we meas‐
+ured the concentration of NaCl in the solution by the interdigitated electrodes connected 
+with a source meter. As the NaCl concentration increased, the mobile ions increased in 
+the solution. We confirmed the current was increased as the NaCl concentration increased 
+in the solution that the electrode was immersed in. Figure 5b shows that sweat sensing is 
+capable of diagnosing the health state of a subject even with other sensors attached. 
+ 
+Figure 5. (a) Measurement setup of the Au–SEBS electrochemical sensor. (b) NaCl sensing of the 
+electrochemical sensor. (c) Temperature–resistance correlation of Au–SEBS temperature sensor. (d) 
+Real temperature differences between the control panel of a hot plate machine and IR camera sensor 
+and the temperature sensing of the Au–SEBS temperature sensor in real time. (e) Heating perfor‐
+mance of the heater following the voltage. (f) Thermal imaging of the Au–SEBS electrode heater in 
+the off state, 3 V, 6 V, and 9 V with scale bars. 
+3.4. Temperature Sensor 
+Temperature is an essential parameter, an important indicator for health monitoring 
+of the human body. Various types of stretchable temperature sensors have been devel‐
+oped; two types are conductive composites (by thermal expansion differences) and resis‐
+tive conductors on stretchable elastomer substrates (by resistance changes on conductors 
+following  the  temperature)  [56–59].  Conductive  composites  use  various  nanomaterials, 
+including carbon nanotubes [60,61], graphene [62,63], conducting polymers [64,65], and 
+metal nanowires [58,66,67]. However, this type generally has a narrow temperature range, 
+low accuracy, and slow response. [66] We used a wavy Au–SEBS electrode as a resistive 
+temperature sensor. In Figure 5c, the Au–SEBS temperature sensor showed its tempera‐
+ture sensitivity (~0.6 Ω/°C). It was comparable with other nanomaterial‐based tempera‐
+ture sensors [56,66], specifically with copper or silver nanowires. Figure 5d showed the 
+correlation of the controlled temperature value we set on the hot plate machine and real‐
+time temperature value fluctuation measured by an infrared thermal imaging camera. Ba‐
+sically, the heating stage we used could not keep constant temperature conditions, so real 
+temperature conditions were continuously fluctuated. However, the Au–SEBS tempera‐
+ture sensor correctly followed the real temperature fluctuation trend measured by a ther‐
+mal imaging camera, so it was shown that it can be worked as a reliable temperature sen‐
+sor. 
+   
+
+
+Appl. Sci. 2021, 11, 6562  8  of  14 
+ 
+ 
+3.5. Heater 
+Among the basic elements used in skin wearable devices, heaters are most commonly 
+used for thermotherapy. It is known that conventional heaters such as heat packs or wraps 
+control their temperature by Joule heating, and the heating effect results in the thermal 
+expansion  of  vascular  systems  and  the  surrounding  tissues,  which  relieves  pain  [68]. 
+Therefore, various kinds of stretchable heaters using metal nanowires [69–73], conducting 
+polymers [74,75], and carbon materials [75–79] have been reported as wearable skin de‐
+vices. In this study, we used the Au–SEBS electrode as a heater for application as a wear‐
+able healthcare device. Figure 5e,f showed the heating performance of the Au–SEBS elec‐
+trode. Its temperature was raised at 77.6 °C at 10 V at the maximum, but it was insufficient 
+for other nanomaterial heaters like PEDOT:PSS (approximately 80 °C at 7 V) [75] or single‐
+walled carbon nanotube heaters (approximately 80 °C at 5 V) [78]. Nevertheless, the heater 
+showed  a  sufficient  heating  temperature  range  (30–80  °C  below  10  V)  as  an  epidermal 
+heater device. 
+3.6. Electrophysiology Measurement of the Human Body 
+Biopotential monitoring from the human body (called “electrophysiology”) provides 
+direct evidence to determine a human body in a healthy state and diseased state. It can 
+show a wide range of medical information about the patient [80–82]. Conventional elec‐
+trodes  used  in  electrophysiology  are  classified  as  wet  and  dry  electrodes.  As  the  gold 
+standard, 3‐M Ag/AgCl gel electrode is an example of a wet‐type electrode that is com‐
+monly used owing to low‐impedance contact with the skin, reduced noise due to motion 
+artifacts of a subject or wiring, and being easily disposable [83–85]. However, the perfor‐
+mance is not long‐lasting due to the constant gel dehydration with time, which sometimes 
+results in skin irritation or allergic reactions, making them unsuitable for long‐term bio‐
+signal monitoring [85]. We used Au–SEBS films as bio‐signal‐sensing electrodes for meas‐
+uring these EMG and ECG signals. Although our electrode was used as a dry electrode 
+without a conductive gel, it was capable of effectively detecting the bio‐signal when meas‐
+uring the EMG and ECG in a simple experimental setup (Figure 6a) and determined the 
+electrode positioning (Figure 6b for EMG and 6d for ECG). 
+EMG show useful information about the skeletal muscles. Its activation was recorded 
+by a form of electrical potentials produced by a contraction of specific muscles to which 
+the electrode is attached. Motor unit action potential (MUAP) means a summation of the 
+potentials evoked at several muscle fibers around the electrode [86]. From the neuromus‐
+cular junction, acetylcholine (ACh) combines to ACh receptors on muscle tissue to start 
+the action potential through depolarization by the inflow of sodium ions. EMG electrodes 
+can detect the contraction and relaxation of the muscles in real time. It is an important tool 
+for developing a human–machine interface and neuroprosthesis [87,88]. In Figure 6c, the 
+surface EMG was measured by attaching the Au–SEBS electrode on the flexor digitorum 
+superficialis [39,40] of the right forearm (Figure 6c). The signals of two designated motions 
+(grasping and releasing the one hand) were shown at each peak, but the difference of the 
+two motion signals was not big, so it is suggested that the motion artifact was mixed in 
+the EMG signals. The sensing signal scale (Y‐axis scale) was not sufficient for other dry 
+EMG  electrodes using PEDOT:PSS  [89]  or silver  electrodes  [90].  However,  for  practical 
+applications, it is still needed for external signal processing systems that are capable of the 
+noise filtering. 
+An ECG can give us the electrical activity of the heart (a heart rhythm) in daily life. 
+It is a simple but useful clinic tool to monitor and diagnose cardiovascular diseases such 
+as arrhythmia, angina, and myocardial infarction from abnormal cardiac signals [91,92]. 
+The ECG signal is analyzed by a distinct graph shape from the pulsing of the heart on the 
+surface of the skin, mainly the left chest. Commonly, its distinct peaks are called P, Q, R, 
+S, and T peaks [93]. In the heart, autorhythmic cells lead the heartbeat as the pacemaker. 
+In the ECG signal, the P peak is correlated on atrial depolarization of the cardiac cellular 
+
+Appl. Sci. 2021, 11, 6562  9  of  14 
+ 
+ 
+membrane by the inflow of sodium ions caused by the sinus node. Next, the QRS complex 
+peaks mean the activation of the ventricles and widely spread electrical signals. Finally, 
+the T peak occurs after the repolarization of the cardiac cellular membrane by the outflow 
+of calcium and potassium ions. Depolarization is often maintained over two hundred mil‐
+liseconds [94]. During the ECG measurements, we monitored five distinct peaks, reveal‐
+ing that cardiac activation of the volunteers clearly appeared in our electrode (Figure 6e). 
+The  sensing  signal  scale  was  comparable  with  the  other  dry  ECG  electrodes  that  were 
+previously reported [95–97]. However, it showed only a basic characterization of the five 
+peaks and needed to improve the performance for more precise cardiac diagnosis appli‐
+cations. 
+ 
+Figure  6. (a)  Electrophysiology  measurement  setup.  (b)  Electrode  positioning  for  EMG measure‐
+ments. (c) EMG signals acquired from the forearm skin when the volunteer performed two hand 
+gestures  (grasping  and  releasing).  (d)  Electrode  positioning  for  the  ECG  measurements.  (e)  ECG 
+signals acquired from the volunteer’s body. Several alphabetic captions expressed the cardiac signal 
+state (PQRST peaks). 
+4. Conclusions 
+We fabricated soft bio‐integrated multifunctional devices that can be attached to hu‐
+man skin to monitor and diagnose the health of a subject. Au–SEBS electrodes with vary‐
+ing thicknesses of the Au nanomembrane were prepared using the conventional evapora‐
+tion  process  to  investigate  the  effect  of  the  thickness  on  the  electrical  properties  of  the 
+sensor, such as the initial sheet resistance and electrical breakdown at the design stage. 
+Furthermore, the morphological and mechanical analyses showed that the proposed sen‐
+sors exhibited a stable low resistance under a strain based on the intrinsically stretchable 
+conducting  Au  nanomembranes.  After  investigation,  the  selected  Au–SEBS  electrodes 
+were used  as  strain sensors,  electrochemical  sensors, temperature  sensors,  heaters,  and 
+electrophysiological sensors (EMG and ECG). 
+The proposed Au–SEBS electrode‐based sensors exhibited comparable performances 
+to the previously reported wearable sensor devices and can be potential candidates for 
+applications in wearable biomedical devices. If combined with signal processing systems, 
+we expect that our Au–SEBS electrode can be widely applicable in the healthcare industry, 
+such as when using the Internet of Things technology and deep neural networks in devel‐
+oping personal healthcare and diagnosis systems in the future. 
+Supplementary  Materials:  The  following  are  available  online  at  www.mdpi.com/arti‐
+cle/10.3390/app11146562/s1: Figure S1: Scanning electron microscope images of Au–SEBS electrodes 
+with  designated  thickness.  Figure  S2.  (a)  Simple  working  principal  diagram  of  the  proposed  Au 
+nanomembrane strain sensor. (b) Diagram of the Au nanomembrane strain sensor without a crack. 
+(c) Diagram of the Au nanomembrane strain sensor elongated ~100%. (d) Diagram of the Au nano‐
+membrane strain sensor elongated below the fracture strain. (e) Diagram of the Au nanomembrane 
+
+
+Appl. Sci. 2021, 11, 6562  10  of  14 
+ 
+ 
+strain sensor elongated above the fracture strain. Figure S3. Optical images of the Au nanomem‐
+brane of a 50‐nm Au thickness when stretched 300% at the motorized X‐translation stage. 
+Author  Contributions:  S.L.  designed  and  fabricated  the  stretchable  polymer/Au  nanomembrane 
+sensor. K.K. performed the quantitative and qualitative experiments. Methodology, H.C. and J.Y.; 
+validation, Y.K.; formal analysis, S.A; investigation, H.J.; resources, D.S.; data curation, K.P.; super‐
+vision,  H.W.B.  and  D.S.;  and  project  administration,  H.W.B.  and  D.S.  All  authors  have  read  and 
+agreed to the published version of the manuscript. 
+Funding:  This  research  was  funded  by  the  National  Research  Foundation  of  Korea  (NRF)  grant 
+funded by the Korean government (MSIT) (No. 2020R1C1C1005567) and the Institute of Information 
+& Communications Technology Planning & Evaluation (IITP) grant funded by the Korean govern‐
+ment (MSIT) (No. S‐2020‐1443‐000). This research was also supported by a ICT Creative Consilience 
+program (IITP‐2020‐0‐01821) supervised by the IITP (Institute for Information & Communications 
+Technology  Planning  &  Evaluation),  a  SMC‐SKKU  Future  Convergence Research  Program  grant 
+and a Korea Medical Device Development Fund grant funded by the Korean government (the Min‐
+istry of Science and ICT, the Ministry of Trade, Industry and Energy, the Ministry of Health & Wel‐
+fare, and the Ministry of Food and Drug Safety) (Project No: 202012D28). 
+Institutional Review Board Statement: Not applicable. 
+Informed Consent Statement: Not applicable. 
+Data Availability Statement: The data presented in this study is available in this article. 
+Conflicts of Interest: The authors declare no conflicts of interest. The funders played no role in the 
+design of this study; in the collection, analyses, and interpretation of the data, in the writing of the 
+manuscript; or the decision to publish the results. 
+References 
+1. Amjadi, M.; Kyung, K.U.; Park, I.; Sitti, M. Stretchable, Skin‐Mountable, and Wearable Strain Sensors and Their Potential Ap‐
+plications: A Review. Adv. Funct. Mater. 2016, 26, 1678–1698, doi:10.1002/adfm.201504755. 
+2. Yeo,  J.C.;  Lim,  C.T.  Emerging  flexible  and  wearable  physical  sensing  platforms  for  healthcare  and  biomedical  applications. 
+Microsyst. Nanoeng. 2016, 2, 1–19, doi:10.1038/micronano.2016.43. 
+3. Lou, Z.; Wang, L.; Jiang, K.; Wei, Z.; Shen, G. Reviews of wearable healthcare systems: Materials, devices and system integration. 
+Mater. Sci. Eng. R Reports 2020, 140, 100523, doi:10.1016/j.mser.2019.100523. 
+4. Koydemir, H.C.; Ozcan, A. Wearable and Implantable Sensors for Biomedical Applications. Annu. Rev. Anal. Chem. 2018, 11, 
+127–146, doi:10.1146/annurev‐anchem‐061417‐125956. 
+5. Ha, M.; Lim, S.; Ko, H. Wearable and flexible sensors for user‐interactive health‐monitoring devices. J. Mater. Chem. B 2018, 6, 
+4043–4064, doi:10.1039/c8tb01063c. 
+6. Xiang,  L.;  Zeng,  X.;  Xia,  F.;  Jin,  W.;  Liu,  Y.;  Hu,  Y.  Recent  Advances  in  Flexible  and  Stretchable  Sensing  Systems:  From  the 
+Perspective of System Integration. ACS Nano 2020, 14, 6449–6469, doi:10.1021/acsnano.0c01164. 
+7. Huang, S.; Liu, Y.; Zhao, Y.; Ren, Z.; Guo, C.F. Flexible Electronics: Stretchable Electrodes and Their Future. Adv. Funct. Mater. 
+2019, 29, 1805924, doi:10.1002/adfm.201805924. 
+8. Wang, Y.; Li, X.; Hou, Y.; Yin, C.; Yin, Z. A review on structures, materials and applications of stretchable electrodes. Front. 
+Mater. Sci. 2021, 15, 54–78, doi:10.1007/s11706‐021‐0537‐9. 
+9. Park, M.; Park, J.; Jeong, U. Design of conductive composite elastomers for stretchable electronics. Nano Today 2014, 9, 244–260, 
+doi:10.1016/j.nantod.2014.04.009. 
+10. Yao, S.; Zhu, Y. Nanomaterial‐enabled stretchable conductors: Strategies, materials and devices. Adv. Mater. 2015, 27, 1480–1511, 
+doi:10.1002/adma.201404446. 
+11. Trung, T.Q.; Lee, N.E. Recent Progress on Stretchable Electronic Devices with Intrinsically Stretchable Components. Adv. Mater. 
+2017, 29, doi:10.1002/adma.201603167. 
+12. Kim, Y.; Kweon, O.Y.; Won, Y.; Oh, J.H. Deformable and Stretchable Electrodes for Soft Electronic Devices. Macromol. Res. 2019, 
+27, 625–639, doi:10.1007/s13233‐019‐7175‐4. 
+13. Sun,  Y.;  Choi,  W.M.;  Jiang,  H.;  Huang,  Y.Y.;  Rogers,  J.A.  Controlled  buckling  of  semiconductor  nanoribbons  for  stretchable 
+electronics. Nat. Nanotechnol. 2006, 1, 201–207, doi:10.1038/nnano.2006.131. 
+14. Kim, D.H.; Song, J.; Won, M.C.; Kim, H.S.; Kim, R.H.; Liu, Z.; Huang, Y.Y.; Hwang, K.C.; Zhang, Y.W.; Rogers, J.A. Materials 
+and noncoplanar mesh designs for integrated circuits with linear elastic responses to extreme mechanical deformations. Proc. 
+Natl. Acad. Sci. USA 2008, 105, 18675–18680, doi:10.1073/pnas.0807476105. 
+15. Kim, D.H.; Xiao, J.; Song, J.; Huang, Y.; Rogers, J.A. Stretchable, curvilinear electronics based on inorganic materials. Adv. Mater. 
+2010, 22, 2108–2124, doi:10.1002/adma.200902927. 
+
+Appl. Sci. 2021, 11, 6562  11  of  14 
+ 
+ 
+16. Kim, D.‐H.; Lu, N.; Ma, R.; Kim, Y.‐S.; Kim, R.‐H.; Wang, S.; Wu, J.; Won, S.M.; Tao, H.; Islam, A.; et al. Epidermal Electronics. 
+Science 2011, 333, 838–843, doi:10.1126/science.1206157. 
+17. Son, D.; Lee, J.; Qiao, S.; Ghaffari, R.; Kim, J.; Lee, J.E.; Song, C.; Kim, S.J.; Lee, D.J.; Jun, S.W.; et al. Multifunctional wearable 
+devices for diagnosis and therapy of movement disorders. Nat. Nanotechnol. 2014, 9, 397–404, doi:10.1038/nnano.2014.38. 
+18. Fan, J.A.; Yeo, W.H.; Su, Y.; Hattori, Y.; Lee, W.; Jung, S.Y.; Zhang, Y.; Liu, Z.; Cheng, H.; Falgout, L.; et al. Fractal design concepts 
+for stretchable electronics. Nat. Commun. 2014, 5, 1–8, doi:10.1038/ncomms4266. 
+19. Oh, J.Y.; Rondeau‐Gagné, S.; Chiu, Y.C.; Chortos, A.; Lissel, F.; Wang, G.J.N.; Schroeder, B.C.; Kurosawa, T.; Lopez, J.; Katsu‐
+mata, T.; et al. Intrinsically stretchable and healable semiconducting polymer for organic transistors. Nature 2016, 539, 411–415, 
+doi:10.1038/nature20102. 
+20. Xu, J.; Wang, S.; Wang, G.J.N.; Zhu, C.; Luo, S.; Jin, L.; Gu, X.; Chen, S.; Feig, V.R.; To, J.W.F.; et al. Highly stretchable polymer 
+semiconductor films through the nanoconfinement effect. Science 2017, 355, 59–64, doi:10.1126/science.aah4496. 
+21. Oh, J.Y.; Son, D.; Katsumata, T.; Lee, Y.; Kim, Y.; Lopez, J.; Wu, H.C.; Kang, J.; Park, J.; Gu, X.; et al. Stretchable self‐healable 
+semiconducting polymer film for active‐matrix strain‐sensing array. Sci. Adv. 2019, 5, doi:10.1126/sciadv.aav3097. 
+22. Sim, K.; Rao, Z.; Kim, H.J.; Thukral, A.; Shim, H.; Yu, C. Fully rubbery integrated electronics from high effective mobility intrin‐
+sically stretchable semiconductors. Sci. Adv. 2019, 5, eaav5749, doi:10.1126/sciadv.aav5749. 
+23. Tien, H.C.; Huang, Y.W.; Chiu, Y.C.; Cheng, Y.H.; Chueh, C.C.; Lee, W.Y. Intrinsically stretchable polymer semiconductors: 
+Molecular design, processing and device applications. J. Mater. Chem. C 2021, 9, 2660–2684, doi:10.1039/d0tc06059c. 
+24. Matsuhisa, N.; Inoue, D.; Zalar, P.; Jin, H.; Matsuba, Y.; Itoh, A.; Yokota, T.; Hashizume, D.; Someya, T. Printable elastic con‐
+ductors by in situ formation of silver nanoparticles from silver flakes. Nat. Mater. 2017, 16, 834–840, doi:10.1038/nmat4904. 
+25. Wang, Y.; Zhu, C.; Pfattner, R.; Yan, H.; Jin, L.; Chen, S.; Molina‐Lopez, F.; Lissel, F.; Liu, J.; Rabiah, N.I.; et al. A highly stretch‐
+able, transparent, and conductive polymer. Sci. Adv. 2017, 3, e1602076, doi:10.1126/sciadv.1602076. 
+26. Kim, S.H.; Seo, H.; Kang, J.; Hong, J.; Seong, D.; Kim, H.J.; Kim, J.; Mun, J.; Youn, I.; Kim, J.; et al. An Ultrastretchable and Self‐
+Healable Nanocomposite Conductor Enabled by Autonomously Percolative Electrical Pathways. ACS Nano 2019, 13, 6531–6539, 
+doi:10.1021/acsnano.9b00160. 
+27. Lynch, P.J.; Ogilvie, S.P.; Large, M.J.; Graf, A.A.; O’Mara, M.A.; Taylor, J.; Salvage, J.P.; Dalton, A.B. Graphene‐based printable 
+conductors for cyclable strain sensors on elastomeric substrates. Carbon 2020, 169, 25–31, doi:10.1016/j.carbon.2020.06.078. 
+28. Seyedin, S.; Uzun, S.; Levitt, A.; Anasori, B.; Dion, G.; Gogotsi, Y.; Razal, J.M. MXene Composite and Coaxial Fibers with High 
+Stretchability and Conductivity for Wearable Strain Sensing Textiles. Adv. Funct. Mater. 2020, 30, doi:10.1002/adfm.201910504. 
+29. Garcia, J.R.; O’Suilleabhain, D.; Kaur, H.; Coleman, J.N. A Simple Model Relating Gauge Factor to Filler Loading in Nanocom‐
+posite Strain Sensors. ACS Appl. Nano Mater. 2021, 4, 2876–2886, doi:10.1021/acsanm.1c00040. 
+30. Jaymand, M. Recent progress in chemical modification of polyaniline. Prog. Polym. Sci. 2013, 38, 1287–1306, doi:10.1016/j.prog‐
+polymsci.2013.05.015. 
+31. Gueye, M.N.; Carella, A.; Faure‐Vincent, J.; Demadrille, R.; Simonato, J.P. Progress in understanding structure and transport 
+properties of PEDOT‐based materials: A critical review. Prog. Mater. Sci. 2020, 108, 100616, doi:10.1016/j.pmatsci.2019.100616. 
+32. Pang, A.L.; Arsad, A.; Ahmadipour, M. Synthesis and factor affecting on the conductivity of polypyrrole: A short review. Polym. 
+Adv. Technol. 2021, 32, 1428–1454, doi:10.1002/pat.5201. 
+33. Lacour,  S.P.;  Chan,  D.;  Wagner,  S.; Li,  T.;  Suo,  Z.  Mechanisms  of reversible  stretchability  of thin metal films  on elastomeric 
+substrates. Appl. Phys. Lett. 2006, 88, 204103, doi:10.1063/1.2201874. 
+34. Graudejus, O.; Görrn, P.; Wagner, S. Controlling the morphology of gold films on poly(dimethylsiloxane). ACS Appl. Mater. 
+Interfaces 2010, 2, 1927–1933, doi:10.1021/am1002537. 
+35. Koshi, T.; Iwase, E. Crack‐configuration analysis of metal conductive track embedded in stretchable elastomer. Micromachines 
+2018, 9, 130, doi:10.3390/mi9030130. 
+36. Liu, Z.; Wang, X.; Qi, D.; Xu, C.; Yu, J.; Liu, Y.; Jiang, Y.; Liedberg, B.; Chen, X. High‐Adhesion Stretchable Electrodes Based on 
+Nanopile Interlocking. Adv. Mater. 2017, 29, 1603382, doi:10.1002/adma.201603382. 
+37. Yan, X.; Liu, Z.; Zhang, Q.; Lopez, J.; Wang, H.; Wu, H.C.; Niu, S.; Yan, H.; Wang, S.; Lei, T.; et al. Quadruple H‐Bonding cross‐
+linked supramolecular polymeric materials as substrates for stretchable, antitearing, and self‐healable thin film electrodes. J. 
+Am. Chem. Soc. 2018, 140, 5280–5289, doi:10.1021/jacs.8b01682. 
+38. Song, K., II; Seo, H.; Seong, D.; Kim, S.; Yu, K.J.; Kim, Y.C.; Kim, J.; Kwon, S.J.; Han, H.S.; Youn, I.; et al. Adaptive self‐healing 
+electronic epineurium for chronic bidirectional neural interfaces. Nat. Commun. 2020, 11, doi:10.1038/s41467‐020‐18025‐3. 
+39. Reddy, N.P.; Gupta, V. Toward direct biocontrol using surface EMG signals: Control of finger and wrist joint models. Med. Eng. 
+Phys. 2007, 29, 398–403, doi:10.1016/j.medengphy.2005.10.016. 
+40. Mohideen,  A.J.H.;  Sidek,  S.N.  Development of  EMG  circuit  to study  the relationship  between  flexor  digitorum  superficialis 
+muscle activity and hand grip strength. In Proceedings of the 2011 4th International Conference on Mechatronics (ICOM), Kuala 
+Lumpur, Malaysia, 17–19 May 2011; pp. 17–19, doi:10.1109/ICOM.2011.5937200. 
+41. Gargiulo, G.D.; Bifulco, P.; Cesarelli, M.; McEwan, A.L.; Moeinzadeh, H.; O’loughlin, A.; Shugman, I.M.; Tapson, J.C.; Thiagal‐
+ingam,  A.  On  the  einthoven  triangle:  A  critical  analysis  of  the  single  rotating  dipole  hypothesis.  Sensors  2018,  18,  2353, 
+doi:10.3390/s18072353. 
+42. Kolanowska, A.; Herman, A.P.; Jȩdrysiak, R.G.; Boncel, S. Carbon nanotube materials for electrocardiography. RSC Adv. 2021, 
+11, 3020–3042, doi:10.1039/d0ra08679g. 
+
+Appl. Sci. 2021, 11, 6562  12  of  14 
+ 
+ 
+43. Song, Z.; Li, W.; Bao, Y.; Han, F.; Gao, L.; Xu, J.; Ma, Y.; Han, D.; Niu, L. Breathable and Skin‐Mountable Strain Sensor with 
+Tunable  Stretchability,  Sensitivity,  and Linearity  via  Surface  Strain  Delocalization  for  Versatile Skin  Activities’  Recognition. 
+ACS Appl. Mater. Interfaces 2018, 10, 42826–42836, doi:10.1021/acsami.8b14365. 
+44. Kang, D.; Pikhitsa, P.V.; Choi, Y.W.; Lee, C.; Shin, S.S.; Piao, L.; Park, B.; Suh, K.Y.; Kim, T.I.; Choi, M. Ultrasensitive mechanical 
+crack‐based sensor inspired by the spider sensory system. Nature 2014, 516, 222–226, doi:10.1038/nature14002. 
+45. Yang, T.; Li, X.; Jiang, X.; Lin, S.; Lao, J.; Shi, J.; Zhen, Z.; Li, Z.; Zhu, H. Structural engineering of gold thin films with channel 
+cracks for ultrasensitive strain sensing. Mater. Horiz. 2016, 3, 248–255, doi:10.1039/c6mh00027d. 
+46. Kim, J.; Park, S.J.; Nguyen, T.; Chu, M.; Pegan, J.D.; Khine, M. Highly stretchable wrinkled gold thin film wires. Appl. Phys. Lett. 
+2016, 108, doi:10.1063/1.4941439. 
+47. Lee, P.; Lee, J.; Lee, H.; Yeo, J.; Hong, S.; Nam, K.H.; Lee, D.; Lee, S.S.; Ko, S.H. Highly stretchable and highly conductive metal 
+electrode by very long metal nanowire percolation network. Adv. Mater. 2012, 24, 3326–3332, doi:10.1002/adma.201200359. 
+48. Liu, D.; Perdue, R.K.; Sun, L.; Crooks, R.M. Immobilization of DNA onto poly(dimethylsiloxane) surfaces and application to a 
+microelectrochemical enzyme‐amplified DNA hybridization assay. Langmuir 2004, 20, 5905–5910, doi:10.1021/la049605p. 
+49. Nebling,  E.;  Grunwald,  T.;  Albers,  J.;  Schäfer,  P.;  Hintsche,  R.  Electrical  Detection  of  Viral  DNA  Using  Ultramicroelectrode 
+Arrays. Anal. Chem. 2004, 76, 689–696, doi:10.1021/ac0348773. 
+50. Varshney, M.; Li, Y. Interdigitated array microelectrodes based impedance biosensors for detection of bacterial cells. Biosens. 
+Bioelectron. 2009, 24, 2951–2960, doi:10.1016/j.bios.2008.10.001. 
+51. Colin, S.; Krier, G.; Jolibois, H.; Hachimi, A.; Muller, J.F.; Chambaudet, A. Characterization of the corrosion layer of copper‐
+nickel  alloys  in  a  synthetic  sweat  medium  by  FTMS  and  LAMMA  laser  microprobes.  Appl.  Surf.  Sci.  1998,  125,  29–45, 
+doi:10.1016/S0169‐4332(97)00400‐5. 
+52. Ferreira, S.C.; Ariza, E.; Rocha, L.A.; Gomes, J.R.; Carvalho, P.; Vaz, F.; Fernandes, A.C.; Rebouta, L.; Cunha, L.; Alves, E.; et al. 
+Tribocorrosion  behaviour  of  ZrOxNy  thin  films  for  decorative  applications.  Surf.  Coatings  Technol.  2006,  200,  6634–6639, 
+doi:10.1016/j.surfcoat.2005.11.083. 
+53. Kandala, C.V.K.; Butts, C.L. Design and performance of a capacitor sensor and impedance analyzer for nondestructive moisture 
+content determination. Sens. Instrum. Food Qual. Saf. 2008, 2, 240–246, doi:10.1007/s11694‐008‐9050‐4. 
+54. Blume, S.O.P.; Ben‐Mrad, R.; Sullivan, P.E. Modelling the capacitance of multi‐layer conductor‐facing interdigitated electrode 
+structures. Sens. Actuators B Chem. 2015, 213, 423–433, doi:10.1016/j.snb.2015.02.088. 
+55. Sathya,  S.;  Muruganand,  S.;  Manikandan,  N.;  Karuppasamy,  K.  Design  of  capacitance  based  on  interdigitated  electrode  for 
+BioMEMS sensor application. Mater. Sci. Semicond. Process. 2019, 101, 206–213, doi:10.1016/j.mssp.2019.06.005. 
+56. Li, Q.; Zhang, L.N.; Tao, X.M.; Ding, X. Review of Flexible Temperature Sensing Networks for Wearable Physiological Moni‐
+toring. Adv. Healthc. Mater. 2017, 6, 1601371, doi:10.1002/adhm.201601371. 
+57. Liu, Y.; Pharr, M.; Salvatore, G.A. Lab‐on‐Skin: A Review of Flexible and Stretchable Electronics for Wearable Health Monitor‐
+ing. ACS Nano 2017, 11, 9614–9635, doi:10.1021/acsnano.7b04898. 
+58. Cui, Z.; Poblete, F.R.; Zhu, Y. Tailoring the Temperature Coefficient of Resistance of Silver Nanowire Nanocomposites and their 
+Application as Stretchable Temperature Sensors. ACS Appl. Mater. Interfaces 2019, 11, 17836–17842, doi:10.1021/acsami.9b04045. 
+59. Yang, Y.; Deng, Z.D. Stretchable sensors for environmental monitoring. Appl. Phys. Rev. 2019, 6, doi:10.1063/1.5085013. 
+60. Amjadi, M.; Yoon, Y.J.; Park, I. Ultra‐stretchable and skin‐mountable strain sensors using carbon nanotubes‐Ecoflex nanocom‐
+posites. Nanotechnology 2015, 26, doi:10.1088/0957‐4484/26/37/375501. 
+61. Zhang, C.; Zhang, Q.; Zhang, D.; Wang, M.; Bo, Y.; Fan, X.; Li, F.; Liang, J.; Huang, Y.; Ma, R.; et al. Highly Stretchable Carbon 
+Nanotubes/Polymer Thermoelectric Fibers. Nano Lett. 2021, 21, 1047–1055, doi:10.1021/acs.nanolett.0c04252. 
+62. Wang, Z.; Gao, W.; Zhang, Q.; Zheng, K.; Xu, J.; Xu, W.; Shang, E.; Jiang, J.; Zhang, J.; Liu, Y. 3D‐Printed Graphene/Polydime‐
+thylsiloxane Composites for Stretchable and Strain‐Insensitive Temperature Sensors. ACS Appl. Mater. Interfaces 2019, 11, 1344–
+1352, doi:10.1021/acsami.8b16139. 
+63. Zhang, F.; Hu, H.; Islam, M.; Peng, S.; Wu, S.; Lim, S.; Zhou, Y.; Wang, C.H. Multi‐modal strain and temperature sensor by 
+hybridizing  reduced  graphene  oxide  and  PEDOT:PSS.  Compos.  Sci.  Technol.  2020,  187,  107959,  doi:10.1016/j.comp‐
+scitech.2019.107959. 
+64. Hong, S.Y.; Lee, Y.H.; Park, H.; Jin, S.W.; Jeong, Y.R.; Yun, J.; You, I.; Zi, G.; Ha, J.S. Stretchable Active Matrix Temperature 
+Sensor Array of Polyaniline Nanofibers for Electronic Skin. Adv. Mater. 2016, 28, 930–935, doi:10.1002/adma.201504659. 
+65. Li, F.; Liu, Y.; Shi, X.; Li, H.; Wang, C.; Zhang, Q.; Ma, R.; Liang, J. Printable and Stretchable Temperature‐Strain Dual‐Sensing 
+Nanocomposite  with  High  Sensitivity  and  Perfect  Stimulus  Discriminability.  Nano  Lett.  2020,  20,  6176–6184, 
+doi:10.1021/acs.nanolett.0c02519. 
+66. Youn,  D.Y.;  Jung,  U.;  Naqi,  M.;  Choi,  S.J.;  Lee,  M.G.;  Lee,  S.;  Park,  H.J.;  Kim,  I.D.;  Kim,  S.  Wireless  Real‐Time  Temperature 
+Monitoring of Blood Packages: Silver Nanowire‐Embedded Flexible Temperature Sensors. ACS Appl. Mater. Interfaces 2018, 10, 
+44678–44685, doi:10.1021/acsami.8b11928. 
+67. Han, S.; Kim, M.K.; Wang, B.; Wie, D.S.; Wang, S.; Lee, C.H. Mechanically Reinforced Skin‐Electronics with Networked Nano‐
+composite Elastomer. Adv. Mater. 2016, 28, 10257–10265, doi:10.1002/adma.201603878. 
+68. Brosseau, L.; Yonge, K.; Robinson, V.; Marchand, S.; Judd, M.; Wells, G.; Tugwell, P. Thermotherapy for treatment of osteo‐
+arthritis. Physiotherapy 2003, 89, 694–695, doi:10.1016/s0031‐9406(05)60490‐7. 
+
+Appl. Sci. 2021, 11, 6562  13  of  14 
+ 
+ 
+69. Choi, S.; Park, J.; Hyun, W.; Kim, J.; Kim, J.; Lee, Y.B.; Song, C.; Hwang, H.J.; Kim, J.H.; Hyeon, T.; et al. Stretchable Heater Using 
+Ligand‐Exchanged  Silver  Nanowire  Nanocomposite  for  Wearable  Articular  Thermotherapy.  ACS  Nano  2015,  9,  6626–6633, 
+doi:10.1021/acsnano.5b02790. 
+70. An, B.W.; Gwak, E.J.; Kim, K.; Kim, Y.C.; Jang, J.; Kim, J.Y.; Park, J.U. Stretchable, Transparent Electrodes as Wearable Heaters 
+Using Nanotrough Networks of Metallic Glasses with Superior Mechanical Properties and Thermal Stability. Nano Lett. 2016, 
+16, 471–478, doi:10.1021/acs.nanolett.5b04134. 
+71. Huang, Q.; Al‐Milaji, K.N.; Zhao, H. Inkjet Printing of Silver Nanowires for Stretchable Heaters. ACS Appl. Nano Mater. 2018, 1, 
+4528–4536, doi:10.1021/acsanm.8b00830. 
+72. Wang, J.; Zhang, K.; Wang, J.; Zhang, M.; Zhou, Y.; Cheng, J.; Kong, D. Strain‐invariant conductance in an elastomeric nano‐
+composite mesh conductor for stretchable electronics. J. Mater. Chem. C 2020, 8, 9440–9448, doi:10.1039/d0tc01901a. 
+73. Guo, Z.; Sun, C.; Zhao, J.; Cai, Z.; Ge, F. Low‐Voltage Electrical Heater Based on One‐Step Fabrication of Conductive Cu Nan‐
+owire Networks for Application in Wearable Devices. Adv. Mater. Interfaces 2021, 8, 2001695, doi:10.1002/admi.202001695. 
+74. Zhou, J.; Mulle, M.; Zhang, Y.; Xu, X.; Li, E.Q.; Han, F.; Thoroddsen, S.T.; Lubineau, G. High‐ampacity conductive polymer 
+microfibers  as  fast  response  wearable  heaters  and  electromechanical  actuators.  J.  Mater.  Chem.  C  2016,  4,  1238–1249, 
+doi:10.1039/c5tc03380b. 
+75. Zhou, R.; Li, P.; Fan, Z.; Du, D.; Ouyang, J. Stretchable heaters with composites of an intrinsically conductive polymer, reduced 
+graphene oxide and an elastomer for wearable thermotherapy. J. Mater. Chem. C 2017, 5, 1544–1551, doi:10.1039/c6tc04849h. 
+76. Yoon,  Y.H.;  Song,  J.W.;  Kim,  D.;  Kim,  J.;  Park,  J.K.;  Oh,  S.K.;  Han,  C.S.  Transparent  film  heater  using  single‐walled  carbon 
+nanotubes. Adv. Mater. 2007, 19, 4284–4287, doi:10.1002/adma.200701173. 
+77. Li,  Y.Q.;  Zhu,  W.B.;  Yu,  X.G.;  Huang,  P.;  Fu,  S.Y.;  Hu,  N.;  Liao,  K.  Multifunctional  Wearable  Device  Based  on  Flexible  and 
+Conductive  Carbon  Sponge/Polydimethylsiloxane  Composite.  ACS  Appl.  Mater.  Interfaces  2016,  8,  33189–33196, 
+doi:10.1021/acsami.6b11196. 
+78. Kim, Y.; Lee, H.R.; Saito, T.; Nishi, Y. Ultra‐thin and high‐response transparent and flexible heater based on carbon nanotube 
+film. Appl. Phys. Lett. 2017, 110, 153301, doi:10.1063/1.4978596. 
+79. Sun, W.J.; Xu, L.; Jia, L.C.; Zhou, C.G.; Xiang, Y.; Yin, R.H.; Yan, D.X.; Tang, J.H.; Li, Z.M. Highly conductive and stretchable 
+carbon  nanotube/thermoplastic  polyurethane  composite  for  wearable  heater.  Compos.  Sci.  Technol.  2019,  181,  107695, 
+doi:10.1016/j.compscitech.2019.107695. 
+80. Choi, S.; Lee, H.; Ghaffari, R.; Hyeon, T.; Kim, D.H. Recent Advances in Flexible and Stretchable Bio‐Electronic Devices Inte‐
+grated with Nanomaterials. Adv. Mater. 2016, 28, 4203–4218, doi:10.1002/adma.201504150. 
+81. Zheng, K.; Chen, S.; Zhu, L.; Zhao, J.; Guo, X. Large Area Solution Processed Poly (Dimethylsiloxane)‐Based Thin Film Sensor 
+Patch for Wearable Electrocardiogram Detection. IEEE Electron Device Lett. 2018, 39, 424–427, doi:10.1109/LED.2018.2792022. 
+82. Kisannagar, R.R.; Jha, P.; Navalkar, A.; Maji, S.K.; Gupta, D. Fabrication of Silver Nanowire/Polydimethylsiloxane Dry Elec‐
+trodes  by  a  Vacuum  Filtration  Method  for  Electrophysiological  Signal  Monitoring.  ACS  Omega  2020,  5,  10260–10265, 
+doi:10.1021/acsomega.9b03678. 
+83. Peng, H.L.; Liu, J.Q.; Dong, Y.Z.; Yang, B.; Chen, X.; Yang, C.S. Parylene‐based flexible dry electrode for bioptential recording. 
+Sens. Actuators B Chem. 2016, 231, 1–11, doi:10.1016/j.snb.2016.02.061. 
+84. Portelli, A.J.; Nasuto, S.J. Design and development of non‐contact bio‐potential electrodes for pervasive health monitoring ap‐
+plications. Biosensors 2017, 7, 2, doi:10.3390/bios7010002. 
+85. Zahed, M.A.; Das, P.S.; Maharjan, P.; Barman, S.C.; Sharifuzzaman, M.; Yoon, S.H.; Park, J. yeong Flexible and robust dry elec‐
+trodes based on electroconductive polymer spray‐coated 3D porous graphene for long‐term electrocardiogram signal monitor‐
+ing system. Carbon 2020, 165, 26–36, doi:10.1016/j.carbon.2020.04.031. 
+86. Barbado, D.; Elvira, J.L.L. Medicina del Deporte. Rev. Andaluza Med. Deport. 2015, 8, 79–85. 
+87. Zeng, X.; Dong, Y.; Wang, X. Flexible electrode by hydrographic printing for surface electromyography monitoring. Materials 
+2020, 13, 2339, doi:10.3390/ma13102339. 
+88. Roland, T.; Wimberger, K.; Amsuess, S.; Russold, M.F.; Baumgartner, W. An Insulated Flexible Sensor for Stable Electromyog‐
+raphy Detection: Application to Prosthesis Control. Sensors 2019, 19, 961, doi:10.3390/s19040961. 
+89. Wang, K.; Parekh, U.; Pailla, T.; Garudadri, H.; Gilja, V.; Ng, T.N. Stretchable Dry Electrodes with Concentric Ring Geometry 
+for Enhancing Spatial Resolution in Electrophysiology. Adv. Healthc. Mater. 2017, 6, 1700552, doi:10.1002/adhm.201700552. 
+90. Hu, Y.; Wang, H.; Sheikhnejad, O.; Xiong, Y.; Gu, H.; Zhu, P.; Li, G.; Sun, R.; Wong, C.P. Stretchable and printable medical dry 
+electrode arrays on textile for electrophysiological monitoring. In Proceedings of the 2019 IEEE 69th Electronic Components 
+and Technology Conference (ECTC), Las Vegas, NV, USA, 28–31 May 2019; pp. 243–248, doi:10.1109/ECTC.2019.00043. 
+91. Koo, J.H.; Jeong, S.; Shim, H.J.; Son, D.; Kim, J.; Kim, D.C.; Choi, S.; Hong, J.I.; Kim, D.H. Wearable Electrocardiogram Monitor 
+Using  Carbon  Nanotube  Electronics  and  Color‐Tunable  Organic  Light‐Emitting  Diodes.  ACS  Nano  2017,  11,  10032–10041, 
+doi:10.1021/acsnano.7b04292. 
+92. Liu, B.; Tang, H.; Luo, Z.; Zhang, W.; Tu, Q.; Jin, X. Wearable carbon nanotubes‐based polymer electrodes for ambulatory elec‐
+trocardiographic measurements. Sens. Actuators A Phys. 2017, 265, 79–85, doi:10.1016/j.sna.2017.08.036. 
+93. Pani, D.; Achilli, A.; Bonfiglio, A. Survey on Textile Electrode Technologies for Electrocardiographic (ECG) Monitoring, from 
+Metal Wires to Polymers. Adv. Mater. Technol. 2018, 3, 1800008, doi:10.1002/admt.201800008. 
+94. Näbauer, M.; Callewaert, G.; Cleemann, L.; Morad, M. Regulation of calcium release is gated by calcium current, not gating 
+charge, in cardiac myocytes. Science 1989, 244, 800–803, doi:10.1126/science.2543067. 
+
+Appl. Sci. 2021, 11, 6562  14  of  14 
+ 
+ 
+95. Myers, A.C.; Huang, H.; Zhu, Y. Wearable silver nanowire dry electrodes for electrophysiological sensing. RSC Adv. 2015, 5, 
+11627–11632, doi:10.1039/c4ra15101a. 
+96. Hwang, S.W.; Lee, C.H.; Cheng, H.; Jeong, J.W.; Kang, S.K.; Kim, J.H.; Shin, J.; Yang, J.; Liu, Z.; Ameer, G.A.; et al. Biodegradable 
+elastomers and silicon nanomembranes/nanoribbons for stretchable, transient electronics, and biosensors. Nano Lett. 2015, 15, 
+2801–2808, doi:10.1021/nl503997m. 
+97. Zhou, W.; Yao, S.; Wang, H.; Du, Q.; Ma, Y.; Zhu, Y. Gas‐Permeable, Ultrathin, Stretchable Epidermal Electronics with Porous 
+Electrodes. ACS Nano 2020, 14, 5798–5805, doi:10.1021/acsnano.0c00906. 

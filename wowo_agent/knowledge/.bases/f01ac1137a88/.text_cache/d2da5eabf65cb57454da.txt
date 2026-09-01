@@ -1,0 +1,615 @@
+Citation: Lee, H.; Jang, J.; Lee, J.;
+Shin, M.; Lee, J.S.; Son, D. Stretchable
+Gold Nanomembrane Electrode with
+Ionic Hydrogel Skin-Adhesive
+Properties. Polymers 2023, 15, 3852.
+https://doi.org/10.3390/
+polym15183852
+Academic Editor: Andrea Pucci
+Received: 29 August 2023
+Revised: 16 September 2023
+Accepted: 20 September 2023
+Published: 21 September 2023
+Copyright: © 2023 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+polymers 
+Article
+Stretchable Gold Nanomembrane Electrode with Ionic Hydrogel
+Skin-Adhesive Properties
+Hyelim Lee 1, Jaepyo Jang 2,3 , Jaebeom Lee 3,4 , Mikyung Shin 3,4,5
+ , Jung Seung Lee 4,5, * and Donghee Son 2,3,6, *
+1 School of Electronic and Electrical Engineering, Sungkyunkwan University, Suwon 16419, Republic of Korea
+2 Department of Electrical and Computer Engineering, Sungkyunkwan University,
+Suwon 16419, Republic of Korea
+3 Center for Neuroscience Imaging Research, Institute for Basic Science (IBS), Suwon 16419, Republic of Korea;
+mikyungshin@g.skku.edu (M.S.)
+4 Department of Intelligent Precision Healthcare Convergence, Sungkyunkwan University,
+Suwon 16419, Republic of Korea
+5 Department of Biomedical Engineering, Sungkyunkwan University, Suwon 16419, Republic of Korea
+6 Department of Superintelligence Engineering, Sungkyunkwan University, Suwon 16419, Republic of Korea
+* Correspondence: jungseunglee@skku.edu (J.S.L.); daniel3600@g.skku.edu (D.S.)
+Abstract: Skin has a dynamic surface and offers essential information through biological signals
+originating from internal organs, blood vessels, and muscles. Soft and stretchable bioelectronics can
+be used in wearable machines for long-term stability and to continuously obtain distinct bio-signals
+in conjunction with repeated expansion and contraction with physical activities. While monitoring
+bio-signals, the electrode and skin must be ﬁrmly attached for high signal quality. Furthermore, the
+signal-to-noise ratio (SNR) should be high enough, and accordingly, the ionic conductivity of an
+adhesive hydrogel needs to be improved. Here, we used a chitosan-alginate-chitosan (CAC) triple
+hydrogel layer as an interface between the electrodes and the skin to enhance ionic conductivity
+and skin adhesiveness and to minimize the mechanical mismatch. For development, thermoplastic
+elastomer Styrene-Ethylene-Butylene-Styrene (SEBS) dissolved in toluene was used as a substrate,
+and gold nanomembranes were thermally evaporated on SEBS. Subsequently, CAC triple layers
+were drop-casted onto the gold surface one by one and dried successively. Lastly, to demonstrate
+the performance of our electrodes, a human electrocardiogram signal was monitored. The electrodes
+coupled with our CAC triple hydrogel layer showed high SNR with clear PQRST peaks.
+Keywords: hydrogels; stretchable electronics; ionic conductivity; electrocardiogram monitoring;
+skin-electrode interface
+1. Introduction
+Monitoring human electrophysiological signals via methods such as electromyogram
+(EMG), electroencephalogram (EEG), and electrocardiogram (ECG) is crucial for the diag-
+nosis and prevention of diseases. In particular, with the increasing mortality rate associated
+with cardiac disorders, the signiﬁcance of real-time ECG monitoring has escalated [1]. Since
+skin has a dynamic surface, commercially used rigid and inﬂexible electrodes cannot make
+full contact with the skin surface and thus result in discomfort [2]. Therefore, in the rapidly
+growing ﬁeld of wearable bioelectronics, soft and stretchable bioelectronics development
+is garnering signiﬁcant interest [3,4]. The primary rationale behind this preference is the
+comfort and convenience offered by soft and ﬂexible devices. These devices are comfort-
+able to wear and stretch and compress along with the skin, ensuring greater stability and
+consistency in their operation when compared to their rigid counterparts. Furthermore, to
+obtain superior signal quality, there is an increasing requirement for skin electronics that
+can be conformally attached to the skin. Electrophysiological signals recorded via these
+electronics experience fewer disruptions by motion artifacts. These devices can effectively
+Polymers 2023, 15, 3852. https://doi.org/10.3390/polym15183852 https://www.mdpi.com/journal/polymers
+
+Polymers 2023, 15, 3852 2 of 13
+monitor human biophysiological signals by ﬂexibly adapting to skin movement, thus
+mitigating motion artifacts and mechanical inconsistencies. In this regard, a variety of
+stretchable electrodes have been developed, but the manufacturing process is complicated
+and costly [5–7]. Therefore, there is a need for novel methods that are uncomplicated and
+can easily fabricate stretchable electrodes.
+Crack-based intrinsically stretchable electrodes have recently been developed by di-
+rectly depositing gold nanomembranes on stretchable elastomer [ 8,9]. However, using
+these electrodes as biological signal monitoring sensors remains a challenge primarily
+because of the weak interconnection between electrodes and skin due to insufﬁcient ad-
+hesion. Although several materials have been developed to enhance adhesiveness, these
+materials are hardly integrated with stretchable electrodes and are incompatible with the
+semiconductor process [10,11]. Alternatively, controlling the thickness of an electrode to
+obtain an ultra-thin (under 100 nm) surface [ 12,13] or fabricating the electrodes into a
+curvy shape [14–17] so that they can conformally adhere to the skin surface and adaptively
+drape along the skin is a helpful strategy. However, these methods rely on structural
+design and are limited owing to the lack of stability and reliability under large deforma-
+tion conditions [18,19]. It is imperative to confer skin-adhesive characteristics to tackle
+these challenges while preserving electrical functionality. The process of enhancing skin
+adhesiveness needs to be further optimized in accordance with these demands. Therefore,
+hydrogels have garnered signiﬁcant interest in the development of interfacial layers since
+they are mechanically similar to human tissues, biocompatible, and ionically conductive in
+high water content [20].
+Hydrogels have a crosslinked three-dimensional polymeric structure that can absorb a
+large amount of water with low elastic modulus [21–23]. They have been widely used in
+engineering devices as an interface between electronics and tissue or as a composite with
+various conducting materials [24–27]. In this case, utilizing hydrogels can be a solution to
+overcome poor contact and low adhesiveness of existing soft electronics. Alginate is an an-
+ionic polysaccharide polymer obtained naturally from brown algae. It shows an abundance
+of free hydroxyl and carboxyl groups in the polymer backbone chain [ 28]. Alginate has
+been widely used for hydrogel fabrication due to its biocompatible, extracellular matrix-like
+properties. However, alginate itself has poor mechanical strength [ 29]. Furthermore, a
+repulsive force is generated between the alginate hydrogel and the skin since the surfaces
+of all tissues, including the outermost layer of the skin and the alginate, are both negatively
+charged [30,31]. To address these problems, chitosan is used as an intermediate layer be-
+tween the skin and the alginate. Chitosan is a cationic polysaccharide polymer with plenty
+of amine groups. Its hydrogel has also been widely used in soft bioelectronics along with
+alginate [32]. It is biocompatible, biodegradable, and has low toxicity [33]. Since chitosan is
+positively charged with many amine groups, chitosan hydrogel can conformally attach to
+the skin and can ameliorate the inadequate mechanical attributes of alginate hydrogels. In
+addition to the aforementioned advantages of hydrogels, the high water absorption and
+porous structure of hydrogels lead to optimal electrical properties since they can exchange
+ions with the tissues. This allows electronics to record biological signals more precisely.
+Herein, we report soft wearable bioelectronics for ECG monitoring based on stretchable
+triblock copolymer Styrene-Ethylene-Butylene-Styrene (SEBS) and gold nanomembranes
+with a chitosan-alginate-chitosan (CAC) triple hydrogel layer. SEBS dissolved in toluene
+was drop-casted on cleaned 3.5 cm × 3.5 cm glass and evaporated at room temperature.
+Thereafter, gold particles were thermally evaporated on the SEBS substrate using a metal
+shadow mask. Chitosan and alginate solutions were drop-casted on the SEBS-Au layer-
+by-layer and dried repeatedly to acquire a CAC triple hydrogel layer. The properties of
+the hydrogels were veriﬁed via adhesiveness and stretching experiments. The ﬁndings
+showed improved adhesiveness and mechanical strength associated with the developed
+interfacial layer. Furthermore, a strain-resistance curve was obtained to conﬁrm that our
+hydrogel with a SEBS-Au electrode was electrically stable. A cyclic stretching test was
+conducted to further verify electrical durability, and an electrochemical impedance spec-
+
+Polymers 2023, 15, 3852 3 of 13
+troscopy (EIS) was performed. Results revealed that hydrogels improved ionic conductivity
+(Figure 1a), providing electrical stability under conditions involving large deformation.
+Finally, ECG signals were monitored in humans to observe the performance of SEBS-Au
+with CAC hydrogels. The electrodes were attached in three different positions. The re-
+sults showed a high signal-to-noise ratio (SNR) with clear PQRST peaks. In addition to
+improved performance, our research also showed the compatibility of hydrogel with the
+semiconductor process.
+Figure 1. The overall concept of a CAC hydrogel SEBS-Au electrode: (a) Schematic diagram of the
+ionic interaction between the skin and CAC hydrogel. (b) Chemical structures and interactions of
+the CAC layer. (Red dotted lines refer to electrical interaction that occurs between amine groups
+and carboxylic groups.) (c) Schematics for the fabrication process of CAC triple hydrogel layers on
+SEBS-Au electrode.
+Utilizing these attributes, our CAC hydrogels have the potential to function as less
+complicated yet highly adhesive interfacial layers stacked on the surface of the skin.
+2. Materials and Methods
+2.1. Fabrication of SEBS-Au Electrode
+To fabricate the SEBS-Au electrode, 180 mg of SEBS elastomer (Tuftec™ H1062, Asahi
+Kasei Co., Tokyo, Japan) was dissolved in 1 mL of toluene (Sigma-Aldrich, St. Louis, MO,
+USA) for approximately 6 h. The SEBS solution was degassed under high vacuum pressure
+to remove unwanted bubbles. Then, the SEBS solution was drop-casted onto cleaned
+3.5 cm × 3.5 cm glass using a micropipette, covered with aluminum foil, and evaporated at
+room temperature for 24 h. To create a patterned gold ﬁlm on the SEBS substrate, a metal
+sacriﬁcial mask was employed. The design for this mask was created using computer-aided
+design (AutoCAD 2024) software (Autodesk, San Francisco, CA, USA). Subsequently, the
+metal mask pattern was precision-cut using an optical ﬁber laser marker (Hyosung laser,
+Gyeonggi-do, Republic of Korea). Once the metal sacriﬁcial masks were prepared, they
+were securely afﬁxed to the glass-SEBS substrate using polyimide tape to facilitate the
+subsequent processing steps. Thereafter, thermally evaporated gold was directly deposited
+on the SEBS substrate at a rate of 0.4 Å/s under conditions under a vacuum condition
+(Figure 1c above), and this formed thin gold ﬁlms (50 nm in thickness) on the surface of the
+SEBS substrate. After the deposition of gold nanomembranes, the metal mask was detached.
+A copper wire was connected to the gold surface with a conductive silver paste (ELCOAT
+P-100, CANS, Japan), followed by baking at 50 ◦C for 2 h on a commercial hot plate.
+
+Polymers 2023, 15, 3852 4 of 13
+2.2. Preparation of Chitosan and Alginate Hydrogel Solutions
+To prepare the chitosan hydrogel solutions with different weight percentages (1 wt%,
+2 wt%, and 3 wt%), 50 mg, 100 mg, and 150 mg of chitosan powder (Sigma-Aldrich,
+St. Louis, MO, USA) were dissolved in 5 mL of 0.05 mol/L hydrochloric acid (pH 2~3)
+since chitosan has low solubility in water [ 34]. Subsequently, the chitosan solution was
+stirred for 6 h using magnetic stirring bars. For the alginate hydrogel solutions with
+different weight percentages (same as chitosan), 50 mg, 100 mg, and 150 mg of sodium
+alginate (Sigma-Aldrich, St. Louis, MO, USA) were dissolved in 5 mL of deionized water
+(10 wt%) and stirred for 6 h using magnetic stirring bars. For optical microscopy images
+demonstrating the triple layer formation, two different types of color pigments (Silc PigTM,
+Smooth-on, Inc., Macungie, PA, USA) (red and blue) were mixed with the 2 wt% chitosan
+and alginate solutions, followed by additional stirring for another 1 h.
+2.3. Mechanical and Skin-Adhevise Properties of CAC Hydrogel
+A universal testing machine (UTM, Instron 34SC-1, Instron, Norwood, MA, USA) was
+used to verify our hydrogel’s adhesive properties. The CAC hydrogel was prepared using
+a 1.5 cm × 1.5 cm plastic mold, and 450 µL of each hydrogel solution was drop-casted
+onto the mold and dried layer-by-layer at room temperature. The fully dried hydrogel
+was detached from the mold with tweezers and then cut into 1 cm × 1 cm sections using
+a razor blade. Next, to verify the adhesiveness, a lap-shear test was conducted. Rat skin
+samples with fat and hair removed were prepared in 1 cm × 2 cm sections and maintained
+in phosphate-buffered saline (PBS) to prevent dehydration. The dried hydrogel samples
+were placed between two rat skin samples. Then, the rat skin samples without the hydrogel
+part (size of 1 cm × 1 cm) were ﬁxed in the UTM using tape. A strain-stress curve was
+obtained until hydrogels were detached from one side of the rat skin. The speed rate was
+20 mm min−1, and we used Instron Bluehill 3 software to obtain all the data.
+2.4. Electrical Properties of SEBS-Au with Hydrogels
+Using a potentiostat (ZIVE SP1, WonATech, Seoul, Republic of Korea), an EIS was
+performed with our sensor. The impedance spectroscopy of our SEBS-Au electrodes was
+evaluated with and without the CAC hydrogel. The three-electrode system was used with a
+commercial Ag/AgCl electrode, Pt wire, and SEBS-Au, each serving as a reference, counter,
+and working electrode. These electrodes were fully soaked in PBS. EIS measurements were
+performed with frequencies ranging from 1 Hz to 100 kHz and 10 mV amplitude.
+A digital multimeter (Keithley 2450 SourceMeter, Tektronix, Inc., Beaverton, OR, USA)
+and an x-axis stretcher (SMC-100, Jaeil Optical Corp., Daegu, Republic of Korea) were used
+to identify the electrical stability of our electrodes. The experiment was conducted both
+with and without the CAC hydrogel. Each sample had an initial width of 5 mm and a
+length of 3 mm and was stretched at a rate of 3 mm min−1. The samples were loaded on
+the x-axis stretcher and ﬁxed with double-sided tape (3M, Saint Paul, MN, USA). To further
+increase the electrical contact, liquid metal EGaIn (012478, Alfa Aesar, Haverhill, MA, USA)
+was injected into both ends of the samples using a syringe. A strain-resistance curve was
+obtained until the electrode was separated into two parts. A cyclic test was performed to
+further conﬁrm the electrical durability of our electrodes. We subjected the electrodes to
+the same stretching conditions as those of the stretching test. We stretched from 0% to 20%,
+and the cycle was repeated 1000 times at a rate of 1 mm s−1.
+2.5. Electrocardiogram Monitoring Using SEBS-Au with a CAC Hydrogel Layer
+First, 1 mL of the chitosan hydrogel solution was directly drop-casted on the surface
+of the SEBS-Au electrodes, followed by drying at room temperature for 24 h. To prepare
+a CAC triple layer, equal amounts of the alginate and chitosan hydrogel solutions were
+coated and dried successively (Figure 1c bottom). After all fabrication processes were
+performed, SEBS-Au electrodes with the CAC hydrogel were swelled in PBS for 5 min and
+attached to human skin with Tegaderm ﬁlm (3M, Saint Paul, MN, USA). The ECG signal
+
+Polymers 2023, 15, 3852 5 of 13
+was measured using three electrodes. One electrode was used as a reference electrode and
+attached to the right hand. Another electrode was used as a ground electrode and attached
+to the left hand, and the remaining electrode was used as an active electrode and placed
+on the left leg. To verify the ionic conductivity characteristics of the CAC hydrogel, ECG
+signals with and without the CAC hydrogel were compared. All signals were monitored
+for approximately 10 min. The signals were collected using a bio-signal ampliﬁer (Bio
+Amp, ADInstruments, Bella Vista, Australia) and a data acquisition device (PowerLab
+8/35, AD Instruments, Bella Vista, Australia). We used the LabChart 8 Pro (ADInstruments,
+Bella Vista, Australia) software to obtain all the data.
+3. Results and Discussion
+3.1. Mechanical and Skin-Adhesive Properties of CAC Hydrogel
+CAC hydrogel samples were obtained using three different weight percentages of
+chitosan and alginate (1 wt%, 2 wt%, and 3 wt%) powders. As the weight percentage
+of each polysaccharide increased, the viscosity of the solution also increased. After the
+evaporation, the hydrogel was tough, and hence, had the advantage of being more resis-
+tant to deformation. This was demonstrated by a higher value of Young’s modulus [35].
+However, it can be associated with lower stretchability [ 36,37]. In the 1 wt% to 3 wt%
+range, chitosan and alginate fully dissolved in the solvent (Figure S3), but when the amount
+of chitosan/alginate exceeded that, complete dissolution in a solution was not observed.
+Remnants of insoluble materials can lead to unwanted results and may inﬂuence the overall
+experiment. Hence, we selected a 2 wt% chitosan and alginate solution, as it offers both
+robustness and stretchability suitable for its application as an interfacial hydrogel layer.
+To verify that chitosan improved the mechanical stability of the alginate, elastic mod-
+ulus and viscous modulus were obtained. The combined chitosan and alginate hydrogel
+showed higher mechanical stability than each hydrogel alone. First of all, to identify the in-
+creased stability of the CAC hydrogel with the naked eye, optical images of the alginate and
+CAC hydrogel were taken. After 1 min of swelling, the CAC hydrogel showed a mechani-
+cally stable formation under room temperature (Figure S1). This suggests that the CAC
+hydrogel could stably maintain its formation while monitoring human electrophysiological
+signals. More speciﬁcally, the calculated elastic modulus of the bare alginate was 5.05 Pa
+to 441.79 Pa in the 0.01 Hz to 10 Hz frequency range, bare chitosan was from 208.38 Pa
+to 416.05 Pa and it showed a lower modulus than our CAC hydrogel with a modulus of
+2411.23 Pa to 5758.91 Pa (Figure 2b). This ﬁnding can be attributed to the electrical attraction
+between negatively charged carboxyl groups in alginate and positively charged amine
+groups in chitosan. These electrical bonds improved low mechanical strength, and therefore,
+enabled electrodes to operate stably for a long duration. Accordingly, chitosan was used as
+an intermediate layer between the SEBS-Au electrode and the alginate. Therefore, the CAC
+hydrogel overcame the modulus mismatch between metal and tissue and enhanced the
+mechanical stability under large deformation conditions without delamination.
+In wearable bioelectronics, the skin-adhesive property has a crucial impact on the
+overall performance of electronics since the skin has a dynamic surface that is stretched
+and compressed depending on body movements [38]. Furthermore, the skin continuously
+produces sweat and other secretions, which can lead to electrode instability. Therefore,
+we employed the skin-adhesive CAC hydrogel as an interfacial layer to improve overall
+performance and comfort. In contrast to the previously studied chitosan-alginate double-
+layer hydrogel [39,40], we used another chitosan layer between the skin and the alginate
+to fabricate a triple CAC hydrogel layer in order to enhance adhesiveness. The image in
+Figure 3a shows the high skin adhesion and conformal contact of the CAC hydrogel. The
+skin is negatively charged at neutral pH, and therefore, is permselective to cations [ 41].
+Hence, positively charged amine groups of chitosan can confer skin-adhesive properties.
+Hence, we used a triple layer of hydrogel as an interface material. In each layer, the alginate
+and chitosan aggregated themselves. Furthermore, at the interface between the alginate
+and chitosan, electrostatic attraction attributed to interactions between the side chains
+
+Polymers 2023, 15, 3852 6 of 13
+was observed (Figure 1b). As observed in the optical microscopy image (Figure 2a right),
+a difference between triple layers in the chitosan-alginate-chitosan hydrogel was noted
+(chitosan dyed in red and alginate dyed in blue), and another color was observed at the
+interface, demonstrated in light purple. The presence of the purple layer indicates that
+during the drop-casting of the second layer (alginate), the pre-dried ﬁrst layer (chitosan)
+experienced slight swelling upon contact with the alginate solution, leading to aggregation
+and the formation of an electrical connection. This resulted in high water content properties.
+In addition, SEM image and EDS analyses clearly illustrate the distinct layers as well as the
+porous structure of each hydrogel layer (Figure 2c,d and Figure S2). The porous structure of
+the CAC hydrogel layer indicated high adhesive strength, owing to increasing the contact
+area and providing mechanical interlocking [42].
+Figure 2. Mechanical and skin-adhesive properties of the CAC hydrogel: ( a) Schematic showing
+aggregation in each layer and interaction at the interface between the alginate and chitosan hydrogel
+(left). Optical microscope image of the CAC hydrogel; each layer is distinguished by a color (chitosan-
+red, alginate-blue) (right). ( b) Elastic and viscous modulus of each sample. ( c) SEM image of the
+chitosan and alginate interface. (d) Magniﬁed SEM image of the porous alginate hydrogel.
+Hydrogel adhesion can be depicted by adhesive strength. It is measured by the
+maximum force divided by unit area [ 43,44]. Several methods are known to measure
+adhesive strength, such as tensile, lap shear, and peeling tests. Among these methods, we
+selected the lap-shear test since it is often performed when examining the tissue adhesive
+property of hydrogels [45]. The test comprised two rat skin samples and one hydrogel
+layer that was placed between the two rat skin samples. These were then pulled in a
+direction parallel to the surface, and the maximum force was measured until the hydrogel
+was detached from one of the rat skin samples. To calculate the adhesive strength, the force
+was normalized by dividing by the contact area. To compare the characteristics of skin
+adhesiveness between the CAC hydrogel and other various hydrogels, the CAC hydrogel
+and bare chitosan and the chitosan-alginate double-layer hydrogel samples were tested
+using the UTM. The graph shows the difference in tensile stress in accordance with tensile
+strain in four different dry samples (Figure S4). Rat skin, known for its higher permeability
+compared to human skin [46], was used in the experiments. When the dry hydrogel ﬁlm
+was attached to wet rat skin, the ﬁlm absorbed moisture and body ﬂuids from the skin,
+
+Polymers 2023, 15, 3852 7 of 13
+causing it to swell and adhere more effectively. The result showed that the CAC hydrogel
+had strong adhesiveness with appropriate holding capability (Figure 3b). The adhesive
+strength of the CAC hydrogel was 10.1225 kPa, which was higher than that of the chitosan
+hydrogel and the alginate-chitosan hydrogel, whose adhesive strength were 8.6275 kPa
+and 5.2275 kPa each (Figure 3c). Indeed, the enhanced adhesion of chitosan compared to
+alginate can be attributed to the positively charged amine groups present in chitosan. These
+amine groups interact with the skin surface, resulting in better adhesion. Additionally, in
+the lap-shear test where rat skins were attached to both sides of the hydrogel, it becomes
+evident that the single layer of chitosan exhibits superior adherence compared to the Chi-
+Alg hydrogel, where one side is in contact with the alginate. This difference highlights the
+importance of the material composition and structure in determining adhesion properties
+and demonstrates the advantages of using chitosan as a triple layer for improved adhesion.
+This result showed that the CAC hydrogel increased the adhesiveness of an electrode
+toward the skin surface, effectively addressing the issue of weak interconnection and
+resulting in improved signal quality.
+Figure 3. The adhesive characteristic of the CAC hydrogel ( a) Images showing adhesiveness and
+conformal contact properties of the CAC hydrogel. ( b) Strain-stress curves of chitosan, chitosan-
+alginate, and CAC hydrogels. (c) Comparison of the calculated adhesive strength of the CAC hydrogel
+with that of chitosan and Chi-Alg hydrogels.
+3.2. Electrical Property of SEBS-Au Electrode with CAC Hydrogel
+Leveraging the ionic conductivity inherent in the CAC hydrogel, the incorporation
+of the hydrogel as an interfacial layer proved to be a key factor in achieving stable and
+consistent device operation. When hydrogels swell under water or sweat conditions, they
+become soft with ion-conducting properties. The swelling effect is an intrinsic property
+where a solvent penetrates into the empty spaces between the polymer chains, and the
+swelling ratio can be varied by solvent pH, ionic strength, mechanical force, temperature,
+and light [47,48]. Electronics integrated with hydrogels can accurately capture biological
+signals of superior quality compared to conﬁgurations lacking a hydrogel layer. The
+presence of plenty of carboxylic groups in the alginate, which is negatively charged, results
+in the interaction with chitosan with many positively charged amine groups. To achieve
+
+Polymers 2023, 15, 3852 8 of 13
+charge neutrality, ﬁxed charges in the alginate and chitosan attract ions from water, resulting
+in ionic conductivity in the CAC hydrogel [ 49]. Various methods are available to use
+hydrogel as an interface between skin and electrodes [ 50–52]. Among diverse methods,
+the simplest method involves the direct coating of hydrogels onto the electrodes. Drop-
+casting the hydrogel makes the fabrication of a triple hydrogel layer a straightforward
+process, which is also compatible with the semiconductor process. In wearable electronics,
+hydrogel-coated electrodes enhance electrical stability and enable conformal contact with
+the skin surface.
+A signiﬁcant limitation of soft and stretchable electronics is their short operation
+time, long-term stability, and reliability [53–56]. When attached to the skin, the electronics
+are stretched and compressed along with skin movements and continuously pressurized.
+Therefore, the electrical stability of an electrode was challenging to maintain. Hence, it
+was not viable as a human biological signal monitoring electrode since it deformed easily
+and was unable to function for an extended period. However, electrodes with thermally
+evaporated gold nanomembranes are stably operated for a long time under deformation.
+To identify the aforementioned characteristics of our electrode, resistance was measured
+during 100% stretching. The result showed that the electrode operated stable with less
+resistance change under 100% strain conditions (Figure 4a). To further analyze electrical
+durability, a cyclic test was conducted. As shown in Figure 4b, SEBS-Au demonstrated
+stable electrical resistance when stretched to 20% for 1000 cycles. Since skin can elas-
+tically deform up to 15% [ 57], it is critical to conﬁrm electrical stability and durability
+under 15% of the deformation range. Our electrode showed excellent electrical proper-
+ties. Furthermore, the CAC hydrogel layer is expected to demonstrate better electrical
+durability due to the encapsulating effect. Such properties resulted from efﬁcient strain
+energy dissipation between the thin gold ﬁlm and the encapsulation hydrogel layer [58].
+To conclude, the SEBS-Au with CAC hydrogel layer can maintain long-term electrical
+stability in response to multiple stretching cycles without delamination, and therefore,
+can be used for long-term operation. Along with electrical stability, to measure interfacial
+impedance, an EIS was performed. According to the graph showing impedance mag-
+nitude along with frequency range from 50 Hz to 100 kHz, SEBS-Au obtained during
+the EIS with 0.01 V shows an impedance range of 400 Ohms. After directly coating the
+CAC hydrogels, the EIS results showed a slightly higher but similar impedance range of
+1500 Ohms (Figure 4c). When encapsulating or coating the hydrogel layer, the impedance
+naturally rises around 103 to 107 Ohms [22]. Our CAC hydrogel also attributed to higher
+impedance but showed relatively lower and stable impedance change. The impedance
+between the skin and the electrode is signiﬁcantly affected by conformal contact. Hence,
+the results can be attributed to the high ionic conductivity and enhanced skin-adhesive
+properties of the CAC hydrogel. To conclude, the CAC hydrogel not only showed stable
+and relatively low interfacial impedance but also demonstrated enhanced electrical stability
+and durability simultaneously.
+Figure 4. Electrical stability and durability: ( a) Strain-Resistance curve of SEBS-Au. ( b) 20% of
+1000 times of cyclic stretching test of SEBS-Au. (c) Impedance of SEBS-Au with and without the CAC
+hydrogel layer measured from 50 Hz to 100 kHz frequency range.
+
+Polymers 2023, 15, 3852 9 of 13
+3.3. Electrocardiogram Monitoring
+For the past few decades, the ECG monitoring system has been widely developed
+owing to the increasing number of deaths related to cardiovascular diseases (CVDs) [59].
+Through this system, CVDs can be diagnosed quickly, preventing the patient’s condition
+from deteriorating and facilitating easy analysis of the electrical activity of the heart.
+Recently, the ECG monitoring system has been developed to render such devices much
+more convenient and comfortable for use by fabrication with soft and stretchable materials
+and a wireless module not only in hospitals but also at home [60,61]. Our CAC hydrogel
+triple layer-based SEBS-Au electrode showed enhanced sensitivity, stretchability, and skin
+adhesiveness properties. We placed three CAC hydrogel SEBS-Au ECG electrodes on
+the right and left hands and on the left leg as reference, ground, and active electrodes to
+monitor the ECG signal. Figure 5a shows one of the electrodes placed on the subject’s left
+wrist. The ECG signal was monitored for 10 min (Figure S5). As shown in Figure 5b, the
+amplitude of the signal change was more accurately monitored with hydrogel layers with
+higher SNRs. More speciﬁcally, SEBS-Au with CAC hydrogel had a high SNR of 4.21 dB,
+while without hydrogel, it showed 2.56 dB. As shown in Figure 5c,d, the CAC hydrogel
+layer was associated with high signal quality as we could observe clear ECG signals with
+PQRST peaks (Figure 5c,d). They showed similar conﬁgurations in time intervals between
+PR peaks and the QRS complex. In diagnosing diverse cardiac diseases such as cardiac
+arrhythmia, heart failure, and heart defects, identifying PQRST peaks is essential [ 62].
+For example, abnormal P waves are detected in supraventricular tachycardia, whereas in
+arrhythmia, QT prolongation is monitored [ 63]. During the 10 min of monitoring with
+the CAC hydrogel ECG electrode, we observed P-waves, T-waves, and QRS waves, and a
+stable baseline with clear signals and high peak-to-peak voltage of 520 µA compared to
+electrodes lacking hydrogel whose peak-to-peak voltage was 430 µA.
+Figure 5. Demonstration of electrocardiogram monitoring with the CAC hydrogel SEBS-Au elec-
+trode: (a) Photograph of the ECG electrode with the CAC hydrogel layer placed on the left wrist.
+(b) Comparison of SNR with and without the hydrogel layer. ( c) ECG signal monitoring with the
+SEBS-Au electrode (A PQRST peak is identiﬁed using letter notations). (d) ECG signal monitoring
+with the SEBS-Au electrode and the CAC hydrogel coating layer (A PQRST peak is identiﬁed using
+letter notations).
+
+Polymers 2023, 15, 3852 10 of 13
+Moreover, our electrodes with the CAC hydrogel consistently recorded ECG signals
+across a wide range of body temperatures, as demonstrated in Figure 6a. Additionally, our
+ﬁndings indicated that ECG measurements remained stable in four different arm positions,
+as depicted in Figure 6b, suggesting their suitability for everyday use. To evaluate the
+capacity of SEBS-Au electrodes with the CAC hydrogel to precisely monitor cardiac signals
+during dynamic activities, we conducted ECG measurements for a duration of 10 min
+following physical exercise. As displayed in Figure 6c, the data collected at 1 min, 4 min,
+and 7 min post-exercise clearly highlight the electrodes’ effectiveness in accurately cap-
+turing changes in heart rate and PQRST peaks. Hence, this ﬁnding demonstrated that the
+SEBS-Au ECG electrode with CAC triple hydrogel layer improved signal quality through
+mechanical stability without delamination, increased ionic conductivity, electrical stability,
+durability, and conformal contact with the skin due to improved skin adhesive properties.
+Figure 6. Demonstration of electrocardiogram monitoring with the CAC hydrogel SEBS-Au electrode
+in various conditions: (a) Plot of ECG signals as a function of time (Inset image showing the on-skin
+monitoring of ECG signals (scale bar: 35 mm)). (b) Real-time ECG measurements under four different
+wrist conditions: (i) placing the arm on the armrest with the hand facing upwards, (ii) placing the arm
+on the armrest with the hand facing downwards, (iii) lifting the arm with the hand facing upwards,
+and (iv) lifting the arm with the hand facing downwards. Insets showing the corresponding various
+motions (scale bar: 7 mm). ( c) ECG data measured after running (about 1 min later, 4 min later, 7 min
+later from left to right).
+4. Conclusions
+Here, we report a stretchable skin adhesive SEBS-Au electrode with CAC triple hydro-
+gel layers. We employed the CAC triple hydrogel as an interface between the electrode and
+skin surface to enhance mechanical stability, electrical durability with low impedance, and
+skin adhesiveness. In contrast to the previously reported alginate single or chitosan-alginate
+double hydrogel layer, the CAC triple layer showed increased mechanical strength and
+optimal electrical properties. It also demonstrated adhesiveness toward both the skin and
+electrode due to electrical attractions between negatively charged carboxyl groups in the
+alginate hydrogel and positively charged amine groups in the chitosan hydrogel. The afore-
+mentioned properties protected electrodes from moving and delamination, overcoming
+mechanical mismatch while increasing ionic conductivity. The improved properties were
+veriﬁed by monitoring human ECG signals. The results showed superior peak-to-peak volt-
+age and clear PQRST peaks with high SNR compared to the results observed in the absence
+
+Polymers 2023, 15, 3852 11 of 13
+of hydrogel. Therefore, we expect that our easily fabricated and semiconductor-compatible
+CAC hydrogel, serving as an interfacial layer on SEBS-Au electrodes, is well-suited for the
+emerging domain of skin-adhesive wearable electrodes in the soft and stretchable hydrogel
+bioelectronics ﬁeld, particularly for electrophysiological signal monitoring.
+Supplementary Materials: The following supporting information can be downloaded at:
+https://www.mdpi.com/article/10.3390/polym15183852/s1. Figure S1: Optical image of bare
+alginate and CAC hydrogels after 1 min swelling in PBS at room temperature (Scale bar: 25 mm),
+Figure S2: EDS analysis of chitosan-alginate hydrogel layer, Figure S3: Image of chitosan in different
+weight percentages (1 wt%, 2 wt%, 3 wt% from left to right), Figure S4: Strain-stress curves from
+4 different samples of chitosan, Chi-Alg and CAC hydrogel, Figure S5: ECG signals measured on
+multiple time axes. Refs. [46–48] are cited in the Supplementary Materials.
+Author Contributions: H.L. and D.S. conceptualized the idea. H.L. and J.L. fabricated the CAC triple
+hydrogel layer. H.L. and J.J. designed and fabricated the electrode. H.L. conducted qualitative and
+quantitative experiments. J.L. conducted the rheology experiment. H.L. searched and analyzed data.
+H.L. and D.S. drew up an outline. M.S., D.S. and J.S.L. administered the project process. All authors
+have read and agreed to the published version of the manuscript.
+Funding: This research was supported by the National Research Foundation of Korea (NRF) grant
+funded by the Korean government (MSIT) (No. 2020R1C1C1005567). This research was also sup-
+ported by the National Research Foundation of Korea (NRF) grant funded by the Korean government
+(MSIT) (No. 2022M3E5E9018583). This study was supported by the Institute of Information and Com-
+munications Technology Planning and Evaluation (IITP) grant funded by the Korean government
+(MSIT) (No. 2020-0-00261, Development of low power/low delay/self-power suppliable RF simul-
+taneous information and power transfer system and stretchable electronic epineurium for wireless
+nerve bypass implementation). This research was supported by the MSIT (Ministry of Science and
+ICT), Korea, under the ICT Creative Consilience Program (IITP-2023-2020-0-01821) supervised by
+the IITP (Institute for Information and Communications Technology Planning and Evaluation). This
+research was supported by the National R&D Program through the National Research Foundation of
+Korea (NRF) funded by the Ministry of Science and ICT (No. 2020M3H2A1076786).
+Institutional Review Board Statement: The ECG signal monitoring was conducted by obtaining
+Institutional Review Board (IRB) approval (NO. SKKU 2023-08-001) from Sungkyunkwan University.
+Data Availability Statement: The data presented in this study are available on request from the
+corresponding author.
+Conﬂicts of Interest: The authors declare no conﬂict of interest.
+References
+1. Siontis, K.C.; Noseworthy, P .A.; Attia, Z.I.; Friedman, P .A. Artiﬁcial intelligence-enhanced electrocardiography in cardiovascular
+disease management. Nat. Rev. Cardiol. 2021, 18, 465–478. [CrossRef] [PubMed]
+2. Xu, S.; Zhang, Y.; Jia, L.; Mathewson, K.E.; Jang, K.; Kim, J.; Fu, H.; Huang, X.; Chava, P .; Wang, R.; et al. Soft microﬂuidic
+assemblies of sensors, circuits and radios for the skin. Science 2014, 344, 70–74. [CrossRef] [PubMed]
+3. Song, J.-K.; Son, D.; Kim, J.; Yoo, Y.J.; Lee, G.J.; Wang, L.; Choi, M.K.; Yang, J.; Lee, M.; Do, K.; et al. Wearable Force Touch Sensor
+Array Using a Flexible and Transparent Electrode. Adv. Funct. Mater. 2017, 27, 1605286. [CrossRef]
+4. Choi, H.; Kim, Y.; Kim, S.; Jung, H.; Lee, S.; Kim, K.; Han, H.-S.; Kim, J.Y.; Shin, M.; Son, D. Adhesive bioelectronics for sutureless
+epicardial interfacing. Nat. Electron. 2023. [CrossRef]
+5. Chou, H.-H.; Nguyen, A.; Chortos, A.; To, J.W.F.; Lu, C.; Mei, J.; Kurowawa, T.; Bae, W.-G.; Tok, J.B.-H.; Bao, Z. A chameleon-
+inspired stretchable electronic skin with interactive colour changing controlled by tactile sensing. Nat. Commun. 2015,
+6, 8011. [CrossRef] [PubMed]
+6. Son, D.; Lee, J.; Qiao, S.; Ghaffari, R.; Kim, J.; Lee, J.E.; Song, C.; Kim, S.J.; Lee, D.J.; Jun, S.W.; et al. Multifunctional wearable
+devices for diagnosis and therapy of movement disorders. Nat. Nanotechnol. 2014, 9, 397–404. [CrossRef] [PubMed]
+7. Jin, G.E.; Zhang, F.-R.; Zhang, Y.; Shi, L.-A.; Zhao, H.-Y.; Zhu, H.-W.; Jiang, H.-L.; Yu, S.-H. A stretchable electronic fabric artiﬁcial
+skin with pressure-, lateral strain-, and ﬂexion-sensitive properties. Adv. Mater. 2016, 28, 722–728.
+8. Lee, Y.; Chung, J.W.; Lee, G.H.; Kang, H.; Kim, J.-Y.; Bae, C.; Yoo, H.; Jeong, S.; Cho, H.; Kang, S.-G.; et al. Standalone real-time
+health monitoring patch based on a stretchable organic optoelectronic system. Sci. Adv. 2021, 7, eabg9180. [CrossRef] [PubMed]
+9. Zhang, J.; Hu, M.; Zheng, X.; Wang, H.; Li, X.; Zhang, X.; Yang, H. Activatable Conformal Electrode Arrays for Highly Stable and
+Breathable 12-Lead Clinical Electrocardiographic Monitoring. Adv. Mater. T echnol.2023, 8, 2300243. [CrossRef]
+
+Polymers 2023, 15, 3852 12 of 13
+10. He, S.; Guo, B.; Sun, X.; Shi, M.; Zhang, H.; Yao, F.; Sun, H.; Li, J. Bio-Inspired Instant Underwater Adhesive Hydrogel Sensors.
+ACS Appl. Mater. Interfaces 2022, 14, 45869–45879. [CrossRef]
+11. Liu, Y.; Zhou, H.; Zhou, W.; Meng, S.; Zi, C.; Liu, Z.; Kong, T. Biocompatible, High-Performance, Wet-Adhesive, Stretchable
+All-Hydrogel Supercapacitor Implant Based on PANI@rGO/Mxenes Electrode and Hydrogel Electrolyte.Adv. Energy Mater. 2021,
+11, 2101329. [CrossRef]
+12. Zhao, Y.; Zhang, S.; Yu, T.; Zhang, Y.; Ye, G.; Cui, H.; He, C.; Jiang, W.; Zhai, Y.; Lu, C.; et al. Ultra-conformal skin electrodes with
+synergistically enhanced conductivity for long-time and low motion artifact epidermal electrophysiology. Nat. Commun. 2021, 12,
+4880. [CrossRef] [PubMed]
+13. Nawrocki, R.A.; Jin, H.; Lee, S.; Yokota, T.; Sekino, M.; Someya, T. Self-Adhesive and Ultra-Conformable, Sub-300 nm Dry
+Thin-Film Electrodes for Surface Monitoring of Biopotentials. Adv. Funct. Mater. 2018, 28, 1803279. [CrossRef]
+14. Sim, K.; Chen, S.; Li, Z.; Rao, Z.; Liu, J.; Lu, Y.; Jang, S.; Ershad, F.; Chen, J.; Xiao, J.; et al. Three-dimensional curvy electronics
+created using conformal additive stamp printing. Nat. Electron. 2019, 2, 471–479. [CrossRef]
+15. Liu, J.; Jiang, S.; Xiong, W.; Zhu, C.; Li, K.; Huang, Y. Self-Healing Kirigami Assembly Strategy for Conformal Electronics.Adv.
+Funct. Mater. 2022, 32, 2109214. [CrossRef]
+16. Sim, K.; Rao, Z.; Li, Y.; Yang, D.; Yu, C. Curvy surface conformal ultra-thin transfer printed Si optoelectronic penetrating
+microprobe arrays. NPJ Flex. Electron. 2018, 2, 2. [CrossRef]
+17. Liu, J.; Xiao, L.; Rao, Z.; Dong, B.; Yin, Z.; Huang, Y. High-Performance, Micrometer Thick/Conformal, Transparent Metal-
+Network Electrodes for Flexible and Curved Electronic Devices. Adv. Mater. T echnol.2018, 3, 1800155. [CrossRef]
+18. Jiang, S.; Liu, X.; Liu, J.; Ye, D.; Duan, Y.; Li, K.; Yin, J.; Huang, Y. Flexible Metamaterial Electronics. Adv. Mater. 2022,
+34, 2200070. [CrossRef]
+19. Song, J.-K.; Kim, J.; Yoon, J.; Koo, J.H.; Jung, H.; Kang, K.; Sunwoo, S.-H.; Yoo, S.; Chang, H.; Jo, J.; et al. Stretchable colour-
+sensitive quantum dot nanocomposites for shape-tunable multiplexed phototransistor arrays. Nat. Nanotechnol. 2022, 17,
+849–856. [CrossRef]
+20. Yang, C.; Suo, Z. Hydrogel ionotronics. Nat. Rev. Mater. 2018, 3, 125–142. [CrossRef]
+21. Hu, B.; Owh, C.; Chee, P .L.; Leow, W.R.; Liu, X.; Wu, Y.-L.; Guo, P .; Loh, X.J.; Chen, X. Supramolecular hydrogels for antimicrobial
+therapy. Chem. Soc. Rev. 2018, 47, 6917–6929. [CrossRef] [PubMed]
+22. Yuk, H.; Lu, B.; Zhao, X. Hydrogel bioelectronics. Chem. Soc. Rev. 2019, 48, 1642–1667. [CrossRef] [PubMed]
+23. Wang, S.; Fang, Y.; He, H.; Zhang, L.; Li, C.; Ouyang, J. Wearable Stretchable Dry and Self-Adhesive Strain Sensors with Conformal
+Contact to Skin for High-Quality Motion Monitoring. Adv. Funct. Mater. 2021, 31, 2007495. [CrossRef]
+24. Yuk, H.; Wu, J.; Zhao, X. Hydrogel interfaces for merging humans and machines. Nat. Rev. Mater. 2022, 7, 935–952. [CrossRef]
+25. Kim, S.; Choi, H.; Son, D.; Shin, M. Conductive and Adhesive Granular Alginate Hydrogels for On-Tissue Writable Bioelectronics.
+Gels 2023, 9, 167. [CrossRef]
+26. Jin, S.; Kim, Y.; Son, D.; Shin, M. Tissue Adhesive, Conductive, and Injectable Cellulose Hydrogel Ink for On-Skin Direct Writing
+of Electronics. Gels 2022, 8, 336. [CrossRef]
+27. Kim, Y.; Song, J.; An, S.; Shin, M.; Son, D. Soft Liquid Metal-Based Conducting Composite with Robust Electrical Durability for a
+Wearable Electrocardiogram Sensor. Polymers 2022, 14, 3409. [CrossRef]
+28. Lee, K.Y.; Mooney, D.J. Alginate: Properties and biomedical applications. Progress. Polym. Sci. 2012, 37, 106–126. [CrossRef]
+29. Ji, D.; Park, J.M.; Oh, M.S.; Nguyen, T.L.; Shin, H.; Kim, J.S.; Kim, D.; Park, H.S.; Kim, J. Superstrong, superstiff, and conductive
+alginate hydrogels. Nat. Commun. 2022, 13, 3019. [CrossRef]
+30. Baspinar, Y.; Borchert, H.-H. Penetration and release studies of positively and negatively charged nanoemulsions—Is there a
+beneﬁt of the positive charge? Int. J. Pharm. 2012, 430, 247–252. [CrossRef]
+31. Marro, D.; Guy, R.H.; Delgado-Charro, M.B. Characterization of the iontophoretic permselectivity properties of human and pig
+skin. J. Control. Release 2001, 70, 213–217. [CrossRef] [PubMed]
+32. Hamedi, H.; Moradi, S.; Hudson, S.M.; Tonelli, A.E. Chitosan based hydrogels and their applications for drug delivery in wound
+dressings: A review. Carbohydr. Polym. 2018, 199, 445–460. [CrossRef] [PubMed]
+33. Bhattarai, N.; Gunn, J.; Zhang, M. Chitosan-based hydrogels for controlled, localized drug delivery. Adv. Drug Deliv. Rev. 2010,
+62, 83–99. [CrossRef] [PubMed]
+34. Ilyina, A.V .; Tikhonov, V .E.; Albulov, A.I.; Varlamov, V .P . Enzymic preparation of acid-free-water-soluble chitosan.Process Biochem.
+2000, 35, 563–568. [CrossRef]
+35. Giuseppe, M.D.; Law, N.; Webb, B.; Macrae, R.A.; Liew, L.J.; Sercombe, T.B.; Dilley, R.J.; Doyle, B.J. Mechanical behaviour of
+alginate-gelatin hydrogels for 3D bioprinting. J. Mech. Behav. Biomed. Mater. 2018, 79, 150–157. [CrossRef] [PubMed]
+36. Lei, Z.; Wu, P . A highly transparent and ultra-stretchable conductor with stable conductivity during large deformation. Nat.
+Commun. 2019, 10, 3429. [CrossRef]
+37. Qi, D.; Zhang, K.; Tian, G.; Jiang, B.; Huang, Y. Stretchable Electronics Based on PDMS Substrates. Adv. Mater. 2021,
+33, 2003155. [CrossRef]
+38. Hwang, I.; Kin, H.N.; Seong, M.; Lee, S.-H.; Kang, M.; Yi, H.; Bae, W.G.; Kwak, M.K.; Jeong, H.E. Multifunctional Smart Skin
+Adhesive Patches for Advanced Health Care. Adv. Healthc. Mater. 2018, 7, 1800275. [CrossRef]
+
+Polymers 2023, 15, 3852 13 of 13
+39. Cook, M.T.; Tzortzis, G.; Khutoryanskiy, V .V .; Charalampopoulos, D. Layer-by-layer coating of alginate matrices with chitosan–
+alginate for the improved survival and targeted delivery of probiotic bacteria after oral administration. J. Mater. Chem. B 2013, 1,
+52–60. [CrossRef]
+40. Pavinatto, F.J.; Caseli, L.; Oliveira, O.N., Jr. Chitosan in Nanostructured Thin Films.Biomacromolecules2010, 11, 1897–1908. [CrossRef]
+41. Burnette, R.R.; Ongpipattanakul, B. Characterization of the Permselective Properties of Excised Human Skin During Iontophoresis.
+J. Pharm. Sci. 1987, 76, 765–773. [CrossRef] [PubMed]
+42. Prolongo, S.G.; Urena, A. Effect of surface pre-treatment on the adhesive strength of epoxy–aluminium joints. Int. J. Adhes. Adhes.
+2009, 29, 23–31. [CrossRef]
+43. Kwak, M.K.; Jeong, H.-E.; Suh, K.Y. Rational Design and Enhanced Biocompatibility of a Dry Adhesive Medical Skin Patch. Adv.
+Mater. 2011, 23, 3949–3953. [CrossRef] [PubMed]
+44. Zhang, W.; Wang, R.; Sun, Z.; Zhu, X.; Zhao, Q.; Zhang, T.; Cholewinski, A.; Yang, F.; Zhao, B.; Pinnaratip, R.; et al. Catechol-
+functionalized hydrogels: Biomimetic design, adhesion mechanism, and biomedical applications. Chem. Soc. Rev. 2020, 49,
+433–464. [CrossRef]
+45. Nam, S.; Mooney, D. Polymeric Tissue Adhesives. Chem. Rev. 2021, 121, 11336–11384.
+46. Jung, E.C.; Maibach, H.I. Animal models for percutaneous absorption. In T opical Drug Bioavailability, Bioequivalence, and Penetration;
+Springer: New York, NY, USA, 2014; pp. 21–40.
+47. Li, Y.; Tanaka, T. Phase transitions of gels. Annu. Rev. Mater. Sci. 1992, 22, 243–277. [CrossRef]
+48. Khan, Y.A.; Ozaltin, K.; Bernal-Ballen, A.; Martino, A.D. Chitosan-alginate hydrogels for simultaneous and sustained releases of
+ciproﬂoxacin, amoxicillin and vancomycin for combination therapy. J. Drug Deliv. Sci. T echnol. 2021, 61, 102126. [CrossRef]
+49. Dechiraju, H.; Jia, M.; Luo, L.; Rolandi, M. Ion-Conducting Hydrogels and Their Applications in Bioelectronics. Adv. Sustain. Syst.
+2022, 6, 2100173. [CrossRef]
+50. Nagamine, K.; Chihara, S.; Kai, H.; Kaji, H.; Nishizawa, M. Totally shape-conformable electrode/hydrogel composite for on-skin
+electrophysiological measurements. Sens. Actuators B 2016, 237, 49–53. [CrossRef]
+51. Wirthl, D.; Pichler, R.; Drack, M.; Kettlguber, G.; Moser, R.; Gerstmayr, R.; Hartmann, F.; Bradt, E.; Kaltseis, R.; Siket, C.M.; et al.
+Instant tough bonding of hydrogels for soft machines and electronics. Sci. Adv. 2017, 3, e1700053. [CrossRef]
+52. Kim, S.H.; Jung, S.; Yoon, I.S.; Lee, C.; Oh, Y.; Hong, J.-M. Ultrastretchable Conductor Fabricated on Skin-Like Hydrogel–Elastomer
+Hybrid Substrates for Skin Electronics. Adv. Mater. 2018, 30, 1800109. [CrossRef] [PubMed]
+53. Gao, D.; Lv, J.; Lee, P .S. Natural Polymer in Soft Electronics: Opportunities, Challenges, and Future Prospects.Adv. Mater. 2022,
+34, 2105020. [CrossRef] [PubMed]
+54. Sunwoo, S.-H.; Han, S.I.; Joo, H.; Cha, G.D.; Kim, D.; Choi, S.H.; Hyeon, T.; Kim, D.-H. Advances in Soft Bioelectronics for Brain
+Research and Clinical Neuroengineering. Matter 2020, 3, 1923–1947. [CrossRef]
+55. Yokota, T.; Zalar, P .; Kaltenbrunner, M.; Jinno, H.; Matsuhisa, N.; Kitanosako, H.; Tachibana, Y.; Yukita, W.; Koizumi, M.; Someya,
+T. Ultraﬂexible organic photonic skin. Sci. Adv. 2016, 2, e1501856. [CrossRef] [PubMed]
+56. Son, D.; Kang, J.; Vardoulis, O.; Kim, Y.; Matsuhisa, N.; Oh, J.Y.; To, J.W.F.; Mun, J.; Katsumata, T.; Liu, Y.; et al. An integrated
+self-healable electronic skin system fabricated via dynamic reconstruction of a nanostructured conducting network. Nat. Nanotech.
+2018, 13, 1057–1065. [CrossRef] [PubMed]
+57. Liu, Y.; Pharr, M.; Salvatore, G.A. Lab-on-Skin: A Review of Flexible and Stretchable Electronics for Wearable Health Monitoring.
+ACS Nano 2017, 11, 9614–9635. [CrossRef]
+58. Kim, S.H.; Seo, H.; Kang, J.; Hong, J.; Seong, D.; Kim, H.-J.; Kim, J.; Mun, J.; Youn, I.; Kim, J.; et al. An Ultrastretchable
+and Self-Healable Nanocomposite Conductor Enabled by Autonomously Percolative Electrical Pathways. ACS Nano 2019, 13,
+6531–6539. [CrossRef]
+59. Serhani, M.A.; Kassabi, H.T.E.; Ismail, H.; Navaz, A.N. ECG Monitoring Systems: Review, Architecture, Processes, and Key
+Challenges. Sensors 2020, 20, 1796. [CrossRef]
+60. Park, J.; Seong, D.; Park, Y.J.; Park, S.H.; Jung, H.; Kim, Y.; Bacc, H.W.; Shin, M.; Lee, S.; Lee, M.; et al. Reversible electrical
+percolation in a stretchable and self-healable silver-gradient nanocomposite bilayer. Nat. Commun. 2022, 13, 5233. [CrossRef]
+61. Dargusch, M.; Liu, W.-D.; Chen, Z.-G. Thermoelectric Generators: Alternative Power Supply for Wearable Electrocardiographic
+Systems. Adv. Sci. 2020, 7, 2001362. [CrossRef]
+62. Zhang, L.; Kumar, K.S.; He, H.; Cai, C.J.; He, X.; Gao, H.; Yue, S.; Li, C.; Seet, R.C.-S.; Ren, H.; et al. Fully organic compliant
+dry electrodes self-adhesive to skin for long-term motion-robust epidermal biopotential monitoring. Nat. Commun. 2020,
+11, 4683. [CrossRef] [PubMed]
+63. Lim, H.-E. Surface electrocardiography of supraventricular tachycardia—differential diagnosis. Int. J. Arrhythmia 2011, 12, 23–31.
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual
+author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to
+people or property resulting from any ideas, methods, instructions or products referred to in the content.

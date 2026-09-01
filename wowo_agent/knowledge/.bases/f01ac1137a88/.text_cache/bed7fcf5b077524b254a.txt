@@ -1,0 +1,911 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-025-00460-1
+A versatile transfer printing technique
+through soap bubble
+Check for updates
+Qing Zhao1,2,7,K u nL i3,7, Feiyi Sun4,7, Hechen Xu3,7, Xiaoguang Hu5, Jialiang Dong1, Lixuan Che1,
+Zhan Kang1, Junshan Liu6, Cunjing Lv3 &M i n gL i1,2
+Stretchable and ﬂexible electronics represent emerging and exciting directions for future electronics,
+while transfer printing plays an essential and mainstream role in integrating electronics onto
+application substrates. However, existing transfer printing approaches have restrictions for
+electronics in terms of stiffness and dimensionality, as well as limitations for substrates in terms of
+surface and adhesion. Here, we report a versatile soap bubble transfer printing technique that, through
+a volume modulation strategy, enables the adhesion-independent, damage-free, and low-
+contamination integration of rigid, ﬂexible, and three-dimensional curved electronics onto substrates
+with complex surfaces and challenging adhesion. To demonstrate the versatility and compatibility of
+the soap bubble transfer printing technique, we performed not only special behaviors such as wrap-
+like, multilayer, selective, and interior printing, but also integrated ﬂexible electronics onto various
+human organ models, which holds promise for health monitoring in both noninvasive and invasive
+manners.
+Stretchable andﬂexible electronics1–3 offer superior electrical performances
+compared to conventional rigid electronics and deform into arbitrary shapes
+to match complex surfaces, representing emerging and exciting directions
+for future electronics. However, chemical and thermal treatments 4,5 pre-
+clude the direct fabrication on the sensitive substrates 6,7, such as human
+organs. Transfer printing 8,9, decoupling planar fabrication and spatial
+integration, plays an essential and mainstream role in retrieving electronics
+from fabrication substrates and integrating onto application substrates. A
+typical transfer printing system, as illustrated in Fig.1a, consists of a stamp,
+an electronics, and a substrate, while the stamp design is the key issue to
+widen the versatility and compatibilityfor both transferred electronics and
+target substrates. In existing research, various stamps, including solid
+10–16,
+liquid17–23, and phase-transition ones24–28, have been proposed to successfully
+assemble either rigid 10–14,17–19,24 or ﬂexible20,21,23 electronics onto mostly
+planar10–14,19 and some curved17,20,22,24 substrates.
+Even though signiﬁcant advances and encouraging progress have been
+made in material compatibility, geometry tolerance, and process reliability,
+challenges still exist for transfer printing techniques. In terms of stiffness and
+dimensionality, electronics can be either rigid (microscale thickness),ﬂexible
+(nanoscale thickness), or three-dim ensional curved. However, the con-
+formal deformation of ﬂexible electronics impedes the interfacial delami-
+nation with solid stamps
+10–12 and causes undesirablecrumpling with liquid
+droplet stamps (see Fig. S1a, Supplementary Information)17–19. This indicates
+that solid and liquid droplet stamps are not feasible forﬂexible electronics. In
+contrast, the capillary21,22 and soap ﬁlm20 techniques enable the transfer
+printing of ﬂexible electronics, as thin as 100 nm 20, but are incapable of
+transferring rigid electronics. In addition, the challenging three-dimensional
+curved electronics experience high stress, remarkable contamination, and
+process complexity problems for existing solid
+10–15,l i q u i d17–23,a n dp h a s e -
+transition24–27 stamps, respectively. In terms of surface and adhesion, sub-
+strates can be either planar or curved and may feature adhesive or non-
+adhesive properties. Printing onto planar and adhesive substrates is easy.
+However, printing onto curved and non-adhesive substrates is challenging
+for solid stamps
+10–12,15 with limited deformability and adhesion switchability
+conﬂict29,l i q u i ds t a m p s17–19,23 with capillary instability30,31 and poor place-
+ment accuracy, and phase-transition stamps24–27 with remarkable residual
+contamination. To generate diverse, multi-functional, miniaturized, and
+highly-integrated electronics, special behaviors such as wrap-like printing32
+1Department of Engineering Mechanics, School of Mechanics and Aerospace Engineering, Dalian University of Technology, Dalian, China. 2Central Hospital of
+Dalian University of Technology, Dalian University of Technology, Dalian, China.3Department of Engineering Mechanics and Center for Nano and Micro Mechanics,
+AML, Tsinghua University, Beijing, China. 4Department of Medical Ultrasound, Health Medical Department, Central Hospital of Dalian University of Technology,
+Dalian, China. 5State Key Laboratory of Organic Electronics and Information Displays, College of Electronic and Optical Engineering & College of Flexible
+Electronics (Future Technology), Nanjing University of Posts and Telecommunications, Nanjing, China. 6State Key Laboratory of High-performance Precision
+Manufacturing, Key Laboratory for Micro/Nano Technology and System of Liaoning Province, Dalian University of Technology, Dalian, China. 7These authors
+contributed equally: Qing Zhao, Kun Li, Feiyi Sun, Hechen Xu. e-mail: cunjinglv@tsinghua.edu.cn; mingli@dlut.edu.cn
+npj Flexible Electronics |            (2025) 9:76 1
+1234567890():,;
+1234567890():,;
+
+for curved electronics, multilayer printing33,34 for heterogeneous integration,
+selective printing13,14 for complex patterns, and interior printing 35–37 for
+implantable health monitoring, are expected. However, the high manu-
+facturing complexity10,11 for solid stamps, the aggregated liquid residues17 for
+liquid stamps as illustrated in Fig. S1b (Supplementary Information), and the
+poor local controllability
+24–27 f o rp h a s e - t r a n s i t i o ns t a m p sh i n d e rt h ei m p l e -
+mentation of these special behaviors. Therefore, even though various stamp
+designs have been proposed to facilitate the release of diverse electronics onto
+different substrates, a versatile transfer printing technique that not only
+integrates rigid, ﬂexible and three-dimensional curved electronics onto
+complex substrates with challenging adhesion, but also enables special wrap-
+like, multilayer, selective and interior printing behaviors in a damage-free,
+adhesion-independent and low-contamination manner, is still lacking and
+highly desired.
+Here, a versatile soap bubble transf er printing technique, inheriting
+both the low-contamination merit o f solid stamps and the damage-free
+feature of liquid stamps, is proposed. The related printing mechanism,
+considering the tilting during transferring and the tombstoning during
+printing, is investigated through mechanical models, and a volume mod-
+ulation strategy is proposed to guide transfer printing. Leveraging the
+ultrathin, rheological, and easy-to-burst features of the soap bubble stamp,
+this technique not only implements the integration of rigid, ﬂexible, and
+three-dimensional curved electronics onto topologically and adhesively
+challenging substrates but also enables wrap-like, multilayer, selective, and
+interior printing behaviors, signi ﬁcantly broadening the versatility and
+compatibility of transfer printing. The comparison between soap bubble
+transfer printing and existing techniques is summarized in Table S1 (Sup-
+plementary Information), while th e remarkable superiority over the
+recently-reported soap ﬁlm
+20 and liquid droplet17 ones is thoroughly dis-
+cussed in Section S1 (Supplementary Information) in terms of versatility,
+complexity, mechanism,and compatibility.
+Results
+Soap bubble transfer printing
+Figure 1b and Movie S1 (Supplementary Information) schematically illus-
+trate the novel concept of the soap bubble transfer printing, featuring a
+Fig. 1 | Soap bubble transfer printing. a A typical transfer printing system includes
+a stamp, an electronics, and a substrate. The stamp can be either solid (Reproduced
+with permission11. copyright 2022, Elsevier), liquid (Reproduced with permission 17.
+Copyright 2021, WILEY-VCH Verlag GmbH & Co. KGaA, Weinheim) or phase-
+transition (Reproduced with permission
+24. Copyright 2022, American Association
+for the Advancement of Science.) to transfer electronics (either rigid orﬂexible) onto
+the target substrate (either planar or curved).b Schematic illustration of the versatile
+soap bubble transfer printing: retrieving electronics through the soap bubble hosted
+by a blowing tube (Step I); when being transferred, ﬂexible electronics (top)
+conformably deforms with the soap bubble, while rigid electronics (bottom) retains
+its original shape (Step II); in ﬂating the soap bubble to match the receiver substrate
+(Step III) and bursting the soap bubble through a ﬁnite-sized bar (Step IV) make
+rigid and ﬂexible electronics respectively printed onto planar (top) and curved
+(bottom) substrates (Step V). To demonstrate the versatility and compatibility of the
+soap bubble transfer printing, a 25.3 μm-thick silver circuit denoting rigid electro-
+nics and an 850 nm-thick gold circuit representing ﬂexible electronics are integrated
+onto c low-adhesion reliefs, d a non-uniform ball, and e a fragile ﬂower.
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 2
+
+common soap bubble as the stamp. The rigid and ﬂexible electronics are
+prefabricated on the planar substrate by inkjet printing and mature micro/
+nanofabrication, respectively. As illustrated in Fig.1b, we move the blowing
+tube to initiate contact between the s oap bubble and the electronics, and
+then vertically lift the tube to retrieve the electronics from the donor sub-
+strate (Step I). After being separated from the substrate, the soap bubble
+stamp forms a convex liquid bridge to lift the rigid electronics, while the
+ﬂexible electronics conformably deforms with the soap bubble (Step II).
+Subsequently, we inﬂate the soap bubble to ensu re that the contact line
+between the soap bubble and the receiver substrate progressively propagates
+in a rheological manner, allowing the electronics to conform to the receiver
+substrate until the contact line ex ceeds the electronics (Step III), which
+effectively helps mitigate the bursting-induced damage. Finally, the soap
+bubble bursts on demand through puncturing with a ﬁnite-size bar (Step
+IV), allowing for the respective printing of both rigid andﬂexible electronics
+onto planar and curved substrates (Step V).
+In soap bubble transfer printing, sev eral existing challenging opera-
+tions, including dif ﬁcult micro-structure relief design
+10, narrow-range
+velocity control15, damage-related preload12, complex external stimuli38,39,
+and carefully-controlled planking23/attaching20 processes, are no longer
+required to lower printing dif ﬁculty and complexity. During the transfer
+process, the soap bubble, exhibiting capillary stability superior to that of the
+liquid droplet stamp 40, is capable of hosting rigid, ﬂexible, and three-
+dimensional curved electronics over a large area, signiﬁcantly expanding the
+compatibility of transfer printing. In the printing process, the easy-to-burst
+property of the soap bubble enables the adhesion-independent printing to
+tackle switchability conﬂict for solid stamps29, while the ultrathin (micro-
+scale thickness) feature of the soap bubble minimizes the residual con-
+tamination for liquid stamps
+17. In addition, the rheological feature of the
+soap bubble guarantees the conformal, wrinkle-free, and damage-free
+printing as shown in Fig. S1c (Supplementary Information). Exemplarily,
+both rigid and ﬂexible electronics are succe ssfully integrated onto low-
+adhesion reliefs (Fig.1c), non-uniform ball (Fig.1d), and delicate structures
+such as a fragileﬂower (Fig.1e). Furthermore, essentially different from the
+transfer printing of discrete pixels
+24, soap bubble transfer printing supports
+electronics prefabricated on membranes, and a transfer yield of 100% can be
+readily achieved, while the pattern resolution in electronics is, in principle,
+unlimited, beneﬁting from the decoupling between fabrication and transfer
+printing.
+Transfer printing mechanism and volume modulation strategy
+Through the forming and bursting of a soap bubble, prefabricated elec-
+tronics can be easily retrieved from the donor substrate and printed onto the
+receiver substrate in an adhesion-independent manner. In Fig.2 and Movies
+S2–S4 (Supplementary Information), both tilting during transferring and
+tombstoning during printing occur for electronics, which have not been
+reported in existing research. Moreover, the maximum allowable weight, the
+maximum damage, alignment accuracy, and morphology control for elec-
+tronics play crucial roles in determining the versatility and compatibility of
+the soap bubble transfer printing. Here, mechanical models presented in
+Sections S2–S6 (Supplementary Information) are proposed to tackle the
+above problems, and a volume modulation strategy is introduced to guide
+the soap bubble transfer printing.
+During the transfer process, as depicted in Figs. 2aa n dS 2 a
+(Supplementary Information) an d Movie S2 (Supplementary Infor-
+mation), both rigid and ﬂexible electronics exhibit tilting when lifted
+by the soap bubble stamp. This tilting can be adjusted through tuning
+the soap bubble volume, allowing for the programmable printing
+onto the inclined surface. The mechanical model in Fig. S2b (Sup-
+plementary Information) shows that the initial mass of the soap
+solution m
+0 consists of the mass of the soap bubble ms and the one of
+the residual liquid materials mr, while free mass transfer exists
+between the soap bubble and the residual liquid materials to prevent
+the capillary instability and the premature bursting of the soap
+bubble. The governing torque equilibrium and the spherical surface
+assumption in Section S2 (Supplementary Information) yield the tilt
+angle of the transferred electronics as α ≈ C
+2 (m0−ρhC1V2/3), in which
+C1 and C2 are to-be-determined coef ﬁcients, V is the soap bubble
+volume, and ρ and ℎ represent the density and thickness of the soap
+bubble, respectively, as illustrated in Fig. 2b. This indicates that the
+residual liquid materials are the primary cause of the tilting phe-
+nomenon, and the tilt angle α can be effectively controlled by
+adjusting the initial mass m
+0 and the soap bubble volume V in
+experiments. Consequently, a volume modulation strategy through
+programmable in ﬂation to consume residual liquid materials is
+proposed to enable printing onto both planar ( α = 0) and inclined
+(α = π/4) substrates, as shown in Fig. S2d (Supplementary
+Information).
+During the printing process, when meeting the receiver substrate as
+shown in Figs. 2c and S3a (Supplementary Information) and Movie S2
+(Supplementary Information), both rigid and ﬂexible electronics might
+stand up, similar to the tombstoning phenomenon observed in printed
+circuit board soldering
+41. The tombstoning during printing is a sequential
+result of the tilting during transferring. Our experiments in Figs. 2d
+and S3b (Supplementary Information) reveal that a soap bubble with a
+low volume V tends to tilt ( α > 0) and have a single contact line during
+printing, which leads to tombstoning. In contrast, a soap bubble with a
+high volume V tends to have horizontally-placed electronics ( α = 0) and
+multiple contact lines, resulting in successful printing. The mechanical
+model in Section S3 (Supplementary Information) de ﬁnes the torque
+dominating the tombstoning behavior as M =2 γL
+2(sinθR + sinθP)
+−ΔPL3/2−GLcosα/2, in which γ represents the surface tension of the
+soap bubble, L and G represent the length and weight of the electronics,
+respectively. The Laplace pressure ΔP, contact angles θR and θP, and tilt
+angle α are all functions of the soap bubble volume V, as illustrated in
+Fig. S3c (Supplementary Information). The theoretical solutions in
+Fig. 2d reveal that both the tilt angleα and the torque M decrease with the
+increase of the soap bubble volume V, eventually leading to α = 0 and
+successful printing. Therefore, our volume modulation strategy through
+programmable inﬂation is capable of preventing undesired tombstoning
+and guaranteeing successful printing.
+The utility range of soap bubble transfer printing is determined by the
+carrying capability of the soap bubble stamp. The mechanical model in
+Section S4 (Supplementary Information) deﬁnes the maximum allowable
+weight of the transferred electronics as G
+max =2 πγLcosθe−ΔPπL2/4, in
+w h i c hb o t ht h ec o n t a c ta n g l eθe and the Laplace pressureΔP are functions of
+the soap bubble volumeV and the blowing tube diameterd, as illustrated in
+Figs. 2e and S4a (Supplementary Information). This indicates that by pro-
+grammatically adjusting the soap bubble volume V and the blowing tube
+diameter d, the carrying capability of the soap bubble can be signi ﬁcantly
+enhanced, as veriﬁed in Fig. 2f. Ideally, the soap bubble can be as large as
+meterscale42,a n dw eh a v e L = d = 1000 mm in principle, leading to the
+allowable weight as high as Gmax = 193.4 mN, which is two orders of
+magnitude higher than that of liquid droplet stamp17.
+Throughout the entire transfer printing process, the maximum strain
+in transferred electronics is critical for evaluating potential damage. The
+mechanical model in Section S5 (Supplementary Information) reveals that,
+for the insigniﬁcant bending of rigid electronics and the remarkable con-
+formal deformation of ﬂexible electronics, the maximum strains are
+respectivelyε
+max
+rigid = 0.003% andεmax
+ﬂexible = 0.011%, both are signiﬁcantly
+lower than the fracture strain of electronics43. Furthermore, our experiments
+in Fig. 2g demonstrate that for both rigid and ﬂexible electronics, the
+resistance change experienced with the soap bubble stamp is much lower
+than that with a solid stamp
+11. This indicates that the soap bubble transfer
+printing technique is physically gentle and damage-free.
+Alignment accuracy and morphology control are crucial for guaran-
+teeing circuit performance and preventing wrinkles in soap bubble transfer
+printing. The low stiffness and ﬂuidic nature of the soap bubble yield
+undesired motion of the transferred electronics, leading to poor alignment
+accuracy and limiting its applicability in scenarios requiring strict layer
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 3
+
+registration, such as multilayer transfer printing33,34.F i g u r eS 5 ,M o v i eS 3a n d
+Section S6 (Supplementary Information) demonstrate that adjusting the
+nozzle shape, soap solution concen tration, and soap bubble volume can
+signiﬁcantly enhance stability for transfer red electronics, yielding repro-
+ducible alignment offsets within hundreds of micrometers for multilayer
+printing even through manual operation, as shown in Figs. S5d and S6
+(Supplementary Information). Moreover, the intrinsic mismatch between
+the two-dimensional electronics and the three-dimensional soap bubble
+yields undesirable wrinkles. Figure S7, Movie S4 and Section S6 (Supple-
+mentary Information) demonstrate that, by modulating the soap bubble
+volume, folded electronics can be printed on the substrate in a wrinkle-free
+manner. Proﬁling results in Fig. S7b (Supplementary Information) conﬁrm
+the low surface roughness (~2 µm) of the printed electronics, indicating a
+high-quality transfer printing.
+Electronics and substrate compatibilities of soap bubble transfer
+printing
+Figure3a–d demonstrates the compatibility of soap bubble transfer printing
+for electronics in terms of stiffness , dimensionality, pattern, and size.
+Without the preload requirement 12 for solid stamps and the capillary
+instability problem for liquid stamps17–19, the soap bubble stamp enables the
+versatile transfer printing. Here, yellow Polyimide (PI) membranes (elastic
+Fig. 2 | Transfer printing mechanism and volume modulation strategy. a A rigid
+electronics is positioned either tilted for a low-volume soap bubble (left) or hor-
+izontally for a high-volume soap bubble (right). b The relation between the tilt angle
+α of the electronics and the soap bubble volume V corresponding to different initial
+masses m
+0. Solid lines and dots respectively represent the theoretical solutions and
+experimental results. c A rigid electronics is either ﬂipped for a low-volume soap
+bubble (top), leading to tombstoning and failure of printing, or successfully printed
+for a high-volume soap bubble (bottom) in an experiment. d Single contact line (top
+left) and multiple contact lines (bottom left) of electronics, and the relation between
+the torque M and the soap bubble volume V corresponding to different electronics
+weights G (right) and the moving distance of the contact line b = 0.1 mm. e A soap
+bubble deforms when carrying a heavy electronics. f The carrying capacities of both
+the soap bubble and liquid droplet 17 stamps as a function of the volume. Solid lines
+and dots, respectively, denote the theoretical solutions and experimental results of
+the soap bubble stamp for L = 10 mm, while the dashed line represents the theore-
+tical solutions of the droplet stamp. g The resistance changes for rigid and ﬂexible
+electronics transferred through solid and soap bubble stamps 11.
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 4
+
+modulus: 3.5 GPa, thickness: 50 μm) and pink Polydimethylsiloxane
+(PDMS) membranes (elastic modulus: 1.8 MPa, thickness: 30 μm) are
+fabricated to simply represent rigid and ﬂexible electronics, respectively.
+Figures 3a, b and S7c, d (Supplementary Information) reveal that the soap
+bubble stamp enables the successful lifting of both rigid and ﬂexible elec-
+tronics, regardless of aspect ratio, pattern, or size. In addition, Fig.3c, d and
+Movie S5 (Supplementary Information) demonstrate that three-
+dimensional curved electronics, inc luding a trapezoid and a buckled
+Fig. 3 | Electronics and substrate compatibilities of soap bubble transfer printing.
+a The soap bubble stamp hosts rigid (yellow, PI, 50 μm) and ﬂexible (pink, PDMS,
+30 μm) electronics with an aspect ratio of 20:1, in both partial and conformal contact
+manners, respectively.b Successful transferring of both rigid andﬂexible electronics
+with the hexagram pattern using the soap bubble stamp.c Three-dimensional curved
+electronics, including trapezoidal (left) and buckled island-bridge (right) structures, are
+retrieved from the donor substrate in a damage-free manner. d Lifting of a porous
+sponge using the soap bubble stamp. e Flexible electronics with patterns can be con-
+formably printed onto concave (top left), convex (bottom left), and sharp-edged (right)
+surfaces. f Printing of both rigid (right) and ﬂexible (left) electronics onto a porous
+sponge, which has no resistance to deformation. g Printing of both rigid and ﬂexible
+electronics onto low-adhesion surfaces, including a circuit board surface with low
+contact area (left, diameter: 300μm, spacing: 1 mm) and a polytetraﬂuoroethylene
+plate surface (middle) with low surface energy (right, contact angle: 110.7°).
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 5
+
+island-bridge in Fig.3ca n dap o r o u ss p o n g ei nF i g .3d, can be retrieved with
+insigniﬁcant deformation and low stress using the soap bubble stamp. This
+is essential for sensitive electronics with no resistance to deformation but
+low tolerance to stress
+18,27. Therefore, the soap bubble transfer printing is
+versatile for rigid,ﬂexible, and three-dimensional curved electronics.
+Figure 3e–g demonstrates the compatibility of soap bubble transfer
+printing for substrates in terms of su rface and adhesion. The remarkable
+deformability and the rheological feature of the soap bubble 42,44 enable
+conformal printing onto various non- planar substrates with gradually
+varying curvature, not only concave and convex shapes, but also sharp knife
+with a curvature radius of 160 µm as shown in Fig. 3e. The soap bubble
+stamp achieves damage-free printing onto porous sponge without preload
+and remarkable deformation, as depicted in Fig.3f. This capability is crucial
+for sensitive substrates
+6,7, such as biological tissu es. Moreover, the soap
+bubble enables adhesion-independent printing onto substrates with chal-
+lenging adhesion. The examples of low-adhesion surfaces include a needle
+array with a low contact area (needle diameter: 300μm, spacing: 1 mm) on a
+circuit board and a polytetraﬂuoroethylene (PTFE) plate with extremely low
+surface energy (contact angle of 110.7o)45 in Fig. 3,a sw e l la sal o w - a d h e s i o n
+plant surface in Fig. S7e (Supplementary Information). For high-adhesion
+substrates in Fig. S7f (Supplementary Information), such as a PDMS block
+and a sticky lint roller, successful printing of electronics can be achieved
+using the soap bubble stamp. However, it remains challenging to achieve
+conformal and uniform printing onto highly irregular surfaces with locally
+sharp curvatures, especially for large-area electronics. This can be possibly
+mitigated by adopting gentle local pressure, lowering the transfer speed, and
+weakening the interfacial friction to enhance the rheological performance of
+soap bubble transfer printing.
+Special transfer printing behaviors enabled by the soap
+bubble stamp
+Three-dimensional curved electronics 46,47 enable superior performance
+compared to their planar counterparts, delivering low aberration for ima-
+ging systems48,49 and wide bandwidth for communication units50,51.H o w -
+ever, the creation of three-dimensional curved electronics is signi ﬁcantly
+challenging. Both multi-ﬁngered printing52 and wrap-like technique32 entail
+fabrication complexity and intricate manipulation strategy. In this manu-
+script, the soap bubble transfer printing technique is employed to seamlessly
+integrateﬂexible electronics onto three-dimensional objects with complete
+coverage. As shown in Fig.4a and Movie S6 (Supplementary Information), a
+two-dimensional petal-shaped circuit with an LED array (3 × 5, connected
+by a silver circuit on the PDMS membrane) is printed onto a spherical
+surface; the LED array successfully illuminates after printing, and the related
+current–voltage (I–V) relation agrees well with that before printing, indi-
+cating the damage-free printing. Ourexperiments also reveal that the soap
+bubble facilitates the conformal con tact between the electronics and the
+target substrate in a rheological manner. This enables the complete-coverage
+integration onto various three-dimensional substrates, including not only
+convex spherical surfaces, but alsoﬂat cube, cylinder and cone frustum, as
+shown in Fig. S8a (Supplementary Information), in which PDMS mem-
+branes (thickness: 30μm) rather than the hard aforementioned silver circuit
+(thickness: 120 μm) are used to enhance wrapping performance on sub-
+strates with sharp curvature transitions.
+Multilayer transfer printing reali zes the multi-level, multi-material,
+multi-functional, and highly-int egrated hybrid electronics, signi ﬁcantly
+enhancing the complexity and performance of electronics
+33,34. However, the
+random interfacial delamination makes it challenging for solid stamps 23,
+while residual materials trapped between layers reduce the alignment
+accuracy for both liquid and phase-transition stamps. The transparent and
+u l t r a t h i nf e a t u r e so fs o a pb u b b l e sg uarantee high alignment accuracy and
+minimal residual materials, demonstrating unique advantages in multilayer
+transfer printing. As shown in Fig. S8b and Movie S7 (Supplementary
+Information), rigid and ﬂexible electronics with varying patterns and
+thicknesses are assembled on a polymer plate in different sequences using
+the soap bubble transfer printing technique. Moreover, Fig.4bd e m o n s t r a t e s
+the sequential assembly of an SWNT-coated PDMS layer (thickness: 50μm)
+and an Ag/PET layer (pattern: interdigital electrodes; thickness: 25.3μm)
+onto a PDMS substrate (thickness: 30μm), leading to a multilayer pressure
+sensor as shown in Fig. S8c. To valida te the performance of the pressure
+sensor, a weight of 200 g is placed on and removed from the pressure sensor.
+The related change in resistance effectively captures this behavior, with a
+response time of ~400 ms.
+Selective transfer printing in a programmable manner is capable of
+achieving the desired layout with irregular patterns, ensuring circuit com-
+plexity and diversity
+13,14.F i g u r e4c and Movie S8 (Supplementary Infor-
+mation) demonstrate the selective transfer printing procedure, achieved by
+controlling both the formation and bursting of a soap bubble array in an
+independent and selective manner. The transfer printing system, featuring a
+3 × 3 syringe array (spacing: 40 mm), is utilized to transfer the target objects
+(yellow PI pellets, 50 µm thick and 15 mm in diameter), while the coun-
+terparts (black PET pellets, 50 µm thick and 15 mm in diameter) remain
+stationary. At the initial stage (Step i), several syringes (D-shaped pattern)
+corresponding to the target objects are selected, pulled up, and dipped into
+the soap solution. These syringes are then pushed down to generate a soap
+bubble array in the desired pattern (Step ii) and establish contact between
+the target objects and these soap bubbles. Sequentially, the transfer printing
+system is lifted upward to pick up the target objects from the donor substrate
+( S t e pi i i )a n dm o v e dd o w n w a r da g a i nt oestablish contact between the target
+objects and the receiver substrate (Step iv), while the soap bubble is further
+inﬂated to shield target objects from a ny potential impact caused by the
+bursting of soap bubble. Finally, aﬁnite-size bar is employed to burst all soap
+bubbles, releasing the target objects onto the receiver substrate (Step v). The
+top view in Fig. 4c shows transferred pellets in a D-shape pattern, demon-
+strating a successful selective transfer printing process. It is worth noting
+that the bursting-induced impact of a soap bubble can be effectively
+eliminated through in ﬂating a soap bubble, as discussed in Section S6.
+However, the expansion of the soap bubble might lead to a reduction in
+resolution for transferred pixel arrays. This can be solved by pre-patterning a
+pixel array on a membrane, and the pixelarray/membrane system is transfer
+printed through our soap bubble stamp.
+Interior transfer printing
+35–37 enables the delivery of electronics into the
+cavities of 3D structures, particularly biological soft tissues, including the
+heart and brain, through small incisions. This achievement, challenging to
+achieve through traditional stamps,holds promise for minimally invasive
+surgeries and therapies 53,54.F i g u r e4d and Movie S9 (Supplementary
+Information) demonstrate that by sequentially de ﬂating, in ﬂating and
+bursting the soap bubble stamp, the ﬂexible electronics
+(20 mm × 20 mm × 850 nm) can be inserted into, intimately contacted with,
+and printed onto a hollow spherical cavity with a diameter of 40 mm
+through a small incision with a diameter of 15 mm in a tunable manner.
+This outperforms both balloon catheters
+35,37 and the syringes-injected
+technique36. In addition, a variant of the soap bubble transfer printing
+technique is introduced for deep cavi ties. Figure S9a, b (Supplementary
+Information), respectively, provide schematic and experimental illustra-
+tions of transfer printing in deep cavities, and the detailed information can
+be found in the Movie S10 (Supplementary Information). Figure S9c
+(Supplementary Information) demonstrates a D-shaped LED array printed
+within a hollow Y-shaped tube; the LED array can be successfully illumi-
+nated, and the change in the I–V relation is negligible before and after
+transfer printing, indicating successful and damage-free interior printing.
+Figure 5 demonstrates the integration ofﬂexible electronics onto dif-
+ferent organ models using soap bubble transfer printing, potentially facil-
+itating both invasive and noninvasive health diagnostics and therapies. For
+wearable and implantable applications, biodegradable and low-toxicity alkyl
+polyglycosides
+55, rather than conventional surfactants, are used to generate
+the soap bubble stamp to mitigate potential health hazards. Figure5 shows
+that ﬂexible electronics wi th a thickness of 850 nm can be successfully
+integrated onto theﬁnger, tooth, and outer ear for wearable electronics, and
+assembled onto the eye, brain, heart, and blood vessel for implantable
+electronics. Moreover, the soap bubble transfer printing guarantees the
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 6
+
+wrinkle-free integration of ultrathin electronics, providing a maximum
+working area and superior conforma bility to prevent undesired motion
+artifacts and obtain high-quality signals. This facilitates comprehensive,
+multi-site, and long-term signal acquisition for human health monitoring. It
+is worth noting thatﬂexible electronics are printed onto organ models in this
+study. Therefore, further pharmacological and toxicological studies are
+required to thoroughly validate the safety and efﬁcacy for potential clinical
+applications. More biocompatible surfactants
+56,57 will be considered in future
+studies.
+Discussion
+In summary, by inheriting both the l ow-contamination merits of solid
+stamps and the damage-free features of liquid stamps, we have developed a
+facile and versatile soap bubble tra nsfer printing method for both rigid
+(silver circuit with a thickness of 25.3μm) and ﬂexible (gold circuit with a
+thickness of 850 nm) electronics, as well as for special behaviors including
+wrap-like, multilayer, selective and interior printings, which are challenging
+with existing techniques. We have developed mechanical models to
+understand the transfer printing mechanisms and have proposed a volume
+Fig. 4 | Wrap-like, multilayer, selective, and interior transfer printing behaviors.
+a A petal-shaped LED array wrapped around a glass sphere (left), along with I–V
+curves (right) of the LED array before and after transfer printing. The inset displays
+the 2D layout and circuit schematic diagram of the petal-shaped LED array, and the
+illuminated LED array after printing. b Schematic illustration (left) and real-time
+resistance change during the loading and unloading of a 200 g weight (right) for a
+ﬂexible pressure sensor. The inset shows the experimental image during loading, as
+well as the response and recovery time. c Schematic illustration (left) and experi-
+mental images (right) of selective transfer printing. Yellow (PI) and black (PET)
+pellets, respectively, represent target and non-target objects. The selective transfer
+printing process includes: the syringe array with D-shaped patterns being pulled up
+and dipped into the soap solution (Step i); these syringes are aligned with target
+objects and pushed down to generate a related soap bubble array (Step ii); the syringe
+array is lifted to pick up target objects from the donor substrate (Step iii); the soap
+bubble array is brought into contact with the receiver substrate (Step iv); the soap
+bubble array bursts to complete transfer printing in a damage-free manner(Step v),
+with a top view after printing. d Sequentially deﬂating and inﬂating the soap bubble
+to realize the printing onto an interior cavity of a hollow sphere: de ﬂating the soap
+bubble to contract the hosted electronics to pass through the small incision (Step i);
+inﬂating the soap bubble to expand the electronics to conformably match the curved
+interior cavity (Step ii); bursting the soap bubble to complete the printing process
+(Step iii), with the top view after printing.
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 7
+
+modulation strategy to guide tilting during tr ansferring and prevent
+tombstoning during printing. In addi tion, the carrying capability, strain
+evaluation, alignment, and morphology control for the entire process are
+also discussed. To demonstrate the c apabilities of soap bubble transfer
+printing, various electronics have been integrated onto topologically and
+adhesively challenging substrates. In particular, ultrathinﬂexible electronics
+have been assembled on different human organ models, holding promise for
+the system-level health monitoring in both invasive and noninvasive
+manners.
+There are some limitations of the soap bubble transfer printing tech-
+nique. The self-rupture or meeting of oily/dry substrates leads to the pre-
+mature bursting of the soap bubble and the failure of transfer printing. For
+the self-rupture problem, one can select suitable surfactants
+58,c o n t r o l
+ambient temperature59 and humidity, and add glycerol/microparticles/
+polymers42,60 to enhance the mechanical stability and extend the lifetime of
+t h es o a pb u b b l ea sl o n ga s1y e a r60,w h i c hi ss u fﬁcient for transfer printing.
+For the substrate limitation problem, one can humidify the substrate or
+modify the interfacial properties to prevent undesired bursting. A high soap
+bubble volume is expected to prevent tombstoning and bursting-induced
+impact during printing, which hampers the transfer printing of small-sized
+pixel arrays that require high resolution. However, this can be easily solved
+by pre-patterning the pixel array o n a membrane, and the pixel array/
+membrane system can then be transfer printed through a soap bubble
+stamp. This strategy not only lowers the difﬁculty of transfer printing but
+also enables the large-area transfer printing with high pattern complexity
+and resolution.
+Methods
+Preparation of rigid and ﬂexible electronics
+To prepare the rigid electronics, a 25 μm-thick commercial poly-
+ethylene terephthalate (PET) me mbrane was rinsed for 1 min in a
+vacuum plasma cleaner (CSCPIA5, Shanghai Zhongbin Technology
+Co., Ltd, China). Silver ink was sequentially deposited onto the PET
+membrane in a serpentine pattern (minimum linewidth: 300 µm,
+thickness: 300 nm) through inkjet printing (Scienti ﬁc 3, Shanghai
+MiFang Electronic Technology Co., Ltd, China). The obtained silver/
+Fig. 5 | Wearable and implantable integration of ﬂexible electronics using soap
+bubble transfer printing. Soap bubble transfer printing enables the multi-func-
+tional, ultrathin integration of ﬂexible electronics onto various organ models,
+including the brain, eye, ear, tooth, blood vessel, heart, and ﬁnger, promising health
+monitoring in both invasive and noninvasive manners.
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 8
+
+PET structure was cured on a hotplate at 150 °C for 20 min to create the
+rigid electronics. To prepare the ﬂexible electronics, a PAA (Polysciences
+Inc., USA) sacriﬁcial layer was ﬁrst spin-coated onto a glass substrate at
+3000 rpm for 30 s and then cured on a hotplate at 85 °C for 30 min.
+Subsequently, a 750 nm-thick parylene layer and a 100 nm-thick Au layer
+were respectively deposited using chemical vapor deposition (SCS Lab-
+coter PDS2010, Specialty Coating Systems, USA) and magnetron sput-
+tering (LAB 18, Kurt J. Lesker, USA). Serpentine patterns (minimum
+linewidth: 52 µm) and island-bridge (minimum linewidth: 62 µm) pat-
+terns were then fabricated using conventional photolithography pro-
+cesses. Finally, the ﬂexible electronics was detached by immersing the
+glass substrate in deionized water for 2 h to dissolve the PAA sacri ﬁcial
+layer. It is worth noting that an encapsulation layer (PET, parylene) was
+applied to both rigid and ﬂexible electronics during the electrical per-
+formance measurements to prevent any potential pollution from the soap
+solution.
+Preparation of patterned membranes
+Figures 3a, b and S7c, d (Supplementary Information) demonstrate the
+compatibility and versatility of the soap bubble stamp by transferring various
+membranes with irregular patterns and different sizes. The PDMS mem-
+brane with the mix ratio of 10:1 (elastic modulus of 1.8 MPa) and a thickness
+of 30 μm was adopted to representﬂexible electronics, while the commercial
+PI membrane with a thickness of 50μm and an elastic modulus of 3.5 GPa
+was used to represent rigid electronics. A small amount of dye was added to
+the PDMS membrane for distinction. Different patterns were introduced to
+both the PDMS and PI membranes through a cutting technique.
+Preparation of petal-shaped and D-shaped LED arrays
+Stretchable conductive silver ink was printed onto a prefabricated PDMS
+membrane through a dispensing process (Scienti ﬁc 3, Shanghai MiFang
+Electronic Technology Co., Ltd, China), creating both petal-shaped and
+D-shaped circuits, which were subsequently cured on a hotplate at 120 °C
+for 20 min. Commercial LED units were then mounted onto the circuits
+using conductive silver paste. Finally, a PDMS mixture was deposited and
+heated to complete the encapsulation and curing operations.
+Preparation of a ﬂexible pressure sensor
+The ﬂexible pressure sensor consists ofthree layers: a PDMS/SWNT layer
+(top), a PET/Ag layer (middle), and a PDMS layer (bottom). To create the
+top PDMS/SWNT layer, a release agent (KF96SP, ShinEtsu, Japan) and
+PDMS mixture were coated and cured on sandpaper. The following peeling
+operations resulted in a 50 μm-thick PDMS membrane with micro-
+structures, which was sequentially coated with a single-walled carbon
+nanotube (SWNT) solution with a concentration of 150μgm L
+−1 (XFNANO
+Materials Technology Co., Ltd, China) and cured at 200 °C. To create the
+middle PET/Ag layer, a set of interdigitated Ag electrodes was mounted onto
+a2 5 μm-thick commercial PET membrane by inkjet printing (Scientiﬁc3 ,
+Shanghai MiFang Electronic Technology Co., Ltd, China), and copper wires
+were attached to the Ag electrodes with conductive silver paste. The bottom
+layer with a 30 μm-thick transparent PDMS membrane was directly fabri-
+cated. The soap bubble transfer printing technique was utilized to sequen-
+tially integrate these three layers. Finally, the PDMS mixture was applied to
+the sensor edges and cured to avoid possible interfacial delamination.
+Transfer printing through a solid stamp
+The stiffness modulation-driven bi-material solid stamp11 was adopted to
+pick up the rigid electronics from the donor substrate. Subsequently, a lateral
+load was applied to this solid stamp to induce signiﬁcant proﬁle deviation
+and modulate the interfacial adhesio n, allowing for the transfer of rigid
+electronics onto the receiver substrate.
+Soap bubble transfer printing
+A commercially available concentr ated soap solution (LePao, Taobao,
+China) was diluted with deionized water at different ratios. A blowing tube
+was then dipped into the diluted soap solution to generate the soap bubble
+stamp, which was capable of picking up both rigid andﬂexible electronics
+from the donor substrate. The printing process was completed by bursting
+the soap bubble. During the transfer printing process, the soap bubble
+volume was modulated to control the tilting and tombstoning behaviors.
+Additionally, resistance changes for both rigid (25μm-thick PET/300 nm-
+thick Ag/25 μm-thick PET) and ﬂexible (500 nm-thick parylene/50 nm-
+thick Au/500 nm-thick parylene) electronics were measured using a mul-
+timeter (34465A, Keysight Technologies, USA). After printing, strong
+adhesion can be ensured forﬂexible electronics, beneﬁting from conformal
+contact. For rigid electronics, stableadhesion can be achieved by pretreating
+the substrate or employing additionalﬁxtures.
+Wrap-like transfer printing through a soap bubble stamp
+A blowing tube (diameter: 50 mm) was used to generate a soap bubble for
+picking up the petal-shaped LED array (thickness: 120 μm, arm length:
+25 mm) and printing it onto a glass sphere (diameter: 20 mm). As the LED
+array hosted by the soap bubble met the glass sphere, the contact line
+propagated along the sphere surfac e in a rheological manner, ensuring
+conformal contact between the LED array and the sphere. However, once
+the contact line exceeds the equator of the glass sphere, further propagation
+becomes challenging due to the minimization of surface energy. Never-
+theless, applying a downward force or further increasing the volume allowed
+the contact line to continue advancing until the LED array was eventually
+wrapped around the surface of the glass sphere. Moreover, to demonstrate
+the compatibility of wrap-like printing through a soap bubble stamp, var-
+ious receiver substrates, including a cube, a cylinder, and a cone frustum, as
+shown in Fig. S8a (Supplementary Information), were also considered.
+Selective transfer printing through a soap bubble stamp
+A pre-prepared 3 × 3 chip array (di ameter: 15 mm, spacing: 40 mm,
+thickness: 50μm) was arranged on the donor substrate. By independently
+controlling the syringe array, a soap bubble array with the desired D-shaped
+pattern was formed to retrieve target chips in a selective manner. Bursting
+the soap bubble array yielded the printing of the selected chips onto the
+receiver substrate.
+Interior transfer printing through a soap bubble stamp
+To address the interior of a hollow sphere (diameter: 40 mm) through an
+incision (diameter: 15 mm), a soap bubble stamp with a high volume was
+initially generated to pick up the ﬂexible electronics (20 mm ×
+20 mm × 850 nm) with an island-bridge pattern (size: 1.6 mm, spacing:
+1.28 mm) from the donor substrate. S ubsequently, the soap bubble was
+deﬂated to pass through the incision. After that, the soap bubble was inﬂated
+again to match the ﬂexible electronics to the curved surface of the interior
+cavity. The printing process was completed by bursting the soap bubble. For
+the cavity of a Y-shaped tube (diameter: 31 mm, arm length: 120 mm), a soap
+ﬁlm stamp as a variant of a soap bubble was introduced. The downward
+blowing yielded the deformation of the soapﬁlm within a plastic ring (dia-
+meter: 28 mm) and the contact between the soapﬁlm and the D-shaped LED
+array (17 mm × 17 mm × 120μm). Upon deactivating the blowing, the
+deformed soapﬁlm restored to its planar conﬁguration, thereby retrieving the
+LED array from the donor substrate. Subsequently, the ring with a long
+handle was inserted into the interior cavity of the Y-shaped tube, the
+downward blowing again yielded contact between the LED array and the
+target substrate, and the printing pr ocess was completed by bursting the
+soap ﬁlm.
+Body temperature monitoring through an ultrathin
+temperature sensor
+An ultrathin temperature sensor (500 nm parylene/50 nm Au/500 nm
+parylene) was fabricated by conventional photolithography. External cop-
+per wires were connected to the sensor pads using conductive silver paste.
+The sensor was assembled onto the wr ist using the soap bubble transfer
+printing technique, and superior conformability between the skin and the
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 9
+
+sensor was achieved without the need for additional adhesives. Body tem-
+perature was monitored in real time for 1800 s. To induce a temperature
+variation, the wrist was treated with a cooling fan. Simultaneously, surface
+temperature was recorded by an infrared camera (UTi260A, UNI-TREND
+TECHNOLOGY CO., LTD., China).
+Data availability
+The data that support the ﬁndings of this study are available from the
+corresponding author upon reasonable request.
+Received: 25 December 2024; Accepted: 16 July 2025;
+References
+1. Gu, P. et al. Highly stretchable semiconducting aerogel ﬁlms for high-
+performance ﬂexible electronics. Adv. Funct. Mater. 34, 2400589
+(2024).
+2. Jiang, Y. et al. A universal interface for plug-and-play assembly of
+stretchable devices. Nature 614, 456–462 (2023).
+3. Xu, S. et al. Illuminating the brain: advances and perspectives in
+optoelectronics for neural activity monitoring and modulation. Adv.
+Mater. 35, 2303267 (2023).
+4. Cheng, C.-W. et al. Epitaxial lift-off process for gallium arsenide
+substrate reuse and ﬂexible electronics. Nat. Commun. 4, 1577
+(2013).
+5. Chen, Z. et al. Three-dimensional ﬂexible and conductive
+interconnected graphene networks grown by chemical vapour
+deposition. Nat. Mater. 10, 424–428 (2011).
+6. Jiang, J. J., Zhang, S., Wang, B., Ding, H. & Wu, Z. G. Hydroprinted
+liquid-alloy-based morphing electronics for fast-growing/tender
+plants: from physiology monitoring to habit manipulation. Small 16,
+2003833 (2020).
+7. He, D., Malu, D. & Hu, Y. A comprehensive review of indentation of gels
+and soft biological materials. Appl. Mech. Rev. 76, 050802 (2024).
+8. Linghu, C., Zhang, S., Wang, C. & Song, J. Transfer printing
+techniques for ﬂexible and stretchable inorganic electronics. npj Flex.
+Electron. 2, 26 (2018).
+9. Park, J., Lee, Y., Lee, H. & Ko, H. Transfer printing of electronic
+functions on arbitrary complex surfaces. ACS Nano 14,1 2–20 (2020).
+10. Kim, S. et al. Microstructured elastomeric surfaces with reversible
+adhesion and examples of their use in deterministic assembly by
+transfer printing. Proc. Natl. Acad. Sci. USA107, 17095–17100 (2010).
+11. Guo, D. et al. Stiffness modulation-driven transfer printing and strain
+isolation in stretchable electronics. Mater. Des. 217, 110602 (2022).
+12. Zhang, Y. et al. Mechanics of transfer printing for elastomeric stamps
+with collapse cavities. Extrem. Mech. Lett. 60, 101956 (2023).
+13. Wang, C. et al. Programmable and scalable transfer printing with high
+reliability and efﬁciency for ﬂexible inorganic electronics. Sci. Adv. 6,
+eabb2393 (2020).
+14. Li, C., Luo, H., Lin, X., Zhang, S. & Song, J. Laser- driven noncontact
+bubble transfer printing via a hydrogel composite stamp. Proc. Natl.
+Acad. Sci. USA 121, e2318739121 (2024).
+15. Meitl, M. A. et al. Transfer printing by kinetic control of adhesion to an
+elastomeric stamp. Nat. Mater. 5,3 3–38 (2006).
+16. Linghu, C. et al. Universal smp gripper with massive and selective
+capabilities for multiscaled, arbitrarily shaped objects. Sci. Adv. 6,
+eaay5120 (2020).
+17. Liu, X. et al. Liquid droplet stamp transfer printing. Adv. Funct. Mater.
+31, 2105407 (2021).
+18. Li, H., Wang, Z., Cao, Y., Chen, Y. & Feng, X. High-ef ﬁciency transfer
+printing using droplet stamps for robust hybrid integration of ﬂexible
+devices. ACS Appl. Mater. Interfaces 13, 1612–1619 (2021).
+19. Hwang, S. H., Lee, J. & Khang, D. Y. Droplet-mediated deterministic
+microtransfer printing: water as a temporary adhesive. ACS Appl.
+Mater. Interfaces 11, 8645–8653 (2019).
+20. Che, L. et al. Soap ﬁlm transfer printing for ultrathin electronics. Small
+20, 2308312 (2023).
+21. Zhang, Y. et al. Capillary transfer of soft ﬁlms. Proc. Natl. Acad. Sci.
+USA 117, 5210–5216 (2020).
+22. Zhang, Y., Yin, M. & Xu, B. Elastocapillary rolling transfer weaves soft
+materials to spatial structures. Sci. Adv. 9, eadh9232 (2023).
+23. Chen, Y. et al. Interfacial liquid ﬁlm transfer printing of versatileﬂexible
+electronic devices with high yield ratio. Adv. Mater. Interfaces 8,
+2100287 (2021).
+24. Zabow, G. Re ﬂow transfer for conformal three-dimensional
+microprinting. Science 378, 894–898 (2022).
+25. Liu, G. Y. et al. Graphene-assisted metal transfer printing for wafer-
+scale integration of metal electrodes and two-dimensional materials.
+Nat. Electron. 5, 275–280 (2022).
+26. Zhang, Z. et al. Rosin-enabled ultraclean and damage-free transfer of
+graphene for large-area ﬂexible organic light-emitting diodes. Nat.
+Commun. 8, 14560 (2017).
+27. Yan, Z. et al. Three-dimensional mesostructures as high-temperature
+growth templates, electronic cellular scaffolds, and self-propelled
+microrobots. Proc. Natl. Acad. Sci. USA 114, E9455–E9464 (2017).
+28. Chen, L. et al. Phase-change stamp with highly switchable adhesion
+and stiffness for damage-free multiscale transfer printing. ACS Nano
+18, 23968
+–23978 (2024).
+29. Linghu, C. et al. Overcoming the adhesion paradox and switchability
+conﬂict on rough surfaces with shape-memory polymers. Proc. Natl.
+Acad. Sci. USA 120, e2221049120 (2023).
+30. Beroz, J., Hart, A. J. & Bush, J. W. M. Stability limit of electri ﬁed
+droplets. Phys. Rev. Lett. 122, 244501 (2019).
+31. Clanet, C. & Lasheras, J. C. Transition from dripping to jetting. J. Fluid
+Mech. 383, 307–326 (1999).
+32. Chen, X. et al. Wrap-like transfer printing for three-dimensional curvy
+electronics. Sci. Adv. 9, eadi0357 (2023).
+33. Kim, B. H. et al. Multilayer transfer printing for pixelated, multicolor
+quantum dot light-emitting diodes. ACS Nano 10, 4920–4925 (2016).
+34. Wang, Y., Xu, C., Yu, X., Zhang, H. & Han, M. Multilayer ﬂexible
+electronics: Manufacturing approaches and applications. Mater.
+Today Phys. 23, 100647 (2022).
+35. Han, M. et al. Catheter-integrated soft multilayer electronic arrays for
+multiplexed sensing and actuation during cardiac surgery. Nat.
+Biomed. Eng. 4, 997–1009 (2020).
+36. Liu, J. et al. Syringe-injectable electronics. Nat. Nanotechnol. 10, 629
+(2015).
+37. Kim, D.-H. et al. Materials for multifunctional balloon catheters with
+capabilities in cardiac electrophysiological mapping and ablation
+therapy. Nat. Mater. 10, 316–323 (2011).
+38. de la Rosa, C. J. L. et al. Frame assisted H
+2O electrolysis induced H2
+bubbling transfer of large area graphene grown by chemical vapor
+deposition on Cu. Appl. Phys. Lett. 102, 022101 (2013).
+39. Guo, C. et al. Large-scale programmable assembly of functional
+micro-components for advanced electronics via light-regulated
+adhesion and polymer growth. npj Flex. Electron 6, 44 (2022).
+40. Eggers, J. & Villermaux, E. Physics of liquid jets. Rep. Prog. Phys. 71,
+036601 (2008).
+41. Hui, I. K. & Ralph, B. A study of the initiation of the tombstoning effect
+on leadless chips. Int. J. Mach. Tools Manuf. 35, 1251–1268 (1995).
+42. Frazier, S., Jiang, X. & Burton, J. C. How to make a giant bubble. Phys.
+Rev. Fluids 5, 013304 (2020).
+43. Li, M., Xia, J., Li, R., Kang, Z. & Su, Y. Design of two-dimensional
+horseshoe layout for stretchable electronic systems.J. Mater. Sci. 48,
+8443–8448 (2013).
+44. Yang, S. & Sharma, P. A tutorial on the stability and bifurcation
+analysis of the electromechanical behaviour of soft materials. Appl.
+Mech. Rev. 75, 044801 (2023).
+45. Peng, H. Synthesis and application of ﬂuorine-containing polymers
+with low surface energy. Polym. Rev. 59, 739–757 (2019).
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 10
+
+46. Liu, J. et al. Self-healing kirigami assembly strategy for conformal
+electronics. Adv. Funct. Mater. 32, 2109214 (2022).
+47. Cheng, X. et al. Programming 3D curved mesosurfaces using
+microlattice designs. Science 379, 1225–1232 (2023).
+48. Lü, C. et al. Mechanics of tunable hemispherical electronic eye
+camera systems that combine rigid device elements with soft
+elastomers. J. Appl. Mech. 80, 061022 (2013).
+49. Choi, C. et al. Human eye-inspired soft optoelectronic device using
+high-density MoS
+2-graphene curved image sensor array. Nat.
+Commun. 8, 1664 (2017).
+50. Dongjin, K., Hirokawa, J., Ando, M., Takeuchi, J. & Hirata, A. 4 ×
+4-element corporate-feed waveguide slot array antenna with cavities
+for the 120 GHz band. IEEE Trans. Antennas Propag. 61, 5968–5975
+(2013).
+51. Pfeiffer, C., Xu, X., Forrest, S. R. & Grbic, A. Direct transfer patterning
+of electrically small antennas onto three-dimensionally contoured
+substrates. Adv. Mater. 24, 1166–1170 (2012).
+52. Chen, J., Yang, S., Li, Y., Huang, Y. & Yin, Z. Active curved surface
+deforming of ﬂexible conformal electronics by multi-ﬁngered actuator.
+Rob. Comput. Integr. Manuf. 64, 101942 (2020).
+53. Kane, M. J., Breen, P. P., Quondamatteo, F. & Ólaighin, G. Bion
+microstimulators: a case study in the engineering of an electronic
+implantable medical device. Med. Eng. Phys. 33,7 –16 (2011).
+54. Kim, T.-I. et al. Injectable, cellular-scale optoelectronics with
+applications for wireless optogenetics. Science 340, 211 –216
+(2013).
+55. von Rybinski, W. & Hill, K. Alkyl polyglycosides — properties and
+applications of a new class of surfactants. Angew. Chem. Int. Ed. 37,
+1328–1345 (1998).
+56. Ruhs, P.A., Storz, F., Gomez, Y.A.L., Haug, M. & Fischer, P. 3D
+bacterial cellulose bioﬁlms formed by foam templating. npj Bioﬁlms
+Microbiomes 4, 21 (2018).
+57. Bai, T. et al. A comparison of different surfactants on foam stability in
+foam sclerotherapy in vitro. J. Vasc. Surg. 69, 581–591 (2019).
+58. Beneventi, D., Carre, B. & Gandini, A. Role of surfactant structure on
+surface and foaming properties. Colloids Surf. A Physicochem. Eng.
+Asp. 189,6 5–73 (2001).
+59. Wang, H., Guo, W., Zheng, C., Wang, D. & Zhan, H. Effect of
+temperature on foaming ability and foam stability of typical
+surfactants used for foaming agent. J. Surfactants Deterg. 20,
+615–622 (2017).
+60. Roux, A., Duchesne, A. & Baudoin, M. Everlasting bubbles and liquid
+ﬁlms resisting drainage, evaporation, and nuclei-induced bursting.
+Phys. Rev. Fluids 7, L011601 (2022).
+Acknowledgements
+This work was supported by the National Natural Science Foundation of
+China (12272079, 12172189, 11921002) and fundamental research funds
+for the central universities (DUT21YG213).
+Author contributions
+M.L. conceived the research. M.L. andC.L. supervised the research and
+wrote the manuscript. M.L., Q.Z., F.S., Z.K., and H.X. contributed to the
+fabrication of rigid electronics and most of the transfer printing experiments.
+X.H., J.D., L.C., and J.L. contributed to the fabrication ofﬂexible electronics and
+characterization. C.L., H.X., Q.Z., and K.L. contributed to theoretical models. All
+the authors discussed the results and contributed to the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains supplementary
+material available at
+https://doi.org/10.1038/s41528-025-00460-1
+.
+Correspondenceand requests for materials should be addressed to
+Cunjing Lv or Ming Li.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2025
+https://doi.org/10.1038/s41528-025-00460-1 Article
+npj Flexible Electronics |            (2025) 9:76 11

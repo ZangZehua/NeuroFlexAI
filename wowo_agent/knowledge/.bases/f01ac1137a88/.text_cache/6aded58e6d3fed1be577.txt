@@ -1,0 +1,800 @@
+npj | flexiblee lectronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-024-00308-0
+Water-based direct photopatterning of
+stretchable PEDOT:PSS using amphiphilic
+block copolymers
+Check for updates
+Soon Joo Yoon 1, Jeongdae Ha2, Hyeokjun Lee2,J i nT a eP a r k1,B i nH y u n gL e e3,K y u n g - I nJ a n g2,4,5,
+Anna Yang6 & Yoon Kyeung Lee 1,3,4
+The use of water-based chemistry in photolithography during semiconductor fabrication is desirable
+due to its cost-effectiveness and minimal environmental impact, especially considering the large scale
+of semiconductor production. Despite these bene ﬁts, limited research has reported successful
+demonstrations of water-based photopatterning, particularly for intrinsically water-soluble materials
+such as Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) (PEDOT:PSS) due to signi ﬁcant
+challenges in achieving selective dissolution during the developing process. In this paper, we propose
+a method for the direct patterning of PEDOT:PSS in water by introducing an amphiphilic Poly(ethylene
+glycol)-block-poly(propylene glycol)-block-poly(ethylene glycol) (PEO-PPO-PEO, P123) block
+copolymer to the PEDOT:PSS ﬁlm. The addition of the block copolymer enhances the stretchability of
+the composite ﬁlm and reduces the hydrophilicity of theﬁlm surface, allowing for water absorption only
+after UV exposure through a photoinitiated reaction with benzophenone. We apply this technique to
+fabricate tactile and wearable biosensors, both of which beneﬁt from the mechanical stretchability and
+transparency of PEDOT:PSS. Our method represents a promising solution for water-based
+photopatterning of hydrophilic materials, with potential for wider applications in semiconductor
+fabrication.
+Poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) (PEDOT:PSS) is
+considered to be one of the most promising conductive polymers due to its
+adjustable electronic properties, optical transparency, solution processa-
+bility, and biocompatibility
+1. PEDOT:PSS has demonstrated several key
+advantages that have facilitated its use inﬂexible and stretchable electronics,
+electrochemical transistors and sensors, energy storage, and tissue
+engineering2. Over the past two decades, various compositions, doping
+techniques, and chemical modiﬁcations have been developed to meet the
+diverse requirements of different applications3,4.
+An aqueous dispersion of PEDOT:PSS is amenable to diverse solution-
+based manufacturing processes, including coating (e.g., dip-, spin-, and
+spray-coating) and printing (e.g., inkjet and screen printing)
+5– 9.A m o n g
+these techniques, photolithography stands out as a promising processing
+approach, which is instrumental in creating micro- or nanoscale structures
+on planar substrates 10. Given the immense potential of PEDOT:PSS in
+future electronic systems, devising chemistry for the photopatterning of
+PEDOT:PSS is critical to enabling reliable and scalable production of its
+potential applications. Several methods, such as reactive ion etching based
+on oxygen plasma with polymer masks, ion beam lithography, and electron
+beam lithography, have beenexplored to pattern PEDOT:PSS
+11,12. However,
+direct patterning of PEDOT:PSSﬁlms without the need for overlay coating
+for selective masking has not been reported.
+This paper presents a photopatterning process for the fabrication of
+transparent and stretchable conductive polymer composed of PEDOT:PSS.
+The surface hydrophobicity of the ﬁlm is regulated by the addition of an
+amphiphilic Poly(ethylene glycol)-bl ock-poly(propylene glycol)-block-
+poly(ethylene glycol) (PEO-PPO-PEO, P123) based block copolymer,
+which generates a phase-separated vertical structure through the
+hydrophobic-hydrophilic interaction with PEDOT:PSS
+13.E x p o s u r et oU V
+light triggers the chain scission of the block copolymer through
+1Department of Nano Convergence Engineering, Jeonbuk National University, Jeonju 54896, Republic of Korea. 2Department of Robotics Engineering, Daegu
+Gyeongbuk Institute of Science and Technology, Daegu 42988, Republic of Korea. 3Division of Advanced Materials Engineering, Jeonbuk National University,
+Jeonju 54896, Republic of Korea. 4ENSIDE Corporation, Daegu 42988, Republic of Korea. 5Korea Brain Research Institute, Deagu 41062, Republic of Korea.
+6Department of Chemistry and Biochemistry, Swarthmore College, Swarthmore, PA 19081, USA. e-mail: yoonklee@jbnu.ac.kr
+npj Flexible Electronics |            (2024) 8:22 1
+1234567890():,;
+1234567890():,;
+
+photoactivated benzophenone (BP), resulting in increased water wettability
+of the composite ﬁlm and dissolution of the UV-exposed area. Demon-
+stration of this technique involves the creation of transparent and stretch-
+able touch sensors as well as wearable biosensors. This study highlights a
+promising approach for the develop ment of conductive polymer-based
+devices with enhanced functionalit y while simultaneously addressing
+environmental concerns and cost-effectiveness in their production.
+Results and discussion
+Patterning mechanism of Photopatternable PEDOT:PSS
+Figure 1a shows the rapid decrease in the contact angle of water on the
+surface of PEDOT:PSSﬁlm due to its hydrophilicity. PEDOT is a conjugated
+polymer that can be oxidized to a positively charged conductive state. PSS
+contains negative charges as a result of deprotonated sulfonyl groups and
+acts as a counterion to balance the positive charges of PEDOT
+14.W h e n
+unmixed with other polymers, the secondary structure of PEDOT:PSS is
+composed of short, positively charged PEDOT chains that are electro-
+statically attached to the longer, negatively charged PSS chains
+15. PED-
+OT:PSS is highly water soluble forming colloidal particles with a
+hydrophobic PEDOT-rich core and a hydrophilic PSS-rich shell16. Further
+aggregation of PEDOT cluster occurs upon water evaporation during the
+solid ﬁlm formation resulting in multilayer stacks of PSS-encased PEDOT
+cores
+17. The cohesive strength between th e aggregates originates from
+hydrogen bonding between the sulfonic acid groups of PSS and π-orbital
+stacking between PEDOT chains 18. The high water solubility of PED-
+OT:PSS, however, poses a challenge for photopatterning using water as a
+developer19,20. The microstructure of the PEDOT:PSS ﬁlm also does not
+support stable conductivity under tensile stain due to the isolation of the
+conduction pathways upon stretching19.
+The addition of poly(ethylene oxide)-poly(propylene oxide)-poly(-
+ethylene oxide) (PEO-PPO-PEO) block copolymers, which are commer-
+cially available amphiphiles (known as Pluronics or Poloxamers), can
+modify the secondary and ternary structure of PEDOT:PSS in both water
+and solid state ﬁlms
+21. A previous study reported that the interaction
+between Pluronics and PEDOT:PSS alters the electrical conductivity and
+stretchability of the PEDOT:PSS ﬁlms due to the more linearized con-
+formation of both polymers21. The study showed that theﬁlm achieved high
+electrical conductivity (~1700 S cm−1) and minimal change in resistance
+Fig. 1 | Process and patterned features of photo-
+patternable PEDOT:PSS. a Water contact angles
+depending on the ﬁlm composition and UV expo-
+sure. After addition of P123 in the ﬁlm composite,
+wetting occurs only after UV exposure. b Change of
+contact angles. c Photopatterning process of PED-
+OT:PSS. The UV-exposed area becomes soluble in
+water within 10 s. d Stereomicroscope images of
+patterned PEDOT:PSS ﬁlms. The scale bar lengths
+from the left are 1000, 500, and 200 μm. e Images of
+PEDOT:PSS ﬁlms on the SEBS substrate that show
+transparency and stretchability.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 2
+
+under 40% tensile strain 21. In this study, a long PPO chain of the P123
+version of Pluronics (PEO:PPO:PEO = 20:70:20) plays a critical role in
+controlling the water solubility of the PEDOT:PSS/P123 composite ﬁlm.
+When P123 is blended with PEDOT/PSS in an aqueous medium and
+subsequently dried to generate a solid ﬁlm, the composite ﬁlm displays a
+relatively hydrophobic surface, as evidenced by the larger contact angle of
+approximately 50 degrees as shown in the second-row images of Fig.1a. The
+modest variations observed in the contact angle, over a timescale of roughly
+10 s (red line in Fig. 1b) indicate that the surface wetting of the composite
+ﬁlm is signiﬁcantly impeded compared to the pure PEDOT:PSSﬁlm, owing
+to the modiﬁed surface groups of the compositeﬁlm.
+In order to selectively dissolve the composite ﬁlm in water for pat-
+terning, a photoactive compound, benzophenone (BP), was incorporated
+into the PEDOT:PSS/P123 compositeﬁlm with a concentration of 1.6 wt%.
+The inclusion of benzophenone did not signiﬁcantly alter the contact angle
+of the pristine ﬁlms prior to UV exposure. All the data presented in Fig. 1
+were obtained with BP. Compared to the negligible alterations in contact
+angle of the pure P123 ﬁlm after UV exposure, a discernible decrease in
+contact angle manifested in the PEDOT:PSS/P123 ﬁlm following UV
+exposure. The difference originatesfrom the presence of a PEDOT:PSS layer
+under P123 in the composite ﬁlm since the underlying PEDOT:PSS layer
+functions as an absorber of water diffused through the pores in UV-treated
+P123 (Supplementary Fig. 1). This phenomenon facilitates the dissolution of
+the PEDOT:PSS layer, serving as the impetus for the subsequent lift-off of
+the superimposed P123 layer. Detailed analytical simulations and chemical
+characterization will be provided in subsequent sections.
+This pronounced contrast in hydrophilicity, depending on UV expo-
+sure, can facilitate the direct photopatterning of the composite ﬁlm upon
+subsequent immersion in deionized water. Figure1c describes the process of
+water-based patterning of the stretchable, conductive polymer that involves
+a UV-induced chemical change in the PEDOT:PSS/P123 composite ﬁlm.
+The fabrication begins from the spin-coating of a mixture comprising
+PEDOT:PSS, P123, and benzophenone dissolved in a solution consisting of
+a 4 to 1 ratio of PEDOT:PSS aqueous solution and ethanol. After the solvent
+evaporation, conventional photolithography selectively exposes speci ﬁc
+regions of the solid-stateﬁlm. The exposed portion is subsequently dissolved
+in deionized water, functioning as a positive photoresist. The water-based,
+direct patterning of PEDOT:PSS/P123 avoids hazardous chemicals typically
+encountered in photoresist overlays or developers.
+The optical images in Fig.1d illustrate micropatterns achieved through
+the direct patterning of PEDOT:PSS/P123ﬁlms on a stretchable substrate
+under optimized photolithography conditions. The speciﬁcs a m p l ec o m -
+positions and detailed procedures employed are outlined in the Methods
+section. The line patterning attains a minimum resolution of approximately
+20 μm, with well-deﬁned round and sharp edges. The serpentine patterns,
+commonly utilized for stretchableelectrodes, exhibit a width of 50 μm, as
+exempliﬁed in the last row of Fig. 1d. Figure 1es h o w st h ei m a g e so f
+stretchable PEDOT samples on a stretchable substrate, showcasing various
+deformation modes. Approximately 80% of the substrate surface is covered
+by diamond shaped PEDOT electrodes, illustrating both their stretchability
+and optical transparency.
+The vertical distribution of component polymers in the PEDOT:PSS/
+P123 composite ﬁlm can be investigated using X-ray photoelectron spec-
+troscopy (XPS) of the solid ﬁlm due to the distinct ratio between the C– H
+and C– O– C carbon 1s peaks, located at 284.5 eV and 286 eV, respectively22.
+Figure 2a shows that the pure P123ﬁlm exhibits a relatively larger C– O– C
+peak at 286 eV (highlighted in purple) in comparison to the lower binding
+C– H peak around 284.5 eV (highlighted in green). On the other hand, the
+pure PEDOT:PSS ﬁlm displays a C– O– C peak smaller than a C – Hp e a k ,
+which contradicts the aforementioned intensity ratio between the two
+carbon peaks in P123. The XPS spectra acquired from the compositeﬁlm
+show a relative intensity that is similar to P123, suggesting that the surface is
+P123-rich. The depth proﬁle of the XPS data in Fig.2b reveals that theﬁlm
+etching exposes the PEDOT:PSS-ric h bottom layer, which exhibits a
+dominant C– H peak at 284.5 eV. The results suggest that PEDOT:PSS
+precipitates ﬁrst owing to the robust π– π interaction and hydrophobic
+properties of ethylenedioxy groups,forming PEDOT:PSS-rich bottom and
+P123-rich top layers
+23.
+Additional characterization of the UV-treated samples was
+conducted using XPS (Fig. 2a, lower row) and Fourier-transform
+infrared spectroscopy (FT-IR, Supplementary Fig. 2). These analyses
+reveal the origin of the observed changes in hydrophilicity induced
+by UV treatment. Speci ﬁcally, the carbon XPS peaks of P123 and
+PEDOT:PSS/P123 samples exhibit the emergence of new C=O bonds,
+highlighted in red, at a binding energy of around 289 eV. The peak
+intensity corresponding to the ether bond (C – O– C) at around 286 eV
+(purple) decreased following UV exposure. Such changes were
+observed only for the ﬁlms that contained both P123 and BP.
+However, no signi ﬁcant changes were observed for the PEDOT:PSS/
+BP ﬁlm without P123, as depicted in the middle column of the graphs
+in Fig. 2a.
+Solution nuclear magnetic res onance (NMR) was attempted to
+further investigate the details of the UV-induced chemical change.
+Solution NMR provided limited chemical information, however, due
+to the formation of insoluble ﬁlm after UV exposure, which remained
+insoluble in water, DMSO, acetone, or toluene. The insoluble frag-
+mented ﬁlms generated by UV exposure are lifted off by the water
+absorption to the underlying PEDOT and its subsequent dissolution.
+The NMR samples included only the soluble portion of the UV-
+treated samples after ﬁltering the insoluble portion. Broadband
+13C-NMR (Supplementary Fig. 3) showed ﬁve new peaks at 146, 129,
+126, 125.6, and 83 ppm after UV exposure, corresponding to the
+reduced benzophenone. However, the peak at 83 ppm did not appear
+in the distortionless enhancement by polarization transfer (DEPT)-
+90/135
+13C-NMR, suggesting that it is the quaternary carbon. This
+observation indicates that the ketyl radical can react with other
+radicals generated in P123 (Path I in Fig. 2c) or terminate to give
+benzopinacol (Path II). Hydrogen a bstraction to form ketyl radicals
+could occur in various chains in P123, such as -CH
+2,- C H ,a n d- O H .
+Although possible to form radical on PEO chains, it is most likely
+that hydrogen abstraction to o ccur in PPO due to the more stable
+tertiary radical that can be formed on the PPO chains.
+Reaction pathway III in Fig. 2c summarizes comprehensive potential
+mechanisms that can occur for P123 subsequent to hydrogen abstraction
+from benzophenone. The formation of an insoluble ﬁlm and C=O bonds
+due to UV exposure suggests both the scission of ether bond and cross-
+linking on the P123-dominantﬁlm surface. The reaction pathway III-1 in
+Fig. 2c illustrates the crosslinking between P123 polymer chains. The
+insolubleﬁlm layer formed after UV exposure is suspected to be cross-linked
+high molecular weight polymers. An alternative pathway III-2 yields smaller
+fragments with carbonyl groups, consistent with the changes in carbon
+peaks observed in XPS data. It is also plausible that small molecules such as
+1,2-propanediol, acetic acid, and formic acid may form via photo-oxidative
+fragmentation of P123 in the presence of water and air, similar to the process
+observed in the thermal oxidative fragmentation
+24. These hydrophilic small
+molecules and the possible formation of carboxylic acid (Path III-2 ’)a r e
+suspected to be responsible for the dewetting of the compositeﬁlm after UV
+exposure when the patterns were formed on a hydrophobic surface treated
+with APTES (Supplementary Fig. 4).
+A ﬁnite element analysis in Fig.3 simulates water penetration into the
+composite ﬁlm to explain the remarkable increase in hydrophilicity of
+PEDOT:PSS/P123ﬁlm after UV exposure. It is notable that the UV-induced
+dissolution of the compositeﬁlm only occurs in the presence of the PED-
+OT:PSS bottom layer. To achieve simulation results in accordance with this
+experimental observation, speciﬁc parameters related to water uptake were
+estimated byﬁtting experimental data on water uptake. Assuming the water
+droplets employed for contact angle measurements adopt the conﬁguration
+of a spherical cap, the absorbed water mass can be computed by utilizing the
+initial droplet volume in conjunction with the contact angle data observed
+over time. Simulation parameters include the diffusion coefﬁcients (D)a n d
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 3
+
+water absorption capacities (S) for the PEDOT:PSS and P123-rich layers
+before and after UV exposure. Details of the methods and estimated values
+of the parameters are described in Supplementary Text 1, Supplementary
+Fig. 5, and Supplementary Table 1. While the water absorption capacity of
+P123 remain similar before and after UV exposure, the diffusion coefﬁcient
+of the P123-rich layer increased signi ﬁcantly after UV exposure (9.0 to
+14.7 × 10
+−16 m2 s−1). This tendency of the P123- rich layer enabled the
+selective dissolution of the underlying PEDOT:PSS layer, thereby facilitating
+the patterning process.
+Figure 3a illustrates the distribution of water for three differentﬁlms
+(PEDOT:PSSﬁlm, PEDOT:PSS/P123 compositeﬁlms before and after UV
+exposure) when immersed in water for 10 s. For the pure PEDOT:PSSﬁlm,
+water permeates throughout the entire area, resulting in complete soaking.
+Water permeation into the compositeﬁlm is effectively inhibited before UV
+Fig. 2 | Patterning Mechanism of Photopatternable PEDOT:PSS. a The change of
+carbon peaks before and after UV exposure. The C=O bonds (red) emerge from the
+photoactivated process of P123. b Depth proﬁle of carbon XPS peaks that reveal the
+P123-rich surface and PEDOT:PSS-rich bottom layers inside the composite ﬁlm.
+c Proposed chemical mechanism of hydrophilicity control after UV exposure.
+Chemical reactions initiated by the photoactivated benzophenone and ensuing
+chain cleavage of P123.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 4
+
+exposure, however, allowing only scant water penetration into the under-
+lying PEDOT:PSS layer due to the small value of the diffusion constant of the
+P123 top layer. When certain regions of the compositeﬁlm are exposed to
+UV, water penetrates into the PEDOT:PSS layer only within the areas under
+t h eU V - e x p o s e dP 1 2 3 ,w h i l en e g l i g i b le water absorption occurs within the
+regions shielded by unexposed P123. The P123-rich layer exhibits a small
+a m o u n to fw a t e ra b s o r p t i o no v e rt h es imulation time due to its intrinsically
+low water absorption capacity. This implies that the P123-rich layer pre-
+dominantly functions as a conditional pathway for water penetration.
+Figure3b and Supplementary Fig. 6 depict the mass fraction of water as
+a function of the lateral location of theﬁlms. The shaded regions represent
+the areas exposed to UV irradiation. Water penetrates uniformly for the
+pure PEDOT:PSSﬁlm and the compositeﬁlm before UV exposure. When
+the middle area between 8 and 38 μm is subjected to UV exposure, a
+signiﬁcant increase in water mass fracti o ni so b s e r v e df o rt h ec o m p o s i t eﬁlm.
+A steep gradient emerges at the boundary demarcating UV-exposed
+regions, ensuring a reliable patterning process.
+Figure 3c illustrates the water uptake rates of the three ﬁlms. In the
+PEDOT:PSSﬁlm, water uptake nearly reaches saturation within a brief span
+of 3– 4 s due to its high diffusion coef ﬁcient. For the composite ﬁlm, the
+presence of the P123-rich layer impedes the diffusion of water, resulting in a
+comparatively gradual progression of water uptake. Notably, a distinct
+contrast in water uptake rate is observed in the compositeﬁlm before and
+a f t e rU Ve x p o s u r e .T h es l o ww a t e ru p t a k er a t eb e f o r eU Ve x p o s u r ei s
+remarkably accelerated upon exposure to UV radiation. The simulation
+results show that UV-induced change int h ew a t e ra b s o r p t i o nd y n a m i c so f
+the P123-rich layer enables the selective absorption of a substantial volume
+of water exclusively in areas subjected to UV irradiation. Consequently, this
+methodology facilitates deterministic patterning of PEDOT:PSS/P123 lay-
+ers in water with a brief immersion time of approximately 10 s.
+Optical and mechanical properties of patterned PEDOT:PSS
+Figure4 summarizes the optical transparency and mechanical stretchability
+of the composite ﬁlms. The stretchability of the pristine ﬁlm is enhanced
+through the dehydration cross-linking reaction of P123, achieved via sul-
+furic acid treatment 25– 27.T h i sp r o c e s sn o to n l yc o n t r i b u t e st oi n c r e a s e d
+stretchability but also facilitates the formation of sizable PEDOT domains,
+resulting in improved electrical conductivity21. The synergistic effect of these
+mechanisms enhances the overall performance of the ﬁlm, making it
+simultaneously more stretchable and electrically conductive compared to its
+untreated counterpart. The sheet resistance of theﬁlm was reduced by ~56%
+after the acid treatment, as shown in Supplementary Fig. 8. The transmit-
+tance values at a wavelength of 575 nm were determined to be 94%, 92%,
+and 88% for the pristine, H
+2SO4-treated, and BP-contained samples,
+respectively. The decline in transmittance, speciﬁcally in the long wave-
+length region exceeding 600 nm, is ascribed to the formation of high
+molecular weight P123 chains resulting from the P123 dehydration cross-
+linking reaction during the sulfuric acid treatment
+28– 31.
+The mechanical endurance of the fabricated photopatternable PED-
+OT:PSS/P123 electrodes was assessed under conditions of cyclic stretching
+and releasing between 0 and 30% tensile strains after sulfuric acid treatment
+(Fig. 4b– d). Herein, Ri, R0,a n d R represent the resistances of initial states
+before the cycles, unstrained states (ε = 0%), and stretched states (ε = 30%)
+during the cycle, respectively.R0 increased about 14% after the initial cycle
+and displayed a 3% increase during the following 1000 cycles. Meanwhile,
+the resistance atε = 30% (R, Fig.4c) demonstrated minorﬂuctuations of 5%
+or less over the course of 1000 cycles. The resistance variations depicted in
+Fig. 4b, c decreased with repetitive cycling, attributed to the change in the
+dimensions of PEDOT cores over successive strain cycles
+32.
+Application of Photopatternable PEDOT:PSS in a wearable device
+Figure 5 illustrates the practical realization of a stretchable and transparent
+capacitive touch sensor utilizinga photopatternable PEDOT:PSS/P123ﬁlm.
+The schematic representation of the device con ﬁguration is presented in
+Fig.5a. The substrate and dielectric layerwere fabricated using SEBS, chosen
+for its remarkable stretchability and optical transparency. The diamond-
+shaped patterns of PEDOT:PSS/P123 electrode were incorporated to
+enhance the device capacitance. Detailed information regarding the layer
+thicknesses and electrode dimensions can be found in the experimental
+section.
+The capacitive behavior of the touch sensor is depicted in Fig.5b. When
+a ﬁnger approaches the sensor surface, fringing electric ﬁelds between
+adjacent diamond-patterned electrodes become reduced
+32.U p o np h y s i c a l
+contact, a discernible change in capacitance (ΔC)o f0 . 1 2p Fw a so b s e r v e d
+from the baseline capacitance of 1.02 pF. Capacitance decreases measured at
+non-contact distances from 1 cm to 5 cm imply potential applicability as a
+proximity touch sensor. The touch sensor reliably reverts to its initial
+capacitance uponﬁnger removal, validating its operational reversibility.
+Fig. 3 | Finite Element Analysis for Water Uptake
+in Composite Films. a Distribution of water
+absorption for PEDOT:PSS and P123/PEDOT:PSS
+ﬁlms before and after UV exposure after 10 s of
+water exposure. The structure of the compositeﬁlms
+was modeled as double layers with P123 top and
+PEDOT bottom layers. b Water mass fraction
+depending on the ﬁlm composition at 10 s after UV
+exposure. Lateral positions between ~8 and 38 μm
+were assumed to be exposed to UV. c Total water
+uptake as a function of soaking times depending on
+the ﬁlm composition and UV exposure.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 5
+
+The device resilience to mechanical deformations was assessed through
+tensile and bending tests, as shown in Fig.5c, d. Up to 40% uniaxial strain,
+the capacitance uniformly increases due to the reduced thickness of the
+dielectric layer and larger electrode size. When subjected to uniaxial
+stretching above 40%, the capacitance decreases by ~12% due to the
+expanding dielectric length between the diamond-patterned electrodes.
+Under bending deformation of the sensor (Fig.5d), a baseline capacitance of
+1.02 pF and post-touch capacitance of 0.74 pF remain stable until a bending
+radius of 6 mm. The increase in capacitance observed below a bending
+radius of 6 mm is attributable to the sensor ’s deformation under pro-
+nounced bending conditions. The lowerposition of the neutral plane ori-
+ginating from the thick substrate causes the expansion of the electrode areas
+and diminishes the gap between the upper and lower electrodes
+33.A d d i -
+tionally, the change in the parasitic capacitance between the lower electrodes
+and the surrounding air at smaller bending radii can increase the overall
+capacitance
+33– 35.
+To assess the feasibility of the photopatternable PEDOT electrodes in
+wearable technology, electrooculogram (EOG), electrocardiogram (ECG),
+and electromyogram (EMG) sensors were developed. Supplementary Fig-
+ure 9 depicts the electrochemical impedance spectroscopy (EIS) analysis to
+assess the contact impedance of the stretchable PEDOT:PSS/P123 electrode
+with the skin. To minimize motion artifacts during the data acquisition
+process, the three electrodes (reference, counter, working electrode) were
+afﬁxed to the skin surface of the thigh and secured using tape to mitigate
+potential interference from concurrent physiological electrical signals, such
+as respiration, muscle movement, and electrocardiogram (ECG) signals
+36.
+For EOG signal acquisition, electrodes were strategically positioned
+around the eyes as illustrated with black circles in Fig. 5e. High transmit-
+tance characteristics of the sensor e lectrodes made the mounted devices
+scarcely noticeable (Fig. 5f). Speciﬁcally, a pair of sensors were situated
+above and below the eyebrows to capture vertical eye movements. The
+reference electrode was placed on the zygomatic bone adjacent to the eye,
+with the + and − electrodes connected to the upper and lower eye sensors,
+respectively. The schematic and experimentally measured EOG signals are
+depicted in the left and right graphs of Fig.5g, respectively. In EOG, positive
+corneal potentials are detected by the nearer electrode during gaze shifts
+toward it, while negative retinal potentials are collected by the distant
+electrode. Consequently, an upward gaze yields a positive potential, whereas
+a downward gaze results in a negative potential
+37.T h em a g n i t u d eo ft h e
+recorded EOG signal through the sensor was measured to be 13.8 ± 0.4 mV
+in the vertical dimension, showcasing a noticeable voltage alteration with
+each eye movement.
+In a similar manner, ECG signals were acquired using the same elec-
+trode conﬁguration as the EOG sensor with the mounting locations indi-
+cated by the red circles in Fig.5e. The ECG waveforms encompass distinct
+components such as P, Q, R, S, and T waves depending on the cardiac
+cycles
+38. Heart rate calculations derived from the reciprocal of the time
+between R waves yielded a measurement of 71.4 beats per minute (bpm),
+conﬁrming the device reliability in this context.
+The acquisition of EMG signals was attempted for their increasing
+prominence in various applications such as skeleton robot control or
+prosthetics. In this application, the reference electrode was af ﬁxed to the
+elbow, while the+ and − electrodes were attached to theﬂexor digitorum
+profundus and extensor digitorum, respectively, to detect electrical signals
+produced during clenching and releasing hand gestures. In EMG signal
+measurements, the voltage differential between clenching and releasing
+hand motions was approximately 70 mV, facilitating clear differentiation
+between the two actions (Fig.5i).
+In conclusion, this study successfully developed a straightforward and
+environmentally friendly photolithography technique by incorporating the
+amphiphilic polymer P123 and benzophenone as a photoinitiator into the
+conductive polymer PEDOT:PSS. The related chemistry enabled the for-
+mation of patterns with a minimum line width of 20 µm in water. The
+patterning mechanism of PEDOT:PSS /P123 was elucidated through a
+comprehensive analysis, including XPS andﬁnite element analysis (FEA)
+simulations. The patterned PEDOT:PSS/P123 demonstrated a stretchable
+and transparent touch sensor due to its elasticity and transmittance. The
+electrodes also successfully captured essential biosignals such as EOG, ECG,
+and EMG. The results demonstrated signi ﬁcant promise of the photo-
+patternable PEDOT:PSS for an ideal candidate for stretchable electronics
+and comfortable, visually unobtrusive skin patches, ensuring a seamless and
+convenient wearable experience without causing discomfort to users.
+Methods
+Materials
+PEDOT:PSS (Clevios PH1000, PEDOT:PSS = 1 : 2.5, solids content :
+0.77%) was purchased from Heraus . Poly(ethylene glycol)-poly(-
+propylene glycol)-poly(ethyle ne glycol) (Mn = ~5800, PEO-PPO-
+Fig. 4 | Optical and Electrical Properties of PED-
+OT:PSS/P123 Films. a Transmittance of the PED-
+OT:PSS ﬁlm on SEBS for the wavelength in a visible
+range. b Change of resistance at 0% strain (R 0)
+during the stretching cycles normalized by the initial
+value before the stretching cycles (Ri). c, d Change in
+resistance under 30% strain ( R) normalized by the
+resistance at 0% strain ( R0) at each cycle.
+d Hysteresis of normalized resistance ( R/R0) during
+the stretching cycles.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 6
+
+PEO, P123), benzophenone (Reage ntPlus, 99%), sulfuric acid (ACS
+reagent, 95.0 – 98.0%) were purchased from Sigma-Aldrich. Styrene-
+ethylene-butylene-styrene (SEBS , Tuftec H1052) was purchased from
+PHILJIN commercial.
+Preparation of photopatternable PEDOT:PSS/P123 solution with
+benzophenone
+PEDOT:PSS and P123 were stirred overnight at 900 rpm (P123 20 wt% in
+PEDOT:PSS) Benzophenone solution (10 wt% in ethanol) was added to the
+mixed solution and stirred at 1000 rpm for 2 h. The mixture was cooled to
+5° C .T h eﬁnally mass ratio of the mixture was PEDOT:PSS solution : P123 :
+ethanol : benzophenone = 4 : 1 : 1 : 0.1.
+Fabrication of transparent, stretchable touch sensor
+A 400 mg per ml solution of SEBS dissolved in toluene was spin-coated at
+500 rpm for 1 min on a 2.5 × 7 cm slide glass cleaned with acetone and IPA.
+The coated glass was annealed at 90 °Cf o r1ho nah o tp l a t e .T h eg l a s s / S E B S
+substrate was then treated with O
+2 plasma with an oxygen ﬂow rate of
+10 sccm for 5 min. The photoinitiated PEDOT:PSS/P123 solution was spin-
+coated at 2000 rpm for 1 min on the surf ace-treated SEBS substrate, fol-
+lowed by prebaking at 110 °C for 1 min. The photoinitiated PEDOT:PSS/
+P123 was patterned under UV exposure(365 nm, MIDAS system, Republic
+of Korea) with intensity of 15 mW cm−2 for 15 min throughﬁlm combined
+glass mask, and then postexposure bake at 110 °C for 1 min. As a result, a
+speciﬁc pattern was formed through direct patterning, and then the area
+Fig. 5 | Electrical characteristics of the fabricated stretchable touch sensor and the
+measurement results obtained from the biosignal-detecting sensor. a Illustration
+of the diamond-patterned electrodes in a transparent and stretchable touch sensor.
+The scale bar length is 400 μm. b Capacitance change depending on the distance of
+the ﬁnger from the sensor surface. c Capacitance changes depending on the strain.
+d Capacitance changes depending on the bending radius. e Positioning sites for
+EOG, ECG, and EMG sensors: black for EOG, red for ECG, and blue for EMG.
+f Optical images of the mounted EMG sensor and microscopic view of the sensor
+electrode patterns. g– i Plots of typical waveforms (left) and measured signals (right)
+from g EOG, h ECG, i EMG sensors.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 7
+
+exposed to UV was developed through DI water. Finally, The patterned
+PEDOT:PSSﬁlm was baked on a hot plate at 60 °C for 1 h. Multilayer SEBS/
+PEDOT:PSS/P123ﬁlms were obtained by repeating the previous steps. The
+geometric speciﬁcations include a diamond-patterned electrode size (l2)o f
+36 mm2 (6 mm by 6 mm), a distance between the top and bottom diamond-
+shaped electrodes (d)o f5 4 μm, and a bridge width of 200 μmi nt h i se l e c -
+trode arrangement. The thickness of the dielectric layer between the top and
+b o t t o me l e c t r o d e si s2 0μm.
+Characterizations of photopatternable PEDOT:PSS/P123ﬁlms
+Optical microscope images were acquired using a stereo microscope to
+facilitate the examination of the PEDOT:PSS/P123 material produced
+through direct patterning. Transmittance measurements of the PED-
+OT:PSS/P123 ﬁlm within the visible light spectrum were performed uti-
+lizing UV – vis spectroscopy. The sheet resistance of the synthesized
+composite thinﬁlm was quantiﬁed employing a 2400 sourcemeter (Keith-
+ley, USA) in conjunction with a 4-point probe station.
+Mechanical analysis of the SEBS/PEDOT:PSS/P123 hybrid material
+encompassed assessments of Young’s modulus and yield strength, executed
+via a universal testing machine (Shimadzu, Japan). Evaluations concerning
+the response of transparent, stretchable electrodes to mechanical defor-
+mations were carried out employinga Keithley 4200 semiconductor char-
+acterization system (Keithley, USA) and a uniaxial tensioner. Additionally,
+an investigation into the touch sensor characteristics across a spectrum of
+deformations was conducted.
+NMR spectroscopy
+Solution-state proton (H1) and carbon-13 (C13) nuclear magnetic reso-
+nance (NMR) spectra of P123 were acquired using a 600 MHz FT-NMR
+spectrometer installed in the Center for University-wide Research Facilities
+(CURF) at Jeonbuk National University. P123 samples, both pre- and post-
+UV treatment, underwent complete removal of residual moisture and sol-
+vents through a lyophilization process lasting 24 hours. The preparation of
+P123 solutions in dimethyl sulfoxide (DMSO-d6) was followed by the
+removal of insoluble constituents via centrifugation at 4000 rpm for 10 min.
+Chemical shifts were referenced against the carbon resonances of
+DMSO-d6.
+XPS analysis
+X-ray photoelectron spectroscopy (XPS) was conducted to scrutinize the
+composition of PEDOT:PSS, P123, and PEDOT:PSS/P123 composite
+mixtures. X-ray photoelectron spectroscopy (XPS) depth proﬁling provides
+chemical distributions based on the disparities in the intensity of C– Ha n d
+C– O– H peaks between the upper P123 and lower PEDOT layers. The
+investigations were carried out using a Nexa XPS system (ThermoFisher,
+UK) with an Al Kα monochromatic X-ray source (energy: 1486.6 eV). The
+experiments were conducted under vacuum conditions of 1.0 × 10
+−7 Torr at
+room temperature.
+In addition, depth pro ﬁling analysis was undertaken to explore the
+subsurface composition. To achieve this, the XPS analysis was repeated after
+subjecting the samples to 60 s of etching using a 4 keV per 500 clusters of Ar
+ions, facilitated by an Ar ion cluster integrated within the same XPS system.
+Fourier-transform infrared
+For Fourier-transform infrared (FTIR) analysis, the samples were meticu-
+lously prepared using the same conditions as those employed for the XPS
+analysis. The FTIR measurements were executed with a spectral resolution
+of 4 cm
+−1, employing the attenuated total re ﬂectance (ATR) mode. The
+analysis spanned a spectral range from 4000 to 650 cm−1.
+Finite element analysis
+To analyze the phenomenon of wa ter penetration into polymer ﬁlms,
+simulation analyses were conducted u sing the widely utilized software
+COMSOL 6.5. A dense 2D and 3D mesh was generated, with a particularly
+high mesh density at the interfaces between the ﬁlms. The Transport of
+Diluted Species (TDS) model was employed, and weak inequality con-
+straints were applied to each domain to ensure that theﬁlms did not contain
+concentrations exceeding their water absorption capacity limits. The nor-
+malization method was employed to avoid discontinuities in variables or
+divergence in concentration gradients at the heterogeneous inter-
+face(Supplementary Fig. 10)
+39,40. Instead of using the water concentration as
+the dependent variable in the simulation, we used a variable normalized
+against the water absorption capaci ties of each polymer. This approach
+prevents discontinuities at the interface. After completing the simulation
+analysis, the normalized water concentration was calculated by multiplying
+the water absorption capacities of each polymer with the normalized
+variable
+39,40. The diffusion characteristi cs were determined through the
+transport properties module. The analysis involved setting the maximum
+water concentration (S) at the interface between the polymerﬁlm in direct
+contact with water. The parameters used in the simulation were determined
+by utilizing the parameter estimation module to achieve the best ﬁtw i t h
+experimental data. The determined parameters are presented in Supple-
+mentary Table 1.
+Parameter ﬁtting
+The relationship between the contact a n g l ea n dt h ev o l u m eo ft h ew a t e r
+droplet was approximately calculated. The water droplet was assumed to
+have the shape of a sphere cap. Simulation parameters were estimated toﬁt
+the calculated water uptake data over time with the simulation results. More
+details are provided in Supplementary Text 1.
+Measurement of electrophysiological (EP) signals
+For the measurement of the electrooculography (EOG) signal, three PED-
+OT:PSS-based electrodes were attached to the periphery of the right eye. The
+ground electrode was attached to the c heekbone next to the ear, and the
+other two electrodes were attached above and below the eye. Then, EOG was
+recorded by moving the eyes up and down without moving the facial
+muscles. The recorded data were digitized at 400 Hz, with an averageﬁlter
+(15 ms of length) to reduce the high-frequency noise from the EOG signal.
+ECG signal was recorded from three electrodes placed over the most medial
+areas of the left and right fourth intercostal spaces and left pelvic bone
+(ground electrode). The data also were collected at a sampling frequency of
+400 Hz, with an average ﬁlter (15 ms of length) to eliminate the noise. For
+measurement of Electromyograph y (EMG), the ground electrode is
+attached to the lateral epicondyle bone, and the other two electrodes are
+located on the right arm (ﬂexor carpi radialis). The ECG was recorded by
+repeatedly clenching and unclenching theﬁst, and the data also were digi-
+tized at 400 Hz, with an average ﬁlter (15 ms of length). The observed
+biosignals were obtained without supplementary electrolytic gels on the
+electrodes.
+Data availability
+The data that support theﬁndings of this study are available on request from
+the corresponding author.
+Received: 10 October 2023; Accepted: 22 March 2024;
+References
+1. Ouyang, J. “Secondary doping” methods to signiﬁcantly enhance the
+conductivity of PEDOT:PSS for its application as transparent
+electrode of optoelectronic devices. Displays 34, 423–436 (2013).
+2. Groenendaal, L., Jonas, F., Freitag, D., Pielartzik, H. & Reynolds, J. R.
+Poly(3,4-ethylenedioxythiophene) and its derivatives: past, present,
+and future. Adv. Mater. 12, 481–494 (2000).
+3. Ouyang, J. et al. On the mechanism of conductivity enhancement in
+poly(3,4-ethylenedioxythiophene):poly(styrene sulfonate) ﬁlm
+through solvent treatment. Polymer 45, 8443–8450 (2004).
+4. Fan, B., Mei, X. & Ouyang, J. Signi ﬁcant conductivity enhancement of
+conductive poly(3,4-ethylenedioxythiophene):poly(styrenesulfonate)
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 8
+
+ﬁlms by adding anionic surfactants into polymer solution.
+Macromolecules 41, 5971–5973 (2008).
+5. Guo, Y. et al. PEDOT:PSS “Wires” printed on textile for wearable
+electronics. ACS Appl. Mater. Interfaces 8, 26998–27005 (2016).
+6. Dijk, G., Ruigrok, H. J. & O ’Connor, R. P. In ﬂuence of PEDOT:PSS
+coating thickness on the performance of stimulation electrodes. Adv.
+Mater. Interfaces 7, 2000675 (2020).
+7. Zabihi, F., Xie, Y., Gao, S. & Eslamian, M. Morphology, conductivity,
+and wetting characteristics of PEDOT:PSS thin ﬁlms deposited by
+spin and spray coating. Appl. Surf. Sci. 338, 163–177 (2015).
+8. Eom, S. H. et al. Polymer solar cells based on inkjet-printed
+PEDOT:PSS layer. Org. Electron. 10, 536–542 (2009).
+9. Sinha, S. K. et al. Screen-printed PEDOT:PSS electrodes on
+commercial ﬁnished textiles for electrocardiography. ACS Appl.
+Mater. Interfaces 9, 37524–37528 (2017).
+10. Ouyang, S. et al. Surface patterning of PEDOT:PSS by
+photolithography for organic electronic devices. J. Nanomater. 2015,
+1–9 (2015).
+11. Choi, J.-H. et al. Enhancement of organic solar cell ef ﬁciency by
+patterning the PEDOT:PSS hole transport layer using nanoimprint
+lithography. Org. Electron. 14, 3180–3185 (2013).
+12. Charlot, B. et al. Micropatterning PEDOT:PSS layers. Microsyst.
+Technol. 19, 895–903 (2013).
+13. Soni, S. S., Brotons, G., Bellour, M., Narayanan, T. & Gibaud, A.
+Quantitative SAXS analysis of the P123/water/ethanol ternary phase
+diagram. J. Phys. Chem. B 110, 15157–15165 (2006).
+14. Kayser, L. V. & Lipomi, D. J. Stretchable conductive polymers and
+composites based on PEDOT and PEDOT. Adv. Mater. 31,
+1806133 (2019).
+15. Rivnay, J. et al. Structural control of mixed ionic and electronic
+transport in conducting polymers. Nat. Commun. 7, 11287 (2016).
+16. Lang, U., Müller, E., Naujoks, N. & Dual, J. Microscopical
+investigations of PEDOT:PSS thin ﬁlms.
+Adv. Funct. Mater. 19,
+1215–1220 (2009).
+17. Nardes, A. M. et al. Microscopic understanding of the anisotropic
+conductivity of PEDOT:PSS thin ﬁlms. Adv. Mater. 19,
+1196–1200 (2007).
+18. Takano, T., Masunaga, H., Fujiwara, A., Okuzaki, H. & Sasaki, T.
+PEDOT nanocrystal in highly conductive PEDOT:PSS polymer ﬁlms.
+Macromolecules 45, 3859–3865 (2012).
+19. Lang, U., Naujoks, N. & Dual, J. Mechanical characterization of
+PEDOT:PSS thin ﬁlms. Synth. Met. 159, 473–479 (2009).
+20. Bießmann, L. et al. Monitoring the swelling behavior of PEDOT:PSS
+electrodes under high humidity conditions. ACS Appl. Mater.
+Interfaces 10, 9865–9872 (2018).
+21. Lee, J. H. et al. Highly conductive, stretchable, and transparent
+PEDOT:PSS electrodes fabricated with triblock copolymer additives
+and acid treatment. ACS Appl. Mater. Interfaces 10,
+28027–28035 (2018).
+22. Du, F.-P. et al. PEDOT:PSS/graphene quantum dots ﬁlms with
+enhanced thermoelectric properties via strong interfacial interaction
+and phase separation. Sci. Rep. 8, 6441 (2018).
+23. Zhang, X., Yang, W., Zhang, H., Xie, M. & Duan, X. PEDOT:PSS: from
+conductive polymers to sensors. Nanotechnol. Precis. Eng. 4 (2021).
+24. Gallet, G., Erlandsson, B., Albertsson, A. C. & Karlsson, S. Thermal
+oxidation of poly(ethylene oxide-propylene oxide-ethylene oxide)
+triblock copolymer: focus on low molecular weight degradation
+products. Polym. Degrad. Stab. 77,5 5– 66 (2002).
+25. Zhang, J. et al. Effects of tailoring and dehydrated cross-linking on
+morphology evolution of ordered mesoporous carbons. RSC Adv. 6,
+19515–19521 (2016).
+26. Li, L., Song, H. & Chen, X. Ordered mesoporous carbons from the
+carbonization of sulfuric-acid-treated silica/triblock copolymer/
+sucrose composites. Microporous Mesoporous Mater. 94,
+9–14 (2006).
+27. Tehrani, M. & Sarvestani, A. Effect of chain length distribution on
+mechanical behavior of polymeric networks. Eur. Polym. J. 87,
+136–146 (2017).
+28. Anders, U., Nuyken, O. & Buchmeiser, M. R. In ﬂuence of chain length
+and temperature on UV-vis absorption and degradation behavior of
+poly(diethyl dipropargylmalonate) with an alternating cis-trans-1,2-
+(cyclopent-1-enylene)vinylene structure. Des. Monomers Polym. 6
+,
+135–143 (2003).
+29. Zhou, C. et al. Chain Length Dependence of the Photovoltaic
+Properties of Monodisperse Donor –Acceptor Oligomers as Model
+Compounds of Polydisperse Low Band Gap Polymers. Adv. Funct.
+Mater. 24, 7538–7547 (2014).
+30. Hayashi, S., Yamamoto, S. & Koizumi, T. Effects of molecular weight
+on the optical and electrochemical properties of EDOT-based π-
+conjugated polymers. Sci. Rep. 7, 1078 (2017).
+31. Sears, W. M., MacKinnon, C. D. & Kraft, T. M. The effect of chain length
+on the dielectric and optical properties of oligothiophenes. Synth.
+Met. 161, 1566–1574 (2011).
+32. Lee, Y.-Y. et al. Growth Mechanism of Strain-Dependent
+Morphological Change in PEDOT:PSS Films. Sci. Rep. 6,
+25332 (2016).
+33. Yoo, D., Won, D., Cho, W., Lim, J. & Kim, J. Double side
+electromagnetic interference-shielded bending-insensitive
+capacitive-type ﬂexible touch sensor with linear response over a wide
+detection range. Adv. Mater. Technol. 6, 2100358 (2021).
+34. Won, D.-J., Yoo, D. & Kim, J. Effect of a microstructured dielectric
+layer on a bending-insensitive capacitive-type touch sensor with
+shielding. ACS Appl. Electron. Mater. 2, 846–854 (2020).
+35. Li, M., Liang, J. & Zhang, M. Unidirectional sensitive ﬂexible sensor for
+bending measurements. Curr. Appl. Phys. 23,3 6–41 (2021).
+36. Castrillón, R., Pérez, J. J. & Andrade-Caicedo, H. Electrical
+performance of PEDOT:PSS-based textile electrodes for wearable
+ECG monitoring: a comparative study. Biomed. Eng. Online 17,
+38 (2018).
+37. Ameri, S. K. et al. Imperceptible electrooculography graphene sensor
+system for human–robot interface. npj 2D Mater. Appl. 2, 19 (2018).
+38. Arafat, M. A. & Hasan, M. K. Automatic detection of ECG wave
+boundaries using empirical mode decomposition. in 2009 IEEE
+International Conference on Acoustics, Speech and Signal
+Processing 461–464 (IEEE, 2009). https://doi.org/10.1109/ICASSP.
+2009.4959620.
+39. Ma, L., Joshi, R., Keith Newman, K. & Fan, X. Improved Finite Element
+Modeling of Moisture Diffusion Considering Discontinuity at Material
+Interfaces in Electronic Packages. in 2019 IEEE 69th Electronic
+Components and Technology Conference (ECTC) 806–810 (IEEE,
+2019). https://doi.org/10.1109/ECTC.2019.00127.
+40. Chen, L., Zhou, J., Chu, H., Zhang, G. & Fan, X. Modeling nonlinear
+moisture diffusion in inhomogeneous media. Microelectron. Reliab.
+75, 162–
+170 (2017).
+Acknowledgements
+This work was supported by the Korean government (the Ministry of Science
+and ICT, the Ministry of Trade, Industry, and Energy, the Ministry of Health &
+Welfare, and the Ministry of Food and Drug Safety). (Nos.
+2022R1C1C101007112, RS-2023-00221295, HR22C183201, RS-2020-
+KD000093, RS-2023-00234581, 23-SENS-01).
+Author contributions
+S.J. Yoon and J. Ha equally contributed to the work. S.J. Yoon and J. Ha
+contributed to the investigation, validation, data curation, and visualization,
+and B.H Lee, J.T. Park, and H. Lee contributed to data acquisition from
+experiments. A. Yang and K.-I. Jang contributed to formal analysis, and
+methodology. Y.K. Lee contributed to conceptualization, writing,
+supervision, and funding acquisition. All authors reviewed and commented
+on the paper before publication.
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 9
+
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+supplementary material available at
+https://doi.org/10.1038/s41528-024-00308-0
+.
+Correspondenceand requests for materials should be addressed to
+Yoon Kyeung Lee.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2024
+https://doi.org/10.1038/s41528-024-00308-0 Article
+npj Flexible Electronics |            (2024) 8:22 10

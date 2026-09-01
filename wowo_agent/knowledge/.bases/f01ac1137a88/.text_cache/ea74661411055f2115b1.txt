@@ -1,0 +1,713 @@
+npj | ﬂexible electronics Article
+Published in partnership with Nanjing Tech University
+https://doi.org/10.1038/s41528-024-00299-y
+Multilayer stretchable electronics with
+designs enabling a compact lateral form
+Check for updates
+Dongwuk Jung 1,H u n p y oJ u1,2, Sungbum Cho1, Taeyeon Lee1, Changeui Hong1 &J o n g h oL e e 1
+Stretchable electronics are of huge interest as they can be useful in various irregular non-planar or
+deformable surfaces including human bodies. High density multi-functional stretchable electronics
+are beneﬁcial as they can be reliably used in more compact regions. However, simply stacking multiple
+layers may increase induced strain, reducing degree of stretchability. Here, we present the design
+approach for the stretchable multilayer electronics that provide a similar degree of stretchability
+compare to a single layer electronics although the multilayer electronics are in much more compact
+form. We provide experimental and computational analyses for the beneﬁts of the approach along with
+demonstrations with compact form of the multi-functional stretchable implantable bio-electronics and
+of the stretchable multilayer passive matrix LEDs array. The results presented here should be useful for
+a wide range of applications that require stretchable high-density electronics.
+Stretchable electronics capable of deforming to external forces broaden
+application of electronics very widely including curved surfaces1– 3, skin-like
+surfaces4– 8, and even subcutaneous regions 9– 13. Recently, stretchable elec-
+tronics are being developed to provide multiple functions with more
+complex designs such as multiple bio-signal sensing 5,7, feedback
+signaling6,13,14, optoelectronic systems15,16, multifunctional soft robots 17,18,
+and communication with other devices 4,8,9,19 which naturally require a
+higher number of electronic components and more complex routing traces,
+resulting in relatively larger electronics size. However, whenever possible,
+smaller electronics for the same func tions provide convenience in many
+applications like bio-signal sensing in speciﬁcs i t e s
+2,9,20, minimum invasive
+surgeries21,22, or minimized high-density electronics23,24.
+One of the most promising methods islaminating or stacking multiple
+stretchable layers in smaller regions8,25– 36 to realize higher density functional
+electronics compared to single layer electronics8,30. In these works, how to
+interconnect electronic circuits an d components is critically important
+consideration for design and fabrication. One strategy is based on intrin-
+sically stretchable materials such as liquid metal 29,31,37,38 and conductive
+polymer33– 36. They can intrinsically achieve high stretchability without
+complex patterning. Interconnection b etween layers is relatively easier
+through injection methods31,39 although they require reliable sealing and
+packaging to avoid leakage, dehydration, disconnection from electronic
+components
+8,40. Another approach is structure-based multilayer stretchable
+devices with non- stretchable conductive metals deposited on stretchable
+structures
+2,8,30. The structure-based multilayer devices provide advantages of
+high conductivity, high scalability, andconvenient interface with electronic
+components41. However, as more layers are integrated, overall degree of
+stretchability can be reduced because more regions are constrained by rigid
+components from each layer.
+In this paper, we present our strategy to realize higher density
+stretchable electronics based on multilayer designs that affect mini-
+mally on mechanical strain although the number of layers increases. We
+provide the designs on forming inte rconnectors between rigid com-
+ponents on the multiple layers. The fabricated quadruple layer
+stretchable devices in a more compact form show similar degree of
+induced strain compared to a single layer device, as presented by the
+experimental results and computational analysis. We demonstrate the
+capability of the approach with the multilayer implantable bio-
+electronics and stretchable passive matrix LEDs.
+Results
+Vertically-separated multilayer stretchable circuit design
+Three-dimensional structural circ uit designs that maintain their
+stretchability over single-layer ci rcuits provide advantages in packing
+electronics in smaller lateral space. Figure 1as h o w sap r o p o s e d3 D
+structural circuit design, named as a vertically-separated multilayer
+stretchable circuit (VSMSC) whi ch consists of multiple layers of
+islands and stretchable interco nnectors as illustrated in Fig. 1b. The
+island regions (non-stretc hable, red dashed box in Fig. 1a) have mul-
+tiple layers bonded top and bottom with interlayers (Fig. 1b) to allow
+for reliable formation and integrati on of vertical interconnect access
+(VIA) interconnectors and electric al components. The stretchable
+interconnectors (black box in Fig. 1a) of the VSMSC, however, are
+vertically separated without bonding layers (interlayers) as shown in
+1School of Mechanical Engineering, Gwangju Institute of Science and Technology (GIST), Buk-gu, Gwangju 61005, Republic of Korea. 2Electronics and Tele-
+communications Research Institute (ETRI), Daejeon 34129, Republic of Korea. e-mail: jong@gist.ac.kr
+npj Flexible Electronics |            (2024) 8:13 1
+1234567890():,;
+1234567890():,;
+
+Fig. 1c. The design provides advantage s of deforming interconnectors
+(mainly absorbing strains) more freely and individually as in Fig. 1d, e
+when external forces such as loads to stretch are applied.
+Figure 1f shows an optical image of a stretchable electronics with
+the VSMSC designs including quadrupl e layers of circuits. Each circuit
+layer was fabricated by depositing and photolithographically de ﬁning
+metal electrodes (Ti/Au = 30/200 nm) on a polyimide (PI) ﬁlm (5 μm)
+and encapsulating by another PI layer (5 μm). The VIA holes inter-
+connecting the circuit layers vertic ally were formed on the matching PI
+ﬁlms, stacked with the aid of the int erlayers (SU-8, thickness: 5 μm),
+and ﬁlled with conductive epoxy (H20E, EPO-TEK Inc., USA). More
+details of the interconnections and fabrication processes are in Sup-
+plementary informatio n (Supplementary Fig. 1, 2) and the Methods.
+The cross-sectional optical image in Fig. 1g shows the three types of via
+holes (blue dashed boxes: blind, buried, through) interconnectors the
+circuit layers vertically depending on circuit design. The optical image
+in the yellow dotted box also clearl y shows that the stretchable inter-
+connectors are vertically separated. The VSMSC is encapsulated with
+low modulus silicone (Eco ﬂex 00-30, Smooth-On, Inc., USA, Young ’s
+modulus: ~125 kPa) for maintainin g separation of the stretchable
+interconnectors even under deformations and using conveniently.
+Figure 1h, i show optical images of the s tretchable interconnectors
+before (Fig. 1h) and after (Fig. 1i) encapsulation. Separations between
+stretchable interconnectors of each l ayer keep their original position
+during the encapsulation process. Mo re details of the encapsulation
+process are in the Methods.
+Fig. 1 | Vertically-separated multilayer stretchable circuit design. a Schematics of
+the Vertically-Separated Multilayer Stretchable Circuit (VSMSC). The islands (red
+box) are non-deformable regions designated for assembling rigid components. The
+vertically-separated stretchable interconnectors (black box) are deformable regions
+to absorb strain more ef ﬁciently. b Exploded schematics of the VSMSC with
+quadruple layers. The rigid interlayers (cyan, SU8) are only formed between the
+island layers, not between the stretchable interconnector layers. c 3D illustration of
+the assembled VSMSC. The stretchable interconnectors are vertically separated. The
+circuit layers are vertically interconnected through via holes in the island. d, e 3D
+illustration of the vertically separated stretchable interconnectors ( d) before
+stretching and ( e) after stretching. f Optical image of the fabricated VSMSC with
+quadruple layers. g Optical image of cross-sectional side view of the VSMSC. The
+stretchable multi-layer interconnectors are separated vertically. The separated
+interconnectors are electrically connected through three different types of VIAs
+(Dashed boxes: Blind (Magenta), Buried (Green), Through (Orange)) in non-
+deformable islands. h, i Micrographs of side views of the vertically separated
+stretchable interconnectors ( h) before and ( i) after low modulus silicone
+encapsulation.
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 2
+
+Mechanical characteristics of the VSMSC
+The VSMSC design providing a more compact form factor is ef ﬁcient in
+absorbing strains in response to mechanical deformations such as bending
+or stretching. Figure 2a, b shows the fabricated quadruple layers VSMSC
+and correspondingﬁnite element models (FEM) except low modulus sili-
+cone encapsulation under bending (radius: 3 mm) and stretching (30%
+stretching for one island-stretchableinterconnectors unit). The maximum
+tensile (positive) and compressive (neg ative) strains are observed at the
+stretchable interconnectors rather than the VIA interconnectors embedded
+in the islands as bending stiffness (EI, E: elastic modulus, I: the second
+moment of area) of the vertically separated interconnectors is much lower.
+More details are in Supplementary information (Supplementary Fig. 3).
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 3
+
+Figure 2c– j show a comparison of FEM results for quadruple layer
+stretchable interconnectors of the low modulus silicone encapsulated
+VSMSC (Fig.2c, d, g, h, soft stacked design) and solid multilayer circuit (Fig.
+2e, f, i, j, solid design) when bending (r: 3 mm) and stretching (100%). The
+FEM results indicate only stretchable interconnectors except for silicone
+encapsulation to distinguish strain differences. When bending (Fig. 2c– f),
+the quadruple layers in the soft stacked design slide gradually, absorb strains,
+resulting in very low strain (tensile: 0.3%, compressive: 0.3%) in the inter-
+connectors (Fig.2d). On the other hand, in the solid design, strains are much
+more concentrated (about 3 times, tensile: 0.9%, compressive: 1.0%) in the
+interconnectors (Fig.2f). When stretching (Fig.2g– j), similarly, the VSMSC
+interconnectors induce very low strain (tensile: 2.7%, compressive: 2.4%,
+Fig. 2h) while the solid design does more than double strain (tensile: 6.7%,
+compressive: 5.7%, Fig.2j).
+More direct comparisons between the soft stacked and solid designs are
+plotted in Fig. 2k (for bending) and 2 l (for stretching). We plotted and
+compared surface strains because strains are usually maximum on surfaces
+and they can cause premature failure on the interconnectors
+42.W h e n
+bending on a radius of 3 mm, the tensile and compressive deformation
+occurs on the front and back surfaces of the interconnectors as in Fig.2c– f.
+However, the tensile (magenta solid line) and compressive (blue solid line)
+strains of the soft stacked desig n stay within the narrower bounds
+(−0.3– 0.3%, gray region) compare to the solid design (magenta and blue
+dashed lines, −1.0– 0.9%) as in Fig. 2k because the soft stacked design
+connected with the low modulus siliconeisolates strain propagation to other
+layers
+42,43. More details about strain distribution depending on interlayer
+thickness are in Supplementary information (Supplementary Fig. 4). The
+results are similar when stretching t he interconnectors, the soft stacked
+design builds less strain (−2.4– 2.7%, solid lines) than the strain (−5.7– 6.7%,
+dashed lines) as plotted in Fig. 2l because the soft stacked design exhibits
+almost same degree strains of a single layer interconnector as in Supple-
+mentary information (Supplementary Fig. 5).
+The fabricated quadruple VSMSC is durable enough to maintain its
+mechanical and electrical stability when subjected to cyclic deformations of
+bending (radius: 3 mm, Fig.2m) and stretching (+30%, Fig. 2n) using the
+motorized microstage. In both types of deformation, the electrical resistance
+was maintained without signi ﬁcant change or breaking. Mechanical
+degradation was not observed in the multilayer structure after repetitive
+deformation over 6,000 cycles.
+Implantable bio-electronics design based on the VSMSC
+As the multilayer design reduces lateral size while maintaining robustness to
+deformation, it is useful in applications like implantable bio-electronics
+which require a small but stretchable form factor. Figure3ai l l u s t r a t e so n eo f
+the bio-electronics working as a pacemaker that reads an electrocardiogram
+(ECG) signals from the heart, ﬁltering noise through a low pass ﬁlter,
+processing, and decision-making in a microprocessor unit (MCU) to gen-
+erate artiﬁc i a lp u l s e st h r o u g he l e c t r o d e sa ss h o w nw i t ht h ed i a g r a mi n
+Fig. 3b. The bio-electronics was designed in a 3 × 3 islands-based quadruple
+VSMSC with low modulus silicone encapsulation to be implantable under
+t h ed e r m i sa si nF i g .3c. The layer-by-layer design is shown in Fig.3d. The
+bio-electronics includes 22 electronic components integrated on the top
+layer (4th layer), sensing and stimulating electrical pads facing down on the
+bottom layer (1st layer), and three- dimensional interconnectors in the
+middle layers (2nd, 3rd layer). More details of the design is in Supple-
+mentary information (Supplementary Fig. 7).
+The fabricated bio-electronics with the quadruple layer VSMSC in
+Fig. 3e is a quarter smaller than the single layer design. (Fig. 3f) But
+deformable enough to be squeezed as shown in Fig.3g. These characteristics
+allow the implanted bio-electronics to be deformed without causing too
+much stress to surrounding live tissues as in Fig. 3h. In vivo experiments
+indicate that squeezing from outside did not cause any damage to the
+implanted quadruple VSMSC bio-electronics as demonstrated by reading
+ECG signals (black) and stimulating the heart (blue, starting at 4.5 s) in Fig.
+3i. It should be noted that electrical powering and data acquisition for ECG
+and stimulation signals were conducted through external wires because the
+implant was not equipped with standalone circuits, memories and batteries
+yet as we focused more on stretchable designs and characteristics. In
+addition, the stimulation signals were generated from the same type of the
+external MCU because thresholds to count pulses should be adjustable for
+each mouse model. The measured ECG signal (black) from our bio-
+electronics is comparable with the measurement (red) from a commercial
+ECG sensor (EVAL-AD8233, Analog Devices, USA). More details of the in
+vivo experimental process are in the Methods and Supplementary infor-
+mation (Supplementary Fig. 8).
+We evaluated the durability of the VSMSC-based bio-electronics by
+implanting and keeping it in a live mouse model for two weeks. After
+2 weeks, the incision was healed clearly and the bio-electronics was settled
+stably under the skin as shown in Fig. 3j. The bio-electronics withdrawn
+from the mouse model was mechanically stable (no mechanical damage
+found). The bio-electronics was still capable of sensing the ECG signals (Fig.
+3k) and generating stimulating signals (Fig.3l) when evaluated on a human
+chest with external wirings for powering and data acquisition despite
+repetitive random deformations cause db yt h ef r e em o v e m e n to ft h em o u s e
+for two weeks. It should be noted that biocompatibility and cytotoxicity of
+bio-electronics is critically important consideration. The devices are fully
+encapsulated with soft elastomer which is known to be biocompatible
+44 and
+the solid components do not usually leach cytotoxic elements through
+elastomeric encapsulants
+45. Although the incision was healed clearly and the
+device was settled stably under the sk in after two weeks of implantation,
+more systematic assessments are required for long-term biocompatibility
+for practical applications. More deta ils of the experimental process and
+measurements are in the Methods and Supplementary information (Sup-
+plementary Fig. 9, 10).
+Passive matrix LED display based on the VSMSC design
+The VSMSC design is convenient in interconnecting repetitive electronic
+devices to be controlled individually. As a demonstrator, we fabricated a
+passive matrix light-emitting diodes(LEDs) array whose individual devices
+can be turned on and off by externally powering the target devices as
+sketched in Fig.4a. The double-layer VSMSC provides traces (Magenta) for
+the anodes (+) and traces (Blue) for the cathodes (−)a si nF i g .4b. The top
+and bottom traces do not electrically cross each other as the cathodes are
+interconnected to the bottom layer through via holes. (cross-sectional view
+in Fig. 4b).
+Figure 4cs h o w st h e6×6d o u b l e - l a y e rV S M S Cp a s s i v em a t r i xL E D s
+array. The individual LEDs can be independently controlled as displayed in
+the alphabet letters ( ‘G’, ‘I’, ‘S’,a n d ‘T’)i nF i g . 4d– g. The double-layer
+Fig. 2 | Mechanical characteristics of the VSMSC. a , b Optical images and corre-
+sponding ﬁnite element (FE) analysis models of the VSMSC except for low modulus
+silicone encapsulation (a) bent at a radius of 3 mm and (b) stretched at 30%. Most of
+strain noted by the color maps is absorbed in the interconnectors instead of the
+islands. c– f Comparison of ( c, d) the soft stacked and ( e, f) solid designs when
+bending at a radius of 3 mm. The maximum strain (0.29%) of the soft stacked design
+is much lower than that (0.9%) of the solid design. g– j Comparison of (g– h) the soft
+stacked and ( i, j) solid designs when stretching 100% of the interconnectors. The
+maximum strain (2.7%) of the soft stacked design is much lower than that (6.74%) of
+the solid design.k, l Strain distributions through the cross-sectional dimension of the
+soft stacked design (solid lines) and solid design (dashed lines) when (k) bending and
+(l) stretching. The strain at the front side (magenta) and the back side (blue) of the
+soft stacked design is conﬁned between −0.37% and 0.29% for bending and between
+−2.42.% and 2.7% for stretching while the solid design has much higher strain
+(between 1.06% and 0.9% for bending, between −5.72% and 6.74% for stretching).
+m, n Measurement results of relative resistance of the fabricated VSMSC ( m) for
+repetitive bending (bending radius: 3 mm) and ( n) repetitive stretching (stretch-
+ability: 30%) up to 6000 cycles. (n = 6 samples each for bending and stretching, data
+presented as mean ± s.d).
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 4
+
+VSMSC LED passive matrix is stretchable enough to absorb strain for
+various deformations such as bending (Fig. 4h, bending radius: 3 mm),
+stretching (Fig. 4i, 50% stretch of one island-stretchable interconnectors
+unit), and twisting (Fig.4j, twisting angle 180°). Repetitive bending cycles at
+a radius of 4 mm did not show any electrical degradation (Fig.4k). Figure4l
+shows the current-voltage (I-V) curves of the LED matrix after stretching at
+degrees of stretchability (10– 50%, Fig. 4i). The IV curves are almost iden-
+tical. Repetitive stretching cycles (30% uniaxial) did not show a signiﬁcant
+difference in the forward voltage ( ΔVF at 40 mA) of the double-layer
+VSMSC LED matrix as shown in Fig.4j. It should be noted that aﬁll factor of
+LED arrays is crucial for high-resolution displays. Although theﬁll factor of
+the passive matrix LED array is relatively low (~36%, rigid parts) as they
+were fabricated in the individual uni versity lab, we expect that modular
+design46, an imbricate scale design 47,a n dam o r p h a b l ed e s i g n48,w o u l d
+improve a ﬁll factor signiﬁcantly for high resolution displays.
+Discussion
+Although we demonstrated mechanical durability of the vertically-
+separated multilayer stretchable circuit by repetitive bending and stretch-
+ing, the devices would require additional strain-limiting designs for daily
+uses to avoid mechanical failure whe n stretched excessively, beyond the
+designed stretchability. We expect that the devices would be minimally
+Fig. 3 | Implantable bio-electronics design based on the VSMSC. a Fundamental
+functions of the implantable bio-electronics include electrocardiogram (ECG)
+measurement, heart rate monitoring, and stimulation. b Process ﬂow diagram of the
+bio-electronics. c Illustration of the subcutaneous bio-electronics based on the
+VSMSC design with quadruple layers. d Circuit layer design of the bio-electronics.
+e, f Photographs of the fabricated bio-electronics ( e) with the quadruple layer
+VSMSC and (f) with the single layer circuit placed on a ﬁnger. g Photographs of the
+fabricated bio-electronics squeezed by ﬁngers. h Optical image of pinching the
+implanted bio-electronics after being cured for 2 weeks. i ECG signals measured
+from the fabricated bioelectronics (Ours, black) with implantation and commercial
+(red) device with attaching to the skin. The blue signal is a stimulating signal started
+automatically around 4.5 s after detecting the bradycardia state of the heart.
+j Photograph of a mouse model with the implanted bio-electronics during 14 days
+for in vivo experiment. k, l (k) ECG and (l) stimulation signals of the bio-electronics
+for estimating functional performance after 14 days in vivo experiment.
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 5
+
+affected by environmental tempera ture (less than 100 °C or so) as the
+devices are fabricated with the mate rials and components durable at the
+daily temperature range. Although we used inorganic electrical components
+and metal interconnects fully encapsulated with elastomeric layers, exces-
+sive exposure to humidity for a long time may cause failure and lower
+performance, e.g., higher resistance. In the cases, the devices may require
+additional encapsulating layers, e.g., Parylene, to improve moisture
+resistance
+49,50.
+In summary, the results presented here indicate that the multilayer
+designs with the multilayer stretc hable interconnectors and rigid
+islands can provide a degree of stretchability, comparable to a single
+layer design, while maintaining in compact size, e.g., four times smaller
+than a single layer design. The feature is enabled by the vertically-
+separated multilayer stretchable design which induces multiple
+interconnectors to deform individually, reducing mechanical strain
+smaller than solid stacked multila yer structure. We demonstrated the
+beneﬁts of the design with a compact stretchable implant and passive
+matrix LEDs array. The in vivo experiments with the implant connected
+with external wires for powering and data acquisition demonstrated
+that the design is effective in reducing lateral size of bio-electronic
+implants. The multilayer stretcha ble LED passive matrix also demon-
+strated that the design is useful for circuits requiring crossing traces.
+This approach will possibly lead to ef ﬁcient design methods for
+stretchable electronics with complex circuits, however, independent
+interconnectors and whole device-covered elastomeric encapsulation
+make limitations for reducing device s ize and stretchability. The design
+and fabrication strategies should be useful for more complex and
+multifunctional stretchable devices that require more compact size.
+Fig. 4 | Passive matrix LED display based on the VSMSC design. a Schematic
+diagram of the LED passive matrix with the VSMSC double layers design.b Elevated
+view of the design. The positive (‘+’, magenta) and negative (‘−’, blue) electrodes of
+the LEDs are interconnected through the top and bottom layer of the stretchable
+interconnectors, respectively. c Optical image of the fabricated LED passive matrix
+with the VSMSC design (6 × 6). d– g Alphabet letters ‘G’, ‘I’, ‘S’, and ‘T’ displayed
+with the double-layered LED passive matrix. Scale bar: 1 mm. h– j Mechanical
+deformations of the double-layered LED passive matrix with LEDs on while ( h)
+bending (bending radius: 3 mm), ( i) stretching (one island-stretchable inter-
+connectors unit stretchability: 50%), and ( j) twisting (twisting angle: ~180°).
+k Current-voltage (I-V) curves of the LED passive matrix after repetitive bending
+cycles (bending radius: 4 mm). l I-V curves with different degrees of stretchability.
+m. Forward voltage difference ( ΔVF) at 40 mA of the double-layered LED passive
+matrix under repetitive stretching (30%) up to 6000 cycles.
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 6
+
+Methods
+Preparation of the stretchable electronic circuit layers
+The stretchable electronic circuit layer consisting of islands and serpentine
+interconnectors was formed on a PI ﬁlm (Polyimide, ~5 μm) which was
+temporarily attached to a silicone layer (10:1 Polydimethylsiloxane (PDMS),
+~3 μm, Sylgard184, Dow corning, USA) coated on a glass slide (Micro glass
+substrate, Matsunami Glass) as a temporary carrier. Sputtering followed by
+wet chemical etching formed metal traces (Ti/Au: 30 nm / 200 nm) on the PI
+ﬁlm. Another PI layer (~5μm) through spin-casting and curing PI solution
+encapsulated the metal traces. Reactive ion etching with oxygen plasma over
+a titanium mask (mask thickness: ~30 nm) formed the stretchable electronic
+circuit layers and exposed electrode pads.
+Preparation of the vertically-separated multilayer stretchable
+circuit (VSMSC)
+The VSMSC was formed by alternatively stacking an epoxy layer (SU-8
+2000 series negative photoresist, Kayaku advanced materials Inc., USA) and
+the stretchable electronic circuit layer as shown with the schematic image of
+the structure in Fig.1b. We chose SU-8 to form the interlayers because SU-8
+could be conveniently used to form micro-structures through photo-
+lithography and low temperature baking (85 °C)
+51,52.A sac a r r i e rs u b s t r a t e ,
+we used a polyethylene terephthalate (PET)ﬁlm attached on a PDMS glass
+slide. After forming a base epoxy layer (SU-8, thickness: ~3 μm) on the
+carrier substrate, we formed another epoxy layer on the backside of theﬁrst
+stretchable electronic circuit layer picked by a thermal release tape (Gra-
+p h e n es q u a r eI n c .S o u t hK o r e a ) .A f t e raligning and bonding the stretchable
+electronic circuit layer on the PETﬁlm by heating and pressing (85 °C, 70
+kPa) for 10 min, we removed the thermal release tape by heating on a hot
+plate (110 °C, 10 min). We repeated stacking the epoxy layers and the
+stretchable electronic circuit layersfor the VSMSC. The silver conductive
+epoxy is initially ﬂuidic and thermally curable, so we could electrically
+interconnect the multilayers by ﬁlling the VIA (vertical Interconnect
+Access) holes, followed by thermal curing (110 °C, 2 h). The vertical inter-
+connect access (VIA) interconnectors to electrically connect between
+desired layers were formed with silver conductive epoxy (H20E, EPO-TEK
+Inc., USA) through the holes made by the reactive ion etching process.
+While the blind and through VIAs could be formed after stacking all the
+circuit layers, the buried VIA was formed after stacking the corresponding
+middle circuit layers. For reliable use, the VSMSC was encapsulated with low
+modulus silicone (Eco ﬂex 00-30, Smooth-On, Inc., USA) by ﬁlling the
+VSMSC with a prepolymer slowly from bottom to top to prevent
+the separate interconnectors from merging each other. The bottom of the
+VSMSC was also encapsulated after removing the VSMSC from the carrier
+substrate. More details are in Supplementary information (Supplementary
+Fig. 2).
+Finite element method (FEM) simulation
+The characteristics for mechanical bending and stretching deformation were
+analyzed using the FEM (ABAQUS). The geometry models employ an 8-
+node, linear hexahedral solid element C3D8R. The solid parts were physi-
+cally bonded together as the nodes were shared for their adhered elements.
+Deformations such as bending or stretching were implemented by linear
+displacement at the boundaries. We used the following material properties
+and dimensions for the simulations, each layer material (polyimide (PI)):
+Young’sm o d u l u sE
+pi = 2.5 GPa, Poisson ’s ratio = 0.34, thickness
+tpi =1 0 μm, inter layer material (SU-8): Young’s modulus ESU-8 =4 . 0 2G P a ,
+Poisson’s ratio = 0.22, thickness t SU-8 =5 μm, metal trace(Au): Young ’s
+modulus E Au = 74 GPa, Poisson ’s ratio= 0.42, thickness t Au = 200 nm,
+encapsulation (Ecoﬂex 00-30): Young’s modulus E ecoﬂex = 125 kPa, Pois-
+son’s ratio = 0.49, thickness tecoﬂex =5 μm.
+Preparation of the implantable bio-electronics
+The implantable bio-electronics was designed based on the 4-layers
+VSMSC. Each layer includes encapsulated metal traces in a structure of
+PI-Ti/Au-PI (thickness: 5 µm - 30 nm/200 nm - 5 µm). Some parts of
+the metal trace layers were expos ed at the places where VIA inter-
+connectors, electronic components, and tissue interfaces were required.
+The bottom circuit layer was fabricated to face down for direct contact
+with live tissues. The electronic components integrated on the islands of
+the top layer using conductive adhesive (H20E, EPO-TEK, USA) were
+mechanically reinforced with an optical adhesive (NOA61, Norland
+Products, USA). The fabricated bio-electronics were fully encapsulated
+with the low modulus silicone (Eco ﬂex 00-30) except the electrode area
+for direct contact with live tissues. More details are in Supplementary
+information (Supplementary Fig. 2).
+Preparation of the passive matrix stretchable LED display
+The passive matrix stretchable LED display was designed to have the
+2-layers VSMSC and 7×7 islands. The one row and column of islands
+were assigned to have electrical pads for external wiring for powering
+and driving the display. The other 6×6 islands serve as pixels with one
+inorganic red LED (APG0603sec-e-tt, Kingbright, USA) and one VIA
+interconnector on each island. The 2-layers design with the VSMSC and
+VIA interconnectors enables indepe ndent external electrical connec-
+tion (positive and negative electrodes) for each LED for the
+6 × 6 stretchable inorganic LED matrix. For the controlled display
+operations, we connected the prepared passive matrix LED display with
+a microprocessor unit (Arduino Mega, Arduino, USA) and a display
+driver (MAX7219, Analog Devices, USA). More details of the various
+deformations including repetitive bending and stretching during the
+scrolling display operation of stretchable LED display are in Supple-
+mentary Video 1.
+Measurements of electrical properties
+The resistances of the VSMSCs were m easured with a digital multimeter
+unit (34461 A, Keysight technologies, USA). For reliable measurements, we
+ﬁxed the external wires strongly on the stage to minimize external dis-
+turbances other than changes caused by deformations such as bending or
+stretching. The current-voltage characteristics and the forward voltages of
+the LED matrix were measured with a source measure unit (B2902A,
+Keysight technologies, USA) with the pulsed sweep mode (pulse period:
+110 ms, pulse width: 10 ms) to reduce residual temperature caused by
+previous measurements.
+Repetitive deformation experiments
+The repetitive bending and stretching deformations of the VSMSC and
+the passive matrix LED display we re conducted on a custom-built
+motorized microstage consistin g of the motor driver, the LabVIEW
+based controller, and the sample mounter. The stage can be controlled
+to move at a resolution of 0.1 µm. One end of the sample (VSMSC or
+LED display) was ﬁxed on a ground stage and the other end of the
+sample were leveled and ﬁxed on the movable microstage which can be
+controlled to move repetitively along one direction. The custom
+microstage was programmed to measure and record the resistances of
+the VSMSC and the current-voltage curves of the passive matrix LED
+display in between repetitive deformation cycles. More details are in
+Supplementary information (Supplementary Fig. 6).
+Animal experiments
+In vivo experiments of the implantabl e bio-electronics were conducted
+with hairless mice (SKH1-Hr hr,1 2– 16 weeks old, ~30 g). The mice were
+put under general anesthesia by intra peritoneal injection of a mixture
+of ketamine (50 mg Kg −1, Yuhan Ketamine 50, Yuhan corp., Republic
+of Korea), xylazine (5 mg Kg −1, Rompun Inj., Bayer corp., Germany),
+and saline solution (Normal Saline Inj., Dae Han Pharm Co. Ltd.,
+Republic of Korea). The bio-electro nics was inserted under ventral skin
+of the mice through small incisio n (~15 mm) which was later sutured
+4-5 stitches. Electrical wires were c onnected externally for powering,
+measuring the ECG, and stimulating the heart. A commercially
+available ECG sensor (EVAL-AD8233, Analog Devices, USA) was set
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 7
+
+up for comparison with the ECG from the implanted bio-electronics.
+After setting up the bio-electronics, we measured the ECG signals from
+both devices as a normal state (~102 beats per minute (bpm)). To
+estimate the pacemaker performance of the bio-electronics, we con-
+ducted a thoracotomy to expose the h eart that causes the diaphragm to
+rupture, as a result, the bradycardia state (< 66 bpm) is induced
+13.T h e
+implanted bio-electronics is chec king the heart rate, when the brady-
+cardia state is measured, the MCU ge nerates stimulation signals (180
+bpm) through two external wires conne cted with the bio-electronics.
+The stimulation signals from the bio- electronics were directly applied
+to the heart after a thoracotomy. Th e ECG and stimulation signals were
+monitored and recorded with an os cilloscope (DSO-X 2024 A, Agilent
+Technologies, Inc., USA). The in vi vo durability test was conducted
+after implantation of the bio-electronics and suturing process under
+general anesthesia. The ECG and sti mulation signals were measured
+through external wire electrode so nah u m a nc h e s tf o re l e c t r i c a l
+powering and data acquisition before and after withdrawal from the
+animal model 2 weeks after implantation. More details of animal
+experiments are in Supplementary i nformation (Supplementary Fig. 8,
+9, 10). The animal experiments were conducted with approval from
+GIST Institutional Animal Car e USE Committee (GIST-2020-052).
+The human subject experiments for v erifying performances of the bio-
+electronics were conducted with informed consent obtained from all
+participants and granted exemptio n approval from the Institutional
+Review Board (IRB) of the GIST (20231225-HR-EX-011).
+Data availability
+Additional data related to this study may be requested from the corre-
+sponding author upon reasonable request.
+Received: 25 May 2023; Accepted: 9 February 2024;
+References
+1. Song, Y. M. et al. Digital cameras with designs inspired by the
+arthropod eye. Nature 497,9 5– 99 (2013).
+2. Sim, K. et al. Three-dimensional curvy electronics created using
+conformal additive stamp printing. Nat. Electron. 2, 471– 479 (2019).
+3. Kim, K. et al. All-printed stretchable corneal sensor on soft contact
+lenses for noninvasive and painless ocular electrodiagnosis. Nat.
+Commun. 12,1 – 11 (2021).
+4. Kim, J. et al. Epidermal electronics with advanced capabilities in near-
+ﬁeld communication. Small 11, 906– 912 (2015).
+5. Kim, N., Lim, T., Song, K., Yang, S. & Lee, J. Stretchable multichannel
+electromyography sensor array covering large area for controlling
+home electronics with distinguishable signals from multiple muscles.
+ACS Appl. Mater. Interfaces 8, 21070– 21076 (2016).
+6. Xu, B. et al. An epidermal stimulation and sensing platform for
+sensorimotor prosthetic control, management of lower back exertion,
+and electrical muscle activation. Adv. Mater. 28, 4462– 4471 (2016).
+7. Hua, Q. et al. Skin-inspired highly stretchable and conformable matrix
+networks for multifunctional sensing. Nat. Commun. 9,1 – 11 (2018).
+8. Song, H. et al. Highly-integrated, miniaturized, stretchable electronic
+systems based on stacked multilayer network materials. Sci. Adv.
+3785,1 – 13 (2022).
+9. Park, S. I. et al. Soft, stretchable, fully implantable miniaturized
+optoelectronic systems for wireless optogenetics. Nat. Biotechnol.
+33, 1280– 1286 (2015).
+10. Liu, Y. et al. Soft and elastic hydrogel-based microelectronics for
+localized low-voltage neuromodulation. Nat. Biomed. Eng. 3,
+58– 68 (2019).
+11. Herbert, R., Mishra, S., Lim, H. R., Yoo, H. & Yeo, W. H. Fully printed,
+wireless, stretchable implantable biosystem toward batteryless, real-
+time monitoring of cerebral aneurysm hemodynamics. Adv. Sci. 6,
+1901034 (2019).
+12. Choi, Y. S. et al. Stretchable, dynamic covalent polymers for soft,
+long-lived bioresorbable electronic stimulators designed to facilitate
+neuromuscular regeneration. Nat. Commun. 11,1 – 14 (2020).
+13. Jung, D. et al. Sustainably powered, multifunctional ﬂexible feedback
+implant by the bifacial design and si photovoltaics. Adv. Healthc.
+Mater. 10,1 – 8 (2021).
+14. Shin, J. H. et al. Wearable EEG electronics for a Brain – AI Closed-Loop
+System to enhance autonomous machine decision-making. npj Flex.
+Electron. 6, 32 (2022).
+15. Lee, Y. et al. Standalone real-time health monitoring patch based on a
+stretchable organic optoelectronic system. Sci. Adv. 7,1 – 11 (2021).
+16. Lee, H. et al. Stretchable organic optoelectronic devices: design of
+materials, structures, and applications. Mater. Sci. Eng. R. Rep. 146,
+100631 (2021).
+17. Ji, X. et al. An autonomous untethered fast soft robotic insect driven by
+low-voltage dielectric elastomer actuators. Sci. Robot. 4,
+eaaz6451 (2019).
+18. Byun, J. et al. Electronic skins for soft, compact, reversible
+assembly of wirelessly activated fully soft robots. Sci. Robot. 3,
+1– 12 (2018).
+19. Han, M. et al. Three-dimensional piezoelectric polymer microsystems
+for vibrational energy harvesting, robotic interfaces and biomedical
+implants. Nat. Electron. 2,2 6– 35 (2019).
+20. Qazi, R. et al. Wireless opto ﬂuidic brain probes for chronic
+neuropharmacology and photostimulation. Nat. Biomed. Eng. 3,
+655– 669 (2019).
+21. Fallegger, F., Schiavone, G. & Lacour, S. P. Conformable Hybrid
+Systems for Implantable Bioelectronic Interfaces. Adv. Mater. 32,
+1903904 (2020).
+22. Song, Y., Min, J. & Gao, W. Wearable and implantable electronics:
+moving toward precision therapy.ACS Nano13, 12280– 12286 (2019).
+23. Hong, S. Y. et al. High-density, stretchable, all-solid-state
+microsupercapacitor arrays. ACS Nano 8, 8844– 8855 (2014).
+24. Oh, H. et al. High density integration of stretchable inorganic thin ﬁlm
+transistors with excellent performance and reliability. Nat. Commun.
+13,1 – 9 (2022).
+25. Kim, D. H. et al. Stretchable and foldable silicon integrated circuits.
+Nature 320, 507– 511 (2008).
+26. Guo, L. & DeWeerth, S. P. High-density stretchable electronics:
+toward an integrated multilayer composite. Adv. Mater. 22,
+4030– 4033 (2010).
+27. Xu, R. et al. Designing thin, ultrastretchable electronics with stacked
+circuits and elastomeric encapsulation materials. Adv. Funct. Mater.
+27,1 – 12 (2017).
+28. Tang, L., Shang, J. & Jiang, X. Multilayered electronic transfer tattoo
+that can enable the crease ampli ﬁcation effect.
+Sci. Adv. 7,
+eabe3778 (2021).
+29. Liu, S., Shah, D. S. & Kramer-Bottiglio, R. Highly stretchable multilayer
+electronic circuits using biphasic gallium-indium. Nat. Mater. 20,
+851– 858 (2021).
+30. Huang, Z. et al. Three-dimensional integrated stretchable electronics.
+Nat. Electron. 1, 473– 480 (2018).
+31. Green Marques, D., Alhais Lopes, P., De Almeida, A. T., Majidi, C. &
+Tavakoli, M. Reliable interfaces for EGaIn multi-layer stretchable
+circuits and microelectronics. Lab Chip 19, 897– 906 (2019).
+32. Li, G. et al. High-ef ﬁciency large-area printed multilayer liquid metal
+wires for stretchable biomedical sensors with recyclability. ACS Appl.
+Mater. Interfaces 13, 56961– 56971 (2021).
+33. Liu, X. et al. Biomimetic integration of tough polymer elastomer with
+conductive hydrogel for highly stretchable, ﬂexible electronic. Nano
+Energy 92, 106735 (2022).
+34. Stier, S. P. & Böse, H. Electroplating and ablative laser structuring of
+elastomer composites for stretchable multi-layer and multi-
+material electronic and sensor systems. Micromachines 12,
+1– 17 (2021).
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 8
+
+35. Lopes, P. A. et al. Bi-Phasic Ag-In-Ga-embedded elastomer inks for
+digitally printed, ultra-stretchable, multi-layer electronics. ACS Appl.
+Mater. Interfaces 13, 14552– 14561 (2021).
+36. La, T. G. et al. Two-layered and stretchable e-textile patches for
+wearable healthcare electronics. Adv. Healthc. Mater. 7,
+1801033 (2018).
+37. Kim, M. S. et al. Stretchable printed circuit board based on leak-free
+liquid metal interconnection and local strain control.ACS Appl. Mater.
+Interfaces 14, 1826– 1837 (2022).
+38. Jung, W. et al. Solvent-assisted ﬁlling of liquid metal and its selective
+dewetting for the multilayered 3D interconnect in stretchable
+electronics. ACS Nano 16, 21471– 21481 (2022).
+39. Fassler, A. & Majidi, C. 3D structures of liquid-phase GaIn alloy
+embedded in PDMS with freeze casting. Lab Chip 13,
+4442– 4450 (2013).
+40. Tee, B. C. K. & Ouyang, J. Soft Electronically Functional Polymeric
+Composite Materials for a Flexible and Stretchable Digital Future.Adv.
+Mater. 30, 1802560 (2018).
+41. Xue, Z., Song, H., Rogers, J. A., Zhang, Y. & Huang, Y. Mechanically-
+guided structural designs in stretchable inorganic electronics. Adv.
+Mater. 32,1 – 32 (2020).
+42. Su, Y., Li, S., Li, R. & Dagdeviren, C. Splitting of neutral mechanical
+plane of conformal, multilayer piezoelectric mechanical energy
+harvester. Appl. Phys. Lett. 107, 041905 (2015).
+43. Shi, Y., Rogers, J. A., Gao, C. & Huang, Y. Multiple neutral axes in
+bending of a multiple-layer beam with extremely different elastic
+properties. J. Appl. Mech. Trans. ASME 81,1 – 4 (2014).
+44. Bae, W. J. et al. AB168. Evaluation of the biocompatibility of packing
+materials for a catheter. Transl. Androl. Urol. 4, AB168 (2015).
+45. Song, K. et al. Subdermal ﬂexible solar cell arrays for powering
+medical electronic implants. Adv. Healthc. Mater. 5,
+1572– 1580 (2016).
+46. Kim, N., Kim, J., Seo, J., Hong, C. & Lee, J. Stretchable inorganic LED
+displays with double-layer modular design for high ﬁll factor. ACS
+Appl. Mater. Interfaces 14, 4344– 4351 (2022).
+47. Su, Y. et al. Mechanics of stretchable electronics with high ﬁll factors.
+Int. J. Solids Struct. 49, 3416– 3421 (2012).
+4 8 . L e e ,Y . ,K i m ,B .J . ,H u ,L . ,H o n g ,J .&A h n ,J .H .M o r p h a b l e
+3D structure for stretchable display.
+Mater. Today 53,5 1 – 57
+(2022).
+49. Menon, P. R., Li, W., Tooker, A. & Tai, Y. C. Characterization of water
+vapor permeation through thin ﬁlm parylene C. TRANSDUCERS
+2009-2009 Int. Solid-State Sensors, Actuators Microsystems Conf.
+IEEE 1892– 1895 (2009).
+50. Ortigoza-Diaz, J. et al. Techniques and considerations in the
+microfabrication of parylene c microelectromechanical systems.
+Micromachines 9, 422 (2018).
+51. Agirregabiria, M. et al. Fabrication of SU-8 multilayer microstructures
+based on successive CMOS compatible adhesive bonding and
+releasing steps. Lab Chip 5, 545– 552 (2005).
+52. Steigert, J. et al. A versatile and ﬂexible low-temperature full-wafer
+bonding process of monolithic 3D micro ﬂuidic structures in SU-8. J.
+Micromech. Microeng. 18, 095013 (2008).
+Acknowledgements
+This work was supported by the National Research Foundation of Korea
+(NRF) grant funded by the Korea government (Ministry of Science and ICT,
+MIST) (No. RS-2023-00277831), National R&D Program through the NRF
+funded by MIST (No. 2021M3H4A1A02051029), and the GIST-MIT
+Research Collaboration grant funded by the GIST.
+Author contributions
+J.L. planned and supervised the concept. D.J. fabricated the device,
+performed electrical and mechanical measurements. H.J. T.L. contributed
+mechanical characterization and gave advice and discussion on the
+concept. S.C gave advice and discussion on the vertically bonding process.
+D.J., C.H. performed the animal surgeries. J.L. and D.J. wrote the
+manuscript. All authors read and commented on the manuscript.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Supplementary informationThe online version contains
+Supplementary Material available at
+https://doi.org/10.1038/s41528-024-00299-y
+.
+Correspondenceand requests for materials should be addressed to
+Jongho Lee.
+Reprints and permissions informationis available at
+http://www.nature.com/reprints
+Publisher’s note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional afﬁliations.
+Open Access This article is licensed under a Creative Commons
+Attribution 4.0 International License, which permits use, sharing,
+adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article ’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in the
+article’s Creative Commons licence and your intended use is not permitted
+by statutory regulation or exceeds the permitted use, you will need to
+obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creativecommons.org/licenses/by/4.0/
+.
+© The Author(s) 2024
+https://doi.org/10.1038/s41528-024-00299-y Article
+npj Flexible Electronics |            (2024) 8:13 9

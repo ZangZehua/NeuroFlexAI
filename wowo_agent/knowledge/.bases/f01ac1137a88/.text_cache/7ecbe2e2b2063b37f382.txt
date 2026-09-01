@@ -1,0 +1,488 @@
+1
+Vol.:(0123456789)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports
+Chemically‑stable flexible 
+transparent electrode: 
+gold‑electrodeposited 
+on embedded silver nanowires
+Mostafa Gholami 1, Fariba Tajabadi 2, Nima Taghavinia 1,3* & Alireza Moshfegh 1,3*
+Silver nanowires (AgNWs) with a low diameter, high aspect ratio, stable suspension, and easy 
+synthesis have recently attracted the optoelectronic industry as a low‑cost alternative to indium tin 
+oxide transparent conductive films. However, silver nanowires are not chemically stable, and their 
+conductivity diminishes over time due to reactions with atmospheric components. This is a bottleneck 
+for their wide industrial applications. In this study, we aim to address this issue by synthesizing silver 
+nanowires with an average diameter of approximately 65 nm and a length of approximately 13 µm. 
+The prepared Ag nanowires are then applied to fabricate transparent, flexible, and chemically stable 
+conductive films. The fabrication includes spraying of silver nanowires suspension on a glass substrate 
+followed by Dr. blade coating of polystyrene (PS) solution and delamination of the PS‑AgNWs film. 
+The resulting film exhibits an optimum sheet resistance of 24 Ω/ □ and transmittance of 84%. To 
+further enhance the stability of the transparent conductive film, the facial and scalable double pulse 
+electrodeposition method is used for coating of gold on the exposed surface of the AgNWs embedded 
+in PS. The final transparent film with gold coating demonstrates a remarkable stability under harsh 
+conditions including long exposure to UV light and nitric acid solution. After 100 min of UV/Ozone 
+treatment, the increase in sheet resistance of the optimal PS‑AgNW@Au sample is 15.6 times lower 
+than the samples without gold coating. In addition, the change in sheet resistance after 2000 bending 
+cycles in the optimal PS‑AgNW@Au electrode is measured and it showed an increase of only 22% of 
+its initial sheet resistance indicating its good flexibility. The proposed electrode performs an excellent 
+chemical stability, good conductivity, transparency, and flexibility that makes it a potential candidate 
+for various optoelectronic devices.
+Transparent conductive electrodes (TCE) are important components in optoelectronic devices such as touch 
+screens, solar cells, organic light emitting diodes (OLEDs), and transparent  heaters1. In most cases, indium tin 
+oxide (ITO) is used as a TCE in optoelectronic devices because of its high transparency and low sheet resistance. 
+However, the use of ITO faces several challenges such as UV radiation absorbance, indium scarcity, vacuum 
+deposition method, and high  cost2. Additionally, ITO is brittle due to its ceramic nature, and its electrical proper-
+ties deteriorate with bending, so it cannot be perfect for flexible  optoelectronics3. Other transparent conductive 
+ oxides4,5 such as fluorine-doped tin oxide (FTO)6 and ZnO: Al (AZO)7, carbon  nanotubes8,  graphene9, conductive 
+ polymer10, metal  nanowires11, etc. can be considered as alternatives for ITO. But carbon nanotube or conductive 
+polymer based TCE electrodes suffer from high cost while metal oxide based TCE suffer from low flexibility. 
+Thus, there is a challenge to overcome these barriers.
+Electrically, silver metal is the most conductive element with electrical conductivity of 6.3 ×  107  Sm−112. Among 
+the alternative shapes, silver nanowires (AgNWs) gained attention due to their special optoelectronic proper -
+ties, which are better than their bulk performance. Some practical features of AgNWs are excellent electrical 
+conductivity, tunable optical properties and high light transmission, solution-based and scalable processing, and 
+ flexibility13. AgNWs have been used in various applications including light-emitting  diodes14,15, solar  cells16,17, 
+wearable electronic  devices18,19, flexible  electronics20,21, touch  screens22,  heaters23. However, AgNWs as TCEs have 
+OPEN
+1Department of Physics, Sharif University of Technology, Tehran 11155-9161, Iran. 2Department of 
+Nanotechnology and Advanced Materials, Materials and Energy Research Center, PO Box 31787-316, Karaj, 
+Iran. 3Nano Center -Institute for Convergence Science and Technology, Sharif University of Technology, 
+Tehran 14588-8969, Iran. *email: taghavinia@sharif.edu; moshfegh@sharif.edu
+
+2
+Vol:.(1234567890)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+disadvantages such as limited long-term stability, high surface roughness (due to the overlapping of nanowires)24, 
+weak adhesion to the substrate, poor contact at wire-wire junctions. Furthermore, AgNWs exposed to ambient 
+air undergo chemical corrosion due to surface interaction with atmospheric components which leads to diminish 
+in their electrical conductivity over time. It is reported that sulfidation is the main corrosion of AgNWs in the 
+ air25. In perovskite solar cells application, halide ions react with silver causing an increase in the resistance of 
+ nanowires26. The instability problem of AgNWs is still a major challenge that requires further studies to improve 
+their  stability27.
+Semi-embedding of AgNWs in polymer surfaces has been shown to reduce surface roughness, improve 
+adhesion to the substrate, and increase the stability of the  nanowires28. Various  polymers29 such as colorless 
+ polyimide28, hydrogen bonds-based  polyimide30, UV-curable  epoxy31 polymethyl methacrylate (PMMA)32, chi-
+tosan biopolymer  hybrid33, glass-fabric reinforced transparent composite (GFRHybrimer)  film34 have been used 
+for semi-embedding of AgNWs. Although all of these AgNWs-based TCE exhibits good conductivity, flexibility 
+and adhesion, but they were produced by lab-scale spin coating method. In this research, we utilized a scalable 
+spray deposition method for depositing AgNWs film.
+To address the stability issue of AgNWs, protective coatings have been used in previous studies. These coat-
+ings include metal oxides  (MoOx
+35  WOx
+36  NiO37 ZnO and  Al2O3
+38), metals (palladium (Pd)39, nickel (Ni)26 gold 
+(Au)40–42),  graphene43,44, and polymers. Though these coatings can improve chemical stability, they may have 
+negative effects on optoelectronic properties due to their low electrical conductivity like most metal oxides and 
+polymers. Additionally, some coatings like ZnO have limited stability in different  media45. Among different 
+protective coatings, gold has excellent chemical stability, high electrical conductivity, good lattice matching with 
+silver, and can be easily deposited on the surface of AgNWs. The gold protective layer is selectively deposited 
+only on the surface of the AgNWs film, not on the surface of the polymer matrix. Therefore, the optical proper-
+ties of the electrode do not change significantly. Chen et al. reported that gold nanoparticles were loaded onto 
+the surface of AgNWs by immersing the AgNWs film in an aqueous solution containing dispersed AuNPs for 
+1 min. A sudden increase in the electrical resistance of the nanowires (thermal stability criterion) was observed 
+for AgNW@AuNP films at around 300 °C and for AgNWs at 200 °C. This result indicates an improvement in 
+the thermal stability of the electrode. SEM images showed that gold nanoparticles were scattered on the surface 
+of the nanowires, but did not completely coat  them41. In a report published in Nature Nanotechnology (Choi 
+et al.), gold was deposited on the surface of AgNWs using sodium sulfite (galvanic-free deposition). Investigation 
+into treatments with 1.5M hydrogen peroxide  (H2O2) (as the oxidant) and ultraviolet/ozone (UV/O3) (ozone as 
+oxidant) showed that the stability of the nanowires increased with gold  deposition39. Despite the publication of 
+such reports, electrodeposition of gold on imbedded AgNWs-polymer film has not been reported.
+In this research, we utilized a scalable spray deposition method for depositing AgNWs  film46,47. We have 
+selected electrodeposition method as a controllable method for deposition of gold on AgNWs imbedded in 
+polystyrene film to improve chemical stability of final TCE electrode. The stability of the samples was examined 
+under severe oxidation in the UV/O 3 treatment and in the corrosive environment of nitric acid. In addition, 
+physical properties such as optical transparency, flexibility, and adhesion of AgNWs to the surface of the fabri-
+cated electrode were also examined.
+Experimental
+Materials
+All materials were used as received without further purification. silver nitrate  (AgNO3, 99.8%) and ethylene 
+glycol  (C2H6O2, 99.9%) was purchased from Merck. Iron (III) chloride hexahydrate  (FeCl3.6H2O, 98%), copper 
+(II) chloride  (CuCl2, 98%) and polyvinylpyrrolidone (PVP) were obtained from Sigma Aldrich.  HAuCl4 solution 
+(0.1mM) was prepared from IRASOL.
+Silver nanowires synthesis
+AgNWs have been synthesized using a so-called polyol  process48. Silver nitrate (0.11 mM) was dissolved in 24 
+mL of ethylene glycol (EG). The second solution contains two types of polyvinyl pyrrolidone (PVP) with molecu-
+lar `mass 40,000 (concentration 5 mg/mL) and 360,000 (concentration 10 mg/mL), dissolved in 24 mL of EG. 
+The solutions were then combined. Finally, a solution of  CuCl2 (0.0003 g) and  FeCl3.6H2O (0.0006 g) dissolved 
+in a 1 mL of EG were added. Less than 90 s later, the solution was poured into a reaction vessel at 150 °C and 
+remained at that temperature for 7 h. After cooling to room temperature, ethanol was added and the mixture 
+was centrifuged twice in two steps (4500 rpm, 4 min and 3800 rpm, 4 min) to separate the AgNWs. The final 
+dispersion of the AgNWs in ethanol (1 mg/mL) was stored at 4 °C for future use.
+Fabrication of TCE
+As shown in Fig.  1, AgNWs with a concentration of 0.5 mg/mL were sprayed on glass substrate (pre-cleaned 
+with DI water, ethanol, acetone and followed by UV-Ozone cleaner) with handheld commercial airbrush spray 
+gun. The preset pressure of airbrush was set at 3 bar. During spraying the substrate (5 × 10  cm2) was maintained 
+at a constant temperature of 150 °C. AgNWs Films with different sheet resistances and transparency could be 
+obtained by adjusting the amount of solution sprayed.
+For fabrication of PS-AgNWs films, a solution of PS in chloroform (0.2 mg/mL) was deposited on the glass-
+AgNWs film by Dr. Blade method and dried at room temperature for 20 min. Then the samples were placed in an 
+oven at 100 °C for 10 min. Finally, the prepared PS-AgNWs film was peeled off after cooling to room temperature.
+
+3
+Vol.:(0123456789)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+Gold electrodeposition
+A three electrode (Sharif Solar Co.) electrochemical cell with Pt as counter electrode, Ag/AgCl as reference 
+electrode and PS-AgNWs as the working electrode was used for deposition gold on the prepared AgNWs in 
+ HAuCl4 aqueous solution (0.4 mM) by potentiostat/galvanostatic instrument (Sharif Solar Co.) device (Fig. 1). A 
+double-potential-pulse electrodeposition method was, including  E1 = − 1 V (nucleation step) for 1 s and  E2 = − 0.1 
+V (growth step) for 20 s, 40 s, 60 s, and 80  s49,50. The solution was rotating for 1 s. Gold nanoparticle layers with 
+different thicknesses were made by changing the growth step time.
+Characterization
+The morphology and elemental composition of the prepared electrocatalysts were explored by field-emission 
+scanning electron microscopy (FESEM) and energy-dispersive X-ray emission spectroscopy (EDX) on Tescan 
+FE-SEM MIRA3 with an acceleration voltage of 15 kV . Atomic force microscopy (AFM) technique (AutoProbe 
+Cp-Research Veeco) in non-contact mode was also used to describe the surface roughness. The optical trans -
+parency of the samples was investigated by an Avantes spectrometer (AvaSpec-USL2048TEC) in a range of 
+UV–Visible wavelengths. To analyze the surface chemical composition of the prepared electrocatalysts, X-ray 
+photoelectron spectroscopy (XPS) measurements were performed using BesTec (Germany) which utilizes an 
+Al-Kα X-ray source with energy at 1486.6 eV . The samples were introduced into the ultrahigh vacuum (UHV) 
+chamber and then evacuated to a base pressure of ~  10−10 mbar. All obtained binding energy values were calibrated 
+by fixing the C (1s) core level peak at 284.8 eV with an energy resolution of ± 0.1 eV . Finally, the characteristic 
+peaks in the high-resolution XPS spectra were deconvoluted for quantitative surface chemical analysis. The sheet 
+resistance of the samples was measured by four-point probe instrument (Keithley 2500).
+Results and discussion
+Synthesis and morphology
+Morphology of the prepared AgNWs is studied by FESEM analysis. As shown in Fig. 2, AgNWs shows average 
+diameters ~ 65 nm and length about 13 µm, indicating a high aspect ratio of about 200.
+For obtaining a uniform network, AgNWs were deposited on the glass surface by spray method under 
+optimized conditions. The effect of the substrate temperature during spraying on the sheet resistance of the 
+coated nanowire network was investigated, which is shown in Fig. S1. As seen in this figure, higher substrate 
+temperature results in a lower sheet resistance of the AgNWs. However, the resistance reduction is relatively 
+small so we selected a moderate temperature of 150°C during spray of AgNWs suspension. A similar result has 
+been also reported for the transparent film of nanowires deposited by the spray  method46 that is due to partially 
+fused junction of silver nanowires deposited in this approach. The same electrical resistance (See Table S1) for 
+the AgNWs network on glass substrate and AgNWs embedded in polystyrene film indicates a complete transfer 
+of the nanowires from the glass surface to the polymer matrix, resulting in a uniform PS-AgNWs film with a 
+thickness of ~ 30 µm. As expected, the PS surface containing embedded AgNWs is conductive, while the opposite 
+Figure 1.  Schematic illustration of preparation of PS-AgNWs electrode and Au coating.
+
+4
+Vol:.(1234567890)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+surface is non-conductive. In addition, the most of the AgNWs are entrapped inside the polystyrene film as 
+confirmed by AFM images. Based on AFM data analysis the surface roughness of the films decreased from about 
+61.0 nm for the AgNW network on glass to about 3.0 nm for PS-AgNW (Fig. S5). So, they are not exposed to the 
+environment and the polystyrene film acts as a protective layer. A relatively small part of the AgNWs surface is 
+exposed to the environment and needs to be protected from chemical reactions. By applying a suitable potential, 
+this exposed part can be covered with a gold film.
+We first studied galvanic replacement method for coating gold on the AgNWs surface in 0.4 mM of aqueous 
+ HAuCl4 solution. Electrode resistance increase with longer reaction times, indicating a change in the structure 
+of the nanowires (Fig. S2). The change in the structure of the nanowires and eventual breaking of the nanowires 
+has been reported  previously51. Due to the poor results of galvanic replacement for gold deposition on AgNWs 
+surface, we switched to the electrodeposition method as a more controllable deposition method. Addition-
+ally, we selected the double-potential-pulse electrodeposition method to form a more uniform coating of gold 
+nanoparticles, according to previous  reports49,50. In order to choose the best potentials for gold deposition, the 
+voltammograms of PS-AgNWs and FTO electrodes were recorded in a 0.4 mM aqueous  HAuCl4 solution, as 
+shown in Fig. S3. Using the AgNWs electrode, the reduction peak of gold could not be determined because the 
+reduction peak of gold was within the limit of the oxidation peak of silver. Therefore, in this experiment, the 
+FTO electrode was used as the working electrode. The reduction peak of gold was seen at E = + 0.51 V , which 
+was in good agreement with previous  reports52. Based on the peak of silver oxidation, we had to choose the 
+applied potentials with a distance from the starting point of silver oxidation (E1 = − 1 V for 1 s and E2 = − 0.1 V 
+20 s, 40 s, 60 s, 80 s).
+The FE-SEM image of the PS-AgNW and different PS-AgNW@Au films can be seen in Fig. 3. Ag NWs show 
+a smooth surface with diameter 65 nm like AgNWs network on glass substrate. after applying of growth pulse 
+(− 1 V , 1 s) a uniform coating of small gold nanoparticles is formed on the AgNWs surface which is exposed to 
+the electrolyte solution, as shown in Fig.  3b. Figure 3c–f shows FE-SEM images for different times of growth 
+pulse (− 0.1 V), which result in a higher amount of Au deposition with larger size on the AgNW-PS surface. 
+With a longer growth time step, the size of the gold nanoparticles increases, leading to their connection and 
+the formation of a nearly complete coating of gold on the AgNWs. So that after 60 s electrodeposition time, the 
+diameter of the outer nanowires increases from 65 to 94 nm. It should be mentioned that Au only deposits on 
+the surface of AgNWs that are in contact with air, so the totally embedded AgNWs in the PS film do not have Au 
+coating. The sheet resistance of the AgNWs network (sprayed) in in Fig. 3 is measured approximately 15 Ω/□.
+The energy dispersive X-ray analysis (EDX analysis) of the PS-AgNW@Au(40) and PS-AgNW@Au(80) sam-
+ples is shown in Fig. S4. The presence of gold in the EDX results confirms that gold has been coated onto the 
+surface of the nanowires using the electrodeposition method. In the PS-AgNW@Au(40) sample, the atomic 
+percentage of silver and gold is 1% and 0.4%, respectively. In the PS-AgNW@Au(80) sample, compared to the 
+PS-AgNW@Au(40) sample the percentage of gold (1.1%) has increased, as confirmed by FESEM analysis.
+According to AFM image analysis (Fig. S5), the root mean square (RMS) surface roughness of the PS-AgNW@
+Au(60) is about 36.3 nm that is lower than the RMS surface roughness of the silver nanowires network formed 
+on the glass substrate ~ 61 nm.
+Figure 2.  (a), (b) FESEM image of AgNWs deposited by drop cast method on glass, (c), (d) Diameter and 
+length of AgNWs in FESEM images measured using ImageJ software.
+
+5
+Vol.:(0123456789)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+Transmittance and surface chemical composition
+The transmittance of PS-AgNW and different PS-AgNW@Au films are reported in Fig. 4a. The light transmission 
+of the PS-AgNW sample (with sheet resistance  = 24 Ω/□) is in the range of 400 to 800 nm was measured to be 
+about 83.9%. The AgNWs network has a higher transmittance, (~  88%) and the polymer substrate reduces the 
+transparency of the samples by about 4%. The deposition of gold on the external surface of AgNWs decreases the 
+transparency of 6.8%, 8.7%, and 10.6% for the PS-AgNW@Au(20), PS-AgNW@Au(40) and PS-AgNW@Au(60) 
+samples, respectively. As the growth pulse time increases, more gold is electrodeposited, resulting in decreased 
+transparency. This is a logical result that can be expected due to the increase in the diameter of the nanowires 
+observed in FE-SEM images.
+The XPS survey spectrum of PS-AgNW@Au(40) sample (Fig.  4b) shows the presence of C, O, Ag and Au 
+elements on the surface of the sample. The carbon element has the largest peak, and almost 90% of the surface 
+elements are carbon. Considering that most of the surface is composed of PS and there are always surface pollut-
+ants, this issue is justified. Figure 4c,d show the high-resolution XPS spectra of the Ag(3d) and Au(4f) core level 
+surface peaks, respectively. The Ag(3d) spectrum contains two peaks at 367.8 eV for the Ag(3d 5/2) and other at 
+373.8 eV for the Ag(3d3/2), which is in good agreement with the published values of Ag(3d)53,54.
+All spectra of the Ag(3d) and Au(4f) were deconvoluted with one peak, which indicates that all silver and 
+gold are in metallic state. For the Au(4f), there are two peaks measured at 84.0 and 87.7 eV for the Au(4f7/2) and 
+Au(4f5/2), respectively. These results are in good agreement with the recent published  reports53,54. After analysis 
+of the area surrounded by each peak, the atomic surface concentrations of Ag and Au were determined to be 
+about 4.4% and 1.3%, respectively.
+Considering that silver and gold are completely in metallic state, the presence of elemental oxygen on the 
+surface is also due to bonding with carbon atom. According to our XPS data analysis, it was found that the gold 
+element is deposited on the surface of the nanowires, and in the PS-AgNW@Au(40) sample. It should be noted 
+that gold covers parts of the surface of the nanowires, which is in agreement with the FESEM observation.
+Stability test
+To confirm the stability of the prepared transparent conductive electrode, ultraviolet/ozone (UV/O 3) treat-
+ment was performed. With the help of UV/O 3 treatment, the rate of oxidation of the samples increases and it 
+is expected that the samples will be destroyed after a short time. The degradation process of the samples was 
+investigated by measuring the sheet resistance of the samples over time. Different samples were fabricated at 
+different times of gold deposition (40, 60, 80, 100 s), and the average results are shown in the diagram of Fig. 5a. 
+The resistance of the PS-AgNW sample increased by 2.2 times after 50 min exposure to UV light. While the 
+Figure 3.  FE-SEM images of: (a) PS-AgNW , (b) PS-AgNW@Au(1 s,1 V) (nucleation pulse in the gold plating 
+process), (c) PS-AgNW@Au(20), (d) PS-AgNW@Au(40) and (e) PS-AgNW@Au(60) (f) PS-AgNW@Au(80).
+
+6
+Vol:.(1234567890)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+resistance change in gold-deposited samples was insignificant. After 100 min UV/O3 treatment, the increase in 
+resistance in the PS-AgNW sample (R/R0 = 42) was much higher (15.5 times) than the changes in the resistance 
+of the PS-AgNW@Au(60). We found that when the exposure time increases for longer times, the degradation 
+of unprotected AgNWs occurs faster compared to gold-coated samples.
+Then the samples were subjected to UV/O 3 treatment for 150 and 220 min (from the beginning of the UV/
+O3 treatment process). The network of nanowires collapses at a certain time, and the increase in sheet resistance 
+of electrode is remarkable. According to the stability diagram of the samples, the network collapse time for the 
+PS-AgNW sample is earlier than all other samples, and all the PS-AgNW@Au(n) samples showed more stabil -
+ity than the PS-AgNW sample. During 220 min, the resistance change in the PS-AgNW@Au(60) sample was 
+several times lower than that of the PS-AgNW sample. In the inner figure, the changes in the sheet resistance 
+Figure 4.  (a) Transmittance of PS-AgNW and PS-AgNW@Au(n) samples in visible region. (b) XPS survey 
+spectrum of the PS-AgNW@Au(40) sample, and high-resolution spectra of (c) Ag(3d) and (d) Au(4f).
+Figure 5.  Stability evaluation of different samples exposed to: (a) UV-Ozone lamps. (b) diluted nitric acid 
+solution. The change in relative sheet resistance (R/R0) as a function of exposure time for different samples. (a) 
+Inset: Semi-logarithmic diagram of the changes with UV-Ozone duration time.
+
+7
+Vol.:(0123456789)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+of the samples are drawn in a semi-logarithmic form so that variations in higher range of sheet resistances can 
+also be seen. Although the gold coating in all the samples lead to more stability against oxidation in the UV/O3 
+environment, longer growth times more than 60s for gold electrodeposition result in lower stability relative to 
+growth times of 40 and 60s.
+In addition to stability against UV/O3, stability in nitric acid solution (5% by volume) was also investigated. 
+The transparent electrodes are dipped into a very dilute nitric acid solution, and electrical resistances were 
+measured every 40 min, and the results are displayed in Fig.  5b. Nitric acid can corrode silver but has no effect 
+on  gold55. If the resistance of the sample does not change or changes slowly, it indicates that there is a suitable 
+coating of gold on the surface of the AgNWs. For the PS-AgNW sample, the electrical resistance after 11 h of 
+dipping the sample in nitric acid solution increased to more than 6 times, while the resistance of all electrodes 
+coated with gold changed to less than 2 times. These results confirm that the presence of gold coating improved 
+the chemical stability of conductive electrodes.
+Flexibility and adhesion test
+Mechanical flexibility is one of the key advantages of AgNWs network-based electrodes. Flexibility plays an 
+important role in applications such as wearable sensors, stretchable displays, and in general soft electronics. To 
+examine the flexibility, the fabricated electrodes of PS-AgNW , PS-AgNW@Au(60), and flexible ITO electrode 
+were tested under bending at a radius of 4 mm. Three electrodes for each mode (9 electrodes in total) were sub-
+jected to cycles of bending from 100 to 2000 loads. The results are presented in Fig.  6a using box and whisker 
+diagrams (drawn in semi-logarithmic form).  R0 represents the initial measured sheet resistance, and R represents 
+the measured sheet resistance after internal bending.
+For flexible ITO electrode, the sheet resistance increased almost 10 times after 100 cycles of bending. However, 
+for the PS-AgNW and PS-AgNW@Au(60) samples, the change in sheet resistance was very small, with an aver-
+age increase of only 2%. The drastic difference was observed for the ITO electrode compared to both PS-AgNW 
+(three samples) and PS-AgNW@Au(60) electrodes at a higher numbers of bending cycles. After 1500 cycles 
+of bending, the average sheet resistance for the flexible ITO increased by more than 60 times compared to the 
+initial resistance, while for the PS-AgNW and PS-AgNW@Au(60) samples, the average resistance increased by 
+25%. There was no significant difference between the PS-AgNW and PS-AgNW@Au(60) electrodes in terms of 
+flexibility. These results demonstrate that the electrodes prepared using this method exhibit excellent flexibility 
+compared to flexible ITO. The observed excellent flexibility can be attributed to the mechanical stability of the 
+nanowires in the polymer substrate, in addition to the inherent properties of the AgNWs. Additionally, the 
+chemical stability of the gold-coated Ag nanowires did not affect the mechanical flexibility of the electrode. In a 
+study by Wang et al.56 nickel coating (prepared by electroplating) was used to improve the stability of AgNWs. 
+In this report, the bare nanowire network electrode failed the mechanical flexibility test after 600 cycles. By 
+applying a nickel coating, the flexibility performance of the samples was much improved. It is worth noting that 
+an initial increase in sheet resistance (approximately 2 times) was observed after the first 10,000 cycles in their 
+study, which was not observed in the PS-AgNW and PS-AgNW@Au(60) samples.
+AgNWs have very poor adhesion to the substrate (such as polymer or glass). An additional process is required 
+to improve this  adhesion36. To assess the adhesion of AgNWs to the substrate, a scotch tape test was performed 
+on the fabricated  electrodes57,58. In this report, a strip of Scotch tape was placed on the surface of the electrode 
+and pressed with the help of a roller to completely stick to the surface. It is then peeled off. The sheet resistance 
+variations were measured to investigate the effect of the scotch tape test on the nanowires network. Obviously, 
+Figure 6.  Flexibility and adhesion to substate of electrodes (a) Relative resistance changes caused by tape 
+peeling cycles for ITO, PS-AgNW and PS-AgNW@Au(60) (b) Relative resistance changes caused by bending 
+cycles for flexible ITO, PS-AgNW and PS-AgNW@Au(60).
+
+8
+Vol:.(1234567890)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+for the nanowires deposited on the substrate with the first test, the resistance tends to infinity. For PS-AgNW and 
+PS-AgNW@Au(60) electrodes, tests were taken from six samples (three samples for each mode) and the box and 
+whisker diagrams of the results are reported in Fig. 6b. In the case of the PS-AgNW electrode, after performing 
+the test twice, the average sheet resistance of the electrode did not change significantly (less than 2%). Even after 
+performing the scotch tape test 20 times, the sheet resistance of the electrode increases by almost 1.5 times, which 
+is considered a small change in the type of test. This test was also performed for the PS-AgNW@Au(60) electrode. 
+Its results were not significantly different from the PS-AgNW electrode. No traces of AgNWs were observed in 
+the Scotch tape separated from the surface of these electrodes The results, shown in Fig. 6b, indicate that that the 
+AgNWs and gold nanoparticles on it are well-adhered and mechanically stabilized in the polystyrene substrate.
+Conclusions
+AgNWs with an average length of 13.0 µm and an average diameter of 65 nm were synthesized using the polyol 
+method. The transparent and flexible conductive electrode was created by embedding silver nanowires on the 
+surface of polystyrene and applying gold electrodeposition on the outer nanowires for better stabilization. XPS 
+results for the PS-AgNW@Au(40) sample confirmed the presence of a gold coating on the surface of the AgNWs. 
+The transparency of the PS-AgNW sample, with a sheet resistance of 24 Ω/□, was measured to be 83.9%. With 
+the addition of a gold coating in the PS-AgNW@Au(20-40-60) samples, the transparency decreased in a range 
+of 6.8 to 10.6%. The stability of the samples was tested in UV-Ozone and nitric acid environments, and it was 
+found that the samples coated by gold showed higher stability. After 100 min of UV-Ozone treatment, the sheet 
+resistance of the PS-AgNW sample increased by 42 times. In contrast, the optimal PS-AgNW@Au(60) sample 
+only experienced a 2.6-fold increase, indicating a significant improvement in stability. The issue of adhesion 
+between AgNWs and the substrate was successfully addressed in both the PS-AgNW and PS-AgNW@Au(n) 
+samples. Furthermore, the flexibility of these samples was found to be superior to that of commercial flexible 
+ITO electrodes.
+Data availability
+All data generated or analysed during this study are included in this published article (and its Supplementary 
+Information file). Further inquiries can be directed to the corresponding authors.
+Received: 16 August 2023; Accepted: 11 October 2023
+References
+ 1. Kou, P ., Y ang, L., Chang, C. & He, S. Improved flexible transparent conductive electrodes based on silver nanowire networks by a 
+simple sunlight illumination approach. Sci. Rep. 7, 42052 (2017).
+ 2. Essaidi, H. et al. Indium free electrode, highly flexible, transparent and conductive for optoelectronic devices. Vacuum 153, 225–231 
+(2018).
+ 3. Qiu, T. et al. Nanosphere lithography: A versatile approach to develop transparent conductive films for optoelectronic applications. 
+Adv. Mater. 34, 2103842 (2022).
+ 4. Wan, J. et al. Tunable broadband nanocarbon transparent conductor by electrochemical intercalation. ACS Nano 11, 788–796 
+(2017).
+ 5. Liu, D. et al.  Cd2SnO4 transparent conductive oxide: A promising alternative candidate for highly efficient hybrid halide perovskite 
+solar cells. RSC. Adv. 7, 8295–8302 (2017).
+ 6. Pinheiro, X. L. et al. Design of experiments optimization of fluorine-doped tin oxide films prepared by spray pyrolysis for photo-
+voltaic applications. Ceram. Int. 49, 13019–13030 (2023).
+ 7. Sarma, B. K. & Rajkumar, P . Al-doped ZnO transparent conducting oxide with appealing electro-optical properties–Realization 
+of indium free transparent conductors from sputtering targets with varying dopant concentrations. Mater. Today. Commun.  23, 
+100870 (2020).
+ 8. Lee, C. et al. Carbon nanotube electrode-based perovskite–silicon tandem solar cells. Sol. RRL 4(12), 2000353 (2020).
+ 9. Kamel, M. S., Stoppiello, C. T. & Jacob, M. V . Single-step, catalyst-free, and green synthesis of graphene transparent electrode for 
+organic photovoltaics. Carbon 202, 150–158 (2023).
+ 10. Aleksandrova, M., Kurtev, N., Videkov, V ., Tzanova, S. & Schintke, S. Material alternative to ITO for transparent conductive 
+electrode in flexible display and photovoltaic devices. Microelectron. Eng. 145, 112–116 (2015).
+ 11. Koga, H., Y okoyama, S., Motomiya, K., Y okoyama, K. & Takahashi, H. Adhesive Cu–Ag core-shell nanowires on polymer-coated 
+glass substrates for fabricating transparent conductive films with durability against spin coating. Colloids Surf. A Physicochem. 
+Eng. Asp. 660, 130804 (2023).
+ 12. Kumar, A., Kumar, M., Goyat, M. S. & Avasthi, D. K. A review of the latest developments in the production and applications of 
+Ag-nanowires as transparent electrodes. Mater. Today Commun. 33, 104433 (2022).
+ 13. Ha, H., Amicucci, C., Matteini, P . & Hwang, B. Mini review of synthesis strategies of silver nanowires and their applications. Colloid 
+Interface Sci. Commun. 50, 100663 (2022).
+ 14. Triambulo, R. E., Kim, J. H. & Park, J. W . Highly flexible organic light-emitting diodes on patterned Ag nanowire network trans-
+parent electrodes. Org. Electron. 71, 220–226 (2019).
+ 15. Jiang, W . et al. Flexible and transparent electrode of hybrid  Ti3C2TX MXene–silver nanowires for high-performance quantum dot 
+light-emitting diodes. ACS Nano 16, 9203–9213 (2022).
+ 16. Xie, C., Liu, Y ., Wei, W . & Zhou, Y . Large-area flexible organic solar cells with a robust silver nanowire-polymer composite as 
+transparent top electrode. Adv. Funct. Mater. 33, 2210675 (2023).
+ 17. Zhang, H. et al. Highly flexible organo-metal halide perovskite solar cells based on silver nanowire–polymer hybrid electrodes. 
+Nanoscale 15, 5429–5436 (2023).
+ 18. Wang, J., Jin, Y ., Wang, K., Wang, X. & Xiao, F . Facile transfer of a transparent silver nanowire pattern to a soft substrate using 
+graphene oxide as a double-sided adhesion-tuning layer. ACS. Appl. Mater. Interfaces 15, 5709–5719 (2023).
+ 19. Liu, M. et al. Investigation of stretchable strain sensor based on CNT/AgNW applied in mart wearable devices. Nanotechnology  
+33, 255501 (2022).
+ 20. Sharma, N., Nair, N. M., Nagasarvari, G., Ray, D. & Swaminathan, P . A review of silver nanowire-based composites for flexible 
+electronic applications. Flex. Print. Electron. 7, 014009 (2022).
+
+9
+Vol.:(0123456789)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+ 21. Han, J., Y ang, J., Gao, W . & Bai, H. Ice-templated, large-area silver nanowire pattern for flexible transparent electrode. Adv. Funct. 
+Mater. 31, 2010155 (2021).
+ 22. Yu, H. et al. Flexible, transparent and tough silver nanowire/nanocellulose electrodes for flexible touch screen panels. Carbohydr. 
+Polym. 273, 118539 (2021).
+ 23. Wang, P . et al. Highly sandwich-structured silver nanowire hybrid transparent conductive films for flexible transparent heater 
+applications. Compos. Part A Appl. Sci. Manuf. 159, 106998 (2022).
+ 24. Guan, P . et al. Performance degradation and mitigation strategies of silver nanowire networks: A review. Crit. Rev. Solid State Mater. 
+Sci. 47, 435–459 (2022).
+ 25. Liu, H. et al. One-step solution-processed low surface roughness silver nanowire composite transparent electrode for efficient 
+flexible indium tin oxide-free polymer solar cells. Thin Solid Films 718, 138486 (2022).
+ 26. Shi, Z. et al. Enhanced oxidization and corrosion resistance of silver nanowire based transparent conductor by nickel electroplating 
+to obtain power conversion efficiency > 18% in perovskite solar cells. Appl. Surf. Sci. 609, 155250 (2023).
+ 27. Muhmood, T., Ahmad, F ., Hu, X. & Y ang, X. Silver nanowires: A focused review about their synthesis, properties, and major factors 
+limiting their commercialization. Nano Future 6, 032006 (2022).
+ 28. Wang, Y . et al. Ultrathin flexible transparent composite electrode via semi-embedding silver nanowires in a colorless polyimide 
+for high-performance ultraflexible organic solar cells. ACS Appl. Mater. Interfaces 14, 5699–5708 (2022).
+ 29. Zamanpour, F . et al. Transparent and flexible touch on/off switch based on  BaTiO3/silicone polymer triboelectric nanogenerator. 
+Nano Energy 103, 107796 (2022).
+ 30. Wang, Y . et al. Mechanically and ultraviolet light stable ultrathin organic solar cell via semi-embedding silver nanowires in a 
+hydrogen bonds-based polyimide. Macromol. Rapid Commun. 43, 2200432 (2022).
+ 31. Booth, R. E. et al. Silver nanowire composite electrode enabling highly flexible. Robust Org. Photovolt. Sol. RRL 6, 2200264 (2022).
+ 32. Cheng, C., Xu, X., Lei, H. & Li, B. Plasmon-assisted trapping of nanoparticles using a silver-nanowire-embedded PMMA nanofiber. 
+Sci. Rep. 6, 20433 (2016).
+ 33. Park, S. B. et al. Multifunctional stretchable organic–inorganic hybrid electronics with transparent conductive silver nanowire/
+biopolymer hybrid films. Adv. Opt. Mater. 9, 2002041 (2021).
+ 34. Jin, J. et al. High-performance hybrid plastic films: A robust electrode platform for thin-film optoelectronics. Energy Environ. Sci. 
+6, 1811–1817 (2013).
+ 35. Song, L., Qu, S., Ma, L. & Yu, S. Highly reliable  MoOx/Ag NW bilayer transparent conductive thin films fabricated by all solution 
+process and transparent heater application. Opt. Mater. 138, 113676 (2023).
+ 36. Song, L., Qu, S., Ma, L. & Yu, S. All solution prepared  WOx/AgNW composite transparent conductive films with enhanced adhe-
+sion and stability. Mater. Lett. 336, 133918 (2023).
+ 37. Zhou, Y . et al. Self-assembled growing ultrathin Ag@ NiO core-shell nanowires for stable freestanding transparent conductive 
+colorless polyimide nanomembranes. J. Alloys Compd. 935, 168012 (2023).
+ 38. Aghazadehchors, S. et al. Versatility of bilayer metal oxide coatings on silver nanowire networks for enhanced stability with minimal 
+transparency loss. Nanoscale 11, 19969–19979 (2019).
+ 39. Wei, H., Hua, H., Zhu, Y . & Li, Y . Palladium-coated single silver nanowire electrodes: Size-dependent voltammetry, enhanced 
+chemical stability, and high performance for methanol oxidation. Chem. Eur. J. 26, 10406–10410 (2020).
+ 40. Choi, S. et al. Highly conductive, stretchable and biocompatible Ag–Au core–sheath nanowire composite for wearable and implant-
+able bioelectronics. Nat. Nanotechnol. 13, 1048–1056 (2018).
+ 41. Chen, H., Wang, L., Li, J., Yu, Y . & Bi, X. Gold nanoparticles decorated silver-nanowire films for transparent electrode with excel-
+lent thermal stability. Mater. Lett. 217, 52–55 (2018).
+ 42. Zhang, H. et al. An electrochemically stable Ag@ Au–Co core–shell nanowire network-based transparent conductor for flexible 
+self-powered Zn-based electrochromic smart devices. Mater. Adv. 4, 995–1004 (2023).
+ 43. Qian, P . F . et al. Embedded ultra-high stability flexible transparent conductive films based on exfoliated graphene-silver nanowires-
+colorless polyimide. Nanotechnology 34, 105203 (2022).
+ 44. Choo, D. C., Bae, S. K. & Kim, T. W . Flexible, transparent patterned electrodes based on graphene oxide/silver nanowire nano-
+composites fabricated utilizing an accelerated ultraviolet/ozone process to control silver nanowire degradation. Sci. Rep.  9, 5527 
+(2019).
+ 45. Zhang, R. & Engholm, M. Recent progress on the fabrication and properties of silver nanowire-based transparent electrodes. 
+Nanomaterials 8, 628 (2018).
+ 46. Lee, J., Lee, I., Kim, T. S. & Lee, J. Y . Efficient welding of silver nanowire networks without post-processing. Small  9, 2887–2894 
+(2013).
+ 47. Choi, D. Y ., Kang, H. W ., Sung, H. J. & Kim, S. S. Annealing-free, flexible silver nanowire–polymer composite electrodes via a 
+continuous two-step spray-coating method. Nanoscale 5, 977–983 (2013).
+ 48. Amiri Zarandi, A., Khosravi, A., Dehghani, M., Tajabadi, F . & Taghavinia, N. The role of mixed reaction promoters in polyol 
+synthesis of high aspect ratio Ag nanowires for transparent conducting electrodes. J. Electron. Mater. 49, 4822–4829 (2020).
+ 49. Lopes, J. H. et al. Graphene modified nanosized Ag electrocomposites. Mater. Res. Bull. 89, 42–50 (2017).
+ 50. Geboes, B. et al. Electrochemical behavior of electrodeposited nanoporous Pt catalysts for the oxygen reduction reaction. ACS 
+Catal. 6, 5856–5864 (2016).
+ 51. Sun, Y . & Wang, Y . Monitoring of galvanic replacement reaction between silver nanowires and  HAuCl4 by in situ transmission 
+X-ray microscopy. Nano Lett. 11, 4386–4392 (2011).
+ 52. Ramanaviciene, A., German, N., Kausaite-Minkstimiene, A. & Ramanavicius, A. Glucose biosensor based on dendritic gold 
+nanostructures electrodeposited on graphite electrode by different electrochemical methods. Chemosensors  9, 188 (2021).
+ 53. Fu, J., Deng, Z. & Detsi, E. Nanoporous gold formation by free corrosion dealloying of gold-silver alloys in nonoxidizing acids 
+driven by catalytic oxygen reduction reaction. JOM 71, 1581–1589 (2019).
+ 54. Manchala, S., Nagappagari, L. R., Venkatakrishnan, S. M. & Shanker, V . Solar-light harvesting bimetallic Ag/Au decorated graphene 
+plasmonic system with efficient photoelectrochemical performance for the enhanced water reduction process. ACS Appl. Nano 
+Mater. 2, 4782–4792 (2019).
+ 55. Counsell, J. D. et al. Gold, silver, and copper reference spectra for XPS instruments with monochromatic Ag L α sources. Surf. Sci. 
+Spectra 28, 024005 (2021).
+ 56. Wang, S., Tian, Y ., Hang, C. & Wang, C. Cohesively enhanced electrical conductivity and thermal stability of silver nanowire 
+networks by nickel ion bridge joining. Sci. Rep. 8, 5260 (2018).
+ 57. Huang, K. et al. Flexible silver nanowire dry electrodes for long-term electrocardiographic monitoring. Adv. Compos. Hybrid Mater. 
+5, 220–228 (2022).
+ 58. Kisannagar, R. R., Jha, P ., Navalkar, A., Maji, S. K. & Gupta, D. Fabrication of silver nanowire/polydimethylsiloxane dry electrodes 
+by a vacuum filtration method for electrophysiological signal monitoring. ACS Omega 5, 10260–10265 (2020).
+
+10
+Vol:.(1234567890)Scientific Reports |        (2023) 13:17511  | https://doi.org/10.1038/s41598-023-44674-7
+www.nature.com/scientificreports/
+Acknowledgements
+The authors would like to thank the Research and Technology Council of Sharif University of Technology for 
+their support of this project. M. Gholami appreciates N. Sarikhani, S. Mahmoodpour, and H. Taherianfard for 
+their valuable discussions.
+Author contributions
+M.G. designed and performed the experiments, collected the data, and wrote the manuscript. F .T. helped in 
+material preparation and data analysis. All authors conceived the project, analyzed the data, discussed the results, 
+reviewed and revised the manuscript. N.T. and A.M. lead the project.
+Competing interests 
+The authors declare no competing interests.
+Additional information
+Supplementary Information The online version contains supplementary material available at https:// doi. org/ 
+10. 1038/ s41598- 023- 44674-7.
+Correspondence and requests for materials should be addressed to N.T. or A.M.
+Reprints and permissions information is available at www.nature.com/reprints.
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and 
+institutional affiliations.
+Open Access  This article is licensed under a Creative Commons Attribution 4.0 International 
+License, which permits use, sharing, adaptation, distribution and reproduction in any medium or 
+format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the 
+Creative Commons licence, and indicate if changes were made. The images or other third party material in this 
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the 
+material. If material is not included in the article’s Creative Commons licence and your intended use is not 
+permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from 
+the copyright holder. To view a copy of this licence, visit http:// creat iveco mmons. org/ licen ses/ by/4. 0/.
+© The Author(s) 2023
